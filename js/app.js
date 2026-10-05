@@ -52,6 +52,13 @@ function dayLabel(s) {
   return fmtLong(s);
 }
 
+function dayLabelShort(s) {
+  const t = todayStr();
+  const d = new Intl.DateTimeFormat('de-DE', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(s + 'T12:00:00Z'));
+  const wd = new Intl.DateTimeFormat('de-DE', { weekday: 'short', timeZone: 'UTC' }).format(new Date(s + 'T12:00:00Z'));
+  return (s === t ? 'Heute' : s === dayShift(t, -1) ? 'Gestern' : wd) + ', ' + d;
+}
+
 function standText(iso) {
   const d = new Date(iso);
   const day = tzDay(d), t = todayStr();
@@ -239,6 +246,51 @@ function withMore(meta, item) {
   return [h('div', { class: 'row-meta' }, ...meta, btn), panel];
 }
 
+/* Tagesauswahl: Antippen der Datums-Karte oeffnet die Liste der letzten 4 Wochen */
+const fmtWeekdayDate = (s) => new Intl.DateTimeFormat('de-DE', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(s + 'T12:00:00Z'));
+
+function daySelect(date, text, pick) {
+  const wrap = h('div', { class: 'daysel' });
+  const pop = h('div', { class: 'daypop', role: 'listbox', 'aria-label': 'Tag wählen', hidden: true });
+  const btn = h('button', { class: 'daybtn', type: 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false' }, text, h('span', { class: 'caret', 'aria-hidden': 'true' }, '▾'));
+  const onDoc = (e) => { if (!wrap.contains(e.target)) close(); };
+  const onKey = (e) => { if (e.key === 'Escape') { close(); btn.focus(); } };
+  function close() {
+    pop.hidden = true; btn.setAttribute('aria-expanded', 'false');
+    document.removeEventListener('click', onDoc, true); document.removeEventListener('keydown', onKey);
+  }
+  function build() {
+    pop.replaceChildren();
+    if (!store.dayCounts) {
+      store.dayCounts = new Map();
+      store.index.items.forEach((i) => store.dayCounts.set(i.date, (store.dayCounts.get(i.date) || 0) + 1));
+    }
+    const newest = store.dates[0], t = todayStr();
+    let lastWeek = '';
+    store.dates.filter((d) => d >= dayShift(newest, -27)).forEach((d) => {
+      const w = isoWeek(d);
+      if (w.key !== lastWeek) { lastWeek = w.key; pop.append(h('div', { class: 'daypop-week' }, `KW ${w.week} · ${fmtShort(w.start)} bis ${fmtShort(w.end)}`)); }
+      const tag = d === t ? 'Heute' : d === dayShift(t, -1) ? 'Gestern' : '';
+      pop.append(h('button', { class: 'daypop-item', type: 'button', role: 'option', 'aria-selected': String(d === date), onclick: () => { close(); pick(d); } },
+        h('span', { class: 'dp-day' }, fmtWeekdayDate(d)), tag ? h('span', { class: 'dp-tag' }, tag) : null, h('span', { class: 'dp-n' }, store.dayCounts.get(d) || 0)));
+    });
+    pop.append(h('a', { class: 'daypop-more', href: '#/archiv?g=tag' }, 'Ältere Tage im Archiv ›'));
+  }
+  btn.addEventListener('click', () => {
+    if (!pop.hidden) return close();
+    build(); pop.hidden = false; btn.setAttribute('aria-expanded', 'true');
+    document.addEventListener('click', onDoc, true); document.addEventListener('keydown', onKey);
+    // am Rand des Inhaltsbereichs ausrichten, damit nichts abgeschnitten wird
+    pop.style.left = '0'; pop.style.right = 'auto';
+    const lim = document.getElementById('app').getBoundingClientRect(), r = pop.getBoundingClientRect();
+    if (r.right > lim.right - 4) { pop.style.left = 'auto'; pop.style.right = '0'; }
+    const sel = pop.querySelector('[aria-selected="true"]');
+    if (sel) pop.scrollTop = Math.max(0, sel.offsetTop - 60);
+  });
+  wrap.append(btn, pop);
+  return wrap;
+}
+
 function sourceOptions() {
   const counts = new Map();
   store.index.items.forEach((i) => counts.set(i.source, (counts.get(i.source) || 0) + 1));
@@ -325,7 +377,7 @@ async function viewDay(dateArg, q) {
 
   const nav = h('div', { class: 'daynav' },
     h('button', { class: 'btn', type: 'button', 'aria-label': 'Älterer Tag', disabled: pos >= store.dates.length - 1, onclick: () => go('/tag/' + store.dates[pos + 1], { region }) }, '‹'),
-    h('div', { class: 'label' }, dayLabel(date)),
+    daySelect(date, [h('span', { class: 'lbl-long' }, dayLabel(date)), h('span', { class: 'lbl-short' }, dayLabelShort(date))], (d) => go(d === store.dates[0] ? '/' : '/tag/' + d, { region })),
     h('button', { class: 'btn', type: 'button', 'aria-label': 'Neuerer Tag', disabled: pos <= 0, onclick: () => go(pos === 1 ? '/' : '/tag/' + store.dates[pos - 1], { region }) }, '›'));
 
   const top = ((day && day.overview) || []).map((o) => ({ o, item: store.byId.get(o.id) })).filter((x) => x.item && (!region || x.item.region === region));
@@ -805,7 +857,7 @@ async function viewBriefing(q) {
     h('p', { class: 'sub' }, `${dayLabel(date)} \u00B7 ca. ${minutes} Min`, h('br'), h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text)),
     h('div', { class: 'daynav' },
       h('button', { class: 'btn', type: 'button', 'aria-label': 'Älterer Tag', disabled: pos >= store.dates.length - 1, onclick: () => go('/briefing', { d: store.dates[pos + 1] }) }, '\u2039'),
-      h('div', { class: 'label' }, fmtShort(date) + date.slice(0, 4)),
+      daySelect(date, fmtShort(date) + date.slice(0, 4), (d) => go('/briefing', d === store.dates[0] ? {} : { d })),
       h('button', { class: 'btn', type: 'button', 'aria-label': 'Neuerer Tag', disabled: pos <= 0, onclick: () => go('/briefing', pos === 1 ? {} : { d: store.dates[pos - 1] }) }, '\u203A')),
 
     sec('Das Wichtigste',
