@@ -1,36 +1,58 @@
 #!/usr/bin/env python3
 """Erzeugt die App-Symbole (icons/*.png und icons/icon.svg) ohne Fremdbibliotheken.
 
-Motiv (AITI-Farben): DeepAi-Flaeche, VerdaNova-Briefing-Karte mit Schlagzeile und Textzeilen,
-darueber rechts das AITI-Zeichen (Bildzeichen aus zwei Parallelogrammen mit Punkt) in LimeByte und MintTech.
+Motiv: heller LimeByte-Grund, DeepAi-Briefing-Karte (Schlagzeile in LimeByte, Zeilen in SkyMind),
+blaue Funken an der Ecke und unten rechts klein das AITI-Zeichen (nur das "A", ohne Punkt) in DeepAi.
 Alle Koordinaten liegen in einem Raster von 0 bis 100 (y nach unten), jede Groesse wird daraus gerendert.
 """
+import math
 import struct
 import zlib
 from pathlib import Path
 
-DEEPAI = (38, 89, 94)       # #26595E
-LIMEBYTE = (245, 252, 156)  # #F5FC9C
-MINTTECH = (209, 250, 227)  # #D1FAE3
-SKYMIND = (201, 222, 227)   # #C9DEE3
-VERDANOVA = (242, 240, 232) # #F2F0E8
+DEEPAI = (38, 89, 94)        # #26595E
+LIMEBYTE = (245, 252, 156)   # #F5FC9C
+SKYMIND = (201, 222, 227)    # #C9DEE3
+BLUE = (47, 107, 255)        # #2F6BFF, zweiter Akzent der App
+WHITE = (255, 255, 255)
+SHADOW = (23, 57, 61)
 
-# AITI-Zeichen im Originalraster (Pixel des Logos): Umriss des "A" und Kreis
+BG = LIMEBYTE
+CARD = (24.5, 30.0, 43.0, 54.0, 5.0)                 # x, y, Breite, Hoehe, Eckenradius
+HEAD = (29.0, 36.3, 27.2, 4.4)                       # Schlagzeile: x, y, Breite, Dicke
+LINES = [(29.0, 46.3, 34.0, 2.4), (29.0, 52.8, 29.9, 2.4), (29.0, 59.3, 32.6, 2.4), (29.0, 65.8, 19.7, 2.4)]
+
+# AITI-Zeichen (nur das "A") im Originalraster des Logos, klein unten rechts
 MARK_POLY = [(37.2, 3), (71.8, 3), (106.8, 90.5), (71.2, 90.5), (54.8, 48.5), (53.3, 48.5), (36.4, 90.5), (1.2, 90.5), (18.6, 45.8), (53.5, 45.8)]
-MARK_DOT = (118.5, 19.7, 19.6)
-MARK_X, MARK_Y, MARK_S = 44.0, 11.0, 0.33   # Lage und Massstab im Icon
+MARK_X, MARK_Y, MARK_S = 71.84, 73.0, 0.13
 
-CARD = (16.0, 46.0, 44.0, 42.0, 4.5)        # x, y, Breite, Hoehe, Eckenradius
-HEAD = (21.0, 52.0, 26.0, 4.2)              # Schlagzeile: x, y, Breite, Dicke
-LINES = [(21.0, 61.0, 33.0, 2.3), (21.0, 67.0, 29.0, 2.3), (21.0, 73.0, 31.0, 2.3), (21.0, 79.0, 19.0, 2.3)]
-
-
-def to_icon(px, py):
-    return (MARK_X + MARK_S * px, MARK_Y + MARK_S * py)
+# Funken als quadratische Kurven (Start, Steuerpunkt, Ende), gleiche Geometrie wie im SVG
+BIG = [((70.5, 15), (72, 28), (85.5, 30)), ((85.5, 30), (72, 32), (70.5, 45)), ((70.5, 45), (69, 32), (55.5, 30)), ((55.5, 30), (69, 28), (70.5, 15))]
+CORE = [((70.5, 24), (71, 28.4), (75.4, 30)), ((75.4, 30), (71, 31.6), (70.5, 36)), ((70.5, 36), (70, 31.6), (65.6, 30)), ((65.6, 30), (70, 28.4), (70.5, 24))]
+SMALL = [((81.5, 43.5), (82, 47.3), (86, 49)), ((86, 49), (82, 50.7), (81.5, 54.5)), ((81.5, 54.5), (81, 50.7), (77, 49)), ((77, 49), (81, 47.3), (81.5, 43.5))]
 
 
-POLY = [to_icon(x, y) for x, y in MARK_POLY]
-DOT = (*to_icon(MARK_DOT[0], MARK_DOT[1]), MARK_DOT[2] * MARK_S)
+def flatten(segs, n=14):
+    pts = []
+    for (x0, y0), (cx, cy), (x1, y1) in segs:
+        for k in range(n):
+            t = k / n
+            pts.append(((1 - t) ** 2 * x0 + 2 * (1 - t) * t * cx + t * t * x1, (1 - t) ** 2 * y0 + 2 * (1 - t) * t * cy + t * t * y1))
+    return pts
+
+
+MARK = [(MARK_X + MARK_S * x, MARK_Y + MARK_S * y) for x, y in MARK_POLY]
+STAR_BIG, STAR_CORE, STAR_SMALL = flatten(BIG), flatten(CORE), flatten(SMALL)
+
+
+def smooth(a, b, x):
+    t = max(0.0, min(1.0, (x - a) / (b - a)))
+    return t * t * (3 - 2 * t)
+
+
+def sd_round_box(px, py, x, y, w, h, r):
+    qx, qy = abs(px - (x + w / 2)) - (w / 2 - r), abs(py - (y + h / 2)) - (h / 2 - r)
+    return math.hypot(max(qx, 0.0), max(qy, 0.0)) + min(max(qx, qy), 0.0) - r
 
 
 def in_poly(x, y, poly):
@@ -45,38 +67,43 @@ def in_poly(x, y, poly):
     return inside
 
 
-def in_round_rect(x, y, rx, ry, w, h, r):
-    qx = abs(x - (rx + w / 2)) - (w / 2 - r)
-    qy = abs(y - (ry + h / 2)) - (h / 2 - r)
-    if qx <= 0 or qy <= 0:
-        return qx <= r and qy <= r and (qx <= 0 or qy <= 0) or (qx <= 0 and qy <= r) or (qy <= 0 and qx <= r)
-    return qx * qx + qy * qy <= r * r
-
-
 def in_capsule(x, y, bx, by, w, th):
     half = th / 2
-    x0, x1 = bx + half, bx + w - half
-    cx = max(x0, min(x1, x))
+    cx = max(bx + half, min(bx + w - half, x))
     return (x - cx) ** 2 + (y - by - half) ** 2 <= half * half
+
+
+def mix(a, b, t):
+    return tuple(a[i] * (1 - t) + b[i] * t for i in range(3))
 
 
 def shade(u, v):
     x, y = u * 100.0, v * 100.0
-    col = DEEPAI
-    if in_round_rect(x, y, *CARD):
-        col = VERDANOVA
+    col = BG
+    # weicher Schatten der Karte
+    cx_, cy_, cw, ch, cr = CARD
+    ds = sd_round_box(x, y, cx_ + 0.8, cy_ + 2.2, cw, ch, cr)
+    col = mix(col, SHADOW, 0.28 * (1.0 - smooth(-1.0, 4.0, ds)))
+    # Karte, Schlagzeile, Zeilen
+    if sd_round_box(x, y, *CARD) <= 0:
+        col = DEEPAI
         if in_capsule(x, y, *HEAD):
-            col = DEEPAI
+            col = LIMEBYTE
         else:
             for ln in LINES:
                 if in_capsule(x, y, *ln):
                     col = SKYMIND
                     break
-    if in_poly(x, y, POLY):
-        col = LIMEBYTE
-    cx, cy, r = DOT
-    if (x - cx) ** 2 + (y - cy) ** 2 <= r * r:
-        col = MINTTECH
+    # Funken
+    if in_poly(x, y, STAR_BIG):
+        col = BLUE
+        if in_poly(x, y, STAR_CORE):
+            col = WHITE
+    if in_poly(x, y, STAR_SMALL):
+        col = BLUE
+    # AITI-Zeichen
+    if in_poly(x, y, MARK):
+        col = DEEPAI
     return col
 
 
@@ -111,20 +138,31 @@ def write_png(path, size, ss):
     Path(path).write_bytes(png)
 
 
+def path_d(segs):
+    (x, y), *_ = segs[0]
+    d = f"M{x} {y}"
+    for _, (cx, cy), (ex, ey) in segs:
+        d += f" Q{cx} {cy} {ex} {ey}"
+    return d + "Z"
+
+
 def svg():
     pts = " ".join(f"{MARK_X + MARK_S * x:.2f},{MARK_Y + MARK_S * y:.2f}" for x, y in MARK_POLY)
-    cx, cy, r = DOT
-    cx, cy, r = round(cx, 2), round(cy, 2), round(r, 2)
     cx_, cy_, w, h, rr = CARD
     lines = "\n".join(f'  <rect x="{x}" y="{y}" width="{w_}" height="{t}" rx="{t / 2}" fill="#C9DEE3"/>' for x, y, w_, t in LINES)
     hx, hy, hw, ht = HEAD
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" fill="#26595E"/>
-  <rect x="{cx_}" y="{cy_}" width="{w}" height="{h}" rx="{rr}" fill="#F2F0E8"/>
-  <rect x="{hx}" y="{hy}" width="{hw}" height="{ht}" rx="{ht / 2}" fill="#26595E"/>
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="150%" height="150%"><feDropShadow dx="0.8" dy="2.2" stdDeviation="1.8" flood-color="#17393D" flood-opacity="0.28"/></filter>
+  </defs>
+  <rect width="100" height="100" fill="#F5FC9C"/>
+  <rect x="{cx_}" y="{cy_}" width="{w}" height="{h}" rx="{rr}" fill="#26595E" filter="url(#sh)"/>
+  <rect x="{hx}" y="{hy}" width="{hw}" height="{ht}" rx="{ht / 2}" fill="#F5FC9C"/>
 {lines}
-  <polygon points="{pts}" fill="#F5FC9C"/>
-  <circle cx="{cx}" cy="{cy}" r="{r}" fill="#D1FAE3"/>
+  <path d="{path_d(BIG)}" fill="#2F6BFF"/>
+  <path d="{path_d(CORE)}" fill="#FFFFFF"/>
+  <path d="{path_d(SMALL)}" fill="#2F6BFF"/>
+  <polygon points="{pts}" fill="#26595E"/>
 </svg>
 """
 
