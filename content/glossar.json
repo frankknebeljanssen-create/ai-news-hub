@@ -1,7 +1,7 @@
 [
  {
   "term": "'Maßgeblich' (Maßgeblichkeitsdoktrin)",
-  "def": "Schlüsselbegriff der EuGH-Rechtsprechung zu Art. 22 DSGVO (SCHUFA C-634/21, Dun & Bradstreet C-203/22). Wenn eine automatisierte Berechnung 'maßgeblich' für die menschliche Entscheidung ist, also typischerweise unverändert übernommen wird , , ist sie selbst die automatisierte Entscheidung."
+  "def": "Schlüsselbegriff der EuGH-Rechtsprechung zu Art. 22 DSGVO (SCHUFA C-634/21, Dun & Bradstreet C-203/22). Wenn eine automatisierte Berechnung 'maßgeblich' für die menschliche Entscheidung ist, also typischerweise unverändert übernommen wird, ist sie selbst die automatisierte Entscheidung."
  },
  {
   "term": "§ 203 StGB",
@@ -852,6 +852,10 @@
   "def": "Teilgebiet der KI, in dem Systeme Muster aus Daten lernen, statt nach festen Regeln programmiert zu werden."
  },
  {
+  "term": "Mata v. Avianca",
+  "def": "Ikonischer US-Halluzinationsfall (S.D.N.Y. 2023). Anwalt Steven Schwartz reichte Schriftsatz mit von ChatGPT halluzinierten Aktenzeichen ein. Sanktion: 5.000 USD. Beginn der weltweiten Diskussion um KI-Halluzinationen in der Anwaltspraxis."
+ },
+ {
   "term": "Maßgeblichkeitsdoktrin",
   "def": "EuGH-Doktrin aus SCHUFA C-634/21: Wenn eine KI-Empfehlung typischerweise unverändert übernommen wird, ist sie selbst die Entscheidung im Sinne von Art. 22 DSGVO.",
   "more": "Der EuGH hat im SCHUFA-Urteil vom 7.12.2023 den funktionalen Ansatz für Art. 22 DSGVO etabliert: Es kommt nicht auf die formale Rollenverteilung an (Score-Lieferant vs. Entscheider), sondern auf die tatsächliche Wirkung. Wenn die KI-Empfehlung maßgeblich für die Entscheidung ist, fällt sie unter das Verbot rein automatisierter Entscheidungen. Die statistische Beweisführung der Maßgeblichkeit (Übernahme-Quote, Abweichungs-Quote) wird in der deutschen Aufsichtspraxis 2026 zunehmend genutzt.",
@@ -860,10 +864,6 @@
    "Art. 22 DSGVO",
    "Pseudo-HITL"
   ]
- },
- {
-  "term": "Mata v. Avianca",
-  "def": "Ikonischer US-Halluzinationsfall (S.D.N.Y. 2023). Anwalt Steven Schwartz reichte Schriftsatz mit von ChatGPT halluzinierten Aktenzeichen ein. Sanktion: 5.000 USD. Beginn der weltweiten Diskussion um KI-Halluzinationen in der Anwaltspraxis."
  },
  {
   "term": "MCP",
@@ -1221,6 +1221,20 @@
  {
   "term": "STEM",
   "def": "Science, Technology, Engineering and Mathematics, Sammelbezeichnung für naturwissenschaftlich-technische Disziplinen. Im AI-Kontext: Grok wird als \"STEM Frontrunner\" bezeichnet, weil es in wissenschaftlichen Benchmark-Tests (Mathematik, Physik, Coding, Logik) besonders stark abschneidet, und dort gezielt gegen GPT-4o und Claude konkurriert."
+ },
+ {
+  "term": "Strategic Drift",
+  "aliases": [
+   "Strategische Drift",
+   "Strategie-Drift"
+  ],
+  "def": "Die schleichende Lücke zwischen der formulierten Strategie und dem, was eine Organisation tatsächlich tut. Sie entsteht in kleinen Schritten und fällt oft erst spät auf.",
+  "more": "Gemessen wird sie zum Beispiel als Abweichung zwischen Soll-Anteil und Ist-Anteil der Aufmerksamkeit pro strategischer Säule, etwa anhand interner Kommunikation. Im strategischen Management beschreibt der Begriff außerdem, dass sich eine Strategie langsamer verändert als ihr Umfeld. Er wurde unter anderem von Gerry Johnson geprägt.",
+  "related": [
+   "Drift",
+   "Data Drift",
+   "Concept Drift"
+  ]
  },
  {
   "term": "Success Metric",

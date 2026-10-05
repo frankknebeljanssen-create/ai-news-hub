@@ -454,7 +454,7 @@ async function viewDay(dateArg, q) {
       chipRow(regionOptions(dayAll), region, (v) => { store.regionSel = v; go(dateArg ? '/tag/' + date : '/', { region: v }, true); route(); }, 'Bereich'),
       h('div', { class: 'brief-pair' },
         h('a', { class: 'brief-btn', href: '#/briefing' + (pos === 0 ? '' : '?d=' + date) },
-          h('span', null, h('strong', null, 'Der Tag'), h('small', null, 'Kurz-Briefing, 3 Min'))),
+          h('span', null, h('strong', null, 'Der Tag in Kürze'), h('small', null, 'Short Briefing'))),
         h('a', { class: 'brief-btn week', href: '#/woche' + (pos === 0 ? '' : '?w=' + wk.key) },
           h('span', null, h('strong', null, 'Die Woche in Kürze'), h('small', null, wk.end < todayStr() ? `KW ${wk.week} komplett` : `KW ${wk.week} läuft`))))),
     st.showTop && top.length ? h('section', { class: 'top-stories', 'aria-labelledby': 'ts' },
@@ -677,7 +677,7 @@ async function viewGlossary(q) {
   const status = h('p', { class: 'sub' });
   const alpha = h('nav', { class: 'alpha', 'aria-label': 'Anfangsbuchstabe' });
   const list = h('div', { class: 'gl-list' });
-  const input = h('input', { type: 'search', value: q.s || '', placeholder: 'Begriff suchen, z. B. RAG, AI Act, Halluzination', 'aria-label': 'Glossar durchsuchen', autocomplete: 'off', enterkeyhint: 'search' });
+  const input = h('input', { type: 'search', value: q.s || '', placeholder: `Im Glossar suchen (${gl.length} Begriffe)`, 'aria-label': 'Glossar durchsuchen', autocomplete: 'off', enterkeyhint: 'search' });
 
   const entry = (x, text) => {
     const n = newsCount(x.term);
@@ -710,7 +710,8 @@ async function viewGlossary(q) {
         onclick: () => document.getElementById('gl-letter-' + (l === '#' ? 'x' : l))?.scrollIntoView({ behavior: 'smooth', block: 'start' }),
       }, l)));
     }
-    groups.forEach((items, l) => {
+    [...groups.keys()].sort((a, b) => (a === '#') - (b === '#') || a.localeCompare(b)).forEach((l) => {
+      const items = groups.get(l);
       const sec = h('section', { class: 'gl-group' }, l ? h('h2', { class: 'gl-letter', id: 'gl-letter-' + (l === '#' ? 'x' : l) }, l) : null);
       items.forEach((x) => sec.append(entry(x, t)));
       list.append(sec);
@@ -724,8 +725,11 @@ async function viewGlossary(q) {
     backHref ? h('a', { class: 'back-link', href: backHref, onclick: () => { store.restore = true; } }, `\u2039 Zurück zu ${backLabel(backHref)}`) : null,
     h('h1', null, 'Glossar'),
     status,
-    h('form', { class: 'searchbar', role: 'search', onsubmit: (e) => { e.preventDefault(); input.blur(); paint(input.value); } }, input),
-    alpha, list);
+    h('div', { class: 'gl-sticky' },
+      h('form', { class: 'searchbar', role: 'search', onsubmit: (e) => { e.preventDefault(); input.blur(); paint(input.value); } }, input,
+        h('button', { class: 'btn primary', type: 'submit', 'aria-label': 'Suchen' }, '\u{1F50D}\uFE0E')),
+      alpha),
+    list);
   paint(q.s || '');
   const target = q.t && byName.get(String(q.t).toLowerCase());
   if (target) {

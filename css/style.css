@@ -651,3 +651,8 @@ main.mode-week { --accent: var(--week); --accent-soft: color-mix(in srgb, var(--
 
 /* Fortschrittsbalken und Marker */
 .brief-btn.week { --accent: var(--week); }
+
+/* ---- Glossar: Suche und A bis Z bleiben beim Scrollen oben ---- */
+.gl-sticky { position: sticky; top: calc(54px + env(safe-area-inset-top)); z-index: 6; margin: 8px -16px 12px; padding: 8px 16px 0; background: color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
+.gl-sticky .alpha { position: static; margin: 0; padding: 6px 0; background: none; border: 0; backdrop-filter: none; -webkit-backdrop-filter: none; }
+.gl-letter, .gl-item { scroll-margin-top: 150px; }
