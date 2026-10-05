@@ -687,10 +687,10 @@ async function viewSettings() {
         h('button', { class: 'btn danger', type: 'button', disabled: !favN, onclick: () => { if (confirm('Die gesamte Merkliste löschen? Das lässt sich nicht rückgängig machen.')) { favMem = {}; favSave(); redo(); } } }, 'Merkliste löschen'))),
 
     card_('Quellen',
-      h('p', { class: 'set-text' }, `${sources.length} Quellen mit Meldungen im Archiv:`),
-      h('ul', { class: 'src-list' }, sources.map(([name, e]) => h('li', null,
-        h('a', { href: '#/archiv?quelle=' + encodeURIComponent(name) }, name),
-        h('span', null, `${e.n} · zuletzt ${fmtShort(e.last)}`))))),
+      acc(`${sources.length} Quellen mit Meldungen im Archiv`, false,
+        h('ul', { class: 'src-list' }, sources.map(([name, e]) => h('li', null,
+          h('a', { href: '#/archiv?quelle=' + encodeURIComponent(name) }, name),
+          h('span', null, `${e.n} · zuletzt ${fmtShort(e.last)}`)))))),
 
     card_('Impressum, Version & Rechtliches',
       acc('Version', true,
