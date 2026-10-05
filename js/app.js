@@ -329,12 +329,15 @@ async function viewDay(dateArg, q) {
   const sections = THEMEN.map(([name]) => [name, items.filter((i) => i.thema === name).sort((a, b) => b.relevanz - a.relevanz)]).filter(([n, l]) => l.length && !st.hidden.includes(n));
 
   render(
-    h('h1', null, 'KI-News'),
-    h('p', { class: 'sub' }, h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text), ` · ${items.length} Meldungen an diesem Tag`),
-    h('a', { class: 'brief-btn', href: '#/briefing' + (pos === 0 ? '' : '?d=' + date) },
-      h('span', null, h('strong', null, 'Briefing in 3 Min'), h('small', null, 'Das Wichtigste in Kürze, ideal für unterwegs')), h('span', { class: 'brief-go', 'aria-hidden': 'true' }, '\u203A')),
-    nav,
-    chipRow(regionOptions(dayAll), region, (v) => { store.regionSel = v; go(dateArg ? '/tag/' + date : '/', { region: v }, true); route(); }, 'Bereich'),
+    h('div', { class: 'day-head' },
+      h('div', { class: 'day-title' },
+        h('h1', null, 'KI-News'),
+        h('p', { class: 'sub' }, h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text), ` \u00B7 ${items.length} Meldungen an diesem Tag`)),
+      nav),
+    h('div', { class: 'day-tools' },
+      chipRow(regionOptions(dayAll), region, (v) => { store.regionSel = v; go(dateArg ? '/tag/' + date : '/', { region: v }, true); route(); }, 'Bereich'),
+      h('a', { class: 'brief-btn', href: '#/briefing' + (pos === 0 ? '' : '?d=' + date) },
+        h('span', null, h('strong', null, 'Briefing in 3 Min'), h('small', null, 'Das Wichtigste in Kürze, ideal für unterwegs')), h('span', { class: 'brief-go', 'aria-hidden': 'true' }, '\u203A'))),
     st.showTop && top.length ? h('section', { class: 'top-stories', 'aria-labelledby': 'ts' },
       h('h2', { id: 'ts' }, 'Top-Stories'),
       h('ol', null, top.map(({ o, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` }, h('div', null,

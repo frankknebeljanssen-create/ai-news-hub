@@ -404,3 +404,17 @@ details.filterbox > .filter-grid { margin: 0; }
 .brief-end .actions { justify-content: center; }
 .offline { position: sticky; top: calc(54px + env(safe-area-inset-top)); z-index: 15; text-align: center; font-size: .82rem; font-weight: 600; padding: 6px 12px; background: color-mix(in srgb, #d9822b 22%, var(--bg)); color: var(--text); border-bottom: 1px solid color-mix(in srgb, #d9822b 50%, var(--border)); }
 .offline[hidden] { display: none; }
+
+/* ---- Kopfbereich der Tagesansicht ---- */
+.day-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 10px 20px; margin: 0 0 14px; }
+.day-title { min-width: 0; }
+.day-title h1 { margin: 4px 0 4px; }
+.day-title .sub { margin: 0; }
+.day-head .daynav { margin: 0; }
+.day-tools { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 16px; margin: 0 0 16px; }
+.day-tools .brief-btn { margin: 0; flex: 0 1 360px; }
+.day-tools .seg-wrap { flex: none; }
+@media (max-width: 719px) {
+  .day-tools { flex-direction: column; align-items: stretch; }
+  .day-tools .brief-btn { order: -1; flex: none; }
+}
