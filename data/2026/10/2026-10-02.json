@@ -1,38 +1,38 @@
 {
  "date": "2026-10-02",
- "generated_at": "2026-10-05T14:40:25+02:00",
+ "generated_at": "2026-10-05T14:49:25+02:00",
  "overview": [
   {
-   "id": "575ad95effd7",
-   "text": "US-Behörden haben einen Tech-Chef festgenommen, der Nvidia-Beschleuniger im Wert von rund 300 Millionen Dollar illegal nach China exportiert haben soll."
+   "id": "8e206c4d9ed6",
+   "text": "OpenAI erklärt in einem Leitfaden, welches Modell der GPT-6-Familie zu welchem Anwendungsfall passt und wie Teams den Schlussfolgerungsaufwand steuern."
   },
   {
-   "id": "8e206c4d9ed6",
-   "text": "OpenAI liefert einen Leitfaden, der Startups und Entwicklerteams zeigt, welches GPT-6-Modell wofür passt und wie sich der Denkaufwand steuern lässt."
+   "id": "575ad95effd7",
+   "text": "US-Behörden nehmen einen Firmenchef fest, der Nvidia-Beschleuniger für rund 300 Millionen Dollar illegal nach China exportiert haben soll."
+  },
+  {
+   "id": "e0956ad22860",
+   "text": "Apple begrenzt den vollständigen Festplattenzugriff auf dem Mac, weil autonome KI-Programme die Risiken für Nutzerdaten deutlich erhöhen."
   },
   {
    "id": "872d76f39ea2",
-   "text": "Anthropic hat die Cyberfähigkeiten des offenen Modells GLM-5.3 geprüft und sieht keinen dramatischen Sprung bei der Entwicklung von Angriffstechniken."
+   "text": "Anthropic bewertet die Cyberfähigkeiten des offenen Modells GLM-5.3 als unkritisch, da es keinen Sprung bei Angriffstechniken bringt."
   },
   {
    "id": "ac719b52e635",
-   "text": "Laut einer Analyse übernimmt KI in Unternehmen immer mehr laufende Aufgaben, für 2026 werden weltweit rund 2,5 Billionen Dollar an Investitionen erwartet."
+   "text": "Laut einer Analyse übernimmt KI im Unternehmensbetrieb reale Aufgaben, die weltweiten Investitionen sollen 2026 auf rund 2,5 Billionen Dollar steigen."
   },
   {
    "id": "0ddb54cdbd61",
-   "text": "Amazon begegnet der Kritik am Rechenzentrumsausbau mit einem Milliardenprogramm, Umweltinitiativen werfen dem Konzern dennoch Schönfärberei vor."
+   "text": "Amazon will mit einer Milliarde den Protest gegen neue Rechenzentren dämpfen, Initiativen kritisieren weiterhin Emissionen und Ressourcenverbrauch."
   },
   {
-   "id": "10932e825b10",
-   "text": "Ahmad Al-Dahle, früher Chef der Llama-Modelle bei Meta, soll bei Airbnb die Produktentwicklung und die internen Arbeitsweisen mit KI umbauen."
+   "id": "db634ba58629",
+   "text": "Meta gibt den Code seines KI-Agenten Muse frei, sodass Bastler eigene Geräte wie E-Ink-Displays oder HDMI-Sticks damit betreiben können."
   },
   {
-   "id": "d599f0a282be",
-   "text": "Das Modell AstaBrief, das aus Quellen strukturierte Kurzberichte erzeugt, steht nun quelloffen bereit und wird zur Alternative für geschlossene Dienste."
-  },
-  {
-   "id": "fc1c6e27930e",
-   "text": "Weil die KI-Nachfrage die Speicherpreise nach oben treibt, kostet Nvidias Shield TV Pro nun knapp 300 Dollar und damit 100 Dollar mehr."
+   "id": "68d4dc8c386e",
+   "text": "Ein Bericht zeigt, wie US-Techkonzerne den Begriff künstliche Intelligenz aufgaben, nachdem Trump ihn aus dem politischen Vokabular gestrichen hatte."
   }
  ],
  "items": [
@@ -120,6 +120,47 @@
    "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
   },
   {
+   "id": "e0956ad22860",
+   "date": "2026-10-02",
+   "published": "2026-10-02T22:08+02:00",
+   "headline": "Apple schränkt Vollzugriff auf Mac-Festplatten wegen KI-Agenten ein",
+   "summary": "Apple baut neue Kontrollen für die Berechtigung zum vollständigen Festplattenzugriff auf dem Mac ein, weil autonom agierende KI-Programme das Risiko deutlich erhöhen. Künftig soll diese weitreichende Freigabe nur noch bewusst und gezielt erteilt werden können. Für Entwickler von Agenten-Software bedeutet das zusätzliche Hürden beim Zugriff auf Nutzerdaten.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "apple",
+    "macos",
+    "ki-agenten",
+    "datenschutz",
+    "berechtigungen"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "quelle_titel": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+   "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+  },
+  {
+   "id": "68d4dc8c386e",
+   "date": "2026-10-02",
+   "published": "2026-10-02T17:00+02:00",
+   "headline": "Begriffswechsel bei KI: Wie Trump die Tech-Branche auf Linie brachte",
+   "summary": "Der Bericht beschreibt, wie führende Tech-Milliardäre jahrelang begeistert über künstliche Intelligenz sprachen, den Begriff aber widerspruchslos aufgaben, als Trump ihn aus dem Vokabular strich. Der Vorgang wird als Loyalitätsprobe gegenüber der Politik gedeutet, die die Branche bestanden hat. Das zeigt, wie stark politische Signale inzwischen die Kommunikation der KI-Industrie prägen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "usa",
+    "trump",
+    "tech-industrie",
+    "ki-politik"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "quelle_titel": "Trump’s Crazy AI Rebrand Was a Loyalty Test for Tech Execs, and It Worked",
+   "url": "https://www.wired.com/story/trumps-crazy-ai-rebrand-was-a-loyalty-test-for-tech-execs-and-it-worked/"
+  },
+  {
    "id": "d599f0a282be",
    "date": "2026-10-02",
    "published": "2026-10-02T17:19+02:00",
@@ -198,6 +239,26 @@
    "source_id": "ars-ai",
    "quelle_titel": "Amazon’s $1B plan to combat data center backlash draws more backlash",
    "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/"
+  },
+  {
+   "id": "db634ba58629",
+   "date": "2026-10-02",
+   "published": "2026-10-02T23:08+02:00",
+   "headline": "Meta stellt Code für eigene Muse-Geräte als Open Source bereit",
+   "summary": "Meta veröffentlicht den Code hinter seinem KI-Agenten Muse, sodass Interessierte eigene Hardware damit bauen können. Als Beispiele nennt das Unternehmen ein farbiges E-Ink-Display für Erinnerungen oder einen HDMI-Stick, der den Assistenten auf einen großen Bildschirm bringt. Damit öffnet Meta den Assistenten für die Bastler- und Entwicklerszene, statt ihn auf eigene Geräte zu beschränken.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "open source",
+    "ki-agenten",
+    "hardware"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "quelle_titel": "Meta open sources code to let you make Muse AI gadgets",
+   "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
   },
   {
    "id": "615cef7e0bdf",

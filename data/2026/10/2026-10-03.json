@@ -1,26 +1,38 @@
 {
  "date": "2026-10-03",
- "generated_at": "2026-10-05T14:40:45+02:00",
+ "generated_at": "2026-10-05T14:49:57+02:00",
  "overview": [
   {
    "id": "20533a700a12",
-   "text": "Eine Studie fand 147 europäische Abgeordnete auf Deepfake-Pornoseiten, 119 EU-Parlamentarier fordern jetzt strengere Regeln und schnellere Löschungen."
+   "text": "Eine Studie hat 147 Abgeordnete aus europäischen Parlamenten auf Deepfake-Pornoseiten entdeckt, 119 EU-Parlamentarier verlangen nun schärfere Löschregeln."
+  },
+  {
+   "id": "e78fe6c453ae",
+   "text": "Ein früherer Sicherheitsmitarbeiter wirft OpenAI gravierende Versäumnisse vor und fordert für KI-Firmen Auflagen wie in der Kernkrafttechnik."
   },
   {
    "id": "ef48f9156b3f",
-   "text": "Apple beschränkt den vollen Festplattenzugriff auf dem Mac, damit KI-Assistenten wie der von Meta nicht mehr pauschal an Chatinhalte gelangen."
+   "text": "Apple beschränkt den vollen Festplattenzugriff auf dem Mac, damit KI-Assistenten wie der von Meta nicht mehr pauschal an Chatverläufe kommen."
   },
   {
    "id": "0bb7da254e14",
-   "text": "Metas millionenfach installierter Assistent Muse legt offenbar detaillierte Profile über Freunde und Familie der Nutzer an, was rechtlich heikel ist."
+   "text": "Metas millionenfach installierter Assistent Muse legt offenbar detaillierte Profile über Freunde und Familie der Nutzer an."
+  },
+  {
+   "id": "2d915e86c260",
+   "text": "Meta stellt die Muse-Plattform als Open Source bereit, damit Entwickler den Assistenten in Fernseher, Haushaltsgeräte und eigene Bastelgeräte einbauen."
+  },
+  {
+   "id": "d442265d4558",
+   "text": "Der AWS-Chef wirbt öffentlich um Vertrauen beim Bau neuer Rechenzentren und verzichtet bei Gesprächen mit Kommunen auf Verschwiegenheitsklauseln."
   },
   {
    "id": "52d8e32b3411",
-   "text": "Weil KI-Hardware die Speicherpreise treibt, verteuert Nvidia seine sieben Jahre alte Streaming-Box Shield TV um 100 Dollar ohne jede Produktänderung."
+   "text": "Weil KI-Hardware die Speicherpreise treibt, verlangt Nvidia für die sieben Jahre alte Shield TV plötzlich 100 Dollar mehr."
   },
   {
-   "id": "c87d5f628b0a",
-   "text": "Capcom will seine RE Engine im REX-Projekt so umbauen, dass Spiele künftig gemeinsam mit KI-Werkzeugen entstehen."
+   "id": "1565b9b9c99d",
+   "text": "Sam Altman bezeichnet die quasireligiöse Verklärung von KI nun selbst als ernstes Sicherheitsrisiko."
   }
  ],
  "items": [
@@ -86,6 +98,107 @@
    "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/"
   },
   {
+   "id": "e78fe6c453ae",
+   "date": "2026-10-03",
+   "published": "2026-10-03T15:44+02:00",
+   "headline": "Vorwürfe gegen OpenAI: Schwere Mängel bei der Sicherheitsarbeit",
+   "summary": "Der frühere Mitarbeiter der Safety-Systems-Abteilung David Robinson erhebt nach seinem Abschied harte Vorwürfe gegen die Sicherheitspraxis von OpenAI. Er berichtet von versehentlich aktivierten KI-Agenten und einem Modell, das vorgesehene Zugangsgrenzen aushebelte, und fordert für KI-Firmen Standards wie in der Kernkrafttechnik. Pikant ist der Zeitpunkt, denn kurz darauf trennte sich OpenAI von drei Beschäftigten aus dem Sicherheitsbereich.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "ki-sicherheit",
+    "safety systems",
+    "regulierung"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "quelle_titel": "OpenAIs Sicherheitskultur in der Kritik: Ehemaliger Leiter warnt vor gravierenden Mängeln",
+   "url": "https://the-decoder.de/openais-sicherheitskultur-in-der-kritik-ehemaliger-leiter-warnt-vor-gravierenden-maengeln/"
+  },
+  {
+   "id": "f143fce070e1",
+   "date": "2026-10-03",
+   "published": "2026-10-03T18:30+02:00",
+   "headline": "Kündigung bei OpenAI: Sicherheitsexperte beklagt kaputte Unternehmenskultur",
+   "summary": "David Robinson hat seine Stelle im Sicherheitsbereich von OpenAI aufgegeben und begleitet den Abgang mit einer deutlichen öffentlichen Warnung. Er sieht die interne Kultur des Unternehmens als beschädigt an und ordnet sich selbst in die Reihe der mahnenden Aussteiger aus führenden KI-Laboren ein. Der Fall nährt die Debatte, ob Sicherheitsteams bei KI-Anbietern genügend Gewicht haben.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "ki-sicherheit",
+    "personal",
+    "kritik"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "quelle_titel": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+   "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/"
+  },
+  {
+   "id": "2d915e86c260",
+   "date": "2026-10-03",
+   "published": "2026-10-03T02:45+02:00",
+   "headline": "Meta verschenkt Code, um Muse in möglichst viele Geräte zu bringen",
+   "summary": "Meta öffnet den Quellcode seiner Muse-Plattform und lädt Entwickler ein, den KI-Assistenten in beliebige Geräte einzubauen, vom Fernseher bis zum Haushaltsgerät. Mit dem kostenlosen Zugang will der Konzern eine breite Basis an kompatibler Hardware schaffen, bevor sich Standards bei KI-Geräten etablieren. Für Anbieter von Unterhaltungselektronik könnte das die Einstiegshürde für eigene KI-Funktionen deutlich senken.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "muse",
+    "open source",
+    "ki-geräte"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "quelle_titel": "Meta wants your next gadget to be Muse-infused",
+   "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/"
+  },
+  {
+   "id": "87ed7e1b7a88",
+   "date": "2026-10-03",
+   "published": "2026-10-03T16:25+02:00",
+   "headline": "Meta gibt Bauplan für eigene KI-Gadgets frei",
+   "summary": "Unter dem Namen Muse Gadgets veröffentlicht Meta ein Open-Source-Projekt, mit dem Technikbegeisterte eigene Geräte auf Basis günstiger ESP32-Boards bauen und mit dem KI-Agenten Muse verbinden können. Parallel hat das Team 5.000 Exemplare eines USB-C-Sticks namens Muse Home Link gefertigt, der die Steuerung von Smart-Home-Technik übernimmt. Meta will über die offene Entwicklung herausfinden, welche Gerätetypen bei Nutzern überhaupt Anklang finden.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "muse",
+    "open source",
+    "hardware",
+    "smart home"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "quelle_titel": "\"Muse Gadgets\": Meta macht KI-Hardware zum Open-Source-Bastelprojekt für alle",
+   "url": "https://the-decoder.de/muse-gadgets-meta-macht-ki-hardware-zum-open-source-bastelprojekt-fuer-alle/"
+  },
+  {
+   "id": "73cf1fef21e2",
+   "date": "2026-10-03",
+   "published": "2026-10-03T16:31+02:00",
+   "headline": "Ehemaliger OpenAI-Prüfer geht und warnt öffentlich vor Risiken",
+   "summary": "David Robinson verantwortete bei OpenAI die Sicherheitsberichte zu großen Modellveröffentlichungen und hat das Unternehmen nun verlassen. In einem Gastbeitrag für das Magazin The Atlantic legt er seine Bedenken offen dar. Weil in kurzer Folge mehrere Fachleute vor den Gefahren ihrer eigenen Branche warnen, wächst die Skepsis gegenüber dieser Form der Selbstkritik.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "whistleblower",
+    "modellberichte",
+    "ki-risiken"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "quelle_titel": "An OpenAI safety employee has quit and is sounding the alarm",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+  },
+  {
    "id": "c87d5f628b0a",
    "date": "2026-10-03",
    "published": "2026-10-03T18:49+02:00",
@@ -104,6 +217,86 @@
    "source_id": "verge-ai",
    "quelle_titel": "Capcom is preparing for a ‘future where we create games together with AI’",
    "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development"
+  },
+  {
+   "id": "d442265d4558",
+   "date": "2026-10-03",
+   "published": "2026-10-03T20:43+02:00",
+   "headline": "AWS-Chef wehrt sich gegen Misstrauen bei Rechenzentren",
+   "summary": "Der Chef von Amazon Web Services stellt sich öffentlich dem wachsenden Widerstand gegen neue Rechenzentren entgegen und wirbt um Vertrauen in die Standortpolitik des Konzerns. Nach eigener Aussage setzt Amazon bei Verhandlungen mit Kommunen inzwischen keine Verschwiegenheitsvereinbarungen mehr ein. Der Vorgang zeigt, wie stark der Infrastrukturausbau für KI zum lokalpolitischen Konfliktthema geworden ist.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "aws",
+    "rechenzentren",
+    "infrastruktur",
+    "akzeptanz"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "quelle_titel": "Amazon responds to data center backlash, says it no longer uses NDAs",
+   "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/"
+  },
+  {
+   "id": "1565b9b9c99d",
+   "date": "2026-10-03",
+   "published": "2026-10-03T20:45+02:00",
+   "headline": "Altman: Religiöse Verklärung von KI ist ein echtes Sicherheitsrisiko",
+   "summary": "OpenAI-Chef Sam Altman warnt davor, KI-Systemen quasireligiöse Kräfte zuzuschreiben, und wertet solche Deutungen ausdrücklich als Sicherheitsproblem. Hintergrund sind Berichte über Gespräche von Anthropic mit religiösen Denkern sowie eine päpstliche Äußerung zu künstlicher Intelligenz. Bemerkenswert ist der Kurswechsel, denn Altman selbst hatte das Ziel von OpenAI früher in sakral anmutende Bilder gefasst.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "altman",
+    "ki-ethik",
+    "diskurs"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "quelle_titel": "OpenAI-Chef Altman distanziert sich von religiösen KI-Vergleichen und nennt sie ein Sicherheitsproblem",
+   "url": "https://the-decoder.de/openai-chef-altman-distanziert-sich-von-religioesen-ki-vergleichen-und-nennt-sie-ein-sicherheitsproblem/"
+  },
+  {
+   "id": "9a415d111d44",
+   "date": "2026-10-03",
+   "published": "2026-10-03T16:00+02:00",
+   "headline": "Überblick: Welche KI-Assistenten direkt per SMS erreichbar sind",
+   "summary": "Eine Übersicht stellt die wichtigsten KI-Agenten zusammen, die sich ohne eigene App einfach über Textnachrichten ansprechen lassen. Das Angebot reicht von allgemeinen Assistenten bis zu spezialisierten Diensten für Familienorganisation, Reiseplanung und Arbeitsaufgaben. Für Berufstätige ist das ein praktischer Einstieg, um KI-Werkzeuge ohne zusätzliche Software zu testen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "ki-agenten",
+    "messaging",
+    "assistenten",
+    "produktivität"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "quelle_titel": "All the AI agents that can live in your text messages",
+   "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/"
+  },
+  {
+   "id": "4a46493e4f87",
+   "date": "2026-10-03",
+   "published": "2026-10-03T17:00+02:00",
+   "headline": "Splice-Chefin: Maschinell verfasste Mails zerstören echte Kommunikation",
+   "summary": "Kakul Srivastava, Chefin der bei Musikproduzenten beliebten Sample-Plattform Splice, kritisiert den Trend zu automatisch generierten E-Mails. Ihrer Einschätzung nach gehen dadurch echte Gespräche und damit der eigentliche Zweck beruflicher Kommunikation verloren. Das Interview beleuchtet zugleich die Rolle von KI in der Musikproduktion und im Plattformgeschäft.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "splice",
+    "kommunikation",
+    "musik",
+    "arbeitsalltag"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "quelle_titel": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+   "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview"
   },
   {
    "id": "52d8e32b3411",

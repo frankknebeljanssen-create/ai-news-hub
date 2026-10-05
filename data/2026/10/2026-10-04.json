@@ -1,34 +1,38 @@
 {
  "date": "2026-10-04",
- "generated_at": "2026-10-05T14:41:06+02:00",
+ "generated_at": "2026-10-05T14:50:43+02:00",
  "overview": [
   {
-   "id": "b97bb19eb27d",
-   "text": "Google beschränkt die kostenlose Gemini-Nutzung ab Oktober 2026 auf das kleinste Modell Flash-Lite, Flash und Pro gibt es nur noch im Abo."
+   "id": "ae66ebe2e681",
+   "text": "Trump richtet mit der Super Intelligence Force eine KI-Taskforce ein, die unter Jay Clayton direkt dem Präsidenten berichtet."
   },
   {
-   "id": "ae66ebe2e681",
-   "text": "Donald Trump hat eine Super Intelligence Force gegründet, die direkt an den Präsidenten berichtet und die Abstimmung mit Techkonzernen koordiniert."
+   "id": "b97bb19eb27d",
+   "text": "Ohne Abo gibt es Gemini ab Oktober 2026 nur noch mit dem kleinsten Modell Flash-Lite, Flash und Pro bleiben zahlenden Kunden vorbehalten."
   },
   {
    "id": "a95ed98b25ef",
-   "text": "Ein Test von Aleph Alpha zeigt, dass chinesische Sprachmodelle bei politisch heiklen Fragen nur selten ausgewogen antworten oder ganz ausweichen."
+   "text": "Aleph Alpha stellte chinesischen Sprachmodellen 967 politisch heikle Fragen und fand nur bei 17 bis 41 Prozent der Antworten eine ausgewogene Darstellung."
   },
   {
    "id": "71b92d7d1248",
-   "text": "Google setzt sein Bug-Bounty-Programm für Open Source aus, weil massenhaft wertlose KI-generierte Meldungen die Prüfkapazitäten blockieren."
+   "text": "Google hat sein Bug-Bounty-Programm für Open-Source-Projekte ausgesetzt, weil massenhaft wertlose, mit KI erzeugte Meldungen die Prüfer blockieren."
   },
   {
    "id": "be582af47185",
-   "text": "Mit der Methode RRSI dämpfen Google-Forscher das Auswendiglernen selbstoptimierender Agenten und steigern deren Leistung bei unbekannten Aufgaben."
+   "text": "Googles Methode RRSI bremst das Auswendiglernen selbstoptimierender Agenten: bis zu 4,7 Punkte mehr auf neuen Benchmarks bei rund 30 Prozent weniger Token."
   },
   {
-   "id": "471d0bcb0d21",
-   "text": "NASA und IBM veröffentlichen ein offenes KI-Basismodell für Monddaten, das Wassereis an den Polen bis zu 22 Prozent genauer vorhersagen soll."
+   "id": "3a57561dde9a",
+   "text": "Weil Tesla allein auf Kameras setzt, pausieren die Robotaxis in Austin nachts zwischen 23 und 6 Uhr, da dunkle Hindernisse unerkannt bleiben."
   },
   {
    "id": "4963c5822283",
    "text": "Laut einer Auswertung von a16z veröffentlichen nur zwei Prozent der Unternehmen überhaupt messbare Kennzahlen zu ihrem KI-Einsatz."
+  },
+  {
+   "id": "471d0bcb0d21",
+   "text": "NASA und IBM veröffentlichen ein offenes Basismodell für Monddaten, das Wassereis an den Polen bis zu 22 Prozent genauer vorhersagen soll."
   }
  ],
  "items": [
@@ -112,6 +116,26 @@
    "source_id": "decoder-de",
    "quelle_titel": "Trumps neue KI-Einheit \"Super Intelligence Force\" berichtet direkt an den Präsidenten",
    "url": "https://the-decoder.de/trumps-neue-ki-einheit-super-intelligence-force-berichtet-direkt-an-den-praesidenten/"
+  },
+  {
+   "id": "f62441b4311f",
+   "date": "2026-10-04",
+   "published": "2026-10-04T21:55+02:00",
+   "headline": "US-Regierung bündelt KI-Strategie in neuer Super Intelligence Force",
+   "summary": "Präsident Trump richtet eine neue Taskforce ein, die die Position der USA im KI-Wettlauf mit China stärken soll. Das Gremium soll einen regulatorischen Mindestrahmen setzen, ohne die Entwicklungsgeschwindigkeit der Branche zu bremsen. Für international tätige Unternehmen zeichnet sich damit ab, in welche Richtung sich US-Regeln für KI bewegen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "usa",
+    "regulierung",
+    "china",
+    "ki-politik"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "quelle_titel": "Für den KI-Wettstreit mit China: Präsident Trump gründet „Super Intelligence Force“",
+   "url": "https://t3n.de/news/fuer-den-ki-wettstreit-mit-china-praesident-trump-gruendet-super-intelligence-force-1766565"
   },
   {
    "id": "71b92d7d1248",
@@ -273,6 +297,26 @@
    "source_id": "neuron",
    "quelle_titel": "😺 a16z: Only 2% disclose tracked AI metrics",
    "url": "https://www.theneuron.ai/newsletter/a16z-only-2-disclose-tracked-ai-metrics/"
+  },
+  {
+   "id": "3a57561dde9a",
+   "date": "2026-10-04",
+   "published": "2026-10-04T20:14+02:00",
+   "headline": "Teslas Robotaxis bleiben nachts stehen: Grenzen des Kamerakonzepts",
+   "summary": "Weil Tesla bei seinen autonomen Fahrzeugen bewusst auf Lidar und Radar verzichtet und allein auf Kameras setzt, ruht der Robotaxi-Betrieb in Austin zwischen 23 und 6 Uhr. Bei schlechten Lichtverhältnissen erkennt das System Hindernisse wie dunkle Tiere auf der Straße nicht zuverlässig. Der Fall zeigt, wie stark Sensorentscheidungen den praktisch nutzbaren Betriebsrahmen bestimmen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "tesla",
+    "robotaxi",
+    "autonomes fahren",
+    "sensorik"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "quelle_titel": "Elon Musks Katze: Warum Teslas Robotaxi-Flotte nicht in der Nacht fährt",
+   "url": "https://t3n.de/news/katze-teslas-robotaxi-flotte-1766554"
   },
   {
    "id": "8a9c48729bde",
