@@ -567,3 +567,23 @@ details.filterbox > .filter-grid { margin: 0; }
 .hero-meta { grid-auto-rows: 1.3rem; gap: 0; }
 .hero-meta > div { height: 1.3rem; line-height: 1.3rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .hero .daynav .label, .hero .daybtn { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* ---- Tag blau, Woche violett ---- */
+:root { --week: #6d3df0; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --week: #a98bff; } }
+:root[data-theme="dark"] { --week: #a98bff; }
+main.mode-week { --accent: var(--week); --accent-soft: color-mix(in srgb, var(--week) 16%, var(--surface)); }
+.hero.week { background: radial-gradient(120% 140% at 0% 0%, rgba(196,170,255,.42) 0%, rgba(196,170,255,0) 58%), linear-gradient(135deg, #2b1a69 0%, #7a4dff 100%); }
+.hero.week .seg-btn[aria-pressed="true"] { color: #2b1a69; }
+.brief-btn.week { --accent: var(--week); background: color-mix(in srgb, var(--week) 12%, var(--surface)); border-color: color-mix(in srgb, var(--week) 42%, var(--border)); }
+.brief-btn.week strong { color: var(--week); }
+.brief-btn.week:hover { background: color-mix(in srgb, var(--week) 20%, var(--surface)); }
+
+/* Nach Themen: jede Meldung als eigener Eintrag */
+.wk-row { padding: 14px 0; }
+.wk-top { display: grid; gap: 8px; margin-top: 2px; }
+.wk-item { display: grid; gap: 2px; padding: 9px 12px; background: var(--surface-2); border-left: 3px solid var(--c); border-radius: 10px; text-decoration: none; color: var(--text); }
+.wk-title { font-weight: 600; font-size: .95rem; line-height: 1.3; }
+.wk-src { font-size: .75rem; color: var(--muted); }
+@media (hover: hover) { .wk-item:hover { background: color-mix(in srgb, var(--c) 12%, var(--surface-2)); } }
+@media (hover: none) { .b-title:hover, .k-title:hover { text-decoration: none; } }

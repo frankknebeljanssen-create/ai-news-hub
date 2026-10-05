@@ -846,7 +846,7 @@ async function viewSettings() {
 
 /* Farbige Kopfkarte fuer Kurz-Briefing und Woche */
 function hero({ title, backHref, active, meta, nav }) {
-  return h('header', { class: 'hero' },
+  return h('header', { class: 'hero' + (active === 'woche' ? ' week' : '') },
     h('div', { class: 'hero-top' },
       h('a', { class: 'hero-back', href: backHref }, '\u2039 Alle Meldungen'),
       chipRow([['tag', 'Tag'], ['woche', 'Woche']], active, (v) => { if (v !== active) go(v === 'woche' ? '/woche' : '/briefing'); }, 'Ansicht')),
@@ -1027,7 +1027,7 @@ async function viewWeek(q) {
       h('div', { class: 'wk-bars' }, themaStats.map(([n, l]) => h('div', { class: 'wk-row', style: `--c:${THEMA_VAR[n]}` },
         h('div', { class: 'wk-head' }, h('span', { class: 'wk-name' }, n), h('span', { class: 'wk-n' }, l.length)),
         h('div', { class: 'wk-bar' }, h('i', { style: `width:${Math.round((l.length / maxN) * 100)}%` })),
-        h('div', { class: 'wk-top' }, l.slice(0, 2).map((i) => h('a', { class: 'b-title', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, i.headline))))))) : null,
+        h('div', { class: 'wk-top' }, l.slice(0, 2).map((i) => h('a', { class: 'wk-item', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, h('span', { class: 'wk-title' }, i.headline), h('span', { class: 'wk-src' }, `${i.source} \u2197`)))))))) : null,
 
     praxis.length ? sec('Praxistipps der Woche', h('ul', { class: 'b-list' }, praxis.map((i) => h('li', null, title(i), withMore([srcLink(i)], i))))) : null,
     kurios.length ? sec('Kurios & krass', h('ul', { class: 'b-list' }, kurios.map((i) => h('li', null, h('span', { class: 'k-hook' }, i.kurios), title(i), withMore([srcLink(i)], i))))) : null,
@@ -1110,6 +1110,7 @@ async function route() {
   const { parts, q } = parseHash();
   const area = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar', 'briefing', 'woche', 'status'].includes(parts[0]) ? parts[0] : 'heute';
   document.querySelectorAll('[data-nav]').forEach((a) => ((a.dataset.nav === (area === 'woche' ? 'briefing' : area) || ((area === 'briefing' || area === 'woche') && a.closest('.tabbar') && a.dataset.nav === 'heute')) ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
+  $app.classList.toggle('mode-week', area === 'woche');
   document.getElementById('gsearch').hidden = area === 'suche' || area === 'glossar' || area === 'briefing' || area === 'woche';
   const keepScroll = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar'].includes(area) && route.last === area;
   route.last = area;
