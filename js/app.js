@@ -227,8 +227,8 @@ function sourceSelect(current, onPick) {
   const counts = new Map();
   store.index.items.forEach((i) => counts.set(i.source, (counts.get(i.source) || 0) + 1));
   const names = [...counts.keys()].sort((a, b) => a.localeCompare(b, 'de'));
-  return h('label', { class: 'field' }, 'Quelle',
-    h('select', { onchange: (e) => onPick(e.target.value) },
+  return h('label', { class: 'src-pick' }, h('span', null, 'Quelle'),
+    h('select', { onchange: (e) => onPick(e.target.value), 'aria-label': 'Quelle wählen' },
       h('option', { value: '', selected: !current }, 'Alle Quellen'),
       names.map((n) => h('option', { value: n, selected: n === current }, `${n} (${counts.get(n)})`))));
 }
