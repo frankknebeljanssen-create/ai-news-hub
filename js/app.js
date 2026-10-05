@@ -1,5 +1,8 @@
 'use strict';
 
+const APP_VERSION = '1.0.0';
+const APP_DATE = '2026-10-05';
+
 const THEMEN = [
   ['Modelle und Produkte', 'modelle'], ['Forschung', 'forschung'], ['Business', 'business'],
   ['Politik und Regulierung', 'politik'], ['Weiterbildung DE', 'weiter'], ['Unternehmen DE', 'unternehmen'],
@@ -164,14 +167,59 @@ function starBtn(item) {
   return b;
 }
 
+/* ---------- Einstellungen (nur localStorage) ---------- */
+
+const SET_KEY = 'settings';
+const SET_DEFAULT = { region: '', grouping: 'woche', showTop: true, showDE: true, showKurios: true, expandAll: false, showTags: true, hidden: [] };
+let setMem = null;
+
+function getSettings() {
+  if (!setMem) {
+    let raw = {};
+    try { raw = JSON.parse(localStorage.getItem(SET_KEY)) || {}; } catch (e) { raw = {}; }
+    setMem = { ...SET_DEFAULT, ...raw };
+    if (!Array.isArray(setMem.hidden)) setMem.hidden = [];
+  }
+  return setMem;
+}
+function saveSettings(patch) {
+  setMem = { ...getSettings(), ...patch };
+  try { localStorage.setItem(SET_KEY, JSON.stringify(setMem)); } catch (e) { /* Speicher gesperrt */ }
+  applySettings();
+}
+function applySettings() { document.body.classList.toggle('no-tags', !getSettings().showTags); }
+
 /* ---------- Bausteine ---------- */
 
 
+
+/* Meldungen zum selben Ereignis (aehnliche Schlagzeilen aus mehreren Quellen) in Boxen nur einmal zeigen */
+function dedupeSimilar(list, max) {
+  const words = (t) => new Set(t.toLowerCase().replace(/[^a-zäöüß0-9 ]+/g, ' ').split(/\s+/).filter((w) => w.length >= 5));
+  const out = [];
+  for (const it of list) {
+    const w = words(it.headline);
+    const dup = out.some((o) => { const ow = o.w; const inter = [...w].filter((x) => ow.has(x)).length; return inter >= 2 && inter / Math.min(w.size, ow.size) >= 0.5; });
+    if (!dup) out.push({ it, w });
+    if (out.length >= max) break;
+  }
+  return out.map((o) => o.it);
+}
+
 function chipRow(options, current, onPick, label) {
-  return h('div', { class: 'chips', role: 'group', 'aria-label': label },
-    options.map(([val, text]) => h('button', {
-      class: 'chip', type: 'button', 'aria-pressed': String(val === current), onclick: () => onPick(val),
-    }, text)));
+  const themed = options.some(([v]) => v === PRAXIS || v in THEMA_VAR);
+  if (themed) {
+    const colorFor = (v) => (v === PRAXIS ? 'var(--t-business)' : THEMA_VAR[v] || 'var(--muted)');
+    return h('div', { class: 'chips cats', role: 'group', 'aria-label': label },
+      options.map(([val, text]) => h('button', {
+        class: 'chip cat', type: 'button', style: `--c:${colorFor(val)}`, 'aria-pressed': String(val === current), onclick: () => onPick(val),
+      }, text)));
+  }
+  // wenige Optionen: ruhiger segmentierter Schalter
+  return h('div', { class: 'seg-wrap' },
+    h('span', { class: 'seg-label' }, label),
+    h('div', { class: 'seg', role: 'group', 'aria-label': label },
+      options.map(([val, text]) => h('button', { class: 'seg-btn', type: 'button', 'aria-pressed': String(val === current), onclick: () => onPick(val) }, text))));
 }
 
 function sourceSelect(current, onPick) {
@@ -187,19 +235,36 @@ function sourceSelect(current, onPick) {
 function card(item, query) {
   const color = THEMA_VAR[item.thema] || 'var(--accent)';
   const mark = (txt) => (query ? highlight(txt, query) : txt);
-  return h('article', { class: 'card', style: `--c:${color}` },
-    h('div', { class: 'meta' },
+  const more = h('button', { class: 'more-btn', type: 'button', hidden: true }, 'Mehr lesen');
+  const el = h('article', { class: 'card', style: `--c:${color}` },
+    h('div', { class: 'card-top' },
       h('span', { class: 'tag-thema' }, item.thema),
       item.praxis ? h('span', { class: 'badge praxis' }, 'Praxistipp') : null,
-      h('span', null, item.source),
-      h('span', null, fmtShort(item.date)),
       item.region === 'de' ? h('span', { class: 'badge' }, 'DE') : null,
-      h('span', { class: 'rel', title: `Relevanz ${item.relevanz} von 5`, 'aria-label': `Relevanz ${item.relevanz} von 5` }, '●'.repeat(item.relevanz)),
       starBtn(item)),
     h('h3', null, h('a', { href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, mark(item.headline))),
-    h('p', null, mark(item.summary)),
+    h('p', { class: 'summary' }, mark(item.summary)),
+    more,
+    h('div', { class: 'card-foot' },
+      h('span', { class: 'src-name' }, item.source),
+      h('span', null, fmtShort(item.date)),
+      h('span', { class: 'rel', title: `Relevanz ${item.relevanz} von 5`, 'aria-label': `Relevanz ${item.relevanz} von 5` }, '\u25CF'.repeat(item.relevanz))),
     item.tags && item.tags.length ? h('div', { class: 'tags' }, item.tags.map((t) => h('span', null, '#' + t))) : null,
-    h('a', { class: 'orig', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer', title: item.quelle_titel }, 'Quelle: ' + item.quelle_titel));
+    h('a', { class: 'orig', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer', title: item.quelle_titel }, 'Zum Original \u2197'));
+  if (getSettings().expandAll) { el.classList.add('open'); more.textContent = 'Weniger'; }
+  more.addEventListener('click', () => { const on = el.classList.toggle('open'); more.textContent = on ? 'Weniger' : 'Mehr lesen'; });
+  return el;
+}
+
+/* Auf dem Handy sind Kurztexte gekuerzt: "Mehr lesen" nur zeigen, wenn wirklich etwas abgeschnitten ist */
+function fitCards(root) {
+  (root || document).querySelectorAll('.card').forEach((c) => {
+    if (c.classList.contains('open')) return;
+    const p = c.querySelector('.summary'), btn = c.querySelector('.more-btn');
+    const clipped = p.scrollHeight > p.clientHeight + 1;
+    btn.hidden = !clipped;
+    c.classList.toggle('fits', !clipped);
+  });
 }
 
 function highlight(text, query) {
@@ -219,7 +284,8 @@ async function viewDay(dateArg, q) {
   const index = await loadIndex();
   if (!store.dates.length) return render(stateBox('Noch keine Nachrichten vorhanden.'));
   const date = dateArg && store.dates.includes(dateArg) ? dateArg : store.dates[0];
-  const region = q.region || '';
+  const st = getSettings();
+  const region = q.region !== undefined ? q.region : (store.regionSel !== undefined ? store.regionSel : st.region);
   const day = await loadDay(date);
   const items = (day ? day.items : index.items.filter((i) => i.date === date)).filter((i) => !region || i.region === region);
   const pos = store.dates.indexOf(date);
@@ -236,32 +302,48 @@ async function viewDay(dateArg, q) {
   const kDay = kAll.filter((i) => i.date === date);
   const kWeek = kAll.filter((i) => i.date <= date && i.date >= dayShift(date, -6));
   const kScope = kDay.length >= 2 ? 'an diesem Tag' : 'in den letzten 7 Tagen';
-  const kList = (kDay.length >= 2 ? kDay : kWeek).slice(0, 4);
+  const kList = dedupeSimilar(kDay.length >= 2 ? kDay : kWeek, 4);
 
-  const sections = THEMEN.map(([name]) => [name, items.filter((i) => i.thema === name).sort((a, b) => b.relevanz - a.relevanz)]).filter(([, l]) => l.length);
+  const deAll = index.items.filter((i) => i.region === 'de').sort((a, b) => b.relevanz - a.relevanz || b.published.localeCompare(a.published));
+  const deDay = deAll.filter((i) => i.date === date);
+  const deWeek = deAll.filter((i) => i.date <= date && i.date >= dayShift(date, -6));
+  const deScope = deDay.length >= 3 ? 'an diesem Tag' : 'in den letzten 7 Tagen';
+  const deList = dedupeSimilar(deDay.length >= 3 ? deDay : deWeek, 6);
+
+  const sections = THEMEN.map(([name]) => [name, items.filter((i) => i.thema === name).sort((a, b) => b.relevanz - a.relevanz)]).filter(([n, l]) => l.length && !st.hidden.includes(n));
 
   render(
     h('h1', null, 'KI-News'),
     h('p', { class: 'sub' }, h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text), ` · ${items.length} Meldungen an diesem Tag`),
     nav,
-    chipRow(REGIONEN, region, (v) => go(dateArg ? '/tag/' + date : '/', { region: v }, true) || route(), 'Bereich'),
-    top.length ? h('section', { class: 'top-stories', 'aria-labelledby': 'ts' },
+    chipRow(REGIONEN, region, (v) => { store.regionSel = v; go(dateArg ? '/tag/' + date : '/', { region: v }, true); route(); }, 'Bereich'),
+    st.showTop && top.length ? h('section', { class: 'top-stories', 'aria-labelledby': 'ts' },
       h('h2', { id: 'ts' }, 'Top-Stories'),
       h('ol', null, top.map(({ o, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` }, h('div', null,
         h('span', { class: 'ts-label' }, THEMA_SHORT[item.thema] || item.thema),
         item.praxis ? h('span', { class: 'ts-label praxis' }, 'Praxistipp') : null,
         h('p', null, o.text),
         h('a', { class: 'src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, `${item.source} ↗`)))))) : null,
-    kList.length ? h('section', { class: 'kurios', 'aria-labelledby': 'kur' },
+    st.showDE && !region && deList.length ? h('section', { class: 'kurios de-box', 'aria-labelledby': 'deb' },
+      h('div', { class: 'kurios-head' }, h('h2', { id: 'deb' }, 'Bereich B: Deutschland'), h('span', { class: 'k-scope' }, deScope)),
+      h('ul', null, deList.map((i) => h('li', { style: `--c:${THEMA_VAR[i.thema] || 'var(--accent)'}` },
+        h('span', null, h('span', { class: 'ts-label' }, THEMA_SHORT[i.thema] || i.thema), i.praxis ? h('span', { class: 'ts-label praxis' }, 'Praxistipp') : null),
+        h('a', { class: 'k-title', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, i.headline),
+        h('span', { class: 'k-meta' }, `${i.source} \u00B7 ${fmtShort(i.date)}`))))) : null,
+    st.showKurios && kList.length ? h('section', { class: 'kurios', 'aria-labelledby': 'kur' },
       h('div', { class: 'kurios-head' }, h('h2', { id: 'kur' }, 'Kurios & krass'), h('span', { class: 'k-scope' }, kScope)),
       h('ul', null, kList.map((i) => h('li', null,
         h('span', { class: 'k-hook' }, i.kurios),
         h('a', { class: 'k-title', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, i.headline),
         h('span', { class: 'k-meta' }, `${i.source} · ${fmtShort(i.date)}`))))) : null,
-    ...(sections.length ? sections.map(([name, list]) => h('section', { class: 'section', style: `--c:${THEMA_VAR[name]}` },
+    sections.length > 1 ? h('nav', { class: 'jump', 'aria-label': 'Zu Thema springen' }, sections.map(([name, list]) => h('button', {
+      class: 'chip jump-chip', type: 'button', style: `--c:${THEMA_VAR[name]}`,
+      onclick: () => document.getElementById('sec-' + name.replace(/\W+/g, '-'))?.scrollIntoView({ behavior: 'smooth', block: 'start' }),
+    }, `${THEMA_SHORT[name] || name} ${list.length}`))) : null,
+    ...(sections.length ? sections.map(([name, list]) => h('section', { class: 'section', id: 'sec-' + name.replace(/\W+/g, '-'), style: `--c:${THEMA_VAR[name]}` },
       h('div', { class: 'section-head' }, h('span', { class: 'dot' }), h('h2', null, name), h('span', { class: 'count' }, list.length)),
       list.map((i) => card(i)))) : [h('p', { class: 'empty' }, 'Keine Meldungen für diese Auswahl.')]),
-    h('p', { class: 'foot' }, 'Eigene Kurzfassungen mit Link zur Quelle. Keine Volltexte.'));
+    null);
 }
 
 /* ---------- Ansicht: Archiv ---------- */
@@ -292,7 +374,7 @@ function groupKey(mode, item) {
 
 async function viewArchive(q) {
   const index = await loadIndex();
-  const g = GROUPINGS.some(([k]) => k === q.g) ? q.g : 'woche';
+  const g = GROUPINGS.some(([k]) => k === q.g) ? q.g : getSettings().grouping;
   const sort = q.s === 'rel' ? 'rel' : 'neu';
   const f = { thema: q.thema || '', region: q.region || '', von: q.von || '', bis: q.bis || '', quelle: q.quelle || '', g, s: sort };
   const filtered = index.items.filter((i) =>
@@ -319,26 +401,29 @@ async function viewArchive(q) {
     const fill = () => { if (!body.childElementCount) grp.items.forEach((i) => body.append(card(i))); };
     const det = h('details', { class: 'group', open: n === 0 }, h('summary', null, h('span', { class: 'g-title' }, grp.label), h('span', { class: 'count' }, grp.items.length)), body);
     if (n === 0) fill();
-    det.addEventListener('toggle', () => { if (det.open) fill(); });
+    det.addEventListener('toggle', () => { if (det.open) { fill(); fitCards(body); } });
     list.append(det);
   });
   const toggleAll = (open) => list.querySelectorAll('details').forEach((d) => { d.open = open; });
   const unit = { tag: 'Tagen', woche: 'Wochen', monat: 'Monaten', kategorie: 'Kategorien' }[g];
   const praxisN = index.items.filter((i) => i.praxis).length;
+  const activeN = [f.thema, f.region, f.quelle, f.von, f.bis].filter(Boolean).length + (g !== getSettings().grouping ? 1 : 0) + (sort !== 'neu' ? 1 : 0);
 
   render(
     h('h1', null, 'Archiv'),
     h('p', { class: 'sub' }, `${filtered.length} von ${index.items.length} Meldungen in ${groups.size} ${unit}`),
-    h('div', { class: 'filters' },
+    h('details', { class: 'filterbox', open: store.filterOpen ?? matchMedia('(min-width: 720px)').matches, ontoggle: (e) => { store.filterOpen = e.target.open; } },
+      h('summary', null, 'Filter & Sortierung', activeN ? h('span', { class: 'count-badge' }, activeN) : null),
+      h('div', { class: 'filters' },
       chipRow(GROUPINGS, g, (v) => set({ g: v }), 'Gruppierung'),
       chipRow(SORTS, sort, (v) => set({ s: v }), 'Sortierung'),
-      chipRow([['', 'Alle Themen'], [PRAXIS, `Praxistipps & Tools (${praxisN})`], ...THEMEN.map(([n]) => [n, n])], f.thema, (v) => set({ thema: v }), 'Kategorie'),
       chipRow(REGIONEN, f.region, (v) => set({ region: v }), 'Bereich'),
+      chipRow([['', 'Alle Themen'], [PRAXIS, `Praxistipps & Tools (${praxisN})`], ...THEMEN.map(([n]) => [n, n])], f.thema, (v) => set({ thema: v }), 'Kategorie'),
       h('div', { class: 'row' },
         sourceSelect(f.quelle, (v) => set({ quelle: v })),
         h('label', { class: 'field' }, 'Von', h('input', { type: 'date', value: f.von, min: minD, max: maxD, onchange: (e) => set({ von: e.target.value }) })),
         h('label', { class: 'field' }, 'Bis', h('input', { type: 'date', value: f.bis, min: minD, max: maxD, onchange: (e) => set({ bis: e.target.value }) })),
-        (f.thema || f.region || f.von || f.bis || f.quelle) ? h('button', { class: 'btn', type: 'button', onclick: () => { go('/archiv', { g, s: sort }, true); route(); } }, 'Zurücksetzen') : null)),
+        (f.thema || f.region || f.von || f.bis || f.quelle) ? h('button', { class: 'btn', type: 'button', onclick: () => { go('/archiv', { g, s: sort }, true); route(); } }, 'Zurücksetzen') : null))),
     groups.size > 1 ? h('div', { class: 'row actions' },
       h('button', { class: 'btn', type: 'button', onclick: () => toggleAll(true) }, 'Alle öffnen'),
       h('button', { class: 'btn', type: 'button', onclick: () => toggleAll(false) }, 'Alle schließen')) : null,
@@ -368,6 +453,7 @@ async function viewSearch(q) {
     status.textContent = text.length < 2 && !quelle ? `Suche in ${index.items.length} Meldungen (Titel, Text, Tags, Quelle).` : `${hits.length} Treffer`;
     if ((text.length >= 2 || quelle) && !hits.length) results.append(h('p', { class: 'empty' }, 'Keine Treffer.'));
     hits.forEach((i) => results.append(card(i, text)));
+    fitCards(results);
   };
 
   const input = h('input', { type: 'search', value: query, placeholder: 'Suchen, z. B. AI Act, OpenAI, Weiterbildung', 'aria-label': 'Suchbegriff', autocomplete: 'off', enterkeyhint: 'search' });
@@ -381,6 +467,7 @@ async function viewSearch(q) {
     h('h1', null, 'Suche'),
     h('div', { class: 'filters' }, h('form', { class: 'searchbar', role: 'search', onsubmit: (e) => { e.preventDefault(); clearTimeout(timer); input.blur(); go('/suche', { q: input.value.trim(), region, quelle }, true); showResults(input.value.trim()); } }, input, h('button', { class: 'btn primary', type: 'submit', 'aria-label': 'Suchen' }, '\u{1F50D}\uFE0E')), chipRow(REGIONEN, region, (v) => { go('/suche', { q: input.value.trim(), region: v, quelle }, true); route(); }, 'Bereich'),
       h('div', { class: 'row' }, sourceSelect(quelle, (v) => { go('/suche', { q: input.value.trim(), region, quelle: v }, true); route(); }))),
+    h('p', { class: 'sub gl-hint' }, 'Begriff unklar? ', h('a', { href: '#/glossar' }, 'Im Glossar nachschlagen')),
     status, results);
   showResults(query);
   if (!query) input.focus({ preventScroll: true });
@@ -415,31 +502,235 @@ function viewFavs(q) {
     ...(list.length ? list.map((e) => card(e.item)) : [h('p', { class: 'empty' }, entries.length ? 'Keine Einträge für dieses Thema.' : 'Noch nichts gemerkt. Tippe bei einer Meldung auf den Stern, um sie hier zu sammeln.')]));
 }
 
+/* ---------- Ansicht: Glossar ---------- */
+
+async function loadGlossary() {
+  if (!store.glossary) store.glossary = await getJSON('content/glossar.json');
+  return store.glossary;
+}
+const escRe = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const glBase = (t) => t.replace(/\s*\([^)]*\)\s*/g, ' ').trim();
+const glSlug = (t) => t.toLowerCase().replace(/[^a-z0-9äöüß]+/g, '-').replace(/^-|-$/g, '');
+function glLetter(t) {
+  const c = t.replace(/^[§\s"„(]+/, '').charAt(0).toUpperCase().replace('Ä', 'A').replace('Ö', 'O').replace('Ü', 'U');
+  return /[A-Z]/.test(c) ? c : '#';
+}
+
+async function viewGlossary(q) {
+  const [gl, index] = await Promise.all([loadGlossary(), loadIndex().catch(() => null)]);
+  const hay = index ? index.items.map((i) => `${i.headline} ${i.summary} ${(i.tags || []).join(' ')}`.toLowerCase()) : [];
+  const byName = new Map(gl.map((x) => [x.term.toLowerCase(), x]));
+  const newsCount = (term) => {
+    const base = glBase(term).toLowerCase();
+    if (base.length < 2) return 0;
+    const re = base.length <= 4 ? new RegExp('\\b' + escRe(base) + '\\b', 'i') : null;
+    return hay.filter((t) => (re ? re.test(t) : t.includes(base))).length;
+  };
+
+  const status = h('p', { class: 'sub' });
+  const alpha = h('nav', { class: 'alpha', 'aria-label': 'Anfangsbuchstabe' });
+  const list = h('div', { class: 'gl-list' });
+  const input = h('input', { type: 'search', value: q.s || '', placeholder: 'Begriff suchen, z. B. RAG, AI Act, Halluzination', 'aria-label': 'Glossar durchsuchen', autocomplete: 'off', enterkeyhint: 'search' });
+
+  const entry = (x, text) => {
+    const n = newsCount(x.term);
+    const rel = (x.related || []).map((r) => (typeof r === 'string' ? r : r.term)).filter((r) => r && byName.has(String(r).toLowerCase()));
+    return h('article', { class: 'gl-item', id: 'gl-' + glSlug(x.term) },
+      h('h3', null, text ? highlight(x.term, text) : x.term),
+      x.aliases && x.aliases.length ? h('div', { class: 'gl-alias' }, 'auch: ' + x.aliases.join(', ')) : null,
+      h('p', null, text ? highlight(x.def, text) : x.def),
+      x.more ? h('details', { class: 'gl-more' }, h('summary', null, 'Mehr dazu'), h('p', null, x.more)) : null,
+      (n || rel.length) ? h('div', { class: 'gl-foot' },
+        n ? h('a', { class: 'gl-news', href: '#/suche?q=' + encodeURIComponent(glBase(x.term)) }, `${n} ${n === 1 ? 'Meldung' : 'Meldungen'} dazu`) : null,
+        rel.slice(0, 4).map((r) => h('a', { class: 'gl-rel', href: '#/glossar?t=' + encodeURIComponent(r) }, r))) : null);
+  };
+
+  const paint = (raw) => {
+    const t = raw.trim().toLowerCase();
+    const re = t ? new RegExp('(^|[^a-zäöüß0-9])' + escRe(t), 'i') : null;
+    const rank = (x) => { const n = x.term.toLowerCase(), al = (x.aliases || []).map((a) => a.toLowerCase()); return n === t || al.includes(t) ? 0 : n.startsWith(t) || al.some((a) => a.startsWith(t)) ? 1 : re.test(x.term) ? 2 : 3; };
+    const hits = t ? gl.filter((x) => re.test(`${x.term} ${(x.aliases || []).join(' ')} ${x.def}`)) : gl;
+    if (t) hits.sort((a, b) => rank(a) - rank(b));
+    status.textContent = t ? `${hits.length} Treffer` : `${gl.length} Begriffe, Abkürzungen und Konzepte rund um KI`;
+    list.replaceChildren(); alpha.replaceChildren();
+    if (!hits.length) { list.append(h('p', { class: 'empty' }, 'Kein Begriff gefunden.')); return; }
+    const groups = new Map();
+    if (t) groups.set('', hits);
+    else hits.forEach((x) => { const l = glLetter(x.term); if (!groups.has(l)) groups.set(l, []); groups.get(l).push(x); });
+    if (!t) {
+      'ABCDEFGHIJKLMNOPQRSTUVWXYZ#'.split('').forEach((l) => alpha.append(h('button', {
+        type: 'button', class: 'alpha-btn', disabled: !groups.has(l),
+        onclick: () => document.getElementById('gl-letter-' + (l === '#' ? 'x' : l))?.scrollIntoView({ behavior: 'smooth', block: 'start' }),
+      }, l)));
+    }
+    groups.forEach((items, l) => {
+      const sec = h('section', { class: 'gl-group' }, l ? h('h2', { class: 'gl-letter', id: 'gl-letter-' + (l === '#' ? 'x' : l) }, l) : null);
+      items.forEach((x) => sec.append(entry(x, t)));
+      list.append(sec);
+    });
+  };
+
+  let timer;
+  input.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(() => { go('/glossar', { s: input.value.trim() }, true); paint(input.value); }, 140); });
+
+  render(
+    h('h1', null, 'Glossar'),
+    status,
+    h('form', { class: 'searchbar', role: 'search', onsubmit: (e) => { e.preventDefault(); input.blur(); paint(input.value); } }, input),
+    alpha, list);
+  paint(q.s || '');
+  const target = q.t && byName.get(String(q.t).toLowerCase());
+  if (target) {
+    const el = document.getElementById('gl-' + glSlug(target.term));
+    if (el) { el.scrollIntoView({ block: 'center' }); el.classList.add('flash'); }
+  }
+}
+
+/* ---------- Ansicht: Einstellungen ---------- */
+
+
+const BUILD = ([...document.scripts].map((el) => /app\.js\?v=(\d+)/.exec(el.src)).find(Boolean) || [0, '0'])[1];
+
+function acc(title, open, ...kids) {
+  return h('details', { class: 'acc', open }, h('summary', null, title), h('div', { class: 'acc-body' }, ...kids));
+}
+
+function toggleRow(label, hint, key) {
+  const st = getSettings();
+  return h('label', { class: 'toggle' },
+    h('span', null, h('b', null, label), hint ? h('small', null, hint) : null),
+    h('input', { type: 'checkbox', checked: !!st[key], onchange: (e) => saveSettings({ [key]: e.target.checked }) }));
+}
+
+function setTheme(mode) {
+  try { if (mode === 'auto') localStorage.removeItem('theme'); else localStorage.setItem('theme', mode); } catch (e) { /* privater Modus */ }
+  if (mode === 'auto') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = mode;
+  paintTheme();
+}
+
+async function viewSettings() {
+  const index = await loadIndex().catch(() => null);
+  const st = getSettings();
+  let stored = 'auto';
+  try { stored = localStorage.getItem('theme') || 'auto'; } catch (e) { /* ignorieren */ }
+  const redo = () => route();
+  const favN = Object.keys(favLoad()).length;
+  const [imp, runState, glossary] = await Promise.all([getJSON('impressum.json').catch(() => ({})), getJSON('data/state.json').catch(() => null), loadGlossary().catch(() => [])]);
+  const glN = glossary.length;
+
+  const bySource = new Map();
+  (index ? index.items : []).forEach((i) => {
+    const e = bySource.get(i.source) || { n: 0, last: '' };
+    e.n++; if (i.date > e.last) e.last = i.date;
+    bySource.set(i.source, e);
+  });
+  const sources = [...bySource.entries()].sort((a, b) => b[1].n - a[1].n || a[0].localeCompare(b[0], 'de'));
+  const stand = index ? standText(index.updated) : null;
+
+  const card_ = (title, ...kids) => h('section', { class: 'set-card' }, h('h2', null, title), ...kids);
+
+  render(
+    h('h1', null, 'Einstellungen'),
+    h('p', { class: 'sub' }, 'Alles wird nur in diesem Browser gespeichert.'),
+
+    card_('Darstellung',
+      h('div', { class: 'set-label' }, 'Farbschema'),
+      chipRow([['auto', 'System'], ['light', 'Hell'], ['dark', 'Dunkel']], stored, (v) => { setTheme(v); redo(); }, 'Farbschema'),
+      h('div', { class: 'set-label' }, 'Schriftgröße'),
+      h('div', { class: 'fs-row' },
+        h('button', { class: 'btn', type: 'button', disabled: fsNow <= FS_STEPS[0], onclick: () => { stepFs(-1); redo(); } }, 'A−'),
+        h('span', { class: 'fs-val' }, `${fsNow} px`),
+        h('button', { class: 'btn', type: 'button', disabled: fsNow >= FS_STEPS[FS_STEPS.length - 1], onclick: () => { stepFs(1); redo(); } }, 'A+'),
+        h('button', { class: 'btn', type: 'button', onclick: () => { try { localStorage.removeItem('fs'); } catch (e) { /* ignorieren */ } applyFs(FS_DEFAULT); redo(); } }, `Standard (${FS_DEFAULT} px)`))),
+
+    card_('Startansicht',
+      h('div', { class: 'set-label' }, 'Bereich in der Tagesansicht'),
+      chipRow(REGIONEN, st.region, (v) => { saveSettings({ region: v }); store.regionSel = undefined; redo(); }, 'Bereich'),
+      h('div', { class: 'set-label' }, 'Gruppierung im Archiv'),
+      chipRow(GROUPINGS, st.grouping, (v) => { saveSettings({ grouping: v }); redo(); }, 'Gruppierung')),
+
+    card_('Anzeige',
+      toggleRow('Top-Stories', 'Der Tagesüberblick oben', 'showTop'),
+      toggleRow('Bereich B: Deutschland', 'Eigene Box mit Meldungen aus Deutschland', 'showDE'),
+      toggleRow('Kurios & krass', 'Außergewöhnliche Fälle und Fakten', 'showKurios'),
+      toggleRow('Kurztexte immer ausklappen', 'Auf dem Handy sind sie sonst gekürzt', 'expandAll'),
+      toggleRow('Tags anzeigen', null, 'showTags'),
+      h('div', { class: 'set-label' }, 'Themen in der Tagesansicht (antippen zum Ausblenden)'),
+      h('div', { class: 'chips wrap', role: 'group', 'aria-label': 'Themen' },
+        THEMEN.map(([n]) => h('button', {
+          class: 'chip', type: 'button', 'aria-pressed': String(!st.hidden.includes(n)), style: `--c:${THEMA_VAR[n]}`,
+          onclick: () => { saveSettings({ hidden: st.hidden.includes(n) ? st.hidden.filter((x) => x !== n) : [...st.hidden, n] }); redo(); },
+        }, n)))),
+
+    card_('Daten',
+      h('p', { class: 'set-text' }, stand ? `Stand: ${stand.text}. ${index.count} Meldungen im Archiv.` : 'Daten konnten nicht geladen werden.'),
+      h('p', { class: 'set-text' }, `Merkliste: ${favN} ${favN === 1 ? 'Eintrag' : 'Einträge'}.`),
+      h('div', { class: 'row actions' },
+        h('a', { class: 'btn', href: '#/merkliste' }, 'Merkliste öffnen'),
+        h('button', { class: 'btn', type: 'button', onclick: () => { if (confirm('Alle Einstellungen auf Standard zurücksetzen? Die Merkliste bleibt erhalten.')) { ['settings', 'theme', 'fs'].forEach((k) => { try { localStorage.removeItem(k); } catch (e) { /* ignorieren */ } }); setMem = null; delete document.documentElement.dataset.theme; store.regionSel = undefined; applySettings(); applyFs(FS_DEFAULT); paintTheme(); redo(); } } }, 'Einstellungen zurücksetzen'),
+        h('button', { class: 'btn danger', type: 'button', disabled: !favN, onclick: () => { if (confirm('Die gesamte Merkliste löschen? Das lässt sich nicht rückgängig machen.')) { favMem = {}; favSave(); redo(); } } }, 'Merkliste löschen'))),
+
+    card_('Quellen',
+      h('p', { class: 'set-text' }, `${sources.length} Quellen mit Meldungen im Archiv:`),
+      h('ul', { class: 'src-list' }, sources.map(([name, e]) => h('li', null,
+        h('a', { href: '#/archiv?quelle=' + encodeURIComponent(name) }, name),
+        h('span', null, `${e.n} · zuletzt ${fmtShort(e.last)}`))))),
+
+    card_('Impressum, Version & Rechtliches',
+      acc('Version', true,
+        h('dl', { class: 'kv' },
+          h('dt', null, 'App'), h('dd', null, `KI-News Hub ${APP_VERSION} (Build ${BUILD}, ${APP_DATE.split('-').reverse().join('.')})`),
+          h('dt', null, 'Datenstand'), h('dd', null, index ? `${new Date(index.updated).toLocaleString('de-DE', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Europe/Berlin' })} Uhr` : 'unbekannt'),
+          h('dt', null, 'Letzter Lauf'), h('dd', null, runState && runState.last_success ? `${new Date(runState.last_success).toLocaleString('de-DE', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Europe/Berlin' })} Uhr` : 'unbekannt'),
+          h('dt', null, 'Inhalt'), h('dd', null, `${index ? index.count : 0} Meldungen, ${sources.length} Quellen, ${glN} Glossarbegriffe`),
+          h('dt', null, 'Projekt'), h('dd', null, h('a', { href: 'https://github.com/frankknebeljanssen-create/ai-news-hub', target: '_blank', rel: 'noopener noreferrer' }, 'GitHub ↗')))),
+      acc('Impressum', false,
+        imp.name ? h('div', null,
+          h('p', { class: 'set-text' }, 'Angaben gemäß § 5 DDG'),
+          h('p', { class: 'imp' }, imp.name, imp.anschrift ? [h('br'), ...imp.anschrift.split('\n').flatMap((l, i) => (i ? [h('br'), l] : [l]))] : null),
+          imp.email || imp.telefon ? h('p', { class: 'imp' }, imp.email ? ['E-Mail: ', h('a', { href: 'mailto:' + imp.email }, imp.email)] : null, imp.email && imp.telefon ? h('br') : null, imp.telefon ? 'Telefon: ' + imp.telefon : null) : null,
+          h('p', { class: 'set-text' }, 'Verantwortlich für den Inhalt (§ 18 Abs. 2 MStV): ' + imp.name))
+        : h('p', { class: 'warn' }, 'Die Anbieterangaben (Name, Anschrift, E-Mail) fehlen noch. Sie werden aus der Datei impressum.json im Projekt gelesen.'),
+        h('p', { class: 'set-text' }, 'Haftung für Links: Für die Inhalte verlinkter externer Seiten sind ausschließlich deren Betreiber verantwortlich. Zum Zeitpunkt der Verlinkung waren keine Rechtsverstöße erkennbar.')),
+      acc('Datenschutz', false,
+        h('p', { class: 'set-text' }, 'Diese Seite setzt keine Cookies, nutzt keine Analyse- oder Tracking-Dienste und lädt keine Schriften oder Skripte von Dritten. Einstellungen, Merkliste und Schriftgröße werden ausschließlich lokal in Ihrem Browser gespeichert (localStorage) und nicht übertragen.'),
+        h('p', { class: 'set-text' }, 'Die Seite wird über GitHub Pages ausgeliefert. Dabei verarbeitet GitHub technisch bedingt Ihre IP-Adresse in Server-Logfiles (GitHub Inc., USA). Beim Aufruf verlinkter Quellen gelten die Datenschutzbestimmungen der jeweiligen Anbieter.')),
+      acc('Hinweis zu KI-Inhalten', false,
+        h('p', { class: 'set-text' }, 'Schlagzeilen, Kurzfassungen, Themenzuordnung, Kennzeichnung als Praxistipp oder Kurioses und der Tagesüberblick werden automatisch mit KI (Claude von Anthropic) aus Titel und Teaser der Quellen erstellt. Sie können Fehler enthalten und ersetzen nicht die Lektüre der Quelle. Maßgeblich ist stets der verlinkte Originalartikel.'),
+        h('p', { class: 'set-text' }, 'Gespeichert werden nur eigene Kurzfassungen mit Titel und Link zur Quelle, keine Volltexte und keine Zitate.')),
+      acc('Lizenzen', false,
+        h('p', { class: 'set-text' }, 'Fuse.js 7.0.0 (Apache License 2.0) für die Suche. Symbole angelehnt an Feather Icons (MIT). Das Glossar besteht aus eigenen Texten.'))));
+}
+
 /* ---------- Router und Start ---------- */
+
 
 
 async function route() {
   const { parts, q } = parseHash();
-  const area = ['archiv', 'suche', 'merkliste'].includes(parts[0]) ? parts[0] : 'heute';
-  document.querySelectorAll('[data-nav]').forEach((a) => (a.dataset.nav === area ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
-  const keepScroll = ['archiv', 'suche', 'merkliste'].includes(area) && route.last === area;
+  const area = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar'].includes(parts[0]) ? parts[0] : 'heute';
+  document.querySelectorAll('[data-nav]').forEach((a) => ((a.dataset.nav === area || (area === 'glossar' && a.closest('.tabbar') && a.dataset.nav === 'suche')) ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
+  const keepScroll = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar'].includes(area) && route.last === area;
   route.last = area;
   try {
     if (area === 'archiv') await viewArchive(q);
     else if (area === 'suche') await viewSearch(q);
     else if (area === 'merkliste') viewFavs(q);
+    else if (area === 'einstellungen') await viewSettings();
+    else if (area === 'glossar') await viewGlossary(q);
     else await viewDay(parts[0] === 'tag' ? parts[1] : null, q);
   } catch (err) {
     console.error(err);
     render(stateBox('Die Nachrichten konnten nicht geladen werden. Bitte später erneut versuchen.'));
   }
-  document.title = area === 'heute' ? 'KI-News Hub' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste' }[area] + ' | KI-News Hub';
+  document.title = area === 'heute' ? 'KI-News Hub' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar' }[area] + ' | KI-News Hub';
+  fitCards();
   if (!keepScroll) window.scrollTo(0, 0);
 }
 
 /* Schriftgroesse (Standard 15px) */
 const FS_STEPS = [12, 13, 14, 15, 16, 17, 18, 20];
-const FS_DEFAULT = 15;
+const FS_DEFAULT = matchMedia('(max-width: 719px)').matches ? 14 : 15;
 const $fsDown = document.getElementById('fs-down'), $fsUp = document.getElementById('fs-up');
 function getFs() {
   try { const v = parseInt(localStorage.getItem('fs'), 10); if (FS_STEPS.includes(v)) return v; } catch (e) { /* kein Speicher */ }
@@ -484,7 +775,9 @@ document.getElementById('theme').addEventListener('click', () => {
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', paintTheme);
 paintTheme();
 
+applySettings();
 paintFavCount();
 window.addEventListener('storage', (e) => { if (e.key === FAV_KEY) { favMem = null; paintFavCount(); if (route.last === 'merkliste') route(); } });
+window.addEventListener('resize', () => fitCards());
 window.addEventListener('hashchange', route);
 route();

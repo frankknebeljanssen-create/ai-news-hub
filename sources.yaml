@@ -9,6 +9,7 @@
 # keywords      optional: nur Artikel behalten, deren Titel/Teaser eines dieser Woerter enthaelt
 #               (fuer allgemeine Feeds ohne KI-Fokus)
 # max_items     optional: Obergrenze neuer Artikel pro Lauf (Standard 6)
+# google_news   true = Sammel-Feed (Google News RSS), Quelle und Titel kommen aus dem Eintrag, kein Teaser
 # priority      true = Quelle wird bei Engpaessen zuerst kuratiert
 # enabled       false = Quelle bleibt eingetragen, wird aber nicht abgerufen
 # note          Freitext, z. B. warum deaktiviert
@@ -122,6 +123,31 @@ sources:
   - {id: heise-security, name: heise Security, type: rss, region: de, url: "https://www.heise.de/security/rss/news-atom.xml", keywords: [KI, "Künstliche Intelligenz", LLM, Sprachmodell], max_items: 2}
   - {id: eco, name: eco Verband, type: rss, region: de, url: "https://www.eco.de/feed/", keywords: [KI, "Künstliche Intelligenz", "AI Act"], max_items: 2}
   - {id: algorithmwatch, name: AlgorithmWatch, type: rss, region: de, url: "https://algorithmwatch.org/de/feed/", max_items: 3, note: "Politik, Regulierung, Ethik"}
+  # Bereich B, Erweiterung 2: Institutionen, Unternehmen, Bildung
+  - {id: sap-news-de, name: SAP News Deutschland, type: rss, region: de, url: "https://news.sap.com/germany/feed/", keywords: [KI, "Künstliche Intelligenz", Agenten, Joule], max_items: 3}
+  - {id: bildungsserver, name: Deutscher Bildungsserver, type: rss, region: de, url: "https://www.bildungsserver.de/rss.xml", keywords: [KI, "Künstliche Intelligenz", ChatGPT], max_items: 3}
+  - {id: hfd, name: Hochschulforum Digitalisierung, type: rss, region: de, url: "https://hochschulforumdigitalisierung.de/feed", keywords: [KI, "Künstliche Intelligenz", ChatGPT, generative], max_items: 2}
+  - {id: forum-bildung, name: Forum Bildung Digitalisierung, type: rss, region: de, url: "https://www.forumbd.de/feed/", keywords: [KI, "Künstliche Intelligenz"], max_items: 2}
+  - {id: personalwirtschaft, name: Personalwirtschaft, type: rss, region: de, url: "https://www.personalwirtschaft.de/rss/", keywords: [KI, "Künstliche Intelligenz", Weiterbildung], max_items: 2}
+  - {id: it-daily, name: it-daily.net, type: rss, region: de, url: "https://www.it-daily.net/feed", keywords: [KI, "Künstliche Intelligenz", ChatGPT], max_items: 3}
+  - {id: acatech, name: acatech, type: rss, region: de, url: "https://www.acatech.de/feed/", keywords: [KI, "Künstliche Intelligenz"], max_items: 2}
+  - {id: datenschutz-notizen, name: Datenschutz-Notizen, type: rss, region: de, url: "https://www.datenschutz-notizen.de/feed/", keywords: [KI, "Künstliche Intelligenz", "AI Act", ChatGPT], max_items: 2}
+  - {id: dr-datenschutz, name: Dr. Datenschutz, type: rss, region: de, url: "https://www.dr-datenschutz.de/feed/", keywords: [KI, "Künstliche Intelligenz", "AI Act", ChatGPT], max_items: 2}
+  - {id: digitalcourage, name: Digitalcourage, type: rss, region: de, url: "https://digitalcourage.de/rss.xml", keywords: [KI, "Künstliche Intelligenz"], max_items: 2}
+  - {id: lamarr, name: Lamarr Institute, type: rss, region: de, url: "https://lamarr-institute.org/feed/", max_items: 2}
+  - {id: omr, name: OMR, type: rss, region: de, url: "https://omr.com/de/feed/", keywords: [KI, "Künstliche Intelligenz", ChatGPT], max_items: 3}
+  - {id: deepl, name: DeepL, type: rss, region: de, url: "https://www.deepl.com/en/blog/rss.xml", max_items: 2, note: Blog auf Englisch}
+  - {id: tagesschau, name: tagesschau, type: rss, region: de, url: "https://www.tagesschau.de/infoservices/alle-meldungen-100~rss2.xml", keywords: [KI, "Künstliche Intelligenz", "AI Act", ChatGPT], max_items: 3}
+  - {id: deutschlandfunk, name: Deutschlandfunk, type: rss, region: de, url: "https://www.deutschlandfunk.de/nachrichten-100.rss", keywords: [KI, "Künstliche Intelligenz", "AI Act"], max_items: 2}
+  - {id: spektrum, name: Spektrum der Wissenschaft, type: rss, region: de, url: "https://www.spektrum.de/alias/rss/spektrum-de-rss-feed/996406", keywords: [KI, "Künstliche Intelligenz", Sprachmodell], max_items: 2}
+
+  # Bereich B, Themensuchen (Google News RSS, deutsche Ergebnisse, Quelle steht im Eintrag, nur Titel und Link)
+  - {id: gn-weiterbildung, name: Suche Weiterbildung, type: rss, region: de, google_news: true, max_items: 5, url: "https://news.google.com/rss/search?q=K%C3%BCnstliche+Intelligenz+Fortbildung+Schulung+Besch%C3%A4ftigte+when%3A14d&hl=de&gl=DE&ceid=DE%3Ade", note: "Themensuche KI Weiterbildung"}
+  - {id: gn-kurse, name: Suche KI-Kurse, type: rss, region: de, google_news: true, max_items: 4, url: "https://news.google.com/rss/search?q=KI+Kurs+Weiterbildung+Zertifikat+Lehrgang+Deutschland+when%3A30d&hl=de&gl=DE&ceid=DE%3Ade", note: "Themensuche KI-Kurse"}
+  - {id: gn-unternehmen, name: Suche Unternehmen DE, type: rss, region: de, google_news: true, max_items: 5, url: "https://news.google.com/rss/search?q=K%C3%BCnstliche+Intelligenz+Unternehmen+Deutschland+Einf%C3%BChrung+Konzern+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade", note: "Themensuche Unternehmen"}
+  - {id: gn-startups, name: Suche Startups DE, type: rss, region: de, google_news: true, max_items: 4, url: "https://news.google.com/rss/search?q=KI+Startup+Deutschland+Finanzierung+Millionen+when%3A14d&hl=de&gl=DE&ceid=DE%3Ade", note: "Themensuche Startups"}
+  - {id: gn-politik, name: Suche Politik DE, type: rss, region: de, google_news: true, max_items: 4, url: "https://news.google.com/rss/search?q=KI+Gesetz+Bundesregierung+Deutschland+Regulierung+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade", note: "Themensuche Politik"}
+  - {id: gn-strategie, name: Suche KI-Strategie DE, type: rss, region: de, google_news: true, enabled: false, max_items: 3, url: "https://news.google.com/rss/search?q=KI+Strategie+Bundesregierung+Digitalminister+KI-Offensive+when%3A14d&hl=de&gl=DE&ceid=DE%3Ade", note: "Themensuche lieferte keine Treffer, deaktiviert"}
   - {id: ki-campus, name: KI-Campus, type: rss, region: de, url: "https://ki-campus.org/blog/feed"}
   - id: fraunhofer-academy
     name: Fraunhofer Academy

@@ -1,0 +1,1381 @@
+[
+ {
+  "term": "'Maßgeblich' (Maßgeblichkeitsdoktrin)",
+  "def": "Schlüsselbegriff der EuGH-Rechtsprechung zu Art. 22 DSGVO (SCHUFA C-634/21, Dun & Bradstreet C-203/22). Wenn eine automatisierte Berechnung 'maßgeblich' für die menschliche Entscheidung ist, also typischerweise unverändert übernommen wird , , ist sie selbst die automatisierte Entscheidung."
+ },
+ {
+  "term": "§ 203 StGB",
+  "def": "Verletzung von Privatgeheimnissen. Strafrechtliche Flankierung der Verschwiegenheitspflicht. § 203 Abs. 1 Nr. 3 betrifft Anwält:innen. Geld- oder Freiheitsstrafe bis zu einem Jahr. Schon die Möglichkeit der Kenntnisnahme reicht für Offenbarung."
+ },
+ {
+  "term": "A&O Shearman",
+  "def": "Internationale Großkanzlei. 2024 fusioniert aus Allen & Overy und Shearman & Sterling. Erste weltweit, die Harvey im Enterprise-Maßstab eingeführt hat (Februar 2023). Heute ~4.000 Anwält:innen über 43 Jurisdiktionen.",
+  "aliases": [
+   "Allen & Overy"
+  ]
+ },
+ {
+  "term": "A2A",
+  "def": "Agent to Agent Protocol. Standard für strukturierte Aufgabenübergabe zwischen KI Agenten."
+ },
+ {
+  "term": "Adversarial Attack",
+  "def": "Gezielte Manipulationsangriff auf KI-Modelle, der durch sorgfältig konstruierte Eingaben Fehlverhalten erzwingt.",
+  "more": "Adversarial Attacks sind eine Sicherheitsproblematik bei KI-Systemen. Angreifer konstruieren Eingaben, die das Modell zu fehlerhaften Outputs verleiten, etwa Prompt Injection (Modell folgt versteckten Anweisungen statt User-Anweisung), Jailbreaks (Umgehung von Sicherheits-Guardrails), Data Poisoning (Manipulation von Trainingsdaten). Art. 15 AI Act verlangt von Hochrisiko-KI Schutz vor solchen Angriffen.",
+  "related": [
+   "Prompt Injection",
+   "Robustheit"
+  ]
+ },
+ {
+  "term": "Adversarial Prompt",
+  "def": "Speziell konstruierte Eingabe um ein Modell zu fehlgeleiteten Antworten zu zwingen. Sicherheitsproblem produktiver KI-Systeme, Test-Pflicht für Hochrisiko-KI."
+ },
+ {
+  "term": "AG Köln 2.7.2025",
+  "def": "Erste in Deutschland breit diskutierte Halluzinations-Entscheidung gegen eine Anwält:in. Az. 312 F 130/25 (Familiengericht, Wechselmodell-Streit). Beschluss v. 2.7.2025: Schriftsatz mit halluzinierten Urteilen, Aufsätzen, falschen Kommentar-Zitaten. Hinweis auf § 43a Abs. 3 BRAO und berufsrechtliche Folgen."
+ },
+ {
+  "term": "Agent Card",
+  "def": "Maschinenlesbares Profil eines Agenten mit Identität, Fähigkeiten, Endpoint und Authentifizierung."
+ },
+ {
+  "term": "Agentic AI",
+  "def": "KI Systeme, die mehrstufige Aufgaben planen, Tools nutzen und Arbeitsschritte ausführen."
+ },
+ {
+  "term": "Agentische KI",
+  "def": "Ein KI-System, das eigenständig mehrstufige Aufgaben durchführt, dabei Entscheidungen trifft und Werkzeuge einsetzt. Im Unterschied zum reinen Sprachmodell, das auf einen Prompt antwortet, plant ein Agent, führt aus, prüft und reagiert auf Zwischenergebnisse.",
+  "aliases": [
+   "KI-Agent",
+   "AI-Agent"
+  ]
+ },
+ {
+  "term": "AGI (Artificial General Intelligence)",
+  "def": "Hypothetische KI, die ein breites Spektrum geistiger Aufgaben auf menschlichem Niveau oder darüber bewältigt. Es gibt keine allgemein anerkannte Definition und keinen Konsens, wann sie erreicht wäre."
+ },
+ {
+  "term": "AI Act",
+  "def": "Verordnung (EU) 2024/1689 zur Festlegung harmonisierter Vorschriften für künstliche Intelligenz. In Kraft seit 1.8.2024. Stufenweise Anwendung. Risikobasierter Ansatz mit vier Klassen.",
+  "aliases": [
+   "KI-Verordnung",
+   "KI-VO"
+  ]
+ },
+ {
+  "term": "AI Governance",
+  "def": "Regeln, Kontrollen und Verantwortlichkeiten für sicheren und nachvollziehbaren KI Einsatz."
+ },
+ {
+  "term": "AI Liability Directive",
+  "def": "Vorschlag der EU-Kommission von September 2022 für eine KI-Haftungsrichtlinie. Am 12.2.2025 zurückgezogen. Bis auf Weiteres bleibt es bei 27 nationalen Haftungsregimes.",
+  "aliases": [
+   "AILD",
+   "KI-Haftungsrichtlinie"
+  ]
+ },
+ {
+  "term": "AI Native Consulting",
+  "def": "Beratung, die KI nicht nur ergänzt, sondern als Kern der Wertschöpfung nutzt."
+ },
+ {
+  "term": "AI Office",
+  "def": "Zentrale EU-Stelle bei der Kommission für die Aufsicht über GPAI-Modelle. Setzt Verhaltenskodizes, Standards und Bußgelder."
+ },
+ {
+  "term": "AI Orchestration",
+  "def": "Steuerung mehrerer Modelle, Tools und Agenten in einem koordinierten Workflow."
+ },
+ {
+  "term": "AI Pilot",
+  "def": "Begrenzter Test eines KI Use Cases vor produktiver Einführung."
+ },
+ {
+  "term": "AI Productivity",
+  "def": "Produktivitätsgewinn durch KI, etwa kürzere Bearbeitungszeiten oder bessere Skalierung."
+ },
+ {
+  "term": "AI Risk Management",
+  "def": "Systematische Identifikation, Bewertung und Minderung von Risiken in KI Anwendungen."
+ },
+ {
+  "term": "AI Safety",
+  "def": "Forschungsfeld zu Risiken und Beherrschbarkeit fortgeschrittener KI-Systeme. Schwerpunkte u.a. bei Anthropic, DeepMind Safety Team, OpenAI Alignment."
+ },
+ {
+  "term": "AI-AI-Bias",
+  "def": "Phänomen, bei dem Sprachmodelle systematisch Texte bevorzugen, die von anderen Sprachmodellen verfasst sind. Studie Laurito et al. 2025 (PNAS)."
+ },
+ {
+  "term": "Aleph Alpha",
+  "def": "Deutsches KI-Unternehmen aus Heidelberg, gegründet 2019 von Jonas Andrulis. Strategiewechsel ab 2024: weg von eigenen Foundation-Models, hin zu PhariaAI als 'Betriebssystem' für generative KI in Unternehmen und Verwaltung. Pharia-1-LLM-7B (control / control-aligned) als 7B-Modelle, EU-konform trainiert. Partnerschaft mit Schwarz Digits (Mai 2025) für Pharia AI-as-a-Service. April 2026: Fusionsverhandlungen mit Cohere (Kanada), laut Berichten von der Bundesregierung unterstützt &mdash; Ausgang offen."
+ },
+ {
+  "term": "Alignment",
+  "def": "Ausrichtung eines KI-Systems auf menschliche Ziele, Werte und Absichten, damit es hilfreich handelt und unerwünschtes Verhalten vermeidet."
+ },
+ {
+  "term": "Anchoring-Bias",
+  "def": "Kognitive Verzerrung bei der eine erste Information unbewusst alle folgenden Bewertungen prägt. Bei KI-gestützter Entscheidung doppelt relevant: KI-Output wirkt als Anker, der menschliche Kontrolle untergräbt.",
+  "aliases": [
+   "Anker-Effekt"
+  ]
+ },
+ {
+  "term": "Anhang III AI Act",
+  "def": "Liste der Hochrisiko-KI-Systeme (eigenständig). Umfasst u.a. Beschäftigung/Personalauswahl, Kreditwürdigkeit, Strafverfolgung, Bildungszugang, Sozialleistungen, Justizpflege (Nr. 8 lit. a). Auslöst die Pflichten nach Kapitel III des AI Act."
+ },
+ {
+  "term": "Anonymisierung",
+  "def": "Verfahren, bei dem personenbezogene Daten so verändert werden, dass die betroffene Person nicht mehr identifizierbar ist. Stärker als Pseudonymisierung. Anonymisierte Daten fallen nicht mehr unter die DSGVO."
+ },
+ {
+  "term": "Anthropic",
+  "def": "US-KI-Forschungsunternehmen, gegründet 2021 von Dario und Daniela Amodei (beide ex-OpenAI). Macher von Claude. Fokus auf AI Safety und Constitutional AI."
+ },
+ {
+  "term": "API",
+  "def": "Application Programming Interface. Schnittstelle, über die Systeme Daten oder Funktionen austauschen."
+ },
+ {
+  "term": "Art. 22 DSGVO",
+  "def": "Recht auf Schutz vor automatisierter Einzelentscheidung. EuGH SCHUFA C-634/21 weitet das auf „maßgeblich beeinflussende“ Scores aus. Kernnorm gegen Black-Box-Bewertung."
+ },
+ {
+  "term": "Audit Trail",
+  "def": "Lückenlose Protokollierung aller Vorgänge in einem System mit Zeitstempel, Akteur:in und Aktion. Pflicht nach Art. 12 AI Act. Kern der Verteidigungsfähigkeit im Anwaltshaftungsprozess."
+ },
+ {
+  "term": "Auftragsverarbeitung",
+  "def": "Verarbeitung personenbezogener Daten durch einen Anbieter im Auftrag des Verantwortlichen, geregelt durch Vertrag nach Art. 28 DSGVO. Bei Cloud-KI-Diensten in der Regel erforderlich.",
+  "aliases": [
+   "AVV",
+   "Auftragsverarbeitungsvertrag"
+  ]
+ },
+ {
+  "term": "Automation Bias",
+  "def": "Psychologische Tendenz, automatisierten Empfehlungen mehr zu vertrauen, als deren Zuverlässigkeit rechtfertigt. In Art. 14 AI Act ausdrücklich als Risiko genannt, dem die menschliche Aufsichtsperson begegnen muss."
+ },
+ {
+  "term": "AWS Bedrock",
+  "def": "Amazon Plattform für den Zugriff auf Foundation Models und KI Anwendungen."
+ },
+ {
+  "term": "Azure OpenAI",
+  "def": "Microsoft Dienst, der OpenAI Modelle innerhalb der Azure Cloud verfügbar macht."
+ },
+ {
+  "term": "Backlog",
+  "def": "Priorisierte Liste von Aufgaben, Anforderungen und User Stories für ein Produktteam."
+ },
+ {
+  "term": "BAG Workday-Urteil",
+  "def": "BAG 8.5.2025, Az. 8 AZR 209/21. 200 Euro DSGVO-Schadensersatz nach Workday-Datenübertragung in die USA ohne tragende Betriebsvereinbarung. Erste höchstrichterliche Linie zur HR-KI."
+ },
+ {
+  "term": "Baseline Measurement",
+  "def": "Messung des Status quo vor Projektstart, um später Wirkung und ROI nachweisen zu können."
+ },
+ {
+  "term": "Bayerischer Verfassungsgerichtshof",
+  "def": "Verfassungsgericht des Freistaats Bayern (Sitz München). Hat sich 2024/25 mehrfach mit dem Bayerischen Polizeiaufgabengesetz (PAG) befasst, u.a. zur Generalklausel des Art. 11a PAG (Urteil v. 13.3.2025) und zum Begriff der drohenden Gefahr. Justiz-KI-Themen sind 2026 Gegenstand laufender öffentlicher Debatte; eine prominente Leitentscheidung zur richterlichen KI-Vergütung gibt es bislang nicht."
+ },
+ {
+  "term": "Beck-Noxtua",
+  "def": "Kooperationsprodukt zwischen dem Beck-Verlag und Noxtua/Xayn. Spezialisiertes deutsches Legal-AI-Tool mit RAG-Architektur auf Beck-Datenbankgrundlage."
+ },
+ {
+  "term": "Benchmark",
+  "def": "Standardisierte Testreihe zur Messung von KI-Fähigkeiten (MMLU, HellaSwag, LegalBench). Marketing-Treiber, aber gleichzeitig wichtige Vergleichsgrundlage für Compliance-Entscheidungen."
+ },
+ {
+  "term": "Betreiber",
+  "def": "Im Sinne des AI Act (Art. 3 Nr. 4): Natürliche oder juristische Person, die ein KI-System unter eigener Verantwortung nutzt. Anwaltskanzleien sind in der Regel Betreiber. Pflichten nach Art. 26 AI Act."
+ },
+ {
+  "term": "BfDI",
+  "def": "Bundesbeauftragte/r für den Datenschutz und die Informationsfreiheit. Aufsichtsbehörde des Bundes nach § 8 BDSG. Aktuell Prof. Dr. Louisa Specht-Riemenschneider (seit September 2024)."
+ },
+ {
+  "term": "Bias",
+  "def": "Systematische Abweichung von Fairness in KI-Outputs. Kann in Trainingsdaten, Modellarchitektur, Labels oder Anwendungskontext entstehen. Lässt sich nicht durch bloßes Entfernen geschützter Merkmale beheben (Proxy-Variablen)."
+ },
+ {
+  "term": "Bill Rate",
+  "def": "Tagessatz oder Stundensatz, den ein Dienstleister dem Kunden für eine Rolle berechnet."
+ },
+ {
+  "term": "Black Box",
+  "def": "System dessen interne Entscheidungslogik nicht nachvollziehbar ist. Kernproblem von Deep-Learning-Modellen. Konflikt mit Art. 13 AI Act und Art. 22 DSGVO."
+ },
+ {
+  "term": "BRAK-Leitfaden",
+  "def": "Hinweise der Bundesrechtsanwaltskammer zum Einsatz von KI in Anwaltskanzleien, Stand Dezember 2024. Zentraler Maßstab für berufsrechtskonformen KI-Einsatz in Deutschland."
+ },
+ {
+  "term": "Bryter",
+  "def": "Berliner Legal-Tech-Unternehmen mit Fokus auf Workflow-Automatisierung und No-Code-Apps für Jurist:innen."
+ },
+ {
+  "term": "BSI",
+  "def": "Bundesamt für Sicherheit in der Informationstechnik. Standards (BSI C5, IT-Grundschutz), Cyber-Sicherheits-Aufsicht. Bei Cloud-KI-Nutzung relevante Prüfgrundlage."
+ },
+ {
+  "term": "BSI C5",
+  "def": "Cloud Computing Compliance Criteria Catalogue des BSI. Anforderungen an Cloud-Anbieter mit deutschen Behörden- oder Großkundendaten. Beck-Noxtua-zertifiziert.",
+  "aliases": [
+   "C5"
+  ]
+ },
+ {
+  "term": "Build vs Buy",
+  "def": "Entscheidung, ob eine Lösung selbst gebaut oder als fertiges Produkt eingekauft wird."
+ },
+ {
+  "term": "C Level",
+  "def": "Führungsebene mit Rollen wie CEO, CTO, CFO oder CHRO."
+ },
+ {
+  "term": "Capability Discovery",
+  "def": "Fähigkeit eines Systems, verfügbare Agenten, Tools oder Services automatisch zu erkennen."
+ },
+ {
+  "term": "Catastrophic Forgetting",
+  "def": "Phänomen bei kontinuierlichem Training: Modell verliert frühere Fähigkeiten beim Lernen neuer Inhalte. Erschwert das Updaten produktiver Legal-AI ohne Qualitätsverlust."
+ },
+ {
+  "term": "Chain of Thought",
+  "def": "Prompt-Technik die das Modell zu schrittweisem Denken anregt (z.B. „Denke Schritt für Schritt“). Verbessert Antwortqualität bei mehrstufigen juristischen Aufgaben.",
+  "aliases": [
+   "CoT"
+  ]
+ },
+ {
+  "term": "Change Management",
+  "def": "Begleitung organisatorischer Veränderung, damit neue Systeme tatsächlich angenommen werden."
+ },
+ {
+  "term": "Chatbot",
+  "def": "Programm, das in natürlicher Sprache mit Menschen kommuniziert. Moderne Chatbots basieren auf großen Sprachmodellen und können Texte, Code oder Analysen erstellen."
+ },
+ {
+  "term": "Claude",
+  "def": "KI-Chatbot von Anthropic, San Francisco. Constitutional-AI-Trainingsmethode, Context Window bis 200k Tokens. Verbreitet bei Großkanzleien (z.B. Freshfields-Partnerschaft April 2026)."
+ },
+ {
+  "term": "Closed Model",
+  "def": "Proprietäres KI Modell ohne offene Modellgewichte, etwa GPT oder Claude."
+ },
+ {
+  "term": "CLOUD Act",
+  "def": "US-Gesetz von 2018, das US-Behörden den Zugriff auf Daten ermöglicht, die von US-Unternehmen weltweit gespeichert werden, auch wenn diese auf europäischen Servern liegen. Zentrale Begründung für europäische Souveränitätsdiskussion."
+ },
+ {
+  "term": "Co Pilot",
+  "def": "KI Assistent, der Menschen unterstützt, aber Entscheidungen nicht vollständig autonom trifft."
+ },
+ {
+  "term": "Codefy",
+  "def": "Berliner Start-up mit kommerzieller Massenverfahrens-Software für die Justiz. Im Einsatz am LG Ingolstadt (seit 2022) und in Hessen am LG Frankfurt (seit Juli 2023) für Dieselverfahren."
+ },
+ {
+  "term": "COMPAS",
+  "def": "Correctional Offender Management Profiling for Alternative Sanctions. KI-System der Firma Northpointe (heute Equivant) zur Rückfallprognose im US-Strafrecht. Zentrales Beispiel für Bias-Diskussion in der Justiz-KI (State v. Loomis 2016)."
+ },
+ {
+  "term": "Compute",
+  "def": "Rechenleistung, die für Training und Betrieb von KI nötig ist. Wird in der Branche als knappe Ressource gehandelt, gemessen etwa in GPU-Stunden oder Rechenzentrumskapazität."
+ },
+ {
+  "term": "Computer Use",
+  "def": "Fähigkeit eines KI-Agenten, einen Computer wie ein Mensch zu bedienen: Bildschirm lesen, klicken, tippen und Programme steuern."
+ },
+ {
+  "term": "Concept Drift",
+  "def": "Variante von Drift bei der sich die zugrundeliegende Bedeutung der Klassifikation verändert (z.B. „spam“ 2020 vs. 2026). Erfordert kontinuierliche Re-Validierung."
+ },
+ {
+  "term": "Conformity Assessment",
+  "def": "Formale Prüfung, ob ein High Risk KI System regulatorische Anforderungen erfüllt."
+ },
+ {
+  "term": "Constitutional AI",
+  "def": "Trainingsmethode von Anthropic, bei der das Modell anhand einer expliziten Werte-Liste („Verfassung“) ausgerichtet wird. Alternative zu reinem RLHF. Transparenter dokumentiert."
+ },
+ {
+  "term": "Context Window",
+  "def": "Maximale Token-Anzahl die ein Modell pro Aufruf verarbeiten kann. Claude Sonnet: 200k. GPT-5: 128k. Bestimmt was an Akten, Verträgen oder Schriftsätzen reinpasst.",
+  "aliases": [
+   "Kontextfenster"
+  ]
+ },
+ {
+  "term": "ContractMatrix",
+  "def": "Generative AI-Tool für Vertragsanalyse und -drafting, gemeinsam von A&O Shearman, Microsoft und Harvey entwickelt. Ca. 2.000 A&O-Anwält:innen nutzen es täglich."
+ },
+ {
+  "term": "Cost to Serve",
+  "def": "Kosten, die entstehen, um einen Kundenprozess oder Servicefall zu bedienen."
+ },
+ {
+  "term": "Counterfactual Fairness",
+  "def": "Prüfmethode für Bias. Variation eines geschützten Merkmals (etwa Vorname von 'Johannes' zu 'Fatima') bei sonst gleicher Eingabe, wenn das Ergebnis sich ändert, liegt Bias vor."
+ },
+ {
+  "term": "Data Act",
+  "def": "VO (EU) 2023/2854. Datenzugang für Maschinen und IoT. Anwendbar ab 12.9.2025. KI-relevant für Trainingsdaten-Beschaffung aus Sensor-Daten."
+ },
+ {
+  "term": "Data Classification",
+  "def": "Einteilung von Daten nach Schutzbedarf, Sensibilität und erlaubter Verarbeitung."
+ },
+ {
+  "term": "Data Drift",
+  "def": "Variante von Drift bei der sich die statistische Verteilung der Eingangsdaten verschiebt, auch ohne dass die Aufgabe sich ändert. Häufigste Drift-Form in Legal-Tech-Anwendungen."
+ },
+ {
+  "term": "Data Leakage",
+  "def": "Ungewollter Übertritt sensibler Daten in Trainingsdaten oder Outputs. Kernrisiko bei externen LLMs mit Mandatsdaten, § 203 StGB und DSGVO-Verstoß zugleich."
+ },
+ {
+  "term": "Data Poisoning",
+  "def": "Gezielte Manipulation der Trainingsdaten um Modell-Verhalten zu beeinflussen. Sicherheitsrisiko, das nach Art. 15 AI Act adressiert werden muss (Robustheit gegen Angriffe auf Trainingsdaten)."
+ },
+ {
+  "term": "Data Processing Agreement",
+  "def": "Vertragliche Vereinbarung zur Verarbeitung personenbezogener Daten durch einen Dienstleister."
+ },
+ {
+  "term": "Data Sovereignty",
+  "def": "Kontrolle darüber, wo Daten gespeichert, verarbeitet und rechtlich geschützt werden."
+ },
+ {
+  "term": "Datenschutz-Folgenabschätzung",
+  "def": "Pflicht nach Art. 35 DSGVO bei Datenverarbeitung mit voraussichtlich hohem Risiko. Bei KI-Systemen meist erforderlich.",
+  "aliases": [
+   "DSFA"
+  ]
+ },
+ {
+  "term": "Datenzentrum-Strombedarf",
+  "def": "Der steigende Energiebedarf von KI-Rechenzentren. Er treibt Debatten über Netzausbau, erneuerbare Energien und neue Kraftwerke."
+ },
+ {
+  "term": "DAV-Stellungnahme 32/2025",
+  "def": "Initiativ-Stellungnahme des Deutschen Anwaltvereins (DAV) Nr. 32/2025 vom Juli 2025 zum KI-Einsatz in der Anwaltschaft. Ergänzt den BRAK-Leitfaden und stellt klar, dass Cloud-KI unter § 43e BRAO grundsätzlich zulässig ist."
+ },
+ {
+  "term": "Deep Learning",
+  "def": "Maschinelles Lernen mit tiefen neuronalen Netzen aus vielen Schichten. Basis moderner Bild-, Sprach- und Sprachmodelle."
+ },
+ {
+  "term": "Deepfake",
+  "def": "Mit KI erzeugte oder veränderte Bilder, Videos oder Tonaufnahmen, die echte Personen täuschend echt darstellen. Wird für Betrug, Desinformation und sexualisierte Fälschungen missbraucht."
+ },
+ {
+  "term": "DeepMind",
+  "def": "Britisches KI-Forschungsunternehmen, 2014 von Google übernommen. Heute Google DeepMind. AlphaFold (Nobelpreis Chemie 2024), Gemini.",
+  "aliases": [
+   "Google DeepMind"
+  ]
+ },
+ {
+  "term": "DeepSeek",
+  "def": "Chinesisches LLM von High-Flyer Quant. DeepSeek-V3, R1 (Januar 2025). Open-Weights, niedrige Trainingskosten. Geopolitisch und sicherheitstechnisch umstritten."
+ },
+ {
+  "term": "Definition of Done",
+  "def": "Klare Kriterien, wann eine Aufgabe oder User Story wirklich abgeschlossen ist."
+ },
+ {
+  "term": "Delivery",
+  "def": "Umsetzungsphase nach Vertragsabschluss, in der gebaut, integriert und ausgerollt wird."
+ },
+ {
+  "term": "Determinismus",
+  "def": "Eigenschaft eines Systems, bei gleichem Input immer denselben Output zu liefern. Klassische regelbasierte Software ist deterministisch, LLMs nicht. Hybride Architekturen kombinieren beides."
+ },
+ {
+  "term": "DGA",
+  "def": "Data Governance Act, VO (EU) 2022/868. Rahmen für Datenintermediäre und altruistisches Datenteilen. Aufbau europäischer Datenräume.",
+  "aliases": [
+   "Data Governance Act"
+  ]
+ },
+ {
+  "term": "DIAL",
+  "def": "EPAM Plattform zur Orchestrierung von KI Anwendungen und Modellen."
+ },
+ {
+  "term": "DIALX Lab",
+  "def": "EPAM Kontext für KI Innovation, Experimente und AI Native Delivery."
+ },
+ {
+  "term": "Differential Privacy",
+  "def": "Mathematisches Verfahren das verhindert dass Einzelpersonen aus Trainingsdaten rekonstruiert werden können. State-of-the-art für DSGVO-konforme KI-Trainings auf personenbezogenen Daten.",
+  "aliases": [
+   "Differenzielle Privatsphäre"
+  ]
+ },
+ {
+  "term": "Diffusionsmodell",
+  "def": "Generatives Modell, das Bilder, Videos oder Audio erzeugt, indem es aus Rauschen schrittweise ein Ergebnis formt. Grundlage vieler Bildgeneratoren."
+ },
+ {
+  "term": "Digital Omnibus",
+  "def": "EU-Kommissionsvorschlag von November 2025 zur Anpassung der KI-Verordnung. Verschiebt Hochrisiko-Fristen voraussichtlich auf 2.12.2027 (Anhang III) bzw. 2.8.2028 (Anhang I). Trilog läuft, Einigung bis Mai 2026 angestrebt."
+ },
+ {
+  "term": "Digitale Souveränität",
+  "def": "Konzept der Selbstbestimmung über digitale Infrastruktur, Daten und Schlüsseltechnologien. Im KI-Kontext Bezugspunkt für europäische Modelle (Mistral, Aleph Alpha, Noxtua), Hosting in Europa und DSGVO-konforme Architekturen, Gegenpol zu US-/China-KI-Hyperscalern.",
+  "aliases": [
+   "Digital Sovereignty",
+   "digitale Souveränität"
+  ]
+ },
+ {
+  "term": "Discovery",
+  "def": "Frühe Projektphase zur Klärung von Problem, Nutzern, Business Case, Risiko und Lösungshypothesen."
+ },
+ {
+  "term": "Distillation (Destillation)",
+  "def": "Verfahren, bei dem ein kleines Modell lernt, das Verhalten eines größeren Modells nachzuahmen. So entstehen schnelle, günstige Modelle."
+ },
+ {
+  "term": "DMA",
+  "def": "Digital Markets Act, VO (EU) 2022/1925. Pflichten für Gatekeeper-Plattformen. Begrenzt Datennutzung für KI-Training durch Big Tech.",
+  "aliases": [
+   "Digital Markets Act"
+  ]
+ },
+ {
+  "term": "DPA",
+  "def": "Data Processing Agreement. Datenschutzvertrag zur Auftragsverarbeitung."
+ },
+ {
+  "term": "Drift",
+  "def": "Verschlechterung der Modellqualität über Zeit, weil sich Welt oder Datenverteilungen verändern. Kernrisiko produktiver KI, Art. 9 AI Act verlangt Risikomanagement über den gesamten Lebenszyklus, inkl. Drift-Monitoring.",
+  "aliases": [
+   "Model Drift",
+   "Modell-Drift"
+  ]
+ },
+ {
+  "term": "DSA",
+  "def": "Digital Services Act, VO (EU) 2022/2065. Pflichten für Online-Plattformen u.a. zu KI-generierten Inhalten und algorithmischer Empfehlung (Art. 14, 15, 38).",
+  "aliases": [
+   "Digital Services Act"
+  ]
+ },
+ {
+  "term": "DSGVO",
+  "def": "Datenschutz-Grundverordnung, Verordnung (EU) 2016/679. Zentrales europäisches Datenschutzrecht. Bei KI-Einsatz immer parallel zum AI Act zu beachten."
+ },
+ {
+  "term": "DSK",
+  "def": "Datenschutzkonferenz, Konferenz der unabhängigen Datenschutzaufsichtsbehörden des Bundes und der Länder. Drei zentrale KI-Orientierungshilfen seit 2024: (1) 6.5.2024 'Künstliche Intelligenz und Datenschutz' (Auswahl/Einsatz für Verantwortliche, LLM-Schwerpunkt); (2) 17.6.2025 'Empfohlene technische und organisatorische Maßnahmen bei Entwicklung und Betrieb von KI-Systemen' (Hersteller/Entwickler, gesamter Lebenszyklus); (3) 17.10.2025 'Datenschutzrechtliche Besonderheiten generativer KI-Systeme mit RAG-Methode' (18 Seiten, Version 1.0)."
+ },
+ {
+  "term": "DSM-Richtlinie",
+  "def": "Digital Single Market-Richtlinie (Richtlinie (EU) 2019/790). Regelt u.a. das Text and Data Mining (Art. 3 und Art. 4), umgesetzt in Deutschland in §§ 44b und 60d UrhG."
+ },
+ {
+  "term": "EDPB",
+  "def": "European Data Protection Board / Europäischer Datenschutzausschuss. Zusammenschluss aller EU-Aufsichtsbehörden. Verbindliche Auslegungsleitlinien zur DSGVO.",
+  "aliases": [
+   "EDSA"
+  ]
+ },
+ {
+  "term": "Embedding",
+  "def": "Vektor-Repräsentation eines Texts oder Bildes im hochdimensionalen Raum. Grundlage für RAG, semantische Suche und Ähnlichkeitsanalysen."
+ },
+ {
+  "term": "ePrivacy-VO",
+  "def": "Vorschlag für VO über Privatsphäre und elektronische Kommunikation. Trilog seit 2017 stockend. Würde DSGVO um Kommunikations- und Cookie-Aspekte ergänzen."
+ },
+ {
+  "term": "Erfundene Details",
+  "def": "Subtyp der Faithfulness-Halluzination (extrinsisch): Modell ergänzt Inhalte, die im Input weder bestätigt noch verneint werden, etwa eine Wachstumsrate, die im Bericht nirgends erwähnt war. Der Output kann faktisch zufällig korrekt sein und trotzdem unfaithful zur Quelle. In RAG-Systemen oft das größere Risiko als reine Faktenfehler, weil korrekte Zitate Vertrauen schaffen."
+ },
+ {
+  "term": "Erfundene Quellen",
+  "def": "Subtyp der Factuality-Halluzination: Aktenzeichen, Studien, Fundstellen, Kommentar-Verweise oder Links, die in der Welt nicht existieren. Der Typ, an dem die deutschen Halluzinationsfälle 2025 hingen, AG Köln 312 F 130/25, OLG Celle 5 U 1/25, LG Frankfurt 2-13 S 56/24."
+ },
+ {
+  "term": "ESPP",
+  "def": "Employee Stock Purchase Plan. Mitarbeiterprogramm zum vergünstigten Aktienkauf."
+ },
+ {
+  "term": "EU AI Act",
+  "def": "Risikobasierte europäische KI Regulierung mit Pflichten für High Risk Systeme."
+ },
+ {
+  "term": "EuGH SCHUFA-Urteil",
+  "def": "EuGH C-634/21, Urteil vom 7.12.2023. Zu Art. 22 DSGVO. Funktionaler Ansatz: Wenn ein Score 'maßgeblich' für eine Entscheidung ist, ist der Score selbst die automatisierte Entscheidung im Sinne des Art. 22."
+ },
+ {
+  "term": "Eval",
+  "def": "Kurzform für Evaluation. Automatisierte Testreihen, die kontinuierlich prüfen, ob ein KI-Modell definierte Qualitätskriterien erfüllt. Vergleichbar mit Unit-Tests in der Softwareentwicklung: Ist die Antwort faktentreu? Werden Quellen korrekt zitiert? Halluziniert das Modell bei Edge Cases? Ein Eval-Loop bedeutet, dass diese Tests nach jeder Modelländerung automatisch durchlaufen, so erkennt man, ob das System besser oder schlechter wird. In der Rental-Statement AI wird jede extrahierte Zahl (Zählerstand, Betrag, Datum) gegen einen definierten Erwartungswert validiert, bevor der nächste Agent die Daten weiterverarbeitet. Ohne Eval kein stabiles Multi-Agent-System."
+ },
+ {
+  "term": "Evals",
+  "def": "Testsuites zur systematischen Prüfung, ob ein KI System zuverlässig das gewünschte Ergebnis liefert."
+ },
+ {
+  "term": "Explainability",
+  "def": "Nachvollziehbarkeit von KI Ergebnissen und Entscheidungswegen."
+ },
+ {
+  "term": "Explainable AI",
+  "def": "Erklärbare KI. Methoden die Modell-Entscheidungen verständlich machen (LIME, SHAP, Attention-Visualisierung). Anforderung für Hochrisiko-Systeme nach AI Act.",
+  "aliases": [
+   "XAI"
+  ]
+ },
+ {
+  "term": "Faithfulness vs. Factuality",
+  "def": "Hauptachse der akademischen Halluzinations-Taxonomie (Huang et al. ACM TOIS 2024): Factuality = Output widerspricht der Welt; Faithfulness = Output weicht vom übergebenen Input ab. Eine Aussage kann factual korrekt und unfaithful sein (oder umgekehrt). Zwei Hauptzweige mit eigenen Subtypen: Factuality umfasst Faktenfehler und erfundene Quellen; Faithfulness umfasst verzerrte Wiedergabe (intrinsisch) und erfundene Details (extrinsisch). In RAG-Anwendungen ist Faithfulness das relevantere Maß."
+ },
+ {
+  "term": "Faktenfehler",
+  "def": "Subtyp der Factuality-Halluzination: Modell gibt falsche Daten, Zahlen oder Zusammenhänge aus, die der Welt widersprechen, unabhängig davon, was im Input steht. Wahrheitswert liegt außerhalb des Modells; nur durch Abgleich mit verifizierten Quellen (juris, beck-online) erkennbar."
+ },
+ {
+  "term": "Few-Shot Prompting",
+  "def": "Prompt-Technik mit 1-5 Beispielen für das gewünschte Antwortformat. Bessere Ergebnisse bei strukturierten Aufgaben (Klauseln klassifizieren, Akten zusammenfassen)."
+ },
+ {
+  "term": "Fine-Tuning",
+  "def": "Spezialisierung eines vortrainierten Modells auf eine Domäne durch zusätzliches Training. DSGVO-rechtlich heikel, wenn Trainingsdaten personenbezogen sind."
+ },
+ {
+  "term": "Foundation Model",
+  "def": "Großes vortrainiertes Modell, das als Basis für viele Anwendungen dient (etwa GPT, Claude, Mistral Large, Gemini). Wird durch Fine-Tuning oder RAG für spezifische Aufgaben spezialisiert."
+ },
+ {
+  "term": "FRAUKE",
+  "def": "FRAnkfurter Urteils-Konfigurator Elektronisch. KI-System am AG Frankfurt für Fluggastrechtsklagen (10.000-15.000 Verfahren pro Jahr). Hybrid aus KI-Datenextraktion und regelbasierter Urteilsbaustein-Konfiguration."
+ },
+ {
+  "term": "FRIDA",
+  "def": "Frankfurter Regelbasierte Intelligente Dokumentenerstellungs-Assistenz. Software-Prototyp am AG Frankfurt für Verkehrsordnungswidrigkeiten."
+ },
+ {
+  "term": "Frontier Model",
+  "def": "Modell an der aktuellen Leistungsgrenze des Marktes."
+ },
+ {
+  "term": "Function Calling",
+  "def": "Strukturierter Mechanismus mit dem ein LLM externe Tools aufruft (z.B. Datenbank-Query, beA-API, Aktenzeichen-Lookup). Grundlage für agentische Workflows.",
+  "aliases": [
+   "Tool Use"
+  ]
+ },
+ {
+  "term": "Funktionaler Ansatz",
+  "def": "Auslegungsmethode des EuGH (SCHUFA C-634/21, Dun & Bradstreet C-203/22): Es kommt nicht auf die formale Konstruktion an, sondern auf die tatsächliche Wirkung. Wenn eine maschinelle Empfehlung 'maßgeblich' für eine menschliche Entscheidung ist, ist die Empfehlung de facto die Entscheidung."
+ },
+ {
+  "term": "GDPR",
+  "def": "General Data Protection Regulation. Europäische Datenschutzgrundverordnung."
+ },
+ {
+  "term": "GenAI",
+  "def": "Generative KI, die Text, Code, Bilder oder andere Inhalte erzeugen kann."
+ },
+ {
+  "term": "Generative KI",
+  "def": "KI, die neue Inhalte wie Texte, Bilder, Audio, Video oder Code erzeugt, statt nur Daten zu klassifizieren oder vorherzusagen."
+ },
+ {
+  "term": "Google Vertex AI",
+  "def": "Google Cloud Plattform für KI Modelle, MLOps und Enterprise KI Anwendungen."
+ },
+ {
+  "term": "Governance",
+  "def": "Strukturen, Prozesse, Rollen, Regelwerke und Kontrollen, mit denen eine Organisation den KI-Einsatz verantwortet. Drei Ebenen: Strategie, Strukturen, Prozesse. Pflicht aus AI Act, DSGVO, BRAO und Anwaltshaftung."
+ },
+ {
+  "term": "Governance Agent",
+  "def": "Agent, der Ergebnisse gegen Regeln, Richtlinien oder Gesetze prüft."
+ },
+ {
+  "term": "GPAI",
+  "def": "General Purpose AI. KI-Modelle mit allgemeinem Verwendungszweck, die für viele Aufgaben nutzbar sind. Eigene AI-Act-Pflichten nach Art. 53 ff. (anwendbar seit August 2025)."
+ },
+ {
+  "term": "GPT-4",
+  "def": "Multimodales LLM von OpenAI, März 2023. Nachfolger GPT-4o (Mai 2024) und GPT-5 (August 2025). Closed-Weights. Verbreitete Schnittstelle für Legal-Tech-Tools."
+ },
+ {
+  "term": "GPU (Grafikprozessor)",
+  "def": "Chip mit sehr vielen parallelen Recheneinheiten, der sich ideal für das Training und den Betrieb von KI-Modellen eignet. Nvidia dominiert diesen Markt, AMD und andere holen auf."
+ },
+ {
+  "term": "Guardrails",
+  "def": "Technische und prozessuale Sicherheitsregeln um ein produktives KI-System (Input-Filter, Output-Validierung, Rate Limits, Themensperren). Bei Hochrisiko-KI Pflicht nach Art. 14 AI Act.",
+  "aliases": [
+   "Sicherheitsleitplanken"
+  ]
+ },
+ {
+  "term": "Hallucination",
+  "def": "Plausibel klingende, aber falsche oder nicht belegte Ausgabe eines Sprachmodells."
+ },
+ {
+  "term": "Halluzination",
+  "def": "Fehler eines Sprachmodells, bei dem es plausibel klingende, aber sachlich falsche oder vom Input abweichende Aussagen produziert. Die akademisch saubere Definition (Huang et al. ACM TOIS 2024; Cossio Univ. Barcelona 2025) verwendet zwei Achsen: Factuality (gegen die Welt) vs. Faithfulness (gegen den Input); Intrinsisch (widerspricht direkt) vs. Extrinsisch (geht über Input hinaus). Verwandte, aber konzeptuell andere Probleme: Kalibrierungsmängel und Reasoning-Fehler."
+ },
+ {
+  "term": "Halluzinations-Detektion",
+  "def": "Verfahren zur automatischen Erkennung erfundener Inhalte: Cross-Reference, Self-Consistency, externes Faktenchecken. Noch unausgereift, menschliche Verifikation bleibt Pflicht."
+ },
+ {
+  "term": "HammerHAI",
+  "def": "Hybrid and Advanced Machine Learning Platform for Manufacturing, Engineering, and Research. EU-AI-Factory am Höchstleistungsrechenzentrum Stuttgart (HLRS). Vertrag zwischen EuroHPC JU und HPE unterzeichnet am 16.3.2026; Lieferung Q2 2026, Inbetriebnahme 2. Halbjahr 2026. Basis: NVIDIA GB200 NVL4 (Grace CPUs + Blackwell B200 GPUs, Quantum-X800 InfiniBand), 215 Knoten, 860 GPUs, über 15 Exaflops Peak-AI-Inferenzleistung. Budget €55 Mio. (EuroHPC JU + BMFTR + Baden-Württemberg). Schwerpunkt KMU/Start-ups, kostenfreier Zugang für berechtigte europäische Nutzer."
+ },
+ {
+  "term": "Harvey",
+  "def": "US-amerikanisches Legal-AI-Unternehmen, gegründet 2022 von Winston Weinberg und Gabriel Pereyra. Erstes Tool, das von Großkanzleien (A&O, Reed Smith, CMS, Cuatrecasas) im Enterprise-Maßstab eingeführt wurde. Bewertung im März 2026: 11 Mrd. USD."
+ },
+ {
+  "term": "High Risk System",
+  "def": "KI System mit erhöhtem regulatorischem Risiko, etwa in HR, Medizin oder kritischer Infrastruktur."
+ },
+ {
+  "term": "HITL",
+  "def": "Human in the Loop, menschliche Aufsicht in KI-Workflows als Voraussetzung für sichere und compliant Anwendung.",
+  "more": "HITL bedeutet, dass an kritischen Stellen ein Mensch in der Entscheidungsschleife ist. Bei Legal AI mindestens drei Eingriffspunkte: vor der KI-Anfrage (welche Daten dürfen rein), nach dem Output (substantielle Prüfung), vor der Außenwirkung (keine ungeprüften Schriftsätze). Art. 14 AI Act verlangt wirksame menschliche Aufsicht; bloß formale Anwesenheit reicht nicht (siehe Pseudo-HITL).",
+  "related": [
+   "Pseudo-HITL",
+   "Automation Bias"
+  ]
+ },
+ {
+  "term": "HmbBfDI",
+  "def": "Hamburgischer Beauftragter für Datenschutz und Informationsfreiheit, eine der profilierten deutschen Aufsichtsbehörden zu KI/DSGVO.",
+  "more": "Die HmbBfDI hat 2024 mit einem Diskussionspapier zur Position vertreten, dass Large Language Models grundsätzlich nicht als personenbezogene Daten einzustufen sind, soweit sie keine memorisierten Daten enthalten. Diese Position wurde von der dänischen Aufsicht ähnlich übernommen, von Baden-Württemberg und Bayern zurückhaltender gesehen. Die EDPB-Stellungnahme zu LLMs ist im Frühjahr 2026 in Vorbereitung.",
+  "related": [
+   "BfDI",
+   "DSK",
+   "DSGVO"
+  ]
+ },
+ {
+  "term": "Hochrisiko-KI",
+  "def": "KI-Systeme, die nach AI Act besonderen Pflichten unterliegen. Klassifiziert in Anhang I (Sicherheitskomponenten regulierter Produkte) und Anhang III (eigenständige Systeme in sensiblen Bereichen wie HR, Kreditscoring, Justiz)."
+ },
+ {
+  "term": "Huang Survey 2024",
+  "def": "Huang, Yu, Ma, Zhong, Feng, Wang, Chen, Liu (ACM TOIS 2024), 'A Survey on Hallucination in Large Language Models'. Die maßgebliche Taxonomie: Factuality vs. Faithfulness, mit Subtypen Instruction/Context/Logical Inconsistency. Standardreferenz für die Halluzinations-Diskussion."
+ },
+ {
+  "term": "Hugging Face",
+  "def": "US-Plattform für Open-Source-KI-Modelle, Datasets und Demos. „GitHub für KI“. Wichtige Quelle für Open-Weights-Modelle wie Llama oder Mistral."
+ },
+ {
+  "term": "Human-in-the-Loop",
+  "def": "Konzept, bei dem ein Mensch in den Entscheidungsprozess eines KI-Systems eingebunden ist. Nach Art. 14 AI Act muss diese Aufsicht 'wirksam' sein, Pseudo-HITL ist juristisch der Worst Case.",
+  "aliases": [
+   "HITL"
+  ]
+ },
+ {
+  "term": "Hyperscaler",
+  "def": "Große Cloud Anbieter wie Microsoft Azure, AWS oder Google Cloud."
+ },
+ {
+  "term": "IEEE 7000",
+  "def": "Standard für ethisches Systemdesign, IEEE 2021. Methodik für werteorientierte Architektur. Komplementär zu AI Act und ISO 42001."
+ },
+ {
+  "term": "Industrial AI Cloud",
+  "def": "Initiative der Deutschen Telekom mit NVIDIA. Standort: München (Telekom-Rechenzentrum, von Polarise renoviert). Hardware: über 1.000 NVIDIA DGX B200 Systeme + RTX PRO Server mit bis zu 10.000 Blackwell GPUs, 0,5 EFLOPS, ca. 20 PB Speicher. Investitionsvolumen ca. €1 Mrd. Erste Phase ab Q1 2026 in Betrieb. Aufschlag von rund 50% auf Deutschlands KI-Rechenleistung. Partner: SAP, Siemens, Perplexity, Agile Robots, NEURA Robotics, EDAG, PhysicsX, Wandelbots. Auf der Hannover Messe (20.-24.4.2026) als Sovereign-AI-Backbone Europas positioniert."
+ },
+ {
+  "term": "Inference",
+  "def": "Anwendungs-Phase eines KI-Modells, die Berechnung eines Outputs für einen konkreten Input. Im Unterschied zum Training. Bestimmt Latenz und API-Kosten in der Praxis."
+ },
+ {
+  "term": "Inferenz",
+  "def": "Der Betrieb eines trainierten Modells: Es erhält eine Eingabe und erzeugt eine Ausgabe. Im Gegensatz zum Training fällt Inferenz bei jeder einzelnen Anfrage an und bestimmt die laufenden Kosten."
+ },
+ {
+  "term": "Integration Layer",
+  "def": "Schicht, die KI Systeme mit bestehenden Datenbanken, APIs und Geschäftssystemen verbindet."
+ },
+ {
+  "term": "Intrinsisch vs. Extrinsisch",
+  "def": "Subkategorisierung innerhalb der Faithfulness-Halluzination: Intrinsisch = Output widerspricht einer konkreten Aussage des Inputs direkt (z.B. Vertrag nennt 42 Mio., Modell schreibt 24 Mio.). Extrinsisch = Output ergänzt etwas, das im Input weder bestätigt noch verneint wird (z.B. Modell ergänzt eine Wachstumsrate, die im Bericht nicht erwähnt war). In RAG-Systemen sind extrinsische Faithfulness-Halluzinationen oft das größere Risiko, sie sehen überzeugend aus, weil andere Fakten korrekt zitiert werden."
+ },
+ {
+  "term": "ISO 27001",
+  "def": "Internationaler Standard für Informationssicherheits-Managementsysteme. Bei sensiblen Mandatsdaten Mindestanforderung an externe KI-Anbieter."
+ },
+ {
+  "term": "ISO 42001",
+  "def": "Internationaler Standard für KI-Managementsysteme, Dezember 2023. Zertifizierungsgrundlage für AI-Act-Compliance. Beck-Noxtua zertifiziert."
+ },
+ {
+  "term": "Jailbreaking",
+  "def": "Techniken die Sicherheitsleitplanken eines Modells umgehen. Berufsrechtlich problematisch, kann zu unverlässlichen Outputs und erhöhtem Halluzinations-Risiko führen."
+ },
+ {
+  "term": "JANO",
+  "def": "Justiz-Anonymisierung. KI-Tool zur automatisierten Anonymisierung von Gerichtsentscheidungen vor Veröffentlichung. Entwickelt seit 2023 von der baden-württembergischen und hessischen Justiz mit IBM. Personenbezogene Daten werden automatisch erkannt, Pseudonyme zur Ersetzung vorgeschlagen."
+ },
+ {
+  "term": "Jobs to be Done",
+  "def": "Produktdenke, die danach fragt, welchen Fortschritt Nutzer wirklich erreichen wollen."
+ },
+ {
+  "term": "JSON RPC",
+  "def": "Leichtgewichtiges Nachrichtenformat für strukturierte Anfragen und Antworten."
+ },
+ {
+  "term": "JUPITER",
+  "def": "Joint Undertaking Pioneer for Innovative and Transformative Exascale Research. Erster europäischer Exascale-Supercomputer am Forschungszentrum Jülich. Inauguration am 5.9.2025 (Bundeskanzler Merz, NRW-Ministerpräsident Wüst, EU-Kommissarin Zaharieva). Booster-Modul mit ca. 24.000 NVIDIA GH200 Grace Hopper Superchips, Cluster-Modul mit SiPearl Rhea1 (ARM-basiert). Platz 4 der TOP500 (Juni 2025), energieeffizientestes System der Top 5. Budget €500 Mio. (EuroHPC JU 50%, BMFTR 25%, NRW 25%). Plus JUPITER AI Factory (JAIF) ab 2026 für KMU/Start-ups."
+ },
+ {
+  "term": "Kalibrierung",
+  "def": "Beschreibt, wie gut die ausgedrückte Sicherheit eines Modells mit der tatsächlichen Korrektheit übereinstimmt. LLMs sind notorisch schlecht kalibriert: erfundene Aussagen werden im selben sicheren Tonfall geäußert wie korrekte. Konzeptuell orthogonal zu Halluzination, verstärkt sie aber, weil sie sie weniger erkennbar macht. MIT 2025: Modelle nutzen 34% mehr Sicherheitsmarker bei Falschaussagen."
+ },
+ {
+  "term": "Kano Model",
+  "def": "Framework zur Einordnung von Produktfunktionen nach Basis, Leistungs und Begeisterungsmerkmalen."
+ },
+ {
+  "term": "KI-Audit",
+  "def": "Strukturierte Prüfung eines KI-Systems auf Compliance, Sicherheit, Bias und Governance. Pflicht für Hochrisiko-KI nach Art. 17 AI Act. Markt für externe Auditoren entsteht.",
+  "aliases": [
+   "AI Audit",
+   "Audit (KI)"
+  ]
+ },
+ {
+  "term": "KI-Kompetenz-Pflicht",
+  "def": "Pflicht aus Art. 4 AI Act für Anbieter und Betreiber, Mitarbeiter:innen ausreichende KI-Kompetenz zu vermitteln. Anwendbar seit 2.2.2025."
+ },
+ {
+  "term": "KI-MIG",
+  "def": "KI-Marktüberwachungs- und Innovationsförderungsgesetz. Deutsches Umsetzungsgesetz zum AI Act. Kabinettsentwurf vom 11.2.2026, im parlamentarischen Verfahren."
+ },
+ {
+  "term": "Konfabulation",
+  "def": "Wissenschaftlicher Begriff für Halluzination, Modell erzeugt plausibel klingende, aber faktisch falsche Inhalte ohne Bewusstsein des Fehlers. Im juristischen Kontext synonym mit Halluzination verwendet.",
+  "aliases": [
+   "Confabulation"
+  ]
+ },
+ {
+  "term": "Kontextfenster",
+  "def": "Menge an Text (in Tokens), die ein Modell bei einer Anfrage gleichzeitig berücksichtigen kann. Größere Fenster erlauben längere Dokumente und Gespräche."
+ },
+ {
+  "term": "Kontextverlust",
+  "def": "Subtyp der Faithfulness-Halluzination (intrinsisch): Wichtige Informationen aus Prompt oder Gesprächsverlauf werden ignoriert oder verfälscht wiedergegeben. In der Forschung: context inconsistency oder verzerrte Wiedergabe. Tritt verstärkt bei langen Eingaben auf (lost-in-the-middle-Phänomen)."
+ },
+ {
+  "term": "KPI",
+  "def": "Key Performance Indicator. Messgröße zur Bewertung von Leistung oder Erfolg."
+ },
+ {
+  "term": "LAION",
+  "def": "Large-scale Artificial Intelligence Open Network. Gemeinnütziger deutscher Verein, der den Datensatz LAION-5B (~5,85 Mrd. Bild-Text-Paare) für KI-Training bereitstellt. Beklagter im Rechtsstreit Kneschke gegen LAION: LG Hamburg, Urteil v. 27.9.2024, Az. 310 O 227/23 (Klage abgewiesen, § 60d UrhG); OLG Hamburg, Urteil v. 10.12.2025, Az. 5 U 104/24 &mdash; Berufung des Klägers zurückgewiesen, LG-Urteil im Ergebnis bestätigt; OLG hat darüber hinaus auch § 44b UrhG bejaht und Opt-out in natürlicher Sprache (jedenfalls für 2021) als nicht maschinenlesbar verworfen. Revision zum BGH wegen grundsätzlicher Bedeutung zugelassen."
+ },
+ {
+  "term": "LangChain",
+  "def": "Framework zum Aufbau von LLM Anwendungen und agentischen Workflows."
+ },
+ {
+  "term": "Latency",
+  "def": "Zeitverzögerung zwischen Anfrage und Antwort eines Systems."
+ },
+ {
+  "term": "Latenz",
+  "def": "Antwortzeit eines KI-Systems vom Prompt bis zum vollständigen Output. Bei Real-Time-Anwendungen (Diktat, Live-Recherche) kritisch, bestimmt Produktivität in der Kanzlei-Praxis.",
+  "aliases": [
+   "Latency"
+  ]
+ },
+ {
+  "term": "Le Chat",
+  "def": "Endkundenprodukt von Mistral AI. DSGVO-konforme europäische Alternative zu ChatGPT, basierend auf Mistral Large."
+ },
+ {
+  "term": "Legartis",
+  "def": "Schweizer/deutscher Legal-AI-Anbieter mit Fokus auf Vertragsanalyse und Klauselprüfung."
+ },
+ {
+  "term": "Lexis Protégé",
+  "def": "Generative KI von LexisNexis mit Shepard's Citations-Integration. Spezialisiertes Recherchewerkzeug für US-Recht."
+ },
+ {
+  "term": "Lexis+ AI",
+  "def": "KI-Recherche-Tool von LexisNexis (RELX). Stanford-Studie 2024: Halluzinationsrate 17%. Vermarktet als „speziell für Anwält:innen trainiert“, empirisch dennoch fehlbar.",
+  "aliases": [
+   "Lexis Plus AI"
+  ]
+ },
+ {
+  "term": "LG Frankfurt 25.9.2025",
+  "def": "WEG-Sache mit erfundenen BGH-Zitaten zur Streitwertberechnung. Az. 2-13 S 56/24, Beschluss v. 25.9.2025. Die Kammer sprach von „kompletter Fälschung\" und hoffte, „dass die Fälschungen nicht vom Klägervertreter selbst vorgenommen wurden, sondern von einem Chatbot halluziniert worden sind\"."
+ },
+ {
+  "term": "Llama",
+  "def": "Open-Weights-Sprachmodellfamilie von Meta. Llama 3 (April 2024), Llama 4 (Februar 2025). Eignet sich für lokales Hosting auf eigenen Servern, DSGVO-Vorteil."
+ },
+ {
+  "term": "LLM",
+  "def": "Large Language Model. Großes Sprachmodell. Statistisches Modell, das auf riesigen Textmengen trainiert wurde und auf Eingaben Texte generiert. Halluziniert systematisch.",
+  "aliases": [
+   "Sprachmodell"
+  ]
+ },
+ {
+  "term": "Lost in the Middle",
+  "def": "Empirisch dokumentiertes Schwächemuster langer Kontexteingaben: Modelle gewichten Anfang und Ende stark, übersehen aber Informationen in der Mitte. Relevant für lange Verträge, Schriftsätze, Akten, kritische Klauseln gehören an Anfang oder Ende des Prompts oder werden separat hervorgehoben (Liu et al. 2023)."
+ },
+ {
+  "term": "Lulius",
+  "def": "Deutsches Legal-AI-Unternehmen mit Fokus auf Anwaltskanzleien. EU-Hosting, AVV, RAG mit Quellenverweisen."
+ },
+ {
+  "term": "Mandatsgeheimnis",
+  "def": "Inhalt der Verschwiegenheitspflicht nach § 43a Abs. 2 BRAO. Erstreckt sich auf alles, was im Rahmen eines Mandats bekannt wird, einschließlich der Tatsache, dass überhaupt ein Mandatsverhältnis besteht. Strafrechtlich flankiert durch § 203 Abs. 1 Nr. 3 StGB."
+ },
+ {
+  "term": "Maschinelles Lernen",
+  "def": "Teilgebiet der KI, in dem Systeme Muster aus Daten lernen, statt nach festen Regeln programmiert zu werden."
+ },
+ {
+  "term": "Maßgeblichkeitsdoktrin",
+  "def": "EuGH-Doktrin aus SCHUFA C-634/21: Wenn eine KI-Empfehlung typischerweise unverändert übernommen wird, ist sie selbst die Entscheidung im Sinne von Art. 22 DSGVO.",
+  "more": "Der EuGH hat im SCHUFA-Urteil vom 7.12.2023 den funktionalen Ansatz für Art. 22 DSGVO etabliert: Es kommt nicht auf die formale Rollenverteilung an (Score-Lieferant vs. Entscheider), sondern auf die tatsächliche Wirkung. Wenn die KI-Empfehlung maßgeblich für die Entscheidung ist, fällt sie unter das Verbot rein automatisierter Entscheidungen. Die statistische Beweisführung der Maßgeblichkeit (Übernahme-Quote, Abweichungs-Quote) wird in der deutschen Aufsichtspraxis 2026 zunehmend genutzt.",
+  "related": [
+   "EuGH SCHUFA-Urteil",
+   "Art. 22 DSGVO",
+   "Pseudo-HITL"
+  ]
+ },
+ {
+  "term": "Mata v. Avianca",
+  "def": "Ikonischer US-Halluzinationsfall (S.D.N.Y. 2023). Anwalt Steven Schwartz reichte Schriftsatz mit von ChatGPT halluzinierten Aktenzeichen ein. Sanktion: 5.000 USD. Beginn der weltweiten Diskussion um KI-Halluzinationen in der Anwaltspraxis."
+ },
+ {
+  "term": "MCP",
+  "def": "Model Context Protocol. Standard, mit dem Agenten auf Tools und Daten zugreifen."
+ },
+ {
+  "term": "MCP Host",
+  "def": "Anwendung, in der ein Agent läuft und MCP Server anbindet."
+ },
+ {
+  "term": "MCP Server",
+  "def": "Komponente, die Datenquellen, Tools oder Prompts für Agenten verfügbar macht."
+ },
+ {
+  "term": "Memorisierung",
+  "def": "Phänomen, dass LLMs Teile ihrer Trainingsdaten wortgleich speichern und reproduzieren, urheberrechtlich relevant.",
+  "more": "Memorisierung ist eine strukturelle Eigenschaft hinreichend großer Modelle: Sie speichern nicht nur statistische Muster, sondern reproduzieren in bestimmten Konstellationen Text wortgleich. Das LG München I hat im GEMA-Urteil vom 11.11.2025 bestätigt, dass die TDM-Schranke nach § 44b UrhG nicht die Memorisierung trägt, die Ausgabe memorisierter geschützter Inhalte stellt Urheberrechtsverletzung dar. Anbieter implementieren Anti-Memorisierungs-Techniken (Differential Privacy, Output-Filtering), eliminieren das Phänomen aber nicht vollständig.",
+  "related": [
+   "Trainingsdaten",
+   "GEMA-Urteil",
+   "Halluzination"
+  ]
+ },
+ {
+  "term": "Mistral AI",
+  "def": "Französischer KI-Champion, gegründet April 2023 in Paris von Arthur Mensch (Ex-DeepMind), Guillaume Lample und Timothée Lacroix (beide Ex-Meta), alle drei École-Polytechnique-Alumni. Modelle: Mistral Large, Medium, Magistral, Devstral; Mixtral; Endkundenprodukt Le Chat (über 5 Mio. monatliche Nutzer). Bewertung €11,7 Mrd. nach Series C (September 2025, ASML-geführt, €1,3 Mrd. ASML-Anteil = 11%). $830 Mio. Kreditlinie März 2026 (Crédit Agricole CIB, HSBC, MUFG) für Datenzentren bei Paris und in Schweden mit 13.800 NVIDIA-GPUs. Revenue-Target: €1 Mrd. ARR Ende 2026 (Mensch, Davos Januar 2026)."
+ },
+ {
+  "term": "MLOps",
+  "def": "Methoden und Prozesse für Betrieb, Monitoring und Versionierung von ML Systemen."
+ },
+ {
+  "term": "Mobley v. Workday",
+  "def": "US-Verfahren gegen den HR-Software-Anbieter Workday wegen algorithmischer Diskriminierung beim KI-gestützten Bewerber-Screening. ADEA-Collective Action (FLSA-Opt-in, nicht FRCP-23-Class), preliminary certification am 16.5.2025 vom N.D. Cal. (Judge Rita F. Lin), Az. 3:23-cv-00770-RFL. Plaintiff Derek Mobley (Black, über 40, Disability). Workday wurde als 'Agent' der Arbeitgeber zur Klage zugelassen (Juli 2024), Hebel für direkte Vendor-Haftung."
+ },
+ {
+  "term": "Model Agnostic Architecture",
+  "def": "Architektur, die nicht von einem einzigen Modellanbieter abhängig ist."
+ },
+ {
+  "term": "Model Card",
+  "def": "Standardisiertes Dokument das ein Modell beschreibt: Trainingsdaten, Beschränkungen, Bias-Tests, vorgesehene Use Cases. Best-Practice nach Mitchell et al. 2019."
+ },
+ {
+  "term": "Model Drift",
+  "def": "Leistungsverlust eines Modells, wenn Daten oder Realität sich verändern."
+ },
+ {
+  "term": "Model Routing",
+  "def": "Automatische Auswahl des passenden Modells nach Kosten, Qualität, Latenz oder Risiko."
+ },
+ {
+  "term": "Multi Agent System",
+  "def": "System aus mehreren spezialisierten Agenten, die gemeinsam einen Workflow bearbeiten."
+ },
+ {
+  "term": "Multimodale KI",
+  "def": "KI die mehrere Datentypen verarbeitet (Text + Bild + Audio + Video). GPT-4o, Gemini, Claude 3+. Relevant für Akten-Scan, OCR und Audio-Diktate."
+ },
+ {
+  "term": "MVP",
+  "def": "Minimum Viable Product. Kleinste brauchbare Version zum Testen einer Kernhypothese."
+ },
+ {
+  "term": "Need-to-know-Prinzip",
+  "def": "Grundsatz, dass Daten nur insoweit weitergegeben werden, als zur Erfüllung der konkreten Aufgabe erforderlich. Zentral für § 43e BRAO. Großzügige Datenübertragungen verstoßen schon gegen dieses Prinzip."
+ },
+ {
+  "term": "Neuronales Netz",
+  "def": "Rechenmodell aus vernetzten Knoten (Neuronen), das Muster in Daten lernt. Die Verbindungsstärken werden beim Training angepasst."
+ },
+ {
+  "term": "NIST AI RMF",
+  "def": "AI Risk Management Framework des US-NIST, Januar 2023. Freiwillig, aber De-facto-Referenz für US-KI-Governance. Strukturelle Vorlage auch für EU-Kontext.",
+  "aliases": [
+   "NIST"
+  ]
+ },
+ {
+  "term": "North Star Metric",
+  "def": "Zentrale Produktmetrik, die langfristigen Nutzer und Geschäftswert bündelt."
+ },
+ {
+  "term": "Noxtua",
+  "def": "Deutsches Legal-AI-Unternehmen, entwickelt von Xayn (Berlin) und CMS. Hosting in Deutschland (IONOS München). Trainiert auf deutschem und EU-Recht. ISO 27001, ISO 42001, BSI C5 zertifiziert. Symbol des Diskurses um digitale Souveränität in der Anwaltschaft."
+ },
+ {
+  "term": "OECD AI Principles",
+  "def": "OECD-Grundsätze für vertrauenswürdige KI, ursprünglich 2019, im Mai 2024 erstmals umfassend aktualisiert &mdash; mit Schwerpunkt auf Generative AI, Sicherheit, Privacy, Bias-Minderung und Informationsintegrität. Endorsed von allen OECD-Mitgliedsländern und dem G20."
+ },
+ {
+  "term": "OKR",
+  "def": "Objectives and Key Results. Methode zur Zielsetzung und Wirkungsmessung."
+ },
+ {
+  "term": "OLG Celle 29.4.2025",
+  "def": "Halluzinations-Fall in der Berufungsinstanz. Az. 5 U 1/25. Anwaltlicher Pflichtverstoß durch ungeprüfte KI-Recherche-Übernahme bestätigt."
+ },
+ {
+  "term": "OLGA",
+  "def": "OberLandesGerichts-Assistent. KI-System am OLG Stuttgart für Massenverfahren im Diesel-Komplex. Im Echtbetrieb seit November 2022. Über 13.000 Berufungsverfahren betroffen. Reduktion der Bearbeitungszeit um ~50%."
+ },
+ {
+  "term": "On Premise",
+  "def": "Betrieb von Software oder Infrastruktur in der eigenen Umgebung statt in der Cloud."
+ },
+ {
+  "term": "Open Source Model",
+  "def": "Modell mit offenen Gewichten oder offener Nutzung, oft relevant für Souveränität."
+ },
+ {
+  "term": "Open Weights",
+  "def": "Veröffentlichte Modellgewichte, die jeder herunterladen und selbst betreiben kann. Anders als bei klassischer Open Source sind Trainingsdaten und -code oft nicht frei verfügbar."
+ },
+ {
+  "term": "OpenAI",
+  "def": "US-KI-Forschungsunternehmen, gegründet 2015. Macher von GPT-Modellen, ChatGPT, DALL-E. Microsoft-Partner. Sitz in San Francisco."
+ },
+ {
+  "term": "Outcome Based Pricing",
+  "def": "Preismodell, das stärker an Ergebnissen als an Arbeitszeit orientiert ist."
+ },
+ {
+  "term": "Output Guardrails",
+  "def": "Prüfmechanismen, die Ausgaben vor Nutzung oder Veröffentlichung kontrollieren."
+ },
+ {
+  "term": "Overfitting",
+  "def": "Modell lernt Trainingsdaten zu exakt und versagt bei neuen Daten. Symptom: hohe Genauigkeit auf Bestand, niedrige Generalisierung. Pflicht-Test im Audit nach Art. 15 AI Act.",
+  "aliases": [
+   "Überanpassung"
+  ]
+ },
+ {
+  "term": "Parameter",
+  "def": "Die gelernten Zahlenwerte (Gewichte) eines neuronalen Netzes. Die Parameterzahl gilt als grobes Maß für die Größe eines Modells, sagt aber allein wenig über dessen Qualität."
+ },
+ {
+  "term": "Payback Period",
+  "def": "Zeitraum, bis sich eine Investition wirtschaftlich amortisiert."
+ },
+ {
+  "term": "PII",
+  "def": "Personally Identifiable Information. Personenbezogene identifizierbare Informationen."
+ },
+ {
+  "term": "Pilot Purgatory",
+  "def": "Zustand, in dem KI Piloten nie in produktive Nutzung überführt werden."
+ },
+ {
+  "term": "Playbook",
+  "def": "In der Legal AI strukturierte Sammlung von Standardpositionen, Klauselvarianten, Fallback-Stufen und Risikobewertungen für ein bestimmtes Vertrags- oder Mandatsthema. Wissensspeicher der Kanzlei in maschinenlesbarer Form."
+ },
+ {
+  "term": "Post Market Monitoring",
+  "def": "Laufende Überwachung eines Systems nach dem Rollout."
+ },
+ {
+  "term": "Pre Sales",
+  "def": "Aktivitäten vor Vertragsabschluss, etwa Discovery, Pitch, RFP Antwort und Lösungsskizze."
+ },
+ {
+  "term": "Produkthaftungsrichtlinie 2024/2853",
+  "def": "Neue EU-Richtlinie, in Kraft seit Dezember 2024, Umsetzung bis 9.12.2026. Software wird ausdrücklich als Produkt eingestuft. Quasi-Hersteller-Haftung. Beweiserleichterungen bei komplexen Systemen. Erweiterte Schadenskategorien (auch immaterielle Schäden)."
+ },
+ {
+  "term": "Prompt",
+  "def": "Eingabe an ein Sprachmodell. Kann Frage, Anweisung, Beispielsammlung oder Kombination sein. Qualität des Prompts beeinflusst Qualität des Outputs erheblich."
+ },
+ {
+  "term": "Prompt Engineering",
+  "def": "Gezieltes Formulieren und Strukturieren von Eingaben an ein KI-Modell, um bessere und zuverlässigere Ergebnisse zu erhalten."
+ },
+ {
+  "term": "Prompt Injection",
+  "def": "Angriff bei dem schädliche Anweisungen in scheinbar harmlosen Eingaben versteckt werden, um das Modell zu manipulieren. OWASP-Top-10-Risiko für LLM-Anwendungen."
+ },
+ {
+  "term": "Proxy-Variable",
+  "def": "Stellvertretermerkmal, das indirekt mit einem geschützten Merkmal korreliert (etwa Postleitzahl als Proxy für ethnische Zusammensetzung, Vorname als Proxy für Herkunft). Grund, warum 'Fairness through Unawareness' (Entfernen geschützter Merkmale) nicht funktioniert."
+ },
+ {
+  "term": "Pseudo-HITL",
+  "def": "Pseudo-Human-in-the-Loop. Konstellation, in der formal ein Mensch in der Entscheidungsschleife ist, faktisch aber nicht substantiell entscheiden kann. Vier Pathologien: rituelle Bestätigung, Komplexitätsfalle, Autoritätsumkehr, Eskalationslähmung."
+ },
+ {
+  "term": "Pseudonymisierung",
+  "def": "Verfahren, bei dem direkte personenbeziehende Merkmale durch Pseudonyme ersetzt werden. Daten bleiben aber personenbezogen, wenn die Zuordnung restituierbar ist. Schwächer als Anonymisierung."
+ },
+ {
+  "term": "PSM I",
+  "def": "Professional Scrum Master I. Zertifizierung von Scrum.org."
+ },
+ {
+  "term": "Quantisierung",
+  "def": "Technik, die Modellgewichte mit weniger Bits speichert, damit Modelle weniger Speicher brauchen und schneller laufen, bei meist geringem Qualitätsverlust."
+ },
+ {
+  "term": "RAG",
+  "def": "Retrieval Augmented Generation. Architektur, bei der ein Sprachmodell zur Laufzeit auf eine Wissensdatenbank zugreift und seine Ausgaben mit Quellenverweisen versieht. Reduziert Halluzinationen erheblich.",
+  "aliases": [
+   "Retrieval Augmented Generation"
+  ]
+ },
+ {
+  "term": "RDG",
+  "def": "Rechtsdienstleistungsgesetz. Verbotsgesetz mit Erlaubnisvorbehalt, das die Erbringung außergerichtlicher Rechtsdienstleistungen regelt. § 3 BRAO ist die zentrale Erlaubnis für die Anwaltschaft. Bei zu autonomen KI-Anwendungen RDG-Risiko."
+ },
+ {
+  "term": "Realization Rate",
+  "def": "Anteil der geplanten oder vertraglichen Leistung, der tatsächlich abrechenbar realisiert wird."
+ },
+ {
+  "term": "Reasoning Model",
+  "def": "Modellvariante mit stärkerem Fokus auf mehrstufiges Denken und Problemlösen."
+ },
+ {
+  "term": "Reasoning-Fehler",
+  "def": "Falsche Schlussfolgerung aus an sich korrekten Prämissen. Output ist treu zur Quelle und nicht Halluzination, sondern logischer Fehler. Eigene Mitigation: Chain-of-Thought-Verifier, Schritt-für-Schritt-Validierung, formale Logikchecks."
+ },
+ {
+  "term": "Reasoning-Modell",
+  "def": "Sprachmodell, das vor der Antwort längere Zwischenschritte durchdenkt und dadurch bei Mathematik, Logik und Programmieren oft besser abschneidet, aber mehr Rechenzeit braucht."
+ },
+ {
+  "term": "Reasoning-Paradox",
+  "def": "Empirisch belegter Befund 2025–2026: Reasoning-Modelle (mit langen Chain-of-Thought-Ketten) halluzinieren auf grounded RAG-Aufgaben häufiger als Nicht-Reasoning-Modelle. Vectara HHEM März 2026: GPT-5, Claude Sonnet 4.5, Grok-4, Gemini-3-Pro alle über 10%; Grok-4-fast-reasoning 20,2%. Hypothese: 'Überdenken' entfernt vom Quelltext. Quelle: arXiv 2505.23646 'Are Reasoning Models More Prone to Hallucination?'"
+ },
+ {
+  "term": "Rechenzentrum",
+  "def": "Anlage mit Servern, Netzwerk und Kühlung. KI-Rechenzentren benötigen sehr viel Strom, was Energiepreise, Netzausbau und Standortpolitik beeinflusst."
+ },
+ {
+  "term": "Red-Teaming",
+  "def": "Gezielte Angriffsversuche auf ein KI-System um Schwachstellen zu finden (Jailbreaks, Prompt Injection, Bias-Trigger). Pflicht bei Foundation Models nach Art. 55 AI Act."
+ },
+ {
+  "term": "Reproduzierbarkeit",
+  "def": "Eigenschaft dass identische Eingaben identische oder ähnliche Outputs liefern. Bei LLMs durch Temperature und Stochastik begrenzt, Konflikt mit Art. 13 AI Act (Transparenz) und gerichtlicher Nachvollziehbarkeit.",
+  "aliases": [
+   "Reproducibility"
+  ]
+ },
+ {
+  "term": "Reward Hacking",
+  "def": "Phänomen bei dem ein Modell die Trainings-Belohnungsmetrik maximiert ohne den eigentlichen Zweck zu erfüllen. Beispiel: KI bewertet Verträge formal positiv, ignoriert versteckte Risiko-Klauseln."
+ },
+ {
+  "term": "RFI",
+  "def": "Request for Information. Voranfrage zur Informationssammlung vor einer Ausschreibung."
+ },
+ {
+  "term": "RFP",
+  "def": "Request for Proposal. Formale Ausschreibung mit Lösungsvorschlag und Angebot."
+ },
+ {
+  "term": "RFQ",
+  "def": "Request for Quotation. Anfrage mit Fokus auf Preisangaben."
+ },
+ {
+  "term": "RICE",
+  "def": "Priorisierungsframework nach Reach, Impact, Confidence und Effort."
+ },
+ {
+  "term": "RLHF",
+  "def": "Reinforcement Learning from Human Feedback. Trainingsverfahren bei dem Menschen Modell-Outputs bewerten. Beeinflusst maßgeblich was als „richtig“ gilt, Bias-Risiko."
+ },
+ {
+  "term": "Robustheit",
+  "def": "Widerstandsfähigkeit eines KI-Systems gegen Fehler, Adversarial-Inputs und Verteilungs-Shifts. Anforderung nach Art. 15 AI Act für Hochrisiko-KI.",
+  "aliases": [
+   "Robustness"
+  ]
+ },
+ {
+  "term": "ROI",
+  "def": "Return on Investment. Verhältnis von Nutzen zu Investition."
+ },
+ {
+  "term": "Routing Layer",
+  "def": "Entscheidungssystem das eingehende AI-Anfragen klassifiziert und an das passende Modell weiterleitet. Einfache Aufgaben → kleines, günstiges Modell (z.B. GPT-4o-mini). Komplexes Reasoning → Frontier-Modell (z.B. Claude Opus). Ergebnis: 30–60% Token-Kosteneinsparung ohne Qualitätsverlust."
+ },
+ {
+  "term": "RPA",
+  "def": "Robotic Process Automation. Regelbasierte Automatisierung wiederholbarer Prozesse."
+ },
+ {
+  "term": "Sandbox",
+  "def": "Abgeschirmte Umgebung, in der Programme oder KI-Agenten Code ausführen können, ohne das restliche System zu gefährden."
+ },
+ {
+  "term": "Schatten-KI",
+  "def": "Nutzung von KI-Tools ohne Wissen oder Freigabe der Organisationsleitung. Ein zentrales Compliance-Risiko: Verletzungen von § 43a Abs. 2 BRAO, § 203 StGB, Art. 4 AI Act und DSGVO-Pflichten passieren häufig genau hier."
+ },
+ {
+  "term": "Schrems II",
+  "def": "EuGH-Urteil C-311/18 vom 16.7.2020. Erklärt das Privacy Shield-Abkommen für ungültig wegen US-Behördenzugriffsmöglichkeiten nach CLOUD Act. Folgenreich für Drittland-Datentransfers."
+ },
+ {
+  "term": "Scoped Permissions",
+  "def": "Begrenzte Rechte für Agenten oder Tools nach dem Prinzip minimaler Zugriff."
+ },
+ {
+  "term": "Scrum",
+  "def": "Agiles Rahmenwerk mit Rollen, Events und Artefakten für iterative Produktentwicklung."
+ },
+ {
+  "term": "Server Sent Events",
+  "def": "Webtechnik für kontinuierliche Statusupdates vom Server zum Client."
+ },
+ {
+  "term": "Skill",
+  "def": "Wiederverwendbares Paket aus Anleitung, Skripten und Hilfsdateien, das einem KI-Agenten eine bestimmte Fähigkeit oder einen Arbeitsablauf beibringt."
+ },
+ {
+  "term": "SLA",
+  "def": "Service Level Agreement. Vertraglich definierte Leistungs und Verfügbarkeitszusagen."
+ },
+ {
+  "term": "Sovereign AI",
+  "def": "KI Betrieb unter lokaler oder europäischer Kontrolle mit hoher Datensouveränität."
+ },
+ {
+  "term": "SOW",
+  "def": "Statement of Work. Vertragsdokument mit Scope, Deliverables, Timeline und Akzeptanzkriterien."
+ },
+ {
+  "term": "Sprint",
+  "def": "Zeitlich begrenzter Arbeitszyklus in Scrum."
+ },
+ {
+  "term": "Sprint Review",
+  "def": "Scrum Event zur Betrachtung des Inkrements und zum Lernen aus Feedback."
+ },
+ {
+  "term": "SSH",
+  "def": "Secure Shell, verschlüsseltes Netzwerkprotokoll für sichere Remote-Verbindungen zu Servern. Im AI-Kontext relevant für: Deployment von selbst gehosteten Modellen (Llama, Mistral auf eigener Infrastruktur), Remote-Management von GPU-Servern und Datenpipelines, sichere Übertragung von Trainingsdaten. Für Enterprise-Clients, die Modelle on-premise betreiben wollen, ist SSH-Zugang die Grundvoraussetzung für alles weitere."
+ },
+ {
+  "term": "Staff Augmentation",
+  "def": "Dienstleistungsmodell, bei dem primär Personal bereitgestellt wird."
+ },
+ {
+  "term": "Stanford CRFM",
+  "def": "Center for Research on Foundation Models, Stanford University. Forschungsinstitut, Herausgeber der Halluzinations-Studie zu Lexis+ und Westlaw (Magesh et al. 2024)."
+ },
+ {
+  "term": "Stanford-Studie",
+  "def": "Magesh et al., 'AI on Trial: Legal Models Hallucinate' (Stanford 2024). Empirische Untersuchung der Halluzinationsraten kommerzieller Legal-AI-Tools: Lexis+ AI 17%, Westlaw 33%. Zentraler Beleg für die Halluzinationsproblematik."
+ },
+ {
+  "term": "STAR",
+  "def": "Interviewstruktur aus Situation, Task, Action und Result."
+ },
+ {
+  "term": "STEM",
+  "def": "Science, Technology, Engineering and Mathematics, Sammelbezeichnung für naturwissenschaftlich-technische Disziplinen. Im AI-Kontext: Grok wird als \"STEM Frontrunner\" bezeichnet, weil es in wissenschaftlichen Benchmark-Tests (Mathematik, Physik, Coding, Logik) besonders stark abschneidet, und dort gezielt gegen GPT-4o und Claude konkurriert."
+ },
+ {
+  "term": "Success Metric",
+  "def": "Messgröße, an der Erfolg eines Produkts oder Projekts bewertet wird."
+ },
+ {
+  "term": "Superintelligenz",
+  "def": "Hypothetische KI, die menschliche Fähigkeiten in praktisch allen Bereichen deutlich übertrifft. Der Begriff taucht in der politischen und strategischen Debatte um KI-Sicherheit häufig auf."
+ },
+ {
+  "term": "Sycophancy",
+  "def": "Tendenz von Sprachmodellen die Position oder Meinung des Nutzers zu bestätigen statt zu hinterfragen. Bei juristischer Recherche gefährlich, KI bestätigt fehlerhafte Hypothesen statt zu widersprechen.",
+  "aliases": [
+   "Schmeichelei-Bias"
+  ]
+ },
+ {
+  "term": "Synthetische Daten",
+  "def": "Künstlich erzeugte Trainingsdaten, etwa von einem Modell generierte Texte oder Bilder. Sie ergänzen knappe echte Daten, bergen aber das Risiko sich verstärkender Fehler."
+ },
+ {
+  "term": "System Prompt",
+  "def": "Vorgegebene Grundanweisung, die Rolle, Regeln und Stil eines KI-Assistenten festlegt und vor der Nutzereingabe steht."
+ },
+ {
+  "term": "T&M",
+  "def": "Time & Materials, Abrechnungsmodell, bei dem der Aufwand (Stunden × Tagessatz) direkt berechnet wird. Gegenmodell: Outcome-based oder Value-based Pricing. T&M ist Standard in klassischer IT-Delivery, wird aber im AI-nativen Beratungsmarkt zunehmend durch Ergebnis-orientierte Modelle ersetzt."
+ },
+ {
+  "term": "TCO",
+  "def": "Total Cost of Ownership. Gesamtkosten über Anschaffung, Betrieb und Wartung."
+ },
+ {
+  "term": "Temperature",
+  "def": "Sampling-Parameter bei LLMs, der die Zufalls-Streuung der Output-Generierung steuert. Niedrige Werte = deterministischer, hohe Werte = kreativer.",
+  "more": "Temperature ist ein numerischer Parameter zwischen 0 und 2, der bei der Token-Auswahl die Wahrscheinlichkeitsverteilung modifiziert. Bei Temperature 0 wird (fast) immer das wahrscheinlichste Token gewählt, quasi-deterministisch. Bei Temperature 1 wird gemäß den natürlichen Wahrscheinlichkeiten gesampelt. Bei Temperature 2 wird die Verteilung abgeflacht, auch unwahrscheinliche Tokens werden gewählt, der Output wird kreativ aber unzuverlässig. Für juristische Anwendungen typisch Werte zwischen 0 und 0.3, um Konsistenz zu maximieren.",
+  "related": [
+   "Determinismus",
+   "Reproduzierbarkeit",
+   "LLM"
+  ]
+ },
+ {
+  "term": "Text and Data Mining",
+  "def": "Automatisierte Analyse von Texten und Daten. § 44b UrhG (allgemeine TDM-Schranke), § 60d UrhG (TDM für wissenschaftliche Forschung). Zentral für die urheberrechtliche Bewertung von KI-Trainingsdaten (LAION, GEMA-Verfahren).",
+  "aliases": [
+   "TDM"
+  ]
+ },
+ {
+  "term": "Time and Material",
+  "def": "Abrechnungsmodell nach tatsächlich geleisteter Zeit und Aufwand."
+ },
+ {
+  "term": "Token",
+  "def": "Kleinste Verarbeitungseinheit eines Sprachmodells. Etwa drei Viertel eines Wortes auf Deutsch. Beispiel: 'Anwaltschaft' = ca. 4 Tokens. Modelle haben Token-Limits (Kontextfenster), die bestimmen, wie viel Text gleichzeitig verarbeitet werden kann."
+ },
+ {
+  "term": "Token Economy",
+  "def": "Kosten und Steuerungslogik rund um Token Verbrauch in KI Systemen."
+ },
+ {
+  "term": "Tool Allow List",
+  "def": "Liste erlaubter Tools, die ein Agent nutzen darf."
+ },
+ {
+  "term": "Tool Calling",
+  "def": "Fähigkeit eines Modells, externe Funktionen oder APIs aufzurufen."
+ },
+ {
+  "term": "Trainingsdaten",
+  "def": "Datenmenge, mit der ein Sprachmodell trainiert wurde. Qualität, Repräsentativität und urheberrechtliche Sauberkeit sind zentrale Themen. Drei Ebenen: Foundation-Modell-Training, domänenspezifische Anpassung, Laufzeitkontext (RAG)."
+ },
+ {
+  "term": "Transformer",
+  "def": "Neuronale Netzarchitektur, die Sprachmodelle wie GPT oder Claude trägt. Sie nutzt Aufmerksamkeit (Attention), um Beziehungen zwischen allen Teilen eines Textes gleichzeitig zu gewichten."
+ },
+ {
+  "term": "Trilog",
+  "def": "Verhandlung zwischen EU-Kommission, EU-Parlament und EU-Rat über einen Gesetzgebungsentwurf. Stand April 2026: Trilog zum Digital Omnibus läuft, Einigung bis Mai 2026 angestrebt."
+ },
+ {
+  "term": "Urheberrecht und KI",
+  "def": "Streitfragen, ob Training mit geschützten Werken erlaubt ist und wem KI-Ergebnisse gehören. In mehreren Ländern laufen Klagen von Verlagen, Autoren und Künstlern gegen KI-Anbieter."
+ },
+ {
+  "term": "Use Case Inventory",
+  "def": "Strukturierte Sammlung und Bewertung möglicher Anwendungsfälle."
+ },
+ {
+  "term": "User Story",
+  "def": "Anforderung aus Nutzersicht mit gewünschtem Ergebnis."
+ },
+ {
+  "term": "User Story Mapping",
+  "def": "Methode zur Strukturierung von Nutzerjourneys und Produktumfang."
+ },
+ {
+  "term": "Utilization",
+  "def": "Anteil der Arbeitszeit, der abrechenbar auf Kundenprojekte entfällt."
+ },
+ {
+  "term": "Vectara HHEM",
+  "def": "Hughes Hallucination Evaluation Model (Vectara), Industriestandard für Faithfulness-Messung in RAG-Tasks. Misst, wie oft ein Modell beim Zusammenfassen eines vorgelegten Dokuments Aussagen erzeugt, die im Dokument nicht belegt sind. HHEM-2.3 + neuer Datensatz mit 7.700 Artikeln (bis 32k Token) seit Dezember 2025. Originalwerte (1.000-Doc-Bench): Gemini-2.0-Flash 0,7%, GPT-4o 1,5%. FaithJudge-Variante kombiniert HHEM mit LLM-as-Judge (Tamber et al. 2025)."
+ },
+ {
+  "term": "Vector Database",
+  "def": "Datenbank für semantische Suche über Embeddings."
+ },
+ {
+  "term": "Vector Store",
+  "def": "Speicher für Embeddings und semantisch durchsuchbare Dokumente."
+ },
+ {
+  "term": "Vendor Lock In",
+  "def": "Abhängigkeit von einem Anbieter durch Daten, Architektur oder Vertragsmodell."
+ },
+ {
+  "term": "Verschwiegenheitspflicht",
+  "def": "Zentrale berufsrechtliche Pflicht der Anwaltschaft nach § 43a Abs. 2 BRAO. Erstreckt sich auf alles, was im Rahmen eines Mandats bekannt wird. Strafrechtlich flankiert durch § 203 Abs. 1 Nr. 3 StGB. Gilt technologieneutral auch beim KI-Einsatz."
+ },
+ {
+  "term": "Vibe Coding",
+  "def": "Programmieren, bei dem man das gewünschte Ergebnis in natürlicher Sprache beschreibt und eine KI den Code schreibt, ohne ihn im Detail zu prüfen."
+ },
+ {
+  "term": "Westlaw Precision AI",
+  "def": "KI-Recherche-Tool von Thomson Reuters. Stanford-Studie 2024: Halluzinationsrate 33%, doppelt so hoch wie Lexis+. Erinnerung an die Verifikationspflicht."
+ },
+ {
+  "term": "Why Language Models Hallucinate",
+  "def": "OpenAI-Paper von Kalai/Nachum/Vempala/Zhang (September 2025, arXiv 2509.04664). Zentrale These: Halluzinationen entstehen, weil Trainings- und Evaluations-Pipelines confident guessing über 'I don't know' belohnen. Strukturelles Anreizproblem statt reiner Architektur-Defekt, implizit Aufforderung an die Branche, Benchmarks neu zu denken."
+ },
+ {
+  "term": "Wolters Kluwer Future Ready Lawyer",
+  "def": "Jährliche Studie von Wolters Kluwer zur Lage der Rechtsbranche. Aktuelle Ausgabe 'Future Ready Lawyer 2026': 22% der Organisationen haben sichtbare KI-Strategie, strategisch agierende Kanzleien sind 3,5-mal häufiger erfolgreich."
+ },
+ {
+  "term": "Workday",
+  "def": "US-amerikanischer HR-Software-Anbieter. Beklagter in Mobley v. Workday (ADEA-Collective Action, N.D. Cal. Az. 3:23-cv-00770-RFL, Judge Rita F. Lin) und Gegenstand des BAG-Urteils 8 AZR 209/21 vom 8.5.2025 (immaterieller Schadensersatz nach Art. 82 DSGVO)."
+ },
+ {
+  "term": "Workflow Integration",
+  "def": "Einbettung von KI in bestehende Geschäftsprozesse statt isolierter Nutzung."
+ },
+ {
+  "term": "Xayn",
+  "def": "Berliner KI-Unternehmen, Entwickler von Noxtua. Fokus auf datenschutzkonforme, auf europäisches Recht spezialisierte KI-Modelle."
+ },
+ {
+  "term": "Zero Trust",
+  "def": "Sicherheitsprinzip, bei dem keinem Zugriff standardmäßig vertraut wird."
+ },
+ {
+  "term": "Zero-Shot Prompting",
+  "def": "Prompt ohne Beispiele, Modell nutzt nur sein Allgemeinwissen. Basisfall, oft ausreichend bei Standardaufgaben."
+ }
+]
