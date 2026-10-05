@@ -414,6 +414,7 @@ async function viewDay(dateArg, q) {
   const dayAll = day ? day.items.filter((i) => !i.dup_of) : index.items.filter((i) => i.date === date);
   const items = dayAll.filter((i) => !region || i.region === region);
   const newN = dayAll.filter(isNew).length;
+  const wk = isoWeek(date);
   const pos = store.dates.indexOf(date);
   const stand = standText(index.updated);
 
@@ -449,8 +450,11 @@ async function viewDay(dateArg, q) {
       nav),
     h('div', { class: 'day-tools' },
       chipRow(regionOptions(dayAll), region, (v) => { store.regionSel = v; go(dateArg ? '/tag/' + date : '/', { region: v }, true); route(); }, 'Bereich'),
-      h('a', { class: 'brief-btn', href: '#/briefing' + (pos === 0 ? '' : '?d=' + date) },
-        h('span', null, h('strong', null, 'Kurz-Briefing in 3 Min'), h('small', null, 'Das Wichtigste in Kürze, ideal für unterwegs')), h('span', { class: 'brief-go', 'aria-hidden': 'true' }, '\u203A'))),
+      h('div', { class: 'brief-pair' },
+        h('a', { class: 'brief-btn', href: '#/briefing' + (pos === 0 ? '' : '?d=' + date) },
+          h('span', null, h('strong', null, 'Kurz-Briefing in 3 Min'), h('small', null, 'Das Wichtigste in Kürze'))),
+        h('a', { class: 'brief-btn week', href: '#/woche' + (pos === 0 ? '' : '?w=' + wk.key) },
+          h('span', null, h('strong', null, 'Woche'), h('small', null, wk.end < todayStr() ? `KW ${wk.week} komplett` : `KW ${wk.week} läuft`))))),
     st.showTop && top.length ? h('section', { class: 'top-stories', 'aria-labelledby': 'ts' },
       h('h2', { id: 'ts' }, 'Top-Stories'),
       h('ol', null, top.map(({ o, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` }, h('div', null,

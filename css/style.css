@@ -520,3 +520,12 @@ details.filterbox > .filter-grid { margin: 0; }
 .st-dot.off { background: var(--border); }
 .st-name { display: inline-flex; align-items: center; min-width: 0; font-weight: 600; }
 .src-list.problems small { color: var(--muted); }
+
+/* ---- Zwei Einstiege: Kurz-Briefing und Woche ---- */
+.brief-pair { display: grid; grid-template-columns: 1.7fr 1fr; gap: 8px; margin: 0; }
+.day-tools .brief-pair { flex: 0 1 470px; }
+.brief-pair .brief-btn { margin: 0; min-width: 0; }
+.brief-btn.week { background: color-mix(in srgb, var(--accent) 8%, var(--surface)); }
+.brief-pair .brief-btn small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.brief-pair .brief-btn strong { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 719px) { .day-tools .brief-pair { order: -1; flex: none; } }
