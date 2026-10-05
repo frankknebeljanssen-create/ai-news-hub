@@ -415,7 +415,7 @@ function card(item, query) {
       h('span', null, fmtShort(item.date)),
       h('span', { class: 'rel', title: `Relevanz ${item.relevanz} von 5`, 'aria-label': `Relevanz ${item.relevanz} von 5` }, '\u25CF'.repeat(item.relevanz))),
     alsoLine(item),
-    item.tags && item.tags.length ? h('div', { class: 'tags' }, item.tags.map((t) => h('span', null, '#' + t))) : null,
+    item.tags && item.tags.length ? h('div', { class: 'tags' }, item.tags.map((t) => h('span', { class: t === 'AITI' ? 'tag-aiti' : null }, '#' + t))) : null,
     h('a', { class: 'orig', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer', title: item.quelle_titel }, 'Zum Original \u2197'));
   if (getSettings().expandAll) { el.classList.add('open'); more.textContent = 'Weniger'; }
   more.addEventListener('click', () => { const on = el.classList.toggle('open'); more.textContent = on ? 'Weniger' : 'Mehr lesen'; });
@@ -508,6 +508,9 @@ async function viewDay(dateArg, q) {
           h('span', null, h('strong', null, 'Der Tag in Kürze'), h('small', null, 'Short Briefing'))),
         h('a', { class: 'brief-btn week', href: '#/woche' + (pos === 0 ? '' : '?w=' + wk.key) },
           h('span', null, h('strong', null, 'Die Woche in Kürze'), h('small', null, wk.end < todayStr() ? `KW ${wk.week} komplett` : `KW ${wk.week} läuft`))))),
+    aitiItems().length ? h('a', { class: 'brief-btn aiti', href: '#/aiti' },
+      h('span', null, h('strong', null, 'Für AITI'), h('small', null, 'Weiterbildung, KI-Kompetenz, Bildungsmarkt')),
+      h('span', { class: 'aiti-n' }, String(aitiItems().length))) : null,
     st.showTop && top.length ? h('section', { class: 'top-stories', 'aria-labelledby': 'ts' },
       h('h2', { id: 'ts' }, 'Top-Stories'),
       h('ol', null, top.map(({ o, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` }, h('div', null,
@@ -710,7 +713,24 @@ function glLetter(t) {
 
 function backLabel(hsh) {
   const a = hsh.replace(/^#\//, '').split('?')[0].split('/')[0];
-  return ({ '': 'Heute', tag: 'Heute', briefing: 'Kurz-Briefing', woche: 'Die Woche in Kürze', archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', status: 'Status' })[a] || 'vorheriger Seite';
+  return ({ '': 'Heute', tag: 'Heute', briefing: 'Kurz-Briefing', woche: 'Die Woche in Kürze', aiti: 'AITI', archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', status: 'Status' })[a] || 'vorheriger Seite';
+}
+
+/* ---------- Ansicht: AITI (alle Meldungen mit dem Tag "AITI") ---------- */
+
+const aitiItems = () => store.index.items.filter((i) => !i.dup_of && (i.tags || []).includes('AITI')).sort((a, b) => b.date.localeCompare(a.date) || b.relevanz - a.relevanz);
+
+async function viewAiti() {
+  await loadIndex();
+  const list = aitiItems();
+  const days = [...new Set(list.map((i) => i.date))];
+  render(
+    h('h1', null, 'AITI'),
+    h('p', { class: 'sub' }, `${list.length} Meldungen, die für uns interessant sind: Weiterbildung, KI-Kompetenz, Bildungsmarkt, Qualifizierung und mehr.`),
+    !list.length ? h('p', { class: 'empty' }, 'Noch keine Meldungen mit AITI-Bezug.') : null,
+    ...days.map((d) => h('section', { class: 'section', style: '--c:var(--t-aiti, var(--accent))' },
+      h('h2', null, dayLabel(d), h('span', { class: 'count-badge' }, list.filter((i) => i.date === d).length)),
+      list.filter((i) => i.date === d).map((i) => card(i)))));
 }
 
 async function viewGlossary(q) {
@@ -1205,7 +1225,7 @@ async function route() {
   if (store.briefAbort) { store.briefAbort.abort(); store.briefAbort = null; }
   if (!location.hash && getSettings().startBriefing && !store.startDone) { store.startDone = true; history.replaceState(null, '', '#/briefing'); }
   const { parts, q } = parseHash();
-  const area = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar', 'briefing', 'woche', 'status'].includes(parts[0]) ? parts[0] : 'heute';
+  const area = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar', 'briefing', 'woche', 'status', 'aiti'].includes(parts[0]) ? parts[0] : 'heute';
   document.querySelectorAll('[data-nav]').forEach((a) => ((a.dataset.nav === (area === 'woche' ? 'briefing' : area) || ((area === 'briefing' || area === 'woche') && a.closest('.tabbar') && a.dataset.nav === 'heute')) ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
   $app.classList.toggle('mode-week', area === 'woche');
   document.getElementById('gsearch').hidden = area === 'suche' || area === 'glossar' || area === 'briefing' || area === 'woche';
@@ -1220,12 +1240,13 @@ async function route() {
     else if (area === 'briefing') await viewBriefing(q);
     else if (area === 'woche') await viewWeek(q);
     else if (area === 'status') await viewStatus();
+    else if (area === 'aiti') await viewAiti();
     else await viewDay(parts[0] === 'tag' ? parts[1] : null, q);
   } catch (err) {
     console.error(err);
     render(stateBox('Die Nachrichten konnten nicht geladen werden. Bitte später erneut versuchen.'));
   }
-  document.title = area === 'heute' ? 'KI News' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar', briefing: 'Briefing', woche: 'Die Woche in Kürze', status: 'Status' }[area] + ' | KI News';
+  document.title = area === 'heute' ? 'KI News' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar', briefing: 'Briefing', woche: 'Die Woche in Kürze', status: 'Status', aiti: 'AITI' }[area] + ' | KI News';
   fitCards();
   if (cameBack || store.restore) window.scrollTo(0, store.scrollMem[curHash] || 0);
   else if (!keepScroll && !(area === 'glossar' && q.t)) window.scrollTo(0, 0);

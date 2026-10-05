@@ -702,3 +702,17 @@ li.seen > .k-title { display: block; flex: 1 1 auto; min-width: 0; font-size: .8
 .top-stories li.seen > div > .row-meta > *:not(.seen-btn) { display: none; }
 .top-stories li.seen::before { display: none; }
 .hide-seen .top-stories li.seen { display: none !important; }
+
+/* ---- AITI-Button und AITI-Tag ---- */
+.brief-btn.aiti { margin: 8px 0 14px; background: color-mix(in srgb, #F5FC9C 60%, var(--surface)); border-color: color-mix(in srgb, #D8E36A 80%, var(--border)); }
+:root[data-theme="dark"] .brief-btn.aiti { background: color-mix(in srgb, #F5FC9C 16%, var(--surface)); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .brief-btn.aiti { background: color-mix(in srgb, #F5FC9C 16%, var(--surface)); } }
+.brief-btn.aiti strong { color: var(--text); }
+.aiti-n { flex: 0 0 auto; min-width: 28px; height: 28px; padding: 0 8px; display: grid; place-items: center; border-radius: 999px; background: var(--text); color: var(--bg, var(--surface)); font-weight: 800; font-size: .85rem; }
+.tags .tag-aiti { color: var(--text); font-weight: 800; background: color-mix(in srgb, #F5FC9C 70%, transparent); border-radius: 6px; padding: 0 5px; }
+
+.tags .tag-aiti { color: #26595E; }
+:root[data-theme="dark"] .tags .tag-aiti { color: #F5FC9C; background: color-mix(in srgb, #F5FC9C 18%, transparent); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tags .tag-aiti { color: #F5FC9C; background: color-mix(in srgb, #F5FC9C 18%, transparent); } }
+.seen-btn { white-space: nowrap; flex: 0 0 auto; }
+.card-top .tag-thema { min-width: 0; }
