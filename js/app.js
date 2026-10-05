@@ -851,7 +851,7 @@ function hero({ title, backHref, active, meta, nav }) {
       h('a', { class: 'hero-back', href: backHref }, '\u2039 Alle Meldungen'),
       chipRow([['tag', 'Tag'], ['woche', 'Woche']], active, (v) => { if (v !== active) go(v === 'woche' ? '/woche' : '/briefing'); }, 'Ansicht')),
     h('h1', null, title),
-    h('div', { class: 'hero-meta' }, ...meta.filter(Boolean)),
+    h('div', { class: 'hero-meta' }, ...[meta[0], meta[1] || h('div', { class: 'hero-sub' }, '\u00A0')]),
     nav);
 }
 
@@ -919,9 +919,9 @@ async function viewBriefing(q) {
   render(
     bar,
     hero({
-      title: 'Kurz-Briefing', backHref: '#/' + (pos === 0 ? '' : 'tag/' + date), active: 'tag',
+      title: 'Kurz-Briefing - der Tag', backHref: '#/' + (pos === 0 ? '' : 'tag/' + date), active: 'tag',
       meta: [h('div', null, `${dayLabel(date)} \u00B7 ca. ${minutes} Min`),
-        h('div', { class: 'hero-sub' }, h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text), newN ? ` \u00B7 ${newN} neu seit deinem letzten Besuch` : null)],
+        h('div', { class: 'hero-sub' }, h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text), newN ? ` \u00B7 ${newN} neu` : null)],
       nav: h('div', { class: 'daynav' },
       h('button', { class: 'btn', type: 'button', 'aria-label': 'Älterer Tag', disabled: pos >= store.dates.length - 1, onclick: () => go('/briefing', { d: store.dates[pos + 1] }) }, '\u2039'),
       daySelect(date, fmtShort(date) + date.slice(0, 4), (d) => go('/briefing', d === store.dates[0] ? {} : { d })),
@@ -1005,7 +1005,7 @@ async function viewWeek(q) {
     hero({
       title: 'Die Woche in Kürze', backHref: '#/', active: 'woche',
       meta: [h('div', null, `${items.length} Meldungen an ${days} ${days === 1 ? 'Tag' : 'Tagen'} \u00B7 ca. ${minutes} Min`),
-        running ? h('div', { class: 'hero-sub' }, h('span', { class: 'stand' }, 'Zwischenstand, die Woche läuft noch')) : null],
+        h('div', { class: 'hero-sub' }, running ? h('span', { class: 'stand' }, 'Zwischenstand, die Woche läuft noch') : 'Die Woche ist abgeschlossen')],
       nav: h('div', { class: 'daynav' },
       h('button', { class: 'btn', type: 'button', 'aria-label': 'Ältere Woche', disabled: wi >= weeks.length - 1, onclick: () => go('/woche', { w: weeks[wi + 1].key }) }, '‹'),
       h('div', { class: 'label', title: `${fmtShort(cur.start)}${cur.start.slice(0, 4)} bis ${fmtShort(cur.end)}${cur.end.slice(0, 4)}` }, `KW ${cur.week} \u00B7 ${fmtShort(cur.start)} bis ${fmtShort(cur.end)}`),
