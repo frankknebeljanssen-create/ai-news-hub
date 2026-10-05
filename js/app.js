@@ -223,6 +223,22 @@ function chipRow(options, current, onPick, label) {
       options.map(([val, text]) => h('button', { class: 'seg-btn', type: 'button', 'aria-pressed': String(val === current), onclick: () => onPick(val) }, text))));
 }
 
+/* Inline "Mehr lesen": zeigt die Kurzfassung direkt unter dem Eintrag, ohne die Quelle zu oeffnen */
+function withMore(meta, item) {
+  const open0 = getSettings().expandAll;
+  const panel = h('div', { class: 'more-panel', hidden: !open0 },
+    h('p', null, item.summary),
+    h('a', { class: 'b-src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, 'Zum Original \u2197'));
+  const btn = h('button', { class: 'more-link', type: 'button', 'aria-expanded': String(!!open0) }, open0 ? 'Weniger' : 'Mehr lesen');
+  btn.addEventListener('click', () => {
+    const open = panel.hidden;
+    panel.hidden = !open;
+    btn.setAttribute('aria-expanded', String(open));
+    btn.textContent = open ? 'Weniger' : 'Mehr lesen';
+  });
+  return [h('div', { class: 'row-meta' }, ...meta, btn), panel];
+}
+
 function sourceOptions() {
   const counts = new Map();
   store.index.items.forEach((i) => counts.set(i.source, (counts.get(i.source) || 0) + 1));
@@ -344,19 +360,19 @@ async function viewDay(dateArg, q) {
         h('span', { class: 'ts-label' }, THEMA_SHORT[item.thema] || item.thema),
         item.praxis ? h('span', { class: 'ts-label praxis' }, 'Praxistipp') : null,
         h('p', null, o.text),
-        h('a', { class: 'src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, `${item.source} ↗`)))))) : null,
+        withMore([h('a', { class: 'src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, `${item.source} ↗`)], item)))))) : null,
     st.showDE && !region && deList.length ? h('section', { class: 'kurios de-box', 'aria-labelledby': 'deb' },
       h('div', { class: 'kurios-head' }, h('h2', { id: 'deb' }, 'Bereich B: Deutschland'), h('span', { class: 'k-scope' }, deScope)),
       h('ul', null, deList.map((i) => h('li', { style: `--c:${THEMA_VAR[i.thema] || 'var(--accent)'}` },
         h('span', null, h('span', { class: 'ts-label' }, THEMA_SHORT[i.thema] || i.thema), i.praxis ? h('span', { class: 'ts-label praxis' }, 'Praxistipp') : null),
         h('a', { class: 'k-title', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, i.headline),
-        h('span', { class: 'k-meta' }, `${i.source} \u00B7 ${fmtShort(i.date)}`))))) : null,
+        withMore([h('span', { class: 'k-meta' }, `${i.source} \u00B7 ${fmtShort(i.date)}`)], i))))) : null,
     st.showKurios && kList.length ? h('section', { class: 'kurios', 'aria-labelledby': 'kur' },
       h('div', { class: 'kurios-head' }, h('h2', { id: 'kur' }, 'Kurios & krass'), h('span', { class: 'k-scope' }, kScope)),
       h('ul', null, kList.map((i) => h('li', null,
         h('span', { class: 'k-hook' }, i.kurios),
         h('a', { class: 'k-title', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, i.headline),
-        h('span', { class: 'k-meta' }, `${i.source} · ${fmtShort(i.date)}`))))) : null,
+        withMore([h('span', { class: 'k-meta' }, `${i.source} · ${fmtShort(i.date)}`)], i))))) : null,
     sections.length > 1 ? h('nav', { class: 'jump', 'aria-label': 'Zu Thema springen' }, sections.map(([name, list]) => h('button', {
       class: 'chip jump-chip', type: 'button', style: `--c:${THEMA_VAR[name]}`,
       onclick: () => document.getElementById('sec-' + name.replace(/\W+/g, '-'))?.scrollIntoView({ behavior: 'smooth', block: 'start' }),
@@ -796,16 +812,16 @@ async function viewBriefing(q) {
       h('ol', { class: 'b-top' }, top.map(({ text, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` },
         h('span', { class: 'ts-label' }, THEMA_SHORT[item.thema] || item.thema),
         h('p', null, text),
-        srcLink(item))))),
+        withMore([srcLink(item)], item))))),
 
     de.length ? sec('Deutschland',
-      h('ul', { class: 'b-list' }, de.map((i) => h('li', null, title(i), srcLink(i))))) : null,
+      h('ul', { class: 'b-list' }, de.map((i) => h('li', null, title(i), withMore([srcLink(i)], i))))) : null,
 
     praxis ? sec('Praxistipp des Tages',
-      h('div', { class: 'b-one' }, title(praxis), h('p', null, firstSentence(praxis.summary)), srcLink(praxis))) : null,
+      h('div', { class: 'b-one' }, title(praxis), h('p', null, firstSentence(praxis.summary)), withMore([srcLink(praxis)], praxis))) : null,
 
     kurios ? sec('Kurios & krass',
-      h('div', { class: 'b-one' }, h('span', { class: 'k-hook' }, kurios.kurios), title(kurios), srcLink(kurios))) : null,
+      h('div', { class: 'b-one' }, h('span', { class: 'k-hook' }, kurios.kurios), title(kurios), withMore([srcLink(kurios)], kurios))) : null,
 
     term ? sec('Begriff des Tages',
       h('div', { class: 'b-one' }, h('strong', { class: 'b-term' }, term.term), h('p', null, term.def),

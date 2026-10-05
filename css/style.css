@@ -418,3 +418,12 @@ details.filterbox > .filter-grid { margin: 0; }
   .day-tools { flex-direction: column; align-items: stretch; }
   .day-tools .brief-btn { order: -1; flex: none; }
 }
+
+/* ---- Inline "Mehr lesen" in Top-Stories, Boxen und Briefing ---- */
+.row-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0 14px; }
+.row-meta .src, .row-meta .b-src, .row-meta .k-meta { display: inline; margin: 0; }
+.more-link { border: 0; background: none; padding: 4px 0; font-weight: 700; font-size: .82rem; color: var(--accent); cursor: pointer; min-height: 30px; }
+.more-panel { margin: 4px 0 8px; padding: 10px 12px; background: var(--surface-2); border-radius: 10px; border-left: 3px solid var(--c, var(--accent)); }
+.more-panel[hidden] { display: none; }
+.more-panel p { margin: 0 0 6px; font-size: .95rem; line-height: 1.45; }
+.top-stories li > div, .kurios li, .b-top li, .b-list li { min-width: 0; }
