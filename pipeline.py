@@ -314,6 +314,17 @@ def git(*args: str) -> subprocess.CompletedProcess:
     return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True)
 
 
+def notify_once(text: str) -> None:
+    """macOS-Hinweis, hoechstens einmal pro Tag (stuendliche Laeufe sollen nicht nerven)."""
+    marker = ROOT / ".notified"
+    today = now().strftime("%Y-%m-%d")
+    if marker.exists() and marker.read_text().strip() == today:
+        return
+    marker.write_text(today)
+    safe = text.replace('"', "'")[:180]
+    subprocess.run(["osascript", "-e", f'display notification "{safe}" with title "ai-news-hub"'], capture_output=True)
+
+
 def publish(msg: str) -> None:
     git("add", "data")
     if git("diff", "--cached", "--quiet").returncode == 0:
@@ -324,9 +335,16 @@ def publish(msg: str) -> None:
         log.error("Git commit fehlgeschlagen: %s", c.stderr.strip())
         return
     if git("remote").stdout.strip():
+        pull = git("pull", "--rebase", "--autostash", "-q")
+        if pull.returncode != 0:
+            git("rebase", "--abort")
+            log.error("Git pull --rebase fehlgeschlagen: %s", pull.stderr.strip()[:300])
+            notify_once("Git-Push nicht moeglich (Rebase-Konflikt), siehe Log")
+            return
         p = git("push")
         if p.returncode != 0:
             log.error("Git push fehlgeschlagen: %s", p.stderr.strip()[:300])
+            notify_once("Git-Push fehlgeschlagen, siehe Log")
         else:
             log.info("Git: gepusht")
     else:
@@ -439,6 +457,8 @@ def run(args) -> int:
     if not args.no_git:
         publish(f"Daten {today}")
     log.info("=== Lauf Ende, %d Batches fehlgeschlagen ===", failed_batches)
+    if failed_batches:
+        notify_once("Kuratierung fehlgeschlagen (Anmeldung mit claude auth login pruefen), siehe Log")
     return 0 if failed_batches == 0 else 1
 
 
@@ -461,6 +481,7 @@ def main() -> int:
         return run(args)
     except Exception:
         log.exception("Unerwarteter Fehler")
+        notify_once("Unerwarteter Fehler in der Pipeline, siehe Log")
         return 1
 
 

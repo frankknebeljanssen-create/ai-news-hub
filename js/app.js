@@ -10,6 +10,7 @@ const REGIONEN = [['', 'Alle'], ['intl', 'International'], ['de', 'Deutschland']
 const PAGE = 30;
 
 const $app = document.getElementById('app');
+const render = (...nodes) => $app.replaceChildren(...nodes.filter((n) => n != null && n !== false));
 const store = { index: null, days: {}, fuse: null };
 
 /* ---------- Helfer ---------- */
@@ -89,7 +90,78 @@ async function loadDay(date) {
   return store.days[date];
 }
 
+/* ---------- Merkliste (nur localStorage, keine Server-Daten) ---------- */
+
+const FAV_KEY = 'favs';
+const FAV_FIELDS = ['id', 'date', 'published', 'headline', 'summary', 'thema', 'region', 'relevanz', 'tags', 'source', 'source_id', 'quelle_titel', 'url'];
+let favMem = null;
+
+function favLoad() {
+  if (!favMem) {
+    try { favMem = JSON.parse(localStorage.getItem(FAV_KEY)) || {}; } catch (e) { favMem = {}; }
+  }
+  return favMem;
+}
+function favSave() {
+  try { localStorage.setItem(FAV_KEY, JSON.stringify(favMem)); } catch (e) { /* Speicher gesperrt, bleibt bis zum Neuladen im Speicher */ }
+  paintFavCount();
+}
+const isFav = (id) => id in favLoad();
+function toggleFav(item) {
+  const f = favLoad();
+  if (f[item.id]) delete f[item.id]; else f[item.id] = { savedAt: Date.now(), item };
+  favSave();
+}
+function paintFavCount() {
+  const n = Object.keys(favLoad()).length;
+  document.querySelectorAll('[data-fav-count]').forEach((el) => { el.textContent = n || ''; el.hidden = !n; });
+}
+function cleanItem(raw) {
+  if (!raw || typeof raw !== 'object' || typeof raw.id !== 'string' || typeof raw.headline !== 'string' || typeof raw.url !== 'string') return null;
+  const it = {};
+  FAV_FIELDS.forEach((k) => { if (raw[k] != null) it[k] = raw[k]; });
+  it.tags = Array.isArray(it.tags) ? it.tags.map(String).slice(0, 5) : [];
+  it.relevanz = Math.min(5, Math.max(1, parseInt(it.relevanz, 10) || 3));
+  it.summary = String(it.summary || ''); it.quelle_titel = String(it.quelle_titel || it.headline);
+  it.source = String(it.source || ''); it.thema = String(it.thema || ''); it.date = String(it.date || todayStr());
+  it.published = String(it.published || it.date);
+  return it;
+}
+function exportFavs() {
+  const blob = new Blob([JSON.stringify({ version: 1, exported: new Date().toISOString(), items: Object.values(favLoad()) }, null, 1)], { type: 'application/json' });
+  const a = h('a', { href: URL.createObjectURL(blob), download: `merkliste-${todayStr()}.json` });
+  document.body.append(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+async function importFavs(file) {
+  try {
+    const data = JSON.parse(await file.text());
+    const f = favLoad(); let added = 0;
+    (Array.isArray(data.items) ? data.items : []).forEach((e) => {
+      const item = cleanItem(e && e.item);
+      if (item && !f[item.id]) { f[item.id] = { savedAt: Number(e.savedAt) || Date.now(), item }; added++; }
+    });
+    favSave();
+    return added;
+  } catch (e) { return -1; }
+}
+
+function starBtn(item) {
+  const b = h('button', { class: 'star', type: 'button' });
+  const paint = () => {
+    const on = isFav(item.id);
+    b.setAttribute('aria-pressed', String(on));
+    b.setAttribute('aria-label', on ? 'Aus Merkliste entfernen' : 'Merken');
+    b.title = on ? 'Aus Merkliste entfernen' : 'Merken';
+    b.textContent = on ? '\u2605' : '\u2606';
+  };
+  b.addEventListener('click', () => { toggleFav(item); paint(); if (route.last === 'merkliste') route(); });
+  paint();
+  return b;
+}
+
 /* ---------- Bausteine ---------- */
+
 
 function chipRow(options, current, onPick, label) {
   return h('div', { class: 'chips', role: 'group', 'aria-label': label },
@@ -107,7 +179,8 @@ function card(item, query) {
       h('span', null, item.source),
       h('span', null, fmtShort(item.date)),
       item.region === 'de' ? h('span', { class: 'badge' }, 'DE') : null,
-      h('span', { class: 'rel', title: `Relevanz ${item.relevanz} von 5`, 'aria-label': `Relevanz ${item.relevanz} von 5` }, '●'.repeat(item.relevanz))),
+      h('span', { class: 'rel', title: `Relevanz ${item.relevanz} von 5`, 'aria-label': `Relevanz ${item.relevanz} von 5` }, '●'.repeat(item.relevanz)),
+      starBtn(item)),
     h('h3', null, h('a', { href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, mark(item.headline))),
     h('p', null, mark(item.summary)),
     item.tags && item.tags.length ? h('div', { class: 'tags' }, item.tags.map((t) => h('span', null, '#' + t))) : null,
@@ -129,7 +202,7 @@ function stateBox(msg) { return h('p', { class: 'state' }, msg); }
 
 async function viewDay(dateArg, q) {
   const index = await loadIndex();
-  if (!store.dates.length) return $app.replaceChildren(stateBox('Noch keine Nachrichten vorhanden.'));
+  if (!store.dates.length) return render(stateBox('Noch keine Nachrichten vorhanden.'));
   const date = dateArg && store.dates.includes(dateArg) ? dateArg : store.dates[0];
   const region = q.region || '';
   const day = await loadDay(date);
@@ -146,7 +219,7 @@ async function viewDay(dateArg, q) {
 
   const sections = THEMEN.map(([name]) => [name, items.filter((i) => i.thema === name).sort((a, b) => b.relevanz - a.relevanz)]).filter(([, l]) => l.length);
 
-  $app.replaceChildren(
+  render(
     h('h1', null, 'KI-News'),
     h('p', { class: 'sub' }, h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text), ` · ${items.length} Meldungen an diesem Tag`),
     nav,
@@ -182,7 +255,7 @@ async function viewArchive(q) {
     list.append(card(i));
   });
 
-  $app.replaceChildren(
+  render(
     h('h1', null, 'Archiv'),
     h('p', { class: 'sub' }, `${filtered.length} von ${index.items.length} Meldungen`),
     h('div', { class: 'filters' },
@@ -226,7 +299,7 @@ async function viewSearch(q) {
     timer = setTimeout(() => { go('/suche', { q: input.value.trim(), region }, true); render(input.value.trim()); }, 160);
   });
 
-  $app.replaceChildren(
+  render(
     h('h1', null, 'Suche'),
     h('div', { class: 'filters' }, input, chipRow(REGIONEN, region, (v) => { go('/suche', { q: input.value.trim(), region: v }, true); route(); }, 'Bereich')),
     status, results);
@@ -234,24 +307,54 @@ async function viewSearch(q) {
   if (!query) input.focus({ preventScroll: true });
 }
 
+/* ---------- Ansicht: Merkliste ---------- */
+
+function viewFavs(q) {
+  const entries = Object.values(favLoad()).sort((a, b) => b.savedAt - a.savedAt);
+  const thema = q.thema || '';
+  const list = entries.filter((e) => !thema || e.item.thema === thema);
+  const fileInput = h('input', { type: 'file', accept: 'application/json,.json', hidden: true });
+  const note = h('p', { class: 'sub', role: 'status' }, `${entries.length} gemerkt. Die Liste liegt nur in diesem Browser, per Export lässt sie sich sichern oder auf ein anderes Gerät übertragen.`);
+  fileInput.addEventListener('change', async () => {
+    if (!fileInput.files[0]) return;
+    const n = await importFavs(fileInput.files[0]);
+    if (n < 0) { note.textContent = 'Datei konnte nicht gelesen werden.'; return; }
+    route.last = null; await route();
+    const el = document.querySelector('[role=status]'); if (el) el.textContent = `${n} neue Einträge importiert.`;
+  });
+  const used = new Set(entries.map((e) => e.item.thema));
+
+  render(
+    h('h1', null, 'Merkliste'),
+    note,
+    h('div', { class: 'row actions' },
+      h('button', { class: 'btn', type: 'button', disabled: !entries.length, onclick: exportFavs }, 'Exportieren'),
+      h('button', { class: 'btn', type: 'button', onclick: () => fileInput.click() }, 'Importieren'),
+      h('button', { class: 'btn', type: 'button', disabled: !entries.length, onclick: () => { if (confirm('Alle gemerkten Meldungen entfernen?')) { favMem = {}; favSave(); route(); } } }, 'Leeren'),
+      fileInput),
+    entries.length > 1 ? chipRow([['', 'Alle Themen'], ...THEMEN.filter(([n]) => used.has(n)).map(([n]) => [n, n])], thema, (v) => { go('/merkliste', { thema: v }, true); route(); }, 'Thema') : null,
+    ...(list.length ? list.map((e) => card(e.item)) : [h('p', { class: 'empty' }, entries.length ? 'Keine Einträge für dieses Thema.' : 'Noch nichts gemerkt. Tippe bei einer Meldung auf den Stern, um sie hier zu sammeln.')]));
+}
+
 /* ---------- Router und Start ---------- */
+
 
 async function route() {
   const { parts, q } = parseHash();
-  const area = parts[0] === 'archiv' ? 'archiv' : parts[0] === 'suche' ? 'suche' : 'heute';
+  const area = ['archiv', 'suche', 'merkliste'].includes(parts[0]) ? parts[0] : 'heute';
   document.querySelectorAll('[data-nav]').forEach((a) => (a.dataset.nav === area ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
-  const keepScroll = ['archiv', 'suche'].includes(area) && route.last === area;
+  const keepScroll = ['archiv', 'suche', 'merkliste'].includes(area) && route.last === area;
   route.last = area;
   try {
     if (area === 'archiv') await viewArchive(q);
     else if (area === 'suche') await viewSearch(q);
+    else if (area === 'merkliste') viewFavs(q);
     else await viewDay(parts[0] === 'tag' ? parts[1] : null, q);
   } catch (err) {
     console.error(err);
-    $app.replaceChildren(stateBox('Die Nachrichten konnten nicht geladen werden. Bitte später erneut versuchen.'));
+    render(stateBox('Die Nachrichten konnten nicht geladen werden. Bitte später erneut versuchen.'));
   }
-  const t = document.title.split(' | ')[0];
-  document.title = area === 'heute' ? 'KI-News Hub' : (area === 'archiv' ? 'Archiv' : 'Suche') + ' | ' + t;
+  document.title = area === 'heute' ? 'KI-News Hub' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste' }[area] + ' | KI-News Hub';
   if (!keepScroll) window.scrollTo(0, 0);
 }
 
@@ -277,5 +380,7 @@ document.getElementById('theme').addEventListener('click', () => {
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', paintTheme);
 paintTheme();
 
+paintFavCount();
+window.addEventListener('storage', (e) => { if (e.key === FAV_KEY) { favMem = null; paintFavCount(); if (route.last === 'merkliste') route(); } });
 window.addEventListener('hashchange', route);
 route();

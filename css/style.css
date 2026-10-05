@@ -130,3 +130,11 @@ input[type="search"] { font-size: 1.05rem; }
 @media (prefers-reduced-motion: no-preference) {
   .card, .btn, .chip { transition: background-color .15s, border-color .15s; }
 }
+
+/* Merkliste */
+.star { margin-left: auto; width: 40px; height: 40px; margin-top: -8px; margin-right: -10px; border: 0; background: none; cursor: pointer; font-size: 1.4rem; line-height: 1; color: var(--muted); border-radius: 10px; }
+.star[aria-pressed="true"] { color: #e8a317; }
+.star:hover { background: var(--surface-2); }
+.count-badge { display: inline-block; min-width: 18px; padding: 0 5px; border-radius: 9px; background: var(--accent); color: var(--accent-text); font-size: .7rem; font-weight: 800; line-height: 18px; text-align: center; font-style: normal; }
+.count-badge[hidden] { display: none; }
+.actions { margin-bottom: 10px; }
