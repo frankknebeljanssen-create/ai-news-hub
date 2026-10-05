@@ -163,6 +163,21 @@ function toggleFav(item) {
   if (f[item.id]) delete f[item.id]; else f[item.id] = { savedAt: Date.now(), item };
   favSave();
 }
+/* Gelesen-Markierung (nur localStorage): markierte Karten werden auf eine Zeile eingeklappt oder ausgeblendet */
+const SEEN_KEY = 'seen';
+let seenMem = null;
+function seenLoad() {
+  if (!seenMem) {
+    try { seenMem = JSON.parse(localStorage.getItem(SEEN_KEY)) || {}; } catch (e) { seenMem = {}; }
+    const cut = Date.now() - 90 * 864e5;
+    Object.keys(seenMem).forEach((k) => { if (!(seenMem[k] > cut)) delete seenMem[k]; });
+  }
+  return seenMem;
+}
+function seenSave() { try { localStorage.setItem(SEEN_KEY, JSON.stringify(seenMem)); } catch (e) { /* bleibt bis zum Neuladen im Speicher */ } }
+const isSeen = (id) => id in seenLoad();
+function toggleSeen(id) { const m = seenLoad(); if (m[id]) delete m[id]; else m[id] = Date.now(); seenSave(); }
+
 function paintFavCount() {
   const n = Object.keys(favLoad()).length;
   document.querySelectorAll('[data-fav-count]').forEach((el) => { el.textContent = n || ''; el.hidden = !n; });
@@ -232,7 +247,7 @@ function saveSettings(patch) {
   try { localStorage.setItem(SET_KEY, JSON.stringify(setMem)); } catch (e) { /* Speicher gesperrt */ }
   applySettings();
 }
-function applySettings() { document.body.classList.toggle('no-tags', !getSettings().showTags); }
+function applySettings() { document.body.classList.toggle('no-tags', !getSettings().showTags); document.body.classList.toggle('hide-seen', !!getSettings().hideSeen); }
 
 /* ---------- Bausteine ---------- */
 
@@ -375,6 +390,7 @@ function card(item, query) {
       isNew(item) ? h('span', { class: 'badge new' }, 'Neu') : null,
       item.praxis ? h('span', { class: 'badge praxis' }, 'Praxistipp') : null,
       item.region === 'de' ? h('span', { class: 'badge' }, 'DE') : null,
+      h('button', { class: 'seen-btn', type: 'button', title: 'Als gelesen markieren und einklappen', 'aria-label': 'Als gelesen markieren' }, '\u2713 Gelesen'),
       starBtn(item)),
     h('h3', null, h('a', { href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, mark(item.headline))),
     h('p', { class: 'summary' }, mark(item.summary)),
@@ -388,6 +404,17 @@ function card(item, query) {
     h('a', { class: 'orig', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer', title: item.quelle_titel }, 'Zum Original \u2197'));
   if (getSettings().expandAll) { el.classList.add('open'); more.textContent = 'Weniger'; }
   more.addEventListener('click', () => { const on = el.classList.toggle('open'); more.textContent = on ? 'Weniger' : 'Mehr lesen'; });
+  const seenBtn = el.querySelector('.seen-btn');
+  const paintSeen = () => {
+    const on = isSeen(item.id);
+    el.classList.toggle('seen', on);
+    seenBtn.textContent = on ? 'Einblenden' : '\u2713 Gelesen';
+    seenBtn.title = on ? 'Wieder ausklappen' : 'Als gelesen markieren und einklappen';
+    seenBtn.setAttribute('aria-label', on ? 'Wieder ausklappen' : 'Als gelesen markieren');
+    seenBtn.setAttribute('aria-pressed', String(on));
+  };
+  seenBtn.addEventListener('click', () => { toggleSeen(item.id); paintSeen(); fitCards(el.parentNode); });
+  paintSeen();
   return el;
 }
 
@@ -821,6 +848,8 @@ async function viewSettings() {
       toggleRow('Kurios & krass', 'Außergewöhnliche Fälle und Fakten', 'showKurios'),
       toggleRow('Kurztexte immer ausklappen', 'Auf dem Handy sind sie sonst gekürzt', 'expandAll'),
       toggleRow('Tags anzeigen', null, 'showTags'),
+      toggleRow('Gelesene ganz ausblenden', 'Als gelesen markierte Meldungen sind sonst auf eine Zeile eingeklappt', 'hideSeen'),
+      Object.keys(seenLoad()).length ? h('button', { class: 'btn', type: 'button', onclick: () => { seenMem = {}; seenSave(); redo(); } }, `Alle ${Object.keys(seenLoad()).length} Gelesen-Markierungen aufheben`) : null,
       h('div', { class: 'set-label' }, 'Themen in der Tagesansicht (antippen zum Ausblenden)'),
       h('div', { class: 'chips wrap', role: 'group', 'aria-label': 'Themen' },
         THEMEN.map(([n]) => h('button', {

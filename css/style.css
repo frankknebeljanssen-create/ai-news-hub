@@ -669,3 +669,15 @@ main.mode-week { --accent: var(--week); --accent-soft: color-mix(in srgb, var(--
 
 .gl-note { margin: 0 0 8px; font-size: .78rem; color: var(--muted); }
 .gl-checked { font-size: .72rem; color: var(--muted); margin-left: auto; align-self: center; }
+
+/* ---- Gelesen: Karte auf eine Zeile einklappen oder ausblenden ---- */
+.seen-btn { border: 1px solid var(--border); background: var(--surface-2); color: var(--muted); border-radius: 999px; padding: 2px 10px; font: inherit; font-size: .74rem; font-weight: 600; cursor: pointer; margin-left: auto; }
+.seen-btn + .star { margin-left: 0; }
+.seen-btn:hover { color: var(--text); }
+.card.seen { padding: 6px 12px; border-left-width: 3px; box-shadow: none; background: transparent; display: flex; align-items: center; gap: 10px; min-height: 0; }
+.card.seen > *:not(.card-top):not(h3) { display: none; }
+.card.seen .card-top { order: 2; margin: 0; min-height: 0; flex: 0 0 auto; }
+.card.seen .card-top > *:not(.seen-btn) { display: none; }
+.card.seen h3 { order: 1; flex: 1 1 auto; min-width: 0; margin: 0; font-size: .82rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card.seen h3 a { color: var(--muted); }
+.hide-seen .card.seen { display: none; }
