@@ -1,7 +1,7 @@
 /* Service Worker: Offline-Zwischenspeicher fuer die App-Dateien und die Daten.
    Daten und Seiten: erst Netz (mit kurzer Wartezeit), sonst gespeicherte Kopie.
    Versionierte Dateien (css/js mit ?v=N) und Symbole: aus dem Speicher, bei Bedarf nachgeladen. */
-const CACHE = 'kinews-v1';
+const CACHE = 'kinews-v2';
 const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/apple-touch-icon.png', 'js/vendor/fuse.min.js', 'content/glossar.json', 'data/index.json'];
 const NET_TIMEOUT = 4000;
 
@@ -34,7 +34,8 @@ self.addEventListener('activate', (event) => {
 async function networkFirst(request) {
   const cache = await caches.open(CACHE);
   const stored = () => cache.match(request, { ignoreSearch: request.mode === 'navigate' }) || cache.match('index.html');
-  const live = fetch(request).then((res) => {
+  // immer beim Server nachfragen (GitHub Pages erlaubt sonst bis zu 10 Minuten alte Kopien im Browser-Cache)
+  const live = fetch(new Request(request.url, { cache: 'no-cache', credentials: 'same-origin' })).then((res) => {
     if (res && res.ok) cache.put(request, res.clone());
     return res;
   });

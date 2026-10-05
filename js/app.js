@@ -405,7 +405,7 @@ async function viewDay(dateArg, q) {
     h('div', { class: 'day-tools' },
       chipRow(regionOptions(dayAll), region, (v) => { store.regionSel = v; go(dateArg ? '/tag/' + date : '/', { region: v }, true); route(); }, 'Bereich'),
       h('a', { class: 'brief-btn', href: '#/briefing' + (pos === 0 ? '' : '?d=' + date) },
-        h('span', null, h('strong', null, 'Briefing in 3 Min'), h('small', null, 'Das Wichtigste in Kürze, ideal für unterwegs')), h('span', { class: 'brief-go', 'aria-hidden': 'true' }, '\u203A'))),
+        h('span', null, h('strong', null, 'Kurz-Briefing in 3 Min'), h('small', null, 'Das Wichtigste in Kürze, ideal für unterwegs')), h('span', { class: 'brief-go', 'aria-hidden': 'true' }, '\u203A'))),
     st.showTop && top.length ? h('section', { class: 'top-stories', 'aria-labelledby': 'ts' },
       h('h2', { id: 'ts' }, 'Top-Stories'),
       h('ol', null, top.map(({ o, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` }, h('div', null,
@@ -990,4 +990,29 @@ route();
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => { /* z. B. privater Modus */ }); });
   }
+})();
+
+/* ---------- Neue Version erkennen ---------- */
+(function () {
+  let last = 0;
+  function showUpdate() {
+    if (document.getElementById('update')) return;
+    const bar = h('button', { id: 'update', class: 'update-bar', type: 'button' }, 'Neue Version verfügbar. Tippen zum Aktualisieren');
+    bar.addEventListener('click', async () => {
+      try { const regs = await navigator.serviceWorker.getRegistrations(); await Promise.all(regs.map((r) => r.update())); } catch (e) { /* ignorieren */ }
+      location.reload();
+    });
+    document.body.prepend(bar);
+  }
+  async function check() {
+    if (Date.now() - last < 120000 || !navigator.onLine) return;
+    last = Date.now();
+    try {
+      const html = await (await fetch('index.html', { cache: 'no-store' })).text();
+      const m = /app\.js\?v=(\d+)/.exec(html);
+      if (m && Number(m[1]) > Number(BUILD)) showUpdate();
+    } catch (e) { /* offline oder Fehler: nichts tun */ }
+  }
+  window.addEventListener('load', check);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) check(); });
 })();

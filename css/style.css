@@ -449,3 +449,38 @@ details.filterbox > .filter-grid { margin: 0; }
 .lbl-short { display: none; }
 .daybtn { white-space: nowrap; }
 @media (max-width: 719px) { .lbl-long { display: none; } .lbl-short { display: inline; } .daynav .daysel { flex: 1; } .daynav .daybtn { width: 100%; justify-content: center; } }
+
+.update-bar { position: sticky; top: 0; z-index: 60; display: block; width: 100%; border: 0; cursor: pointer; padding: calc(10px + env(safe-area-inset-top)) 12px 10px; background: var(--accent); color: var(--accent-text); font-weight: 700; font-size: .9rem; }
+
+/* ---- Handy: aufgeraeumter Kopfbereich, gleichmaessige Abstaende ---- */
+@media (max-width: 719px) {
+  .icon-btn { width: 36px; height: 36px; border-radius: 10px; }
+  .icon-btn.txt { font-size: 14px; }
+  .icon-btn.txt small { font-size: 10px; }
+  .tools { gap: 6px; }
+
+  .gsearch { padding: 8px 14px 0; gap: 8px; }
+  .gsearch input { min-height: 38px; border-radius: 10px; padding: 0 12px; }
+  .gsearch input::placeholder, .searchbar input::placeholder { font-size: 14px; }
+  .gsearch button { width: 42px; min-height: 38px; border-radius: 10px; }
+  .gsearch button svg { width: 18px; height: 18px; }
+  .gsearch + main { padding-top: 10px; }
+  .searchbar input { min-height: 40px; }
+  .searchbar .btn { width: 44px; min-height: 40px; }
+
+  .day-title h1 { font-size: 1.3rem; margin: 2px 0 2px; }
+  .day-title .sub { font-size: .8rem; }
+  .day-head { gap: 8px; margin-bottom: 10px; }
+  .day-head .daynav { width: 100%; padding: 2px; border-radius: 12px; }
+  .daynav .btn { min-height: 34px; min-width: 42px; }
+  .daynav .daybtn { min-height: 34px; font-size: .95rem; }
+  .daynav .daysel { flex: 1; }
+
+  .day-tools { gap: 8px; margin-bottom: 12px; }
+  .brief-btn { padding: 9px 14px; border-radius: 12px; }
+  .day-tools .seg-wrap { width: 100%; }
+  .day-tools .seg-label { display: none; }
+  .day-tools .seg { display: flex; width: 100%; justify-self: stretch; padding: 2px; border-radius: 12px; }
+  .day-tools .seg-btn { flex: 1; padding: 0 4px; min-height: 34px; font-size: .84rem; }
+  .seg-n { margin-left: 5px; }
+}
