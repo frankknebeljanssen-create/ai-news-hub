@@ -342,3 +342,26 @@ input, select, textarea, .gsearch input, .searchbar input, input[type="search"],
   background-color: var(--surface); background-repeat: no-repeat; background-position: right 15px center; background-size: 12px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%239aa3b2' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
 .src-pick select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ---- Ruhiger: einheitliche Auswahlfelder, gedaempfte Labels ---- */
+.filter-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px 14px; padding: 4px 14px 14px; }
+.filter-grid.solo { padding: 0 0 12px; grid-template-columns: minmax(0, 260px); }
+.field.sel { display: grid; gap: 5px; min-width: 0; flex: none; }
+.f-label { font-size: .7rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+.field.sel select, .field.sel input[type="date"] { width: 100%; min-height: 44px; border-radius: 12px; border: 1px solid var(--border); background-color: var(--surface); padding: 0 12px; font-weight: 500; }
+.field.sel select { appearance: none; -webkit-appearance: none; padding-right: 34px; cursor: pointer; background-repeat: no-repeat; background-position: right 13px center; background-size: 12px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%239aa3b2' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+.reset-btn { align-self: end; min-height: 44px; border-radius: 12px; }
+details.filterbox > .filter-grid { margin: 0; }
+
+/* Sprung-Pillen und Themen-Labels neutral, Farbe nur als kleiner Punkt */
+.jump-chip { border-color: var(--border); background: var(--surface); color: var(--text); font-weight: 600; display: inline-flex; align-items: center; gap: 7px; }
+.jump-chip::before { content: ""; width: 8px; height: 8px; border-radius: 3px; background: var(--c); flex: none; }
+.ts-label { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); background: var(--surface-2); letter-spacing: .04em; }
+.ts-label::before { content: ""; width: 7px; height: 7px; border-radius: 2px; background: var(--c); flex: none; }
+.ts-label.praxis { color: var(--muted); background: var(--surface-2); }
+.badge.praxis { background: var(--surface-2); color: var(--muted); border: 1px solid var(--border); }
+.tag-thema { color: var(--muted); font-weight: 700; }
+
+.seg-n { margin-left: 7px; font-size: .74rem; font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; }
+.seg-btn[aria-pressed="true"] .seg-n { color: var(--accent); }

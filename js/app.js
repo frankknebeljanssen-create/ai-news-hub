@@ -223,6 +223,20 @@ function chipRow(options, current, onPick, label) {
       options.map(([val, text]) => h('button', { class: 'seg-btn', type: 'button', 'aria-pressed': String(val === current), onclick: () => onPick(val) }, text))));
 }
 
+function sourceOptions() {
+  const counts = new Map();
+  store.index.items.forEach((i) => counts.set(i.source, (counts.get(i.source) || 0) + 1));
+  return [['', 'Alle Quellen'], ...[...counts.keys()].sort((a, b) => a.localeCompare(b, 'de')).map((n) => [n, `${n} (${counts.get(n)})`])];
+}
+
+const regionCounts = (list) => ({ '': list.length, intl: list.filter((i) => i.region === 'intl').length, de: list.filter((i) => i.region === 'de').length });
+const regionOptions = (list) => { const c = regionCounts(list); return REGIONEN.map(([v, t]) => [v, h('span', null, t, h('span', { class: 'seg-n' }, c[v]))]); };
+
+function selectField(label, options, current, onPick) {
+  return h('label', { class: 'field sel' }, h('span', { class: 'f-label' }, label),
+    h('select', { onchange: (e) => onPick(e.target.value) }, options.map(([v, t]) => h('option', { value: v, selected: v === current }, t))));
+}
+
 function sourceSelect(current, onPick) {
   const counts = new Map();
   store.index.items.forEach((i) => counts.set(i.source, (counts.get(i.source) || 0) + 1));
@@ -288,7 +302,8 @@ async function viewDay(dateArg, q) {
   const st = getSettings();
   const region = q.region !== undefined ? q.region : (store.regionSel !== undefined ? store.regionSel : st.region);
   const day = await loadDay(date);
-  const items = (day ? day.items : index.items.filter((i) => i.date === date)).filter((i) => !region || i.region === region);
+  const dayAll = day ? day.items : index.items.filter((i) => i.date === date);
+  const items = dayAll.filter((i) => !region || i.region === region);
   const pos = store.dates.indexOf(date);
   const stand = standText(index.updated);
 
@@ -317,7 +332,7 @@ async function viewDay(dateArg, q) {
     h('h1', null, 'KI-News'),
     h('p', { class: 'sub' }, h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text), ` · ${items.length} Meldungen an diesem Tag`),
     nav,
-    chipRow(REGIONEN, region, (v) => { store.regionSel = v; go(dateArg ? '/tag/' + date : '/', { region: v }, true); route(); }, 'Bereich'),
+    chipRow(regionOptions(dayAll), region, (v) => { store.regionSel = v; go(dateArg ? '/tag/' + date : '/', { region: v }, true); route(); }, 'Bereich'),
     st.showTop && top.length ? h('section', { class: 'top-stories', 'aria-labelledby': 'ts' },
       h('h2', { id: 'ts' }, 'Top-Stories'),
       h('ol', null, top.map(({ o, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` }, h('div', null,
@@ -362,7 +377,7 @@ function isoWeek(s) {
 }
 const fmtMonth = (s) => new Intl.DateTimeFormat('de-DE', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(s + 'T12:00:00Z'));
 const GROUPINGS = [['tag', 'Tage'], ['woche', 'Wochen'], ['monat', 'Monate'], ['kategorie', 'Kategorien']];
-const SORTS = [['neu', 'Neueste zuerst'], ['rel', 'Wichtigste zuerst']];
+const SORTS = [['neu', 'Neueste'], ['rel', 'Wichtigste']];
 const PRAXIS = '__praxis';
 
 function groupKey(mode, item) {
@@ -378,9 +393,10 @@ async function viewArchive(q) {
   const g = GROUPINGS.some(([k]) => k === q.g) ? q.g : getSettings().grouping;
   const sort = q.s === 'rel' ? 'rel' : 'neu';
   const f = { thema: q.thema || '', region: q.region || '', von: q.von || '', bis: q.bis || '', quelle: q.quelle || '', g, s: sort };
-  const filtered = index.items.filter((i) =>
-    (!f.thema || (f.thema === PRAXIS ? i.praxis : i.thema === f.thema)) && (!f.region || i.region === f.region) &&
-    (!f.quelle || i.source === f.quelle) && (!f.von || i.date >= f.von) && (!f.bis || i.date <= f.bis))
+  const matchOther = (i) => (!f.thema || (f.thema === PRAXIS ? i.praxis : i.thema === f.thema)) &&
+    (!f.quelle || i.source === f.quelle) && (!f.von || i.date >= f.von) && (!f.bis || i.date <= f.bis);
+  const rc = regionCounts(index.items.filter(matchOther));
+  const filtered = index.items.filter((i) => matchOther(i) && (!f.region || i.region === f.region))
     .sort((a, b) => b.published.localeCompare(a.published));
   const set = (patch) => { go('/archiv', { ...f, ...patch }, true); route(); };
 
@@ -415,16 +431,15 @@ async function viewArchive(q) {
     h('p', { class: 'sub' }, `${filtered.length} von ${index.items.length} Meldungen in ${groups.size} ${unit}`),
     h('details', { class: 'filterbox', open: store.filterOpen ?? matchMedia('(min-width: 720px)').matches, ontoggle: (e) => { store.filterOpen = e.target.open; } },
       h('summary', null, 'Filter & Sortierung', activeN ? h('span', { class: 'count-badge' }, activeN) : null),
-      h('div', { class: 'filters' },
-      chipRow(GROUPINGS, g, (v) => set({ g: v }), 'Gruppierung'),
-      chipRow(SORTS, sort, (v) => set({ s: v }), 'Sortierung'),
-      chipRow(REGIONEN, f.region, (v) => set({ region: v }), 'Bereich'),
-      chipRow([['', 'Alle Themen'], [PRAXIS, `Praxistipps & Tools (${praxisN})`], ...THEMEN.map(([n]) => [n, n])], f.thema, (v) => set({ thema: v }), 'Kategorie'),
-      h('div', { class: 'row' },
-        sourceSelect(f.quelle, (v) => set({ quelle: v })),
-        h('label', { class: 'field' }, 'Von', h('input', { type: 'date', value: f.von, min: minD, max: maxD, onchange: (e) => set({ von: e.target.value }) })),
-        h('label', { class: 'field' }, 'Bis', h('input', { type: 'date', value: f.bis, min: minD, max: maxD, onchange: (e) => set({ bis: e.target.value }) })),
-        (f.thema || f.region || f.von || f.bis || f.quelle) ? h('button', { class: 'btn', type: 'button', onclick: () => { go('/archiv', { g, s: sort }, true); route(); } }, 'Zurücksetzen') : null))),
+      h('div', { class: 'filter-grid' },
+        selectField('Kategorie', [['', 'Alle Themen'], [PRAXIS, `Praxistipps & Tools (${praxisN})`], ...THEMEN.map(([n]) => [n, n])], f.thema, (v) => set({ thema: v })),
+        selectField('Quelle', sourceOptions(), f.quelle, (v) => set({ quelle: v })),
+        selectField('Bereich', REGIONEN.map(([v, t]) => [v, `${t} (${rc[v]})`]), f.region, (v) => set({ region: v })),
+        selectField('Gruppierung', GROUPINGS, g, (v) => set({ g: v })),
+        selectField('Sortierung', SORTS, sort, (v) => set({ s: v })),
+        h('label', { class: 'field sel' }, h('span', { class: 'f-label' }, 'Von'), h('input', { type: 'date', value: f.von, min: minD, max: maxD, onchange: (e) => set({ von: e.target.value }) })),
+        h('label', { class: 'field sel' }, h('span', { class: 'f-label' }, 'Bis'), h('input', { type: 'date', value: f.bis, min: minD, max: maxD, onchange: (e) => set({ bis: e.target.value }) })),
+        (f.thema || f.region || f.von || f.bis || f.quelle) ? h('button', { class: 'btn reset-btn', type: 'button', onclick: () => { go('/archiv', { g, s: sort }, true); route(); } }, 'Zurücksetzen') : null)),
     groups.size > 1 ? h('div', { class: 'row actions' },
       h('button', { class: 'btn', type: 'button', onclick: () => toggleAll(true) }, 'Alle öffnen'),
       h('button', { class: 'btn', type: 'button', onclick: () => toggleAll(false) }, 'Alle schließen')) : null,
@@ -499,7 +514,7 @@ function viewFavs(q) {
       h('button', { class: 'btn', type: 'button', onclick: () => fileInput.click() }, 'Importieren'),
       h('button', { class: 'btn', type: 'button', disabled: !entries.length, onclick: () => { if (confirm('Alle gemerkten Meldungen entfernen?')) { favMem = {}; favSave(); route(); } } }, 'Leeren'),
       fileInput),
-    entries.length > 1 ? chipRow([['', 'Alle Themen'], ...THEMEN.filter(([n]) => used.has(n)).map(([n]) => [n, n])], thema, (v) => { go('/merkliste', { thema: v }, true); route(); }, 'Thema') : null,
+    entries.length > 1 ? h('div', { class: 'filter-grid solo' }, selectField('Thema', [['', 'Alle Themen'], ...THEMEN.filter(([n]) => used.has(n)).map(([n]) => [n, n])], thema, (v) => { go('/merkliste', { thema: v }, true); route(); })) : null,
     ...(list.length ? list.map((e) => card(e.item)) : [h('p', { class: 'empty' }, entries.length ? 'Keine Einträge für dieses Thema.' : 'Noch nichts gemerkt. Tippe bei einer Meldung auf den Stern, um sie hier zu sammeln.')]));
 }
 
