@@ -1,0 +1,121 @@
+# Quellen fuer ai-news-hub. Neue Quelle = neuer Eintrag, sonst nichts.
+#
+# id            eindeutiger Kurzname
+# name          Anzeigename
+# type          rss | web
+# region        intl | de   (Hinweis fuer die Einordnung, die Zuordnung pro Artikel macht Claude)
+# url           Feed-URL (rss) oder Uebersichtsseite (web)
+# link_pattern  nur web: Regex, den Artikel-Links der Uebersichtsseite erfuellen muessen
+# keywords      optional: nur Artikel behalten, deren Titel/Teaser eines dieser Woerter enthaelt
+#               (fuer allgemeine Feeds ohne KI-Fokus)
+# max_items     optional: Obergrenze neuer Artikel pro Lauf (Standard 6)
+# enabled       false = Quelle bleibt eingetragen, wird aber nicht abgerufen
+# note          Freitext, z. B. warum deaktiviert
+
+sources:
+  # ---------- International ----------
+  - {id: neuron, name: The Neuron, type: rss, region: intl, url: "https://www.theneuron.ai/feed"}
+  - {id: rundown, name: The Rundown AI, type: rss, region: intl, url: "https://www.therundown.ai/feed"}
+  - {id: tldr-ai, name: TLDR AI, type: rss, region: intl, url: "https://tldr.tech/api/rss/ai"}
+  - {id: import-ai, name: Import AI, type: rss, region: intl, url: "https://importai.substack.com/feed"}
+  - id: batch
+    name: The Batch
+    type: web
+    region: intl
+    url: "https://www.deeplearning.ai/the-batch/"
+    link_pattern: "deeplearning\\.ai/the-batch/issue-\\d+"
+    note: Kein RSS-Feed vorhanden
+  - id: anthropic
+    name: Anthropic
+    type: rss
+    region: intl
+    url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml"
+    note: Kein offizieller Feed, Community-Feed (GitHub, Olshansk/rss-feeds)
+  - {id: openai, name: OpenAI, type: rss, region: intl, url: "https://openai.com/news/rss.xml"}
+  - {id: deepmind, name: Google DeepMind, type: rss, region: intl, url: "https://deepmind.google/blog/rss.xml"}
+  - id: meta-ai
+    name: Meta (Engineering, ML)
+    type: rss
+    region: intl
+    url: "https://engineering.fb.com/category/ml-applications/feed/"
+    note: ai.meta.com/blog hat keinen Feed, Ersatz ist der Engineering-Blog
+  - {id: huggingface, name: Hugging Face, type: rss, region: intl, url: "https://huggingface.co/blog/feed.xml"}
+  - {id: mit-tr, name: MIT Technology Review, type: rss, region: intl, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed"}
+  - id: politico-eu
+    name: Politico Europe
+    type: rss
+    region: intl
+    url: "https://www.politico.eu/feed/"
+    keywords: [AI, "artificial intelligence", "AI Act", chatbot, OpenAI, algorithm]
+  - id: euractiv
+    name: Euractiv
+    type: web
+    region: intl
+    url: "https://www.euractiv.com/section/digital/"
+    link_pattern: "euractiv\\.com/news/"
+    enabled: false
+    note: Feed und Seite liefern HTTP 403 (Bot-Schutz), vorerst deaktiviert
+
+  # aus dem frueheren Projekt myainews
+  - {id: verge-ai, name: The Verge AI, type: rss, region: intl, url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", max_items: 4}
+  - {id: ars-ai, name: Ars Technica AI, type: rss, region: intl, url: "https://arstechnica.com/ai/feed/", max_items: 4}
+  - {id: techcrunch-ai, name: TechCrunch AI, type: rss, region: intl, url: "https://techcrunch.com/category/artificial-intelligence/feed/", max_items: 4}
+  - {id: wired-ai, name: Wired AI, type: rss, region: intl, url: "https://www.wired.com/feed/tag/ai/latest/rss", max_items: 4}
+  - {id: latent-space, name: Latent Space, type: rss, region: intl, url: "https://www.latent.space/feed", max_items: 3}
+  - id: venturebeat-ai
+    name: VentureBeat AI
+    type: rss
+    region: intl
+    url: "https://venturebeat.com/category/ai/feed/"
+    max_items: 4
+    note: Lieferte beim Test HTTP 429 (Rate-Limit), bei Dauerfehlern pruefen
+
+  # ---------- Deutschland ----------
+  - {id: decoder-de, name: The Decoder, type: rss, region: de, url: "https://the-decoder.de/feed/"}
+  - {id: heise-ki, name: heise KI, type: rss, region: de, url: "https://www.heise.de/thema/Kuenstliche-Intelligenz.xml"}
+  - {id: t3n, name: t3n, type: rss, region: de, url: "https://t3n.de/tag/kuenstliche-intelligenz/rss.xml"}
+  - id: netzpolitik
+    name: netzpolitik.org
+    type: rss
+    region: de
+    url: "https://netzpolitik.org/feed/"
+    keywords: [KI, "Künstliche Intelligenz", "AI Act", Chatbot, ChatGPT, Algorithmus, Algorithmen]
+  - id: bitkom
+    name: Bitkom
+    type: rss
+    region: de
+    url: "https://www.bitkom.org/rss.xml"
+    keywords: [KI, "Künstliche Intelligenz", "AI Act", Chatbot, ChatGPT]
+  - {id: ki-verband, name: KI-Bundesverband, type: rss, region: de, url: "https://ki-verband.de/feed/"}
+  - id: bundesregierung
+    name: Bundesregierung
+    type: rss
+    region: de
+    url: "https://www.bundesregierung.de/service/rss/breg-de/1151242/feed.xml"
+    keywords: [KI, "Künstliche Intelligenz", "AI Act", Digital]
+  - id: bmwe
+    name: BMWE (KI)
+    type: web
+    region: de
+    url: "https://www.bundeswirtschaftsministerium.de/Navigation/DE/Presse/presse.html"
+    link_pattern: "bundeswirtschaftsministerium\\.de/Redaktion/DE/(Pressemitteilungen|Artikel)/"
+    keywords: [KI, "Künstliche Intelligenz", "AI Act"]
+    enabled: false
+    note: Kein RSS-Feed, Pressemitteilungen werden per Skript nachgeladen (keine Links im HTML), vorerst deaktiviert
+  - {id: ki-campus, name: KI-Campus, type: rss, region: de, url: "https://ki-campus.org/blog/feed"}
+  - id: fraunhofer-academy
+    name: Fraunhofer Academy
+    type: web
+    region: de
+    url: "https://www.academy.fraunhofer.de/de/weiterbildung.html"
+    link_pattern: "academy\\.fraunhofer\\.de/de/weiterbildung/[^/]+/[^/]+\\.html"
+    keywords: [KI, "Künstliche Intelligenz", "Machine Learning", Daten]
+    note: Kein RSS-Feed, Kursuebersicht per Seite
+  - id: kursnet
+    name: Bundesagentur Kursnet
+    type: web
+    region: de
+    url: "https://con.arbeitsagentur.de/prod/kursnet/"
+    link_pattern: "kursnet"
+    enabled: false
+    note: Kursdatenbank (Suchanwendung), kein Feed und keine scrapebare Liste

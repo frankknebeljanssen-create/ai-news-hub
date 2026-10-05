@@ -1,0 +1,219 @@
+{
+ "date": "2026-10-02",
+ "generated_at": "2026-10-05T14:24:56+02:00",
+ "overview": [
+  {
+   "id": "575ad95effd7",
+   "text": "US-Behörden haben einen Firmenchef verhaftet, der Nvidia-Beschleuniger im Wert von etwa 300 Millionen Dollar nach China geschmuggelt haben soll."
+  },
+  {
+   "id": "8e206c4d9ed6",
+   "text": "OpenAI liefert einen Leitfaden dazu, welches GPT-6-Modell zu welchem Einsatz passt und wie Teams Prompting, Skills und Werkzeuge sinnvoll kombinieren."
+  },
+  {
+   "id": "872d76f39ea2",
+   "text": "Anthropic hat die Cyberfähigkeiten des offenen Modells GLM-5.3 geprüft und sieht dessen offensives Potenzial deutlich unter den befürchteten Werten."
+  },
+  {
+   "id": "ac719b52e635",
+   "text": "Für 2026 werden weltweit rund 2,5 Billionen Dollar an KI-Investitionen erwartet, wobei Prozesse und Qualifikation stärker bremsen als die Technik."
+  },
+  {
+   "id": "0ddb54cdbd61",
+   "text": "Amazon federt mit einem Milliardenprogramm den lokalen Widerstand gegen neue Rechenzentren ab, beschönigt laut Kritikern aber die Umweltfolgen."
+  },
+  {
+   "id": "10932e825b10",
+   "text": "Airbnb lässt den früheren Meta-Llama-Chef Ahmad Al-Dahle Produktentwicklung und Gästeservice mit KI umbauen."
+  },
+  {
+   "id": "a59bf259f57e",
+   "text": "Trillium Labs will heikle Forschung zu Selbstverbesserung und Modellverhalten öffentlich dokumentieren, statt sie intern zu halten."
+  }
+ ],
+ "items": [
+  {
+   "id": "8e206c4d9ed6",
+   "date": "2026-10-02",
+   "published": "2026-10-02T18:15+02:00",
+   "headline": "OpenAI veroeffentlicht Auswahlhilfe fuer die GPT-6-Modellfamilie",
+   "summary": "OpenAI erklaert in einem Leitfaden, welches Modell der GPT-6-Reihe fuer welchen Anwendungsfall passt und wie sich der Aufwand fuer Schlussfolgern steuern laesst. Behandelt werden ausserdem besseres Prompting, der Einsatz von Skills sowie das Zusammenspiel mehrerer Werkzeuge. Ziel ist es, Entwicklerteams den Weg von Prototypen in den Produktivbetrieb zu erleichtern.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "openai",
+    "gpt-6",
+    "prompting",
+    "tools",
+    "entwicklung"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "quelle_titel": "A model guide for the GPT-6 family",
+   "url": "https://openai.com/index/practical-guide-building-gpt-6"
+  },
+  {
+   "id": "872d76f39ea2",
+   "date": "2026-10-02",
+   "published": "2026-10-02T14:55+02:00",
+   "headline": "Anthropic bewertet Cyberfähigkeiten von GLM-5.3 als beruhigend für die IT-Sicherheit",
+   "summary": "Anthropic hat untersucht, wie stark das Modell GLM-5.3 mit offenen Gewichten bei Cyberaufgaben abschneidet, und nutzt dafür einen Benchmark für Exploit-Fähigkeiten. Das Ergebnis fällt laut der Analyse positiv aus, weil die offensiven Fähigkeiten des Modells hinter den Befürchtungen zurückbleiben. Für Sicherheitsverantwortliche ist das ein Hinweis darauf, wie schnell frei verfügbare Modelle derzeit tatsächlich für Angriffe taugen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "glm-5.3",
+    "open weights",
+    "cybersicherheit",
+    "benchmark"
+   ],
+   "source": "The Batch",
+   "source_id": "batch",
+   "quelle_titel": "GLM-5.3’s ExploitBench Score is Good News for Cybersecurity",
+   "url": "https://www.deeplearning.ai/the-batch/issue-373"
+  },
+  {
+   "id": "10932e825b10",
+   "date": "2026-10-02",
+   "published": "2026-10-02T16:04+02:00",
+   "headline": "Airbnb baut mit Llama-Veteran Al-Dahle Produkte und Gaesteservice um",
+   "summary": "Ahmad Al-Dahle, zuvor verantwortlich fuer die Llama-Modelle bei Meta, treibt bei Airbnb den Einsatz von KI voran. Es geht sowohl um die interne Produktentwicklung der Teams als auch um Funktionen, die Gaeste direkt betreffen. Das Gespraech zeigt, wie ein etablierter Plattformbetreiber KI nicht nur als Feature, sondern als Arbeitsweise verankert.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "airbnb",
+    "llama",
+    "produktentwicklung",
+    "ki-einfuehrung"
+   ],
+   "source": "Latent Space",
+   "source_id": "latent-space",
+   "quelle_titel": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+   "url": "https://www.latent.space/p/airbnb"
+  },
+  {
+   "id": "575ad95effd7",
+   "date": "2026-10-02",
+   "published": "2026-10-02T20:39+02:00",
+   "headline": "Festnahme in den USA: Tech-Chef soll Nvidia-Chips nach China geschleust haben",
+   "summary": "US-Behoerden haben einen Firmenchef festgenommen, dem der Schmuggel von Nvidia-Beschleunigern im Wert von rund 300 Millionen Dollar nach China vorgeworfen wird. Es ist nicht der erste Fall dieser Art und belegt, dass die Exportkontrollen fuer KI-Hardware weiter umgangen werden. Fuer Unternehmen mit Lieferketten in diesem Bereich steigt damit das Risiko strengerer Pruefungen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "exportkontrolle",
+    "china",
+    "chips",
+    "strafverfolgung"
+   ],
+   "source": "Ars Technica AI",
+   "source_id": "ars-ai",
+   "quelle_titel": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+   "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
+  },
+  {
+   "id": "d599f0a282be",
+   "date": "2026-10-02",
+   "published": "2026-10-02T17:19+02:00",
+   "headline": "AstaBrief als offenes Modell fuer schnelle Berichtserstellung verfuegbar",
+   "summary": "Das in der Forschungsumgebung Asta eingesetzte Modell AstaBrief wird als Open Source freigegeben. Es ist darauf ausgelegt, aus Recherchematerial zuegig strukturierte Berichte zu erzeugen. Damit steht eine nachvollziehbare Alternative zu geschlossenen Diensten fuer automatisierte Zusammenfassungen bereit.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "open source",
+    "hugging face",
+    "berichte",
+    "recherche"
+   ],
+   "source": "Hugging Face",
+   "source_id": "huggingface",
+   "quelle_titel": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+   "url": "https://huggingface.co/blog/allenai/astabrief"
+  },
+  {
+   "id": "ac719b52e635",
+   "date": "2026-10-02",
+   "published": "2026-10-02T17:49+02:00",
+   "headline": "Autonome KI-Systeme ruecken ins Zentrum der Unternehmens-IT",
+   "summary": "Der Beitrag beschreibt KI im Unternehmen als bereits laufenden Betrieb und nicht mehr als Zukunftsplan, weil Faehigkeiten schneller wachsen als Organisationen sie aufnehmen koennen und die Kosten pro Leistung sinken. Fuer 2026 werden weltweite KI-Investitionen von rund 2,5 Billionen Dollar erwartet, ein Zuwachs von etwa 44 Prozent. Der Engpass liegt damit weniger in der Technik als in Prozessen und Qualifikation.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "enterprise-ki",
+    "autonome agenten",
+    "investitionen",
+    "transformation"
+   ],
+   "source": "MIT Technology Review",
+   "source_id": "mit-tr",
+   "quelle_titel": "Redefining enterprise intelligence with autonomous AI",
+   "url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/"
+  },
+  {
+   "id": "a59bf259f57e",
+   "date": "2026-10-02",
+   "published": "2026-10-02T18:00+02:00",
+   "headline": "Trillium Labs will riskante KI-Forschung oeffentlich betreiben",
+   "summary": "Waehrend grosse Labore heikle Untersuchungen meist intern halten, kuendigt Trillium Labs an, seine Arbeiten offen zu dokumentieren. Im Fokus stehen Selbstverbesserung von Modellen und die Analyse von Modellverhalten. Der Ansatz koennte die Debatte darueber verschaerfen, wie viel Transparenz bei sicherheitskritischer Forschung sinnvoll ist.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-sicherheit",
+    "transparenz",
+    "forschungslabor",
+    "modellverhalten"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "quelle_titel": "These AI Experts Want to Do High-Stakes Research Out in the Open",
+   "url": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/"
+  },
+  {
+   "id": "0ddb54cdbd61",
+   "date": "2026-10-02",
+   "published": "2026-10-02T22:30+02:00",
+   "headline": "Amazon stellt Milliarde gegen Rechenzentrumskritik bereit und erntet neue Kritik",
+   "summary": "Amazon will mit einem Programm im Milliardenbereich den Widerstand von Anwohnern und Kommunen gegen neue Rechenzentren abfedern. Dass der Konzern dabei auf Verschwiegenheitsklauseln verzichtet, wird positiv bewertet, die Darstellung der Umweltbelastung dagegen als beschoenigend kritisiert. Der Fall zeigt, wie stark der Infrastrukturausbau fuer KI inzwischen lokalpolitisch umkaempft ist.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "amazon",
+    "rechenzentren",
+    "infrastruktur",
+    "umwelt"
+   ],
+   "source": "Ars Technica AI",
+   "source_id": "ars-ai",
+   "quelle_titel": "Amazon’s $1B plan to combat data center backlash draws more backlash",
+   "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/"
+  },
+  {
+   "id": "fc1c6e27930e",
+   "date": "2026-10-02",
+   "published": "2026-10-02T16:52+02:00",
+   "headline": "KI-Boom treibt Preis der alten Nvidia Shield TV um 100 Dollar nach oben",
+   "summary": "Die 2019 eingefuehrte Nvidia Shield TV Pro kostet nun 299,99 Dollar und damit deutlich mehr als zuvor. Als Grund gilt die durch KI-Nachfrage angespannte Lage bei Speicher und Bauteilen. Das Beispiel zeigt, wie die Kosten des KI-Ausbaus auf gewoehnliche Elektronikprodukte durchschlagen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "nvidia",
+    "hardware",
+    "preise",
+    "lieferkette"
+   ],
+   "source": "Ars Technica AI",
+   "source_id": "ars-ai",
+   "quelle_titel": "The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI",
+   "url": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/"
+  }
+ ]
+}
