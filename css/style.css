@@ -138,3 +138,5 @@ input[type="search"] { font-size: 1.05rem; }
 .count-badge { display: inline-block; min-width: 18px; padding: 0 5px; border-radius: 9px; background: var(--accent); color: var(--accent-text); font-size: .7rem; font-weight: 800; line-height: 18px; text-align: center; font-style: normal; }
 .count-badge[hidden] { display: none; }
 .actions { margin-bottom: 10px; }
+
+.ts-label { display: inline-block; margin-bottom: 3px; padding: 1px 8px; border-radius: 6px; font-size: .72rem; font-weight: 800; letter-spacing: .03em; text-transform: uppercase; color: var(--c); background: color-mix(in srgb, var(--c) 14%, transparent); }

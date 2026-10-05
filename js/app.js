@@ -5,6 +5,10 @@ const THEMEN = [
   ['Politik und Regulierung', 'politik'], ['Weiterbildung DE', 'weiter'], ['Unternehmen DE', 'unternehmen'],
   ['Sicherheit und Ethik', 'sicherheit'],
 ];
+const THEMA_SHORT = {
+  'Modelle und Produkte': 'Technik', 'Forschung': 'Forschung', 'Business': 'Wirtschaft', 'Politik und Regulierung': 'Politik',
+  'Weiterbildung DE': 'Bildung', 'Unternehmen DE': 'Unternehmen DE', 'Sicherheit und Ethik': 'Sicherheit & Ethik',
+};
 const THEMA_VAR = Object.fromEntries(THEMEN.map(([n, k]) => [n, `var(--t-${k})`]));
 const REGIONEN = [['', 'Alle'], ['intl', 'International'], ['de', 'Deutschland']];
 const PAGE = 30;
@@ -226,7 +230,8 @@ async function viewDay(dateArg, q) {
     chipRow(REGIONEN, region, (v) => go(dateArg ? '/tag/' + date : '/', { region: v }, true) || route(), 'Bereich'),
     top.length ? h('section', { class: 'top-stories', 'aria-labelledby': 'ts' },
       h('h2', { id: 'ts' }, 'Top-Stories'),
-      h('ol', null, top.map(({ o, item }) => h('li', null, h('div', null,
+      h('ol', null, top.map(({ o, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` }, h('div', null,
+        h('span', { class: 'ts-label' }, THEMA_SHORT[item.thema] || item.thema),
         h('p', null, o.text),
         h('a', { class: 'src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, `${item.source} ↗`)))))) : null,
     ...(sections.length ? sections.map(([name, list]) => h('section', { class: 'section', style: `--c:${THEMA_VAR[name]}` },
