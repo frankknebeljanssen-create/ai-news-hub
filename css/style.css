@@ -484,3 +484,39 @@ details.filterbox > .filter-grid { margin: 0; }
   .day-tools .seg-btn { flex: 1; padding: 0 4px; min-height: 34px; font-size: .84rem; }
   .seg-n { margin-left: 5px; }
 }
+
+/* ---- Neu, auch bei, Wochenrueckblick, Status ---- */
+.badge.new { background: var(--accent); color: var(--accent-text); border-color: transparent; }
+.ts-label.new { background: var(--accent); color: var(--accent-text); }
+.ts-label.new::before { display: none; }
+.newonly { border: 1px solid color-mix(in srgb, var(--accent) 50%, var(--border)); background: var(--accent-soft); color: var(--accent); border-radius: 999px; padding: 1px 10px; font-weight: 700; font-size: .78rem; cursor: pointer; }
+.newonly[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); }
+.count-badge[data-new-count] { margin-left: 4px; }
+.also { font-size: .78rem; color: var(--muted); margin-top: 6px; }
+.also a { color: var(--muted); text-decoration: none; font-weight: 600; }
+.also a:hover { text-decoration: underline; }
+.more-panel .also { margin: 0 0 6px; }
+
+.brief-switch { margin: 2px 0 10px; }
+.brief-switch .seg-label { display: none; }
+.b-sum { margin: 2px 0 0; color: var(--muted); font-size: .92rem; }
+.wk-row { padding: 10px 0; border-top: 1px solid var(--border); }
+.wk-row:first-child { border-top: 0; }
+.wk-head { display: flex; justify-content: space-between; gap: 10px; font-weight: 700; }
+.wk-n { color: var(--muted); font-variant-numeric: tabular-nums; }
+.wk-bar { height: 6px; border-radius: 3px; background: var(--surface-2); margin: 6px 0 8px; overflow: hidden; }
+.wk-bar i { display: block; height: 100%; background: var(--c); border-radius: 3px; }
+.wk-top { display: grid; gap: 4px; }
+.daynav .label { flex: 1 1 auto; }
+
+.status-banner { display: grid; gap: 3px; padding: 14px 16px; border-radius: var(--radius); margin: 0 0 14px; border: 1px solid var(--border); }
+.status-banner.ok { background: color-mix(in srgb, #20b26b 14%, var(--surface)); border-color: color-mix(in srgb, #20b26b 45%, var(--border)); }
+.status-banner.warn { background: color-mix(in srgb, #d9822b 16%, var(--surface)); border-color: color-mix(in srgb, #d9822b 50%, var(--border)); }
+.status-banner.late { background: color-mix(in srgb, #d9483b 16%, var(--surface)); border-color: color-mix(in srgb, #d9483b 50%, var(--border)); }
+.status-banner span { font-size: .9rem; color: var(--muted); }
+.st-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 8px; background: var(--muted); }
+.st-dot.ok { background: #20b26b; }
+.st-dot.fail { background: #d9483b; }
+.st-dot.off { background: var(--border); }
+.st-name { display: inline-flex; align-items: center; min-width: 0; font-weight: 600; }
+.src-list.problems small { color: var(--muted); }

@@ -25,6 +25,7 @@ Tägliches KI-Nachrichtenarchiv auf Deutsch. Eine Python-Pipeline sammelt Meldun
 **Web-App**
 
 - **Briefing** (`#/briefing`): kompakte Ansicht für 2 bis 3 Minuten mit den 5 wichtigsten Meldungen, drei Meldungen aus Deutschland, einem Praxistipp, einem kuriosen Fall und einem Glossarbegriff des Tages, mit Fortschrittsbalken und Tageswechsel
+- **Wochenrückblick** (`#/woche`): Top-Meldungen der Kalenderwoche, Deutschland, Themenverteilung, Praxistipps, Kurioses und Zahlen, mit Wochenwechsel
 - Tagesansicht mit Top-Stories (je ein Satz), Meldungen nach Themen und Sprungleiste
 - Zusatzboxen "Bereich B: Deutschland" und "Kurios & krass"
 - Archiv mit Gruppierung nach Tagen, Wochen, Monaten oder Kategorien, Sortierung nach Datum oder Relevanz sowie Filtern für Thema, Quelle, Bereich und Zeitraum
@@ -33,6 +34,9 @@ Tägliches KI-Nachrichtenarchiv auf Deutsch. Eine Python-Pipeline sammelt Meldun
 - Merkliste mit Export und Import als JSON-Datei
 - Hell-, Dunkel- und Systemdarstellung, einstellbare Schriftgröße, Einstellungsseite
 - Responsives Layout, mobil zuerst (Tab-Leiste am Handy, Navigation oben am Desktop)
+- **Neu seit deinem letzten Besuch:** neue Meldungen sind markiert, mit Zähler am Reiter "Heute" und Filter "Nur Neues"
+- **Mehrfachmeldungen zusammengeführt:** dasselbe Ereignis aus mehreren Quellen erscheint einmal, die übrigen Quellen stehen als "Auch bei" darunter
+- **Systemstatus** (`#/status`): Zustand des letzten Laufs und aller Quellen
 - Offline-Betrieb über einen Service Worker, installierbar auf dem Home-Bildschirm
 - Stand-Anzeige ("aktualisiert heute 07:12")
 
@@ -83,9 +87,10 @@ Es gibt keinen Server und keine Datenbank. Die Pipeline läuft lokal auf einem M
    - Dubletten: normalisierte URL (ohne Tracking-Parameter) und Titelähnlichkeit (`difflib`, Schwelle 0,88) gegen Bestand und aktuellen Lauf.
    - Limit je Quelle (Standard 6), Prioritätsquellen zuerst, höchstens 100 Artikel pro Lauf.
 3. **Kuratierung.** Die Artikel werden in Batches zu je 10 an `claude -p --output-format json --no-session-persistence --tools ""` übergeben. Pro Artikel liefert das Modell als JSON: `headline`, `summary` (2 bis 3 Sätze in eigenen Worten), `thema`, `region`, `relevanz` (1 bis 5), `tags` sowie optional `kurios`, `praxis` und `ki_bezug`. Die Antwort wird validiert. Artikel ohne KI-Bezug werden 30 Tage lang gemerkt und verworfen. Unvollständige oder ungültige Antworten werden beim nächsten Lauf erneut versucht.
-4. **Tagesüberblick.** Für jeden betroffenen Tag wählt ein weiterer Aufruf 5 bis 8 Top-Stories aus und formuliert je einen Satz. Wenn Meldungen aus Deutschland vorhanden sind, werden mindestens zwei berücksichtigt.
-5. **Speichern.** Tagesdateien, Index und Status werden atomar geschrieben (temporäre Datei, dann Ersetzen).
-6. **Git.** Commit "Daten JJJJ-MM-TT", `git pull --rebase --autostash`, `git push`.
+4. **Zusammenführen.** Ein weiterer `claude -p`-Aufruf erkennt Meldungen, die dasselbe Ereignis behandeln (Fenster: betroffene Tage und je der Vortag, höchstens 180 Meldungen). Die Hauptmeldung erhält `also` (Quelle und Link der übrigen), die Nebenmeldungen `dup_of`. Eine leere oder unbrauchbare Antwort ändert bestehende Gruppen nicht.
+5. **Tagesüberblick.** Für jeden betroffenen Tag wählt ein weiterer Aufruf aus den Hauptmeldungen 5 bis 8 Top-Stories aus und formuliert je einen Satz. Wenn Meldungen aus Deutschland vorhanden sind, werden mindestens zwei berücksichtigt.
+6. **Speichern.** Tagesdateien, Index und Status werden atomar geschrieben (temporäre Datei, dann Ersetzen).
+7. **Git.** Commit "Daten JJJJ-MM-TT", `git pull --rebase --autostash`, `git push`.
 
 **Abrechnung.** Der Aufruf von `claude` erfolgt mit einer bereinigten Umgebung. Die Variablen `ANTHROPIC_API_KEY`, `ANTHROPIC_AUTH_TOKEN`, `ANTHROPIC_BASE_URL` sowie alle `CLAUDE_CODE_*`-Variablen werden entfernt, sodass ausschließlich die Anmeldung des Abonnements verwendet wird.
 
@@ -109,14 +114,14 @@ pipeline.py [--force] [--no-git] [--only ID] [--limit N] [--backfill {kurios,pra
 | `--no-git` | kein Commit und kein Push |
 | `--only ID` | nur die Quelle mit dieser ID |
 | `--limit N` | höchstens N Artikel in diesem Lauf |
-| `--backfill kurios` oder `praxis` | bestehende Artikel nachträglich auf das Merkmal prüfen |
+| `--backfill kurios`, `praxis` oder `cluster` | bestehende Artikel nachträglich auf das Merkmal prüfen bzw. Mehrfachmeldungen neu zusammenführen |
 
 ## Datenmodell
 
 ```
 data/
   index.json                 alle Meldungen (für Suche und Archiv)
-  state.json                 Laufstatus, Quellenstatus, verworfene URLs
+  state.json                 Laufstatus, Quellenstatus (mit Namen), verworfene URLs
   JJJJ/MM/JJJJ-MM-TT.json    Tagesdatei: Überblick und Meldungen des Tages
 content/
   glossar.json               Glossar
@@ -137,6 +142,9 @@ content/
 | `kurios` | optional, ein Satz zur Begründung |
 | `praxis` | optional, `true` bei Praxistipps und Tools |
 | `source`, `source_id` | Anzeigename und ID der Quelle |
+| `added` | Zeitpunkt der Aufnahme durch die Pipeline (Grundlage für "Neu") |
+| `also` | optional, bei Hauptmeldungen: Quelle und Link weiterer Quellen zum selben Ereignis |
+| `dup_of` | optional, bei Nebenmeldungen: `id` der Hauptmeldung, wird nicht einzeln angezeigt |
 | `quelle_titel`, `url` | Originaltitel und Link zur Quelle |
 
 **Tagesdatei:** `date`, `generated_at`, `overview` (Liste aus `id` und `text`), `items`.
@@ -177,8 +185,9 @@ Bezahlte Newsletter sind bewusst nicht Teil des Repositories.
 
 Single-Page-App aus `index.html`, `css/style.css` und `js/app.js`, ohne Framework und ohne Build-Schritt.
 
-- **Routing** über den URL-Hash: `#/` (neuester Tag), `#/tag/JJJJ-MM-TT`, `#/briefing`, `#/archiv`, `#/suche`, `#/glossar`, `#/merkliste`, `#/einstellungen`. Filter und Suchbegriffe stehen in der URL und sind teilbar.
+- **Routing** über den URL-Hash: `#/` (neuester Tag), `#/tag/JJJJ-MM-TT`, `#/briefing`, `#/woche`, `#/status`, `#/archiv`, `#/suche`, `#/glossar`, `#/merkliste`, `#/einstellungen`. Filter und Suchbegriffe stehen in der URL und sind teilbar.
 - **Briefing:** wird vollständig im Browser aus den vorhandenen Daten zusammengestellt (Tagesüberblick, Region, Praxis- und Kurios-Markierung, Glossar), ohne zusätzlichen Pipeline-Schritt. Der Begriff des Tages ist pro Datum stabil. Wahlweise als Startseite einstellbar.
+- **Neu-Markierung:** Pro Gerät merkt sich die App im Browser, wann zuletzt Betrieb war (`visitBase`, `visitActive`). Nach 30 Minuten Pause beginnt eine neue Sitzung, Meldungen mit `added` (sonst `published`) nach deren Beginn gelten als neu.
 - **Offline:** `sw.js` lädt beim Installieren die App-Dateien, `data/index.json`, das Glossar und den neuesten Tag vor. Seiten und JSON werden zuerst vom Netz geholt (nach 4 Sekunden Wartezeit zählt die gespeicherte Kopie), versionierte Dateien und Symbole kommen aus dem Speicher. Mit `manifest.webmanifest` und den Symbolen unter `icons/` lässt sich die App auf dem Home-Bildschirm ablegen. Ein Hinweis zeigt, wenn das Gerät offline ist.
 - **Suche** mit Fuse.js 7.0.0 (lokal eingebunden) über Schlagzeile, Tags, Kurzfassung, Quelle und Originaltitel.
 - **Lokaler Speicher** (`localStorage`): `theme`, `fs` (Schriftgröße), `favs` (Merkliste), `settings`. Es werden keine Daten an einen Server gesendet.

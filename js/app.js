@@ -17,6 +17,32 @@ const REGIONEN = [['', 'Alle'], ['intl', 'International'], ['de', 'Deutschland']
 const PAGE = 30;
 
 const $app = document.getElementById('app');
+
+/* Neu seit dem letzten Besuch: eine Sitzung endet nach 30 Minuten Pause, ihr Ende ist dann die neue Basis */
+const VISIT = (() => {
+  const now = Date.now();
+  let base = 0, active = 0;
+  try { base = Number(localStorage.getItem('visitBase')) || 0; active = Number(localStorage.getItem('visitActive')) || 0; } catch (e) { /* kein Speicher */ }
+  if (!base) base = now;
+  else if (now - active > 30 * 60 * 1000) base = active;
+  try { localStorage.setItem('visitBase', String(base)); localStorage.setItem('visitActive', String(now)); } catch (e) { /* kein Speicher */ }
+  return { base };
+})();
+const isNew = (i) => Date.parse(i.added || i.published) > VISIT.base;
+function touchActive() { try { localStorage.setItem('visitActive', String(Date.now())); } catch (e) { /* kein Speicher */ } }
+function paintNewCount() {
+  const n = store.index ? store.index.items.filter(isNew).length : 0;
+  document.querySelectorAll('[data-new-count]').forEach((el) => { el.textContent = n > 99 ? '99+' : n || ''; el.hidden = !n; });
+}
+function relTime(ms) {
+  const m = Math.round((Date.now() - ms) / 60000);
+  if (m < 1) return 'gerade eben';
+  if (m < 60) return `vor ${m} Min`;
+  const hrs = Math.round(m / 60);
+  if (hrs < 24) return `vor ${hrs} Std`;
+  const d = Math.round(hrs / 24);
+  return `vor ${d} ${d === 1 ? 'Tag' : 'Tagen'}`;
+}
 const render = (...nodes) => $app.replaceChildren(...nodes.filter((n) => n != null && n !== false));
 const store = { index: null, days: {}, fuse: null };
 
@@ -90,9 +116,15 @@ async function getJSON(url) {
 async function loadIndex() {
   if (!store.index) {
     store.index = await getJSON('data/index.json');
+    // Nebenmeldungen (dup_of) stecken als "auch bei" in der Hauptmeldung und werden nicht einzeln gelistet
+    store.allItems = store.index.items;
+    store.index.items = store.allItems.filter((i) => !i.dup_of);
+    store.index.count = store.index.items.length;
     document.getElementById('gq').placeholder = `Suchen in ${store.index.count} Meldungen`;
     store.dates = [...new Set(store.index.items.map((i) => i.date))].sort().reverse();
-    store.byId = new Map(store.index.items.map((i) => [i.id, i]));
+    store.byId = new Map(store.allItems.map((i) => [i.id, i]));
+    store.resolve = (id) => { const i = store.byId.get(id); return i && i.dup_of ? (store.byId.get(i.dup_of) || i) : i; };
+    paintNewCount();
   }
   return store.index;
 }
@@ -235,6 +267,7 @@ function withMore(meta, item) {
   const open0 = getSettings().expandAll;
   const panel = h('div', { class: 'more-panel', hidden: !open0 },
     h('p', null, item.summary),
+    alsoLine(item),
     h('a', { class: 'b-src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, 'Zum Original \u2197'));
   const btn = h('button', { class: 'more-link', type: 'button', 'aria-expanded': String(!!open0) }, open0 ? 'Weniger' : 'Mehr lesen');
   btn.addEventListener('click', () => {
@@ -315,6 +348,12 @@ function sourceSelect(current, onPick) {
       names.map((n) => h('option', { value: n, selected: n === current }, `${n} (${counts.get(n)})`))));
 }
 
+function alsoLine(item) {
+  if (!item.also || !item.also.length) return null;
+  const links = item.also.map((a) => h('a', { href: safeUrl(a.url), target: '_blank', rel: 'noopener noreferrer' }, `${a.source} \u2197`));
+  return h('div', { class: 'also' }, 'Auch bei: ', ...links.flatMap((l, k) => (k ? [' \u00B7 ', l] : [l])));
+}
+
 function card(item, query) {
   const color = THEMA_VAR[item.thema] || 'var(--accent)';
   const mark = (txt) => (query ? highlight(txt, query) : txt);
@@ -322,6 +361,7 @@ function card(item, query) {
   const el = h('article', { class: 'card', style: `--c:${color}` },
     h('div', { class: 'card-top' },
       h('span', { class: 'tag-thema' }, item.thema),
+      isNew(item) ? h('span', { class: 'badge new' }, 'Neu') : null,
       item.praxis ? h('span', { class: 'badge praxis' }, 'Praxistipp') : null,
       item.region === 'de' ? h('span', { class: 'badge' }, 'DE') : null,
       starBtn(item)),
@@ -332,6 +372,7 @@ function card(item, query) {
       h('span', { class: 'src-name' }, item.source),
       h('span', null, fmtShort(item.date)),
       h('span', { class: 'rel', title: `Relevanz ${item.relevanz} von 5`, 'aria-label': `Relevanz ${item.relevanz} von 5` }, '\u25CF'.repeat(item.relevanz))),
+    alsoLine(item),
     item.tags && item.tags.length ? h('div', { class: 'tags' }, item.tags.map((t) => h('span', null, '#' + t))) : null,
     h('a', { class: 'orig', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer', title: item.quelle_titel }, 'Zum Original \u2197'));
   if (getSettings().expandAll) { el.classList.add('open'); more.textContent = 'Weniger'; }
@@ -370,8 +411,9 @@ async function viewDay(dateArg, q) {
   const st = getSettings();
   const region = q.region !== undefined ? q.region : (store.regionSel !== undefined ? store.regionSel : st.region);
   const day = await loadDay(date);
-  const dayAll = day ? day.items : index.items.filter((i) => i.date === date);
+  const dayAll = day ? day.items.filter((i) => !i.dup_of) : index.items.filter((i) => i.date === date);
   const items = dayAll.filter((i) => !region || i.region === region);
+  const newN = dayAll.filter(isNew).length;
   const pos = store.dates.indexOf(date);
   const stand = standText(index.updated);
 
@@ -380,7 +422,8 @@ async function viewDay(dateArg, q) {
     daySelect(date, [h('span', { class: 'lbl-long' }, dayLabel(date)), h('span', { class: 'lbl-short' }, dayLabelShort(date))], (d) => go(d === store.dates[0] ? '/' : '/tag/' + d, { region })),
     h('button', { class: 'btn', type: 'button', 'aria-label': 'Neuerer Tag', disabled: pos <= 0, onclick: () => go(pos === 1 ? '/' : '/tag/' + store.dates[pos - 1], { region }) }, '›'));
 
-  const top = ((day && day.overview) || []).map((o) => ({ o, item: store.byId.get(o.id) })).filter((x) => x.item && (!region || x.item.region === region));
+  const top = ((day && day.overview) || []).map((o) => ({ o, item: store.resolve(o.id) })).filter((x) => x.item && (!region || x.item.region === region))
+    .filter((x, k, arr) => arr.findIndex((y) => y.item.id === x.item.id) === k);
 
   const kAll = index.items.filter((i) => i.kurios && (!region || i.region === region)).sort((a, b) => b.relevanz - a.relevanz || b.published.localeCompare(a.published));
   const kDay = kAll.filter((i) => i.date === date);
@@ -394,13 +437,15 @@ async function viewDay(dateArg, q) {
   const deScope = deDay.length >= 3 ? 'an diesem Tag' : 'in den letzten 7 Tagen';
   const deList = dedupeSimilar(deDay.length >= 3 ? deDay : deWeek, 6);
 
-  const sections = THEMEN.map(([name]) => [name, items.filter((i) => i.thema === name).sort((a, b) => b.relevanz - a.relevanz)]).filter(([n, l]) => l.length && !st.hidden.includes(n));
+  const secItems = store.onlyNew && newN ? items.filter(isNew) : items;
+  const sections = THEMEN.map(([name]) => [name, secItems.filter((i) => i.thema === name).sort((a, b) => b.relevanz - a.relevanz)]).filter(([n, l]) => l.length && !st.hidden.includes(n));
 
   render(
     h('div', { class: 'day-head' },
       h('div', { class: 'day-title' },
         h('h1', null, 'KI-News'),
-        h('p', { class: 'sub' }, h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text), ` \u00B7 ${items.length} Meldungen an diesem Tag`)),
+        h('p', { class: 'sub' }, h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text), ` \u00B7 ${items.length} Meldungen`,
+          newN ? [' \u00B7 ', h('button', { class: 'newonly', type: 'button', 'aria-pressed': String(!!(store.onlyNew && newN)), title: 'Nur neue Meldungen zeigen', onclick: () => { store.onlyNew = !store.onlyNew; route(); } }, store.onlyNew ? `Nur Neues (${newN}) \u2715` : `${newN} neu`)] : null)),
       nav),
     h('div', { class: 'day-tools' },
       chipRow(regionOptions(dayAll), region, (v) => { store.regionSel = v; go(dateArg ? '/tag/' + date : '/', { region: v }, true); route(); }, 'Bereich'),
@@ -410,6 +455,7 @@ async function viewDay(dateArg, q) {
       h('h2', { id: 'ts' }, 'Top-Stories'),
       h('ol', null, top.map(({ o, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` }, h('div', null,
         h('span', { class: 'ts-label' }, THEMA_SHORT[item.thema] || item.thema),
+        isNew(item) ? h('span', { class: 'ts-label new' }, 'Neu') : null,
         item.praxis ? h('span', { class: 'ts-label praxis' }, 'Praxistipp') : null,
         h('p', null, o.text),
         withMore([h('a', { class: 'src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, `${item.source} ↗`)], item)))))) : null,
@@ -757,6 +803,8 @@ async function viewSettings() {
       h('p', { class: 'set-text' }, `Merkliste: ${favN} ${favN === 1 ? 'Eintrag' : 'Einträge'}.`),
       h('div', { class: 'row actions' },
         h('a', { class: 'btn', href: '#/merkliste' }, 'Merkliste öffnen'),
+        h('a', { class: 'btn', href: '#/status' }, 'Systemstatus'),
+        h('button', { class: 'btn', type: 'button', onclick: () => { VISIT.base = Date.now(); try { localStorage.setItem('visitBase', String(VISIT.base)); } catch (e) { /* ignorieren */ } paintNewCount(); redo(); } }, 'Alles als gelesen markieren'),
         h('button', { class: 'btn', type: 'button', onclick: () => { if (confirm('Alle Einstellungen auf Standard zurücksetzen? Die Merkliste bleibt erhalten.')) { ['settings', 'theme', 'fs'].forEach((k) => { try { localStorage.removeItem(k); } catch (e) { /* ignorieren */ } }); setMem = null; delete document.documentElement.dataset.theme; store.regionSel = undefined; applySettings(); applyFs(FS_DEFAULT); paintTheme(); redo(); } } }, 'Einstellungen zurücksetzen'),
         h('button', { class: 'btn danger', type: 'button', disabled: !favN, onclick: () => { if (confirm('Die gesamte Merkliste löschen? Das lässt sich nicht rückgängig machen.')) { favMem = {}; favSave(); redo(); } } }, 'Merkliste löschen'))),
 
@@ -802,13 +850,15 @@ async function viewBriefing(q) {
   const date = q.d && store.dates.includes(q.d) ? q.d : store.dates[0];
   const pos = store.dates.indexOf(date);
   const [day, gl] = await Promise.all([loadDay(date), loadGlossary().catch(() => [])]);
-  const dayAll = day ? day.items : index.items.filter((i) => i.date === date);
+  const dayAll = day ? day.items.filter((i) => !i.dup_of) : index.items.filter((i) => i.date === date);
   const stand = standText(index.updated);
-  const byRel = (a, b) => b.relevanz - a.relevanz || b.published.localeCompare(a.published);
+  const newN = dayAll.filter(isNew).length;
+  const byRel = (a, b) => (isNew(b) - isNew(a)) || b.relevanz - a.relevanz || b.published.localeCompare(a.published);
   const used = new Set();
 
   // 1. Top-Stories (aus dem Tagesueberblick, sonst die relevantesten Meldungen)
-  const top = ((day && day.overview) || []).map((o) => ({ text: o.text, item: store.byId.get(o.id) })).filter((x) => x.item).slice(0, 5);
+  const top = ((day && day.overview) || []).map((o) => ({ text: o.text, item: store.resolve(o.id) })).filter((x) => x.item)
+    .filter((x, k, arr) => arr.findIndex((y) => y.item.id === x.item.id) === k).slice(0, 5);
   if (top.length < 5) {
     dedupeSimilar(dayAll.filter((i) => !top.some((t) => t.item.id === i.id)).sort(byRel), 5 - top.length)
       .forEach((i) => top.push({ text: firstSentence(i.summary), item: i }));
@@ -854,7 +904,8 @@ async function viewBriefing(q) {
   render(
     bar,
     h('h1', null, 'Briefing'),
-    h('p', { class: 'sub' }, `${dayLabel(date)} \u00B7 ca. ${minutes} Min`, h('br'), h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text)),
+    h('div', { class: 'brief-switch' }, chipRow([['tag', 'Heute'], ['woche', 'Woche']], 'tag', (v) => { if (v === 'woche') go('/woche'); }, 'Ansicht')),
+    h('p', { class: 'sub' }, `${dayLabel(date)} \u00B7 ca. ${minutes} Min${newN ? ` \u00B7 ${newN} neu seit deinem letzten Besuch` : ''}`, h('br'), h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text)),
     h('div', { class: 'daynav' },
       h('button', { class: 'btn', type: 'button', 'aria-label': 'Älterer Tag', disabled: pos >= store.dates.length - 1, onclick: () => go('/briefing', { d: store.dates[pos + 1] }) }, '\u2039'),
       daySelect(date, fmtShort(date) + date.slice(0, 4), (d) => go('/briefing', d === store.dates[0] ? {} : { d })),
@@ -863,6 +914,7 @@ async function viewBriefing(q) {
     sec('Das Wichtigste',
       h('ol', { class: 'b-top' }, top.map(({ text, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` },
         h('span', { class: 'ts-label' }, THEMA_SHORT[item.thema] || item.thema),
+        isNew(item) ? h('span', { class: 'ts-label new' }, 'Neu') : null,
         h('p', null, text),
         withMore([srcLink(item)], item))))),
 
@@ -887,18 +939,159 @@ async function viewBriefing(q) {
   update();
 }
 
+/* ---------- Ansicht: Wochenrückblick ---------- */
+
+async function viewWeek(q) {
+  const index = await loadIndex();
+  if (!store.dates.length) return render(stateBox('Noch keine Nachrichten vorhanden.'));
+  const weeks = [], seen = new Set();
+  store.dates.forEach((d) => { const w = isoWeek(d); if (!seen.has(w.key)) { seen.add(w.key); weeks.push(w); } });
+  const cur = weeks.find((w) => w.key === q.w) || weeks[0];
+  const wi = weeks.indexOf(cur);
+  const items = index.items.filter((i) => i.date >= cur.start && i.date <= cur.end);
+  const score = (i) => i.relevanz * 2 + Math.min((i.also || []).length, 5);
+  const byScore = (a, b) => score(b) - score(a) || b.published.localeCompare(a.published);
+  const sorted = items.slice().sort(byScore);
+
+  // Top 7, höchstens 2 je Thema
+  const perThema = {};
+  const top = [];
+  for (const i of sorted) {
+    if ((perThema[i.thema] || 0) >= 2) continue;
+    perThema[i.thema] = (perThema[i.thema] || 0) + 1;
+    top.push(i);
+    if (top.length >= 7) break;
+  }
+  const used = new Set(top.map((i) => i.id));
+  const de = dedupeSimilar(sorted.filter((i) => i.region === 'de' && !used.has(i.id)), 4);
+  de.forEach((i) => used.add(i.id));
+  const praxis = sorted.filter((i) => i.praxis && !used.has(i.id)).slice(0, 3);
+  const kurios = sorted.filter((i) => i.kurios && !used.has(i.id)).slice(0, 2);
+
+  const themaStats = THEMEN.map(([n]) => [n, sorted.filter((i) => i.thema === n)]).filter(([, l]) => l.length);
+  const maxN = Math.max(1, ...themaStats.map(([, l]) => l.length));
+  const tagCount = new Map();
+  items.forEach((i) => (i.tags || []).forEach((t) => { if (t.length >= 3) tagCount.set(t, (tagCount.get(t) || 0) + 1); }));
+  const tags = [...tagCount.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 8);
+  const days = new Set(items.map((i) => i.date)).size;
+  const sourcesN = new Set(items.map((i) => i.source)).size;
+  const running = cur.end >= todayStr();
+
+  const words = [...top.map((i) => i.headline + ' ' + firstSentence(i.summary)), ...de.map((i) => i.headline), ...praxis.map((i) => i.headline), ...kurios.map((i) => i.kurios)].join(' ').split(/\s+/).length;
+  const minutes = Math.max(1, Math.ceil(words / 150));
+
+  const sec = (name, ...kids) => h('section', { class: 'brief-sec' }, h('h2', null, name), ...kids);
+  const srcLink = (it) => h('a', { class: 'b-src', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, `${it.source} ↗`);
+  const title = (it) => h('a', { class: 'b-title', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, it.headline);
+
+  render(
+    h('h1', null, 'Wochenrückblick'),
+    h('div', { class: 'brief-switch' }, chipRow([['tag', 'Heute'], ['woche', 'Woche']], 'woche', (v) => { if (v === 'tag') go('/briefing'); }, 'Ansicht')),
+    h('p', { class: 'sub' }, `${items.length} Meldungen an ${days} ${days === 1 ? 'Tag' : 'Tagen'} · ca. ${minutes} Min`, running ? [h('br'), 'Die Woche läuft noch, es kommen weitere Meldungen dazu.'] : null),
+    h('div', { class: 'daynav' },
+      h('button', { class: 'btn', type: 'button', 'aria-label': 'Ältere Woche', disabled: wi >= weeks.length - 1, onclick: () => go('/woche', { w: weeks[wi + 1].key }) }, '‹'),
+      h('div', { class: 'label' }, `KW ${cur.week} · ${fmtShort(cur.start)} bis ${fmtShort(cur.end)}${cur.end.slice(0, 4)}`),
+      h('button', { class: 'btn', type: 'button', 'aria-label': 'Neuere Woche', disabled: wi <= 0, onclick: () => go('/woche', wi === 1 ? {} : { w: weeks[wi - 1].key }) }, '›')),
+
+    !items.length ? h('p', { class: 'empty' }, 'Für diese Woche gibt es noch keine Meldungen.') : null,
+
+    top.length ? sec('Die Woche in Kürze',
+      h('ol', { class: 'b-top' }, top.map((i) => h('li', { style: `--c:${THEMA_VAR[i.thema] || 'var(--accent)'}` },
+        h('span', { class: 'ts-label' }, THEMA_SHORT[i.thema] || i.thema),
+        title(i),
+        h('p', { class: 'b-sum' }, firstSentence(i.summary)),
+        withMore([srcLink(i)], i))))) : null,
+
+    de.length ? sec('Deutschland', h('ul', { class: 'b-list' }, de.map((i) => h('li', null, title(i), withMore([srcLink(i)], i))))) : null,
+
+    themaStats.length ? sec('Nach Themen',
+      h('div', { class: 'wk-bars' }, themaStats.map(([n, l]) => h('div', { class: 'wk-row', style: `--c:${THEMA_VAR[n]}` },
+        h('div', { class: 'wk-head' }, h('span', { class: 'wk-name' }, n), h('span', { class: 'wk-n' }, l.length)),
+        h('div', { class: 'wk-bar' }, h('i', { style: `width:${Math.round((l.length / maxN) * 100)}%` })),
+        h('div', { class: 'wk-top' }, l.slice(0, 2).map((i) => h('a', { class: 'b-title', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, i.headline))))))) : null,
+
+    praxis.length ? sec('Praxistipps der Woche', h('ul', { class: 'b-list' }, praxis.map((i) => h('li', null, title(i), withMore([srcLink(i)], i))))) : null,
+    kurios.length ? sec('Kurios & krass', h('ul', { class: 'b-list' }, kurios.map((i) => h('li', null, h('span', { class: 'k-hook' }, i.kurios), title(i), withMore([srcLink(i)], i))))) : null,
+
+    items.length ? sec('Die Woche in Zahlen',
+      h('dl', { class: 'kv' },
+        h('dt', null, 'Meldungen'), h('dd', null, `${items.length} (International ${items.filter((i) => i.region === 'intl').length}, Deutschland ${items.filter((i) => i.region === 'de').length})`),
+        h('dt', null, 'Quellen'), h('dd', null, String(sourcesN)),
+        h('dt', null, 'Mehrfach berichtet'), h('dd', null, `${items.filter((i) => i.also && i.also.length).length} Ereignisse bei mehreren Quellen`),
+        tags.length ? [h('dt', null, 'Häufige Tags'), h('dd', null, tags.map(([t, n]) => `#${t} (${n})`).join(' · '))] : null)) : null,
+
+    h('div', { class: 'brief-end' },
+      h('div', { class: 'row actions' },
+        h('a', { class: 'btn primary', href: '#/briefing' }, 'Zum Tages-Briefing'),
+        h('a', { class: 'btn', href: '#/archiv?g=woche' }, 'Archiv nach Wochen'))));
+}
+
+/* ---------- Ansicht: Systemstatus ---------- */
+
+async function viewStatus() {
+  const index = await loadIndex();
+  const [state, gl] = await Promise.all([getJSON('data/state.json').catch(() => null), loadGlossary().catch(() => [])]);
+  if (!state) return render(h('h1', null, 'Status'), stateBox('Der Status konnte nicht geladen werden.'));
+  const names = new Map();
+  store.allItems.forEach((i) => names.set(i.source_id, i.source));
+  const srcs = Object.entries(state.sources || {}).map(([id, s]) => ({ ...s, id, name: s.name || names.get(id) || id }));
+  const ok = srcs.filter((s) => s.ok === true), bad = srcs.filter((s) => s.ok === false), off = srcs.filter((s) => s.ok === null);
+  const last = state.last_success ? Date.parse(state.last_success) : 0;
+  const ageH = last ? (Date.now() - last) / 3600000 : null;
+  const level = ageH == null || ageH > 26 ? 'late' : bad.length ? 'warn' : 'ok';
+  const msg = { ok: 'Alles in Ordnung', warn: `Läuft, aber ${bad.length} ${bad.length === 1 ? 'Quelle hat' : 'Quellen haben'} Fehler`, late: 'Der letzte erfolgreiche Lauf ist überfällig' }[level];
+  const fmt = (iso) => (iso ? `${new Date(iso).toLocaleString('de-DE', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Europe/Berlin' })} Uhr` : 'unbekannt');
+  const dup = store.allItems.filter((i) => i.dup_of).length;
+  const dates = store.dates;
+  const order = (s) => (s.ok === false ? 0 : s.ok === true ? 1 : 2);
+
+  render(
+    h('h1', null, 'Systemstatus'),
+    h('p', { class: 'sub' }, 'Zustand der täglichen Pipeline und der Quellen.'),
+    h('div', { class: 'status-banner ' + level, role: 'status' },
+      h('strong', null, msg),
+      h('span', null, last ? `Letzter erfolgreicher Lauf ${relTime(last)}` : 'Noch kein erfolgreicher Lauf bekannt.'),
+      level === 'late' ? h('span', null, 'Mögliche Ursachen: Der Mac war aus, oder die Claude-Anmeldung ist abgelaufen (claude auth login).') : null),
+
+    h('section', { class: 'set-card' }, h('h2', null, 'Lauf'),
+      h('dl', { class: 'kv' },
+        h('dt', null, 'Erfolgreich'), h('dd', null, fmt(state.last_success)),
+        h('dt', null, 'Lauf-Tag'), h('dd', null, state.last_run_date ? state.last_run_date.split('-').reverse().join('.') : 'unbekannt'),
+        h('dt', null, 'Zeitplan'), h('dd', null, 'täglich 07:00, beim Anmelden und stündlich'),
+        h('dt', null, 'Datenstand'), h('dd', null, fmt(index.updated)))),
+
+    h('section', { class: 'set-card' }, h('h2', null, 'Quellen'),
+      h('p', { class: 'set-text' }, `${ok.length} in Ordnung, ${bad.length} mit Fehler, ${off.length} deaktiviert.`),
+      bad.length ? h('ul', { class: 'src-list problems' }, bad.map((s) => h('li', null, h('span', null, h('strong', null, s.name), h('br'), h('small', null, s.error || 'Fehler')), h('span', null, s.checked ? relTime(Date.parse(s.checked)) : '')))) : null,
+      acc('Alle Quellen anzeigen', false,
+        h('ul', { class: 'src-list' }, srcs.slice().sort((a, b) => order(a) - order(b) || a.name.localeCompare(b.name, 'de')).map((s) => h('li', null,
+          h('span', { class: 'st-name' }, h('i', { class: 'st-dot ' + (s.ok === true ? 'ok' : s.ok === false ? 'fail' : 'off') }), s.name),
+          h('span', null, s.ok === null ? 'deaktiviert' : `${s.new ?? 0} neu · ${s.checked ? relTime(Date.parse(s.checked)) : '?'}`)))))),
+
+    h('section', { class: 'set-card' }, h('h2', null, 'Datenbestand'),
+      h('dl', { class: 'kv' },
+        h('dt', null, 'Meldungen'), h('dd', null, `${index.items.length} sichtbar, ${dup} Mehrfachmeldungen zusammengeführt`),
+        h('dt', null, 'Zeitraum'), h('dd', null, dates.length ? `${fmtShort(dates[dates.length - 1])}${dates[dates.length - 1].slice(0, 4)} bis ${fmtShort(dates[0])}${dates[0].slice(0, 4)} (${dates.length} Tage)` : 'leer'),
+        h('dt', null, 'Quellen'), h('dd', null, `${new Set(index.items.map((i) => i.source)).size} mit Meldungen im Archiv`),
+        h('dt', null, 'Glossar'), h('dd', null, `${gl.length} Begriffe`))),
+
+    h('div', { class: 'row actions' }, h('a', { class: 'btn', href: '#/einstellungen' }, 'Zu den Einstellungen')));
+}
+
 /* ---------- Router und Start ---------- */
 
 
 
 
+
 async function route() {
+  touchActive();
   if (store.briefAbort) { store.briefAbort.abort(); store.briefAbort = null; }
   if (!location.hash && getSettings().startBriefing && !store.startDone) { store.startDone = true; history.replaceState(null, '', '#/briefing'); }
   const { parts, q } = parseHash();
-  const area = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar', 'briefing'].includes(parts[0]) ? parts[0] : 'heute';
-  document.querySelectorAll('[data-nav]').forEach((a) => ((a.dataset.nav === area || (area === 'briefing' && a.closest('.tabbar') && a.dataset.nav === 'heute')) ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
-  document.getElementById('gsearch').hidden = area === 'suche' || area === 'glossar' || area === 'briefing';
+  const area = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar', 'briefing', 'woche', 'status'].includes(parts[0]) ? parts[0] : 'heute';
+  document.querySelectorAll('[data-nav]').forEach((a) => ((a.dataset.nav === (area === 'woche' ? 'briefing' : area) || ((area === 'briefing' || area === 'woche') && a.closest('.tabbar') && a.dataset.nav === 'heute')) ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
+  document.getElementById('gsearch').hidden = area === 'suche' || area === 'glossar' || area === 'briefing' || area === 'woche';
   const keepScroll = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar'].includes(area) && route.last === area;
   route.last = area;
   try {
@@ -908,12 +1101,14 @@ async function route() {
     else if (area === 'einstellungen') await viewSettings();
     else if (area === 'glossar') await viewGlossary(q);
     else if (area === 'briefing') await viewBriefing(q);
+    else if (area === 'woche') await viewWeek(q);
+    else if (area === 'status') await viewStatus();
     else await viewDay(parts[0] === 'tag' ? parts[1] : null, q);
   } catch (err) {
     console.error(err);
     render(stateBox('Die Nachrichten konnten nicht geladen werden. Bitte später erneut versuchen.'));
   }
-  document.title = area === 'heute' ? 'KI-News Hub' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar', briefing: 'Briefing' }[area] + ' | KI-News Hub';
+  document.title = area === 'heute' ? 'KI-News Hub' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar', briefing: 'Briefing', woche: 'Wochenrückblick', status: 'Status' }[area] + ' | KI-News Hub';
   fitCards();
   if (!keepScroll) window.scrollTo(0, 0);
 }

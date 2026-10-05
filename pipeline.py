@@ -387,6 +387,88 @@ def backfill(flag: str) -> int:
     return 0
 
 
+CLUSTER_PROMPT = """Du bist Redakteur eines deutschsprachigen KI-Newsletters. Unten stehen Meldungen mehrerer Quellen.
+Finde Gruppen von Meldungen, die dasselbe konkrete Ereignis oder dieselbe Nachricht behandeln, zum Beispiel dieselbe Ankündigung, denselben Fall oder dieselbe Studie. Dasselbe Thema allein reicht nicht.
+Wähle pro Gruppe als "main" die Meldung mit der besten Quelle und der ausführlichsten Darstellung.
+Antworte NUR mit einem JSON-Array: [{{"main":"id","ids":["id","id"]}}]. Nur Gruppen mit mindestens 2 Meldungen, jede id höchstens in einer Gruppe, bei keiner Gruppe [].
+
+MELDUNGEN:
+{items}
+"""
+CLUSTER_MAX = 180
+
+
+def cluster_items(window: list[dict]) -> int:
+    """Markiert Dubletten: dup_of bei Nebenmeldungen, also (Quelle und Link) bei der Hauptmeldung.
+
+    Liefert die Zahl der Gruppen oder -1, wenn keine brauchbare Antwort kam (bisherige Markierungen bleiben dann unveraendert).
+    Eine leere Antwort gilt bei groesseren Fenstern oder vorhandenen Gruppen als unglaubwuerdig und wird einmal wiederholt.
+    """
+    cands = sorted(window, key=lambda i: (i["date"], i["relevanz"]), reverse=True)[:CLUSTER_MAX]
+    if len(cands) < 2:
+        return 0
+    had_flags = any(x.get("dup_of") or x.get("also") for x in cands)
+    txt = "\n".join(f'{i["id"]} | {i["source"]} | {i["headline"]}: {i["summary"][:160]}' for i in cands)
+    res = None
+    for attempt in range(2):
+        out = claude_json(CLUSTER_PROMPT.format(items=txt))
+        groups_raw = [g for g in out if isinstance(g, dict)] if isinstance(out, list) else []
+        if groups_raw or (len(cands) < 30 and not had_flags):
+            res = groups_raw
+            break
+        log.warning("Zusammenfuehren: leere Antwort bei %d Meldungen (Versuch %d)", len(cands), attempt + 1)
+    if res is None:
+        return -1
+    for x in cands:
+        x.pop("dup_of", None)
+        x.pop("also", None)
+    by = {i["id"]: i for i in cands}
+    used, groups = set(), 0
+    for g in res:
+        ids = [i for i in g.get("ids", []) if i in by and i not in used]
+        main = g.get("main")
+        if len(ids) < 2 or main not in ids:
+            continue
+        used.update(ids)
+        others = [by[i] for i in ids if i != main]
+        by[main]["also"] = [{"source": o["source"], "url": o["url"]} for o in others]
+        for o in others:
+            o["dup_of"] = main
+        groups += 1
+    return groups
+
+
+def sync_day_files(items: list[dict], only: set | None = None) -> None:
+    """Tagesdateien mit den aktuellen Meldungen abgleichen, den Ueberblick dabei unveraendert lassen."""
+    by_day: dict[str, list[dict]] = {}
+    for x in items:
+        by_day.setdefault(x["date"], []).append(x)
+    for d, lst in by_day.items():
+        if only is not None and d not in only:
+            continue
+        path = DATA / d[:4] / d[5:7] / f"{d}.json"
+        day = read_json(path, None)
+        if day:
+            day["items"] = sorted(lst, key=lambda x: (-x["relevanz"], x["published"]))
+            write_json(path, day)
+
+
+def backfill_cluster() -> int:
+    index = read_json(INDEX, {"items": []})
+    try:
+        n = cluster_items(index["items"])
+    except Exception as exc:
+        log.error("Zusammenfuehren fehlgeschlagen: %s", exc)
+        return 1
+    if n < 0:
+        log.error("Zusammenfuehren: keine brauchbare Antwort, Daten unveraendert")
+        return 1
+    write_json(INDEX, index)
+    sync_day_files(index["items"])
+    log.info("Zusammenfuehren fertig: %d Gruppen, %d Nebenmeldungen", n, sum(1 for x in index["items"] if x.get("dup_of")))
+    return 0
+
+
 # ---------- Hauptlauf ----------
 
 def git(*args: str) -> subprocess.CompletedProcess:
@@ -455,7 +537,7 @@ def run(args) -> int:
         if args.only and src["id"] != args.only:
             continue
         if src.get("enabled", True) is False:
-            status[src["id"]] = {"ok": None, "note": "deaktiviert"}
+            status[src["id"]] = {"name": src["name"], "type": src["type"], "region": src["region"], "ok": None, "note": "deaktiviert"}
             continue
         cap = src.get("max_items", DEFAULT_MAX_PER_SOURCE)
         try:
@@ -466,10 +548,10 @@ def run(args) -> int:
             new = select_new(src, raw, known_urls, known_titles, cutoff, cap)
             log.info("%-18s %3d geholt, %2d neu", src["id"], len(raw), len(new))
             candidates += new
-            status[src["id"]] = {"ok": True, "checked": now().isoformat(timespec="seconds"), "new": len(new)}
+            status[src["id"]] = {"name": src["name"], "type": src["type"], "region": src["region"], "ok": True, "checked": now().isoformat(timespec="seconds"), "new": len(new)}
         except Exception as exc:  # defekte Quelle stoppt den Lauf nicht
             log.warning("%-18s FEHLER: %s", src["id"], exc)
-            status[src["id"]] = {"ok": False, "checked": now().isoformat(timespec="seconds"), "error": str(exc)[:200]}
+            status[src["id"]] = {"name": src["name"], "type": src["type"], "region": src["region"], "ok": False, "checked": now().isoformat(timespec="seconds"), "error": str(exc)[:200]}
 
     # Prioritaetsquellen zuerst, danach nach Datum
     candidates.sort(key=lambda i: (not i["priority"], -(i["published"] or now()).timestamp()))
@@ -503,7 +585,7 @@ def run(args) -> int:
                 "headline": no_dashes(r["headline"]), "summary": no_dashes(r["summary"]),
                 "thema": r["thema"], "region": r["region"], "relevanz": r["relevanz"],
                 "tags": [str(t).lower() for t in r.get("tags", [])][:5],
-                "source": a["source"], "source_id": a["source_id"],
+                "source": a["source"], "source_id": a["source_id"], "added": now().isoformat(timespec="seconds"),
                 **({"kurios": no_dashes(r["kurios"])[:120]} if isinstance(r.get("kurios"), str) and r["kurios"].strip() else {}),
                 **({"praxis": True} if r.get("praxis") is True else {}),
                 "quelle_titel": no_dashes(a["title"]), "url": a["url"],
@@ -511,11 +593,22 @@ def run(args) -> int:
             touched.add(pub.strftime("%Y-%m-%d"))
         log.info("Batch %d/%d fertig", i // BATCH_SIZE + 1, -(-len(candidates) // BATCH_SIZE))
 
+    # Dubletten zusammenfuehren (betroffene Tage und je der Vortag)
+    if touched:
+        prev = {(datetime.fromisoformat(d) - timedelta(days=1)).strftime("%Y-%m-%d") for d in touched}
+        window = [x for x in items_idx if x["date"] in touched | prev]
+        try:
+            n = cluster_items(window)
+            log.info("Zusammenfuehren: %s", f"{n} Gruppen" if n >= 0 else "keine brauchbare Antwort, bisherige Gruppen bleiben")
+        except Exception as exc:
+            log.error("Zusammenfuehren fehlgeschlagen: %s", exc)
+        sync_day_files(items_idx, prev - touched)
+
     # Tagesdateien neu schreiben (inkl. Ueberblick) fuer betroffene Tage
     for d in sorted(touched):
         day_items = sorted([x for x in items_idx if x["date"] == d], key=lambda x: (-x["relevanz"], x["published"]))
         try:
-            overview = make_overview(d, day_items)
+            overview = make_overview(d, [x for x in day_items if not x.get("dup_of")])
         except Exception as exc:
             log.error("Ueberblick %s fehlgeschlagen: %s", d, exc)
             old = read_json(DATA / d[:4] / d[5:7] / f"{d}.json", {})
@@ -550,7 +643,7 @@ def main() -> int:
     ap.add_argument("--no-git", action="store_true")
     ap.add_argument("--only", help="nur diese Quellen-ID")
     ap.add_argument("--limit", type=int, help="max. Artikel in diesem Lauf")
-    ap.add_argument("--backfill", choices=["kurios", "praxis"], help="bestehende Artikel nachtraeglich auf dieses Merkmal pruefen")
+    ap.add_argument("--backfill", choices=["kurios", "praxis", "cluster"], help="bestehende Artikel nachtraeglich auf dieses Merkmal pruefen")
     args = ap.parse_args()
     setup_logging()
     DATA.mkdir(exist_ok=True)
@@ -562,7 +655,7 @@ def main() -> int:
         return 0
     try:
         if args.backfill:
-            rc = backfill(args.backfill)
+            rc = backfill_cluster() if args.backfill == 'cluster' else backfill(args.backfill)
             if rc == 0 and not args.no_git:
                 publish(f"Markierung {args.backfill} nachgetragen")
             return rc

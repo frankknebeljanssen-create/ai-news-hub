@@ -15,7 +15,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="KI-News">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<link rel="stylesheet" href="css/style.css?v=32">
+<link rel="stylesheet" href="css/style.css?v=33">
 <script>
   // Theme vor dem Rendern setzen, damit nichts aufblitzt
   try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; var f = parseInt(localStorage.getItem('fs'), 10); if (f >= 12 && f <= 20) document.documentElement.style.fontSize = f + 'px'; } catch (e) {}
@@ -26,7 +26,7 @@
   <div class="top-inner">
     <a class="brand" href="#/" aria-label="KI-News Hub, Startseite"><span class="logo">KI</span><span class="brand-name">News Hub</span></a>
     <nav class="nav" aria-label="Hauptnavigation">
-      <a href="#/" data-nav="heute">Heute</a>
+      <a href="#/" data-nav="heute">Heute <span class="count-badge" data-new-count hidden></span></a>
       <a href="#/briefing" data-nav="briefing">Briefing</a>
       <a href="#/archiv" data-nav="archiv">Archiv</a>
       <a href="#/suche" data-nav="suche">Suche</a>
@@ -50,12 +50,12 @@
 <main id="app" tabindex="-1" aria-live="polite"><p class="state">Lade Nachrichten ...</p></main>
 
 <footer class="site-foot">
-  <span>Eigene Kurzfassungen mit Link zur Quelle. Keine Volltexte. <a href="#/briefing" class="foot-link">Briefing</a> · <a href="#/glossar" class="foot-link">Glossar</a> · <a href="#/einstellungen" class="foot-link">Impressum</a></span>
+  <span>Eigene Kurzfassungen mit Link zur Quelle. Keine Volltexte. <a href="#/briefing" class="foot-link">Briefing</a> · <a href="#/woche" class="foot-link">Wochenrückblick</a> · <a href="#/glossar" class="foot-link">Glossar</a> · <a href="#/status" class="foot-link">Status</a> · <a href="#/einstellungen" class="foot-link">Impressum</a></span>
   <a href="#/einstellungen" data-nav="einstellungen" class="foot-gear"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg><span>Einstellungen</span></a>
 </footer>
 
 <nav class="tabbar" aria-label="Hauptnavigation mobil">
-  <a href="#/" data-nav="heute"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7v8a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1z"/></svg><span>Heute</span></a>
+  <a href="#/" data-nav="heute"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7v8a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1z"/></svg><span>Heute <b class="count-badge" data-new-count hidden></b></span></a>
   <a href="#/archiv" data-nav="archiv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v4H4zM5 9h14v10H5zM9 13h6"/></svg><span>Archiv</span></a>
   <a href="#/glossar" data-nav="glossar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h10a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3zM5 17a3 3 0 0 1 3-3h10"/></svg><span>Glossar</span></a>
   <a href="#/merkliste" data-nav="merkliste"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l2.4 5 5.4.7-4 3.8 1 5.4L12 16.3 7.2 18.9l1-5.4-4-3.8 5.4-.7z"/></svg><span>Merkliste <b class="count-badge" data-fav-count hidden></b></span></a>
@@ -63,6 +63,6 @@
 </nav>
 
 <script src="js/vendor/fuse.min.js"></script>
-<script src="js/app.js?v=32"></script>
+<script src="js/app.js?v=33"></script>
 </body>
 </html>

@@ -1,345 +1,551 @@
 {
  "last_run_date": "2026-10-05",
- "last_success": "2026-10-05T15:22:15+02:00",
+ "last_success": "2026-10-05T16:14:00+02:00",
  "sources": {
   "neuron": {
+   "name": "The Neuron",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:42+02:00",
-   "new": 0
+   "checked": "2026-10-05T16:11:12+02:00",
+   "new": 2
   },
   "rundown": {
+   "name": "The Rundown AI",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:42+02:00",
+   "checked": "2026-10-05T16:11:12+02:00",
    "new": 0
   },
   "tldr-ai": {
+   "name": "TLDR AI",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:42+02:00",
-   "new": 0
+   "checked": "2026-10-05T16:11:12+02:00",
+   "new": 1
   },
   "import-ai": {
+   "name": "Import AI",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:43+02:00",
+   "checked": "2026-10-05T16:11:13+02:00",
    "new": 0
   },
   "batch": {
+   "name": "The Batch",
+   "type": "web",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:44+02:00",
+   "checked": "2026-10-05T16:11:15+02:00",
    "new": 0
   },
   "anthropic": {
+   "name": "Anthropic",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:45+02:00",
+   "checked": "2026-10-05T16:11:16+02:00",
    "new": 0
   },
   "openai": {
+   "name": "OpenAI",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:45+02:00",
+   "checked": "2026-10-05T16:11:16+02:00",
    "new": 0
   },
   "deepmind": {
+   "name": "Google DeepMind",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:45+02:00",
+   "checked": "2026-10-05T16:11:16+02:00",
    "new": 0
   },
   "meta-ai": {
+   "name": "Meta (Engineering, ML)",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:46+02:00",
+   "checked": "2026-10-05T16:11:17+02:00",
    "new": 0
   },
   "huggingface": {
+   "name": "Hugging Face",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:46+02:00",
+   "checked": "2026-10-05T16:11:17+02:00",
    "new": 0
   },
   "mit-tr": {
+   "name": "MIT Technology Review",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:47+02:00",
-   "new": 0
+   "checked": "2026-10-05T16:11:18+02:00",
+   "new": 1
   },
   "politico-eu": {
+   "name": "Politico Europe",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:47+02:00",
+   "checked": "2026-10-05T16:11:18+02:00",
    "new": 0
   },
   "euractiv": {
+   "name": "Euractiv",
+   "type": "web",
+   "region": "intl",
    "ok": null,
    "note": "deaktiviert"
   },
   "verge-ai": {
+   "name": "The Verge AI",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:47+02:00",
-   "new": 1
-  },
-  "ars-ai": {
-   "ok": true,
-   "checked": "2026-10-05T15:15:48+02:00",
+   "checked": "2026-10-05T16:11:18+02:00",
    "new": 0
   },
-  "techcrunch-ai": {
+  "ars-ai": {
+   "name": "Ars Technica AI",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:48+02:00",
-   "new": 4
+   "checked": "2026-10-05T16:11:19+02:00",
+   "new": 1
+  },
+  "techcrunch-ai": {
+   "name": "TechCrunch AI",
+   "type": "rss",
+   "region": "intl",
+   "ok": true,
+   "checked": "2026-10-05T16:11:19+02:00",
+   "new": 2
   },
   "wired-ai": {
+   "name": "Wired AI",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:48+02:00",
+   "checked": "2026-10-05T16:11:19+02:00",
    "new": 0
   },
   "latent-space": {
+   "name": "Latent Space",
+   "type": "rss",
+   "region": "intl",
    "ok": true,
-   "checked": "2026-10-05T15:15:49+02:00",
+   "checked": "2026-10-05T16:11:20+02:00",
    "new": 0
   },
   "venturebeat-ai": {
+   "name": "VentureBeat AI",
+   "type": "rss",
+   "region": "intl",
    "ok": null,
    "note": "deaktiviert"
   },
   "decoder-de": {
+   "name": "The Decoder",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:50+02:00",
+   "checked": "2026-10-05T16:11:21+02:00",
    "new": 0
   },
   "heise-ki": {
+   "name": "heise KI",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:50+02:00",
-   "new": 4
-  },
-  "t3n": {
-   "ok": true,
-   "checked": "2026-10-05T15:15:50+02:00",
+   "checked": "2026-10-05T16:11:21+02:00",
    "new": 1
   },
-  "netzpolitik": {
+  "t3n": {
+   "name": "t3n",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:50+02:00",
+   "checked": "2026-10-05T16:11:21+02:00",
+   "new": 2
+  },
+  "netzpolitik": {
+   "name": "netzpolitik.org",
+   "type": "rss",
+   "region": "de",
+   "ok": true,
+   "checked": "2026-10-05T16:11:21+02:00",
    "new": 0
   },
   "bitkom": {
+   "name": "Bitkom",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:51+02:00",
+   "checked": "2026-10-05T16:11:21+02:00",
    "new": 0
   },
   "ki-verband": {
+   "name": "KI-Bundesverband",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:51+02:00",
+   "checked": "2026-10-05T16:11:22+02:00",
    "new": 0
   },
   "bundesregierung": {
+   "name": "Bundesregierung",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:51+02:00",
+   "checked": "2026-10-05T16:11:22+02:00",
    "new": 0
   },
   "bmwe": {
+   "name": "BMWE (KI)",
+   "type": "web",
+   "region": "de",
    "ok": null,
    "note": "deaktiviert"
   },
   "golem": {
+   "name": "Golem",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:51+02:00",
+   "checked": "2026-10-05T16:11:22+02:00",
    "new": 4
   },
   "computerwoche": {
+   "name": "Computerwoche",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:53+02:00",
+   "checked": "2026-10-05T16:11:24+02:00",
    "new": 0
   },
   "cio": {
+   "name": "CIO",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:55+02:00",
+   "checked": "2026-10-05T16:11:26+02:00",
    "new": 0
   },
   "ix": {
+   "name": "iX",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:55+02:00",
+   "checked": "2026-10-05T16:11:26+02:00",
    "new": 0
   },
   "spiegel-netzwelt": {
+   "name": "Spiegel Netzwelt",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:55+02:00",
-   "new": 3
+   "checked": "2026-10-05T16:11:26+02:00",
+   "new": 0
   },
   "zeit-digital": {
+   "name": "ZEIT Digital",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:55+02:00",
-   "new": 2
+   "checked": "2026-10-05T16:11:26+02:00",
+   "new": 0
   },
   "sz-digital": {
+   "name": "Süddeutsche Digital",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:56+02:00",
+   "checked": "2026-10-05T16:11:26+02:00",
    "new": 0
   },
   "handelsblatt-tech": {
+   "name": "Handelsblatt Technologie",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:56+02:00",
+   "checked": "2026-10-05T16:11:27+02:00",
    "new": 3
   },
   "tagesspiegel-wirtschaft": {
+   "name": "Tagesspiegel Wirtschaft",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:56+02:00",
-   "new": 1
-  },
-  "wiwo": {
-   "ok": true,
-   "checked": "2026-10-05T15:15:56+02:00",
+   "checked": "2026-10-05T16:11:27+02:00",
    "new": 0
   },
-  "stern-digital": {
+  "wiwo": {
+   "name": "WirtschaftsWoche",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:15:56+02:00",
+   "checked": "2026-10-05T16:11:27+02:00",
+   "new": 1
+  },
+  "stern-digital": {
+   "name": "stern Digital",
+   "type": "rss",
+   "region": "de",
+   "ok": true,
+   "checked": "2026-10-05T16:11:28+02:00",
    "new": 0
   },
   "gruenderszene": {
+   "name": "Gründerszene",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:01+02:00",
+   "checked": "2026-10-05T16:11:29+02:00",
    "new": 0
   },
   "deutsche-startups": {
+   "name": "deutsche-startups.de",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:02+02:00",
+   "checked": "2026-10-05T16:11:29+02:00",
    "new": 0
   },
   "basic-thinking": {
+   "name": "Basic Thinking",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:02+02:00",
-   "new": 0
+   "checked": "2026-10-05T16:11:30+02:00",
+   "new": 1
   },
   "heise-security": {
+   "name": "heise Security",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:02+02:00",
+   "checked": "2026-10-05T16:11:30+02:00",
    "new": 0
   },
   "eco": {
+   "name": "eco Verband",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:05+02:00",
+   "checked": "2026-10-05T16:11:32+02:00",
    "new": 0
   },
   "algorithmwatch": {
+   "name": "AlgorithmWatch",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:05+02:00",
+   "checked": "2026-10-05T16:11:32+02:00",
    "new": 0
   },
   "sap-news-de": {
+   "name": "SAP News Deutschland",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:05+02:00",
-   "new": 1
+   "checked": "2026-10-05T16:11:32+02:00",
+   "new": 0
   },
   "bildungsserver": {
+   "name": "Deutscher Bildungsserver",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:06+02:00",
-   "new": 1
+   "checked": "2026-10-05T16:11:33+02:00",
+   "new": 0
   },
   "hfd": {
+   "name": "Hochschulforum Digitalisierung",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:07+02:00",
+   "checked": "2026-10-05T16:11:35+02:00",
    "new": 0
   },
   "forum-bildung": {
+   "name": "Forum Bildung Digitalisierung",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:08+02:00",
+   "checked": "2026-10-05T16:11:35+02:00",
    "new": 0
   },
   "personalwirtschaft": {
+   "name": "Personalwirtschaft",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:12+02:00",
+   "checked": "2026-10-05T16:11:39+02:00",
    "new": 0
   },
   "it-daily": {
+   "name": "it-daily.net",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:13+02:00",
+   "checked": "2026-10-05T16:11:40+02:00",
    "new": 3
   },
   "acatech": {
+   "name": "acatech",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:13+02:00",
+   "checked": "2026-10-05T16:11:41+02:00",
    "new": 0
   },
   "datenschutz-notizen": {
+   "name": "Datenschutz-Notizen",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:14+02:00",
-   "new": 1
+   "checked": "2026-10-05T16:11:41+02:00",
+   "new": 0
   },
   "dr-datenschutz": {
+   "name": "Dr. Datenschutz",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:15+02:00",
-   "new": 1
+   "checked": "2026-10-05T16:11:42+02:00",
+   "new": 0
   },
   "digitalcourage": {
+   "name": "Digitalcourage",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:15+02:00",
+   "checked": "2026-10-05T16:11:42+02:00",
    "new": 0
   },
   "lamarr": {
+   "name": "Lamarr Institute",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:16+02:00",
+   "checked": "2026-10-05T16:11:43+02:00",
    "new": 0
   },
   "omr": {
+   "name": "OMR",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:17+02:00",
+   "checked": "2026-10-05T16:11:44+02:00",
    "new": 0
   },
   "deepl": {
+   "name": "DeepL",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:17+02:00",
+   "checked": "2026-10-05T16:11:44+02:00",
    "new": 0
   },
   "tagesschau": {
+   "name": "tagesschau",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:17+02:00",
+   "checked": "2026-10-05T16:11:44+02:00",
    "new": 0
   },
   "deutschlandfunk": {
+   "name": "Deutschlandfunk",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:17+02:00",
+   "checked": "2026-10-05T16:11:44+02:00",
    "new": 0
   },
   "spektrum": {
+   "name": "Spektrum der Wissenschaft",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:17+02:00",
+   "checked": "2026-10-05T16:11:44+02:00",
    "new": 0
   },
   "gn-weiterbildung": {
+   "name": "Suche Weiterbildung",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:18+02:00",
-   "new": 5
-  },
-  "gn-kurse": {
-   "ok": true,
-   "checked": "2026-10-05T15:16:18+02:00",
+   "checked": "2026-10-05T16:11:45+02:00",
    "new": 0
   },
-  "gn-unternehmen": {
+  "gn-kurse": {
+   "name": "Suche KI-Kurse",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:19+02:00",
+   "checked": "2026-10-05T16:11:45+02:00",
+   "new": 1
+  },
+  "gn-unternehmen": {
+   "name": "Suche Unternehmen DE",
+   "type": "rss",
+   "region": "de",
+   "ok": true,
+   "checked": "2026-10-05T16:11:46+02:00",
    "new": 5
   },
   "gn-startups": {
+   "name": "Suche Startups DE",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:19+02:00",
-   "new": 1
+   "checked": "2026-10-05T16:11:46+02:00",
+   "new": 0
   },
   "gn-politik": {
+   "name": "Suche Politik DE",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:20+02:00",
+   "checked": "2026-10-05T16:11:47+02:00",
    "new": 0
   },
   "gn-strategie": {
-   "ok": false,
-   "checked": "2026-10-05T15:16:20+02:00",
-   "error": "Feed leer oder nicht lesbar"
+   "name": "Suche KI-Strategie DE",
+   "type": "rss",
+   "region": "de",
+   "ok": null,
+   "note": "deaktiviert"
   },
   "ki-campus": {
+   "name": "KI-Campus",
+   "type": "rss",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:20+02:00",
+   "checked": "2026-10-05T16:11:47+02:00",
    "new": 0
   },
   "fraunhofer-academy": {
+   "name": "Fraunhofer Academy",
+   "type": "web",
+   "region": "de",
    "ok": true,
-   "checked": "2026-10-05T15:16:21+02:00",
+   "checked": "2026-10-05T16:11:48+02:00",
    "new": 0
   },
   "kursnet": {
+   "name": "Bundesagentur Kursnet",
+   "type": "web",
+   "region": "de",
    "ok": null,
    "note": "deaktiviert"
   }
@@ -351,6 +557,7 @@
   "https://t3n.de/news/allison-nixon-the-com-hacker-gruppe-1763768": "2026-10-05",
   "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars": "2026-10-05",
   "https://theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis": "2026-10-05",
-  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOVh6cE1yQU1MbWJ5T0c3MnZ5cTZONU1tUmZpV2MtdzZsWVFvWVl0YXNHbFNIRlN6XzB1S1J1Q2hwMmFiWlR1TTViQXlkY3BnZVJJT1pvcDdIczFGbXU1NHBPMEtYT1BDaXUtWWthaXZtSFRuSHhhM1I4cmM2aGl0NU1yU1RIMUxmNl9UdGNiQVc2WUV6aGRuUlFRdnlUZEQtNzhad1BYVUpRdFJiYXptc1d5TFRINlZFRVExckhPUnc4dHRFeFFUSQ?oc=5": "2026-10-05"
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOVh6cE1yQU1MbWJ5T0c3MnZ5cTZONU1tUmZpV2MtdzZsWVFvWVl0YXNHbFNIRlN6XzB1S1J1Q2hwMmFiWlR1TTViQXlkY3BnZVJJT1pvcDdIczFGbXU1NHBPMEtYT1BDaXUtWWthaXZtSFRuSHhhM1I4cmM2aGl0NU1yU1RIMUxmNl9UdGNiQVc2WUV6aGRuUlFRdnlUZEQtNzhad1BYVUpRdFJiYXptc1d5TFRINlZFRVExckhPUnc4dHRFeFFUSQ?oc=5": "2026-10-05",
+  "https://techcrunch.com/2026/10/05/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026": "2026-10-05"
  }
 }
