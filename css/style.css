@@ -589,3 +589,15 @@ main.mode-week { --accent: var(--week); --accent-soft: color-mix(in srgb, var(--
 @media (hover: none) { .b-title:hover, .k-title:hover { text-decoration: none; } }
 
 .wk-day { font-size: .78rem; font-weight: 700; color: var(--accent); }
+
+/* Fortschrittsbalken ohne Platzbedarf, damit Tag und Woche exakt gleich liegen */
+.brief-progress { position: sticky; top: calc(54px + env(safe-area-inset-top)); z-index: 7; height: 0; margin: -14px -16px 14px; background: none; }
+.brief-progress::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--border); }
+.brief-progress i { position: absolute; left: 0; top: 0; height: 3px; width: 0; background: var(--accent); transition: width .1s linear; }
+
+/* ---- Woche in Gruen (ersetzt Violett) ---- */
+:root { --week: #0e8466; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --week: #3fcaa1; } }
+:root[data-theme="dark"] { --week: #3fcaa1; }
+.hero.week { background: radial-gradient(120% 140% at 0% 0%, rgba(120,240,200,.40) 0%, rgba(120,240,200,0) 58%), linear-gradient(135deg, #0a3f35 0%, #0e8466 100%); }
+.hero.week .seg-btn[aria-pressed="true"] { color: #0a3f35; }
