@@ -446,7 +446,7 @@ async function viewDay(dateArg, q) {
   render(
     h('div', { class: 'day-head' },
       h('div', { class: 'day-title' },
-        h('h1', null, 'KI-News'),
+        h('h1', null, 'KI News'),
         h('p', { class: 'sub' }, h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text), ` \u00B7 ${items.length} Meldungen`,
           newN ? [' \u00B7 ', h('button', { class: 'newonly', type: 'button', 'aria-pressed': String(!!(store.onlyNew && newN)), title: 'Nur neue Meldungen zeigen', onclick: () => { store.onlyNew = !store.onlyNew; route(); } }, store.onlyNew ? `Nur Neues (${newN}) \u2715` : `${newN} neu`)] : null)),
       nav),
@@ -830,7 +830,7 @@ async function viewSettings() {
     card_('Impressum, Version & Rechtliches',
       acc('Version', true,
         h('dl', { class: 'kv' },
-          h('dt', null, 'App'), h('dd', null, `KI-News Hub ${APP_VERSION} (Build ${BUILD}, ${APP_DATE.split('-').reverse().join('.')})`),
+          h('dt', null, 'App'), h('dd', null, `KI News ${APP_VERSION} (Build ${BUILD}, ${APP_DATE.split('-').reverse().join('.')})`),
           h('dt', null, 'Datenstand'), h('dd', null, index ? `${new Date(index.updated).toLocaleString('de-DE', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Europe/Berlin' })} Uhr` : 'unbekannt'),
           h('dt', null, 'Letzter Lauf'), h('dd', null, runState && runState.last_success ? `${new Date(runState.last_success).toLocaleString('de-DE', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Europe/Berlin' })} Uhr` : 'unbekannt'),
           h('dt', null, 'Inhalt'), h('dd', null, `${index ? index.count : 0} Meldungen, ${sources.length} Quellen, ${glN} Glossarbegriffe`),
@@ -1147,7 +1147,7 @@ async function route() {
     console.error(err);
     render(stateBox('Die Nachrichten konnten nicht geladen werden. Bitte später erneut versuchen.'));
   }
-  document.title = area === 'heute' ? 'KI-News Hub' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar', briefing: 'Briefing', woche: 'Die Woche in Kürze', status: 'Status' }[area] + ' | KI-News Hub';
+  document.title = area === 'heute' ? 'KI News' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar', briefing: 'Briefing', woche: 'Die Woche in Kürze', status: 'Status' }[area] + ' | KI News';
   fitCards();
   if (cameBack || store.restore) window.scrollTo(0, store.scrollMem[curHash] || 0);
   else if (!keepScroll && !(area === 'glossar' && q.t)) window.scrollTo(0, 0);

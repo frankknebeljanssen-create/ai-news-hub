@@ -1,4 +1,4 @@
-# KI-News Hub
+# KI News
 
 Tägliches KI-Nachrichtenarchiv auf Deutsch. Eine Python-Pipeline sammelt Meldungen aus internationalen und deutschen Quellen, erstellt zu jeder Meldung eine eigene Kurzfassung mit Claude Code im Headless-Modus und speichert das Ergebnis als JSON. Eine statische Web-App ohne Build-Schritt macht die Daten durchsuchbar und wird über GitHub Pages ausgeliefert.
 
@@ -263,7 +263,7 @@ python3 -m http.server 8000   # danach http://localhost:8000
 ├── sw.js                        Service Worker (Offline-Zwischenspeicher)
 ├── manifest.webmanifest         Web-App-Manifest für den Home-Bildschirm
 ├── icons/                       App-Symbole (PNG)
-├── tools/make_icons.py          erzeugt Icon (SVG, PNG) ohne Fremdbibliotheken: LimeByte-Grund, Briefing-Karte, blaue Funken, kleines AITI-Zeichen
+├── tools/make_icons.py          erzeugt Icon (SVG, PNG) ohne Fremdbibliotheken: LimeByte-Grund, Briefing-Karte, blauer Funke, kleines AITI-Zeichen
 ├── js/
 │   ├── app.js                   Router, Ansichten, Suche, Merkliste, Einstellungen
 │   └── vendor/fuse.min.js       Fuse.js 7.0.0 (Apache License 2.0)

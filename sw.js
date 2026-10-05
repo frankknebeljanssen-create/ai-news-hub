@@ -1,8 +1,8 @@
 /* Service Worker: Offline-Zwischenspeicher fuer die App-Dateien und die Daten.
    Daten und Seiten: erst Netz (mit kurzer Wartezeit), sonst gespeicherte Kopie.
    Versionierte Dateien (css/js mit ?v=N) und Symbole: aus dem Speicher, bei Bedarf nachgeladen. */
-const CACHE = 'kinews-v4';
-const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png?v=3', 'icons/icon.svg?v=3', 'icons/apple-touch-icon.png?v=3', 'js/vendor/fuse.min.js', 'content/glossar.json', 'data/index.json'];
+const CACHE = 'kinews-v5';
+const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png?v=4', 'icons/icon.svg?v=4', 'icons/apple-touch-icon.png?v=4', 'js/vendor/fuse.min.js', 'content/glossar.json', 'data/index.json'];
 const NET_TIMEOUT = 4000;
 
 self.addEventListener('install', (event) => {

@@ -24,7 +24,10 @@ LINES = [(29.0, 46.3, 34.0, 2.4), (29.0, 52.8, 29.9, 2.4), (29.0, 59.3, 32.6, 2.
 
 # AITI-Zeichen (nur das "A") im Originalraster des Logos, klein unten rechts
 MARK_POLY = [(37.2, 3), (71.8, 3), (106.8, 90.5), (71.2, 90.5), (54.8, 48.5), (53.3, 48.5), (36.4, 90.5), (1.2, 90.5), (18.6, 45.8), (53.5, 45.8)]
-MARK_X, MARK_Y, MARK_S = 71.84, 73.0, 0.13
+MARK_X, MARK_Y, MARK_S = 69.64, 73.4, 0.20
+
+# Komposition (Karte, Zeilen, Funken) um den Mittelpunkt vergroessern, damit sie fast bis zum Rand reicht
+SCALE, CX, CY = 1.22, 55.25, 50.0
 
 # Funken als quadratische Kurven (Start, Steuerpunkt, Ende), gleiche Geometrie wie im SVG
 BIG = [((70.5, 15), (72, 28), (85.5, 30)), ((85.5, 30), (72, 32), (70.5, 45)), ((70.5, 45), (69, 32), (55.5, 30)), ((55.5, 30), (69, 28), (70.5, 15))]
@@ -78,7 +81,8 @@ def mix(a, b, t):
 
 
 def shade(u, v):
-    x, y = u * 100.0, v * 100.0
+    fx, fy = u * 100.0, v * 100.0           # Endraster (fuer das AITI-Zeichen)
+    x, y = (fx - 50.0) / SCALE + CX, (fy - 50.0) / SCALE + CY   # Raum der Komposition
     col = BG
     # weicher Schatten der Karte
     cx_, cy_, cw, ch, cr = CARD
@@ -99,10 +103,8 @@ def shade(u, v):
         col = BLUE
         if in_poly(x, y, STAR_CORE):
             col = WHITE
-    if in_poly(x, y, STAR_SMALL):
-        col = BLUE
     # AITI-Zeichen
-    if in_poly(x, y, MARK):
+    if in_poly(fx, fy, MARK):
         col = DEEPAI
     return col
 
@@ -156,12 +158,13 @@ def svg():
     <filter id="sh" x="-20%" y="-20%" width="150%" height="150%"><feDropShadow dx="0.8" dy="2.2" stdDeviation="1.8" flood-color="#17393D" flood-opacity="0.28"/></filter>
   </defs>
   <rect width="100" height="100" fill="#F5FC9C"/>
+  <g transform="translate({50 - SCALE * CX:.2f} {50 - SCALE * CY:.2f}) scale({SCALE})">
   <rect x="{cx_}" y="{cy_}" width="{w}" height="{h}" rx="{rr}" fill="#26595E" filter="url(#sh)"/>
   <rect x="{hx}" y="{hy}" width="{hw}" height="{ht}" rx="{ht / 2}" fill="#F5FC9C"/>
 {lines}
   <path d="{path_d(BIG)}" fill="#2F6BFF"/>
   <path d="{path_d(CORE)}" fill="#FFFFFF"/>
-  <path d="{path_d(SMALL)}" fill="#2F6BFF"/>
+  </g>
   <polygon points="{pts}" fill="#26595E"/>
 </svg>
 """
