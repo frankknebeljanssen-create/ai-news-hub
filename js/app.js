@@ -337,7 +337,7 @@ async function viewSearch(q) {
   const results = h('div');
   const status = h('p', { class: 'sub' });
 
-  const render = (text) => {
+  const showResults = (text) => {
     results.replaceChildren();
     const hits = text.length >= 2 ? store.fuse.search(text).map((r) => r.item).filter((i) => !region || i.region === region).slice(0, 80) : [];
     status.textContent = text.length < 2 ? `Suche in ${index.items.length} Meldungen (Titel, Text, Tags, Quelle).` : `${hits.length} Treffer`;
@@ -349,14 +349,14 @@ async function viewSearch(q) {
   let timer;
   input.addEventListener('input', () => {
     clearTimeout(timer);
-    timer = setTimeout(() => { go('/suche', { q: input.value.trim(), region }, true); render(input.value.trim()); }, 160);
+    timer = setTimeout(() => { go('/suche', { q: input.value.trim(), region }, true); showResults(input.value.trim()); }, 160);
   });
 
   render(
     h('h1', null, 'Suche'),
-    h('div', { class: 'filters' }, input, chipRow(REGIONEN, region, (v) => { go('/suche', { q: input.value.trim(), region: v }, true); route(); }, 'Bereich')),
+    h('div', { class: 'filters' }, h('form', { class: 'searchbar', role: 'search', onsubmit: (e) => { e.preventDefault(); clearTimeout(timer); input.blur(); go('/suche', { q: input.value.trim(), region }, true); showResults(input.value.trim()); } }, input, h('button', { class: 'btn primary', type: 'submit', 'aria-label': 'Suchen' }, '\u{1F50D}\uFE0E')), chipRow(REGIONEN, region, (v) => { go('/suche', { q: input.value.trim(), region: v }, true); route(); }, 'Bereich')),
     status, results);
-  render(query);
+  showResults(query);
   if (!query) input.focus({ preventScroll: true });
 }
 

@@ -168,3 +168,7 @@ details.group[open] > summary::before { transform: rotate(90deg); }
 details.group[open] > summary { position: sticky; top: calc(54px + env(safe-area-inset-top)); z-index: 5; border-radius: 12px; }
 .g-title { flex: 1; }
 .group-body { padding-top: 10px; }
+
+.searchbar { display: flex; gap: 8px; }
+.searchbar input { flex: 1; min-width: 0; }
+.searchbar .btn { width: 48px; padding: 0; font-size: 1.2rem; }
