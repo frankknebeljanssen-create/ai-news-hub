@@ -1,22 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#162160"/><stop offset="1" stop-color="#2f6bff"/>
-    </linearGradient>
-    <radialGradient id="hl" cx="0.25" cy="0.18" r="0.75">
-      <stop offset="0" stop-color="#78a0ff" stop-opacity="0.45"/><stop offset="1" stop-color="#78a0ff" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="sh" x="-20%" y="-20%" width="150%" height="150%"><feDropShadow dx="1.2" dy="3" stdDeviation="2.6" flood-color="#080e32" flood-opacity="0.45"/></filter>
-  </defs>
-  <rect width="100" height="100" fill="url(#bg)"/>
-  <rect width="100" height="100" fill="url(#hl)"/>
-  <rect x="24.5" y="30" width="43" height="54" rx="5" fill="#f6f8ff" filter="url(#sh)"/>
-  <rect x="29" y="36.3" width="27.2" height="4.4" rx="2.2" fill="#2f6bff"/>
-  <rect x="29" y="46.3" width="34" height="2.4" rx="1.2" fill="#b0beeb"/>
-  <rect x="29" y="52.8" width="29.9" height="2.4" rx="1.2" fill="#b0beeb"/>
-  <rect x="29" y="59.3" width="32.6" height="2.4" rx="1.2" fill="#b0beeb"/>
-  <rect x="29" y="65.8" width="19.7" height="2.4" rx="1.2" fill="#b0beeb"/>
-  <path d="M70.5 15 Q72 28 85.5 30 Q72 32 70.5 45 Q69 32 55.5 30 Q69 28 70.5 15Z" fill="#ffcd3c"/>
-  <path d="M70.5 24 Q71 28.4 75.4 30 Q71 31.6 70.5 36 Q70 31.6 65.6 30 Q70 28.4 70.5 24Z" fill="#fff6cd"/>
-  <path d="M81.5 43.5 Q82 47.3 86 49 Q82 50.7 81.5 54.5 Q81 50.7 77 49 Q81 47.3 81.5 43.5Z" fill="#ffcd3c"/>
+  <rect width="100" height="100" fill="#26595E"/>
+  <rect x="16.0" y="46.0" width="44.0" height="42.0" rx="4.5" fill="#F2F0E8"/>
+  <rect x="21.0" y="52.0" width="26.0" height="4.2" rx="2.1" fill="#26595E"/>
+  <rect x="21.0" y="61.0" width="33.0" height="2.3" rx="1.15" fill="#C9DEE3"/>
+  <rect x="21.0" y="67.0" width="29.0" height="2.3" rx="1.15" fill="#C9DEE3"/>
+  <rect x="21.0" y="73.0" width="31.0" height="2.3" rx="1.15" fill="#C9DEE3"/>
+  <rect x="21.0" y="79.0" width="19.0" height="2.3" rx="1.15" fill="#C9DEE3"/>
+  <polygon points="56.28,11.99 67.69,11.99 79.24,40.87 67.50,40.87 62.08,27.00 61.59,27.00 56.01,40.87 44.40,40.87 50.14,26.11 61.66,26.11" fill="#F5FC9C"/>
+  <circle cx="83.11" cy="17.5" r="6.47" fill="#D1FAE3"/>
 </svg>

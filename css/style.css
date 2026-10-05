@@ -601,3 +601,53 @@ main.mode-week { --accent: var(--week); --accent-soft: color-mix(in srgb, var(--
 :root[data-theme="dark"] { --week: #3fcaa1; }
 .hero.week { background: radial-gradient(120% 140% at 0% 0%, rgba(120,240,200,.40) 0%, rgba(120,240,200,0) 58%), linear-gradient(135deg, #0a3f35 0%, #0e8466 100%); }
 .hero.week .seg-btn[aria-pressed="true"] { color: #0a3f35; }
+
+/* ================= AITI-Farben (DeepAi, LimeByte, MintTech, SkyMind, VerdaNova) plus Blau als zweiter Akzent ================= */
+:root {
+  --bg: #F2F0E8; --surface: #FDFCF8; --surface-2: #E9E7DC; --text: #14272A; --muted: #566B6E;
+  --border: #DAD7C9; --accent: #26595E; --accent-text: #F5FC9C; --accent-soft: #D1FAE3;
+  --shadow: 0 1px 2px rgba(20,39,42,.07), 0 4px 14px rgba(20,39,42,.06);
+  --blue: #2f6bff; --week: #2457d6;
+  --t-modelle: #2f6bff; --t-forschung: #5f63b0; --t-business: #3f9a6c; --t-politik: #c07a1f;
+  --t-weiter: #b4603c; --t-unternehmen: #2a7a86; --t-sicherheit: #c04a40;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1A1C; --surface: #15272A; --surface-2: #1D3538; --text: #E8F1EF; --muted: #9DB5B6;
+    --border: #27474B; --accent: #9FE8C3; --accent-text: #0B2124; --accent-soft: #1B4A46;
+    --shadow: 0 1px 2px rgba(0,0,0,.45);
+    --blue: #6b95ff; --week: #6b95ff;
+    --t-modelle: #6b95ff; --t-forschung: #a3a7ef; --t-business: #6fd3a2; --t-politik: #f0b45c;
+    --t-weiter: #eba07e; --t-unternehmen: #6fc1cc; --t-sicherheit: #f08a80;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1A1C; --surface: #15272A; --surface-2: #1D3538; --text: #E8F1EF; --muted: #9DB5B6;
+  --border: #27474B; --accent: #9FE8C3; --accent-text: #0B2124; --accent-soft: #1B4A46;
+  --shadow: 0 1px 2px rgba(0,0,0,.45);
+  --blue: #6b95ff; --week: #6b95ff;
+  --t-modelle: #6b95ff; --t-forschung: #a3a7ef; --t-business: #6fd3a2; --t-politik: #f0b45c;
+  --t-weiter: #eba07e; --t-unternehmen: #6fc1cc; --t-sicherheit: #f08a80;
+}
+
+/* Tag: DeepAi-Flaeche, Titel in LimeByte */
+.hero { background: radial-gradient(120% 140% at 0% 0%, rgba(209,250,227,.22) 0%, rgba(209,250,227,0) 58%), linear-gradient(135deg, #17393D 0%, #26595E 60%, #2f7076 100%); }
+.hero h1 { color: #F5FC9C; }
+.hero-back { color: #D1FAE3; }
+.hero-meta { color: #E3F7EC; }
+.hero-sub { color: rgba(209,250,227,.8); }
+.hero .seg-btn[aria-pressed="true"] { background: #F5FC9C; color: #17393D; }
+
+/* Woche: Blau */
+.hero.week { background: radial-gradient(120% 140% at 0% 0%, rgba(120,160,255,.40) 0%, rgba(120,160,255,0) 58%), linear-gradient(135deg, #182466 0%, #2f6bff 100%); }
+.hero.week h1 { color: #fff; }
+.hero.week .hero-back { color: rgba(255,255,255,.9); }
+.hero.week .hero-meta { color: rgba(255,255,255,.9); }
+.hero.week .hero-sub { color: rgba(255,255,255,.78); }
+.hero.week .seg-btn[aria-pressed="true"] { background: #fff; color: #15245f; }
+main.mode-week { --accent: var(--week); --accent-soft: color-mix(in srgb, var(--week) 14%, var(--surface)); --accent-text: #fff; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) main.mode-week { --accent-text: #0b1020; } }
+:root[data-theme="dark"] main.mode-week { --accent-text: #0b1020; }
+
+/* Fortschrittsbalken und Marker */
+.brief-btn.week { --accent: var(--week); }

@@ -191,6 +191,7 @@ Single-Page-App aus `index.html`, `css/style.css` und `js/app.js`, ohne Framewor
 - **Offline:** `sw.js` lädt beim Installieren die App-Dateien, `data/index.json`, das Glossar und den neuesten Tag vor. Seiten und JSON werden zuerst vom Netz geholt (nach 4 Sekunden Wartezeit zählt die gespeicherte Kopie), versionierte Dateien und Symbole kommen aus dem Speicher. Mit `manifest.webmanifest` und den Symbolen unter `icons/` lässt sich die App auf dem Home-Bildschirm ablegen. Ein Hinweis zeigt, wenn das Gerät offline ist.
 - **Suche** mit Fuse.js 7.0.0 (lokal eingebunden) über Schlagzeile, Tags, Kurzfassung, Quelle und Originaltitel.
 - **Lokaler Speicher** (`localStorage`): `theme`, `fs` (Schriftgröße), `favs` (Merkliste), `settings`. Es werden keine Daten an einen Server gesendet.
+- **Gestaltung:** AITI-Farben (DeepAi `#26595E`, LimeByte `#F5FC9C`, MintTech `#D1FAE3`, SkyMind `#C9DEE3`, VerdaNova `#F2F0E8`) in hellem und dunklem Modus, dazu ein Blau (`#2f6bff`) als zweiter Akzent für "Die Woche in Kürze" und das Thema "Modelle und Produkte". Der Tag ist grün, die Woche blau. Die Farben stehen als Variablen am Anfang von `css/style.css` und im Block "AITI-Farben" am Ende.
 - **Darstellung:** Farbschema folgt dem System oder wird festgelegt, Schriftgröße in acht Stufen (Standard 15 px, mobil 14 px). Formularfelder haben 16 px, damit iOS-Safari nicht hineinzoomt.
 - **Barrierefreiheit:** semantische Elemente, ARIA-Beschriftungen, sichtbarer Fokus, Rücksicht auf `prefers-reduced-motion`.
 - **Laden:** Karten im Archiv werden erst beim Aufklappen einer Gruppe erzeugt, die Tagesansicht lädt nur die Datei des gewählten Tages.
@@ -262,7 +263,7 @@ python3 -m http.server 8000   # danach http://localhost:8000
 ├── sw.js                        Service Worker (Offline-Zwischenspeicher)
 ├── manifest.webmanifest         Web-App-Manifest für den Home-Bildschirm
 ├── icons/                       App-Symbole (PNG)
-├── tools/make_icons.py          erzeugt die Symbole ohne Fremdbibliotheken
+├── tools/make_icons.py          erzeugt Icon (SVG, PNG) ohne Fremdbibliotheken: AITI-Zeichen, Briefing-Karte
 ├── js/
 │   ├── app.js                   Router, Ansichten, Suche, Merkliste, Einstellungen
 │   └── vendor/fuse.min.js       Fuse.js 7.0.0 (Apache License 2.0)
