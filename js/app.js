@@ -452,9 +452,9 @@ async function viewDay(dateArg, q) {
       chipRow(regionOptions(dayAll), region, (v) => { store.regionSel = v; go(dateArg ? '/tag/' + date : '/', { region: v }, true); route(); }, 'Bereich'),
       h('div', { class: 'brief-pair' },
         h('a', { class: 'brief-btn', href: '#/briefing' + (pos === 0 ? '' : '?d=' + date) },
-          h('span', null, h('strong', null, 'Kurz-Briefing in 3 Min'), h('small', null, 'Das Wichtigste in Kürze'))),
+          h('span', null, h('strong', null, 'Der Tag'), h('small', null, 'Kurz-Briefing, 3 Min'))),
         h('a', { class: 'brief-btn week', href: '#/woche' + (pos === 0 ? '' : '?w=' + wk.key) },
-          h('span', null, h('strong', null, 'Woche'), h('small', null, wk.end < todayStr() ? `KW ${wk.week} komplett` : `KW ${wk.week} läuft`))))),
+          h('span', null, h('strong', null, wk.end < todayStr() ? 'Wochenrückblick' : 'Die Woche'), h('small', null, wk.end < todayStr() ? `KW ${wk.week} komplett` : `KW ${wk.week} läuft`))))),
     st.showTop && top.length ? h('section', { class: 'top-stories', 'aria-labelledby': 'ts' },
       h('h2', { id: 'ts' }, 'Top-Stories'),
       h('ol', null, top.map(({ o, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` }, h('div', null,
@@ -908,8 +908,8 @@ async function viewBriefing(q) {
   render(
     bar,
     h('a', { class: 'back-link', href: '#/' + (pos === 0 ? '' : 'tag/' + date) }, '\u2039 Alle Meldungen'),
-    h('h1', null, 'Briefing'),
-    h('div', { class: 'brief-switch' }, chipRow([['tag', 'Heute'], ['woche', 'Woche']], 'tag', (v) => { if (v === 'woche') go('/woche'); }, 'Ansicht')),
+    h('h1', null, 'Kurz-Briefing'),
+    h('div', { class: 'brief-switch' }, chipRow([['tag', 'Tag'], ['woche', 'Woche']], 'tag', (v) => { if (v === 'woche') go('/woche'); }, 'Ansicht')),
     h('p', { class: 'sub' }, `${dayLabel(date)} \u00B7 ca. ${minutes} Min${newN ? ` \u00B7 ${newN} neu seit deinem letzten Besuch` : ''}`, h('br'), h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text)),
     h('div', { class: 'daynav' },
       h('button', { class: 'btn', type: 'button', 'aria-label': 'Älterer Tag', disabled: pos >= store.dates.length - 1, onclick: () => go('/briefing', { d: store.dates[pos + 1] }) }, '\u2039'),
@@ -991,8 +991,8 @@ async function viewWeek(q) {
 
   render(
     h('a', { class: 'back-link', href: '#/' }, '\u2039 Alle Meldungen'),
-    h('h1', null, 'Wochenrückblick'),
-    h('div', { class: 'brief-switch' }, chipRow([['tag', 'Heute'], ['woche', 'Woche']], 'woche', (v) => { if (v === 'tag') go('/briefing'); }, 'Ansicht')),
+    h('h1', null, running ? 'Die Woche' : 'Wochenrückblick'),
+    h('div', { class: 'brief-switch' }, chipRow([['tag', 'Tag'], ['woche', 'Woche']], 'woche', (v) => { if (v === 'tag') go('/briefing'); }, 'Ansicht')),
     h('p', { class: 'sub' }, `${items.length} Meldungen an ${days} ${days === 1 ? 'Tag' : 'Tagen'} · ca. ${minutes} Min`, running ? [h('br'), 'Die Woche läuft noch, es kommen weitere Meldungen dazu.'] : null),
     h('div', { class: 'daynav' },
       h('button', { class: 'btn', type: 'button', 'aria-label': 'Ältere Woche', disabled: wi >= weeks.length - 1, onclick: () => go('/woche', { w: weeks[wi + 1].key }) }, '‹'),

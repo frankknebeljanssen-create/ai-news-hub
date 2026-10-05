@@ -532,3 +532,5 @@ details.filterbox > .filter-grid { margin: 0; }
 
 .back-link { display: inline-flex; align-items: center; min-height: 36px; margin: 0 0 2px; color: var(--accent); font-weight: 600; font-size: .92rem; text-decoration: none; }
 .back-link:hover { text-decoration: underline; }
+
+.brief-pair { grid-template-columns: 1fr 1fr; }
