@@ -4,13 +4,14 @@ const APP_VERSION = '1.0.0';
 const APP_DATE = '2026-10-05';
 
 const THEMEN = [
-  ['Modelle und Produkte', 'modelle'], ['Forschung', 'forschung'], ['Business', 'business'],
-  ['Politik und Regulierung', 'politik'], ['Weiterbildung DE', 'weiter'], ['Unternehmen DE', 'unternehmen'],
-  ['Sicherheit und Ethik', 'sicherheit'],
+  ['AITI', 'aiti'], ['Modelle und Produkte', 'modelle'], ['Forschung', 'forschung'], ['Business', 'business'],
+  ['Politik und Regulierung', 'politik'], ['Unternehmen DE', 'unternehmen'], ['Sicherheit und Ethik', 'sicherheit'],
 ];
+const THEMA_ALIAS = { 'Weiterbildung DE': 'AITI' };
+const normThema = (t) => THEMA_ALIAS[t] || t;
 const THEMA_SHORT = {
   'Modelle und Produkte': 'Technik', 'Forschung': 'Forschung', 'Business': 'Wirtschaft', 'Politik und Regulierung': 'Politik',
-  'Weiterbildung DE': 'Bildung', 'Unternehmen DE': 'Unternehmen DE', 'Sicherheit und Ethik': 'Sicherheit & Ethik',
+  'AITI': 'AITI', 'Unternehmen DE': 'Unternehmen DE', 'Sicherheit und Ethik': 'Sicherheit & Ethik',
 };
 const THEMA_VAR = Object.fromEntries(THEMEN.map(([n, k]) => [n, `var(--t-${k})`]));
 const REGIONEN = [['', 'Alle'], ['intl', 'International'], ['de', 'Deutschland']];
@@ -119,6 +120,7 @@ async function loadIndex() {
     store.index = await getJSON('data/index.json');
     // Nebenmeldungen (dup_of) stecken als "auch bei" in der Hauptmeldung und werden nicht einzeln gelistet
     store.allItems = store.index.items;
+    store.allItems.forEach((i) => { i.thema = normThema(i.thema); });
     store.index.items = store.allItems.filter((i) => !i.dup_of);
     store.index.count = store.index.items.length;
     document.getElementById('gq').placeholder = `Suchen in ${store.index.count} Meldungen`;
@@ -132,7 +134,7 @@ async function loadIndex() {
 
 async function loadDay(date) {
   if (!(date in store.days)) {
-    try { store.days[date] = await getJSON(`data/${date.slice(0, 4)}/${date.slice(5, 7)}/${date}.json`); }
+    try { store.days[date] = await getJSON(`data/${date.slice(0, 4)}/${date.slice(5, 7)}/${date}.json`); (store.days[date].items || []).forEach((i) => { i.thema = normThema(i.thema); }); }
     catch { store.days[date] = null; }
   }
   return store.days[date];
@@ -147,6 +149,7 @@ let favMem = null;
 function favLoad() {
   if (!favMem) {
     try { favMem = JSON.parse(localStorage.getItem(FAV_KEY)) || {}; } catch (e) { favMem = {}; }
+    Object.values(favMem).forEach((e) => { if (e && e.item) e.item.thema = normThema(e.item.thema); });
   }
   return favMem;
 }
@@ -220,6 +223,7 @@ function getSettings() {
     try { raw = JSON.parse(localStorage.getItem(SET_KEY)) || {}; } catch (e) { raw = {}; }
     setMem = { ...SET_DEFAULT, ...raw };
     if (!Array.isArray(setMem.hidden)) setMem.hidden = [];
+    setMem.hidden = setMem.hidden.map(normThema);
   }
   return setMem;
 }
@@ -264,10 +268,15 @@ function chipRow(options, current, onPick, label) {
 }
 
 /* Inline "Mehr lesen": zeigt die Kurzfassung direkt unter dem Eintrag, ohne die Quelle zu oeffnen */
-function withMore(meta, item) {
+function withMore(meta, item, opts = {}) {
+  // opts.skipFirst: der erste Satz der Kurzfassung steht oben schon, im Aufklapptext nicht wiederholen
+  const parts = splitSentences(item.summary);
+  const rest = opts.skipFirst && parts.length > 1 ? parts.slice(1).join(' ') : (opts.skipFirst ? '' : item.summary);
+  const hasAlso = !!(item.also && item.also.length);
+  if (!rest && !hasAlso) return [h('div', { class: 'row-meta' }, ...meta, h('a', { class: 'b-src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, 'Zum Original \u2197'))];
   const open0 = getSettings().expandAll;
   const panel = h('div', { class: 'more-panel', hidden: !open0 },
-    h('p', null, item.summary),
+    rest ? h('p', null, rest) : null,
     alsoLine(item),
     h('a', { class: 'b-src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, 'Zum Original \u2197'));
   const btn = h('button', { class: 'more-link', type: 'button', 'aria-expanded': String(!!open0) }, open0 ? 'Weniger' : 'Mehr lesen');
@@ -464,7 +473,7 @@ async function viewDay(dateArg, q) {
         isNew(item) ? h('span', { class: 'ts-label new' }, 'Neu') : null,
         item.praxis ? h('span', { class: 'ts-label praxis' }, 'Praxistipp') : null,
         h('p', null, o.text),
-        withMore([h('a', { class: 'src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, `${item.source} ↗`)], item)))))) : null,
+        withMore([h('a', { class: 'src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, `${item.source} ↗`)], item, { skipFirst: true })))))) : null,
     st.showDE && !region && deList.length ? h('section', { class: 'kurios de-box', 'aria-labelledby': 'deb' },
       h('div', { class: 'kurios-head' }, h('h2', { id: 'deb' }, 'Bereich B: Deutschland'), h('span', { class: 'k-scope' }, deScope)),
       h('ul', null, deList.map((i) => h('li', { style: `--c:${THEMA_VAR[i.thema] || 'var(--accent)'}` },
@@ -675,6 +684,8 @@ async function viewGlossary(q) {
   };
 
   const status = h('p', { class: 'sub' });
+  const checkedMax = gl.reduce((m, x) => (x.geprueft && x.geprueft > m ? x.geprueft : m), '');
+  const note = checkedMax ? h('p', { class: 'gl-note' }, `Rechtliche und zeitabhängige Einträge zuletzt geprüft am ${checkedMax.split('-').reverse().join('.')}. Das Glossar ersetzt keine Rechtsberatung.`) : null;
   const alpha = h('nav', { class: 'alpha', 'aria-label': 'Anfangsbuchstabe' });
   const list = h('div', { class: 'gl-list' });
   const input = h('input', { type: 'search', value: q.s || '', placeholder: `Im Glossar suchen (${gl.length} Begriffe)`, 'aria-label': 'Glossar durchsuchen', autocomplete: 'off', enterkeyhint: 'search' });
@@ -687,9 +698,10 @@ async function viewGlossary(q) {
       x.aliases && x.aliases.length ? h('div', { class: 'gl-alias' }, 'auch: ' + x.aliases.join(', ')) : null,
       h('p', null, text ? highlight(x.def, text) : x.def),
       x.more ? h('details', { class: 'gl-more' }, h('summary', null, 'Mehr dazu'), h('p', null, x.more)) : null,
-      (n || rel.length) ? h('div', { class: 'gl-foot' },
+      (n || rel.length || x.geprueft) ? h('div', { class: 'gl-foot' },
         n ? h('a', { class: 'gl-news', href: '#/suche?q=' + encodeURIComponent(glBase(x.term)) }, `${n} ${n === 1 ? 'Meldung' : 'Meldungen'} dazu`) : null,
-        rel.slice(0, 4).map((r) => h('a', { class: 'gl-rel', href: '#/glossar?t=' + encodeURIComponent(r) }, r))) : null);
+        rel.slice(0, 4).map((r) => h('a', { class: 'gl-rel', href: '#/glossar?t=' + encodeURIComponent(r) }, r)),
+        x.geprueft ? h('span', { class: 'gl-checked', title: 'Inhalt und rechtlicher Stand wurden an diesem Tag geprüft' }, 'Geprüft ' + x.geprueft.split('-').reverse().join('.')) : null) : null);
   };
 
   const paint = (raw) => {
@@ -725,6 +737,7 @@ async function viewGlossary(q) {
     backHref ? h('a', { class: 'back-link', href: backHref, onclick: () => { store.restore = true; } }, `\u2039 Zurück zu ${backLabel(backHref)}`) : null,
     h('h1', null, 'Glossar'),
     status,
+    note,
     h('div', { class: 'gl-sticky' },
       h('form', { class: 'searchbar', role: 'search', onsubmit: (e) => { e.preventDefault(); input.blur(); paint(input.value); } }, input,
         h('button', { class: 'btn primary', type: 'submit', 'aria-label': 'Suchen' }, '\u{1F50D}\uFE0E')),
@@ -870,7 +883,23 @@ function hero({ title, backHref, active, meta, nav }) {
 
 /* ---------- Ansicht: Briefing (2 bis 3 Minuten) ---------- */
 
-const firstSentence = (t) => { const m = (t || '').match(/^.+?[.!?](?=\s|$)/); return m ? m[0] : (t || ''); };
+const ABBR = new Set(['z', 'B', 'd', 'h', 'u', 'a', 'ca', 'Nr', 'bzw', 'vgl', 'inkl', 'usw', 'ggf', 'Mio', 'Mrd', 'Dr', 'Prof', 'etc', 'ff', 'Abs', 'Art', 'Std', 'Min', 'sog', 'evtl', 'bspw', 'zzgl', 'max', 'mind', 'St', 'ca', 'Tel', 'Jh']);
+const MONTHS = /^(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)/;
+function splitSentences(t) {
+  t = (t || '').trim();
+  const out = []; let start = 0; const re = /[.!?]+(\s+)(?=[A-ZÄÖÜ„"(])/g; let m;
+  while ((m = re.exec(t))) {
+    const before = t.slice(start, m.index + 1);
+    const tok = ((/(\S+)$/.exec(before) || [])[1] || '').replace(/[.!?]+$/, '');
+    const next = t.slice(m.index + m[0].length);
+    if (ABBR.has(tok) || (/^\d+$/.test(tok) && MONTHS.test(next))) continue;
+    out.push(t.slice(start, m.index + m[0].length - m[1].length).trim());
+    start = m.index + m[0].length;
+  }
+  if (start < t.length) out.push(t.slice(start).trim());
+  return out.filter(Boolean);
+}
+const firstSentence = (t) => splitSentences(t)[0] || (t || '');
 
 async function viewBriefing(q) {
   const index = await loadIndex();
@@ -917,6 +946,7 @@ async function viewBriefing(q) {
   const srcLink = (it) => h('a', { class: 'b-src', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, `${it.source} \u2197`);
   const title = (it, txt) => h('a', { class: 'b-title', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, txt || it.headline);
   const sec = (name, ...kids) => h('section', { class: 'brief-sec' }, h('h2', null, name), ...kids);
+  const secTerm = (name, ...kids) => h('section', { class: 'brief-sec brief-term' }, h('h2', null, name), ...kids);
 
   const bar = h('div', { class: 'brief-progress', role: 'progressbar', 'aria-label': 'Fortschritt im Briefing', 'aria-valuemin': '0', 'aria-valuemax': '100' }, h('i'));
   const fill = bar.firstChild;
@@ -946,18 +976,18 @@ async function viewBriefing(q) {
         h('span', { class: 'ts-label' }, THEMA_SHORT[item.thema] || item.thema),
         isNew(item) ? h('span', { class: 'ts-label new' }, 'Neu') : null,
         h('p', null, text),
-        withMore([srcLink(item)], item))))),
+        withMore([srcLink(item)], item, { skipFirst: true }))))),
 
     de.length ? sec('Deutschland',
       h('ul', { class: 'b-list' }, de.map((i) => h('li', null, title(i), withMore([srcLink(i)], i))))) : null,
 
     praxis ? sec('Praxistipp des Tages',
-      h('div', { class: 'b-one' }, title(praxis), h('p', null, firstSentence(praxis.summary)), withMore([srcLink(praxis)], praxis))) : null,
+      h('div', { class: 'b-one' }, title(praxis), h('p', null, firstSentence(praxis.summary)), withMore([srcLink(praxis)], praxis, { skipFirst: true }))) : null,
 
     kurios ? sec('Kurios & krass',
       h('div', { class: 'b-one' }, h('span', { class: 'k-hook' }, kurios.kurios), title(kurios), withMore([srcLink(kurios)], kurios))) : null,
 
-    term ? sec('Begriff des Tages',
+    term ? secTerm('Begriff des Tages',
       h('div', { class: 'b-one' }, h('strong', { class: 'b-term' }, term.term), h('p', null, term.def),
         h('a', { class: 'b-src', href: '#/glossar?t=' + encodeURIComponent(term.term) }, 'Im Glossar \u203A'))) : null,
 
@@ -1033,7 +1063,7 @@ async function viewWeek(q) {
         h('span', { class: 'ts-label' }, THEMA_SHORT[i.thema] || i.thema),
         title(i),
         h('p', { class: 'b-sum' }, firstSentence(i.summary)),
-        withMore([dayTag(i), srcLink(i)], i))))) : null,
+        withMore([dayTag(i), srcLink(i)], i, { skipFirst: true }))))) : null,
 
     de.length ? sec('Deutschland', h('ul', { class: 'b-list' }, de.map((i) => h('li', null, title(i), withMore([dayTag(i), srcLink(i)], i))))) : null,
 
