@@ -221,6 +221,12 @@ async function viewDay(dateArg, q) {
 
   const top = ((day && day.overview) || []).map((o) => ({ o, item: store.byId.get(o.id) })).filter((x) => x.item && (!region || x.item.region === region));
 
+  const kAll = index.items.filter((i) => i.kurios && (!region || i.region === region)).sort((a, b) => b.relevanz - a.relevanz || b.published.localeCompare(a.published));
+  const kDay = kAll.filter((i) => i.date === date);
+  const kWeek = kAll.filter((i) => i.date <= date && i.date >= dayShift(date, -6));
+  const kScope = kDay.length >= 2 ? 'an diesem Tag' : 'in den letzten 7 Tagen';
+  const kList = (kDay.length >= 2 ? kDay : kWeek).slice(0, 4);
+
   const sections = THEMEN.map(([name]) => [name, items.filter((i) => i.thema === name).sort((a, b) => b.relevanz - a.relevanz)]).filter(([, l]) => l.length);
 
   render(
@@ -234,6 +240,12 @@ async function viewDay(dateArg, q) {
         h('span', { class: 'ts-label' }, THEMA_SHORT[item.thema] || item.thema),
         h('p', null, o.text),
         h('a', { class: 'src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, `${item.source} ↗`)))))) : null,
+    kList.length ? h('section', { class: 'kurios', 'aria-labelledby': 'kur' },
+      h('div', { class: 'kurios-head' }, h('h2', { id: 'kur' }, 'Kurios & krass'), h('span', { class: 'k-scope' }, kScope)),
+      h('ul', null, kList.map((i) => h('li', null,
+        h('span', { class: 'k-hook' }, i.kurios),
+        h('a', { class: 'k-title', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, i.headline),
+        h('span', { class: 'k-meta' }, `${i.source} · ${fmtShort(i.date)}`))))) : null,
     ...(sections.length ? sections.map(([name, list]) => h('section', { class: 'section', style: `--c:${THEMA_VAR[name]}` },
       h('div', { class: 'section-head' }, h('span', { class: 'dot' }), h('h2', null, name), h('span', { class: 'count' }, list.length)),
       list.map((i) => card(i)))) : [h('p', { class: 'empty' }, 'Keine Meldungen für diese Auswahl.')]),
@@ -242,36 +254,72 @@ async function viewDay(dateArg, q) {
 
 /* ---------- Ansicht: Archiv ---------- */
 
+function isoWeek(s) {
+  const d = new Date(s + 'T12:00:00Z');
+  const mon = new Date(d); mon.setUTCDate(d.getUTCDate() - ((d.getUTCDay() + 6) % 7));
+  const thu = new Date(mon); thu.setUTCDate(mon.getUTCDate() + 3);
+  const y = thu.getUTCFullYear();
+  const jan4 = new Date(Date.UTC(y, 0, 4, 12));
+  const w1 = new Date(jan4); w1.setUTCDate(jan4.getUTCDate() - ((jan4.getUTCDay() + 6) % 7));
+  const week = Math.round((mon - w1) / 604800000) + 1;
+  const sun = new Date(mon); sun.setUTCDate(mon.getUTCDate() + 6);
+  return { key: `${y}-W${String(week).padStart(2, '0')}`, week, start: mon.toISOString().slice(0, 10), end: sun.toISOString().slice(0, 10) };
+}
+const fmtMonth = (s) => new Intl.DateTimeFormat('de-DE', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(s + 'T12:00:00Z'));
+const GROUPINGS = [['tag', 'Tage'], ['woche', 'Wochen'], ['monat', 'Monate']];
+
+function groupKey(mode, date) {
+  if (mode === 'tag') return { key: date, label: dayLabel(date) };
+  if (mode === 'monat') return { key: date.slice(0, 7), label: fmtMonth(date) };
+  const w = isoWeek(date);
+  return { key: w.key, label: `KW ${w.week} · ${fmtShort(w.start)} bis ${fmtShort(w.end)}${w.end.slice(0, 4)}` };
+}
+
 async function viewArchive(q) {
   const index = await loadIndex();
-  const f = { thema: q.thema || '', region: q.region || '', von: q.von || '', bis: q.bis || '' };
+  const g = GROUPINGS.some(([k]) => k === q.g) ? q.g : 'woche';
+  const f = { thema: q.thema || '', region: q.region || '', von: q.von || '', bis: q.bis || '', g };
   const filtered = index.items.filter((i) =>
     (!f.thema || i.thema === f.thema) && (!f.region || i.region === f.region) &&
     (!f.von || i.date >= f.von) && (!f.bis || i.date <= f.bis))
     .sort((a, b) => b.published.localeCompare(a.published));
-  const limit = Math.max(PAGE, parseInt(q.n, 10) || PAGE);
-  const set = (patch) => { go('/archiv', { ...f, ...patch, n: '' }, true); route(); };
+  const set = (patch) => { go('/archiv', { ...f, ...patch }, true); route(); };
 
   const minD = store.dates[store.dates.length - 1], maxD = store.dates[0];
-  const list = h('div');
-  let last = '';
-  filtered.slice(0, limit).forEach((i) => {
-    if (i.date !== last) { last = i.date; list.append(h('h2', { class: 'group-date' }, dayLabel(i.date))); }
-    list.append(card(i));
+  const groups = new Map();
+  filtered.forEach((i) => {
+    const k = groupKey(g, i.date);
+    if (!groups.has(k.key)) groups.set(k.key, { label: k.label, items: [] });
+    groups.get(k.key).items.push(i);
   });
+
+  // Gruppen sind einklappbar, Karten werden erst beim Aufklappen gebaut
+  const list = h('div', { class: 'groups' });
+  [...groups.values()].forEach((grp, n) => {
+    const body = h('div', { class: 'group-body' });
+    const fill = () => { if (!body.childElementCount) grp.items.forEach((i) => body.append(card(i))); };
+    const det = h('details', { class: 'group', open: n === 0 }, h('summary', null, h('span', { class: 'g-title' }, grp.label), h('span', { class: 'count' }, grp.items.length)), body);
+    if (n === 0) fill();
+    det.addEventListener('toggle', () => { if (det.open) fill(); });
+    list.append(det);
+  });
+  const toggleAll = (open) => list.querySelectorAll('details').forEach((d) => { d.open = open; });
 
   render(
     h('h1', null, 'Archiv'),
-    h('p', { class: 'sub' }, `${filtered.length} von ${index.items.length} Meldungen`),
+    h('p', { class: 'sub' }, `${filtered.length} von ${index.items.length} Meldungen in ${groups.size} ${g === 'tag' ? 'Tagen' : g === 'woche' ? 'Wochen' : 'Monaten'}`),
     h('div', { class: 'filters' },
+      chipRow(GROUPINGS, g, (v) => set({ g: v }), 'Gruppierung'),
       chipRow([['', 'Alle Themen'], ...THEMEN.map(([n]) => [n, n])], f.thema, (v) => set({ thema: v }), 'Thema'),
       chipRow(REGIONEN, f.region, (v) => set({ region: v }), 'Bereich'),
       h('div', { class: 'row' },
         h('label', { class: 'field' }, 'Von', h('input', { type: 'date', value: f.von, min: minD, max: maxD, onchange: (e) => set({ von: e.target.value }) })),
         h('label', { class: 'field' }, 'Bis', h('input', { type: 'date', value: f.bis, min: minD, max: maxD, onchange: (e) => set({ bis: e.target.value }) })),
-        (f.thema || f.region || f.von || f.bis) ? h('button', { class: 'btn', type: 'button', onclick: () => { go('/archiv', {}, true); route(); } }, 'Zurücksetzen') : null)),
-    filtered.length ? list : h('p', { class: 'empty' }, 'Keine Meldungen für diese Filter.'),
-    filtered.length > limit ? h('button', { class: 'btn primary more', type: 'button', onclick: () => { go('/archiv', { ...f, n: limit + PAGE }, true); route(); } }, `Mehr laden (${filtered.length - limit})`) : null);
+        (f.thema || f.region || f.von || f.bis) ? h('button', { class: 'btn', type: 'button', onclick: () => { go('/archiv', { g }, true); route(); } }, 'Zurücksetzen') : null)),
+    groups.size > 1 ? h('div', { class: 'row actions' },
+      h('button', { class: 'btn', type: 'button', onclick: () => toggleAll(true) }, 'Alle öffnen'),
+      h('button', { class: 'btn', type: 'button', onclick: () => toggleAll(false) }, 'Alle schließen')) : null,
+    filtered.length ? list : h('p', { class: 'empty' }, 'Keine Meldungen für diese Filter.'));
 }
 
 /* ---------- Ansicht: Suche ---------- */
@@ -362,6 +410,31 @@ async function route() {
   document.title = area === 'heute' ? 'KI-News Hub' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste' }[area] + ' | KI-News Hub';
   if (!keepScroll) window.scrollTo(0, 0);
 }
+
+/* Schriftgroesse (Standard 15px) */
+const FS_STEPS = [12, 13, 14, 15, 16, 17, 18, 20];
+const FS_DEFAULT = 15;
+const $fsDown = document.getElementById('fs-down'), $fsUp = document.getElementById('fs-up');
+function getFs() {
+  try { const v = parseInt(localStorage.getItem('fs'), 10); if (FS_STEPS.includes(v)) return v; } catch (e) { /* kein Speicher */ }
+  return FS_DEFAULT;
+}
+let fsNow = getFs();
+function applyFs(v) {
+  fsNow = v;
+  document.documentElement.style.fontSize = v + 'px';
+  $fsDown.disabled = v <= FS_STEPS[0];
+  $fsUp.disabled = v >= FS_STEPS[FS_STEPS.length - 1];
+  $fsDown.title = $fsUp.title = `Schriftgröße ${v} px`;
+}
+function stepFs(dir) {
+  const v = FS_STEPS[Math.min(FS_STEPS.length - 1, Math.max(0, FS_STEPS.indexOf(fsNow) + dir))];
+  try { localStorage.setItem('fs', String(v)); } catch (e) { /* privater Modus */ }
+  applyFs(v);
+}
+$fsDown.addEventListener('click', () => stepFs(-1));
+$fsUp.addEventListener('click', () => stepFs(1));
+applyFs(fsNow);
 
 /* Darstellung (Hell/Dunkel) */
 const ICONS = {
