@@ -83,6 +83,7 @@ async function getJSON(url) {
 async function loadIndex() {
   if (!store.index) {
     store.index = await getJSON('data/index.json');
+    document.getElementById('gq').placeholder = `Suchen in ${store.index.count} Meldungen`;
     store.dates = [...new Set(store.index.items.map((i) => i.date))].sort().reverse();
     store.byId = new Map(store.index.items.map((i) => [i.id, i]));
   }
@@ -710,6 +711,7 @@ async function route() {
   const { parts, q } = parseHash();
   const area = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar'].includes(parts[0]) ? parts[0] : 'heute';
   document.querySelectorAll('[data-nav]').forEach((a) => ((a.dataset.nav === area || (area === 'glossar' && a.closest('.tabbar') && a.dataset.nav === 'suche')) ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
+  document.getElementById('gsearch').hidden = area === 'suche' || area === 'glossar';
   const keepScroll = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar'].includes(area) && route.last === area;
   route.last = area;
   try {
@@ -776,6 +778,14 @@ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', paintTheme
 paintTheme();
 
 applySettings();
+document.getElementById('gsearch').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const input = document.getElementById('gq');
+  const text = input.value.trim();
+  input.value = '';
+  input.blur();
+  go('/suche', { q: text });
+});
 paintFavCount();
 window.addEventListener('storage', (e) => { if (e.key === FAV_KEY) { favMem = null; paintFavCount(); if (route.last === 'merkliste') route(); } });
 window.addEventListener('resize', () => fitCards());
