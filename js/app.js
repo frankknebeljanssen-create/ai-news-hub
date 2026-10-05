@@ -283,12 +283,27 @@ function chipRow(options, current, onPick, label) {
 }
 
 /* Inline "Mehr lesen": zeigt die Kurzfassung direkt unter dem Eintrag, ohne die Quelle zu oeffnen */
+function seenPill(item) {
+  const b = h('button', { class: 'seen-btn mini', type: 'button' });
+  const paint = () => {
+    const on = isSeen(item.id), box = b.closest('li, .b-one');
+    if (box) box.classList.toggle('seen', on);
+    b.textContent = on ? 'Einblenden' : '\u2713 Gelesen';
+    b.title = on ? 'Wieder ausklappen' : 'Als gelesen markieren und einklappen';
+    b.setAttribute('aria-label', b.title);
+    b.setAttribute('aria-pressed', String(on));
+  };
+  b.addEventListener('click', () => { toggleSeen(item.id); paint(); });
+  Promise.resolve().then(paint);
+  return b;
+}
+
 function withMore(meta, item, opts = {}) {
   // opts.skipFirst: der erste Satz der Kurzfassung steht oben schon, im Aufklapptext nicht wiederholen
   const parts = splitSentences(item.summary);
   const rest = opts.skipFirst && parts.length > 1 ? parts.slice(1).join(' ') : (opts.skipFirst ? '' : item.summary);
   const hasAlso = !!(item.also && item.also.length);
-  if (!rest && !hasAlso) return [h('div', { class: 'row-meta' }, ...meta, h('a', { class: 'b-src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, 'Zum Original \u2197'))];
+  if (!rest && !hasAlso) return [h('div', { class: 'row-meta' }, ...meta, h('a', { class: 'b-src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, 'Zum Original \u2197'), seenPill(item))];
   const open0 = getSettings().expandAll;
   const panel = h('div', { class: 'more-panel', hidden: !open0 },
     rest ? h('p', null, rest) : null,
@@ -301,7 +316,7 @@ function withMore(meta, item, opts = {}) {
     btn.setAttribute('aria-expanded', String(open));
     btn.textContent = open ? 'Weniger' : 'Mehr lesen';
   });
-  return [h('div', { class: 'row-meta' }, ...meta, btn), panel];
+  return [h('div', { class: 'row-meta' }, ...meta, btn, seenPill(item)), panel];
 }
 
 /* Tagesauswahl: Antippen der Datums-Karte oeffnet die Liste der letzten 4 Wochen */
@@ -502,7 +517,7 @@ async function viewDay(dateArg, q) {
         h('p', null, o.text),
         withMore([h('a', { class: 'src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, `${item.source} ↗`)], item, { skipFirst: true })))))) : null,
     st.showDE && !region && deList.length ? h('section', { class: 'kurios de-box', 'aria-labelledby': 'deb' },
-      h('div', { class: 'kurios-head' }, h('h2', { id: 'deb' }, 'Bereich B: Deutschland'), h('span', { class: 'k-scope' }, deScope)),
+      h('div', { class: 'kurios-head' }, h('h2', { id: 'deb' }, 'Aus Deutschland'), h('span', { class: 'k-scope' }, deScope)),
       h('ul', null, deList.map((i) => h('li', { style: `--c:${THEMA_VAR[i.thema] || 'var(--accent)'}` },
         h('span', null, h('span', { class: 'ts-label' }, THEMA_SHORT[i.thema] || i.thema), i.praxis ? h('span', { class: 'ts-label praxis' }, 'Praxistipp') : null),
         h('a', { class: 'k-title', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, i.headline),
@@ -844,7 +859,7 @@ async function viewSettings() {
 
     card_('Anzeige',
       toggleRow('Top-Stories', 'Der Tagesüberblick oben', 'showTop'),
-      toggleRow('Bereich B: Deutschland', 'Eigene Box mit Meldungen aus Deutschland', 'showDE'),
+      toggleRow('Aus Deutschland', 'Eigene Box mit Meldungen aus Deutschland', 'showDE'),
       toggleRow('Kurios & krass', 'Außergewöhnliche Fälle und Fakten', 'showKurios'),
       toggleRow('Kurztexte immer ausklappen', 'Auf dem Handy sind sie sonst gekürzt', 'expandAll'),
       toggleRow('Tags anzeigen', null, 'showTags'),

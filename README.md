@@ -27,7 +27,7 @@ Tägliches KI-Nachrichtenarchiv auf Deutsch. Eine Python-Pipeline sammelt Meldun
 - **Briefing** (`#/briefing`): kompakte Ansicht für 2 bis 3 Minuten mit den 5 wichtigsten Meldungen, drei Meldungen aus Deutschland, einem Praxistipp, einem kuriosen Fall und einem Glossarbegriff des Tages, mit Fortschrittsbalken und Tageswechsel
 - **Die Woche in Kürze** (`#/woche`): Top-Meldungen der Kalenderwoche, Deutschland, Themenverteilung, Praxistipps, Kurioses und Zahlen, mit Wochenwechsel
 - Tagesansicht mit Top-Stories (je ein Satz), Meldungen nach Themen und Sprungleiste
-- Zusatzboxen "Bereich B: Deutschland" und "Kurios & krass"
+- Zusatzboxen "Aus Deutschland" und "Kurios & krass"
 - Archiv mit Gruppierung nach Tagen, Wochen, Monaten oder Kategorien, Sortierung nach Datum oder Relevanz sowie Filtern für Thema, Quelle, Bereich und Zeitraum
 - Volltextsuche im Browser (Fuse.js), auch ohne Suchbegriff nach Quelle filterbar
 - Glossar mit 309 Begriffen, Suche, Alphabet-Sprungleiste und Verweisen auf passende Meldungen

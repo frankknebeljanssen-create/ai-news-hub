@@ -681,3 +681,14 @@ main.mode-week { --accent: var(--week); --accent-soft: color-mix(in srgb, var(--
 .card.seen h3 { order: 1; flex: 1 1 auto; min-width: 0; margin: 0; font-size: .82rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card.seen h3 a { color: var(--muted); }
 .hide-seen .card.seen { display: none; }
+
+/* Gelesen in Listen (Briefing, Woche, Boxen im Tag) */
+.seen-btn.mini { padding: 1px 8px; font-size: .72rem; margin-left: auto; min-height: 24px; }
+li.seen, .b-one.seen { display: flex !important; align-items: center; gap: 10px; padding-top: 5px !important; padding-bottom: 5px !important; }
+li.seen > *, .b-one.seen > * { display: none; }
+li.seen > .b-title, .b-one.seen > .b-title { display: block; flex: 1 1 auto; min-width: 0; font-size: .82rem; font-weight: 500; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+li.seen > .row-meta, .b-one.seen > .row-meta { display: flex; flex: 0 0 auto; }
+li.seen > .row-meta > *:not(.seen-btn), .b-one.seen > .row-meta > *:not(.seen-btn) { display: none; }
+li.seen::before { display: none; }
+.hide-seen li.seen, .hide-seen .b-one.seen { display: none !important; }
+li.seen > p:not(.b-sum) { display: block; flex: 1 1 auto; min-width: 0; margin: 0; font-size: .82rem; font-weight: 500; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
