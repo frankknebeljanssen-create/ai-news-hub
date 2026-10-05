@@ -24,6 +24,7 @@ Tägliches KI-Nachrichtenarchiv auf Deutsch. Eine Python-Pipeline sammelt Meldun
 
 **Web-App**
 
+- **Briefing** (`#/briefing`): kompakte Ansicht für 2 bis 3 Minuten mit den 5 wichtigsten Meldungen, drei Meldungen aus Deutschland, einem Praxistipp, einem kuriosen Fall und einem Glossarbegriff des Tages, mit Fortschrittsbalken und Tageswechsel
 - Tagesansicht mit Top-Stories (je ein Satz), Meldungen nach Themen und Sprungleiste
 - Zusatzboxen "Bereich B: Deutschland" und "Kurios & krass"
 - Archiv mit Gruppierung nach Tagen, Wochen, Monaten oder Kategorien, Sortierung nach Datum oder Relevanz sowie Filtern für Thema, Quelle, Bereich und Zeitraum
@@ -32,6 +33,7 @@ Tägliches KI-Nachrichtenarchiv auf Deutsch. Eine Python-Pipeline sammelt Meldun
 - Merkliste mit Export und Import als JSON-Datei
 - Hell-, Dunkel- und Systemdarstellung, einstellbare Schriftgröße, Einstellungsseite
 - Responsives Layout, mobil zuerst (Tab-Leiste am Handy, Navigation oben am Desktop)
+- Offline-Betrieb über einen Service Worker, installierbar auf dem Home-Bildschirm
 - Stand-Anzeige ("aktualisiert heute 07:12")
 
 **Pipeline**
@@ -175,7 +177,9 @@ Bezahlte Newsletter sind bewusst nicht Teil des Repositories.
 
 Single-Page-App aus `index.html`, `css/style.css` und `js/app.js`, ohne Framework und ohne Build-Schritt.
 
-- **Routing** über den URL-Hash: `#/` (neuester Tag), `#/tag/JJJJ-MM-TT`, `#/archiv`, `#/suche`, `#/glossar`, `#/merkliste`, `#/einstellungen`. Filter und Suchbegriffe stehen in der URL und sind teilbar.
+- **Routing** über den URL-Hash: `#/` (neuester Tag), `#/tag/JJJJ-MM-TT`, `#/briefing`, `#/archiv`, `#/suche`, `#/glossar`, `#/merkliste`, `#/einstellungen`. Filter und Suchbegriffe stehen in der URL und sind teilbar.
+- **Briefing:** wird vollständig im Browser aus den vorhandenen Daten zusammengestellt (Tagesüberblick, Region, Praxis- und Kurios-Markierung, Glossar), ohne zusätzlichen Pipeline-Schritt. Der Begriff des Tages ist pro Datum stabil. Wahlweise als Startseite einstellbar.
+- **Offline:** `sw.js` lädt beim Installieren die App-Dateien, `data/index.json`, das Glossar und den neuesten Tag vor. Seiten und JSON werden zuerst vom Netz geholt (nach 4 Sekunden Wartezeit zählt die gespeicherte Kopie), versionierte Dateien und Symbole kommen aus dem Speicher. Mit `manifest.webmanifest` und den Symbolen unter `icons/` lässt sich die App auf dem Home-Bildschirm ablegen. Ein Hinweis zeigt, wenn das Gerät offline ist.
 - **Suche** mit Fuse.js 7.0.0 (lokal eingebunden) über Schlagzeile, Tags, Kurzfassung, Quelle und Originaltitel.
 - **Lokaler Speicher** (`localStorage`): `theme`, `fs` (Schriftgröße), `favs` (Merkliste), `settings`. Es werden keine Daten an einen Server gesendet.
 - **Darstellung:** Farbschema folgt dem System oder wird festgelegt, Schriftgröße in acht Stufen (Standard 15 px, mobil 14 px). Formularfelder haben 16 px, damit iOS-Safari nicht hineinzoomt.
@@ -246,6 +250,10 @@ python3 -m http.server 8000   # danach http://localhost:8000
 .
 ├── index.html                   Einstiegsseite der Web-App
 ├── css/style.css                Gestaltung, Hell- und Dunkelmodus
+├── sw.js                        Service Worker (Offline-Zwischenspeicher)
+├── manifest.webmanifest         Web-App-Manifest für den Home-Bildschirm
+├── icons/                       App-Symbole (PNG)
+├── tools/make_icons.py          erzeugt die Symbole ohne Fremdbibliotheken
 ├── js/
 │   ├── app.js                   Router, Ansichten, Suche, Merkliste, Einstellungen
 │   └── vendor/fuse.min.js       Fuse.js 7.0.0 (Apache License 2.0)
@@ -273,6 +281,7 @@ python3 -m http.server 8000   # danach http://localhost:8000
 - Bei Ablauf der Claude-Anmeldung schlägt die Kuratierung fehl. Die Mitteilung weist darauf hin, die Lösung ist `claude auth login`.
 - Die Zuordnung zu Thema, Region und Relevanz ist eine Einschätzung des Modells. Meldungen zum selben Ereignis aus mehreren Quellen werden in den Themenblöcken nicht zusammengeführt, in den Zusatzboxen nur grob entfernt.
 - Bei Quellen ohne Teaser (Suchfeeds) beruht die Kurzfassung allein auf dem Titel.
+- Der Offline-Betrieb setzt einen ersten Besuch mit Netz voraus. Ob Safari den Zwischenspeicher dauerhaft behält, entscheidet das System, bei längerer Nichtnutzung kann er geleert werden.
 - Kursdatenbanken wie Kursnet haben keinen Feed und sind nicht angebunden.
 
 ## Lizenz

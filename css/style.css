@@ -365,3 +365,42 @@ details.filterbox > .filter-grid { margin: 0; }
 
 .seg-n { margin-left: 7px; font-size: .74rem; font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; }
 .seg-btn[aria-pressed="true"] .seg-n { color: var(--accent); }
+
+/* ---- Kompakter Tageswechsler und schmaler Bereich-Schalter ---- */
+.daynav { display: inline-flex; align-items: center; gap: 2px; width: fit-content; max-width: 100%; margin: 12px 0 14px; padding: 3px; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; }
+.daynav .btn { border: 0; background: transparent; min-width: 42px; min-height: 40px; padding: 0; border-radius: 11px; font-size: 1.2rem; }
+.daynav .btn:hover:not(:disabled) { background: var(--surface-2); }
+.daynav .label { flex: 0 1 auto; text-align: center; font-weight: 700; padding: 0 12px; }
+.seg-wrap { width: fit-content; max-width: 100%; }
+.seg { justify-self: start; }
+
+/* ---- Briefing ---- */
+.brief-btn { display: flex; align-items: center; justify-content: space-between; gap: 12px; text-decoration: none; margin: 4px 0 4px; padding: 12px 16px; border-radius: var(--radius); background: var(--accent-soft); border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border)); color: var(--text); }
+.brief-btn strong { display: block; color: var(--accent); }
+.brief-btn small { display: block; color: var(--muted); font-size: .8rem; margin-top: 1px; }
+.brief-go { font-size: 1.6rem; color: var(--accent); line-height: 1; }
+.brief-btn:hover { background: color-mix(in srgb, var(--accent) 18%, var(--surface)); }
+
+.brief-progress { position: sticky; top: calc(54px + env(safe-area-inset-top)); z-index: 7; height: 3px; margin: -14px -16px 14px; background: var(--border); }
+.brief-progress i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .1s linear; }
+.brief-sec { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 14px 16px 6px; margin: 0 0 14px; }
+.brief-sec h2 { font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.b-top, .b-list { list-style: none; margin: 0; padding: 0; counter-reset: b; }
+.b-top li { counter-increment: b; display: grid; grid-template-columns: 1fr; gap: 3px; padding: 12px 0 12px 34px; border-top: 1px solid var(--border); position: relative; }
+.b-top li:first-child { border-top: 0; }
+.b-top li::before { content: counter(b); position: absolute; left: 0; top: 12px; width: 24px; height: 24px; display: grid; place-items: center; border-radius: 8px; background: var(--accent-soft); color: var(--accent); font-weight: 800; font-size: .8rem; }
+.b-top p { margin: 0; font-size: 1.05rem; line-height: 1.4; }
+.b-top .ts-label { justify-self: start; }
+.b-list li { display: grid; gap: 2px; padding: 10px 0; border-top: 1px solid var(--border); }
+.b-list li:first-child { border-top: 0; }
+.b-title { color: var(--text); font-weight: 600; text-decoration: none; line-height: 1.35; }
+.b-title:hover { text-decoration: underline; }
+.b-src { font-size: .78rem; color: var(--muted); text-decoration: none; }
+.b-src:hover { text-decoration: underline; }
+.b-one { display: grid; gap: 4px; padding: 4px 0 12px; }
+.b-one p { margin: 0; }
+.b-term { font-size: 1.05rem; }
+.brief-end { text-align: center; padding: 14px 0 6px; color: var(--muted); }
+.brief-end .actions { justify-content: center; }
+.offline { position: sticky; top: calc(54px + env(safe-area-inset-top)); z-index: 15; text-align: center; font-size: .82rem; font-weight: 600; padding: 6px 12px; background: color-mix(in srgb, #d9822b 22%, var(--bg)); color: var(--text); border-bottom: 1px solid color-mix(in srgb, #d9822b 50%, var(--border)); }
+.offline[hidden] { display: none; }

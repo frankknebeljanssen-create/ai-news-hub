@@ -9,7 +9,13 @@
 <title>KI-News Hub</title>
 <meta name="description" content="Tägliche KI-News auf Deutsch: Top-Stories, Archiv und Suche.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232f6bff'/%3E%3Cpath d='M9 22V10h4.2c3 0 4.8 1.6 4.8 4s-1.8 4-4.8 4H12v4zm3-6.4h1.1c1.3 0 2-.6 2-1.6s-.7-1.6-2-1.6H12zM20 10h3v12h-3z' fill='%23fff'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="css/style.css?v=22">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="KI-News">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="css/style.css?v=24">
 <script>
   // Theme vor dem Rendern setzen, damit nichts aufblitzt
   try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; var f = parseInt(localStorage.getItem('fs'), 10); if (f >= 12 && f <= 20) document.documentElement.style.fontSize = f + 'px'; } catch (e) {}
@@ -21,6 +27,7 @@
     <a class="brand" href="#/" aria-label="KI-News Hub, Startseite"><span class="logo">KI</span><span class="brand-name">News Hub</span></a>
     <nav class="nav" aria-label="Hauptnavigation">
       <a href="#/" data-nav="heute">Heute</a>
+      <a href="#/briefing" data-nav="briefing">Briefing</a>
       <a href="#/archiv" data-nav="archiv">Archiv</a>
       <a href="#/suche" data-nav="suche">Suche</a>
       <a href="#/glossar" data-nav="glossar">Glossar</a>
@@ -33,6 +40,7 @@
     </div>
   </div>
 </header>
+<div id="offline" class="offline" role="status" hidden>Offline: Du siehst den zuletzt gespeicherten Stand.</div>
 
 <form class="gsearch" id="gsearch" role="search">
   <input type="search" id="gq" placeholder="Meldungen durchsuchen" aria-label="Meldungen durchsuchen" autocomplete="off" enterkeyhint="search">
@@ -42,7 +50,7 @@
 <main id="app" tabindex="-1" aria-live="polite"><p class="state">Lade Nachrichten ...</p></main>
 
 <footer class="site-foot">
-  <span>Eigene Kurzfassungen mit Link zur Quelle. Keine Volltexte. <a href="#/glossar" class="foot-link">Glossar</a> · <a href="#/einstellungen" class="foot-link">Impressum</a></span>
+  <span>Eigene Kurzfassungen mit Link zur Quelle. Keine Volltexte. <a href="#/briefing" class="foot-link">Briefing</a> · <a href="#/glossar" class="foot-link">Glossar</a> · <a href="#/einstellungen" class="foot-link">Impressum</a></span>
   <a href="#/einstellungen" data-nav="einstellungen" class="foot-gear"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg><span>Einstellungen</span></a>
 </footer>
 
@@ -55,6 +63,6 @@
 </nav>
 
 <script src="js/vendor/fuse.min.js"></script>
-<script src="js/app.js?v=22"></script>
+<script src="js/app.js?v=24"></script>
 </body>
 </html>

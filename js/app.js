@@ -171,7 +171,7 @@ function starBtn(item) {
 /* ---------- Einstellungen (nur localStorage) ---------- */
 
 const SET_KEY = 'settings';
-const SET_DEFAULT = { region: '', grouping: 'woche', showTop: true, showDE: true, showKurios: true, expandAll: false, showTags: true, hidden: [] };
+const SET_DEFAULT = { startBriefing: false, region: '', grouping: 'woche', showTop: true, showDE: true, showKurios: true, expandAll: false, showTags: true, hidden: [] };
 let setMem = null;
 
 function getSettings() {
@@ -331,6 +331,8 @@ async function viewDay(dateArg, q) {
   render(
     h('h1', null, 'KI-News'),
     h('p', { class: 'sub' }, h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text), ` · ${items.length} Meldungen an diesem Tag`),
+    h('a', { class: 'brief-btn', href: '#/briefing' + (pos === 0 ? '' : '?d=' + date) },
+      h('span', null, h('strong', null, 'Briefing in 3 Min'), h('small', null, 'Das Wichtigste in Kürze, ideal für unterwegs')), h('span', { class: 'brief-go', 'aria-hidden': 'true' }, '\u203A')),
     nav,
     chipRow(regionOptions(dayAll), region, (v) => { store.regionSel = v; go(dateArg ? '/tag/' + date : '/', { region: v }, true); route(); }, 'Bereich'),
     st.showTop && top.length ? h('section', { class: 'top-stories', 'aria-labelledby': 'ts' },
@@ -660,6 +662,7 @@ async function viewSettings() {
         h('button', { class: 'btn', type: 'button', onclick: () => { try { localStorage.removeItem('fs'); } catch (e) { /* ignorieren */ } applyFs(FS_DEFAULT); redo(); } }, `Standard (${FS_DEFAULT} px)`))),
 
     card_('Startansicht',
+      toggleRow('Briefing als Startseite', 'Beim Öffnen direkt das 3-Minuten-Briefing zeigen', 'startBriefing'),
       h('div', { class: 'set-label' }, 'Bereich in der Tagesansicht'),
       chipRow(REGIONEN, st.region, (v) => { saveSettings({ region: v }); store.regionSel = undefined; redo(); }, 'Bereich'),
       h('div', { class: 'set-label' }, 'Gruppierung im Archiv'),
@@ -718,15 +721,113 @@ async function viewSettings() {
         h('p', { class: 'set-text' }, 'Fuse.js 7.0.0 (Apache License 2.0) für die Suche. Symbole angelehnt an Feather Icons (MIT). Das Glossar besteht aus eigenen Texten.'))));
 }
 
+/* ---------- Ansicht: Briefing (2 bis 3 Minuten) ---------- */
+
+const firstSentence = (t) => { const m = (t || '').match(/^.+?[.!?](?=\s|$)/); return m ? m[0] : (t || ''); };
+
+async function viewBriefing(q) {
+  const index = await loadIndex();
+  if (!store.dates.length) return render(stateBox('Noch keine Nachrichten vorhanden.'));
+  const date = q.d && store.dates.includes(q.d) ? q.d : store.dates[0];
+  const pos = store.dates.indexOf(date);
+  const [day, gl] = await Promise.all([loadDay(date), loadGlossary().catch(() => [])]);
+  const dayAll = day ? day.items : index.items.filter((i) => i.date === date);
+  const stand = standText(index.updated);
+  const byRel = (a, b) => b.relevanz - a.relevanz || b.published.localeCompare(a.published);
+  const used = new Set();
+
+  // 1. Top-Stories (aus dem Tagesueberblick, sonst die relevantesten Meldungen)
+  const top = ((day && day.overview) || []).map((o) => ({ text: o.text, item: store.byId.get(o.id) })).filter((x) => x.item).slice(0, 5);
+  if (top.length < 5) {
+    dedupeSimilar(dayAll.filter((i) => !top.some((t) => t.item.id === i.id)).sort(byRel), 5 - top.length)
+      .forEach((i) => top.push({ text: firstSentence(i.summary), item: i }));
+  }
+  top.forEach((t) => used.add(t.item.id));
+
+  // 2. bis 4.: erst der Tag, wenn zu wenig, dann die letzten Tage
+  const recent = (days) => index.items.filter((i) => i.date <= date && i.date >= dayShift(date, -days));
+  const pick = (test, n, days) => {
+    let list = dayAll.filter((i) => test(i) && !used.has(i.id));
+    if (list.length < n) list = recent(days).filter((i) => test(i) && !used.has(i.id));
+    const out = dedupeSimilar(list.sort(byRel), n);
+    out.forEach((i) => used.add(i.id));
+    return out;
+  };
+  const de = pick((i) => i.region === 'de', 3, 3);
+  const praxis = pick((i) => i.praxis, 1, 7)[0];
+  const kurios = pick((i) => i.kurios, 1, 7)[0];
+
+  // 5. Begriff des Tages (stabil pro Datum)
+  const pool = gl.filter((x) => x.def && x.def.length <= 220);
+  const term = pool.length ? pool[Number(date.replace(/-/g, '')) % pool.length] : null;
+
+  const words = [...top.map((t) => t.text), ...de.map((i) => i.headline), praxis && praxis.headline, praxis && firstSentence(praxis.summary),
+    kurios && kurios.kurios, kurios && kurios.headline, term && term.term, term && term.def].filter(Boolean).join(' ').split(/\s+/).length;
+  const minutes = Math.max(1, Math.ceil(words / 150));
+
+  const srcLink = (it) => h('a', { class: 'b-src', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, `${it.source} \u2197`);
+  const title = (it, txt) => h('a', { class: 'b-title', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, txt || it.headline);
+  const sec = (name, ...kids) => h('section', { class: 'brief-sec' }, h('h2', null, name), ...kids);
+
+  const bar = h('div', { class: 'brief-progress', role: 'progressbar', 'aria-label': 'Fortschritt im Briefing', 'aria-valuemin': '0', 'aria-valuemax': '100' }, h('i'));
+  const fill = bar.firstChild;
+  const update = () => {
+    const max = document.documentElement.scrollHeight - innerHeight;
+    const p = max > 0 ? Math.min(100, Math.round((scrollY / max) * 100)) : 100;
+    fill.style.width = p + '%'; bar.setAttribute('aria-valuenow', String(p));
+  };
+  store.briefAbort = new AbortController();
+  window.addEventListener('scroll', update, { passive: true, signal: store.briefAbort.signal });
+  window.addEventListener('resize', update, { signal: store.briefAbort.signal });
+
+  render(
+    bar,
+    h('h1', null, 'Briefing'),
+    h('p', { class: 'sub' }, `${dayLabel(date)} \u00B7 ca. ${minutes} Min`, h('br'), h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text)),
+    h('div', { class: 'daynav' },
+      h('button', { class: 'btn', type: 'button', 'aria-label': 'Älterer Tag', disabled: pos >= store.dates.length - 1, onclick: () => go('/briefing', { d: store.dates[pos + 1] }) }, '\u2039'),
+      h('div', { class: 'label' }, fmtShort(date) + date.slice(0, 4)),
+      h('button', { class: 'btn', type: 'button', 'aria-label': 'Neuerer Tag', disabled: pos <= 0, onclick: () => go('/briefing', pos === 1 ? {} : { d: store.dates[pos - 1] }) }, '\u203A')),
+
+    sec('Das Wichtigste',
+      h('ol', { class: 'b-top' }, top.map(({ text, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` },
+        h('span', { class: 'ts-label' }, THEMA_SHORT[item.thema] || item.thema),
+        h('p', null, text),
+        srcLink(item))))),
+
+    de.length ? sec('Deutschland',
+      h('ul', { class: 'b-list' }, de.map((i) => h('li', null, title(i), srcLink(i))))) : null,
+
+    praxis ? sec('Praxistipp des Tages',
+      h('div', { class: 'b-one' }, title(praxis), h('p', null, firstSentence(praxis.summary)), srcLink(praxis))) : null,
+
+    kurios ? sec('Kurios & krass',
+      h('div', { class: 'b-one' }, h('span', { class: 'k-hook' }, kurios.kurios), title(kurios), srcLink(kurios))) : null,
+
+    term ? sec('Begriff des Tages',
+      h('div', { class: 'b-one' }, h('strong', { class: 'b-term' }, term.term), h('p', null, term.def),
+        h('a', { class: 'b-src', href: '#/glossar?t=' + encodeURIComponent(term.term) }, 'Im Glossar \u203A'))) : null,
+
+    h('div', { class: 'brief-end' },
+      h('p', null, h('strong', null, 'Fertig.'), ' Das war das Briefing, du bist auf dem Stand.'),
+      h('div', { class: 'row actions' },
+        h('a', { class: 'btn primary', href: '#/' + (pos === 0 ? '' : 'tag/' + date) }, 'Alle Meldungen des Tages'),
+        h('a', { class: 'btn', href: '#/archiv' }, 'Archiv'))));
+  update();
+}
+
 /* ---------- Router und Start ---------- */
 
 
 
+
 async function route() {
+  if (store.briefAbort) { store.briefAbort.abort(); store.briefAbort = null; }
+  if (!location.hash && getSettings().startBriefing && !store.startDone) { store.startDone = true; history.replaceState(null, '', '#/briefing'); }
   const { parts, q } = parseHash();
-  const area = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar'].includes(parts[0]) ? parts[0] : 'heute';
-  document.querySelectorAll('[data-nav]').forEach((a) => ((a.dataset.nav === area || (area === 'glossar' && a.closest('.tabbar') && a.dataset.nav === 'suche')) ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
-  document.getElementById('gsearch').hidden = area === 'suche' || area === 'glossar';
+  const area = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar', 'briefing'].includes(parts[0]) ? parts[0] : 'heute';
+  document.querySelectorAll('[data-nav]').forEach((a) => ((a.dataset.nav === area || (area === 'briefing' && a.closest('.tabbar') && a.dataset.nav === 'heute')) ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
+  document.getElementById('gsearch').hidden = area === 'suche' || area === 'glossar' || area === 'briefing';
   const keepScroll = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar'].includes(area) && route.last === area;
   route.last = area;
   try {
@@ -735,12 +836,13 @@ async function route() {
     else if (area === 'merkliste') viewFavs(q);
     else if (area === 'einstellungen') await viewSettings();
     else if (area === 'glossar') await viewGlossary(q);
+    else if (area === 'briefing') await viewBriefing(q);
     else await viewDay(parts[0] === 'tag' ? parts[1] : null, q);
   } catch (err) {
     console.error(err);
     render(stateBox('Die Nachrichten konnten nicht geladen werden. Bitte später erneut versuchen.'));
   }
-  document.title = area === 'heute' ? 'KI-News Hub' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar' }[area] + ' | KI-News Hub';
+  document.title = area === 'heute' ? 'KI-News Hub' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar', briefing: 'Briefing' }[area] + ' | KI-News Hub';
   fitCards();
   if (!keepScroll) window.scrollTo(0, 0);
 }
@@ -806,3 +908,15 @@ window.addEventListener('storage', (e) => { if (e.key === FAV_KEY) { favMem = nu
 window.addEventListener('resize', () => fitCards());
 window.addEventListener('hashchange', route);
 route();
+
+/* ---------- Offline ---------- */
+(function () {
+  const banner = document.getElementById('offline');
+  const paint = () => { banner.hidden = navigator.onLine; };
+  window.addEventListener('online', paint);
+  window.addEventListener('offline', paint);
+  paint();
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => { /* z. B. privater Modus */ }); });
+  }
+})();
