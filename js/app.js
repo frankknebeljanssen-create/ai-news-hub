@@ -101,6 +101,7 @@ function parseHash() {
 }
 
 function go(path, q, replace) {
+  store.linkNav = true;
   const qs = new URLSearchParams(Object.entries(q || {}).filter(([, v]) => v)).toString();
   const target = '#' + path + (qs ? '?' + qs : '');
   if (replace) history.replaceState(null, '', target);
@@ -656,7 +657,13 @@ function glLetter(t) {
   return /[A-Z]/.test(c) ? c : '#';
 }
 
+function backLabel(hsh) {
+  const a = hsh.replace(/^#\//, '').split('?')[0].split('/')[0];
+  return ({ '': 'Heute', tag: 'Heute', briefing: 'Kurz-Briefing', woche: 'Die Woche in Kürze', archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', status: 'Status' })[a] || 'vorheriger Seite';
+}
+
 async function viewGlossary(q) {
+  const backHref = store.hashPrev && !store.hashPrev.startsWith('#/glossar') ? store.hashPrev : null;
   const [gl, index] = await Promise.all([loadGlossary(), loadIndex().catch(() => null)]);
   const hay = index ? index.items.map((i) => `${i.headline} ${i.summary} ${(i.tags || []).join(' ')}`.toLowerCase()) : [];
   const byName = new Map(gl.map((x) => [x.term.toLowerCase(), x]));
@@ -714,6 +721,7 @@ async function viewGlossary(q) {
   input.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(() => { go('/glossar', { s: input.value.trim() }, true); paint(input.value); }, 140); });
 
   render(
+    backHref ? h('a', { class: 'back-link', href: backHref, onclick: () => { store.restore = true; } }, `\u2039 Zurück zu ${backLabel(backHref)}`) : null,
     h('h1', null, 'Glossar'),
     status,
     h('form', { class: 'searchbar', role: 'search', onsubmit: (e) => { e.preventDefault(); input.blur(); paint(input.value); } }, input),
@@ -1107,6 +1115,15 @@ async function viewStatus() {
 
 async function route() {
   touchActive();
+  const curHash = location.hash || '#/';
+  const areaOf = (hsh) => (hsh.replace(/^#\//, '').split('?')[0].split('/')[0] || 'heute').replace(/^tag$/, 'heute');
+  store.scrollMem = store.scrollMem || {};
+  if (store.hashCur && store.hashCur !== curHash) {
+    store.scrollMem[store.hashCur] = window.scrollY;
+    if (areaOf(store.hashCur) !== areaOf(curHash)) store.hashPrev = store.hashCur;
+  }
+  const cameBack = !store.linkNav && !!store.hashCur && store.hashCur !== curHash && curHash in store.scrollMem;
+  store.hashCur = curHash;
   if (store.briefAbort) { store.briefAbort.abort(); store.briefAbort = null; }
   if (!location.hash && getSettings().startBriefing && !store.startDone) { store.startDone = true; history.replaceState(null, '', '#/briefing'); }
   const { parts, q } = parseHash();
@@ -1132,7 +1149,9 @@ async function route() {
   }
   document.title = area === 'heute' ? 'KI-News Hub' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar', briefing: 'Briefing', woche: 'Die Woche in Kürze', status: 'Status' }[area] + ' | KI-News Hub';
   fitCards();
-  if (!keepScroll) window.scrollTo(0, 0);
+  if (cameBack || store.restore) window.scrollTo(0, store.scrollMem[curHash] || 0);
+  else if (!keepScroll && !(area === 'glossar' && q.t)) window.scrollTo(0, 0);
+  store.linkNav = false; store.restore = false;
 }
 
 /* Schriftgroesse (Standard 15px) */
@@ -1194,6 +1213,7 @@ document.getElementById('gsearch').addEventListener('submit', (e) => {
 paintFavCount();
 window.addEventListener('storage', (e) => { if (e.key === FAV_KEY) { favMem = null; paintFavCount(); if (route.last === 'merkliste') route(); } });
 window.addEventListener('resize', () => fitCards());
+document.addEventListener('click', (e) => { if (e.target.closest && e.target.closest('a[href^="#/"]')) store.linkNav = true; }, true);
 window.addEventListener('hashchange', route);
 route();
 
