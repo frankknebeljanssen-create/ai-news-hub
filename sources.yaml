@@ -68,7 +68,8 @@ sources:
     region: intl
     url: "https://venturebeat.com/category/ai/feed/"
     max_items: 4
-    note: Lieferte beim Test HTTP 429 (Rate-Limit), bei Dauerfehlern pruefen
+    enabled: false
+    note: Liefert dauerhaft HTTP 429 (blockiert Abrufe), deaktiviert
 
   # ---------- Deutschland ----------
   - {id: decoder-de, name: The Decoder, type: rss, region: de, url: "https://the-decoder.de/feed/"}
