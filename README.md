@@ -57,7 +57,7 @@ Die Meldungen sind in zwei Bereiche und sieben Themen gegliedert.
 | A, International | aktuelle News, wichtige Updates, neueste Entwicklungen, Fälle und Stories, Politik und Regulierung |
 | B, Deutschland | neue KI-Weiterbildungen und Kurse, Entwicklungen deutscher Unternehmen, relevante Politik |
 
-Themen: AITI (alles zu Weiterbildung, Schulung, Fortbildung und KI-Kompetenz), Modelle und Produkte, Forschung, Business, Politik und Regulierung, Unternehmen DE, Sicherheit und Ethik. Werbung, etwa Webinar- und Seminarwerbung, wird bei der Kuratierung verworfen.
+Themen: KI & Lernen (alles zu Weiterbildung, Schulung, Fortbildung und KI-Kompetenz), Modelle und Produkte, Forschung, Business, Politik und Regulierung, Unternehmen DE, Sicherheit und Ethik. Werbung, etwa Webinar- und Seminarwerbung, wird bei der Kuratierung verworfen.
 
 Zusätzlich markiert die Kuratierung einzelne Meldungen als **Praxistipp/Tool** (Anleitungen, Workflows, Tool-Empfehlungen) und als **kurios** (außergewöhnliche Fälle und Fakten). Beide Merkmale kommen zum Thema hinzu und sind im Archiv filterbar.
 

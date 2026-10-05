@@ -4,14 +4,14 @@ const APP_VERSION = '1.0.0';
 const APP_DATE = '2026-10-05';
 
 const THEMEN = [
-  ['AITI', 'aiti'], ['Modelle und Produkte', 'modelle'], ['Forschung', 'forschung'], ['Business', 'business'],
+  ['KI & Lernen', 'aiti'], ['Modelle und Produkte', 'modelle'], ['Forschung', 'forschung'], ['Business', 'business'],
   ['Politik und Regulierung', 'politik'], ['Unternehmen DE', 'unternehmen'], ['Sicherheit und Ethik', 'sicherheit'],
 ];
-const THEMA_ALIAS = { 'Weiterbildung DE': 'AITI' };
+const THEMA_ALIAS = { 'Weiterbildung DE': 'KI & Lernen', 'AITI': 'KI & Lernen' };
 const normThema = (t) => THEMA_ALIAS[t] || t;
 const THEMA_SHORT = {
   'Modelle und Produkte': 'Technik', 'Forschung': 'Forschung', 'Business': 'Wirtschaft', 'Politik und Regulierung': 'Politik',
-  'AITI': 'AITI', 'Unternehmen DE': 'Unternehmen DE', 'Sicherheit und Ethik': 'Sicherheit & Ethik',
+  'KI & Lernen': 'KI & Lernen', 'Unternehmen DE': 'Unternehmen DE', 'Sicherheit und Ethik': 'Sicherheit & Ethik',
 };
 const THEMA_VAR = Object.fromEntries(THEMEN.map(([n, k]) => [n, `var(--t-${k})`]));
 const REGIONEN = [['', 'Alle'], ['intl', 'International'], ['de', 'Deutschland']];

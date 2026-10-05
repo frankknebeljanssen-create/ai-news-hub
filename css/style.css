@@ -692,3 +692,13 @@ li.seen > .row-meta > *:not(.seen-btn), .b-one.seen > .row-meta > *:not(.seen-bt
 li.seen::before { display: none; }
 .hide-seen li.seen, .hide-seen .b-one.seen { display: none !important; }
 li.seen > p:not(.b-sum) { display: block; flex: 1 1 auto; min-width: 0; margin: 0; font-size: .82rem; font-weight: 500; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* Gelesen: Titel der Boxen im Tag (k-title) und Top-Stories (Textblock in div) */
+li.seen > .k-title { display: block; flex: 1 1 auto; min-width: 0; font-size: .82rem; font-weight: 500; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.top-stories li.seen { grid-template-columns: none; }
+.top-stories li.seen > div:not(.row-meta) { display: flex !important; align-items: center; gap: 10px; flex: 1 1 auto; min-width: 0; }
+.top-stories li.seen > div > * { display: none; }
+.top-stories li.seen > div > p { display: block; flex: 1 1 auto; min-width: 0; margin: 0; font-size: .82rem; font-weight: 500; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.top-stories li.seen > div > .row-meta { display: flex; flex: 0 0 auto; }
+.top-stories li.seen > div > .row-meta > *:not(.seen-btn) { display: none; }
+.top-stories li.seen::before { display: none; }
+.hide-seen .top-stories li.seen { display: none !important; }

@@ -38,7 +38,7 @@ TZ = ZoneInfo("Europe/Berlin")
 UA = "Mozilla/5.0 (compatible; ai-news-hub/1.0; +https://github.com)"
 
 THEMEN = [
-    "AITI", "Modelle und Produkte", "Forschung", "Business", "Politik und Regulierung",
+    "KI & Lernen", "Modelle und Produkte", "Forschung", "Business", "Politik und Regulierung",
     "Unternehmen DE", "Sicherheit und Ethik",
 ]
 BATCH_SIZE = 10
@@ -260,7 +260,7 @@ Regeln:
 - headline: eigene, knappe, informative deutsche Schlagzeile (max. 90 Zeichen), keine wörtliche Übersetzung des Originaltitels.
 - summary: 2 bis 3 Sätze auf Deutsch in eigenen Worten: worum geht es, was ist neu oder wichtig. Keine Zitate, keine wörtlichen Übernahmen, keine Anführungszeichen-Passagen.
 - thema: genau eines aus {themen}.
-  "AITI" gilt für alles zu Weiterbildung, Schulung, Fortbildung, Kursen, Zertifikaten, KI-Kompetenz (auch Pflichten, z. B. nach dem AI Act),
+  "KI & Lernen" gilt für alles zu Weiterbildung, Schulung, Fortbildung, Kursen, Zertifikaten, KI-Kompetenz (auch Pflichten, z. B. nach dem AI Act),
   Bildungsanbietern, Hochschulen und Lernen mit KI, Förderung von Weiterbildung (z. B. AZAV, Bildungsgutschein), Qualifizierung von Beschäftigten
   und alles, was ein KI-Weiterbildungsinstitut direkt betrifft. Diese Rubrik hat Vorrang vor allen anderen Themen.
 - region: "de" nur wenn der Inhalt hauptsaechlich Deutschland betrifft (deutsche Politik, Firmen, Kurse), sonst "intl".
@@ -484,7 +484,7 @@ MELDUNGEN:
 {items}
 """
 
-AITI_PROMPT = """Du ordnest Meldungen eines deutschsprachigen KI-Newsletters der Rubrik "AITI" zu. AITI ist ein KI-Weiterbildungsinstitut.
+AITI_PROMPT = """Du ordnest Meldungen eines deutschsprachigen KI-Newsletters der Rubrik "KI & Lernen" zu. Die Rubrik betrifft ein KI-Weiterbildungsinstitut.
 In die Rubrik gehört alles zu: Weiterbildung, Schulung, Fortbildung, Kursen, Zertifikaten, KI-Kompetenz (auch Pflichten, z. B. nach dem AI Act),
 Bildungsanbietern, Hochschulen und Lernen mit KI, Förderung von Weiterbildung (z. B. AZAV, Bildungsgutschein), Qualifizierung von Beschäftigten,
 Studien zu KI-Kompetenzen und alles, was ein KI-Weiterbildungsinstitut direkt betrifft. Gib nur Meldungen zurück, die eindeutig dazugehören.
@@ -549,26 +549,26 @@ def backfill_werbung() -> int:
 
 
 def backfill_aiti() -> int:
-    """Einmalig: Rubrik "Weiterbildung DE" wird "AITI", weitere passende Meldungen werden dorthin verschoben."""
+    """Einmalig: Rubrik "Weiterbildung DE" bzw. "AITI" wird "KI & Lernen", weitere passende Meldungen werden dorthin verschoben."""
     index = read_json(INDEX, {"items": []})
     items = index["items"]
     renamed = 0
     for x in items:
         if x["thema"] == "Weiterbildung DE":
-            x["thema"] = "AITI"
+            x["thema"] = "KI & Lernen"
             renamed += 1
     try:
-        moved = _ask_ids(AITI_PROMPT, [x for x in items if x["thema"] != "AITI"])
+        moved = _ask_ids(AITI_PROMPT, [x for x in items if x["thema"] != "KI & Lernen"])
     except Exception as exc:
-        log.error("AITI-Zuordnung fehlgeschlagen: %s", exc)
+        log.error("Zuordnung KI & Lernen fehlgeschlagen: %s", exc)
         return 1
     for x in items:
         if x["id"] in moved:
-            log.info("Nach AITI: [%s] %s", x["thema"], x["headline"][:90])
-            x["thema"] = "AITI"
+            log.info("Nach KI & Lernen: [%s] %s", x["thema"], x["headline"][:90])
+            x["thema"] = "KI & Lernen"
     write_json(INDEX, index)
     sync_day_files(items)
-    log.info("AITI: %d umbenannt, %d verschoben, gesamt %d", renamed, len(moved), sum(1 for x in items if x["thema"] == "AITI"))
+    log.info("KI & Lernen: %d umbenannt, %d verschoben, gesamt %d", renamed, len(moved), sum(1 for x in items if x["thema"] == "KI & Lernen"))
     return 0
 
 
