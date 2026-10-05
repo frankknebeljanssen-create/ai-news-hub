@@ -1,55 +1,117 @@
 {
  "date": "2026-10-05",
- "generated_at": "2026-10-05T14:26:05+02:00",
+ "generated_at": "2026-10-05T14:41:40+02:00",
  "overview": [
   {
-   "id": "58c87cf631be",
-   "text": "Die Deutsche Telekom will bis 2030 jährlich 2,5 Milliarden Euro einsparen, indem sie Kundenservice und interne Abläufe weitgehend automatisiert."
-  },
-  {
    "id": "39a135a921d6",
-   "text": "BMW streicht bis Mitte 2027 rund ein Fünftel seiner Bereichs- und Managementfunktionen und lässt agentische KI die Koordination übernehmen."
-  },
-  {
-   "id": "1d5e074c93c0",
-   "text": "Die US-Regierung hat einen zentralen KI-Beauftragten benannt und steuert Regulierung, Förderung und Beschaffung künftig aus einer Hand."
+   "text": "BMW streicht bis Mitte 2027 rund 20 Prozent seiner Bereiche und Managementfunktionen und lässt Koordinationsaufgaben künftig von KI-Agenten erledigen."
   },
   {
    "id": "032d9bd4e270",
-   "text": "Nvidia will Hugging Face übernehmen, AMD greift nach World Labs: Beide Chipkonzerne sichern sich so direkten Zugang zur KI-Entwicklerszene."
+   "text": "Nvidia will Hugging Face übernehmen, AMD greift nach World Labs: Der Chipwettbewerb verschiebt sich von Hardware zur Kontrolle über Entwicklerwerkzeuge."
   },
   {
    "id": "3cbec84de8bf",
-   "text": "OpenAI startet visuelle Anzeigen in ChatGPT samt Messtools für Werbetreibende und macht Reklame damit zur tragenden Einnahmequelle."
+   "text": "OpenAI bringt ein visuelles Anzeigenformat in ChatGPT und liefert Marken dazu Messung, Attribution und Steuerung der Markensicherheit."
   },
   {
-   "id": "a6b6446b656e",
-   "text": "Eine Schwachstelle in der macOS-Version von ChatGPT erlaubte das Auslesen vertraulicher Nutzerdaten, entdeckt vom Forscher Patrick Wardle."
+   "id": "58c87cf631be",
+   "text": "Die Deutsche Telekom will bis 2030 jährlich 2,5 Milliarden Euro sparen, indem KI vor allem Kundenservice und interne Abläufe übernimmt."
   },
   {
-   "id": "1903a401f374",
-   "text": "Ein MIT-Gremium warnt, dass generative KI Sprechstunden, Lerngruppen und Forschungsmitarbeit aushöhlt, und fordert einen Umbau der Lehre."
+   "id": "1d5e074c93c0",
+   "text": "Trump beruft einen zentralen KI-Beauftragten, der die Technologiepolitik der US-Regierung bündelt und Ansprechpartner für Anbieter neu ordnet."
+  },
+  {
+   "id": "3ced90f157b2",
+   "text": "Eine Person aus OpenAIs Sicherheitsbereich nennt die interne Kultur kaputt und befeuert die Debatte, ob Produktdruck die Sicherheitsarbeit verdrängt."
+  },
+  {
+   "id": "5be9059df17a",
+   "text": "Der Preprint-Server arXiv wird von maschinell erzeugten Einreichungen geflutet, was Moderation, Qualität und Auffindbarkeit echter Forschung bedroht."
   },
   {
    "id": "5e3ac0b20acb",
-   "text": "Google beschneidet ab dem 9. Oktober den Gratis-Tarif von Gemini: Die aktuellen Flash-Modelle lassen sich dann nur noch im Abo nutzen."
+   "text": "Google streicht ab dem 9. Oktober den freien Zugriff auf die neuesten Gemini-Flash-Modelle, ältere Varianten bleiben im Gratistarif nutzbar."
   }
  ],
  "items": [
   {
+   "id": "39a135a921d6",
+   "date": "2026-10-05",
+   "published": "2026-10-05T10:35+02:00",
+   "headline": "BMW baut Führungsebenen ab und setzt dafür auf KI-Agenten",
+   "summary": "Der Autobauer will bis Mitte 2027 rund 20 Prozent seiner Bereiche und Managementfunktionen streichen. Agentische KI-Systeme sollen Abstimmungs- und Koordinationsaufgaben übernehmen und so flachere Strukturen ermöglichen. Damit wird bei einem Dax-Konzern erstmals sehr konkret, wie KI die Organisationsstruktur selbst verändert und nicht nur einzelne Arbeitsschritte.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 5,
+   "tags": [
+    "bmw",
+    "ki-agenten",
+    "restrukturierung",
+    "management"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "quelle_titel": "BMW streicht Managementebenen und setzt auf agentische KI-Systeme",
+   "url": "https://www.heise.de/news/BMW-will-20-Prozent-seines-Managements-abbauen-11475761.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "032d9bd4e270",
+   "date": "2026-10-05",
+   "published": "2026-10-05T11:03+02:00",
+   "headline": "Nvidia und AMD kaufen sich näher an die KI-Entwicklerszene heran",
+   "summary": "Nvidia plant die Übernahme von Hugging Face, AMD greift nach World Labs. Beide Chiphersteller rücken damit dichter an jene Entwickler und Forschenden heran, die künftige KI-Arbeitslasten prägen, und erkennen früher, wie sich der Rechenbedarf verändert. Der Wettbewerb verlagert sich damit von reiner Hardwareleistung hin zur Kontrolle über Werkzeuge und Ökosysteme.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "nvidia",
+    "amd",
+    "übernahme",
+    "hugging face",
+    "chips"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "quelle_titel": "What Nvidia and AMD’s AI Acquisitions Say About the Next Chip War",
+   "url": "https://www.theneuron.ai/news/why-chipmakers-nvidia-amd-buying-ai-companies/"
+  },
+  {
+   "id": "3cbec84de8bf",
+   "date": "2026-10-05",
+   "published": "2026-10-05T12:00+02:00",
+   "headline": "OpenAI startet visuelles Werbeformat in ChatGPT samt Messwerkzeugen für Marken",
+   "summary": "OpenAI führt ein neues visuelles Anzeigenformat in ChatGPT ein und baut gleichzeitig Messung, Attribution über Partner sowie Steuerung der Markensicherheit aus. Damit rückt die Monetarisierung des Chatbots durch Werbung deutlich näher an etablierte Standards der Online-Vermarktung. Für Marketingverantwortliche entsteht ein neuer Kanal mit eigener Logik, da Werbung hier in Dialoge statt in Suchergebnislisten eingebettet wird.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "openai",
+    "chatgpt",
+    "werbung",
+    "marketing",
+    "monetarisierung"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "quelle_titel": "Building advertising for the way people use AI",
+   "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+  },
+  {
    "id": "28c5b8a217c1",
    "date": "2026-10-05",
    "published": "2026-10-05T09:00+02:00",
-   "headline": "KI-Agenten bringen den groessten Nutzen in Routineprozessen",
-   "summary": "Waehrend die Debatte von autonomen Allzweckagenten gepraegt ist, zeigt eine Studie, dass Unternehmen vor allem bei Angeboten, Auftraegen, Rechnungen und Serviceanfragen profitieren. Solche stark strukturierten und wiederkehrenden Ablaeufe lassen sich zuverlaessig automatisieren und liefern messbare Effekte. Fuer die Praxis heisst das, Einsatzfelder nach Prozessreife statt nach Spektakel auszuwaehlen.",
+   "headline": "Studie: KI-Agenten zahlen sich vor allem in Routineprozessen aus",
+   "summary": "Während die öffentliche Debatte von autonomen Super-Agenten geprägt ist, liegt der wirtschaftliche Nutzen laut einer Untersuchung in weniger spektakulären Abläufen. Besonders geeignet sind strukturierte Vorgänge wie Angebotserstellung, Auftragsbearbeitung, Rechnungsprüfung und Serviceanfragen. Für Unternehmen heißt das: Priorität haben klar definierte, wiederkehrende Prozesse statt möglichst offener Agentensysteme.",
    "thema": "Business",
    "region": "intl",
    "relevanz": 4,
    "tags": [
     "ki-agenten",
-    "prozesse",
-    "automatisierung",
-    "studie"
+    "prozessautomatisierung",
+    "studie",
+    "enterprise"
    ],
    "source": "t3n",
    "source_id": "t3n",
@@ -60,8 +122,8 @@
    "id": "58c87cf631be",
    "date": "2026-10-05",
    "published": "2026-10-05T10:30+02:00",
-   "headline": "Telekom plant Milliardeneinsparungen durch Automatisierung",
-   "summary": "Die Deutsche Telekom will bis 2030 jaehrlich 2,5 Milliarden Euro durch den Einsatz von KI und Automatisierung einsparen. Vor allem Kundenservice und interne Prozesse stehen im Fokus, wobei Erfahrungen aus dem US-Geschaeft als Vorbild dienen. Fuer Kunden in Deutschland duerfte sich damit aendern, wie Beratung, Support und neue Tarifangebote ablaufen.",
+   "headline": "Telekom peilt mit KI jährliche Einsparungen von 2,5 Milliarden Euro an",
+   "summary": "Die Deutsche Telekom will bis 2030 durch KI und Automatisierung jedes Jahr 2,5 Milliarden Euro einsparen. Betroffen sind vor allem Kundenservice und interne Abläufe, wo Systeme Anfragen eigenständig bearbeiten sollen. Der Blick auf das US-Geschäft des Konzerns zeigt, welche Veränderungen bei Beratung, Tarifen und Erreichbarkeit auch hierzulande anstehen könnten.",
    "thema": "Unternehmen DE",
    "region": "de",
    "relevanz": 4,
@@ -77,52 +139,31 @@
    "url": "https://t3n.de/news/deutsche-telekom-ki-milliarden-einsparen-1766598"
   },
   {
-   "id": "39a135a921d6",
+   "id": "3ced90f157b2",
    "date": "2026-10-05",
-   "published": "2026-10-05T10:35+02:00",
-   "headline": "BMW baut Fuehrungsebenen ab und setzt auf KI-Agenten",
-   "summary": "BMW will bis Mitte 2027 rund ein Fuenftel seiner Bereiche und Managementfunktionen streichen. Agentische KI-Systeme sollen Abstimmungs- und Koordinationsaufgaben uebernehmen und so flachere Strukturen ermoeglichen. Der Konzern ist damit ein prominentes Beispiel dafuer, dass KI in deutschen Industrieunternehmen die Organisationsstruktur selbst veraendert.",
-   "thema": "Unternehmen DE",
-   "region": "de",
-   "relevanz": 4,
-   "tags": [
-    "bmw",
-    "ki-agenten",
-    "restrukturierung",
-    "automotive"
-   ],
-   "source": "heise KI",
-   "source_id": "heise-ki",
-   "quelle_titel": "BMW streicht Managementebenen und setzt auf agentische KI-Systeme",
-   "url": "https://www.heise.de/news/BMW-will-20-Prozent-seines-Managements-abbauen-11475761.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-  },
-  {
-   "id": "032d9bd4e270",
-   "date": "2026-10-05",
-   "published": "2026-10-05T11:03+02:00",
-   "headline": "Nvidia und AMD kaufen sich Zugang zur KI-Entwicklerszene",
-   "summary": "Nvidia plant die Uebernahme von Hugging Face, AMD greift nach World Labs. Beide Chiphersteller ruecken damit naeher an die Entwickler und Forschungsteams, die kuenftige KI-Anwendungen gestalten, und erkennen frueher, wie sich der Bedarf an Rechenleistung verschiebt. Der Wettbewerb um KI-Hardware verlagert sich damit von reiner Siliziumleistung hin zur Kontrolle ueber Werkzeuge und Oekosysteme.",
-   "thema": "Business",
+   "published": "2026-10-05T11:00+02:00",
+   "headline": "Insider wirft OpenAI eine beschädigte Sicherheitskultur vor",
+   "summary": "Eine Person aus dem Sicherheitsbereich von OpenAI beschreibt die interne Kultur als kaputt und wirft dem Unternehmen damit öffentlich Versäumnisse beim verantwortungsvollen Umgang mit Risiken vor. Solche Schilderungen aus dem Inneren nähren die Debatte, ob Tempo und Produktdruck bei führenden Laboren die Sicherheitsarbeit verdrängen. Begleitend geht es um die Frage, nach welchen Kriterien man heute zwischen verschiedenen Modellen auswählt.",
+   "thema": "Sicherheit und Ethik",
    "region": "intl",
    "relevanz": 4,
    "tags": [
-    "nvidia",
-    "amd",
-    "hugging face",
-    "uebernahme",
-    "chips"
+    "openai",
+    "ki-sicherheit",
+    "unternehmenskultur",
+    "whistleblower"
    ],
-   "source": "The Neuron",
-   "source_id": "neuron",
-   "quelle_titel": "What Nvidia and AMD’s AI Acquisitions Say About the Next Chip War",
-   "url": "https://www.theneuron.ai/news/why-chipmakers-nvidia-amd-buying-ai-companies/"
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "quelle_titel": "An OpenAI safety insider calls the culture 'broken'",
+   "url": "https://www.therundown.ai/articles/an-openai-safety-insider-calls-the-culture-broken"
   },
   {
    "id": "a6b6446b656e",
    "date": "2026-10-05",
    "published": "2026-10-05T11:08+02:00",
-   "headline": "Luecke in ChatGPT fuer macOS gab Zugriff auf vertrauliche Daten",
-   "summary": "In der macOS-Version von ChatGPT gab es eine Schwachstelle, durch die Angreifer sensible Nutzerdaten auslesen konnten. Entdeckt wurde das Problem vom Sicherheitsforscher Patrick Wardle, der kurz zuvor einen aehnlichen Fehler in einer Meta-Anwendung gefunden hatte. Der Fall zeigt, dass Desktop-Clients von KI-Diensten ein eigenes Sicherheitsrisiko darstellen.",
+   "headline": "Sicherheitslücke in der ChatGPT-App für macOS gab Daten preis",
+   "summary": "In der macOS-Version von ChatGPT konnten Angreifer auf sensible Daten zugreifen. Entdeckt wurde die Schwachstelle vom Sicherheitsforscher Patrick Wardle, der kurz zuvor bereits ein vergleichbares Problem in einer Meta-Anwendung gefunden hatte. Die Häufung zeigt, dass KI-Desktopclients bei der lokalen Absicherung noch deutlichen Nachholbedarf haben.",
    "thema": "Sicherheit und Ethik",
    "region": "intl",
    "relevanz": 4,
@@ -141,8 +182,8 @@
    "id": "5e3ac0b20acb",
    "date": "2026-10-05",
    "published": "2026-10-05T11:30+02:00",
-   "headline": "Google zieht Grenzen im Gratis-Tarif von Gemini",
-   "summary": "Google passt zum 9. Oktober die Nutzungsbedingungen von Gemini an. Wer den kostenlosen Tarif nutzt, verliert dabei den freien Zugriff auf die aktuellen Flash-Modelle, waehrend aeltere Varianten weiter ohne Bezahlung verfuegbar bleiben. Fuer Berufstaetige, die Gemini regelmaessig einsetzen, kann damit ein Wechsel in ein Abo noetig werden.",
+   "headline": "Google zieht Grenze: Neue Gemini-Flash-Modelle nicht mehr im Gratistarif",
+   "summary": "Zum 9. Oktober passt Google die Nutzungsbedingungen von Gemini an. Wer den kostenlosen Tarif nutzt, verliert dabei den freien Zugriff auf die jeweils neuesten Flash-Modelle, während ältere Varianten weiterhin ohne Bezahlung verfügbar bleiben. Für alle, die Gemini bisher gratis in Arbeitsabläufe eingebunden haben, lohnt sich eine Prüfung, welche Modellversion künftig noch greift.",
    "thema": "Modelle und Produkte",
    "region": "intl",
    "relevanz": 4,
@@ -150,7 +191,7 @@
     "google",
     "gemini",
     "preismodell",
-    "llm"
+    "kostenloser tarif"
    ],
    "source": "t3n",
    "source_id": "t3n",
@@ -161,16 +202,16 @@
    "id": "1d5e074c93c0",
    "date": "2026-10-05",
    "published": "2026-10-05T11:32+02:00",
-   "headline": "US-Regierung bestellt eigenen Beauftragten für Künstliche Intelligenz",
-   "summary": "Die Trump-Regierung hat einen zentralen Verantwortlichen für KI-Themen benannt und bündelt damit die Zuständigkeit für ihre Technologieagenda. Eine solche Position signalisiert, dass Regulierung, Förderung und Beschaffung im KI-Bereich stärker koordiniert gesteuert werden sollen. Für international tätige Anbieter dürfte sich der Kurs der Behörden dadurch merklich verändern.",
+   "headline": "US-Regierung bekommt einen zentralen KI-Beauftragten",
+   "summary": "Präsident Trump hat einen sogenannten KI-Zaren benannt, der die Technologiepolitik der US-Regierung bündeln soll. Eine solche Position signalisiert, dass Washington Zuständigkeiten für KI-Fragen stärker an einer Stelle konzentriert. Für international tätige Anbieter ist damit absehbar, dass sich Ansprechpartner und Prioritäten in der US-Regulierung verschieben.",
    "thema": "Politik und Regulierung",
    "region": "intl",
    "relevanz": 4,
    "tags": [
     "usa",
-    "regierung",
-    "ki-politik",
-    "trump"
+    "regulierung",
+    "trump",
+    "ki-politik"
    ],
    "source": "The Neuron",
    "source_id": "neuron",
@@ -181,16 +222,16 @@
    "id": "993d0f6f3435",
    "date": "2026-10-05",
    "published": "2026-10-05T11:32+02:00",
-   "headline": "IBM Bob unterstützt COBOL-Modernisierung jetzt auch ohne Cloud",
-   "summary": "IBM stellt seinen KI-Assistenten Bob in einer selbst betriebenen Variante bereit, die vollständig in der eigenen Infrastruktur läuft. Unternehmen können damit KI-gestützte Entwicklung und die Modernisierung von COBOL-Beständen umsetzen, ohne Code an externe Dienste zu geben. Das adressiert vor allem Branchen mit strengen Datenschutz- und Compliance-Vorgaben.",
+   "headline": "IBM Bob lässt sich jetzt im eigenen Rechenzentrum betreiben",
+   "summary": "IBM bietet seinen KI-Assistenten Bob künftig auch als selbst gehostete Variante an. Unternehmen können damit KI-gestützte Softwareentwicklung inklusive der Arbeit an COBOL-Beständen in der eigenen Infrastruktur betreiben, ohne Code in eine Cloud zu geben. Das adressiert vor allem Banken, Versicherer und Behörden mit strengen Datenschutz- und Compliance-Vorgaben.",
    "thema": "Modelle und Produkte",
    "region": "intl",
    "relevanz": 4,
    "tags": [
     "ibm",
     "cobol",
-    "coding-assistent",
-    "on-premises"
+    "on-premises",
+    "legacy-modernisierung"
    ],
    "source": "heise KI",
    "source_id": "heise-ki",
@@ -198,39 +239,19 @@
    "url": "https://www.heise.de/news/IBM-Bob-COBOL-trifft-KI-ohne-Umweg-ueber-die-Cloud-11475819.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
-   "id": "3cbec84de8bf",
-   "date": "2026-10-05",
-   "published": "2026-10-05T12:00+02:00",
-   "headline": "OpenAI bringt visuelle Werbeflächen und Messtools in ChatGPT",
-   "summary": "OpenAI führt ein neues visuelles Anzeigenformat innerhalb von ChatGPT ein und baut gleichzeitig die Infrastruktur für Werbetreibende aus. Dazu gehören erweiterte Messmöglichkeiten, Partnerschaften zur Erfolgszuordnung und Kontrollen für die Markenumgebung. Damit wird Werbung zu einer tragenden Einnahmequelle des Chatbots.",
-   "thema": "Modelle und Produkte",
-   "region": "intl",
-   "relevanz": 4,
-   "tags": [
-    "openai",
-    "chatgpt",
-    "werbung",
-    "monetarisierung"
-   ],
-   "source": "OpenAI",
-   "source_id": "openai",
-   "quelle_titel": "Building advertising for the way people use AI",
-   "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
-  },
-  {
    "id": "1903a401f374",
    "date": "2026-10-05",
    "published": "2026-10-05T12:08+02:00",
-   "headline": "MIT-Komitee sieht Hochschullehre durch generative KI grundlegend bedroht",
-   "summary": "Ein Expertengremium des MIT beschreibt, wie generative KI tragende Elemente des Studiums aushöhlt: Sprechstunden, Lerngruppen und Forschungsmitarbeit von Studierenden verlieren an Bedeutung, das Vertrauen zwischen Lehrenden und Lernenden leidet. Teils werde erwogen, Forschungsaufgaben an KI-Agenten statt an Studierende zu geben. Der Bericht verlangt deshalb eine tiefgreifende Umgestaltung der Lehre.",
+   "headline": "MIT-Komitee verlangt Umbau der Lehre: Generative KI untergräbt den Studienalltag",
+   "summary": "Ein Expertengremium des MIT beschreibt, wie generative KI tragende Elemente des Hochschulstudiums aushöhlt: Sprechstunden, Lerngruppen und Forschungsprogramme für Studierende verlieren an Bedeutung, das Vertrauen zwischen Lehrenden und Lernenden leidet. Einige Lehrende ziehen demnach sogar in Erwägung, KI-Agenten anstelle von Studierenden als Forschungsassistenz einzusetzen. Das Komitee fordert deshalb eine grundlegende Neuordnung von Lehre und Prüfungskultur.",
    "thema": "Forschung",
    "region": "intl",
    "relevanz": 4,
    "tags": [
-    "mit",
     "hochschule",
-    "generative ki",
-    "bildung"
+    "mit",
+    "bildung",
+    "generative ki"
    ],
    "source": "The Decoder",
    "source_id": "decoder-de",
@@ -241,8 +262,8 @@
    "id": "6708af42a668",
    "date": "2026-10-05",
    "published": "2026-10-05T14:00+02:00",
-   "headline": "Webinar zeigt Praxisschritte zur Umsetzung des AI Act im Unternehmen",
-   "summary": "Ein Online-Seminar von iX widmet sich den konkreten Pflichten, die der europäische AI Act für Firmen mit sich bringt. Behandelt werden die Kennzeichnung von KI-Ausgaben, der Aufbau von KI-Kompetenz bei Mitarbeitenden und die besonderen Auflagen für Hochrisiko-Anwendungen. Der Fokus liegt darauf, wie sich diese Vorgaben organisatorisch verankern lassen.",
+   "headline": "Webinar zum AI Act: Pflichten bei Kennzeichnung, KI-Kompetenz und Hochrisikosystemen",
+   "summary": "Ein Online-Seminar der iX erklärt, wie Unternehmen die Vorgaben des europäischen KI-Gesetzes konkret erfüllen können. Im Mittelpunkt stehen die Kennzeichnung von KI-Ausgaben, der Aufbau von KI-Kompetenz in der Belegschaft und die Anforderungen an Hochrisikoanwendungen. Das Format richtet sich an Verantwortliche, die Compliance-Schritte praktisch planen müssen.",
    "thema": "Weiterbildung DE",
    "region": "de",
    "relevanz": 4,
@@ -258,18 +279,58 @@
    "url": "https://www.heise.de/news/iX-Webinar-AI-Act-kompakt-Kennzeichnung-KI-Kompetenz-Hochrisiko-KI-11467925.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
+   "id": "5be9059df17a",
+   "date": "2026-10-05",
+   "published": "2026-10-05T14:28+02:00",
+   "headline": "arXiv am Limit: Masse an maschinell erzeugten Papern überlastet den Preprint-Server",
+   "summary": "Der Preprint-Server arXiv, auf dem Forschende ihre Arbeiten vor der Fachbegutachtung veröffentlichen, wird von einer stark steigenden Zahl automatisiert erzeugter Einreichungen geflutet. Die Plattform kämpft mit der Prüfung und Moderation dieser Beiträge, was die Qualität und Auffindbarkeit echter Forschung bedroht. Beobachter sehen darin eine existenzielle Belastungsprobe für eine zentrale Infrastruktur der Wissenschaft.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "arxiv",
+    "preprints",
+    "wissenschaft",
+    "ki-inhalte"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "quelle_titel": "Existenzielle Gefahr: Flut an KI-generierten Einreichungen bedroht arXiv",
+   "url": "https://www.heise.de/news/Existenzielle-Gefahr-Flut-an-KI-generierten-Einreichungen-bedroht-arXiv-11476115.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "2a01f0d16ca8",
+   "date": "2026-10-05",
+   "published": "2026-10-05T14:32+02:00",
+   "headline": "Import AI 475: Schwarm-Skalierung, Wasserzeichen in der Biologie, KI-Wissenschaft",
+   "summary": "Die aktuelle Ausgabe des Newsletters Import AI behandelt das Skalieren von Agentenschwärmen, ein Verfahren von Google DeepMind zur Markierung biologischer Sequenzen und die entstehende Ökonomie rund um KI-gestützte Forschung. Als Leitfrage zieht sich durch die Ausgabe, wer eigentlich darüber entscheidet, welche Aufgaben KI übernehmen darf. Für Fachleute ist die Ausgabe ein kompakter Überblick über technische und machtpolitische Entwicklungen zugleich.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "agenten",
+    "deepmind",
+    "biosicherheit",
+    "forschungspolitik"
+   ],
+   "source": "Import AI",
+   "source_id": "import-ai",
+   "quelle_titel": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
+   "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google"
+  },
+  {
    "id": "568b5b5801f6",
    "date": "2026-10-05",
    "published": "2026-10-05T10:00+02:00",
-   "headline": "Zwischen Ablehnung und Dauernutzung: das Paradox der KI-Akzeptanz",
-   "summary": "Der Beitrag untersucht, warum viele Menschen KI offen kritisieren und sie dennoch intensiv einsetzen. Als Beispiel dient ein Startup, das ein Sprachmodell mit breiterer Antwortvielfalt entwickelt und seine eigene Branche gleichzeitig skeptisch sieht. Deutlich wird, wie stark Nutzen und Unbehagen bei KI-Produkten derzeit nebeneinander bestehen.",
+   "headline": "Zwischen Abneigung und Dauernutzung: das widersprüchliche Verhältnis zur KI",
+   "summary": "Ein Kommentar beschäftigt sich damit, dass viele Menschen generative KI öffentlich ablehnen, sie im Alltag aber immer intensiver nutzen. Ausgangspunkt ist ein Gespräch mit dem Chef eines Startups, das ein Sprachmodell mit bewusst vielfältigeren Antworten entwickelt und sich selbst ironisch als KI-skeptisches KI-Unternehmen beschreibt. Der Text ordnet ein, wie diese Ambivalenz Produktentwicklung und Marketing in der Branche prägt.",
    "thema": "Sicherheit und Ethik",
    "region": "intl",
    "relevanz": 3,
    "tags": [
-    "akzeptanz",
     "gesellschaft",
     "llm",
+    "akzeptanz",
     "startups"
    ],
    "source": "MIT Technology Review",
@@ -278,50 +339,11 @@
    "url": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/"
   },
   {
-   "id": "5ecfb16e3420",
-   "date": "2026-10-05",
-   "published": "2026-10-05T10:00+02:00",
-   "headline": "Webinar zeigt KI-Einsatz beim wissenschaftlichen Schreiben",
-   "summary": "Ein Webinar der Zeitschrift c't behandelt, unter welchen Bedingungen KI-Werkzeuge beim wissenschaftlichen Schreiben eingesetzt werden duerfen. Im Mittelpunkt steht die Frage, wie sich Recherche und Textarbeit beschleunigen lassen, ohne die inhaltliche Verantwortung an die Technik abzugeben. Das Angebot richtet sich an Personen im deutschsprachigen Wissenschafts- und Hochschulumfeld.",
-   "thema": "Weiterbildung DE",
-   "region": "de",
-   "relevanz": 3,
-   "tags": [
-    "webinar",
-    "wissenschaft",
-    "schreiben",
-    "ct"
-   ],
-   "source": "heise KI",
-   "source_id": "heise-ki",
-   "quelle_titel": "heise-Angebot: c’t-Webinar: Wie KI beim wissenschaftlichen Schreiben hilft",
-   "url": "https://www.heise.de/news/c-t-Webinar-Wie-KI-beim-wissenschaftlichen-Schreiben-hilft-11472073.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-  },
-  {
-   "id": "3ced90f157b2",
-   "date": "2026-10-05",
-   "published": "2026-10-05T11:00+02:00",
-   "headline": "Insider stellt Sicherheitskultur bei OpenAI infrage",
-   "summary": "Eine Person aus dem Sicherheitsbereich von OpenAI beschreibt die interne Kultur als grundlegend gestoert. Die Kritik betrifft vor allem, wie das Unternehmen Risikofragen gegenueber Entwicklungstempo und Produktdruck abwaegt. Zusaetzlich gibt der Beitrag Orientierung, wie man zwischen verschiedenen Modellen auswaehlt.",
-   "thema": "Sicherheit und Ethik",
-   "region": "intl",
-   "relevanz": 3,
-   "tags": [
-    "openai",
-    "ai safety",
-    "unternehmenskultur"
-   ],
-   "source": "The Rundown AI",
-   "source_id": "rundown",
-   "quelle_titel": "An OpenAI safety insider calls the culture 'broken'",
-   "url": "https://www.therundown.ai/articles/an-openai-safety-insider-calls-the-culture-broken"
-  },
-  {
    "id": "b4d360416272",
    "date": "2026-10-05",
    "published": "2026-10-05T12:00+02:00",
-   "headline": "Mastering AI in Karlsruhe sucht Vorträge zu echten KI-Projekten",
-   "summary": "Für die Fachkonferenz Mastering AI am 28. und 29. April 2027 in Karlsruhe können noch Vortragsvorschläge eingereicht werden, die Einreichungsfrist endet am 19. November. Im Zentrum stehen praktische Erfahrungen beim Aufbau und Betrieb von KI-Projekten. Die Veranstaltung richtet sich an Fachleute, die solche Systeme im Unternehmensalltag verantworten.",
+   "headline": "Mastering AI 2027 in Karlsruhe: Call for Proposals bis 19. November offen",
+   "summary": "Die Fachkonferenz Mastering AI findet am 28. und 29. April 2027 in Karlsruhe statt und widmet sich dem praktischen Aufbau und Betrieb von KI-Projekten. Wer einen Vortrag beisteuern möchte, kann seinen Themenvorschlag noch bis zum 19. November einreichen. Das Format richtet sich an Fachleute, die KI-Anwendungen tatsächlich in den Produktivbetrieb bringen.",
    "thema": "Weiterbildung DE",
    "region": "de",
    "relevanz": 3,
@@ -340,15 +362,15 @@
    "id": "d5a491adcd67",
    "date": "2026-10-05",
    "published": "2026-10-05T13:00+02:00",
-   "headline": "Altman lobt Frankreichs Präsidenten als weitsichtigsten KI-Politiker",
-   "summary": "OpenAI-Chef Sam Altman hebt in einem Podcast-Gespräch Emmanuel Macron als die international überzeugendste Figur in der KI-Politik hervor. Er begründet das mit dessen langjähriger und durchdachter Beschäftigung mit den Folgen der Technologie. Die Aussage ordnet sich in Frankreichs Bemühungen ein, sich als europäischer KI-Standort zu positionieren.",
+   "headline": "Altman lobt Macron als weitsichtigsten Staatschef in Sachen KI",
+   "summary": "OpenAI-Chef Sam Altman bezeichnet Frankreichs Präsidenten Emmanuel Macron im Gespräch mit Politico als den eindrucksvollsten Regierungschef im Umgang mit künstlicher Intelligenz. Er begründet das mit dessen langjähriger und durchdachter Beschäftigung mit den Folgen der Technologie. Die Aussage unterstreicht, wie stark sich führende KI-Konzerne inzwischen politisch positionieren und Allianzen in Europa suchen.",
    "thema": "Politik und Regulierung",
    "region": "intl",
    "relevanz": 3,
    "tags": [
     "openai",
-    "altman",
-    "frankreich",
+    "macron",
+    "eu",
     "ki-politik"
    ],
    "source": "Politico Europe",
@@ -357,19 +379,39 @@
    "url": "https://www.politico.eu/article/sam-altman-france-emmanuel-macron-most-impressive-world-leader-ai/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
   },
   {
+   "id": "8869fe719edb",
+   "date": "2026-10-05",
+   "published": "2026-10-05T14:00+02:00",
+   "headline": "Safeworld entwickelt digitale Menschen, um Roboter sicherer zu machen",
+   "summary": "Das Start-up Safeworld baut digitale Menschmodelle, mit denen sich das Verhalten von Robotern gegenüber echten Personen testen lässt. Ziel ist es, Risiken generativer Robotiksysteme vor dem Einsatz in der realen Welt zu erkennen und damit auch das Vertrauen in solche Maschinen zu erhöhen. Der Ansatz zielt auf eine Lücke zwischen schnell wachsenden Robotikfähigkeiten und belastbaren Sicherheitsnachweisen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "robotik",
+    "simulation",
+    "sicherheit",
+    "startup"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "quelle_titel": "Can Safeworld convince people that gen AI robots won’t hurt them?",
+   "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/"
+  },
+  {
    "id": "f50e922dd5cb",
    "date": "2026-10-05",
    "published": "2026-10-05T12:00+02:00",
-   "headline": "Essay: Warum unser Denken für die KI-Debatte schlecht gerüstet ist",
-   "summary": "Der Beitrag verfolgt, wie technische Leitbilder unser Menschenbild prägen, von der Kybernetik bis zu heutigen Vergleichen des Gehirns mit einer Rechenmaschine. Führende Stimmen der KI-Branche beschreiben Denken selbst als Informationsverarbeitung, was die Diskussion über Fähigkeiten und Grenzen der Systeme verzerrt. Der Text plädiert für mehr Skepsis gegenüber solchen Metaphern.",
+   "headline": "Denkfehler im Maschinenbild: Warum unsere Intuition bei KI versagt",
+   "summary": "Ein Essay argumentiert, dass die Vorstellungen der Technikbranche vom Gehirn als Rechenmaschine unser Verständnis von KI verzerren. Dieses mechanistische Menschenbild prägt laut Autor sowohl die Forschung als auch die öffentliche Debatte und führt zu falschen Erwartungen an heutige Systeme. Der Text plädiert für mehr Skepsis gegenüber Analogien zwischen Hirn und Computer.",
    "thema": "Sicherheit und Ethik",
    "region": "intl",
    "relevanz": 2,
    "tags": [
-    "ki-debatte",
-    "kognition",
+    "essay",
     "kybernetik",
-    "essay"
+    "menschenbild",
+    "ki-debatte"
    ],
    "source": "The Verge AI",
    "source_id": "verge-ai",
