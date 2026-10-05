@@ -9,15 +9,16 @@
 # keywords      optional: nur Artikel behalten, deren Titel/Teaser eines dieser Woerter enthaelt
 #               (fuer allgemeine Feeds ohne KI-Fokus)
 # max_items     optional: Obergrenze neuer Artikel pro Lauf (Standard 6)
+# priority      true = Quelle wird bei Engpaessen zuerst kuratiert
 # enabled       false = Quelle bleibt eingetragen, wird aber nicht abgerufen
 # note          Freitext, z. B. warum deaktiviert
 
 sources:
   # ---------- International ----------
-  - {id: neuron, name: The Neuron, type: rss, region: intl, url: "https://www.theneuron.ai/feed"}
-  - {id: rundown, name: The Rundown AI, type: rss, region: intl, url: "https://www.therundown.ai/feed"}
+  - {id: neuron, name: The Neuron, type: rss, region: intl, url: "https://www.theneuron.ai/feed", priority: true, max_items: 10}
+  - {id: rundown, name: The Rundown AI, type: rss, region: intl, url: "https://www.therundown.ai/feed", priority: true}
   - {id: tldr-ai, name: TLDR AI, type: rss, region: intl, url: "https://tldr.tech/api/rss/ai"}
-  - {id: import-ai, name: Import AI, type: rss, region: intl, url: "https://importai.substack.com/feed"}
+  - {id: import-ai, name: Import AI, type: rss, region: intl, url: "https://importai.substack.com/feed", priority: true}
   - id: batch
     name: The Batch
     type: web
@@ -103,6 +104,24 @@ sources:
     keywords: [KI, "Künstliche Intelligenz", "AI Act"]
     enabled: false
     note: Kein RSS-Feed, Pressemitteilungen werden per Skript nachgeladen (keine Links im HTML), vorerst deaktiviert
+  # weitere deutsche Quellen (allgemeine Medien mit KI-Filter)
+  - {id: golem, name: Golem, type: rss, region: de, url: "https://rss.golem.de/rss.php?feed=RSS2.0", keywords: [KI, "Künstliche Intelligenz", ChatGPT, OpenAI, Sprachmodell, LLM, Chatbot], max_items: 4}
+  - {id: computerwoche, name: Computerwoche, type: rss, region: de, url: "https://www.computerwoche.de/feed/", keywords: [KI, "Künstliche Intelligenz", ChatGPT, GenAI, Agenten, LLM], max_items: 4}
+  - {id: cio, name: CIO, type: rss, region: de, url: "https://www.cio.de/feed", keywords: [KI, "Künstliche Intelligenz", ChatGPT, GenAI, Agenten], max_items: 4}
+  - {id: ix, name: iX, type: rss, region: de, url: "https://www.heise.de/ix/rss/news-atom.xml", keywords: [KI, "Künstliche Intelligenz", LLM, Sprachmodell, ChatGPT, Agenten], max_items: 3}
+  - {id: spiegel-netzwelt, name: Spiegel Netzwelt, type: rss, region: de, url: "https://www.spiegel.de/netzwelt/index.rss", keywords: [KI, "Künstliche Intelligenz", ChatGPT, OpenAI, Chatbot], max_items: 3}
+  - {id: zeit-digital, name: ZEIT Digital, type: rss, region: de, url: "https://newsfeed.zeit.de/digital/index", keywords: [KI, "Künstliche Intelligenz", ChatGPT, OpenAI, Chatbot], max_items: 3}
+  - {id: sz-digital, name: Süddeutsche Digital, type: rss, region: de, url: "https://rss.sueddeutsche.de/rss/Digital", keywords: [KI, "Künstliche Intelligenz", ChatGPT, OpenAI, Chatbot], max_items: 3}
+  - {id: handelsblatt-tech, name: Handelsblatt Technologie, type: rss, region: de, url: "https://www.handelsblatt.com/contentexport/feed/technologie", keywords: [KI, "Künstliche Intelligenz", ChatGPT, OpenAI, Chatbot], max_items: 3, note: "Artikel teils hinter Bezahlschranke, nur Titel und Teaser werden genutzt"}
+  - {id: tagesspiegel-wirtschaft, name: Tagesspiegel Wirtschaft, type: rss, region: de, url: "https://www.tagesspiegel.de/contentexport/feed/wirtschaft", keywords: [KI, "Künstliche Intelligenz", ChatGPT, OpenAI], max_items: 3}
+  - {id: wiwo, name: WirtschaftsWoche, type: rss, region: de, url: "https://www.wiwo.de/contentexport/feed/rss/schlagzeilen", keywords: [KI, "Künstliche Intelligenz", ChatGPT, OpenAI], max_items: 3, note: "Artikel teils hinter Bezahlschranke"}
+  - {id: stern-digital, name: stern Digital, type: rss, region: de, url: "https://www.stern.de/feed/standard/digital/", keywords: [KI, "Künstliche Intelligenz", ChatGPT, OpenAI, Chatbot], max_items: 3}
+  - {id: gruenderszene, name: Gründerszene, type: rss, region: de, url: "https://www.businessinsider.de/gruenderszene/feed/", keywords: [KI, "Künstliche Intelligenz", ChatGPT, OpenAI], max_items: 3}
+  - {id: deutsche-startups, name: deutsche-startups.de, type: rss, region: de, url: "https://www.deutsche-startups.de/feed/", keywords: [KI, "Künstliche Intelligenz", ChatGPT], max_items: 3}
+  - {id: basic-thinking, name: Basic Thinking, type: rss, region: de, url: "https://www.basicthinking.de/blog/feed/", keywords: [KI, "Künstliche Intelligenz", ChatGPT, OpenAI], max_items: 3}
+  - {id: heise-security, name: heise Security, type: rss, region: de, url: "https://www.heise.de/security/rss/news-atom.xml", keywords: [KI, "Künstliche Intelligenz", LLM, Sprachmodell], max_items: 2}
+  - {id: eco, name: eco Verband, type: rss, region: de, url: "https://www.eco.de/feed/", keywords: [KI, "Künstliche Intelligenz", "AI Act"], max_items: 2}
+  - {id: algorithmwatch, name: AlgorithmWatch, type: rss, region: de, url: "https://algorithmwatch.org/de/feed/", max_items: 3, note: "Politik, Regulierung, Ethik"}
   - {id: ki-campus, name: KI-Campus, type: rss, region: de, url: "https://ki-campus.org/blog/feed"}
   - id: fraunhofer-academy
     name: Fraunhofer Academy

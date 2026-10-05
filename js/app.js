@@ -97,7 +97,7 @@ async function loadDay(date) {
 /* ---------- Merkliste (nur localStorage, keine Server-Daten) ---------- */
 
 const FAV_KEY = 'favs';
-const FAV_FIELDS = ['id', 'date', 'published', 'headline', 'summary', 'thema', 'region', 'relevanz', 'tags', 'source', 'source_id', 'quelle_titel', 'url'];
+const FAV_FIELDS = ['id', 'date', 'published', 'headline', 'summary', 'thema', 'region', 'relevanz', 'tags', 'source', 'source_id', 'quelle_titel', 'url', 'kurios', 'praxis'];
 let favMem = null;
 
 function favLoad() {
@@ -174,12 +174,23 @@ function chipRow(options, current, onPick, label) {
     }, text)));
 }
 
+function sourceSelect(current, onPick) {
+  const counts = new Map();
+  store.index.items.forEach((i) => counts.set(i.source, (counts.get(i.source) || 0) + 1));
+  const names = [...counts.keys()].sort((a, b) => a.localeCompare(b, 'de'));
+  return h('label', { class: 'field' }, 'Quelle',
+    h('select', { onchange: (e) => onPick(e.target.value) },
+      h('option', { value: '', selected: !current }, 'Alle Quellen'),
+      names.map((n) => h('option', { value: n, selected: n === current }, `${n} (${counts.get(n)})`))));
+}
+
 function card(item, query) {
   const color = THEMA_VAR[item.thema] || 'var(--accent)';
   const mark = (txt) => (query ? highlight(txt, query) : txt);
   return h('article', { class: 'card', style: `--c:${color}` },
     h('div', { class: 'meta' },
       h('span', { class: 'tag-thema' }, item.thema),
+      item.praxis ? h('span', { class: 'badge praxis' }, 'Praxistipp') : null,
       h('span', null, item.source),
       h('span', null, fmtShort(item.date)),
       item.region === 'de' ? h('span', { class: 'badge' }, 'DE') : null,
@@ -238,6 +249,7 @@ async function viewDay(dateArg, q) {
       h('h2', { id: 'ts' }, 'Top-Stories'),
       h('ol', null, top.map(({ o, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` }, h('div', null,
         h('span', { class: 'ts-label' }, THEMA_SHORT[item.thema] || item.thema),
+        item.praxis ? h('span', { class: 'ts-label praxis' }, 'Praxistipp') : null,
         h('p', null, o.text),
         h('a', { class: 'src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, `${item.source} ↗`)))))) : null,
     kList.length ? h('section', { class: 'kurios', 'aria-labelledby': 'kur' },
@@ -266,36 +278,43 @@ function isoWeek(s) {
   return { key: `${y}-W${String(week).padStart(2, '0')}`, week, start: mon.toISOString().slice(0, 10), end: sun.toISOString().slice(0, 10) };
 }
 const fmtMonth = (s) => new Intl.DateTimeFormat('de-DE', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(s + 'T12:00:00Z'));
-const GROUPINGS = [['tag', 'Tage'], ['woche', 'Wochen'], ['monat', 'Monate']];
+const GROUPINGS = [['tag', 'Tage'], ['woche', 'Wochen'], ['monat', 'Monate'], ['kategorie', 'Kategorien']];
+const SORTS = [['neu', 'Neueste zuerst'], ['rel', 'Wichtigste zuerst']];
+const PRAXIS = '__praxis';
 
-function groupKey(mode, date) {
-  if (mode === 'tag') return { key: date, label: dayLabel(date) };
-  if (mode === 'monat') return { key: date.slice(0, 7), label: fmtMonth(date) };
-  const w = isoWeek(date);
+function groupKey(mode, item) {
+  if (mode === 'kategorie') return { key: item.thema, label: item.thema, order: THEMEN.findIndex(([n]) => n === item.thema) };
+  if (mode === 'tag') return { key: item.date, label: dayLabel(item.date) };
+  if (mode === 'monat') return { key: item.date.slice(0, 7), label: fmtMonth(item.date) };
+  const w = isoWeek(item.date);
   return { key: w.key, label: `KW ${w.week} · ${fmtShort(w.start)} bis ${fmtShort(w.end)}${w.end.slice(0, 4)}` };
 }
 
 async function viewArchive(q) {
   const index = await loadIndex();
   const g = GROUPINGS.some(([k]) => k === q.g) ? q.g : 'woche';
-  const f = { thema: q.thema || '', region: q.region || '', von: q.von || '', bis: q.bis || '', g };
+  const sort = q.s === 'rel' ? 'rel' : 'neu';
+  const f = { thema: q.thema || '', region: q.region || '', von: q.von || '', bis: q.bis || '', quelle: q.quelle || '', g, s: sort };
   const filtered = index.items.filter((i) =>
-    (!f.thema || i.thema === f.thema) && (!f.region || i.region === f.region) &&
-    (!f.von || i.date >= f.von) && (!f.bis || i.date <= f.bis))
+    (!f.thema || (f.thema === PRAXIS ? i.praxis : i.thema === f.thema)) && (!f.region || i.region === f.region) &&
+    (!f.quelle || i.source === f.quelle) && (!f.von || i.date >= f.von) && (!f.bis || i.date <= f.bis))
     .sort((a, b) => b.published.localeCompare(a.published));
   const set = (patch) => { go('/archiv', { ...f, ...patch }, true); route(); };
 
   const minD = store.dates[store.dates.length - 1], maxD = store.dates[0];
   const groups = new Map();
   filtered.forEach((i) => {
-    const k = groupKey(g, i.date);
-    if (!groups.has(k.key)) groups.set(k.key, { label: k.label, items: [] });
+    const k = groupKey(g, i);
+    if (!groups.has(k.key)) groups.set(k.key, { label: k.label, order: k.order, items: [] });
     groups.get(k.key).items.push(i);
   });
+  let ordered = [...groups.values()];
+  if (g === 'kategorie') ordered.sort((a, b) => a.order - b.order);
+  if (sort === 'rel') ordered.forEach((grp) => grp.items.sort((a, b) => b.relevanz - a.relevanz || b.published.localeCompare(a.published)));
 
   // Gruppen sind einklappbar, Karten werden erst beim Aufklappen gebaut
   const list = h('div', { class: 'groups' });
-  [...groups.values()].forEach((grp, n) => {
+  ordered.forEach((grp, n) => {
     const body = h('div', { class: 'group-body' });
     const fill = () => { if (!body.childElementCount) grp.items.forEach((i) => body.append(card(i))); };
     const det = h('details', { class: 'group', open: n === 0 }, h('summary', null, h('span', { class: 'g-title' }, grp.label), h('span', { class: 'count' }, grp.items.length)), body);
@@ -304,18 +323,22 @@ async function viewArchive(q) {
     list.append(det);
   });
   const toggleAll = (open) => list.querySelectorAll('details').forEach((d) => { d.open = open; });
+  const unit = { tag: 'Tagen', woche: 'Wochen', monat: 'Monaten', kategorie: 'Kategorien' }[g];
+  const praxisN = index.items.filter((i) => i.praxis).length;
 
   render(
     h('h1', null, 'Archiv'),
-    h('p', { class: 'sub' }, `${filtered.length} von ${index.items.length} Meldungen in ${groups.size} ${g === 'tag' ? 'Tagen' : g === 'woche' ? 'Wochen' : 'Monaten'}`),
+    h('p', { class: 'sub' }, `${filtered.length} von ${index.items.length} Meldungen in ${groups.size} ${unit}`),
     h('div', { class: 'filters' },
       chipRow(GROUPINGS, g, (v) => set({ g: v }), 'Gruppierung'),
-      chipRow([['', 'Alle Themen'], ...THEMEN.map(([n]) => [n, n])], f.thema, (v) => set({ thema: v }), 'Thema'),
+      chipRow(SORTS, sort, (v) => set({ s: v }), 'Sortierung'),
+      chipRow([['', 'Alle Themen'], [PRAXIS, `Praxistipps & Tools (${praxisN})`], ...THEMEN.map(([n]) => [n, n])], f.thema, (v) => set({ thema: v }), 'Kategorie'),
       chipRow(REGIONEN, f.region, (v) => set({ region: v }), 'Bereich'),
       h('div', { class: 'row' },
+        sourceSelect(f.quelle, (v) => set({ quelle: v })),
         h('label', { class: 'field' }, 'Von', h('input', { type: 'date', value: f.von, min: minD, max: maxD, onchange: (e) => set({ von: e.target.value }) })),
         h('label', { class: 'field' }, 'Bis', h('input', { type: 'date', value: f.bis, min: minD, max: maxD, onchange: (e) => set({ bis: e.target.value }) })),
-        (f.thema || f.region || f.von || f.bis) ? h('button', { class: 'btn', type: 'button', onclick: () => { go('/archiv', { g }, true); route(); } }, 'Zurücksetzen') : null)),
+        (f.thema || f.region || f.von || f.bis || f.quelle) ? h('button', { class: 'btn', type: 'button', onclick: () => { go('/archiv', { g, s: sort }, true); route(); } }, 'Zurücksetzen') : null)),
     groups.size > 1 ? h('div', { class: 'row actions' },
       h('button', { class: 'btn', type: 'button', onclick: () => toggleAll(true) }, 'Alle öffnen'),
       h('button', { class: 'btn', type: 'button', onclick: () => toggleAll(false) }, 'Alle schließen')) : null,
@@ -334,14 +357,16 @@ async function viewSearch(q) {
   }
   const query = (q.q || '').trim();
   const region = q.region || '';
+  const quelle = q.quelle || '';
   const results = h('div');
   const status = h('p', { class: 'sub' });
 
   const showResults = (text) => {
     results.replaceChildren();
-    const hits = text.length >= 2 ? store.fuse.search(text).map((r) => r.item).filter((i) => !region || i.region === region).slice(0, 80) : [];
-    status.textContent = text.length < 2 ? `Suche in ${index.items.length} Meldungen (Titel, Text, Tags, Quelle).` : `${hits.length} Treffer`;
-    if (text.length >= 2 && !hits.length) results.append(h('p', { class: 'empty' }, 'Keine Treffer.'));
+    const base = text.length >= 2 ? store.fuse.search(text).map((r) => r.item) : (quelle ? index.items.slice() : []);
+    const hits = base.filter((i) => (!region || i.region === region) && (!quelle || i.source === quelle)).slice(0, 80);
+    status.textContent = text.length < 2 && !quelle ? `Suche in ${index.items.length} Meldungen (Titel, Text, Tags, Quelle).` : `${hits.length} Treffer`;
+    if ((text.length >= 2 || quelle) && !hits.length) results.append(h('p', { class: 'empty' }, 'Keine Treffer.'));
     hits.forEach((i) => results.append(card(i, text)));
   };
 
@@ -349,12 +374,13 @@ async function viewSearch(q) {
   let timer;
   input.addEventListener('input', () => {
     clearTimeout(timer);
-    timer = setTimeout(() => { go('/suche', { q: input.value.trim(), region }, true); showResults(input.value.trim()); }, 160);
+    timer = setTimeout(() => { go('/suche', { q: input.value.trim(), region, quelle }, true); showResults(input.value.trim()); }, 160);
   });
 
   render(
     h('h1', null, 'Suche'),
-    h('div', { class: 'filters' }, h('form', { class: 'searchbar', role: 'search', onsubmit: (e) => { e.preventDefault(); clearTimeout(timer); input.blur(); go('/suche', { q: input.value.trim(), region }, true); showResults(input.value.trim()); } }, input, h('button', { class: 'btn primary', type: 'submit', 'aria-label': 'Suchen' }, '\u{1F50D}\uFE0E')), chipRow(REGIONEN, region, (v) => { go('/suche', { q: input.value.trim(), region: v }, true); route(); }, 'Bereich')),
+    h('div', { class: 'filters' }, h('form', { class: 'searchbar', role: 'search', onsubmit: (e) => { e.preventDefault(); clearTimeout(timer); input.blur(); go('/suche', { q: input.value.trim(), region, quelle }, true); showResults(input.value.trim()); } }, input, h('button', { class: 'btn primary', type: 'submit', 'aria-label': 'Suchen' }, '\u{1F50D}\uFE0E')), chipRow(REGIONEN, region, (v) => { go('/suche', { q: input.value.trim(), region: v, quelle }, true); route(); }, 'Bereich'),
+      h('div', { class: 'row' }, sourceSelect(quelle, (v) => { go('/suche', { q: input.value.trim(), region, quelle: v }, true); route(); }))),
     status, results);
   showResults(query);
   if (!query) input.focus({ preventScroll: true });

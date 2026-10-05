@@ -1,38 +1,38 @@
 {
  "date": "2026-10-02",
- "generated_at": "2026-10-05T14:49:25+02:00",
+ "generated_at": "2026-10-05T15:05:44+02:00",
  "overview": [
   {
-   "id": "8e206c4d9ed6",
-   "text": "OpenAI erklärt in einem Leitfaden, welches Modell der GPT-6-Familie zu welchem Anwendungsfall passt und wie Teams den Schlussfolgerungsaufwand steuern."
+   "id": "cf70e45ebac2",
+   "text": "OpenAI bringt mit Dots eine Plattform für kleine KI-Agenten, die vor allem Aufgaben im Arbeitsalltag von Unternehmen übernehmen sollen."
+  },
+  {
+   "id": "88ce35f7c1e7",
+   "text": "Im Weißen Haus unterzeichnen Tech-Chefs eine freiwillige KI-Sicherheitszusage, während eine Verfügung den Begriff KI in Superintelligenz umbenennt."
   },
   {
    "id": "575ad95effd7",
-   "text": "US-Behörden nehmen einen Firmenchef fest, der Nvidia-Beschleuniger für rund 300 Millionen Dollar illegal nach China exportiert haben soll."
+   "text": "US-Behörden nehmen einen Firmenchef fest, der Nvidia-Beschleuniger im Wert von rund 300 Millionen Dollar illegal nach China gebracht haben soll."
   },
   {
-   "id": "e0956ad22860",
-   "text": "Apple begrenzt den vollständigen Festplattenzugriff auf dem Mac, weil autonome KI-Programme die Risiken für Nutzerdaten deutlich erhöhen."
+   "id": "8e206c4d9ed6",
+   "text": "OpenAI liefert einen Leitfaden, der Startups und Entwicklerteams bei der Wahl des passenden GPT-6-Modells und beim Weg in den Produktivbetrieb hilft."
+  },
+  {
+   "id": "39b9fbb58d7c",
+   "text": "Apple verschärft die Rechte für den vollständigen Festplattenzugriff auf dem Mac, weil immer fähigere KI-Agenten solche Freigaben riskanter machen."
   },
   {
    "id": "872d76f39ea2",
-   "text": "Anthropic bewertet die Cyberfähigkeiten des offenen Modells GLM-5.3 als unkritisch, da es keinen Sprung bei Angriffstechniken bringt."
+   "text": "Anthropic prüft das offene Modell GLM-5.3 auf Cyberfähigkeiten und sieht keinen gefährlichen Sprung bei der Entwicklung von Angriffstechniken."
   },
   {
    "id": "ac719b52e635",
-   "text": "Laut einer Analyse übernimmt KI im Unternehmensbetrieb reale Aufgaben, die weltweiten Investitionen sollen 2026 auf rund 2,5 Billionen Dollar steigen."
+   "text": "KI verlässt in Unternehmen den Pilotbetrieb, für 2026 werden weltweite Investitionen von rund 2,5 Billionen Dollar erwartet, 44 Prozent mehr als zuvor."
   },
   {
-   "id": "0ddb54cdbd61",
-   "text": "Amazon will mit einer Milliarde den Protest gegen neue Rechenzentren dämpfen, Initiativen kritisieren weiterhin Emissionen und Ressourcenverbrauch."
-  },
-  {
-   "id": "db634ba58629",
-   "text": "Meta gibt den Code seines KI-Agenten Muse frei, sodass Bastler eigene Geräte wie E-Ink-Displays oder HDMI-Sticks damit betreiben können."
-  },
-  {
-   "id": "68d4dc8c386e",
-   "text": "Ein Bericht zeigt, wie US-Techkonzerne den Begriff künstliche Intelligenz aufgaben, nachdem Trump ihn aus dem politischen Vokabular gestrichen hatte."
+   "id": "5113cb653680",
+   "text": "Sean Parker richtet Stability AI auf Musik aus und holt sich dafür Geld und Rückendeckung jener Musikindustrie, mit der er einst im Streit lag."
   }
  ],
  "items": [
@@ -55,7 +55,8 @@
    "source": "OpenAI",
    "source_id": "openai",
    "quelle_titel": "A model guide for the GPT-6 family",
-   "url": "https://openai.com/index/practical-guide-building-gpt-6"
+   "url": "https://openai.com/index/practical-guide-building-gpt-6",
+   "praxis": true
   },
   {
    "id": "872d76f39ea2",
@@ -98,6 +99,67 @@
    "source_id": "latent-space",
    "quelle_titel": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
    "url": "https://www.latent.space/p/airbnb"
+  },
+  {
+   "id": "88ce35f7c1e7",
+   "date": "2026-10-02",
+   "published": "2026-10-02T19:56+02:00",
+   "headline": "Washington tauft KI in Superintelligenz um, Verbraucher bleiben kühl",
+   "summary": "Im Weißen Haus unterzeichneten führende Tech Chefs eine Selbstverpflichtung zur KI Sicherheit, die Präsident Trump als moralisch bindend bezeichnete, begleitet von einer Verfügung zur Umbenennung des Begriffs KI in Superintelligenz. Parallel versuchen Meta und OpenAI, ihre Produkte freundlicher und zugänglicher wirken zu lassen. Dem steht entgegen, dass laut dem Bericht nur rund zwei Prozent der Konsumenten tatsächlich für KI Angebote zahlen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "usa",
+    "regulierung",
+    "selbstverpflichtung",
+    "marktakzeptanz"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "quelle_titel": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+   "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/"
+  },
+  {
+   "id": "cf70e45ebac2",
+   "date": "2026-10-02",
+   "published": "2026-10-02T20:00+02:00",
+   "headline": "OpenAI startet Agentenplattform Dots mit Fokus auf den Arbeitsalltag",
+   "summary": "OpenAI hat mit Dots eine neue Plattform vorgestellt, auf der kleine Agenten Aufgaben für Nutzerinnen und Nutzer übernehmen. Anders als der betont verspielte Ansatz von Meta Muse wirkt das Angebot stark nach Unternehmenssoftware, auch wenn die Agenten nebenbei private Erledigungen wie eine Essensbestellung übernehmen können. Damit positioniert sich OpenAI deutlicher im Markt für Business Werkzeuge statt für Alltagsassistenten.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "agenten",
+    "enterprise",
+    "produktivität"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "quelle_titel": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
+  },
+  {
+   "id": "39b9fbb58d7c",
+   "date": "2026-10-02",
+   "published": "2026-10-02T20:11+02:00",
+   "headline": "Apple nennt KI-Agenten als Grund für strengere Dateirechte am Mac",
+   "summary": "Apple kündigt zusätzliche Kontrollen für die Berechtigung zum vollständigen Festplattenzugriff unter macOS an. Der Konzern verweist darauf, dass immer leistungsfähigere KI-Agenten den pauschalen Zugriff auf Dateien, Nachrichten, Mails und Browserverlauf gefährlicher machen. Entwicklerteams müssen künftig damit rechnen, dass solche Rechte nicht mehr selbstverständlich erteilt werden.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "apple",
+    "macos",
+    "ki-agenten",
+    "berechtigungen",
+    "sicherheit"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "quelle_titel": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+   "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/"
   },
   {
    "id": "575ad95effd7",
@@ -260,6 +322,26 @@
    "source_id": "verge-ai",
    "quelle_titel": "Meta open sources code to let you make Muse AI gadgets",
    "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
+  },
+  {
+   "id": "5113cb653680",
+   "date": "2026-10-02",
+   "published": "2026-10-02T23:09+02:00",
+   "headline": "Napster-Gründer Parker richtet Stability AI auf Musik aus",
+   "summary": "Sean Parker baut den Bildgenerator-Anbieter Stability AI zu einem Unternehmen mit Schwerpunkt Musik um. Besonders bemerkenswert ist, dass er dabei die Unterstützung und das Kapital der Musikindustrie hat, mit der er einst im Streit lag. Der Schritt deutet auf einen Kurswechsel bei generativer KI im Audiobereich hin, der auf Lizenzvereinbarungen statt Konfrontation setzt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "stability ai",
+    "musik",
+    "lizenzen",
+    "generative ki"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "quelle_titel": "Sean Parker is rebuilding Stability AI around music",
+   "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/"
   },
   {
    "id": "615cef7e0bdf",
