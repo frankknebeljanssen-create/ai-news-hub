@@ -587,3 +587,5 @@ main.mode-week { --accent: var(--week); --accent-soft: color-mix(in srgb, var(--
 .wk-src { font-size: .75rem; color: var(--muted); }
 @media (hover: hover) { .wk-item:hover { background: color-mix(in srgb, var(--c) 12%, var(--surface-2)); } }
 @media (hover: none) { .b-title:hover, .k-title:hover { text-decoration: none; } }
+
+.wk-day { font-size: .78rem; font-weight: 700; color: var(--accent); }

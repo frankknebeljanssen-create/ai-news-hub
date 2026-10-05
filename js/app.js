@@ -280,6 +280,7 @@ function withMore(meta, item) {
 }
 
 /* Tagesauswahl: Antippen der Datums-Karte oeffnet die Liste der letzten 4 Wochen */
+const weekdayName = (d) => new Intl.DateTimeFormat('de-DE', { weekday: 'long', timeZone: 'UTC' }).format(new Date(d + 'T12:00:00Z'));
 const fmtWeekdayDate = (s) => new Intl.DateTimeFormat('de-DE', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(s + 'T12:00:00Z'));
 
 function daySelect(date, text, pick) {
@@ -997,6 +998,7 @@ async function viewWeek(q) {
   const words = [...top.map((i) => i.headline + ' ' + firstSentence(i.summary)), ...de.map((i) => i.headline), ...praxis.map((i) => i.headline), ...kurios.map((i) => i.kurios)].join(' ').split(/\s+/).length;
   const minutes = Math.max(1, Math.ceil(words / 150));
 
+  const dayTag = (it) => h('span', { class: 'wk-day' }, weekdayName(it.date));
   const sec = (name, ...kids) => h('section', { class: 'brief-sec' }, h('h2', null, name), ...kids);
   const srcLink = (it) => h('a', { class: 'b-src', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, `${it.source} ↗`);
   const title = (it) => h('a', { class: 'b-title', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, it.headline);
@@ -1019,18 +1021,18 @@ async function viewWeek(q) {
         h('span', { class: 'ts-label' }, THEMA_SHORT[i.thema] || i.thema),
         title(i),
         h('p', { class: 'b-sum' }, firstSentence(i.summary)),
-        withMore([srcLink(i)], i))))) : null,
+        withMore([dayTag(i), srcLink(i)], i))))) : null,
 
-    de.length ? sec('Deutschland', h('ul', { class: 'b-list' }, de.map((i) => h('li', null, title(i), withMore([srcLink(i)], i))))) : null,
+    de.length ? sec('Deutschland', h('ul', { class: 'b-list' }, de.map((i) => h('li', null, title(i), withMore([dayTag(i), srcLink(i)], i))))) : null,
 
     themaStats.length ? sec('Nach Themen',
       h('div', { class: 'wk-bars' }, themaStats.map(([n, l]) => h('div', { class: 'wk-row', style: `--c:${THEMA_VAR[n]}` },
         h('div', { class: 'wk-head' }, h('span', { class: 'wk-name' }, n), h('span', { class: 'wk-n' }, l.length)),
         h('div', { class: 'wk-bar' }, h('i', { style: `width:${Math.round((l.length / maxN) * 100)}%` })),
-        h('div', { class: 'wk-top' }, l.slice(0, 2).map((i) => h('a', { class: 'wk-item', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, h('span', { class: 'wk-title' }, i.headline), h('span', { class: 'wk-src' }, `${i.source} \u2197`)))))))) : null,
+        h('div', { class: 'wk-top' }, l.slice(0, 2).map((i) => h('a', { class: 'wk-item', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, h('span', { class: 'wk-title' }, i.headline), h('span', { class: 'wk-src' }, `${weekdayName(i.date)} \u00B7 ${i.source} \u2197`)))))))) : null,
 
-    praxis.length ? sec('Praxistipps der Woche', h('ul', { class: 'b-list' }, praxis.map((i) => h('li', null, title(i), withMore([srcLink(i)], i))))) : null,
-    kurios.length ? sec('Kurios & krass', h('ul', { class: 'b-list' }, kurios.map((i) => h('li', null, h('span', { class: 'k-hook' }, i.kurios), title(i), withMore([srcLink(i)], i))))) : null,
+    praxis.length ? sec('Praxistipps der Woche', h('ul', { class: 'b-list' }, praxis.map((i) => h('li', null, title(i), withMore([dayTag(i), srcLink(i)], i))))) : null,
+    kurios.length ? sec('Kurios & krass', h('ul', { class: 'b-list' }, kurios.map((i) => h('li', null, h('span', { class: 'k-hook' }, i.kurios), title(i), withMore([dayTag(i), srcLink(i)], i))))) : null,
 
     items.length ? sec('Die Woche in Zahlen',
       h('dl', { class: 'kv' },
