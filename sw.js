@@ -2,7 +2,7 @@
    Daten und Seiten: erst Netz (mit kurzer Wartezeit), sonst gespeicherte Kopie.
    Versionierte Dateien (css/js mit ?v=N) und Symbole: aus dem Speicher, bei Bedarf nachgeladen. */
 const CACHE = 'kinews-v2';
-const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/apple-touch-icon.png', 'js/vendor/fuse.min.js', 'content/glossar.json', 'data/index.json'];
+const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon.svg', 'icons/apple-touch-icon.png', 'js/vendor/fuse.min.js', 'content/glossar.json', 'data/index.json'];
 const NET_TIMEOUT = 4000;
 
 self.addEventListener('install', (event) => {

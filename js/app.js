@@ -454,7 +454,7 @@ async function viewDay(dateArg, q) {
         h('a', { class: 'brief-btn', href: '#/briefing' + (pos === 0 ? '' : '?d=' + date) },
           h('span', null, h('strong', null, 'Der Tag'), h('small', null, 'Kurz-Briefing, 3 Min'))),
         h('a', { class: 'brief-btn week', href: '#/woche' + (pos === 0 ? '' : '?w=' + wk.key) },
-          h('span', null, h('strong', null, wk.end < todayStr() ? 'Wochenrückblick' : 'Die Woche'), h('small', null, wk.end < todayStr() ? `KW ${wk.week} komplett` : `KW ${wk.week} läuft`))))),
+          h('span', null, h('strong', null, 'Die Woche in Kürze'), h('small', null, wk.end < todayStr() ? `KW ${wk.week} komplett` : `KW ${wk.week} läuft`))))),
     st.showTop && top.length ? h('section', { class: 'top-stories', 'aria-labelledby': 'ts' },
       h('h2', { id: 'ts' }, 'Top-Stories'),
       h('ol', null, top.map(({ o, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` }, h('div', null,
@@ -844,6 +844,17 @@ async function viewSettings() {
         h('p', { class: 'set-text' }, 'Fuse.js 7.0.0 (Apache License 2.0) für die Suche. Symbole angelehnt an Feather Icons (MIT). Das Glossar besteht aus eigenen Texten.'))));
 }
 
+/* Farbige Kopfkarte fuer Kurz-Briefing und Woche */
+function hero({ title, backHref, active, meta, nav }) {
+  return h('header', { class: 'hero' },
+    h('div', { class: 'hero-top' },
+      h('a', { class: 'hero-back', href: backHref }, '\u2039 Alle Meldungen'),
+      chipRow([['tag', 'Tag'], ['woche', 'Woche']], active, (v) => { if (v !== active) go(v === 'woche' ? '/woche' : '/briefing'); }, 'Ansicht')),
+    h('h1', null, title),
+    h('div', { class: 'hero-meta' }, ...meta.filter(Boolean)),
+    nav);
+}
+
 /* ---------- Ansicht: Briefing (2 bis 3 Minuten) ---------- */
 
 const firstSentence = (t) => { const m = (t || '').match(/^.+?[.!?](?=\s|$)/); return m ? m[0] : (t || ''); };
@@ -907,14 +918,15 @@ async function viewBriefing(q) {
 
   render(
     bar,
-    h('a', { class: 'back-link', href: '#/' + (pos === 0 ? '' : 'tag/' + date) }, '\u2039 Alle Meldungen'),
-    h('h1', null, 'Kurz-Briefing'),
-    h('div', { class: 'brief-switch' }, chipRow([['tag', 'Tag'], ['woche', 'Woche']], 'tag', (v) => { if (v === 'woche') go('/woche'); }, 'Ansicht')),
-    h('p', { class: 'sub' }, `${dayLabel(date)} \u00B7 ca. ${minutes} Min${newN ? ` \u00B7 ${newN} neu seit deinem letzten Besuch` : ''}`, h('br'), h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text)),
-    h('div', { class: 'daynav' },
+    hero({
+      title: 'Kurz-Briefing', backHref: '#/' + (pos === 0 ? '' : 'tag/' + date), active: 'tag',
+      meta: [h('div', null, `${dayLabel(date)} \u00B7 ca. ${minutes} Min`),
+        h('div', { class: 'hero-sub' }, h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text), newN ? ` \u00B7 ${newN} neu seit deinem letzten Besuch` : null)],
+      nav: h('div', { class: 'daynav' },
       h('button', { class: 'btn', type: 'button', 'aria-label': 'Älterer Tag', disabled: pos >= store.dates.length - 1, onclick: () => go('/briefing', { d: store.dates[pos + 1] }) }, '\u2039'),
       daySelect(date, fmtShort(date) + date.slice(0, 4), (d) => go('/briefing', d === store.dates[0] ? {} : { d })),
       h('button', { class: 'btn', type: 'button', 'aria-label': 'Neuerer Tag', disabled: pos <= 0, onclick: () => go('/briefing', pos === 1 ? {} : { d: store.dates[pos - 1] }) }, '\u203A')),
+    }),
 
     sec('Das Wichtigste',
       h('ol', { class: 'b-top' }, top.map(({ text, item }) => h('li', { style: `--c:${THEMA_VAR[item.thema] || 'var(--accent)'}` },
@@ -990,18 +1002,19 @@ async function viewWeek(q) {
   const title = (it) => h('a', { class: 'b-title', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, it.headline);
 
   render(
-    h('a', { class: 'back-link', href: '#/' }, '\u2039 Alle Meldungen'),
-    h('h1', null, running ? 'Die Woche' : 'Wochenrückblick'),
-    h('div', { class: 'brief-switch' }, chipRow([['tag', 'Tag'], ['woche', 'Woche']], 'woche', (v) => { if (v === 'tag') go('/briefing'); }, 'Ansicht')),
-    h('p', { class: 'sub' }, `${items.length} Meldungen an ${days} ${days === 1 ? 'Tag' : 'Tagen'} · ca. ${minutes} Min`, running ? [h('br'), 'Die Woche läuft noch, es kommen weitere Meldungen dazu.'] : null),
-    h('div', { class: 'daynav' },
+    hero({
+      title: 'Die Woche in Kürze', backHref: '#/', active: 'woche',
+      meta: [h('div', null, `${items.length} Meldungen an ${days} ${days === 1 ? 'Tag' : 'Tagen'} \u00B7 ca. ${minutes} Min`),
+        running ? h('div', { class: 'hero-sub' }, h('span', { class: 'stand' }, 'Zwischenstand, die Woche läuft noch')) : null],
+      nav: h('div', { class: 'daynav' },
       h('button', { class: 'btn', type: 'button', 'aria-label': 'Ältere Woche', disabled: wi >= weeks.length - 1, onclick: () => go('/woche', { w: weeks[wi + 1].key }) }, '‹'),
-      h('div', { class: 'label' }, `KW ${cur.week} · ${fmtShort(cur.start)} bis ${fmtShort(cur.end)}${cur.end.slice(0, 4)}`),
+      h('div', { class: 'label', title: `${fmtShort(cur.start)}${cur.start.slice(0, 4)} bis ${fmtShort(cur.end)}${cur.end.slice(0, 4)}` }, `KW ${cur.week} \u00B7 ${fmtShort(cur.start)} bis ${fmtShort(cur.end)}`),
       h('button', { class: 'btn', type: 'button', 'aria-label': 'Neuere Woche', disabled: wi <= 0, onclick: () => go('/woche', wi === 1 ? {} : { w: weeks[wi - 1].key }) }, '›')),
+    }),
 
     !items.length ? h('p', { class: 'empty' }, 'Für diese Woche gibt es noch keine Meldungen.') : null,
 
-    top.length ? sec('Die Woche in Kürze',
+    top.length ? sec('Die wichtigsten Meldungen',
       h('ol', { class: 'b-top' }, top.map((i) => h('li', { style: `--c:${THEMA_VAR[i.thema] || 'var(--accent)'}` },
         h('span', { class: 'ts-label' }, THEMA_SHORT[i.thema] || i.thema),
         title(i),
@@ -1114,7 +1127,7 @@ async function route() {
     console.error(err);
     render(stateBox('Die Nachrichten konnten nicht geladen werden. Bitte später erneut versuchen.'));
   }
-  document.title = area === 'heute' ? 'KI-News Hub' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar', briefing: 'Briefing', woche: 'Wochenrückblick', status: 'Status' }[area] + ' | KI-News Hub';
+  document.title = area === 'heute' ? 'KI-News Hub' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar', briefing: 'Briefing', woche: 'Die Woche in Kürze', status: 'Status' }[area] + ' | KI-News Hub';
   fitCards();
   if (!keepScroll) window.scrollTo(0, 0);
 }

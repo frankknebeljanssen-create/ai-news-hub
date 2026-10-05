@@ -534,3 +534,30 @@ details.filterbox > .filter-grid { margin: 0; }
 .back-link:hover { text-decoration: underline; }
 
 .brief-pair { grid-template-columns: 1fr 1fr; }
+
+/* ---- Farbige Kopfkarte (Kurz-Briefing, Die Woche in Kuerze) ---- */
+.hero { position: relative; border-radius: var(--radius); padding: 10px 14px 14px; margin: 0 0 14px; color: #fff; box-shadow: var(--shadow);
+  background: radial-gradient(120% 140% at 0% 0%, rgba(120,160,255,.38) 0%, rgba(120,160,255,0) 58%), linear-gradient(135deg, #182466 0%, #2f6bff 100%); }
+.hero-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 4px; }
+.hero-back { display: inline-flex; align-items: center; min-height: 34px; color: rgba(255,255,255,.88); text-decoration: none; font-weight: 600; font-size: .88rem; }
+.hero-back:hover { text-decoration: underline; }
+.hero h1 { color: #fff; font-size: 1.5rem; margin: 2px 0 4px; letter-spacing: -.01em; }
+.hero-meta { display: grid; gap: 2px; margin: 0 0 12px; color: rgba(255,255,255,.88); font-size: .86rem; }
+.hero-sub { color: rgba(255,255,255,.75); font-size: .8rem; }
+.hero .seg-wrap { width: auto; }
+.hero .seg-label { display: none; }
+.hero .seg { background: rgba(255,255,255,.16); border-color: rgba(255,255,255,.22); padding: 2px; border-radius: 11px; }
+.hero .seg-btn { color: rgba(255,255,255,.82); min-height: 32px; padding: 0 14px; }
+.hero .seg-btn:hover { color: #fff; }
+.hero .seg-btn[aria-pressed="true"] { background: #fff; color: #15245f; box-shadow: none; }
+.hero .daynav { width: 100%; margin: 0; background: rgba(255,255,255,.14); border-color: rgba(255,255,255,.24); }
+.hero .daynav .btn, .hero .daybtn, .hero .daynav .label { color: #fff; }
+.hero .daynav .btn:hover:not(:disabled), .hero .daybtn:hover, .hero .daybtn[aria-expanded="true"] { background: rgba(255,255,255,.16); }
+.hero .daybtn { width: 100%; justify-content: center; }
+.hero .daysel { flex: 1; }
+.hero .daybtn .caret { color: rgba(255,255,255,.75); }
+.hero .daynav .btn:disabled { opacity: .35; }
+.hero .stand::before { box-shadow: 0 0 0 2px rgba(255,255,255,.25); }
+@media (min-width: 720px) { .hero { padding: 14px 18px 18px; } .hero .daynav { width: fit-content; min-width: 360px; } .hero .daybtn { min-width: 200px; } }
+
+.logo-img { width: 30px; height: 30px; border-radius: 9px; display: block; flex: none; box-shadow: 0 1px 3px rgba(0,0,0,.3); }
