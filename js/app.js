@@ -907,6 +907,7 @@ async function viewBriefing(q) {
 
   render(
     bar,
+    h('a', { class: 'back-link', href: '#/' + (pos === 0 ? '' : 'tag/' + date) }, '\u2039 Alle Meldungen'),
     h('h1', null, 'Briefing'),
     h('div', { class: 'brief-switch' }, chipRow([['tag', 'Heute'], ['woche', 'Woche']], 'tag', (v) => { if (v === 'woche') go('/woche'); }, 'Ansicht')),
     h('p', { class: 'sub' }, `${dayLabel(date)} \u00B7 ca. ${minutes} Min${newN ? ` \u00B7 ${newN} neu seit deinem letzten Besuch` : ''}`, h('br'), h('span', { class: 'stand' + (stand.old ? ' old' : '') }, stand.text)),
@@ -989,6 +990,7 @@ async function viewWeek(q) {
   const title = (it) => h('a', { class: 'b-title', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, it.headline);
 
   render(
+    h('a', { class: 'back-link', href: '#/' }, '\u2039 Alle Meldungen'),
     h('h1', null, 'Wochenrückblick'),
     h('div', { class: 'brief-switch' }, chipRow([['tag', 'Heute'], ['woche', 'Woche']], 'woche', (v) => { if (v === 'tag') go('/briefing'); }, 'Ansicht')),
     h('p', { class: 'sub' }, `${items.length} Meldungen an ${days} ${days === 1 ? 'Tag' : 'Tagen'} · ca. ${minutes} Min`, running ? [h('br'), 'Die Woche läuft noch, es kommen weitere Meldungen dazu.'] : null),

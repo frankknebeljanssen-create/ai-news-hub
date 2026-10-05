@@ -529,3 +529,6 @@ details.filterbox > .filter-grid { margin: 0; }
 .brief-pair .brief-btn small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .brief-pair .brief-btn strong { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 @media (max-width: 719px) { .day-tools .brief-pair { order: -1; flex: none; } }
+
+.back-link { display: inline-flex; align-items: center; min-height: 36px; margin: 0 0 2px; color: var(--accent); font-weight: 600; font-size: .92rem; text-decoration: none; }
+.back-link:hover { text-decoration: underline; }
