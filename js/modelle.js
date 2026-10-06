@@ -2,7 +2,7 @@
 /* Daten: content/modelle.json. Diagramme sind reines SVG ohne Fremdbibliothek. */
 
 const MDL = { data: null, tab: 'steck', filter: '', metric: 'preis_out', scatterX: 'preis_out', scatterY: 'ai_index', donut: 'anbieter', cmp: [] };
-try { MDL.cmp = JSON.parse(localStorage.getItem('mdlCmp')) || []; } catch (e) { MDL.cmp = []; }
+try { MDL.cmp = (JSON.parse(localStorage.getItem('mdlCmp')) || []).slice(-4); } catch (e) { MDL.cmp = []; }
 
 const ANBIETER_FARBE = {
   Anthropic: '#d9774f', OpenAI: '#10a37f', Google: '#4285f4', xAI: '#7a7f87', Meta: '#00b8d9', Mistral: '#ff7a00',
@@ -165,7 +165,7 @@ function steckbrief(m) {
 }
 
 function toggleCmp(id) {
-  MDL.cmp = MDL.cmp.includes(id) ? MDL.cmp.filter((x) => x !== id) : [...MDL.cmp, id].slice(-5);
+  MDL.cmp = MDL.cmp.includes(id) ? MDL.cmp.filter((x) => x !== id) : [...MDL.cmp, id].slice(-4);
   try { localStorage.setItem('mdlCmp', JSON.stringify(MDL.cmp)); } catch (e) { /* ignorieren */ }
 }
 
@@ -174,7 +174,7 @@ function vergleich(models) {
   const sel = MDL.cmp.map((id) => models.find((m) => m.id === id)).filter(Boolean);
   const picker = h('div', { class: 'chips wrap', role: 'group', 'aria-label': 'Modelle auswählen' },
     models.map((m) => h('button', { class: 'chip', type: 'button', style: `--c:${mFarbe(m)}`, 'aria-pressed': String(MDL.cmp.includes(m.id)), onclick: () => { toggleCmp(m.id); redoModelle(); } }, m.name)));
-  if (sel.length < 2) return [h('p', { class: 'set-text' }, 'Wähle mindestens zwei Modelle (bis zu fünf) zum Vergleichen aus.'), picker];
+  if (sel.length < 2) return [h('p', { class: 'set-text' }, 'Wähle mindestens zwei Modelle (bis zu vier) zum Vergleichen aus.'), picker];
   const rows = [];
   let lastGrp = '';
   METRIKEN.forEach((me) => {
