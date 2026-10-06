@@ -144,9 +144,9 @@ function steckbrief(m) {
       h('div', null, h('h3', null, m.name), h('p', { class: 'mdl-sub' }, `${m.anbieter} · ${m.release ? m.release.split('-').reverse().join('/') : ''}`)),
       h('span', { class: 'badge' + (m.typ === 'open weights' ? ' open' : '') }, m.typ === 'open weights' ? 'Offene Gewichte' : 'Proprietär')),
     h('dl', { class: 'facts' },
-      fact('Kontextfenster', fmtTok(m.kontext)),
       fact('Preis Input', m.preis_in != null ? `${fmtUsd(m.preis_in)} je Mio` : '–'),
       fact('Preis Output', m.preis_out != null ? `${fmtUsd(m.preis_out)} je Mio` : '–'),
+      fact('Kontextfenster', fmtTok(m.kontext)),
       fact('Max. Ausgabe', fmtTok(m.max_output)),
       fact('Reasoning', m.reasoning === true ? 'Ja' : m.reasoning === false ? 'Nein' : m.reasoning ? String(m.reasoning) : '–'),
       fact('Wissensstand', m.wissensstand || '–'),
@@ -228,7 +228,7 @@ async function viewModelle() {
   redoModelle = () => { viewModelle(); };
   render(
     h('h1', null, 'Modelle'),
-    h('p', { class: 'sub' }, `Steckbriefe und Vergleich der wichtigsten KI-Modelle. Preise in USD je 1 Mio Token. Stand ${MDL.data.stand ? MDL.data.stand.split('-').reverse().join('.') : ''}.`),
+    h('p', { class: 'sub' }, `Stand ${MDL.data.stand ? MDL.data.stand.split('-').reverse().join('.') : ''}`),
     chipRow([['steck', 'Steckbriefe'], ['vergleich', 'Vergleich'], ['charts', 'Diagramme']], MDL.tab, (v) => { MDL.tab = v; viewModelle(); }, 'Ansicht'),
     selectField('Anbieter', [['', `Alle Anbieter (${all.length})`], ...anbieter.map((a) => [a, `${a} (${all.filter((m) => m.anbieter === a).length})`])], MDL.filter, (v) => { MDL.filter = v; viewModelle(); }),
     MDL.tab === 'steck' ? h('div', { class: 'mdl-grid' }, models.map(steckbrief)) : null,
