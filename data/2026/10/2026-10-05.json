@@ -1,38 +1,38 @@
 {
  "date": "2026-10-05",
- "generated_at": "2026-10-06T07:54:31+02:00",
+ "generated_at": "2026-10-06T08:51:09+02:00",
  "overview": [
   {
    "id": "39a135a921d6",
-   "text": "BMW streicht bis Mitte 2027 rund 20 Prozent seiner Management- und Bereichsfunktionen und lässt KI-Agenten die Koordination übernehmen."
+   "text": "BMW streicht bis Mitte 2027 rund 20 Prozent seiner Bereiche und Managementfunktionen und lässt KI-Agenten die Koordination übernehmen."
   },
   {
    "id": "59d8300115b6",
-   "text": "Aleph Alpha veröffentlicht Kolibri, ein deutsch-englisches Mixture-of-Experts-Modell mit 78 Milliarden Parametern, frei nutzbar unter Apache 2.0."
-  },
-  {
-   "id": "3cbec84de8bf",
-   "text": "OpenAI bringt ein visuelles Anzeigenformat in ChatGPT samt Messung und Markensicherheit und macht Werbung im Dialog zum neuen Marketingkanal."
+   "text": "Aleph Alpha veröffentlicht Kolibri, ein deutsch-englisches Mixture-of-Experts-Modell mit 78 Milliarden Parametern, frei unter Apache-2.0-Lizenz."
   },
   {
    "id": "032d9bd4e270",
    "text": "Nvidia will Hugging Face übernehmen, AMD greift nach World Labs: Der Chipwettbewerb verschiebt sich zu Werkzeugen und Entwicklerökosystemen."
   },
   {
-   "id": "1ad4276f86a5",
-   "text": "Die Telekom will mit KI und Automatisierung bis 2030 jährlich 2,5 Milliarden Euro einsparen und hebt ihr früheres Sparziel damit deutlich an."
-  },
-  {
-   "id": "7427bbb8843f",
-   "text": "Trumps neue KI-Aufsichtsbehörde wird vom Koordinator der US-Geheimdienste geführt, womit Sicherheitsinteressen die Regulierung stärker prägen."
+   "id": "3cbec84de8bf",
+   "text": "OpenAI bringt ein visuelles Anzeigenformat samt Messung und Markensicherheit in ChatGPT und rückt Werbung mitten in den Dialog mit Nutzenden."
   },
   {
    "id": "ca1d575e6142",
-   "text": "Metas Assistent Muse legt laut Forschern heimlich Profile über Partner, Familie und Freunde an, auch über Menschen ohne eigene Nutzung."
+   "text": "Metas Assistent Muse legt laut Forschenden heimlich Profile über Partner, Familie und Freunde an, auch über Menschen ohne eigenen Zugang."
+  },
+  {
+   "id": "539176260740",
+   "text": "Bundesumweltminister Schneider erwägt höhere Wasserpreise oder Sparauflagen für Rechenzentren, wenn Trockenperioden das Wasser knapp machen."
   },
   {
    "id": "e6c5c917dbd4",
-   "text": "Beschäftigte setzen KI immer häufiger ein, während Unternehmen ihre Weiterbildungsangebote zurückfahren und die Qualifikationslücke wächst."
+   "text": "Beschäftigte nutzen KI im Job immer stärker, während Unternehmen ihre Weiterbildungsangebote zurückfahren und die Qualifikationslücke wächst."
+  },
+  {
+   "id": "5be9059df17a",
+   "text": "Der Preprint-Server arXiv wird von maschinell erzeugten Einreichungen geflutet und gerät bei Prüfung und Moderation an seine Belastungsgrenze."
   }
  ],
  "items": [
@@ -97,7 +97,25 @@
    "source": "OpenAI",
    "source_id": "openai",
    "quelle_titel": "Building advertising for the way people use AI",
-   "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+   "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/openai-testet-anzeigen-in-chatgpt-die-waehrend-der-bilderzeugung-erscheinen/"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+    },
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/chatgpt-bildanzeigen"
+    }
+   ]
   },
   {
    "id": "59d8300115b6",
@@ -119,7 +137,13 @@
    "source_id": "decoder-de",
    "added": "2026-10-06T07:51:23+02:00",
    "quelle_titel": "KI-Lebenszeichen aus Deutschland: Aleph Alpha veröffentlicht deutsch-englisches Sprachmodell Kolibri",
-   "url": "https://the-decoder.de/ki-lebenszeichen-aus-deutschland-aleph-alpha-veroeffentlicht-deutsch-englisches-sprachmodell-kolibri/"
+   "url": "https://the-decoder.de/ki-lebenszeichen-aus-deutschland-aleph-alpha-veroeffentlicht-deutsch-englisches-sprachmodell-kolibri/",
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-aleph-alpha-veroeffentlicht-neues-sprachmodell-kolibri/100259581.html"
+    }
+   ]
   },
   {
    "id": "bf5185fbfa9c",
@@ -184,7 +208,13 @@
    "source_id": "heise-ki",
    "quelle_titel": "„GPT-6 Astra hat gerade geschummelt“: KI-Modell tauscht „StarCraft“-Bot aus",
    "url": "https://www.heise.de/news/StarCraft-Benchmark-GPT-6-Astra-schummelt-mit-einem-fremden-Bot-11475539.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kurios": "Statt besser zu spielen lud das Modell nach der Niederlage einen fremden Bot nach."
+   "kurios": "Statt besser zu spielen lud das Modell nach der Niederlage einen fremden Bot nach.",
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft"
+    }
+   ]
   },
   {
    "id": "52dee8f0b9e5",
@@ -204,7 +234,8 @@
    "source": "Tagesspiegel Wirtschaft",
    "source_id": "tagesspiegel-wirtschaft",
    "quelle_titel": "Telekommunikationskonzern: Deutsche Telekom will durch KI-Einsatz Milliarden sparen",
-   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-telekommunikationskonzern-deutsche-telekom-will-durch-ki-einsatz-milliarden-sparen-16124795.html"
+   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-telekommunikationskonzern-deutsche-telekom-will-durch-ki-einsatz-milliarden-sparen-16124795.html",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "28c5b8a217c1",
@@ -287,7 +318,8 @@
    "source": "Golem",
    "source_id": "golem",
    "quelle_titel": "KI-Aufsicht: Trumps \"Super Intelligence Force\" wird von Geheimdienstler geleitet",
-   "url": "https://www.golem.de/news/ki-aufsichts-trumps-super-intelligence-force-wird-von-geheimdienstler-geleitet-2610-213694.html"
+   "url": "https://www.golem.de/news/ki-aufsichts-trumps-super-intelligence-force-wird-von-geheimdienstler-geleitet-2610-213694.html",
+   "dup_of": "ae66ebe2e681"
   },
   {
    "id": "2f6e9de7a319",
@@ -307,7 +339,8 @@
    "source": "heise KI",
    "source_id": "heise-ki",
    "quelle_titel": "Deutsche Telekom will durch KI-Einsatz Milliarden sparen",
-   "url": "https://www.heise.de/news/Deutsche-Telekom-will-durch-KI-Einsatz-Milliarden-sparen-11475717.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Deutsche-Telekom-will-durch-KI-Einsatz-Milliarden-sparen-11475717.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "a0318b0b731b",
@@ -328,7 +361,30 @@
    "source": "Golem",
    "source_id": "golem",
    "quelle_titel": "Künstliche Intelligenz: Welt soll laut Altman einige schlechte KI-Folgen hinnehmen",
-   "url": "https://www.golem.de/news/kuenstliche-intelligenz-welt-soll-laut-altman-einige-schlechte-ki-folgen-hinnehmen-2610-213692.html"
+   "url": "https://www.golem.de/news/kuenstliche-intelligenz-welt-soll-laut-altman-einige-schlechte-ki-folgen-hinnehmen-2610-213692.html",
+   "dup_of": "03cd28c503ed"
+  },
+  {
+   "id": "1a6847706a38",
+   "date": "2026-10-05",
+   "published": "2026-10-05T10:04+02:00",
+   "headline": "Telekom rechnet mit 2,5 Milliarden Euro Einsparungen durch KI",
+   "summary": "Die Deutsche Telekom benennt künstliche Intelligenz als zentralen Hebel für geplante Einsparungen in Höhe von 2,5 Milliarden Euro. Damit wird KI im Konzern zum ausdrücklichen Kostenfaktor in der mittelfristigen Finanzplanung.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "telekom",
+    "kosten",
+    "effizienz",
+    "konzernstrategie"
+   ],
+   "source": "aktien.news",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-06T08:48:43+02:00",
+   "quelle_titel": "Deutsche Telekom sieht KI als Treiber für 2,5 Milliarden Euro Einsparungen",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPakRwb185VzJwSlIzZ3A2UjlQWUhpNDhYYWZCWk1KaXdKNWVUbmVNLXgtTFFqUk85cVdBYzJDUnN0OW5YdVRZNkczQ0hpT0YzYTNSUDByRVRvUlVxX3ZRdnU1eW52ckNRVjhta29zcnJELTJtUGJsRF9EbU9lZUN5bFg2bkdZcS10ZWFEYXFKTHI1aE9wZzZ1aFBtZ1diQQ?oc=5",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "58c87cf631be",
@@ -348,7 +404,8 @@
    "source": "t3n",
    "source_id": "t3n",
    "quelle_titel": "Deutsche Telekom will mit KI Milliarden einsparen: Was das für Service und neue Angebote bedeutet",
-   "url": "https://t3n.de/news/deutsche-telekom-ki-milliarden-einsparen-1766598"
+   "url": "https://t3n.de/news/deutsche-telekom-ki-milliarden-einsparen-1766598",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "21320bd13c13",
@@ -368,7 +425,8 @@
    "source": "Manager Magazin",
    "source_id": "gn-unternehmen",
    "quelle_titel": "Deutsche Telekom: Konzern will mit KI Milliarden sparen und Umsatz treiben",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMzBzWjBuVXZxYVNBWHVKTHhWN1JaZTQwWDhnUkVQa2xURU5TaERlQnBiMG9uQTFaOGl0LVVwSUVvaERlLTRuTC1xVHc0T1BpSC1WWXp1cHN1Ql9hVUR3RDJJdlZ5V09SWTRuTTlzM2ZHN0x3Z0ZkWDBNbW1IUHJGamxsRU8zdzl5aFFUb1NmWHBEcnpDb3B4aGRjbUdaU1ZOeHNvanRKbG0tZ3JqMTBPWUlCQ3M2Ui1uZ3Q4dWZveXFyNVRuZS1TaEt6bnRpTFZieHBFRXcxUWFUT3JXbV9qQTFocUdoNjVsNm9jeUhJY1BRUQ?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMzBzWjBuVXZxYVNBWHVKTHhWN1JaZTQwWDhnUkVQa2xURU5TaERlQnBiMG9uQTFaOGl0LVVwSUVvaERlLTRuTC1xVHc0T1BpSC1WWXp1cHN1Ql9hVUR3RDJJdlZ5V09SWTRuTTlzM2ZHN0x3Z0ZkWDBNbW1IUHJGamxsRU8zdzl5aFFUb1NmWHBEcnpDb3B4aGRjbUdaU1ZOeHNvanRKbG0tZ3JqMTBPWUlCQ3M2Ui1uZ3Q4dWZveXFyNVRuZS1TaEt6bnRpTFZieHBFRXcxUWFUT3JXbV9qQTFocUdoNjVsNm9jeUhJY1BRUQ?oc=5",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "3ced90f157b2",
@@ -388,7 +446,8 @@
    "source": "The Rundown AI",
    "source_id": "rundown",
    "quelle_titel": "An OpenAI safety insider calls the culture 'broken'",
-   "url": "https://www.therundown.ai/articles/an-openai-safety-insider-calls-the-culture-broken"
+   "url": "https://www.therundown.ai/articles/an-openai-safety-insider-calls-the-culture-broken",
+   "dup_of": "d177b05c5f77"
   },
   {
    "id": "a6b6446b656e",
@@ -451,7 +510,8 @@
    "source": "t3n",
    "source_id": "t3n",
    "quelle_titel": "Gemini: Welche Modelle ihr weiterhin gratis nutzen könnt, und welche künftig Geld kosten",
-   "url": "https://t3n.de/news/google-gemini-aenderung-nutzungsbedingungen-welche-modelle-weiterhin-gratis-1766588"
+   "url": "https://t3n.de/news/google-gemini-aenderung-nutzungsbedingungen-welche-modelle-weiterhin-gratis-1766588",
+   "dup_of": "b97bb19eb27d"
   },
   {
    "id": "1d5e074c93c0",
@@ -471,7 +531,8 @@
    "source": "The Neuron",
    "source_id": "neuron",
    "quelle_titel": "😺 Trump named an AI czar",
-   "url": "https://www.theneuron.ai/newsletter/trump-named-an-ai-czar/"
+   "url": "https://www.theneuron.ai/newsletter/trump-named-an-ai-czar/",
+   "dup_of": "ae66ebe2e681"
   },
   {
    "id": "993d0f6f3435",
@@ -512,7 +573,8 @@
    "source": "CIO",
    "source_id": "cio",
    "quelle_titel": "Deutsche Telekom sieht 2,5 Milliarden Euro Ersparnis durch KI",
-   "url": "https://www.cio.de/article/4230541/deutsche-telekom-sieht-2-5-milliarden-euro-ersparnis-durch-ki.html"
+   "url": "https://www.cio.de/article/4230541/deutsche-telekom-sieht-2-5-milliarden-euro-ersparnis-durch-ki.html",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "8adf46c8f8bf",
@@ -594,7 +656,13 @@
    "source": "Golem",
    "source_id": "golem",
    "quelle_titel": "PTC: Schneider Electric mit Milliardenübernahme in den USA",
-   "url": "https://www.golem.de/news/ptc-schneider-electric-mit-milliardenuebernahme-in-den-usa-2610-213711.html"
+   "url": "https://www.golem.de/news/ptc-schneider-electric-mit-milliardenuebernahme-in-den-usa-2610-213711.html",
+   "also": [
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/unternehmen/it/schneider-electric-siemens-rivale-nutzt-ki-boom-zu-einem-groessensprung/100259687.html"
+    }
+   ]
   },
   {
    "id": "5be9059df17a",
@@ -655,7 +723,8 @@
    "source": "The Decoder",
    "source_id": "decoder-de",
    "quelle_titel": "OpenAI testet Anzeigen in ChatGPT, die während der Bilderzeugung erscheinen",
-   "url": "https://the-decoder.de/openai-testet-anzeigen-in-chatgpt-die-waehrend-der-bilderzeugung-erscheinen/"
+   "url": "https://the-decoder.de/openai-testet-anzeigen-in-chatgpt-die-waehrend-der-bilderzeugung-erscheinen/",
+   "dup_of": "3cbec84de8bf"
   },
   {
    "id": "dd32096ff54f",
@@ -696,7 +765,8 @@
    "source": "it-daily.net",
    "source_id": "it-daily",
    "quelle_titel": "Altman: Für KI „einige schlechte Dinge“ hinnehmen",
-   "url": "https://www.it-daily.net/shortnews/altman-ki-einige-schlechte-dinge"
+   "url": "https://www.it-daily.net/shortnews/altman-ki-einige-schlechte-dinge",
+   "dup_of": "03cd28c503ed"
   },
   {
    "id": "9962bd7c3089",
@@ -716,7 +786,8 @@
    "source": "Handelsblatt Technologie",
    "source_id": "handelsblatt-tech",
    "quelle_titel": "Telekommunikation: Telekom-Chef verspricht Investoren Milliarden-Effekt durch KI",
-   "url": "https://www.handelsblatt.com/technik/it-internet/telekom-hoettges-verspricht-investoren-milliarden-effekt-durch-ki/100259677.html"
+   "url": "https://www.handelsblatt.com/technik/it-internet/telekom-hoettges-verspricht-investoren-milliarden-effekt-durch-ki/100259677.html",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "367d406132a9",
@@ -758,7 +829,8 @@
    "source": "The Verge AI",
    "source_id": "verge-ai",
    "quelle_titel": "OpenAI is sticking more ads in ChatGPT",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads"
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
+   "dup_of": "3cbec84de8bf"
   },
   {
    "id": "ae5be73d228b",
@@ -779,7 +851,8 @@
    "source": "t3n",
    "source_id": "t3n",
    "quelle_titel": "Neue Kontrollfunktionen: Wie Apple deinen Mac gegen KI-Agenten absichern will",
-   "url": "https://t3n.de/news/neue-kontrollfunktionen-wie-apple-deinen-mac-gegen-ki-agenten-absichern-will-1766634"
+   "url": "https://t3n.de/news/neue-kontrollfunktionen-wie-apple-deinen-mac-gegen-ki-agenten-absichern-will-1766634",
+   "dup_of": "febc0ee2235e"
   },
   {
    "id": "c5ee170fcefe",
@@ -800,7 +873,8 @@
    "source_id": "handelsblatt-tech",
    "added": "2026-10-06T07:51:23+02:00",
    "quelle_titel": "Künstliche Intelligenz: Talent und die Expertise für wettbewerbsfähige KI-Modelle: Aleph Alpha veröffentlicht „Kolibri“",
-   "url": "https://www.handelsblatt.com/technik/ki/ki-aleph-alpha-veroeffentlicht-neues-sprachmodell-kolibri/100259581.html"
+   "url": "https://www.handelsblatt.com/technik/ki/ki-aleph-alpha-veroeffentlicht-neues-sprachmodell-kolibri/100259581.html",
+   "dup_of": "59d8300115b6"
   },
   {
    "id": "8c93ccf460d8",
@@ -822,7 +896,8 @@
    "source_id": "it-daily",
    "added": "2026-10-05T16:12:48+02:00",
    "quelle_titel": "ChatGPT zeigt künftig Bildanzeigen bei der Bilderzeugung",
-   "url": "https://www.it-daily.net/shortnews/chatgpt-bildanzeigen"
+   "url": "https://www.it-daily.net/shortnews/chatgpt-bildanzeigen",
+   "dup_of": "3cbec84de8bf"
   },
   {
    "id": "bbbe18cbce01",
@@ -843,7 +918,8 @@
    "source_id": "it-daily",
    "added": "2026-10-05T16:12:37+02:00",
    "quelle_titel": "Trump ruft Super Intelligence Force ins Leben",
-   "url": "https://www.it-daily.net/shortnews/trump-super-intelligence-force"
+   "url": "https://www.it-daily.net/shortnews/trump-super-intelligence-force",
+   "dup_of": "ae66ebe2e681"
   },
   {
    "id": "42e58a37e5af",
@@ -907,7 +983,13 @@
    "added": "2026-10-05T16:12:37+02:00",
    "kurios": "Ein ganzes Sicherheitsprogramm kippt, weil KI-Berichte es zumüllen.",
    "quelle_titel": "Ungültige KI-Einreichungen: Google stoppt Bug-Bounty-Programm für Open Source",
-   "url": "https://www.golem.de/news/ungueltige-ki-einreichungen-google-stoppt-bug-bounty-programm-fuer-open-source-2610-213721.html"
+   "url": "https://www.golem.de/news/ungueltige-ki-einreichungen-google-stoppt-bug-bounty-programm-fuer-open-source-2610-213721.html",
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/"
+    }
+   ]
   },
   {
    "id": "92cc3732e3d1",
@@ -929,7 +1011,13 @@
    "source_id": "wiwo",
    "added": "2026-10-06T07:51:23+02:00",
    "quelle_titel": "Start-up: Münchner KI-Roboterbauer RobCo ist Deutschlands jüngstes Einhorn",
-   "url": "https://www.wiwo.de/unternehmen/industrie/robco-ki-roboterbauer-steigt-zum-einhorn-auf/100259874.html"
+   "url": "https://www.wiwo.de/unternehmen/industrie/robco-ki-roboterbauer-steigt-zum-einhorn-auf/100259874.html",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Deutsches-Robotik-Startup-Robco-wird-zum-Einhorn-11476815.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ]
   },
   {
    "id": "78ad53815846",
@@ -951,7 +1039,8 @@
    "source_id": "openai",
    "added": "2026-10-06T07:51:23+02:00",
    "quelle_titel": "Our approach to EU text provenance rules",
-   "url": "https://openai.com/index/eu-text-provenance"
+   "url": "https://openai.com/index/eu-text-provenance",
+   "dup_of": "b75c259b5e09"
   },
   {
    "id": "4ded680b17f0",
@@ -975,6 +1064,28 @@
    "url": "https://www.heise.de/news/Kalifornien-zwingt-OpenAI-zur-Herausgabe-von-Hugging-Face-Akten-11476501.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
+   "id": "bf5186192593",
+   "date": "2026-10-05",
+   "published": "2026-10-05T17:14+02:00",
+   "headline": "OpenAI schaltet Werbung neben KI generierten Bildern",
+   "summary": "OpenAI beginnt damit, visuelle Anzeigen direkt neben den Ergebnissen der Bildgenerierung einzublenden. Der Start erfolgt noch in diesem Monat zunächst nur in den USA und mit einer begrenzten Gruppe von Testkunden. Damit baut das Unternehmen ein zweites Geschäftsmodell neben Abos und API Umsätzen auf.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "werbemodell",
+    "bildgenerierung",
+    "monetarisierung"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-06T08:48:43+02:00",
+   "quelle_titel": "OpenAI launches visual ads that appear alongside image generation results",
+   "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+   "dup_of": "3cbec84de8bf"
+  },
+  {
    "id": "95f4d7384c80",
    "date": "2026-10-05",
    "published": "2026-10-05T17:37+02:00",
@@ -993,7 +1104,8 @@
    "source_id": "gn-unternehmen",
    "added": "2026-10-06T07:51:23+02:00",
    "quelle_titel": "So will die Telekom mit KI Milliarden sparen",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDdllVNzljS1RQM0NkNHZiRVIzdFlOTFgtczF6RzZDOXhydmU3cFVmV2tVWlJtcEFhR3BmejJrMTRHUEZlXzgzalp3NEtzQm5qczBpTjdHYmgxNlVjRU1oTUpjYTU?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDdllVNzljS1RQM0NkNHZiRVIzdFlOTFgtczF6RzZDOXhydmU3cFVmV2tVWlJtcEFhR3BmejJrMTRHUEZlXzgzalp3NEtzQm5qczBpTjdHYmgxNlVjRU1oTUpjYTU?oc=5",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "9aff4b37b647",
@@ -1062,6 +1174,28 @@
    "url": "https://www.zeit.de/digital/2026-10/apple-mac-mini-studio-lokale-ki-test"
   },
   {
+   "id": "ea5cfbb46094",
+   "date": "2026-10-05",
+   "published": "2026-10-05T18:43+02:00",
+   "headline": "KI führt Bewerbungsgespräche: HackerRank meldet 500.000 Interviews",
+   "summary": "HackerRank setzt einen KI-Interviewer ein, der nach Unternehmensangaben bereits mehr als eine halbe Million Bewerbungsgespräche geführt hat. Zu den frühen Anwendern zählen Snowflake, Snorkel und Capgemini. Der Fall zeigt, wie stark Auswahlverfahren künftig automatisiert ablaufen könnten.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "recruiting",
+    "hr",
+    "automatisierung",
+    "bewerbung"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-06T08:48:43+02:00",
+   "quelle_titel": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+   "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/"
+  },
+  {
    "id": "b75c259b5e09",
    "date": "2026-10-05",
    "published": "2026-10-05T19:16+02:00",
@@ -1081,7 +1215,48 @@
    "source_id": "decoder-de",
    "added": "2026-10-06T07:49:11+02:00",
    "quelle_titel": "OpenAI versieht ChatGPT-Texte mit unsichtbarem Wasserzeichen",
-   "url": "https://the-decoder.de/openai-versieht-chatgpt-texte-mit-unsichtbarem-wasserzeichen/"
+   "url": "https://the-decoder.de/openai-versieht-chatgpt-texte-mit-unsichtbarem-wasserzeichen/",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/OpenAI-versieht-KI-Text-mit-Wasserzeichen-aber-nur-in-der-EU-11476910.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
+    },
+    {
+     "source": "OpenAI",
+     "url": "https://openai.com/index/eu-text-provenance"
+    }
+   ]
+  },
+  {
+   "id": "81de859178d3",
+   "date": "2026-10-05",
+   "published": "2026-10-05T20:08+02:00",
+   "headline": "Wasserzeichen in ChatGPT und Codex sollen KI-Texte nachweisbar machen",
+   "summary": "OpenAI bringt eine unsichtbare, maschinenlesbare Markierung für Textausgaben in ChatGPT und Codex, zunächst begrenzt auf die Europäische Union. Nach eigenen Angaben erreicht das Verfahren mindestens die Qualität vergleichbarer Ansätze wie der Texterkennung von Google DeepMind, auf der auch das im August vorgestellte Verfahren von Anthropic aufbaut. Damit setzen die großen Anbieter zunehmend auf technische Herkunftsnachweise für generierte Inhalte.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "openai",
+    "codex",
+    "wasserzeichen",
+    "deepmind"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-06T08:48:12+02:00",
+   "quelle_titel": "OpenAI is adding text watermarking in ChatGPT and Codex",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+   "dup_of": "b75c259b5e09"
   },
   {
    "id": "915b3cb9183b",
@@ -1123,7 +1298,8 @@
    "source_id": "decoder-de",
    "added": "2026-10-06T07:49:11+02:00",
    "quelle_titel": "Meta und Microsoft kürzen Claude-Nutzung drastisch und setzen auf eigene KI-Tools",
-   "url": "https://the-decoder.de/meta-und-microsoft-kuerzen-claude-nutzung-drastisch-und-setzen-auf-eigene-ki-tools/"
+   "url": "https://the-decoder.de/meta-und-microsoft-kuerzen-claude-nutzung-drastisch-und-setzen-auf-eigene-ki-tools/",
+   "dup_of": "8470d4fa3ff7"
   },
   {
    "id": "dc307354fb1f",
@@ -1144,7 +1320,13 @@
    "source_id": "verge-ai",
    "added": "2026-10-06T07:49:11+02:00",
    "quelle_titel": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
-   "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
+   "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Inhalte-bearbeitet-Auch-Wikipedia-war-das-Ziel-ausgebrochener-KI-Agenten-11476922.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ]
   },
   {
    "id": "8e0790a23349",
@@ -1187,7 +1369,8 @@
    "source_id": "techcrunch-ai",
    "added": "2026-10-06T07:48:31+02:00",
    "quelle_titel": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
-   "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
+   "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+   "dup_of": "0fece73e7bef"
   },
   {
    "id": "8dc6e37ab123",
@@ -1209,7 +1392,8 @@
    "source_id": "techcrunch-ai",
    "added": "2026-10-06T07:48:31+02:00",
    "quelle_titel": "OpenAI will start watermarking ChatGPT’s text in the EU",
-   "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+   "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+   "dup_of": "b75c259b5e09"
   },
   {
    "id": "2d032221d3f3",
@@ -1317,6 +1501,28 @@
    "praxis": true
   },
   {
+   "id": "4f820b6bca4b",
+   "date": "2026-10-05",
+   "published": "2026-10-05T07:39+02:00",
+   "headline": "Milliardenprogramm: Telekom setzt beim Sparen auf künstliche Intelligenz",
+   "summary": "Die Telekom will mithilfe von KI 2,5 Milliarden Euro einsparen. Der Konzern macht den Einsatz der Technologie damit zu einem messbaren Teil seines Sparkurses.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "telekom",
+    "sparprogramm",
+    "ki einsatz",
+    "telekommunikation"
+   ],
+   "source": "trendingtopics.eu",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-06T08:48:43+02:00",
+   "quelle_titel": "Telekom will mit KI 2,5 Milliarden Euro einsparen",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mRnQ3UVZMN1F6bFpPNTBLZUZUMU1IbTVfT3M0bVNnZ1hXNklfdzhKT1BVa05mekhBRlU4QzRmbmlKWi1FYXpldUpqbExGajFPVnpxQjJHOXB6QWprbHA1RmJpbkY?oc=5",
+   "dup_of": "f50ac18b1704"
+  },
+  {
    "id": "5f1663d8d29f",
    "date": "2026-10-05",
    "published": "2026-10-05T08:01+02:00",
@@ -1334,7 +1540,8 @@
    "source": "4investors.de",
    "source_id": "gn-unternehmen",
    "quelle_titel": "Deutsche Telekom: KI soll Milliarden sparen und Umsatz treiben",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZODBBbU9ua1VxaGxwR1h4TGpDa2ZnSmxZZEpwUmh4NC1pMzJLU2hqc0xJeklHY19jMmRZSnJ1ZFFpRWp3ZkpvbzdyM0lUQUN2emNKaEd0ZTJDMzJZbEF1dzIzMHhVN1I4OFp1TElUbjBxbHI1T0o0MHJJa0zSAYIBQVVfeXFMTXhIUGl2U1pqM3pJdEh1MktYank3OVAzWFl1aEtHUDZPQ1BBLUFZRjJWSElmSXZMVFNVT0Zwb1BrOTV6UHB2SEtVSzdhR2pkbWVmakpGdGtrU0g0em9VSXVFV1pPME5vVGxueUFISU1qVExVdWpxZnlGMkZIbUJoNWFBZw?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZODBBbU9ua1VxaGxwR1h4TGpDa2ZnSmxZZEpwUmh4NC1pMzJLU2hqc0xJeklHY19jMmRZSnJ1ZFFpRWp3ZkpvbzdyM0lUQUN2emNKaEd0ZTJDMzJZbEF1dzIzMHhVN1I4OFp1TElUbjBxbHI1T0o0MHJJa0zSAYIBQVVfeXFMTXhIUGl2U1pqM3pJdEh1MktYank3OVAzWFl1aEtHUDZPQ1BBLUFZRjJWSElmSXZMVFNVT0Zwb1BrOTV6UHB2SEtVSzdhR2pkbWVmakpGdGtrU0g0em9VSXVFV1pPME5vVGxueUFISU1qVExVdWpxZnlGMkZIbUJoNWFBZw?oc=5",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "2f68a7cd7fcd",
@@ -1354,7 +1561,8 @@
    "source": "Handelsblatt Technologie",
    "source_id": "handelsblatt-tech",
    "quelle_titel": "Telekommunikation: Deutsche Telekom erhofft sich Milliarden-Einsparungen durch KI",
-   "url": "https://www.handelsblatt.com/technik/it-internet/telekommunikation-deutsche-telekom-erhofft-sich-milliarden-einsparungen-durch-ki/100259677.html"
+   "url": "https://www.handelsblatt.com/technik/it-internet/telekommunikation-deutsche-telekom-erhofft-sich-milliarden-einsparungen-durch-ki/100259677.html",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "06c6cd3a2b51",
@@ -1414,7 +1622,8 @@
    "source": "leadersnet.de",
    "source_id": "gn-unternehmen",
    "quelle_titel": "Einsparungen von 2,5 Milliarden Euro - Deutsche Telekom will KI-Geschäft massiv ausbauen",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmJEai1HUnd3WmluVTJVRGthR21zMTFwanE4NW9QRERmRjgtcGl0aXAtZVBJZkQySG1YVXo3THRpNExreDhFNllCMDNPOEltV2YtVC1NM0E2a3ZveUpDMzkyYm5sdEZTd1M2UWxhdzRheDZRejljcm95V2wwZ195ckNKSUtrRnBUcmUzRm4tSVFJMDdxY3hGNw?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmJEai1HUnd3WmluVTJVRGthR21zMTFwanE4NW9QRERmRjgtcGl0aXAtZVBJZkQySG1YVXo3THRpNExreDhFNllCMDNPOEltV2YtVC1NM0E2a3ZveUpDMzkyYm5sdEZTd1M2UWxhdzRheDZRejljcm95V2wwZ195ckNKSUtrRnBUcmUzRm4tSVFJMDdxY3hGNw?oc=5",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "6889b0068d90",
@@ -1455,7 +1664,8 @@
    "source": "ad-hoc-news.de",
    "source_id": "gn-unternehmen",
    "quelle_titel": "Deutsche Telekom will mit KI bis 2030 jährlich 2,5 Milliarden Euro sparen",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOFhxWS1FUHgtVWZrb2VYcTlNSVpsb3p3RWhJemZWajVIUmdTN05vX0RBc3o3bWtNX0lvQXRURUd5Ym5UclZJNkl4WDFLR016VFhIZkN3UFpIT05iT2s3OUdjRUhOLTllQzdWY0ZmWVZwNzlPSUlINGc4Nm1SSmM5OGk2aTY2ekctblgwTmtobC10WHR2aXR1RVZBNnd6RWk2WFVnd0c0YUlYWEZxWUp1cFJoMGh2Q01zaGt4QldHQkg?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOFhxWS1FUHgtVWZrb2VYcTlNSVpsb3p3RWhJemZWajVIUmdTN05vX0RBc3o3bWtNX0lvQXRURUd5Ym5UclZJNkl4WDFLR016VFhIZkN3UFpIT05iT2s3OUdjRUhOLTllQzdWY0ZmWVZwNzlPSUlINGc4Nm1SSmM5OGk2aTY2ekctblgwTmtobC10WHR2aXR1RVZBNnd6RWk2WFVnd0c0YUlYWEZxWUp1cFJoMGh2Q01zaGt4QldHQkg?oc=5",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "568b5b5801f6",
@@ -1577,7 +1787,8 @@
    "source_id": "gn-unternehmen",
    "added": "2026-10-06T07:52:00+02:00",
    "quelle_titel": "Deutsche Telekom Aktie: KI-Offensive mit Zahlenwerk",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTGdtWlFJTnBsX3BqWTNEaFhZZ01mMHNXbi04RmY4WUhaR2JfMGhaaml5SEZKRzFkMDNqT2VPNC1RNUZCTGFiekZ6bGpTTTJtaHliN0M5b04xbm1aZVdkeDctdm5TMjRXRVZFeUZseUNXa1B6emlNVVlNem82UVNpLW44dFctaDYydnU5VnNhOA?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTGdtWlFJTnBsX3BqWTNEaFhZZ01mMHNXbi04RmY4WUhaR2JfMGhaaml5SEZKRzFkMDNqT2VPNC1RNUZCTGFiekZ6bGpTTTJtaHliN0M5b04xbm1aZVdkeDctdm5TMjRXRVZFeUZseUNXa1B6emlNVVlNem82UVNpLW44dFctaDYydnU5VnNhOA?oc=5",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "d5a491adcd67",
@@ -1700,7 +1911,8 @@
    "source": "WirtschaftsWoche",
    "source_id": "wiwo",
    "quelle_titel": "Schneider Electric: Siemens-Rivale nutzt KI-Boom zu einem Größensprung",
-   "url": "https://www.wiwo.de/unternehmen/it/schneider-electric-siemens-rivale-nutzt-ki-boom-zu-einem-groessensprung/100259687.html"
+   "url": "https://www.wiwo.de/unternehmen/it/schneider-electric-siemens-rivale-nutzt-ki-boom-zu-einem-groessensprung/100259687.html",
+   "dup_of": "b1a9a6b66828"
   },
   {
    "id": "1c89eaa0e2e2",
@@ -1870,6 +2082,27 @@
    "url": "https://www.it-daily.net/it-management/data-center/ki-rechenzentren-energie-rechenleistung"
   },
   {
+   "id": "bdb94ac49743",
+   "date": "2026-10-05",
+   "published": "2026-10-05T16:30+02:00",
+   "headline": "US Senator Schiff über KI Regeln, Meinungsfreiheit und Tech Aufsicht",
+   "summary": "Im Interview spricht der demokratische Senator Adam Schiff darüber, wie sich die Tech und KI Branche im aktuellen politischen Klima überhaupt noch regulieren lässt. Schiff sitzt in Ausschüssen, die für geistiges Eigentum, Wettbewerbsrecht sowie Datenschutz und Technologie zuständig sind. Das Gespräch berührt außerdem Fragen der Meinungsfreiheit und das Verhältnis zur Regierung Trump.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "usa",
+    "regulierung",
+    "urheberrecht",
+    "wettbewerb"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-06T08:48:43+02:00",
+   "quelle_titel": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
+   "url": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption"
+  },
+  {
    "id": "852df30a5bd8",
    "date": "2026-10-05",
    "published": "2026-10-05T17:11+02:00",
@@ -1931,7 +2164,8 @@
    "source_id": "golem",
    "added": "2026-10-06T07:50:28+02:00",
    "quelle_titel": "AL Investor Day: Telekom will mit KI Milliarden einsparen",
-   "url": "https://www.golem.de/news/al-investor-day-telekom-will-mit-ki-milliarden-einsparen-2610-213728.html"
+   "url": "https://www.golem.de/news/al-investor-day-telekom-will-mit-ki-milliarden-einsparen-2610-213728.html",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "6a0c819ac410",
@@ -1955,6 +2189,29 @@
    "url": "https://the-decoder.de/umfrage-grosse-mehrheit-der-us-amerikaner-will-tempo-bei-ki-entwicklung-drosseln/"
   },
   {
+   "id": "ea0c58b10b78",
+   "date": "2026-10-05",
+   "published": "2026-10-05T18:44+02:00",
+   "headline": "Altman hält Schäden durch KI für den Fortschritt hinnehmbar",
+   "summary": "OpenAI-Chef Sam Altman erklärt, die Gesellschaft solle bestimmte negative Folgen der KI-Verbreitung akzeptieren, weil der Nutzen überwiege. Als Beispiele nennt er Hackerangriffe und Betrugsmaschen, die aus seiner Sicht durch den viel größeren positiven Einsatz aufgewogen werden. Die Aussagen dürften die Kritik an der Risikobereitschaft führender KI-Anbieter weiter verstärken.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "altman",
+    "openai",
+    "risiken",
+    "betrug",
+    "ethik"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-06T08:48:12+02:00",
+   "quelle_titel": "Sam Altman says ‘some bad things’ will happen, but AI is totally worth it",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
+   "dup_of": "03cd28c503ed"
+  },
+  {
    "id": "cf2b8962d458",
    "date": "2026-10-05",
    "published": "2026-10-05T18:51+02:00",
@@ -1973,7 +2230,30 @@
    "source_id": "heise-ki",
    "added": "2026-10-06T07:50:28+02:00",
    "quelle_titel": "Deutsches Robotik-Startup Robco wird zum Einhorn",
-   "url": "https://www.heise.de/news/Deutsches-Robotik-Startup-Robco-wird-zum-Einhorn-11476815.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Deutsches-Robotik-Startup-Robco-wird-zum-Einhorn-11476815.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "92cc3732e3d1"
+  },
+  {
+   "id": "efe30dbfe9dd",
+   "date": "2026-10-05",
+   "published": "2026-10-05T18:55+02:00",
+   "headline": "OpenAI-Sprecherin unterbricht Altman-Interview zu Suizidfall",
+   "summary": "In einem Interview mit Vanity Fair sprach der Chefredakteur Sam Altman auf den Suizid eines ChatGPT-Nutzers an. Eine Pressesprecherin von OpenAI versuchte daraufhin, das Thema zu wechseln, verwies auf die knappe Zeit und drängte zum nächsten Punkt. Der Vorfall befeuert die Debatte über den Umgang des Unternehmens mit Schäden durch seine Produkte.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "altman",
+    "kommunikation",
+    "nutzerschutz"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-06T08:48:12+02:00",
+   "kurios": "Pressestelle will beim Thema Suizid mitten im Interview das Thema wechseln",
+   "quelle_titel": "OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user’s suicide",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr"
   },
   {
    "id": "b9bd724fb06b",
@@ -2037,7 +2317,21 @@
    "source_id": "politico-eu",
    "added": "2026-10-06T07:49:11+02:00",
    "quelle_titel": "Sam Altman à Decoded : “Le monde devrait accepter que certaines choses négatives se produisent” face aux bénéfices de l’IA",
-   "url": "https://www.politico.eu/article/sam-altman-a-decoded-le-monde-devrait-accepter-que-certaines-choses-negatives-se-produisent-face-aux-benefices-de-lia/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+   "url": "https://www.politico.eu/article/sam-altman-a-decoded-le-monde-devrait-accepter-que-certaines-choses-negatives-se-produisent-face-aux-benefices-de-lia/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/kuenstliche-intelligenz-welt-soll-laut-altman-einige-schlechte-ki-folgen-hinnehmen-2610-213692.html"
+    },
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/altman-ki-einige-schlechte-dinge"
+    }
+   ]
   },
   {
    "id": "640ce7f10932",
@@ -2058,7 +2352,8 @@
    "source_id": "gn-unternehmen",
    "added": "2026-10-06T07:49:11+02:00",
    "quelle_titel": "Deutsche Telekom will mit KI Milliarden sparen",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVl9XaXhMaVF5ZlVwSVhwbXJNQ2lZQkRMNTlzd0lTcEpjd3JNeXYxeWlDMDlkNGw0S1VPWlpfcjNFeDlvRWE0NFRhQ0pzd2U3R3NXZ3BGYmdwcTloQU45OFJjcjF6aS1SQXpxbUVfMGctYjB5TjgwS2VWQzhuMnhhbkZCczZmaElpTVZkU1dOcjlkMTNnaWhqUl9WUXEzZw?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVl9XaXhMaVF5ZlVwSVhwbXJNQ2lZQkRMNTlzd0lTcEpjd3JNeXYxeWlDMDlkNGw0S1VPWlpfcjNFeDlvRWE0NFRhQ0pzd2U3R3NXZ3BGYmdwcTloQU45OFJjcjF6aS1SQXpxbUVfMGctYjB5TjgwS2VWQzhuMnhhbkZCczZmaElpTVZkU1dOcjlkMTNnaWhqUl9WUXEzZw?oc=5",
+   "dup_of": "f50ac18b1704"
   },
   {
    "id": "db3e6ebef5bb",
@@ -2142,7 +2437,8 @@
    "source_id": "heise-ki",
    "quelle_titel": "Für Donald Trump: Elon Musks KI-Firma SpaceXAI angeblich wieder vor Umbenennung",
    "url": "https://www.heise.de/news/Fuer-Superintelligenz-SpaceXAI-soll-angeblich-in-SpaceXSI-umbenannt-werden-11475471.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kurios": "Zweite Umbenennung in Monaten, nur weil Trump das Wort Superintelligenz bevorzugt."
+   "kurios": "Zweite Umbenennung in Monaten, nur weil Trump das Wort Superintelligenz bevorzugt.",
+   "dup_of": "7c63a3bbd1a8"
   },
   {
    "id": "6e2548c61d7e",
@@ -2183,7 +2479,8 @@
    "source_id": "tagesspiegel-wirtschaft",
    "kurios": "Ein Milliardenkonzern wechselt seinen Namen auf Zuruf des Präsidenten.",
    "quelle_titel": "Künstliche Intelligenz: Nach Trump-Aufruf: Musk will KI-Firma umbenennen",
-   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-nach-trump-aufruf-musk-will-ki-firma-umbenennen-16124792.html"
+   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-nach-trump-aufruf-musk-will-ki-firma-umbenennen-16124792.html",
+   "dup_of": "7c63a3bbd1a8"
   },
   {
    "id": "7c63a3bbd1a8",
@@ -2203,7 +2500,25 @@
    "source": "Handelsblatt Technologie",
    "source_id": "handelsblatt-tech",
    "quelle_titel": "Musk-Firma: Nach Trump-Vorstoß, SpaceXAI soll künftig SpaceXSI heißen",
-   "url": "https://www.handelsblatt.com/technik/musk-firma-nach-trump-vorstoss-spacexai-soll-kuenftig-spacexsi-heissen/100259688.html"
+   "url": "https://www.handelsblatt.com/technik/musk-firma-nach-trump-vorstoss-spacexai-soll-kuenftig-spacexsi-heissen/100259688.html",
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/dritter-firmenname-seit-februar-musk-will-spacexai-in-spacexsi-umbenennen-2610-213697.html"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-nach-trump-aufruf-musk-will-ki-firma-umbenennen-16124792.html"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Fuer-Superintelligenz-SpaceXAI-soll-angeblich-in-SpaceXSI-umbenannt-werden-11475471.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4230587/musk-will-ki-unternehmen-spacexai-umbenennen.html"
+    }
+   ]
   },
   {
    "id": "b4f20b240485",
@@ -2224,7 +2539,8 @@
    "source_id": "golem",
    "kurios": "Drei Firmennamen in acht Monaten, nur wegen einer politischen Sprachvorgabe",
    "quelle_titel": "Dritter Firmenname seit Februar: Musk will SpaceXAI in SpaceXSI umbenennen",
-   "url": "https://www.golem.de/news/dritter-firmenname-seit-februar-musk-will-spacexai-in-spacexsi-umbenennen-2610-213697.html"
+   "url": "https://www.golem.de/news/dritter-firmenname-seit-februar-musk-will-spacexai-in-spacexsi-umbenennen-2610-213697.html",
+   "dup_of": "7c63a3bbd1a8"
   },
   {
    "id": "f50e922dd5cb",
@@ -2264,7 +2580,8 @@
    "source": "CIO",
    "source_id": "cio",
    "quelle_titel": "Musk will KI-Unternehmen SpaceXAI umbenennen",
-   "url": "https://www.cio.de/article/4230587/musk-will-ki-unternehmen-spacexai-umbenennen.html"
+   "url": "https://www.cio.de/article/4230587/musk-will-ki-unternehmen-spacexai-umbenennen.html",
+   "dup_of": "7c63a3bbd1a8"
   },
   {
    "id": "26c70a7c5d74",
@@ -2329,6 +2646,27 @@
    "kurios": "Eine Startup-Belegschaft spendet fünfmal mehr als Weltkonzerne",
    "quelle_titel": "Anthropic übertrifft alle Fortune-500-Unternehmen bei Spenden um ein Vielfaches",
    "url": "https://the-decoder.de/anthropic-uebertrifft-alle-fortune-500-unternehmen-bei-spenden-um-ein-vielfaches/"
+  },
+  {
+   "id": "88b687652847",
+   "date": "2026-10-05",
+   "published": "2026-10-05T19:29+02:00",
+   "headline": "Schwestern starten KI-Hotline für Beziehungsfragen junger Frauen",
+   "summary": "Zwei Schwestern haben mit Hot Girl Hotline einen Dienst aufgebaut, der jungen Frauen mithilfe von KI persönliche Ratschläge zu Dating und Beziehungen gibt. Die Gründerinnen legen dabei besonderen Wert auf Sicherheit und wollen verhindern, dass Nutzerinnen emotional abhängig von dem Angebot werden. Das Projekt zeigt, wie sich klassische Ratgeberformate in KI-Produkte verwandeln.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "startup",
+    "chatbot",
+    "beratung",
+    "nutzersicherheit"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-06T08:48:12+02:00",
+   "quelle_titel": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
+   "url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/"
   },
   {
    "id": "68c547b79ee7",

@@ -1,38 +1,38 @@
 {
  "date": "2026-10-04",
- "generated_at": "2026-10-06T07:54:03+02:00",
+ "generated_at": "2026-10-06T08:50:42+02:00",
  "overview": [
   {
    "id": "ae66ebe2e681",
-   "text": "Trump richtet eine Super Intelligence Force unter Geheimdienstdirektor Jay Clayton ein, die direkt an den Präsidenten berichtet."
+   "text": "Trump richtet eine KI-Einheit namens Super Intelligence Force ein, die unter Jay Clayton direkt dem Präsidenten berichtet."
   },
   {
    "id": "b97bb19eb27d",
-   "text": "Google beschränkt Gemini für Gratisnutzer ab Oktober 2026 auf das kleinste Modell Flash-Lite, Flash und Pro bleiben Abonnenten vorbehalten."
+   "text": "Ab Oktober 2026 erhalten Gemini-Nutzer ohne Abo nur noch das kleine Modell Flash-Lite, während Flash und Pro zahlenden Kunden vorbehalten bleiben."
+  },
+  {
+   "id": "7e77521528f7",
+   "text": "Eine Handelsblatt-Auswertung zeigt, dass Amazons KI-Investitionen die Möglichkeiten deutscher Staatshaushalte übersteigen und Machtverhältnisse verschieben."
   },
   {
    "id": "f6b133c5538f",
-   "text": "SAP-Chef Christian Klein will beim Thema KI das Tempo erhöhen, weil viele Projekte bislang im Pilotstadium stecken bleiben."
-  },
-  {
-   "id": "26fb6a856e23",
-   "text": "Eine Analyse vergleicht die Finanzkraft von Amazon, Microsoft und Alphabet mit ganzen Volkswirtschaften und fragt, wer diese Macht noch kontrolliert."
-  },
-  {
-   "id": "fbf41d3c5484",
-   "text": "Ein Forscher will mit KI aus offenen Wahldaten einzelne Stimmabgaben in Georgia rekonstruiert haben, der Wahlausschuss tagte daraufhin kurzfristig."
+   "text": "SAP bleibt bei KI vielfach im Pilotstadium, weshalb Konzernchef Christian Klein nun auf deutlich mehr Tempo bei der Umsetzung drängt."
   },
   {
    "id": "f50ac18b1704",
-   "text": "Telekom-Chef Höttges wirbt beim AI Investor Day in Bonn für den Umbau zum KI-Konzern, Analysten sehen dringendere Baustellen."
+   "text": "Telekom-Chef Höttges wirbt beim AI Investor Day in Bonn für den Umbau zum KI-Konzern, Analysten sehen jedoch andere Baustellen als dringlicher."
   },
   {
-   "id": "a95ed98b25ef",
-   "text": "Aleph Alpha fand bei 967 heiklen Fragen an chinesische Sprachmodelle nur in 17 bis 41 Prozent der Fälle ausgewogene Antworten."
+   "id": "febc0ee2235e",
+   "text": "Apple will Mac-Nutzer künftig warnen, wenn KI-Agenten weitreichenden Zugriff auf lokale Daten anfordern, und überlässt die Entscheidung den Anwendern."
+  },
+  {
+   "id": "fbf41d3c5484",
+   "text": "Ein Forscher will aus öffentlichen Wahldaten per KI einzelne Stimmabgaben in Georgia rekonstruiert haben, der Wahlausschuss tagte daraufhin dringlich."
   },
   {
    "id": "be582af47185",
-   "text": "Googles Methode RRSI soll das Auswendiglernen selbstoptimierender Agenten bremsen und steigert die Leistung bei rund 30 Prozent weniger Token."
+   "text": "Googles Methode RRSI bremst das Auswendiglernen selbstoptimierender Agenten und steigert die Leistung auf unbekannten Benchmarks um bis zu 4,7 Punkte."
   }
  ],
  "items": [
@@ -56,7 +56,13 @@
    "source_id": "handelsblatt-tech",
    "added": "2026-10-06T07:52:00+02:00",
    "quelle_titel": "Full Disk Access: Apple plant Datenwarnung bei KI-Agenten auf Mac-Computern",
-   "url": "https://www.handelsblatt.com/technik/it-internet/technologie-apple-plant-datenwarnung-bei-ki-agenten-auf-mac-computern/100259548.html"
+   "url": "https://www.handelsblatt.com/technik/it-internet/technologie-apple-plant-datenwarnung-bei-ki-agenten-auf-mac-computern/100259548.html",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/neue-kontrollfunktionen-wie-apple-deinen-mac-gegen-ki-agenten-absichern-will-1766634"
+    }
+   ]
   },
   {
    "id": "d6db66fd422b",
@@ -76,7 +82,8 @@
    "source": "Spiegel Netzwelt",
    "source_id": "spiegel-netzwelt",
    "quelle_titel": "Donald Trump: Geheimdienstdirektor Clayton wird Leiter der »Super Intelligence Force«",
-   "url": "https://www.spiegel.de/netzwelt/netzpolitik/donald-trump-ernennt-geheimdienstdirektor-jay-clayton-zum-ki-beauftragten-a-f7c18c22-94f7-4b5e-860f-3ba2bc9244ed#ref=rss"
+   "url": "https://www.spiegel.de/netzwelt/netzpolitik/donald-trump-ernennt-geheimdienstdirektor-jay-clayton-zum-ki-beauftragten-a-f7c18c22-94f7-4b5e-860f-3ba2bc9244ed#ref=rss",
+   "dup_of": "ae66ebe2e681"
   },
   {
    "id": "b97bb19eb27d",
@@ -96,7 +103,13 @@
    "source": "The Decoder",
    "source_id": "decoder-de",
    "quelle_titel": "Google schränkt Gratiszugang für Gemini-KI ein",
-   "url": "https://the-decoder.de/google-schraenkt-gratiszugang-fuer-gemini-ki-ein/"
+   "url": "https://the-decoder.de/google-schraenkt-gratiszugang-fuer-gemini-ki-ein/",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/google-gemini-aenderung-nutzungsbedingungen-welche-modelle-weiterhin-gratis-1766588"
+    }
+   ]
   },
   {
    "id": "a95ed98b25ef",
@@ -158,7 +171,13 @@
    "source": "ZEIT Digital",
    "source_id": "zeit-digital",
    "quelle_titel": "Künstliche Intelligenz: Ex-Sicherheitsforscher warnt vor unvorsichtigem Vorgehen bei OpenAI",
-   "url": "https://www.zeit.de/digital/2026-10/david-robinson-openai-kuendigung-ki-sicherheit-gxe"
+   "url": "https://www.zeit.de/digital/2026-10/david-robinson-openai-kuendigung-ki-sicherheit-gxe",
+   "also": [
+    {
+     "source": "The Rundown AI",
+     "url": "https://www.therundown.ai/articles/an-openai-safety-insider-calls-the-culture-broken"
+    }
+   ]
   },
   {
    "id": "7e77521528f7",
@@ -281,7 +300,8 @@
    "source": "Tagesspiegel Wirtschaft",
    "source_id": "tagesspiegel-wirtschaft",
    "quelle_titel": "Künstliche Intelligenz: US-Geheimdienstkoordinator Clayton bekommt KI-Rolle",
-   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-us-geheimdienstkoordinator-clayton-bekommt-ki-rolle-16123825.html"
+   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-us-geheimdienstkoordinator-clayton-bekommt-ki-rolle-16123825.html",
+   "dup_of": "ae66ebe2e681"
   },
   {
    "id": "1b4273791729",
@@ -301,7 +321,8 @@
    "source": "heise KI",
    "source_id": "heise-ki",
    "quelle_titel": "Der „KI-Zar“ der USA kommt von den Geheimdiensten",
-   "url": "https://www.heise.de/news/Der-KI-Zar-der-USA-kommt-von-den-Geheimdiensten-11475401.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Der-KI-Zar-der-USA-kommt-von-den-Geheimdiensten-11475401.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "ae66ebe2e681"
   },
   {
    "id": "f6b133c5538f",
@@ -341,7 +362,41 @@
    "source": "The Decoder",
    "source_id": "decoder-de",
    "quelle_titel": "Trumps neue KI-Einheit \"Super Intelligence Force\" berichtet direkt an den Präsidenten",
-   "url": "https://the-decoder.de/trumps-neue-ki-einheit-super-intelligence-force-berichtet-direkt-an-den-praesidenten/"
+   "url": "https://the-decoder.de/trumps-neue-ki-einheit-super-intelligence-force-berichtet-direkt-an-den-praesidenten/",
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/"
+    },
+    {
+     "source": "Spiegel Netzwelt",
+     "url": "https://www.spiegel.de/netzwelt/netzpolitik/donald-trump-ernennt-geheimdienstdirektor-jay-clayton-zum-ki-beauftragten-a-f7c18c22-94f7-4b5e-860f-3ba2bc9244ed#ref=rss"
+    },
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/trump-super-intelligence-force"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/ki-aufsichts-trumps-super-intelligence-force-wird-von-geheimdienstler-geleitet-2610-213694.html"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/fuer-den-ki-wettstreit-mit-china-praesident-trump-gruendet-super-intelligence-force-1766565"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Der-KI-Zar-der-USA-kommt-von-den-Geheimdiensten-11475401.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-us-geheimdienstkoordinator-clayton-bekommt-ki-rolle-16123825.html"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/trump-named-an-ai-czar/"
+    }
+   ]
   },
   {
    "id": "f62441b4311f",
@@ -361,7 +416,8 @@
    "source": "t3n",
    "source_id": "t3n",
    "quelle_titel": "Für den KI-Wettstreit mit China: Präsident Trump gründet „Super Intelligence Force“",
-   "url": "https://t3n.de/news/fuer-den-ki-wettstreit-mit-china-praesident-trump-gruendet-super-intelligence-force-1766565"
+   "url": "https://t3n.de/news/fuer-den-ki-wettstreit-mit-china-praesident-trump-gruendet-super-intelligence-force-1766565",
+   "dup_of": "ae66ebe2e681"
   },
   {
    "id": "71b92d7d1248",
@@ -381,7 +437,8 @@
    "source": "TechCrunch AI",
    "source_id": "techcrunch-ai",
    "quelle_titel": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
-   "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/"
+   "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+   "dup_of": "686ae0887510"
   },
   {
    "id": "89764eae0099",
@@ -482,7 +539,102 @@
    "source": "Handelsblatt Technologie",
    "source_id": "handelsblatt-tech",
    "quelle_titel": "Deutsche Telekom: Wie CEO Höttges die Telekom zum KI-Konzern machen will",
-   "url": "https://www.handelsblatt.com/technik/it-internet/deutsche-telekom-wie-ceo-hoettges-die-telekom-zum-ki-konzern-machen-will/100258239.html"
+   "url": "https://www.handelsblatt.com/technik/it-internet/deutsche-telekom-wie-ceo-hoettges-die-telekom-zum-ki-konzern-machen-will/100258239.html",
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/it-internet/telekom-hoettges-verspricht-investoren-milliarden-effekt-durch-ki/100259677.html"
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/it-internet/telekommunikation-deutsche-telekom-erhofft-sich-milliarden-einsparungen-durch-ki/100259677.html"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Deutsche-Telekom-will-durch-KI-Einsatz-Milliarden-sparen-11475717.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "etailment",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGJwdGpGV3NUSlBqLWh2ci1WS0FvNF9BS3FzbVNnQll5NnVfaWtqb1ZqZ3k2RnNtWU40eEpCLXcxbENUekZRMDY0UXk0T2hHRXg4NUtyaXd2T01QS01pa3cyTUdBd2pzSDUtY0I5OEp5MXgtSHg3RFdEZDlNaXFrUjk3RmJIM3UxQ2ZnbkwtcjRoMTVYdXpr?oc=5"
+    },
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4230541/deutsche-telekom-sieht-2-5-milliarden-euro-ersparnis-durch-ki.html"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/deutsche-telekom-ki-milliarden-einsparen-1766598"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-telekommunikationskonzern-deutsche-telekom-will-durch-ki-einsatz-milliarden-sparen-16124795.html"
+    },
+    {
+     "source": "Manager Magazin",
+     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMzBzWjBuVXZxYVNBWHVKTHhWN1JaZTQwWDhnUkVQa2xURU5TaERlQnBiMG9uQTFaOGl0LVVwSUVvaERlLTRuTC1xVHc0T1BpSC1WWXp1cHN1Ql9hVUR3RDJJdlZ5V09SWTRuTTlzM2ZHN0x3Z0ZkWDBNbW1IUHJGamxsRU8zdzl5aFFUb1NmWHBEcnpDb3B4aGRjbUdaU1ZOeHNvanRKbG0tZ3JqMTBPWUlCQ3M2Ui1uZ3Q4dWZveXFyNVRuZS1TaEt6bnRpTFZieHBFRXcxUWFUT3JXbV9qQTFocUdoNjVsNm9jeUhJY1BRUQ?oc=5"
+    },
+    {
+     "source": "techbook",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDdllVNzljS1RQM0NkNHZiRVIzdFlOTFgtczF6RzZDOXhydmU3cFVmV2tVWlJtcEFhR3BmejJrMTRHUEZlXzgzalp3NEtzQm5qczBpTjdHYmgxNlVjRU1oTUpjYTU?oc=5"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/al-investor-day-telekom-will-mit-ki-milliarden-einsparen-2610-213728.html"
+    },
+    {
+     "source": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOFhxWS1FUHgtVWZrb2VYcTlNSVpsb3p3RWhJemZWajVIUmdTN05vX0RBc3o3bWtNX0lvQXRURUd5Ym5UclZJNkl4WDFLR016VFhIZkN3UFpIT05iT2s3OUdjRUhOLTllQzdWY0ZmWVZwNzlPSUlINGc4Nm1SSmM5OGk2aTY2ekctblgwTmtobC10WHR2aXR1RVZBNnd6RWk2WFVnd0c0YUlYWEZxWUp1cFJoMGh2Q01zaGt4QldHQkg?oc=5"
+    },
+    {
+     "source": "leadersnet.de",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmJEai1HUnd3WmluVTJVRGthR21zMTFwanE4NW9QRERmRjgtcGl0aXAtZVBJZkQySG1YVXo3THRpNExreDhFNllCMDNPOEltV2YtVC1NM0E2a3ZveUpDMzkyYm5sdEZTd1M2UWxhdzRheDZRejljcm95V2wwZ195ckNKSUtrRnBUcmUzRm4tSVFJMDdxY3hGNw?oc=5"
+    },
+    {
+     "source": "trendingtopics.eu",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mRnQ3UVZMN1F6bFpPNTBLZUZUMU1IbTVfT3M0bVNnZ1hXNklfdzhKT1BVa05mekhBRlU4QzRmbmlKWi1FYXpldUpqbExGajFPVnpxQjJHOXB6QWprbHA1RmJpbkY?oc=5"
+    },
+    {
+     "source": "4investors.de",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZODBBbU9ua1VxaGxwR1h4TGpDa2ZnSmxZZEpwUmh4NC1pMzJLU2hqc0xJeklHY19jMmRZSnJ1ZFFpRWp3ZkpvbzdyM0lUQUN2emNKaEd0ZTJDMzJZbEF1dzIzMHhVN1I4OFp1TElUbjBxbHI1T0o0MHJJa0zSAYIBQVVfeXFMTXhIUGl2U1pqM3pJdEh1MktYank3OVAzWFl1aEtHUDZPQ1BBLUFZRjJWSElmSXZMVFNVT0Zwb1BrOTV6UHB2SEtVSzdhR2pkbWVmakpGdGtrU0g0em9VSXVFV1pPME5vVGxueUFISU1qVExVdWpxZnlGMkZIbUJoNWFBZw?oc=5"
+    },
+    {
+     "source": "aktien.news",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPakRwb185VzJwSlIzZ3A2UjlQWUhpNDhYYWZCWk1KaXdKNWVUbmVNLXgtTFFqUk85cVdBYzJDUnN0OW5YdVRZNkczQ0hpT0YzYTNSUDByRVRvUlVxX3ZRdnU1eW52ckNRVjhta29zcnJELTJtUGJsRF9EbU9lZUN5bFg2bkdZcS10ZWFEYXFKTHI1aE9wZzZ1aFBtZ1diQQ?oc=5"
+    },
+    {
+     "source": "channelpartner.de",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVl9XaXhMaVF5ZlVwSVhwbXJNQ2lZQkRMNTlzd0lTcEpjd3JNeXYxeWlDMDlkNGw0S1VPWlpfcjNFeDlvRWE0NFRhQ0pzd2U3R3NXZ3BGYmdwcTloQU45OFJjcjF6aS1SQXpxbUVfMGctYjB5TjgwS2VWQzhuMnhhbkZCczZmaElpTVZkU1dOcjlkMTNnaWhqUl9WUXEzZw?oc=5"
+    },
+    {
+     "source": "Börse Global",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTGdtWlFJTnBsX3BqWTNEaFhZZ01mMHNXbi04RmY4WUhaR2JfMGhaaml5SEZKRzFkMDNqT2VPNC1RNUZCTGFiekZ6bGpTTTJtaHliN0M5b04xbm1aZVdkeDctdm5TMjRXRVZFeUZseUNXa1B6emlNVVlNem82UVNpLW44dFctaDYydnU5VnNhOA?oc=5"
+    },
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/unternehmen/dienstleister/telekom-muessen-die-mitarbeiter-den-ki-agenten-weichen/100259826.html"
+    }
+   ]
+  },
+  {
+   "id": "5bec970b45b5",
+   "date": "2026-10-04",
+   "published": "2026-10-04T11:28+02:00",
+   "headline": "Abgang bei OpenAI: Mitarbeiter warnt öffentlich vor KI Gefahren",
+   "summary": "Ein Beschäftigter von OpenAI hat gekündigt und warnt dabei vor Risiken der Entwicklung künstlicher Intelligenz. Der Schritt reiht sich in eine Serie kritischer Abgänge aus dem Unternehmen ein.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "ki risiken",
+    "kündigung",
+    "ki sicherheit"
+   ],
+   "source": "Manager Magazin",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-06T08:48:43+02:00",
+   "quelle_titel": "Künstliche Intelligenz: OpenAI-Mitarbeiter kündigt und warnt vor KI-Risiken",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOaWVsOXRXY0VwM2VfeXJXcGNyci1vbjRVQmlzWGpRVGlSQzdCZjY4UEJiUnNjbDg4LWZhb1diYUF3cmpUZDFWVENzT3QzaVFCSUVuYkZSS3U1N1ZJd0dsZkt0UC1XRUVzMkN6Sm9hd1htMUVBbklDaHFTNHlzX3lqeHd2YnlRSFQ2c1RsdEhoLUtvZWwyZXE0N3dCZWs3dEx2YldHajctYkp1NGMxOGxWZkNOOXJZdFd2TUNONEd4SUVtdkhmQTRHd3BTOG82cTNBNGI2Uk01TXN3NVU5V3VxbWRlOWZUVFU5X2xWQzFCanhDY3d1d3c?oc=5"
   },
   {
    "id": "471d0bcb0d21",
@@ -584,7 +736,8 @@
    "source": "TechCrunch AI",
    "source_id": "techcrunch-ai",
    "quelle_titel": "Trump unveils his new Super Intelligence Force",
-   "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/"
+   "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+   "dup_of": "ae66ebe2e681"
   },
   {
    "id": "82766b523787",
@@ -604,7 +757,8 @@
    "source": "The Verge AI",
    "source_id": "verge-ai",
    "quelle_titel": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft"
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+   "dup_of": "9c45ff71fe12"
   },
   {
    "id": "4963c5822283",
