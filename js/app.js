@@ -432,15 +432,15 @@ function card(item, query) {
       starBtn(item)),
     h('h3', null, h('a', { href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, mark(item.headline))),
     h('p', { class: 'summary' }, mark(item.summary)),
-    more,
-    kB, kT,
+    h('div', { class: 'card-actions' }, more, kB),
+    kT,
     h('div', { class: 'card-foot' },
       h('span', { class: 'src-name', title: item.paywall ? 'Bezahlquelle' : null }, item.paywall ? LOCK + ' ' + item.source : item.source),
       h('span', null, fmtShort(item.date)),
-      h('span', { class: 'rel', title: `Relevanz ${item.relevanz} von 5`, 'aria-label': `Relevanz ${item.relevanz} von 5` }, '\u25CF'.repeat(item.relevanz))),
+      h('span', { class: 'rel', title: `Relevanz ${item.relevanz} von 5`, 'aria-label': `Relevanz ${item.relevanz} von 5` }, '\u25CF'.repeat(item.relevanz)),
+      h('a', { class: 'orig', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer', title: item.quelle_titel }, 'Zum Original \u2197')),
     alsoLine(item),
-    item.tags && item.tags.length ? h('div', { class: 'tags' }, item.tags.map((t) => h('span', { class: t === 'AITI' ? 'tag-aiti' : null }, '#' + t))) : null,
-    h('a', { class: 'orig', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer', title: item.quelle_titel }, 'Zum Original \u2197'));
+    item.tags && item.tags.length ? h('div', { class: 'tags' }, item.tags.map((t) => h('span', { class: t === 'AITI' ? 'tag-aiti' : null }, '#' + t))) : null);
   if (getSettings().expandAll) { el.classList.add('open'); more.textContent = 'Weniger'; }
   more.addEventListener('click', () => { const on = el.classList.toggle('open'); more.textContent = on ? 'Weniger' : 'Mehr lesen'; });
   const seenBtn = el.querySelector('.seen-btn');
@@ -464,6 +464,7 @@ function fitCards(root) {
     const p = c.querySelector('.summary'), btn = c.querySelector('.more-btn');
     const clipped = p.scrollHeight > p.clientHeight + 1;
     btn.hidden = !clipped;
+    const act = c.querySelector('.card-actions'); if (act) act.hidden = !clipped && !act.querySelector('.kontext-btn');
     c.classList.toggle('fits', !clipped);
   });
 }
