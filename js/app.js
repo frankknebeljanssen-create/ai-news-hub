@@ -143,7 +143,7 @@ async function loadDay(date) {
 /* ---------- Merkliste (nur localStorage, keine Server-Daten) ---------- */
 
 const FAV_KEY = 'favs';
-const FAV_FIELDS = ['id', 'date', 'published', 'headline', 'summary', 'thema', 'region', 'relevanz', 'tags', 'source', 'source_id', 'quelle_titel', 'url', 'kurios', 'praxis'];
+const FAV_FIELDS = ['id', 'date', 'published', 'headline', 'summary', 'thema', 'region', 'relevanz', 'tags', 'source', 'source_id', 'quelle_titel', 'url', 'kurios', 'praxis', 'kontext', 'paywall'];
 let favMem = null;
 
 function favLoad() {
@@ -303,10 +303,12 @@ function withMore(meta, item, opts = {}) {
   const parts = splitSentences(item.summary);
   const rest = opts.skipFirst && parts.length > 1 ? parts.slice(1).join(' ') : (opts.skipFirst ? '' : item.summary);
   const hasAlso = !!(item.also && item.also.length);
-  if (!rest && !hasAlso) return [h('div', { class: 'row-meta' }, ...meta, h('a', { class: 'b-src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, 'Zum Original \u2197'), seenPill(item))];
+  if (!rest && !hasAlso && !item.kontext) return [h('div', { class: 'row-meta' }, ...meta, h('a', { class: 'b-src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, 'Zum Original \u2197'), seenPill(item))];
   const open0 = getSettings().expandAll;
+  const [kBtn, kP] = kontextBlock(item);
   const panel = h('div', { class: 'more-panel', hidden: !open0 },
     rest ? h('p', null, rest) : null,
+    kBtn, kP,
     alsoLine(item),
     h('a', { class: 'b-src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, 'Zum Original \u2197'));
   const btn = h('button', { class: 'more-link', type: 'button', 'aria-expanded': String(!!open0) }, open0 ? 'Weniger' : 'Mehr lesen');
@@ -389,16 +391,30 @@ function sourceSelect(current, onPick) {
       names.map((n) => h('option', { value: n, selected: n === current }, `${n} (${counts.get(n)})`))));
 }
 
+const LOCK = '\uD83D\uDD12';
+
 function alsoLine(item) {
   if (!item.also || !item.also.length) return null;
-  const links = item.also.map((a) => h('a', { href: safeUrl(a.url), target: '_blank', rel: 'noopener noreferrer' }, `${a.source} \u2197`));
-  return h('div', { class: 'also' }, 'Auch bei: ', ...links.flatMap((l, k) => (k ? [' \u00B7 ', l] : [l])));
+  const sorted = item.also.slice().sort((a, b) => (a.paywall ? 1 : 0) - (b.paywall ? 1 : 0));
+  const links = sorted.map((a) => h('a', { href: safeUrl(a.url), target: '_blank', rel: 'noopener noreferrer', title: a.paywall ? 'Bezahlquelle' : null }, `${a.paywall ? LOCK + ' ' : ''}${a.source} \u2197`));
+  const label = item.paywall && sorted.some((a) => !a.paywall) ? 'Frei lesbar bei: ' : 'Auch bei: ';
+  return h('div', { class: 'also' }, label, ...links.flatMap((l, k) => (k ? [' \u00B7 ', l] : [l])));
+}
+
+/* Zweite Stufe: Hintergrundtext (kontext) aus frei zugaenglichen Quellen, per Klick auf "Mehr Kontext" */
+function kontextBlock(item) {
+  if (!item.kontext) return [null, null];
+  const p = h('p', { class: 'kontext', hidden: true }, h('b', null, 'Hintergrund: '), item.kontext);
+  const b = h('button', { class: 'more-link kontext-btn', type: 'button', 'aria-expanded': 'false' }, 'Mehr Kontext');
+  b.addEventListener('click', () => { const open = p.hidden; p.hidden = !open; b.setAttribute('aria-expanded', String(open)); b.textContent = open ? 'Weniger Kontext' : 'Mehr Kontext'; });
+  return [b, p];
 }
 
 function card(item, query) {
   const color = THEMA_VAR[item.thema] || 'var(--accent)';
   const mark = (txt) => (query ? highlight(txt, query) : txt);
   const more = h('button', { class: 'more-btn', type: 'button', hidden: true }, 'Mehr lesen');
+  const [kB, kT] = kontextBlock(item);
   const el = h('article', { class: 'card', style: `--c:${color}` },
     h('div', { class: 'card-top' },
       h('span', { class: 'tag-thema' }, item.thema),
@@ -410,8 +426,9 @@ function card(item, query) {
     h('h3', null, h('a', { href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, mark(item.headline))),
     h('p', { class: 'summary' }, mark(item.summary)),
     more,
+    kB, kT,
     h('div', { class: 'card-foot' },
-      h('span', { class: 'src-name' }, item.source),
+      h('span', { class: 'src-name', title: item.paywall ? 'Bezahlquelle' : null }, item.paywall ? LOCK + ' ' + item.source : item.source),
       h('span', null, fmtShort(item.date)),
       h('span', { class: 'rel', title: `Relevanz ${item.relevanz} von 5`, 'aria-label': `Relevanz ${item.relevanz} von 5` }, '\u25CF'.repeat(item.relevanz))),
     alsoLine(item),
@@ -518,19 +535,19 @@ async function viewDay(dateArg, q) {
         isNew(item) ? h('span', { class: 'ts-label new' }, 'Neu') : null,
         item.praxis ? h('span', { class: 'ts-label praxis' }, 'Praxistipp') : null,
         h('p', null, o.text),
-        withMore([h('a', { class: 'src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, `${item.source} ↗`)], item, { skipFirst: true })))))) : null,
+        withMore([h('a', { class: 'src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, `${item.paywall ? LOCK + ' ' : ''}${item.source} ↗`)], item, { skipFirst: true })))))) : null,
     st.showDE && !region && deList.length ? h('section', { class: 'kurios de-box', 'aria-labelledby': 'deb' },
       h('div', { class: 'kurios-head' }, h('h2', { id: 'deb' }, 'Aus Deutschland'), h('span', { class: 'k-scope' }, deScope)),
       h('ul', null, deList.map((i) => h('li', { style: `--c:${THEMA_VAR[i.thema] || 'var(--accent)'}` },
         h('span', null, h('span', { class: 'ts-label' }, THEMA_SHORT[i.thema] || i.thema), i.praxis ? h('span', { class: 'ts-label praxis' }, 'Praxistipp') : null),
         h('a', { class: 'k-title', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, i.headline),
-        withMore([h('span', { class: 'k-meta' }, `${i.source} \u00B7 ${fmtShort(i.date)}`)], i))))) : null,
+        withMore([h('span', { class: 'k-meta' }, `${i.paywall ? LOCK + ' ' : ''}${i.source} \u00B7 ${fmtShort(i.date)}`)], i))))) : null,
     st.showKurios && kList.length ? h('section', { class: 'kurios', 'aria-labelledby': 'kur' },
       h('div', { class: 'kurios-head' }, h('h2', { id: 'kur' }, 'Kurios & krass'), h('span', { class: 'k-scope' }, kScope)),
       h('ul', null, kList.map((i) => h('li', null,
         h('span', { class: 'k-hook' }, i.kurios),
         h('a', { class: 'k-title', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, i.headline),
-        withMore([h('span', { class: 'k-meta' }, `${i.source} · ${fmtShort(i.date)}`)], i))))) : null,
+        withMore([h('span', { class: 'k-meta' }, `${i.paywall ? LOCK + ' ' : ''}${i.source} · ${fmtShort(i.date)}`)], i))))) : null,
     sections.length > 1 ? h('nav', { class: 'jump', 'aria-label': 'Zu Thema springen' }, sections.map(([name, list]) => h('button', {
       class: 'chip jump-chip', type: 'button', style: `--c:${THEMA_VAR[name]}`,
       onclick: () => document.getElementById('sec-' + name.replace(/\W+/g, '-'))?.scrollIntoView({ behavior: 'smooth', block: 'start' }),
@@ -1007,7 +1024,7 @@ async function viewBriefing(q) {
     kurios && kurios.kurios, kurios && kurios.headline, term && term.term, term && term.def].filter(Boolean).join(' ').split(/\s+/).length;
   const minutes = Math.max(1, Math.ceil(words / 150));
 
-  const srcLink = (it) => h('a', { class: 'b-src', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, `${it.source} \u2197`);
+  const srcLink = (it) => h('a', { class: 'b-src', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, `${it.paywall ? LOCK + ' ' : ''}${it.source} \u2197`);
   const title = (it, txt) => h('a', { class: 'b-title', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, txt || it.headline);
   const sec = (name, ...kids) => h('section', { class: 'brief-sec' }, h('h2', null, name), ...kids);
   const secTerm = (name, ...kids) => h('section', { class: 'brief-sec brief-term' }, h('h2', null, name), ...kids);
@@ -1106,7 +1123,7 @@ async function viewWeek(q) {
 
   const dayTag = (it) => h('span', { class: 'wk-day' }, weekdayName(it.date));
   const sec = (name, ...kids) => h('section', { class: 'brief-sec' }, h('h2', null, name), ...kids);
-  const srcLink = (it) => h('a', { class: 'b-src', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, `${it.source} ↗`);
+  const srcLink = (it) => h('a', { class: 'b-src', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, `${it.paywall ? LOCK + ' ' : ''}${it.source} ↗`);
   const title = (it) => h('a', { class: 'b-title', href: safeUrl(it.url), target: '_blank', rel: 'noopener noreferrer' }, it.headline);
 
   render(

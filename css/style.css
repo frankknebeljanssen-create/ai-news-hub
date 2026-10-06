@@ -722,3 +722,12 @@ li.seen > .k-title { display: block; flex: 1 1 auto; min-width: 0; font-size: .8
 .brief-btn.aiti small { margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 .brief-btn.aiti strong { flex: 0 0 auto; }
 .aiti-n { min-width: 24px; height: 24px; font-size: .8rem; }
+
+/* ---- Mehr Kontext (zweite Stufe) ---- */
+.kontext { margin: 4px 0 8px; padding: 10px 12px; border-radius: 10px; background: var(--surface-2); font-size: .92rem; line-height: 1.5; color: var(--text); }
+.kontext b { color: var(--accent); }
+.card > .kontext-btn { display: block; margin: 0 0 4px; }
+.kontext-btn::before { content: "+ "; }
+.kontext-btn[aria-expanded="true"]::before { content: "\2212 "; }
+.kontext-btn::before, .kontext-btn[aria-expanded="true"]::before { content: none; }
+.more-panel p.kontext { margin: 6px 0 8px; padding: 10px 12px; }
