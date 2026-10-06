@@ -230,7 +230,7 @@ async function viewModelle() {
     h('h1', null, 'Modelle'),
     h('p', { class: 'sub' }, `Stand ${MDL.data.stand ? MDL.data.stand.split('-').reverse().join('.') : ''}`),
     chipRow([['steck', 'Steckbriefe'], ['vergleich', 'Vergleich'], ['charts', 'Diagramme']], MDL.tab, (v) => { MDL.tab = v; viewModelle(); }, 'Ansicht'),
-    selectField('Anbieter', [['', `Alle Anbieter (${all.length})`], ...anbieter.map((a) => [a, `${a} (${all.filter((m) => m.anbieter === a).length})`])], MDL.filter, (v) => { MDL.filter = v; viewModelle(); }),
+    h('div', { class: 'mdl-filter' }, selectField('Anbieter', [['', `Alle Anbieter (${all.length})`], ...anbieter.map((a) => [a, `${a} (${all.filter((m) => m.anbieter === a).length})`])], MDL.filter, (v) => { MDL.filter = v; viewModelle(); })),
     MDL.tab === 'steck' ? h('div', { class: 'mdl-grid' }, models.map(steckbrief)) : null,
     ...(MDL.tab === 'vergleich' ? vergleich(models) : []),
     ...(MDL.tab === 'charts' ? diagramme(models) : []),
