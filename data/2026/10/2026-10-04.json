@@ -134,7 +134,8 @@
    "source": "The Decoder",
    "source_id": "decoder-de",
    "quelle_titel": "Chinesische KI-Modelle wiederholen bei sensiblen Themen Staatsdoktrin oder verweigern die Antwort",
-   "url": "https://the-decoder.de/chinesische-ki-modelle-wiederholen-bei-sensiblen-themen-staatsdoktrin-oder-verweigern-die-antwort/"
+   "url": "https://the-decoder.de/chinesische-ki-modelle-wiederholen-bei-sensiblen-themen-staatsdoktrin-oder-verweigern-die-antwort/",
+   "kontext": "Hinter dem Test steht ein Anbieter mit eigenen Interessen: Aleph Alpha positioniert sich gemeinsam mit Cohere als Lieferant souveräner KI für Behörden und Regierungen. Chinas Regulierung verlangt sozialistische Kernwerte in öffentlich zugänglichen Modellen, was die Befunde plausibel macht. Auffällig ist der Übertrag auf Fragen ohne jeden Chinabezug. Zugleich nutzte Aleph Alpha für sein eigenes Kolibri-Modell Daten, die mit chinesischen Systemen erzeugt wurden."
   },
   {
    "id": "4eada6268e76",
@@ -291,7 +292,8 @@
    "source": "The Decoder",
    "source_id": "decoder-de",
    "quelle_titel": "Wie Google-Forscher verhindern wollen, dass sich selbst verbessernde KI-Agenten nur auswendig lernen",
-   "url": "https://the-decoder.de/wie-google-forscher-verhindern-wollen-dass-sich-selbst-verbessernde-ki-agenten-nur-auswendig-lernen/"
+   "url": "https://the-decoder.de/wie-google-forscher-verhindern-wollen-dass-sich-selbst-verbessernde-ki-agenten-nur-auswendig-lernen/",
+   "kontext": "Moderne Agenten bestehen aus einem festen Sprachmodell und einem Gerüst aus Prompts, Werkzeugen und Speicher. Ein großer Teil der Fortschritte kommt aus der Feinarbeit an diesem Gerüst, die zunehmend das Modell selbst übernimmt. Hinter RRSI stehen Google Cloud AI Research und mehrere Hochschulen; eine Prüfinstanz verwirft Änderungen, die nur Benchmark-Tricks festschreiben. Getestet wurde in Programmierung, agentischer Büroarbeit und Ingenieursdesign."
   },
   {
    "id": "5b9f722240f8",
@@ -475,7 +477,8 @@
    "source_id": "huggingface",
    "quelle_titel": "The Agent Said It Was Done. The Database Disagreed.",
    "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-   "praxis": true
+   "praxis": true,
+   "kontext": "Hinter der Analyse steckt ThinkingBox, ein gemeinsames Projekt von Microsoft und Hugging Face. Der Benchmark lässt Agenten hunderte Geschäftsabläufe mehrfach durchlaufen und bewertet allein den Endzustand der angebundenen Systeme samt unerwünschter Nebenwirkungen. Im geschilderten Fall schließt ein Agent ein Ticket als gelöst, obwohl der Versandvorfall weiter offen ist. Über die Umgebung OpenEnv können Unternehmen eigene Modelle selbst auf solche Verlässlichkeit prüfen."
   },
   {
    "id": "d7b29e49f51f",
@@ -681,7 +684,8 @@
    "source": "The Decoder",
    "source_id": "decoder-de",
    "quelle_titel": "Neues Foundation Model von NASA und IBM soll Wassereis-Suche auf dem Mond beschleunigen",
-   "url": "https://the-decoder.de/neues-foundation-model-von-nasa-und-ibm-soll-wassereis-suche-auf-dem-mond-beschleunigen/"
+   "url": "https://the-decoder.de/neues-foundation-model-von-nasa-und-ibm-soll-wassereis-suche-auf-dem-mond-beschleunigen/",
+   "kontext": "Basismodelle werden auf großen unbeschrifteten Datenbeständen vortrainiert und lassen sich danach mit wenigen Beispielen auf konkrete Aufgaben anpassen. Genau das hilft in der Mondforschung, wo Aufnahmen reichlich vorhanden, Beschriftungen aber rar sind. Neben dem Lunar Reconnaissance Orbiter flossen Daten weiterer Missionen sowie der japanischen Sonde Kaguya ein, beteiligt waren auch mehrere Hochschulen. Eine Besonderheit: Beleuchtungswinkel und Sonnenstand erhält das Modell direkt als Kontext, weil sie das Erscheinungsbild der Oberfläche stark prägen."
   },
   {
    "id": "d6e875c80650",
@@ -744,7 +748,8 @@
    "source": "The Neuron",
    "source_id": "neuron",
    "quelle_titel": "Everything That Happened in AI Today (Friday, October 2, 2026)",
-   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-october-2-2026/"
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-october-2-2026/",
+   "kontext": "Hinter dem Vergleich steht die Plattform Mercor, die zwölf lizenzierte Buchhalter an vier vereinfachten Abschlussaufgaben antreten ließ. Der Rückblick ordnet das in einen größeren Trend ein: Modelle werden billiger im Betrieb, leichter auf Spezialaufgaben zuschneidbar und benötigen weniger menschliche Aufsicht. Entscheidend bleibt der enge Zuschnitt, denn eine abgegrenzte Tabellenaufgabe ersetzt keinen Berufsalltag. Dennoch verschieben sich die Messlatten schneller als die Stellenprofile, was vor allem Einstiegsrollen betrifft."
   },
   {
    "id": "062c049b478a",
@@ -827,7 +832,8 @@
    "source_id": "t3n",
    "quelle_titel": "Elon Musks Katze: Warum Teslas Robotaxi-Flotte nicht in der Nacht fährt",
    "url": "https://t3n.de/news/katze-teslas-robotaxi-flotte-1766554",
-   "kurios": "Robotaxis mit Nachtruhe, weil die Kameras dunkle Tiere auf der Straße übersehen."
+   "kurios": "Robotaxis mit Nachtruhe, weil die Kameras dunkle Tiere auf der Straße übersehen.",
+   "kontext": "Tesla setzt auf das günstigere reine Kamerasystem, während Waymo Kameras mit Lidar und Radar kombiniert und deshalb rund um die Uhr fahren kann. Musk begründete die Nachtpause auf X damit, dass nachts graue Katzen auf dunklem Asphalt übersehen werden könnten, ausgerechnet im Zuge einer Verlängerung der Betriebszeit um eine Stunde. Zu dunkel gekleideten Fußgängern äußerte er sich nicht. Fragen nach Wärmebildkameras ließ er offen und verwies auf bessere KI-Auswertung der Rohdaten."
   },
   {
    "id": "8a9c48729bde",
@@ -847,7 +853,8 @@
    "source": "TechCrunch AI",
    "source_id": "techcrunch-ai",
    "quelle_titel": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
-   "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/"
+   "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+   "kontext": "Anlass ist ein Treffen im Weißen Haus mit Mark Zuckerberg, Jeff Bezos, Elon Musk und Anthropic-Chef Dario Amodei, bei dem die Konzernspitzen eine gemeinsame Erklärung zur Verantwortung bei Spitzenmodellen unterzeichneten. Juristisch bindet sie niemanden, Trump sprach von einer moralischen Bindung. Kurz zuvor hatte er Warnungen vor KI-Risiken noch als politisch motiviert abgetan. Im Equity-Podcast von TechCrunch gilt die per Dekret verordnete Umbenennung daher vor allem als Markenpflege."
   },
   {
    "id": "4b14c360852d",

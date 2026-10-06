@@ -79,7 +79,8 @@
    "source_id": "ars-ai",
    "added": "2026-10-06T07:48:31+02:00",
    "quelle_titel": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
-   "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
+   "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+   "kontext": "Aufgedeckt hat die Lücken ein unabhängiger Forscher, der Agentensysteme bei Google, einer Großbank, Sicherheitsfirmen und Behörden in den USA und Frankreich prüfte. Das Muster ist überall ähnlich: Spezialagenten etwa für Übersetzung oder Datenanalyse kontrollieren eingehende Aufträge kaum, reichen sie aber samt hinterlegter Zugangsdaten weiter. Googles Fall gilt als hochgefährlich, Rapid7 hat den eigenen Fehler behoben. Fachleute mahnen, jedes Protokoll bewache nur die eigene Tür."
   },
   {
    "id": "c3e31784f50b",
@@ -261,7 +262,8 @@
    "source_id": "heise-ki",
    "added": "2026-10-06T08:47:07+02:00",
    "quelle_titel": "Sogar Chatverläufe: KI-Anbieter geben Daten ihrer Nutzer weiter",
-   "url": "https://www.heise.de/news/Diese-Daten-geben-ChatGPT-Gemini-Claude-und-Co-ueber-uns-an-Dritte-11476698.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Diese-Daten-geben-ChatGPT-Gemini-Claude-und-Co-ueber-uns-an-Dritte-11476698.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter der Untersuchung steht das spanische IMDEA Networks Institute, das neun Chatbot-Dienste bei der Nutzung im Browser beobachtet hat. Die Forschenden platzierten getarnte Testadressen in Gesprächen und sahen, dass Werbetracker die weitergegebenen Gesprächslinks teils tatsächlich öffneten. Zusätzlich wandern automatisch erzeugte Themenzusammenfassungen an Werbepartner, die Rückschlüsse auf Gesundheit oder Einkommen erlauben. Das Papier ist noch ein ungeprüfter Preprint, und das Ablehnen von Cookies hilft nur bei einem Teil der Anbieter."
   },
   {
    "id": "8470d4fa3ff7",
@@ -338,7 +340,8 @@
    "source_id": "it-daily",
    "added": "2026-10-06T08:46:16+02:00",
    "quelle_titel": "CISO-Studie: Transparenz bremst sicheren KI-Einsatz",
-   "url": "https://www.it-daily.net/shortnews/ciso-studie-ki-einsatz"
+   "url": "https://www.it-daily.net/shortnews/ciso-studie-ki-einsatz",
+   "kontext": "Erhoben hat die Zahlen der Netzwerkspezialist Gigamon, der im Februar über tausend IT- und Sicherheitsverantwortliche in sechs Ländern befragte und daraus die Antworten der Sicherheitschefs auswertete. Treiber ist der Mix aus großen, offengewichtigen, spezialisierten und selbst gehosteten Modellen, der neue Datenwege zwischen Anwendungen, Infrastruktur und Firmendaten öffnet. Viele Befragte berichten von KI-bezogenen Vorfällen, etwa abfließenden internen Daten oder nicht genehmigter Nutzung. Zusätzlich beklagen sie fehlendes Risikoverständnis in den Vorstandsetagen."
   },
   {
    "id": "03d50d7601f6",
@@ -361,7 +364,8 @@
    "added": "2026-10-06T08:46:16+02:00",
    "praxis": true,
    "quelle_titel": "Eigenes GPT statt ChatGPT: So führt L’Oréal KI bei 90.000 Beschäftigten ein",
-   "url": "https://t3n.de/news/eigenes-gpt-statt-chatgpt-so-fuehrt-loreal-ki-bei-90-000-beschaeftigten-ein-1766586"
+   "url": "https://t3n.de/news/eigenes-gpt-statt-chatgpt-so-fuehrt-loreal-ki-bei-90-000-beschaeftigten-ein-1766586",
+   "kontext": "Arooj Humayun verantwortet die IT für die DACH-Region und schildert im t3n-Podcast Arbeit in Progress drei Stufen: Vertrauen aufbauen, schulen, dann die Nutzung ausweiten. Die Schulungen haben regional bereits den größten Teil der Belegschaft erreicht. Statt fremder Dienste läuft L'Oréal GPT im eigenen Rechenzentrum auf geprüften bestehenden Sprachmodellen, ergänzt um ein Bildwerkzeug namens CreateTech. Ausschlaggebend waren strenge Datenschutzvorgaben und die Zusage, dass Eingaben das Unternehmen nicht verlassen."
   },
   {
    "id": "1b3c8c4f22c6",
@@ -428,7 +432,8 @@
    "source_id": "it-daily",
    "added": "2026-10-06T08:46:16+02:00",
    "quelle_titel": "Cyberrisiko KI: KI-Agenten als privilegierte Insider",
-   "url": "https://www.it-daily.net/it-sicherheit/cloud-security/cyberrisiko-ki-agenten-insider"
+   "url": "https://www.it-daily.net/it-sicherheit/cloud-security/cyberrisiko-ki-agenten-insider",
+   "kontext": "Autor Thomas Boele beschreibt KI-Agenten als digitale Arbeitskräfte: Sie lesen Mails, fragen Datenbanken ab und ändern Datensätze, ohne dass jede Aktion einzeln genehmigt wird. Als größte Schwachstelle gilt Prompt Injection, die in der OWASP-Liste für Sprachmodell-Anwendungen ganz oben steht, weil Modelle eingeschleuste Inhalte nicht sicher von echten Aufträgen trennen. Klassisches Identitätsmanagement reicht deshalb nicht; nötig ist die Prüfung, ob eine Aktion im jeweiligen Kontext überhaupt erlaubt ist."
   },
   {
    "id": "22331dc1acfc",

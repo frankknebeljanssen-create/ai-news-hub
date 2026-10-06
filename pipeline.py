@@ -486,8 +486,8 @@ def make_kontext(cands: list[dict], limit: int = 12) -> int:
         if len(todo) >= limit:
             break
     n = 0
-    for i in range(0, len(todo), 3):
-        chunk = todo[i:i + 3]
+    for i in range(0, len(todo), 4):
+        chunk = todo[i:i + 4]
         txt = "\n\n".join(f'ID {x["id"]}\nSchlagzeile: {x["headline"]}\nKurzfassung: {x["summary"]}\n' + "\n".join(f"Quelle {nm}: {t}" for nm, t in ts) for x, ts in chunk)
         try:
             res = claude_json(KONTEXT_PROMPT.format(items=txt))
@@ -505,7 +505,7 @@ def make_kontext(cands: list[dict], limit: int = 12) -> int:
 
 def kontext_candidates(items: list[dict], days: int = 7) -> list[dict]:
     cut = (now() - timedelta(days=days)).strftime("%Y-%m-%d")
-    c = [x for x in items if x["date"] >= cut and not x.get("dup_of") and not x.get("kontext") and (x.get("also") or x["relevanz"] >= 4)]
+    c = [x for x in items if x["date"] >= cut and not x.get("dup_of") and not x.get("kontext") and (x.get("also") or x["relevanz"] >= 3)]
     return sorted(c, key=lambda x: (not x.get("also"), -x["relevanz"], x["date"]), reverse=False)
 
 
@@ -529,7 +529,7 @@ def backfill_paywall() -> int:
 def backfill_kontext() -> int:
     """Einmalig: Hintergrundtexte fuer aktuelle Meldungen aus freien Quellen erzeugen."""
     index = read_json(INDEX, {"items": []})
-    make_kontext(kontext_candidates(index["items"]), limit=30)
+    make_kontext(kontext_candidates(index["items"]), limit=80)
     write_json(INDEX, index)
     sync_day_files(index["items"])
     return 0
@@ -874,7 +874,7 @@ def run(args) -> int:
         except Exception as exc:
             log.error("Zusammenfuehren fehlgeschlagen: %s", exc)
         try:
-            make_kontext(kontext_candidates([x for x in items_idx if x['date'] in touched | prev]), limit=12)
+            make_kontext(kontext_candidates([x for x in items_idx if x['date'] in touched | prev]), limit=30)
         except Exception as exc:
             log.error('Kontext fehlgeschlagen: %s', exc)
         sync_day_files(items_idx, prev - touched)
