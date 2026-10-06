@@ -395,10 +395,17 @@ const LOCK = '\uD83D\uDD12';
 
 function alsoLine(item) {
   if (!item.also || !item.also.length) return null;
+  const dups = (store.allItems || []).filter((d) => d.dup_of === item.id);
+  const byUrl = new Map(dups.map((d) => [d.url, d]));
   const sorted = item.also.slice().sort((a, b) => (a.paywall ? 1 : 0) - (b.paywall ? 1 : 0));
-  const links = sorted.map((a) => h('a', { href: safeUrl(a.url), target: '_blank', rel: 'noopener noreferrer', title: a.paywall ? 'Bezahlquelle' : null }, `${a.paywall ? LOCK + ' ' : ''}${a.source} \u2197`));
-  const label = item.paywall && sorted.some((a) => !a.paywall) ? 'Frei lesbar bei: ' : 'Auch bei: ';
-  return h('div', { class: 'also' }, label, ...links.flatMap((l, k) => (k ? [' \u00B7 ', l] : [l])));
+  const label = item.paywall && sorted.some((a) => !a.paywall) ? 'Frei lesbar bei' : 'Auch berichtet bei';
+  // Jede zusammengefasste Meldung bleibt als eigene schmale Zeile sichtbar: Quelle, Schlagzeile, Link
+  const rows = sorted.map((a) => {
+    const d = byUrl.get(a.url);
+    return h('a', { class: 'also-row', href: safeUrl(a.url), target: '_blank', rel: 'noopener noreferrer', title: a.paywall ? 'Bezahlquelle' : null },
+      h('b', null, `${a.paywall ? LOCK + ' ' : ''}${a.source}`), d ? h('span', null, d.headline) : null, h('i', null, '\u2197'));
+  });
+  return h('div', { class: 'also' }, h('div', { class: 'also-label' }, label), ...rows);
 }
 
 /* Zweite Stufe: Hintergrundtext (kontext) aus frei zugaenglichen Quellen, per Klick auf "Mehr Kontext" */

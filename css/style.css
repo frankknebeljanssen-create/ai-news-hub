@@ -731,3 +731,10 @@ li.seen > .k-title { display: block; flex: 1 1 auto; min-width: 0; font-size: .8
 .kontext-btn[aria-expanded="true"]::before { content: "\2212 "; }
 .kontext-btn::before, .kontext-btn[aria-expanded="true"]::before { content: none; }
 .more-panel p.kontext { margin: 6px 0 8px; padding: 10px 12px; }
+
+/* Zusammengefasste Meldungen als schmale Zeilen */
+.also .also-label { font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); font-weight: 700; margin: 2px 0 3px; }
+.also .also-row { display: flex; align-items: baseline; gap: 8px; padding: 4px 0; border-top: 1px solid var(--border); font-weight: 400; min-width: 0; }
+.also .also-row b { flex: 0 0 auto; max-width: 42%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text); font-weight: 600; }
+.also .also-row span { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.also .also-row i { flex: 0 0 auto; font-style: normal; }
