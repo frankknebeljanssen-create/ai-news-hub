@@ -24,13 +24,11 @@ const METRIKEN = [
   { k: 'kontext', t: 'Kontextfenster', u: 'Token', get: (m) => m.kontext, fmt: fmtTok, grp: 'Umfang' },
   { k: 'max_output', t: 'Max. Ausgabe', u: 'Token', get: (m) => m.max_output, fmt: fmtTok, grp: 'Umfang' },
   { k: 'ai_index', t: 'Intelligence Index (Artificial Analysis)', u: 'Punkte', get: (m) => mu(m).ai_index, fmt: fmtNum, grp: 'Leistung' },
-  { k: 'arena', t: 'Arena Elo (LMArena)', u: 'Elo', get: (m) => mu(m).arena_elo ?? mb(m).arena_elo, fmt: fmtNum, grp: 'Leistung' },
   { k: 'gpqa', t: 'GPQA Diamond', u: '%', get: (m) => mb(m).gpqa_diamond, fmt: fmtPct, grp: 'Leistung' },
   { k: 'swe', t: 'SWE-bench Verified', u: '%', get: (m) => mu(m).swe_bench_verified ?? mb(m).swe_bench_verified, fmt: fmtPct, grp: 'Leistung' },
   { k: 'mmlu', t: 'MMLU-Pro', u: '%', get: (m) => mb(m).mmlu_pro, fmt: fmtPct, grp: 'Leistung' },
   { k: 'aime', t: 'AIME 2025', u: '%', get: (m) => mb(m).aime_2025, fmt: fmtPct, grp: 'Leistung' },
   { k: 'speed', t: 'Geschwindigkeit', u: 'Token je Sekunde', get: (m) => mu(m).tokens_pro_sekunde, fmt: fmtNum, grp: 'Tempo' },
-  { k: 'halluz', t: 'Halluzinationsrate (Vectara)', u: '%', low: true, get: (m) => mu(m).halluzination_prozent, fmt: fmtPct, grp: 'Verlässlichkeit' },
 ];
 const metr = (k) => METRIKEN.find((x) => x.k === k);
 
@@ -128,7 +126,7 @@ function donutChart(models, by) {
 }
 
 /* ----- Steckbrief-Karte ----- */
-const BENCH_ZEILEN = ['gpqa', 'swe', 'mmlu', 'aime', 'arena', 'ai_index'];
+const BENCH_ZEILEN = ['gpqa', 'swe', 'mmlu', 'aime', 'ai_index'];
 
 function fact(label, value) {
   return h('div', { class: 'fact' }, h('dt', null, label), h('dd', null, value));
@@ -199,7 +197,10 @@ function vergleich(models) {
 
 /* ----- Diagramme ----- */
 function diagramme(models) {
-  const opts = METRIKEN.filter((me) => models.some((m) => me.get(m) != null)).map((me) => [me.k, me.t]);
+  // Nur Kennzahlen mit Werten für mindestens 5 Modelle: sonst wäre der Vergleich lückenhaft
+  const enough = (me) => models.filter((m) => me.get(m) != null).length >= 5;
+  const opts = METRIKEN.filter(enough).map((me) => [me.k, me.t]);
+  if (!opts.some(([k]) => k === MDL.metric)) MDL.metric = 'preis_out';
   const mx = metr(MDL.scatterX), my = metr(MDL.scatterY);
   const metOpts = (list) => list.map((me) => [me.k, me.t]);
   return [
@@ -209,8 +210,8 @@ function diagramme(models) {
       barChart(models, metr(MDL.metric)), legend(models)),
     h('section', { class: 'set-card' }, h('h2', null, 'Preis und Leistung'),
       h('div', { class: 'filter-grid' },
-        selectField('Querachse (x)', metOpts(METRIKEN.filter((me) => ['preis_in', 'preis_out', 'kontext', 'speed'].includes(me.k))), MDL.scatterX, (v) => { MDL.scatterX = v; redoModelle(); }),
-        selectField('Hochachse (y)', metOpts(METRIKEN.filter((me) => ['ai_index', 'arena', 'gpqa', 'swe', 'mmlu', 'aime', 'halluz'].includes(me.k))), MDL.scatterY, (v) => { MDL.scatterY = v; redoModelle(); })),
+        selectField('Querachse (x)', metOpts(METRIKEN.filter((me) => enough(me) && ['preis_in', 'preis_out', 'kontext', 'speed'].includes(me.k))), MDL.scatterX, (v) => { MDL.scatterX = v; redoModelle(); }),
+        selectField('Hochachse (y)', metOpts(METRIKEN.filter((me) => enough(me) && ['ai_index', 'gpqa', 'swe', 'mmlu', 'aime', 'speed'].includes(me.k))), MDL.scatterY, (v) => { MDL.scatterY = v; redoModelle(); })),
       scatterChart(models, mx, my), legend(models)),
     h('section', { class: 'set-card' }, h('h2', null, 'Verteilung der Modelle'),
       chipRow([['anbieter', 'Anbieter'], ['typ', 'Lizenz'], ['herkunft', 'Herkunft']], MDL.donut, (v) => { MDL.donut = v; redoModelle(); }, 'Gruppieren nach'),
