@@ -172,17 +172,20 @@ function vergleich(models) {
   const picker = h('div', { class: 'chips wrap', role: 'group', 'aria-label': 'Modelle auswählen' },
     models.map((m) => h('button', { class: 'chip', type: 'button', style: `--c:${mFarbe(m)}`, 'aria-pressed': String(MDL.cmp.includes(m.id)), onclick: () => { toggleCmp(m.id); redoModelle(); } }, m.name)));
   if (sel.length < 2) return [h('p', { class: 'set-text' }, 'Wähle mindestens zwei Modelle (bis zu vier) zum Vergleichen aus.'), picker];
-  const rows = [];
+  const rows = [], gaps = [];
   let lastGrp = '';
+  const mkRow = (me, vals, best) => h('tr', null, h('th', { scope: 'row' }, h('span', null, me.t), h('small', null, me.u)),
+    vals.map((v) => h('td', { class: v != null && v === best ? 'best' : (v == null ? 'na' : null) }, v == null ? '–' : me.fmt(v))));
   METRIKEN.forEach((me) => {
     const vals = sel.map((m) => me.get(m));
-    if (vals.some((v) => v == null)) return; // nur Kennzahlen, die für alle gewählten Modelle belegt sind
     const nums = vals.filter((v) => v != null);
+    if (!nums.length) return;
     const best = nums.length > 1 ? (me.low ? Math.min(...nums) : Math.max(...nums)) : null;
+    if (nums.length < vals.length) { gaps.push(mkRow(me, vals, best)); return; } // nicht für alle belegt
     if (me.grp !== lastGrp) { rows.push(h('tr', { class: 'grp' }, h('th', { colspan: sel.length + 1 }, me.grp))); lastGrp = me.grp; }
-    rows.push(h('tr', null, h('th', { scope: 'row' }, h('span', null, me.t), h('small', null, me.u)),
-      vals.map((v) => h('td', { class: v != null && v === best ? 'best' : null }, v == null ? '–' : me.fmt(v)))));
+    rows.push(mkRow(me, vals, best));
   });
+  if (gaps.length) rows.push(h('tr', { class: 'grp' }, h('th', { colspan: sel.length + 1 }, 'Nicht für alle Modelle belegt')), ...gaps);
   const textRow = (label, fn) => h('tr', null, h('th', { scope: 'row' }, label), sel.map((m) => h('td', null, fn(m))));
   return [picker,
     h('div', { class: 'mdl-table-wrap' }, h('table', { class: 'mdl-table' },
@@ -192,7 +195,7 @@ function vergleich(models) {
         textRow('Anbieter', (m) => m.anbieter), textRow('Release', (m) => m.release || '–'), textRow('Lizenz', (m) => (m.typ === 'open weights' ? 'Offene Gewichte' : 'Proprietär')),
         textRow('Eingaben', (m) => (m.modalitaeten || []).join(', ') || '–'), textRow('Reasoning', (m) => (m.reasoning === true ? 'Ja' : m.reasoning === false ? 'Nein' : m.reasoning || '–')),
         rows))),
-    h('p', { class: 'mdl-note' }, 'Grün markiert ist der beste Wert je Zeile (bei Preisen der niedrigste). Gezeigt werden nur Kennzahlen, die für alle gewählten Modelle belegt sind.')];
+    h('p', { class: 'mdl-note' }, 'Grün markiert ist der beste Wert je Zeile (bei Preisen der niedrigste). Ein Strich bedeutet: für dieses Modell nicht belegt. Lückenhafte Kennzahlen stehen unten und sind nur eingeschränkt vergleichbar.')];
 }
 
 /* ----- Diagramme ----- */
