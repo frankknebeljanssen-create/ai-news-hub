@@ -1,0 +1,1198 @@
+{
+ "stand": "2026-10-06",
+ "quellen": [
+  {
+   "name": "Artificial Analysis Leaderboard",
+   "url": "https://artificialanalysis.ai/leaderboards/models",
+   "abgerufen": "2026-10-06"
+  },
+  {
+   "name": "Artificial Analysis Leaderboard (deprecation=all)",
+   "url": "https://artificialanalysis.ai/leaderboards/models?deprecation=all",
+   "abgerufen": "2026-10-06"
+  },
+  {
+   "name": "Arena (ehem. LMArena) Text",
+   "url": "https://arena.ai/leaderboard/text",
+   "abgerufen": "2026-10-06"
+  },
+  {
+   "name": "Artificial Analysis HLE",
+   "url": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
+   "abgerufen": "2026-10-06"
+  },
+  {
+   "name": "Vectara Hallucination Leaderboard",
+   "url": "https://github.com/vectara/hallucination-leaderboard",
+   "abgerufen": "2026-10-06"
+  }
+ ],
+ "modelle": [
+  {
+   "id": "claude-haiku-4-5",
+   "name": "Claude Haiku 4.5",
+   "anbieter": "Anthropic",
+   "familie": "Claude Haiku",
+   "release": "2025-10",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 200000,
+   "max_output": 64000,
+   "preis_in": 1,
+   "preis_out": 5,
+   "preis_cache_read": 0.1,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": "optional",
+   "wissensstand": "2025-02",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine geprüften Werte erhoben",
+   "staerken": [
+    "Schnellstes Claude",
+    "Günstig",
+    "Hohes Volumen"
+   ],
+   "hinweis": "Älteres Modell der Familie; laut Anthropic frühestens ab 15. Oktober 2026 kündbar. Wissensstand ist der verlässliche Stichtag, Trainingsdaten reichen bis 2025-07.",
+   "quellen": [
+    "https://platform.claude.com/docs/en/models/haiku-4-5/overview"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
+   "id": "claude-fable-5-1",
+   "name": "Claude Fable 5.1",
+   "anbieter": "Anthropic",
+   "familie": "Claude Fable",
+   "release": "2026-09",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1000000,
+   "max_output": 128000,
+   "preis_in": 10,
+   "preis_out": 50,
+   "preis_cache_read": 0.25,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": true,
+   "wissensstand": "2026-06",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": 65.0,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Anbieterangabe (HLE mit Tools): https://www.anthropic.com/claude-fable-and-mythos-5-1",
+   "staerken": [
+    "Schwieriges Reasoning",
+    "Langlaufende Agenten",
+    "Recherche und Dokumentenarbeit"
+   ],
+   "hinweis": "Teuerstes Claude-Modell; Cache-Lesen kostet nur ein Viertel des vorherigen Preises. Der HLE-Wert gilt mit Werkzeugen, die übrigen Standardbenchmarks nennt Anthropic nicht.",
+   "quellen": [
+    "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+    "https://platform.claude.com/docs/en/models/overview",
+    "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 53,
+    "tokens_pro_sekunde": 61,
+    "arena_elo": 1501,
+    "hle": 59.1
+   }
+  },
+  {
+   "id": "claude-opus-5-5",
+   "name": "Claude Opus 5.5",
+   "anbieter": "Anthropic",
+   "familie": "Claude Opus",
+   "release": "2026-09",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1000000,
+   "max_output": 128000,
+   "preis_in": 4,
+   "preis_out": 20,
+   "preis_cache_read": 0.2,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": true,
+   "wissensstand": "2026-06",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": 67.7,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Anbieterangabe (HLE mit Tools): https://www.anthropic.com/claude-opus-5-5",
+   "staerken": [
+    "Agentisches Coding",
+    "Wissensarbeit",
+    "Langlaufende Aufgaben"
+   ],
+   "hinweis": "Von Anthropic als Standardempfehlung für die meisten Workloads genannt. Der HLE-Wert gilt mit Werkzeugen; er ist nicht mit den Fable-Werten anderer Quellen vergleichbar.",
+   "quellen": [
+    "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+    "https://www.anthropic.com/claude-opus-5-5"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 58,
+    "tokens_pro_sekunde": 97,
+    "hle": 61.4,
+    "arena_elo": 1504
+   }
+  },
+  {
+   "id": "claude-sonnet-5-5",
+   "name": "Claude Sonnet 5.5",
+   "anbieter": "Anthropic",
+   "familie": "Claude Sonnet",
+   "release": "2026-09",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1000000,
+   "max_output": 128000,
+   "preis_in": 2,
+   "preis_out": 10,
+   "preis_cache_read": 0.2,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": "optional",
+   "wissensstand": "2026-06",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Anbieterangabe nennt keine der Standardbenchmarks: https://www.anthropic.com/claude-sonnet-5-5",
+   "staerken": [
+    "Tempo",
+    "Preis-Leistung",
+    "Präsentationen und Tabellen"
+   ],
+   "hinweis": "Adaptives Denken, per Einstellung weitgehend abschaltbar. Anbieter nennt Terminal-Bench 4.0 mit 70,6 Prozent, aber keine Werte für die geforderten Benchmarks.",
+   "quellen": [
+    "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+    "https://www.anthropic.com/claude-sonnet-5-5"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 56,
+    "tokens_pro_sekunde": 128
+   }
+  },
+  {
+   "id": "gpt-oss-120b",
+   "name": "gpt-oss-120b",
+   "anbieter": "OpenAI",
+   "familie": "gpt-oss",
+   "release": "2025-08",
+   "typ": "open weights",
+   "lizenz": "Apache 2.0",
+   "kontext": 131072,
+   "max_output": 131072,
+   "preis_in": null,
+   "preis_out": null,
+   "preis_cache_read": null,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": true,
+   "wissensstand": "2024-06",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine Werte erhoben",
+   "staerken": [
+    "Offene Gewichte",
+    "Lokal betreibbar",
+    "Einstellbarer Reasoning-Aufwand"
+   ],
+   "hinweis": "Läuft auf einer einzelnen H100-GPU (117 Mrd. Parameter, 5,1 Mrd. aktiv). Kein einheitlicher API-Preis, da je nach Hoster verschieden. Kleinere Variante gpt-oss-20b existiert.",
+   "quellen": [
+    "https://developers.openai.com/api/docs/models/gpt-oss-120b",
+    "https://www.theregister.com/2025/08/05/openai_open_gpt/"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
+   "id": "gpt-5-5",
+   "name": "GPT-5.5",
+   "anbieter": "OpenAI",
+   "familie": "GPT-5",
+   "release": "2026-04",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1100000,
+   "max_output": 128000,
+   "preis_in": 5,
+   "preis_out": 30,
+   "preis_cache_read": null,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": true,
+   "wissensstand": "2025-12",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine geprüften Werte; Sekundärquellen nennen umstrittene Benchmarks: https://www.implicator.ai/openai-gpt-5-5-by-the-numbers-higher-prices-disputed-benchmarks.md",
+   "staerken": [
+    "Agentisches Coding",
+    "Computer Use",
+    "Wissensarbeit"
+   ],
+   "hinweis": "Von der GPT-6-Reihe abgelöst. Alle Angaben stammen aus Sekundärquellen, nicht aus der OpenAI-Doku; Cache-Preis nicht belegt.",
+   "quellen": [
+    "https://anotherwrapper.com/llm-pricing/gpt-5.5",
+    "https://www.llmreference.com/model-family/gpt-5.5"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
+   "id": "gpt-6-astra",
+   "name": "GPT-6 Astra",
+   "anbieter": "OpenAI",
+   "familie": "GPT-6",
+   "release": "2026-09",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1050000,
+   "max_output": 128000,
+   "preis_in": 10,
+   "preis_out": 50,
+   "preis_cache_read": 1.0,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": "optional",
+   "wissensstand": "2026-04",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine eigenen Primärwerte übernommen; Sekundärquellen widersprechen sich: https://www.vellum.ai/md/blog/gpt-6-astra-benchmarks-explained",
+   "staerken": [
+    "Komplexes Reasoning",
+    "Coding",
+    "Computer Use"
+   ],
+   "hinweis": "Basispreis bis 272.000 Eingabetokens, darüber doppelter Eingabepreis und 1,5-facher Ausgabepreis. Release-Datum stammt aus Sekundärquellen (3. September 2026), die Doku nennt widersprüchliche Angaben; Benchmarks bewusst leer.",
+   "quellen": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra",
+    "https://developers.openai.com/api/docs/models",
+    "https://computingforgeeks.com/gpt-6-astra-released-features-benchmarks/"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 53,
+    "tokens_pro_sekunde": 63
+   }
+  },
+  {
+   "id": "gpt-6-luna",
+   "name": "GPT-6 Luna",
+   "anbieter": "OpenAI",
+   "familie": "GPT-6",
+   "release": "2026-09",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1050000,
+   "max_output": 128000,
+   "preis_in": 0.1,
+   "preis_out": 0.5,
+   "preis_cache_read": 0.01,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": "optional",
+   "wissensstand": "2026-05",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine Benchmarks mit Quelle gefunden",
+   "staerken": [
+    "Sehr günstig",
+    "Hohes Volumen",
+    "Strukturierte Ausgaben"
+   ],
+   "hinweis": "Effizientestes GPT-6-Modell. Release (22. September 2026) stammt aus Sekundärquellen, die Doku nennt widersprüchliche Angaben.",
+   "quellen": [
+    "https://developers.openai.com/api/docs/models/gpt-6-luna",
+    "https://felo.ai/vi/tools/gpt-6-luna"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
+   "id": "gpt-6-1-sol",
+   "name": "GPT-6.1 Sol",
+   "anbieter": "OpenAI",
+   "familie": "GPT-6",
+   "release": "2026-09",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1050000,
+   "max_output": 128000,
+   "preis_in": 2,
+   "preis_out": 10,
+   "preis_cache_read": 0.1,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": "optional",
+   "wissensstand": "2026-04",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine Primärwerte übernommen; Sekundärquellen nennen u. a. HLE 52,9 Prozent, Methodik ungeklärt: https://emergent.sh/learn/gpt-6-1-sol-benchmarks",
+   "staerken": [
+    "Preis-Leistung",
+    "Coding",
+    "Mehrere Reasoning-Stufen"
+   ],
+   "hinweis": "Laut OpenAI nahe an Astra bei deutlich geringeren Kosten. Release laut Sekundärquellen Ende September 2026, nicht in der Doku bestätigt.",
+   "quellen": [
+    "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "https://developers.openai.com/api/docs/models"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 52,
+    "tokens_pro_sekunde": 58
+   }
+  },
+  {
+   "id": "gemini-3-1-pro-preview",
+   "name": "Gemini 3.1 Pro (Preview)",
+   "anbieter": "Google",
+   "familie": "Gemini 3",
+   "release": "2026-02",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1048576,
+   "max_output": 65536,
+   "preis_in": 2.0,
+   "preis_out": 12.0,
+   "preis_cache_read": 0.2,
+   "modalitaeten": [
+    "text",
+    "bild",
+    "audio",
+    "video"
+   ],
+   "reasoning": true,
+   "wissensstand": null,
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine belegten Werte erhoben",
+   "staerken": [
+    "Tiefes Reasoning",
+    "Langer Kontext",
+    "Multimodal"
+   ],
+   "hinweis": "Preis gilt bis 200.000 Token pro Anfrage, darüber 4 und 18 USD; weiterhin als Preview geführt, ein neueres Pro-Modell fand ich nicht.",
+   "quellen": [
+    "https://ai.google.dev/gemini-api/docs/pricing",
+    "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
+   "id": "gemini-3-1-flash-lite",
+   "name": "Gemini 3.1 Flash-Lite",
+   "anbieter": "Google",
+   "familie": "Gemini 3",
+   "release": "2026-03",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": null,
+   "max_output": null,
+   "preis_in": 0.25,
+   "preis_out": 1.5,
+   "preis_cache_read": 0.025,
+   "modalitaeten": [
+    "text",
+    "bild",
+    "audio",
+    "video"
+   ],
+   "reasoning": null,
+   "wissensstand": null,
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine belegten Werte erhoben",
+   "staerken": [
+    "Sehr günstig",
+    "Hohes Tempo"
+   ],
+   "hinweis": "Release-Monat, Kontext und Reasoning nicht geprüft; Audioeingabe kostet 0,50 USD.",
+   "quellen": [
+    "https://ai.google.dev/gemini-api/docs/pricing"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
+   "id": "gemma-4-31b",
+   "name": "Gemma 4 31B",
+   "anbieter": "Google",
+   "familie": "Gemma 4",
+   "release": "2026-04",
+   "typ": "open weights",
+   "lizenz": "Apache 2.0",
+   "kontext": 256000,
+   "max_output": null,
+   "preis_in": null,
+   "preis_out": null,
+   "preis_cache_read": null,
+   "modalitaeten": [
+    "text",
+    "bild",
+    "video"
+   ],
+   "reasoning": null,
+   "wissensstand": null,
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine belegten Werte erhoben",
+   "staerken": [
+    "Offene Gewichte",
+    "Lokal einsetzbar",
+    "Freie Lizenz"
+   ],
+   "hinweis": "Dichtes Modell mit etwa 30,7 Mrd. Parametern; es gibt auch E2B, E4B und ein 26B-MoE.",
+   "quellen": [
+    "https://thenextweb.com/news/google-gemma-4-open-models-apache-2-launch",
+    "https://datanorth.ai/news/google-releases-gemma-4-open-models"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
+   "id": "gemini-3-8-flash",
+   "name": "Gemini 3.8 Flash",
+   "anbieter": "Google",
+   "familie": "Gemini 3",
+   "release": "2026-09",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1048576,
+   "max_output": 65536,
+   "preis_in": 0.75,
+   "preis_out": 3.75,
+   "preis_cache_read": 0.075,
+   "modalitaeten": [
+    "text",
+    "bild",
+    "audio",
+    "video"
+   ],
+   "reasoning": true,
+   "wissensstand": null,
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": 45.4,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "HLE 45,4 Prozent laut Google-Entwicklerdoku, nur über Sekundärbericht gesehen: https://benchlm.ai/models/gemini-3.8-flash",
+   "staerken": [
+    "Coding über lange Abläufe",
+    "Agenten",
+    "Geschwindigkeit",
+    "Multimodale Eingabe"
+   ],
+   "hinweis": "Der Preis gilt bis 31.12.2026 und verdoppelt sich ab 1.1.2027 auf 1,50 und 7,50 USD; GPQA wurde nur als AA-Variante gemeldet und daher nicht übernommen.",
+   "quellen": [
+    "https://ai.google.dev/gemini-api/docs/pricing",
+    "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+    "https://benchlm.ai/models/gemini-3.8-flash"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 41,
+    "tokens_pro_sekunde": 242,
+    "arena_elo": 1495
+   }
+  },
+  {
+   "id": "gemini-4-argon",
+   "name": "Gemini 4 Argon",
+   "anbieter": "Google",
+   "familie": "Gemini 4",
+   "release": "2026-09",
+   "typ": "proprietär",
+   "lizenz": "Proprietär (Google, Zugang bisher nur über das Fairwind-Programm)",
+   "kontext": 1000000,
+   "max_output": 1000000,
+   "preis_in": 2.0,
+   "preis_out": 10.0,
+   "preis_cache_read": 0.1,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": true,
+   "wissensstand": null,
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": 1525
+   },
+   "benchmark_quelle": "Artificial Analysis Intelligence Index 53 (Rang 8 von 224, Stand Oktober 2026); Arena Elo laut Leaderboard-Angabe; Google nennt DeepSWE v1.1 77,9 % und AutomationBench 51,3 % (Herstellerangaben)",
+   "staerken": [
+    "Langzeit-Coding",
+    "Wissensarbeit (Recht, Finanzen)",
+    "Cybersicherheit"
+   ],
+   "hinweis": "Die Preise sind Einführungspreise, danach sind 4 USD Input und 20 USD Output je 1 Mio Token angekündigt, und der Zugang ist laut Drittquellen noch eingeschränkt, die Eingabe-Kontextgröße ist von Google nicht offiziell bestätigt.",
+   "quellen": [
+    "https://artificialanalysis.ai/models/gemini-4-argon",
+    "https://www.aipricing.guru/news/google-gemini-4-argon-pricing-access-october-2026/",
+    "https://ai.google.dev/gemini-api/docs/pricing"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 53,
+    "arena_elo": 1525
+   }
+  },
+  {
+   "id": "grok-4-3",
+   "name": "Grok 4.3",
+   "anbieter": "xAI",
+   "familie": "Grok 4",
+   "release": null,
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1000000,
+   "max_output": null,
+   "preis_in": 1.25,
+   "preis_out": 2.5,
+   "preis_cache_read": 0.2,
+   "modalitaeten": [
+    "text"
+   ],
+   "reasoning": true,
+   "wissensstand": null,
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine belegten Werte erhoben",
+   "staerken": [
+    "Günstiger Preis",
+    "1 Mio. Kontext"
+   ],
+   "hinweis": "Preis bis 200.000 Token, darüber 2,50 und 5 USD; Release-Monat nicht belegt.",
+   "quellen": [
+    "https://docs.x.ai/docs/models"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
+   "id": "grok-4-7",
+   "name": "Grok 4.7",
+   "anbieter": "xAI",
+   "familie": "Grok 4",
+   "release": "2026-09",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 500000,
+   "max_output": null,
+   "preis_in": 2.0,
+   "preis_out": 6.0,
+   "preis_cache_read": 0.5,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": true,
+   "wissensstand": "2026-05",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "xAI nennt eigene Tests (u. a. Terminal-Bench, DeepSWE), keine der gesuchten Kennzahlen: https://braindetox.kr/en/posts/grok_4_7_release_2026.html",
+   "staerken": [
+    "Coding",
+    "Agentenaufgaben",
+    "Wissensarbeit"
+   ],
+   "hinweis": "Preis bis 200.000 Token, darüber 4 und 12 USD; Wissensstand nur aus Sekundärquelle, Ausgabe nur Text, kein Batch.",
+   "quellen": [
+    "https://docs.x.ai/docs/models",
+    "https://docs.x.ai/docs/models/grok-4.7",
+    "https://braindetox.kr/en/posts/grok_4_7_release_2026.html"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 46,
+    "tokens_pro_sekunde": 92
+   }
+  },
+  {
+   "id": "muse-spark-1-3",
+   "name": "Muse Spark 1.3",
+   "anbieter": "Meta",
+   "familie": "Muse",
+   "release": "2026-09",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1048576,
+   "max_output": 943718,
+   "preis_in": 1.25,
+   "preis_out": 4.25,
+   "preis_cache_read": 0.15,
+   "modalitaeten": [
+    "text",
+    "bild",
+    "audio",
+    "video"
+   ],
+   "reasoning": true,
+   "wissensstand": null,
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Artificial Analysis Index 48,09, keine der gesuchten Kennzahlen: https://codersera.com/blog/muse-spark-complete-guide-2026",
+   "staerken": [
+    "Günstige API",
+    "Multimodal",
+    "Langer Kontext"
+   ],
+   "hinweis": "Meta führte Muse Spark im April 2026 als erstes geschlossenes Modell ein und beendete damit die Llama-Open-Weights-Linie; Daten nur aus Sekundärquelle, Audio noch unvollständig, Reasoning nicht abschaltbar.",
+   "quellen": [
+    "https://codersera.com/blog/muse-spark-complete-guide-2026",
+    "https://getdeploying.com/llms/muse-spark-1.1"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 48,
+    "tokens_pro_sekunde": 188,
+    "arena_elo": 1494
+   }
+  },
+  {
+   "id": "mistral-large-3",
+   "name": "Mistral Large 3",
+   "anbieter": "Mistral",
+   "familie": "Mistral Large",
+   "release": "2025-12",
+   "typ": "open weights",
+   "lizenz": "Apache 2.0",
+   "kontext": 256000,
+   "max_output": null,
+   "preis_in": 0.5,
+   "preis_out": 1.5,
+   "preis_cache_read": null,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": false,
+   "wissensstand": null,
+   "params": "675 Mrd. gesamt, 41 Mrd. aktiv (plus 2,5 Mrd. Vision-Encoder)",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine belegten Werte in den geprüften Quellen: https://getdeploying.com/llms/mistral-large-3",
+   "staerken": [
+    "Apache-2.0",
+    "günstig",
+    "Multimodal",
+    "Mehrsprachigkeit"
+   ],
+   "hinweis": "Preis und Parameter aus Aggregator-Seiten, Reasoning-Wert nach Modellbeschreibung als allgemeines Instruct-Modell angenommen.",
+   "quellen": [
+    "https://docs.mistral.ai/getting-started/models/models_overview/",
+    "https://getdeploying.com/llms/mistral-large-3"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
+   "id": "mistral-medium-3-5",
+   "name": "Mistral Medium 3.5",
+   "anbieter": "Mistral",
+   "familie": "Mistral Medium",
+   "release": "2026-04",
+   "typ": "open weights",
+   "lizenz": "Modified MIT",
+   "kontext": 256000,
+   "max_output": null,
+   "preis_in": 1.5,
+   "preis_out": 7.5,
+   "preis_cache_read": null,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": null,
+   "wissensstand": null,
+   "params": null,
+   "benchmarks": {
+    "swe_bench_verified": 77.6,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Sekundärquelle, nicht unabhängig geprüft: https://datanorth.ai/news/mistral-medium-3-5-release",
+   "staerken": [
+    "Coding",
+    "Agenten",
+    "Multimodal",
+    "EU-Anbieter"
+   ],
+   "hinweis": "Modalitäten genau und Reasoning-Status nicht belegt; ein gefundener GPQA-Wert von 34,9 Prozent wirkt unplausibel und wurde nicht übernommen.",
+   "quellen": [
+    "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
+    "https://docs.mistral.ai/getting-started/models/models_overview/"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 14,
+    "tokens_pro_sekunde": 168
+   }
+  },
+  {
+   "id": "deepseek-v4-pro",
+   "name": "DeepSeek V4 Pro (0813)",
+   "anbieter": "DeepSeek",
+   "familie": "DeepSeek V4",
+   "release": "2026-08",
+   "typ": "open weights",
+   "lizenz": "MIT",
+   "kontext": 1000000,
+   "max_output": 384000,
+   "preis_in": 1.32,
+   "preis_out": 3.96,
+   "preis_cache_read": 0.044,
+   "modalitaeten": [
+    "text"
+   ],
+   "reasoning": "optional",
+   "wissensstand": null,
+   "params": "1,6 Billionen gesamt, 49 Mrd. aktiv (Angabe zur Preview vom April 2026)",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": 42.7,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Anbieterangaben laut Vergleichsseite: https://www.requesty.ai/models/compare/deepseek--deepseek-v4-flash-0731/deepseek--deepseek-v4-pro-0813 (Sekundärquelle, nicht gegengeprüft)",
+   "staerken": [
+    "Coding",
+    "1 Mio. Kontext",
+    "Wissensfragen",
+    "günstig"
+   ],
+   "hinweis": "Preise gelten zur Spitzenzeit, außerhalb davon gilt der halbe Preis; Parameterangabe stammt von der V4-Vorschau, der Stand 0813 kann abweichen.",
+   "quellen": [
+    "https://api-docs.deepseek.com/quick_start/pricing",
+    "https://deepseek.com/en/news/v4-preview/"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
+   "id": "deepseek-v4-1-flash",
+   "name": "DeepSeek V4.1 Flash",
+   "anbieter": "DeepSeek",
+   "familie": "DeepSeek V4",
+   "release": "2026-09",
+   "typ": "open weights",
+   "lizenz": "MIT",
+   "kontext": 1000000,
+   "max_output": 384000,
+   "preis_in": 0.3,
+   "preis_out": 1.2,
+   "preis_cache_read": 0.006,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": "optional",
+   "wissensstand": null,
+   "params": "552 Mrd. gesamt, 8 Mrd. aktiv beim Prefill, 16 Mrd. bei der Dekodierung (laut Sekundärquelle)",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": 36.8,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Anbieterangaben laut Vergleichsseite: https://benchlm.ai/md/compare/deepseek-v4-1-flash-vs-deepseek-v4-pro-0813.md (Sekundärquelle)",
+   "staerken": [
+    "Agentisches Coding",
+    "sehr günstig",
+    "Bildeingabe",
+    "1 Mio. Kontext"
+   ],
+   "hinweis": "Spitzenzeitpreis angegeben, außerhalb der Spitzenzeiten halb so teuer; bei Agentik-Tests laut Anbieter teils besser als V4 Pro, bei Wissen schwächer.",
+   "quellen": [
+    "https://api-docs.deepseek.com/quick_start/pricing",
+    "https://www.yottalabs.ai/post/deepseek-v4-1-flash-pricing-specs-v4-pro-routing-2026"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 39,
+    "tokens_pro_sekunde": 222
+   }
+  },
+  {
+   "id": "qwen3-8-max",
+   "name": "Qwen3.8-Max",
+   "anbieter": "Alibaba",
+   "familie": "Qwen3.8",
+   "release": "2026-08",
+   "typ": "proprietär",
+   "lizenz": "API proprietär; Open-Weights-Checkpoint unter eigener Qwen3.8-Max-Lizenz (Lizenzpflicht ab 50 Mio. USD Jahresumsatz mit KI-Diensten)",
+   "kontext": 983616,
+   "max_output": 131072,
+   "preis_in": 2.0,
+   "preis_out": 6.0,
+   "preis_cache_read": 0.2,
+   "modalitaeten": [
+    "text",
+    "bild",
+    "video"
+   ],
+   "reasoning": true,
+   "wissensstand": null,
+   "params": "2,4 Billionen gesamt, 95 Mrd. aktiv",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": 92.6,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Anbieterangabe laut Berichterstattung: https://ai-tldr.dev/releases/alibaba-qwen-3-8-max-official/",
+   "staerken": [
+    "Langzeit-Agenten",
+    "Multimodal",
+    "großer Kontext"
+   ],
+   "hinweis": "Der offene Checkpoint ist laut Sekundärquellen nur Text und ohne nativen 1-Mio.-Kontext; Reasoning-Status nicht eindeutig belegt.",
+   "quellen": [
+    "https://ai-tldr.dev/releases/alibaba-qwen-3-8-max-official/",
+    "https://sqmagazine.co.uk/qwen3-8-open-weights-two-licenses/"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 45,
+    "tokens_pro_sekunde": 38
+   }
+  },
+  {
+   "id": "kimi-k3",
+   "name": "Kimi K3",
+   "anbieter": "Moonshot",
+   "familie": "Kimi K",
+   "release": "2026-07",
+   "typ": "open weights",
+   "lizenz": "Eigene Kimi-K3-Lizenz (Absprache nötig ab 20 Mio. USD Umsatz beim Weiterverkauf, Namensnennung bei sehr großen Produkten)",
+   "kontext": 1000000,
+   "max_output": null,
+   "preis_in": 3.0,
+   "preis_out": 15.0,
+   "preis_cache_read": 0.3,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": true,
+   "wissensstand": null,
+   "params": "2,8 Billionen gesamt, 104 Mrd. aktiv",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Anbieterangaben nur zu FrontierSWE und Terminal-Bench, keine der geforderten Kennzahlen belegt: https://rits.shanghai.nyu.edu/ai/kimi-k3-open-weights-ship-2-8t-parameters-1-4-tb-to-run/",
+   "staerken": [
+    "Coding",
+    "Agenten",
+    "Bildverständnis",
+    "offene Gewichte"
+   ],
+   "hinweis": "Laut Anbieter hinter Claude Fable 5 und GPT-5.6 Sol, aber vor anderen getesteten Modellen; Reasoning-Status aus Beschreibung abgeleitet.",
+   "quellen": [
+    "https://platform.kimi.ai/docs/pricing/chat",
+    "https://roo.beehiiv.com/p/kimi-k3-open-weights-license-benchmarks"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 44,
+    "tokens_pro_sekunde": 49,
+    "arena_elo": 1488
+   }
+  },
+  {
+   "id": "glm-5-3",
+   "name": "GLM-5.3",
+   "anbieter": "Zhipu",
+   "familie": "GLM-5",
+   "release": "2026-08",
+   "typ": "open weights",
+   "lizenz": "Eigene glm-5.3-Lizenz (Sicherheitsprüfung für Anbieter über 10 Mrd. USD Umsatz)",
+   "kontext": 1048576,
+   "max_output": 128000,
+   "preis_in": 1.4,
+   "preis_out": 4.4,
+   "preis_cache_read": 0.26,
+   "modalitaeten": [
+    "text"
+   ],
+   "reasoning": true,
+   "wissensstand": null,
+   "params": "753 Mrd. gesamt, 40 Mrd. aktiv",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Anbieterangaben nur zu Terminal-Bench, DeepSWE, CyberGym: https://docs.z.ai/guides/llm/glm-5.3",
+   "staerken": [
+    "Software-Engineering",
+    "Cybersicherheit",
+    "1 Mio. Kontext"
+   ],
+   "hinweis": "Reasoning ist immer aktiv (Stufen low, high, max); Gewichte erschienen zwei Wochen nach dem API-Start.",
+   "quellen": [
+    "https://docs.z.ai/guides/overview/pricing",
+    "https://docs.z.ai/guides/llm/glm-5.3",
+    "https://datanorth.ai/news/z-ai-releases-glm-5-3"
+   ],
+   "stand": "2026-10-06",
+   "unabhaengig": {
+    "ai_index": 45,
+    "tokens_pro_sekunde": 75
+   }
+  },
+  {
+   "id": "glm-5-3-flash",
+   "name": "GLM-5.3-Flash",
+   "anbieter": "Zhipu",
+   "familie": "GLM-5",
+   "release": "2026-08",
+   "typ": "open weights",
+   "lizenz": "MIT",
+   "kontext": null,
+   "max_output": null,
+   "preis_in": 0.15,
+   "preis_out": 0.5,
+   "preis_cache_read": 0.03,
+   "modalitaeten": [
+    "text"
+   ],
+   "reasoning": null,
+   "wissensstand": null,
+   "params": "320 Mrd. gesamt, 18 Mrd. aktiv",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine Benchmarks gefunden: https://docs.z.ai/guides/overview/pricing",
+   "staerken": [
+    "sehr günstig",
+    "MIT-Lizenz",
+    "schnell"
+   ],
+   "hinweis": "Kontextlänge, Reasoning-Status und genaues Releasedatum nicht belegt, daher leer; Parameter aus Sekundärquelle.",
+   "quellen": [
+    "https://docs.z.ai/guides/overview/pricing",
+    "https://datanorth.ai/news/z-ai-releases-glm-5-3"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
+   "id": "reflection-beam",
+   "name": "Beam",
+   "anbieter": "Reflection AI",
+   "familie": "Beam",
+   "release": "2026-10",
+   "typ": "open weights",
+   "lizenz": "Apache 2.0 (Gewichte erscheinen später im Oktober 2026)",
+   "kontext": 1000000,
+   "max_output": null,
+   "preis_in": null,
+   "preis_out": null,
+   "preis_cache_read": null,
+   "modalitaeten": [
+    "text"
+   ],
+   "reasoning": true,
+   "wissensstand": null,
+   "params": "501 Mrd. gesamt, 23 Mrd. aktiv",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": 90.5,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Anbieterangabe: https://reflection.ai/blog/introducing-beam",
+   "staerken": [
+    "Rechenaufwand gering",
+    "Reasoning",
+    "Coding",
+    "Apache-2.0"
+   ],
+   "hinweis": "Gewichte noch nicht veröffentlicht, Preise nicht bekannt; AIME-Wert gilt für 2026, nicht 2025, und ist daher nicht eingetragen.",
+   "quellen": [
+    "https://reflection.ai/blog/introducing-beam",
+    "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
+   "id": "cohere-command-a-plus",
+   "name": "Command A+",
+   "anbieter": "Cohere",
+   "familie": "Command A",
+   "release": "2026-05",
+   "typ": "open weights",
+   "lizenz": "Apache 2.0",
+   "kontext": 128000,
+   "max_output": 64000,
+   "preis_in": 0.8,
+   "preis_out": 3.2,
+   "preis_cache_read": null,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": "optional",
+   "wissensstand": null,
+   "params": "218 Mrd. gesamt, 25 Mrd. aktiv",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine Benchmarks gefunden: https://getdeploying.com/llms/command-a-plus-05-2026",
+   "staerken": [
+    "Agenten",
+    "Mehrsprachigkeit (48 Sprachen)",
+    "Bild plus Text",
+    "Apache-2.0"
+   ],
+   "hinweis": "Preis ist der günstigste Hoster (Azure), die eigene Cohere-API-Preisangabe wurde nicht gefunden; eine Quelle nennt 256k Kontext für Command A, hier gilt 128k.",
+   "quellen": [
+    "https://getdeploying.com/llms/command-a-plus-05-2026"
+   ],
+   "stand": "2026-10-06"
+  }
+ ]
+}

@@ -737,7 +737,7 @@ function glLetter(t) {
 
 function backLabel(hsh) {
   const a = hsh.replace(/^#\//, '').split('?')[0].split('/')[0];
-  return ({ '': 'Heute', tag: 'Heute', briefing: 'Kurz-Briefing', woche: 'Die Woche in Kürze', aiti: 'AITI', archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', status: 'Status' })[a] || 'vorheriger Seite';
+  return ({ '': 'Heute', tag: 'Heute', briefing: 'Kurz-Briefing', woche: 'Die Woche in Kürze', aiti: 'AITI', modelle: 'Modelle', archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', status: 'Status' })[a] || 'vorheriger Seite';
 }
 
 /* ---------- Ansicht: AITI (alle Meldungen mit dem Tag "AITI") ---------- */
@@ -1249,10 +1249,10 @@ async function route() {
   if (store.briefAbort) { store.briefAbort.abort(); store.briefAbort = null; }
   if (!location.hash && getSettings().startBriefing && !store.startDone) { store.startDone = true; history.replaceState(null, '', '#/briefing'); }
   const { parts, q } = parseHash();
-  const area = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar', 'briefing', 'woche', 'status', 'aiti'].includes(parts[0]) ? parts[0] : 'heute';
+  const area = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar', 'briefing', 'woche', 'status', 'aiti', 'modelle'].includes(parts[0]) ? parts[0] : 'heute';
   document.querySelectorAll('[data-nav]').forEach((a) => ((a.dataset.nav === (area === 'woche' ? 'briefing' : area) || ((area === 'briefing' || area === 'woche') && a.closest('.tabbar') && a.dataset.nav === 'heute')) ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
   $app.classList.toggle('mode-week', area === 'woche');
-  document.getElementById('gsearch').hidden = area === 'suche' || area === 'glossar' || area === 'briefing' || area === 'woche';
+  document.getElementById('gsearch').hidden = area === 'suche' || area === 'modelle' || area === 'glossar' || area === 'briefing' || area === 'woche';
   const keepScroll = ['archiv', 'suche', 'merkliste', 'einstellungen', 'glossar'].includes(area) && route.last === area;
   route.last = area;
   try {
@@ -1265,12 +1265,13 @@ async function route() {
     else if (area === 'woche') await viewWeek(q);
     else if (area === 'status') await viewStatus();
     else if (area === 'aiti') await viewAiti();
+    else if (area === 'modelle') await viewModelle();
     else await viewDay(parts[0] === 'tag' ? parts[1] : null, q);
   } catch (err) {
     console.error(err);
     render(stateBox('Die Nachrichten konnten nicht geladen werden. Bitte später erneut versuchen.'));
   }
-  document.title = area === 'heute' ? 'KI News' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar', briefing: 'Briefing', woche: 'Die Woche in Kürze', status: 'Status', aiti: 'AITI' }[area] + ' | KI News';
+  document.title = area === 'heute' ? 'KI News' : { archiv: 'Archiv', suche: 'Suche', merkliste: 'Merkliste', einstellungen: 'Einstellungen', glossar: 'Glossar', briefing: 'Briefing', woche: 'Die Woche in Kürze', status: 'Status', aiti: 'AITI', modelle: 'Modelle' }[area] + ' | KI News';
   fitCards();
   if (cameBack || store.restore) window.scrollTo(0, store.scrollMem[curHash] || 0);
   else if (!keepScroll && !(area === 'glossar' && q.t)) window.scrollTo(0, 0);
