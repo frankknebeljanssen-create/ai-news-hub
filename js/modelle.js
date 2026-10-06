@@ -176,7 +176,7 @@ function vergleich(models) {
   let lastGrp = '';
   METRIKEN.forEach((me) => {
     const vals = sel.map((m) => me.get(m));
-    if (vals.every((v) => v == null)) return;
+    if (vals.some((v) => v == null)) return; // nur Kennzahlen, die für alle gewählten Modelle belegt sind
     const nums = vals.filter((v) => v != null);
     const best = nums.length > 1 ? (me.low ? Math.min(...nums) : Math.max(...nums)) : null;
     if (me.grp !== lastGrp) { rows.push(h('tr', { class: 'grp' }, h('th', { colspan: sel.length + 1 }, me.grp))); lastGrp = me.grp; }
@@ -192,7 +192,7 @@ function vergleich(models) {
         textRow('Anbieter', (m) => m.anbieter), textRow('Release', (m) => m.release || '–'), textRow('Lizenz', (m) => (m.typ === 'open weights' ? 'Offene Gewichte' : 'Proprietär')),
         textRow('Eingaben', (m) => (m.modalitaeten || []).join(', ') || '–'), textRow('Reasoning', (m) => (m.reasoning === true ? 'Ja' : m.reasoning === false ? 'Nein' : m.reasoning || '–')),
         rows))),
-    h('p', { class: 'mdl-note' }, 'Grün markiert ist der beste Wert je Zeile (bei Preisen der niedrigste). Fehlende Werte sind nicht belegt.')];
+    h('p', { class: 'mdl-note' }, 'Grün markiert ist der beste Wert je Zeile (bei Preisen der niedrigste). Gezeigt werden nur Kennzahlen, die für alle gewählten Modelle belegt sind.')];
 }
 
 /* ----- Diagramme ----- */
