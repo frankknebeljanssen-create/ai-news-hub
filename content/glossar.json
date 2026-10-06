@@ -673,8 +673,8 @@
  },
  {
   "term": "GPT-4",
-  "def": "Multimodales LLM von OpenAI, März 2023. Nachfolger GPT-4o (Mai 2024) und GPT-5 (August 2025). Closed-Weights. Verbreitete Schnittstelle für Legal-Tech-Tools.",
-  "geprueft": "2026-10-05"
+  "def": "Multimodales LLM von OpenAI, März 2023. Seitdem sind weitere Generationen erschienen (GPT-4o, GPT-5 und Nachfolger). Closed-Weights. Verbreitete Schnittstelle für Legal-Tech-Tools.",
+  "geprueft": "2026-10-06"
  },
  {
   "term": "GPU (Grafikprozessor)",
@@ -729,13 +729,13 @@
  {
   "term": "HmbBfDI",
   "def": "Hamburgischer Beauftragter für Datenschutz und Informationsfreiheit, eine der profilierten deutschen Aufsichtsbehörden zu KI/DSGVO.",
-  "more": "Die HmbBfDI hat 2024 mit einem Diskussionspapier zur Position vertreten, dass Large Language Models grundsätzlich nicht als personenbezogene Daten einzustufen sind, soweit sie keine memorisierten Daten enthalten. Diese Position wurde von der dänischen Aufsicht ähnlich übernommen, von Baden-Württemberg und Bayern zurückhaltender gesehen. Die EDPB-Stellungnahme zu LLMs ist im Frühjahr 2026 in Vorbereitung.",
+  "more": "Die HmbBfDI hat 2024 mit einem Diskussionspapier die Position vertreten, dass Large Language Models grundsätzlich nicht als personenbezogene Daten einzustufen sind, soweit sie keine memorisierten Daten enthalten. Baden-Württemberg und Bayern sahen das zurückhaltender. Der Europäische Datenschutzausschuss (EDPB) hat dieser Position in seiner Stellungnahme 28/2024 vom 18.12.2024 widersprochen: Ein KI-Modell gilt nur dann als anonym, wenn sich personenbezogene Daten mit vertretbarem Aufwand weder extrahieren noch durch Anfragen hervorlocken lassen. Das ist im Einzelfall zu prüfen.",
   "related": [
    "BfDI",
    "DSK",
    "DSGVO"
   ],
-  "geprueft": "2026-10-05"
+  "geprueft": "2026-10-06"
  },
  {
   "term": "Hochrisiko-KI",
@@ -888,8 +888,8 @@
  },
  {
   "term": "Le Chat",
-  "def": "Endkundenprodukt von Mistral AI. DSGVO-konforme europäische Alternative zu ChatGPT, basierend auf Mistral Large.",
-  "geprueft": "2026-10-05"
+  "def": "Endkundenprodukt von Mistral AI, seit dem 28.5.2026 unter dem Namen Mistral Vibe (zuvor Le Chat). Europäische Alternative zu ChatGPT mit den Bereichen Chat, Work und Code, betrieben mit Modellen wie Mistral Large 3. Die Bezeichnung DSGVO-konform hängt von der konkreten Nutzung ab und sollte nur mit Vorbehalt verwendet werden.",
+  "geprueft": "2026-10-06"
  },
  {
   "term": "Legartis",
@@ -1191,8 +1191,8 @@
  },
  {
   "term": "Reasoning-Paradox",
-  "def": "Empirisch belegter Befund 2025 bis 2026: Reasoning-Modelle (mit langen Chain-of-Thought-Ketten) halluzinieren auf grounded RAG-Aufgaben häufiger als Nicht-Reasoning-Modelle. Vectara HHEM März 2026: GPT-5, Claude Sonnet 4.5, Grok-4, Gemini-3-Pro alle über 10%; Grok-4-fast-reasoning 20,2%. Hypothese: 'Überdenken' entfernt vom Quelltext. Quelle: arXiv 2505.23646 'Are Reasoning Models More Prone to Hallucination?'",
-  "geprueft": "2026-10-05"
+  "def": "Empirisch belegter Befund 2025 bis 2026: Reasoning-Modelle (mit langen Chain-of-Thought-Ketten) halluzinieren auf grounded RAG-Aufgaben teils häufiger als Nicht-Reasoning-Modelle. Das Ergebnis hängt von Modell und Datensatz ab, aktuelle Werte liefert das Vectara-Leaderboard. Hypothese: 'Überdenken' entfernt vom Quelltext. Quelle: arXiv 2505.23646 'Are Reasoning Models More Prone to Hallucination?'",
+  "geprueft": "2026-10-06"
  },
  {
   "term": "Rechenzentrum",
