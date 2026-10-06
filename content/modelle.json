@@ -7,22 +7,17 @@
    "abgerufen": "2026-10-06"
   },
   {
-   "name": "Artificial Analysis Leaderboard (deprecation=all)",
-   "url": "https://artificialanalysis.ai/leaderboards/models?deprecation=all",
-   "abgerufen": "2026-10-06"
-  },
-  {
-   "name": "Arena (ehem. LMArena) Text",
+   "name": "Arena Text Leaderboard",
    "url": "https://arena.ai/leaderboard/text",
    "abgerufen": "2026-10-06"
   },
   {
-   "name": "Artificial Analysis HLE",
+   "name": "AA Humanity's Last Exam",
    "url": "https://artificialanalysis.ai/evaluations/humanitys-last-exam",
    "abgerufen": "2026-10-06"
   },
   {
-   "name": "Vectara Hallucination Leaderboard",
+   "name": "Vectara Hallucination Leaderboard (Stand 2026-09-22, keine Frontier-Modelle in Top 5: Finix S1 32B 1.8, GPT-5.4-nano 3.1, Gemini 2.5 Flash Lite 3.3)",
    "url": "https://github.com/vectara/hallucination-leaderboard",
    "abgerufen": "2026-10-06"
   }
@@ -252,11 +247,11 @@
    "release": "2026-04",
    "typ": "proprietär",
    "lizenz": null,
-   "kontext": 1100000,
+   "kontext": 1050000,
    "max_output": 128000,
    "preis_in": 5,
    "preis_out": 30,
-   "preis_cache_read": null,
+   "preis_cache_read": 0.5,
    "modalitaeten": [
     "text",
     "bild"
@@ -414,6 +409,87 @@
    }
   },
   {
+   "id": "gemini-3-5-flash-lite",
+   "name": "Gemini 3.5 Flash-Lite",
+   "anbieter": "Google",
+   "familie": "Gemini 3",
+   "release": null,
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1048576,
+   "max_output": 65536,
+   "preis_in": 0.3,
+   "preis_out": 2.5,
+   "preis_cache_read": null,
+   "modalitaeten": [
+    "text",
+    "bild",
+    "audio",
+    "video"
+   ],
+   "reasoning": true,
+   "wissensstand": null,
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine belegten Werte erhoben",
+   "staerken": [
+    "Günstig",
+    "Subagenten",
+    "Dokumentverarbeitung"
+   ],
+   "hinweis": "Release-Monat nicht belegt (Doku: letzte Aktualisierung Juli 2026); Cache-Preis nicht geprüft; Ausgabe nur Text.",
+   "quellen": [
+    "https://ai.google.dev/gemini-api/docs/pricing"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
+   "id": "gemini-3-7-flash",
+   "name": "Gemini 3.7 Flash",
+   "anbieter": "Google",
+   "familie": "Gemini 3",
+   "release": null,
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": null,
+   "max_output": null,
+   "preis_in": 0.75,
+   "preis_out": 3.75,
+   "preis_cache_read": null,
+   "modalitaeten": [
+    "text",
+    "bild",
+    "audio",
+    "video"
+   ],
+   "reasoning": null,
+   "wissensstand": null,
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine belegten Werte erhoben",
+   "staerken": [
+    "Geschwindigkeit",
+    "Effizienz"
+   ],
+   "hinweis": "Preis gilt bis 31.12.2026 und steigt ab 1.1.2027 auf 1,50 und 7,50 USD; Kontext, Output, Release und Cache-Preis nicht geprüft.",
+   "quellen": [
+    "https://ai.google.dev/gemini-api/docs/pricing"
+   ],
+   "stand": "2026-10-06"
+  },
+  {
    "id": "gemini-3-1-pro-preview",
    "name": "Gemini 3.1 Pro (Preview)",
    "anbieter": "Google",
@@ -463,8 +539,8 @@
    "release": "2026-03",
    "typ": "proprietär",
    "lizenz": null,
-   "kontext": null,
-   "max_output": null,
+   "kontext": 1048576,
+   "max_output": 65536,
    "preis_in": 0.25,
    "preis_out": 1.5,
    "preis_cache_read": 0.025,
@@ -474,7 +550,7 @@
     "audio",
     "video"
    ],
-   "reasoning": null,
+   "reasoning": true,
    "wissensstand": null,
    "benchmarks": {
     "swe_bench_verified": null,
@@ -988,7 +1064,7 @@
    "release": "2026-07",
    "typ": "open weights",
    "lizenz": "Eigene Kimi-K3-Lizenz (Absprache nötig ab 20 Mio. USD Umsatz beim Weiterverkauf, Namensnennung bei sehr großen Produkten)",
-   "kontext": 1000000,
+   "kontext": 1048576,
    "max_output": null,
    "preis_in": 3.0,
    "preis_out": 15.0,
@@ -1026,6 +1102,44 @@
     "tokens_pro_sekunde": 49,
     "arena_elo": 1488
    }
+  },
+  {
+   "id": "glm-5-3-flashx",
+   "name": "GLM-5.3-FlashX",
+   "anbieter": "Zhipu",
+   "familie": "GLM-5",
+   "release": null,
+   "typ": null,
+   "lizenz": null,
+   "kontext": null,
+   "max_output": null,
+   "preis_in": 0.37,
+   "preis_out": 1.25,
+   "preis_cache_read": 0.075,
+   "modalitaeten": [
+    "text"
+   ],
+   "reasoning": null,
+   "wissensstand": null,
+   "params": null,
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine Benchmarks belegt: https://docs.z.ai/guides/overview/pricing",
+   "staerken": [
+    "günstig",
+    "Mittelklasse zwischen Flash und GLM-5.3"
+   ],
+   "hinweis": "Nur Preise auf der Z.ai-Preisseite belegt; Release, Kontext und Lizenz nicht geprüft. Cache-Speicherung derzeit zeitlich begrenzt kostenlos.",
+   "quellen": [
+    "https://docs.z.ai/guides/overview/pricing"
+   ],
+   "stand": "2026-10-06"
   },
   {
    "id": "glm-5-3",
@@ -1132,7 +1246,7 @@
    "wissensstand": null,
    "params": "501 Mrd. gesamt, 23 Mrd. aktiv",
    "benchmarks": {
-    "swe_bench_verified": null,
+    "swe_bench_verified": 80.9,
     "gpqa_diamond": 90.5,
     "mmlu_pro": null,
     "hle": null,
