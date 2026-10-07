@@ -226,6 +226,57 @@ function starBtn(item) {
   return b;
 }
 
+/* ---------- Teilen: Link kopieren, WhatsApp, Teams, E-Mail (nichts wird gesendet, bevor der Nutzer wählt) ---------- */
+
+function toast(msg) {
+  let t = document.getElementById('toast');
+  if (!t) { t = h('div', { id: 'toast', class: 'toast', role: 'status', 'aria-live': 'polite' }); document.body.append(t); }
+  t.textContent = msg; t.classList.add('show');
+  clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('show'), 2200);
+}
+
+async function copyText(txt) {
+  try { await navigator.clipboard.writeText(txt); return true; } catch (e) { /* Fallback unten */ }
+  try {
+    const ta = h('textarea', { style: 'position:fixed;opacity:0;left:-9999px' }); ta.value = txt; document.body.append(ta); ta.select();
+    const ok = document.execCommand('copy'); ta.remove(); return ok;
+  } catch (e) { return false; }
+}
+
+let shareMenu = null;
+function closeShare() { if (shareMenu) { shareMenu.remove(); shareMenu = null; } }
+document.addEventListener('click', (e) => { if (shareMenu && !shareMenu.contains(e.target) && !e.target.closest('.share-btn')) closeShare(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeShare(); });
+window.addEventListener('hashchange', closeShare);
+
+function shareItem(item, anchor) {
+  closeShare();
+  const url = safeUrl(item.url), title = item.headline, text = `${title}\n${url}`;
+  const open = (u) => { window.open(u, '_blank', 'noopener'); closeShare(); };
+  const row = (label, fn) => h('button', { class: 'share-row', type: 'button', onclick: fn }, label);
+  const rows = [
+    row('Link kopieren', async () => { closeShare(); toast((await copyText(url)) ? 'Link kopiert' : 'Kopieren nicht möglich'); }),
+    row('WhatsApp', () => open('https://wa.me/?text=' + encodeURIComponent(text))),
+    row('Microsoft Teams', () => open('https://teams.microsoft.com/share?href=' + encodeURIComponent(url) + '&msgText=' + encodeURIComponent(title))),
+    row('E-Mail', () => { location.href = 'mailto:?subject=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(text); closeShare(); }),
+  ];
+  if (navigator.share) rows.push(row('Mehr …', async () => { closeShare(); try { await navigator.share({ title, text: title, url }); } catch (e) { /* abgebrochen */ } }));
+  shareMenu = h('div', { class: 'share-menu', role: 'menu', 'aria-label': 'Teilen' }, h('div', { class: 'share-title' }, 'Teilen'), rows);
+  document.body.append(shareMenu);
+  const r = anchor.getBoundingClientRect(), w = shareMenu.offsetWidth, hgt = shareMenu.offsetHeight;
+  const left = Math.max(8, Math.min(window.innerWidth - w - 8, r.right - w));
+  const top = r.bottom + 6 + hgt > window.innerHeight ? Math.max(8, r.top - hgt - 6) : r.bottom + 6;
+  shareMenu.style.left = `${left + window.scrollX}px`; shareMenu.style.top = `${top + window.scrollY}px`;
+}
+
+const SHARE_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V4M8 8l4-4 4 4M5 13v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-6"/></svg>';
+function shareBtn(item, label) {
+  const b = h('button', { class: 'share-btn', type: 'button', title: 'Teilen', 'aria-label': 'Teilen: ' + item.headline, 'aria-haspopup': 'menu' });
+  b.innerHTML = SHARE_ICON + (label ? `<span>${label}</span>` : '');
+  b.addEventListener('click', (e) => { e.stopPropagation(); shareItem(item, b); });
+  return b;
+}
+
 /* ---------- Einstellungen (nur localStorage) ---------- */
 
 const SET_KEY = 'settings';
@@ -303,7 +354,7 @@ function withMore(meta, item, opts = {}) {
   const parts = splitSentences(item.summary);
   const rest = opts.skipFirst && parts.length > 1 ? parts.slice(1).join(' ') : (opts.skipFirst ? '' : item.summary);
   const hasAlso = !!(item.also && item.also.length);
-  if (!rest && !hasAlso && !item.kontext) return [h('div', { class: 'row-meta' }, ...meta, h('a', { class: 'b-src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, 'Zum Original \u2197'), seenPill(item))];
+  if (!rest && !hasAlso && !item.kontext) return [h('div', { class: 'row-meta' }, ...meta, h('a', { class: 'b-src', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, 'Zum Original \u2197'), shareBtn(item), seenPill(item))];
   const open0 = getSettings().expandAll;
   const [kBtn, kP] = kontextBlock(item);
   const panel = h('div', { class: 'more-panel', hidden: !open0 },
@@ -318,7 +369,7 @@ function withMore(meta, item, opts = {}) {
     btn.setAttribute('aria-expanded', String(open));
     btn.textContent = open ? 'Weniger' : 'Mehr lesen';
   });
-  return [h('div', { class: 'row-meta' }, ...meta, btn, seenPill(item)), panel];
+  return [h('div', { class: 'row-meta' }, ...meta, btn, shareBtn(item), seenPill(item)), panel];
 }
 
 /* Tagesauswahl: Antippen der Datums-Karte oeffnet die Liste der letzten 4 Wochen */
@@ -438,6 +489,7 @@ function card(item, query) {
       h('span', { class: 'src-name', title: item.paywall ? 'Bezahlquelle' : null }, item.paywall ? LOCK + ' ' + item.source : item.source),
       h('span', null, fmtShort(item.date)),
       h('span', { class: 'rel', title: `Relevanz ${item.relevanz} von 5`, 'aria-label': `Relevanz ${item.relevanz} von 5` }, '\u25CF'.repeat(item.relevanz)),
+      shareBtn(item, 'Teilen'),
       h('a', { class: 'orig', href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer', title: item.quelle_titel }, 'Zum Original \u2197')),
     alsoLine(item),
     item.tags && item.tags.length ? h('div', { class: 'tags' }, item.tags.map((t) => h('span', { class: t === 'AITI' ? 'tag-aiti' : null }, '#' + t))) : null);

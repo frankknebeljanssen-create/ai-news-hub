@@ -816,3 +816,21 @@ td.na { color: var(--muted); }
 .nav { align-items: center; }
 .nav a { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; line-height: 1.2; padding: 6px 14px; }
 .nav .count-badge { margin: 0; min-width: 18px; line-height: 17px; font-size: .68rem; }
+
+/* ---- Teilen ---- */
+.share-btn { display: inline-flex; align-items: center; gap: 5px; border: 0; background: none; color: var(--muted); font: inherit; font-size: .78rem; font-weight: 600; padding: 4px 6px; border-radius: 8px; cursor: pointer; min-height: 28px; }
+.share-btn svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.share-btn:hover { color: var(--accent); background: var(--surface-2); }
+.card .card-foot .share-btn { margin-left: auto; }
+.card .card-foot .share-btn + .orig { margin-left: 4px; }
+.row-meta .share-btn { padding: 4px; }
+.share-menu { position: absolute; z-index: 60; min-width: 190px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.28); padding: 6px; display: grid; }
+.share-title { font-size: .7rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 700; padding: 6px 10px 4px; }
+.share-row { border: 0; background: none; color: var(--text); font: inherit; font-size: .95rem; text-align: left; padding: 10px; border-radius: 8px; cursor: pointer; min-height: 40px; }
+.share-row:hover { background: var(--surface-2); }
+.toast { position: fixed; left: 50%; bottom: calc(var(--bar-h, 64px) + 20px); transform: translate(-50%, 10px); background: var(--text); color: var(--bg, var(--surface)); padding: 10px 16px; border-radius: 999px; font-weight: 600; font-size: .9rem; opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; z-index: 70; }
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+@media (max-width: 560px) { .card .card-foot .share-btn span { display: none; } .card .card-foot .share-btn { padding: 4px; } }
+/* Tabbar: Zaehler-Badge liegt oben am Symbol statt eine dritte Zeile zu bilden */
+.tabbar a { position: relative; }
+.tabbar .count-badge { position: absolute; top: 5px; left: calc(50% + 6px); margin: 0; min-width: 17px; line-height: 16px; font-size: .62rem; padding: 0 4px; }
