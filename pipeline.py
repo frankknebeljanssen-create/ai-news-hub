@@ -783,7 +783,10 @@ def publish(msg: str) -> None:
 def run(args) -> int:
     today = now().strftime("%Y-%m-%d")
     state = read_json(STATE, {"last_run_date": None, "last_success": None, "sources": {}, "skipped": {}})
-    if state.get("last_run_date") == today and not args.force:
+    # Ein Lauf vor 6 Uhr (z. B. kurz nach Mitternacht beim Anmelden) zaehlt nicht als Tageslauf, sonst fehlen die Meldungen des Tages
+    ls = state.get("last_success")
+    morning_done = bool(ls) and datetime.fromisoformat(ls).hour >= 6
+    if state.get("last_run_date") == today and morning_done and not args.force:
         log.info("Lauf fuer %s existiert bereits, Ende", today)
         return 0
 

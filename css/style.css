@@ -811,3 +811,8 @@ li.seen > .k-title { display: block; flex: 1 1 auto; min-width: 0; font-size: .8
 .card > .kontext { margin: 4px 0 6px; }
 .mdl-filter { margin-top: 18px; }
 td.na { color: var(--muted); }
+
+/* Kopfnavigation: Zaehler-Badge bleibt in einer Zeile, Pille wird nicht hoeher als die Leiste */
+.nav { align-items: center; }
+.nav a { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; line-height: 1.2; padding: 6px 14px; }
+.nav .count-badge { margin: 0; min-width: 18px; line-height: 17px; font-size: .68rem; }
