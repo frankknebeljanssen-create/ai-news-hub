@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-06",
+ "stand": "2026-10-08",
  "quellen": [
   {
    "name": "Artificial Analysis Leaderboard",
@@ -198,6 +198,49 @@
     "ai_index": 56,
     "tokens_pro_sekunde": 128
    }
+  },
+  {
+   "id": "claude-haiku-5-5",
+   "name": "Claude Haiku 5.5",
+   "anbieter": "Anthropic",
+   "familie": "Claude 5.5",
+   "release": "2026-10",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1000000,
+   "max_output": 128000,
+   "preis_in": 0.1,
+   "preis_out": 0.5,
+   "preis_cache_read": 0.01,
+   "modalitaeten": [
+    "Text",
+    "Bild"
+   ],
+   "reasoning": "Adaptives Thinking mit Effort-Parameter (Standard: medium)",
+   "wissensstand": "2026-06",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": 45.9,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Anthropic-Ankündigung https://www.anthropic.com/claude-haiku-5-5 (HLE ohne Tools 45,9 %, mit Tools 57,4 %)",
+   "staerken": [
+    "Geschwindigkeit",
+    "niedriger Preis",
+    "Klassifikation und Extraktion",
+    "Subagenten"
+   ],
+   "hinweis": "Der Preis gilt bis 100.000 Prompt-Tokens, darüber kosten Input 0,50 $, Output 2,50 $ und Cache-Read 0,05 $ je Mio Token, und der neue Tokenizer erzeugt für denselben Text etwa 30 % mehr Tokens als bei Haiku 4.5.",
+   "quellen": [
+    "https://www.anthropic.com/claude-haiku-5-5",
+    "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+    "https://platform.claude.com/docs/en/about-claude/models/overview",
+    "https://platform.claude.com/docs/en/about-claude/pricing"
+   ],
+   "stand": "2026-10-08"
   },
   {
    "id": "gpt-oss-120b",

@@ -515,7 +515,8 @@ def make_kontext(cands: list[dict], limit: int = 12) -> int:
 def kontext_candidates(items: list[dict], days: int = 7) -> list[dict]:
     cut = (now() - timedelta(days=days)).strftime("%Y-%m-%d")
     c = [x for x in items if x["date"] >= cut and not x.get("dup_of") and not x.get("kontext") and (x.get("also") or x["relevanz"] >= 3)]
-    return sorted(c, key=lambda x: (not x.get("also"), -x["relevanz"], x["date"]), reverse=False)
+    c.sort(key=lambda x: x["published"], reverse=True)  # neueste zuerst, sonst verdraengen alte Meldungen die heutigen
+    return sorted(c, key=lambda x: (not x.get("also"), -x["relevanz"]))
 
 
 def backfill_paywall() -> int:

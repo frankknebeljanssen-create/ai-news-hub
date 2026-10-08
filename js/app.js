@@ -478,7 +478,7 @@ function card(item, query) {
       h('span', { class: 'tag-thema' }, item.thema),
       isNew(item) ? h('span', { class: 'badge new' }, 'Neu') : null,
       item.praxis ? h('span', { class: 'badge praxis' }, 'Praxistipp') : null,
-      item.kurios ? h('span', { class: 'badge kurios' }, 'Kurios') : null,
+      item.kurios ? h('span', { class: 'badge kur-badge' }, 'Kurios') : null,
       item.region === 'de' ? h('span', { class: 'badge' }, 'DE') : null,
       h('button', { class: 'seen-btn', type: 'button', title: 'Als gelesen markieren und einklappen', 'aria-label': 'Als gelesen markieren' }, '\u2713 Gelesen'),
       starBtn(item)),
