@@ -447,6 +447,15 @@ def is_paywall(source: str) -> bool:
     return any(k in s for k in PAYWALL_QUELLEN)
 
 
+PAYWALL_MARKER = re.compile(r"^\s*heise\+|beitrag_plus|\(g\+\)|/plus/", re.I)
+
+
+def paywall_item(x: dict) -> bool:
+    """Bezahlpflichtig, wenn die Quelle (meist) hinter einer Schranke liegt oder der Artikel selbst markiert ist (heise+, Golem (g+))."""
+    title = x.get("quelle_titel") or x.get("title") or ""
+    return is_paywall(x.get("source", "")) or bool(PAYWALL_MARKER.search(title + " " + x.get("url", "")))
+
+
 def fetch_text(url: str, limit: int = 3500) -> str:
     """Frei lesbaren Artikeltext holen (nur zur Verarbeitung, wird nicht gespeichert)."""
     try:
@@ -475,8 +484,8 @@ def make_kontext(cands: list[dict], limit: int = 12) -> int:
     for x in cands:
         if x.get("kontext") or x.get("dup_of"):
             continue
-        srcs = [(x["source"], x["url"])] + [(a["source"], a["url"]) for a in x.get("also", [])]
-        free = [(n, u) for n, u in srcs if not is_paywall(n)][:2]
+        srcs = [(x["source"], x["url"], paywall_item(x))] + [(a["source"], a["url"], bool(a.get("paywall")) or is_paywall(a["source"])) for a in x.get("also", [])]
+        free = [(n, u) for n, u, pw in srcs if not pw][:2]
         if not free:
             continue
         texts = [(n, fetch_text(u)) for n, u in free]
@@ -510,15 +519,18 @@ def kontext_candidates(items: list[dict], days: int = 7) -> list[dict]:
 
 
 def backfill_paywall() -> int:
-    """Einmalig und ohne KI: Merkmal paywall fuer Meldungen und Zusatzquellen setzen."""
+    """Einmalig und ohne KI: Merkmal paywall fuer Meldungen und Zusatzquellen setzen (Quelle oder Markierung im Artikel)."""
     index = read_json(INDEX, {"items": []})
+    flag_by_url = {}
     for x in index["items"]:
         x.pop("paywall", None)
-        if is_paywall(x["source"]):
+        if paywall_item(x):
             x["paywall"] = True
+        flag_by_url[x["url"]] = bool(x.get("paywall"))
+    for x in index["items"]:
         for a in x.get("also", []):
             a.pop("paywall", None)
-            if is_paywall(a["source"]):
+            if flag_by_url.get(a["url"]) or is_paywall(a["source"]) or PAYWALL_MARKER.search(a["url"]):
                 a["paywall"] = True
     write_json(INDEX, index)
     sync_day_files(index["items"])
@@ -568,7 +580,7 @@ def cluster_items(window: list[dict]) -> int:
             continue
         used.update(ids)
         others = [by[i] for i in ids if i != main]
-        by[main]["also"] = [{"source": o["source"], "url": o["url"], **({"paywall": True} if is_paywall(o["source"]) else {})} for o in others]
+        by[main]["also"] = [{"source": o["source"], "url": o["url"], **({"paywall": True} if paywall_item(o) else {})} for o in others]
         for o in others:
             o["dup_of"] = main
         groups += 1
@@ -861,7 +873,7 @@ def run(args) -> int:
                 "source": a["source"], "source_id": a["source_id"], "added": now().isoformat(timespec="seconds"),
                 **({"kurios": no_dashes(r["kurios"])[:120]} if isinstance(r.get("kurios"), str) and r["kurios"].strip() else {}),
                 **({"praxis": True} if r.get("praxis") is True else {}),
-                **({"paywall": True} if is_paywall(a["source"]) else {}),
+                **({"paywall": True} if paywall_item({"source": a["source"], "title": a["title"], "url": a["url"]}) else {}),
                 "quelle_titel": no_dashes(a["title"]), "url": a["url"],
             })
             touched.add(pub.strftime("%Y-%m-%d"))
