@@ -569,6 +569,7 @@ def cluster_items(window: list[dict]) -> int:
         log.warning("Zusammenfuehren: leere Antwort bei %d Meldungen (Versuch %d)", len(cands), attempt + 1)
     if res is None:
         return -1
+    saved = {x["id"]: (x.get("dup_of"), x.get("also")) for x in cands}
     for x in cands:
         x.pop("dup_of", None)
         x.pop("also", None)
@@ -585,6 +586,15 @@ def cluster_items(window: list[dict]) -> int:
         for o in others:
             o["dup_of"] = main
         groups += 1
+    if groups == 0 and had_flags:
+        # keine verwertbare Gruppe trotz vorhandener Markierungen: bisherige Gruppen behalten statt sie zu loeschen
+        for x in cands:
+            dup, also = saved[x["id"]]
+            if dup:
+                x["dup_of"] = dup
+            if also:
+                x["also"] = also
+        return -1
     return groups
 
 

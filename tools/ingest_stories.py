@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Nimmt Beitraege aus Newsletter-Mails als Meldungen auf (Kuratierung wie in der Pipeline).
 
-Eingabe (stdin, JSON): {"newsletter": "rundown|neuron|importai", "date": "YYYY-MM-DD",
+Eingabe (stdin, JSON): {"newsletter": "rundown|neuron|importai", "date": "YYYY-MM-DD", "issue_url": "optional: Web-Ausgabe aus der Mail",
                         "stories": [{"slug": "kurz-id", "title": "Titel", "snippet": "Inhalt in Stichworten, max. 900 Zeichen"}]}
 Der Mail-Inhalt wird nur zur Kuratierung gelesen, gespeichert werden eigene Kurzfassungen mit Link zur Newsletter-Seite.
 Aufruf: python3 tools/ingest_stories.py [--no-git] < stories.json
@@ -24,11 +24,14 @@ NEWSLETTER = {
 def main() -> int:
     data = json.load(sys.stdin)
     name, sid, base = NEWSLETTER[data["newsletter"]]
+    issue = data.get("issue_url")
+    if issue and issue.startswith("https://"):
+        base = issue.split("?")[0]
     date = data["date"]
     pub = datetime.fromisoformat(f"{date}T07:30:00").replace(tzinfo=p.now().tzinfo)
     cands = []
     for s in data["stories"][:20]:
-        url = f"{base}?newsletter={date}&story={s['slug']}"
+        url = f"{base}{'&' if '?' in base else '?'}story={s['slug']}" if issue else f"{base}?newsletter={date}&story={s['slug']}"
         cands.append({"id": p.art_id(url), "url": url, "title": s["title"], "snippet": s["snippet"][:900], "published": pub,
                       "source": name, "source_id": sid, "priority": True})
     index = p.read_json(p.INDEX, {"items": []})
