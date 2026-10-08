@@ -478,10 +478,12 @@ function card(item, query) {
       h('span', { class: 'tag-thema' }, item.thema),
       isNew(item) ? h('span', { class: 'badge new' }, 'Neu') : null,
       item.praxis ? h('span', { class: 'badge praxis' }, 'Praxistipp') : null,
+      item.kurios ? h('span', { class: 'badge kurios' }, 'Kurios') : null,
       item.region === 'de' ? h('span', { class: 'badge' }, 'DE') : null,
       h('button', { class: 'seen-btn', type: 'button', title: 'Als gelesen markieren und einklappen', 'aria-label': 'Als gelesen markieren' }, '\u2713 Gelesen'),
       starBtn(item)),
     h('h3', null, h('a', { href: safeUrl(item.url), target: '_blank', rel: 'noopener noreferrer' }, mark(item.headline))),
+    item.kurios ? h('p', { class: 'k-hook card-hook' }, item.kurios) : null,
     h('p', { class: 'summary' }, mark(item.summary)),
     h('div', { class: 'card-actions' }, more, kB),
     kT,
@@ -603,7 +605,7 @@ async function viewDay(dateArg, q) {
         h('a', { class: 'k-title', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, i.headline),
         withMore([h('span', { class: 'k-meta' }, `${i.paywall ? LOCK + ' ' : ''}${i.source} \u00B7 ${fmtShort(i.date)}`)], i))))) : null,
     st.showKurios && kList.length ? h('section', { class: 'kurios', 'aria-labelledby': 'kur' },
-      h('div', { class: 'kurios-head' }, h('h2', { id: 'kur' }, 'Kurios & krass'), h('span', { class: 'k-scope' }, kScope)),
+      h('div', { class: 'kurios-head' }, h('h2', { id: 'kur' }, 'Kurios & krass'), h('span', { class: 'k-scope' }, kScope), h('a', { class: 'k-all', href: '#/archiv?thema=' + KURIOS }, 'Alle ansehen \u203A')),
       h('ul', null, kList.map((i) => h('li', null,
         h('span', { class: 'k-hook' }, i.kurios),
         h('a', { class: 'k-title', href: safeUrl(i.url), target: '_blank', rel: 'noopener noreferrer' }, i.headline),
@@ -635,6 +637,7 @@ const fmtMonth = (s) => new Intl.DateTimeFormat('de-DE', { month: 'long', year: 
 const GROUPINGS = [['tag', 'Tage'], ['woche', 'Wochen'], ['monat', 'Monate'], ['kategorie', 'Kategorien']];
 const SORTS = [['neu', 'Neueste'], ['rel', 'Wichtigste']];
 const PRAXIS = '__praxis';
+const KURIOS = '__kurios';
 
 function groupKey(mode, item) {
   if (mode === 'kategorie') return { key: item.thema, label: item.thema, order: THEMEN.findIndex(([n]) => n === item.thema) };
@@ -649,7 +652,7 @@ async function viewArchive(q) {
   const g = GROUPINGS.some(([k]) => k === q.g) ? q.g : getSettings().grouping;
   const sort = q.s === 'rel' ? 'rel' : 'neu';
   const f = { thema: q.thema || '', region: q.region || '', von: q.von || '', bis: q.bis || '', quelle: q.quelle || '', g, s: sort };
-  const matchOther = (i) => (!f.thema || (f.thema === PRAXIS ? i.praxis : i.thema === f.thema)) &&
+  const matchOther = (i) => (!f.thema || (f.thema === PRAXIS ? i.praxis : f.thema === KURIOS ? i.kurios : i.thema === f.thema)) &&
     (!f.quelle || i.source === f.quelle) && (!f.von || i.date >= f.von) && (!f.bis || i.date <= f.bis);
   const rc = regionCounts(index.items.filter(matchOther));
   const filtered = index.items.filter((i) => matchOther(i) && (!f.region || i.region === f.region))
@@ -680,6 +683,7 @@ async function viewArchive(q) {
   const toggleAll = (open) => list.querySelectorAll('details').forEach((d) => { d.open = open; });
   const unit = { tag: 'Tagen', woche: 'Wochen', monat: 'Monaten', kategorie: 'Kategorien' }[g];
   const praxisN = index.items.filter((i) => i.praxis).length;
+  const kuriosN = index.items.filter((i) => i.kurios).length;
   const activeN = [f.thema, f.region, f.quelle, f.von, f.bis].filter(Boolean).length + (g !== getSettings().grouping ? 1 : 0) + (sort !== 'neu' ? 1 : 0);
 
   render(
@@ -688,7 +692,7 @@ async function viewArchive(q) {
     h('details', { class: 'filterbox', open: store.filterOpen ?? matchMedia('(min-width: 720px)').matches, ontoggle: (e) => { store.filterOpen = e.target.open; } },
       h('summary', null, 'Filter & Sortierung', activeN ? h('span', { class: 'count-badge' }, activeN) : null),
       h('div', { class: 'filter-grid' },
-        selectField('Kategorie', [['', 'Alle Themen'], [PRAXIS, `Praxistipps & Tools (${praxisN})`], ...THEMEN.map(([n]) => [n, n])], f.thema, (v) => set({ thema: v })),
+        selectField('Kategorie', [['', 'Alle Themen'], [PRAXIS, `Praxistipps & Tools (${praxisN})`], [KURIOS, `Kurios & krass (${kuriosN})`], ...THEMEN.map(([n]) => [n, n])], f.thema, (v) => set({ thema: v })),
         selectField('Quelle', sourceOptions(), f.quelle, (v) => set({ quelle: v })),
         selectField('Bereich', REGIONEN.map(([v, t]) => [v, `${t} (${rc[v]})`]), f.region, (v) => set({ region: v })),
         selectField('Gruppierung', GROUPINGS, g, (v) => set({ g: v })),

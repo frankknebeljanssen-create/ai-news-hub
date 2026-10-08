@@ -844,3 +844,10 @@ td.na { color: var(--muted); }
   .section > .section-head, .section > h2, .section > .empty { grid-column: 1 / -1; }
   .section > .card { margin: 0 0 12px; }
 }
+
+/* Kurios & krass: Alle ansehen, Badge und Hinweiszeile in Karten */
+.kurios-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; }
+.kurios-head .k-all { margin-left: auto; font-size: .82rem; font-weight: 700; color: var(--accent); text-decoration: none; }
+.kurios-head .k-all:hover { text-decoration: underline; }
+.badge.kurios { background: color-mix(in srgb, var(--t-weiter) 20%, transparent); border-color: transparent; color: var(--t-weiter); }
+.card .card-hook { margin: 0 0 4px; font-size: .88rem; }
