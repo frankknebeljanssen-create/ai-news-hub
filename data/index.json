@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-08T13:15:33+02:00",
- "count": 454,
+ "updated": "2026-10-08T13:18:15+02:00",
+ "count": 467,
  "items": [
   {
    "id": "147bfdb7e9c2",
@@ -113,7 +113,7 @@
    "added": "2026-10-08T12:25:24+02:00",
    "quelle_titel": "Google rolls out SynthID Detector worldwide",
    "url": "https://www.therundown.ai/?newsletter=2026-10-08&story=synthid-detector",
-   "dup_of": "c31a5c477397"
+   "dup_of": "685fd57bdfbc"
   },
   {
    "id": "c06fdaf70e85",
@@ -135,7 +135,7 @@
    "added": "2026-10-08T12:25:24+02:00",
    "quelle_titel": "OpenAI debuts intelligent UI in ChatGPT",
    "url": "https://www.therundown.ai/?newsletter=2026-10-08&story=intelligent-ui",
-   "dup_of": "b2d1fdcc50f2"
+   "dup_of": "ecdc8dd4d50f"
   },
   {
    "id": "37643e7aa076",
@@ -251,7 +251,7 @@
    "added": "2026-10-08T13:02:36+02:00",
    "quelle_titel": "OpenAI's new ChatGPT builds mini-apps right inside your chat",
    "url": "https://www.theneurondaily.com/p/october-08-thursday?story=gpt-6-intelligent-ui",
-   "dup_of": "b2d1fdcc50f2"
+   "dup_of": "ecdc8dd4d50f"
   },
   {
    "id": "16c8f473fc51",
@@ -275,7 +275,8 @@
    "kurios": "Ein seit 2005 ungelöster Funkspruch fiel in wenigen KI-Durchläufen",
    "praxis": true,
    "quelle_titel": "AI Skill of the Day: give AI the goal, not the recipe (Enigma messages cracked)",
-   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=enigma-ai-skill-goal-not-recipe"
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=enigma-ai-skill-goal-not-recipe",
+   "dup_of": "5c4493eed3f8"
   },
   {
    "id": "f040d49d5a43",
@@ -340,7 +341,8 @@
    "source_id": "neuron",
    "added": "2026-10-08T13:02:36+02:00",
    "quelle_titel": "Crunchbase: North American startups raised $92B in Q3",
-   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=crunchbase-q3-startup-funding"
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=crunchbase-q3-startup-funding",
+   "dup_of": "170fbaaa5bfa"
   },
   {
    "id": "091e389b7326",
@@ -361,7 +363,13 @@
    "source_id": "neuron",
    "added": "2026-10-08T13:02:36+02:00",
    "quelle_titel": "Stuut raised $52.5M to automate chasing unpaid invoices",
-   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=stuut-series-b"
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=stuut-series-b",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=stuut-raises-52-5m-to-automate-invoice-collection"
+    }
+   ]
   },
   {
    "id": "c820ace13cd9",
@@ -435,7 +443,7 @@
    "praxis": true,
    "quelle_titel": "Google rolled out its SynthID Detector worldwide",
    "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-rolls-out-synthid-detector-worldwide",
-   "dup_of": "c31a5c477397"
+   "dup_of": "685fd57bdfbc"
   },
   {
    "id": "b1e9f824d4a0",
@@ -479,7 +487,7 @@
    "added": "2026-10-08T13:14:10+02:00",
    "quelle_titel": "OpenAI debuted intelligent UI in ChatGPT",
    "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=openai-debuts-intelligent-ui-in-chatgpt",
-   "dup_of": "b2d1fdcc50f2"
+   "dup_of": "ecdc8dd4d50f"
   },
   {
    "id": "5900d5592744",
@@ -547,6 +555,308 @@
    "quelle_titel": "Google Labs introduced Playground",
    "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-labs-introduces-playground",
    "dup_of": "6c75b7d5a297"
+  },
+  {
+   "id": "2dabbf710810",
+   "date": "2026-10-08",
+   "published": "2026-10-08T07:30+02:00",
+   "headline": "Anthropic senkt Preise drastisch: Haiku 5.5 bis zu 90 Prozent günstiger",
+   "summary": "Anthropic bringt Claude Haiku 5.5 für 0,10 Dollar pro Million Input-Tokens auf das Preisniveau von GPT-6 Luna. Ein durchschnittlicher Auftrag soll rund 75 Prozent weniger kosten als beim Vorgängermodell, bei kurzen Anfragen bis zu 90 Prozent, und Cache-Reads bei Sonnet 5.5 halbieren sich. Zusätzlich enthalten bezahlte Pläne jetzt monatliche API-Guthaben von 100 bis 500 Dollar.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "anthropic",
+    "claude",
+    "api-preise",
+    "tokenkosten"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-08T13:16:41+02:00",
+   "quelle_titel": "Claude Haiku 5.5 cuts prices up to 90%",
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=claude-haiku-5-5-cuts-prices-up-to-90",
+   "dup_of": "60b9b7da36ea"
+  },
+  {
+   "id": "3b99d4e943d6",
+   "date": "2026-10-08",
+   "published": "2026-10-08T07:30+02:00",
+   "headline": "GPT-6 in ChatGPT: Antworten werden zu interaktiven Mini-Anwendungen",
+   "summary": "OpenAI rollt GPT-6 für die rund 1,2 Milliarden Wochennutzer von ChatGPT aus. Neu ist eine intelligente Oberfläche, die selbst entscheidet, ob ein Diagramm, ein Formular oder ein Rechner statt reinem Text sinnvoller ist, und das passende Element direkt in die Antwort einbaut. Zahlende Nutzer erhalten die stärkere Variante Sol, Gratis- und Go-Nutzer Luna; Berechnungen sollten weiterhin geprüft werden.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "AITI",
+    "openai",
+    "chatgpt",
+    "gpt-6",
+    "benutzeroberfläche"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-08T13:16:41+02:00",
+   "quelle_titel": "OpenAI's New ChatGPT Builds Mini-Apps Right Inside Your Chat",
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=chatgpt-builds-mini-apps-inside-your-chat",
+   "dup_of": "ecdc8dd4d50f"
+  },
+  {
+   "id": "5c4493eed3f8",
+   "date": "2026-10-08",
+   "published": "2026-10-08T07:30+02:00",
+   "headline": "KI knackt Enigma-Funkspruch, an dem Forscher 20 Jahre scheiterten",
+   "summary": "GPT-6 Astra und Claude Opus 5 haben verschlüsselte Enigma-Nachrichten aus dem Zweiten Weltkrieg entschlüsselt, die seit 2005 als ungelöst galten. Astra erhielt nur ein grobes Ziel, recherchierte selbständig, baute sich einen Enigma-Simulator und kam so zur Lösung, während Opus 5 mehr Hinweise brauchte. Die Lehre für die Praxis: Ziele statt Rezepte vorgeben, die KI eigene Werkzeuge bauen lassen und das Ergebnis gegen überprüfbare Fakten testen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "enigma",
+    "ki-agenten",
+    "kryptografie",
+    "prompting"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-08T13:16:41+02:00",
+   "kurios": "Ein seit 2005 unknackbarer Funkspruch fiel in wenigen KI-Durchläufen.",
+   "praxis": true,
+   "quelle_titel": "Two AIs cracked unsolved WWII Enigma messages",
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=two-ais-cracked-unsolved-wwii-enigma-messages",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=enigma-ai-skill-goal-not-recipe"
+    }
+   ]
+  },
+  {
+   "id": "b0cceb384b21",
+   "date": "2026-10-08",
+   "published": "2026-10-08T07:30+02:00",
+   "headline": "Prüfer bewerten ChatGPT für Jugendliche als nicht akzeptables Risiko",
+   "summary": "Common Sense Media hat die Jugendversion von ChatGPT getestet und als inakzeptables Risiko eingestuft. In einer Stunde mit Tests zu Selbstverletzung sei keine einzige Warnung an Eltern ausgelöst worden. Die Organisation fordert deshalb, den Dienst nur noch Erwachsenen zugänglich zu machen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "jugendschutz",
+    "chatgpt",
+    "openai",
+    "risikobewertung"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-08T13:16:41+02:00",
+   "quelle_titel": "Common Sense Media rated ChatGPT for Teens an unacceptable risk",
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=common-sense-media-chatgpt-for-teens-unacceptable-risk",
+   "dup_of": "8489f30897db"
+  },
+  {
+   "id": "6de8f4c58f7f",
+   "date": "2026-10-08",
+   "published": "2026-10-08T07:30+02:00",
+   "headline": "Nous Research bei 1,5 Milliarden bewertet und startet Agenten für Firmen",
+   "summary": "Nous Research bestätigt nach einer Series B über 90 Millionen Dollar eine Bewertung von 1,5 Milliarden Dollar, an der sich NVIDIA und Samsung beteiligen. Parallel startet das Unternehmen Hermes for Businesses, ein Angebot für private und individuell angepasste KI-Agenten im Unternehmenseinsatz.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nous research",
+    "finanzierung",
+    "ki-agenten",
+    "unternehmens-ki"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-08T13:16:41+02:00",
+   "quelle_titel": "Nous Research confirmed a $1.5B valuation and launched Hermes for Businesses",
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=nous-research-confirms-1-5b-valuation-hermes-for-businesses",
+   "dup_of": "92be971aec51"
+  },
+  {
+   "id": "8ab2c95893ce",
+   "date": "2026-10-08",
+   "published": "2026-10-08T07:30+02:00",
+   "headline": "1,8 Milliarden Dollar für offene Biologiedaten als KI-Trainingsgrundlage",
+   "summary": "Biohub, das US-Energieministerium und die NIH stellen gemeinsam 1,8 Milliarden Dollar bereit, um offene biologische Datensätze aufzubauen. Ziel ist, dass KI-Modelle vorhersagen können, wie Zellen auf bestimmte Behandlungen reagieren. Google DeepMind, Isomorphic Labs und Meta steuern weitere 300 Millionen Dollar bei.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "biologie",
+    "offene daten",
+    "deepmind",
+    "forschungsförderung"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-08T13:16:41+02:00",
+   "quelle_titel": "Biohub, DOE and NIH committed $1.8B to open biology data for AI",
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=biohub-doe-nih-commit-1-8b-open-biology-data",
+   "dup_of": "5a074c4112bc"
+  },
+  {
+   "id": "170fbaaa5bfa",
+   "date": "2026-10-08",
+   "published": "2026-10-08T07:30+02:00",
+   "headline": "92 Milliarden Dollar für Startups in Nordamerika, zwei Drittel davon in KI",
+   "summary": "Nordamerikanische Startups haben im dritten Quartal laut Crunchbase 92 Milliarden Dollar Kapital eingesammelt. Das sind 35 Prozent weniger als im Vorquartal, weil die riesigen Runden von OpenAI und Anthropic fehlten, aber immer noch 50 Prozent mehr als im Vorjahr. Rund zwei Drittel der Summe flossen in KI-Unternehmen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "venture capital",
+    "startups",
+    "crunchbase",
+    "investitionen"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-08T13:16:41+02:00",
+   "quelle_titel": "Crunchbase: North American startups raised $92B in Q3",
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=north-american-startup-funding-q3-2026",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=crunchbase-q3-startup-funding"
+    }
+   ]
+  },
+  {
+   "id": "7160b37f3202",
+   "date": "2026-10-08",
+   "published": "2026-10-08T07:30+02:00",
+   "headline": "Moxie bringt GPT, Gemini und DeepSeek in Claude Code",
+   "summary": "Das Werkzeug Moxie erlaubt es, Modelle von OpenAI, Gemini und DeepSeek direkt innerhalb von Claude Code zu nutzen. Gesteuert wird es über die Menüleiste auf dem Mac, und bei erreichten Nutzungslimits wechselt es automatisch das Konto. Für Entwicklerteams senkt das die Hürde, mehrere Modelle im gleichen Workflow zu vergleichen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "claude code",
+    "entwicklertools",
+    "modellwechsel",
+    "workflow"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-08T13:16:41+02:00",
+   "praxis": true,
+   "quelle_titel": "Moxie lets you use OpenAI, Gemini, and DeepSeek models inside Claude Code",
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=moxie-other-models-inside-claude-code"
+  },
+  {
+   "id": "94b41097d663",
+   "date": "2026-10-08",
+   "published": "2026-10-08T07:30+02:00",
+   "headline": "52,5 Millionen Dollar für KI, die offene Rechnungen eintreibt",
+   "summary": "Das Unternehmen Stuut automatisiert für Großkunden das Mahnwesen, den Zahlungsabgleich und die Bearbeitung von Streitfällen. Nach eigenen Angaben treiben Kunden damit bis zu 40 Prozent mehr Geld ein. Eine Series B über 52,5 Millionen Dollar soll den Ausbau finanzieren.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "fintech",
+    "automatisierung",
+    "finanzierung",
+    "mahnwesen"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-08T13:16:41+02:00",
+   "quelle_titel": "Stuut raised $52.5M to automate chasing unpaid invoices",
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=stuut-raises-52-5m-to-automate-invoice-collection",
+   "dup_of": "091e389b7326"
+  },
+  {
+   "id": "76eae9771747",
+   "date": "2026-10-08",
+   "published": "2026-10-08T07:30+02:00",
+   "headline": "Melius baut Werbekampagnen aus einfachen Textbefehlen",
+   "summary": "Das Startup Melius erzeugt aus formlosen Textanfragen komplette Werbekampagnen samt Bildern und Videos. Hinter dem Tool stehen drei frühere Ramp-Ingenieure, die ihr erstes Produkt nach einem halben Jahr wieder einstellten und inzwischen 25 Millionen Dollar eingesammelt haben.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "marketing",
+    "werbung",
+    "generative-ki",
+    "startup",
+    "finanzierung"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-08T13:16:41+02:00",
+   "praxis": true,
+   "quelle_titel": "Melius turns plain-English requests into ad campaigns",
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=melius-raises-25m-ad-campaigns-from-plain-english",
+   "dup_of": "adc1cdfb4828"
+  },
+  {
+   "id": "0b18e47116c8",
+   "date": "2026-10-08",
+   "published": "2026-10-08T07:30+02:00",
+   "headline": "Communicate verwandelt Hilfeseiten in einen Support-Agenten",
+   "summary": "Communicate zieht sich Inhalte aus Hilfecenter, alten Tickets und Produktdokumentation und baut daraus einen Agenten, der Kundenanfragen direkt beantwortet. Kommt er nicht weiter, gibt er den Fall an einen Menschen ab. Zum Testen gibt es eine kostenlose Sandbox, der reguläre Betrieb ist kostenpflichtig.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "kundenservice",
+    "ki-agenten",
+    "automatisierung",
+    "saas"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-08T13:16:41+02:00",
+   "praxis": true,
+   "quelle_titel": "Communicate turns your help center into a support agent",
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=communicate-support-agent-from-help-center"
+  },
+  {
+   "id": "be83c14964bb",
+   "date": "2026-10-08",
+   "published": "2026-10-08T07:30+02:00",
+   "headline": "Finbar liefert fertige Finanzmodelle für Unternehmensanalysen",
+   "summary": "Finbar stellt vorgefertigte Finanzmodelle zu Unternehmen bereit und ergänzt sie um Werkzeuge zur Auswertung von Geschäftsberichten und Earnings Calls. Damit entfällt ein großer Teil der manuellen Modellierungsarbeit. Eine kostenlose Variante ist verfügbar, die Pro-Version kostet 200 Dollar monatlich.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "finanzanalyse",
+    "geschäftsberichte",
+    "fintech",
+    "datenanalyse"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-08T13:16:41+02:00",
+   "praxis": true,
+   "quelle_titel": "Finbar gives you prebuilt company financial models",
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=finbar-prebuilt-company-financial-models"
+  },
+  {
+   "id": "7f6259fdec44",
+   "date": "2026-10-08",
+   "published": "2026-10-08T07:30+02:00",
+   "headline": "Cubicle zeigt laufende KI-Agenten als Pixel-Büro-Belegschaft",
+   "summary": "Das Open-Source-Werkzeug Cubicle stellt aktive KI-Agenten als Pixel-Art-Figuren in einem virtuellen Büro dar. Arbeitet ein Agent, setzt sich seine Figur an den Schreibtisch, bei Fehlern blinkt sie rot. Cubicle ist kostenlos und arbeitet mit der Agentenverwaltung Paperclip zusammen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "ki-agenten",
+    "open-source",
+    "monitoring",
+    "visualisierung"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-08T13:16:41+02:00",
+   "kurios": "Agenten als Pixel-Angestellte, die bei Fehlern rot blinken",
+   "praxis": true,
+   "quelle_titel": "Cubicle shows your AI agents as pixel-art workers",
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=cubicle-shows-ai-agents-as-pixel-art-workers"
   },
   {
    "id": "ab0dd81e8c88",
@@ -840,16 +1150,20 @@
    "kontext": "Die Runde führt Robot Ventures an, mit Nvidia, Samsung und Menlo Ventures an Bord; insgesamt sammelte die erst drei Jahre junge Firma damit rund 158 Millionen Dollar ein. Ihr offener Hermes Agent ist bei Entwicklern beliebt und bewegt nach eigener Schätzung einen merklichen Anteil der weltweit genutzten KI-Token. Der Umsatz wächst schnell. Firmen sollen Agenten künftig mit abgeschirmten eigenen Daten betreiben können.",
    "also": [
     {
-     "source": "The Neuron",
-     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=nous-research-valuation"
-    },
-    {
      "source": "The Rundown AI",
      "url": "https://www.therundown.ai/?newsletter=2026-10-08&story=nous-funding"
     },
     {
      "source": "The Rundown AI",
      "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=nous-research-raises-90m-at-1-5b-valuation"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=nous-research-valuation"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=nous-research-confirms-1-5b-valuation-hermes-for-businesses"
     }
    ]
   },
@@ -897,7 +1211,7 @@
    "added": "2026-10-08T08:27:07+02:00",
    "quelle_titel": "Microsoft stellt Agentic Windows Desktop und neue Hardware vor",
    "url": "https://www.heise.de/news/Microsoft-stellt-Agentic-Windows-Desktop-und-neue-Hardware-vor-11479936.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "07b4a4362d2b"
+   "dup_of": "cfe922d3fcc9"
   },
   {
    "id": "685fd57bdfbc",
@@ -921,7 +1235,20 @@
    "praxis": true,
    "quelle_titel": "Google rollt SynthID Detector für alle aus: Was die KI-Erkennung kann, und was nicht",
    "url": "https://t3n.de/news/google-synthid-detector-ki-1767141",
-   "dup_of": "c31a5c477397"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/ueber-180-milliarden-inhalte-markiert-google-oeffnet-seinen-ki-wasserzeichen-detektor-fuer-alle/"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://www.therundown.ai/?newsletter=2026-10-08&story=synthid-detector"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-rolls-out-synthid-detector-worldwide"
+    }
+   ]
   },
   {
    "id": "b2d1fdcc50f2",
@@ -945,29 +1272,7 @@
    "quelle_titel": "ChatGPT’s ‘Intelligent UI’ update fills its responses with pictures, charts, and buttons",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
    "kontext": "OpenAI hat GPT-6 beigebracht, selbst zu entscheiden, wann eine Grafik mehr erklärt als ein Absatz Text, und wie sie im Chat angeordnet wird. Zahlende Kundschaft erhält die Variante Sol, kostenlose Nutzer die Version Luna, der Start erfolgt gestaffelt. Das Modell beginnt außerdem bereits zu antworten, während es noch rechnet, was die Wartezeit deutlich verkürzt. Google hatte ein vergleichbares Oberflächenkonzept schon im Frühjahr in Gemini eingebaut.",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/intelligent-ui-openai-bringt-gpt-6-mit-neuer-interaktiver-oberflaeche-in-chatgpt/"
-    },
-    {
-     "source": "Wired AI",
-     "url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
-     "paywall": true
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=gpt-6-intelligent-ui"
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://www.therundown.ai/?newsletter=2026-10-08&story=intelligent-ui"
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=openai-debuts-intelligent-ui-in-chatgpt"
-    }
-   ]
+   "dup_of": "ecdc8dd4d50f"
   },
   {
    "id": "ecdc8dd4d50f",
@@ -990,7 +1295,33 @@
    "added": "2026-10-08T08:27:07+02:00",
    "quelle_titel": "\"Intelligent UI\": OpenAI bringt GPT-6 mit neuer interaktiver Oberfläche in ChatGPT",
    "url": "https://the-decoder.de/intelligent-ui-openai-bringt-gpt-6-mit-neuer-interaktiver-oberflaeche-in-chatgpt/",
-   "dup_of": "b2d1fdcc50f2"
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=gpt-6-intelligent-ui"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=chatgpt-builds-mini-apps-inside-your-chat"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://www.therundown.ai/?newsletter=2026-10-08&story=intelligent-ui"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=openai-debuts-intelligent-ui-in-chatgpt"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
+    },
+    {
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "c158cc72d3dd",
@@ -1039,25 +1370,33 @@
    "kontext": "Es war Microsofts erstes Liveevent seit zwei Jahren, und es diente vor allem dazu, Nvidias Einstieg in Arm-Chips für PCs zu feiern: Satya Nadella und Jensen Huang standen gemeinsam mit Windows-Chef Pavan Davuluri auf der Bühne. Neben dem Notebook zeigte Microsoft eine teure Entwicklerbox und einen umgebauten Copilot, der lokal auf Dateien zugreifen soll. Die Botschaft: KI soll vom Rechenzentrum zurück auf den Schreibtisch wandern.",
    "also": [
     {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/"
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder"
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/it-internet/technologie-microsoft-und-nvidia-wollen-ki-ohne-internet-nutzbar-machen/100260096.html",
+     "paywall": true
     },
     {
      "source": "Ars Technica AI",
      "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/"
     },
     {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/it-internet/technologie-microsoft-und-nvidia-wollen-ki-ohne-internet-nutzbar-machen/100260096.html",
-     "paywall": true
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Microsoft-stellt-Agentic-Windows-Desktop-und-neue-Hardware-vor-11479936.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/explainer-articles/microsoft-windows-hybrid-ai-agents-rtx-spark/"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder"
     }
    ]
   },
@@ -1130,6 +1469,10 @@
    "also": [
     {
      "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=claude-haiku-5-5-cuts-prices-up-to-90"
+    },
+    {
+     "source": "The Neuron",
      "url": "https://www.theneurondaily.com/p/october-08-thursday?story=claude-haiku-5-5-prices"
     },
     {
@@ -1181,12 +1524,7 @@
    "added": "2026-10-08T08:28:00+02:00",
    "quelle_titel": "Microsoft is giving Copilot more control over Windows and your files",
    "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
-   "also": [
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Microsoft-stellt-Agentic-Windows-Desktop-und-neue-Hardware-vor-11479936.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    }
-   ]
+   "dup_of": "cfe922d3fcc9"
   },
   {
    "id": "2e4633f238e8",
@@ -1209,7 +1547,7 @@
    "quelle_titel": "The New ChatGPT Is More Show Than Tell",
    "url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
    "paywall": true,
-   "dup_of": "b2d1fdcc50f2"
+   "dup_of": "ecdc8dd4d50f"
   },
   {
    "id": "d8f516d6f374",
@@ -1275,6 +1613,10 @@
     {
      "source": "The Rundown AI",
      "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=ais-next-frontier-is-the-human-cell"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=biohub-doe-nih-commit-1-8b-open-biology-data"
     }
    ]
   },
@@ -1323,20 +1665,7 @@
    "quelle_titel": "Über 180 Milliarden Inhalte markiert: Google öffnet seinen KI-Wasserzeichen-Detektor für alle",
    "url": "https://the-decoder.de/ueber-180-milliarden-inhalte-markiert-google-oeffnet-seinen-ki-wasserzeichen-detektor-fuer-alle/",
    "kontext": "Vorgestellt hatte Google den Detektor im Frühjahr 2025, zugänglich war er zunächst nur Journalisten und Forschenden. Die Prüfung steckt inzwischen auch in der Suche, in Chrome und in der Gemini-App. Die Lücken bleiben aber beträchtlich: Texte erfasst das Werkzeug nicht, Markierungen lassen sich teils wegbearbeiten, und Microsoft oder Meta setzen auf eigene Verfahren. Ein Detektor, der alle Branchenstandards abdeckt, fehlt bislang.",
-   "also": [
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/google-synthid-detector-ki-1767141"
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://www.therundown.ai/?newsletter=2026-10-08&story=synthid-detector"
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-rolls-out-synthid-detector-worldwide"
-    }
-   ]
+   "dup_of": "685fd57bdfbc"
   },
   {
    "id": "264bfb8c76e9",
@@ -1606,16 +1935,16 @@
    "kontext": "Playground startet zunächst als Testphase für Erwachsene in den USA und setzt auf Googles eigene Modelle Gemini, Nano Banana und Lyria. Die Spiele laufen im Browser auf Rechnern wie Mobilgeräten, lassen sich per Link oder in einer Galerie teilen und durchlaufen vorab Sicherheitsprüfungen. Mit Unity Spark soll der Weg zu komplexeren 3D-Welten und zum Asset Store führen. Google zieht damit nach, nachdem Meta und Roblox ähnliche Werkzeuge gezeigt haben.",
    "also": [
     {
-     "source": "t3n",
-     "url": "https://t3n.de/news/google-playground-spiele-per-ki-erschaffen-1767102"
-    },
-    {
      "source": "The Rundown AI",
      "url": "https://www.therundown.ai/?newsletter=2026-10-08&story=google-playground"
     },
     {
      "source": "The Rundown AI",
      "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-labs-introduces-playground"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/google-playground-spiele-per-ki-erschaffen-1767102"
     }
    ]
   },
@@ -1661,13 +1990,7 @@
    "added": "2026-10-08T08:30:04+02:00",
    "quelle_titel": "Mistral says \"Le Chonk\" can challenge the best AI models",
    "url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
-   "kontext": "Mistral gilt als Europas Hoffnung im Modellwettbewerb, hing bei Rechenressourcen und Veröffentlichungstempo aber hinter OpenAI und Anthropic. Zuletzt sammelte das französische Unternehmen eine milliardenschwere Finanzierung ein und wuchs beim Umsatz stark. Das neue Modell ist besonders auf Programmieren, Cyberabwehr sowie Branchen wie Fertigung, Finanzen und Elektrotechnik zugeschnitten und wurde nach Angaben von Mitgründer Lample von Grund auf trainiert, nicht aus größeren Modellen destilliert. Es erscheint mitten in der politischen Debatte darüber, wer Zugang zu Spitzen-KI erhält.",
-   "also": [
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/mistrals-new-ai-model-puts-a-price-on-sovereignty/"
-    }
-   ]
+   "kontext": "Mistral gilt als Europas Hoffnung im Modellwettbewerb, hing bei Rechenressourcen und Veröffentlichungstempo aber hinter OpenAI und Anthropic. Zuletzt sammelte das französische Unternehmen eine milliardenschwere Finanzierung ein und wuchs beim Umsatz stark. Das neue Modell ist besonders auf Programmieren, Cyberabwehr sowie Branchen wie Fertigung, Finanzen und Elektrotechnik zugeschnitten und wurde nach Angaben von Mitgründer Lample von Grund auf trainiert, nicht aus größeren Modellen destilliert. Es erscheint mitten in der politischen Debatte darüber, wer Zugang zu Spitzen-KI erhält."
   },
   {
    "id": "10c96a2b3658",
@@ -1806,8 +2129,7 @@
    "source_id": "neuron",
    "added": "2026-10-08T08:25:25+02:00",
    "quelle_titel": "Mistral’s New AI Model Puts a Price on Sovereignty",
-   "url": "https://www.theneuron.ai/news/mistrals-new-ai-model-puts-a-price-on-sovereignty/",
-   "dup_of": "083b4a0cd473"
+   "url": "https://www.theneuron.ai/news/mistrals-new-ai-model-puts-a-price-on-sovereignty/"
   },
   {
    "id": "4ea7f800329c",
@@ -2402,16 +2724,20 @@
    "kontext": "Hinter der Bewertung steht das Youth AI Safety Institute von Common Sense Media, das Apps und Dienste mit Blick auf Jugendschutz prüft. Die Tester vermissen zuverlässige Warnungen an Eltern, passende Hilfe in Krisensituationen und eine klare Grenze bei Hausaufgaben und fordern einen Stopp der Teenager-Zugänge. OpenAI widerspricht und erweitert das Angebot zugleich um eine Hilfe zur Studienwahl. Im Kern geht es darum, ob Altersschätzung und Schutzmechanismen unabhängig belegt sind.",
    "also": [
     {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/"
-    },
-    {
      "source": "heise KI",
      "url": "https://www.heise.de/news/ChatGPT-for-Teens-wird-kaum-exzessiv-genutzt-aber-Sicherheitsbedenken-wachsen-11480098.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/"
+    },
+    {
      "source": "The Neuron",
      "url": "https://www.theneurondaily.com/p/october-08-thursday?story=common-sense-media-chatgpt-teens"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=common-sense-media-chatgpt-for-teens-unacceptable-risk"
     }
    ]
   },
@@ -3009,24 +3335,12 @@
    "kontext": "Hinter der Veröffentlichung steht ein noch nicht freigegebenes Spitzenmodell, dessen Resultate OpenAI schon im September angekündigt hatte, ohne Details zu den gelösten Problemen zu nennen. Begleitet wird die Freigabe von AGMAI, einer neu gegründeten unabhängigen Gruppe renommierter Mathematiker, die die Kommunikation verantwortungsvoll gestalten soll. Mitgeliefert werden Angaben zum Rechenaufwand und Skizzen der Modellbegründungen. Brisant bleibt, wie die Fachwelt diese Masse an Ergebnissen überhaupt begutachten soll.",
    "also": [
     {
-     "source": "Spektrum der Wissenschaft",
-     "url": "https://www.spektrum.de/news/mathematik-openai-veroeffentlicht-hunderte-neue-ki-beweise/2348634"
+     "source": "Latent Space",
+     "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
     },
     {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/openai-veroeffentlicht-hunderte-ki-generierte-mathe-beweise-auf-github/"
-    },
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/forschung-ki-openai-veroeffentlicht-loesungen-fuer-372-mathe-probleme-2610-213798.html"
-    },
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/openai-mathematik-beweise-github-1766978"
-    },
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/OpenAI-Hunderte-weitere-KI-generierte-Loesungen-fuer-Mathematikprobleme-11478615.html"
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/openai-s-ai-produced-722-math-manuscripts/"
     },
     {
      "source": "ZEIT Digital",
@@ -3034,12 +3348,24 @@
      "paywall": true
     },
     {
-     "source": "Latent Space",
-     "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
+     "source": "t3n",
+     "url": "https://t3n.de/news/openai-mathematik-beweise-github-1766978"
     },
     {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/openai-s-ai-produced-722-math-manuscripts/"
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/openai-veroeffentlicht-hunderte-ki-generierte-mathe-beweise-auf-github/"
+    },
+    {
+     "source": "Spektrum der Wissenschaft",
+     "url": "https://www.spektrum.de/news/mathematik-openai-veroeffentlicht-hunderte-neue-ki-beweise/2348634"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/forschung-ki-openai-veroeffentlicht-loesungen-fuer-372-mathe-probleme-2610-213798.html"
+    },
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/OpenAI-Hunderte-weitere-KI-generierte-Loesungen-fuer-Mathematikprobleme-11478615.html"
     },
     {
      "source": "The Rundown AI",
@@ -3088,7 +3414,13 @@
    "source_id": "techcrunch-ai",
    "added": "2026-10-07T13:15:03+02:00",
    "quelle_titel": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
-   "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/"
+   "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=melius-raises-25m-ad-campaigns-from-plain-english"
+    }
+   ]
   },
   {
    "id": "fb7df06fd2a9",
