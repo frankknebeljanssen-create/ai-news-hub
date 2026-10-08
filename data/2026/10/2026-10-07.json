@@ -1,38 +1,38 @@
 {
  "date": "2026-10-07",
- "generated_at": "2026-10-08T08:37:45+02:00",
+ "generated_at": "2026-10-09T00:56:22+02:00",
  "overview": [
   {
-   "id": "919eb1cbe93b",
-   "text": "SpaceX will laut Financial Times KI-Chips von Nvidia für rund 40 Milliarden Dollar beziehen, finanziert über Nvidias eigene Plattform."
-  },
-  {
-   "id": "cdb83e90c08d",
-   "text": "Laut einer Studie von BSI und TÜV-Verband haben nur elf Prozent der befragten Unternehmen eigene Prozesse für Sicherheitsvorfälle mit KI-Systemen."
-  },
-  {
-   "id": "a0720c9fa14a",
-   "text": "Das Bundeskabinett hat einen Gesetzentwurf gegen digitale Gewalt beschlossen, der Betroffene auch vor pornografischen Deepfakes schützen soll."
-  },
-  {
-   "id": "e423af57c98a",
-   "text": "OpenAI dokumentiert in 722 Manuskripten Lösungen zu lange offenen Matheproblemen und löst damit eine Debatte über Prüfung und Verantwortung aus."
-  },
-  {
-   "id": "5e14a36671c7",
-   "text": "Die neue Decisions-API von OpenAI liefert statt Text nur Kategorien und Wahrscheinlichkeiten und soll zehnmal schneller als die Responses-API sein."
-  },
-  {
-   "id": "6a41eb33287e",
-   "text": "Der KI-Boom leert den Halbleitermarkt: Lieferzeiten von mehr als 52 Wochen treffen besonders Teile der deutschen Industrie."
+   "id": "ecdc8dd4d50f",
+   "text": "OpenAI bringt GPT-6 mit bedienbaren Antwortoberflächen und schnelleren Reaktionen, wobei zahlende Konten die stärkere Variante Sol erhalten."
   },
   {
    "id": "b7fac91fa667",
-   "text": "Trotz insgesamt sinkender Stellenzahlen suchen Unternehmen verstärkt KI-Fachkräfte, während der deutschen KI-Strategie qualifiziertes Personal fehlt."
+   "text": "Trotz insgesamt schwächerer Stellenmärkte suchen Unternehmen in Deutschland verstärkt Fachkräfte mit KI-Kenntnissen, vom Forschen bis zur Anwendung."
   },
   {
-   "id": "c31a5c477397",
-   "text": "Googles Wasserzeichen-Prüfung SynthID ist nun öffentlich zugänglich, erkennt aber nur markierte Dateien und ersetzt keinen allgemeinen KI-Detektor."
+   "id": "a0720c9fa14a",
+   "text": "Das Bundeskabinett hat einen Gesetzentwurf gegen digitale Gewalt beschlossen, der auch pornografische Deepfakes und Cyberstalking adressiert."
+  },
+  {
+   "id": "cdb83e90c08d",
+   "text": "Laut BSI und TÜV-Verband haben nur elf Prozent der befragten Unternehmen eigene Prozesse für Sicherheitsvorfälle mit KI-Systemen."
+  },
+  {
+   "id": "e423af57c98a",
+   "text": "OpenAI dokumentiert in 722 Manuskripten KI-Lösungen zu offenen Matheproblemen und löst damit Debatten über Prüfbarkeit und Forschungsethik aus."
+  },
+  {
+   "id": "919eb1cbe93b",
+   "text": "SpaceX ordert laut Financial Times Nvidia-Chips für rund 40 Milliarden Dollar, finanziert über Nvidias eigene Plattform und den Verwalter Apollo."
+  },
+  {
+   "id": "6a7fb05f3b08",
+   "text": "Der UN-Menschenrechtsrat nimmt einstimmig eine Resolution zu KI an, die noch nicht bindet, aber einen Bezugspunkt für künftige Regeln setzt."
+  },
+  {
+   "id": "85efaa476752",
+   "text": "Mistral Large 4 reicht leistungsmäßig an die Spitze heran und wirbt vor allem damit, dass Unternehmen Betrieb und Daten selbst kontrollieren."
   }
  ],
  "items": [
@@ -133,6 +133,14 @@
      "url": "https://www.theneurondaily.com/p/october-08-thursday?story=chatgpt-builds-mini-apps-inside-your-chat"
     },
     {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/blog/openai-gpt-6-chatgpt-interactive-tools/"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/october-08-thursday/"
+    },
+    {
      "source": "The Rundown AI",
      "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=openai-debuts-intelligent-ui-in-chatgpt"
     },
@@ -145,7 +153,8 @@
      "url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
      "paywall": true
     }
-   ]
+   ],
+   "kontext": "Interaktive Antworten sind nicht neu: Google und Anthropic bieten Ähnliches seit Monaten, lassen ihre Modelle dafür aber echten Code schreiben. OpenAI setzt stattdessen auf fertige Bausteine wie Schieberegler, Diagramme oder Formulare, was saubere Layouts verspricht, die Möglichkeiten aber begrenzt. Neu ist vor allem die Reichweite, denn ChatGPT erreicht wöchentlich über eine Milliarde Menschen. Zur Rechengenauigkeit der erzeugten Tools sagt OpenAI nichts, Ergebnisse sollte man also nachprüfen."
   },
   {
    "id": "5b03c71ada7a",
@@ -192,6 +201,14 @@
    "kontext": "Hinter der Veröffentlichung steht ein noch nicht freigegebenes Spitzenmodell, dessen Resultate OpenAI schon im September angekündigt hatte, ohne Details zu den gelösten Problemen zu nennen. Begleitet wird die Freigabe von AGMAI, einer neu gegründeten unabhängigen Gruppe renommierter Mathematiker, die die Kommunikation verantwortungsvoll gestalten soll. Mitgeliefert werden Angaben zum Rechenaufwand und Skizzen der Modellbegründungen. Brisant bleibt, wie die Fachwelt diese Masse an Ergebnissen überhaupt begutachten soll.",
    "also": [
     {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/openai-boykottieren-mathematik-community-wehrt-sich-gegen-massenhafte-ki-beweise/"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/KI-generierte-Mathematikloesungen-Scharfe-Kritik-am-Vorgehen-von-OpenAI-11480767.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
      "source": "Latent Space",
      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
     },
@@ -215,10 +232,6 @@
     {
      "source": "Spektrum der Wissenschaft",
      "url": "https://www.spektrum.de/news/mathematik-openai-veroeffentlicht-hunderte-neue-ki-beweise/2348634"
-    },
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/forschung-ki-openai-veroeffentlicht-loesungen-fuer-372-mathe-probleme-2610-213798.html"
     },
     {
      "source": "iX",
@@ -301,8 +314,18 @@
      "source": "ZEIT Digital",
      "url": "https://www.zeit.de/digital/2026-10/spacex-nvidia-ki-chips-finanzierung-apollo-pimco-gxe",
      "paywall": true
+    },
+    {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/internet/2026-10/elon-musk-nvidia-chips-ki-40-milliarden-dollar",
+     "paywall": true
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/40-Milliarden-Dollar-fuer-Nvidia-Chips-SpaceX-soll-riesige-Finanzierung-planen-11481138.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     }
-   ]
+   ],
+   "kontext": "Finanziert werden soll der Kauf überwiegend über Anleihen, ergänzt durch Bankkredite, der Abschluss wird erst für 2027 erwartet. Apollo führt die Runde an und soll die Schulden breit bei Investoren platzieren. Am Markt kam der Plan verhalten an, denn schuldenfinanzierte KI-Vorhaben und verschachtelte Beteiligungen gelten zunehmend als Risiko. Zugleich rücken Musks Firmen und Nvidia näher zusammen, dessen Chips auch das Rechencluster von xAI antreiben."
   },
   {
    "id": "5dbd1bfd914a",
@@ -460,7 +483,14 @@
    "source_id": "computerwoche",
    "added": "2026-10-07T13:12:47+02:00",
    "quelle_titel": "SAP treibt das Autonomous Enterprise mit weiteren Joule-Assistenten und -Agenten voran",
-   "url": "https://www.computerwoche.de/article/4231636/sap-treibt-das-autonomous-enterprise-mit-weiteren-joule-assistenten-und-agenten-voran.html"
+   "url": "https://www.computerwoche.de/article/4231636/sap-treibt-das-autonomous-enterprise-mit-weiteren-joule-assistenten-und-agenten-voran.html",
+   "also": [
+    {
+     "source": "SAP News Deutschland",
+     "url": "https://news.sap.com/germany/2026/10/sap-praesentiert-das-autonome-unternehmen-im-praxiseinsatz/"
+    }
+   ],
+   "kontext": "Vorgestellt wurde das Paket auf der Kundenmesse in Las Vegas, wo Vorstandschef Christian Klein die im Frühjahr angekündigte Vision mit Demos und Kundenbeispielen untermauerte. Joule Work soll noch in diesem Monat allen Kunden offenstehen und sich in der jeweiligen Landessprache bedienen lassen. Die Agenten der Autonomous Suite laufen in festen Anwendungsabläufen, damit Daten, Regeln und Prüfpfade nachvollziehbar bleiben. Den Grad der Selbststeuerung legen Kunden je Prozess fest."
   },
   {
    "id": "c78b8246025c",
@@ -554,16 +584,16 @@
    "kontext": "Hinter der Bewertung steht das Youth AI Safety Institute von Common Sense Media, das Apps und Dienste mit Blick auf Jugendschutz prüft. Die Tester vermissen zuverlässige Warnungen an Eltern, passende Hilfe in Krisensituationen und eine klare Grenze bei Hausaufgaben und fordern einen Stopp der Teenager-Zugänge. OpenAI widerspricht und erweitert das Angebot zugleich um eine Hilfe zur Studienwahl. Im Kern geht es darum, ob Altersschätzung und Schutzmechanismen unabhängig belegt sind.",
    "also": [
     {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=common-sense-media-chatgpt-for-teens-unacceptable-risk"
+    },
+    {
      "source": "heise KI",
      "url": "https://www.heise.de/news/ChatGPT-for-Teens-wird-kaum-exzessiv-genutzt-aber-Sicherheitsbedenken-wachsen-11480098.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=common-sense-media-chatgpt-for-teens-unacceptable-risk"
     }
    ]
   },
@@ -587,7 +617,13 @@
    "added": "2026-10-07T13:11:46+02:00",
    "quelle_titel": "Anthropic bündelt Cyberprogramme und führt drei Zugriffsstufen ein",
    "url": "https://www.heise.de/news/Anthropic-buendelt-Cyberprogramme-und-fuehrt-drei-Zugriffsstufen-ein-11478953.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Bisher liefen zwei Programme getrennt: Project Glasswing gab ausgewählten Organisationen Zugang zu einer nur begrenzt verfügbaren Modellvariante, das Verifikationsprogramm lockerte die Cyberfilter für geprüfte Sicherheitsteams. Beides wächst nun zusammen und reicht von defensiver Analyse über autorisierte Penetrationstests bis zu Prüfungen an Stromnetzen oder Bankinfrastruktur. Für die sensibelste Stufe prüft Anthropic Bewerber gemeinsam mit der US-Regierung. Eigene Benchmarkwerte sollen zeigen, wie stark die Filter ohne Freigabe greifen."
+   "kontext": "Bisher liefen zwei Programme getrennt: Project Glasswing gab ausgewählten Organisationen Zugang zu einer nur begrenzt verfügbaren Modellvariante, das Verifikationsprogramm lockerte die Cyberfilter für geprüfte Sicherheitsteams. Beides wächst nun zusammen und reicht von defensiver Analyse über autorisierte Penetrationstests bis zu Prüfungen an Stromnetzen oder Bankinfrastruktur. Für die sensibelste Stufe prüft Anthropic Bewerber gemeinsam mit der US-Regierung. Eigene Benchmarkwerte sollen zeigen, wie stark die Filter ohne Freigabe greifen.",
+   "also": [
+    {
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+    }
+   ]
   },
   {
    "id": "a0720c9fa14a",
@@ -831,6 +867,35 @@
    ]
   },
   {
+   "id": "ad4e14640e35",
+   "date": "2026-10-07",
+   "published": "2026-10-07T14:00+02:00",
+   "headline": "ChatGPT für Jugendliche bekommt Studienplaner und Lernkarten",
+   "summary": "OpenAI erweitert die Teenager-Version von ChatGPT um einen Planer für Hochschulbewerbungen sowie um Lernkarten und Quizfunktionen. Zusätzlich wird ein Jugendbeirat eingerichtet, der die weitere Entwicklung begleiten soll. Der Schritt zielt klar auf Lernen und Bildungsentscheidungen junger Nutzerinnen und Nutzer.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "openai",
+    "chatgpt",
+    "lernen",
+    "jugendliche"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-10-09T00:49:13+02:00",
+   "quelle_titel": "Helping teens learn, plan, and shape the future of AI",
+   "url": "https://openai.com/index/teens-learn-and-plan",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/chatgpt-for-teens-expansion-safety-safeguards/"
+    }
+   ],
+   "kontext": "Hinter dem Ausbau steht ein Streit um Sicherheit: Common Sense Media bewertete die Jugendversion am Tag der Vorstellung als unvertretbar riskant und forderte OpenAI auf, den Zugang für Teenager vorerst auszusetzen. Umstritten ist vor allem, ob Alterserkennung und Schutzmechanismen unabhängigen Tests standhalten. OpenAI setzt dagegen auf zusätzliche Lernfunktionen und weitet damit die Rolle von ChatGPT bei Schule und Studienvorbereitung deutlich aus."
+  },
+  {
    "id": "1832505f3cad",
    "date": "2026-10-07",
    "published": "2026-10-07T14:09+02:00",
@@ -873,6 +938,52 @@
    "quelle_titel": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
    "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
    "kontext": "Hinter den Ergebnissen stehen Teams von Nvidia, die ihre Nemotron-Basis mit überwachter Feinabstimmung, Reinforcement Learning und einem iterativen Prüf- und Korrekturverfahren zur Laufzeit spezialisiert haben. Der Lauf zur Informatikolympiade fand live unter den Bedingungen der menschlichen Teilnehmenden statt, zählte jedoch inoffiziell; die Mathematikbeweise bewerteten offizielle Korrektoren. Kernbotschaft ist ein wiederverwendbares Vorgehen, das für jede Domäne kein neues Basismodell braucht. Modelle, Daten und Rezepte liegen offen bei Hugging Face."
+  },
+  {
+   "id": "1c9558d38162",
+   "date": "2026-10-07",
+   "published": "2026-10-07T16:00+02:00",
+   "headline": "SynthID erkennt jetzt auch KI-Inhalte von OpenAI und anderen Anbietern",
+   "summary": "Google hat seinen Detektor für KI-Inhalte überarbeitet und weltweit verfügbar gemacht. Die neue Website prüft nicht mehr nur Material aus Google-Modellen, sondern erkennt auch Inhalte von OpenAI und weiteren Anbietern. Das erweitert die Reichweite der Herkunftsprüfung deutlich über das eigene Ökosystem hinaus.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "synthid",
+    "ki-erkennung",
+    "google",
+    "openai",
+    "transparenz"
+   ],
+   "source": "Ars Technica AI",
+   "source_id": "ars-ai",
+   "added": "2026-10-09T00:49:13+02:00",
+   "praxis": true,
+   "quelle_titel": "Google rolls out improved SynthID AI content detector, now available globally",
+   "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/ueber-180-milliarden-inhalte-markiert-google-oeffnet-seinen-ki-wasserzeichen-detektor-fuer-alle/"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/google-synthid-detector-ki-1767141"
+    },
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Googles-KI-Detektor-SynthID-ist-jetzt-fuer-fast-alle-zugaenglich-11479824.html"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-rolls-out-synthid-detector-worldwide"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/google-synthid-ai-watermark-checker/"
+    }
+   ],
+   "kontext": "SynthID ist ein unsichtbares Signal in Pixeln und Tonspuren, das Google automatisch in Inhalte seiner Modelle einbettet. Bisher musste man zur Prüfung Gemini fragen, jetzt genügt eine eigene Website. Neben OpenAI nutzen auch Nvidia und Kakao das Verfahren, Apple soll folgen. Wichtig bleibt: Erkannt wird nur, was ein solches Wasserzeichen trägt, und die Zahl der täglichen Prüfungen ist begrenzt, damit niemand Umgehungswerkzeuge entwickelt."
   },
   {
    "id": "10c96a2b3658",
@@ -1010,6 +1121,28 @@
    "kontext": "Heute klicken sich Agenten meist wie Menschen durch Webseiten, was langsam und für Betreiber schwer kontrollierbar ist. Das Protokoll von Meta und Sierra lässt Firmen stattdessen festlegen, ob der Zugriff per Oberfläche, per Schnittstelle oder über einen eigenen Agenten läuft, und baut auf dem Autorisierungsstandard OAuth auf. Nutzer sollen Lese- und Schreibrechte steuern. Erste Partner wie Shopify und Stripe stehen zugleich hinter dem Visa-Standard."
   },
   {
+   "id": "346ba64c178f",
+   "date": "2026-10-07",
+   "published": "2026-10-07T19:00+02:00",
+   "headline": "Siemens qualifiziert Belegschaft systematisch für KI am Arbeitsplatz",
+   "summary": "Siemens baut die KI-Kompetenz der eigenen Mitarbeitenden gezielt aus und setzt dabei auf breite Qualifizierung. Der Beitrag zeigt, wie ein Großkonzern Weiterbildung organisiert, um KI im Arbeitsalltag nutzbar zu machen.",
+   "thema": "KI & Lernen",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "siemens",
+    "weiterbildung",
+    "ki-kompetenz",
+    "qualifizierung"
+   ],
+   "source": "Fränkischer Tag",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-09T00:49:13+02:00",
+   "quelle_titel": "Keine Zukunft ohne KI: So macht Siemens seine Mitarbeiter fit",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOT25NZnZILUxWR3ZDOE0zcHEzVVNCNU44QllKZ05vd1JHTkZ3M1Y4b1JaVW5KRjFpN1kwaVhQN2NGZEJ5S3l6M19jaGZxOVQ3UXRyRU1WTlJ0R1dPRXRwZDZscVJSeGV3T05BcUltazBIRTdoM0VDQkpnT3ZPRTlTM2hOdDVMTlRMOGhmWjJjNHpMdzlzRHlmeFFGSTRCeXhGVEpycGtWSkpOc1V5dms2djZqbEFVbGVYV0tRdzNDbG1Nc3ZjN01BSk5pX2NQdi1na21iUU5QUml1cEpSdG1iRHdjSEVHdmM?oc=5"
+  },
+  {
    "id": "264bfb8c76e9",
    "date": "2026-10-07",
    "published": "2026-10-07T19:01+02:00",
@@ -1053,7 +1186,7 @@
    "quelle_titel": "Über 180 Milliarden Inhalte markiert: Google öffnet seinen KI-Wasserzeichen-Detektor für alle",
    "url": "https://the-decoder.de/ueber-180-milliarden-inhalte-markiert-google-oeffnet-seinen-ki-wasserzeichen-detektor-fuer-alle/",
    "kontext": "Vorgestellt hatte Google den Detektor im Frühjahr 2025, zugänglich war er zunächst nur Journalisten und Forschenden. Die Prüfung steckt inzwischen auch in der Suche, in Chrome und in der Gemini-App. Die Lücken bleiben aber beträchtlich: Texte erfasst das Werkzeug nicht, Markierungen lassen sich teils wegbearbeiten, und Microsoft oder Meta setzen auf eigene Verfahren. Ein Detektor, der alle Branchenstandards abdeckt, fehlt bislang.",
-   "dup_of": "685fd57bdfbc"
+   "dup_of": "1c9558d38162"
   },
   {
    "id": "5a074c4112bc",
@@ -1084,6 +1217,10 @@
     {
      "source": "The Neuron",
      "url": "https://www.theneurondaily.com/p/october-08-thursday?story=biohub-doe-nih-commit-1-8b-open-biology-data"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/biohub-meta-deepmind-us-government-virtual-cells/"
     }
    ]
   },
@@ -1162,8 +1299,39 @@
     {
      "source": "The Rundown AI",
      "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=anthropic-launches-claude-haiku-5-5"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/haiku-5-5-claude-most-practical-launch/"
+    },
+    {
+     "source": "Latent Space",
+     "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
     }
    ]
+  },
+  {
+   "id": "c69264b33825",
+   "date": "2026-10-07",
+   "published": "2026-10-07T20:29+02:00",
+   "headline": "SynthID: Googles Prüfwerkzeug für KI-Inhalte nun breit nutzbar",
+   "summary": "Google öffnet seinen Detektor SynthID für alle Nutzerinnen und Nutzer mit Konto. Das Werkzeug spürt Wasserzeichen in KI-erzeugten Medien auf und soll so helfen, generierte Bilder, Audios und Videos als solche zu erkennen. Damit wird die Prüfung von Herkunftsnachweisen zum Alltagswerkzeug statt zur Spezialfunktion.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "synthid",
+    "google",
+    "wasserzeichen",
+    "deepfakes"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-10-09T00:49:13+02:00",
+   "praxis": true,
+   "quelle_titel": "Googles KI-Detektor SynthID ist jetzt für (fast) alle zugänglich",
+   "url": "https://www.heise.de/news/Googles-KI-Detektor-SynthID-ist-jetzt-fuer-fast-alle-zugaenglich-11479824.html",
+   "dup_of": "1c9558d38162"
   },
   {
    "id": "f085880c19ee",
@@ -1186,7 +1354,7 @@
    "added": "2026-10-08T08:25:25+02:00",
    "quelle_titel": "Microsoft Wants Your PC to Work While You Sleep, Surface Laptop Ultra Pre-Orders Open",
    "url": "https://www.theneuron.ai/explainer-articles/microsoft-windows-hybrid-ai-agents-rtx-spark/",
-   "dup_of": "cfe922d3fcc9"
+   "dup_of": "768095831b0d"
   },
   {
    "id": "b2d1fdcc50f2",
@@ -1234,16 +1402,7 @@
    "praxis": true,
    "quelle_titel": "Google rollt SynthID Detector für alle aus: Was die KI-Erkennung kann, und was nicht",
    "url": "https://t3n.de/news/google-synthid-detector-ki-1767141",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/ueber-180-milliarden-inhalte-markiert-google-oeffnet-seinen-ki-wasserzeichen-detektor-fuer-alle/"
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-rolls-out-synthid-detector-worldwide"
-    }
-   ]
+   "dup_of": "1c9558d38162"
   },
   {
    "id": "768095831b0d",
@@ -1266,7 +1425,26 @@
    "added": "2026-10-08T08:27:07+02:00",
    "quelle_titel": "Microsoft stellt Agentic Windows Desktop und neue Hardware vor",
    "url": "https://www.heise.de/news/Microsoft-stellt-Agentic-Windows-Desktop-und-neue-Hardware-vor-11479936.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "cfe922d3fcc9"
+   "also": [
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/"
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/it-internet/technologie-microsoft-und-nvidia-wollen-ki-ohne-internet-nutzbar-machen/100260096.html",
+     "paywall": true
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/explainer-articles/microsoft-windows-hybrid-ai-agents-rtx-spark/"
+    }
+   ],
+   "kontext": "Es war Microsofts erstes Liveevent seit zwei Jahren, mit Satya Nadella und Nvidia-Chef Jensen Huang auf der Bühne. Kern ist eine Sandbox, in der Agenten als eigene Nutzerkonten mit eigenen Zugriffsrechten laufen, damit sie nicht alles sehen können, was Beschäftigte sehen. Dazu kommt ein Zusammenspiel von lokalen und Cloud-Modellen sowie teure Entwicklerhardware mit Nvidia-Chips. Passende Geräte liefern auch Asus, Dell, HP, Lenovo und MSI."
   },
   {
    "id": "bd0fbc7580c5",
@@ -1311,6 +1489,28 @@
    "quelle_titel": "„SaaSpocalypse“ abgesagt, oder verschoben? Software-Aktien steigen wieder",
    "url": "https://www.heise.de/news/SaaSpocalypse-abgesagt-oder-verschoben-Software-Aktien-steigen-wieder-11478633.html",
    "kontext": "Hinter dem Schlagwort SaaSpocalypse stand die Sorge, autonome Agenten könnten das Lizenzmodell pro Arbeitsplatz aushöhlen. Zahlen von Salesforce, ServiceNow und Accenture deuten nun eher darauf hin, dass KI den Anbietern bislang hilft. Der Branchenindex verzeichnete seinen stärksten Quartalssprung seit sechs Jahren, hinkt im Jahresvergleich aber weit hinter der Halbleiterbranche her. Analysten erwarten die eigentliche Bewährungsprobe erst im kommenden Jahr, wenn viele Rechenzentren in Betrieb gehen."
+  },
+  {
+   "id": "04e9dc3828b5",
+   "date": "2026-10-07",
+   "published": "2026-10-07T09:00+02:00",
+   "headline": "Radisson bringt Hotelsuche und Buchung direkt in ChatGPT",
+   "summary": "Die Radisson Hotel Group hat gemeinsam mit Accenture eine ChatGPT-Anbindung auf Basis von OpenAI-Technik entwickelt. Reisende können Hotels damit im Chat finden, vergleichen und buchen, ohne die Reiseplanung zu verlassen. Das Beispiel zeigt, wie Assistenten zunehmend zum Einstiegspunkt für Buchungen werden.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "chatgpt",
+    "reisebranche",
+    "accenture",
+    "commerce"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-10-09T00:49:13+02:00",
+   "quelle_titel": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+   "url": "https://openai.com/index/radisson"
   },
   {
    "id": "6bb59c0d2920",
@@ -1696,6 +1896,49 @@
    "kontext": "Butterfly ist bisher vor allem für eine Handsonde bekannt, die Ultraschall am Mobilgerät möglich macht. Darunter steckt eine Halbleiterplattform, die das Unternehmen nun Entwicklern und anderen Geräteherstellern öffnet. Der Gedanke dahinter: Ein Modell kann viel über Herzkrankheiten wissen und trotzdem nichts über den aktuellen Zustand eines Menschen. Damit rückt die Erfassung der Bilddaten in den Mittelpunkt, nicht nur die Mobilität des Geräts."
   },
   {
+   "id": "fa0fa2b97fd1",
+   "date": "2026-10-07",
+   "published": "2026-10-07T15:10+02:00",
+   "headline": "Studie: Fast jeder Dritte nutzt KI bei der Stellensuche",
+   "summary": "Eine aktuelle Untersuchung zeigt, dass knapp ein Drittel der Bewerbenden KI bereits für die Jobsuche einsetzt. Gleichzeitig bleibt die Skepsis gegenüber der Technologie im Bewerbungsprozess hoch. Für Personalabteilungen stellt sich damit die Frage, wie sie mit KI-gestützten Unterlagen umgehen.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "bewerbung",
+    "recruiting",
+    "studie",
+    "arbeitsmarkt"
+   ],
+   "source": "Personalwirtschaft",
+   "source_id": "personalwirtschaft",
+   "added": "2026-10-09T00:49:13+02:00",
+   "quelle_titel": "KI bei der Jobsuche: So setzen Bewerber die Technologie ein",
+   "url": "https://www.personalwirtschaft.de/news/recruiting/ki-bei-der-jobsuche-so-setzen-bewerber-die-technologie-ein-209906/"
+  },
+  {
+   "id": "91ed3eb235f3",
+   "date": "2026-10-07",
+   "published": "2026-10-07T15:21+02:00",
+   "headline": "Falcon ASR: neues Modell für automatische Spracherkennung vorgestellt",
+   "summary": "Unter dem Namen Falcon ASR wurde ein Modell für automatische Spracherkennung veröffentlicht. Die Vorstellung erfolgt über Hugging Face und erweitert die Falcon-Familie um den Bereich Sprache zu Text.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "falcon",
+    "asr",
+    "spracherkennung",
+    "hugging face"
+   ],
+   "source": "Hugging Face",
+   "source_id": "huggingface",
+   "added": "2026-10-09T00:49:13+02:00",
+   "quelle_titel": "Introducing Falcon ASR",
+   "url": "https://huggingface.co/blog/tiiuae/falcon-asr"
+  },
+  {
    "id": "4db5de78654a",
    "date": "2026-10-07",
    "published": "2026-10-07T16:15+02:00",
@@ -1796,6 +2039,28 @@
    "paywall": true
   },
   {
+   "id": "14e0bc11b83e",
+   "date": "2026-10-07",
+   "published": "2026-10-07T17:08+02:00",
+   "headline": "HR im KI-Wandel: Kultur und Resilienz als Hebel für Organisationen",
+   "summary": "Beim Gipfeltreffen des acatech HR-Kreises ging es um die Frage, wie Organisationen handlungsfähig bleiben, wenn Veränderung durch KI zum Dauerzustand wird. Im Mittelpunkt standen Unternehmenskultur und Resilienz sowie die Rolle von HR als Gestalter des Wandels. Betroffen sind Märkte, Geschäftsmodelle und die Zusammenarbeit im Betrieb.",
+   "thema": "KI & Lernen",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "acatech",
+    "hr",
+    "organisationskultur",
+    "transformation"
+   ],
+   "source": "acatech",
+   "source_id": "acatech",
+   "added": "2026-10-09T00:49:13+02:00",
+   "quelle_titel": "KI als Taktgeber des Wandels: Kultur und Resilienz als Kompass für handlungsfähige Organisationen",
+   "url": "https://www.acatech.de/allgemein/hr-kreis-gipfeltreffen-2026/"
+  },
+  {
    "id": "605bfc825299",
    "date": "2026-10-07",
    "published": "2026-10-07T17:44+02:00",
@@ -1862,6 +2127,27 @@
    "kontext": "Eröffnet wurde das Rechenzentrum in München Lohhof im Beisein des bayerischen Digitalministers Fabian Mehring. Zur Ausstattung zählen das offene Mistral-Modell, OpenShift von Red Hat sowie Hardware von Dell, Nvidia und AMD; Kunden dürfen auch eigene Racks einbringen. Der Zugang ist wahlweise komplett vom Netz getrennt. So lassen sich Leistung, Sicherheit und Governance bewerten, bevor im Produktivbetrieb Budgets und Zeitpläne aus dem Ruder laufen."
   },
   {
+   "id": "4f0ff77d6925",
+   "date": "2026-10-07",
+   "published": "2026-10-07T18:11+02:00",
+   "headline": "Deutschland-App: Prototyp für sechs Pilotstädte und Millionenkosten",
+   "summary": "Die Bundesregierung legt den Zeitplan für die geplante Bürger-App offen. Vorgesehen ist zunächst ein Prototyp für sechs Pilotstädte, die Nebenkosten werden mit bis zu 1,2 Millionen Euro angegeben. Das Projekt gilt als Testfall dafür, wie KI in der öffentlichen Verwaltung ankommt.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "verwaltung",
+    "deutschland-app",
+    "digitalisierung",
+    "bund"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-10-09T00:49:13+02:00",
+   "quelle_titel": "KI für die Verwaltung: So steht es um die Deutschland-App",
+   "url": "https://www.heise.de/news/KI-fuer-die-Verwaltung-So-steht-es-um-die-Deutschland-App-11479846.html"
+  },
+  {
    "id": "d8f516d6f374",
    "date": "2026-10-07",
    "published": "2026-10-07T19:57+02:00",
@@ -1882,14 +2168,7 @@
    "kurios": "10.000 Bots hörten KI-Songs und erbeuteten acht Millionen Dollar Tantiemen",
    "quelle_titel": "Fraudster jailed for using 10K bots and AI songs to outstream Taylor Swift",
    "url": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits/",
-   "kontext": "Verurteilt wurde ein 54-Jähriger aus North Carolina, laut US-Justizministerium der erste Amerikaner, dem KI-gestützter Streamingbetrug zur Last gelegt wird. Ab 2017 legte er mit falschen Mailkonten und erschlichenen Debitkarten tausende Accounts bei Diensten wie Spotify, Apple Music und Amazon Music an und verteilte die Bot-Abrufe auf hunderttausende generierte Titel, um nicht aufzufallen. Sieben Jahre blieb das unentdeckt. Weil Tantiemen aus gemeinsamen Töpfen stammen, schmälerte das die Einnahmen echter Künstler.",
-   "also": [
-    {
-     "source": "Spiegel Netzwelt",
-     "url": "https://www.spiegel.de/netzwelt/apps/kuenstliche-intelligenz-streamingbetrueger-muss-fuer-18-monate-ins-gefaengnis-a-ed75877c-f405-4ab1-ac01-47e7d903b140#ref=rss",
-     "paywall": true
-    }
-   ]
+   "kontext": "Verurteilt wurde ein 54-Jähriger aus North Carolina, laut US-Justizministerium der erste Amerikaner, dem KI-gestützter Streamingbetrug zur Last gelegt wird. Ab 2017 legte er mit falschen Mailkonten und erschlichenen Debitkarten tausende Accounts bei Diensten wie Spotify, Apple Music und Amazon Music an und verteilte die Bot-Abrufe auf hunderttausende generierte Titel, um nicht aufzufallen. Sieben Jahre blieb das unentdeckt. Weil Tantiemen aus gemeinsamen Töpfen stammen, schmälerte das die Einnahmen echter Künstler."
   },
   {
    "id": "54da693e6cb2",
@@ -1912,7 +2191,7 @@
    "added": "2026-10-08T08:27:07+02:00",
    "quelle_titel": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
    "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-   "dup_of": "cfe922d3fcc9"
+   "dup_of": "768095831b0d"
   },
   {
    "id": "92be971aec51",
@@ -1937,12 +2216,12 @@
    "kontext": "Die Runde führt Robot Ventures an, mit Nvidia, Samsung und Menlo Ventures an Bord; insgesamt sammelte die erst drei Jahre junge Firma damit rund 158 Millionen Dollar ein. Ihr offener Hermes Agent ist bei Entwicklern beliebt und bewegt nach eigener Schätzung einen merklichen Anteil der weltweit genutzten KI-Token. Der Umsatz wächst schnell. Firmen sollen Agenten künftig mit abgeschirmten eigenen Daten betreiben können.",
    "also": [
     {
-     "source": "The Rundown AI",
-     "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=nous-research-raises-90m-at-1-5b-valuation"
-    },
-    {
      "source": "The Neuron",
      "url": "https://www.theneurondaily.com/p/october-08-thursday?story=nous-research-confirms-1-5b-valuation-hermes-for-businesses"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=nous-research-raises-90m-at-1-5b-valuation"
     }
    ]
   },
@@ -1994,7 +2273,8 @@
      "source": "The Neuron",
      "url": "https://www.theneurondaily.com/p/october-08-thursday?story=melius-raises-25m-ad-campaigns-from-plain-english"
     }
-   ]
+   ],
+   "kontext": "Hinter dem New Yorker Startup stehen drei Entwickler, die sich beim Finanzsoftware-Anbieter Ramp kennenlernten. Nach gut einem halben Jahr verwarfen sie ihren Code komplett und begannen neu mit einer Plattform für kreative Agenten. Als Geldgeber treten CRV und General Catalyst auf. Der Markt ist umkämpft: Anbieter wie Higgsfield wachsen rasant und sind deutlich höher bewertet, was die erwartete Nachfrage nach automatisierter Werbeproduktion zeigt."
   },
   {
    "id": "26e770a675e8",
