@@ -66,6 +66,11 @@ def main() -> int:
         print("neu:", it["thema"], "|", it["headline"])
     if not new:
         return 0
+    # Index neu lesen: die Pipeline kann waehrend der Kuratierung Meldungen ergaenzt haben (nichts ueberschreiben)
+    fresh = p.read_json(p.INDEX, {"items": []})
+    known = {x["id"] for x in fresh["items"]}
+    fresh["items"].extend(x for x in new if x["id"] not in known)
+    index, items = fresh, fresh["items"]
     items.sort(key=lambda x: x["published"], reverse=True)
     try:
         since = (datetime.fromisoformat(date) - timedelta(days=1)).strftime("%Y-%m-%d")
