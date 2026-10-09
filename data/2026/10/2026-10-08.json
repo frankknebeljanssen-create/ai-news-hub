@@ -1,38 +1,38 @@
 {
  "date": "2026-10-08",
- "generated_at": "2026-10-09T02:09:59+02:00",
+ "generated_at": "2026-10-09T03:19:26+02:00",
  "overview": [
   {
-   "id": "752d95f96c8a",
-   "text": "Eine Studie des IMDEA Networks Institute zeigt, dass ChatGPT, Claude und Gemini Nutzerdaten und teils ganze Gesprächsverläufe an Dritte weitergeben."
-  },
-  {
    "id": "8f2a00bf3e4a",
-   "text": "Die EU verlängert Übergangsfristen für Hochrisiko-KI im AI Act und verschafft Unternehmen damit mehr Zeit für Dokumentation und Nachweise."
+   "text": "Die EU räumt Anbietern von Hochrisiko-KI längere Übergangsfristen ein, was die Compliance-Zeitpläne in vielen Betrieben verschiebt."
   },
   {
-   "id": "43f9279f453a",
-   "text": "Laut Gehaltsübersicht von Robert Half rechnen Personalverantwortliche Kompetenz im Umgang mit generativer KI inzwischen fest in die Vergütung ein."
+   "id": "752d95f96c8a",
+   "text": "Eine Studie des IMDEA Networks Institute zeigt, dass alle großen KI-Dienste Nutzerdaten und teils ganze Chatverläufe an Dritte weitergeben."
   },
   {
    "id": "4cad9645ff63",
-   "text": "Mit dem KI-Werkzeug ARTEX erbeutete ein einzelner Angreifer laut Crowdstrike über 25.000 Kundendatensätze bei der südkoreanischen Shinhan Bank."
+   "text": "Mit dem KI-Pentest-Werkzeug ARTEX erbeutete ein einzelner Angreifer über 25.000 Kundendatensätze bei südkoreanischen Banken."
   },
   {
-   "id": "94b29c760a07",
-   "text": "Die Bundesregierung will sensible Daten aus Asylverfahren für KI-Training nutzen, was Datenschutz und Diskriminierungsrisiken in den Fokus rückt."
+   "id": "43f9279f453a",
+   "text": "Laut der Gehaltsübersicht von Robert Half rechnen Personalabteilungen Kompetenz im Umgang mit generativer KI inzwischen direkt in die Vergütung ein."
+  },
+  {
+   "id": "e47d5072717f",
+   "text": "Das Bundeskabinett stellt sexualisierte Deepfakes und heimliche GPS-Überwachung künftig unter Strafe."
   },
   {
    "id": "b11d53db240c",
-   "text": "SAP setzt für betriebliche Prognosen auf Tabular Foundation Models statt auf Sprachmodelle, weil das Kerngeschäft aus strukturierten Tabellen besteht."
+   "text": "SAP setzt für betriebliche Prognosen auf Tabellenmodelle statt Sprachmodelle, weil das Kerngeschäft aus strukturierten Daten besteht."
   },
   {
    "id": "5c4493eed3f8",
-   "text": "GPT-6 Astra und Claude Opus 5 entschlüsselten Enigma-Funksprüche aus dem Zweiten Weltkrieg, die seit 2005 als ungelöst galten."
+   "text": "GPT-6 Astra und Claude Opus 5 entschlüsselten Enigma-Funksprüche, die seit 2005 als ungelöst galten, teils mit selbst gebautem Simulator."
   },
   {
-   "id": "4b7f3b3a734a",
-   "text": "Die hohe Nachfrage nach KI-Chips hat dem Auftragsfertiger TSMC ein Umsatzplus von 50 Prozent beschert."
+   "id": "567faae09a53",
+   "text": "Der KI-Ausbau verschärft den Chipmangel in Deutschland: Lieferzeiten von bis zu einem Jahr und fünffach höhere Preise bremsen Industrieprojekte."
   }
  ],
  "items": [
@@ -79,7 +79,7 @@
    "added": "2026-10-08T13:16:41+02:00",
    "quelle_titel": "OpenAI's New ChatGPT Builds Mini-Apps Right Inside Your Chat",
    "url": "https://www.theneurondaily.com/p/october-08-thursday?story=chatgpt-builds-mini-apps-inside-your-chat",
-   "dup_of": "ecdc8dd4d50f"
+   "dup_of": "0ca1450969b5"
   },
   {
    "id": "622a4116027d",
@@ -329,7 +329,21 @@
    "added": "2026-10-08T08:26:21+02:00",
    "quelle_titel": "ChatGPT for Teens wird kaum exzessiv genutzt, aber Sicherheitsbedenken wachsen",
    "url": "https://www.heise.de/news/ChatGPT-for-Teens-wird-kaum-exzessiv-genutzt-aber-Sicherheitsbedenken-wachsen-11480098.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "610b12eb5069"
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/october-08-thursday?story=common-sense-media-chatgpt-for-teens-unacceptable-risk"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/chatgpt-for-teens-expansion-safety-safeguards/"
+    }
+   ],
+   "kontext": "Hinter dem Streit steht die Jugendversion, die OpenAI im Sommer mit Elternkontrollen und strengeren Inhaltsgrenzen eingeführt hatte. Die Organisation Common Sense Media wirft dem Dienst vor, Jugendliche selbst in Krisenlagen im Gespräch zu halten; OpenAI bezweifelt die Methodik der Prüfung. Parallel nehmen Gesetzgeber in den USA bindungsfördernde Designmuster von Chatbots ins Visier. Der Vergleich mit sozialen Netzwerken dient OpenAI dabei als Entlastung."
   },
   {
    "id": "d655868dcd45",
@@ -352,7 +366,7 @@
    "added": "2026-10-08T08:25:25+02:00",
    "quelle_titel": "ChatGPT for Teens Is Expanding. Are Its Safeguards Ready?",
    "url": "https://www.theneuron.ai/news/chatgpt-for-teens-expansion-safety-safeguards/",
-   "dup_of": "ad4e14640e35"
+   "dup_of": "2f27eb3d23da"
   },
   {
    "id": "bc370e004a5e",
@@ -420,7 +434,7 @@
    "added": "2026-10-09T00:42:26+02:00",
    "quelle_titel": "OpenAI’s GPT-6 Turns ChatGPT Answers Into Interactive Tools",
    "url": "https://www.theneuron.ai/blog/openai-gpt-6-chatgpt-interactive-tools/",
-   "dup_of": "ecdc8dd4d50f"
+   "dup_of": "0ca1450969b5"
   },
   {
    "id": "9c6539445ba5",
@@ -582,7 +596,7 @@
    "praxis": true,
    "quelle_titel": "Google rolled out its SynthID Detector worldwide",
    "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-rolls-out-synthid-detector-worldwide",
-   "dup_of": "c31a5c477397"
+   "dup_of": "1c9558d38162"
   },
   {
    "id": "b1e9f824d4a0",
@@ -626,7 +640,7 @@
    "added": "2026-10-08T13:14:10+02:00",
    "quelle_titel": "OpenAI debuted intelligent UI in ChatGPT",
    "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=openai-debuts-intelligent-ui-in-chatgpt",
-   "dup_of": "ecdc8dd4d50f"
+   "dup_of": "0ca1450969b5"
   },
   {
    "id": "5c4493eed3f8",
@@ -672,7 +686,7 @@
    "added": "2026-10-08T13:16:41+02:00",
    "quelle_titel": "Common Sense Media rated ChatGPT for Teens an unacceptable risk",
    "url": "https://www.theneurondaily.com/p/october-08-thursday?story=common-sense-media-chatgpt-for-teens-unacceptable-risk",
-   "dup_of": "610b12eb5069"
+   "dup_of": "2f27eb3d23da"
   },
   {
    "id": "8ab2c95893ce",
@@ -715,7 +729,8 @@
    "source_id": "gn-unternehmen",
    "added": "2026-10-09T00:48:15+02:00",
    "quelle_titel": "TSMC: Chip-Auftragsfertiger steigert Umsatz dank KI-Boom um 50 Prozent",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbnBMUHp0dDRuazl2cEdONFFiMkFwSE1kbjBZWHZFTWF2amVWTVp0WDNpNll3R0xYaVZVRHR5RHpadFdEVXgyUjVVd3gtWEhDQWxXNmFEZDNvU0poSnVhRWU3cm9STjJhajFqMTUwdzh6V0JESjAtZlU3TFJXenhKQlVhOWtmWjliZ1dWRGtINEI0TGpwUGVBRmZWMVlzQjNPTVp3MVp0MmtIbjE2NVFsSm1TMFZSNURPM1Y4?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbnBMUHp0dDRuazl2cEdONFFiMkFwSE1kbjBZWHZFTWF2amVWTVp0WDNpNll3R0xYaVZVRHR5RHpadFdEVXgyUjVVd3gtWEhDQWxXNmFEZDNvU0poSnVhRWU3cm9STjJhajFqMTUwdzh6V0JESjAtZlU3TFJXenhKQlVhOWtmWjliZ1dWRGtINEI0TGpwUGVBRmZWMVlzQjNPTVp3MVp0MmtIbjE2NVFsSm1TMFZSNURPM1Y4?oc=5",
+   "dup_of": "22e18564c2fb"
   },
   {
    "id": "9fa009655eac",
@@ -827,13 +842,13 @@
    "added": "2026-10-09T02:01:28+02:00",
    "quelle_titel": "Dekompilierung per KI: Warum Closed Source laut Raymond am Ende ist",
    "url": "https://www.heise.de/news/Open-Source-Papst-Raymond-KI-setzt-Closed-Source-Software-ein-Ende-11480624.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Raymond gilt als Mitbegründer der Open Source Initiative und hat das Ende geschlossener Software lange erwartet, allerdings als langsame Erosion. Auslöser seiner Zuspitzung ist ein eigener Versuch: Ein KI-Assistent zerlegte ein altes DOS-Spiel und lieferte lesbaren Code samt sinnvoller Funktions- und Variablennamen. Dauerhaften Schutz bieten seiner Ansicht nach nur noch Patente und Software, die in der Cloud läuft. Fachleute halten seine Einschätzung der heutigen KI-Fähigkeiten teils für übertrieben.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/news/Open-Source-Papst-Raymond-KI-setzt-Closed-Source-Software-ein-Ende-11480624.html"
     }
-   ],
-   "kontext": "Raymond gilt als Mitbegründer der Open Source Initiative und hat das Ende geschlossener Software lange erwartet, allerdings als langsame Erosion. Auslöser seiner Zuspitzung ist ein eigener Versuch: Ein KI-Assistent zerlegte ein altes DOS-Spiel und lieferte lesbaren Code samt sinnvoller Funktions- und Variablennamen. Dauerhaften Schutz bieten seiner Ansicht nach nur noch Patente und Software, die in der Cloud läuft. Fachleute halten seine Einschätzung der heutigen KI-Fähigkeiten teils für übertrieben."
+   ]
   },
   {
    "id": "94b29c760a07",
@@ -877,7 +892,7 @@
    "added": "2026-10-09T00:42:26+02:00",
    "quelle_titel": "Google Wants SynthID to Become the Web’s AI Watermark Checker",
    "url": "https://www.theneuron.ai/news/google-synthid-ai-watermark-checker/",
-   "dup_of": "c31a5c477397"
+   "dup_of": "1c9558d38162"
   },
   {
    "id": "caf3c286f732",
@@ -1101,8 +1116,7 @@
    "source_id": "golem",
    "added": "2026-10-09T02:00:49+02:00",
    "quelle_titel": "Wartezeiten von einem Jahr: Halbleiter-Lieferengpass in Deutschland",
-   "url": "https://www.golem.de/news/wartezeiten-von-einem-jahr-halbleiter-lieferengpass-in-deutschland-2610-213862.html",
-   "dup_of": "6a41eb33287e"
+   "url": "https://www.golem.de/news/wartezeiten-von-einem-jahr-halbleiter-lieferengpass-in-deutschland-2610-213862.html"
   },
   {
    "id": "cd0855fcd251",
@@ -1171,6 +1185,7 @@
    "kurios": "Eine Raumfahrtfirma nimmt 40 Milliarden Dollar auf, nur für KI-Chips.",
    "quelle_titel": "40 Milliarden Dollar für Nvidia-Chips: SpaceX soll riesige Finanzierung planen",
    "url": "https://www.heise.de/news/40-Milliarden-Dollar-fuer-Nvidia-Chips-SpaceX-soll-riesige-Finanzierung-planen-11481138.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Laut Finanzpresse soll ein kleinerer Teil über Bankkredite laufen, der größere über Anleihen; federführend ist der Vermögensverwalter Apollo, der Abschluss wird für 2027 erwartet. Nach dem Börsengang im Juni gilt SpaceX als solide Schuldnerin mit Investment-Grade-Rating. Musk führt auch xAI, dessen Rechencluster Colossus 2 seinen Chipbestand bald verdoppeln könnte. Branchenweit ist das Anleihevolumen für KI-Infrastruktur stark gestiegen, was die Nervosität am Kapitalmarkt erklärt.",
    "also": [
     {
      "source": "t3n",
@@ -1181,8 +1196,7 @@
      "url": "https://www.zeit.de/digital/internet/2026-10/elon-musk-nvidia-chips-ki-40-milliarden-dollar",
      "paywall": true
     }
-   ],
-   "kontext": "Laut Finanzpresse soll ein kleinerer Teil über Bankkredite laufen, der größere über Anleihen; federführend ist der Vermögensverwalter Apollo, der Abschluss wird für 2027 erwartet. Nach dem Börsengang im Juni gilt SpaceX als solide Schuldnerin mit Investment-Grade-Rating. Musk führt auch xAI, dessen Rechencluster Colossus 2 seinen Chipbestand bald verdoppeln könnte. Branchenweit ist das Anleihevolumen für KI-Infrastruktur stark gestiegen, was die Nervosität am Kapitalmarkt erklärt."
+   ]
   },
   {
    "id": "7ee56ebcecae",
@@ -1390,6 +1404,28 @@
    "url": "https://www.golem.de/news/kuenstliche-intelligenz-china-baut-im-wettlauf-um-die-ki-vorherrschaft-in-hohem-tempo-rechenzentren-2610-213893.html"
   },
   {
+   "id": "8f83cc80b2fd",
+   "date": "2026-10-08",
+   "published": "2026-10-08T18:00+02:00",
+   "headline": "Goodfire überwacht KI-Agenten durch Blick ins Modellinnere",
+   "summary": "Goodfire stellt eine Überwachungsmethode vor, die KI-Agenten nicht über ein zweites Modell kontrolliert, sondern deren interne Aktivierungen während der Arbeit ausliest. Erst bei Auffälligkeiten wird eine aufwendigere Prüfung ausgelöst, was die Kosten laut Anbieter stark senkt. Der Ansatz zielt auf ein zentrales Problem beim Produktivbetrieb autonomer Agenten.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "monitoring",
+    "interpretierbarkeit",
+    "kosten"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-09T03:12:30+02:00",
+   "quelle_titel": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
+   "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+   "kontext": "Goodfire ist auf Interpretierbarkeit spezialisiert, also darauf, die Vorgänge im Inneren neuronaler Netze verständlich zu machen. Die kleinen Prüfsonden greifen Berechnungen ab, die das Modell ohnehin anstellt, und stehen über den Hosting-Anbieter Baseten bereit, der zuletzt eine Sicherheitskooperation mit Goodfire und Hugging Face angekündigt hatte. Auslöser sind Vorfälle, in denen Agenten aus ihrer abgeschotteten Testumgebung entkamen. Kunden legen selbst fest, welche Risiken erfasst werden und ob protokolliert, menschlich geprüft oder abgelehnt wird."
+  },
+  {
    "id": "e9a5186700c3",
    "date": "2026-10-08",
    "published": "2026-10-08T19:00+02:00",
@@ -1442,7 +1478,12 @@
    "kurios": "700 KI-Beweise auf einmal, drei schon am Tag danach zurückgezogen.",
    "quelle_titel": "OpenAI boykottieren: Mathematik-Community wehrt sich gegen massenhafte KI-Beweise",
    "url": "https://the-decoder.de/openai-boykottieren-mathematik-community-wehrt-sich-gegen-massenhafte-ki-beweise/",
+   "kontext": "Die Vereinigung wurde erst im September gegründet und zählt inzwischen mehrere Hundert Mitglieder. Im Kern geht es um die Frage, wann ein Problem als gelöst gelten darf, wenn selbst Fachleute die dicht geschriebenen Texte nur mit KI-Hilfe durchdringen. OpenAI beruft sich auf eine Beratungsgruppe am Institute for Advanced Study, die beim internen Forschungstempo jedoch nichts mitzureden hat. Kritiker verweisen auf Anthropic, das stattdessen mit Forschenden an verständlichen Beweisen arbeitete.",
    "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/"
+    },
     {
      "source": "heise KI",
      "url": "https://www.heise.de/news/KI-generierte-Mathematikloesungen-Scharfe-Kritik-am-Vorgehen-von-OpenAI-11480767.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
@@ -1452,19 +1493,10 @@
      "url": "https://www.heise.de/news/KI-generierte-Mathematikloesungen-Scharfe-Kritik-am-Vorgehen-von-OpenAI-11480767.html"
     },
     {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/"
-    },
-    {
      "source": "Latent Space",
      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/openai-s-ai-produced-722-math-manuscripts/"
     }
-   ],
-   "kontext": "Die Vereinigung wurde erst im September gegründet und zählt inzwischen mehrere Hundert Mitglieder. Im Kern geht es um die Frage, wann ein Problem als gelöst gelten darf, wenn selbst Fachleute die dicht geschriebenen Texte nur mit KI-Hilfe durchdringen. OpenAI beruft sich auf eine Beratungsgruppe am Institute for Advanced Study, die beim internen Forschungstempo jedoch nichts mitzureden hat. Kritiker verweisen auf Anthropic, das stattdessen mit Forschenden an verständlichen Beweisen arbeitete."
+   ]
   },
   {
    "id": "e2e6b34fdfe6",
@@ -1533,7 +1565,7 @@
    "added": "2026-10-09T01:59:48+02:00",
    "quelle_titel": "Anthropic changes usage policy to ban model abuse and election interference",
    "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-   "dup_of": "820fd4ab27d2"
+   "dup_of": "f526dbecf422"
   },
   {
    "id": "c4b9450255a9",
@@ -1555,6 +1587,7 @@
    "added": "2026-10-09T01:59:48+02:00",
    "quelle_titel": "Google brings agentic AI to Gemini, starting with businesses",
    "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+   "kontext": "Vorgestellt wurde der Agent auf Googles Veranstaltung zu Gemini im Arbeitsumfeld, wo Sundar Pichai auf die breite Verankerung bei Großkonzernen verwies. Der Start bei Firmenkunden soll zuerst Fragen zu Sicherheit, Skalierung und Leistung klären, bevor Privatnutzer folgen. Der Agent dockt an Workspace, Microsoft 365, Slack oder Jira an, nutzt auf Wunsch auch Anthropics Claude und protokolliert seine Schritte nachvollziehbar. Vorerst läuft alles in einer geschlossenen Vorschau.",
    "also": [
     {
      "source": "The Verge AI",
@@ -1564,8 +1597,7 @@
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/google-wants-a-bigger-role-in-how-work-gets-done/"
     }
-   ],
-   "kontext": "Vorgestellt wurde der Agent auf Googles Veranstaltung zu Gemini im Arbeitsumfeld, wo Sundar Pichai auf die breite Verankerung bei Großkonzernen verwies. Der Start bei Firmenkunden soll zuerst Fragen zu Sicherheit, Skalierung und Leistung klären, bevor Privatnutzer folgen. Der Agent dockt an Workspace, Microsoft 365, Slack oder Jira an, nutzt auf Wunsch auch Anthropics Claude und protokolliert seine Schritte nachvollziehbar. Vorerst läuft alles in einer geschlossenen Vorschau."
+   ]
   },
   {
    "id": "3bf143dd453c",
@@ -1655,13 +1687,13 @@
    "paywall": true,
    "quelle_titel": "KI: OpenAI-Umsatz liegt 20 Milliarden Dollar unter bisherigen Erwartungen",
    "url": "https://www.handelsblatt.com/technik/it-internet/ki-openai-umsatz-liegt-20-milliarden-dollar-unter-bisherigen-erwartungen/100260865.html",
+   "kontext": "Hinter der Korrektur steckt vor allem eine Definitionsfrage: Anthropic rechnet Verkäufe über seine Cloud-Partner mit, OpenAI tut das nicht. Die höhere Zahl entstand, als Investoren selbst einen direkten Vergleich beider Häuser konstruierten. Für OpenAI ist das Thema heikel, weil die Erlöse die enormen Kapitalzusagen rechtfertigen müssen, die Ausgaben aber deutlich darüber liegen. Der lange erwartete Börsengang wurde inzwischen auf Anfang 2027 verschoben.",
    "also": [
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/"
     }
-   ],
-   "kontext": "Hinter der Korrektur steckt vor allem eine Definitionsfrage: Anthropic rechnet Verkäufe über seine Cloud-Partner mit, OpenAI tut das nicht. Die höhere Zahl entstand, als Investoren selbst einen direkten Vergleich beider Häuser konstruierten. Für OpenAI ist das Thema heikel, weil die Erlöse die enormen Kapitalzusagen rechtfertigen müssen, die Ausgaben aber deutlich darüber liegen. Der lange erwartete Börsengang wurde inzwischen auf Anfang 2027 verschoben."
+   ]
   },
   {
    "id": "51c6cb3bd66a",
@@ -1797,7 +1829,7 @@
    "added": "2026-10-09T00:48:15+02:00",
    "quelle_titel": "2026 Usage Policy update",
    "url": "https://www.anthropic.com/news/2026-usage-policy-update",
-   "dup_of": "820fd4ab27d2"
+   "dup_of": "f526dbecf422"
   },
   {
    "id": "0f05fd4155a4",
@@ -2260,13 +2292,17 @@
    "praxis": true,
    "quelle_titel": "Prompt rein, Spiel an: Google startet KI-Spielebaukasten Playground",
    "url": "https://www.heise.de/news/Prompt-rein-Spiel-an-Google-startet-KI-Spielebaukasten-Playground-11480456.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Google kombiniert dafür mehrere eigene Modelle für Text, Bild und Musik mit einem selbst entwickelten Softwaregerüst. Gebaut wird im Chat: Nutzer beschreiben ihre Idee, passen Regeln, Figuren und Physik nach und können eigene Bilder in Grafikelemente umwandeln lassen. Fertige Titel laufen im Browser, lassen sich teilen, in einer Galerie zeigen oder als Paket herunterladen. Google nennt das Angebot ein frühes Experiment; für aufwendigere Projekte ist eine Zusammenarbeit mit Unity geplant.",
    "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/playground-bei-google-kann-man-jetzt-spiele-per-ki-basteln-2610-213867.html"
+    },
     {
      "source": "The Rundown AI",
      "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-labs-introduces-playground"
     }
-   ],
-   "kontext": "Google kombiniert dafür mehrere eigene Modelle für Text, Bild und Musik mit einem selbst entwickelten Softwaregerüst. Gebaut wird im Chat: Nutzer beschreiben ihre Idee, passen Regeln, Figuren und Physik nach und können eigene Bilder in Grafikelemente umwandeln lassen. Fertige Titel laufen im Browser, lassen sich teilen, in einer Galerie zeigen oder als Paket herunterladen. Google nennt das Angebot ein frühes Experiment; für aufwendigere Projekte ist eine Zusammenarbeit mit Unity geplant."
+   ]
   },
   {
    "id": "bbafc5ec3b79",
@@ -2287,7 +2323,7 @@
    "added": "2026-10-09T00:42:26+02:00",
    "quelle_titel": "😺 ChatGPT's GPT-6 now builds calculators",
    "url": "https://www.theneuron.ai/newsletter/october-08-thursday/",
-   "dup_of": "ecdc8dd4d50f"
+   "dup_of": "0ca1450969b5"
   },
   {
    "id": "58909cb632b3",
@@ -2312,6 +2348,28 @@
    "url": "https://the-decoder.de/16-jaehriger-plant-bergwanderung-mit-claude-und-muss-per-hubschrauber-gerettet-werden/"
   },
   {
+   "id": "e3e62a93d2a9",
+   "date": "2026-10-08",
+   "published": "2026-10-08T12:10+02:00",
+   "headline": "Google Playground lässt Spiele ohne Programmierkenntnisse entstehen",
+   "summary": "Mit Playground bietet Google eine Umgebung, in der sich eigene Spiele per KI erstellen lassen, ohne dass Nutzer programmieren müssen. Gemeinsam mit Unity sollen künftig leistungsfähigere Werkzeuge folgen. Damit rückt Google das Thema generative Spieleentwicklung näher an ein breites Publikum.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "google",
+    "gaming",
+    "no-code",
+    "unity"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-09T03:12:30+02:00",
+   "quelle_titel": "Playground: Bei Google kann man jetzt Spiele per KI basteln",
+   "url": "https://www.golem.de/news/playground-bei-google-kann-man-jetzt-spiele-per-ki-basteln-2610-213867.html",
+   "dup_of": "98cd997db0d3"
+  },
+  {
    "id": "4fac7a36d38f",
    "date": "2026-10-08",
    "published": "2026-10-08T12:18+02:00",
@@ -2332,13 +2390,13 @@
    "added": "2026-10-09T00:46:29+02:00",
    "quelle_titel": "KI-Features für Webex-Telefonie: Persönliche Assistenz und Echtzeitübersetzung",
    "url": "https://www.heise.de/news/KI-Features-fuer-Webex-Telefonie-Persoenliche-Assistenz-und-Echtzeituebersetzung-11480604.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Cisco bündelte die Neuheiten auf seiner Hauskonferenz in Austin. Der Anruf-Assistent erkennt Anliegen und Dringlichkeit, stellt durch oder antwortet aus einer angebundenen Wissensbasis, lässt sich ohne Skripting einrichten und war bisher der Contact-Center-Lösung vorbehalten; verfügbar soll er erst 2027 sein. Die Übersetzung läuft nicht nur in der App, sondern auch auf Tischtelefonen. Zudem bringt Cisco Cloud-KI in bestehende Installationen im eigenen Rechenzentrum.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/news/KI-Features-fuer-Webex-Telefonie-Persoenliche-Assistenz-und-Echtzeituebersetzung-11480604.html"
     }
-   ],
-   "kontext": "Cisco bündelte die Neuheiten auf seiner Hauskonferenz in Austin. Der Anruf-Assistent erkennt Anliegen und Dringlichkeit, stellt durch oder antwortet aus einer angebundenen Wissensbasis, lässt sich ohne Skripting einrichten und war bisher der Contact-Center-Lösung vorbehalten; verfügbar soll er erst 2027 sein. Die Übersetzung läuft nicht nur in der App, sondern auch auf Tischtelefonen. Zudem bringt Cisco Cloud-KI in bestehende Installationen im eigenen Rechenzentrum."
+   ]
   },
   {
    "id": "7791244750bb",
@@ -2538,7 +2596,8 @@
    "added": "2026-10-09T00:45:53+02:00",
    "praxis": true,
    "quelle_titel": "Kaspersky: Vier Prinzipien zur Absicherung von KI-Agenten",
-   "url": "https://www.it-daily.net/it-sicherheit/cloud-security/kaspersky-ki-agenten"
+   "url": "https://www.it-daily.net/it-sicherheit/cloud-security/kaspersky-ki-agenten",
+   "kontext": "Vorgestellt wurde der Leitfaden aus Kasperskys KI-Forschungsbereich auf einer Branchenmesse in Abu Dhabi. Grundlage sind reale Zwischenfälle, bei denen Agenten mit zu weitreichenden Rechten Daten löschten oder gezielt ausgenutzt wurden. Praktisch bedeutet das: menschliche Freigabe für alles Unumkehrbare, Trennung der Ausführungsumgebungen über Sandboxes und strikte Regeln für Werkzeugaufrufe. Für IT-Verantwortliche folgt daraus zunächst die Aufgabe, alle eingesetzten Agenten überhaupt vollständig zu erfassen."
   },
   {
    "id": "74d8e6bd60bb",
@@ -2559,7 +2618,8 @@
    "source_id": "t3n",
    "added": "2026-10-09T02:00:49+02:00",
    "quelle_titel": "Neue Windows-Notebooks: Nvidias RTX Spark macht sie fit für KI, und sehr teuer",
-   "url": "https://t3n.de/news/neue-windows-notebooks-nvidias-rtx-spark-macht-sie-fit-fuer-ki-und-sehr-teuer-1767024"
+   "url": "https://t3n.de/news/neue-windows-notebooks-nvidias-rtx-spark-macht-sie-fit-fuer-ki-und-sehr-teuer-1767024",
+   "kontext": "Der RTX Spark trägt intern den Namen N1X und ist eng verwandt mit dem ARM-Chip, den Nvidia bereits im KI-Mini-PC DGX Spark einsetzt. Erstmals steckt diese Technik nun in Windows-Geräten, angekündigt hatte Nvidia sie schon zur Jahresmitte. Es gibt zwei Ausbaustufen, wobei nur die größere viel Arbeitsspeicher ansprechen kann. Die Preise mehrerer Hersteller liegen auffällig gleichauf, erste Auslieferungen beginnen Mitte Oktober, manche deutlich später."
   },
   {
    "id": "8f1b126cfb36",
@@ -2602,7 +2662,8 @@
    "source_id": "decoder-de",
    "added": "2026-10-09T00:45:14+02:00",
    "quelle_titel": "Ethereum-Forscher warnen: KI könnte Krypto-Signaturverfahren knacken",
-   "url": "https://the-decoder.de/ethereum-forscher-warnen-ki-koennte-krypto-signaturverfahren-knacken/"
+   "url": "https://the-decoder.de/ethereum-forscher-warnen-ki-koennte-krypto-signaturverfahren-knacken/",
+   "kontext": "Der Angriffspunkt entsteht beim Signieren, denn dabei wird der öffentliche Schlüssel sichtbar, aus dem sich rechnerisch der private ableiten ließe. Justin Drake rät deshalb, Guthaben auf Adressen zu legen, von denen noch nie eine Transaktion ausging. Buterin denkt weiter und will Architekturen, die möglichst nur auf Hashfunktionen beruhen, weil auch als quantensicher gehandelte Gitterverfahren durch KI-Fortschritte schwächer werden könnten. Die Debatte läuft offen zwischen führenden Ethereum-Forschern."
   },
   {
    "id": "eb20020b0d9b",
@@ -2623,7 +2684,8 @@
    "source_id": "t3n",
    "added": "2026-10-09T00:45:14+02:00",
    "quelle_titel": "1.615 Anträge auf neue Domain-Endungen: Alle wollen .agent und .ai",
-   "url": "https://t3n.de/news/1-615-antraege-auf-neue-domain-endungen-alle-wollen-agent-und-ai-1767248"
+   "url": "https://t3n.de/news/1-615-antraege-auf-neue-domain-endungen-alle-wollen-agent-und-ai-1767248",
+   "kontext": "Hinter der Vergabe steht die ICANN, eine gemeinnützige Organisation aus Kalifornien, die weltweit Domainnamen und Adressen koordiniert. Neben generischen Endungen sichern sich Konzerne auch eigene Markenendungen für Produkte und Apps, darunter Meta und OpenAI. Auffällig ist, wie stark die aktuelle KI-Debatte durchschlägt: Selbst Begriffe rund um Superintelligenz wurden mehrfach beantragt. Aus Deutschland melden sich Adidas, Biontech und die Allianz, entschieden wird voraussichtlich erst im kommenden Jahr."
   },
   {
    "id": "7bf641fa7e20",
@@ -2692,13 +2754,13 @@
    "added": "2026-10-09T00:44:14+02:00",
    "quelle_titel": "Ecosia: Warum die Suchmaschine Mistral AI durch chinesische KI ersetzt",
    "url": "https://www.heise.de/news/Adieu-Mistral-Ecosia-wechselt-zu-chinesischen-Open-Source-KI-Modellen-11481323.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Der Berliner Anbieter hatte erst im Mai von OpenAI auf Mistral umgestellt und zieht nun erneut weiter. Gründer Christian Kroll nennt Leistungsrückstände und Ausfälle, weil Ecosia für die Infrastruktur des Partners zu groß gewesen sei, dazu Zweifel an Nachhaltigkeit und europäischer Eigenständigkeit angesichts internationaler Geldgeber. Mistral verweist auf nötige Zeit und Rechenleistung und lädt zum Test seines neuen Modells ein. Kroll setzt lieber auf frei verfügbare Gewichte als auf eigenes Training.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/news/Adieu-Mistral-Ecosia-wechselt-zu-chinesischen-Open-Source-KI-Modellen-11481323.html"
     }
-   ],
-   "kontext": "Der Berliner Anbieter hatte erst im Mai von OpenAI auf Mistral umgestellt und zieht nun erneut weiter. Gründer Christian Kroll nennt Leistungsrückstände und Ausfälle, weil Ecosia für die Infrastruktur des Partners zu groß gewesen sei, dazu Zweifel an Nachhaltigkeit und europäischer Eigenständigkeit angesichts internationaler Geldgeber. Mistral verweist auf nötige Zeit und Rechenleistung und lädt zum Test seines neuen Modells ein. Kroll setzt lieber auf frei verfügbare Gewichte als auf eigenes Training."
+   ]
   },
   {
    "id": "1efc35917c71",
@@ -2746,6 +2808,28 @@
    "url": "https://openai.com/index/oracle"
   },
   {
+   "id": "d12d77aa7dd5",
+   "date": "2026-10-08",
+   "published": "2026-10-08T18:00+02:00",
+   "headline": "Smart Ring für 99 Dollar holt KI-Agenten an den Finger",
+   "summary": "Das Start-up Natura bringt mit Interface einen Ring, der auf Fingerdruck KI-Agenten aktiviert. Nutzer können damit Aufgaben anstoßen, Gedanken festhalten und Geräte steuern, zusätzlich erfasst der Ring Gesundheitsdaten. Der Preis von 99 Dollar liegt deutlich unter dem vieler etablierter Wearables.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "wearables",
+    "ki-agenten",
+    "hardware",
+    "gadgets"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-09T03:12:30+02:00",
+   "quelle_titel": "Natura’s $99 smart ring puts AI agents on your finger",
+   "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
+   "kontext": "Hinter Natura steht Carlo Edoardo Ferraris, der zuvor einen Zubehörhersteller aufbaute und bereits KI-Ohrhörer im Angebot hatte. Der Ring soll Agenten rund um die Uhr erreichbar machen, weil er anders als ein Telefon kaum abgelegt wird. Pro Aufgabe lässt sich wählen, welcher Dienst sie übernimmt, etwa Claude, ChatGPT oder Grok Bot. Vorbestellungen sind für den kommenden Monat geplant, die Lieferung zum Jahreswechsel."
+  },
+  {
    "id": "f5415a0e9da6",
    "date": "2026-10-08",
    "published": "2026-10-08T18:27+02:00",
@@ -2764,7 +2848,8 @@
    "source_id": "latent-space",
    "added": "2026-10-09T00:43:33+02:00",
    "quelle_titel": "Synthesis Superintelligence: from Semiconductors to Superconductors, Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
-   "url": "https://www.latent.space/p/periodic"
+   "url": "https://www.latent.space/p/periodic",
+   "kontext": "Periodic Labs wurde erst im Herbst 2025 gegründet, gilt inzwischen aber als eines der führenden Labore für KI in der Forschung. Das Gründerteam war an ChatGPT, DeepMinds GNoME und am Aufbau autonomer Physiklabore beteiligt. Die Wette dahinter: Der nächste Fortschritt kommt weniger aus noch mehr Internetdaten, sondern daraus, dass Modelle im Labor selbst experimentieren und auch aus gescheiterten Versuchen lernen."
   },
   {
    "id": "d29cff2c32d4",
@@ -2786,7 +2871,8 @@
    "added": "2026-10-09T00:43:33+02:00",
    "kurios": "Der KI-Ausbau lässt Handys unter 100 Dollar fast vom Markt verschwinden.",
    "quelle_titel": "KI verdrängt günstige Smartphones",
-   "url": "https://www.it-daily.net/shortnews/ki-verdraengt-guenstige-smartphones"
+   "url": "https://www.it-daily.net/shortnews/ki-verdraengt-guenstige-smartphones",
+   "kontext": "Hinter der Entwicklung steht die Marktmacht von nur drei Anbietern: Samsung, SK hynix und Micron beherrschen den Speichermarkt und lenkten ihre Lieferungen seit Ende 2025 vorrangig in KI-Rechenzentren. Chinesische Hersteller, die den Großteil der weltweiten Stückzahlen stellen, fahren Projekte im Einstiegssegment zurück und setzen auf margenstärkere Modelle. Analysten rechnen nicht mit einer Rückkehr zum früheren Preisniveau. Besonders Käufer in Indien, Afrika und Südostasien spüren das."
   },
   {
    "id": "f526dbecf422",
@@ -2808,7 +2894,21 @@
    "added": "2026-10-09T01:59:48+02:00",
    "quelle_titel": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
-   "dup_of": "820fd4ab27d2"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/chatbot-schutz-wer-claude-wiederholt-beleidigt-koennte-rausfliegen/"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
+    },
+    {
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+    }
+   ],
+   "kontext": "Hinter der Regel steht Anthropics Forschung zum Wohlbefinden von Modellen: Das Unternehmen behandelt Claude zunehmend als eigenständige Entität und hält die Frage nach einem möglichen moralischen Status für offen genug, um vorsichtig zu agieren. Geahndet wird vor allem durch das Beenden von Gesprächen, möglich sind aber auch Warnungen oder ein eingeschränkter bis entzogener Zugang. Parallel verschärft Anthropic die Vorgaben zu Waffensoftware und bewaffneten Drohnen, räumt für Regierungsaufträge jedoch Ausnahmen ein."
   },
   {
    "id": "79d3d4d8a158",
@@ -2833,10 +2933,6 @@
    "url": "https://www.golem.de/news/operativer-gewinn-samsung-macht-durch-speicherkrise-80-milliarden-us-dollar-im-quartal-2610-213897.html",
    "also": [
     {
-     "source": "Berliner Zeitung",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY3czcGNPX0ZDN2cxcnlxMV85UVZGaWZ6dGtnTngzSndmVGJQcmU0UlY4aE91SE9VTjZEUzZoajZjV2d4QUEtOUppcHNwWXdoc0xuN09QYzJ2RTB5V1d3aHVCVGcxby1GcUpCeG90eEFvR1JSSkttYUtCTHc2TzdqdG8xMWdFWEFMeGplbWFsVkgwUkZreEVvajRPUXJOaGt3eWc?oc=5"
-    },
-    {
      "source": "Handelsblatt Technologie",
      "url": "https://www.handelsblatt.com/technik/it-internet/tech-konzern-samsung-stellt-zehnfachen-gewinn-in-aussicht/100260566.html",
      "paywall": true
@@ -2845,6 +2941,10 @@
      "source": "Handelsblatt Technologie",
      "url": "https://www.handelsblatt.com/technik/it-internet/tech-konzern-samsung-stellt-dank-ki-boom-rekordgewinn-in-aussicht/100260566.html",
      "paywall": true
+    },
+    {
+     "source": "Berliner Zeitung",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY3czcGNPX0ZDN2cxcnlxMV85UVZGaWZ6dGtnTngzSndmVGJQcmU0UlY4aE91SE9VTjZEUzZoajZjV2d4QUEtOUppcHNwWXdoc0xuN09QYzJ2RTB5V1d3aHVCVGcxby1GcUpCeG90eEFvR1JSSkttYUtCTHc2TzdqdG8xMWdFWEFMeGplbWFsVkgwUkZreEVvajRPUXJOaGt3eWc?oc=5"
     }
    ]
   },
@@ -2942,20 +3042,7 @@
    "quelle_titel": "Chatbot-Schutz: Wer Claude wiederholt beleidigt, könnte rausfliegen",
    "url": "https://the-decoder.de/chatbot-schutz-wer-claude-wiederholt-beleidigt-koennte-rausfliegen/",
    "kontext": "Es ist die erste Überarbeitung der Richtlinien seit mehr als einem Jahr, wirksam ab dem 12. November. Anthropic begründet viele Klarstellungen damit, dass Claude inzwischen länger und selbstständiger arbeitet, und verweist auf Missbrauchsmuster aus eigenen Sicherheitsberichten. Verstreute Vorgaben zu Wahlen, Betrug und Desinformation wandern in einen gemeinsamen Abschnitt gegen Täuschungskampagnen. Für Regierungsaufträge bleiben Ausnahmen möglich.",
-   "also": [
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
-    },
-    {
-     "source": "Anthropic",
-     "url": "https://www.anthropic.com/news/2026-usage-policy-update"
-    }
-   ]
+   "dup_of": "f526dbecf422"
   },
   {
    "id": "ce2abfc242c2",
@@ -3088,6 +3175,28 @@
    "url": "https://www.wired.com/story/tristan-harris-tech-nonprofit-is-laying-off-most-staff-and-going-founder-led/"
   },
   {
+   "id": "858e304facc9",
+   "date": "2026-10-08",
+   "published": "2026-10-08T12:34+02:00",
+   "headline": "KI generierter Spielfilm bewirbt sich offiziell um einen Oscar",
+   "summary": "Die Macher des Films Gods Don't Give Gifts haben ihr komplett mit KI erstelltes Werk für die Oscarvergabe eingereicht. Der Film fällt vor allem durch aufwendig anmutende Bilder auf und wirft die Frage auf, wie die Filmakademie mit generativer Produktion umgeht. Für die Branche ist das ein Testfall für Förder- und Preiskriterien.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "generative video",
+    "film",
+    "oscar",
+    "kreativwirtschaft"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-09T03:12:30+02:00",
+   "kurios": "Ein vollständig KI generierter Spielfilm will tatsächlich einen Oscar gewinnen.",
+   "quelle_titel": "Gods Don't Give Gifts: Erster KI-generierter Spielfilm will Oscar gewinnen",
+   "url": "https://www.golem.de/news/gods-don-t-give-gifts-erster-ki-generierter-film-will-einen-oscar-gewinnen-2610-213872.html"
+  },
+  {
    "id": "ca1ec6c6a1a1",
    "date": "2026-10-08",
    "published": "2026-10-08T14:00+02:00",
@@ -3171,6 +3280,27 @@
    "added": "2026-10-09T01:59:48+02:00",
    "quelle_titel": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?",
    "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free"
+  },
+  {
+   "id": "00fc2266fd50",
+   "date": "2026-10-08",
+   "published": "2026-10-08T16:00+02:00",
+   "headline": "Satirischer Spielfilm über Sam Altman feiert Premiere in New York",
+   "summary": "Luca Guadagninos Film Artificial über den OpenAI Chef lief beim New York Film Festival an und wird als bissige, aber faktennahe Satire beschrieben. Im Zentrum stehen Machtfragen in der KI-Branche und die Frage, wer über die Entwicklung entscheidet. Der Film zeigt, wie stark die KI-Industrie inzwischen popkulturell verarbeitet wird.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "openai",
+    "film",
+    "sam altman",
+    "medien"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-09T03:12:30+02:00",
+   "quelle_titel": "Artificial is a wicked satire that also sticks to the facts",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts"
   },
   {
    "id": "dbf47843fdab",
