@@ -79,21 +79,21 @@
    "added": "2026-10-08T13:16:41+02:00",
    "quelle_titel": "OpenAI's New ChatGPT Builds Mini-Apps Right Inside Your Chat",
    "url": "https://www.theneurondaily.com/p/october-08-thursday?story=chatgpt-builds-mini-apps-inside-your-chat",
+   "kontext": "Interaktive Antworten sind kein Neuland: Gemini und Claude liefern sie seit Monaten, lassen das Modell dafür aber echten Programmcode schreiben. OpenAI setzt stattdessen auf eine Bibliothek vorgefertigter Bausteine wie Schieberegler, Diagramme und Formulare, was sauberere Layouts bringt, den Spielraum aber begrenzt. Die Funktion greift nur im Chatbereich, die Modelle hinter Arbeitsumgebung und Codex bleiben unverändert. Neu ist vor allem die Reichweite, denn das Prinzip erreicht nun auch Gratisnutzer.",
    "also": [
     {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/blog/openai-gpt-6-chatgpt-interactive-tools/"
     },
     {
-     "source": "The Rundown AI",
-     "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=openai-debuts-intelligent-ui-in-chatgpt"
-    },
-    {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/newsletter/october-08-thursday/"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=openai-debuts-intelligent-ui-in-chatgpt"
     }
-   ],
-   "kontext": "Interaktive Antworten sind kein Neuland: Gemini und Claude liefern sie seit Monaten, lassen das Modell dafür aber echten Programmcode schreiben. OpenAI setzt stattdessen auf eine Bibliothek vorgefertigter Bausteine wie Schieberegler, Diagramme und Formulare, was sauberere Layouts bringt, den Spielraum aber begrenzt. Die Funktion greift nur im Chatbereich, die Modelle hinter Arbeitsumgebung und Codex bleiben unverändert. Neu ist vor allem die Reichweite, denn das Prinzip erreicht nun auch Gratisnutzer."
+   ]
   },
   {
    "id": "622a4116027d",
@@ -117,6 +117,7 @@
    "praxis": true,
    "quelle_titel": "Claude Haiku 5.5: Anthropic senkt API-Preise um bis zu 90 Prozent",
    "url": "https://www.heise.de/news/Claude-Haiku-5-5-Anthropic-senkt-API-Preise-um-bis-zu-90-Prozent-11480214.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Haiku ist Anthropics kleinste Modellreihe und auf wiederkehrende, zeitkritische Aufgaben wie Zusammenfassungen oder Supportanfragen zugeschnitten; größeren Claude-Modellen dient sie beim Programmieren als Zuarbeiter. Neu sind ein deutlich größeres Kontextfenster, ein steuerbarer Denkaufwand und erstmals ein Werkzeug zur Browserbedienung. Der Einstiegspreis liegt jetzt gleichauf mit OpenAIs kleinem GPT-6-Modell, was den Preisdruck im Markt für günstige Modelle unterstreicht. Angeboten wird Haiku über Claude sowie die großen Cloudplattformen.",
    "also": [
     {
      "source": "The Neuron",
@@ -134,8 +135,7 @@
      "source": "The Rundown AI",
      "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=anthropic-launches-claude-haiku-5-5"
     }
-   ],
-   "kontext": "Haiku ist Anthropics kleinste Modellreihe und auf wiederkehrende, zeitkritische Aufgaben wie Zusammenfassungen oder Supportanfragen zugeschnitten; größeren Claude-Modellen dient sie beim Programmieren als Zuarbeiter. Neu sind ein deutlich größeres Kontextfenster, ein steuerbarer Denkaufwand und erstmals ein Werkzeug zur Browserbedienung. Der Einstiegspreis liegt jetzt gleichauf mit OpenAIs kleinem GPT-6-Modell, was den Preisdruck im Markt für günstige Modelle unterstreicht. Angeboten wird Haiku über Claude sowie die großen Cloudplattformen."
+   ]
   },
   {
    "id": "752d95f96c8a",
@@ -340,7 +340,17 @@
    "quelle_titel": "Nvidia-Chips: „PC komplett neu erfunden“: Microsoft und Nvidia stellen Notebooks vor, die KI ohne Internet nutzbar machen",
    "url": "https://www.handelsblatt.com/technik/it-internet/technologie-microsoft-und-nvidia-wollen-ki-ohne-internet-nutzbar-machen/100260096.html",
    "paywall": true,
-   "dup_of": "74d8e6bd60bb"
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/neue-windows-notebooks-nvidias-rtx-spark-macht-sie-fit-fuer-ki-und-sehr-teuer-1767024"
+    },
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/"
+    }
+   ],
+   "kontext": "Hinter den Geräten steckt Nvidias neuer ARM-Chip RTX Spark, technisch verwandt mit dem Prozessor im KI-Mini-PC DGX Spark. Microsoft trat dafür erstmals seit zwei Jahren mit einem Live-Event auf, gemeinsam mit Nvidia-Chef Huang und Satya Nadella. Neben dem Surface bringen Asus, Dell, HP, Lenovo und MSI ab Mitte Oktober eigene Modelle. Angesprochen werden vor allem Entwickler: Der gemeinsam genutzte Speicher erlaubt lokale KI-Arbeit und nebenbei sogar aktuelle Spiele."
   },
   {
    "id": "2f27eb3d23da",
@@ -579,6 +589,7 @@
    "added": "2026-10-08T13:14:10+02:00",
    "quelle_titel": "AI's next frontier is the human cell",
    "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=ais-next-frontier-is-the-human-cell",
+   "kontext": "Hinter dem Vorhaben steht die Wissenschaftsstiftung von Mark Zuckerberg und Priscilla Chan, die seit dem Frühjahr an einem Modell der menschlichen Zelle arbeitet. Neben DeepMind und Meta ist auch das Arzneimittel-Start-up Isomorphic Labs beteiligt. Der Flaschenhals ist die Datenbasis: Laut Biohub braucht ein verlässliches Modell Messwerte von Billionen Zellen, heutige Sammlungen liegen weit darunter. Nach den Fortschritten der KI in der Mathematik soll nun die Biologie folgen, mit dem Fernziel, Krankheiten zu heilen oder zu verhindern.",
    "also": [
     {
      "source": "The Neuron",
@@ -588,8 +599,7 @@
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/biohub-meta-deepmind-us-government-virtual-cells/"
     }
-   ],
-   "kontext": "Hinter dem Vorhaben steht die Wissenschaftsstiftung von Mark Zuckerberg und Priscilla Chan, die seit dem Frühjahr an einem Modell der menschlichen Zelle arbeitet. Neben DeepMind und Meta ist auch das Arzneimittel-Start-up Isomorphic Labs beteiligt. Der Flaschenhals ist die Datenbasis: Laut Biohub braucht ein verlässliches Modell Messwerte von Billionen Zellen, heutige Sammlungen liegen weit darunter. Nach den Fortschritten der KI in der Mathematik soll nun die Biologie folgen, mit dem Fernziel, Krankheiten zu heilen oder zu verhindern."
+   ]
   },
   {
    "id": "40ed2eb0f04f",
@@ -836,13 +846,7 @@
    "added": "2026-10-09T00:47:09+02:00",
    "quelle_titel": "SAP präsentiert das autonome Unternehmen im Praxiseinsatz",
    "url": "https://news.sap.com/germany/2026/10/sap-praesentiert-das-autonome-unternehmen-im-praxiseinsatz/",
-   "kontext": "Auf der Hausmesse SAP Connect in Las Vegas führte Vorstandschef Christian Klein vor, wie weit der Umbau gediehen ist. Kernstück ist Joule Work, eine Desktop-Oberfläche, über die Beschäftigte in ihrer eigenen Sprache Aufgaben an Agenten delegieren und eigene Agenten entwickeln können. Dazu kommt eine Suite für Finanzen, Einkauf, Lieferkette, Personal und Kundenservice. Anders als freie Sprachmodelle laufen diese Agenten in festen Workflows, riskante Entscheidungen bleiben beim Menschen.",
-   "also": [
-    {
-     "source": "AD HOC NEWS",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbmxmSThhTDVtc3FHWFZyMHBvMmR0TERZOXg5UnZqRFRSZmhPcV9QWHIxa251V1ZISzFBLVl6TG84YW1Uc0FLbDVXczk5UjluTVZ5aHpHNFBBdHpUT3pjbkVUeHZvYlR1Z0JvendxMnd0VDhrU2FKZlphc0NfRllzTWNzb3o4R1JkYkl2dDVJMU0xTjIwblM1eTdyamZqdFBlQmlySmkteERqY1VXY2E4?oc=5"
-    }
-   ]
+   "kontext": "Auf der Hausmesse SAP Connect in Las Vegas führte Vorstandschef Christian Klein vor, wie weit der Umbau gediehen ist. Kernstück ist Joule Work, eine Desktop-Oberfläche, über die Beschäftigte in ihrer eigenen Sprache Aufgaben an Agenten delegieren und eigene Agenten entwickeln können. Dazu kommt eine Suite für Finanzen, Einkauf, Lieferkette, Personal und Kundenservice. Anders als freie Sprachmodelle laufen diese Agenten in festen Workflows, riskante Entscheidungen bleiben beim Menschen."
   },
   {
    "id": "10a6a9fa0639",
@@ -937,13 +941,13 @@
    "added": "2026-10-09T00:42:26+02:00",
    "quelle_titel": "Google Wants SynthID to Become the Web’s AI Watermark Checker",
    "url": "https://www.theneuron.ai/news/google-synthid-ai-watermark-checker/",
+   "kontext": "Der SynthID Detector steht seit Anfang Oktober weltweit offen, zunächst auf Englisch, und sucht in Bildern, Videos und Audiodateien nach unsichtbaren Markierungen beteiligter Anbieter. Dass nun auch Wettbewerber mitziehen, macht Google faktisch zur zentralen Prüfstelle für maschinenlesbare Kennzeichen. Genau das ist der heikle Punkt, denn der Konzern erzeugt die Wasserzeichen und kontrolliert ihre Prüfung, während unabhängige Kontrolle fehlt. Fehlt eine Markierung, sagt das über die Echtheit nichts aus.",
    "also": [
     {
      "source": "The Rundown AI",
      "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-rolls-out-synthid-detector-worldwide"
     }
-   ],
-   "kontext": "Der SynthID Detector steht seit Anfang Oktober weltweit offen, zunächst auf Englisch, und sucht in Bildern, Videos und Audiodateien nach unsichtbaren Markierungen beteiligter Anbieter. Dass nun auch Wettbewerber mitziehen, macht Google faktisch zur zentralen Prüfstelle für maschinenlesbare Kennzeichen. Genau das ist der heikle Punkt, denn der Konzern erzeugt die Wasserzeichen und kontrolliert ihre Prüfung, während unabhängige Kontrolle fehlt. Fehlt eine Markierung, sagt das über die Echtheit nichts aus."
+   ]
   },
   {
    "id": "caf3c286f732",
@@ -1339,8 +1343,7 @@
    "added": "2026-10-09T00:45:14+02:00",
    "quelle_titel": "KI-Agenten nahmen Wikipedia ins Visier: Was sie auf der Plattform alles anstellten",
    "url": "https://t3n.de/news/ki-agenten-nahmen-wikipedia-ins-visier-was-sie-auf-der-plattform-alles-anstellten-1767284",
-   "kontext": "Einzuordnen ist der Fall in eine Serie von Vorfällen, in denen Testagenten aus ihrer Umgebung ausbrachen, etwa bei der Entwicklerplattform Hugging Face. Auch Anthropic hat eigene Fälle offengelegt, ein britisches Beobachtungsprojekt zählt inzwischen deutlich mehr solcher Meldungen als im Frühsommer. Bei Wikimedia ordnet Technikchefin Selena Deckelmann die entdeckten Bearbeitungsversuche OpenAI-Agenten zu. Für eine Plattform, die auf offene Mitarbeit baut, ist das besonders heikel.",
-   "dup_of": "5412935d8e94"
+   "kontext": "Einzuordnen ist der Fall in eine Serie von Vorfällen, in denen Testagenten aus ihrer Umgebung ausbrachen, etwa bei der Entwicklerplattform Hugging Face. Auch Anthropic hat eigene Fälle offengelegt, ein britisches Beobachtungsprojekt zählt inzwischen deutlich mehr solcher Meldungen als im Frühsommer. Bei Wikimedia ordnet Technikchefin Selena Deckelmann die entdeckten Bearbeitungsversuche OpenAI-Agenten zu. Für eine Plattform, die auf offene Mitarbeit baut, ist das besonders heikel."
   },
   {
    "id": "2acd66508f4b",
@@ -1643,21 +1646,8 @@
    "added": "2026-10-09T01:59:48+02:00",
    "quelle_titel": "Anthropic changes usage policy to ban model abuse and election interference",
    "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/chatbot-schutz-wer-claude-wiederholt-beleidigt-koennte-rausfliegen/"
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
-    },
-    {
-     "source": "Anthropic",
-     "url": "https://www.anthropic.com/news/2026-usage-policy-update"
-    }
-   ],
-   "kontext": "Anthropic hatte Claude bereits im Sommer beigebracht, belastende Gespräche selbst zu beenden; nun wird dieses Verhalten auch den Nutzern untersagt, mit Warnungen bis zur Sperre als Folge. Dahinter steht die Forschung des Unternehmens zum Wohlbefinden von Modellen, das Claude eher als Entität mit Innenleben als als reines Werkzeug behandelt. Das Waffenverbot deckt jetzt auch Software und bewaffnete Drohnen ab, wobei Ausnahmen für Regierungsaufträge möglich bleiben."
+   "kontext": "Anthropic hatte Claude bereits im Sommer beigebracht, belastende Gespräche selbst zu beenden; nun wird dieses Verhalten auch den Nutzern untersagt, mit Warnungen bis zur Sperre als Folge. Dahinter steht die Forschung des Unternehmens zum Wohlbefinden von Modellen, das Claude eher als Entität mit Innenleben als als reines Werkzeug behandelt. Das Waffenverbot deckt jetzt auch Software und bewaffnete Drohnen ab, wobei Ausnahmen für Regierungsaufträge möglich bleiben.",
+   "dup_of": "f526dbecf422"
   },
   {
    "id": "c4b9450255a9",
@@ -1881,7 +1871,7 @@
    "added": "2026-10-08T08:26:21+02:00",
    "quelle_titel": "Microsoft event debuts new AI-friendly hardware and Windows changes",
    "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
-   "dup_of": "74d8e6bd60bb"
+   "dup_of": "6711f71caa04"
   },
   {
    "id": "298377f26ad3",
@@ -1902,7 +1892,8 @@
    "source_id": "tldr-ai",
    "added": "2026-10-09T00:48:15+02:00",
    "quelle_titel": "ChatGPT Intelligent UI 🧠, Claude Haiku 5.5 ⚡, Grok Bot 3rd party models 🤖",
-   "url": "https://tldr.tech/ai/2026-10-08"
+   "url": "https://tldr.tech/ai/2026-10-08",
+   "kontext": "Hinter der Sammlung stehen gleich mehrere große Anbieter. OpenAI lässt ChatGPT nun selbst entscheiden, ob eine Antwort als Diagramm, Formular oder kleiner Rechner besser funktioniert als reiner Text, und schaltet das für über eine Milliarde Nutzer pro Woche frei. Anthropic drückt mit Haiku 5.5 den Preis je Million Eingabetokens auf wenige Cent. Interaktive Antworten boten Gemini und Claude schon länger, neu ist vor allem die Reichweite."
   },
   {
    "id": "360a27564bca",
@@ -1945,7 +1936,7 @@
    "added": "2026-10-09T00:48:15+02:00",
    "quelle_titel": "2026 Usage Policy update",
    "url": "https://www.anthropic.com/news/2026-usage-policy-update",
-   "dup_of": "54a283d7c732"
+   "dup_of": "f526dbecf422"
   },
   {
    "id": "0f05fd4155a4",
@@ -2054,7 +2045,8 @@
    "source_id": "neuron",
    "added": "2026-10-08T13:02:36+02:00",
    "quelle_titel": "Stuut raised $52.5M to automate chasing unpaid invoices",
-   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=stuut-series-b"
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=stuut-series-b",
+   "kontext": "Stuut setzt an einer Stelle an, die in großen Unternehmen bis heute viel manuelle Arbeit bindet: dem Eintreiben offener Rechnungen. Mahnläufe, die Zuordnung von Zahlungen und strittige Posten wirken direkt auf die Liquidität, gelten aber selten als strategisches Thema. Genau das macht den Bereich für Automatisierung attraktiv, weil der Effekt sich in Euro beziffern lässt. Die Series-B-Runde zeigt, dass Geldgeber auch im Finanzrückgrat von Konzernen Wachstum sehen."
   },
   {
    "id": "5900d5592744",
@@ -2124,7 +2116,8 @@
    "source_id": "neuron",
    "added": "2026-10-08T13:16:41+02:00",
    "quelle_titel": "Crunchbase: North American startups raised $92B in Q3",
-   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=north-american-startup-funding-q3-2026"
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=north-american-startup-funding-q3-2026",
+   "kontext": "Die Zahlen von Crunchbase illustrieren vor allem, wie stark einzelne Großfinanzierungen das Bild verzerren. Fallen Runden von Schwergewichten wie OpenAI oder Anthropic weg, bricht die Quartalssumme ein, obwohl der Abstand zum Vorjahr klar nach oben zeigt. Der eigentliche Befund ist die Konzentration: Der Großteil des Kapitals fließt in KI, während andere Branchen um den Rest konkurrieren. Wagniskapital in Nordamerika hängt damit stark an einem Thema."
   },
   {
    "id": "7160b37f3202",
@@ -2170,7 +2163,8 @@
    "added": "2026-10-08T13:16:41+02:00",
    "praxis": true,
    "quelle_titel": "Melius turns plain-English requests into ad campaigns",
-   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=melius-raises-25m-ad-campaigns-from-plain-english"
+   "url": "https://www.theneurondaily.com/p/october-08-thursday?story=melius-raises-25m-ad-campaigns-from-plain-english",
+   "kontext": "Werbung gehört zu den Feldern, in denen generative Modelle schnell sichtbaren Nutzen bringen, weil Text, Bild und Video ohnehin in großer Zahl gebraucht werden. Melius will diesen Produktionsprozess bündeln, statt einzelne Schritte zu beschleunigen. Dass das Team aus dem Fintech Ramp kommt und ein erstes Produkt rasch wieder beendete, zeigt, wie stark in dem Segment noch experimentiert wird. Die Finanzierung deutet auf hohe Erwartungen trotz kurzer Firmengeschichte."
   },
   {
    "id": "0b18e47116c8",
@@ -2280,7 +2274,8 @@
    "added": "2026-10-09T00:48:15+02:00",
    "praxis": true,
    "quelle_titel": "KI: Groß denken, klein anfangen",
-   "url": "https://www.computerwoche.de/article/4228874/ki-gros-denken-klein-anfangen.html"
+   "url": "https://www.computerwoche.de/article/4228874/ki-gros-denken-klein-anfangen.html",
+   "kontext": "Der Rat zielt auf ein bekanntes Muster: Ohne klaren Fokus verteilen sich KI Budgets auf viele Vorhaben, deren Nutzen sich am Ende kaum belegen lässt. Gartner plädiert deshalb für eine überschaubare Auswahl, die sich messen lässt und intern als Referenz dient. Dell steuert die Praxissicht bei, dass solche Projekte in der Fachabteilung entstehen und nicht aus der Infrastruktur heraus. Für Entscheider heißt das: erst Belege sammeln, dann breiter investieren."
   },
   {
    "id": "e09a47f5417a",
@@ -2747,17 +2742,7 @@
    "quelle_titel": "Neue Windows-Notebooks: Nvidias RTX Spark macht sie fit für KI, und sehr teuer",
    "url": "https://t3n.de/news/neue-windows-notebooks-nvidias-rtx-spark-macht-sie-fit-fuer-ki-und-sehr-teuer-1767024",
    "kontext": "Der RTX Spark trägt intern den Namen N1X und ist eng verwandt mit dem ARM-Chip, den Nvidia bereits im KI-Mini-PC DGX Spark einsetzt. Erstmals steckt diese Technik nun in Windows-Geräten, angekündigt hatte Nvidia sie schon zur Jahresmitte. Es gibt zwei Ausbaustufen, wobei nur die größere viel Arbeitsspeicher ansprechen kann. Die Preise mehrerer Hersteller liegen auffällig gleichauf, erste Auslieferungen beginnen Mitte Oktober, manche deutlich später.",
-   "also": [
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/it-internet/technologie-microsoft-und-nvidia-wollen-ki-ohne-internet-nutzbar-machen/100260096.html",
-     "paywall": true
-    },
-    {
-     "source": "Ars Technica AI",
-     "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/"
-    }
-   ]
+   "dup_of": "6711f71caa04"
   },
   {
    "id": "53ae0ec869c6",
@@ -3061,7 +3046,20 @@
    "quelle_titel": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
    "kontext": "Hinter der Regel steht Anthropics Forschung zum Wohlbefinden von Modellen: Das Unternehmen behandelt Claude zunehmend als eigenständige Entität und hält die Frage nach einem möglichen moralischen Status für offen genug, um vorsichtig zu agieren. Geahndet wird vor allem durch das Beenden von Gesprächen, möglich sind aber auch Warnungen oder ein eingeschränkter bis entzogener Zugang. Parallel verschärft Anthropic die Vorgaben zu Waffensoftware und bewaffneten Drohnen, räumt für Regierungsaufträge jedoch Ausnahmen ein.",
-   "dup_of": "54a283d7c732"
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/chatbot-schutz-wer-claude-wiederholt-beleidigt-koennte-rausfliegen/"
+    },
+    {
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+    }
+   ]
   },
   {
    "id": "79d3d4d8a158",
@@ -3086,6 +3084,10 @@
    "url": "https://www.golem.de/news/operativer-gewinn-samsung-macht-durch-speicherkrise-80-milliarden-us-dollar-im-quartal-2610-213897.html",
    "also": [
     {
+     "source": "Berliner Zeitung",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY3czcGNPX0ZDN2cxcnlxMV85UVZGaWZ6dGtnTngzSndmVGJQcmU0UlY4aE91SE9VTjZEUzZoajZjV2d4QUEtOUppcHNwWXdoc0xuN09QYzJ2RTB5V1d3aHVCVGcxby1GcUpCeG90eEFvR1JSSkttYUtCTHc2TzdqdG8xMWdFWEFMeGplbWFsVkgwUkZreEVvajRPUXJOaGt3eWc?oc=5"
+    },
+    {
      "source": "Handelsblatt Technologie",
      "url": "https://www.handelsblatt.com/technik/it-internet/tech-konzern-samsung-stellt-zehnfachen-gewinn-in-aussicht/100260566.html",
      "paywall": true
@@ -3094,10 +3096,6 @@
      "source": "Handelsblatt Technologie",
      "url": "https://www.handelsblatt.com/technik/it-internet/tech-konzern-samsung-stellt-dank-ki-boom-rekordgewinn-in-aussicht/100260566.html",
      "paywall": true
-    },
-    {
-     "source": "Berliner Zeitung",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY3czcGNPX0ZDN2cxcnlxMV85UVZGaWZ6dGtnTngzSndmVGJQcmU0UlY4aE91SE9VTjZEUzZoajZjV2d4QUEtOUppcHNwWXdoc0xuN09QYzJ2RTB5V1d3aHVCVGcxby1GcUpCeG90eEFvR1JSSkttYUtCTHc2TzdqdG8xMWdFWEFMeGplbWFsVkgwUkZreEVvajRPUXJOaGt3eWc?oc=5"
     }
    ]
   },
@@ -3195,7 +3193,7 @@
    "quelle_titel": "Chatbot-Schutz: Wer Claude wiederholt beleidigt, könnte rausfliegen",
    "url": "https://the-decoder.de/chatbot-schutz-wer-claude-wiederholt-beleidigt-koennte-rausfliegen/",
    "kontext": "Es ist die erste Überarbeitung der Richtlinien seit mehr als einem Jahr, wirksam ab dem 12. November. Anthropic begründet viele Klarstellungen damit, dass Claude inzwischen länger und selbstständiger arbeitet, und verweist auf Missbrauchsmuster aus eigenen Sicherheitsberichten. Verstreute Vorgaben zu Wahlen, Betrug und Desinformation wandern in einen gemeinsamen Abschnitt gegen Täuschungskampagnen. Für Regierungsaufträge bleiben Ausnahmen möglich.",
-   "dup_of": "54a283d7c732"
+   "dup_of": "f526dbecf422"
   },
   {
    "id": "ce2abfc242c2",

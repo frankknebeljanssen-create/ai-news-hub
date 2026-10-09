@@ -1,14 +1,34 @@
 {
  "date": "2026-10-09",
- "generated_at": "2026-10-09T05:38:36+02:00",
+ "generated_at": "2026-10-09T06:45:07+02:00",
  "overview": [
   {
    "id": "f280016829b5",
-   "text": "Eine Studie von Box und dem Handelsblatt Research Institute zeigt: Viele Beschäftigte nutzen KI-Werkzeuge weiterhin ohne Freigabe der IT."
+   "text": "Der AI Governance Benchmark 2026 von Box und dem Handelsblatt Research Institute zeigt: Viele Beschäftigte nutzen KI weiter ohne Freigabe der IT."
+  },
+  {
+   "id": "62118e26b715",
+   "text": "Laut einer Thoughtworks-Umfrage unter 3.200 CIOs wachsen deren Aufgaben weit über die IT hinaus, weshalb Rollen und Befugnisse neu geklärt werden müssen."
   },
   {
    "id": "e554dbd66c39",
-   "text": "Trotz Rekordsummen für KI wandern junge deutsche Fachkräfte ins Silicon Valley ab, weil sie solche Chancen in Deutschland kaum finden."
+   "text": "Immer mehr junge Deutsche gehen für den KI-Boom nach San Francisco und geben dafür eine Promotion oder eine sichere Konzernkarriere auf."
+  },
+  {
+   "id": "75f6359337b5",
+   "text": "Ein Test mit 400 identischen Lebensläufen ergab: Der Vorname beeinflusst die KI-Bewertung kaum, entscheidend war das Sprachmodell hinter dem Text."
+  },
+  {
+   "id": "7d316d4c3679",
+   "text": "Microsoft erweitert Copilot Cowork um 30 CRM-Funktionen, mit denen KI-Agenten Vertriebs- und Kundenprozesse stärker automatisieren sollen."
+  },
+  {
+   "id": "11047880a457",
+   "text": "Forschende begrenzen kommerzielle KI-Dienste, weil Modelle eigenständig zu ähnlichen Erkenntnissen kommen und so die Erstveröffentlichung gefährden könnten."
+  },
+  {
+   "id": "12bb3dbb7a96",
+   "text": "Der Energiekonzern Uniper setzt KI in seinen Personalabläufen ein, etwa bei der Suche nach neuen Mitarbeitenden."
   }
  ],
  "items": [
@@ -36,6 +56,51 @@
    "kontext": "Hinter der Erhebung steht Box, ein Anbieter für Cloud-Inhalte, gemeinsam mit dem Forschungsarm des Handelsblatts. Interessant ist die Schieflage: Richtlinien haben die meisten Häuser, eine zentrale Verantwortung für KI aber nur eine Minderheit. Gleichzeitig verarbeiten die Systeme zunehmend sensible Informationen wie Kundendaten. Wer daneben nicht freigegebene Dienste nutzt, verliert den Überblick darüber, welche Daten abfließen und wer darauf zugreifen darf."
   },
   {
+   "id": "62118e26b715",
+   "date": "2026-10-09",
+   "published": "2026-10-09T06:13+02:00",
+   "headline": "Studie: KI bringt CIOs neue Verantwortung weit über die IT hinaus",
+   "summary": "Für die Global CIO Survey 2026 der Beratung Thoughtworks wurden weltweit 3.200 CIOs befragt, davon 400 in Deutschland. Die Untersuchung geht der Frage nach, wer den KI-Einsatz im Unternehmen tatsächlich steuert. Ergebnis: CIOs übernehmen zunehmend fachfremde Aufgaben und tragen Risiken, die sich schwer abschätzen lassen, weshalb Rollen, Abläufe und Entscheidungsbefugnisse neu geklärt werden müssen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "cio",
+    "governance",
+    "studie",
+    "unternehmen"
+   ],
+   "source": "CIO",
+   "source_id": "cio",
+   "added": "2026-10-09T06:40:41+02:00",
+   "quelle_titel": "KI lädt CIOs mehr fachfremde Aufgaben auf",
+   "url": "https://www.cio.de/article/4232660/ki-laedt-cios-mehr-fachfremde-aufgaben-auf.html"
+  },
+  {
+   "id": "75f6359337b5",
+   "date": "2026-10-09",
+   "published": "2026-10-09T06:32+02:00",
+   "headline": "Test zeigt: Beim KI-Screening von Bewerbungen zählt der Vorname kaum",
+   "summary": "Das Unternehmen i10x.ai hat 400 inhaltlich identische Lebensläufe einmal mit weiblichem und einmal mit männlichem Namen von KI-Systemen bewerten lassen. Der Vorname hatte dabei kaum Einfluss auf das Ergebnis. Deutlich stärker wirkte sich aus, welches Sprachmodell den Bewerbungstext verfasst hatte.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "recruiting",
+    "bias",
+    "bewerbung",
+    "sprachmodelle"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-09T06:40:41+02:00",
+   "quelle_titel": "Recruiting: Vorname spielt beim KI-Screening kaum eine Rolle",
+   "url": "https://www.it-daily.net/shortnews/recruiting-vorname-ki-screening",
+   "kontext": "Hinter dem Test steht das Research-Team der Plattform i10x.ai in Singapur; die Ergebnisse sind nicht unabhängig begutachtet. Geprüft wurden fiktive Profile aus Feldern wie Softwareentwicklung, Pflege und Finanzwesen, bewertet von den jeweils günstigen Screening-Modellen der großen Anbieter. Ein früherer Durchlauf hatte noch einen Geschlechtereffekt angedeutet, weil die Texte dort komplett neu geschrieben wurden. Bemerkenswert ist zudem, dass GPT eigene Lebensläufe deutlich strenger beurteilte."
+  },
+  {
    "id": "e554dbd66c39",
    "date": "2026-10-09",
    "published": "2026-10-09T04:00+02:00",
@@ -57,6 +122,92 @@
    "paywall": true,
    "quelle_titel": "Tech-Szene: San Francisco wird im KI-Boom zum Sehnsuchtsort junger Deutscher",
    "url": "https://www.handelsblatt.com/technik/it-internet/tech-szene-san-francisco-wird-im-ki-boom-zum-sehnsuchtsort-junger-deutscher/100260233.html"
+  },
+  {
+   "id": "11047880a457",
+   "date": "2026-10-09",
+   "published": "2026-10-09T05:17+02:00",
+   "headline": "Wenn KI Forschende bei eigenen Entdeckungen überholt",
+   "summary": "Einige Wissenschaftlerinnen und Wissenschaftler schränken den Einsatz kommerzieller KI-Dienste ein, weil sie Sorge um unveröffentlichte Forschungsdaten haben. Selbst wenn die Daten vertraulich bleiben, könnten KI-Systeme eigenständig zu ähnlichen Erkenntnissen kommen und damit Fragen nach Erstveröffentlichung und wissenschaftlicher Anerkennung aufwerfen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "forschung",
+    "wissenschaft",
+    "vertraulichkeit",
+    "publikationen"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-09T06:40:41+02:00",
+   "quelle_titel": "Could AI Beat Scientists to Their Own Research?",
+   "url": "https://www.theneuron.ai/news/could-ai-beat-scientists-to-their-own-research/",
+   "kontext": "Im September berichteten die Mathematiker Tristan Buckmaster und Levent Alpöge nach rund einem Jahr Arbeit über Fortschritte beim Navier-Stokes-Problem. Einen Tag später stellte OpenAI laut Nature eine von einem Agenten erzeugte Lösung vor. Buckmaster fragte, ob seine hochgeladenen Unterlagen eingeflossen sein könnten; OpenAI widerspricht und beruft sich auf eine eigene Prüfung. Der Fall verknüpft zwei Sorgen: Vertraulichkeit unveröffentlichter Arbeit und der Wettlauf um die Erstveröffentlichung."
+  },
+  {
+   "id": "12bb3dbb7a96",
+   "date": "2026-10-09",
+   "published": "2026-10-09T05:30+02:00",
+   "headline": "Uniper automatisiert Personalabläufe mit künstlicher Intelligenz",
+   "summary": "Der Energiekonzern Uniper mit rund 7.400 Beschäftigten, davon etwa 5.000 in Deutschland, setzt KI im Personalbereich ein. Hintergrund sind aufwendige HR-Prozesse, die hohe Genauigkeit verlangen, etwa bei der Suche nach neuen Mitarbeitenden. Das Beispiel zeigt, wie etablierte Industrieunternehmen KI in Verwaltungsabläufen verankern.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "uniper",
+    "hr",
+    "prozessautomatisierung",
+    "energiewirtschaft"
+   ],
+   "source": "CIO",
+   "source_id": "cio",
+   "added": "2026-10-09T06:40:41+02:00",
+   "quelle_titel": "Uniper beschleunigt HR-Prozesse mit KI",
+   "url": "https://www.cio.de/article/4230646/uniper-beschleunigt-hr-prozesse-mit-ki.html"
+  },
+  {
+   "id": "7d316d4c3679",
+   "date": "2026-10-09",
+   "published": "2026-10-09T05:42+02:00",
+   "headline": "Microsoft rüstet Copilot Cowork mit 30 CRM-Funktionen für Agenten aus",
+   "summary": "Microsoft hat für Copilot Cowork 30 neue CRM-Fähigkeiten freigegeben, die von KI-Agenten genutzt werden können. Damit sollen Vertriebs- und Kundenprozesse stärker automatisiert ablaufen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "microsoft",
+    "copilot",
+    "ki-agenten",
+    "crm"
+   ],
+   "source": "AD HOC NEWS",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-09T06:40:41+02:00",
+   "quelle_titel": "Copilot Cowork: Microsoft veröffentlicht 30 CRM-Fähigkeiten für KI-Agenten",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNV0l5Y09kZDlwbHc4TkNaSjFPb3B4RjBwbmx2Rk4zVHJhNTNNNW83dHNYTU5HeXJHSFhFUk00NDhQV2lqcGlVVWd2ZjdKR3ppalh1WGoycEotbndWY2kzbjBGeWJCSE1FWkRRNDhPSTEtOWZLMTk0Slc1X2JmTUNib3BRV0lsbXdhSlU0V0hVU1pQVkJoTi0yQy1BUXJSbE1MUDNWbkxMY3NaUFB3cGc5bmtJTFo?oc=5"
+  },
+  {
+   "id": "b389ae6d4f18",
+   "date": "2026-10-09",
+   "published": "2026-10-09T06:00+02:00",
+   "headline": "ERP-Markt vor Superzyklus: KI und Supportende treiben Modernisierung",
+   "summary": "Auslaufender Herstellersupport und neue KI-Funktionen bringen viele IT-Entscheider dazu, ihre ERP-Strategie zu überprüfen. Branchenbeobachter sprechen bereits von einem Superzyklus bei Upgrades. Marktprognosen reichen von 9,5 Prozent jährlichem Wachstum bis 2033 laut Grandview Research bis zu 13 Prozent bis 2034 laut Fortune Business Insights, Morgan Stanley rechnet mit noch mehr.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "erp",
+    "marktwachstum",
+    "digitalisierung",
+    "it-strategie"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-10-09T06:40:41+02:00",
+   "quelle_titel": "6 Trends, die den ERP-Markt verändern",
+   "url": "https://www.computerwoche.de/article/4229487/6-trends-die-den-erp-markt-verandern.html"
   }
  ]
 }
