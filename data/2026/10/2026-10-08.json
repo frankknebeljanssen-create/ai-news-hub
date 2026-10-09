@@ -1,38 +1,38 @@
 {
  "date": "2026-10-08",
- "generated_at": "2026-10-09T03:19:26+02:00",
+ "generated_at": "2026-10-09T04:29:21+02:00",
  "overview": [
   {
    "id": "8f2a00bf3e4a",
-   "text": "Die EU räumt Anbietern von Hochrisiko-KI längere Übergangsfristen ein, was die Compliance-Zeitpläne in vielen Betrieben verschiebt."
-  },
-  {
-   "id": "752d95f96c8a",
-   "text": "Eine Studie des IMDEA Networks Institute zeigt, dass alle großen KI-Dienste Nutzerdaten und teils ganze Chatverläufe an Dritte weitergeben."
+   "text": "Die EU verlängert bei einzelnen Pflichten für Hochrisiko-KI die Übergangsfristen, womit sich der Zeitplan für Compliance-Projekte in Betrieben verschiebt."
   },
   {
    "id": "4cad9645ff63",
-   "text": "Mit dem KI-Pentest-Werkzeug ARTEX erbeutete ein einzelner Angreifer über 25.000 Kundendatensätze bei südkoreanischen Banken."
+   "text": "Mit dem offenen KI-Werkzeug ARTEX hat ein einzelner Täter südkoreanische Banken angegriffen und bei der Shinhan Bank über 25.000 Kundendatensätze gestohlen."
+  },
+  {
+   "id": "752d95f96c8a",
+   "text": "Eine Studie des IMDEA Networks Institute kommt zum Ergebnis, dass alle geprüften KI-Dienste Nutzerdaten und teils ganze Chatverläufe an Dritte weitergeben."
   },
   {
    "id": "43f9279f453a",
-   "text": "Laut der Gehaltsübersicht von Robert Half rechnen Personalabteilungen Kompetenz im Umgang mit generativer KI inzwischen direkt in die Vergütung ein."
+   "text": "Laut der Gehaltsübersicht von Robert Half rechnen Personalverantwortliche Kompetenz im Umgang mit generativer KI inzwischen fest in die Bezahlung ein."
   },
   {
-   "id": "e47d5072717f",
-   "text": "Das Bundeskabinett stellt sexualisierte Deepfakes und heimliche GPS-Überwachung künftig unter Strafe."
+   "id": "94b29c760a07",
+   "text": "Die Bundesregierung will sensible Daten aus Asylverfahren für KI-Training nutzen, was Fragen zu Datenschutz und Diskriminierungsrisiken aufwirft."
+  },
+  {
+   "id": "631016bf6b20",
+   "text": "Forscher von Zenity Labs übernahmen über einen einzigen Prompt alle Agenten eines AWS-Kontos in Bedrock AgentCore; Amazon hat die Lücke geschlossen."
   },
   {
    "id": "b11d53db240c",
-   "text": "SAP setzt für betriebliche Prognosen auf Tabellenmodelle statt Sprachmodelle, weil das Kerngeschäft aus strukturierten Daten besteht."
+   "text": "SAP hält Sprachmodelle für betriebliche Prognosen für untauglich und setzt stattdessen auf Tabular Foundation Models für Nachfrage, Risiken und Liquidität."
   },
   {
    "id": "5c4493eed3f8",
-   "text": "GPT-6 Astra und Claude Opus 5 entschlüsselten Enigma-Funksprüche, die seit 2005 als ungelöst galten, teils mit selbst gebautem Simulator."
-  },
-  {
-   "id": "567faae09a53",
-   "text": "Der KI-Ausbau verschärft den Chipmangel in Deutschland: Lieferzeiten von bis zu einem Jahr und fünffach höhere Preise bremsen Industrieprojekte."
+   "text": "GPT-6 Astra und Claude Opus 5 haben Enigma-Funksprüche aus dem Zweiten Weltkrieg entschlüsselt, die seit 2005 als unlösbar galten."
   }
  ],
  "items": [
@@ -79,7 +79,7 @@
    "added": "2026-10-08T13:16:41+02:00",
    "quelle_titel": "OpenAI's New ChatGPT Builds Mini-Apps Right Inside Your Chat",
    "url": "https://www.theneurondaily.com/p/october-08-thursday?story=chatgpt-builds-mini-apps-inside-your-chat",
-   "dup_of": "0ca1450969b5"
+   "dup_of": "ecdc8dd4d50f"
   },
   {
    "id": "622a4116027d",
@@ -262,7 +262,7 @@
    "added": "2026-10-09T00:48:15+02:00",
    "quelle_titel": "Introducing the Anthropic Cyber Mission",
    "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
-   "dup_of": "51c6cb3bd66a"
+   "kontext": "Hinter der Initiative steht die Sorge, dass leistungsfähige Modelle auch Angreifern nützen. Anthropic will deshalb Verteidiger stärken, vor allem bei kritischer Infrastruktur und Open Source, wo Geld und Fachleute knapp sind. Ein neues Programm bringt Claude-Modelle, Bedrohungsforschung und eigene Ingenieure zu Dienstleistern wie CrowdStrike, Deloitte oder Rockwell Automation. Das frühere Projekt Glasswing geht darin auf, denn gefundene Schwachstellen zu prüfen, zu priorisieren und zu beheben blieb die eigentliche Hürde."
   },
   {
    "id": "077dea1e8a7a",
@@ -329,6 +329,7 @@
    "added": "2026-10-08T08:26:21+02:00",
    "quelle_titel": "ChatGPT for Teens wird kaum exzessiv genutzt, aber Sicherheitsbedenken wachsen",
    "url": "https://www.heise.de/news/ChatGPT-for-Teens-wird-kaum-exzessiv-genutzt-aber-Sicherheitsbedenken-wachsen-11480098.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter dem Streit steht die Jugendversion, die OpenAI im Sommer mit Elternkontrollen und strengeren Inhaltsgrenzen eingeführt hatte. Die Organisation Common Sense Media wirft dem Dienst vor, Jugendliche selbst in Krisenlagen im Gespräch zu halten; OpenAI bezweifelt die Methodik der Prüfung. Parallel nehmen Gesetzgeber in den USA bindungsfördernde Designmuster von Chatbots ins Visier. Der Vergleich mit sozialen Netzwerken dient OpenAI dabei als Entlastung.",
    "also": [
     {
      "source": "TechCrunch AI",
@@ -342,8 +343,7 @@
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/chatgpt-for-teens-expansion-safety-safeguards/"
     }
-   ],
-   "kontext": "Hinter dem Streit steht die Jugendversion, die OpenAI im Sommer mit Elternkontrollen und strengeren Inhaltsgrenzen eingeführt hatte. Die Organisation Common Sense Media wirft dem Dienst vor, Jugendliche selbst in Krisenlagen im Gespräch zu halten; OpenAI bezweifelt die Methodik der Prüfung. Parallel nehmen Gesetzgeber in den USA bindungsfördernde Designmuster von Chatbots ins Visier. Der Vergleich mit sozialen Netzwerken dient OpenAI dabei als Entlastung."
+   ]
   },
   {
    "id": "d655868dcd45",
@@ -434,7 +434,7 @@
    "added": "2026-10-09T00:42:26+02:00",
    "quelle_titel": "OpenAI’s GPT-6 Turns ChatGPT Answers Into Interactive Tools",
    "url": "https://www.theneuron.ai/blog/openai-gpt-6-chatgpt-interactive-tools/",
-   "dup_of": "0ca1450969b5"
+   "dup_of": "ecdc8dd4d50f"
   },
   {
    "id": "9c6539445ba5",
@@ -596,7 +596,7 @@
    "praxis": true,
    "quelle_titel": "Google rolled out its SynthID Detector worldwide",
    "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-rolls-out-synthid-detector-worldwide",
-   "dup_of": "1c9558d38162"
+   "dup_of": "c31a5c477397"
   },
   {
    "id": "b1e9f824d4a0",
@@ -640,7 +640,7 @@
    "added": "2026-10-08T13:14:10+02:00",
    "quelle_titel": "OpenAI debuted intelligent UI in ChatGPT",
    "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=openai-debuts-intelligent-ui-in-chatgpt",
-   "dup_of": "0ca1450969b5"
+   "dup_of": "ecdc8dd4d50f"
   },
   {
    "id": "5c4493eed3f8",
@@ -730,7 +730,12 @@
    "added": "2026-10-09T00:48:15+02:00",
    "quelle_titel": "TSMC: Chip-Auftragsfertiger steigert Umsatz dank KI-Boom um 50 Prozent",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbnBMUHp0dDRuazl2cEdONFFiMkFwSE1kbjBZWHZFTWF2amVWTVp0WDNpNll3R0xYaVZVRHR5RHpadFdEVXgyUjVVd3gtWEhDQWxXNmFEZDNvU0poSnVhRWU3cm9STjJhajFqMTUwdzh6V0JESjAtZlU3TFJXenhKQlVhOWtmWjliZ1dWRGtINEI0TGpwUGVBRmZWMVlzQjNPTVp3MVp0MmtIbjE2NVFsSm1TMFZSNURPM1Y4?oc=5",
-   "dup_of": "22e18564c2fb"
+   "also": [
+    {
+     "source": "Börsen-Zeitung",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMllsRE9YeTREVXRIVTZ6bXpWaWpkSkZzUzBtQlVQcjh6R0lWQWJkRWcxd2t0eHA1WmkzYV9CbW1hSlFvd1lwVnhTNC1EbXNldnJyei13RTZtYWphMWJEXzRGR2FOZUxUenZmNWRfQlhPeFJCRXNydExkWUNZSTRkTEQ3LWk3cjBJbDdOeVp5ZUpXMU9nemhCWmh0OGJsNUlNb1U0?oc=5"
+    }
+   ]
   },
   {
    "id": "9fa009655eac",
@@ -892,7 +897,7 @@
    "added": "2026-10-09T00:42:26+02:00",
    "quelle_titel": "Google Wants SynthID to Become the Web’s AI Watermark Checker",
    "url": "https://www.theneuron.ai/news/google-synthid-ai-watermark-checker/",
-   "dup_of": "1c9558d38162"
+   "dup_of": "c31a5c477397"
   },
   {
    "id": "caf3c286f732",
@@ -1142,6 +1147,30 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPelFkMXV0STBtZ1MzTmlGM1FDaUpmT3pQREZLeEd1aVJpSmlDalQ0Q1NtNFRiOUVlWGNaMHFmWXVzX194NjJMZWhrc2hnbDRZOG9MS3R6ck51MzFMZkRWY2dCcG52TXhUUVd1YTVJa0k4RVd0MTR4SVhLNTVyQ25tZzhEcy1GenItdHAzVTR4THI3RlQ4dFhsVWJCOC03UzR2RW5ITXdNNV9iUUh2T3c?oc=5"
   },
   {
+   "id": "19e26c83b268",
+   "date": "2026-10-08",
+   "published": "2026-10-08T15:28+02:00",
+   "headline": "Google bringt Meeting-Notizen per KI direkt aufs Gerät",
+   "summary": "Mit AI Edge Foresight stellt Google eine App vor, die Gespräche offline transkribiert, Notizen erzeugt und Rückfragen zum Inhalt beantwortet. Die Verarbeitung läuft lokal auf dem Gerät, was den Dienst zum direkten Gegenspieler von Granola macht und datenschutzsensible Einsätze erleichtert.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "google",
+    "meeting-notizen",
+    "on-device",
+    "transkription"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-09T04:21:50+02:00",
+   "praxis": true,
+   "quelle_titel": "Google releases a new local-first Granola competitor",
+   "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+   "dup_of": "cbb9d3a99a6a"
+  },
+  {
    "id": "e06b9f62edff",
    "date": "2026-10-08",
    "published": "2026-10-08T15:38+02:00",
@@ -1355,7 +1384,13 @@
    "praxis": true,
    "quelle_titel": "Google’s AI note-taking app transcribes your meetings completely offline",
    "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
-   "kontext": "Google tritt damit gegen junge Anbieter wie Granola und Wispr Flow an, setzt aber auf Verarbeitung direkt im Rechner statt in der Cloud. Die App wandelt knappe Stichpunkte anhand des Mitschnitts in ausformulierte Notizen um und bringt einen Assistenten mit, der Fragen zum Gehörten beantwortet. Auch lokale Dateien lassen sich einbinden. Vorerst ist das Experiment auf Macs mit Apple-Silicon-Chips zugeschnitten."
+   "kontext": "Google tritt damit gegen junge Anbieter wie Granola und Wispr Flow an, setzt aber auf Verarbeitung direkt im Rechner statt in der Cloud. Die App wandelt knappe Stichpunkte anhand des Mitschnitts in ausformulierte Notizen um und bringt einen Assistenten mit, der Fragen zum Gehörten beantwortet. Auch lokale Dateien lassen sich einbinden. Vorerst ist das Experiment auf Macs mit Apple-Silicon-Chips zugeschnitten.",
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/"
+    }
+   ]
   },
   {
    "id": "99d79ac6e4e1",
@@ -1696,6 +1731,29 @@
    ]
   },
   {
+   "id": "93588c5f4cc6",
+   "date": "2026-10-08",
+   "published": "2026-10-08T22:54+02:00",
+   "headline": "EU-Behörden nehmen chinesische Open-Source-KI erstmals offiziell unter die Lupe",
+   "summary": "Die EU-Cybersicherheitsagentur ENISA und die Gemeinsame Forschungsstelle der Kommission bestätigen erstmals, dass sie offen verfügbare KI-Modelle aus China prüfen. Damit rückt die Frage in den Vordergrund, welche Sicherheits- und Abhängigkeitsrisiken der Einsatz solcher Modelle in Europa mit sich bringt.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "eu",
+    "enisa",
+    "open source",
+    "china",
+    "sicherheit"
+   ],
+   "source": "Politico Europe",
+   "source_id": "politico-eu",
+   "added": "2026-10-09T04:21:50+02:00",
+   "paywall": true,
+   "quelle_titel": "EU cyber and science researchers are testing Chinese AI models",
+   "url": "https://www.politico.eu/article/eu-cybersecurity-and-science-researchers-are-testing-chinese-ai-models/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+  },
+  {
    "id": "51c6cb3bd66a",
    "date": "2026-10-08",
    "published": "2026-10-08T23:53+02:00",
@@ -1715,13 +1773,7 @@
    "added": "2026-10-09T00:42:26+02:00",
    "quelle_titel": "Anthropic launches free AI security scans for open-source projects",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
-   "kontext": "Anthropic stellt Open-Source-Teams damit Rechenzeit seiner Spitzenmodelle zur Verfügung, darunter Claude Mythos. Die Berichte entstehen allerdings vollständig automatisch, ohne Prüfung durch Menschen, weshalb Fehlalarme möglich sind. Das trifft auf ein bekanntes Problem, denn viele Projekte kommen mit der Flut maschinell erzeugter Fehlermeldungen kaum nach. Zugleich haben KI-Werkzeuge zuletzt durchaus ernste Lücken in weit verbreiteter freier Software aufgespürt.",
-   "also": [
-    {
-     "source": "Anthropic",
-     "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
-    }
-   ]
+   "kontext": "Anthropic stellt Open-Source-Teams damit Rechenzeit seiner Spitzenmodelle zur Verfügung, darunter Claude Mythos. Die Berichte entstehen allerdings vollständig automatisch, ohne Prüfung durch Menschen, weshalb Fehlalarme möglich sind. Das trifft auf ein bekanntes Problem, denn viele Projekte kommen mit der Flut maschinell erzeugter Fehlermeldungen kaum nach. Zugleich haben KI-Werkzeuge zuletzt durchaus ernste Lücken in weit verbreiteter freier Software aufgespürt."
   },
   {
    "id": "d9d50ffbe8ac",
@@ -2138,7 +2190,8 @@
    "source_id": "personalwirtschaft",
    "added": "2026-10-09T00:48:15+02:00",
    "quelle_titel": "Skills statt Stellen: So macht KI die Fähigkeiten einer Organisation sichtbar",
-   "url": "https://www.personalwirtschaft.de/news/personalentwicklung/skills-statt-stellen-so-macht-ki-die-faehigkeiten-einer-organisation-sichtbar-209920/"
+   "url": "https://www.personalwirtschaft.de/news/personalentwicklung/skills-statt-stellen-so-macht-ki-die-faehigkeiten-einer-organisation-sichtbar-209920/",
+   "kontext": "Die Kolumne von Felicitas von Kyaw setzt an einer verbreiteten Lücke an: Stellen und Rollen sind in Unternehmen gut dokumentiert, die tatsächlich vorhandenen Fähigkeiten dagegen kaum. KI kann solche Informationen zusammenführen und hypothesenbasiert anzeigen, welche Skills künftig wichtig werden. Die entstehende Übersicht ist allerdings eher ein Spiegel als eine Strategie und muss zu Entscheidungen führen. Auch Mitarbeitende müssen den eigenen Nutzen erkennen, sonst bleibt der Perspektivwechsel stecken."
   },
   {
    "id": "58e8b6dbc808",
@@ -2225,7 +2278,8 @@
    "source_id": "gn-startups",
    "added": "2026-10-09T00:47:09+02:00",
    "quelle_titel": "Manus sammelt über 500 Millionen Dollar nach Meta-Abspaltung ein",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUmRWN3dUSjRxaUFFNEp5UmloYmhwY1hBNlhCa2hmSE5aWDBWZlp6b2haeDhYQXF1YUIzY3JzWGt1WjdXZ2o0N283Tm0tT2NObzNfeEJadklaTk1rZ2xvc1NzSXpUSkZCWlZsNXZEM0JHWUJlSUdXUnFHbUt0XzBqcE1Ya0VSYmQwekc0bjMwRjdMZw?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUmRWN3dUSjRxaUFFNEp5UmloYmhwY1hBNlhCa2hmSE5aWDBWZlp6b2haeDhYQXF1YUIzY3JzWGt1WjdXZ2o0N283Tm0tT2NObzNfeEJadklaTk1rZ2xvc1NzSXpUSkZCWlZsNXZEM0JHWUJlSUdXUnFHbUt0XzBqcE1Ya0VSYmQwekc0bjMwRjdMZw?oc=5",
+   "dup_of": "53ae0ec869c6"
   },
   {
    "id": "696bcaca35c3",
@@ -2247,7 +2301,8 @@
    "added": "2026-10-09T00:42:26+02:00",
    "praxis": true,
    "quelle_titel": "AI's next frontier is the human cell",
-   "url": "https://www.therundown.ai/articles/ai-s-next-frontier-is-the-human-cell"
+   "url": "https://www.therundown.ai/articles/ai-s-next-frontier-is-the-human-cell",
+   "kontext": "Hinter dem Vorhaben steht Biohub, die Wissenschaftsorganisation von Mark Zuckerberg und Priscilla Chan, die ihre Initiative für virtuelle Biologie deutlich aufstockt. Mit an Bord sind US-Behörden aus Gesundheitsforschung und Energieressort sowie Google DeepMind, Meta und das Arzneimittel-Start-up Isomorphic Labs. Ziel ist Software, die vorhersagt, wie Zellen auf einen Wirkstoff reagieren, noch bevor im Labor getestet wird. Dafür bräuchte es laut Biohub weit mehr Zelldaten als heute verfügbar."
   },
   {
    "id": "c7f4b559a8fb",
@@ -2293,16 +2348,7 @@
    "quelle_titel": "Prompt rein, Spiel an: Google startet KI-Spielebaukasten Playground",
    "url": "https://www.heise.de/news/Prompt-rein-Spiel-an-Google-startet-KI-Spielebaukasten-Playground-11480456.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Google kombiniert dafür mehrere eigene Modelle für Text, Bild und Musik mit einem selbst entwickelten Softwaregerüst. Gebaut wird im Chat: Nutzer beschreiben ihre Idee, passen Regeln, Figuren und Physik nach und können eigene Bilder in Grafikelemente umwandeln lassen. Fertige Titel laufen im Browser, lassen sich teilen, in einer Galerie zeigen oder als Paket herunterladen. Google nennt das Angebot ein frühes Experiment; für aufwendigere Projekte ist eine Zusammenarbeit mit Unity geplant.",
-   "also": [
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/playground-bei-google-kann-man-jetzt-spiele-per-ki-basteln-2610-213867.html"
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-labs-introduces-playground"
-    }
-   ]
+   "dup_of": "e3e62a93d2a9"
   },
   {
    "id": "bbafc5ec3b79",
@@ -2323,7 +2369,7 @@
    "added": "2026-10-09T00:42:26+02:00",
    "quelle_titel": "😺 ChatGPT's GPT-6 now builds calculators",
    "url": "https://www.theneuron.ai/newsletter/october-08-thursday/",
-   "dup_of": "0ca1450969b5"
+   "dup_of": "ecdc8dd4d50f"
   },
   {
    "id": "58909cb632b3",
@@ -2345,7 +2391,8 @@
    "added": "2026-10-09T00:47:09+02:00",
    "kurios": "KI-Routenvorschlag endete in einer Felswand mit Hubschraubereinsatz.",
    "quelle_titel": "16-Jähriger plant Bergwanderung mit Claude und muss per Hubschrauber gerettet werden",
-   "url": "https://the-decoder.de/16-jaehriger-plant-bergwanderung-mit-claude-und-muss-per-hubschrauber-gerettet-werden/"
+   "url": "https://the-decoder.de/16-jaehriger-plant-bergwanderung-mit-claude-und-muss-per-hubschrauber-gerettet-werden/",
+   "kontext": "Der Jugendliche hatte neben dem Chatbot auch Kartendienste und eine Wander-App genutzt, folgte aber einer Linie, die über ein anspruchsvolles Kletterziel führte. Festsitzend auf einem knapp anderthalb Meter breiten Vorsprung alarmierte er die Polizei; das ehrenamtliche Team North Shore Rescue ortete ihn per Mobiltelefon und holte ihn mit der Seilwinde aus der Wand. Die Retter betonen, dass Sprachmodelle kein Geländewissen haben und Erfahrung nicht ersetzen. Anthropic äußerte sich nicht."
   },
   {
    "id": "e3e62a93d2a9",
@@ -2367,7 +2414,17 @@
    "added": "2026-10-09T03:12:30+02:00",
    "quelle_titel": "Playground: Bei Google kann man jetzt Spiele per KI basteln",
    "url": "https://www.golem.de/news/playground-bei-google-kann-man-jetzt-spiele-per-ki-basteln-2610-213867.html",
-   "dup_of": "98cd997db0d3"
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Prompt-rein-Spiel-an-Google-startet-KI-Spielebaukasten-Playground-11480456.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-labs-introduces-playground"
+    }
+   ],
+   "kontext": "Playground läuft im Browser und wird über eine Chatoberfläche bedient: Nutzer beschreiben ihre Idee, testen das Ergebnis sofort und ändern Figuren, Regeln oder Physik mit weiteren Anweisungen. Technisch verknüpft Google mehrere eigene Modelle für Text, Bilder und Musik mit einem selbst entwickelten Gerüst. Fertige Titel lassen sich exportieren, per Link teilen oder in einer öffentlichen Galerie zeigen. Vorerst ist das Angebot auf die USA und auf Erwachsene beschränkt, ohne Abo mit begrenztem Kontingent."
   },
   {
    "id": "4fac7a36d38f",
@@ -2465,7 +2522,8 @@
    "added": "2026-10-09T00:46:29+02:00",
    "praxis": true,
    "quelle_titel": "E-Mail-Archivierung: Aufbewahrungspflicht nach BFH",
-   "url": "https://www.dr-datenschutz.de/e-mail-archivierung-aufbewahrungspflicht-nach-bfh/"
+   "url": "https://www.dr-datenschutz.de/e-mail-archivierung-aufbewahrungspflicht-nach-bfh/",
+   "kontext": "Hintergrund ist eine Entscheidung des Bundesfinanzhofs, die E-Mails mit steuerlichem Bezug als Geschäftsbriefe einordnet. Aufzubewahren sind damit auch Anhänge sowie Angaben zu Absender, Empfänger, Betreff und Zeitpunkt. Ein komplettes Journal aller Nachrichten müssen Firmen dem Finanzamt dagegen nicht herausgeben; sie dürfen die relevanten Mails selbst abgrenzen und tragen dafür die Verantwortung. Weil Betriebsprüfer solche Korrespondenz immer häufiger anfordern, wächst der Druck auf die Archivierung."
   },
   {
    "id": "dfaf801b03c9",
@@ -2620,6 +2678,34 @@
    "quelle_titel": "Neue Windows-Notebooks: Nvidias RTX Spark macht sie fit für KI, und sehr teuer",
    "url": "https://t3n.de/news/neue-windows-notebooks-nvidias-rtx-spark-macht-sie-fit-fuer-ki-und-sehr-teuer-1767024",
    "kontext": "Der RTX Spark trägt intern den Namen N1X und ist eng verwandt mit dem ARM-Chip, den Nvidia bereits im KI-Mini-PC DGX Spark einsetzt. Erstmals steckt diese Technik nun in Windows-Geräten, angekündigt hatte Nvidia sie schon zur Jahresmitte. Es gibt zwei Ausbaustufen, wobei nur die größere viel Arbeitsspeicher ansprechen kann. Die Preise mehrerer Hersteller liegen auffällig gleichauf, erste Auslieferungen beginnen Mitte Oktober, manche deutlich später."
+  },
+  {
+   "id": "53ae0ec869c6",
+   "date": "2026-10-08",
+   "published": "2026-10-08T15:20+02:00",
+   "headline": "Manus holt nach Meta-Trennung über 500 Millionen Dollar frisches Kapital",
+   "summary": "Das chinesische KI-Unternehmen Manus hat in seiner ersten Finanzierungsrunde seit dem Bruch mit Meta mehr als 500 Millionen Dollar eingenommen. Angeführt wurde die Runde von Boyu Capital und IDG Capital, beteiligt waren auch bestehende Geldgeber wie Tencent, HSG und ZhenFund. Die Summe unterstreicht, wie viel Kapital derzeit in chinesische Agentenplattformen fließt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "manus",
+    "china",
+    "finanzierung",
+    "ki-agenten"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-09T04:21:50+02:00",
+   "quelle_titel": "China’s Manus raises over $500M in first funding round since split with Meta",
+   "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+   "also": [
+    {
+     "source": "aktien.news",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUmRWN3dUSjRxaUFFNEp5UmloYmhwY1hBNlhCa2hmSE5aWDBWZlp6b2haeDhYQXF1YUIzY3JzWGt1WjdXZ2o0N283Tm0tT2NObzNfeEJadklaTk1rZ2xvc1NzSXpUSkZCWlZsNXZEM0JHWUJlSUdXUnFHbUt0XzBqcE1Ya0VSYmQwekc0bjMwRjdMZw?oc=5"
+    }
+   ],
+   "kontext": "Hinter Manus steht das Unternehmen Butterfly Effect, das mit der Vorführung seines KI-Agenten bekannt wurde und sein Team zuvor nach Singapur verlegt hatte. Metas Übernahmeplan im Milliardenbereich scheiterte, weil chinesische Behörden die Rückabwicklung anordneten, aus Sorge um abwandernde Fachkräfte. Seit August arbeitet die Firma wieder eigenständig und bietet Chatbots sowie Werkzeuge zum Bauen von Apps und Websites an. Auch ein Börsengang in Hongkong gilt als denkbar."
   },
   {
    "id": "8f1b126cfb36",
@@ -2894,21 +2980,21 @@
    "added": "2026-10-09T01:59:48+02:00",
    "quelle_titel": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+   "kontext": "Hinter der Regel steht Anthropics Forschung zum Wohlbefinden von Modellen: Das Unternehmen behandelt Claude zunehmend als eigenständige Entität und hält die Frage nach einem möglichen moralischen Status für offen genug, um vorsichtig zu agieren. Geahndet wird vor allem durch das Beenden von Gesprächen, möglich sind aber auch Warnungen oder ein eingeschränkter bis entzogener Zugang. Parallel verschärft Anthropic die Vorgaben zu Waffensoftware und bewaffneten Drohnen, räumt für Regierungsaufträge jedoch Ausnahmen ein.",
    "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/chatbot-schutz-wer-claude-wiederholt-beleidigt-koennte-rausfliegen/"
-    },
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
     },
     {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/chatbot-schutz-wer-claude-wiederholt-beleidigt-koennte-rausfliegen/"
+    },
+    {
      "source": "Anthropic",
      "url": "https://www.anthropic.com/news/2026-usage-policy-update"
     }
-   ],
-   "kontext": "Hinter der Regel steht Anthropics Forschung zum Wohlbefinden von Modellen: Das Unternehmen behandelt Claude zunehmend als eigenständige Entität und hält die Frage nach einem möglichen moralischen Status für offen genug, um vorsichtig zu agieren. Geahndet wird vor allem durch das Beenden von Gesprächen, möglich sind aber auch Warnungen oder ein eingeschränkter bis entzogener Zugang. Parallel verschärft Anthropic die Vorgaben zu Waffensoftware und bewaffneten Drohnen, räumt für Regierungsaufträge jedoch Ausnahmen ein."
+   ]
   },
   {
    "id": "79d3d4d8a158",
@@ -2934,12 +3020,12 @@
    "also": [
     {
      "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/it-internet/tech-konzern-samsung-stellt-zehnfachen-gewinn-in-aussicht/100260566.html",
+     "url": "https://www.handelsblatt.com/technik/it-internet/tech-konzern-samsung-stellt-dank-ki-boom-rekordgewinn-in-aussicht/100260566.html",
      "paywall": true
     },
     {
      "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/it-internet/tech-konzern-samsung-stellt-dank-ki-boom-rekordgewinn-in-aussicht/100260566.html",
+     "url": "https://www.handelsblatt.com/technik/it-internet/tech-konzern-samsung-stellt-zehnfachen-gewinn-in-aussicht/100260566.html",
      "paywall": true
     },
     {
@@ -3105,7 +3191,7 @@
    "added": "2026-10-08T13:14:10+02:00",
    "quelle_titel": "Google Labs introduced Playground",
    "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=google-labs-introduces-playground",
-   "dup_of": "98cd997db0d3"
+   "dup_of": "e3e62a93d2a9"
   },
   {
    "id": "7f6259fdec44",
@@ -3301,6 +3387,27 @@
    "added": "2026-10-09T03:12:30+02:00",
    "quelle_titel": "Artificial is a wicked satire that also sticks to the facts",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts"
+  },
+  {
+   "id": "724f7ef3ebe4",
+   "date": "2026-10-08",
+   "published": "2026-10-08T16:00+02:00",
+   "headline": "19-jähriger Cal-AI-Gründer sammelt 10 Millionen Dollar für KI-Assistenten",
+   "summary": "Zach Yadegari, Mitgründer der Kalorienzähl-App Cal AI, hat ein neues Startup für einen persönlichen KI-Agenten gestartet und dafür zehn Millionen Dollar eingesammelt. Das Produkt tritt gegen Anbieter wie Instinct, Muse und Bee an und zielt auf den wachsenden Markt für alltagsnahe Assistenzsysteme.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "startup",
+    "finanzierung",
+    "ki-agenten",
+    "consumer apps"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-09T04:21:50+02:00",
+   "quelle_titel": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup",
+   "url": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/"
   },
   {
    "id": "dbf47843fdab",
