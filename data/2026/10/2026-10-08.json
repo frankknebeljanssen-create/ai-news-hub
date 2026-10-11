@@ -1,38 +1,38 @@
 {
  "date": "2026-10-08",
- "generated_at": "2026-10-09T04:29:21+02:00",
+ "generated_at": "2026-10-11T02:04:40+02:00",
  "overview": [
   {
-   "id": "8f2a00bf3e4a",
-   "text": "Die EU verlängert bei einzelnen Pflichten für Hochrisiko-KI die Übergangsfristen, womit sich der Zeitplan für Compliance-Projekte in Betrieben verschiebt."
+   "id": "3b99d4e943d6",
+   "text": "OpenAI bringt GPT-6 in ChatGPT und liefert Antworten künftig mit passenden Diagrammen, Formularen oder Rechnern statt nur mit Text."
   },
   {
-   "id": "4cad9645ff63",
-   "text": "Mit dem offenen KI-Werkzeug ARTEX hat ein einzelner Täter südkoreanische Banken angegriffen und bei der Shinhan Bank über 25.000 Kundendatensätze gestohlen."
+   "id": "622a4116027d",
+   "text": "Anthropics neues Kleinmodell Haiku 5.5 schlägt seinen Vorgänger in Benchmarks und senkt die API-Preise um bis zu 90 Prozent."
+  },
+  {
+   "id": "8f2a00bf3e4a",
+   "text": "Die EU verlängert die Übergangsfristen für Hochrisiko-KI im AI Act und verschafft Unternehmen mehr Zeit für Dokumentation und Nachweise."
   },
   {
    "id": "752d95f96c8a",
-   "text": "Eine Studie des IMDEA Networks Institute kommt zum Ergebnis, dass alle geprüften KI-Dienste Nutzerdaten und teils ganze Chatverläufe an Dritte weitergeben."
-  },
-  {
-   "id": "43f9279f453a",
-   "text": "Laut der Gehaltsübersicht von Robert Half rechnen Personalverantwortliche Kompetenz im Umgang mit generativer KI inzwischen fest in die Bezahlung ein."
+   "text": "Eine Studie des IMDEA Networks Institute kommt zum Ergebnis, dass alle geprüften KI-Dienste Nutzerdaten und teils ganze Chatverläufe weitergeben."
   },
   {
    "id": "94b29c760a07",
-   "text": "Die Bundesregierung will sensible Daten aus Asylverfahren für KI-Training nutzen, was Fragen zu Datenschutz und Diskriminierungsrisiken aufwirft."
+   "text": "Die Bundesregierung will sensible Daten aus Asylverfahren für KI-Training nutzen und wirft damit Fragen zu Datenschutz und Diskriminierung auf."
+  },
+  {
+   "id": "43f9279f453a",
+   "text": "Laut der Robert-Half-Gehaltsübersicht 2027 rechnen Personalverantwortliche Kompetenz im Umgang mit generativer KI inzwischen fest in die Vergütung ein."
   },
   {
    "id": "631016bf6b20",
-   "text": "Forscher von Zenity Labs übernahmen über einen einzigen Prompt alle Agenten eines AWS-Kontos in Bedrock AgentCore; Amazon hat die Lücke geschlossen."
+   "text": "Forscher von Zenity Labs kaperten über einen einzigen Prompt ganze Agentenflotten in Amazons Bedrock AgentCore; AWS hat die Lücke geschlossen."
   },
   {
-   "id": "b11d53db240c",
-   "text": "SAP hält Sprachmodelle für betriebliche Prognosen für untauglich und setzt stattdessen auf Tabular Foundation Models für Nachfrage, Risiken und Liquidität."
-  },
-  {
-   "id": "5c4493eed3f8",
-   "text": "GPT-6 Astra und Claude Opus 5 haben Enigma-Funksprüche aus dem Zweiten Weltkrieg entschlüsselt, die seit 2005 als unlösbar galten."
+   "id": "c820ace13cd9",
+   "text": "Das Biohub von Chan und Zuckerberg erhöht sein Budget für ein KI-Modell der virtuellen Zelle von 500 Millionen auf 1,8 Milliarden Dollar."
   }
  ],
  "items": [
@@ -82,16 +82,12 @@
    "kontext": "Interaktive Antworten sind kein Neuland: Gemini und Claude liefern sie seit Monaten, lassen das Modell dafür aber echten Programmcode schreiben. OpenAI setzt stattdessen auf eine Bibliothek vorgefertigter Bausteine wie Schieberegler, Diagramme und Formulare, was sauberere Layouts bringt, den Spielraum aber begrenzt. Die Funktion greift nur im Chatbereich, die Modelle hinter Arbeitsumgebung und Codex bleiben unverändert. Neu ist vor allem die Reichweite, denn das Prinzip erreicht nun auch Gratisnutzer.",
    "also": [
     {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/blog/openai-gpt-6-chatgpt-interactive-tools/"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/october-08-thursday/"
-    },
-    {
      "source": "The Rundown AI",
      "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell?story=openai-debuts-intelligent-ui-in-chatgpt"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/blog/openai-gpt-6-chatgpt-interactive-tools/"
     }
    ]
   },
@@ -294,8 +290,7 @@
    "added": "2026-10-09T00:48:15+02:00",
    "quelle_titel": "Introducing the Anthropic Cyber Mission",
    "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
-   "kontext": "Hinter der Initiative steht die Sorge, dass leistungsfähige Modelle auch Angreifern nützen. Anthropic will deshalb Verteidiger stärken, vor allem bei kritischer Infrastruktur und Open Source, wo Geld und Fachleute knapp sind. Ein neues Programm bringt Claude-Modelle, Bedrohungsforschung und eigene Ingenieure zu Dienstleistern wie CrowdStrike, Deloitte oder Rockwell Automation. Das frühere Projekt Glasswing geht darin auf, denn gefundene Schwachstellen zu prüfen, zu priorisieren und zu beheben blieb die eigentliche Hürde.",
-   "dup_of": "51c6cb3bd66a"
+   "kontext": "Hinter der Initiative steht die Sorge, dass leistungsfähige Modelle auch Angreifern nützen. Anthropic will deshalb Verteidiger stärken, vor allem bei kritischer Infrastruktur und Open Source, wo Geld und Fachleute knapp sind. Ein neues Programm bringt Claude-Modelle, Bedrohungsforschung und eigene Ingenieure zu Dienstleistern wie CrowdStrike, Deloitte oder Rockwell Automation. Das frühere Projekt Glasswing geht darin auf, denn gefundene Schwachstellen zu prüfen, zu priorisieren und zu beheben blieb die eigentliche Hürde."
   },
   {
    "id": "077dea1e8a7a",
@@ -340,8 +335,7 @@
    "quelle_titel": "Nvidia-Chips: „PC komplett neu erfunden“: Microsoft und Nvidia stellen Notebooks vor, die KI ohne Internet nutzbar machen",
    "url": "https://www.handelsblatt.com/technik/it-internet/technologie-microsoft-und-nvidia-wollen-ki-ohne-internet-nutzbar-machen/100260096.html",
    "paywall": true,
-   "kontext": "Hinter den Geräten steckt Nvidias neuer ARM-Chip RTX Spark, technisch verwandt mit dem Prozessor im KI-Mini-PC DGX Spark. Microsoft trat dafür erstmals seit zwei Jahren mit einem Live-Event auf, gemeinsam mit Nvidia-Chef Huang und Satya Nadella. Neben dem Surface bringen Asus, Dell, HP, Lenovo und MSI ab Mitte Oktober eigene Modelle. Angesprochen werden vor allem Entwickler: Der gemeinsam genutzte Speicher erlaubt lokale KI-Arbeit und nebenbei sogar aktuelle Spiele.",
-   "dup_of": "74d8e6bd60bb"
+   "kontext": "Hinter den Geräten steckt Nvidias neuer ARM-Chip RTX Spark, technisch verwandt mit dem Prozessor im KI-Mini-PC DGX Spark. Microsoft trat dafür erstmals seit zwei Jahren mit einem Live-Event auf, gemeinsam mit Nvidia-Chef Huang und Satya Nadella. Neben dem Surface bringen Asus, Dell, HP, Lenovo und MSI ab Mitte Oktober eigene Modelle. Angesprochen werden vor allem Entwickler: Der gemeinsam genutzte Speicher erlaubt lokale KI-Arbeit und nebenbei sogar aktuelle Spiele."
   },
   {
    "id": "2f27eb3d23da",
@@ -586,10 +580,6 @@
     {
      "source": "The Neuron",
      "url": "https://www.theneurondaily.com/p/october-08-thursday?story=biohub-doe-nih-commit-1-8b-open-biology-data"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/biohub-meta-deepmind-us-government-virtual-cells/"
     }
    ]
   },
@@ -1141,8 +1131,7 @@
    "added": "2026-10-09T00:45:53+02:00",
    "paywall": true,
    "quelle_titel": "KI-Agenten von OpenAI: Wie gefährlich sind KI-Agenten wirklich?",
-   "url": "https://www.zeit.de/digital/2026-10/ki-agenten-openai-hacking-digitalpodcast",
-   "dup_of": "39230b501e51"
+   "url": "https://www.zeit.de/digital/2026-10/ki-agenten-openai-hacking-digitalpodcast"
   },
   {
    "id": "567faae09a53",
@@ -1188,7 +1177,8 @@
    "added": "2026-10-09T00:45:53+02:00",
    "paywall": true,
    "quelle_titel": "KI-Druck im Job: Warum Beschäftigte ihre Fähigkeiten übertreiben",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPelFkMXV0STBtZ1MzTmlGM1FDaUpmT3pQREZLeEd1aVJpSmlDalQ0Q1NtNFRiOUVlWGNaMHFmWXVzX194NjJMZWhrc2hnbDRZOG9MS3R6ck51MzFMZkRWY2dCcG52TXhUUVd1YTVJa0k4RVd0MTR4SVhLNTVyQ25tZzhEcy1GenItdHAzVTR4THI3RlQ4dFhsVWJCOC03UzR2RW5ITXdNNV9iUUh2T3c?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPelFkMXV0STBtZ1MzTmlGM1FDaUpmT3pQREZLeEd1aVJpSmlDalQ0Q1NtNFRiOUVlWGNaMHFmWXVzX194NjJMZWhrc2hnbDRZOG9MS3R6ck51MzFMZkRWY2dCcG52TXhUUVd1YTVJa0k4RVd0MTR4SVhLNTVyQ25tZzhEcy1GenItdHAzVTR4THI3RlQ4dFhsVWJCOC03UzR2RW5ITXdNNV9iUUh2T3c?oc=5",
+   "dup_of": "dc2258b78a92"
   },
   {
    "id": "19e26c83b268",
@@ -1263,11 +1253,6 @@
     {
      "source": "t3n",
      "url": "https://t3n.de/news/40-milliarden-dollar-fuer-nvidia-chips-spacex-soll-riesige-finanzierung-planen-1767184"
-    },
-    {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/digital/internet/2026-10/elon-musk-nvidia-chips-ki-40-milliarden-dollar",
-     "paywall": true
     }
    ]
   },
@@ -1555,16 +1540,12 @@
    "kontext": "Die Vereinigung wurde erst im September gegründet und zählt inzwischen mehrere Hundert Mitglieder. Im Kern geht es um die Frage, wann ein Problem als gelöst gelten darf, wenn selbst Fachleute die dicht geschriebenen Texte nur mit KI-Hilfe durchdringen. OpenAI beruft sich auf eine Beratungsgruppe am Institute for Advanced Study, die beim internen Forschungstempo jedoch nichts mitzureden hat. Kritiker verweisen auf Anthropic, das stattdessen mit Forschenden an verständlichen Beweisen arbeitete.",
    "also": [
     {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/gelaehmt-schockiert-und-angewidert-openais-ki-wuetet-in-der-mathematik/"
+    },
+    {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/"
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/KI-generierte-Mathematikloesungen-Scharfe-Kritik-am-Vorgehen-von-OpenAI-11480767.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/KI-generierte-Mathematikloesungen-Scharfe-Kritik-am-Vorgehen-von-OpenAI-11480767.html"
     }
    ]
   },
@@ -1663,10 +1644,6 @@
     {
      "source": "The Verge AI",
      "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/google-wants-a-bigger-role-in-how-work-gets-done/"
     }
    ]
   },
@@ -1713,7 +1690,13 @@
    "added": "2026-10-09T00:42:51+02:00",
    "quelle_titel": "Claude kann jetzt Live-Dashboards aus Datenbanken bauen und animierte Erklävideos erstellen",
    "url": "https://the-decoder.de/claude-kann-jetzt-live-dashboards-aus-datenbanken-bauen-und-animierte-erklaevideos-erstellen/",
-   "kontext": "Anthropic baut Claude weiter zur Arbeitsumgebung um, statt es nur als Chatbot zu positionieren. Dashboards zapft Unternehmensdatenbanken an und legt zu jeder Kennzahl die zugrunde liegende Abfrage offen, Motion liefert Animationen, die als Code bearbeitbar bleiben. Beide Neuerungen bleiben zunächst zahlenden und geschäftlichen Kunden vorbehalten. Dass die Büro-Werkzeuge nun allen offenstehen, zeigt, wie stark Anthropic in den Alltag klassischer Office-Nutzung drängt."
+   "kontext": "Anthropic baut Claude weiter zur Arbeitsumgebung um, statt es nur als Chatbot zu positionieren. Dashboards zapft Unternehmensdatenbanken an und legt zu jeder Kennzahl die zugrunde liegende Abfrage offen, Motion liefert Animationen, die als Code bearbeitbar bleiben. Beide Neuerungen bleiben zunächst zahlenden und geschäftlichen Kunden vorbehalten. Dass die Büro-Werkzeuge nun allen offenstehen, zeigt, wie stark Anthropic in den Alltag klassischer Office-Nutzung drängt.",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/claude-dashboards-motion-launched/"
+    }
+   ]
   },
   {
    "id": "301544ff1a07",
@@ -1735,7 +1718,13 @@
    "added": "2026-10-09T00:42:51+02:00",
    "quelle_titel": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
    "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-   "kontext": "Hinter dem Streit stehen Jasmine Wang, Tomek Korbak und Mikita Balesni, die sich mit ihrem Brief direkt an die Sicherheitsgremien von OpenAI wenden. Sie bestreiten, Interna weitergegeben zu haben, und sehen die früher gepflegte offene Debattenkultur in Gefahr. OpenAI verweist auf eine Untersuchung und wiederholte Regelverstöße, ein internes Schreiben betont, Sicherheitskritik sei nicht der Grund gewesen. Im Kern geht es um die Zusammenarbeit mit unabhängigen Prüfern."
+   "kontext": "Hinter dem Streit stehen Jasmine Wang, Tomek Korbak und Mikita Balesni, die sich mit ihrem Brief direkt an die Sicherheitsgremien von OpenAI wenden. Sie bestreiten, Interna weitergegeben zu haben, und sehen die früher gepflegte offene Debattenkultur in Gefahr. OpenAI verweist auf eine Untersuchung und wiederholte Regelverstöße, ein internes Schreiben betont, Sicherheitskritik sei nicht der Grund gewesen. Im Kern geht es um die Zusammenarbeit mit unabhängigen Prüfern.",
+   "also": [
+    {
+     "source": "The Rundown AI",
+     "url": "https://www.therundown.ai/articles/fired-openai-safety-researchers-hit-back"
+    }
+   ]
   },
   {
    "id": "c65a4076fc49",
@@ -1812,8 +1801,8 @@
    "kontext": "Anthropic stellt Open-Source-Teams damit Rechenzeit seiner Spitzenmodelle zur Verfügung, darunter Claude Mythos. Die Berichte entstehen allerdings vollständig automatisch, ohne Prüfung durch Menschen, weshalb Fehlalarme möglich sind. Das trifft auf ein bekanntes Problem, denn viele Projekte kommen mit der Flut maschinell erzeugter Fehlermeldungen kaum nach. Zugleich haben KI-Werkzeuge zuletzt durchaus ernste Lücken in weit verbreiteter freier Software aufgespürt.",
    "also": [
     {
-     "source": "Anthropic",
-     "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Anthropic-scannt-Open-Source-Projekte-kostenlos-auf-Sicherheitsluecken-11482774.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     }
    ]
   },
@@ -2998,6 +2987,27 @@
    "kontext": "Periodic Labs wurde erst im Herbst 2025 gegründet, gilt inzwischen aber als eines der führenden Labore für KI in der Forschung. Das Gründerteam war an ChatGPT, DeepMinds GNoME und am Aufbau autonomer Physiklabore beteiligt. Die Wette dahinter: Der nächste Fortschritt kommt weniger aus noch mehr Internetdaten, sondern daraus, dass Modelle im Labor selbst experimentieren und auch aus gescheiterten Versuchen lernen."
   },
   {
+   "id": "30cf6fa1779d",
+   "date": "2026-10-08",
+   "published": "2026-10-08T18:31+02:00",
+   "headline": "Nous Research erhält 90 Millionen Dollar bei Milliardenbewertung",
+   "summary": "Das KI-Labor Nous Research hat 90 Millionen US-Dollar an frischem Kapital eingesammelt und wird dabei mit 1,5 Milliarden US-Dollar bewertet. Die Runde unterstreicht, wie viel Geld derzeit in Anbieter offener KI-Forschung fließt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "finanzierung",
+    "nous research",
+    "bewertung",
+    "ki-labor"
+   ],
+   "source": "joinmares.com",
+   "source_id": "gn-startups",
+   "added": "2026-10-11T01:56:55+02:00",
+   "quelle_titel": "Nous Research: 90 Mio. USD Finanzierung, 1,5 Mrd. USD Bewertung",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeGJVdDVjYXBrbjJzQzNhUGU1aUhITDRRRWM2STlyamNKXzZQemxBMTZNLUhCVUZuSXc1djJMVTRJaW44Nk80bUd0Tm9UeG5ZUnU1RWtMSWJXUm9Pc2RzQWgxMmMtT194cS1uZjlVMFFLUnQ3X3duckMwODA0ellFbjhUb002ckFrR0NuSTAzQTFEaWc?oc=5"
+  },
+  {
    "id": "d29cff2c32d4",
    "date": "2026-10-08",
    "published": "2026-10-08T18:42+02:00",
@@ -3047,16 +3057,12 @@
      "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
     },
     {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/anthropic-claude-abuse-policy-ai-welfare/"
-    },
-    {
      "source": "The Decoder",
      "url": "https://the-decoder.de/chatbot-schutz-wer-claude-wiederholt-beleidigt-koennte-rausfliegen/"
     },
     {
-     "source": "Anthropic",
-     "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/anthropic-claude-abuse-policy-ai-welfare/"
     }
    ]
   },
@@ -3085,11 +3091,6 @@
     {
      "source": "Handelsblatt Technologie",
      "url": "https://www.handelsblatt.com/technik/it-internet/tech-konzern-samsung-stellt-zehnfachen-gewinn-in-aussicht/100260566.html",
-     "paywall": true
-    },
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/it-internet/tech-konzern-samsung-stellt-dank-ki-boom-rekordgewinn-in-aussicht/100260566.html",
      "paywall": true
     },
     {
@@ -3514,6 +3515,26 @@
    "added": "2026-10-09T00:45:14+02:00",
    "quelle_titel": "Schluss mit Fire OS: Amazons Alexa Tablets bieten direkten Zugriff auf den Play-Store",
    "url": "https://t3n.de/news/amazon-alexa-tablet-android-play-store-fire-os-1767358"
+  },
+  {
+   "id": "d447b0b6dc7f",
+   "date": "2026-10-08",
+   "published": "2026-10-08T16:30+02:00",
+   "headline": "Humanoider Roboter Roger soll bei der Bombenentschärfung helfen",
+   "summary": "Vorgestellt wird Roger, ein humanoider Roboter für den Einsatz in Bombenentschärfungsteams. Außerdem arbeitet Agilink an geschickteren Roboterhänden.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "robotik",
+    "humanoide",
+    "agilink"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-10-11T01:50:29+02:00",
+   "quelle_titel": "Meet Roger, the bomb-squad humanoid",
+   "url": "https://www.therundown.ai/articles/meet-roger-the-bomb-squad-humanoid"
   },
   {
    "id": "f402b571d242",
