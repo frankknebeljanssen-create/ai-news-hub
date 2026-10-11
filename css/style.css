@@ -857,3 +857,8 @@ td.na { color: var(--muted); }
 .more-panel > .b-src { display: inline-block; margin-top: 8px; }
 /* Fokusrahmen an Textschaltflaechen schlank halten */
 .more-link:focus-visible, .more-btn:focus-visible, .kontext-btn:focus-visible, .share-btn:focus-visible { outline-width: 1.5px; outline-offset: 1px; border-radius: 4px; }
+
+/* Lange Zeilen (Schlagzeilen in "Auch berichtet bei") duerfen die Box nicht verbreitern */
+.b-one, .brief-sec, .more-panel, .also, .also .also-row, .b-top li, .b-list li { min-width: 0; max-width: 100%; }
+.more-panel, .also { overflow: hidden; }
+.also .also-row span { min-width: 0; }
