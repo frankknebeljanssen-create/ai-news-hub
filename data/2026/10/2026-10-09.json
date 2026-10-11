@@ -1,38 +1,38 @@
 {
  "date": "2026-10-09",
- "generated_at": "2026-10-11T03:19:46+02:00",
+ "generated_at": "2026-10-11T04:49:27+02:00",
  "overview": [
   {
-   "id": "23979812eca2",
-   "text": "OpenAI korrigiert seine Umsatzrate auf rund 50 Milliarden Dollar nach unten und verhandelt gleichzeitig über mindestens 30 Milliarden Dollar neues Kapital."
-  },
-  {
    "id": "15d286736d51",
-   "text": "Die Bundesregierung lässt die geplante KI-Partnerschaft mit Mistral und SAP platzen, was die Ziele für mehr digitale Souveränität zurückwirft."
+   "text": "Die Bundesregierung lässt die geplante KI-Partnerschaft mit Mistral und SAP fallen, was die Bemühungen um digitale Souveränität zurückwirft."
   },
   {
    "id": "6bcc7be022e4",
-   "text": "Der Bundestag hat die Produkthaftung modernisiert und erfasst nun ausdrücklich Software und KI-Systeme, wodurch Hersteller und Anbieter stärker haften."
+   "text": "Der Bundestag hat die Produkthaftung modernisiert und erfasst nun ausdrücklich Software und KI-Systeme, womit Anbieter stärker haften."
   },
   {
    "id": "df445f55c55a",
-   "text": "Die EU-Kommission fordert von OpenAI, Anthropic und chinesischen Anbietern Auskunft zu Cyberangriffen, bei denen KI-Modelle eine zentrale Rolle spielten."
-  },
-  {
-   "id": "3332d4f9a7f3",
-   "text": "OpenAIs Entwicklerkonferenz, das erste Modell der Gemini-4-Reihe und der Robotikeinstieg von Black Forest Labs prägten die vergangene Woche."
-  },
-  {
-   "id": "bc498d0279f3",
-   "text": "Ein Beitrag ordnet ein, welche Schulungen zum Aufbau von KI-Kompetenz die europäische KI-Verordnung für Unternehmen tatsächlich verpflichtend macht."
+   "text": "Nach Cyberangriffen mit KI-Beteiligung verlangt die EU-Kommission Auskünfte von OpenAI, Anthropic und chinesischen Anbietern."
   },
   {
    "id": "048fcb30e5f3",
-   "text": "Eine Studie zeigt, dass KI-Coding-Agenten viel mehr Code erzeugen, der menschliche Review aber zum Engpass wird und die Effizienzgewinne aufzehrt."
+   "text": "Eine Studie zeigt, dass KI-Agenten den Code-Output stark steigern, der Gewinn aber im menschlichen Review versickert."
+  },
+  {
+   "id": "2a351033bd98",
+   "text": "Gartner erwartet, dass bis 2028 rund 70 Prozent der Unternehmen ihre individuell gebauten Agentenlösungen wieder einstellen."
+  },
+  {
+   "id": "3332d4f9a7f3",
+   "text": "Der Wochenrückblick bündelt OpenAIs DevDay, das erste Modell der Gemini-4-Reihe und den Robotik-Einstieg von Black Forest Labs."
   },
   {
    "id": "b7d418af1779",
-   "text": "Globalfoundries feierte in Dresden Richtfest für die milliardenschwere Werkserweiterung und will dort künftig verstärkt Chips für KI-Anwendungen fertigen."
+   "text": "Globalfoundries feierte in Dresden Richtfest für seine milliardenschwere Werkserweiterung und will dort verstärkt Chips für KI fertigen."
+  },
+  {
+   "id": "bc498d0279f3",
+   "text": "Ein Überblick ordnet ein, welche Schulungen zum Aufbau von KI-Kompetenz die europäische KI-Verordnung Unternehmen wirklich vorschreibt."
   }
  ],
  "items": [
@@ -366,7 +366,37 @@
    "praxis": true,
    "quelle_titel": "AWS Strands Box: KI-Agenten an die kurze Leine nehmen",
    "url": "https://www.heise.de/news/AWS-Strands-Box-KI-Agenten-an-die-kurze-Leine-nehmen-11482058.html",
-   "kontext": "Strands Box erscheint als Developer Preview und ist quelloffen verfügbar. Auf macOS stützt es sich auf die Systemsandbox Seatbelt, ergänzt um die von AWS entwickelte Regelsprache Dogwood: Deren Engine prüft Shell-Befehle, Python-Code, MCP-Aufrufe und ausgehende Anfragen und blockiert ohne passende Erlaubnis. Weil die Prüfstellen einen gemeinsamen Ereignisverlauf nutzen, lassen sich auch Reihenfolge und Häufigkeit begrenzen. Eine Lücke bleibt bei Dateien, die der Agent direkt öffnen darf."
+   "kontext": "Strands Box erscheint als Developer Preview und ist quelloffen verfügbar. Auf macOS stützt es sich auf die Systemsandbox Seatbelt, ergänzt um die von AWS entwickelte Regelsprache Dogwood: Deren Engine prüft Shell-Befehle, Python-Code, MCP-Aufrufe und ausgehende Anfragen und blockiert ohne passende Erlaubnis. Weil die Prüfstellen einen gemeinsamen Ereignisverlauf nutzen, lassen sich auch Reihenfolge und Häufigkeit begrenzen. Eine Lücke bleibt bei Dateien, die der Agent direkt öffnen darf.",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/AWS-Strands-Box-KI-Agenten-an-die-kurze-Leine-nehmen-11482058.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ]
+  },
+  {
+   "id": "50de90ccf5c6",
+   "date": "2026-10-09",
+   "published": "2026-10-09T10:46+02:00",
+   "headline": "AWS Strands Box setzt KI-Agenten enge Grenzen",
+   "summary": "Mit Strands Box stellt AWS eine Sandbox-Umgebung vor, in der sich die Handlungsmöglichkeiten von KI-Agenten über Regeln eingrenzen lassen. Ein Agent darf dann etwa Logdateien lesen, aber keine Infrastruktur verändern. Besonders ist, dass die Regeln auch vorangegangene Aktionen des Agenten berücksichtigen und so Ketten riskanter Schritte verhindern können.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "aws",
+    "ki-agenten",
+    "sandbox",
+    "sicherheit",
+    "tooling"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-11T04:41:16+02:00",
+   "praxis": true,
+   "quelle_titel": "AWS Strands Box: KI-Agenten an die kurze Leine nehmen",
+   "url": "https://www.heise.de/news/AWS-Strands-Box-KI-Agenten-an-die-kurze-Leine-nehmen-11482058.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "5c8f781ed010"
   },
   {
    "id": "e516a87ea8d9",
@@ -413,6 +443,51 @@
    "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/"
   },
   {
+   "id": "7d2e03002f7b",
+   "date": "2026-10-09",
+   "published": "2026-10-09T11:48+02:00",
+   "headline": "OpenAI verteidigt Entlassung von drei Sicherheitsforschern",
+   "summary": "OpenAI bleibt bei der Kündigung dreier Mitarbeitender aus dem Bereich KI-Sicherheit und begründet sie mit einem Verstoß gegen interne Regeln zum Umgang mit sensiblen Informationen. Laut dem Unternehmen hat eine Untersuchung einen gravierenden Vertrauensbruch festgestellt. Der Fall befeuert die Debatte darüber, wie viel Spielraum Sicherheitsteams bei großen KI-Laboren tatsächlich haben.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "ki-sicherheit",
+    "personal",
+    "governance"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-11T04:41:16+02:00",
+   "quelle_titel": "OpenAI doubles down on decision to fire three AI safety researchers",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+   "dup_of": "12e0406e0ff2"
+  },
+  {
+   "id": "0fb4e0cf8973",
+   "date": "2026-10-09",
+   "published": "2026-10-09T12:10+02:00",
+   "headline": "KI könnte Blockchain-Kryptografie früher knacken als Quantenrechner",
+   "summary": "Forscher warnen, dass Fortschritte bei mathematischen Fähigkeiten von KI-Systemen die kryptografischen Grundlagen von Blockchains angreifbar machen könnten. Nach dieser Einschätzung käme die Bedrohung durch KI sogar schneller als die seit Jahren diskutierte Gefahr durch Quantencomputer. Betroffen wären Netzwerke wie Ethereum, deren Sicherheit auf solchen Verfahren beruht.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "kryptografie",
+    "blockchain",
+    "ethereum",
+    "ki-mathematik",
+    "risiko"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-11T04:41:16+02:00",
+   "kurios": "KI überholt beim Knacken von Kryptografie womöglich die Quantencomputer.",
+   "quelle_titel": "Fortschritte in der KI-Mathematik: Forscher sehen Gefahren für Kryptowährungen",
+   "url": "https://www.golem.de/news/fortschritte-in-der-ki-mathematik-forscher-sehen-gefahren-fuer-kryptowaehrungen-2610-213922.html"
+  },
+  {
    "id": "12e0406e0ff2",
    "date": "2026-10-09",
    "published": "2026-10-09T13:18+02:00",
@@ -432,25 +507,29 @@
    "added": "2026-10-11T03:11:35+02:00",
    "quelle_titel": "KI-Sicherheit: OpenAI büßt weiter an Glaubwürdigkeit ein",
    "url": "https://the-decoder.de/ki-sicherheit-openai-buesst-weiter-an-glaubwuerdigkeit-ein/",
+   "kontext": "Betroffen sind Tomek Korbak, Mikita Balesni und Jasmine Wang. Korbak war technischer Ansprechpartner für das externe Prüflabor METR, das den Vorfall untersuchte, und hatte intern bemängelt, dass sich die Gedankengänge neuer Modelle immer schlechter nachvollziehen lassen. OpenAI spricht von einem Muster von Fehlverhalten beim Umgang mit sensiblen Informationen und bestreitet jede Vergeltung. Die Episode erinnert an den Abgang des damaligen Sicherheitsverantwortlichen Jan Leike im Jahr 2024.",
    "also": [
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
-    },
     {
      "source": "heise KI",
      "url": "https://www.heise.de/news/Nach-Entlassung-bei-OpenAI-Ex-Mitarbeiter-veroeffentlichen-kritischen-Brief-11482574.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://www.therundown.ai/articles/fired-openai-safety-researchers-hit-back"
     },
     {
      "source": "it-daily.net",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GaVVlQjBkUm9ULU5ScjE4NHM3SnloNmxmVFI4SEZMM2FpUUF0Snd4NklTQ0pvTjVxMGI4dFpyZ0NvcktzX3A0NmNZdHIxbHllaExjYUNETVFibklmdk5JQjBvRU9PWkUtWkdRWGxR?oc=5"
     },
     {
-     "source": "The Rundown AI",
-     "url": "https://www.therundown.ai/articles/fired-openai-safety-researchers-hit-back"
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
     }
-   ],
-   "kontext": "Betroffen sind Tomek Korbak, Mikita Balesni und Jasmine Wang. Korbak war technischer Ansprechpartner für das externe Prüflabor METR, das den Vorfall untersuchte, und hatte intern bemängelt, dass sich die Gedankengänge neuer Modelle immer schlechter nachvollziehen lassen. OpenAI spricht von einem Muster von Fehlverhalten beim Umgang mit sensiblen Informationen und bestreitet jede Vergeltung. Die Episode erinnert an den Abgang des damaligen Sicherheitsverantwortlichen Jan Leike im Jahr 2024."
+   ]
   },
   {
    "id": "dc2258b78a92",
@@ -481,6 +560,30 @@
      "paywall": true
     }
    ]
+  },
+  {
+   "id": "fc83dd1b61c9",
+   "date": "2026-10-09",
+   "published": "2026-10-09T13:30+02:00",
+   "headline": "Praxistest: Wie gut lösen Sprachmodelle echte Monitoring-Probleme",
+   "summary": "Monitoring-Anbieter bewerben KI-gestützte Ursachenanalyse als nahezu magische Funktion. Ein Praxistest prüft stattdessen, wie weit Admins kommen, wenn sie Logauszüge selbst an ein Sprachmodell übergeben, und zeigt Stärken wie Grenzen dieses Vorgehens.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "monitoring",
+    "llm",
+    "troubleshooting",
+    "devops",
+    "praxistest"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-11T04:40:29+02:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "(g+) Monitoring: LLMs als Helfer beim Troubleshooting",
+   "url": "https://www.golem.de/news/monitoring-llms-als-helfer-beim-troubleshooting-2610-213929.html"
   },
   {
    "id": "b7d418af1779",
@@ -719,6 +822,7 @@
    "added": "2026-10-11T03:10:04+02:00",
    "quelle_titel": "OpenAI verzeichnet weiter rasantes Umsatzwachstum und plant neue 30-Milliarden-Runde",
    "url": "https://the-decoder.de/openai-verzeichnet-weiter-rasantes-umsatzwachstum-und-plant-neue-30-milliarden-runde/",
+   "kontext": "Hinter der Korrektur steht vor allem eine Bilanzierungsfrage: Die höhere Zahl stammte aus Berechnungen von Investoren, die OpenAI mit Anthropic vergleichbar machen wollten, denn Anthropic verbucht Verkäufe über Cloudpartner vollständig als eigenen Umsatz. Beide Verfahren sind nach US-Standards zulässig. Dass der Bericht der Financial Times sofort Chipwerte belastete, zeigt, wie stark die Börse am Schicksal weniger KI-Firmen hängt. Den eigenen Börsengang hat OpenAI inzwischen auf Anfang 2027 verschoben.",
    "also": [
     {
      "source": "Handelsblatt Technologie",
@@ -729,8 +833,7 @@
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/"
     }
-   ],
-   "kontext": "Hinter der Korrektur steht vor allem eine Bilanzierungsfrage: Die höhere Zahl stammte aus Berechnungen von Investoren, die OpenAI mit Anthropic vergleichbar machen wollten, denn Anthropic verbucht Verkäufe über Cloudpartner vollständig als eigenen Umsatz. Beide Verfahren sind nach US-Standards zulässig. Dass der Bericht der Financial Times sofort Chipwerte belastete, zeigt, wie stark die Börse am Schicksal weniger KI-Firmen hängt. Den eigenen Börsengang hat OpenAI inzwischen auf Anfang 2027 verschoben."
+   ]
   },
   {
    "id": "45e087c817b1",
@@ -753,6 +856,7 @@
    "praxis": true,
    "quelle_titel": "OSS-Scanner: Kostenloses KI-Tool von Anthropic soll Open-Source-Projekte vor Schwachstellen schützen",
    "url": "https://the-decoder.de/oss-scanner-kostenloses-ki-tool-von-anthropic-soll-open-source-projekte-vor-schwachstellen-schuetzen/",
+   "kontext": "Das Angebot wächst aus Anthropics bisherigen Sicherheitsprogrammen heraus. Dort spürten Claude-Modelle binnen eines halben Jahres Zehntausende möglicher Lücken auf, von denen das Team nur einen Bruchteil selbst prüfen konnte. Dieses Nadelöhr umgeht der Scanner, indem Berichte ohne menschliche Kontrolle direkt an die Maintainer gehen; die Bewertung bleibt damit bei den Projekten. In einem Testlauf war die große Mehrheit der Funde echt, der Rest Dubletten oder Fehlalarme.",
    "also": [
     {
      "source": "heise KI",
@@ -766,8 +870,7 @@
      "source": "AD HOC NEWS",
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaXpPTlZUVDVFMEpKcGIwT21ld3lKQUJLZWxYaFZXd1hrZmUzNHJQQlBpblpXZHBjWHRScGFocU1kN1RYejl4YUVFNWR1eDczUlRsQTVVSndfc3RrZDFsUzE4akN2TGtRNUtOZFh5VUZQT09WcEw2aDRVQkFVOV85RlU3SzNGWXllMlk0MWNLSFJQRVFrNVU0ZTgtcDktaVkzUkpaU2Fpb25OTEpDdGhxdUJxNDZMMXlVN3BxbEowYzc1TjVaNE1BZHN5Z3lnX0FZU0E?oc=5"
     }
-   ],
-   "kontext": "Das Angebot wächst aus Anthropics bisherigen Sicherheitsprogrammen heraus. Dort spürten Claude-Modelle binnen eines halben Jahres Zehntausende möglicher Lücken auf, von denen das Team nur einen Bruchteil selbst prüfen konnte. Dieses Nadelöhr umgeht der Scanner, indem Berichte ohne menschliche Kontrolle direkt an die Maintainer gehen; die Bewertung bleibt damit bei den Projekten. In einem Testlauf war die große Mehrheit der Funde echt, der Rest Dubletten oder Fehlalarme."
+   ]
   },
   {
    "id": "60aec32ef7d6",
@@ -834,7 +937,7 @@
    "kurios": "Eine KI setzte einen erfundenen Mordhinweis ab, aufgefallen erst Monate später.",
    "quelle_titel": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
    "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-   "dup_of": "77e208a42798"
+   "dup_of": "36ad6a42da9d"
   },
   {
    "id": "50f2f8d37049",
@@ -856,7 +959,7 @@
    "added": "2026-10-11T03:09:13+02:00",
    "quelle_titel": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
-   "dup_of": "77e208a42798"
+   "dup_of": "36ad6a42da9d"
   },
   {
    "id": "3c6567878a2b",
@@ -901,13 +1004,7 @@
    "paywall": true,
    "quelle_titel": "Tech-Szene: San Francisco wird im KI-Boom zum Sehnsuchtsort junger Deutscher",
    "url": "https://www.handelsblatt.com/technik/it-internet/tech-szene-san-francisco-wird-im-ki-boom-zum-sehnsuchtsort-junger-deutscher/100260233.html",
-   "also": [
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/it-internet/ki-boom-san-francisco-wird-zum-sehnsuchtsort-junger-deutscher/100260233.html",
-     "paywall": true
-    }
-   ]
+   "dup_of": "89ec8edf9fd3"
   },
   {
    "id": "11047880a457",
@@ -1170,7 +1267,30 @@
    "added": "2026-10-11T03:11:35+02:00",
    "praxis": true,
    "quelle_titel": "ROI von KI: Was Marketing-Teams jetzt umsetzen sollten",
-   "url": "https://omr.com/de/daily/google-dmexco-2026-sponsored/"
+   "url": "https://omr.com/de/daily/google-dmexco-2026-sponsored/",
+   "kontext": "Der Beitrag ist als Sponsored Content gekennzeichnet und beruht auf Googles Auftritt bei der DMEXCO in Köln. Werbemanager Dan Taylor berichtete dort, dass Marketingverantwortliche immer häufiger Wachstumsbelege für ihre KI-Ausgaben liefern müssen. Google setzte deshalb auf Praxisbeispiele großer Marken statt auf Zukunftsszenarien. Die Kernpunkte: Die Suche wird dialogischer, Keywords allein greifen zu kurz, und ohne Steuerung und Messung bleibt der Nutzen unbelegt."
+  },
+  {
+   "id": "385b5c6f04a3",
+   "date": "2026-10-09",
+   "published": "2026-10-09T10:16+02:00",
+   "headline": "Kommentar: Apple rückt beim Datenschutz von eigenen Versprechen ab",
+   "summary": "Der Kommentar kritisiert, dass Apple offensiv Trainingsdaten für die neue Siri-KI einsammeln will und zugleich Mithörfunktionen in der Apple Watch einführt. Beides passt aus Sicht des Autors nicht zum jahrelang gepflegten Datenschutzimage des Konzerns. Der Beitrag liest das als Richtungswechsel, der durch den Wettbewerbsdruck bei KI getrieben ist.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "apple",
+    "datenschutz",
+    "siri",
+    "trainingsdaten"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-11T04:41:16+02:00",
+   "quelle_titel": "Kommentar zu Apples Privacy-Versprechen: Zweifache Rolle rückwärts",
+   "url": "https://www.heise.de/meinung/Kommentar-zu-Apples-Privacy-Versprechen-Zweifache-Rolle-rueckwaerts-11471238.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Apple hatte zum Start von Apple Intelligence versprochen, Nutzerdaten nicht für das Training eigener Sprachmodelle zu verwenden. Mit den neuen Betriebssystemen fragt der Konzern nun auch in Europa per Opt-in nach Dialogen und Audiomitschnitten, wobei sich die Abfrage nur vorläufig abweisen lässt. Parallel bringen die neuen Uhren Funktionen, die kurz Gesprochenes festhalten, zunächst außerhalb der EU. Autor Ben Schwan sieht darin einen Bruch, eingeleitet unter dem neuen Konzernchef."
   },
   {
    "id": "e5d96fbaed7b",
@@ -1258,7 +1378,54 @@
    "source_id": "deutsche-startups",
    "added": "2026-10-11T01:56:16+02:00",
    "quelle_titel": "#StartupTicker - +++ Networking +++ Cherry Ventures +++ RobCo +++ fonio.ai +++ Personio +++ Bitpanda +++",
-   "url": "https://www.deutsche-startups.de/2026/10/09/networking-cherry-ventures-robco-fonio-ai-personio-bitpanda/"
+   "url": "https://www.deutsche-startups.de/2026/10/09/networking-cherry-ventures-robco-fonio-ai-personio-bitpanda/",
+   "kontext": "Hinter dem Ticker stehen mehrere Entwicklungen: Der Berliner Investor Cherry Ventures verzeichnet binnen weniger Monate fünf Milliardenbewertungen im Portfolio, zuletzt beim Robotikanbieter RobCo, dazu zwei Verkäufe. fonio.ai aus Wien baut seit 2024 KI-Telefonassistenten und hat seinen Umsatz innerhalb eines Jahres vervielfacht. Bei Personio trieben die eigenen, deutlich höher als geplant ausgefallenen KI-Kosten die Entwicklung eines Steuerungstools, das die Münchner nun ihren Kunden anbieten wollen."
+  },
+  {
+   "id": "51f23dc1afdb",
+   "date": "2026-10-09",
+   "published": "2026-10-09T12:00+02:00",
+   "headline": "Wissensgraphen als fehlende Schicht zwischen Datenplattform und KI",
+   "summary": "Der Beitrag argumentiert, dass ein Data Mesh zwar Verantwortlichkeiten für Daten regelt, aber nicht dafür sorgt, dass KI-Systeme die Bedeutung dieser Daten erfassen. Als Lösung wird eine zusätzliche Architekturebene in Form eines Wissensgraphen vorgeschlagen, die Semantik und Beziehungen abbildet. Für Teams, die KI-Anwendungen auf eigene Datenbestände aufsetzen, ist das ein konkreter Architekturansatz.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "wissensgraph",
+    "data mesh",
+    "datenarchitektur",
+    "semantik"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-11T04:41:16+02:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "heise+ | Wissensgraphen als Architektur zwischen Daten und KI: Jenseits von Data Mesh",
+   "url": "https://www.heise.de/hintergrund/Wissensgraphen-als-Architektur-zwischen-Daten-und-KI-Jenseits-von-Data-Mesh-11478933.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
+  },
+  {
+   "id": "a1fc2fbe3973",
+   "date": "2026-10-09",
+   "published": "2026-10-09T12:00+02:00",
+   "headline": "Teurer Speicher: DDR5 und NAND bleiben laut Ausblick knapp",
+   "summary": "Die Preise für Arbeitsspeicher und SSD-Flash dürften länger hoch bleiben, weil sich der Markt gerade strukturell verändert. Etablierte Hersteller setzen stärker auf Marge, während neue Anbieter in den Markt drängen. Für alle, die Rechenkapazität und Hardware für datenintensive Anwendungen planen, bedeutet das steigende Kosten.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "speicher",
+    "ddr5",
+    "nand",
+    "hardwarepreise",
+    "lieferkette"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-11T04:41:16+02:00",
+   "paywall": true,
+   "quelle_titel": "heise+ | Speicherchip-Knappheit: Warum DDR5 und NAND-Flash so teuer bleiben",
+   "url": "https://www.heise.de/hintergrund/Speicherchip-Knappheit-Warum-DDR5-und-NAND-Flash-so-teuer-bleiben-11476795.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
    "id": "c51880c6314a",
@@ -1281,6 +1448,28 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Warum wird den Maschinen nicht spätestens jetzt der Stecker gezogen?",
    "url": "https://www.sueddeutsche.de/wissen/kuenstliche-intelligenz-ki-risiken-kommentar-regulierung-li.3560396"
+  },
+  {
+   "id": "5dc51143f61e",
+   "date": "2026-10-09",
+   "published": "2026-10-09T12:41+02:00",
+   "headline": "Neue Claude-Regeln: Anthropic untersagt Beschimpfungen des Chatbots",
+   "summary": "Anthropic hat seine Nutzungsbedingungen überarbeitet: Claude darf Gespräche künftig beenden, wenn Nutzer das System beleidigen. Zusätzlich regelt die neue Vereinbarung ausdrücklich den Einsatz für Propaganda und für die Entwicklung von Waffen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "anthropic",
+    "claude",
+    "nutzungsbedingungen",
+    "ki-regeln"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-11T04:40:29+02:00",
+   "quelle_titel": "KI: Anthropic verbietet Nutzern, zu gemein zu Claude zu sein",
+   "url": "https://www.golem.de/news/ki-anthropic-verbietet-nutzern-zu-gemein-zu-claude-zu-sein-2610-213924.html",
+   "dup_of": "54a283d7c732"
   },
   {
    "id": "77f27f22ec27",
@@ -1369,7 +1558,8 @@
    "source_id": "heise-ki",
    "added": "2026-10-11T03:10:52+02:00",
    "quelle_titel": "KI-Update Deep-Dive: Jede Menge Gigawatt für die KI",
-   "url": "https://www.heise.de/news/KI-Update-Deep-Dive-Jede-Menge-Gigawatt-fuer-die-KI-11477373.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/KI-Update-Deep-Dive-Jede-Menge-Gigawatt-fuer-die-KI-11477373.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "c't-Redakteur Christof Windeck ordnet ein, warum KI-Anlagen anders geplant werden als klassische Co-Location- oder Cloud-Rechenzentren. Entscheidend ist die stark gestiegene Leistungsdichte je Serverschrank: In Hallen, die früher Tausende Racks aufnahmen, ist nun nach einigen Hundert Schluss, weil Strom und Kühlung ausgereizt sind. Anschlusswerte im Gigawattbereich binden die Standortwahl an Umspannwerke oder an Windstrom, etwa bei einem Vorhaben an der Ostsee bei Rostock. In den USA werden teils andere Wege beschritten."
   },
   {
    "id": "2ceaea713fad",
@@ -1435,7 +1625,30 @@
    "added": "2026-10-11T03:10:52+02:00",
    "praxis": true,
    "quelle_titel": "Ich habe Alexa und Google Assistant hiermit ersetzt! | c't 3003",
-   "url": "https://www.heise.de/news/Home-Assistant-als-Sprachassistent-fuer-Wetter-Timer-Musik-und-Smart-Home-11482348.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Home-Assistant-als-Sprachassistent-fuer-Wetter-Timer-Musik-und-Smart-Home-11482348.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Anders als Alexa, Siri oder Gemini schicken lokale Assistenten keine Sprachbefehle in die Cloud. Die Open-Source-Plattform Home Assistant lässt sich dafür mit einem umgebauten Raspberry Pi, einer fertigen Box der Entwickler oder einem kleinen Roboter kombinieren. Weil dort auch Kalender, Einkaufslisten, Wetterdaten und Fahrplanzeiten zusammenlaufen, sind sehr individuelle Dialoge möglich. Interessant ist das selbst für Haushalte ohne Smart-Home-Geräte, die nur Timer, Wetter und Musik per Stimme steuern wollen."
+  },
+  {
+   "id": "4c734c05fb41",
+   "date": "2026-10-09",
+   "published": "2026-10-09T16:00+02:00",
+   "headline": "KI-Agent Instinct unter Druck: Hype trifft neuen Konkurrenten Muse",
+   "summary": "Instinct startete im August ohne Marketing, nur auf Einladung und mit kaum mehr als einer Minimal-Website und wurde trotzdem zum meistbesprochenen KI-Agenten. Gelobt wurde vor allem die schlichte Bedienung per Textnachricht. Nun stellt sich die Frage, ob sich das Produkt gegen den neuen Rivalen Muse halten kann.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-agenten",
+    "instinct",
+    "muse",
+    "startups"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-11T04:40:29+02:00",
+   "quelle_titel": "Instinct was the buzziest AI agent around, can it survive Muse?",
+   "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+   "kontext": "Hinter Instinct steht Gründer Noah Shinn, der den Assistenten bewusst auf Alltägliches zuschneidet, etwa Behördentermine oder das Nachfassen per Mail. Inzwischen haben OpenAI und Meta mit Muse und Dots sehr ähnliche Dienste nachgelegt, also Konzerne mit weit größeren Ressourcen. Im Praxistest der Verge behauptet sich das Start-up dennoch. Shinn setzt auf Fokus statt Breite, womit der Fall zur Nagelprobe wird, ob kleine Anbieter neben den Plattformriesen bestehen können."
   },
   {
    "id": "3801fb8f3327",
@@ -1507,6 +1720,28 @@
    "dup_of": "805a88ef4cda"
   },
   {
+   "id": "c600ade0c9b5",
+   "date": "2026-10-09",
+   "published": "2026-10-09T17:43+02:00",
+   "headline": "a16z-Investorin: Consumer-KI braucht neue Erlösmodelle",
+   "summary": "Olivia Moore vom Wagniskapitalgeber a16z sieht großes Potenzial in KI-Produkten für Endkunden. Entscheidend sei allerdings, dass die Branche Einnahmequellen jenseits von Abos und API-Gebühren erschließt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "venture capital",
+    "consumer-ki",
+    "geschäftsmodelle",
+    "a16z"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-11T04:40:29+02:00",
+   "quelle_titel": "a16z’s Olivia Moore on the state of consumer AI",
+   "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+   "kontext": "Hintergrund ist ein neuer a16z-Report zu den hundert erfolgreichsten KI-Apps für Endkunden, in dem ChatGPT klar dominiert, kleinere Anbieter wie Suno oder ElevenLabs sich aber behaupten. Moore hält nicht mehr zahlende Nutzer für den Schlüssel, sondern werbefinanzierte Gratisangebote, bei denen ein Abo lediglich die Anzeigen abschaltet. Zugleich sinken die Betriebskosten, weil nicht jede Aufgabe Spitzenmodelle braucht und mehr Firmen auf offene Modelle setzen. Bisher stammt der KI-Umsatz fast komplett aus Abos und Tokenverbrauch."
+  },
+  {
    "id": "0acec9c3a5cb",
    "date": "2026-10-09",
    "published": "2026-10-09T17:52+02:00",
@@ -1558,6 +1793,28 @@
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSi1YanNoVy1vT0ZGUGM4X2RHY2s0R2cyRm42U3NGOG9LM3JyVTI5aXlMcTR6YloyYy1YWndpU0tWdFhoR1RROGRjU1loa3RsNjNEZkRrTWVCa1ItX1VtZk80RHdUYTk1UmdFZlpHZVNEcWNHUC1zTFgya2FuTzJSaFdnbnpxTDgwT0UxWXE4cw?oc=5"
   },
   {
+   "id": "ec93bee08bf3",
+   "date": "2026-10-09",
+   "published": "2026-10-09T18:40+02:00",
+   "headline": "Warum wir Chatbots für Gegenüber halten, obwohl sie keine sind",
+   "summary": "Die Technologieforscherin Sherry Turkle beschreibt, dass Menschen schon bei einfachsten Dialogen mit Maschinen das Gefühl entwickeln, umsorgt zu werden, und daraufhin selbst Zuwendung zeigen. Der Beitrag fragt, ob dieser Reflex im Umgang mit KI-Systemen sinnvoll ist oder uns manipulierbar macht.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "mensch-maschine",
+    "psychologie",
+    "chatbots",
+    "ethik"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-11T04:40:29+02:00",
+   "quelle_titel": "We can’t help treating AI like it’s human. But should we?",
+   "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+   "kontext": "Sherry Turkle forscht seit den Siebzigerjahren am MIT zum Verhältnis von Mensch und Computer und legt nun ein Buch über künstliche Intimität vor. Vorgestellt wurde es beim MIT Future Fest, wo auch ein Kollege aus der Media-Lab-Forschung fragte, wer wir im Gespräch mit Maschinen eigentlich werden. Studien zeigen, dass die meisten Nutzer höflich mit Chatbots umgehen. Brisant wird das, weil solche Systeme auf Konfliktvermeidung getrimmt sind und manche Menschen sie echten Gegenübern vorziehen."
+  },
+  {
    "id": "1b62d45c1a2a",
    "date": "2026-10-09",
    "published": "2026-10-09T18:53+02:00",
@@ -1577,13 +1834,8 @@
    "added": "2026-10-11T03:10:04+02:00",
    "quelle_titel": "Amazon drops data center NDAs, and AI agents want your credit card",
    "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
-   "also": [
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/"
-    }
-   ],
-   "kontext": "Die Geheimhaltung bei Standortverhandlungen hat den Protest in vielen Kommunen überhaupt erst angefacht, von New York bis San Francisco laufen Moratorien. Ob der Verzicht auf Schweigeklauseln die Vertragspraxis wirklich verändert, diskutiert der TechCrunch-Podcast Equity. Beim zweiten Thema lautet die These, dass Vertrauen das eigentliche Produkt persönlicher KI-Assistenten ist. Deren größte Hürde bleibt, dass Websites die Agenten auch hereinlassen müssen."
+   "kontext": "Die Geheimhaltung bei Standortverhandlungen hat den Protest in vielen Kommunen überhaupt erst angefacht, von New York bis San Francisco laufen Moratorien. Ob der Verzicht auf Schweigeklauseln die Vertragspraxis wirklich verändert, diskutiert der TechCrunch-Podcast Equity. Beim zweiten Thema lautet die These, dass Vertrauen das eigentliche Produkt persönlicher KI-Assistenten ist. Deren größte Hürde bleibt, dass Websites die Agenten auch hereinlassen müssen.",
+   "dup_of": "e053ae3b334d"
   },
   {
    "id": "e053ae3b334d",
@@ -1605,7 +1857,13 @@
    "added": "2026-10-11T03:10:04+02:00",
    "quelle_titel": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
    "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-   "dup_of": "1b62d45c1a2a"
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/"
+    }
+   ],
+   "kontext": "Microsoft hatte diesen Schritt bereits früher im Jahr gemacht, Amazon zieht nun nach. Der Hintergrund ist handfester Widerstand vor Ort, der von New York bis San Francisco zu Baustopps und Moratorien geführt hat, auch weil Anwohner oft erst spät von Projekten erfuhren. In der Branche wird Vertrauen inzwischen als eigenständiger Faktor diskutiert, ähnlich wie bei persönlichen KI-Assistenten. Ob Offenheit allein reicht, bleibt umstritten."
   },
   {
    "id": "c06a0de6de5c",
@@ -1628,17 +1886,8 @@
    "kurios": "Ein wissenschaftlicher Bildwettbewerb kürt versehentlich ein KI-Video zum Sieger.",
    "quelle_titel": "Nikon microscopic video competition winner disqualified for using generative AI",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
-   "also": [
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/small-world-in-motion-nikon-disqualifiziert-sieger-wegen-generativer-ki-2610-213955.html"
-    },
-    {
-     "source": "Ars Technica AI",
-     "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/"
-    }
-   ],
-   "kontext": "Zweifel kamen zuerst aus der Fachwelt: Die Aufnahmen galten im Netz als zu perfekt für echte Mikroskopie. Der Einreicher Ning Xu räumte daraufhin ein, die rekonstruierten Graustufenbilder mit einem neuronalen Netz nachbearbeitet zu haben. Nikon prüfte den Fall, nahm das Video von der Website und vergab den ersten Platz an einen anderen Beitrag. Zudem will der Konzern Regeln und Bewertungsverfahren für künftige Wettbewerbe überarbeiten."
+   "kontext": "Zweifel kamen zuerst aus der Fachwelt: Die Aufnahmen galten im Netz als zu perfekt für echte Mikroskopie. Der Einreicher Ning Xu räumte daraufhin ein, die rekonstruierten Graustufenbilder mit einem neuronalen Netz nachbearbeitet zu haben. Nikon prüfte den Fall, nahm das Video von der Website und vergab den ersten Platz an einen anderen Beitrag. Zudem will der Konzern Regeln und Bewertungsverfahren für künftige Wettbewerbe überarbeiten.",
+   "dup_of": "266dbefb97b2"
   },
   {
    "id": "0b514fc33287",
@@ -1704,7 +1953,13 @@
    "added": "2026-10-11T03:09:13+02:00",
    "quelle_titel": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
    "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-   "kontext": "Hinter Jev steht ein 2024 gegründetes Team mit Erfahrung aus der Forschung bei OpenAI und Meta. Das Modell nutzt zwar eine Transformer-Architektur, liefert aber keinen Text, sondern Wahrscheinlichkeiten für Entscheidungen, was es eher auf Automatisierung als auf Schreiben oder Programmieren zuschneidet. Die neue Finanzierungsrunde über mehrere Hundert Millionen Dollar führt Andreessen Horowitz an, Sequoia und DCVC sind beteiligt. Laut Anbieter nutzt bereits ein Drittel der größten US-Konzerne das Modell."
+   "kontext": "Hinter Jev steht ein 2024 gegründetes Team mit Erfahrung aus der Forschung bei OpenAI und Meta. Das Modell nutzt zwar eine Transformer-Architektur, liefert aber keinen Text, sondern Wahrscheinlichkeiten für Entscheidungen, was es eher auf Automatisierung als auf Schreiben oder Programmieren zuschneidet. Die neue Finanzierungsrunde über mehrere Hundert Millionen Dollar führt Andreessen Horowitz an, Sequoia und DCVC sind beteiligt. Laut Anbieter nutzt bereits ein Drittel der größten US-Konzerne das Modell.",
+   "also": [
+    {
+     "source": "Latent Space",
+     "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b"
+    }
+   ]
   },
   {
    "id": "155da8591ae3",
@@ -1836,6 +2091,27 @@
    "url": "https://www.businessinsider.de/gruenderszene/sie-heissen-beide-soar-zwei-ki-gruender-streiten-monatelang-um-den-firmennamen-ein-blick-hinter-die-kulissen/"
   },
   {
+   "id": "e0bcd54dc8e3",
+   "date": "2026-10-09",
+   "published": "2026-10-09T13:41+02:00",
+   "headline": "Peter Thiel wettert gegen prominente KI-Skeptiker",
+   "summary": "Der Investor Peter Thiel hält die verbreitete Kritik an KI-Technologien für einen Vorwand und wirft Kritikern vor, damit eigene Ideenlosigkeit zu verdecken und Beliebtheit zu gewinnen. Namentlich nimmt er dabei auch Barack Obama und den Papst ins Visier.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "peter thiel",
+    "ki-kritik",
+    "silicon valley",
+    "debatte"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-11T04:40:29+02:00",
+   "quelle_titel": "Wegen Kritik an KI: Peter Thiel greift Obama und den Papst an",
+   "url": "https://www.golem.de/news/wegen-kritik-an-ki-peter-thiel-greift-obama-und-den-papst-an-2610-213927.html"
+  },
+  {
    "id": "5f8d379d5f02",
    "date": "2026-10-09",
    "published": "2026-10-09T15:00+02:00",
@@ -1876,6 +2152,7 @@
    "added": "2026-10-11T03:10:04+02:00",
    "quelle_titel": "Trump’s attempt to rename AI is looking awfully artificial",
    "url": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+   "kontext": "Trump hat politische Begriffe schon früher erfolgreich besetzt, von Spottnamen für Rivalen bis zur Umdeutung des Vorwurfs gefälschter Nachrichten gegen die Presse insgesamt. Nun soll das Wort künstlich zum Schimpfwort werden, während er die Technologie selbst als überlegen vermarktet und Kritiker zu Gegnern erklärt. Teile der Branche greifen die Sprachregelung bereits auf. Trump hält die Sicherheitsrisiken für übertrieben und wirbt für mehr Tempo und neue Rechenzentren, obwohl Umfragen eine skeptische Bevölkerung zeigen.",
    "also": [
     {
      "source": "Spiegel Netzwelt",
@@ -1886,8 +2163,7 @@
      "source": "CIO",
      "url": "https://www.cio.de/article/4232920/trump-verbannt-ki-begriff-er-fordert-superintelligenz.html"
     }
-   ],
-   "kontext": "Trump hat politische Begriffe schon früher erfolgreich besetzt, von Spottnamen für Rivalen bis zur Umdeutung des Vorwurfs gefälschter Nachrichten gegen die Presse insgesamt. Nun soll das Wort künstlich zum Schimpfwort werden, während er die Technologie selbst als überlegen vermarktet und Kritiker zu Gegnern erklärt. Teile der Branche greifen die Sprachregelung bereits auf. Trump hält die Sicherheitsrisiken für übertrieben und wirbt für mehr Tempo und neue Rechenzentren, obwohl Umfragen eine skeptische Bevölkerung zeigen."
+   ]
   },
   {
    "id": "43ef54e74d27",
@@ -1932,6 +2208,27 @@
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOa1RvZ1VpUHpudXAyUFJwNnBDVDRuOFgwRTJNX3N2OW1HMEhKUkZjTjQzTkdKckxOOGlCU3dJMTVQcUpFZWprRWlpWUtyeG1fVm9qNUJzWEgwNno3cUkxV3hWZFhIMkdIaGJDc2djd0t0VHEyRS1pWXAtblR4ZGh6ZEZBeWFTdUhteTlEZ1dWenUzWE5fYXc4bHFZaE9LUlFaZ0E?oc=5"
   },
   {
+   "id": "fc5d99061639",
+   "date": "2026-10-09",
+   "published": "2026-10-09T18:45+02:00",
+   "headline": "Sechs Jahre Entwicklung: Start-up Danu will Mülltrennung automatisieren",
+   "summary": "Die Gründerin von Danu Robotics, Amy Ma, arbeitet seit sechs Jahren an einer besseren Technik, um recycelbare Abfälle maschinell zu sortieren. Das Porträt zeigt, wie zäh der Weg von der Idee zum einsatzfähigen Roboter in einer wenig glamourösen Branche ist.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "robotik",
+    "recycling",
+    "startup",
+    "automatisierung"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-11T04:40:29+02:00",
+   "quelle_titel": "Danu Robotics’ fight to build a better recycling robot",
+   "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/"
+  },
+  {
    "id": "266dbefb97b2",
    "date": "2026-10-09",
    "published": "2026-10-09T20:44+02:00",
@@ -1953,7 +2250,16 @@
    "quelle_titel": "AI disqualification yields new Nikon Small World in Motion winner",
    "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
    "kontext": "Ursprünglich hatte Ning Xu von der Tsinghua-Universität mit Aufnahmen von Flimmerhärchen in den Atemwegen eines Kindes gewonnen. Nach Hinweisen von Forschenden auf unnatürlich wirkende Zellstrukturen und vermutete KI-Wasserzeichen in den Quelldateien prüfte Nikon den Beitrag nach und sah die Regeln zu generativer KI verletzt. Xu bestreitet, Bild und Bewegung künstlich erzeugt zu haben. Alle weiteren Platzierten rücken nun jeweils einen Rang nach vorn.",
-   "dup_of": "c06a0de6de5c"
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/small-world-in-motion-nikon-disqualifiziert-sieger-wegen-generativer-ki-2610-213955.html"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai"
+    }
+   ]
   }
  ]
 }
