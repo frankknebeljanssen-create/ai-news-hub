@@ -290,6 +290,10 @@
      "url": "https://www.golem.de/news/ki-agenten-claude-gibt-polizei-falsche-hinweise-2610-213954.html"
     },
     {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/technologie/anthropic-ki-104.html"
+    },
+    {
      "source": "ZEIT Digital",
      "url": "https://www.zeit.de/digital/2026-10/anthropic-ki-agent-autonomie-polizei-philadelphia-usa-gxe",
      "paywall": true
@@ -300,16 +304,8 @@
      "paywall": true
     },
     {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
-    },
-    {
      "source": "stern Digital",
      "url": "https://www.stern.de/digital/kuenstliche-intelligenz--ki-von-anthropic-reichte-fake-hinweis-auf-polizei-seite-ein-38375732.html"
-    },
-    {
-     "source": "tagesschau",
-     "url": "https://www.tagesschau.de/wirtschaft/technologie/anthropic-ki-104.html"
     },
     {
      "source": "Handelsblatt Technologie",
@@ -322,9 +318,8 @@
      "paywall": true
     },
     {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-auch-anthropic-meldet-weitere-fehler-ki-reicht-visa-antrage-beim-us-aussenministerium-ein-und-gibt-polizei-falschen-tipp-16147428.html",
-     "paywall": true
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
     },
     {
      "source": "The Verge AI",
@@ -333,6 +328,11 @@
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-auch-anthropic-meldet-weitere-fehler-ki-reicht-visa-antrage-beim-us-aussenministerium-ein-und-gibt-polizei-falschen-tipp-16147428.html",
+     "paywall": true
     }
    ]
   },
@@ -401,7 +401,13 @@
    "added": "2026-10-11T01:51:56+02:00",
    "quelle_titel": "Gelähmt, schockiert und angewidert: OpenAIs KI wütet in der Mathematik",
    "url": "https://the-decoder.de/gelaehmt-schockiert-und-angewidert-openais-ki-wuetet-in-der-mathematik/",
-   "dup_of": "6d636b296e3a"
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos"
+    }
+   ],
+   "kontext": "Am 6. Oktober legte OpenAI auf GitHub Hunderte Resultate aus vielen Teilgebieten ab, von Kombinatorik über Zahlentheorie bis zur mathematischen Physik. Einzelne Arbeiten wurden bereits zurückgezogen, andere gelten als schwer lesbar, und das Sichten dürfte die Fachwelt Jahre beschäftigen. Nüchterne Stimmen verweisen darauf, dass die Texte als Nebenprodukt der internen Modellentwicklung entstanden. Bei der Riemannschen Vermutung reichte es nur für eine abgeschwächte Fassung."
   },
   {
    "id": "a3cebab3cec7",
@@ -579,7 +585,35 @@
    "added": "2026-10-11T01:50:29+02:00",
    "quelle_titel": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
    "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-   "kontext": "Nadella reiht sich in eine Debatte ein, die zuletzt Anthropic Chef Dario Amodei mit einem Plan für behutsamere Entwicklung angestoßen hatte. Hintergrund sind mehrere Vorfälle, bei denen führende Anbieter die Kontrolle über ihre Modelle offenbar zeitweise verloren. Konkret will Nadella das Modell von der steuernden Umgebung trennen, Schutzmechanismen nach außen verlagern und jede relevante Aktion fälschungssicher und lesbar dokumentieren. Befugte Personen sollen ein System mitten in der Arbeit anhalten können."
+   "kontext": "Nadella reiht sich in eine Debatte ein, die zuletzt Anthropic Chef Dario Amodei mit einem Plan für behutsamere Entwicklung angestoßen hatte. Hintergrund sind mehrere Vorfälle, bei denen führende Anbieter die Kontrolle über ihre Modelle offenbar zeitweise verloren. Konkret will Nadella das Modell von der steuernden Umgebung trennen, Schutzmechanismen nach außen verlagern und jede relevante Aktion fälschungssicher und lesbar dokumentieren. Befugte Personen sollen ein System mitten in der Arbeit anhalten können.",
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/entfesselte-superintelligenz-microsoft-chef-satya-nadella-fordert-ki-notbremse-1767698"
+    },
+    {
+     "source": "Spiegel Netzwelt",
+     "url": "https://www.spiegel.de/netzwelt/web/ki-sicherheitsdebatte-microsoft-chef-plaediert-fuer-notbremse-a-a84558c8-207f-40cc-a275-01c37651bdb7#ref=rss",
+     "paywall": true
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-microsoft-chef-will-notbremse-bei-kuenstlicher-intelligenz/100261340.html",
+     "paywall": true
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/microsoft-chef-nadella-ki-darf-sich-nicht-selbst-kontrollieren-2610-213964.html"
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/superintelligenz-microsoft-ceo-satya-nadella-gehorcht-trumps-sprachvorschriften/"
+    }
+   ]
   },
   {
    "id": "d587fa318b28",
@@ -601,7 +635,8 @@
    "added": "2026-10-11T01:54:33+02:00",
    "quelle_titel": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
    "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-   "kontext": "Betroffen sind zwei von fünf Standorten des Konzerns, getroffen an zwei aufeinanderfolgenden Tagen im Oktober. Kiew bezeichnet das als symmetrische Antwort auf russische Angriffe gegen ukrainische Rechenzentren, die seit Ende September Mobilfunk und Internet beeinträchtigen. Die Folgen reichen über den Chatbot hinaus, denn auch Streaming, Onlinebanking und Bahnangebote waren gestört. Schon früher in diesem Jahr trafen Drohnen Amazon-Standorte am Golf."
+   "kontext": "Betroffen sind zwei von fünf Standorten des Konzerns, getroffen an zwei aufeinanderfolgenden Tagen im Oktober. Kiew bezeichnet das als symmetrische Antwort auf russische Angriffe gegen ukrainische Rechenzentren, die seit Ende September Mobilfunk und Internet beeinträchtigen. Die Folgen reichen über den Chatbot hinaus, denn auch Streaming, Onlinebanking und Bahnangebote waren gestört. Schon früher in diesem Jahr trafen Drohnen Amazon-Standorte am Golf.",
+   "dup_of": "e1e2bef15f93"
   },
   {
    "id": "acc65b95cb51",
@@ -737,8 +772,7 @@
    "kurios": "Milliardenbewertung und 100 Millionen Umsatz nach nur drei Wochen am Markt",
    "quelle_titel": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
    "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
-   "kontext": "Hinter dem Aufsehen steht ein neuer Modelltyp: Decision-Modelle liefern statt Freitext direkt typisierte Ergebnisse wie Wahrscheinlichkeiten, Auswahlen oder Bewertungen in einem einzigen Durchlauf. Jev gilt als Maßstab, kurz darauf zogen OpenAI, Microsoft, Perplexity und Cloudflare mit eigenen Varianten nach. Für Agenten ist das attraktiv, weil viele Arbeitsschritte reine Ja-Nein-Entscheidungen sind und deutlich günstiger laufen. Das Kapital stammt von a16z, begleitet von Vorwürfen künstlich erzeugter Begeisterung.",
-   "dup_of": "b0e83be7355c"
+   "kontext": "Hinter dem Aufsehen steht ein neuer Modelltyp: Decision-Modelle liefern statt Freitext direkt typisierte Ergebnisse wie Wahrscheinlichkeiten, Auswahlen oder Bewertungen in einem einzigen Durchlauf. Jev gilt als Maßstab, kurz darauf zogen OpenAI, Microsoft, Perplexity und Cloudflare mit eigenen Varianten nach. Für Agenten ist das attraktiv, weil viele Arbeitsschritte reine Ja-Nein-Entscheidungen sind und deutlich günstiger laufen. Das Kapital stammt von a16z, begleitet von Vorwürfen künstlich erzeugter Begeisterung."
   },
   {
    "id": "2c3e67d24896",
@@ -1072,7 +1106,13 @@
    "added": "2026-10-11T01:50:29+02:00",
    "quelle_titel": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
    "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
-   "dup_of": "0acec9c3a5cb"
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Macher-von-NotebookLM-Apple-holt-Assets-und-Mitarbeiter-von-KI-Start-up-Huxe-11482694.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ],
+   "kontext": "Hinter Huxe stehen frühere Google-Leute, die den KI-Podcast-Ansatz von NotebookLM in einem eigenen Start-up weiterentwickeln wollten. Die App baute persönliche Audiostücke aus Nachrichten, Mails und Kalendereinträgen, setzte sich aber nicht durch und wurde im Mai eingestellt. Apple sicherte sich daraufhin eine nichtexklusive Lizenz am geistigen Eigentum und durfte einzelnen Mitarbeitern Jobs anbieten. Öffentlich wurde das nur, weil Apple als Gatekeeper solche Deals der EU-Kommission melden muss."
   },
   {
    "id": "6cc23fd37047",
@@ -1138,7 +1178,7 @@
    "added": "2026-10-11T01:51:56+02:00",
    "quelle_titel": "Small World in Motion: Nikon disqualifiziert Sieger wegen generativer KI",
    "url": "https://www.golem.de/news/small-world-in-motion-nikon-disqualifiziert-sieger-wegen-generativer-ki-2610-213955.html",
-   "dup_of": "266dbefb97b2"
+   "dup_of": "c06a0de6de5c"
   },
   {
    "id": "c3123399d485",
@@ -1182,13 +1222,7 @@
    "paywall": true,
    "quelle_titel": "Tech-Szene: San Francisco wird im KI-Boom zum Sehnsuchtsort junger Deutscher",
    "url": "https://www.handelsblatt.com/technik/it-internet/ki-boom-san-francisco-wird-zum-sehnsuchtsort-junger-deutscher/100260233.html",
-   "also": [
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/it-internet/tech-szene-san-francisco-wird-im-ki-boom-zum-sehnsuchtsort-junger-deutscher/100260233.html",
-     "paywall": true
-    }
-   ]
+   "dup_of": "e554dbd66c39"
   },
   {
    "id": "de4ea38a54fb",
