@@ -862,3 +862,7 @@ td.na { color: var(--muted); }
 .b-one, .brief-sec, .more-panel, .also, .also .also-row, .b-top li, .b-list li { min-width: 0; max-width: 100%; }
 .more-panel, .also { overflow: hidden; }
 .also .also-row span { min-width: 0; }
+
+/* Schwebender Zurueck-Knopf im Glossar, damit er auch nach dem Sprung zum Begriff sichtbar bleibt */
+.back-fab { position: fixed; left: 14px; bottom: calc(var(--bar-h, 64px) + 14px + env(safe-area-inset-bottom, 0px)); z-index: 30; display: inline-flex; align-items: center; gap: 4px; padding: 10px 16px; border-radius: 999px; background: var(--accent); color: var(--accent-text); font-weight: 700; font-size: .9rem; text-decoration: none; box-shadow: 0 6px 18px rgba(0,0,0,.3); }
+@media (min-width: 720px) { .back-fab { bottom: 20px; } }

@@ -878,6 +878,7 @@ async function viewGlossary(q) {
 
   render(
     backHref ? h('a', { class: 'back-link', href: backHref, onclick: () => { store.restore = true; } }, `\u2039 Zurück zu ${backLabel(backHref)}`) : null,
+    backHref ? h('a', { class: 'back-fab', href: backHref, onclick: () => { store.restore = true; } }, `\u2039 Zurück zu ${backLabel(backHref)}`) : null,
     h('h1', null, 'Glossar'),
     status,
     note,
