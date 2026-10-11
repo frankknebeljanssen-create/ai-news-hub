@@ -1434,3 +1434,6 @@ route();
   window.addEventListener('load', check);
   document.addEventListener('visibilitychange', () => { if (!document.hidden) check(); });
 })();
+
+/* Nach Mausklick den Fokusrahmen von Schaltflaechen wieder abgeben (Tastatur bleibt unveraendert) */
+document.addEventListener('click', (e) => { const b = e.target.closest('button'); if (b && e.detail > 0) setTimeout(() => b.blur(), 0); });

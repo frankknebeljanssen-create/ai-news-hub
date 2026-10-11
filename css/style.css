@@ -851,3 +851,9 @@ td.na { color: var(--muted); }
 .kurios-head .k-all:hover { text-decoration: underline; }
 .badge.kur-badge { background: color-mix(in srgb, var(--t-weiter) 20%, transparent); border-color: transparent; color: var(--t-weiter); }
 .card .card-hook { margin: 0 0 4px; font-size: .88rem; }
+
+/* Aufklappbereich in Listen: Mehr Kontext und Zum Original nicht aneinander kleben */
+.more-panel .kontext-btn { display: block; margin: 8px 0 4px; }
+.more-panel > .b-src { display: inline-block; margin-top: 8px; }
+/* Fokusrahmen an Textschaltflaechen schlank halten */
+.more-link:focus-visible, .more-btn:focus-visible, .kontext-btn:focus-visible, .share-btn:focus-visible { outline-width: 1.5px; outline-offset: 1px; border-radius: 4px; }
