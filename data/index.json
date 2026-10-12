@@ -1,7 +1,133 @@
 {
- "updated": "2026-10-12T07:04:24+02:00",
- "count": 815,
+ "updated": "2026-10-12T21:05:21+02:00",
+ "count": 821,
  "items": [
+  {
+   "id": "8015765f1c84",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Neuer Benchmark zeigt große Lücke beim intuitiven Bildverständnis",
+   "summary": "Elorian und Scale AI haben mit HSS einen Test vorgestellt, der intuitives visuelles Denken anhand von 522 Fragen zu 288 Bildern und 234 kurzen Videos prüft. Menschen kommen im Mittel auf 93,1 Punkte, das beste getestete KI-System erreicht 53,6, chinesische Open-Weight-Modelle nur rund 26. Typische Fehlerquellen sind überlesene Schlüsseldetails sowie falsch zugeordnete Objekte und Rollen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "benchmark",
+    "multimodal",
+    "visuelles denken",
+    "evaluation"
+   ],
+   "source": "Import AI",
+   "source_id": "import-ai",
+   "added": "2026-10-12T21:04:56+02:00",
+   "quelle_titel": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=humanitys-sixth-sense-visual-reasoning-benchmark"
+  },
+  {
+   "id": "a285f15c509c",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Analyse: KI könnte das Rennen um die Industrialisierung des Weltraums entscheiden",
+   "summary": "Ein Beitrag bei AI Frontiers argumentiert, dass KI die wirtschaftliche Nutzung des Weltraums deutlich beschleunigen könnte, etwa über autonome Raumfahrzeuge und Produktion im Orbit. Wer zuerst dort ist, könnte sich laut dem Autor durch Rückkopplungseffekte, Kontrolle über den Zugang ins All und selbstreplizierende Sonden einen schwer einholbaren Vorsprung verschaffen. Die Einschätzung: Solche Fragen werden früher praktisch relevant als bisher angenommen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "weltraum",
+    "autonome systeme",
+    "strategie",
+    "zukunft"
+   ],
+   "source": "Import AI",
+   "source_id": "import-ai",
+   "added": "2026-10-12T21:04:56+02:00",
+   "quelle_titel": "The AI Race Will Extend Far Beyond Earth",
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=the-ai-race-will-extend-far-beyond-earth"
+  },
+  {
+   "id": "08ed21c94e2e",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "TasteVal testet, ob KI ein Gespür für gute Forschung entwickelt",
+   "summary": "P-Zero Research prüft mit TasteVal in acht Aufgaben zu Pretraining, Feintuning und Robustheit, wie gut KI-Systeme Experimente entwerfen und Ergebnisse deuten. Laut der Studie verdoppelt sich diese experimentelle Forschungsintuition bei Spitzenmodellen etwa alle drei Monate, und Opus 5.5 schlägt die menschliche Expertenbasis bei einem Bruchteil der Kosten. Der Autor verschiebt seine Erwartung für vollständige rekursive Selbstverbesserung deshalb von 2028 auf 2027.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "benchmark",
+    "forschungsautomatisierung",
+    "evaluation",
+    "selbstverbesserung"
+   ],
+   "source": "Import AI",
+   "source_id": "import-ai",
+   "added": "2026-10-12T21:04:56+02:00",
+   "quelle_titel": "Introducing TasteVal",
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=introducing-tasteval-research-taste-benchmark"
+  },
+  {
+   "id": "69b65be58f18",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Reflection kündigt Beam an: 501 Milliarden Parameter als offenes Modell",
+   "summary": "Beam ist ein Mixture-of-Experts-Modell mit 501 Milliarden Parametern, von denen 23 Milliarden pro Anfrage aktiv sind. Reflection hebt die Token-Effizienz hervor: ähnliche Reasoning-Ergebnisse wie GLM-5.2 bei drei- bis vierfach geringerem Rechenaufwand, bei Programmier- und Agentenaufgaben bleibt Beam allerdings hinter GLM-5.3. Gewichte, technischer Bericht und Model Card sollen Ende Oktober erscheinen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "open weights",
+    "mixture of experts",
+    "reflection",
+    "reasoning"
+   ],
+   "source": "Import AI",
+   "source_id": "import-ai",
+   "added": "2026-10-12T21:04:56+02:00",
+   "quelle_titel": "Introducing Beam: Reflection's 501B open-weight model",
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=introducing-beam-reflection-open-weight-model"
+  },
+  {
+   "id": "73bfac57bccc",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Mistral Large 4 setzt auf Cybersicherheit und europäisches Training",
+   "summary": "Mistral stellt mit Large 4 ein offenes Modell vor, das besonders auf Cybersicherheitsaufgaben ausgelegt ist und Anfragen seltener ablehnt als vergleichbare Modelle von Anthropic und OpenAI. Trainiert wurde es auf 3.800 NVIDIA-Grace-Blackwell-GPUs in europäischen Rechenzentren. Erste Vergleiche sehen es als stärkstes westliches Open-Weight-Modell, aber hinter den führenden chinesischen Systemen. Die Freigabe ist bis Monatsende geplant.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "mistral",
+    "open weights",
+    "cybersicherheit",
+    "europa"
+   ],
+   "source": "Import AI",
+   "source_id": "import-ai",
+   "added": "2026-10-12T21:04:56+02:00",
+   "quelle_titel": "Introducing Mistral Large 4",
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=introducing-mistral-large-4"
+  },
+  {
+   "id": "bb86bc58029c",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "US-Staatslabore trainieren KI verteilt über mehrere Supercomputer",
+   "summary": "Zwei Projekte zeigen, wie Regierungslabore in den USA ihre Rechenzentren für gemeinsames Training koppeln. Die NNSA-Labore Sandia, LLNL und Los Alamos trainierten ein LLaMA-Modell, ohne eingestufte Daten vom jeweiligen Standort zu bewegen, und ein Chemiemodell wurde über vier DOE-Rechner mit rund 1.700 GPUs feinabgestimmt. Der Umfang liegt etwa hundertfach unter dem Niveau der Industriespitze, gilt aber als wichtiger Einstieg in föderiertes Training.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "federated learning",
+    "supercomputer",
+    "ki fuer wissenschaft",
+    "usa"
+   ],
+   "source": "Import AI",
+   "source_id": "import-ai",
+   "added": "2026-10-12T21:04:56+02:00",
+   "quelle_titel": "From Pilots to Production: Lessons in Cross-Institutional Federated Training and Artificial Intelligence for Science",
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=us-doe-cross-lab-federated-ai-training"
+  },
   {
    "id": "1a1393da0514",
    "date": "2026-10-12",
@@ -809,13 +935,13 @@
    "kontext": "Yandex betreibt in Russland Suche, Cloud und KI-Dienste, auf die Millionen Nutzer und zahlreiche Digitalfirmen angewiesen sind. Messungen der Organisation NetBlocks zeigten einen deutlichen Einbruch der Erreichbarkeit, besonders stark bei den Cloud-Servern. Nach Angriff und Brand sind Berichten zufolge auch zwei der drei Supercomputer im Rechenzentrum Sasovo außer Betrieb. Ende September hatte Russland umgekehrt mehrere ukrainische Rechenzentren getroffen.",
    "also": [
     {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Massive-Ausfaelle-bei-Yandex-nach-ukrainischen-Angriffen-11483627.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
      "source": "WirtschaftsWoche",
      "url": "https://www.wiwo.de/politik/ausland/angriffe-auf-russlands-rechenzentren-ukraine-zertruemmert-russlands-ki-hoffnungen/100261305.html",
      "paywall": true
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Massive-Ausfaelle-bei-Yandex-nach-ukrainischen-Angriffen-11483627.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     }
    ]
   },
@@ -1291,17 +1417,12 @@
    "kontext": "Nadella reagiert auf eine Reihe von Zwischenfällen, bei denen Anbieter die Kontrolle über ihre Systeme zeitweise verloren haben. Er will Modell und steuernde Umgebung voneinander trennen, Schutzmechanismen nach außen verlagern und jede relevante Aktion fälschungssicher und lesbar protokollieren. Dazu kommen Forderungen nach unabhängigen Prüfungen und zügiger Offenlegung von Vorfällen, wie sie auch andere in der Branche erheben. Auffällig ist seine Wortwahl, denn er spricht durchgehend von Superintelligenz, dem Lieblingsbegriff der Trump-Regierung.",
    "also": [
     {
-     "source": "it-daily.net",
-     "url": "https://www.it-daily.net/shortnews/microsoft-chef-ki-braucht-notbremse"
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/superintelligenz-microsoft-ceo-satya-nadella-gehorcht-trumps-sprachvorschriften/"
     },
     {
-     "source": "t3n",
-     "url": "https://t3n.de/news/entfesselte-superintelligenz-microsoft-chef-satya-nadella-fordert-ki-notbremse-1767698"
-    },
-    {
-     "source": "Spiegel Netzwelt",
-     "url": "https://www.spiegel.de/netzwelt/web/ki-sicherheitsdebatte-microsoft-chef-plaediert-fuer-notbremse-a-a84558c8-207f-40cc-a275-01c37651bdb7#ref=rss",
-     "paywall": true
+     "source": "Golem",
+     "url": "https://www.golem.de/news/microsoft-chef-nadella-ki-darf-sich-nicht-selbst-kontrollieren-2610-213964.html"
     },
     {
      "source": "Handelsblatt Technologie",
@@ -1309,8 +1430,13 @@
      "paywall": true
     },
     {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/microsoft-chef-nadella-ki-darf-sich-nicht-selbst-kontrollieren-2610-213964.html"
+     "source": "Spiegel Netzwelt",
+     "url": "https://www.spiegel.de/netzwelt/web/ki-sicherheitsdebatte-microsoft-chef-plaediert-fuer-notbremse-a-a84558c8-207f-40cc-a275-01c37651bdb7#ref=rss",
+     "paywall": true
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/entfesselte-superintelligenz-microsoft-chef-satya-nadella-fordert-ki-notbremse-1767698"
     },
     {
      "source": "Tagesspiegel Wirtschaft",
@@ -1327,8 +1453,8 @@
      "url": "https://www.stern.de/digital/ki-sorgen--microsoft-chef-will--notbremse--in-kuenstlicher-intelligenz-38380252.html"
     },
     {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/superintelligenz-microsoft-ceo-satya-nadella-gehorcht-trumps-sprachvorschriften/"
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/microsoft-chef-ki-braucht-notbremse"
     }
    ]
   },
