@@ -310,25 +310,33 @@ async function offlineSync(onProgress) {
   await Promise.all([worker(), worker(), worker(), worker()]);
   let stored = 0;
   for (const u of urls) { if (await cache.match(new Request(u))) stored++; }
-  const info = { at: Date.now(), total: urls.length, stored, failed, mb: Math.round(bytes / 1048576 * 10) / 10 };
+  const info = { at: Date.now(), total: urls.length, stored, failed, mb: Math.round(bytes / 1048576 * 10) / 10, updated: (store.index && store.index.updated) || null };
   try { localStorage.setItem(OFFLINE_KEY, JSON.stringify(info)); } catch (e) { /* ignorieren */ }
   return info;
 }
 
 const offlineText = (i) => (i ? `Zuletzt gespeichert am ${new Date(i.at).toLocaleString('de-DE', { dateStyle: 'medium', timeStyle: 'short' })} Uhr: ${i.stored} von ${i.total} Dateien (${i.mb} MB)` : 'Noch nichts für Offline gespeichert.');
 
-/* Optional: einmal je Tag beim Start automatisch aktualisieren (nur mit Netz und wenn eingeschaltet) */
-window.addEventListener('load', () => {
-  setTimeout(() => {
-    const i = offlineInfo();
-    if (getSettings().autoOffline && navigator.onLine && (!i || Date.now() - i.at > 12 * 3600 * 1000)) offlineSync().catch(() => { /* ignorieren */ });
-  }, 4000);
-});
+/* Automatisch: sobald die App offen ist und es neue Daten gibt (oder nach Rueckkehr in die App), alles fuer Offline nachladen.
+   Mindestens 20 Minuten Abstand, nur mit Netz, abschaltbar in den Einstellungen. */
+let offlineBusy = false;
+async function autoOffline() {
+  if (offlineBusy || !getSettings().autoOffline || !navigator.onLine) return;
+  const i = offlineInfo();
+  if (i && Date.now() - i.at < 20 * 60 * 1000) return;
+  offlineBusy = true;
+  try {
+    const idx = await loadIndex();
+    if (!i || i.updated !== idx.updated || i.stored < i.total) await offlineSync();
+  } catch (e) { /* ignorieren */ } finally { offlineBusy = false; }
+}
+window.addEventListener('load', () => setTimeout(autoOffline, 4000));
+document.addEventListener('visibilitychange', () => { if (!document.hidden) setTimeout(autoOffline, 1500); });
 
 /* ---------- Einstellungen (nur localStorage) ---------- */
 
 const SET_KEY = 'settings';
-const SET_DEFAULT = { startBriefing: false, region: '', grouping: 'woche', showTop: true, showDE: true, showKurios: true, expandAll: false, showTags: true, autoOffline: false, hidden: [] };
+const SET_DEFAULT = { startBriefing: false, region: '', grouping: 'woche', showTop: true, showDE: true, showKurios: true, expandAll: false, showTags: true, autoOffline: true, hidden: [] };
 let setMem = null;
 
 function getSettings() {
@@ -1017,7 +1025,7 @@ async function viewSettings() {
         });
         return [btn, bar, status];
       })(),
-      toggleRow('Täglich automatisch aktualisieren', 'Beim Öffnen der App, höchstens alle 12 Stunden, ca. 3 MB', 'autoOffline')),
+      toggleRow('Automatisch aktualisieren', 'Sobald es neue Meldungen gibt, wenn die App offen ist (ca. 2 MB, nur mit Netz)', 'autoOffline')),
 
     card_('Startansicht',
       toggleRow('Briefing als Startseite', 'Beim Öffnen direkt das 3-Minuten-Briefing zeigen', 'startBriefing'),
