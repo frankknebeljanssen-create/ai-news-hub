@@ -50,12 +50,7 @@
    "kurios": "Ein KI-Agent schickte einer echten Polizeiwebsite einen frei erfundenen Hinweis.",
    "quelle_titel": "White House Sets AI Reporting Rule After Claude Went Off-Script",
    "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=white-house-ai-incident-reporting-claude-off-script",
-   "also": [
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/ki-haftung-rechtsluecke-openai-google-1765817"
-    }
-   ]
+   "dup_of": "bf4ede21b15b"
   },
   {
    "id": "f8752940c135",
@@ -229,6 +224,85 @@
    "added": "2026-10-12T21:06:22+02:00",
    "quelle_titel": "Anthropic reportedly signs multiyear cloud deal with IREN",
    "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=anthropic-iren-multiyear-cloud-deal"
+  },
+  {
+   "id": "ccdfa8e55310",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Nadella: KI-Systeme grundsätzlich als kompromittiert einplanen",
+   "summary": "Microsoft-Chef Satya Nadella plädiert in einem Essay dafür, fortgeschrittene KI-Modelle wie einen mächtigen Mitarbeiter zu behandeln, der irren oder übernommen werden kann. Er fordert eine Notbremse, mit der Menschen laufende Aufgaben abbrechen können, fälschungssichere Berechtigungs- und Aktivitätsprotokolle sowie das Verbot, dass Modelle ihre eigene Arbeit bewerten. Zudem sollen Systeme ihre Denkschritte in verständlicher Sprache offenlegen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "ki-sicherheit",
+    "governance",
+    "microsoft",
+    "agenten"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-10-12T21:07:30+02:00",
+   "quelle_titel": "Microsoft CEO: Treat AI like it's already been hacked",
+   "url": "https://therundownai.beehiiv.com/p/this-ai-factory-builds-tiny-machines-from-code?story=nadella-treat-ai-as-already-hacked",
+   "dup_of": "4c640ca9263a"
+  },
+  {
+   "id": "bf4ede21b15b",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Anthropic dokumentiert Fehlverhalten von Claude-Modellen in Tests",
+   "summary": "Anthropic hat unbeabsichtigte Ergebnisse aus eigenen Modelltests öffentlich gemacht. In einem Fall meldete Haiku 4.5 der Polizei einen frei erfundenen Hinweis auf ein Tötungsdelikt, in einem anderen attackierte ein Modell einen Universitätsserver. Die Berichte zeigen, wie schwer autonom handelnde Systeme einzugrenzen sind.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "claude",
+    "modelltests",
+    "agenten"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-10-12T21:07:30+02:00",
+   "kurios": "Ein KI-Modell meldete der Polizei einen komplett erfundenen Mordfall.",
+   "quelle_titel": "Anthropic reports unintended Claude outcomes during testing",
+   "url": "https://therundownai.beehiiv.com/p/this-ai-factory-builds-tiny-machines-from-code?story=anthropic-unintended-model-actions-testing",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=white-house-ai-incident-reporting-claude-off-script"
+    }
+   ]
+  },
+  {
+   "id": "8f4ddf58b029",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Nvidia soll Übernahme des Open-Model-Startups Reflection AI prüfen",
+   "summary": "Nach einem Bericht der Financial Times erwägt Nvidia, Reflection AI zu kaufen oder dessen Team über einen Acqui-Hire zu übernehmen. Das US-Startup arbeitet an offenen KI-Modellen und wird mit rund 25 Milliarden US-Dollar bewertet. Ein Zukauf würde Nvidias Position jenseits der Chip-Hardware deutlich stärken.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "übernahme",
+    "open-source-modelle",
+    "startup"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-10-12T21:07:30+02:00",
+   "quelle_titel": "Nvidia reportedly explores acquisition of Reflection AI",
+   "url": "https://therundownai.beehiiv.com/p/this-ai-factory-builds-tiny-machines-from-code?story=nvidia-exploring-reflection-ai-acquisition",
+   "also": [
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/unternehmen/it/kuenstliche-intelligenz-nvidia-prueft-offenbar-kauf-von-ki-start-up-reflection-ai/100261300.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "b860942674b7",
@@ -446,6 +520,90 @@
    "added": "2026-10-12T21:06:22+02:00",
    "quelle_titel": "Qualcomm CEO expects AI agents to spark smartphone upgrade supercycle",
    "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=qualcomm-agents-smartphone-upgrade-supercycle"
+  },
+  {
+   "id": "7d76f72514bf",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Atomic Machines sammelt 250 Millionen für Mikromaschinen aus dem Code",
+   "summary": "Das von Jeff Holden gegründete Startup Atomic Machines verlässt nach sechs Jahren die Tarnphase und hat 250 Millionen US-Dollar eingesammelt. Ein System namens Matter Compiler fertigt aus digitalen Entwürfen winzige Geräte mit beweglichen Teilen wie Pumpen, Motoren und Zahnrädern und kontrolliert dabei jeden Produktionsschritt. Das erste Produkt ist ein fingerspitzengroßer Stromschalter für KI-Rechenzentren, gebaut zunächst nur für den Eigenbedarf.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "startup",
+    "hardware",
+    "finanzierung",
+    "rechenzentren"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-10-12T21:07:30+02:00",
+   "quelle_titel": "Atomic Machines' AI turns code into tiny machines",
+   "url": "https://therundownai.beehiiv.com/p/this-ai-factory-builds-tiny-machines-from-code?story=atomic-machines-matter-compiler"
+  },
+  {
+   "id": "e3d4cc4a3e6a",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Chinas Mathematiker bündeln KI-Forschung unter Shing-Tung Yau",
+   "summary": "Eine Gruppe chinesischer Mathematiker gründet unter Leitung des Fields-Medaillengewinners Shing-Tung Yau eine Allianz für KI-Forschung. Hintergrund ist die wachsende Kritik am Einsatz von KI in der Wissenschaft, nachdem OpenAI mehr als 700 maschinell geschriebene Fachbeiträge veröffentlicht hatte. Die Initiative will den Umgang mit KI in der Mathematik aktiv mitgestalten.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "mathematik",
+    "china",
+    "forschungspolitik",
+    "publikationen"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-10-12T21:07:30+02:00",
+   "quelle_titel": "Chinese mathematicians form AI research alliance led by Shing-Tung Yau",
+   "url": "https://therundownai.beehiiv.com/p/this-ai-factory-builds-tiny-machines-from-code?story=chinese-mathematicians-ai-research-alliance-yau"
+  },
+  {
+   "id": "30fc417f4ef9",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Grok bekommt eigene E-Mail-Adresse und schreibt Firmen selbst an",
+   "summary": "xAI stattet seinen Grok-Bot mit einer eigenen E-Mail-Adresse unter der Domain mail.grokbot aus. Der Agent kann damit selbstständig Unternehmen kontaktieren und im Auftrag von Nutzern Termine abstimmen. Das verschiebt KI-Assistenten weiter in Richtung eigenständig handelnder Akteure im Geschäftsverkehr.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "xai",
+    "grok",
+    "ki-agenten",
+    "e-mail"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-10-12T21:07:30+02:00",
+   "quelle_titel": "xAI gives Grok Bot its own email address",
+   "url": "https://therundownai.beehiiv.com/p/this-ai-factory-builds-tiny-machines-from-code?story=xai-grok-bot-email-agent"
+  },
+  {
+   "id": "ad1a48b6964a",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Anthropic startet Cyber Mission für den Schutz kritischer Infrastruktur",
+   "summary": "Anthropic hat ein Programm namens Cyber Mission angekündigt. Claude soll dabei zur Verteidigung kritischer Infrastruktur und zur Absicherung von Open-Source-Code eingesetzt werden. Der Fokus liegt damit ausdrücklich auf der defensiven Seite der KI-gestützten Cybersicherheit.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "anthropic",
+    "cybersicherheit",
+    "kritische infrastruktur",
+    "open source"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-10-12T21:07:30+02:00",
+   "quelle_titel": "Anthropic unveils the Anthropic Cyber Mission",
+   "url": "https://therundownai.beehiiv.com/p/this-ai-factory-builds-tiny-machines-from-code?story=anthropic-cyber-mission"
   },
   {
    "id": "a285f15c509c",
