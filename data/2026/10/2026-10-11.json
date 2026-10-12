@@ -1,14 +1,18 @@
 {
  "date": "2026-10-11",
- "generated_at": "2026-10-12T01:37:48+02:00",
+ "generated_at": "2026-10-12T02:43:10+02:00",
  "overview": [
   {
    "id": "7a2c431cb54f",
-   "text": "Der geplante Rahmenvertrag der Bundesregierung mit Mistral und SAP ist vorerst gescheitert und verzögert europäische KI-Pläne für die Verwaltung."
+   "text": "Der geplante Rahmenvertrag der Bundesregierung mit Mistral und SAP ist vorerst gescheitert, was Fragen zur digitalen Souveränität des Bundes aufwirft."
   },
   {
    "id": "4c640ca9263a",
-   "text": "Microsoft-Chef Nadella rät, KI-Modelle grundsätzlich als kompromittiert zu behandeln, statt ihren Ausgaben und Handlungen blind zu vertrauen."
+   "text": "Microsoft-Chef Nadella fordert, KI-Modelle grundsätzlich als kompromittiert zu behandeln, statt ihre Ausgaben blind zu übernehmen."
+  },
+  {
+   "id": "0d39ec33f560",
+   "text": "Nvidia prüft laut Bericht die Übernahme des Startups Reflection AI und würde damit in den Markt für KI-Programmierhilfen vorstoßen."
   },
   {
    "id": "4ab4cf1dbcd1",
@@ -16,23 +20,19 @@
   },
   {
    "id": "6e582006431f",
-   "text": "Nur rund 11 Prozent der deutschen Unternehmen haben ein Schutzkonzept gegen KI-gestützte Cyberangriffe, während Angreifer immer professioneller werden."
+   "text": "Nur rund 11 Prozent der deutschen Unternehmen haben überhaupt ein Schutzkonzept gegen Cyberangriffe, bei denen Angreifer KI einsetzen."
   },
   {
-   "id": "0d39ec33f560",
-   "text": "Nvidia prüft laut Bericht den Kauf des Coding-Startups Reflection AI und würde so über Chips hinaus in den Markt für Programmierassistenten vorstoßen."
-  },
-  {
-   "id": "2c612ed415e5",
-   "text": "Microsoft und Meta fahren den internen Einsatz von Anthropics Claude Code zurück und lassen ihre Entwicklungsteams stärker auf eigene Werkzeuge setzen."
-  },
-  {
-   "id": "889d5ea2f0a7",
-   "text": "Justizministerin Hubig will Sozialgerichte mit Regeln für strukturierten Parteivortrag vor hunderte Seiten langen KI-Schriftsätzen schützen."
+   "id": "f85cbdd44aa1",
+   "text": "Während die Preise pro Token weiter fallen, bleibt die Miete für H100-Karten teuer, weil die Nachfrage schneller wächst als die Stückkosten sinken."
   },
   {
    "id": "1bab629149b6",
-   "text": "Laut HP-Studie verbessern der Einsatz von KI im Job und Weiterbildungsangebote die Stimmung deutscher Büroangestellter spürbar."
+   "text": "Laut HP Work Relationship Index verbessern KI-Einsatz im Job und Weiterbildungsangebote die Stimmung deutscher Büroangestellter."
+  },
+  {
+   "id": "f74f6584c805",
+   "text": "Odyssey gibt sein Weltmodell Odyssey-3 als Forschungsvorschau frei, das aus Textbefehlen in Echtzeit begehbare Umgebungen erzeugt."
   }
  ],
  "items": [
@@ -79,6 +79,11 @@
     {
      "source": "Tagesspiegel Wirtschaft",
      "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-ki-sorgen-microsoft-chef-will-notbremse-in-kunstlicher-intelligenz-16149986.html",
+     "paywall": true
+    },
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/technologie/digitale-welt/ki-sorgen-microsoft-chef-will-notbremse-in-kuenstlicher-intelligenz/100261339.html",
      "paywall": true
     },
     {
@@ -293,6 +298,30 @@
    "quelle_titel": "Softwareentwicklung: KI-Flut bringt mehr Code und weniger Fortschritt",
    "url": "https://www.golem.de/news/softwareentwicklung-ki-flut-bringt-mehr-code-und-weniger-fortschritt-2610-213961.html",
    "kontext": "Zwei Forschende der Harvard University haben Telemetriedaten des Analysedienstes Jellyfish ausgewertet, die Arbeitsschritte von Hunderttausenden Beschäftigten in über 700 Softwarefirmen seit 2021 abdecken. Verglichen wurden Teams vor und nach der Einführung von Assistenten beziehungsweise autonom arbeitenden Agenten. Der Ausstoß an Zeilen, Commits und Pull Requests steigt klar, abgeschlossene Features dagegen nicht. Auch Stellen wurden nicht abgebaut, der Engpass verschiebt sich in die Prüfung."
+  },
+  {
+   "id": "e371c48dc43a",
+   "date": "2026-10-11",
+   "published": "2026-10-11T13:04+02:00",
+   "headline": "Nadella fordert Not-Aus-Mechanismen für KI-Systeme",
+   "summary": "Microsoft-Chef Satya Nadella bringt nach Berichten über KI-gestützte Hackerangriffe eigene Regeln für den Umgang mit der Technologie ins Spiel, darunter die Möglichkeit, Systeme im Notfall zu stoppen. Dass ausgerechnet der Chef eines der größten KI-Anbieter solche Schranken vorschlägt, zeigt, wie ernst die Risiken inzwischen in der Branche genommen werden. Für Unternehmen deutet das auf strengere Sicherheitsanforderungen beim Einsatz von KI hin.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "microsoft",
+    "nadella",
+    "ki-regulierung",
+    "sicherheit",
+    "hacking"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-10-12T02:40:53+02:00",
+   "paywall": true,
+   "quelle_titel": "KI-Sorgen: Microsoft-Chef will „Notbremse“ in Künstlicher Intelligenz",
+   "url": "https://www.wiwo.de/technologie/digitale-welt/ki-sorgen-microsoft-chef-will-notbremse-in-kuenstlicher-intelligenz/100261339.html",
+   "dup_of": "4c640ca9263a"
   },
   {
    "id": "54c5874926de",
