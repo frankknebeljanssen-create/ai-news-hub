@@ -1,14 +1,30 @@
 {
  "date": "2026-10-12",
- "generated_at": "2026-10-12T05:54:56+02:00",
+ "generated_at": "2026-10-12T07:04:24+02:00",
  "overview": [
   {
    "id": "f8752940c135",
-   "text": "Ohne geregelten Zugriff auf interne Datenquellen scheitern KI-Projekte im Betrieb selbst dann, wenn Modellqualität und Rechenleistung stimmen."
+   "text": "Viele KI-Projekte scheitern nicht an Modellen oder Rechenleistung, sondern daran, dass die Systeme keinen Zugang zu den passenden internen Daten haben."
+  },
+  {
+   "id": "84622c6c3092",
+   "text": "Der Landmaschinenbauer Horsch räumt seine hybride IT auf und will so KI-Funktionen für seine mehr als 3.500 Beschäftigten im Alltag nutzbar machen."
+  },
+  {
+   "id": "600ec5eda892",
+   "text": "KI übernimmt in der IT-Sicherheit Triage und Auswertung, Teams werden wie bei LastPass zusammengelegt und Fachkräfte brauchen neue Qualifikationen."
+  },
+  {
+   "id": "318cd34a5d44",
+   "text": "Datenkultur entsteht laut Fachleuten erst durch sichtbare Erfolge, weshalb Firmen besser einzelne Anwendungsfälle statt Kulturprogramme vorantreiben."
   },
   {
    "id": "02e58575b9d9",
-   "text": "Cloud, verteiltes Arbeiten und KI erschweren den Schutz sensibler Firmendaten, wobei KI selbst Datenflüsse überwacht und Risiken früher erkennt."
+   "text": "Cloud, verteiltes Arbeiten und KI erschweren den Schutz sensibler Firmendaten, doch KI kann Datenflüsse überwachen und Risiken früher sichtbar machen."
+  },
+  {
+   "id": "b860942674b7",
+   "text": "Microsoft rüstet Dynamics 365 mit 30 neuen CRM-Funktionen aus, damit Copilot und KI-Agenten Routineaufgaben in Vertrieb und Service übernehmen."
   }
  ],
  "items": [
@@ -36,6 +52,50 @@
    "kontext": "Hinter der Einschätzung steht der Analytics-Anbieter Starburst, der den Datenzugriff als Voraussetzung produktiver KI sieht. In vielen Firmen liegen Informationen verstreut in Datenbanken, SaaS-Diensten und Abteilungssystemen, manches darf aus regulatorischen Gründen gar nicht umziehen. Das klassische Kopieren in ein Data Warehouse kostet laufend Pflege und schafft Abhängigkeit von Plattformanbietern. Als Gegenmodell gilt die Föderierung über eine zentrale Zugriffsschicht, die lange als zu langsam galt."
   },
   {
+   "id": "600ec5eda892",
+   "date": "2026-10-12",
+   "published": "2026-10-12T06:00+02:00",
+   "headline": "IT-Security: KI verschiebt Rollen und erzwingt neue Kompetenzen",
+   "summary": "In der Cybersicherheit übernehmen KI- und Analysewerkzeuge zunehmend Triage- und Auswertungsaufgaben, wodurch spezialisierte Teams zusammengelegt werden. Beim Passwortdienst LastPass etwa wurde die eigene Abteilung für Schwachstellenmanagement in die IT- und Produktsicherheit integriert. Für Sicherheitsfachkräfte bedeutet das einen klaren Bedarf an neuen Qualifikationen statt reiner Routinearbeit.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "cybersecurity",
+    "jobwandel",
+    "qualifizierung",
+    "automatisierung"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-10-12T07:02:42+02:00",
+   "quelle_titel": "Wie KI die Jobs in der IT-Security verändert",
+   "url": "https://www.computerwoche.de/article/4228221/wie-ki-die-jobs-in-der-it-security-verandert.html"
+  },
+  {
+   "id": "1a1393da0514",
+   "date": "2026-10-12",
+   "published": "2026-10-12T06:42+02:00",
+   "headline": "Nadella fordert Notbremse für KI-Systeme",
+   "summary": "Microsoft-Chef Satya Nadella plädiert für einen Mechanismus, mit dem sich KI-Systeme im Notfall stoppen lassen. Hintergrund ist seine Sorge, dass Menschen die Kontrolle über immer leistungsfähigere Modelle verlieren könnten. Die Forderung zeigt, dass Sicherheitsmechanismen auch in der Industrie selbst zunehmend diskutiert werden.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "microsoft",
+    "ki-sicherheit",
+    "nadella",
+    "kontrolle"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-12T07:02:42+02:00",
+   "quelle_titel": "Microsoft-Chef: KI braucht eine «Notbremse»",
+   "url": "https://www.it-daily.net/shortnews/microsoft-chef-ki-braucht-notbremse",
+   "dup_of": "4c640ca9263a"
+  },
+  {
    "id": "b860942674b7",
    "date": "2026-10-12",
    "published": "2026-10-12T00:03+02:00",
@@ -54,8 +114,7 @@
    "source_id": "gn-unternehmen",
    "added": "2026-10-12T00:21:35+02:00",
    "quelle_titel": "Dynamics 365: Microsoft führt 30 CRM-Skills für Copilot und KI-Agenten ein",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZGpnSWROaEVUTHYyZjEycmlGMXpSZEZOc3RYUXQzM29SQzZndF84OWk1Z0s3OWU3QnlwUFhVdlktRi1tRXpYc0g2QmtuODNxTVViS2tfRnVIaGZSUDJPUWV1UWVKSm1TVE5Cd2JRQld5S1NJLXNoeVU1TnNtMDdYYUY5bkVlbXZIYTNBMHppYm9seVB5aUdFQmdaMmUxQ2JMOFN6Q2xKUExDYU1FYmU5YXYwSVQ5QnhWdGFYcg?oc=5",
-   "dup_of": "7d316d4c3679"
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZGpnSWROaEVUTHYyZjEycmlGMXpSZEZOc3RYUXQzM29SQzZndF84OWk1Z0s3OWU3QnlwUFhVdlktRi1tRXpYc0g2QmtuODNxTVViS2tfRnVIaGZSUDJPUWV1UWVKSm1TVE5Cd2JRQld5S1NJLXNoeVU1TnNtMDdYYUY5bkVlbXZIYTNBMHppYm9seVB5aUdFQmdaMmUxQ2JMOFN6Q2xKUExDYU1FYmU5YXYwSVQ5QnhWdGFYcg?oc=5"
   },
   {
    "id": "02e58575b9d9",
@@ -78,6 +137,51 @@
    "quelle_titel": "Wie KI den Schutz sensibler Unternehmensdaten verbessern kann",
    "url": "https://www.it-daily.net/it-sicherheit/cloud-security/ki-schutz-sensible-unternehmensdaten",
    "kontext": "Der Beitrag zeigt, wo klassische Verfahren an Grenzen stoßen: händische Klassifizierung und starre Regeln, die den ständigen Datenfluss zwischen Beschäftigten, Anwendungen und Cloud-Diensten nicht mehr abbilden. Neu hinzu kommen KI-Agenten, die selbstständig auf Informationen zugreifen und handeln. Modelle sollen Inhalte am Kontext erkennen, auch wenn diese in Mails, Screenshots oder anderen Formaten weiterwandern. Je nach bewertetem Risiko lassen sich Vorgänge dann freigeben, blockieren oder zusätzlich prüfen."
+  },
+  {
+   "id": "318cd34a5d44",
+   "date": "2026-10-12",
+   "published": "2026-10-12T06:00+02:00",
+   "headline": "Datenkultur lässt sich nicht verordnen: Warum viele KI-Projekte scheitern",
+   "summary": "Trotz hoher Investitionen in Daten, Analytics und KI bleibt bei vielen Unternehmen der geschäftliche Nutzen aus. Fachleute argumentieren, dass eine Datenkultur nicht von oben entworfen werden kann, sondern erst als Ergebnis sichtbarer Wertschöpfung entsteht. Für Führungskräfte heißt das, zuerst konkrete Anwendungsfälle zum Erfolg zu führen statt Kulturprogramme auszurollen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "datenkultur",
+    "analytics",
+    "change management",
+    "führung"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-10-12T07:02:42+02:00",
+   "praxis": true,
+   "quelle_titel": "Warum Sie Datenkultur nicht “designen” können",
+   "url": "https://www.computerwoche.de/article/4157653/warum-sie-datenkultur-nicht-designen-konnen.html"
+  },
+  {
+   "id": "84622c6c3092",
+   "date": "2026-10-12",
+   "published": "2026-10-12T06:13+02:00",
+   "headline": "Landtechnik-Hersteller Horsch vereinfacht IT und bringt KI in den Arbeitsalltag",
+   "summary": "Der bayerische Landmaschinenbauer Horsch mit mehr als 3.500 Beschäftigten litt unter einer aufwendigen hybriden IT-Landschaft, in der Identitätsverwaltung und Sicherheitsnachrüstungen das kleine IT-Team stark banden. Mit dem Wechsel der Arbeitsumgebung sollen KI-Funktionen für die Mitarbeitenden einfacher nutzbar werden. Der Fall zeigt, wie Mittelständler Infrastrukturaufräumen und KI-Einführung verbinden.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "mittelstand",
+    "google workspace",
+    "it-infrastruktur",
+    "ki-einführung"
+   ],
+   "source": "CIO",
+   "source_id": "cio",
+   "added": "2026-10-12T07:02:42+02:00",
+   "quelle_titel": "Horsch macht KI mit Google Workplace zum intuitiven Tool",
+   "url": "https://www.cio.de/article/4231860/horsch-macht-ki-im-office-zum-intuitiven-tool.html"
   }
  ]
 }
