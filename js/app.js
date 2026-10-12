@@ -277,10 +277,58 @@ function shareBtn(item, label) {
   return b;
 }
 
+/* ---------- Offline speichern: alle Daten und App-Dateien in den Zwischenspeicher des Service Workers laden ---------- */
+
+const OFFLINE_KEY = 'offlineSaved';
+const SW_CACHE = 'kinews-v5'; // gleicher Name wie in sw.js (CACHE)
+function offlineInfo() { try { return JSON.parse(localStorage.getItem(OFFLINE_KEY)) || null; } catch (e) { return null; } }
+
+async function offlineUrls() {
+  const index = await getJSON('data/index.json');
+  const days = [...new Set(index.items.map((i) => i.date))];
+  const html = await (await fetch('index.html', { cache: 'no-cache' })).text();
+  const assets = [...html.matchAll(/(?:href|src)="((?:css|js|icons)\/[^"]+)"/g)].map((m) => m[1]);
+  const urls = ['./', 'index.html', 'manifest.webmanifest', 'data/index.json', 'data/state.json', 'content/glossar.json', 'content/modelle.json', 'impressum.json',
+    'icons/icon-192.png?v=4', 'icons/icon.svg?v=4', 'icons/apple-touch-icon.png?v=4', ...assets, ...days.map((d) => `data/${d.slice(0, 4)}/${d.slice(5, 7)}/${d}.json`)];
+  return [...new Set(urls)];
+}
+
+/* Laedt alles herunter (der Service Worker legt es ab) und prueft danach, dass jede Datei im Speicher liegt. */
+async function offlineSync(onProgress) {
+  if (!navigator.onLine) throw new Error('offline');
+  const urls = await offlineUrls();
+  const cache = await caches.open(SW_CACHE);
+  let done = 0, bytes = 0, failed = 0;
+  const queue = urls.slice();
+  const worker = async () => {
+    while (queue.length) {
+      const u = queue.shift();
+      try { const r = await fetch(u, { cache: 'no-cache' }); if (!r.ok) throw new Error(String(r.status)); bytes += (await r.clone().blob()).size; await cache.put(new Request(u), r.clone()); } catch (e) { failed++; }
+      done++; if (onProgress) onProgress(done, urls.length);
+    }
+  };
+  await Promise.all([worker(), worker(), worker(), worker()]);
+  let stored = 0;
+  for (const u of urls) { if (await cache.match(new Request(u))) stored++; }
+  const info = { at: Date.now(), total: urls.length, stored, failed, mb: Math.round(bytes / 1048576 * 10) / 10 };
+  try { localStorage.setItem(OFFLINE_KEY, JSON.stringify(info)); } catch (e) { /* ignorieren */ }
+  return info;
+}
+
+const offlineText = (i) => (i ? `Zuletzt gespeichert am ${new Date(i.at).toLocaleString('de-DE', { dateStyle: 'medium', timeStyle: 'short' })} Uhr: ${i.stored} von ${i.total} Dateien (${i.mb} MB)` : 'Noch nichts für Offline gespeichert.');
+
+/* Optional: einmal je Tag beim Start automatisch aktualisieren (nur mit Netz und wenn eingeschaltet) */
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    const i = offlineInfo();
+    if (getSettings().autoOffline && navigator.onLine && (!i || Date.now() - i.at > 12 * 3600 * 1000)) offlineSync().catch(() => { /* ignorieren */ });
+  }, 4000);
+});
+
 /* ---------- Einstellungen (nur localStorage) ---------- */
 
 const SET_KEY = 'settings';
-const SET_DEFAULT = { startBriefing: false, region: '', grouping: 'woche', showTop: true, showDE: true, showKurios: true, expandAll: false, showTags: true, hidden: [] };
+const SET_DEFAULT = { startBriefing: false, region: '', grouping: 'woche', showTop: true, showDE: true, showKurios: true, expandAll: false, showTags: true, autoOffline: false, hidden: [] };
 let setMem = null;
 
 function getSettings() {
@@ -951,6 +999,25 @@ async function viewSettings() {
         h('span', { class: 'fs-val' }, `${fsNow} px`),
         h('button', { class: 'btn', type: 'button', disabled: fsNow >= FS_STEPS[FS_STEPS.length - 1], onclick: () => { stepFs(1); redo(); } }, 'A+'),
         h('button', { class: 'btn', type: 'button', onclick: () => { try { localStorage.removeItem('fs'); } catch (e) { /* ignorieren */ } applyFs(FS_DEFAULT); redo(); } }, `Standard (${FS_DEFAULT} px)`))),
+
+    card_('Offline lesen',
+      h('p', { class: 'set-text' }, 'Speichert alle Meldungen, das Glossar, die Modelle und die App auf diesem Gerät, damit du sie auch ohne Netz lesen kannst, zum Beispiel im Flugzeug. Vorher mit WLAN oder Mobilfunk verbinden.'),
+      (() => {
+        const status = h('p', { class: 'set-text off-status', role: 'status', 'aria-live': 'polite' }, offlineText(offlineInfo()));
+        const bar = h('div', { class: 'off-bar', hidden: true }, h('i', null));
+        const btn = h('button', { class: 'btn primary', type: 'button' }, 'Für Offline speichern');
+        btn.addEventListener('click', async () => {
+          btn.disabled = true; bar.hidden = false; status.textContent = 'Wird gespeichert …';
+          try {
+            const info = await offlineSync((d, t) => { bar.firstChild.style.width = `${Math.round((d / t) * 100)}%`; status.textContent = `Wird gespeichert … ${d} von ${t}`; });
+            status.textContent = (info.failed || info.stored < info.total ? `Nicht vollständig: ${info.total - info.stored} Datei(en) fehlen. ` : 'Fertig. ') + offlineText(info) + ('serviceWorker' in navigator ? '' : ' Dieser Browser unterstützt den Offline-Modus nicht.');
+            toast(info.failed ? 'Teilweise gespeichert' : 'Alles offline gespeichert');
+          } catch (e) { status.textContent = navigator.onLine ? 'Speichern fehlgeschlagen. Bitte später erneut versuchen.' : 'Kein Netz. Zum Speichern bitte online gehen.'; }
+          bar.hidden = true; btn.disabled = false;
+        });
+        return [btn, bar, status];
+      })(),
+      toggleRow('Täglich automatisch aktualisieren', 'Beim Öffnen der App, höchstens alle 12 Stunden, ca. 3 MB', 'autoOffline')),
 
     card_('Startansicht',
       toggleRow('Briefing als Startseite', 'Beim Öffnen direkt das 3-Minuten-Briefing zeigen', 'startBriefing'),
