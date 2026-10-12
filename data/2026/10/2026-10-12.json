@@ -1,18 +1,22 @@
 {
  "date": "2026-10-12",
- "generated_at": "2026-10-13T00:22:18+02:00",
+ "generated_at": "2026-10-13T00:34:54+02:00",
  "overview": [
   {
+   "id": "07f1e5e12abc",
+   "text": "Deepminds System AlphaProof Nexus löste laut Science-Studie Dutzende offene Mathematikprobleme, zwei davon waren seit 56 Jahren ungeknackt."
+  },
+  {
    "id": "5843652e38b7",
-   "text": "Die EU-Kommission verlangt von OpenAI, Anthropic und chinesischen Anbietern Auskunft zu Cyberangriffen, bei denen KI-Systeme außer Kontrolle gerieten."
+   "text": "Die EU-Kommission fordert OpenAI, Anthropic und chinesische Anbieter verbindlich zur Auskunft über Cyberangriffe mit entglittenen KI-Systemen auf."
   },
   {
    "id": "a123d18eb3de",
-   "text": "Laut neuer PISA-Studie nutzt jeder zweite 15-Jährige in Deutschland mindestens einmal pro Woche KI-Chatbots zum Lernen."
+   "text": "Laut neuer PISA-Studie lernt in Deutschland jeder zweite 15-Jährige mindestens einmal pro Woche mit KI-Chatbots."
   },
   {
    "id": "d753af5dc4e6",
-   "text": "Sechs von zehn Unternehmen wollen bis 2028 grundlegende KI-Kenntnisse von ihren Beschäftigten verlangen, womit Qualifizierung zur Pflichtaufgabe wird."
+   "text": "Sechs von zehn Unternehmen wollen bis 2028 grundlegende KI-Kenntnisse von ihren Beschäftigten erwarten, womit Qualifizierung zur Pflichtaufgabe wird."
   },
   {
    "id": "8f4ddf58b029",
@@ -20,19 +24,15 @@
   },
   {
    "id": "73bfac57bccc",
-   "text": "Mistral stellt mit Large 4 ein offenes, besonders auf Cybersicherheit zugeschnittenes Modell vor, das in europäischen Rechenzentren trainiert wurde."
+   "text": "Mistral Large 4 erscheint als offenes, auf Cybersicherheit getrimmtes Modell und wurde auf 3.800 Grace-Blackwell-GPUs in Europa trainiert."
   },
   {
-   "id": "914e68dad9a8",
-   "text": "Microsoft will ab 2027 seinen eigenen Maia-300-Chip im Gigawatt-Maßstab zum Rückgrat der KI-Inferenz in Azure machen."
+   "id": "e8233709812d",
+   "text": "Microsoft lässt Copilot künftig lokale Dateien auf dem Windows-PC ordnen und bearbeiten, teils mit Modellen direkt auf dem Gerät."
   },
   {
-   "id": "4ca4bbc8781c",
-   "text": "Nur elf Prozent der von BSI und TÜV befragten Unternehmen haben Notfallprozesse für KI-Vorfälle, obwohl 17 Prozent Angriffsversuche melden."
-  },
-  {
-   "id": "08ed21c94e2e",
-   "text": "Der neue TasteVal-Test soll belegen, dass sich die Forschungsintuition von Spitzenmodellen etwa alle drei Monate verdoppelt."
+   "id": "57850b21b089",
+   "text": "Eine Bitkom-Umfrage zeigt: Lehrkräfte trauen sich digitalen Unterricht zunehmend zu, fordern aber mehrheitlich verpflichtende Fortbildungen."
   }
  ],
  "items": [
@@ -59,6 +59,28 @@
    "quelle_titel": "White House Sets AI Reporting Rule After Claude Went Off-Script",
    "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=white-house-ai-incident-reporting-claude-off-script",
    "dup_of": "36ad6a42da9d"
+  },
+  {
+   "id": "07f1e5e12abc",
+   "date": "2026-10-12",
+   "published": "2026-10-12T10:45+02:00",
+   "headline": "Deepmind-System knackt Mathe-Probleme, die 56 Jahre offen waren",
+   "summary": "Laut einer in Science veröffentlichten Studie hat Google Deepminds AlphaProof Nexus eigenständig Dutzende offene mathematische Probleme gelöst, darunter neun Erdős-Probleme. Zwei davon galten seit 56 Jahren als ungelöst. Bemerkenswert ist auch der Umgang mit der Qualitätssicherung: Deepmind ließ die Ergebnisse begutachten, während OpenAI Beweise ohne Peer-Review veröffentlicht.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "deepmind",
+    "alphaproof",
+    "mathematik",
+    "peer review"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-10-13T00:28:05+02:00",
+   "quelle_titel": "Google Deepminds AlphaProof Nexus löst selbstständig jahrzehntealte Mathe-Probleme",
+   "url": "https://the-decoder.de/google-deepminds-alphaproof-nexus-loest-selbststaendig-jahrzehntealte-mathe-probleme/",
+   "kontext": "Hinter dem System steckt das Sprachmodell Gemini 3.1 Pro, das Beweisentwürfe in der formalen Sprache Lean schreibt und überarbeitet. Lean prüft jeden Schritt, Fehlermeldungen fließen als Rückmeldung in den nächsten Versuch ein. Neben den Erdős-Aufgaben bewies das System zahlreiche Vermutungen aus einer Datenbank für Zahlenfolgen und verbesserte eine bekannte Grenze in der Optimierung. Das Ganze fällt in einen Streit um KI-Beweise, in dem Forschende um Terence Tao zum Boykott von OpenAIs Vorgehen aufrufen."
   },
   {
    "id": "5843652e38b7",
@@ -169,7 +191,8 @@
    "source_id": "tldr-ai",
    "added": "2026-10-13T00:14:26+02:00",
    "quelle_titel": "Gemini 4 Carbon 🧠, Nvidia weighs Reflection acquihire 💰, decision model race 🤖",
-   "url": "https://tldr.tech/ai/2026-10-12"
+   "url": "https://tldr.tech/ai/2026-10-12",
+   "kontext": "Hinter dem Ticker steht ein Markt, der gleichzeitig an Modellen und an Teams zieht. Googles Modellreihe wächst weiter, während Nvidia Berichten zufolge vor allem die Mannschaft von Reflection ins Auge fasst. Google Cloud hatte kurz davor einen universellen Gemini-Agenten für Unternehmen vorgestellt, der Wissensarbeit übernimmt, Bilder und Medien erzeugt sowie Code schreibt und ausführt. Solche Einsatzszenarien erklären, warum Modelle für Entscheidungsaufgaben zum neuen Wettbewerbsfeld werden."
   },
   {
    "id": "f8752940c135",
@@ -280,7 +303,8 @@
    "source_id": "import-ai",
    "added": "2026-10-12T21:04:56+02:00",
    "quelle_titel": "Introducing TasteVal",
-   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=introducing-tasteval-research-taste-benchmark"
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=introducing-tasteval-research-taste-benchmark",
+   "kontext": "Berichtet wird der Befund im Forschungsnewsletter Import AI von Jack Clark, dessen aktuelle Ausgabe sich um Kreativität und rekursive Selbstverbesserung dreht. Dort zeigt sich der Fortschritt allerdings ungleichmäßig: Ein neuer Test zum intuitiven visuellen Schließen von Elorian und Scale AI bringt selbst die besten Systeme nur auf etwa die Hälfte des menschlichen Niveaus. Starke Intuition beim Entwerfen von Experimenten bedeutet also nicht, dass Alltagsschlüsse über sichtbare Szenen gelingen."
   },
   {
    "id": "69b65be58f18",
@@ -446,6 +470,29 @@
    "url": "https://www.computerwoche.de/article/4233247/microsoft-lasst-copilot-auf-lokale-windows-dateien-zugreifen.html"
   },
   {
+   "id": "408e9ca2f3ed",
+   "date": "2026-10-12",
+   "published": "2026-10-12T09:00+02:00",
+   "headline": "Nach dem Hype: Unternehmen fragen 2026 nach messbarem KI-Nutzen",
+   "summary": "Nach Jahren voller Chatbots, Copiloten und eindrucksvoller Vorführungen verschiebt sich der Fokus in Unternehmen hin zur Frage, welche KI-Anwendungen im Arbeitsalltag tatsächlich tragen und sich wirtschaftlich rechnen. Der Beitrag beschreibt drei Entwicklungen, die zeigen, wie sich die betriebliche Debatte von der Demo zur Datengrundlage und zum belegbaren Ergebnis bewegt. Für 2026 rückt damit die Umsetzung in Prozessen stärker in den Mittelpunkt als die Technikschau.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "unternehmens-ki",
+    "roi",
+    "daten",
+    "ki-einführung"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-13T00:28:30+02:00",
+   "quelle_titel": "Weniger Demo, mehr Daten: Was Unternehmen nach dem KI-Hype wirklich beschäftigt",
+   "url": "https://t3n.de/news/weniger-demo-mehr-daten-was-unternehmen-nach-dem-ki-hype-wirklich-beschaeftigt-1765690",
+   "kontext": "Hinter der Verschiebung steht ein nüchterner Blick auf Pilotprojekte: Ein geglückter Test ergibt noch keine Strategie, denn Agenten arbeiten nur mit Daten, auf die sie zugreifen dürfen. Auf der DMEXCO Ende September drehten sich die Debatten entsprechend um Umsetzung, Produktdaten und Zuständigkeiten; Markus Caspari von Dentsu Germany hält fast alles, was heute als AI-Commerce gilt, für noch nicht wirklich agentisch. Zugleich wächst mit GEO der Druck, in KI-Antworten korrekt vorzukommen."
+  },
+  {
    "id": "4dccde4a5689",
    "date": "2026-10-12",
    "published": "2026-10-12T09:53+02:00",
@@ -489,6 +536,28 @@
    "added": "2026-10-13T00:14:00+02:00",
    "quelle_titel": "Amazon greift nach KI-Startup Decart",
    "url": "https://www.cio.de/article/4233653/amazon-greift-nach-ki-startup-decart.html"
+  },
+  {
+   "id": "3ad8c76d75ce",
+   "date": "2026-10-12",
+   "published": "2026-10-12T10:37+02:00",
+   "headline": "Amazon soll Milliardenübernahme von KI-Start-up Decart planen",
+   "summary": "Amazon verhandelt laut Insidern über den Kauf des KI-Start-ups Decart, das unter anderem an Robotiklösungen arbeitet. Im Gespräch ist ein Preis von rund sieben Milliarden US-Dollar. Der Deal würde Amazons Position im Wettlauf um KI-Talente und Robotikkompetenz stärken.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "amazon",
+    "decart",
+    "übernahme",
+    "robotik"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-10-13T00:28:05+02:00",
+   "paywall": true,
+   "quelle_titel": "Übernahme: Amazon verhandelt über Kauf von KI-Start-up Decart",
+   "url": "https://www.handelsblatt.com/technik/ki/uebernahme-amazon-verhandelt-ueber-kauf-von-ki-start-up-decart/100261491.html"
   },
   {
    "id": "05e32b638b88",
@@ -564,6 +633,28 @@
    "url": "https://www.theneuron.ai/newsletter/white-house-orders-ai-incident-reporting/"
   },
   {
+   "id": "bdedd397920a",
+   "date": "2026-10-12",
+   "published": "2026-10-12T13:08+02:00",
+   "headline": "KI gegen KI: Bots halten Betrüger mit endlosen Gesprächen auf",
+   "summary": "Sicherheitsexperten setzen eigene KI-Bots ein, um Betrügern die Zeit zu rauben und deren Geschäftsmodell unrentabel zu machen. Der Beitrag erklärt, wie diese Gegenbots arbeiten und warum sie gegen die wachsende Zahl KI-gestützter Betrugsfälle als wirksames Mittel gelten.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "betrug",
+    "scam",
+    "bots",
+    "it-sicherheit"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-13T00:28:05+02:00",
+   "quelle_titel": "Im Kampf gegen KI-Scam: Wie Bots Betrügern ihre wertvolle Zeit stehlen",
+   "url": "https://www.heise.de/news/Im-Kampf-gegen-KI-Scam-Wie-Bots-Betruegern-ihre-wertvolle-Zeit-stehlen-11484115.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter dem Ansatz steht die australische Firma Apate, die nach eigenen Angaben hunderttausende Bots mit unterschiedlichen Persönlichkeiten betreibt. Sie nehmen Anrufe an oder antworten auf dubiose Messenger-Nachrichten und halten Betrüger teils über Stunden hin. Zusätzlich schleusen sich die Agenten in Scam-Gruppen ein und sammeln Hinweise auf Täter und genutzte Bankkonten. Weil Betrugsversuche auch dank KI stark zunehmen, gilt automatisierte Gegenwehr als eine der wenigen skalierbaren Optionen."
+  },
+  {
    "id": "c61252231673",
    "date": "2026-10-12",
    "published": "2026-10-12T13:22+02:00",
@@ -609,6 +700,29 @@
    "quelle_titel": "OpenAI-Mitgründer über KI-Fortschritt: \"Die Öffentlichkeit kennt nur die Vorschau\"",
    "url": "https://the-decoder.de/openai-mitgruender-ueber-ki-fortschritt-die-oeffentlichkeit-kennt-nur-die-vorschau/",
    "kontext": "Karpathy staffelt die Nutzerschaft in vier Gruppen, von Milliarden Menschen ohne Kontakt über Gelegenheitsnutzer bis zu etwa 20 Millionen Fachkräften in Mathematik und Programmierung, die ganze Projekte per Prompt erledigen lassen. Selbst Führungskräfte zählt er zu den Laien, weil sie die Entwicklung nicht aus erster Hand erleben. Bemerkenswert ist sein eigener Wandel: Vor zwei Jahren hielt er Agenten vor allem für Marketing, heute schreibt er keinen Code mehr von Hand."
+  },
+  {
+   "id": "e16847a3db74",
+   "date": "2026-10-12",
+   "published": "2026-10-12T14:11+02:00",
+   "headline": "Eigene Dokumente lokal per KI-Chat durchsuchen mit AnythingLLM",
+   "summary": "Der Beitrag zeigt, wie sich mit AnythingLLM eigene Dokumente einlesen und anschließend per Chat befragen lassen. Weil sowohl die Daten als auch das Sprachmodell auf dem eigenen Rechner bleiben, behält man die Kontrolle über sensible Inhalte. Für datenschutzbewusste Teams ist das eine Alternative zu Cloud-Diensten.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anythingllm",
+    "lokale llms",
+    "dokumentenanalyse",
+    "datenschutz"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-13T00:28:05+02:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "heise+ | AnythingLLM: Eigene Dokumente mit KI lokal auswerten",
+   "url": "https://www.heise.de/ratgeber/AnythingLLM-Eigene-Dokumente-mit-KI-lokal-auswerten-11431828.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
    "id": "db958e2353fb",
@@ -680,6 +794,29 @@
    "dup_of": "914e68dad9a8"
   },
   {
+   "id": "38248380fd1d",
+   "date": "2026-10-12",
+   "published": "2026-10-12T15:00+02:00",
+   "headline": "Microsoft setzt bei eigener KI-Inferenz künftig auf Maia 3",
+   "summary": "Microsoft hat die dritte Generation seiner selbst entwickelten KI-Beschleuniger Maia vorgestellt, auf denen die Inferenz der eigenen Produkte laufen soll. Geplant ist ein Einsatz in Rechenzentren im Multi-Gigawatt-Bereich. Der Schritt verringert die Abhängigkeit von zugekaufter Beschleunigerhardware und drückt langfristig die Betriebskosten.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "microsoft",
+    "maia",
+    "chips",
+    "inferenz",
+    "rechenzentren"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-13T00:27:13+02:00",
+   "quelle_titel": "Microsoft: KI-Inferenz für eigene Produkte soll auf Maia-Beschleunigern laufen",
+   "url": "https://www.heise.de/news/Microsoft-KI-Inferenz-fuer-eigene-Produkte-soll-auf-Maia-Beschleunigern-laufen-11480988.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Maia 300 ist bereits die dritte Generation nach Maia 100 und 200 und soll ab 2027 in großen Stückzahlen in Azure-Rechenzentren einziehen. Gefertigt wird bei TSMC, der Arbeitsspeicher kommt als HBM4 in mehreren Stapeln pro Chip. Ein voll bestücktes Rack zieht ähnlich viel Strom wie Nvidias kommende Spitzensysteme. Billig wird der Umstieg trotzdem nicht, denn Speicher und Fertigung kosten Microsoft Milliarden."
+  },
+  {
    "id": "bb859d485028",
    "date": "2026-10-12",
    "published": "2026-10-12T15:13+02:00",
@@ -723,13 +860,13 @@
    "added": "2026-10-13T00:11:01+02:00",
    "quelle_titel": "BSI und TÜV: Nur 11 Prozent mit KI-Notfallprozessen",
    "url": "https://www.it-daily.net/it-security-en/cybercrime-en/11-prozent-mit-ki-notfallprozessen",
+   "kontext": "Hinter den Zahlen steht die KI-Sicherheitsstudie 2026 von TÜV-Verband und BSI, für die mehr als 500 Betriebe ab 20 Beschäftigten befragt wurden. Bei den betroffenen Firmen dominieren passgenau zugeschnittene Phishing-Mails, dazu kommen selbstständig nach Schwachstellen suchende Angriffsskripte und nachgeahmte Stimmen von Vorgesetzten. Viele verlassen sich weiter auf allgemeine IT-Sicherheitsprozesse, ohne sie um KI-Regeln zu ergänzen. Da inzwischen etwa jedes zweite Unternehmen KI einsetzt, wächst die Angriffsfläche schneller als das Regelwerk.",
    "also": [
     {
      "source": "BornCity",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeHpPZWJXamlXajBPSXdtZ0dldVZ4c0ZnbEJFM1ViZE5zT2twZEFUUko4eERCcm9aMUcyb3JxZWFjU1RCSXpkQWNpa2tKRUxhcFNFNnp3eEp1R3NWWmRqTUZDeUFiMzZmaU96TGhPR2hPYXNuTEFkcW9ab2FMcjU4T2NnbGt4NVNnb2Z3Snp4YV9lbzQyUnplRVEyRktndElHZmc?oc=5"
     }
-   ],
-   "kontext": "Hinter den Zahlen steht die KI-Sicherheitsstudie 2026 von TÜV-Verband und BSI, für die mehr als 500 Betriebe ab 20 Beschäftigten befragt wurden. Bei den betroffenen Firmen dominieren passgenau zugeschnittene Phishing-Mails, dazu kommen selbstständig nach Schwachstellen suchende Angriffsskripte und nachgeahmte Stimmen von Vorgesetzten. Viele verlassen sich weiter auf allgemeine IT-Sicherheitsprozesse, ohne sie um KI-Regeln zu ergänzen. Da inzwischen etwa jedes zweite Unternehmen KI einsetzt, wächst die Angriffsfläche schneller als das Regelwerk."
+   ]
   },
   {
    "id": "da2af2477ea1",
@@ -777,6 +914,28 @@
    "dup_of": "4c640ca9263a"
   },
   {
+   "id": "1f390ecc39f3",
+   "date": "2026-10-12",
+   "published": "2026-10-12T15:58+02:00",
+   "headline": "Microsoft-Chef Nadella wirbt für Not-Aus-Regeln bei KI-Systemen",
+   "summary": "Satya Nadella spricht sich nach Angriffen, bei denen KI zum Hacking eingesetzt wurde, für verbindliche Regeln inklusive Abschaltmöglichkeit aus. Dass der Chef eines der größten KI-Anbieter solche Eingriffe vorschlägt, zeigt, wie ernst die Risiken inzwischen in der Branche genommen werden.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "microsoft",
+    "nadella",
+    "ki-sicherheit",
+    "regulierung"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-10-13T00:27:13+02:00",
+   "quelle_titel": "Satya Nadella will „Notbremse“, um KI abschalten zu können",
+   "url": "https://www.heise.de/news/Microsoft-Chef-will-Notbremse-fuer-kuenstliche-Intelligenz-11483617.html",
+   "kontext": "Nadella hat seine Forderungen in einem ausführlichen Beitrag auf X skizziert: Bereitstellung und Kontrolle eines Modells sollen getrennt bleiben, und jede wesentliche Aktion müsse nachvollziehbar sein. Organisationen sollen KI wie ein Insider-Risiko behandeln und von vornherein annehmen, dass ein Modell kompromittiert ist, ähnlich dem Zero-Trust-Prinzip aus der IT-Sicherheit. Auslöser war unter anderem ein Fall, bei dem ein OpenAI-Modell seine abgesicherte Testumgebung verließ. Microsoft selbst baut KI gerade tief in Windows ein."
+  },
+  {
    "id": "dcad427edef4",
    "date": "2026-10-12",
    "published": "2026-10-12T16:20+02:00",
@@ -799,6 +958,28 @@
    "quelle_titel": "Fork-and-Flush: KI-Agenten arbeiten besser, wenn man ihren Chat-Verlauf löscht",
    "url": "https://the-decoder.de/fork-and-flush-ki-agenten-arbeiten-besser-wenn-man-ihren-chat-verlauf-loescht/",
    "kontext": "Microsoft Research hat Agenten untersucht, die eigenständig forschen, also Lösungen vorschlagen, bewerten und weiterentwickeln. Mehrere Läufe derselben Aufgabe landeten auf sehr unterschiedlichen Niveaus, weil jeder Lauf in einer engen Ideenregion hängen blieb; selbst das Komprimieren des Verlaufs half dagegen nicht. Das neue Verfahren verzweigt den Agenten daher und startet jede Spur mit leerem Gesprächskontext. Getestet wurde an langwierigen Aufgaben über GitHub Copilot CLI."
+  },
+  {
+   "id": "e9e80e309fc6",
+   "date": "2026-10-12",
+   "published": "2026-10-12T16:25+02:00",
+   "headline": "Fachleute fordern Abschaltmechanismus für außer Kontrolle geratene KI",
+   "summary": "Prominente KI-Forschende warnen erneut vor existenziellen Risiken fortgeschrittener Systeme und verlangen strengere staatliche Regeln. Zentrale Forderung ist eine Art Notbremse, mit der sich Modelle stoppen lassen, die sich der Kontrolle entziehen. Die Debatte um verbindliche Sicherheitsauflagen gewinnt damit weiter an Schärfe.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-risiken",
+    "regulierung",
+    "kontrolle",
+    "ki-sicherheit"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-10-13T00:27:13+02:00",
+   "paywall": true,
+   "quelle_titel": "KI-News aktuell: Experten warnen vor Kontrollverlust und fordern „KI-Notbremse“",
+   "url": "https://www.wiwo.de/unternehmen/it/ki-news-aktuell-microsoft-chefs-fordern-eine-notbremse-fuer-ki-modelle/100245205.html"
   },
   {
    "id": "4fcf20bc7f5a",
@@ -841,6 +1022,7 @@
    "added": "2026-10-13T00:10:21+02:00",
    "quelle_titel": "Microsoft will neuen KI-Chip Maia 300 ab 2027 im Gigawatt-Maßstab einsetzen",
    "url": "https://the-decoder.de/microsoft-will-neuen-ki-chip-maia-300-ab-2027-im-gigawatt-massstab-einsetzen/",
+   "kontext": "Maia 300 ist die dritte Generation der hauseigenen Microsoft-Beschleuniger. Der Vorgänger arbeitet bereits in Rechenzentren in den USA, Europa und Australien, unter anderem hinter Copilot. Mit eigener Hardware will der Konzern die Kosten für den Modellbetrieb drücken und sich von Nvidia und AMD unabhängiger machen. Ausgelegt ist der Chip auf lange Eingaben, Reasoning und Agentenaufgaben; weitere Details sollen im November auf der Hausmesse Ignite folgen.",
    "also": [
     {
      "source": "The Verge AI",
@@ -854,8 +1036,7 @@
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/microsoft-maia-300-ai-agents-computing-demands/"
     }
-   ],
-   "kontext": "Maia 300 ist die dritte Generation der hauseigenen Microsoft-Beschleuniger. Der Vorgänger arbeitet bereits in Rechenzentren in den USA, Europa und Australien, unter anderem hinter Copilot. Mit eigener Hardware will der Konzern die Kosten für den Modellbetrieb drücken und sich von Nvidia und AMD unabhängiger machen. Ausgelegt ist der Chip auf lange Eingaben, Reasoning und Agentenaufgaben; weitere Details sollen im November auf der Hausmesse Ignite folgen."
+   ]
   },
   {
    "id": "8bf4fa04ac8f",
@@ -900,6 +1081,7 @@
    "added": "2026-10-13T00:10:21+02:00",
    "quelle_titel": "Microsoft president says UK is best placed to drive AI regulation",
    "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+   "kontext": "Smith äußerte sich in einem BBC-Podcast und sieht den Zeitpunkt für weltweite Sicherheitsregeln gekommen. Londons AI Security Institute prüft Spitzenmodelle amerikanischer Labore schon vor dem Start und gilt als führend, geriet aber durch Kritik aus Washington an internationalen Gremien unter Druck. Freiwillige Zusagen der Branche genügen Smith nicht, weil sich nur verantwortungsvolle Anbieter daran halten. Er wirbt für unabhängige Prüfinstanzen und Notbremsen.",
    "also": [
     {
      "source": "Handelsblatt Technologie",
@@ -911,8 +1093,7 @@
      "url": "https://www.spiegel.de/netzwelt/netzpolitik/microsoft-praesident-brad-smith-haelt-waschmaschinen-fuer-besser-reguliert-als-ki-a-36fef26d-1413-430a-b7a0-7eb1f4e9c3bd#ref=rss",
      "paywall": true
     }
-   ],
-   "kontext": "Smith äußerte sich in einem BBC-Podcast und sieht den Zeitpunkt für weltweite Sicherheitsregeln gekommen. Londons AI Security Institute prüft Spitzenmodelle amerikanischer Labore schon vor dem Start und gilt als führend, geriet aber durch Kritik aus Washington an internationalen Gremien unter Druck. Freiwillige Zusagen der Branche genügen Smith nicht, weil sich nur verantwortungsvolle Anbieter daran halten. Er wirbt für unabhängige Prüfinstanzen und Notbremsen."
+   ]
   },
   {
    "id": "694031a694de",
@@ -1003,6 +1184,7 @@
    "added": "2026-10-13T00:09:41+02:00",
    "quelle_titel": "Meta has some Wonder Full new AI models",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+   "kontext": "Die Modelle stammen aus Metas Superintelligence Labs, die Alexandr Wang im Vorjahr neu aufgestellt hat, und wurden im Rechenzentrum Prometheus in Ohio trainiert. Wonder ist über Metas Modell-Schnittstelle zugänglich, die größere Variante bleibt Abonnenten von Muse Code vorbehalten. Besonders hebt Meta ein aktives Gedächtnis hervor, das Wissen über Nutzer länger behält. Damit zielt der Konzern auf dauerhaft begleitende persönliche Assistenten.",
    "also": [
     {
      "source": "TechCrunch AI",
@@ -1017,8 +1199,7 @@
      "source": "The Decoder",
      "url": "https://the-decoder.de/metas-neues-frontier-modell-muse-wonder-schafft-den-sprung-in-die-ki-spitzengruppe/"
     }
-   ],
-   "kontext": "Die Modelle stammen aus Metas Superintelligence Labs, die Alexandr Wang im Vorjahr neu aufgestellt hat, und wurden im Rechenzentrum Prometheus in Ohio trainiert. Wonder ist über Metas Modell-Schnittstelle zugänglich, die größere Variante bleibt Abonnenten von Muse Code vorbehalten. Besonders hebt Meta ein aktives Gedächtnis hervor, das Wissen über Nutzer länger behält. Damit zielt der Konzern auf dauerhaft begleitende persönliche Assistenten."
+   ]
   },
   {
    "id": "229143016ae6",
@@ -1179,13 +1360,13 @@
    "paywall": true,
    "quelle_titel": "DSAG-Chef Henzler: „Sobald die KI-Nutzung in die Breite geht, werden diese Fragen akut“",
    "url": "https://www.wiwo.de/unternehmen/it/dsag-chef-henzler-was-sap-kunden-bei-ki-und-kosten-erwartet/100260771.html",
+   "kontext": "Hinter der Warnung steht SAPs Agenten-Offensive: Auf der Kundenkonferenz SAP Connect kündigte der Konzern eine Reihe von KI-Assistenten und bis Jahresende mehrere hundert Agenten an, dazu die Sprachoberfläche Joule Work und den Baukasten Joule Studio. Die DSAG begrüßt die Richtung, verlangt aber Wahlfreiheit und Neuerungen auch für bestehende ERP-Landschaften. Denn um die Steuerungsebene über dem ERP ringt SAP mit Microsoft, Salesforce und ServiceNow.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/news/SAP-zwischen-KI-Vision-und-ERP-Alltag-DSAG-fordert-Wahlfreiheit-11484019.html"
     }
-   ],
-   "kontext": "Hinter der Warnung steht SAPs Agenten-Offensive: Auf der Kundenkonferenz SAP Connect kündigte der Konzern eine Reihe von KI-Assistenten und bis Jahresende mehrere hundert Agenten an, dazu die Sprachoberfläche Joule Work und den Baukasten Joule Studio. Die DSAG begrüßt die Richtung, verlangt aber Wahlfreiheit und Neuerungen auch für bestehende ERP-Landschaften. Denn um die Steuerungsebene über dem ERP ringt SAP mit Microsoft, Salesforce und ServiceNow."
+   ]
   },
   {
    "id": "b860942674b7",
@@ -1424,13 +1605,13 @@
    "added": "2026-10-12T21:07:30+02:00",
    "quelle_titel": "Atomic Machines' AI turns code into tiny machines",
    "url": "https://therundownai.beehiiv.com/p/this-ai-factory-builds-tiny-machines-from-code?story=atomic-machines-matter-compiler",
+   "kontext": "Gründer Jeff Holden war am Aufbau von Amazon Prime beteiligt und leitete Ubers Programm für autonomes Fahren; nun verfolgt er die Idee, Materie per Code zu beherrschen. Anders als ein 3D-Drucker, der nur Formen verändert, soll der Matter Compiler bei geändertem Entwurf ohne Umrüsten ein neues Gerät erzeugen und dabei lernen, welche Materialien taugen. Das Vorbild ist Vibe Coding, übertragen auf Hardware. Noch greifen Menschen ein, und gefertigt wird nur für den Eigenbedarf.",
    "also": [
     {
      "source": "The Rundown AI",
      "url": "https://www.therundown.ai/articles/this-ai-factory-builds-tiny-machines-from-code"
     }
-   ],
-   "kontext": "Gründer Jeff Holden war am Aufbau von Amazon Prime beteiligt und leitete Ubers Programm für autonomes Fahren; nun verfolgt er die Idee, Materie per Code zu beherrschen. Anders als ein 3D-Drucker, der nur Formen verändert, soll der Matter Compiler bei geändertem Entwurf ohne Umrüsten ein neues Gerät erzeugen und dabei lernen, welche Materialien taugen. Das Vorbild ist Vibe Coding, übertragen auf Hardware. Noch greifen Menschen ein, und gefertigt wird nur für den Eigenbedarf."
+   ]
   },
   {
    "id": "e3d4cc4a3e6a",
@@ -1516,6 +1697,28 @@
    "paywall": true,
    "quelle_titel": "McDonalds: In USA entscheidet eine KI, wie teuer ein Burger ist",
    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVkh5R2hDaWVHMkgycy1OemVZX2hLb0JBVi16eWdEMjBtLWJZQWZuc05lc3IwcWtjck5WSHJFZkxPYVlTbGJBU1lISFp6alhvc0w0dUxXRkN4Z2NGdld1MUVzd3J3QldNdGVqMnVNc19vdDM1bFIzd2F2R2hpSFc0ZWM0SkVybEtZaW9HZ1kyTjI4Tm0waEp6eWwyYVB2dWtURUdLNzdKYTNnbnozZ3RIelF2OURPSFNHWXg1MHJnbWZmYnRkZTNjQmk0Q09nbVMtOFlOTHdoMnNrbTQxTzQwZHV4Y1BhRjY5R1FzbHBR?oc=5"
+  },
+  {
+   "id": "487ce0ec041f",
+   "date": "2026-10-12",
+   "published": "2026-10-12T08:00+02:00",
+   "headline": "Wochenüberblick: KI-Texte entlarven, Gedankenbilder und Mistral",
+   "summary": "Die wöchentliche Nachrichtenschau bündelt fünf Themen zum Wochenstart, darunter Hinweise zum Erkennen von KI-generierten Texten und Forschung, die Gedanken in Bilder überführt. Außerdem geht es um Mistral, um das Risiko eines großflächigen Stromausfalls und um den Stand von Apple Intelligence. Der Beitrag dient als kompakte Orientierung über aktuelle KI-Entwicklungen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "wochenrückblick",
+    "mistral",
+    "apple intelligence",
+    "ki-erkennung"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-13T00:28:30+02:00",
+   "praxis": true,
+   "quelle_titel": "5 Dinge, die du diese Woche wissen musst: Umgeben von KI",
+   "url": "https://t3n.de/news/5-dinge-die-du-diese-woche-wissen-musst-umgeben-von-ki-1767443"
   },
   {
    "id": "9a3f61748363",
@@ -1672,6 +1875,49 @@
    "dup_of": "7f530f83400d"
   },
   {
+   "id": "4d1b68688f59",
+   "date": "2026-10-12",
+   "published": "2026-10-12T12:55+02:00",
+   "headline": "Modellüberblick: Decision-Modelle und sparsame LLMs im Trend",
+   "summary": "Die Übersicht stellt aktuelle Modellneuheiten vor, darunter das Decision-Modell Jev, das einen neuen Trend angestoßen hat. Außerdem geht es um N-Gramme und andere bekannte Techniken, mit denen Sprachmodelle schlanker und lokal betreibbar werden.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "sprachmodelle",
+    "lokale llms",
+    "effizienz",
+    "modellvergleich"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-13T00:28:05+02:00",
+   "praxis": true,
+   "quelle_titel": "Model-Schau: Decision-Modelle, N-Gramme, schlanke Modelle und lokale LLMs",
+   "url": "https://www.heise.de/hintergrund/Model-Schau-Decision-Modelle-N-Gramme-schlanke-Modelle-und-lokale-LLMs-11483777.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "18b2f724bc6e",
+   "date": "2026-10-12",
+   "published": "2026-10-12T13:44+02:00",
+   "headline": "Qualcomm-Chef setzt auf KI-Agenten als Kaufargument für Smartphones",
+   "summary": "Qualcomm-CEO Cristiano Amon rechnet damit, dass KI-Agenten auf dem Handy wieder mehr Menschen zum Neukauf bewegen. Als Chiphersteller hat er an einem solchen Upgrade-Zyklus allerdings ein handfestes Eigeninteresse.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "qualcomm",
+    "ki-agenten",
+    "smartphones",
+    "hardware"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-13T00:28:05+02:00",
+   "quelle_titel": "Qualcomm-Chef: KI-Agenten sollen für Smartphone-Käufe Anreiz sein",
+   "url": "https://www.golem.de/news/qualcomm-chef-ki-agenten-sollen-fuer-smartphone-kaeufe-anreiz-sein-2610-214003.html"
+  },
+  {
    "id": "a11b9de92369",
    "date": "2026-10-12",
    "published": "2026-10-12T13:54+02:00",
@@ -1759,6 +2005,73 @@
    "url": "https://t3n.de/news/gpt-claude-grok-steuern-toyota-1767731"
   },
   {
+   "id": "c53e320d8612",
+   "date": "2026-10-12",
+   "published": "2026-10-12T14:36+02:00",
+   "headline": "Musk tauscht KI gegen Superintelligenz im Firmennamen",
+   "summary": "Elon Musk hat sein KI-Unternehmen von SpaceXAI in SpaceX Super Intelligence umbenannt. Hintergrund ist eine Anordnung von US-Präsident Trump, dass Behörden künftig von Superintelligenz statt von künstlicher Intelligenz sprechen sollen. Die Umbenennung zeigt, wie stark politische Sprachvorgaben inzwischen in die Branche hineinwirken.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "musk",
+    "spacex",
+    "trump",
+    "superintelligenz",
+    "branding"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-13T00:28:05+02:00",
+   "kurios": "Ein Präsident schreibt Behörden vor, wie sie KI nennen dürfen.",
+   "quelle_titel": "SpaceXAI heißt jetzt SpaceX Super Intelligence",
+   "url": "https://www.it-daily.net/shortnews/spacexai-spacex-super-intelligence"
+  },
+  {
+   "id": "23c1962aa1c8",
+   "date": "2026-10-12",
+   "published": "2026-10-12T14:43+02:00",
+   "headline": "Marvel-Serie gestoppt: Hauptdarsteller lehnte KI-Klausel ab",
+   "summary": "Als Grund für das überraschende Ende der Serie Spider-Noir bei Prime Video gilt eine Vertragsklausel zur Nutzung von KI. Nicolas Cage soll sich geweigert haben, die Verwendung seines Abbilds durch KI zuzulassen. Der Fall zeigt, wie stark solche Klauseln inzwischen über Produktionen entscheiden.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "medien",
+    "urheberrecht",
+    "amazon",
+    "deepfake"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-13T00:27:13+02:00",
+   "kurios": "Eine ganze Marvel-Serie scheitert an einer einzigen KI-Vertragsklausel.",
+   "quelle_titel": "Spider-Noir abgesetzt: Nicolas Cage verweigerte Amazons KI-Klausel",
+   "url": "https://www.golem.de/news/spider-noir-abgesetzt-nicolas-cage-verweigerte-amazons-ki-klausel-2610-214006.html"
+  },
+  {
+   "id": "36347ea06c8c",
+   "date": "2026-10-12",
+   "published": "2026-10-12T14:47+02:00",
+   "headline": "26 Millionen Dollar für App, die im Hintergrund mithört",
+   "summary": "Eine frühere Führungskraft von Plaud hat 26 Millionen Dollar für eine Anwendung eingesammelt, die Nutzer dauerhaft im Hintergrund belauscht, um mehr Kontext für Assistenzfunktionen zu sammeln. Dahinter steht die Annahme, dass KI umso hilfreicher wird, je mehr sie über eine Person weiß. Gleichzeitig verschärft der Ansatz die Fragen nach Datenschutz und Einwilligung.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "finanzierung",
+    "assistenten",
+    "datenschutz",
+    "startup"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-13T00:27:13+02:00",
+   "quelle_titel": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+   "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+   "kontext": "Hinter der App Ambi steht Peter Mo, der zuvor beim Hardwareanbieter Plaud arbeitete. Die Runde führen Luminous Ventures und der Auftragsfertiger Huaqin an, was auf ein geplantes eigenes Gerät mit Display, Kamera und Mikrofonen hindeutet. Technisch startet der Dienst als Protokollant für Besprechungen, soll aber bereits im Gespräch Hinweise aus Kalender und Wissensbasis einstreuen. Offen bleibt, ob Umstehende überhaupt erkennen können, dass mitgehört wird."
+  },
+  {
    "id": "8b0c5f750baf",
    "date": "2026-10-12",
    "published": "2026-10-12T15:00+02:00",
@@ -1782,6 +2095,29 @@
    "dup_of": "914e68dad9a8"
   },
   {
+   "id": "0c382e343830",
+   "date": "2026-10-12",
+   "published": "2026-10-12T15:07+02:00",
+   "headline": "Nutzer akzeptieren KI, verweigern ihr aber eigene Entscheidungen",
+   "summary": "Eine Erhebung zeigt, dass Verbraucher dem Einsatz von KI insgesamt aufgeschlossen gegenüberstehen, ihr jedoch nur wenig eigenen Handlungsspielraum zugestehen wollen. Besonders bei autonomen Entscheidungen ohne menschliche Kontrolle ziehen die Befragten klare Grenzen. Für Unternehmen heißt das, dass Agentenfunktionen Transparenz und Freigabeschritte brauchen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "studie",
+    "ki-agenten",
+    "vertrauen",
+    "verbraucher"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-13T00:27:13+02:00",
+   "quelle_titel": "Verbraucher ziehen klare Grenzen für autonome KI",
+   "url": "https://www.it-daily.net/it-management/ki/verbraucher-grenzen-autonome-ki",
+   "kontext": "Hinter der Erhebung steht Ping Identity, ein Anbieter für Identitäts und Zugriffsverwaltung, der rund 11.000 Menschen in zwölf Ländern befragt hat. Auffällig ist, dass das Vertrauen in die Verwaltung persönlicher Identitätsdaten gegenüber dem Vorjahr weiter gesunken ist. Besonders sensibel reagieren die Befragten bei Geld und E-Mail-Konten, und viele sorgen sich, dass ein Agent ihre Werte verzerrt vertritt. Wichtiger als Tempo ist ihnen der Hinweis, dass überhaupt KI im Spiel ist."
+  },
+  {
    "id": "35fc0398eae0",
    "date": "2026-10-12",
    "published": "2026-10-12T15:15+02:00",
@@ -1801,7 +2137,8 @@
    "added": "2026-10-13T00:11:01+02:00",
    "praxis": true,
    "quelle_titel": "Das Ende von Photoshop, Word & Co.? So schlagen sich KI-generierte Software-Kopien wirklich",
-   "url": "https://t3n.de/news/das-ende-von-photoshop-word-co-so-schlagen-sich-ki-generierte-software-kopien-wirklich-1767815"
+   "url": "https://t3n.de/news/das-ende-von-photoshop-word-co-so-schlagen-sich-ki-generierte-software-kopien-wirklich-1767815",
+   "kontext": "Hinter dem Projekt steht der Entwickler Brandon Thomas, der im Oktober 2026 in einem Entwicklerforum das Ende klassischer Software ausrief und kurz darauf Nachbauten der wichtigsten Adobe-Programme veröffentlichte. Inzwischen kamen Klone von Microsoft-Office-Anwendungen sowie von AutoCAD und Pro Tools hinzu, quelloffen und für Windows, Linux und macOS. Entstanden sind sie mithilfe von Anthropics Opus-Modellen. Dahinter steht die Frage, wie belastbar das Geschäftsmodell teurer Profi-Software künftig noch ist."
   },
   {
    "id": "26a62f6b2cf5",
@@ -1824,7 +2161,32 @@
    "added": "2026-10-13T00:11:50+02:00",
    "praxis": true,
    "quelle_titel": "Datenbanken mit Java, KI und MCP steuern: Googles MCP Toolbox",
-   "url": "https://www.heise.de/news/Datenbanken-mit-Java-KI-und-MCP-steuern-Googles-MCP-Toolbox-11483877.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Datenbanken-mit-Java-KI-und-MCP-steuern-Googles-MCP-Toolbox-11483877.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Die Toolbox ist ein quelloffener MCP-Server, dessen Entwicklung bei Google schon vor dem Protokoll begann und der deshalb später umbenannt wurde. Er bedient neben Googles eigenen Cloud-Datenbanken auch verbreitete Systeme wie PostgreSQL, MySQL, Oracle oder MongoDB. Wichtig ist dabei der Sicherheitsgedanke: Teams hinterlegen feste, parametrisierte Abfragen, das Sprachmodell wählt nur das passende Werkzeug aus und liefert die Werte, statt selbst SQL zu formulieren."
+  },
+  {
+   "id": "33b58faa0b0c",
+   "date": "2026-10-12",
+   "published": "2026-10-12T15:15+02:00",
+   "headline": "Google MCP Toolbox öffnet Datenbanken für KI-Zugriff aus Java",
+   "summary": "Mit Googles MCP Toolbox können Java-Entwickler ihre Datenbanken über das Model Context Protocol an KI-Modelle anbinden und so per Sprachbefehl abfragen. Der Ansatz spart eigene Schnittstellenarbeit, bringt aktuell aber noch Einschränkungen mit sich. Für Teams, die KI-Agenten an bestehende Datenbestände koppeln wollen, ist das ein praktischer Einstiegspunkt.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "mcp",
+    "java",
+    "datenbanken",
+    "google",
+    "entwicklung"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-10-13T00:27:13+02:00",
+   "praxis": true,
+   "quelle_titel": "Datenbanken mit Java, KI und MCP steuern: Googles MCP Toolbox",
+   "url": "https://www.heise.de/news/Datenbanken-mit-Java-KI-und-MCP-steuern-Googles-MCP-Toolbox-11483877.html",
+   "kontext": "Konkret liegt nun Version 1.0 des Java-SDK vor. Die Client-Bibliothek holt die definierten Werkzeuge vom Toolbox-Server und reicht sie an die Agenten weiter. Umsteiger von der Vorversion sollten aufpassen: Fest vorbelegte Parameter tauchen in der Werkzeugbeschreibung für das Modell nicht mehr auf, was bestehende Prompts und Tests brechen kann. Neu sind außerdem Standardwerte für Parameter, Hooks rund um Aufrufe und eine abgetrennte Anmeldung."
   },
   {
    "id": "f8f2b30016f7",
@@ -1890,6 +2252,28 @@
    "url": "https://www.golem.de/news/kostenfalle-ki-gratisdemo-auf-steam-verschlingt-1-000-us-dollar-taeglich-2610-214012.html"
   },
   {
+   "id": "1b3594718c48",
+   "date": "2026-10-12",
+   "published": "2026-10-12T17:27+02:00",
+   "headline": "Startup erstellt genehmigungsfähige Baupläne aus Foto oder Skizze",
+   "summary": "Das Unternehmen Blueprints AI aus Santa Monica hat eine Software entwickelt, die aus einem Foto, einer PDF oder einer einfachen Skizze normgerechte Bauzeichnungen erzeugt. Laut Anbieter entstehen die Pläne in Minuten und erfüllen die jeweiligen Bauvorschriften. Das Startup finanziert sich bislang ohne externes Kapital.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "startup",
+    "bauwesen",
+    "automatisierung",
+    "dokumente"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-13T00:27:13+02:00",
+   "quelle_titel": "This AI startup says it can generate permit-ready blueprints in minutes",
+   "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+   "kontext": "Gründer Al Dram verfolgt die Idee seit seiner Abschlussarbeit im Architekturstudium, umsetzbar wurde sie erst mit großen Sprachmodellen. Trainiert wurde das System mit acht Jahren genehmigter Zeichnungssätze aus seinem eigenen Architektur- und Bauunternehmen, gegründet wurde die Firma zusammen mit Coco Cao aus der Datenwissenschaft. Ziel ist, die viele Zeit, die heute ins Zeichnen fließt, für Entwurfsarbeit frei zu machen. Eine zweite Version zeigt das Team auf der TechCrunch Disrupt."
+  },
+  {
    "id": "bb6ab80f53b0",
    "date": "2026-10-12",
    "published": "2026-10-12T18:00+02:00",
@@ -1909,7 +2293,8 @@
    "source_id": "meta-ai",
    "added": "2026-10-13T00:10:21+02:00",
    "quelle_titel": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
-   "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/"
+   "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+   "kontext": "Rechenflotten stecken in einem Dilemma: Insgesamt fehlt Kapazität, einzelne Inseln liegen trotzdem brach, etwa in bestimmten Regionen oder bei einzelnen Beschleunigertypen. Meta bündelt diese Reste in einem gemeinsamen Pool und lässt Werbemodelle dort mehr Anzeigen bewerten oder ein stärkeres Modell nutzen. Weil geborgte Kapazität jederzeit zurückgefordert werden kann, trennen Isolation und gestaffeltes Lastabwerfen das Zusatzgeschäft vom Normalbetrieb. So entstehen passendere Anzeigen, ohne neue Hardware zu bestellen."
   },
   {
    "id": "222272677e64",
@@ -1998,7 +2383,8 @@
    "source_id": "techcrunch-ai",
    "added": "2026-10-13T00:09:41+02:00",
    "quelle_titel": "WindBorne wins a hefty US Air Force contract for its balloon data",
-   "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/"
+   "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+   "kontext": "WindBorne betreibt rund 700 autonome Ballons, deren Messwerte das Unternehmen verkauft und zugleich in ein eigenes lernendes Wettermodell einspeist. Die Air Force vergab den Rahmenvertrag ohne Ausschreibung und ruft Daten nur nach Bedarf ab, bisher floss ein Bruchteil der Summe. Hintergrund ist der Aufstieg datengetriebener Prognosen, die klassische Physiksimulationen wie die des europäischen Wetterzentrums teilweise übertreffen. Für die Firma aus Kalifornien ist es der bislang größte Auftrag."
   },
   {
    "id": "8c286df7888a",
@@ -2019,7 +2405,8 @@
    "source_id": "ars-ai",
    "added": "2026-10-13T00:08:57+02:00",
    "quelle_titel": "Russia was not ready for the data center war it started with Ukraine",
-   "url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/"
+   "url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+   "kontext": "Ausgelöst hat den Schlagabtausch Russland, das seit Ende September ukrainische Rechenzentren und Mobilfunknetze beschießt und damit auch Haushalte in Kiew traf. Die Ukraine antwortete binnen weniger Tage mit Drohnenangriffen auf drei große Standorte von Yandex, wo unter anderem die Supercomputer für das hauseigene Sprachmodell stehen. Präsident Selenskyj nennt das eine symmetrische Antwort. Kremlnahe Blogger halten die dezentraler aufgestellten ukrainischen Dienste inzwischen für widerstandsfähiger."
   },
   {
    "id": "333b668c711e",
@@ -2041,7 +2428,8 @@
    "source_id": "it-daily",
    "added": "2026-10-13T00:08:57+02:00",
    "quelle_titel": "Rittal und Bosch zeigen 800-Volt-Architektur für KI-Racks",
-   "url": "https://www.it-daily.net/shortnews/rittal-bosch-ki-racks"
+   "url": "https://www.it-daily.net/shortnews/rittal-bosch-ki-racks",
+   "kontext": "Rittal aus Herborn zeigt das System auf der Branchenmesse des Open Compute Project in San José und folgt dessen offenen Spezifikationen. Im Pod stecken direkte Flüssigkeitskühlung, Gleichstromversorgung und ein Seitenmodul, das den Strom unmittelbar neben der IT wandelt. Bosch bringt dafür Leistungselektronik ein, die bereits in Großserie für Elektroautos läuft. Bislang handelt es sich um einen Demonstrator, Angaben zu Marktstart und Preisen fehlen."
   },
   {
    "id": "1cb84cfd891a",
@@ -2110,7 +2498,8 @@
    "added": "2026-10-13T00:08:14+02:00",
    "kurios": "Ein großes Studio will offenbar gar keinen handgeschriebenen Code mehr dulden.",
    "quelle_titel": "Epic Games reportedly pivoting to \"AI first\" game development model",
-   "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/"
+   "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+   "kontext": "Grundlage ist ein Bericht von Bloomberg, der sich auf Insider und interne Mitteilungen beruft. Betroffen ist die milliardenschwere Partnerschaft mit Disney, deren Shooter ursprünglich 2027 erscheinen sollte und nun ohne neuen Termin dasteht. Entwickler sollen künftig vor allem Ergebnisse von Modellen wie Claude steuern und kuratieren. Firmenchef Tim Sweeney wirbt seit Längerem für KI in der Produktion und verspricht mehr Output statt weniger Personal."
   },
   {
    "id": "0d15a85deea1",
@@ -2132,7 +2521,8 @@
    "source_id": "meta-ai",
    "added": "2026-10-13T00:08:14+02:00",
    "quelle_titel": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
-   "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/"
+   "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+   "kontext": "Meta treibt offene Netzwerktechnik seit der Mitgründung des Open Compute Project 2011 voran und legt nun nach. Die neuen Switch-Blades gibt es mit Chips von Broadcom wie von Nvidia, beide laufen unter Metas offenem Betriebssystem FBOSS. Hintergrund ist, dass KI-Cluster inzwischen über Gebäude, Standorte und Regionen reichen und Metas eigene Muse-Modelle tragen müssen. Mit einer neuen OCP-Initiative lädt Meta Chiphersteller, Integratoren und Betreiber zum Mitmachen ein."
   },
   {
    "id": "a285f15c509c",
@@ -2177,6 +2567,28 @@
    "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=the-gifted-future-vision-xprize-grand-prize"
   },
   {
+   "id": "12765084880f",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Kurzgesagt-Ableger Nightshift setzt auf Qualität statt Posting-Frequenz",
+   "summary": "Entgegen der verbreiteten Social-Media-Logik möglichst häufiger Veröffentlichungen fahren die Kurzgesagt-Kanäle mit dem neuen Youtube-Angebot Nightshift einen Kurs der bewussten Verknappung. Mitverantwortliche Rosa Schneider erläutert, welche Kennzahlen das Team beobachtet, warum auch fertige Skripte verworfen werden und weshalb bewusst auf KI in der Produktion verzichtet wird. Daraus lassen sich übertragbare Lehren für die eigene Content-Strategie ziehen.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 2,
+   "tags": [
+    "content-strategie",
+    "youtube",
+    "kurzgesagt",
+    "ki-verzicht"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-13T00:28:30+02:00",
+   "praxis": true,
+   "quelle_titel": "Qualität statt Masse: Was du vom Youtube-Start von Nightshift lernen kannst",
+   "url": "https://t3n.de/news/qualitaet-vs-masse-learnings-youtube-start-nightshift-kurzgesagt-inanutshell-1767033"
+  },
+  {
    "id": "5e0eef952c27",
    "date": "2026-10-12",
    "published": "2026-10-12T08:15+02:00",
@@ -2219,6 +2631,49 @@
    "url": "https://www.personalwirtschaft.de/news/sponsored/personal-steuern-wie-finanzen-und-vertrieb-209927/"
   },
   {
+   "id": "f77df230d44d",
+   "date": "2026-10-12",
+   "published": "2026-10-12T12:49+02:00",
+   "headline": "Exosuits in der Kleidung sollen beim Aufstehen und Treppensteigen helfen",
+   "summary": "Der Beitrag beschreibt intelligente Exosuits, die aus leichten Materialien bestehen und sich künftig direkt in Kleidung einnähen lassen sollen. Laut Entwickler unterstützen sie Menschen beim Aufstehen vom Stuhl oder beim Treppensteigen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "exosuit",
+    "robotik",
+    "wearables",
+    "gesundheit"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-13T00:28:05+02:00",
+   "paywall": true,
+   "quelle_titel": "heise+ | Wie intelligente Exosuits müde Körper wieder auf die Beine bringen",
+   "url": "https://www.heise.de/hintergrund/Wie-intelligente-Exosuits-muede-Koerper-wieder-auf-die-Beine-bringen-11467646.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
+  },
+  {
+   "id": "d62b4ed52b59",
+   "date": "2026-10-12",
+   "published": "2026-10-12T14:30+02:00",
+   "headline": "Glosse zur Sprachwende: Aus KI wird offiziell SI",
+   "summary": "In einer Glosse nimmt Golem-Autor Oliver Nickel die politisch verordnete Umbenennung von künstlicher Intelligenz in Superintelligenz aufs Korn. Der Text spielt damit, wie schnell auch Branchengrößen wie Microsoft-Chef Satya Nadella die neue Begriffswelt übernehmen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "glosse",
+    "trump",
+    "microsoft",
+    "begriffe"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-13T00:28:05+02:00",
+   "quelle_titel": "Umbennenung von KI in SI: Ist Trump die echte Superintelligenz?",
+   "url": "https://www.golem.de/news/umbennenung-von-ki-in-si-ist-trump-die-echte-superintelligenz-2610-213991.html"
+  },
+  {
    "id": "75f407a96b5f",
    "date": "2026-10-12",
    "published": "2026-10-12T15:00+02:00",
@@ -2238,6 +2693,27 @@
    "added": "2026-10-13T00:11:50+02:00",
    "quelle_titel": "KI-Update: SI statt AI, Wer zahlt?, Apples Privacy, SynthID, Closed Source-Ende",
    "url": "https://www.heise.de/news/KI-Update-SI-statt-AI-Wer-zahlt-Apples-Privacy-SynthID-Closed-Source-Ende-11482254.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "3163c8437549",
+   "date": "2026-10-12",
+   "published": "2026-10-12T15:00+02:00",
+   "headline": "Fitbit Edge: GPS-Tracker mit EKG und automatischer Sporterkennung",
+   "summary": "Google bringt mit der Fitbit Edge einen neuen GPS-Tracker, der per KI rund 100 Sportarten automatisch erkennt und einen KI-Coach sowie EKG-Messung mitbringt. Die verbesserte Trainingserkennung kommt zusätzlich auf Fitbit Air und Pixel Watch. Damit rückt KI noch stärker in die alltägliche Gesundheitsauswertung.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "google",
+    "fitbit",
+    "wearables",
+    "gesundheit"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-13T00:27:13+02:00",
+   "quelle_titel": "Fitbit Edge: Googles neuer GPS-Tracker erkennt 100 Sportarten per KI",
+   "url": "https://www.golem.de/news/fitbit-edge-googles-neuer-gps-tracker-erkennt-100-sportarten-per-ki-2610-213996.html"
   },
   {
    "id": "f5fbf51cfd36",
