@@ -134,7 +134,7 @@ def entry_date(e) -> datetime | None:
 # ---------- Quellen holen ----------
 
 def fetch_rss(src: dict) -> list[dict]:
-    feed = feedparser.parse(http_get(src["url"]))
+    feed = feedparser.parse(http_get(src["url"], timeout=int(src.get("timeout", 20))))
     if not feed.entries:
         raise RuntimeError("Feed leer oder nicht lesbar")
     out = []

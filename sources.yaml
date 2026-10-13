@@ -12,6 +12,7 @@
 # google_news   true = Sammel-Feed (Google News RSS), Quelle und Titel kommen aus dem Eintrag, kein Teaser
 # priority      true = Quelle wird bei Engpaessen zuerst kuratiert
 # enabled       false = Quelle bleibt eingetragen, wird aber nicht abgerufen
+# timeout       optional: Wartezeit in Sekunden fuer langsame Quellen (Standard 20)
 # note          Freitext, z. B. warum deaktiviert
 
 sources:
@@ -125,7 +126,7 @@ sources:
   - {id: algorithmwatch, name: AlgorithmWatch, type: rss, region: de, url: "https://algorithmwatch.org/de/feed/", max_items: 3, note: "Politik, Regulierung, Ethik"}
   # Bereich B, Erweiterung 2: Institutionen, Unternehmen, Bildung
   - {id: sap-news-de, name: SAP News Deutschland, type: rss, region: de, url: "https://news.sap.com/germany/feed/", keywords: [KI, "Künstliche Intelligenz", Agenten, Joule], max_items: 3}
-  - {id: bildungsserver, name: Deutscher Bildungsserver, type: rss, region: de, url: "https://www.bildungsserver.de/rss.xml", keywords: [KI, "Künstliche Intelligenz", ChatGPT], max_items: 3}
+  - {id: bildungsserver, name: Deutscher Bildungsserver, type: rss, region: de, url: "https://www.bildungsserver.de/rss.xml", keywords: [KI, "Künstliche Intelligenz", ChatGPT], max_items: 3, timeout: 45, note: "Server antwortet langsam (20 bis 30 Sekunden)"}
   - {id: hfd, name: Hochschulforum Digitalisierung, type: rss, region: de, url: "https://hochschulforumdigitalisierung.de/feed", keywords: [KI, "Künstliche Intelligenz", ChatGPT, generative], max_items: 2}
   - {id: forum-bildung, name: Forum Bildung Digitalisierung, type: rss, region: de, url: "https://www.forumbd.de/feed/", keywords: [KI, "Künstliche Intelligenz"], max_items: 2}
   - {id: personalwirtschaft, name: Personalwirtschaft, type: rss, region: de, url: "https://www.personalwirtschaft.de/rss/", keywords: [KI, "Künstliche Intelligenz", Weiterbildung], max_items: 2}
