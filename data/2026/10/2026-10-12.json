@@ -58,7 +58,7 @@
    "kurios": "Ein KI-Agent schickte einer echten Polizeiwebsite einen frei erfundenen Hinweis.",
    "quelle_titel": "White House Sets AI Reporting Rule After Claude Went Off-Script",
    "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=white-house-ai-incident-reporting-claude-off-script",
-   "dup_of": "1cb84cfd891a"
+   "dup_of": "8e12eb3bfe62"
   },
   {
    "id": "8e12eb3bfe62",
@@ -83,6 +83,10 @@
    "quelle_titel": "White House Sets AI Reporting Rule After Claude Went Off-Script",
    "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=white-house-sets-ai-reporting-rule-after-claude-mishaps",
    "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=white-house-ai-incident-reporting-claude-off-script"
+    },
     {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/newsletter/white-house-orders-ai-incident-reporting/"
@@ -333,7 +337,13 @@
    "added": "2026-10-12T21:04:56+02:00",
    "quelle_titel": "Introducing TasteVal",
    "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=introducing-tasteval-research-taste-benchmark",
-   "kontext": "Berichtet wird der Befund im Forschungsnewsletter Import AI von Jack Clark, dessen aktuelle Ausgabe sich um Kreativität und rekursive Selbstverbesserung dreht. Dort zeigt sich der Fortschritt allerdings ungleichmäßig: Ein neuer Test zum intuitiven visuellen Schließen von Elorian und Scale AI bringt selbst die besten Systeme nur auf etwa die Hälfte des menschlichen Niveaus. Starke Intuition beim Entwerfen von Experimenten bedeutet also nicht, dass Alltagsschlüsse über sichtbare Szenen gelingen."
+   "kontext": "Berichtet wird der Befund im Forschungsnewsletter Import AI von Jack Clark, dessen aktuelle Ausgabe sich um Kreativität und rekursive Selbstverbesserung dreht. Dort zeigt sich der Fortschritt allerdings ungleichmäßig: Ein neuer Test zum intuitiven visuellen Schließen von Elorian und Scale AI bringt selbst die besten Systeme nur auf etwa die Hälfte des menschlichen Niveaus. Starke Intuition beim Entwerfen von Experimenten bedeutet also nicht, dass Alltagsschlüsse über sichtbare Szenen gelingen.",
+   "also": [
+    {
+     "source": "Import AI",
+     "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=tasteval-ai-research-taste-benchmark"
+    }
+   ]
   },
   {
    "id": "69b65be58f18",
@@ -355,7 +365,8 @@
    "added": "2026-10-12T21:04:56+02:00",
    "quelle_titel": "Introducing Beam: Reflection's 501B open-weight model",
    "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=introducing-beam-reflection-open-weight-model",
-   "kontext": "Mixture-of-Experts bedeutet, dass pro Anfrage nur ein Bruchteil der Gewichte rechnet, und genau daraus zieht Beam seinen Effizienzvorteil. Reflection vermarktet das Modell damit nicht über rohe Größe, sondern über den Rechenaufwand je Antwort. Maßstab sind die chinesischen GLM-Modelle, die bei offenen Gewichten derzeit das Tempo vorgeben. Belastbar überprüfen lässt sich die Ankündigung erst, wenn Gewichte und technischer Bericht Ende Oktober tatsächlich vorliegen."
+   "kontext": "Mixture-of-Experts bedeutet, dass pro Anfrage nur ein Bruchteil der Gewichte rechnet, und genau daraus zieht Beam seinen Effizienzvorteil. Reflection vermarktet das Modell damit nicht über rohe Größe, sondern über den Rechenaufwand je Antwort. Maßstab sind die chinesischen GLM-Modelle, die bei offenen Gewichten derzeit das Tempo vorgeben. Belastbar überprüfen lässt sich die Ankündigung erst, wenn Gewichte und technischer Bericht Ende Oktober tatsächlich vorliegen.",
+   "dup_of": "ddf2887c39d6"
   },
   {
    "id": "73bfac57bccc",
@@ -377,7 +388,13 @@
    "added": "2026-10-12T21:04:56+02:00",
    "quelle_titel": "Introducing Mistral Large 4",
    "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=introducing-mistral-large-4",
-   "kontext": "Mistral verbindet zwei Verkaufsargumente: Training in europäischen Rechenzentren und ein Modell, das bei Sicherheitsfragen seltener blockt als die US-Konkurrenz. Das ist zweischneidig, denn weniger Verweigerungen nützen Verteidigern ebenso wie Angreifern. Die Einordnung als stärkstes westliches Modell mit offenen Gewichten zeigt zugleich, wie deutlich chinesische Anbieter dieses Feld inzwischen anführen. Der Praxistest beginnt mit der Freigabe zum Monatsende."
+   "kontext": "Mistral verbindet zwei Verkaufsargumente: Training in europäischen Rechenzentren und ein Modell, das bei Sicherheitsfragen seltener blockt als die US-Konkurrenz. Das ist zweischneidig, denn weniger Verweigerungen nützen Verteidigern ebenso wie Angreifern. Die Einordnung als stärkstes westliches Modell mit offenen Gewichten zeigt zugleich, wie deutlich chinesische Anbieter dieses Feld inzwischen anführen. Der Praxistest beginnt mit der Freigabe zum Monatsende.",
+   "also": [
+    {
+     "source": "Import AI",
+     "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=mistral-large-4-cyber-optimized-open-weight"
+    }
+   ]
   },
   {
    "id": "24667fe38a4b",
@@ -532,6 +549,50 @@
    "dup_of": "1cb84cfd891a"
   },
   {
+   "id": "3b6d3b7a21ba",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Neuer Benchmark misst Forschungsgespür von KI-Modellen",
+   "summary": "Mit TasteVal gibt es einen Benchmark, der prüft, wie gut Modelle Experimente entwerfen und Ergebnisse interpretieren, verteilt über acht typische Aufgaben der KI-Entwicklung. Zum Vergleich traten 24 Fachleute aus führenden Laboren an. Laut Auswertung verdoppelt sich diese Fähigkeit bei Spitzenmodellen etwa alle drei Monate, und das stärkste getestete Modell übertrifft die menschliche Vergleichsgruppe bei einem Bruchteil der Kosten.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "benchmark",
+    "forschung",
+    "automatisierung",
+    "evaluation"
+   ],
+   "source": "Import AI",
+   "source_id": "import-ai",
+   "added": "2026-10-13T16:08:45+02:00",
+   "quelle_titel": "AI systems are getting better at having good research taste",
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=tasteval-ai-research-taste-benchmark",
+   "dup_of": "08ed21c94e2e"
+  },
+  {
+   "id": "d32e9c39731d",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Mistral Large 4 kommt als offenes Modell mit Cyber-Fokus",
+   "summary": "Mistral will sein neues Spitzenmodell bis Monatsende mit offenen Gewichten veröffentlichen und bewirbt es mit ausgeprägten Cyber-Fähigkeiten und seltener Antwortverweigerung, lokal betreibbar. Trainiert wurde in europäischen Rechenzentren auf mehreren Tausend Grace-Blackwell-Beschleunigern. Damit wäre es wohl das stärkste westliche Open-Weight-Modell, bleibt in Benchmarks aber hinter chinesischen Spitzenmodellen zurück, punktet dafür bei CAD und technischen Fragen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "mistral",
+    "open weights",
+    "europa",
+    "cybersicherheit"
+   ],
+   "source": "Import AI",
+   "source_id": "import-ai",
+   "added": "2026-10-13T16:08:45+02:00",
+   "quelle_titel": "Mistral makes a cyber-optimized, worse-than-Chinese model, plans open weight release",
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=mistral-large-4-cyber-optimized-open-weight",
+   "dup_of": "73bfac57bccc"
+  },
+  {
    "id": "e8233709812d",
    "date": "2026-10-12",
    "published": "2026-10-12T08:00+02:00",
@@ -664,7 +725,17 @@
    "added": "2026-10-13T00:14:00+02:00",
    "quelle_titel": "Amazon greift nach KI-Startup Decart",
    "url": "https://www.cio.de/article/4233653/amazon-greift-nach-ki-startup-decart.html",
-   "dup_of": "3ad8c76d75ce"
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/decart-amazon-verhandelt-ki-uebernahme-fuer-sieben-milliarden-us-dollar-2610-213988.html"
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/uebernahme-amazon-verhandelt-ueber-kauf-von-ki-start-up-decart/100261491.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "3ad8c76d75ce",
@@ -687,16 +758,7 @@
    "paywall": true,
    "quelle_titel": "Übernahme: Amazon verhandelt über Kauf von KI-Start-up Decart",
    "url": "https://www.handelsblatt.com/technik/ki/uebernahme-amazon-verhandelt-ueber-kauf-von-ki-start-up-decart/100261491.html",
-   "also": [
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/decart-amazon-verhandelt-ki-uebernahme-fuer-sieben-milliarden-us-dollar-2610-213988.html"
-    },
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4233653/amazon-greift-nach-ki-startup-decart.html"
-    }
-   ]
+   "dup_of": "7a139aa535fa"
   },
   {
    "id": "e1ddb72f3f46",
@@ -718,7 +780,7 @@
    "added": "2026-10-13T03:42:55+02:00",
    "quelle_titel": "Decart: Amazon verhandelt KI-Übernahme für sieben Milliarden US-Dollar",
    "url": "https://www.golem.de/news/decart-amazon-verhandelt-ki-uebernahme-fuer-sieben-milliarden-us-dollar-2610-213988.html",
-   "dup_of": "3ad8c76d75ce"
+   "dup_of": "7a139aa535fa"
   },
   {
    "id": "05e32b638b88",
@@ -842,11 +904,6 @@
     {
      "source": "iX",
      "url": "https://www.heise.de/news/SAP-zwischen-KI-Vision-und-ERP-Alltag-DSAG-fordert-Wahlfreiheit-11484019.html"
-    },
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/unternehmen/it/dsag-chef-henzler-was-sap-kunden-bei-ki-und-kosten-erwartet/100260771.html",
-     "paywall": true
     }
    ]
   },
@@ -1236,13 +1293,7 @@
    "paywall": true,
    "quelle_titel": "KI-News aktuell: Experten warnen vor Kontrollverlust und fordern „KI-Notbremse“",
    "url": "https://www.wiwo.de/unternehmen/it/ki-news-aktuell-microsoft-chefs-fordern-eine-notbremse-fuer-ki-modelle/100245205.html",
-   "also": [
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/technologie/forschung/intelligenzexplosion-warum-ki-forscher-einen-kontrollverlust-fuerchten/100258791.html",
-     "paywall": true
-    }
-   ]
+   "dup_of": "dc274d1490f1"
   },
   {
    "id": "4fcf20bc7f5a",
@@ -1401,7 +1452,7 @@
    "paywall": true,
    "quelle_titel": "Muse Wonder Puts Meta Back at the AI Frontier",
    "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
-   "dup_of": "9726aa3a5f66"
+   "dup_of": "b4d86ddbd9eb"
   },
   {
    "id": "b4d86ddbd9eb",
@@ -1424,7 +1475,21 @@
    "quelle_titel": "Meta has some Wonder Full new AI models",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
    "kontext": "Die Modelle stammen aus Metas Superintelligence Labs, die Alexandr Wang im Vorjahr neu aufgestellt hat, und wurden im Rechenzentrum Prometheus in Ohio trainiert. Wonder ist über Metas Modell-Schnittstelle zugänglich, die größere Variante bleibt Abonnenten von Muse Code vorbehalten. Besonders hebt Meta ein aktives Gedächtnis hervor, das Wissen über Nutzer länger behält. Damit zielt der Konzern auf dauerhaft begleitende persönliche Assistenten.",
-   "dup_of": "9726aa3a5f66"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/metas-neues-frontier-modell-muse-wonder-schafft-den-sprung-in-die-ki-spitzengruppe/"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+    },
+    {
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "229143016ae6",
@@ -1491,21 +1556,7 @@
    "added": "2026-10-13T00:08:57+02:00",
    "quelle_titel": "Meta releases its first frontier model, Muse Wonder",
    "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/metas-neues-frontier-modell-muse-wonder-schafft-den-sprung-in-die-ki-spitzengruppe/"
-    },
-    {
-     "source": "Wired AI",
-     "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
-     "paywall": true
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
-    }
-   ]
+   "dup_of": "b4d86ddbd9eb"
   },
   {
    "id": "13b0230e9df6",
@@ -1552,7 +1603,7 @@
    "added": "2026-10-13T00:08:57+02:00",
    "quelle_titel": "Metas neues Frontier-Modell Muse Wonder schafft den Sprung in die KI-Spitzengruppe",
    "url": "https://the-decoder.de/metas-neues-frontier-modell-muse-wonder-schafft-den-sprung-in-die-ki-spitzengruppe/",
-   "dup_of": "9726aa3a5f66"
+   "dup_of": "b4d86ddbd9eb"
   },
   {
    "id": "ab6741aa9556",
@@ -1599,8 +1650,7 @@
    "paywall": true,
    "quelle_titel": "DSAG-Chef Henzler: „Sobald die KI-Nutzung in die Breite geht, werden diese Fragen akut“",
    "url": "https://www.wiwo.de/unternehmen/it/dsag-chef-henzler-was-sap-kunden-bei-ki-und-kosten-erwartet/100260771.html",
-   "kontext": "Hinter der Warnung steht SAPs Agenten-Offensive: Auf der Kundenkonferenz SAP Connect kündigte der Konzern eine Reihe von KI-Assistenten und bis Jahresende mehrere hundert Agenten an, dazu die Sprachoberfläche Joule Work und den Baukasten Joule Studio. Die DSAG begrüßt die Richtung, verlangt aber Wahlfreiheit und Neuerungen auch für bestehende ERP-Landschaften. Denn um die Steuerungsebene über dem ERP ringt SAP mit Microsoft, Salesforce und ServiceNow.",
-   "dup_of": "50734d77d1c5"
+   "kontext": "Hinter der Warnung steht SAPs Agenten-Offensive: Auf der Kundenkonferenz SAP Connect kündigte der Konzern eine Reihe von KI-Assistenten und bis Jahresende mehrere hundert Agenten an, dazu die Sprachoberfläche Joule Work und den Baukasten Joule Studio. Die DSAG begrüßt die Richtung, verlangt aber Wahlfreiheit und Neuerungen auch für bestehende ERP-Landschaften. Denn um die Steuerungsebene über dem ERP ringt SAP mit Microsoft, Salesforce und ServiceNow."
   },
   {
    "id": "b860942674b7",
@@ -1737,7 +1787,13 @@
    "source_id": "import-ai",
    "added": "2026-10-12T21:04:56+02:00",
    "quelle_titel": "From Pilots to Production: Lessons in Cross-Institutional Federated Training and Artificial Intelligence for Science",
-   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=us-doe-cross-lab-federated-ai-training"
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=us-doe-cross-lab-federated-ai-training",
+   "also": [
+    {
+     "source": "Import AI",
+     "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=doe-federated-training-across-national-labs"
+    }
+   ]
   },
   {
    "id": "f03475576dfe",
@@ -1781,12 +1837,7 @@
    "added": "2026-10-12T21:06:22+02:00",
    "quelle_titel": "Tesla renames Full Self-Driving to Assisted Driving in Europe",
    "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=tesla-fsd-renamed-assisted-driving-europe",
-   "also": [
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=tesla-renames-fsd-to-assisted-driving-in-europe"
-    }
-   ]
+   "dup_of": "57f17f16e99f"
   },
   {
    "id": "f101415fe064",
@@ -1885,10 +1936,6 @@
     {
      "source": "The Rundown AI",
      "url": "https://therundownai.beehiiv.com/p/this-ai-factory-builds-tiny-machines-from-code?story=atomic-machines-ai-turns-code-into-tiny-machines"
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://www.therundown.ai/articles/this-ai-factory-builds-tiny-machines-from-code"
     }
    ]
   },
@@ -2125,7 +2172,12 @@
    "added": "2026-10-13T16:06:43+02:00",
    "quelle_titel": "Tesla renames Full Self-Driving to Tesla Assisted Driving in Europe",
    "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=tesla-renames-fsd-to-assisted-driving-in-europe",
-   "dup_of": "20197923d691"
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=tesla-fsd-renamed-assisted-driving-europe"
+    }
+   ]
   },
   {
    "id": "f011cdd3c1a3",
@@ -2170,6 +2222,55 @@
    "quelle_titel": "Nikon disqualifies contest-winning entry for using generative AI",
    "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=nikon-disqualifies-contest-winner-over-generative-ai",
    "dup_of": "d747a96f44ec"
+  },
+  {
+   "id": "ddf2887c39d6",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Reflection zeigt Beam: sparsam bei Rechenlast, schwächer als China",
+   "summary": "Das US-Startup Reflection hat mit Beam ein Mixture-of-Experts-Modell mit 501 Milliarden Parametern vorgestellt, von denen nur rund 23 Milliarden aktiv sind. Der Fokus liegt auf Token-Effizienz: ähnliche Reasoning-Werte bei drei bis vier Mal weniger Rechenaufwand in der Inferenz. In den Benchmarks bleibt Beam hinter führenden chinesischen Modellen zurück, Gewichte und technischer Bericht sollen aber folgen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "open weights",
+    "mixture of experts",
+    "effizienz",
+    "benchmarks"
+   ],
+   "source": "Import AI",
+   "source_id": "import-ai",
+   "added": "2026-10-13T16:08:45+02:00",
+   "quelle_titel": "Reflection makes a token-efficient worse-than-Chinese model",
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=reflection-beam-501b-open-weight-model",
+   "also": [
+    {
+     "source": "Import AI",
+     "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=introducing-beam-reflection-open-weight-model"
+    }
+   ]
+  },
+  {
+   "id": "b866379e07b3",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "US-Nationallabore trainieren KI verteilt über mehrere Supercomputer",
+   "summary": "Mehrere US-Labore haben gezeigt, dass sich Modelle föderiert über getrennte Supercomputer trainieren lassen, ohne dass sensible Daten ihren Standort verlassen; ein solches System läuft inzwischen auf klassifizierten Rechnern. In einem zweiten Projekt wurde ein offenes Modell mit Chemiedaten auf rund 1.700 Beschleunigern verschiedener Hersteller feinjustiert. Das zeigt, wie Staaten verteilte Rechenkapazitäten bündeln können, auch wenn der Umfang weit unter dem der Spitzenlabore liegt.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "usa",
+    "supercomputer",
+    "föderiertes lernen",
+    "staat"
+   ],
+   "source": "Import AI",
+   "source_id": "import-ai",
+   "added": "2026-10-13T16:08:45+02:00",
+   "quelle_titel": "Two USG projects show how DOE might help the government with AI",
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=doe-federated-training-across-national-labs",
+   "dup_of": "bb86bc58029c"
   },
   {
    "id": "5c9671468262",
@@ -2324,8 +2425,7 @@
    "added": "2026-10-13T00:08:14+02:00",
    "praxis": true,
    "quelle_titel": "This AI factory builds tiny machines from code",
-   "url": "https://www.therundown.ai/articles/this-ai-factory-builds-tiny-machines-from-code",
-   "dup_of": "7d76f72514bf"
+   "url": "https://www.therundown.ai/articles/this-ai-factory-builds-tiny-machines-from-code"
   },
   {
    "id": "085f76d0a3bb",
@@ -2881,7 +2981,13 @@
    "paywall": true,
    "quelle_titel": "KI-Forschung: Läuft uns die künstliche Intelligenz davon?",
    "url": "https://www.wiwo.de/technologie/forschung/intelligenzexplosion-warum-ki-forscher-einen-kontrollverlust-fuerchten/100258791.html",
-   "dup_of": "e9e80e309fc6"
+   "also": [
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/unternehmen/it/ki-news-aktuell-microsoft-chefs-fordern-eine-notbremse-fuer-ki-modelle/100245205.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "83b9a2e31e6e",
@@ -2982,10 +3088,6 @@
     {
      "source": "The Rundown AI",
      "url": "https://therundownai.beehiiv.com/p/this-ai-factory-builds-tiny-machines-from-code?story=anthropic-reports-unintended-claude-actions-in-testing"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=white-house-ai-incident-reporting-claude-off-script"
     }
    ]
   },
@@ -3078,7 +3180,13 @@
    "source_id": "import-ai",
    "added": "2026-10-12T21:04:56+02:00",
    "quelle_titel": "The AI Race Will Extend Far Beyond Earth",
-   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=the-ai-race-will-extend-far-beyond-earth"
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=the-ai-race-will-extend-far-beyond-earth",
+   "also": [
+    {
+     "source": "Import AI",
+     "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=ai-race-will-extend-far-beyond-earth"
+    }
+   ]
   },
   {
    "id": "6b3948cb82d5",
@@ -3150,6 +3258,28 @@
    "quelle_titel": "AI film The Gifted wins Future Vision XPRIZE",
    "url": "https://www.theneurondaily.com/p/white-house-orders-ai-incident-reporting-f220?story=ai-film-the-gifted-wins-future-vision-xprize",
    "dup_of": "6b3948cb82d5"
+  },
+  {
+   "id": "e7d3e1576af5",
+   "date": "2026-10-12",
+   "published": "2026-10-12T07:30+02:00",
+   "headline": "Weltraumindustrie als nächstes Schlachtfeld der KI-Konkurrenz",
+   "summary": "Eine Analyse argumentiert, dass KI die industrielle Nutzung des Weltraums in den 2030er Jahren deutlich beschleunigen könnte, etwa durch autonome Raumfahrzeuge sowie Montage und Fertigung im All. Weil keine Menschen an Bord sein müssen, lassen sich Konstruktionen völlig neu denken. Wer früh startet, könnte sich dauerhafte Vorteile bei Energie, Fertigung und Zugang zum Orbit verschaffen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "weltraum",
+    "autonomie",
+    "zukunftsszenarien",
+    "geopolitik"
+   ],
+   "source": "Import AI",
+   "source_id": "import-ai",
+   "added": "2026-10-13T16:08:45+02:00",
+   "quelle_titel": "The AI race is going to space - and sooner than you think",
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi?story=ai-race-will-extend-far-beyond-earth",
+   "dup_of": "a285f15c509c"
   },
   {
    "id": "5e0eef952c27",
