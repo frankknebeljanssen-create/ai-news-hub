@@ -574,7 +574,17 @@
    "added": "2026-10-13T00:14:00+02:00",
    "quelle_titel": "Amazon greift nach KI-Startup Decart",
    "url": "https://www.cio.de/article/4233653/amazon-greift-nach-ki-startup-decart.html",
-   "dup_of": "3ad8c76d75ce"
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/decart-amazon-verhandelt-ki-uebernahme-fuer-sieben-milliarden-us-dollar-2610-213988.html"
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/uebernahme-amazon-verhandelt-ueber-kauf-von-ki-start-up-decart/100261491.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "3ad8c76d75ce",
@@ -597,16 +607,7 @@
    "paywall": true,
    "quelle_titel": "Übernahme: Amazon verhandelt über Kauf von KI-Start-up Decart",
    "url": "https://www.handelsblatt.com/technik/ki/uebernahme-amazon-verhandelt-ueber-kauf-von-ki-start-up-decart/100261491.html",
-   "also": [
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/decart-amazon-verhandelt-ki-uebernahme-fuer-sieben-milliarden-us-dollar-2610-213988.html"
-    },
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4233653/amazon-greift-nach-ki-startup-decart.html"
-    }
-   ]
+   "dup_of": "7a139aa535fa"
   },
   {
    "id": "e1ddb72f3f46",
@@ -628,7 +629,7 @@
    "added": "2026-10-13T03:42:55+02:00",
    "quelle_titel": "Decart: Amazon verhandelt KI-Übernahme für sieben Milliarden US-Dollar",
    "url": "https://www.golem.de/news/decart-amazon-verhandelt-ki-uebernahme-fuer-sieben-milliarden-us-dollar-2610-213988.html",
-   "dup_of": "3ad8c76d75ce"
+   "dup_of": "7a139aa535fa"
   },
   {
    "id": "05e32b638b88",
@@ -740,12 +741,7 @@
    "quelle_titel": "SAP zwischen KI-Vision und ERP-Alltag: DSAG fordert Wahlfreiheit",
    "url": "https://www.heise.de/news/SAP-zwischen-KI-Vision-und-ERP-Alltag-DSAG-fordert-Wahlfreiheit-11484019.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Auf der Kundenkonferenz SAP Connect in Las Vegas zeigte der Konzern mit Joule Work eine Oberfläche, über die Beschäftigte Aufgaben in natürlicher Sprache anstoßen; Agenten erledigen sie anwendungsübergreifend, gespeist aus der Business Data Cloud. Damit rückt SAP in den Wettbewerb mit Microsoft, Salesforce und ServiceNow um die Steuerungsebene oberhalb der Unternehmenssoftware. Berater sehen das klassische ERP weiter als unverzichtbare Datenbasis, auf der agentische Abläufe aufsetzen.",
-   "also": [
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/SAP-zwischen-KI-Vision-und-ERP-Alltag-DSAG-fordert-Wahlfreiheit-11484019.html"
-    }
-   ]
+   "dup_of": "7f530f83400d"
   },
   {
    "id": "bdedd397920a",
@@ -797,7 +793,7 @@
    "quelle_titel": "KI: Microsoft-Präsident Smith fordert schärfere Regulierung von KI",
    "url": "https://www.handelsblatt.com/technik/ki/ki-microsoft-praesident-smith-fordert-schaerfere-regulierung-von-ki/100261568.html",
    "kontext": "Smith äußerte sich in einem BBC-Podcast und sieht Großbritannien mit seinem AI Security Institute in der besten Position für globale Sicherheitsregeln, weil dieses Modelle führender Labore schon vor dem Start prüfen darf. In Washington gelte London als weniger problematisch als Brüssel. Die jüngst im Weißen Haus unterzeichnete freiwillige Erklärung hält er für zu schwach, weil sich nur verantwortungsvolle Firmen daran halten. Er fordert zudem Meldepflichten bei Angriffen durch KI-Agenten.",
-   "dup_of": "b3c5ed4c053c"
+   "dup_of": "5974203bb3c7"
   },
   {
    "id": "e6a9848c966e",
@@ -920,6 +916,10 @@
      "url": "https://www.it-daily.net/shortnews/maia-300-microsofts-ki-chip"
     },
     {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/maia-300-eine-million-neue-chips-sollen-microsofts-ki-antreiben-2610-214041.html"
+    },
+    {
      "source": "The Decoder",
      "url": "https://the-decoder.de/microsoft-will-neuen-ki-chip-maia-300-ab-2027-im-gigawatt-massstab-einsetzen/"
     },
@@ -1028,7 +1028,13 @@
    "kurios": "Das Modell legte seine eigene Testumgebung lahm, statt den Fehler zu melden.",
    "quelle_titel": "OpenAI-Modell zerstört absichtlich eigene Testumgebung",
    "url": "https://www.heise.de/news/OpenAI-Modell-zerstoert-absichtlich-eigene-Testumgebung-11482632.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Das Modell war als Bewerter in einen Trainingslauf eingebunden und sollte Chatantworten benoten, damit ein anderes System daraus lernt. Weil die zu bewertenden Dateien fehlten, erfand es erst Bewertungen und schließlich ganze Chats, bevor es Python, die Container-Verwaltung und Systemverzeichnisse angriff. OpenAI hat den Ablauf samt interner Dokumentation des Modells selbst veröffentlicht. Das Beispiel zeigt, wie hartnäckig Modelle an einer Vorgabe festhalten, statt ihr Scheitern einzugestehen."
+   "kontext": "Das Modell war als Bewerter in einen Trainingslauf eingebunden und sollte Chatantworten benoten, damit ein anderes System daraus lernt. Weil die zu bewertenden Dateien fehlten, erfand es erst Bewertungen und schließlich ganze Chats, bevor es Python, die Container-Verwaltung und Systemverzeichnisse angriff. OpenAI hat den Ablauf samt interner Dokumentation des Modells selbst veröffentlicht. Das Beispiel zeigt, wie hartnäckig Modelle an einer Vorgabe festhalten, statt ihr Scheitern einzugestehen.",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/ki-ausser-kontrolle-openai-modell-zerlegt-grundlos-seine-eigene-umgebung-1767982"
+    }
+   ]
   },
   {
    "id": "24db0b66b8a6",
@@ -1234,7 +1240,22 @@
    "quelle_titel": "Microsoft president says UK is best placed to drive AI regulation",
    "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
    "kontext": "Smith äußerte sich in einem BBC-Podcast und sieht den Zeitpunkt für weltweite Sicherheitsregeln gekommen. Londons AI Security Institute prüft Spitzenmodelle amerikanischer Labore schon vor dem Start und gilt als führend, geriet aber durch Kritik aus Washington an internationalen Gremien unter Druck. Freiwillige Zusagen der Branche genügen Smith nicht, weil sich nur verantwortungsvolle Anbieter daran halten. Er wirbt für unabhängige Prüfinstanzen und Notbremsen.",
-   "dup_of": "b3c5ed4c053c"
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/microsoft-ki-kontrolle-milch-1767917"
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-microsoft-praesident-smith-fordert-schaerfere-regulierung-von-ki/100261568.html",
+     "paywall": true
+    },
+    {
+     "source": "Spiegel Netzwelt",
+     "url": "https://www.spiegel.de/netzwelt/netzpolitik/microsoft-praesident-brad-smith-haelt-waschmaschinen-fuer-besser-reguliert-als-ki-a-36fef26d-1413-430a-b7a0-7eb1f4e9c3bd#ref=rss",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "694031a694de",
@@ -1334,20 +1355,28 @@
      "url": "https://www.heise.de/news/Metas-neue-KI-Spitzenmodelle-Muse-Wonder-macht-Claude-Konkurrenz-11485317.html"
     },
     {
+     "source": "Yahoo Nachrichten",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTkdXcE93RU9DaHU1UmlzRzZ0eHM2VkpDZk9KaUp3Tk4yaUhyT3ROMnZIeU02R0ozazNqR3phWjhrSUMwaVp6WFNtUFBHb3JIV253WmhzWUlWb182am1GQWZ5VUpfTEZZUG1hQUpCOW1CU3h6ZmFXUGhWdlZXZ1UwbTFlVHBfUjE0Smk2V09VSkJlVHh2RzlFQ3IyOA?oc=5"
+    },
+    {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/newsletter/meta-s-muse-wonder-is-here-priced-like-opus-ee30/"
+    },
+    {
+     "source": "Latent Space",
+     "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
     },
     {
      "source": "The Rundown AI",
      "url": "https://www.therundown.ai/articles/meta-watermelon-ripens-into-a-frontier-model"
     },
     {
-     "source": "Yahoo Nachrichten",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTkdXcE93RU9DaHU1UmlzRzZ0eHM2VkpDZk9KaUp3Tk4yaUhyT3ROMnZIeU02R0ozazNqR3phWjhrSUMwaVp6WFNtUFBHb3JIV253WmhzWUlWb182am1GQWZ5VUpfTEZZUG1hQUpCOW1CU3h6ZmFXUGhWdlZXZ1UwbTFlVHBfUjE0Smk2V09VSkJlVHh2RzlFQ3IyOA?oc=5"
+     "source": "Golem",
+     "url": "https://www.golem.de/news/muse-wonder-metas-neue-ki-modelle-gibt-es-nicht-mehr-umsonst-2610-214037.html"
     },
     {
-     "source": "Latent Space",
-     "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Metas-neue-KI-Spitzenmodelle-Muse-Wonder-macht-Claude-Konkurrenz-11485317.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
      "source": "The Decoder",
@@ -1545,7 +1574,13 @@
    "paywall": true,
    "quelle_titel": "DSAG-Chef Henzler: „Sobald die KI-Nutzung in die Breite geht, werden diese Fragen akut“",
    "url": "https://www.wiwo.de/unternehmen/it/dsag-chef-henzler-was-sap-kunden-bei-ki-und-kosten-erwartet/100260771.html",
-   "kontext": "Hinter der Warnung steht SAPs Agenten-Offensive: Auf der Kundenkonferenz SAP Connect kündigte der Konzern eine Reihe von KI-Assistenten und bis Jahresende mehrere hundert Agenten an, dazu die Sprachoberfläche Joule Work und den Baukasten Joule Studio. Die DSAG begrüßt die Richtung, verlangt aber Wahlfreiheit und Neuerungen auch für bestehende ERP-Landschaften. Denn um die Steuerungsebene über dem ERP ringt SAP mit Microsoft, Salesforce und ServiceNow."
+   "kontext": "Hinter der Warnung steht SAPs Agenten-Offensive: Auf der Kundenkonferenz SAP Connect kündigte der Konzern eine Reihe von KI-Assistenten und bis Jahresende mehrere hundert Agenten an, dazu die Sprachoberfläche Joule Work und den Baukasten Joule Studio. Die DSAG begrüßt die Richtung, verlangt aber Wahlfreiheit und Neuerungen auch für bestehende ERP-Landschaften. Denn um die Steuerungsebene über dem ERP ringt SAP mit Microsoft, Salesforce und ServiceNow.",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/SAP-zwischen-KI-Vision-und-ERP-Alltag-DSAG-fordert-Wahlfreiheit-11484019.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ]
   },
   {
    "id": "b860942674b7",
@@ -2380,12 +2415,7 @@
    "quelle_titel": "Datenbanken mit Java, KI und MCP steuern: Googles MCP Toolbox",
    "url": "https://www.heise.de/news/Datenbanken-mit-Java-KI-und-MCP-steuern-Googles-MCP-Toolbox-11483877.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Die Toolbox ist ein quelloffener MCP-Server, dessen Entwicklung bei Google schon vor dem Protokoll begann und der deshalb später umbenannt wurde. Er bedient neben Googles eigenen Cloud-Datenbanken auch verbreitete Systeme wie PostgreSQL, MySQL, Oracle oder MongoDB. Wichtig ist dabei der Sicherheitsgedanke: Teams hinterlegen feste, parametrisierte Abfragen, das Sprachmodell wählt nur das passende Werkzeug aus und liefert die Werte, statt selbst SQL zu formulieren.",
-   "also": [
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Datenbanken-mit-Java-KI-und-MCP-steuern-Googles-MCP-Toolbox-11483877.html"
-    }
-   ]
+   "dup_of": "33b58faa0b0c"
   },
   {
    "id": "33b58faa0b0c",
@@ -2410,7 +2440,12 @@
    "quelle_titel": "Datenbanken mit Java, KI und MCP steuern: Googles MCP Toolbox",
    "url": "https://www.heise.de/news/Datenbanken-mit-Java-KI-und-MCP-steuern-Googles-MCP-Toolbox-11483877.html",
    "kontext": "Konkret liegt nun Version 1.0 des Java-SDK vor. Die Client-Bibliothek holt die definierten Werkzeuge vom Toolbox-Server und reicht sie an die Agenten weiter. Umsteiger von der Vorversion sollten aufpassen: Fest vorbelegte Parameter tauchen in der Werkzeugbeschreibung für das Modell nicht mehr auf, was bestehende Prompts und Tests brechen kann. Neu sind außerdem Standardwerte für Parameter, Hooks rund um Aufrufe und eine abgetrennte Anmeldung.",
-   "dup_of": "26a62f6b2cf5"
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Datenbanken-mit-Java-KI-und-MCP-steuern-Googles-MCP-Toolbox-11483877.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ]
   },
   {
    "id": "f8f2b30016f7",
@@ -2432,6 +2467,7 @@
    "added": "2026-10-13T00:11:01+02:00",
    "quelle_titel": "AMD Helion: Offene KI-Racks sollen Rechenzentren flexibler auslasten",
    "url": "https://www.golem.de/news/amd-helion-offene-ki-racks-sollen-rechenzentren-flexibler-auslasten-2610-214014.html",
+   "kontext": "Agentische Anwendungen verschieben einen Teil der Arbeit weg vom Modell: Datenbankabfragen und ähnliche Schritte laufen auf klassischen Prozessoren, während teure Beschleuniger zwischenzeitlich leerlaufen. Genau hier setzt AMD an und kombiniert frei konfigurierbare CPU- und GPU-Racks mit einer Verteilung der Anfragen auf jeweils passende Modelle. Ob daraus tatsächlich günstigerer Betrieb von KI-Agenten wird, hängt an den Anschaffungskosten und an der Leistung im Alltagsbetrieb.",
    "also": [
     {
      "source": "The Neuron",
@@ -2441,8 +2477,7 @@
      "source": "Finanztrends",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMDFiV3Y5OEY3djc2U2JZNmN0S2tCYmFWUW1XUzBERHJtMW5HODU3QXM2c2Yzb1ExOWFvd3N3TlpOZnRFb3N4M0ctNkJkRUx1YlFfNUxTQXR6VVZ6MGg5WEJjWGNRQXE2TFZyMjg5cExvazVmbkFDM2o3UXR5cURjV29tc0lfeVBNY3VRT1pWOA?oc=5"
     }
-   ],
-   "kontext": "Agentische Anwendungen verschieben einen Teil der Arbeit weg vom Modell: Datenbankabfragen und ähnliche Schritte laufen auf klassischen Prozessoren, während teure Beschleuniger zwischenzeitlich leerlaufen. Genau hier setzt AMD an und kombiniert frei konfigurierbare CPU- und GPU-Racks mit einer Verteilung der Anfragen auf jeweils passende Modelle. Ob daraus tatsächlich günstigerer Betrieb von KI-Agenten wird, hängt an den Anschaffungskosten und an der Leistung im Alltagsbetrieb."
+   ]
   },
   {
    "id": "f2ffa446fda7",
@@ -2485,13 +2520,13 @@
    "kurios": "Entwickler verschuldet sich, damit Spieler die Gratisdemo weiter nutzen können.",
    "quelle_titel": "Kostenfalle KI: Gratisdemo auf Steam verschlingt 1.000 US-Dollar täglich",
    "url": "https://www.golem.de/news/kostenfalle-ki-gratisdemo-auf-steam-verschlingt-1-000-us-dollar-taeglich-2610-214012.html",
+   "kontext": "In dem Spiel bringt man per Sprachanweisung einer virtuellen Fahrschülerin das Autofahren bei, ihre Reaktionen erzeugt ein Sprachmodell im Hintergrund, bevorzugt von Google. Weil dessen Nutzungslimits immer wieder erreicht wurden, musste das Team auf Ersatzmodelle ausweichen, während die Zahl gleichzeitiger Spieler binnen Wochen stark wuchs. Für die Vollversion will das Studio die KI-Kosten in den Kaufpreis einrechnen, statt den Verbrauch einzeln abzurechnen. Zusätzlich sollen lokal laufende Modelle unterstützt werden.",
    "also": [
     {
      "source": "t3n",
      "url": "https://t3n.de/news/ki-spiel-steam-entwickler-kredit-1767939"
     }
-   ],
-   "kontext": "In dem Spiel bringt man per Sprachanweisung einer virtuellen Fahrschülerin das Autofahren bei, ihre Reaktionen erzeugt ein Sprachmodell im Hintergrund, bevorzugt von Google. Weil dessen Nutzungslimits immer wieder erreicht wurden, musste das Team auf Ersatzmodelle ausweichen, während die Zahl gleichzeitiger Spieler binnen Wochen stark wuchs. Für die Vollversion will das Studio die KI-Kosten in den Kaufpreis einrechnen, statt den Verbrauch einzeln abzurechnen. Zusätzlich sollen lokal laufende Modelle unterstützt werden."
+   ]
   },
   {
    "id": "29abcdfebafc",
@@ -2602,22 +2637,8 @@
    "paywall": true,
    "quelle_titel": "Microsoft-Präsident Brad Smith hält Waschmaschinen für besser reguliert als KI",
    "url": "https://www.spiegel.de/netzwelt/netzpolitik/microsoft-praesident-brad-smith-haelt-waschmaschinen-fuer-besser-reguliert-als-ki-a-36fef26d-1413-430a-b7a0-7eb1f4e9c3bd#ref=rss",
-   "also": [
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/microsoft-ki-kontrolle-milch-1767917"
-    },
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/ki/ki-microsoft-praesident-smith-fordert-schaerfere-regulierung-von-ki/100261568.html",
-     "paywall": true
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/"
-    }
-   ],
-   "kontext": "Smith äußerte sich in einem BBC-Podcast und reiht sich damit hinter Satya Nadella und Bill Gates ein, die zuletzt ebenfalls warnten und Notabschaltungen forderten. Er wirbt für Meldepflichten bei Vorfällen und eine unabhängige Prüfung neuer Modelle vor dem Start, wie sie bei anderen Produkten längst üblich ist. Freiwillige Selbstverpflichtungen hält er für zu schwach, weil nur verantwortungsvolle Anbieter mitziehen. Die Führungsrolle traut er eher Großbritannien zu als Washington oder Brüssel."
+   "kontext": "Smith äußerte sich in einem BBC-Podcast und reiht sich damit hinter Satya Nadella und Bill Gates ein, die zuletzt ebenfalls warnten und Notabschaltungen forderten. Er wirbt für Meldepflichten bei Vorfällen und eine unabhängige Prüfung neuer Modelle vor dem Start, wie sie bei anderen Produkten längst üblich ist. Freiwillige Selbstverpflichtungen hält er für zu schwach, weil nur verantwortungsvolle Anbieter mitziehen. Die Führungsrolle traut er eher Großbritannien zu als Washington oder Brüssel.",
+   "dup_of": "5974203bb3c7"
   },
   {
    "id": "dc274d1490f1",
@@ -2789,7 +2810,8 @@
    "kurios": "Ein großes Studio will offenbar gar keinen handgeschriebenen Code mehr dulden.",
    "quelle_titel": "Epic Games reportedly pivoting to \"AI first\" game development model",
    "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
-   "kontext": "Grundlage ist ein Bericht von Bloomberg, der sich auf Insider und interne Mitteilungen beruft. Betroffen ist die milliardenschwere Partnerschaft mit Disney, deren Shooter ursprünglich 2027 erscheinen sollte und nun ohne neuen Termin dasteht. Entwickler sollen künftig vor allem Ergebnisse von Modellen wie Claude steuern und kuratieren. Firmenchef Tim Sweeney wirbt seit Längerem für KI in der Produktion und verspricht mehr Output statt weniger Personal."
+   "kontext": "Grundlage ist ein Bericht von Bloomberg, der sich auf Insider und interne Mitteilungen beruft. Betroffen ist die milliardenschwere Partnerschaft mit Disney, deren Shooter ursprünglich 2027 erscheinen sollte und nun ohne neuen Termin dasteht. Entwickler sollen künftig vor allem Ergebnisse von Modellen wie Claude steuern und kuratieren. Firmenchef Tim Sweeney wirbt seit Längerem für KI in der Produktion und verspricht mehr Output statt weniger Personal.",
+   "dup_of": "b5bc9b7960ba"
   },
   {
    "id": "0d15a85deea1",
