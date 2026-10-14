@@ -1,37 +1,37 @@
 {
- "last_run_date": "2026-10-14",
- "last_success": "2026-10-14T08:45:54+02:00",
+ "last_run_date": "2026-10-15",
+ "last_success": "2026-10-15T00:49:28+02:00",
  "sources": {
   "neuron": {
    "name": "The Neuron",
    "type": "rss",
    "region": "intl",
-   "ok": false,
-   "checked": "2026-10-14T05:41:07+02:00",
-   "error": "The read operation timed out"
+   "ok": true,
+   "checked": "2026-10-15T00:32:43+02:00",
+   "new": 5
   },
   "rundown": {
    "name": "The Rundown AI",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T05:41:07+02:00",
-   "new": 0
+   "checked": "2026-10-15T00:32:44+02:00",
+   "new": 2
   },
   "tldr-ai": {
    "name": "TLDR AI",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T05:41:08+02:00",
-   "new": 0
+   "checked": "2026-10-15T00:32:44+02:00",
+   "new": 1
   },
   "import-ai": {
    "name": "Import AI",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T05:41:09+02:00",
+   "checked": "2026-10-15T00:32:45+02:00",
    "new": 0
   },
   "batch": {
@@ -39,7 +39,7 @@
    "type": "web",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T06:16:19+02:00",
+   "checked": "2026-10-15T00:32:50+02:00",
    "new": 0
   },
   "anthropic": {
@@ -47,39 +47,39 @@
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T06:16:20+02:00",
-   "new": 0
+   "checked": "2026-10-15T00:32:51+02:00",
+   "new": 2
   },
   "openai": {
    "name": "OpenAI",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T06:17:11+02:00",
-   "new": 1
+   "checked": "2026-10-15T00:32:53+02:00",
+   "new": 4
   },
   "deepmind": {
    "name": "Google DeepMind",
    "type": "rss",
    "region": "intl",
-   "ok": true,
-   "checked": "2026-10-14T06:17:14+02:00",
-   "new": 4
+   "ok": false,
+   "checked": "2026-10-15T00:32:53+02:00",
+   "error": "Feed leer oder nicht lesbar"
   },
   "meta-ai": {
    "name": "Meta (Engineering, ML)",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T06:17:15+02:00",
-   "new": 1
+   "checked": "2026-10-15T00:32:54+02:00",
+   "new": 0
   },
   "huggingface": {
    "name": "Hugging Face",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T06:17:17+02:00",
+   "checked": "2026-10-15T00:32:56+02:00",
    "new": 1
   },
   "mit-tr": {
@@ -87,7 +87,7 @@
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T06:17:17+02:00",
+   "checked": "2026-10-15T00:32:56+02:00",
    "new": 0
   },
   "politico-eu": {
@@ -95,8 +95,8 @@
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T06:17:18+02:00",
-   "new": 2
+   "checked": "2026-10-15T00:32:56+02:00",
+   "new": 0
   },
   "euractiv": {
    "name": "Euractiv",
@@ -110,7 +110,7 @@
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T06:17:19+02:00",
+   "checked": "2026-10-15T00:32:57+02:00",
    "new": 4
   },
   "ars-ai": {
@@ -118,7 +118,7 @@
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T06:27:50+02:00",
+   "checked": "2026-10-15T00:32:59+02:00",
    "new": 4
   },
   "techcrunch-ai": {
@@ -126,7 +126,7 @@
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T06:27:52+02:00",
+   "checked": "2026-10-15T00:33:00+02:00",
    "new": 4
   },
   "wired-ai": {
@@ -134,16 +134,16 @@
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T06:27:53+02:00",
-   "new": 2
+   "checked": "2026-10-15T00:33:01+02:00",
+   "new": 4
   },
   "latent-space": {
    "name": "Latent Space",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-10-14T06:42:57+02:00",
-   "new": 1
+   "checked": "2026-10-15T00:33:03+02:00",
+   "new": 3
   },
   "venturebeat-ai": {
    "name": "VentureBeat AI",
@@ -157,15 +157,15 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:43:01+02:00",
-   "new": 4
+   "checked": "2026-10-15T00:33:06+02:00",
+   "new": 6
   },
   "heise-ki": {
    "name": "heise KI",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:43:03+02:00",
+   "checked": "2026-10-15T00:33:08+02:00",
    "new": 6
   },
   "t3n": {
@@ -173,15 +173,15 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:43:06+02:00",
-   "new": 4
+   "checked": "2026-10-15T00:33:10+02:00",
+   "new": 6
   },
   "netzpolitik": {
    "name": "netzpolitik.org",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:43:08+02:00",
+   "checked": "2026-10-15T00:33:10+02:00",
    "new": 0
   },
   "bitkom": {
@@ -189,7 +189,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:43:08+02:00",
+   "checked": "2026-10-15T00:33:11+02:00",
    "new": 0
   },
   "ki-verband": {
@@ -197,7 +197,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:43:08+02:00",
+   "checked": "2026-10-15T00:33:11+02:00",
    "new": 0
   },
   "bundesregierung": {
@@ -205,8 +205,8 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:43:09+02:00",
-   "new": 0
+   "checked": "2026-10-15T00:33:11+02:00",
+   "new": 1
   },
   "bmwe": {
    "name": "BMWE (KI)",
@@ -220,23 +220,23 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:43:10+02:00",
-   "new": 2
+   "checked": "2026-10-15T00:33:13+02:00",
+   "new": 4
   },
   "computerwoche": {
    "name": "Computerwoche",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:02+02:00",
-   "new": 1
+   "checked": "2026-10-15T00:33:18+02:00",
+   "new": 2
   },
   "cio": {
    "name": "CIO",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:05+02:00",
+   "checked": "2026-10-15T00:33:20+02:00",
    "new": 1
   },
   "ix": {
@@ -244,15 +244,15 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:06+02:00",
-   "new": 1
+   "checked": "2026-10-15T00:33:22+02:00",
+   "new": 3
   },
   "spiegel-netzwelt": {
    "name": "Spiegel Netzwelt",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:07+02:00",
+   "checked": "2026-10-15T00:33:22+02:00",
    "new": 2
   },
   "zeit-digital": {
@@ -260,7 +260,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:08+02:00",
+   "checked": "2026-10-15T00:33:24+02:00",
    "new": 3
   },
   "sz-digital": {
@@ -268,7 +268,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:08+02:00",
+   "checked": "2026-10-15T00:33:24+02:00",
    "new": 0
   },
   "handelsblatt-tech": {
@@ -276,47 +276,47 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:09+02:00",
-   "new": 3
+   "checked": "2026-10-15T00:33:25+02:00",
+   "new": 2
   },
   "tagesspiegel-wirtschaft": {
    "name": "Tagesspiegel Wirtschaft",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:11+02:00",
-   "new": 3
+   "checked": "2026-10-15T00:33:25+02:00",
+   "new": 1
   },
   "wiwo": {
    "name": "WirtschaftsWoche",
    "type": "rss",
    "region": "de",
-   "ok": false,
-   "checked": "2026-10-14T06:50:53+02:00",
-   "error": "[Errno 54] Connection reset by peer"
+   "ok": true,
+   "checked": "2026-10-15T00:33:26+02:00",
+   "new": 1
   },
   "stern-digital": {
    "name": "stern Digital",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:54+02:00",
-   "new": 0
+   "checked": "2026-10-15T00:33:27+02:00",
+   "new": 3
   },
   "gruenderszene": {
    "name": "Gründerszene",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:56+02:00",
-   "new": 0
+   "checked": "2026-10-15T00:33:29+02:00",
+   "new": 1
   },
   "deutsche-startups": {
    "name": "deutsche-startups.de",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:56+02:00",
+   "checked": "2026-10-15T00:33:29+02:00",
    "new": 0
   },
   "basic-thinking": {
@@ -324,7 +324,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:57+02:00",
+   "checked": "2026-10-15T00:33:30+02:00",
    "new": 1
   },
   "heise-security": {
@@ -332,7 +332,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:58+02:00",
+   "checked": "2026-10-15T00:33:30+02:00",
    "new": 0
   },
   "eco": {
@@ -340,15 +340,15 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:50:59+02:00",
-   "new": 0
+   "checked": "2026-10-15T00:33:32+02:00",
+   "new": 1
   },
   "algorithmwatch": {
    "name": "AlgorithmWatch",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:51:00+02:00",
+   "checked": "2026-10-15T00:33:32+02:00",
    "new": 0
   },
   "sap-news-de": {
@@ -356,31 +356,31 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:51:01+02:00",
-   "new": 0
+   "checked": "2026-10-15T00:33:34+02:00",
+   "new": 1
   },
   "bildungsserver": {
    "name": "Deutscher Bildungsserver",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T06:51:01+02:00",
+   "checked": "2026-10-15T00:33:35+02:00",
    "new": 1
   },
   "hfd": {
    "name": "Hochschulforum Digitalisierung",
    "type": "rss",
    "region": "de",
-   "ok": false,
-   "checked": "2026-10-14T07:13:44+02:00",
-   "error": "The read operation timed out"
+   "ok": true,
+   "checked": "2026-10-15T00:34:17+02:00",
+   "new": 0
   },
   "forum-bildung": {
    "name": "Forum Bildung Digitalisierung",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:13:44+02:00",
+   "checked": "2026-10-15T00:34:18+02:00",
    "new": 0
   },
   "personalwirtschaft": {
@@ -388,23 +388,23 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:13:49+02:00",
-   "new": 0
+   "checked": "2026-10-15T00:34:22+02:00",
+   "new": 2
   },
   "it-daily": {
    "name": "it-daily.net",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:13:50+02:00",
-   "new": 3
+   "checked": "2026-10-15T00:34:23+02:00",
+   "new": 2
   },
   "acatech": {
    "name": "acatech",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:13:51+02:00",
+   "checked": "2026-10-15T00:34:24+02:00",
    "new": 0
   },
   "datenschutz-notizen": {
@@ -412,7 +412,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:13:52+02:00",
+   "checked": "2026-10-15T00:34:24+02:00",
    "new": 0
   },
   "dr-datenschutz": {
@@ -420,7 +420,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:13:53+02:00",
+   "checked": "2026-10-15T00:34:25+02:00",
    "new": 0
   },
   "digitalcourage": {
@@ -428,7 +428,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:13:54+02:00",
+   "checked": "2026-10-15T00:34:25+02:00",
    "new": 0
   },
   "lamarr": {
@@ -436,7 +436,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:28:56+02:00",
+   "checked": "2026-10-15T00:34:26+02:00",
    "new": 0
   },
   "omr": {
@@ -444,7 +444,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:29:02+02:00",
+   "checked": "2026-10-15T00:34:30+02:00",
    "new": 0
   },
   "deepl": {
@@ -452,7 +452,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:29:02+02:00",
+   "checked": "2026-10-15T00:34:30+02:00",
    "new": 0
   },
   "tagesschau": {
@@ -460,15 +460,15 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:29:02+02:00",
-   "new": 1
+   "checked": "2026-10-15T00:34:31+02:00",
+   "new": 2
   },
   "deutschlandfunk": {
    "name": "Deutschlandfunk",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:29:03+02:00",
+   "checked": "2026-10-15T00:34:31+02:00",
    "new": 0
   },
   "spektrum": {
@@ -476,7 +476,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:29:03+02:00",
+   "checked": "2026-10-15T00:34:31+02:00",
    "new": 0
   },
   "gn-weiterbildung": {
@@ -484,15 +484,15 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:29:04+02:00",
-   "new": 3
+   "checked": "2026-10-15T00:34:33+02:00",
+   "new": 4
   },
   "gn-kurse": {
    "name": "Suche KI-Kurse",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:29:05+02:00",
+   "checked": "2026-10-15T00:34:33+02:00",
    "new": 0
   },
   "gn-unternehmen": {
@@ -500,24 +500,24 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:29:06+02:00",
-   "new": 2
+   "checked": "2026-10-15T00:34:35+02:00",
+   "new": 5
   },
   "gn-startups": {
    "name": "Suche Startups DE",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:29:07+02:00",
-   "new": 3
+   "checked": "2026-10-15T00:34:37+02:00",
+   "new": 4
   },
   "gn-politik": {
    "name": "Suche Politik DE",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:29:08+02:00",
-   "new": 1
+   "checked": "2026-10-15T00:34:38+02:00",
+   "new": 0
   },
   "gn-strategie": {
    "name": "Suche KI-Strategie DE",
@@ -531,7 +531,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:29:09+02:00",
+   "checked": "2026-10-15T00:34:38+02:00",
    "new": 0
   },
   "fraunhofer-academy": {
@@ -539,7 +539,7 @@
    "type": "web",
    "region": "de",
    "ok": true,
-   "checked": "2026-10-14T07:29:10+02:00",
+   "checked": "2026-10-15T00:34:39+02:00",
    "new": 0
   },
   "kursnet": {
@@ -675,6 +675,13 @@
   "https://t3n.de/news/produktiver-fuer-39-euro-thinkpad-1767031": "2026-10-14",
   "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think": "2026-10-14",
   "https://news.google.com/rss/articles/CBMiogFBVV95cUxORDRxX1B3X2htSGptenYtTlM2ZTZFT0dKTm1MUVRGcDRiNm1oMkVPQTFDMVdnM25fZHEyR3JLcXJic0hwWGY2S1hoRGdjZ0VJYVF6ZE9fdFZYR0o2NmozVlVMR0ZqZDFxX1ZZZ0xCWjlFbzRqa3IzRVJ3R0VMZXBTX0tva2dJSk1fanZaQmpidjJOQlpBRktOR25yVWhVc3dTc3c?oc=5": "2026-10-14",
-  "https://openai.com/index/higgsfield-longer-videos-voice": "2026-10-14"
+  "https://openai.com/index/higgsfield-longer-videos-voice": "2026-10-14",
+  "https://theneuron.ai/newsletter/q4-tna-email-muse": "2026-10-15",
+  "https://t3n.de/news/grosses-update-fuer-android-auto-diese-neuerungen-bringt-version-18-mit-sich-1768257": "2026-10-15",
+  "https://t3n.de/news/neues-apple-tv-4k-kaufen-wann-der-vorgaenger-reicht-und-welche-alternativen-es-gibt-1768100": "2026-10-15",
+  "https://t3n.de/news/space-jellyfish-am-himmel-spacex-start-1768173": "2026-10-15",
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE45Wm9NakJWdEJFREgzRDlhWDRxR1BQcUJXZnFQR2UyV2QxMk1raWM4eDlFY1htSy13Y1ViTUw2MG44MjU1ZlNrd0ZWVjM5NlF3MjY2dWk1TmFUQjRKZ2RFaVV0b1Z5TU40ejVkUld3RW82VVkxNjdV?oc=5": "2026-10-15",
+  "https://bundesregierung.de/breg-de/aktuelles/kabinett-eckpunkte-jugendmedienschutz-2456960": "2026-10-15",
+  "https://personalwirtschaft.de/news/personalentwicklung/betriebliche-weiterbildung-bei-asklepios-lernen-durch-gamification-210108": "2026-10-15"
  }
 }
