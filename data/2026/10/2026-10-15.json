@@ -1,22 +1,26 @@
 {
  "date": "2026-10-15",
- "generated_at": "2026-10-15T04:21:56+02:00",
+ "generated_at": "2026-10-15T05:26:12+02:00",
  "overview": [
   {
    "id": "bc2aca42b782",
-   "text": "Anthropic kommt laut Berichten auf 16,8 Milliarden Dollar Quartalsumsatz, arbeitet bereinigt profitabel und will noch dieses Jahr an die Börse."
+   "text": "Anthropic steigerte seinen Quartalsumsatz auf 16,8 Milliarden Dollar, arbeitete bereinigt profitabel und wird noch dieses Jahr an die Börse erwartet."
+  },
+  {
+   "id": "2837e00643da",
+   "text": "In Firmennetzen gibt es mehr Maschinenidentitäten als menschliche Konten, weshalb Mikrosegmentierung gekaperte KI-Agenten eindämmen soll."
   },
   {
    "id": "09ee95f81d33",
-   "text": "McKinsey prüft Bewerber für Einstiegsjobs künftig in einem zehnminütigen Gespräch mit einer KI, die typische Kundensituationen der Beratung nachbildet."
+   "text": "McKinsey prüft Bewerber für Einstiegsjobs künftig in einem zehnminütigen Gespräch mit einer KI, die einen typischen Beratungskunden simuliert."
   },
   {
    "id": "f0fe7c9aa7b8",
-   "text": "Das Startup Ricursive Intelligence will Chips von lernenden KI-Systemen entwerfen lassen und so den Mangel an Rechenkapazität verringern."
+   "text": "Das Startup Ricursive Intelligence lässt KI selbst Chips entwerfen und aus jeder Entwurfsrunde lernen, um die Knappheit an Rechenleistung zu lindern."
   },
   {
    "id": "d3bb9ef55af6",
-   "text": "Das Start-up Gudea verfolgt mit KI die Ausbreitung von Gerüchten und Falschinformationen, um Organisationen früh vor Imageschäden zu warnen."
+   "text": "Das Startup Gudea verfolgt mit KI die Ausbreitung von Gerüchten und Falschinformationen und warnt Organisationen vor drohenden Reputationskrisen."
   }
  ],
  "items": [
@@ -64,6 +68,30 @@
    "quelle_titel": "McKinsey is making job applicants spar with a fake AI client",
    "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
    "kontext": "Hinter dem Verfahren steht zunächst ein Test, der in einigen nordamerikanischen Büros läuft und sich an Hochschulabsolventen für Analystenstellen richtet; einige hundert Bewerber dürften ihn durchlaufen. Bewertet wird nicht von der Software: Menschen sitzen mit im Raum und beobachten, wie die Kandidaten mit der Situation umgehen. Der simulierte Kunde soll realistisch wirken, aber nicht überzogen schwierig auftreten. Auch andere Unternehmen erproben derzeit KI-Avatare im Bewerbungsgespräch."
+  },
+  {
+   "id": "2837e00643da",
+   "date": "2026-10-15",
+   "published": "2026-10-15T05:13+02:00",
+   "headline": "KI-Agenten als blinder Fleck der Netzwerksicherheit",
+   "summary": "Maschinenidentitäten wie Dienstkonten und autonome KI-Agenten sind in Unternehmensnetzwerken inzwischen deutlich zahlreicher als menschliche Nutzerkonten, werden beim Schutz aber oft vernachlässigt. Der Beitrag erläutert, wie sich solche nicht menschlichen Identitäten per Mikrosegmentierung voneinander abschotten lassen, damit ein gekapertes Konto nicht zum Einstieg ins gesamte Netz wird.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "netzwerksicherheit",
+    "maschinenidentitäten",
+    "mikrosegmentierung",
+    "zero trust"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-15T05:23:46+02:00",
+   "praxis": true,
+   "quelle_titel": "Unterschätzte Gefahr: KI-Agenten im Netzwerk",
+   "url": "https://www.it-daily.net/it-sicherheit/cloud-security/ki-agenten-netzwerk",
+   "kontext": "Hinter der Warnung stehen Branchenberichte: Palo Alto Networks sieht Maschinenidentitäten den menschlichen Konten zahlenmäßig weit überlegen, und laut IBM wendet nur eine Minderheit der Unternehmen Zero Trust auf solche Identitäten an. Gemeint sind Dienstkonten, API-Schlüssel und Workload-Identitäten, die mit dauerhaften und oft zu weiten Rechten im Hintergrund laufen und nach der Einrichtung kaum noch überprüft werden. Bei KI-Agenten zeichnet sich die Angriffsfläche erst ab, während die Ausbreitung von Dienstkonten längst bekannt ist."
   },
   {
    "id": "d3bb9ef55af6",

@@ -1,7 +1,31 @@
 {
- "updated": "2026-10-15T04:21:56+02:00",
- "count": 1249,
+ "updated": "2026-10-15T05:26:12+02:00",
+ "count": 1250,
  "items": [
+  {
+   "id": "2837e00643da",
+   "date": "2026-10-15",
+   "published": "2026-10-15T05:13+02:00",
+   "headline": "KI-Agenten als blinder Fleck der Netzwerksicherheit",
+   "summary": "Maschinenidentitäten wie Dienstkonten und autonome KI-Agenten sind in Unternehmensnetzwerken inzwischen deutlich zahlreicher als menschliche Nutzerkonten, werden beim Schutz aber oft vernachlässigt. Der Beitrag erläutert, wie sich solche nicht menschlichen Identitäten per Mikrosegmentierung voneinander abschotten lassen, damit ein gekapertes Konto nicht zum Einstieg ins gesamte Netz wird.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "netzwerksicherheit",
+    "maschinenidentitäten",
+    "mikrosegmentierung",
+    "zero trust"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-15T05:23:46+02:00",
+   "praxis": true,
+   "quelle_titel": "Unterschätzte Gefahr: KI-Agenten im Netzwerk",
+   "url": "https://www.it-daily.net/it-sicherheit/cloud-security/ki-agenten-netzwerk",
+   "kontext": "Hinter der Warnung stehen Branchenberichte: Palo Alto Networks sieht Maschinenidentitäten den menschlichen Konten zahlenmäßig weit überlegen, und laut IBM wendet nur eine Minderheit der Unternehmen Zero Trust auf solche Identitäten an. Gemeint sind Dienstkonten, API-Schlüssel und Workload-Identitäten, die mit dauerhaften und oft zu weiten Rechten im Hintergrund laufen und nach der Einrichtung kaum noch überprüft werden. Bei KI-Agenten zeichnet sich die Angriffsfläche erst ab, während die Ausbreitung von Dienstkonten längst bekannt ist."
+  },
   {
    "id": "f0fe7c9aa7b8",
    "date": "2026-10-15",
@@ -679,6 +703,7 @@
    "kurios": "Die Wanze steckte in einer Rolle Toilettenpapier im Geheimbesprechungsraum.",
    "quelle_titel": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
    "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+   "kontext": "Der Beschuldigte arbeitete seit Sommer 2025 für OpenAI und soll laut FBI-Unterlagen zuvor einen internen Produktivitätsassistenten genutzt haben, um Ort und Zeit sensibler Besprechungen herauszufinden. Der USB-Stick steckte hinter einem Konferenzraumfernseher, sein Inhalt war verschlüsselt. OpenAI entließ den Mann nicht sofort, sondern entzog ihm schrittweise Zugänge und stimmte die Kündigung mit dem Zugriff der Ermittler ab. Die Bundespolizei zählt Spionage bei führenden KI-Labors inzwischen zu ihren wichtigsten Abwehraufgaben.",
    "also": [
     {
      "source": "Golem",
@@ -757,8 +782,7 @@
      "url": "https://www.spiegel.de/netzwelt/openai-ingenieur-soll-abhoergeraet-bei-fuehrung-installiert-haben-festnahme-durch-fbi-a-56846934-785c-45d7-96e3-d00f0cf1aa8b#ref=rss",
      "paywall": true
     }
-   ],
-   "kontext": "Der Beschuldigte arbeitete seit Sommer 2025 für OpenAI und soll laut FBI-Unterlagen zuvor einen internen Produktivitätsassistenten genutzt haben, um Ort und Zeit sensibler Besprechungen herauszufinden. Der USB-Stick steckte hinter einem Konferenzraumfernseher, sein Inhalt war verschlüsselt. OpenAI entließ den Mann nicht sofort, sondern entzog ihm schrittweise Zugänge und stimmte die Kündigung mit dem Zugriff der Ermittler ab. Die Bundespolizei zählt Spionage bei führenden KI-Labors inzwischen zu ihren wichtigsten Abwehraufgaben."
+   ]
   },
   {
    "id": "8544f7d6fac6",
@@ -1445,6 +1469,7 @@
    "added": "2026-10-15T01:52:06+02:00",
    "quelle_titel": "Ein Jahr Forschungsdatenzentrum Gesundheit: Zwischen Bilanz und KI-Durchbruch",
    "url": "https://www.heise.de/news/Ein-Jahr-Forschungsdatenzentrum-Gesundheit-Zwischen-Bilanz-und-KI-Durchbruch-11488107.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Das Zentrum ist beim Bundesinstitut für Arzneimittel und Medizinprodukte angesiedelt und bündelt Daten der gesetzlich Versicherten; Anträge kommen etwa gleichmäßig aus Wissenschaft, Industrie und Versorgungssteuerung. Ende Oktober startet das Verfahren für die ePA, nach einer Widerspruchsfrist folgt ab Mitte Dezember die stufenweise Ausleitung, beantragbar sind die Daten ab 2027. Gegen die zentrale Sammlung laufen weiterhin Klagen, unter anderem getragen von der Gesellschaft für Freiheitsrechte und dem Chaos Computer Club. Strittig ist auch die geplante Re-Identifizierung von Ärzten.",
    "also": [
     {
      "source": "heise KI",
@@ -1454,8 +1479,7 @@
      "source": "iX",
      "url": "https://www.heise.de/news/Ein-Jahr-Forschungsdatenzentrum-Gesundheit-Zwischen-Bilanz-und-KI-Durchbruch-11488107.html"
     }
-   ],
-   "kontext": "Das Zentrum ist beim Bundesinstitut für Arzneimittel und Medizinprodukte angesiedelt und bündelt Daten der gesetzlich Versicherten; Anträge kommen etwa gleichmäßig aus Wissenschaft, Industrie und Versorgungssteuerung. Ende Oktober startet das Verfahren für die ePA, nach einer Widerspruchsfrist folgt ab Mitte Dezember die stufenweise Ausleitung, beantragbar sind die Daten ab 2027. Gegen die zentrale Sammlung laufen weiterhin Klagen, unter anderem getragen von der Gesellschaft für Freiheitsrechte und dem Chaos Computer Club. Strittig ist auch die geplante Re-Identifizierung von Ärzten."
+   ]
   },
   {
    "id": "c67da0cbaf68",
@@ -1611,13 +1635,13 @@
    "added": "2026-10-15T01:53:00+02:00",
    "quelle_titel": "NetApp: Damit der Speicher die GPUs nicht ausbremst",
    "url": "https://www.heise.de/news/NetApp-Novus-Speicherarchitektur-fuer-KI-Fabriken-11488065.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Vorgestellt wurde Novus auf der Hausmesse in Las Vegas, Zielgruppe sind Hyperscaler, Neoclouds und Anbieter von GPU-Kapazität. Technisch trennt das System die Verwaltung von Metadaten, Namensraum und Dateilayouts von den eigentlichen Datenströmen, die die GPU-Server anschließend direkt bei den Datenknoten abholen. Statt eines eigenen Protokolls setzt NetApp auf pNFS, damit Linux-Server ohne spezielle Client-Software auskommen. Der Speicher wird damit zu einem eigenen Wettbewerbsfeld im KI-Ausbau.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/news/NetApp-Novus-Speicherarchitektur-fuer-KI-Fabriken-11488065.html"
     }
-   ],
-   "kontext": "Vorgestellt wurde Novus auf der Hausmesse in Las Vegas, Zielgruppe sind Hyperscaler, Neoclouds und Anbieter von GPU-Kapazität. Technisch trennt das System die Verwaltung von Metadaten, Namensraum und Dateilayouts von den eigentlichen Datenströmen, die die GPU-Server anschließend direkt bei den Datenknoten abholen. Statt eines eigenen Protokolls setzt NetApp auf pNFS, damit Linux-Server ohne spezielle Client-Software auskommen. Der Speicher wird damit zu einem eigenen Wettbewerbsfeld im KI-Ausbau."
+   ]
   },
   {
    "id": "f41243bcc30d",
@@ -2096,13 +2120,13 @@
    "paywall": true,
    "quelle_titel": "ASML: Die größte Gefahr für Europas teuersten Konzern lauert in den USA",
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbXd4N0RXMlZnSDF5ZzFkNzR4MUZVZFlkNFFyNkNtWFZZc2s1Z2FkWElENkFKci12UnRySjYwVWxkRHNqZ1FnVEE2V293NTUtbXhabVlFSnYxaXJZclQ0Z1BDTVh0OVpPbEFoRkplSDhfME9KZ1hBc2FNa2tKMUJmY09NSUkxLVBWd3RPdTg5RWlzZVVhVVROQ1V4RkxabVJVV1pmYkRiNXBEODdOcGRuemJwdTFmZlRXaXVpRjBBN0YzNEZBazdkTXJtbDlFM2tUY0MtQ19FWDNPTnB6?oc=5",
+   "kontext": "ASML sitzt in den Niederlanden und liefert die Maschinen, mit denen Halbleiter überhaupt belichtet werden; nahezu alle großen Chipkonzerne von Samsung über Apple bis Nvidia zählen zum Kundenkreis. Die anhaltende Nachfrage nach KI-Infrastruktur treibt das Geschäft und hat die Aktie an die Spitze des europäischen Börsenwerts gebracht. Entsprechend hängt der Fortschritt bei KI-Chips an einem einzigen europäischen Zulieferer, was das Unternehmen auch politisch exponiert.",
    "also": [
     {
      "source": "tagesschau",
      "url": "https://www.tagesschau.de/wirtschaft/finanzen/asml-mb-mittag-100.html"
     }
-   ],
-   "kontext": "ASML sitzt in den Niederlanden und liefert die Maschinen, mit denen Halbleiter überhaupt belichtet werden; nahezu alle großen Chipkonzerne von Samsung über Apple bis Nvidia zählen zum Kundenkreis. Die anhaltende Nachfrage nach KI-Infrastruktur treibt das Geschäft und hat die Aktie an die Spitze des europäischen Börsenwerts gebracht. Entsprechend hängt der Fortschritt bei KI-Chips an einem einzigen europäischen Zulieferer, was das Unternehmen auch politisch exponiert."
+   ]
   },
   {
    "id": "c0badc09b900",
@@ -2194,6 +2218,7 @@
    "added": "2026-10-15T01:54:04+02:00",
    "quelle_titel": "Chatbotanbieter insolvent: Character.AI scheitert an Klagen, Aufsicht und hohen Kosten",
    "url": "https://www.golem.de/news/chatbotanbieter-insolvent-character-ai-scheitert-an-klagen-aufsicht-und-hohen-kosten-2610-214087.html",
+   "kontext": "Gegründet wurde die Plattform von früheren Google-Forschern, nun läuft in Delaware ein Verfahren nach Kapitel 11, das einen gerichtlich begleiteten Verkauf der Vermögenswerte ermöglichen soll. Disney tritt als Erstbieter für eine Lizenz an Schutzrechten auf, andere Interessenten dürfen überbieten. Bis zum Abschluss im Spätherbst bleibt der Dienst erreichbar, bezahlte Abos laufen zunächst weiter. Zuvor hatte Kritik an den Folgen für Jugendliche das Unternehmen zu Beschränkungen für Minderjährige veranlasst.",
    "also": [
     {
      "source": "Gründerszene",
@@ -2216,8 +2241,7 @@
      "source": "36Kr",
      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wREg1dVJ3N3A2UGQ5cHFaMFdVcW5yeEdTVnBTSTdnNTkxbFZ1X0VQR2x3Y3VpUWlfb1Y3QnQyTk9Lck1YZVhPVVhObEVCNl9Gb013?oc=5"
     }
-   ],
-   "kontext": "Gegründet wurde die Plattform von früheren Google-Forschern, nun läuft in Delaware ein Verfahren nach Kapitel 11, das einen gerichtlich begleiteten Verkauf der Vermögenswerte ermöglichen soll. Disney tritt als Erstbieter für eine Lizenz an Schutzrechten auf, andere Interessenten dürfen überbieten. Bis zum Abschluss im Spätherbst bleibt der Dienst erreichbar, bezahlte Abos laufen zunächst weiter. Zuvor hatte Kritik an den Folgen für Jugendliche das Unternehmen zu Beschränkungen für Minderjährige veranlasst."
+   ]
   },
   {
    "id": "279048b0b578",
@@ -2395,13 +2419,13 @@
    "added": "2026-10-15T01:54:04+02:00",
    "quelle_titel": "Xbox: Xbox Labs will alte Spiele per KI auf neue Hardware bringen",
    "url": "https://www.golem.de/news/xbox-xbox-labs-will-alte-spiele-per-ki-auf-neue-hardware-bringen-2610-214081.html",
+   "kontext": "Anlass ist eine Welle von Umsetzungen aus der Modderszene, die Spiele mit KI-Unterstützung sehr schnell dekompiliert und für nie dafür gedachte Hardware neu gebaut hat, etwa per WebAssembly im Browser. Aufbauen soll die Gruppe Xbox-Technikchef Scott Van Vliet, der bei Microsoft zuvor für KI-Infrastruktur zuständig war; auch Xbox-Chefin Asha Sharma kam aus der KI-Sparte. Die entstehenden Werkzeuge will Microsoft mit der Branche teilen. Zugleich geht die Tochter Activision juristisch gegen mehrere solcher Projekte vor.",
    "also": [
     {
      "source": "heise KI",
      "url": "https://www.heise.de/news/Xbox-Labs-Microsoft-gruendet-Team-fuer-Experimente-mit-dekompilierten-Spielen-11487431.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     }
-   ],
-   "kontext": "Anlass ist eine Welle von Umsetzungen aus der Modderszene, die Spiele mit KI-Unterstützung sehr schnell dekompiliert und für nie dafür gedachte Hardware neu gebaut hat, etwa per WebAssembly im Browser. Aufbauen soll die Gruppe Xbox-Technikchef Scott Van Vliet, der bei Microsoft zuvor für KI-Infrastruktur zuständig war; auch Xbox-Chefin Asha Sharma kam aus der KI-Sparte. Die entstehenden Werkzeuge will Microsoft mit der Branche teilen. Zugleich geht die Tochter Activision juristisch gegen mehrere solcher Projekte vor."
+   ]
   },
   {
    "id": "ded37c5c07dd",
@@ -2763,6 +2787,7 @@
    "added": "2026-10-15T03:04:28+02:00",
    "quelle_titel": "KI in der EU: Nvidia investiert in Doctolib",
    "url": "https://www.golem.de/news/ki-in-der-eu-nvidia-investiert-in-doctolib-2610-214077.html",
+   "kontext": "Doctolib ist in Deutschland vor allem für die Buchung von Arztterminen bekannt, bietet Praxen inzwischen aber auch einen KI-Telefonassistenten sowie Verwaltungswerkzeuge an und setzt dabei auf bestehende Sprachmodelle. Firmenchef Stanislas Niox-Chateau erhofft sich von der Minderheitsbeteiligung leichteren Zugang zu KI-Fachleuten und Unterstützung beim Training eigener Modelle. Gesundheitsdaten und Modelle sollen nach Unternehmensangaben auf Servern in der EU und Großbritannien bleiben. Nvidia investiert häufig in eigene Kunden und hatte zuletzt die Plattform Hugging Face übernommen.",
    "also": [
     {
      "source": "heise KI",
@@ -2776,8 +2801,7 @@
      "source": "CHIP",
      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMl9WNUViTnR0cXBOd3RsTnBiVWdkd0ZtMkF2cVV4R3U5TTZjcWhtYXFQYXZwbFE4TlJ5QWpwQjdEZ1FhUHVnVDFkTklkclk5bjJKMTRiTDlWWnFMMENVZ1ZrWk1hSW11aFlkVmlvWjZ4dWptcm9NbmdVY1RFS2d0dU4yczB6dDFVakp3WGJybC1rQ29tNVVMMG9mT1RLVFRvQVAxVklUTDFWSktIR2pMODRNOXRjZDVuZzZxODhMbldiMXV4Z2xhNVh4dEVaeGFiNXlIV3FYazI0TXFoQWl1ZWVFWXY?oc=5"
     }
-   ],
-   "kontext": "Doctolib ist in Deutschland vor allem für die Buchung von Arztterminen bekannt, bietet Praxen inzwischen aber auch einen KI-Telefonassistenten sowie Verwaltungswerkzeuge an und setzt dabei auf bestehende Sprachmodelle. Firmenchef Stanislas Niox-Chateau erhofft sich von der Minderheitsbeteiligung leichteren Zugang zu KI-Fachleuten und Unterstützung beim Training eigener Modelle. Gesundheitsdaten und Modelle sollen nach Unternehmensangaben auf Servern in der EU und Großbritannien bleiben. Nvidia investiert häufig in eigene Kunden und hatte zuletzt die Plattform Hugging Face übernommen."
+   ]
   },
   {
    "id": "e181547094b0",
@@ -3519,7 +3543,8 @@
    "source_id": "anthropic",
    "added": "2026-10-15T00:42:59+02:00",
    "quelle_titel": "Preparing for the 2026 US midterms",
-   "url": "https://www.anthropic.com/news/2026-us-midterms"
+   "url": "https://www.anthropic.com/news/2026-us-midterms",
+   "kontext": "Anthropic baut dabei auf Schutzmaßnahmen auf, die das Unternehmen schon früher im Jahr beschrieben hatte. Eine Auswertung eigener Chatdaten zeigt, dass politische Themen nur einen kleinen Teil der Gespräche ausmachen und Fragen nach einer konkreten Wahlempfehlung äußerst selten sind. Claude soll künftig amtliche Wahlinformationen der überparteilichen Organisation Democracy Works direkt einbinden und am Wahlabend aktuelle Ergebnisse anzeigen. Zusätzlich prüfen unabhängige Gruppen, wie ausgewogen die Modelle auf politische Fragen reagieren."
   },
   {
    "id": "2f3282e48314",
@@ -3607,7 +3632,8 @@
    "source_id": "techcrunch-ai",
    "added": "2026-10-14T08:34:52+02:00",
    "quelle_titel": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
-   "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/"
+   "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+   "kontext": "Feldman äußerte sich auf der Technikkonferenz TechCrunch Disrupt in San Francisco. Als Chef eines KI Chipherstellers hat er ein Interesse an breiter Verbreitung solcher Geräte, nutzt aber auch selbst schon eine Reihe von Agenten, etwa zur Vorbereitung von Terminen. Als Belege für den Trend nennt er neue Verbraucherangebote großer Anbieter und hoch bewertete Start-ups. Nötig wären aus seiner Sicht ein Sicherheitsrahmen und die Möglichkeit, Einkäufe zu erledigen."
   },
   {
    "id": "f267b0c17dba",
@@ -3628,7 +3654,8 @@
    "source_id": "techcrunch-ai",
    "added": "2026-10-14T08:34:52+02:00",
    "quelle_titel": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
-   "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/"
+   "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+   "kontext": "Gegründet wurde Industrial Next 2021 von zwei früheren Tesla Ingenieuren, die dort erlebten, wie moderne Fahrzeugentwicklung an veralteter Fabriktechnik scheiterte. Die in sich geschlossenen Roboterstationen arbeiten mit eigenen Basismodellen, die Kamerabilder, Aufgabenverständnis und Bewegung verbinden, statt klassischer Programmierung. Vorgestellt wurde das Konzept in der Startup Battlefield auf der TechCrunch Disrupt. Zugleich kündigte die Firma eine Zusammenarbeit mit einem Technologiebüro von BMW an."
   },
   {
    "id": "588595f7a11e",
@@ -3763,7 +3790,8 @@
    "source_id": "latent-space",
    "added": "2026-10-14T08:35:43+02:00",
    "quelle_titel": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy, Jason Ma, Dyna Robotics",
-   "url": "https://www.latent.space/p/dyna"
+   "url": "https://www.latent.space/p/dyna",
+   "kontext": "Dyna-2 wurde mit sehr großen Mengen an Videos menschlicher Tätigkeiten vortrainiert, woraus das Unternehmen Skalierungseffekte für die Übertragung auf Roboter ableitet. Ein darauf aufbauender Agent mit eigener, halb humanoider Hardware faltet in einer Restaurantkette dauerhaft Servietten und fängt sich auch nach Fehlern wieder. Bewusst baut Dyna die Hardware selbst, statt zugekaufte Humanoide zu nutzen. Ma kommt aus der Forschung bei Nvidia und Google DeepMind."
   },
   {
    "id": "a4b41244604f",
