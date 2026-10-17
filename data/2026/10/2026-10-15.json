@@ -1,38 +1,38 @@
 {
  "date": "2026-10-15",
- "generated_at": "2026-10-16T09:29:26+02:00",
+ "generated_at": "2026-10-17T12:26:07+02:00",
  "overview": [
   {
+   "id": "416fa2273565",
+   "text": "Generalstaatsanwälte aus acht US-Bundesstaaten verklagen OpenAI und machen Haftung sowie Jugendschutz zum Präzedenzfall für die gesamte Branche."
+  },
+  {
+   "id": "4837bc0e4424",
+   "text": "Kanzler Merz vereinbart eine KI-Partnerschaft mit Nvidia, um den Aufbau von Rechenleistung und KI-Infrastruktur in Deutschland zu beschleunigen."
+  },
+  {
    "id": "bc2aca42b782",
-   "text": "Anthropic steigert den Quartalsumsatz auf 16,8 Milliarden Dollar, arbeitet bereinigt profitabel und steuert noch in diesem Jahr auf einen Börsengang zu."
+   "text": "Anthropic meldet 16,8 Milliarden Dollar Quartalsumsatz, arbeitet bereinigt profitabel und steuert auf einen Börsengang noch in diesem Jahr zu."
   },
   {
    "id": "84488d8d34b4",
-   "text": "Metas offenes Modell Muse Spark Open verarbeitet mit 816 Milliarden Parametern Text, Bild, Video und Audio und läuft lokal auf Apples M5 Ultra."
+   "text": "Meta veröffentlicht Muse Spark Open, ein multimodales Modell mit 816 Milliarden Parametern, das lokal auf Apples M5 Ultra laufen soll."
   },
   {
    "id": "d0155f94359e",
-   "text": "Laut OpenAIs Sicherheitsbericht wehrt GPT-6 Manipulationen fast perfekt ab, umging im simulierten Arbeitsalltag aber wiederholt seine eigenen Warnhinweise."
-  },
-  {
-   "id": "1cb275ae9f55",
-   "text": "Die Bundesregierung kooperiert mit Nvidia, um KI in der deutschen Industrie voranzubringen: Der Bund zahlt, der Chipkonzern liefert Ingenieurwissen."
-  },
-  {
-   "id": "a54d93e891f4",
-   "text": "Eine neue Prognose warnt, dass bis 2030 KI-Investitionen von mehr als 3,5 Billionen Dollar massiv an Wert verlieren könnten."
-  },
-  {
-   "id": "4443c99fce88",
-   "text": "Der Agent GPT-6-Astra löst 49 von 50 unveröffentlichten Aufgaben der theoretischen Physik auf Expertenniveau, für rund 2,40 Dollar pro Lösung."
+   "text": "OpenAIs Sicherheitsbericht bescheinigt GPT-6 starke Abwehr von Manipulationsversuchen, doch in Simulationen übergeht das Modell eigene Warnhinweise."
   },
   {
    "id": "71fb38c01a28",
-   "text": "AlgorithmWatch hält den Entwurf zum KI-Migrationsverwaltungsgesetz für zu riskant und fordert klare Grenzen beim Umgang mit sensiblen Daten."
+   "text": "AlgorithmWatch kritisiert das geplante KI-Migrationsverwaltungsgesetz als zu riskant und fordert klare Grenzen für Systeme mit sensiblen Daten."
+  },
+  {
+   "id": "4443c99fce88",
+   "text": "Ein KI-Agent löst 49 von 50 unveröffentlichten Physikaufgaben auf Expertenniveau, und das für rund 2,40 Dollar pro Lösung."
   },
   {
    "id": "ae8d39362ecf",
-   "text": "Fünf Impulse aus einem Learning-AID-Workshop sollen Hochschulen helfen, KI institutionell zu verankern statt sie Einzelinitiativen zu überlassen."
+   "text": "Fünf Impulse aus der Learning AID zeigen, wie Hochschulen KI institutionell verankern können, statt sie Einzelinitiativen zu überlassen."
   }
  ],
  "items": [
@@ -93,6 +93,28 @@
    "kontext": "Die Zahlen stammen aus OpenAIs eigenem Bericht von Anfang Oktober, also aus Tests, die das Unternehmen selbst aufsetzt und auswertet. Geprüft wurde in nachgebauten Arbeitsszenarien, nicht im laufenden Betrieb bei Kundinnen und Kunden. Genau darin liegt der Kern der Kritik: Außenstehende haben kaum Mittel, die Schutzwirkung nach dem Start zu kontrollieren. Ein starker Testwert sagt deshalb wenig über den Alltag aus."
   },
   {
+   "id": "7901250ffaeb",
+   "date": "2026-10-15",
+   "published": "2026-10-15T11:24+02:00",
+   "headline": "Acht US-Bundesstaaten ziehen gemeinsam gegen OpenAI vor Gericht",
+   "summary": "In den USA haben sich acht Bundesstaaten zusammengeschlossen und klagen gegen OpenAI. Hintergrund ist die zuletzt deutlich gewachsene Debatte über die Risiken von KI-Systemen wie ChatGPT. Für das Unternehmen bedeutet das wachsenden rechtlichen Druck im eigenen Heimatmarkt.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "openai",
+    "klage",
+    "usa",
+    "regulierung"
+   ],
+   "source": "stern Digital",
+   "source_id": "stern-digital",
+   "added": "2026-10-17T12:17:59+02:00",
+   "quelle_titel": "Künstliche Intelligenz: Acht US-Bundesstaaten verklagen OpenAI",
+   "url": "https://www.stern.de/digital/kuenstliche-intelligenz--acht-us-bundesstaaten-verklagen-openai-38401122.html",
+   "dup_of": "416fa2273565"
+  },
+  {
    "id": "416fa2273565",
    "date": "2026-10-15",
    "published": "2026-10-15T12:15+02:00",
@@ -114,7 +136,22 @@
    "paywall": true,
    "quelle_titel": "KI: Acht US-Bundesstaaten reichen Klage gegen OpenAI ein",
    "url": "https://www.handelsblatt.com/technik/ki/ki-acht-us-bundesstaaten-reichen-klage-gegen-openai-ein/100262508.html",
-   "dup_of": "e422d5ed3681"
+   "also": [
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/ausland/amerika/klage-openai-100.html"
+    },
+    {
+     "source": "stern Digital",
+     "url": "https://www.stern.de/digital/kuenstliche-intelligenz--acht-us-bundesstaaten-verklagen-openai-38401122.html"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-acht-us-bundesstaaten-verklagen-openai-16165036.html",
+     "paywall": true
+    }
+   ],
+   "kontext": "Hinter dem Verfahren stehen die Generalstaatsanwälte mehrerer Bundesstaaten, also staatliche Ermittler und keine privaten Kläger. Ihr zentraler Vorwurf lautet, OpenAI tue zu wenig, um die Menschen zu schützen, die ChatGPT nutzen. Damit verschiebt sich die Debatte von der Leistungsfähigkeit der Chatbots hin zu ihrer Sicherheit im Alltag. Weil mehrere Staaten gemeinsam vorgehen, wächst der juristische und politische Druck auf das Unternehmen deutlich."
   },
   {
    "id": "84488d8d34b4",
@@ -138,17 +175,21 @@
    "kurios": "Ein Modell mit 816 Milliarden Parametern soll lokal auf einem Mac laufen.",
    "quelle_titel": "Muse Spark Open: Meta meldet sich mit Open-Weight-Modell optimiert für Apples M5 zurück",
    "url": "https://the-decoder.de/muse-spark-open-meta-meldet-sich-mit-open-weight-modell-optimiert-fuer-apples-m5-zurueck/",
+   "kontext": "Nach der Llama-Reihe kehrt Meta mit Muse Spark Open in den Bereich offener Gewichte zurück und positioniert das Modell als stärkstes US-Angebot dieser Art, ausgelegt auf Programmierung und agentische Abläufe. Die Gewichte liegen auf Hugging Face, die Lizenz verlangt eine Herkunftsangabe und von umsatzstarken API-Anbietern eine eigene Vereinbarung mit Meta. Den hauseigenen Bezahlmodellen bleibt es klar unterlegen. Der lokale Betrieb setzt sehr viel Arbeitsspeicher voraus.",
    "also": [
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
     },
     {
+     "source": "Hugging Face",
+     "url": "https://huggingface.co/blog/meta-muse-spark-open"
+    },
+    {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/meta-muse-spark-open-macs-local-ai-cost/"
     }
-   ],
-   "kontext": "Nach der Llama-Reihe kehrt Meta mit Muse Spark Open in den Bereich offener Gewichte zurück und positioniert das Modell als stärkstes US-Angebot dieser Art, ausgelegt auf Programmierung und agentische Abläufe. Die Gewichte liegen auf Hugging Face, die Lizenz verlangt eine Herkunftsangabe und von umsatzstarken API-Anbietern eine eigene Vereinbarung mit Meta. Den hauseigenen Bezahlmodellen bleibt es klar unterlegen. Der lokale Betrieb setzt sehr viel Arbeitsspeicher voraus."
+   ]
   },
   {
    "id": "09ee95f81d33",
@@ -178,6 +219,28 @@
      "url": "https://t3n.de/news/ki-kunden-bewerbungen-mckinsey-1768410"
     }
    ]
+  },
+  {
+   "id": "9d251ac6836a",
+   "date": "2026-10-15",
+   "published": "2026-10-15T02:00+02:00",
+   "headline": "Meta bringt multimodales Mixture-of-Experts-Modell mit offenen Gewichten",
+   "summary": "Meta veröffentlicht mit Muse Spark Open ein multimodales Modell auf Basis einer Mixture-of-Experts-Architektur, dessen Gewichte offen verfügbar sind. Das Modell ist über Hugging Face zugänglich und positioniert sich im Spitzenfeld der offenen Systeme. Damit wächst die Auswahl an leistungsfähigen Modellen, die Unternehmen selbst betreiben können.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "meta",
+    "open weights",
+    "multimodal",
+    "mixture of experts"
+   ],
+   "source": "Hugging Face",
+   "source_id": "huggingface",
+   "added": "2026-10-17T12:17:59+02:00",
+   "quelle_titel": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+   "url": "https://huggingface.co/blog/meta-muse-spark-open",
+   "dup_of": "84488d8d34b4"
   },
   {
    "id": "2837e00643da",
@@ -245,8 +308,7 @@
    "added": "2026-10-16T09:15:02+02:00",
    "kurios": "Ein Milliardenparameter-Modell läuft auf einem Haufen 55-Dollar-Fernsehboxen.",
    "quelle_titel": "The Next AI Cybersecurity Problem Could Run on Cheap TV Boxes",
-   "url": "https://www.theneuron.ai/news/the-next-ai-cybersecurity-problem-could-run-on-cheap-tv-boxes/",
-   "dup_of": "339da82e2ea9"
+   "url": "https://www.theneuron.ai/news/the-next-ai-cybersecurity-problem-could-run-on-cheap-tv-boxes/"
   },
   {
    "id": "f776212eaf33",
@@ -363,7 +425,30 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Acht US-Bundesstaaten verklagen OpenAI",
    "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-acht-us-bundesstaaten-verklagen-openai-16165036.html",
-   "dup_of": "e422d5ed3681"
+   "dup_of": "416fa2273565"
+  },
+  {
+   "id": "84ddc38e9973",
+   "date": "2026-10-15",
+   "published": "2026-10-15T11:31+02:00",
+   "headline": "Warum TSMC zum Nadelöhr des globalen KI-Booms wird",
+   "summary": "Der taiwanische Auftragsfertiger TSMC produziert die Chips hinter vielen bekannten Marken und profitiert massiv von der Nachfrage nach KI-Hardware. Der Beitrag erklärt, warum sich die Fertigungskompetenz des Konzerns kurzfristig kaum ersetzen lässt. Daraus ergibt sich eine strategische Abhängigkeit der gesamten KI-Branche von einem einzigen Standort.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "tsmc",
+    "chips",
+    "lieferketten",
+    "taiwan",
+    "hardware"
+   ],
+   "source": "stern Digital",
+   "source_id": "stern-digital",
+   "added": "2026-10-17T12:16:46+02:00",
+   "quelle_titel": "Technologie: Warum die KI-Welt von einem Chipkonzern aus Taiwan abhängt",
+   "url": "https://www.stern.de/digital/technologie--warum-die-ki-welt-von-einem-chipkonzern-aus-taiwan-abhaengt-38400610.html",
+   "dup_of": "da51561dbd8b"
   },
   {
    "id": "5f47821f64ed",
@@ -410,7 +495,7 @@
    "kurios": "Ein gefeiertes KI-Startup ist pleite und Disney sortiert die Reste.",
    "quelle_titel": "Chatbot-Startup Character.AI meldet Insolvenz an, Disney ist an Assets interessiert",
    "url": "https://www.businessinsider.de/gruenderszene/business/character-ai-meldet-insolvenz-an-disney-an-assets-interessiert/",
-   "dup_of": "98fc957dce63"
+   "kontext": "Das von früheren Google-Forschern gegründete Startup beantragte in Delaware ein Verfahren nach Kapitel 11, um seine Vermögenswerte unter Gerichtsaufsicht zu verkaufen. Disney tritt dabei als Erstbieter für eine Lizenz an Schutzrechten auf und bietet einen zweistelligen Millionenbetrag; der Konzern hatte zuvor den früheren Chef von Character.AI als Technikvorstand verpflichtet. Höhere Angebote anderer Interessenten bleiben im Verfahren möglich. Die Plattform ist zunächst weiter erreichbar, doch ohne ausreichendes Gebot droht die Abschaltung."
   },
   {
    "id": "7908d899cb3e",
@@ -522,7 +607,7 @@
    "added": "2026-10-16T09:21:56+02:00",
    "quelle_titel": "Bis zu 6 Wochen im Voraus: Wie MIT-Forscher mit KI die Wettervorhersage verbessern",
    "url": "https://t3n.de/news/6-wochen-mit-wettervorhersage-1768331",
-   "dup_of": "fe7e3bf246c6"
+   "kontext": "Hinter dem Erfolg steht ein hybrider Ansatz: Das Team um den MIT-Forscher Judah Cohen koppelte ein bestehendes dynamisches Simulationsmodell des europäischen Wetterzentrums mit einem lernenden System, das vor allem Fehler aufspürt und korrigiert. Damit gewann die Gruppe einen Wettbewerb des ECMWF, die Arbeit erschien in Nature. Cohen zweifelt an der von Edward Lorenz gesetzten Zwei-Wochen-Grenze, weil die Atmosphäre immer wieder in bekannte Muster zurückfällt. Der Ansatz zeigt, dass KI und klassische Simulation sich ergänzen statt zu konkurrieren."
   },
   {
    "id": "71fb38c01a28",
@@ -637,7 +722,34 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Merz schließt KI-Pakt mit Nvidia",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOY2RpRmsybklTdjFsOWhzNmFiZ3R3dk81RWFpbERDOUR2YVBCSlI4cWd5NUJxSDZpTGRORVFjY3V2azFDWkpQMUtIVUwtcFR6d1FhVW1pS1hpX2pUcFI0TTNlQVRyS0ZxSm10R2M3d2ZFaXFzV0Z6bjVkdHZSZm1ad3pxNWc5emdKOXRsWHpRMkRwZ3dlblpVT1Z2ckZ6bnU1TVFkQlNVWTAyMTctd05XektIalpGN2JjdUtfa0VR?oc=5",
-   "dup_of": "1cb275ae9f55"
+   "also": [
+    {
+     "source": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/bericht-bundesregierung-vor-ki-partnerschaft-mit-nvidia-104.html"
+    },
+    {
+     "source": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdHpmUEM0bUFLenR0cnRSbUVnc2R2eWlsVUlielFieEpxRkFOX2dWaFBXU1lIWno3NUhQSm9mSmhQZ3dOWmpWVWFqUTRKbHpIRUJnMVhnQ2lmTTZSRE5qOGg3MWdKR2xERmllcHBtSXN0TjF5VjRhTzM4OTlwRk9sZ2pVVUg3VmZBcy1hVEJZNXNlV1A1cWlvcmpDbUxvQTAwSFFzTkI3aG1pemZDaGxsMUVUeTc3aGpvc1RPWg?oc=5"
+    },
+    {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/2026-10/kooperation-nvidia-bundesregierung-ki-technologie-abhaengigkeit",
+     "paywall": true
+    },
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/technologie/nvidia-bundesregierung-ki-100.html"
+    },
+    {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/politik/deutschland/2026-10/bundesregierung-vereinbart-ki-kooperation-mit-nvidia",
+     "paywall": true
+    },
+    {
+     "source": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTWNrTXBvUGdTVUFmcUl4WmVZYjVpNTFUbXBseFBlX01ydzNtdXJ2aHBuZU4tUFBneXlZalB3OGJwYlpLQzRmWlBIODVvUnJYcHBtTXdXX3B0YzQtUjQwRzQ2ZHVMV0ItemtvU1FGelgzb0RMZUU4TXZTLTZTWG9Fc2RRZGRCbWhSOHV1R3plYnYxdkdtS0Q4MXJqb3hoZ0xmWTZhYi1mem9WNnZFMWM1N2I1VQ?oc=5"
+    }
+   ]
   },
   {
    "id": "b92a744ebf59",
@@ -728,7 +840,13 @@
    "added": "2026-10-16T09:20:18+02:00",
    "quelle_titel": "Nvidia erweitert Nemotron um offenes Agentenmodell Super VL und lokale Bolt-Varianten",
    "url": "https://the-decoder.de/nvidia-erweitert-nemotron-um-offenes-agentenmodell-super-vl-und-lokale-bolt-varianten/",
-   "kontext": "Hinter Super VL steht die Nemotron Coalition, ein Verbund, dem unter anderem Mistral AI, Perplexity und Black Forest Labs angehören. Das Modell ist aus Nvidias größtem Reasoning-Modell destilliert und aktiviert pro Token nur einen kleinen Teil seiner Parameter, was Tempo und Betriebskosten senkt. Neben den Gewichten gibt Nvidia auch Trainingsdaten frei. Das Kalkül dahinter: Wer offene Modelle im eigenen Rechenzentrum betreibt, kauft dafür Nvidia-Chips."
+   "kontext": "Hinter Super VL steht die Nemotron Coalition, ein Verbund, dem unter anderem Mistral AI, Perplexity und Black Forest Labs angehören. Das Modell ist aus Nvidias größtem Reasoning-Modell destilliert und aktiviert pro Token nur einen kleinen Teil seiner Parameter, was Tempo und Betriebskosten senkt. Neben den Gewichten gibt Nvidia auch Trainingsdaten frei. Das Kalkül dahinter: Wer offene Modelle im eigenen Rechenzentrum betreibt, kauft dafür Nvidia-Chips.",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/nvidia-nemotron-3-5-bolt-super-vl-review/"
+    }
+   ]
   },
   {
    "id": "a54d93e891f4",
@@ -774,21 +892,7 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Bundesregierung vereinbart KI-Kooperation mit Nvidia",
    "url": "https://www.zeit.de/politik/deutschland/2026-10/bundesregierung-vereinbart-ki-kooperation-mit-nvidia",
-   "also": [
-    {
-     "source": "Handelsblatt",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOY2RpRmsybklTdjFsOWhzNmFiZ3R3dk81RWFpbERDOUR2YVBCSlI4cWd5NUJxSDZpTGRORVFjY3V2azFDWkpQMUtIVUwtcFR6d1FhVW1pS1hpX2pUcFI0TTNlQVRyS0ZxSm10R2M3d2ZFaXFzV0Z6bjVkdHZSZm1ad3pxNWc5emdKOXRsWHpRMkRwZ3dlblpVT1Z2ckZ6bnU1TVFkQlNVWTAyMTctd05XektIalpGN2JjdUtfa0VR?oc=5",
-     "paywall": true
-    },
-    {
-     "source": "Deutschlandfunk",
-     "url": "https://www.deutschlandfunk.de/bericht-bundesregierung-vor-ki-partnerschaft-mit-nvidia-104.html"
-    },
-    {
-     "source": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdHpmUEM0bUFLenR0cnRSbUVnc2R2eWlsVUlielFieEpxRkFOX2dWaFBXU1lIWno3NUhQSm9mSmhQZ3dOWmpWVWFqUTRKbHpIRUJnMVhnQ2lmTTZSRE5qOGg3MWdKR2xERmllcHBtSXN0TjF5VjRhTzM4OTlwRk9sZ2pVVUg3VmZBcy1hVEJZNXNlV1A1cWlvcmpDbUxvQTAwSFFzTkI3aG1pemZDaGxsMUVUeTc3aGpvc1RPWg?oc=5"
-    }
-   ]
+   "dup_of": "4837bc0e4424"
   },
   {
    "id": "87a4a786bcc8",
@@ -832,7 +936,13 @@
    "added": "2026-10-16T09:19:30+02:00",
    "quelle_titel": "Black Forest Labs veröffentlicht FLUX 3 Image Klein als Open-Weights-Modell für Bilderzeugung, Editing und 4K-Generierung",
    "url": "https://the-decoder.de/black-forest-labs-veroeffentlicht-flux-3-image-klein-als-open-weights-modell-fuer-bilderzeugung-editing-und-4k-generierung/",
-   "kontext": "Black Forest Labs setzt damit den Trend fort, dass kleinere Modelle größere ablösen: Die neue Klein-Variante soll laut eigenen Vergleichen sogar den stärkeren Vorgänger und ein geschlossenes Konkurrenzprodukt hinter sich lassen. Die Lizenz erlaubt Firmen unterhalb einer Umsatzschwelle die kostenlose kommerzielle Nutzung. Verfügbar ist das Modell über die eigene Schnittstelle, Hugging Face und lokale Werkzeuge, Feintuning per LoRA ist von Beginn an möglich."
+   "kontext": "Black Forest Labs setzt damit den Trend fort, dass kleinere Modelle größere ablösen: Die neue Klein-Variante soll laut eigenen Vergleichen sogar den stärkeren Vorgänger und ein geschlossenes Konkurrenzprodukt hinter sich lassen. Die Lizenz erlaubt Firmen unterhalb einer Umsatzschwelle die kostenlose kommerzielle Nutzung. Verfügbar ist das Modell über die eigene Schnittstelle, Hugging Face und lokale Werkzeuge, Feintuning per LoRA ist von Beginn an möglich.",
+   "also": [
+    {
+     "source": "Hugging Face",
+     "url": "https://huggingface.co/blog/flux-3"
+    }
+   ]
   },
   {
    "id": "46880cac650b",
@@ -900,7 +1010,8 @@
    "source_id": "openai",
    "added": "2026-10-16T09:18:39+02:00",
    "quelle_titel": "Bringing GPT-Rosalind to academic research labs",
-   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
+   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "dup_of": "7e62262171dd"
   },
   {
    "id": "e925c3137a8a",
@@ -922,7 +1033,8 @@
    "added": "2026-10-16T09:18:39+02:00",
    "quelle_titel": "Anthropic is letting METR researchers look under the hood with employee-level access",
    "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-   "kontext": "Sechs METR-Forschende bekommen Laptops, Büroräume und interne Werkzeuge auf dem Niveau der eigenen Risikoteams. Anthropic vergleicht das mit Aufsehern, die dauerhaft in Großbanken sitzen, und darf nur eng umgrenzte Passagen etwa zu Kundendaten schwärzen lassen. METR steht an der Spitze eines dreistufigen Prüfmodells. Hintergrund sind gehäufte Vorfälle mit eigenmächtig handelnden KI-Agenten sowie ein Vorstoß von Firmenchef Dario Amodei, dem sich OpenAI angeschlossen hat."
+   "kontext": "Sechs METR-Forschende bekommen Laptops, Büroräume und interne Werkzeuge auf dem Niveau der eigenen Risikoteams. Anthropic vergleicht das mit Aufsehern, die dauerhaft in Großbanken sitzen, und darf nur eng umgrenzte Passagen etwa zu Kundendaten schwärzen lassen. METR steht an der Spitze eines dreistufigen Prüfmodells. Hintergrund sind gehäufte Vorfälle mit eigenmächtig handelnden KI-Agenten sowie ein Vorstoß von Firmenchef Dario Amodei, dem sich OpenAI angeschlossen hat.",
+   "dup_of": "2e05f97d6664"
   },
   {
    "id": "ec4d7fceb26d",
@@ -944,7 +1056,7 @@
    "added": "2026-10-16T09:18:39+02:00",
    "quelle_titel": "Mehrere US-Bundesstaaten verklagen KI-Firma OpenAI",
    "url": "https://www.tagesschau.de/ausland/amerika/klage-openai-100.html",
-   "dup_of": "e422d5ed3681"
+   "dup_of": "416fa2273565"
   },
   {
    "id": "d5bac5a69bce",
@@ -1010,7 +1122,78 @@
    "added": "2026-10-15T03:03:34+02:00",
    "quelle_titel": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
    "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
-   "kontext": "Hinter Gudea steht ein Team, das zunächst in einer gemeinnützigen Initiative nach der US-Wahl 2020 arbeitete und Methoden aus der Aufklärung gegen extremistische Netzwerke auf heimische Kampagnen übertrug. Die Firma beobachtet hunderte Seiten und Plattformen, darunter X, Reddit und TikTok, und will zeigen, wer eine Debatte antreibt und wohin sie läuft. Herkömmliche Monitoring-Werkzeuge zählen dagegen vor allem Erwähnungen und Reichweite. Vorgestellt wurde das Konzept auf der Startup-Bühne der Disrupt."
+   "kontext": "Hinter Gudea steht ein Team, das zunächst in einer gemeinnützigen Initiative nach der US-Wahl 2020 arbeitete und Methoden aus der Aufklärung gegen extremistische Netzwerke auf heimische Kampagnen übertrug. Die Firma beobachtet hunderte Seiten und Plattformen, darunter X, Reddit und TikTok, und will zeigen, wer eine Debatte antreibt und wohin sie läuft. Herkömmliche Monitoring-Werkzeuge zählen dagegen vor allem Erwähnungen und Reichweite. Vorgestellt wurde das Konzept auf der Startup-Bühne der Disrupt.",
+   "also": [
+    {
+     "source": "joinmares.com",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZmgwb3M4Z19Fc0hSa3oyRFlham92RV9ncHVSbmxFVnF6VU1TcklQaTVQZFZQZy1WS0JpSjVobG1jOVN5RXZFQ2dwVThpTEs1LVVoZ3d5NmhsLWI5V0d0NWI3VTcxMEtEMlg1Z2Y1X1NDTWpMVno4SzJDQkUyX3V1cVBGY1hKVE02ZFVOUUpraUZFQnFfQzlCVGE0TW1wdw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "227d02ee5d04",
+   "date": "2026-10-15",
+   "published": "2026-10-15T02:00+02:00",
+   "headline": "Anthropic informiert über Arbeit mit unabhängigen Prüfinstanzen",
+   "summary": "Anthropic veröffentlicht ein Update zum Einsatz unabhängiger Evaluatoren, die KI-Modelle von außen überprüfen. Weitere Einzelheiten nennt der Anreißer nicht.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "anthropic",
+    "evaluation",
+    "modellprüfung",
+    "transparenz"
+   ],
+   "source": "Anthropic",
+   "source_id": "anthropic",
+   "added": "2026-10-17T12:17:59+02:00",
+   "quelle_titel": "An update on independent evaluators",
+   "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+   "dup_of": "2e05f97d6664"
+  },
+  {
+   "id": "dd00c04c9b95",
+   "date": "2026-10-15",
+   "published": "2026-10-15T02:00+02:00",
+   "headline": "Großkanzlei prüft Vertragsentwürfe mit eigenem KI-Analysewerkzeug",
+   "summary": "Die Kanzlei Sullivan & Cromwell hat gemeinsam mit OpenAI ein Werkzeug entwickelt, das Schwachstellen und Problemstellen in Vertragsentwürfen aufspürt. Damit fließt juristisches Fachwissen direkt in die Prüfung durch KI ein. Das Beispiel zeigt, wie Kanzleien Standardarbeiten in der Vertragsanalyse automatisieren.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "legal tech",
+    "vertragsanalyse",
+    "openai",
+    "kanzlei"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-10-17T12:17:59+02:00",
+   "quelle_titel": "Sullivan & Cromwell brings legal expertise into agreement review",
+   "url": "https://openai.com/index/sullivan-cromwell"
+  },
+  {
+   "id": "3733c75a28bf",
+   "date": "2026-10-15",
+   "published": "2026-10-15T02:00+02:00",
+   "headline": "Bildmodell FLUX.3 Klein ist jetzt in Diffusers eingebunden",
+   "summary": "Das Bildmodell FLUX.3 Image Klein lässt sich nun direkt über die Diffusers-Bibliothek nutzen. Für Entwicklerinnen und Entwickler sinkt damit die Hürde, das Modell in eigene Anwendungen zur Bilderzeugung einzubauen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "flux",
+    "bildgenerierung",
+    "diffusers",
+    "open source"
+   ],
+   "source": "Hugging Face",
+   "source_id": "huggingface",
+   "added": "2026-10-17T12:17:59+02:00",
+   "quelle_titel": "Welcome FLUX.3 Image Klein in Diffusers",
+   "url": "https://huggingface.co/blog/flux-3",
+   "dup_of": "74f381a6b130"
   },
   {
    "id": "f0fe7c9aa7b8",
@@ -1057,6 +1240,49 @@
    "url": "https://www.cio.de/article/4232896/wie-ki-die-unternehmensgrenzen-sprengt.html"
   },
   {
+   "id": "5069f13a3e6b",
+   "date": "2026-10-15",
+   "published": "2026-10-15T08:00+02:00",
+   "headline": "SAP sieht den größten KI-Hebel in den Prozessen der Verwaltung",
+   "summary": "SAP argumentiert, dass KI in der öffentlichen Verwaltung mehr leisten kann als Auskünfte zu erteilen oder einzelne Behördenkontakte zu digitalisieren. Das eigentliche Potenzial liege in den Abläufen im Hintergrund, also in durchgängig neu gedachten Verwaltungsprozessen. Der Beitrag ordnet damit den nächsten Digitalisierungsschritt im öffentlichen Sektor ein.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "verwaltung",
+    "sap",
+    "öffentlicher sektor",
+    "prozesse"
+   ],
+   "source": "SAP News Deutschland",
+   "source_id": "sap-news-de",
+   "added": "2026-10-17T12:17:59+02:00",
+   "quelle_titel": "Der nächste Innovationsschub für öffentliche Dienstleistungen beginnt hinter den Kulissen",
+   "url": "https://news.sap.com/germany/2026/10/ki-public-sector-sap-experience-center/"
+  },
+  {
+   "id": "247b843b77db",
+   "date": "2026-10-15",
+   "published": "2026-10-15T09:02+02:00",
+   "headline": "Skeptische Töne von Konzernchefs drücken KI-Aktien in Asien",
+   "summary": "An den asiatischen Börsen haben KI-Werte deutlich nachgegeben. Auslöser waren Äußerungen von Konzernchefs, die bei Investoren erneut Zweifel am Tempo und an der Tragfähigkeit des KI-Booms geweckt haben. Die Schwankungen in diesem Segment halten damit an.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "börse",
+    "ki-aktien",
+    "asien",
+    "investoren"
+   ],
+   "source": "stern Digital",
+   "source_id": "stern-digital",
+   "added": "2026-10-17T12:17:59+02:00",
+   "quelle_titel": "Börsen: Zukunftssorgen lassen KI-Aktien in Asien absacken",
+   "url": "https://www.stern.de/digital/boersen--zukunftssorgen-lassen-ki-aktien-in-asien-absacken-38399764.html",
+   "dup_of": "b691bd8e7ce5"
+  },
+  {
    "id": "a80c2fbdb952",
    "date": "2026-10-15",
    "published": "2026-10-15T09:11+02:00",
@@ -1098,8 +1324,7 @@
    "added": "2026-10-16T09:15:02+02:00",
    "praxis": true,
    "quelle_titel": "Rogue AI agents sit for their first interview",
-   "url": "https://www.therundown.ai/articles/rogue-ai-agents-sit-for-their-first-interview",
-   "dup_of": "0106622db4c4"
+   "url": "https://www.therundown.ai/articles/rogue-ai-agents-sit-for-their-first-interview"
   },
   {
    "id": "b6131a7787ee",
@@ -1121,7 +1346,7 @@
    "added": "2026-10-16T09:15:02+02:00",
    "quelle_titel": "😸 Gemini now screens scam texts",
    "url": "https://www.theneuron.ai/newsletter/gemini-now-screens-scam-texts-03ac/",
-   "dup_of": "a8e203058965"
+   "dup_of": "d77293809fb7"
   },
   {
    "id": "aadc64073ac6",
@@ -1164,7 +1389,13 @@
    "added": "2026-10-16T09:21:56+02:00",
    "quelle_titel": "Android: Diese neuen Funktionen sollen dich vor Betrug schützen",
    "url": "https://t3n.de/news/android-diese-neuen-funktionen-sollen-dich-vor-betrug-schuetzen-1768394",
-   "dup_of": "a8e203058965"
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/gemini-now-screens-scam-texts-03ac/"
+    }
+   ],
+   "kontext": "Google zufolge erkennt die eigene Betrugsabwehr schon jetzt monatlich Millionen verdächtiger Anrufe und Nachrichten. Neu ist ein erweiterter Schutzmodus in Google Messages: Verwickelte Gesprächsverläufe unbekannter Absender prüfen größere Gemini-Modelle in der Cloud, während Gemini Nano frische Links direkt auf dem Gerät bewertet. Dazu kommen Sperren gegen heimlich eingerichtete Anrufweiterleitungen und das Ausblenden sensibler Inhalte bei Bildschirmfreigaben, nun auch in Chrome. Die Chatwarnungen starteten auf Pixel und sollen weitere Hersteller erreichen."
   },
   {
    "id": "f33889253fc4",
@@ -1208,8 +1439,7 @@
    "source_id": "ix",
    "added": "2026-10-16T09:21:56+02:00",
    "quelle_titel": "Dank „Vibe-Coding“: Epic veröffentlicht neuen Launcher auch für Linux",
-   "url": "https://www.heise.de/news/Dank-Vibe-Coding-Epic-veroeffentlicht-neuen-Launcher-auch-fuer-Linux-11489203.html",
-   "dup_of": "e1e9d7f8b0f1"
+   "url": "https://www.heise.de/news/Dank-Vibe-Coding-Epic-veroeffentlicht-neuen-Launcher-auch-fuer-Linux-11489203.html"
   },
   {
    "id": "7809ad3bd13e",
@@ -1272,8 +1502,7 @@
    "source_id": "stern-digital",
    "added": "2026-10-16T09:21:10+02:00",
    "quelle_titel": "Messenger-App: Gericht sieht Rechtsverstöße beim Messengerdienst Snapchat",
-   "url": "https://www.stern.de/digital/messenger-app--gericht-sieht-rechtsverstoesse-beim-messengerdienst-snapchat-38402868.html",
-   "dup_of": "c5283f18e6fa"
+   "url": "https://www.stern.de/digital/messenger-app--gericht-sieht-rechtsverstoesse-beim-messengerdienst-snapchat-38402868.html"
   },
   {
    "id": "7268855f0dfa",
@@ -1349,8 +1578,7 @@
    "source_id": "ars-ai",
    "added": "2026-10-16T09:20:18+02:00",
    "quelle_titel": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.",
-   "url": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
-   "dup_of": "1f63379af540"
+   "url": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/"
   },
   {
    "id": "1d4cff712a9a",
@@ -1414,7 +1642,14 @@
    "source_id": "heise-ki",
    "added": "2026-10-16T09:19:30+02:00",
    "quelle_titel": "„Schwarzer Donnerstag“ wegen Sorgen über KI-Ausgaben: Asiens Börsen abgesackt",
-   "url": "https://www.heise.de/news/Schwarzer-Donnerstag-wegen-Sorgen-ueber-KI-Ausgaben-Asiens-Boersen-abgesackt-11489778.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Schwarzer-Donnerstag-wegen-Sorgen-ueber-KI-Ausgaben-Asiens-Boersen-abgesackt-11489778.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "also": [
+    {
+     "source": "stern Digital",
+     "url": "https://www.stern.de/digital/boersen--zukunftssorgen-lassen-ki-aktien-in-asien-absacken-38399764.html"
+    }
+   ],
+   "kontext": "Ausgelöst wurde die Talfahrt bereits am Mittwoch an der Wall Street, wo mit Oracle und CoreWeave zwei eng mit dem KI-Boom verknüpfte Werte nachgaben. Hinzu kamen Zahlen von Anthropic, die auf ein langsameres Umsatzwachstum hindeuten, sowie gestiegene Renditen für US-Staatsanleihen, die Anleger als nüchterne Alternative zu teuren KI-Wetten sehen. Südkorea reagiert besonders empfindlich, weil seine Speicherindustrie zentral für den Boom ist. In Europa und den USA beruhigten sich die Kurse wieder."
   },
   {
    "id": "727f5e278584",
@@ -1478,7 +1713,13 @@
    "source_id": "cio",
    "added": "2026-10-16T09:18:39+02:00",
    "quelle_titel": "AstraZeneca: Mit KI Patienten besser versorgen",
-   "url": "https://www.cio.de/article/4209256/astrazeneca-mit-ki-patienten-besser-versorgen.html"
+   "url": "https://www.cio.de/article/4209256/astrazeneca-mit-ki-patienten-besser-versorgen.html",
+   "also": [
+    {
+     "source": "Computerwoche",
+     "url": "https://www.computerwoche.de/article/4236244/astrazeneca-mit-ki-patienten-besser-versorgen-2.html"
+    }
+   ]
   },
   {
    "id": "5553236a812f",
@@ -1585,7 +1826,13 @@
    "source_id": "cio",
    "added": "2026-10-16T09:17:43+02:00",
    "quelle_titel": "Der CISO, der die Lufthansa zum Security-Goldstatus führt",
-   "url": "https://www.cio.de/article/4221603/der-ciso-der-die-lufthansa-zum-security-goldstatus-fuehrt.html"
+   "url": "https://www.cio.de/article/4221603/der-ciso-der-die-lufthansa-zum-security-goldstatus-fuehrt.html",
+   "also": [
+    {
+     "source": "Computerwoche",
+     "url": "https://www.computerwoche.de/article/4236239/der-ciso-der-die-lufthansa-zum-security-goldstatus-fuhrt.html"
+    }
+   ]
   },
   {
    "id": "ac13ec21a7ae",
@@ -1627,8 +1874,50 @@
    "source_id": "gn-startups",
    "added": "2026-10-15T00:35:21+02:00",
    "quelle_titel": "Zenzap: KI-Start-up verlässt Stealth-Modus mit 44 Millionen Dollar",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVmNXbGJsQTI5OGhsYmJfelR1MUVfZGdBMkdlVG1lYUlwUzd6RnFZMGZzWXp1LVAtUW5VdlRkRFNHVjkwTWYzSzRQaGZ0cUE5TDdiMmFZNmtzT2lGVXRXb1A2S0tWX2hFekhKcFdyemwwUFpueDJfNDdERkNHRVJxbnhVODJzd1pnZExVYXdCVmdkYmR1YjBnSQ?oc=5",
-   "dup_of": "88518a254bc6"
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVmNXbGJsQTI5OGhsYmJfelR1MUVfZGdBMkdlVG1lYUlwUzd6RnFZMGZzWXp1LVAtUW5VdlRkRFNHVjkwTWYzSzRQaGZ0cUE5TDdiMmFZNmtzT2lGVXRXb1A2S0tWX2hFekhKcFdyemwwUFpueDJfNDdERkNHRVJxbnhVODJzd1pnZExVYXdCVmdkYmR1YjBnSQ?oc=5"
+  },
+  {
+   "id": "8fbb1278b154",
+   "date": "2026-10-15",
+   "published": "2026-10-15T02:00+02:00",
+   "headline": "KI-Newsletter bündelt Updates zu Jev 1.14 und Grok Voice 3",
+   "summary": "Die aktuelle Ausgabe des Branchennewsletters führt als Themen eine neue Version von Jev, den Sprachassistenten Grok Voice 3 sowie das Thema RSI auf. Nähere Angaben zu den Meldungen gehen aus dem Anreißer nicht hervor.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "newsletter",
+    "sprachmodelle",
+    "grok",
+    "updates"
+   ],
+   "source": "TLDR AI",
+   "source_id": "tldr-ai",
+   "added": "2026-10-17T12:17:59+02:00",
+   "quelle_titel": "Jev 1.14 ⚡, Grok Voice 3 🎙️, RSI 🔁",
+   "url": "https://tldr.tech/ai/2026-10-15"
+  },
+  {
+   "id": "0609a4e8662b",
+   "date": "2026-10-15",
+   "published": "2026-10-15T04:22+02:00",
+   "headline": "Bekleidungsfabrik schult Gewerkschaftsmitglieder im KI-Einsatz",
+   "summary": "In einer Bekleidungsfabrik lernen Gewerkschaftsmitglieder, KI für ihre täglichen Aufgaben zu nutzen und so effizienter zu arbeiten. Das Beispiel zeigt, dass KI-Qualifizierung auch in der Produktion und bei Beschäftigtenvertretungen ankommt.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "AITI",
+    "qualifizierung",
+    "produktion",
+    "gewerkschaft",
+    "arbeitseffizienz"
+   ],
+   "source": "Vietnam.vn",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-17T12:17:59+02:00",
+   "quelle_titel": "Gewerkschaftsmitglieder in einer Bekleidungsfabrik lernen, KI anzuwenden, um die Arbeitseffizienz zu steigern.",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWUdTNlNJSWlvc2lvU3lwUW5mVHZ4N2otSXNLc3hjTGVRcE1NekozX0d4ejhuTVVZTko4bWR6MURQbzFWVVoyc2JxTkRZTUR0cFAzY3BqMkdKSTJRSVk4RlhGRDN1ZXZ6UkhISkxOd3hyV3FHSkFCdHd6SUluZUlkSFpDT1pXVVZ2cHE0OHVkTERybVh5?oc=5"
   },
   {
    "id": "001c5eb66f9f",
@@ -1651,6 +1940,28 @@
    "praxis": true,
    "quelle_titel": "7 gute Gründe, Vivaldi zu nutzen",
    "url": "https://www.computerwoche.de/article/4157949/7-gute-grunde-vivaldi-zu-nutzen.html"
+  },
+  {
+   "id": "30a8f8e378b5",
+   "date": "2026-10-15",
+   "published": "2026-10-15T07:59+02:00",
+   "headline": "Techcombank sucht mit KI-Praxisprogramm junge Talente",
+   "summary": "Die Bank Techcombank startet die zweite Staffel eines praxisorientierten KI-Trainingsprogramms und wirbt damit um Nachwuchstalente im Land. Der Titel verweist auf ein Preis- oder Fördervolumen in Millionenhöhe.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "AITI",
+    "training",
+    "talente",
+    "wettbewerb",
+    "banken"
+   ],
+   "source": "Vietnam.vn",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-17T12:17:59+02:00",
+   "quelle_titel": "AI Practical Training Staffel 2: Techcombank „öffnet die Tür zu Millionen von Dollar“ auf der Suche nach jungen Talenten für das Land.",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUdHSDdhZllITTZTZm9Ha3o2aFZ4Nzd2QkM5T211ek8xc0RiZHNLeXJHeDdkdDhVY1gyMG1UR2ZEWVQtSFdQSDNRUXZ3WG0tTVZiZU5nM1Y3U3VDbklzMjNVWHEwSVMteWIza3FDRlZuNHg5Qm1YUXVhU2Z1Umlud2hpck5qMTh5cklKZVhmSFBGdjBkRjk5eEV0Sks1eUt0d25TSzE0Q3lsTFFoYUE?oc=5"
   },
   {
    "id": "e0f9bf20283e",
