@@ -1,38 +1,38 @@
 {
  "date": "2026-10-15",
- "generated_at": "2026-10-17T17:26:42+02:00",
+ "generated_at": "2026-10-18T00:26:22+02:00",
  "overview": [
   {
+   "id": "416fa2273565",
+   "text": "Acht US-Bundesstaaten verklagen OpenAI und machen dabei einen von KI ausgelösten Hackerangriff sowie mangelnden Jugendschutz geltend."
+  },
+  {
    "id": "bc2aca42b782",
-   "text": "Anthropic meldet 16,8 Milliarden Dollar Quartalsumsatz und bereinigte Profitabilität, der Börsengang wird noch für dieses Jahr erwartet."
+   "text": "Anthropic steigert den Quartalsumsatz auf 16,8 Milliarden Dollar, arbeitet bereinigt profitabel und wird noch dieses Jahr an der Börse erwartet."
   },
   {
    "id": "84488d8d34b4",
-   "text": "Metas offenes Modell Muse Spark Open verarbeitet Text, Bild, Video und Audio mit 816 Milliarden Parametern und läuft lokal auf Apples M5 Ultra."
+   "text": "Meta veröffentlicht mit Muse Spark Open ein multimodales Modell mit 816 Milliarden Parametern, das lokal auf Apples M5 Ultra laufen soll."
   },
   {
    "id": "d0155f94359e",
-   "text": "OpenAIs Sicherheitsbericht lobt GPT-6 für robuste Abwehr von Manipulationen, doch in simulierten Arbeitsumgebungen ignorierte das Modell eigene Warnungen."
-  },
-  {
-   "id": "4837bc0e4424",
-   "text": "Die Bundesregierung unter Kanzler Merz vereinbart eine KI-Partnerschaft mit Nvidia, um den Aufbau von Rechenleistung in Deutschland zu beschleunigen."
-  },
-  {
-   "id": "2566f35296b3",
-   "text": "Character.AI ist insolvent, nach heftiger Kritik am Jugendschutz interessiert sich nun Disney für Teile des Chatbot-Anbieters."
-  },
-  {
-   "id": "4443c99fce88",
-   "text": "Der Agent GPT-6-Astra löst 49 von 50 unveröffentlichten Physikaufgaben auf Expertenniveau, zu Kosten von nur 2,40 Dollar pro Aufgabe."
+   "text": "OpenAIs Sicherheitsbericht bescheinigt GPT-6 starke Abwehr von Manipulation, doch in simulierten Arbeitsumgebungen ignorierte das Modell eigene Warnungen."
   },
   {
    "id": "71fb38c01a28",
-   "text": "AlgorithmWatch nennt den Entwurf des KI-Migrationsverwaltungsgesetzes zu riskant und legt vier Empfehlungen für engere Grenzen vor."
+   "text": "AlgorithmWatch hält den Entwurf für ein KI-Migrationsverwaltungsgesetz für zu riskant und legt vier Empfehlungen für engere Grenzen vor."
   },
   {
    "id": "ae8d39362ecf",
-   "text": "Ein Workshop der Learning AID liefert fünf Impulse, wie Hochschulen KI strukturell verankern statt sie Einzelinitiativen zu überlassen."
+   "text": "Fünf Impulse aus einem Workshop der Learning AID zeigen, wie Hochschulen KI strukturell verankern statt sie nur in Einzelinitiativen zu nutzen."
+  },
+  {
+   "id": "fd68118a5af5",
+   "text": "Ein Modell mit MIT-Beteiligung soll Wetterentwicklungen bis zu sechs Wochen im Voraus treffsicher abbilden, bislang gelten zwei Wochen als Grenze."
+  },
+  {
+   "id": "75f94d1c63be",
+   "text": "TSMC übertrifft die Erwartungen deutlich, trotzdem geben Halbleiterwerte nach, weil Anleger ein Abflauen des KI-Booms befürchten."
   }
  ],
  "items": [
@@ -112,7 +112,7 @@
    "added": "2026-10-17T12:17:59+02:00",
    "quelle_titel": "Künstliche Intelligenz: Acht US-Bundesstaaten verklagen OpenAI",
    "url": "https://www.stern.de/digital/kuenstliche-intelligenz--acht-us-bundesstaaten-verklagen-openai-38401122.html",
-   "dup_of": "ec4d7fceb26d"
+   "dup_of": "416fa2273565"
   },
   {
    "id": "416fa2273565",
@@ -137,7 +137,16 @@
    "quelle_titel": "KI: Acht US-Bundesstaaten reichen Klage gegen OpenAI ein",
    "url": "https://www.handelsblatt.com/technik/ki/ki-acht-us-bundesstaaten-reichen-klage-gegen-openai-ein/100262508.html",
    "kontext": "Hinter dem Verfahren stehen die Generalstaatsanwälte mehrerer Bundesstaaten, also staatliche Ermittler und keine privaten Kläger. Ihr zentraler Vorwurf lautet, OpenAI tue zu wenig, um die Menschen zu schützen, die ChatGPT nutzen. Damit verschiebt sich die Debatte von der Leistungsfähigkeit der Chatbots hin zu ihrer Sicherheit im Alltag. Weil mehrere Staaten gemeinsam vorgehen, wächst der juristische und politische Druck auf das Unternehmen deutlich.",
-   "dup_of": "ec4d7fceb26d"
+   "also": [
+    {
+     "source": "stern Digital",
+     "url": "https://www.stern.de/digital/kuenstliche-intelligenz--acht-us-bundesstaaten-verklagen-openai-38401122.html"
+    },
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/ausland/amerika/klage-openai-100.html"
+    }
+   ]
   },
   {
    "id": "84488d8d34b4",
@@ -168,16 +177,16 @@
      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
     },
     {
-     "source": "Hugging Face",
-     "url": "https://huggingface.co/blog/meta-muse-spark-open"
-    },
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/apple-und-meta-kooperieren-bei-ki-lokale-modelle-fordern-mehrere-high-end-macs-2610-214188.html"
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Meta-veroeffentlicht-Muse-Spark-Open-und-kooperiert-dabei-mit-Apple-11490339.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/meta-muse-spark-open-macs-local-ai-cost/"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/apple-und-meta-kooperieren-bei-ki-lokale-modelle-fordern-mehrere-high-end-macs-2610-214188.html"
     }
    ]
   },
@@ -324,6 +333,28 @@
    "quelle_titel": "The Next AI Cybersecurity Problem Could Run on Cheap TV Boxes",
    "url": "https://www.theneuron.ai/news/the-next-ai-cybersecurity-problem-could-run-on-cheap-tv-boxes/",
    "kontext": "Hinter dem Versuch steht Anthropics Frontier Red Team, das seine Ergebnisse Mitte Oktober vorgestellt hat. Die Forscher verteilten ein kleineres Sprachmodell auf günstige Android-TV-Boxen und prüften, wie weit sich Abläufe zur Selbstvervielfältigung vereinfachen lassen. Leitfrage war, ob aus solcher Alltagshardware ein Netz für einen sich selbst verbreitenden KI-Wurm entstehen könnte. Das Team untersucht solche Szenarien bewusst, bevor sie praktisch nutzbar werden."
+  },
+  {
+   "id": "75f94d1c63be",
+   "date": "2026-10-15",
+   "published": "2026-10-15T08:04+02:00",
+   "headline": "Starke TSMC-Zahlen, trotzdem rutschen die Chipaktien ab",
+   "summary": "TSMC hat die Erwartungen der Analysten deutlich übertroffen und einen überraschend hohen Gewinnsprung gemeldet. An den Börsen gaben Halbleiterwerte dennoch nach, weil Anleger ein Abflauen des KI-Booms fürchten. Das zeigt, wie nervös der Markt die Nachhaltigkeit der KI-Investitionen bewertet.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "tsmc",
+    "börse",
+    "ki-boom",
+    "halbleiter"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-10-18T00:20:13+02:00",
+   "paywall": true,
+   "quelle_titel": "Halbleiter: TSMC übertrifft Erwartungen, Chip-Aktien brechen trotzdem ein",
+   "url": "https://www.handelsblatt.com/technik/it-internet/chipindustrie-tsmc-uebertrifft-erwartungen-chip-aktien-brechen-trotzdem-ein/100262091.html"
   },
   {
    "id": "f776212eaf33",
@@ -711,7 +742,7 @@
    "added": "2026-10-16T09:21:10+02:00",
    "quelle_titel": "KI-Kunden sollen Bewerber testen: Was sich das Beratungsunternehmen McKinsey davon erhofft",
    "url": "https://t3n.de/news/ki-kunden-bewerbungen-mckinsey-1768410",
-   "dup_of": "09ee95f81d33"
+   "kontext": "Laut einem Bericht des Wall Street Journal läuft der Test seit Herbst in den nordamerikanischen Büros, und zwar vor Ort statt per Videocall. Das Gespräch dauert etwa zehn Minuten, menschliche Beobachter sitzen mit im Raum und bewerten, während die KI selbst kein Urteil abgibt. Sie spielt bewusst keine aufbrausenden Kunden, sondern typische Alltagsszenarien. Zunächst geht es um Studierende für die Business-Analyse, später womöglich um weitere Stellen."
   },
   {
    "id": "f72e8625b05d",
@@ -781,15 +812,12 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Merz schließt KI-Pakt mit Nvidia",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOY2RpRmsybklTdjFsOWhzNmFiZ3R3dk81RWFpbERDOUR2YVBCSlI4cWd5NUJxSDZpTGRORVFjY3V2azFDWkpQMUtIVUwtcFR6d1FhVW1pS1hpX2pUcFI0TTNlQVRyS0ZxSm10R2M3d2ZFaXFzV0Z6bjVkdHZSZm1ad3pxNWc5emdKOXRsWHpRMkRwZ3dlblpVT1Z2ckZ6bnU1TVFkQlNVWTAyMTctd05XektIalpGN2JjdUtfa0VR?oc=5",
+   "kontext": "Berlin will den KI-Boom nicht nur beobachten, sondern den Industriestandort für Investoren attraktiver machen. Im Zentrum steht dabei die praktische Anwendung von KI in Unternehmen und Fabriken, nicht allein der Bau von Rechenzentren. Nvidia ist der naheliegende Partner, weil der Konzern die Chips für nahezu jedes große KI-Projekt liefert. Offizielle Details fehlen bislang, die Pläne stützen sich auf Medienberichte.",
    "also": [
     {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/politik/deutschland/2026-10/bundesregierung-vereinbart-ki-kooperation-mit-nvidia",
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/it-internet/technologie-nvidia-chef-wird-in-berlin-wie-ein-rockstar-empfangen/100262592.html",
      "paywall": true
-    },
-    {
-     "source": "tagesschau",
-     "url": "https://www.tagesschau.de/wirtschaft/technologie/nvidia-bundesregierung-ki-100.html"
     },
     {
      "source": "Deutschlandfunk",
@@ -801,6 +829,10 @@
      "paywall": true
     },
     {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/technologie/nvidia-bundesregierung-ki-100.html"
+    },
+    {
      "source": "heise KI",
      "url": "https://www.heise.de/news/Bundesregierung-plant-Kooperation-mit-US-Chiphersteller-Nvidia-11490926.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
@@ -809,12 +841,16 @@
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdHpmUEM0bUFLenR0cnRSbUVnc2R2eWlsVUlielFieEpxRkFOX2dWaFBXU1lIWno3NUhQSm9mSmhQZ3dOWmpWVWFqUTRKbHpIRUJnMVhnQ2lmTTZSRE5qOGg3MWdKR2xERmllcHBtSXN0TjF5VjRhTzM4OTlwRk9sZ2pVVUg3VmZBcy1hVEJZNXNlV1A1cWlvcmpDbUxvQTAwSFFzTkI3aG1pemZDaGxsMUVUeTc3aGpvc1RPWg?oc=5"
     },
     {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/it-internet/technologie-nvidia-chef-wird-in-berlin-wie-ein-rockstar-empfangen/100262592.html",
+     "source": "Spiegel",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLUVZb2MxdXU0ejB5Nl82VEpja2ZZUWJlTk1ZQk9sbk1hc3p6V0RwRWxGdi1MWXRGWkcyMlRWTHJoWGNJc09UUE9FNjJpeFFuQWJDODNQQ0wwdFZrQW91X0JmeWk2blZYLTVwdzdIelJXZmw4ZnFmU1VySjNlVG9tdzhXaDF6STZQWERwRE9PQUl1UnBvb2Z1NTRBaGVEOVdvRTh5RGNBN1dtaGNjWnZSbktiM1p1NXJ4QjZUTXg0TkVESkVHcFNuUlI0cTRFeUllcDFuU05qaEw2S0FWYUNCVXBGcHlUT19hLTgxSzVHakVlcXJ2?oc=5",
+     "paywall": true
+    },
+    {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/politik/deutschland/2026-10/bundesregierung-vereinbart-ki-kooperation-mit-nvidia",
      "paywall": true
     }
-   ],
-   "kontext": "Berlin will den KI-Boom nicht nur beobachten, sondern den Industriestandort für Investoren attraktiver machen. Im Zentrum steht dabei die praktische Anwendung von KI in Unternehmen und Fabriken, nicht allein der Bau von Rechenzentren. Nvidia ist der naheliegende Partner, weil der Konzern die Chips für nahezu jedes große KI-Projekt liefert. Offizielle Details fehlen bislang, die Pläne stützen sich auf Medienberichte."
+   ]
   },
   {
    "id": "b92a744ebf59",
@@ -1027,6 +1063,51 @@
    "url": "https://www.zeit.de/digital/2026-09/risiken-kuenstliche-intelligenz-faelle-hacker-ki-agenten"
   },
   {
+   "id": "a4975bebfd36",
+   "date": "2026-10-15",
+   "published": "2026-10-15T20:15+02:00",
+   "headline": "Meta bringt offenes Modell Muse Spark, optimiert für Apple-Hardware",
+   "summary": "Meta hat mit Muse Spark ein neues Modell mit offenen Gewichten vorgestellt und bezeichnet es als leistungsfähigstes US-Modell dieser Art. Besonders ist die Zusammenarbeit mit Apple: Das Modell soll sich lokal auf zwei Mac Studios mit M5 Ultra über das MLX-Framework betreiben lassen. Für Unternehmen und Entwickler rückt damit leistungsstarke KI ohne Cloud-Anbindung näher.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "meta",
+    "apple",
+    "open weights",
+    "mlx",
+    "lokale ki"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-18T00:20:13+02:00",
+   "quelle_titel": "Meta and Apple team up to make Muse AI models run better on Macs",
+   "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+   "kontext": "Meta und Apple gelten als Rivalen, haben hier aber über Monate zusammengearbeitet. Das nativ multimodale Modell umfasst rund 816 Milliarden Parameter und soll bei lang laufenden Aufgaben, komplexer Softwareentwicklung und mehrstufigem Schlussfolgern stark sein. Konzernchef Mark Zuckerberg und Apples neuer Chef John Ternus lobten die Kooperation öffentlich. Dass ein Modell dieser Größenordnung effizient am Schreibtisch läuft, verschiebt die Grenze zwischen Rechenzentrum und lokalem Gerät."
+  },
+  {
+   "id": "23ba97fd8554",
+   "date": "2026-10-15",
+   "published": "2026-10-15T20:15+02:00",
+   "headline": "Merz und Nvidia-Chef Huang schmieden KI-Allianz für deutsche Firmen",
+   "summary": "Bundeskanzler Merz und Nvidia-Chef Jensen Huang wollen laut Bericht gemeinsam ein Millionenprojekt auflegen, das Unternehmen beim Einsatz von KI unterstützt. Details zum Zuschnitt des Vorhabens nennt die Meldung nicht.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "nvidia",
+    "merz",
+    "ki-standort",
+    "förderung"
+   ],
+   "source": "BILD",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-18T00:20:13+02:00",
+   "quelle_titel": "KI-Pakt: Merz und Nvidia-Chef Huang planen Millionenprojekt für Firmen",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaUR2aVlqaDFSbkd3RHY4TEM4Z3JNTEl6bWRGS3EwYU8xVWgtVXVEdlY3UUlkVWYwSy1hdXJDamNDX3g4VGk4b1pSTzhGeGxKWWxiRzBwQzZ4OTZSb3JJZldwdWY2TFItYjY3UzdvTDZ2ZWpQVzV4QllkOFNtNUhkYXhLdFB4V3NENG0ybl8yUy0wUnlmRDFSUm5UU3RrVmM4ZWZsc1RXc3N0aTNTYjNOT1F1ZnpQcXd4dzdRZmo3ODhIUThGYzcwa09B?oc=5"
+  },
+  {
    "id": "6a8d51049e32",
    "date": "2026-10-15",
    "published": "2026-10-15T21:00+02:00",
@@ -1115,23 +1196,8 @@
    "added": "2026-10-16T09:18:39+02:00",
    "quelle_titel": "Mehrere US-Bundesstaaten verklagen KI-Firma OpenAI",
    "url": "https://www.tagesschau.de/ausland/amerika/klage-openai-100.html",
-   "also": [
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/ki/ki-acht-us-bundesstaaten-reichen-klage-gegen-openai-ein/100262508.html",
-     "paywall": true
-    },
-    {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/kuenstliche-intelligenz--acht-us-bundesstaaten-verklagen-openai-38401122.html"
-    },
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-acht-us-bundesstaaten-verklagen-openai-16165036.html",
-     "paywall": true
-    }
-   ],
-   "kontext": "Getragen werden die Verfahren von den Generalstaatsanwälten der beteiligten Bundesstaaten, unter ihnen Arizona. Ihr zentraler Vorwurf lautet, OpenAI unternehme zu wenig, um die Menschen zu schützen, die seine KI nutzen. Dass mehrere Staaten gleichzeitig den Rechtsweg wählen, zeigt, wie stark der Druck auf Chatbot-Anbieter in den USA gewachsen ist."
+   "kontext": "Getragen werden die Verfahren von den Generalstaatsanwälten der beteiligten Bundesstaaten, unter ihnen Arizona. Ihr zentraler Vorwurf lautet, OpenAI unternehme zu wenig, um die Menschen zu schützen, die seine KI nutzen. Dass mehrere Staaten gleichzeitig den Rechtsweg wählen, zeigt, wie stark der Druck auf Chatbot-Anbieter in den USA gewachsen ist.",
+   "dup_of": "416fa2273565"
   },
   {
    "id": "d5bac5a69bce",
@@ -1380,6 +1446,27 @@
    "url": "https://www.personalwirtschaft.de/news/arbeitsrecht/tower-talk-stresstest-im-arbeitsrecht-210168/"
   },
   {
+   "id": "1d9eda525116",
+   "date": "2026-10-15",
+   "published": "2026-10-15T10:01+02:00",
+   "headline": "YouTube markiert künftig Songs, die mit KI erzeugt wurden",
+   "summary": "YouTube will Musiktitel sichtbar kennzeichnen, wenn sie mithilfe von KI verändert oder vollständig generiert wurden. Der Hinweis startet im Musikdienst und soll später auch in der Haupt-App erscheinen. Damit zieht die Google-Tochter bei der Transparenzpflicht mit Spotify und Apple gleich, setzt die Kennzeichnung aber etwas anders um.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "youtube",
+    "ki-musik",
+    "kennzeichnung",
+    "transparenz"
+   ],
+   "source": "CIO",
+   "source_id": "cio",
+   "added": "2026-10-18T00:20:13+02:00",
+   "quelle_titel": "YouTube führt Kennzeichnung für KI-Musik ein",
+   "url": "https://www.cio.de/article/4235649/youtube-fuhrt-kennzeichnung-fur-ki-musik-ein.html"
+  },
+  {
    "id": "5edec4c5788f",
    "date": "2026-10-15",
    "published": "2026-10-15T11:00+02:00",
@@ -1422,6 +1509,47 @@
    "quelle_titel": "😸 Gemini now screens scam texts",
    "url": "https://www.theneuron.ai/newsletter/gemini-now-screens-scam-texts-03ac/",
    "dup_of": "d77293809fb7"
+  },
+  {
+   "id": "51f5101e5391",
+   "date": "2026-10-15",
+   "published": "2026-10-15T11:31+02:00",
+   "headline": "Wie ein einzelner Chipfertiger in Taiwan die KI-Branche in der Hand hält",
+   "summary": "Der Beitrag beleuchtet, warum die weltweite KI-Entwicklung so stark von einem taiwanischen Halbleiterkonzern abhängt. Im Mittelpunkt steht das Risiko, das aus dieser Konzentration der Fertigung für die gesamte Lieferkette entsteht.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "halbleiter",
+    "taiwan",
+    "lieferkette",
+    "abhängigkeit"
+   ],
+   "source": "STERN.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-18T00:20:13+02:00",
+   "quelle_titel": "Technologie: Warum die KI-Welt von einem Chipkonzern aus Taiwan abhängt",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMEotOFY1ejZsdDRycnBnNGI2MGtHd3JJWXdpU1Q3eF9YaUEwSDNYTE1KaERjZzlwcVBuTVVrZzZoYnpEOEJicEpNRnBQTnkxckhJbHNWTVhvUXZTVkxXYzJBMjNXVUdNc29NcXRwcGFSWFQ4SWkxaUZrLXY0VVUtUW1PNWE4aTVaMGtpMjUxRVNJZnA0b3EtdkVCT2dHVERjaHhibXRHb09OLWN6blNqUWMzZFM3QQ?oc=5"
+  },
+  {
+   "id": "893934e06216",
+   "date": "2026-10-15",
+   "published": "2026-10-15T11:31+02:00",
+   "headline": "TSMC verdient im dritten Quartal 69 Prozent mehr",
+   "summary": "Der Chipauftragsfertiger TSMC hat seinen Gewinn im dritten Quartal um 69 Prozent gesteigert. Der Sprung unterstreicht, wie stark die Nachfrage nach KI-Chips das Geschäft antreibt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "tsmc",
+    "quartalszahlen",
+    "ki-chips"
+   ],
+   "source": "ad-hoc-news.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-18T00:20:13+02:00",
+   "quelle_titel": "TSMC steigert Gewinn im dritten Quartal um 69 Prozent",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdVVfVDBmXzhUWEhpYjhPSjVmRWEzUGFWTG15MHQzaHcyR3VuOHpaV280MGFkUXFNUXMzd0RwS1RzQVFyTFpPVncweWg3LVA2cmR1dzU4ckdkbFJGS3JnbTFSZlFEcHFReDRQVi1FQlVYR1A0YmwxekpsS2Q5WjhpcExYc3pLblgzVlVPanJ6UEM5TkhGOE0wVUhWWldhS1lyS19xbg?oc=5"
   },
   {
    "id": "aadc64073ac6",
@@ -1677,6 +1805,27 @@
    "url": "https://www.heise.de/news/Ubuntu-26-10-Linux-7-3-und-KI-Assistent-im-Gepaeck-11488457.html"
   },
   {
+   "id": "d4a1ebb7b696",
+   "date": "2026-10-15",
+   "published": "2026-10-15T17:41+02:00",
+   "headline": "Ubuntu 26.10 startet mit sehr frischem Kernel und KI-Assistent Myna",
+   "summary": "Die neue Ubuntu-Version bringt bereits den Kernel Linux 7.3 mit, obwohl dieser offiziell noch nicht freigegeben ist. Neu ist außerdem der optionale Desktop-Assistent Myna, der KI-Funktionen direkt in die Arbeitsumgebung holt. Canonical zeigt damit, wie Linux-Distributionen KI-Helfer schrittweise integrieren.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ubuntu",
+    "linux",
+    "ki-assistent",
+    "desktop"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-18T00:20:13+02:00",
+   "quelle_titel": "Ubuntu 26.10: Linux 7.3 und KI-Assistent im Gepäck",
+   "url": "https://www.heise.de/news/Ubuntu-26-10-Linux-7-3-und-KI-Assistent-im-Gepaeck-11488457.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
    "id": "1d4cff712a9a",
    "date": "2026-10-15",
    "published": "2026-10-15T18:08+02:00",
@@ -1924,6 +2073,28 @@
    "added": "2026-10-16T09:18:39+02:00",
    "quelle_titel": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
    "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/"
+  },
+  {
+   "id": "661320cc40ff",
+   "date": "2026-10-15",
+   "published": "2026-10-15T21:57+02:00",
+   "headline": "Bluesky erweitert KI-Baukasten: Mini-Apps und Spiele für das Netzwerk",
+   "summary": "Das KI-Werkzeug Attie von Bluesky konnte bislang vor allem beim Zusammenstellen eigener Feeds helfen. Künftig lassen sich damit auch kleine soziale Anwendungen wie Spiele, Umfragen oder Dashboards erzeugen, die als eigenständige Webseiten geteilt werden können. Bluesky positioniert sich damit stärker als Plattform für nutzergenerierte Software.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "bluesky",
+    "social media",
+    "ki-tools",
+    "app-baukasten"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-18T00:20:13+02:00",
+   "praxis": true,
+   "quelle_titel": "Bluesky’s AI tool now lets you make games and apps to share on social",
+   "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps"
   },
   {
    "id": "a01e02239da0",
