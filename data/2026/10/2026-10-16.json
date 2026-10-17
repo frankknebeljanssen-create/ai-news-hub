@@ -1,38 +1,38 @@
 {
  "date": "2026-10-16",
- "generated_at": "2026-10-17T12:26:39+02:00",
+ "generated_at": "2026-10-17T17:27:23+02:00",
  "overview": [
   {
    "id": "b4269ed9ce03",
-   "text": "Peking will den Export von 23 KI-Schlüsseltechnologien genehmigungspflichtig machen, darunter Modellgewichte, Quellcode und Trainingsverfahren."
+   "text": "Peking plant eine Genehmigungspflicht für den Export von Modellgewichten, Quellcode und Trainingsverfahren und trifft damit europäische Open-Source-Pläne."
+  },
+  {
+   "id": "154abeae93f1",
+   "text": "Der Chipfertiger TSMC steigerte seinen Quartalsgewinn um 69 Prozent auf rund 21 Milliarden Euro und zeigt, wie stark der KI-Boom an Taiwan hängt."
   },
   {
    "id": "880208d05458",
-   "text": "Die Bundesregierung plant härtere Strafen für digitale Gewalt und Deepfakes und will Betroffenen zugleich mehr Rechte gegen manipulierte Inhalte geben."
+   "text": "Die Bundesregierung will digitale Gewalt und Deepfakes härter bestrafen und Betroffenen mehr Rechte gegen manipulierte Inhalte einräumen."
   },
   {
    "id": "7bc3780d7fa0",
-   "text": "Gemini 4 Argon erreicht im ARC-AGI-3-Test 97,5 Prozent, fällt im Standard-Harness aber auf 49,8 Prozent zurück."
+   "text": "Googles Gemini 4 Argon erreicht im ARC-AGI-3-Test 97,5 Prozent, fällt im Standard-Harness aber auf 49,8 Prozent zurück."
   },
   {
    "id": "6f754702526c",
-   "text": "Aleph Alpha schickt mit Kolibri-1 ein Sprachmodell ins Rennen, das auf deutsche Texte zugeschnitten ist und seine Zwischenschritte auf Deutsch formuliert."
-  },
-  {
-   "id": "2e05f97d6664",
-   "text": "Anthropic gewährt Prüfern der Non-Profit-Organisation METR internen Einblick in Modelle und Sicherheitspraktiken statt nur externer Tests."
-  },
-  {
-   "id": "dc4487a8d17a",
-   "text": "In Kliniken nutzen Ärztinnen und Ärzte KI-Assistenten heimlich auf privaten Geräten, weshalb Fachleute geregelte Angebote statt Verbote fordern."
+   "text": "Aleph Alphas Kolibri-1 formuliert seine Zwischenschritte auf Deutsch, was vor allem Firmen mit deutschsprachigen Anwendungen interessieren dürfte."
   },
   {
    "id": "a634a5248ede",
-   "text": "Laut einem Bericht sollen Werbetreibende in ChatGPT künftig anhand der konkreten Nutzereingabe gezielt ausgesteuert werden."
+   "text": "Laut einem Bericht sollen Werbetreibende ChatGPT-Nutzer künftig anhand ihrer Eingaben ansprechen können, womit der Prompt zum Targeting-Kriterium wird."
   },
   {
-   "id": "110ccc1edbf9",
-   "text": "Ein globaler Talentbericht zeigt, dass KI-Kompetenzen in Belegschaften schneller wachsen als die zugehörigen Stellenprofile und Weiterbildungspläne."
+   "id": "f63d0c53066e",
+   "text": "BMW setzt auf KI-Agenten und will damit laut Bericht Kosten in Milliardenhöhe einsparen."
+  },
+  {
+   "id": "2e05f97d6664",
+   "text": "Anthropic gewährt Prüfern der Non-Profit-Organisation METR internen Einblick in Modelle und Sicherheitsprozesse, also mehr als übliche Red-Team-Tests."
   }
  ],
  "items": [
@@ -215,16 +215,7 @@
    "quelle_titel": "TSMC schreibt weiter Rekordzahlen, blickt aber vorsichtig in die Zukunft",
    "url": "https://www.heise.de/news/TSMC-schreibt-weiter-Rekordzahlen-blickt-aber-vorsichtig-in-die-Zukunft-11490124.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Der taiwanische Auftragsfertiger TSMC produziert für nahezu alle großen Chipentwickler und profitiert damit unmittelbar von der Nachfrage nach modernsten Prozessen. Finanzchef Wendell Huang verweist auf den zügigen Hochlauf der 2-Nanometer-Technik, mit der unter anderem Apple und AMD bedient werden. Umsatz und Gewinn legten im Jahresvergleich kräftig zu, die Margen bleiben für einen Fertiger außergewöhnlich hoch. Für 2027 mahnt das Unternehmen dennoch zur Vorsicht.",
-   "also": [
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4235755/warum-die-ki-welt-von-einem-chipkonzern-aus-taiwan-abhangt.html"
-    },
-    {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/technologie--warum-die-ki-welt-von-einem-chipkonzern-aus-taiwan-abhaengt-38400610.html"
-    }
-   ]
+   "dup_of": "154abeae93f1"
   },
   {
    "id": "9f008245cd76",
@@ -269,7 +260,16 @@
    "added": "2026-10-16T09:16:45+02:00",
    "quelle_titel": "Warum die KI-Welt von einem Chipkonzern aus Taiwan abhängt",
    "url": "https://www.cio.de/article/4235755/warum-die-ki-welt-von-einem-chipkonzern-aus-taiwan-abhangt.html",
-   "dup_of": "da51561dbd8b"
+   "also": [
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4235692/chipfertiger-tsmc-mit-rekordgewinne-dank-ki-nachfrage.html"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/TSMC-schreibt-weiter-Rekordzahlen-blickt-aber-vorsichtig-in-die-Zukunft-11490124.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ]
   },
   {
    "id": "3697e8ff596d",
@@ -406,22 +406,18 @@
    "added": "2026-10-17T12:16:46+02:00",
    "quelle_titel": "Anthropic lässt externe Prüfer von METR intern auf Modelle und Sicherheit schauen",
    "url": "https://the-decoder.de/anthropic-laesst-externe-pruefer-von-metr-intern-auf-modelle-und-sicherheit-schauen/",
+   "kontext": "Anthropic vergleicht das Vorgehen mit Bankenaufsehern, die dauerhaft im Haus sitzen: Sechs METR-Leute arbeiten mit Firmenlaptops und Büroplätzen, ein Veto gegen ihre Berichte gibt es nicht, nur eng definierte Schwärzungen. Hintergrund sind Vorfälle mit eigenmächtig handelnden KI-Agenten und Rufe nach unabhängiger Kontrolle. Firmenchef Dario Amodei hatte eingebettete Prüfer im September vorgeschlagen, OpenAI zog nach. Den Zugang staffelt Anthropic nun in drei Stufen.",
    "also": [
-    {
-     "source": "Spiegel Netzwelt",
-     "url": "https://www.spiegel.de/netzwelt/netzpolitik/kuenstliche-intelligenz-anthropic-laesst-erste-pruefer-ins-unternehmen-a-808a96ee-958b-44b6-bee1-7f99ac5ec0c7#ref=rss",
-     "paywall": true
-    },
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/"
     },
     {
-     "source": "Anthropic",
-     "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+     "source": "Spiegel Netzwelt",
+     "url": "https://www.spiegel.de/netzwelt/netzpolitik/kuenstliche-intelligenz-anthropic-laesst-erste-pruefer-ins-unternehmen-a-808a96ee-958b-44b6-bee1-7f99ac5ec0c7#ref=rss",
+     "paywall": true
     }
-   ],
-   "kontext": "Anthropic vergleicht das Vorgehen mit Bankenaufsehern, die dauerhaft im Haus sitzen: Sechs METR-Leute arbeiten mit Firmenlaptops und Büroplätzen, ein Veto gegen ihre Berichte gibt es nicht, nur eng definierte Schwärzungen. Hintergrund sind Vorfälle mit eigenmächtig handelnden KI-Agenten und Rufe nach unabhängiger Kontrolle. Firmenchef Dario Amodei hatte eingebettete Prüfer im September vorgeschlagen, OpenAI zog nach. Den Zugang staffelt Anthropic nun in drei Stufen."
+   ]
   },
   {
    "id": "6f754702526c",
@@ -488,7 +484,8 @@
    "source_id": "neuron",
    "added": "2026-10-17T10:00:24+02:00",
    "quelle_titel": "😺 Advertisers can target ChatGPT by prompt",
-   "url": "https://www.theneuron.ai/newsletter/advertisers-can-target-chatgpt-by-prompt/"
+   "url": "https://www.theneuron.ai/newsletter/advertisers-can-target-chatgpt-by-prompt/",
+   "kontext": "Grundlage ist ein Bericht des Branchennewsletters The Neuron von Mitte Oktober. Neu ist dabei die Zielgröße: Nicht allein ein Nutzerprofil entscheidet über die Anzeige, sondern die Formulierung der Anfrage selbst. Das erinnert an die Logik der Suchwortwerbung, verlagert sie aber in den Dialog mit dem Assistenten. Für Werbetreibende entsteht so ein neuer Kanal, für Nutzer eine weitere Frage zum Umgang mit ihren Eingaben."
   },
   {
    "id": "3704c5e09a5a",
@@ -535,13 +532,13 @@
    "added": "2026-10-17T12:15:43+02:00",
    "quelle_titel": "OpenAI startet Gratisprogramm für Forschungslabore an US-Universitäten",
    "url": "https://the-decoder.de/openai-startet-gratisprogramm-fuer-forschungslabore-an-us-universitaeten/",
+   "kontext": "Kern des Programms ist ein auf Biowissenschaften zugeschnittenes Modell, das über eine eigene Arbeitsumgebung Fachwerkzeuge etwa für Genomik oder medizinische Chemie ansteuert. Weil sich damit heikle biologische Fragen bearbeiten lassen, prüft OpenAI Institution, Laborleitung und Einsatzzweck vorab und beobachtet die Nutzung danach weiter. Die Plätze sind befristet, eine Programmierschnittstelle fehlt. Forschungsdaten sollen laut Anbieter nicht ins Training fließen.",
    "also": [
     {
      "source": "OpenAI",
      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
     }
-   ],
-   "kontext": "Kern des Programms ist ein auf Biowissenschaften zugeschnittenes Modell, das über eine eigene Arbeitsumgebung Fachwerkzeuge etwa für Genomik oder medizinische Chemie ansteuert. Weil sich damit heikle biologische Fragen bearbeiten lassen, prüft OpenAI Institution, Laborleitung und Einsatzzweck vorab und beobachtet die Nutzung danach weiter. Die Plätze sind befristet, eine Programmierschnittstelle fehlt. Forschungsdaten sollen laut Anbieter nicht ins Training fließen."
+   ]
   },
   {
    "id": "97e3bc64b6c1",
@@ -565,6 +562,36 @@
    "quelle_titel": "Künstliche Intelligenz: Anthropic lässt erste Prüfer ins Unternehmen",
    "url": "https://www.spiegel.de/netzwelt/netzpolitik/kuenstliche-intelligenz-anthropic-laesst-erste-pruefer-ins-unternehmen-a-808a96ee-958b-44b6-bee1-7f99ac5ec0c7#ref=rss",
    "dup_of": "2e05f97d6664"
+  },
+  {
+   "id": "f63d0c53066e",
+   "date": "2026-10-16",
+   "published": "2026-10-16T11:58+02:00",
+   "headline": "BMW will mit KI-Agenten Kosten in Milliardenhöhe senken",
+   "summary": "Der Autobauer BMW setzt auf KI-Agenten, um erhebliche Einsparungen zu erzielen. Dem Bericht zufolge geht es um ein Volumen im Milliardenbereich.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "bmw",
+    "ki-agenten",
+    "automobil",
+    "effizienz"
+   ],
+   "source": "Business Insider Deutschland",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-17T17:19:23+02:00",
+   "paywall": true,
+   "quelle_titel": "BMW: So will man mit KI-Agenten Milliarden einsparen",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSlVTYVlRZmVsZzczM2txcVBickFlRnJjdV9xTUVVa1FHWWhfTmNMRkt3azR4YUpzX0tfd29rRlZ3RV9PS3R3MVkwSG14VXhIb0s2Yjc5SjFLbVlrWHZseU04NHdnUWVRd2xSdmFBT05mWUtQeUtvWThiX25XMjhSQnoyMW5yVGJKZXV5WGgwaFFRdk5OYkpaY1NR?oc=5",
+   "also": [
+    {
+     "source": "Business Insider Deutschland",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbE5vTUF1SXMyWlVTTURqanlBTVFHZGZhSnFsVE1zSU1QZGt1TGZNRXNVSDZ6c0JhQlY0WmFLczhJS2hoOVY3R3MxcXIxVFNuam9aeGx3WXhOWVZTcXJzOXM2LVluVGlQbkJ3eHUxMFBhQ3BIV2s0clNrRWNhb0RNN0FDZm1aSXFRLW5CWVdQcExIRzh1bE1PbC1KM0FTV0duVzNPdDlEN1l2dw?oc=5",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "1b1915a87b02",
@@ -657,6 +684,28 @@
    "kontext": "Hinter den auffälligen Unterschieden steckt ein Streit aus dem Sommer, als OpenAI mithilfe spezieller Schnittstellenfunktionen wie beibehaltenem Reasoning deutlich besser abschnitt als Claude Opus 5. ARC-Prize-Mitgründer François Chollet erlaubt seither allgemein verfügbare API-Einstellungen, verlangt aber Transparenz über Konfiguration und Kosten. Bei Argon scheiterten im Standardaufbau zudem viele Durchläufe an technischen Problemen. Spitzenwerte sagen damit immer auch etwas über die Testumgebung aus, nicht nur über das Modell."
   },
   {
+   "id": "b9e5e1cfe098",
+   "date": "2026-10-16",
+   "published": "2026-10-16T13:10+02:00",
+   "headline": "Apple und Meta nähern sich bei KI an, lokale Modelle verlangen Mac-Power",
+   "summary": "Trotz früherer Spannungen zwischen den Konzernspitzen zeichnet sich bei künstlicher Intelligenz eine Zusammenarbeit zwischen Apple und Meta ab. Für den lokalen Betrieb der Modelle sind laut Bericht mehrere leistungsstarke Macs nötig, was den hohen Hardwarebedarf von On-Device-KI unterstreicht. Die Kooperation wäre ein Signal für Apples neue KI-Strategie.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "apple",
+    "meta",
+    "lokale modelle",
+    "hardware"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-17T17:19:23+02:00",
+   "quelle_titel": "Apple und Meta kooperieren bei KI: Lokale Modelle fordern mehrere High-End-Macs",
+   "url": "https://www.golem.de/news/apple-und-meta-kooperieren-bei-ki-lokale-modelle-fordern-mehrere-high-end-macs-2610-214188.html",
+   "dup_of": "84488d8d34b4"
+  },
+  {
    "id": "53177da0dc3f",
    "date": "2026-10-16",
    "published": "2026-10-16T14:13+02:00",
@@ -676,13 +725,56 @@
    "added": "2026-10-17T12:13:35+02:00",
    "quelle_titel": "KI-Interpretierbarkeit vor dem Durchbruch? Forscher-Szene streitet über neue Lesart neuronaler Netze",
    "url": "https://the-decoder.de/ki-interpretierbarkeit-vor-dem-durchbruch-forscher-szene-streitet-ueber-neue-lesart-neuronaler-netze/",
+   "kontext": "Hinter der These steht Nick Cammarata vom Interpretierbarkeits-Labor Goodfire, der die bislang dominierende Erklärung der Superposition selbst mitgeprägt hatte. Er deutet berühmte Beispiele neu: Das angeblich doppeldeutige Neuron für Katzen und Autos reagiere schlicht auf spitze Formen. Wäre er im Recht, bräuchten Labore keine Hilfsmodelle mehr, um Begriffe aus den Netzen herauszulösen. Bei OpenAI wird gejubelt, Deepmind-Forscher Neel Nanda bremst.",
    "also": [
     {
      "source": "Latent Space",
      "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity"
     }
+   ]
+  },
+  {
+   "id": "778a3beda785",
+   "date": "2026-10-16",
+   "published": "2026-10-16T14:20+02:00",
+   "headline": "Berlin steuert auf KI-Partnerschaft mit Nvidia zu",
+   "summary": "Zum Investitionsgipfel der Bundesregierung in Berlin soll am Montag und Dienstag eine Zusammenarbeit mit dem US-Chiphersteller Nvidia bekannt gegeben werden. Damit würde der Ausbau der KI-Infrastruktur in Deutschland eng an einen amerikanischen Anbieter geknüpft.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "bundesregierung",
+    "ki-infrastruktur",
+    "investitionen"
    ],
-   "kontext": "Hinter der These steht Nick Cammarata vom Interpretierbarkeits-Labor Goodfire, der die bislang dominierende Erklärung der Superposition selbst mitgeprägt hatte. Er deutet berühmte Beispiele neu: Das angeblich doppeldeutige Neuron für Katzen und Autos reagiere schlicht auf spitze Formen. Wäre er im Recht, bräuchten Labore keine Hilfsmodelle mehr, um Begriffe aus den Netzen herauszulösen. Bei OpenAI wird gejubelt, Deepmind-Forscher Neel Nanda bremst."
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-17T17:18:23+02:00",
+   "quelle_titel": "Bundesregierung plant Kooperation mit US-Chiphersteller Nvidia",
+   "url": "https://www.heise.de/news/Bundesregierung-plant-Kooperation-mit-US-Chiphersteller-Nvidia-11490926.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "4837bc0e4424"
+  },
+  {
+   "id": "05ab37eab1e1",
+   "date": "2026-10-16",
+   "published": "2026-10-16T14:45+02:00",
+   "headline": "Landgericht Köln stoppt Werbenutzung von Snapchat-Chatdaten",
+   "summary": "Snapchat hat Eingaben aus dem hauseigenen Chatbot My AI für Werbezwecke ausgewertet. Das Landgericht Köln stuft diese Datenverarbeitung als rechtswidrig ein. Das Urteil setzt ein Signal dafür, wie eng die Grenzen bei der Zweitverwertung von Chatbot-Eingaben in Europa gezogen sind.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "datenschutz",
+    "snapchat",
+    "urteil",
+    "chatbot"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-17T17:18:23+02:00",
+   "quelle_titel": "Datenschutz: Snapchat verliert Prozess um KI-Chatdaten",
+   "url": "https://www.golem.de/news/datenschutz-snapchat-verliert-prozess-um-ki-chatdaten-2610-214193.html"
   },
   {
    "id": "626777317f4a",
@@ -731,6 +823,28 @@
    "kontext": "Hinter der Einordnung steht ein Brief von Andrew Ng in The Batch. Weil sich überprüfbare Aufgaben automatisch bewerten lassen, treibt bestärkendes Lernen den Fortschritt dort schnell voran, während Urteilsaufgaben mühsam erhobene Daten und sorgfältig entworfene Belohnungen brauchen. Ng erinnert an Schach, Jeopardy und Go, wo Erfolge zu voreiligen Erwartungen führten. Wer Modelle produktiv einsetzt, braucht deshalb eigene Prüfverfahren."
   },
   {
+   "id": "e874f1181e68",
+   "date": "2026-10-16",
+   "published": "2026-10-16T16:02+02:00",
+   "headline": "Neue Meta-Regeln öffnen Weg zum Training mit Verlagsinhalten",
+   "summary": "Metas überarbeitete Nutzungsbedingungen treten Ende Oktober in Kraft und erlauben dem Konzern offenbar, Webseiten von Geschäftskunden zu durchsuchen und auszulesen. Die so gewonnenen Inhalte dürfen laut der Analyse auch für Forschung und das Training von Modellen verwendet werden. Betroffen wären damit auch Verlage, die Metas Plattformen nutzen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "meta",
+    "trainingsdaten",
+    "verlage",
+    "nutzungsbedingungen"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-17T17:18:23+02:00",
+   "quelle_titel": "Meta’s new terms may allow it to train AI on news sites for free",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+   "dup_of": "3c203c9854b8"
+  },
+  {
    "id": "9e49d6b5dd24",
    "date": "2026-10-16",
    "published": "2026-10-16T16:07+02:00",
@@ -773,13 +887,17 @@
    "added": "2026-10-17T10:49:51+02:00",
    "quelle_titel": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
    "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+   "kontext": "Die neuen Bedingungen gelten ab Ende Oktober für alle Geschäftskonten, und wer nicht einverstanden ist, kann die Dienste nur noch verlassen. Erfasst werden auch die verlinkten Webseiten der Partner, was besonders Nachrichtenhäuser trifft, die für den Zugriff auf ihre Artikel eigentlich Geld verlangen könnten. Meta versichert, an der Praxis beim Crawlen ändere sich nichts und technische Sperren würden weiter beachtet. Parallel streiten Verlage mit OpenAI vor Gericht über Training ohne Lizenz.",
    "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+    },
     {
      "source": "tech-insider.org",
      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzQkw0czlGUHhmdkNsVllBMG9DVlpOOGExVXdUVWhnejhYb201bDNwQldwR0RpcEk0SUtOaFROYzRRTVpTNWhrN2Rsczdua2ZaMVFyNllvZ3NzeXJWYW1hNk43WklwWFo2TS10MFNTOXhQS09fMGRIVjR3?oc=5"
     }
-   ],
-   "kontext": "Die neuen Bedingungen gelten ab Ende Oktober für alle Geschäftskonten, und wer nicht einverstanden ist, kann die Dienste nur noch verlassen. Erfasst werden auch die verlinkten Webseiten der Partner, was besonders Nachrichtenhäuser trifft, die für den Zugriff auf ihre Artikel eigentlich Geld verlangen könnten. Meta versichert, an der Praxis beim Crawlen ändere sich nichts und technische Sperren würden weiter beachtet. Parallel streiten Verlage mit OpenAI vor Gericht über Training ohne Lizenz."
+   ]
   },
   {
    "id": "2d415efcdc34",
@@ -869,13 +987,13 @@
    "praxis": true,
    "quelle_titel": "OpenAIs Chrome-Erweiterung lässt ChatGPT Tabs steuern, Formulare ausfüllen und Dateien herunterladen",
    "url": "https://the-decoder.de/openais-chrome-erweiterung-laesst-chatgpt-tabs-steuern-formulare-ausfuellen-und-dateien-herunterladen/",
+   "kontext": "Der Ausbau fällt in eine Phase, in der OpenAI seinen eigenen Browser Atlas aufgegeben hat und stattdessen auf Chrome setzt. Über einen eigenen Befehl lassen sich einzelne Tabs gezielt ansprechen, im Arbeitsmodus steuert das Modell den Browser weitgehend selbst. Die Seitenleiste zeigt nun zusätzlich die komplette Gesprächshistorie neben der geöffneten Seite. Google verfolgt mit einer Gemini-Funktion einen ähnlichen Ansatz, der Wettbewerb um den Browser als Arbeitsplatz nimmt zu.",
    "also": [
     {
      "source": "The Verge AI",
      "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
     }
-   ],
-   "kontext": "Der Ausbau fällt in eine Phase, in der OpenAI seinen eigenen Browser Atlas aufgegeben hat und stattdessen auf Chrome setzt. Über einen eigenen Befehl lassen sich einzelne Tabs gezielt ansprechen, im Arbeitsmodus steuert das Modell den Browser weitgehend selbst. Die Seitenleiste zeigt nun zusätzlich die komplette Gesprächshistorie neben der geöffneten Seite. Google verfolgt mit einer Gemini-Funktion einen ähnlichen Ansatz, der Wettbewerb um den Browser als Arbeitsplatz nimmt zu."
+   ]
   },
   {
    "id": "77fa08332be4",
@@ -944,7 +1062,13 @@
    "added": "2026-10-17T10:00:24+02:00",
    "quelle_titel": "Replit is no longer working with Anthropic, CEO says",
    "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-   "kontext": "Masad äußerte sich auf der Entwicklerkonferenz TechCrunch Disrupt und begründete den Wechsel mit Kosten, Leistung und Partnerschaft; interne wie öffentliche Vergleichstests sprächen für die OpenAI Modelle. Personen aus dem Umfeld widersprechen und erklären, die Kooperation bestehe weiter. Tatsächlich verwiesen Replit Beiträge noch im September auf Claude Modelle im Agentenbetrieb. Parallel wächst bei Replit das Geschäft mit Unternehmenskunden deutlich."
+   "kontext": "Masad äußerte sich auf der Entwicklerkonferenz TechCrunch Disrupt und begründete den Wechsel mit Kosten, Leistung und Partnerschaft; interne wie öffentliche Vergleichstests sprächen für die OpenAI Modelle. Personen aus dem Umfeld widersprechen und erklären, die Kooperation bestehe weiter. Tatsächlich verwiesen Replit Beiträge noch im September auf Claude Modelle im Agentenbetrieb. Parallel wächst bei Replit das Geschäft mit Unternehmenskunden deutlich.",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/streit-um-partnerschaft-replit-ceo-erklaert-zusammenarbeit-mit-anthropic-fuer-beendet-1768712"
+    }
+   ]
   },
   {
    "id": "aae90d6b2dab",
@@ -1202,8 +1326,7 @@
    "source_id": "computerwoche",
    "added": "2026-10-17T12:16:46+02:00",
    "quelle_titel": "AstraZeneca: Mit KI Patienten besser versorgen",
-   "url": "https://www.computerwoche.de/article/4236244/astrazeneca-mit-ki-patienten-besser-versorgen-2.html",
-   "dup_of": "9e1ea0b5c08e"
+   "url": "https://www.computerwoche.de/article/4236244/astrazeneca-mit-ki-patienten-besser-versorgen-2.html"
   },
   {
    "id": "457f66cf80bd",
@@ -1246,8 +1369,7 @@
    "source_id": "computerwoche",
    "added": "2026-10-17T12:15:43+02:00",
    "quelle_titel": "Der CISO, der die Lufthansa zum Security-Goldstatus führt",
-   "url": "https://www.computerwoche.de/article/4236239/der-ciso-der-die-lufthansa-zum-security-goldstatus-fuhrt.html",
-   "dup_of": "a4989793d452"
+   "url": "https://www.computerwoche.de/article/4236239/der-ciso-der-die-lufthansa-zum-security-goldstatus-fuhrt.html"
   },
   {
    "id": "ffdbe62d21b3",
@@ -1293,6 +1415,29 @@
    "url": "https://t3n.de/news/60-ki-agenten-shop-agentic-1768477"
   },
   {
+   "id": "b84a559ebb2e",
+   "date": "2026-10-16",
+   "published": "2026-10-16T11:51+02:00",
+   "headline": "KI-Boom lockt junge Deutsche mit Spitzengehältern ins Silicon Valley",
+   "summary": "So viel Kapital wie derzeit floss nie in die Tech-Szene der Bay Area, und mitten im Boom suchen junge Deutsche ihr Glück. Manche geben dafür Promotion oder Konzernkarriere auf, Jahresgehälter beginnen bei einer halben Million Dollar. Viele würden sich allerdings wünschen, solche Chancen auch in Europa zu finden.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "silicon valley",
+    "ki-boom",
+    "fachkraefte",
+    "gehaelter"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-10-17T17:19:23+02:00",
+   "paywall": true,
+   "quelle_titel": "Tech-Szene: 500.000 Dollar aufwärts im Jahr: Was junge Deutsche in San Francisco erwartet",
+   "url": "https://www.handelsblatt.com/technik/it-internet/silicon-valley-wie-der-ki-boom-junge-deutsche-in-die-usa-zieht/100260233.html"
+  },
+  {
    "id": "93c00d5fc59d",
    "date": "2026-10-16",
    "published": "2026-10-16T12:57+02:00",
@@ -1332,7 +1477,61 @@
    "source_id": "heise-security",
    "added": "2026-10-17T12:14:53+02:00",
    "quelle_titel": "Dank KI: Rebootfester Jailbreak für iOS 27.0.1 bis zum iPhone 18 Pro, untethered",
-   "url": "https://www.heise.de/news/Untethered-Jailbreak-fuer-iOS-27-0-1-auf-iPhone-18-Pro-der-Reboots-ueberlebt-11490726.html"
+   "url": "https://www.heise.de/news/Untethered-Jailbreak-fuer-iOS-27-0-1-auf-iPhone-18-Pro-der-Reboots-ueberlebt-11490726.html",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Untethered-Jailbreak-fuer-iOS-27-0-1-auf-iPhone-18-Pro-der-Reboots-ueberlebt-11490726.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ],
+   "kontext": "Vorgestellt wurde der Jailbreak auf der Pariser Konferenz Hexacon, die sich auf offensive Sicherheitsforschung konzentriert. Welche Lücken genutzt werden, ist offen. Die Gruppe hatte im Sommer aber schon aus einem Apple-Update mit KI-Hilfe einen funktionierenden Angriff abgeleitet, und genau dieses Vorgehen verbreitet sich: Aus veröffentlichten Korrekturen lassen sich Exploits rekonstruieren. Besonders starke Sicherheitsmodelle bleiben ausgewählten Firmen vorbehalten, frei verfügbare Modelle nicht."
+  },
+  {
+   "id": "ef3fc88ba35c",
+   "date": "2026-10-16",
+   "published": "2026-10-16T13:40+02:00",
+   "headline": "KI hilft bei erstem rebootfesten iPhone-Jailbreak seit Jahren",
+   "summary": "Die Gruppe Calif.io hat nach eigenen Angaben einen Jailbreak entwickelt, der einen Neustart übersteht und bis zu aktuellen iOS-Versionen und neuesten iPhone-Modellen funktioniert. Bemerkenswert ist, dass KI bei der Entwicklung des Exploits mitgewirkt hat. Der Fall zeigt, wie KI-Werkzeuge die Suche nach Sicherheitslücken beschleunigen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "jailbreak",
+    "ios",
+    "exploit",
+    "sicherheitsluecken"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-17T17:19:23+02:00",
+   "kurios": "Erster rebootfester iPhone-Jailbreak seit iOS 9, entstanden mit KI-Unterstützung",
+   "quelle_titel": "Dank KI: Rebootfester Jailbreak für iOS 27.0.1 bis zum iPhone 18 Pro, untethered",
+   "url": "https://www.heise.de/news/Untethered-Jailbreak-fuer-iOS-27-0-1-auf-iPhone-18-Pro-der-Reboots-ueberlebt-11490726.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "3dc1d77769cb"
+  },
+  {
+   "id": "536245a2a7a3",
+   "date": "2026-10-16",
+   "published": "2026-10-16T13:42+02:00",
+   "headline": "Vom Prompt zum Prozess: LLM-Sandbox für echte Softwareprojekte",
+   "summary": "Der Beitrag zeigt den Aufbau einer Sandbox, in der ein Sprachmodell planvoll an alltäglichen Entwicklungsaufgaben arbeitet und Tickets abarbeitet. Damit grenzt sich der Ansatz vom spontanen Vibe-Coding ab und setzt auf nachvollziehbare Abläufe. Das liefert Teams eine Blaupause für den professionellen Einsatz von KI in der Softwareentwicklung.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "softwareentwicklung",
+    "llm",
+    "workflow",
+    "agenten"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-17T17:18:23+02:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "heise+ | Schluss mit Vibe-Coding: Sandbox für professionelle KI-Entwicklung gebaut",
+   "url": "https://www.heise.de/ratgeber/Schluss-mit-Vibe-Coding-Sandbox-fuer-professionelle-KI-Entwicklung-gebaut-11427067.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
    "id": "eafa1e623f96",
@@ -1489,6 +1688,27 @@
    "url": "https://www.heise.de/ratgeber/Home-Assistant-und-KI-Was-der-Home-Generative-Agent-wirklich-kann-11490355.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
+   "id": "cb7b832d78d4",
+   "date": "2026-10-16",
+   "published": "2026-10-16T15:56+02:00",
+   "headline": "Infineon könnte KI-Umsatzziel auf drei Milliarden anheben",
+   "summary": "Beim Chipkonzern Infineon zeichnet sich ab, dass die Erlösprognose für das KI-Geschäft auf drei Milliarden steigen könnte. Für den deutschen Halbleiterhersteller wäre das ein deutliches Signal für die anhaltend hohe Nachfrage rund um Rechenzentren.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "infineon",
+    "halbleiter",
+    "umsatz",
+    "rechenzentren"
+   ],
+   "source": "Börse Express",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-17T17:18:23+02:00",
+   "quelle_titel": "Infineon Aktie: KI-Umsatzziel könnte auf 3 Milliarden steigen",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNm5XeTdmUWZHNzJIWWNQVVcwak9SSzJHSTlLXzhkOElwLTBES3pvVWdMdGNjaXJlaXVkQW5tamNmQzhQM2pXNVhnQjNiMExJWGswUkphUWlZOWxxakcxVW9GV2diTENMRF9VQVpFMEtqQldQTGlYcTNPc0NGdVVKSFR6ekhHazZHVkxDNXNtaWhXRzZLcWJ1S2ZnZ0hsSU9mUkdReEJoZGxNRktjWi1oX3FKOA?oc=5"
+  },
+  {
    "id": "d78457ab82d1",
    "date": "2026-10-16",
    "published": "2026-10-16T16:38+02:00",
@@ -1554,6 +1774,49 @@
    "url": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/"
   },
   {
+   "id": "c4df85e2ae7d",
+   "date": "2026-10-16",
+   "published": "2026-10-16T17:00+02:00",
+   "headline": "Praxistest: Nvidias RTX Spark Notebooks im Alltag",
+   "summary": "Nvidias neuer Arm-basierter Chip RTX Spark N1X steckt nun in ersten Notebooks, die gegen Angebote von Apple, Intel, AMD und Qualcomm antreten. Nach einer Woche mit mehreren Geräten fassen die Tester zusammen, wie sich die Kerne und die Grafikleistung im Alltag schlagen. Für KI-Workloads auf lokaler Hardware ist das ein wichtiger Gradmesser.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nvidia",
+    "hardware",
+    "notebooks",
+    "lokale-ki"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-17T17:18:23+02:00",
+   "praxis": true,
+   "quelle_titel": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+   "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions"
+  },
+  {
+   "id": "351478776159",
+   "date": "2026-10-16",
+   "published": "2026-10-16T17:33+02:00",
+   "headline": "Vercel meldet Rekordstart für KI-Modell Jev",
+   "summary": "Laut Vercel wird das Modell Jev schneller angenommen als jedes andere KI-Modell zuvor auf der Plattform. Die Zahlen stammen aus dem AI Gateway des Anbieters, einer einheitlichen Schnittstelle für verschiedene Modelle ähnlich OpenRouter. Das zeigt, wie schnell sich Nutzungsschwerpunkte bei Entwicklern derzeit verschieben.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "vercel",
+    "jev",
+    "ai-gateway",
+    "entwickler"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-17T17:18:23+02:00",
+   "quelle_titel": "Jev is Vercel’s fastest-adopted AI model ever",
+   "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/"
+  },
+  {
    "id": "1b66b96ebd9b",
    "date": "2026-10-16",
    "published": "2026-10-16T17:38+02:00",
@@ -1598,13 +1861,13 @@
    "paywall": true,
    "quelle_titel": "heise+ | RTX Spark im Notebook: Asus ProArt P14 im KI-Praxistest",
    "url": "https://www.heise.de/tests/RTX-Spark-im-Notebook-Asus-ProArt-P14-im-KI-Praxistest-11491154.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
+   "kontext": "Hinter RTX Spark steckt Nvidias erster Notebookchip namens N1X, im Juni auf der Computex lautstark als Neuerfindung des Windows-Rechners angekündigt. Entscheidend ist der gemeinsam genutzte schnelle Speicher von bis zu 128 Gigabyte, denn übliche Geräte scheitern mit knappem Grafikspeicher an größeren Sprachmodellen. Das Testteam von c't 3003 prüfte zudem die Spieleleistung und die Frage, ob neben dem vorinstallierten Windows auch Linux läuft.",
    "also": [
     {
      "source": "heise KI",
      "url": "https://www.heise.de/news/RTX-Spark-im-Test-Nvidias-erster-Notebook-Chip-fuer-lokale-KI-11490664.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     }
-   ],
-   "kontext": "Hinter RTX Spark steckt Nvidias erster Notebookchip namens N1X, im Juni auf der Computex lautstark als Neuerfindung des Windows-Rechners angekündigt. Entscheidend ist der gemeinsam genutzte schnelle Speicher von bis zu 128 Gigabyte, denn übliche Geräte scheitern mit knappem Grafikspeicher an größeren Sprachmodellen. Das Testteam von c't 3003 prüfte zudem die Spieleleistung und die Frage, ob neben dem vorinstallierten Windows auch Linux läuft."
+   ]
   },
   {
    "id": "1ff9cf0d1488",
@@ -1627,6 +1890,27 @@
    "paywall": true,
    "quelle_titel": "(g+) Gehirn-Computer-Schnittstelle: Was passiert, wenn KI unsere Gedanken lesen kann?",
    "url": "https://www.golem.de/news/gehirn-computer-schnittstelle-was-passiert-wenn-ki-unsere-gedanken-lesen-kann-2610-214203.html"
+  },
+  {
+   "id": "1aa8b1ac1c09",
+   "date": "2026-10-16",
+   "published": "2026-10-16T18:01+02:00",
+   "headline": "Elorian startet mit Glimpse ein Modell, das in Bildern denken soll",
+   "summary": "Das Unternehmen Elorian stellt sein erstes Modell namens Glimpse vor, das visuelle Informationen nicht nur beschreiben, sondern als Denkmaterial nutzen soll. Nach eigenen Messungen liegt es beim Auswerten wissenschaftlicher Diagramme und beim Beschriften kurzer Videos vor starken Konkurrenzmodellen. Bei weiteren Aufgaben zum visuellen Schlussfolgern bewegt es sich auf vergleichbarem Niveau.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "multimodal",
+    "elorian",
+    "benchmarks",
+    "bildverstehen"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-17T17:17:28+02:00",
+   "quelle_titel": "Elorian’s first AI model wants to reason with images, not just about them",
+   "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
   },
   {
    "id": "c18e83f494dd",
@@ -1691,13 +1975,8 @@
    "added": "2026-10-17T10:01:28+02:00",
    "quelle_titel": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
    "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-   "also": [
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/"
-    }
-   ],
-   "kontext": "Vishwanath vergleicht die Lage mit Legosteinen: Greifhände, Antriebe, Software und Sicherheitsnormen würden gerade erst neu zusammengesetzt. Damit widerspricht sie Stimmen in der Szene, etwa dem Chef von General Intuition, der ein einziges allgemeines Basismodell für den Wendepunkt hält und Spezialentwicklungen überflüssig sähe. Gesagt hat sie das im TechCrunch-Podcast Equity. Mit ihrer eigenen Firma Techable VC finanziert sie physische KI in Robotik, Materialforschung und Biowissenschaften."
+   "kontext": "Vishwanath vergleicht die Lage mit Legosteinen: Greifhände, Antriebe, Software und Sicherheitsnormen würden gerade erst neu zusammengesetzt. Damit widerspricht sie Stimmen in der Szene, etwa dem Chef von General Intuition, der ein einziges allgemeines Basismodell für den Wendepunkt hält und Spezialentwicklungen überflüssig sähe. Gesagt hat sie das im TechCrunch-Podcast Equity. Mit ihrer eigenen Firma Techable VC finanziert sie physische KI in Robotik, Materialforschung und Biowissenschaften.",
+   "dup_of": "1db14d807722"
   },
   {
    "id": "1db14d807722",
@@ -1719,7 +1998,13 @@
    "added": "2026-10-17T10:01:28+02:00",
    "quelle_titel": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
    "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
-   "dup_of": "84c2c565c396"
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
+    }
+   ],
+   "kontext": "Vishwanath kennt die Robotikbranche aus Nvidias Produktmarketing und vergibt heute als Gründerin der Frühphasenfirma Techable VC erste Schecks, auch in Materialforschung und Biowissenschaften. Sie gilt als eine der ersten Frauen aus Nvidias Führungsebene, die eine eigene Investmentfirma aufgebaut hat. Ihre Einschätzung widerspricht der in der Szene verbreiteten Hoffnung, ein einziges Universalmodell mache spezialisierte Robotikarbeit überflüssig. Für sie fehlen vorher solide Hardware und Normen."
   },
   {
    "id": "c15067226354",
@@ -1741,6 +2026,28 @@
    "added": "2026-10-17T10:01:28+02:00",
    "quelle_titel": "Stellar Intelligent Network: Huawei rüstet Netzwerke in Europa für den KI-Boom auf",
    "url": "https://www.golem.de/news/stellar-intelligent-network-huawei-ruestet-netzwerke-in-europa-fuer-den-ki-boom-auf-2610-214207.html"
+  },
+  {
+   "id": "61baa7c2d369",
+   "date": "2026-10-16",
+   "published": "2026-10-16T20:00+02:00",
+   "headline": "Gespräch mit dem Forscher hinter KI-entworfenen Viren",
+   "summary": "In einer aufgezeichneten Diskussionsrunde berichtet ein Stanford-Doktorand, wie er ein generatives Modell genutzt hat, um Genbaupläne für winzige Viren vorzuschlagen. Echtes KI-erzeugtes Leben ist das noch nicht, könnte aber der nächste Schritt sein. Das Gespräch dreht sich um die wissenschaftlichen Möglichkeiten und die damit verbundenen Risiken.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "biotech",
+    "generative ki",
+    "biosicherheit",
+    "viren"
+   ],
+   "source": "MIT Technology Review",
+   "source_id": "mit-tr",
+   "added": "2026-10-17T17:17:28+02:00",
+   "paywall": true,
+   "quelle_titel": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+   "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
   },
   {
    "id": "65442e708214",
@@ -1851,6 +2158,48 @@
    "url": "https://www.heise.de/news/TV-Staffel-geloescht-kein-Backup-Schwedischer-Sender-bestreitet-Schuld-von-KI-11490175.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
+   "id": "116d21a6789b",
+   "date": "2026-10-16",
+   "published": "2026-10-16T11:58+02:00",
+   "headline": "Spekulationen über Nvidias Rolle bei der Buchung von Arztterminen",
+   "summary": "Der Bericht geht der Frage nach, ob Nvidia künftig bei der Vergabe von Arztterminen mitmischt. Konkrete Details nennt die Meldung im Vorspann nicht.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "nvidia",
+    "gesundheitswesen",
+    "terminbuchung"
+   ],
+   "source": "STERN.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-17T17:19:23+02:00",
+   "quelle_titel": "Hat Nvidia bald bei der Buchung von Arztterminen seine Finger drin?",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNWU4OU1zVTBZTFp1aHBsQTVGcVdRUXZDOG90NnRfSVhxNGIwdDJTYnJGMVA3NDBoNHZDcklrMV8zZmVReGF3VjVPaGlsQ09WZ25yZWJOOHhINGRwenFjYVZ4dk13VGNzdmVoeVJSUC1IWFdiTFdlTzZHTnNSUDRHSE9HaEtvSTZ5RmZWOWpkc0ZzSVlaWE5XcVFBcGswTjJuMWc5ZC1zSQ?oc=5",
+   "dup_of": "1d4c591de538"
+  },
+  {
+   "id": "e45b20b55499",
+   "date": "2026-10-16",
+   "published": "2026-10-16T12:59+02:00",
+   "headline": "Siri-KI könnte per Update auch auf dem HomePod 2 laufen",
+   "summary": "Es gibt Hinweise darauf, dass Apple sein neues KI-Sprachsystem auch für ältere Geräte wie den HomePod 2 nachliefern könnte. Bestätigt ist das nicht, die Anzeichen stammen bislang aus Indizien im Umfeld der Software. Für Nutzer wäre es ein Zeichen, dass vorhandene Hardware nicht abgehängt wird.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "apple",
+    "siri",
+    "sprachassistent",
+    "smart home"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-17T17:19:23+02:00",
+   "quelle_titel": "Siri AI: Spekulationen um Support für HomePod 2",
+   "url": "https://www.heise.de/news/Siri-AI-Spekulationen-um-Support-fuer-HomePod-2-11488677.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
    "id": "9ecf29b97b87",
    "date": "2026-10-16",
    "published": "2026-10-16T13:00+02:00",
@@ -1895,6 +2244,28 @@
    "url": "https://www.heise.de/news/TalosCon-2026-Sidero-Labs-erweitert-Talos-um-Hypervisor-und-Enterprise-Produkte-11490630.html"
   },
   {
+   "id": "e3173cbcb079",
+   "date": "2026-10-16",
+   "published": "2026-10-16T13:41+02:00",
+   "headline": "Bluesky erweitert KI-Helfer Attie und wirbt dafür auf X",
+   "summary": "Das seit dem Frühjahr verfügbare KI-Werkzeug Attie von Bluesky kann künftig mehr als nur Feeds zusammenstellen. Auffällig ist die Vermarktung: Der Dienst bewirbt die Neuerung vor allem bei der Konkurrenz auf X statt in der eigenen Community.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "bluesky",
+    "attie",
+    "social-media",
+    "marketing"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-17T17:18:23+02:00",
+   "kurios": "Bluesky bewirbt sein eigenes KI-Tool ausgerechnet beim Konkurrenten X",
+   "quelle_titel": "Bluesky bohrt KI-Tool „Attie“ auf, und bewirbt das lieber auf X",
+   "url": "https://www.heise.de/news/Bluesky-bohrt-KI-Tool-Attie-auf-und-bewirbt-das-lieber-auf-X-11490509.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
    "id": "82d931a544c9",
    "date": "2026-10-16",
    "published": "2026-10-16T16:00+02:00",
@@ -1933,8 +2304,28 @@
    "source_id": "gn-startups",
    "added": "2026-10-17T10:50:54+02:00",
    "quelle_titel": "Keith Presley (Gudea) sammelt 7 Mio. US-Dollar für KI-Technologie ein",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZmgwb3M4Z19Fc0hSa3oyRFlham92RV9ncHVSbmxFVnF6VU1TcklQaTVQZFZQZy1WS0JpSjVobG1jOVN5RXZFQ2dwVThpTEs1LVVoZ3d5NmhsLWI5V0d0NWI3VTcxMEtEMlg1Z2Y1X1NDTWpMVno4SzJDQkUyX3V1cVBGY1hKVE02ZFVOUUpraUZFQnFfQzlCVGE0TW1wdw?oc=5",
-   "dup_of": "d3bb9ef55af6"
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZmgwb3M4Z19Fc0hSa3oyRFlham92RV9ncHVSbmxFVnF6VU1TcklQaTVQZFZQZy1WS0JpSjVobG1jOVN5RXZFQ2dwVThpTEs1LVVoZ3d5NmhsLWI5V0d0NWI3VTcxMEtEMlg1Z2Y1X1NDTWpMVno4SzJDQkUyX3V1cVBGY1hKVE02ZFVOUUpraUZFQnFfQzlCVGE0TW1wdw?oc=5"
+  },
+  {
+   "id": "de3d82224bc1",
+   "date": "2026-10-16",
+   "published": "2026-10-16T16:26+02:00",
+   "headline": "Mark Wahlberg zieht Grenzen für KI im Film",
+   "summary": "Der Schauspieler und Investor Mark Wahlberg hält den Einsatz von KI in Filmproduktionen für vertretbar, solange die Technik bestehende Arbeit nur verstärkt und nicht ersetzt. Zugleich zeigt er sich offen dafür, dass ein digitaler Doppelgänger sein Werk später fortführt. Die Aussagen fügen sich in die laufende Debatte über Rechte an Stimme und Abbild in Hollywood ein.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "film",
+    "deepfake",
+    "persönlichkeitsrechte",
+    "hollywood"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-17T17:18:23+02:00",
+   "quelle_titel": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+   "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/"
   },
   {
    "id": "b90ac298066a",
