@@ -220,21 +220,7 @@
    "quelle_titel": "KI-Unternehmen: FBI nimmt OpenAI-Mitarbeiter wegen versteckten Abhörgeräts fest",
    "url": "https://www.handelsblatt.com/technik/ki/ki-unternehmen-fbi-nimmt-openai-mitarbeiter-wegen-versteckten-abhoergeraets-fest/100262042.html",
    "kontext": "Versteckt war das Gerät laut Bericht in einem Konferenzraum, also dort, wo in einem KI-Labor strategische Gespräche stattfinden. Verdächtigt wird kein Außenstehender, sondern eine Person aus der eigenen Belegschaft. Das verschiebt den Blick von Cyberangriffen hin zu physischen Risiken und internen Zugriffsrechten. Dass die Spurensuche mit den eigenen Modellen gelang, passt zum Selbstbild des Unternehmens.",
-   "also": [
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/abhoereinrichtung-fbi-fasst-mutmasslichen-spion-bei-openai-2610-214085.html"
-    },
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4235032/wanze-in-openai-konferenzraum-mitarbeiter-festgenommen.html"
-    },
-    {
-     "source": "Politico Europe",
-     "url": "https://www.politico.com/news/2026/10/13/openai-employee-arrested-and-charged-over-hidden-recording-01117275?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-     "paywall": true
-    }
-   ]
+   "dup_of": "3165b1e4a2ab"
   },
   {
    "id": "3165b1e4a2ab",
@@ -257,7 +243,21 @@
    "paywall": true,
    "quelle_titel": "OpenAI employee arrested and charged over hidden recording",
    "url": "https://www.politico.com/news/2026/10/13/openai-employee-arrested-and-charged-over-hidden-recording-01117275?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "dup_of": "a4b41244604f"
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/abhoereinrichtung-fbi-fasst-mutmasslichen-spion-bei-openai-2610-214085.html"
+    },
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4235032/wanze-in-openai-konferenzraum-mitarbeiter-festgenommen.html"
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-unternehmen-fbi-nimmt-openai-mitarbeiter-wegen-versteckten-abhoergeraets-fest/100262042.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "51ce01f9db21",
@@ -641,7 +641,7 @@
    "kurios": "Das Mikrofon steckte in der USB-Buchse eines Fernsehers im Konferenzraum",
    "quelle_titel": "Wanze in OpenAI-Konferenzraum, Mitarbeiter festgenommen",
    "url": "https://www.cio.de/article/4235032/wanze-in-openai-konferenzraum-mitarbeiter-festgenommen.html",
-   "dup_of": "a4b41244604f"
+   "dup_of": "3165b1e4a2ab"
   },
   {
    "id": "5ebff0a24342",
@@ -777,7 +777,7 @@
    "kurios": "Abhörwanze in Toilettenpapier gewickelt im USB-Port eines Fernsehers versteckt",
    "quelle_titel": "Abhöreinrichtung: FBI fasst mutmaßlichen Spion bei OpenAI",
    "url": "https://www.golem.de/news/abhoereinrichtung-fbi-fasst-mutmasslichen-spion-bei-openai-2610-214085.html",
-   "dup_of": "a4b41244604f"
+   "dup_of": "3165b1e4a2ab"
   },
   {
    "id": "3bf900b3aecf",
@@ -825,17 +825,8 @@
    "paywall": true,
    "quelle_titel": "Snapchat: KI-Chatbot darf keine Werbedaten sammeln",
    "url": "https://www.spiegel.de/netzwelt/apps/snapchat-ki-chatbot-darf-keine-werbedaten-sammeln-a-f7b7c152-b0b8-4ed5-8b74-3767856bcee1#ref=rss",
-   "also": [
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Gericht-Snapchat-Chatbot-darf-aus-Kinderdaten-keine-Werbung-machen-11489466.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
-    {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/messenger-app--gericht-sieht-rechtsverstoesse-beim-messengerdienst-snapchat-38402868.html"
-    }
-   ],
-   "kontext": "Geklagt hatte der Verbraucherzentrale Bundesverband, der im europäischen Datenschutzrecht ausdrücklich gegen Anbieter vorgehen darf. Das Gericht beanstandete vor allem vorangehakte Einwilligungen und ließ auch den Verweis auf ein berechtigtes Interesse nicht gelten. Bei Verstößen droht ein empfindliches Ordnungsgeld, rechtskräftig ist das Urteil aber noch nicht. Für die Daten Minderjähriger verschärft inzwischen zusätzlich der Digital Services Act die Vorgaben großer Plattformen."
+   "kontext": "Geklagt hatte der Verbraucherzentrale Bundesverband, der im europäischen Datenschutzrecht ausdrücklich gegen Anbieter vorgehen darf. Das Gericht beanstandete vor allem vorangehakte Einwilligungen und ließ auch den Verweis auf ein berechtigtes Interesse nicht gelten. Bei Verstößen droht ein empfindliches Ordnungsgeld, rechtskräftig ist das Urteil aber noch nicht. Für die Daten Minderjähriger verschärft inzwischen zusätzlich der Digital Services Act die Vorgaben großer Plattformen.",
+   "dup_of": "0c8ac05b3b3b"
   },
   {
    "id": "51060c1c930c",

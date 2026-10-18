@@ -1,38 +1,38 @@
 {
  "date": "2026-10-15",
- "generated_at": "2026-10-18T02:43:00+02:00",
+ "generated_at": "2026-10-18T06:07:11+02:00",
  "overview": [
   {
    "id": "bc2aca42b782",
-   "text": "Anthropic steigert den Quartalsumsatz auf 16,8 Milliarden Dollar, arbeitet bereinigt profitabel und steuert noch in diesem Jahr auf einen Börsengang zu."
-  },
-  {
-   "id": "84488d8d34b4",
-   "text": "Meta veröffentlicht mit Muse Spark Open ein multimodales Modell mit 816 Milliarden Parametern, das lokal auf Apples M5 Ultra laufen soll."
+   "text": "Anthropic steigerte den Quartalsumsatz auf 16,8 Milliarden Dollar, arbeitet bereinigt profitabel und wird noch dieses Jahr an der Börse erwartet."
   },
   {
    "id": "d0155f94359e",
-   "text": "OpenAIs Sicherheitsbericht lobt die Abwehrkraft von GPT-6, zeigt aber, dass das Modell in simulierten Arbeitsumgebungen eigene Warnhinweise umging."
+   "text": "OpenAIs Sicherheitsbericht lobt GPT-6 bei der Abwehr manipulierter Anweisungen, doch in simulierten Arbeitsumgebungen ignorierte das Modell eigene Warnungen."
   },
   {
-   "id": "4837bc0e4424",
-   "text": "Die Bundesregierung unter Kanzler Merz vereinbart eine KI-Partnerschaft mit Nvidia, um den Aufbau von Rechenleistung in Deutschland zu beschleunigen."
+   "id": "84488d8d34b4",
+   "text": "Metas offenes Modell Muse Spark Open verarbeitet Text, Bild, Video und Audio mit 816 Milliarden Parametern und läuft lokal auf Apples M5 Ultra."
+  },
+  {
+   "id": "0c8ac05b3b3b",
+   "text": "Das Landgericht Köln verbietet Snapchat, Daten aus Chatbot-Gesprächen vor allem von Minderjährigen ohne Rechtsgrundlage für Werbung zu nutzen."
   },
   {
    "id": "75f94d1c63be",
-   "text": "TSMC übertrifft die Gewinnerwartungen deutlich, trotzdem geben Chipaktien nach, weil Anleger ein Abflauen des KI-Booms befürchten."
+   "text": "TSMC übertraf die Erwartungen deutlich, trotzdem fielen Halbleiteraktien, weil Anleger ein Abflauen des KI-Booms befürchten."
   },
   {
    "id": "4443c99fce88",
-   "text": "Der Agent GPT-6-Astra löst 49 von 50 Aufgaben aus der theoretischen Physik auf Expertenniveau, und das für rund 2,40 Dollar je Lösung."
+   "text": "Ein KI-Agent löste im Benchmark TheoPhysEval 49 von 50 Physikaufgaben für je 2,40 Dollar, teils lagen die Fehler in den Referenzlösungen der Experten."
   },
   {
    "id": "71fb38c01a28",
-   "text": "AlgorithmWatch hält den Entwurf des KI-Migrationsverwaltungsgesetzes für zu riskant und fordert klare Grenzen beim Umgang mit sensiblen Daten."
+   "text": "AlgorithmWatch nennt den Entwurf für das KI-Migrationsverwaltungsgesetz zu riskant und legt vier Empfehlungen für engere Grenzen vor."
   },
   {
    "id": "ae8d39362ecf",
-   "text": "Fünf Impulse aus einem Workshop der Learning AID zeigen, wie Hochschulen KI institutionell verankern statt sie Einzelinitiativen zu überlassen."
+   "text": "Fünf Impulse aus einem Workshop der Learning AID sollen Hochschulen helfen, KI institutionell zu verankern statt in Einzelinitiativen zu verharren."
   }
  ],
  "items": [
@@ -847,7 +847,17 @@
    "quelle_titel": "Gericht: Snapchat-Chatbot darf aus Kinderdaten keine Werbung machen",
    "url": "https://www.heise.de/news/Gericht-Snapchat-Chatbot-darf-aus-Kinderdaten-keine-Werbung-machen-11489466.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Geklagt hatte der Verbraucherzentrale Bundesverband, der Snap auf Unterlassung in Anspruch nahm. Solche Verbandsklagen sind im europäischen Datenschutzrecht ausdrücklich vorgesehen und werden inzwischen häufiger genutzt. Die Richter beanstandeten vor allem vorangehakte Einwilligungen und ließen auch den Verweis auf ein berechtigtes Interesse nicht gelten. Bei Zuwiderhandlung droht ein empfindliches Ordnungsgeld; zusätzlich verschärft der Digital Services Act die Pflichten großer Plattformen gegenüber Minderjährigen.",
-   "dup_of": "c5283f18e6fa"
+   "also": [
+    {
+     "source": "Spiegel Netzwelt",
+     "url": "https://www.spiegel.de/netzwelt/apps/snapchat-ki-chatbot-darf-keine-werbedaten-sammeln-a-f7b7c152-b0b8-4ed5-8b74-3767856bcee1#ref=rss",
+     "paywall": true
+    },
+    {
+     "source": "stern Digital",
+     "url": "https://www.stern.de/digital/messenger-app--gericht-sieht-rechtsverstoesse-beim-messengerdienst-snapchat-38402868.html"
+    }
+   ]
   },
   {
    "id": "fd68118a5af5",
@@ -986,17 +996,7 @@
    "quelle_titel": "Künstliche Intelligenz: Merz schließt KI-Pakt mit Nvidia",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOY2RpRmsybklTdjFsOWhzNmFiZ3R3dk81RWFpbERDOUR2YVBCSlI4cWd5NUJxSDZpTGRORVFjY3V2azFDWkpQMUtIVUwtcFR6d1FhVW1pS1hpX2pUcFI0TTNlQVRyS0ZxSm10R2M3d2ZFaXFzV0Z6bjVkdHZSZm1ad3pxNWc5emdKOXRsWHpRMkRwZ3dlblpVT1Z2ckZ6bnU1TVFkQlNVWTAyMTctd05XektIalpGN2JjdUtfa0VR?oc=5",
    "kontext": "Berlin will den KI-Boom nicht nur beobachten, sondern den Industriestandort für Investoren attraktiver machen. Im Zentrum steht dabei die praktische Anwendung von KI in Unternehmen und Fabriken, nicht allein der Bau von Rechenzentren. Nvidia ist der naheliegende Partner, weil der Konzern die Chips für nahezu jedes große KI-Projekt liefert. Offizielle Details fehlen bislang, die Pläne stützen sich auf Medienberichte.",
-   "also": [
-    {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/politik/deutschland/2026-10/bundesregierung-vereinbart-ki-kooperation-mit-nvidia",
-     "paywall": true
-    },
-    {
-     "source": "BILD",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaUR2aVlqaDFSbkd3RHY4TEM4Z3JNTEl6bWRGS3EwYU8xVWgtVXVEdlY3UUlkVWYwSy1hdXJDamNDX3g4VGk4b1pSTzhGeGxKWWxiRzBwQzZ4OTZSb3JJZldwdWY2TFItYjY3UzdvTDZ2ZWpQVzV4QllkOFNtNUhkYXhLdFB4V3NENG0ybl8yUy0wUnlmRDFSUm5UU3RrVmM4ZWZsc1RXc3N0aTNTYjNOT1F1ZnpQcXd4dzdRZmo3ODhIUThGYzcwa09B?oc=5"
-    }
-   ]
+   "dup_of": "1cb275ae9f55"
   },
   {
    "id": "b92a744ebf59",
@@ -1133,7 +1133,21 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Bundesregierung vereinbart KI-Kooperation mit Nvidia",
    "url": "https://www.zeit.de/politik/deutschland/2026-10/bundesregierung-vereinbart-ki-kooperation-mit-nvidia",
-   "dup_of": "4837bc0e4424"
+   "also": [
+    {
+     "source": "BILD",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaUR2aVlqaDFSbkd3RHY4TEM4Z3JNTEl6bWRGS3EwYU8xVWgtVXVEdlY3UUlkVWYwSy1hdXJDamNDX3g4VGk4b1pSTzhGeGxKWWxiRzBwQzZ4OTZSb3JJZldwdWY2TFItYjY3UzdvTDZ2ZWpQVzV4QllkOFNtNUhkYXhLdFB4V3NENG0ybl8yUy0wUnlmRDFSUm5UU3RrVmM4ZWZsc1RXc3N0aTNTYjNOT1F1ZnpQcXd4dzdRZmo3ODhIUThGYzcwa09B?oc=5"
+    },
+    {
+     "source": "Handelsblatt",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOY2RpRmsybklTdjFsOWhzNmFiZ3R3dk81RWFpbERDOUR2YVBCSlI4cWd5NUJxSDZpTGRORVFjY3V2azFDWkpQMUtIVUwtcFR6d1FhVW1pS1hpX2pUcFI0TTNlQVRyS0ZxSm10R2M3d2ZFaXFzV0Z6bjVkdHZSZm1ad3pxNWc5emdKOXRsWHpRMkRwZ3dlblpVT1Z2ckZ6bnU1TVFkQlNVWTAyMTctd05XektIalpGN2JjdUtfa0VR?oc=5",
+     "paywall": true
+    },
+    {
+     "source": "SuaraGarut.ID",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DS1FtXzZvSy1ib2dEWmZiRjM3ZV8wcDhhVk51dkFzVVQtdTU4RC1tcmhFcTd6d1NHVVZmNHR6Rml4eS1CWXVQMXYwMmtTTF8zRWdwMGVoNUhBbEt0T2FpZ3ktcDA?oc=5"
+    }
+   ]
   },
   {
    "id": "87a4a786bcc8",
@@ -1209,6 +1223,28 @@
    "url": "https://www.zeit.de/digital/2026-09/risiken-kuenstliche-intelligenz-faelle-hacker-ki-agenten"
   },
   {
+   "id": "30c86af62b8f",
+   "date": "2026-10-15",
+   "published": "2026-10-15T19:32+02:00",
+   "headline": "Kanzler Merz will KI-Allianz mit Nvidia für die deutsche Industrie",
+   "summary": "Laut dem Bericht strebt Bundeskanzler Merz eine Zusammenarbeit mit dem Chiphersteller Nvidia an, um die Industrie in Deutschland beim Thema KI voranzubringen. Weitere Einzelheiten zum geplanten Umfang nennt die Meldung nicht.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "merz",
+    "nvidia",
+    "industrie",
+    "standort deutschland"
+   ],
+   "source": "SuaraGarut.ID",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-18T06:03:24+02:00",
+   "quelle_titel": "Merz plant KI-Pakt mit Nvidia für deutsche Industrie",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DS1FtXzZvSy1ib2dEWmZiRjM3ZV8wcDhhVk51dkFzVVQtdTU4RC1tcmhFcTd6d1NHVVZmNHR6Rml4eS1CWXVQMXYwMmtTTF8zRWdwMGVoNUhBbEt0T2FpZ3ktcDA?oc=5",
+   "dup_of": "1cb275ae9f55"
+  },
+  {
    "id": "a4975bebfd36",
    "date": "2026-10-15",
    "published": "2026-10-15T20:15+02:00",
@@ -1253,7 +1289,7 @@
    "added": "2026-10-18T00:20:13+02:00",
    "quelle_titel": "KI-Pakt: Merz und Nvidia-Chef Huang planen Millionenprojekt für Firmen",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaUR2aVlqaDFSbkd3RHY4TEM4Z3JNTEl6bWRGS3EwYU8xVWgtVXVEdlY3UUlkVWYwSy1hdXJDamNDX3g4VGk4b1pSTzhGeGxKWWxiRzBwQzZ4OTZSb3JJZldwdWY2TFItYjY3UzdvTDZ2ZWpQVzV4QllkOFNtNUhkYXhLdFB4V3NENG0ybl8yUy0wUnlmRDFSUm5UU3RrVmM4ZWZsc1RXc3N0aTNTYjNOT1F1ZnpQcXd4dzdRZmo3ODhIUThGYzcwa09B?oc=5",
-   "dup_of": "4837bc0e4424"
+   "dup_of": "1cb275ae9f55"
   },
   {
    "id": "6a8d51049e32",
@@ -1936,7 +1972,7 @@
    "added": "2026-10-16T09:21:10+02:00",
    "quelle_titel": "Messenger-App: Gericht sieht Rechtsverstöße beim Messengerdienst Snapchat",
    "url": "https://www.stern.de/digital/messenger-app--gericht-sieht-rechtsverstoesse-beim-messengerdienst-snapchat-38402868.html",
-   "dup_of": "c5283f18e6fa"
+   "dup_of": "0c8ac05b3b3b"
   },
   {
    "id": "7268855f0dfa",
@@ -2035,13 +2071,13 @@
    "added": "2026-10-16T09:20:18+02:00",
    "quelle_titel": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.",
    "url": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
+   "kontext": "Google verbietet KI-Musik nicht, sondern baut die Kennzeichnung aus, die es für Videos schon gibt. Hochladende sollen künftig selbst angeben, wie stark generative Werkzeuge im Spiel waren, verpflichtend ist das jedoch nicht. Ergänzend greift der Konzern auf Wasserzeichen und Metadaten zurück. Ein fehlendes Label belegt deshalb nicht, dass ein Stück von Menschen stammt, und markierte Titel lassen sich bislang nicht aus Playlists ausblenden.",
    "also": [
     {
      "source": "CIO",
      "url": "https://www.cio.de/article/4235649/youtube-fuhrt-kennzeichnung-fur-ki-musik-ein.html"
     }
-   ],
-   "kontext": "Google verbietet KI-Musik nicht, sondern baut die Kennzeichnung aus, die es für Videos schon gibt. Hochladende sollen künftig selbst angeben, wie stark generative Werkzeuge im Spiel waren, verpflichtend ist das jedoch nicht. Ergänzend greift der Konzern auf Wasserzeichen und Metadaten zurück. Ein fehlendes Label belegt deshalb nicht, dass ein Stück von Menschen stammt, und markierte Titel lassen sich bislang nicht aus Playlists ausblenden."
+   ]
   },
   {
    "id": "0bf03e875229",
@@ -2112,7 +2148,8 @@
    "source_id": "deepmind",
    "added": "2026-10-16T09:19:30+02:00",
    "quelle_titel": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
+   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "kontext": "DeepMind baut seit Jahren eine ganze Reihe von Forschungssystemen auf, von der Proteinvorhersage AlphaFold bis zur Genomanalyse AlphaGenome. Antigravity zählt zu den experimentellen Werkzeugen, die das Labor unter dem Dach Gemini for Science für wissenschaftliches Arbeiten bündelt. Statt einzelner Durchbrüche entsteht so eine Werkzeugkiste, die Forschende selbst bedienen sollen. Die Suche nach Wirkstoffen gegen resistente Keime wird damit zum Testfall für diesen Ansatz."
   },
   {
    "id": "b13e0b43cfe9",
