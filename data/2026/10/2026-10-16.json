@@ -1,38 +1,38 @@
 {
  "date": "2026-10-16",
- "generated_at": "2026-10-18T00:26:55+02:00",
+ "generated_at": "2026-10-19T00:35:55+02:00",
  "overview": [
   {
    "id": "b4269ed9ce03",
-   "text": "Peking will den Export von 23 KI-Schlüsseltechnologien genehmigungspflichtig machen, darunter Modellgewichte, Quellcode und Trainingsverfahren."
+   "text": "Peking will den Export von Modellgewichten, Quellcode und Trainingsverfahren genehmigungspflichtig machen und trifft damit auch Europas Modellstrategie."
+  },
+  {
+   "id": "778a3beda785",
+   "text": "Beim Investitionsgipfel in Berlin kündigt die Bundesregierung eine KI-Partnerschaft mit Nvidia an und bindet den Infrastrukturausbau an einen US-Konzern."
+  },
+  {
+   "id": "f6be1e9c86c0",
+   "text": "Investoren bewerten Anthropic vor dem Börsengang nur noch mit rund 1,5 Billionen Dollar, was die Erwartungen der ganzen Branche dämpft."
+  },
+  {
+   "id": "a634a5248ede",
+   "text": "OpenAI will Werbung in ChatGPT künftig anhand der Nutzereingaben aussteuern und macht die konkrete Frage damit zum Targeting-Kriterium."
   },
   {
    "id": "880208d05458",
-   "text": "Die Bundesregierung plant härtere Strafen für digitale Gewalt und Deepfakes, bis hin zu Haftstrafen, und will Betroffenen mehr Rechte einräumen."
+   "text": "Die Bundesregierung plant härtere Strafen für digitale Gewalt und Deepfakes, inklusive Haftstrafen und mehr Rechten für Betroffene."
   },
   {
    "id": "7bc3780d7fa0",
-   "text": "Googles Gemini 4 Argon erreicht im ARC-AGI-3-Test 97,5 Prozent, fällt im Standard-Harness aber auf 49,8 Prozent zurück."
-  },
-  {
-   "id": "05ab37eab1e1",
-   "text": "Das Landgericht Köln erklärt die Auswertung von Chatdaten aus Snapchats Assistent My AI für Werbezwecke für rechtswidrig."
-  },
-  {
-   "id": "331a1515d589",
-   "text": "Nvidia will beim Inferenzchip-Spezialisten d-Matrix einsteigen und beteiligt sich damit an einem Konkurrenten im wachsenden Betriebsgeschäft."
+   "text": "Gemini 4 Argon erreicht im ARC-AGI-3-Test 97,5 Prozent, fällt im Standard-Harness aber auf 49,8 Prozent zurück."
   },
   {
    "id": "f63d0c53066e",
-   "text": "BMW setzt auf KI-Agenten und will damit laut Bericht Kosten im Milliardenbereich senken."
+   "text": "BMW will mit KI-Agenten Kosten in Milliardenhöhe senken und zeigt, wie stark die Industrie auf automatisierte Prozesse setzt."
   },
   {
-   "id": "2e05f97d6664",
-   "text": "Anthropic lässt Prüfer der Non-Profit-Organisation METR intern Einblick in Modelle und Sicherheitspraktiken nehmen."
-  },
-  {
-   "id": "110ccc1edbf9",
-   "text": "Ein globaler Talentbericht zeigt, dass sich KI-Kompetenzen in Belegschaften schneller wandeln als die zugehörigen Stellenbeschreibungen."
+   "id": "188ddc6d2c24",
+   "text": "Forschende warnen, dass die schnell wachsenden Mathematikfähigkeiten großer Sprachmodelle Schwachstellen heutiger Verschlüsselung aufdecken könnten."
   }
  ],
  "items": [
@@ -57,7 +57,7 @@
    "added": "2026-10-16T09:15:02+02:00",
    "quelle_titel": "Wirtschaft - Bericht: Bundesregierung vor KI-Partnerschaft mit Nvidia",
    "url": "https://www.deutschlandfunk.de/bericht-bundesregierung-vor-ki-partnerschaft-mit-nvidia-104.html",
-   "dup_of": "4837bc0e4424"
+   "dup_of": "778a3beda785"
   },
   {
    "id": "b4269ed9ce03",
@@ -79,7 +79,13 @@
    "added": "2026-10-17T10:01:28+02:00",
    "quelle_titel": "China will Export von Open-Weight-Modellen und KI-Technologie strenger kontrollieren",
    "url": "https://the-decoder.de/china-will-export-von-open-weight-modellen-und-ki-technologie-strenger-kontrollieren/",
-   "kontext": "Hinter dem Entwurf stehen Chinas Handels- und Wissenschaftsministerium, die den Katalog verbotener und beschränkter Exporttechnologien überarbeiten. Komplett untersagt werden sollen Systeme, die eigenständig Schadcode gegen kritische Infrastruktur, Militär oder Behörden erzeugen; bereits frei verfügbare Technik bleibt ausgenommen. Ein Fachmann aus dem Umfeld von OpenAI sieht darin ein Spiegelbild der amerikanischen Kontrollen und vor allem einen Hebel, offene Modelle künftig bei Bedarf zu stoppen. Betroffen wären auch europäische Anwender solcher Modelle."
+   "kontext": "Hinter dem Entwurf stehen Chinas Handels- und Wissenschaftsministerium, die den Katalog verbotener und beschränkter Exporttechnologien überarbeiten. Komplett untersagt werden sollen Systeme, die eigenständig Schadcode gegen kritische Infrastruktur, Militär oder Behörden erzeugen; bereits frei verfügbare Technik bleibt ausgenommen. Ein Fachmann aus dem Umfeld von OpenAI sieht darin ein Spiegelbild der amerikanischen Kontrollen und vor allem einen Hebel, offene Modelle künftig bei Bedarf zu stoppen. Betroffen wären auch europäische Anwender solcher Modelle.",
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/ki-und-solar-china-plant-neue-exportkontrollen-fuer-schluesseltechnologien-2610-214223.html"
+    }
+   ]
   },
   {
    "id": "090e3a2ea566",
@@ -169,7 +175,7 @@
    "added": "2026-10-16T09:16:45+02:00",
    "quelle_titel": "Nvidia-Partnerschaft: Bund plant dreistellige Millioneninvestition in KI",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdHpmUEM0bUFLenR0cnRSbUVnc2R2eWlsVUlielFieEpxRkFOX2dWaFBXU1lIWno3NUhQSm9mSmhQZ3dOWmpWVWFqUTRKbHpIRUJnMVhnQ2lmTTZSRE5qOGg3MWdKR2xERmllcHBtSXN0TjF5VjRhTzM4OTlwRk9sZ2pVVUg3VmZBcy1hVEJZNXNlV1A1cWlvcmpDbUxvQTAwSFFzTkI3aG1pemZDaGxsMUVUeTc3aGpvc1RPWg?oc=5",
-   "dup_of": "4837bc0e4424"
+   "dup_of": "778a3beda785"
   },
   {
    "id": "f6be1e9c86c0",
@@ -192,7 +198,13 @@
    "paywall": true,
    "quelle_titel": "Anthropic: Investoren erwarten laut Insidern niedrigere IPO-Bewertung",
    "url": "https://www.handelsblatt.com/technik/ki/anthropic-investoren-erwarten-laut-insidern-niedrigere-ipo-bewertung/100262685.html",
-   "dup_of": "bc2aca42b782"
+   "also": [
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/unternehmen/it/anthropic-vor-dem-ipo-kifirma-anthropic-droht-wohl-bei-boersengang-geringere-bewertung/100262752.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "da51561dbd8b",
@@ -335,7 +347,7 @@
    "paywall": true,
    "quelle_titel": "KI-Kooperation mit Nvidia: Bundesregierung will offenbar dreistelligen Millionenbetrag investieren",
    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLUVZb2MxdXU0ejB5Nl82VEpja2ZZUWJlTk1ZQk9sbk1hc3p6V0RwRWxGdi1MWXRGWkcyMlRWTHJoWGNJc09UUE9FNjJpeFFuQWJDODNQQ0wwdFZrQW91X0JmeWk2blZYLTVwdzdIelJXZmw4ZnFmU1VySjNlVG9tdzhXaDF6STZQWERwRE9PQUl1UnBvb2Z1NTRBaGVEOVdvRTh5RGNBN1dtaGNjWnZSbktiM1p1NXJ4QjZUTXg0TkVESkVHcFNuUlI0cTRFeUllcDFuU05qaEw2S0FWYUNCVXBGcHlUT19hLTgxSzVHakVlcXJ2?oc=5",
-   "dup_of": "4837bc0e4424"
+   "dup_of": "778a3beda785"
   },
   {
    "id": "143ef147666a",
@@ -403,7 +415,7 @@
    "paywall": true,
    "quelle_titel": "Anthropic vor dem IPO: KI‑Firma Anthropic droht wohl bei Börsengang geringere Bewertung",
    "url": "https://www.wiwo.de/unternehmen/it/anthropic-vor-dem-ipo-kifirma-anthropic-droht-wohl-bei-boersengang-geringere-bewertung/100262752.html",
-   "dup_of": "bc2aca42b782"
+   "dup_of": "f6be1e9c86c0"
   },
   {
    "id": "331a1515d589",
@@ -446,7 +458,17 @@
    "added": "2026-10-18T00:19:30+02:00",
    "quelle_titel": "Meta und Apple optimieren riesiges KI-Modell für Mac Studios",
    "url": "https://www.heise.de/news/Meta-veroeffentlicht-Muse-Spark-Open-und-kooperiert-dabei-mit-Apple-11490339.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "84488d8d34b4"
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/meta-muse-spark-open-macs-local-ai-cost/"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/apple-und-meta-kooperieren-bei-ki-lokale-modelle-fordern-mehrere-high-end-macs-2610-214188.html"
+    }
+   ],
+   "kontext": "Muse Spark Open folgt rund zwei Monate auf Muse Glimmer und setzt auf eine Mixture-of-Experts-Architektur, bei der pro Token nur ein Bruchteil der Gewichte rechnet. Den lokalen Betrieb ermöglicht Apples MLX-Framework, das die Last über Thunderbolt auf beide Rechner verteilt. Bemerkenswert ist das Bündnis, weil sich beide Konzerne jahrelang über Datenschutz stritten. Die nötige Hardware kommt erst Ende Oktober und kostet mehrere Zehntausend Euro."
   },
   {
    "id": "2e05f97d6664",
@@ -471,13 +493,13 @@
    "kontext": "Anthropic vergleicht das Vorgehen mit Bankenaufsehern, die dauerhaft im Haus sitzen: Sechs METR-Leute arbeiten mit Firmenlaptops und Büroplätzen, ein Veto gegen ihre Berichte gibt es nicht, nur eng definierte Schwärzungen. Hintergrund sind Vorfälle mit eigenmächtig handelnden KI-Agenten und Rufe nach unabhängiger Kontrolle. Firmenchef Dario Amodei hatte eingebettete Prüfer im September vorgeschlagen, OpenAI zog nach. Den Zugang staffelt Anthropic nun in drei Stufen.",
    "also": [
     {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
+    },
+    {
      "source": "Spiegel Netzwelt",
      "url": "https://www.spiegel.de/netzwelt/netzpolitik/kuenstliche-intelligenz-anthropic-laesst-erste-pruefer-ins-unternehmen-a-808a96ee-958b-44b6-bee1-7f99ac5ec0c7#ref=rss",
      "paywall": true
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/"
     }
    ]
   },
@@ -528,13 +550,18 @@
    "praxis": true,
    "quelle_titel": "Kolibri-1 denkt deutsch. Hilft das auch beim Antworten?",
    "url": "https://www.heise.de/hintergrund/Kolibri-1-denkt-deutsch-Hilft-das-auch-beim-Antworten-11489670.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Der Bedarf an einem wirklich deutschfähigen Modell ist groß, zuletzt enttäuschte das angekündigte Soofi-Projekt, das bis heute nicht offen verfügbar ist. Kolibri-1 fällt durch seinen Zuschnitt auf: ein Expertenmodell, bei dem trotz hoher Gesamtgröße nur ein kleiner Teil der Parameter aktiv rechnet. Die Architektur gilt als eher konservativ, das Kontextfenster bleibt hinter aktuellen Spitzenmodellen zurück. Spannend wird es vor allem bei der Aufbereitung der Trainingsdaten.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/hintergrund/Kolibri-1-denkt-deutsch-Hilft-das-auch-beim-Antworten-11489670.html"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/kolibri-von-aleph-alpha-deutschlands-ki-kann-doch-noch-ueberraschen-2610-213958.html",
+     "paywall": true
     }
-   ],
-   "kontext": "Der Bedarf an einem wirklich deutschfähigen Modell ist groß, zuletzt enttäuschte das angekündigte Soofi-Projekt, das bis heute nicht offen verfügbar ist. Kolibri-1 fällt durch seinen Zuschnitt auf: ein Expertenmodell, bei dem trotz hoher Gesamtgröße nur ein kleiner Teil der Parameter aktiv rechnet. Die Architektur gilt als eher konservativ, das Kontextfenster bleibt hinter aktuellen Spitzenmodellen zurück. Spannend wird es vor allem bei der Aufbereitung der Trainingsdaten."
+   ]
   },
   {
    "id": "880208d05458",
@@ -625,13 +652,7 @@
    "added": "2026-10-17T12:15:43+02:00",
    "quelle_titel": "OpenAI startet Gratisprogramm für Forschungslabore an US-Universitäten",
    "url": "https://the-decoder.de/openai-startet-gratisprogramm-fuer-forschungslabore-an-us-universitaeten/",
-   "kontext": "Kern des Programms ist ein auf Biowissenschaften zugeschnittenes Modell, das über eine eigene Arbeitsumgebung Fachwerkzeuge etwa für Genomik oder medizinische Chemie ansteuert. Weil sich damit heikle biologische Fragen bearbeiten lassen, prüft OpenAI Institution, Laborleitung und Einsatzzweck vorab und beobachtet die Nutzung danach weiter. Die Plätze sind befristet, eine Programmierschnittstelle fehlt. Forschungsdaten sollen laut Anbieter nicht ins Training fließen.",
-   "also": [
-    {
-     "source": "OpenAI",
-     "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
-    }
-   ]
+   "kontext": "Kern des Programms ist ein auf Biowissenschaften zugeschnittenes Modell, das über eine eigene Arbeitsumgebung Fachwerkzeuge etwa für Genomik oder medizinische Chemie ansteuert. Weil sich damit heikle biologische Fragen bearbeiten lassen, prüft OpenAI Institution, Laborleitung und Einsatzzweck vorab und beobachtet die Nutzung danach weiter. Die Plätze sind befristet, eine Programmierschnittstelle fehlt. Forschungsdaten sollen laut Anbieter nicht ins Training fließen."
   },
   {
    "id": "97e3bc64b6c1",
@@ -748,6 +769,29 @@
    "dup_of": "3c203c9854b8"
   },
   {
+   "id": "15695fcbcbe0",
+   "date": "2026-10-16",
+   "published": "2026-10-16T13:03+02:00",
+   "headline": "McKinsey prüft Bewerbende per KI-Chatbot im simulierten Kundengespräch",
+   "summary": "Die Unternehmensberatung McKinsey nutzt in Nordamerika KI-gestützte Chatbots, um Kandidatinnen und Kandidaten in nachgestellten Kundengesprächen zu bewerten. Damit verlagert sich ein Teil der Eignungsprüfung im Bewerbungsverfahren auf automatisierte Dialogsysteme. Der Fall zeigt, wie KI zunehmend in anspruchsvolle Auswahlprozesse großer Arbeitgeber einzieht.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "recruiting",
+    "chatbot",
+    "mckinsey",
+    "personalauswahl"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-19T00:29:25+02:00",
+   "quelle_titel": "KI im Recruiting: Wie McKinsey Bewerbende mit Chatbots testet",
+   "url": "https://www.heise.de/news/KI-im-Recruiting-Wie-McKinsey-Bewerbende-mit-Chatbots-testet-11490750.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Grundlage ist ein Bericht des Wall Street Journal. Seit Herbst 2024 treten Bewerbende in nordamerikanischen McKinsey-Büros vor Ort zu einem rund zehnminütigen Dialog an, in dem die KI eine Kundenrolle spielt, etwa eine Bürgermeisterin mit Standortfrage. Menschen im Raum beobachten und bewerten, das System selbst urteilt nicht. Geprüft wird vor allem, ob Kandidaten zuhören und auf neue Hinweise reagieren. Betroffen sind zunächst Studierende für die Business-Analyse."
+  },
+  {
    "id": "7bc3780d7fa0",
    "date": "2026-10-16",
    "published": "2026-10-16T13:10+02:00",
@@ -789,7 +833,7 @@
    "added": "2026-10-17T17:19:23+02:00",
    "quelle_titel": "Apple und Meta kooperieren bei KI: Lokale Modelle fordern mehrere High-End-Macs",
    "url": "https://www.golem.de/news/apple-und-meta-kooperieren-bei-ki-lokale-modelle-fordern-mehrere-high-end-macs-2610-214188.html",
-   "dup_of": "84488d8d34b4"
+   "dup_of": "c3c06369eaf0"
   },
   {
    "id": "53177da0dc3f",
@@ -839,7 +883,67 @@
    "added": "2026-10-17T17:18:23+02:00",
    "quelle_titel": "Bundesregierung plant Kooperation mit US-Chiphersteller Nvidia",
    "url": "https://www.heise.de/news/Bundesregierung-plant-Kooperation-mit-US-Chiphersteller-Nvidia-11490926.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "4837bc0e4424"
+   "also": [
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/technologie/nvidia-bundesregierung-ki-100.html"
+    },
+    {
+     "source": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/bericht-bundesregierung-vor-ki-partnerschaft-mit-nvidia-104.html"
+    },
+    {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/2026-10/kooperation-nvidia-bundesregierung-ki-technologie-abhaengigkeit",
+     "paywall": true
+    },
+    {
+     "source": "Spiegel",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLUVZb2MxdXU0ejB5Nl82VEpja2ZZUWJlTk1ZQk9sbk1hc3p6V0RwRWxGdi1MWXRGWkcyMlRWTHJoWGNJc09UUE9FNjJpeFFuQWJDODNQQ0wwdFZrQW91X0JmeWk2blZYLTVwdzdIelJXZmw4ZnFmU1VySjNlVG9tdzhXaDF6STZQWERwRE9PQUl1UnBvb2Z1NTRBaGVEOVdvRTh5RGNBN1dtaGNjWnZSbktiM1p1NXJ4QjZUTXg0TkVESkVHcFNuUlI0cTRFeUllcDFuU05qaEw2S0FWYUNCVXBGcHlUT19hLTgxSzVHakVlcXJ2?oc=5",
+     "paywall": true
+    },
+    {
+     "source": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdHpmUEM0bUFLenR0cnRSbUVnc2R2eWlsVUlielFieEpxRkFOX2dWaFBXU1lIWno3NUhQSm9mSmhQZ3dOWmpWVWFqUTRKbHpIRUJnMVhnQ2lmTTZSRE5qOGg3MWdKR2xERmllcHBtSXN0TjF5VjRhTzM4OTlwRk9sZ2pVVUg3VmZBcy1hVEJZNXNlV1A1cWlvcmpDbUxvQTAwSFFzTkI3aG1pemZDaGxsMUVUeTc3aGpvc1RPWg?oc=5"
+    },
+    {
+     "source": "Wallstreet Online",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdV9aSVFvdDhkbkp2YllnOUdPMndMX2Q0Uk04Q3hRNGlNc0cxX3pLckhRelJ4ZXFsNUVVQ0U5SjNrSzZRc3oxUUUxNkNuZ3FudDFEQ3NFVi0zMnZNbXVMbWZiWk9DUmRaekgwNndvNTNLaG41eE1taDlyRnhJWWhMOS10NXI3d3NQZkNlNjdnSGYzWl83STdmcDV3UlllWS1aYzJvVXUzakEwaGEyRXdVSF9zdE11Qk5Iamx1VHgtVWJaUlMxMERVUlVKV245YzRCeWU1dW8yOEQ?oc=5"
+    },
+    {
+     "source": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTWNrTXBvUGdTVUFmcUl4WmVZYjVpNTFUbXBseFBlX01ydzNtdXJ2aHBuZU4tUFBneXlZalB3OGJwYlpLQzRmWlBIODVvUnJYcHBtTXdXX3B0YzQtUjQwRzQ2ZHVMV0ItemtvU1FGelgzb0RMZUU4TXZTLTZTWG9Fc2RRZGRCbWhSOHV1R3plYnYxdkdtS0Q4MXJqb3hoZ0xmWTZhYi1mem9WNnZFMWM1N2I1VQ?oc=5"
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/it-internet/technologie-nvidia-chef-wird-in-berlin-wie-ein-rockstar-empfangen/100262592.html",
+     "paywall": true
+    }
+   ],
+   "kontext": "Hintergrund ist ein Bericht des Handelsblatts, den Regierungskreise bestätigten. Im Kern geht es um sogenannte physische KI, also Roboter, autonome Fahrzeuge und automatisierte Anlagen, dazu um Modelle für die Fabrik der Zukunft. Unternehmen wie Siemens sollen mitwirken, der Bund will einen dreistelligen Millionenbetrag beisteuern. Kanzler Merz eröffnet den Gipfel, der private Investitionen ins Land holen soll, gemeinsam mit Nvidia-Chef Huang."
+  },
+  {
+   "id": "c63bd0615b1a",
+   "date": "2026-10-16",
+   "published": "2026-10-16T14:30+02:00",
+   "headline": "Nvidia verhandelt offenbar über Millionengeschäft mit der Bundesregierung",
+   "summary": "Einem Bericht zufolge plant Nvidia einen Deal in Millionenhöhe mit der deutschen Bundesregierung. Damit rückt der Aufbau staatlich genutzter KI-Rechenkapazitäten in Deutschland weiter in den Fokus.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "nvidia",
+    "bundesregierung",
+    "ki-infrastruktur",
+    "deutschland"
+   ],
+   "source": "Wallstreet Online",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-19T00:29:15+02:00",
+   "quelle_titel": "KI-Hammer für Deutschland: Nvidia plant Millionen-Deal mit Bundesregierung",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdV9aSVFvdDhkbkp2YllnOUdPMndMX2Q0Uk04Q3hRNGlNc0cxX3pLckhRelJ4ZXFsNUVVQ0U5SjNrSzZRc3oxUUUxNkNuZ3FudDFEQ3NFVi0zMnZNbXVMbWZiWk9DUmRaekgwNndvNTNLaG41eE1taDlyRnhJWWhMOS10NXI3d3NQZkNlNjdnSGYzWl83STdmcDV3UlllWS1aYzJvVXUzakEwaGEyRXdVSF9zdE11Qk5Iamx1VHgtVWJaUlMxMERVUlVKV245YzRCeWU1dW8yOEQ?oc=5",
+   "dup_of": "778a3beda785"
   },
   {
    "id": "05ab37eab1e1",
@@ -883,7 +987,7 @@
    "added": "2026-10-17T10:50:54+02:00",
    "quelle_titel": "KI: Bundesregierung plant Kooperation mit US-Chiphersteller Nvidia",
    "url": "https://www.tagesschau.de/wirtschaft/technologie/nvidia-bundesregierung-ki-100.html",
-   "dup_of": "4837bc0e4424"
+   "dup_of": "778a3beda785"
   },
   {
    "id": "120568778050",
@@ -951,7 +1055,7 @@
    "paywall": true,
    "quelle_titel": "Kooperation mit Nvidia: Rein in die Abhängigkeit",
    "url": "https://www.zeit.de/digital/2026-10/kooperation-nvidia-bundesregierung-ki-technologie-abhaengigkeit",
-   "dup_of": "4837bc0e4424"
+   "dup_of": "778a3beda785"
   },
   {
    "id": "3c203c9854b8",
@@ -978,6 +1082,10 @@
     {
      "source": "The Verge AI",
      "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/meta-s-new-terms-cover-website-scraping/"
     },
     {
      "source": "tech-insider.org",
@@ -1103,7 +1211,7 @@
    "praxis": true,
    "quelle_titel": "I Tested NVIDIA Nemotron Bolt and Super VL. Here’s Where Each Shines.",
    "url": "https://www.theneuron.ai/news/nvidia-nemotron-3-5-bolt-super-vl-review/",
-   "dup_of": "150128c3e861"
+   "kontext": "Der Bericht stammt aus einem Selbstversuch des Newsletters The Neuron, der beide Modelle denselben Aufgaben unterzog. Bemerkenswert ist vor allem, dass die lokale Variante mit insgesamt rund 74 Milliarden Parametern flüssig auf einem gewöhnlichen Notebook arbeitet. Damit rückt Verarbeitung ohne Cloudanbindung in Reichweite, während das größere Modell seine Stärken in gehosteten Recherche- und Programmieraufgaben ausspielt. Der Autor nennt zugleich Punkte, die er noch genauer prüfen will."
   },
   {
    "id": "e86f92efb265",
@@ -1332,7 +1440,7 @@
    "added": "2026-10-16T09:15:02+02:00",
    "quelle_titel": "Meta’s Muse Spark Open Runs on Macs. Can Local AI Justify the Cost?",
    "url": "https://www.theneuron.ai/news/meta-muse-spark-open-macs-local-ai-cost/",
-   "dup_of": "84488d8d34b4"
+   "dup_of": "c3c06369eaf0"
   },
   {
    "id": "996657e2b2f0",
@@ -1591,7 +1699,13 @@
    "added": "2026-10-17T12:14:53+02:00",
    "quelle_titel": "Linux-Kernel: Maintainer wollen „Assisted-by“-Tag streichen",
    "url": "https://www.heise.de/news/Linux-Kennzeichnung-von-KI-Code-soll-entfallen-auch-Torvalds-nutzt-LLMs-11490345.html",
-   "dup_of": "1b7ae5a76b87"
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Linux-Kennzeichnung-von-KI-Code-soll-entfallen-auch-Torvalds-nutzt-LLMs-11490345.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ],
+   "kontext": "Eingeführt wurde die Kennzeichnung erst vor wenigen Monaten, angestoßen von Nvidia-Entwickler Sasha Levin, der nun selbst deren Abschaffung beantragt hat. Begründung: Nur ein Bruchteil der Commits trägt das Tag, obwohl KI beim Programmieren deutlich häufiger im Spiel ist. Ein fehlender Hinweis sage daher nichts über die Entstehung eines Patches aus. Torvalds und Greg Kroah-Hartman stützen die Änderung, auf der Mailingliste bleiben die Meinungen geteilt."
   },
   {
    "id": "1b7ae5a76b87",
@@ -1613,13 +1727,8 @@
    "added": "2026-10-18T00:19:30+02:00",
    "quelle_titel": "Linux-Kernel: Maintainer wollen „Assisted-by“-Tag streichen",
    "url": "https://www.heise.de/news/Linux-Kennzeichnung-von-KI-Code-soll-entfallen-auch-Torvalds-nutzt-LLMs-11490345.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "also": [
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Linux-Kennzeichnung-von-KI-Code-soll-entfallen-auch-Torvalds-nutzt-LLMs-11490345.html"
-    }
-   ],
-   "kontext": "Die Kennzeichnung stammt aus der erst kürzlich eingeführten Richtlinie für KI-Coding-Assistenten, angestoßen von Nvidia-Entwickler Sasha Levin. Derselbe Entwickler beantragt nun die Streichung, weil nur etwa jeder zehnte Commit den Hinweis trägt, während KI faktisch viel breiter eingesetzt wird. Beim Maintainers Summit in Prag stimmte eine Mehrheit zu, Torvalds und Greg Kroah-Hartman stützen den Schritt. Auf der Mailingliste bleibt die Sache umstritten."
+   "kontext": "Die Kennzeichnung stammt aus der erst kürzlich eingeführten Richtlinie für KI-Coding-Assistenten, angestoßen von Nvidia-Entwickler Sasha Levin. Derselbe Entwickler beantragt nun die Streichung, weil nur etwa jeder zehnte Commit den Hinweis trägt, während KI faktisch viel breiter eingesetzt wird. Beim Maintainers Summit in Prag stimmte eine Mehrheit zu, Torvalds und Greg Kroah-Hartman stützen den Schritt. Auf der Mailingliste bleibt die Sache umstritten.",
+   "dup_of": "93c00d5fc59d"
   },
   {
    "id": "3dc1d77769cb",
