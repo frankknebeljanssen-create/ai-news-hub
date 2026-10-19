@@ -1,14 +1,26 @@
 {
  "date": "2026-10-19",
- "generated_at": "2026-10-19T04:26:45+02:00",
+ "generated_at": "2026-10-19T06:47:35+02:00",
  "overview": [
   {
    "id": "8d2d4594441f",
-   "text": "Anthropic will fünf Prozent seiner Anteile in einen Gemeinwohlfonds einbringen, um von KI betroffene Beschäftigte und soziale Projekte zu unterstützen."
+   "text": "Anthropic will fünf Prozent der eigenen Anteile in einen Gemeinwohl-Fonds geben, um KI-Folgen für Beschäftigte abzufedern; Aktionäre müssen zustimmen."
+  },
+  {
+   "id": "19e55219cdf2",
+   "text": "Der Handelskonzern Otto steuert seine Marktbearbeitung künftig mit dem KI-Agenten GAIA und baut dafür seine Datenarchitektur grundlegend um."
+  },
+  {
+   "id": "b954160c314d",
+   "text": "In Deutschland stockt der Bau neuer KI-Rechenzentren, während mehrere Bundesländer zugleich mehr Befugnisse für den Verfassungsschutz fordern."
+  },
+  {
+   "id": "060789811397",
+   "text": "Ein Praxisbericht zeigt, wie sich die Inferenz auf vorhandenen GPUs deutlich beschleunigen lässt, statt teure H100-Beschleuniger nachzukaufen."
   },
   {
    "id": "65856fbe93cc",
-   "text": "Angreifer drehten per Fernzugriff die Kühlung französischer Supermärkte hoch, was Lücken in der Versorgungsinfrastruktur statt KI-Risiken offenlegt."
+   "text": "Angreifer haben per Fernzugriff die Kühlung französischer Supermärkte hochgeregelt und damit Schwachstellen der Lebensmittelversorgung offengelegt."
   }
  ],
  "items": [
@@ -34,13 +46,58 @@
    "paywall": true,
    "quelle_titel": "KI: Anthropic will fünf Prozent seiner Aktien in Gemeinwohl-Fonds stecken",
    "url": "https://www.handelsblatt.com/technik/ki/ki-anthropic-will-fuenf-prozent-seiner-aktien-in-gemeinwohl-fonds-stecken/100263117.html",
+   "kontext": "Hinter dem Vorhaben steht eine firmeneigene Einheit, in die weitere Anteile fließen können, wenn der Unternehmenswert deutlich steigt. Denkbar sind laut Anthropic Zuwendungen an etablierte Hilfsorganisationen oder direkte Zahlungen an betroffene Gruppen. Firmenchef Dario Amodei spricht von einer Vertrauenskrise der Branche. Schon zuvor hatte Anthropic Geld für Forschung zu KI-Folgen am Arbeitsmarkt zugesagt. Wie der Fonds gesteuert wird und wer über die Mittel entscheidet, bleibt zunächst offen.",
    "also": [
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
     }
+   ]
+  },
+  {
+   "id": "060789811397",
+   "date": "2026-10-19",
+   "published": "2026-10-19T06:00+02:00",
+   "headline": "Mehr Leistung aus vorhandenen GPUs statt teurer Hardwarekäufe",
+   "summary": "Der Beitrag schildert am Beispiel eines global tätigen Einzelhändlers, wie ein 70B-Modell in der Produktsuche enorme GPU-Kosten verursachte. Obwohl das Unternehmen die Zahl der H100-Beschleuniger von 24 auf 48 verdoppelte, brachen die Antwortzeiten unter Lastspitzen im Weihnachtsgeschäft weiter ein. Der Autor zeigt daraufhin, wie sich die Effizienz der Inferenz ohne zusätzliche Investitionen deutlich steigern lässt.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "inferenz",
+    "gpu",
+    "kostenoptimierung",
+    "skalierung"
    ],
-   "kontext": "Hinter dem Vorhaben steht eine firmeneigene Einheit, in die weitere Anteile fließen können, wenn der Unternehmenswert deutlich steigt. Denkbar sind laut Anthropic Zuwendungen an etablierte Hilfsorganisationen oder direkte Zahlungen an betroffene Gruppen. Firmenchef Dario Amodei spricht von einer Vertrauenskrise der Branche. Schon zuvor hatte Anthropic Geld für Forschung zu KI-Folgen am Arbeitsmarkt zugesagt. Wie der Fonds gesteuert wird und wer über die Mittel entscheidet, bleibt zunächst offen."
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-10-19T06:30:28+02:00",
+   "praxis": true,
+   "quelle_titel": "GPU-Effizienz verdoppeln, ohne Zusatzkosten",
+   "url": "https://www.computerwoche.de/article/4163759/gpu-effizienz-verdoppeln-ohne-zusatzkosten.html"
+  },
+  {
+   "id": "19e55219cdf2",
+   "date": "2026-10-19",
+   "published": "2026-10-19T06:13+02:00",
+   "headline": "Otto ersetzt klassische Dashboards durch einen eigenen KI-Agenten",
+   "summary": "Der Handelskonzern Otto setzt mit GAIA einen KI-Agenten ein, der Datenströme von über 13 Millionen Kundinnen und Kunden sowie rund 19 Millionen Artikeln in Echtzeit auswertet. CIO Michael Müller-Wünsch beschreibt im Interview, dass dahinter kein isoliertes Agentenprojekt steckt, sondern ein grundlegender Umbau der Datenarchitektur auf Basis von Snowflake. Statt auf Business Intelligence und Dashboards zu setzen, soll die Marktbearbeitung künftig direkt agentenbasiert gesteuert werden.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "ki-agenten",
+    "otto",
+    "snowflake",
+    "datenstrategie"
+   ],
+   "source": "CIO",
+   "source_id": "cio",
+   "added": "2026-10-19T06:30:28+02:00",
+   "quelle_titel": "Schluss mit BI und Dashboards, Otto-CIO MüWü setzt auf KI-Agenten mit Snowflake",
+   "url": "https://www.cio.de/article/4236376/schluss-mit-bi-und-dashboards-otto-cio-muewue-setzt-auf-ki-agenten-mit-snowflake.html",
+   "kontext": "Dashboards zeigen vor allem, was war. Ein Agent soll dagegen selbst Muster erkennen und Entscheidungen anstoßen. Damit das trägt, musste Otto zuerst die Datenbasis vereinheitlichen, weshalb der Plattformumbau die eigentliche Arbeit ist. Im Handel zählt das besonders, weil Sortiment, Nachfrage und Preise sich ständig verschieben. Otto behandelt Agenten damit nicht als Pilotprojekt, sondern als künftiges Betriebsmodell."
   },
   {
    "id": "65856fbe93cc",
@@ -64,6 +121,28 @@
    "paywall": true,
    "quelle_titel": "Cyberattack on French supermarkets tells us more about food security than AI safety",
    "url": "https://www.politico.eu/article/cyberattack-french-supermarkets-food-security-ai-safety/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+  },
+  {
+   "id": "b954160c314d",
+   "date": "2026-10-19",
+   "published": "2026-10-19T06:15+02:00",
+   "headline": "Rechenzentren unter Druck: Was den deutschen KI-Ausbau derzeit bremst",
+   "summary": "Die Nachrichtenübersicht bündelt mehrere Themen rund um Technik und Politik in Deutschland. Im Mittelpunkt stehen Hindernisse beim Bau neuer KI-Rechenzentren sowie der Vorstoß mehrerer Bundesländer, die Befugnisse des Verfassungsschutzes auszuweiten. Außerdem geht es um den Widerstand des Grüffelo-Erfinders gegen KI-generierte Nachahmungen seiner Werke, eine Initiative für E20-Kraftstoff und die knappe Verfügbarkeit der neuen iPhones.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "rechenzentren",
+    "infrastruktur",
+    "urheberrecht",
+    "überwachung"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-19T06:30:28+02:00",
+   "quelle_titel": "Montag: Hürden für neue KI-Rechenzentren, Forderung nach mehr Verfassungsschutz",
+   "url": "https://www.heise.de/news/Montag-Huerden-fuer-neue-KI-Rechenzentren-Forderung-nach-mehr-Verfassungsschutz-11491973.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Der Rückblick zeigt, dass die Engpässe vor allem in den USA liegen: Dort fließt trotz Rekordinvestitionen das Kapital langsamer, und Kommunen können Bauvorhaben mit eigenen Auflagen ausbremsen. Dutzende große Projekte wurden in diesem Jahr verschoben oder gestoppt. Parallel will der Bundesrat dem Verfassungsschutz Zugriff auf das Fahrerlaubnisregister geben, weil Mietwagen und Carsharing die Beobachtung erschweren. Und nach den Klagen deutscher Verlage erwägt auch der Grüffelo-Schöpfer juristische Schritte gegen KI-Nachahmungen."
   }
  ]
 }
