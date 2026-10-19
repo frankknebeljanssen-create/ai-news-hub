@@ -1,7 +1,60 @@
 {
- "updated": "2026-10-19T03:23:24+02:00",
- "count": 1557,
+ "updated": "2026-10-19T04:26:45+02:00",
+ "count": 1559,
  "items": [
+  {
+   "id": "65856fbe93cc",
+   "date": "2026-10-19",
+   "published": "2026-10-19T04:00+02:00",
+   "headline": "Hackerangriff auf Supermarktkühlung zeigt Lücken bei Lebensmittelsicherheit",
+   "summary": "Unbekannte Angreifer haben per Fernzugriff die Temperatur von Kühlanlagen in französischen Supermärkten hochgedreht. Die Motive bleiben unklar, doch Fachleute betonen, dass die eingesetzten Methoden technisch bekannt und keineswegs futuristisch sind. Der Fall verweist eher auf Schwachstellen in der Versorgungsinfrastruktur als auf Risiken durch künstliche Intelligenz.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "cybersicherheit",
+    "kritische infrastruktur",
+    "frankreich",
+    "lebensmittelhandel"
+   ],
+   "source": "Politico Europe",
+   "source_id": "politico-eu",
+   "added": "2026-10-19T04:25:19+02:00",
+   "kurios": "Angreifer drehten aus der Ferne die Kühlung ganzer Supermärkte hoch.",
+   "paywall": true,
+   "quelle_titel": "Cyberattack on French supermarkets tells us more about food security than AI safety",
+   "url": "https://www.politico.eu/article/cyberattack-french-supermarkets-food-security-ai-safety/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+  },
+  {
+   "id": "8d2d4594441f",
+   "date": "2026-10-19",
+   "published": "2026-10-19T03:37+02:00",
+   "headline": "Anthropic plant Gemeinwohl-Fonds mit fünf Prozent der eigenen Anteile",
+   "summary": "Der KI-Anbieter Anthropic will fünf Prozent seiner Aktien in einen Fonds für gemeinnützige Zwecke einbringen. Damit sollen Beschäftigte abgefedert werden, die von den Umbrüchen durch künstliche Intelligenz betroffen sind, und soziale Projekte eine Finanzierung erhalten. Die Anteilseigner müssen dem Vorhaben noch zustimmen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "anthropic",
+    "gemeinwohl",
+    "arbeitsmarkt",
+    "finanzierung"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-10-19T04:25:19+02:00",
+   "paywall": true,
+   "quelle_titel": "KI: Anthropic will fünf Prozent seiner Aktien in Gemeinwohl-Fonds stecken",
+   "url": "https://www.handelsblatt.com/technik/ki/ki-anthropic-will-fuenf-prozent-seiner-aktien-in-gemeinwohl-fonds-stecken/100263117.html",
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+    }
+   ],
+   "kontext": "Hinter dem Vorhaben steht eine firmeneigene Einheit, in die weitere Anteile fließen können, wenn der Unternehmenswert deutlich steigt. Denkbar sind laut Anthropic Zuwendungen an etablierte Hilfsorganisationen oder direkte Zahlungen an betroffene Gruppen. Firmenchef Dario Amodei spricht von einer Vertrauenskrise der Branche. Schon zuvor hatte Anthropic Geld für Forschung zu KI-Folgen am Arbeitsmarkt zugesagt. Wie der Fonds gesteuert wird und wer über die Mittel entscheidet, bleibt zunächst offen."
+  },
   {
    "id": "efeb3746fdd3",
    "date": "2026-10-18",
@@ -23,12 +76,7 @@
    "quelle_titel": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
    "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
    "kontext": "Anthropic legt den Fonds als eigene Tochtergesellschaft an, nicht als Stiftung, um verschiedene Formen des Gebens offenzuhalten; Lobbyarbeit und politische Spenden sind ausgeschlossen. Wächst der Firmenwert deutlich, kann der Anteil weiter steigen. Zusammen mit früheren Zusagen der Gründer und einem Mitarbeiterprogramm wäre rund ein Fünftel der Anteile dem Gemeinwohl gewidmet. Erste Ideen reichen von Spenden an Hilfsorganisationen bis zu direkten Zahlungen an Betroffene, etwa bei Verwerfungen am Arbeitsmarkt.",
-   "also": [
-    {
-     "source": "Anthropic",
-     "url": "https://www.anthropic.com/news/public-benefit-fund"
-    }
-   ]
+   "dup_of": "8d2d4594441f"
   },
   {
    "id": "46c9fd47cf60",
@@ -303,13 +351,7 @@
    "added": "2026-10-19T00:27:50+02:00",
    "quelle_titel": "Anthropic stellt kaum noch Nachwuchskräfte ein, weil KI-Agenten sechsmal so viel wie Menschen arbeiten",
    "url": "https://the-decoder.de/anthropic-stellt-kaum-noch-nachwuchskraefte-ein-weil-ki-agenten-sechsmal-so-viel-wie-menschen-arbeiten/",
-   "kontext": "Die Zahlen stammen aus einer eigenen Untersuchung, in der Anthropic einräumt, als extrem KI-lastiges Softwarehaus ein Sonderfall zu sein. Intern berichten Beschäftigte, ihre Arbeit verschiebe sich vom Erledigen hin zum Beaufsichtigen vieler Claude-Instanzen, auch die Besprechungszeit nimmt zu. Ein Forscher der NATO Special Operations University warnt, dass Firmen sofort sparen, die Folgen fehlender Ausbildung aber erst ab 2030 den gesamten Arbeitsmarkt treffen.",
-   "also": [
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
-    }
-   ]
+   "kontext": "Die Zahlen stammen aus einer eigenen Untersuchung, in der Anthropic einräumt, als extrem KI-lastiges Softwarehaus ein Sonderfall zu sein. Intern berichten Beschäftigte, ihre Arbeit verschiebe sich vom Erledigen hin zum Beaufsichtigen vieler Claude-Instanzen, auch die Besprechungszeit nimmt zu. Ein Forscher der NATO Special Operations University warnt, dass Firmen sofort sparen, die Folgen fehlender Ausbildung aber erst ab 2030 den gesamten Arbeitsmarkt treffen."
   },
   {
    "id": "f80e12350015",
@@ -495,7 +537,17 @@
    "paywall": true,
    "quelle_titel": "Außenhandel: China plant neue Exportkontrollen für Schlüsseltechnologien",
    "url": "https://www.wiwo.de/politik/ausland/aussenhandel-china-plant-neue-exportkontrollen-fuer-schluesseltechnologien/100262841.html",
-   "dup_of": "cb5eccf4d5b9"
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/ki-und-solar-china-plant-neue-exportkontrollen-fuer-schluesseltechnologien-2610-214223.html"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-aussenhandel-china-plant-neue-exportkontrollen-fur-schlusseltechnologien-16173980.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "cb5eccf4d5b9",
@@ -517,18 +569,7 @@
    "added": "2026-10-19T00:28:34+02:00",
    "quelle_titel": "KI und Solar: China plant neue Exportkontrollen für Schlüsseltechnologien",
    "url": "https://www.golem.de/news/ki-und-solar-china-plant-neue-exportkontrollen-fuer-schluesseltechnologien-2610-214223.html",
-   "also": [
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-aussenhandel-china-plant-neue-exportkontrollen-fur-schlusseltechnologien-16173980.html",
-     "paywall": true
-    },
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/politik/ausland/aussenhandel-china-plant-neue-exportkontrollen-fuer-schluesseltechnologien/100262841.html",
-     "paywall": true
-    }
-   ]
+   "dup_of": "380dade6254f"
   },
   {
    "id": "9c5622c3a48b",
@@ -746,7 +787,7 @@
    "paywall": true,
    "quelle_titel": "Außenhandel: China plant neue Exportkontrollen für Schlüsseltechnologien",
    "url": "https://www.tagesspiegel.de/wirtschaft/dpa-aussenhandel-china-plant-neue-exportkontrollen-fur-schlusseltechnologien-16173980.html",
-   "dup_of": "cb5eccf4d5b9"
+   "dup_of": "380dade6254f"
   },
   {
    "id": "2ce7f4d2eda8",
@@ -882,13 +923,7 @@
    "added": "2026-10-19T01:47:01+02:00",
    "quelle_titel": "Doctolib holt NVIDIA als Investor für den Ausbau europäischer Gesundheits-KI",
    "url": "https://www.it-daily.net/shortnews/doctolib-nvidia-gesundheits-ki",
-   "kontext": "Doctolib nutzt bereits seit rund einem Jahr Technik von Nvidia, nun steigt der Chipkonzern als Minderheitsaktionär ein; finanzielle Details bleiben offen. Die Plattform betreibt ein eigenes Spracherkennungsmodell für medizinische Fachsprache und einen Assistenten, der Arztbesuche dokumentiert. Weitere Werkzeuge sollen bei Abrechnung, Verwaltung und später auch bei klinischen Entscheidungen helfen. Der Einstieg zielt vor allem darauf, Fachkräfte zu gewinnen und das Modelltraining in Europa zu beschleunigen.",
-   "also": [
-    {
-     "source": "RP Online",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYWdma05UQzl2SS1kRGFkUm5GcWlQSUJDbjRtMTlERmJBb1BFRTBfYVRvWXhTNG92ZDU3RHM4LUdaYTU0b29uaDlBbHY3cWdaZmZoX2ZwZU5ucGZmRE5weXZzclJsS2o1U00wa3d4eU1DSm9jRkFib3o3SmxfanhfSFlHYTRNOGkzbzEzS1NSQ2ZuenkxSHZ0ZjBrZnNLTFFJV2NFWllvb0dXbEpYOUNtTw?oc=5"
-    }
-   ]
+   "kontext": "Doctolib nutzt bereits seit rund einem Jahr Technik von Nvidia, nun steigt der Chipkonzern als Minderheitsaktionär ein; finanzielle Details bleiben offen. Die Plattform betreibt ein eigenes Spracherkennungsmodell für medizinische Fachsprache und einen Assistenten, der Arztbesuche dokumentiert. Weitere Werkzeuge sollen bei Abrechnung, Verwaltung und später auch bei klinischen Entscheidungen helfen. Der Einstieg zielt vor allem darauf, Fachkräfte zu gewinnen und das Modelltraining in Europa zu beschleunigen."
   },
   {
    "id": "66d5720ec836",
@@ -908,8 +943,7 @@
    "source_id": "anthropic",
    "added": "2026-10-19T00:29:15+02:00",
    "quelle_titel": "Investing in the public benefit",
-   "url": "https://www.anthropic.com/news/public-benefit-fund",
-   "dup_of": "efeb3746fdd3"
+   "url": "https://www.anthropic.com/news/public-benefit-fund"
   },
   {
    "id": "c745e4884251",
