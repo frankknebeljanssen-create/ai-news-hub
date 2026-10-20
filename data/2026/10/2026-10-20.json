@@ -1,30 +1,34 @@
 {
  "date": "2026-10-20",
- "generated_at": "2026-10-20T04:20:05+02:00",
+ "generated_at": "2026-10-20T05:25:42+02:00",
  "overview": [
   {
    "id": "c86664b601af",
-   "text": "Anthropic verhandelt Berichten zufolge mit Nscale über einen zweiten Rechenkapazitätsdeal, der den Bedarf des KI-Anbieters binnen Monaten verdoppeln würde."
+   "text": "Anthropic verhandelt laut Berichten mit Nscale über einen zweiten Rechenkapazitätsvertrag in Milliardenhöhe und würde damit seinen Bedarf verdoppeln."
   },
   {
    "id": "f9d88b0343ff",
-   "text": "Microsoft nutzt intern mehr als hundert KI-Agenten und verkürzt damit die Durchlaufzeiten eigener Prozesse um rund 75 Prozent."
-  },
-  {
-   "id": "a69ad5cfaee4",
-   "text": "Siemens-Personalvorständin Wiese warnt davor, Einstiegsjobs durch KI zu ersetzen, weil Berufsanfängern sonst der Aufbau grundlegender Fähigkeiten fehlt."
+   "text": "Microsoft lässt nach eigenen Angaben über hundert KI-Agenten in internen Prozessen arbeiten und verkürzt Durchlaufzeiten dadurch um rund 75 Prozent."
   },
   {
    "id": "0e19bec78e36",
-   "text": "Microsoft stuft KI-Agenten als Insider-Risiko ein und rät Unternehmen, Modellen an der Leistungsgrenze nicht blind zu vertrauen."
+   "text": "Microsoft stuft KI-Agenten als Risiko ähnlich wie Insider ein und warnt besonders vor Tools, die Beschäftigte außerhalb kontrollierter Systeme nutzen."
+  },
+  {
+   "id": "a69ad5cfaee4",
+   "text": "Siemens-Personalvorständin Wiese warnt, dass wegfallende Einstiegsjobs jungen Beschäftigten den Kompetenzaufbau nehmen und später Fachkräfte fehlen."
+  },
+  {
+   "id": "bd82adcf17ac",
+   "text": "Inceptions Diffusionsmodell Mercury 3 überzeugt im Praxistest mit sehr hohem Tempo und erreicht fast das Niveau kleinerer Spitzenmodelle."
   },
   {
    "id": "e9f6e03adc36",
-   "text": "New Yorks Bürgermeister Mamdani fordert eigene KI-Schutzregeln für die Stadt und kritisiert die Zurückhaltung der US-Bundespolitik."
+   "text": "New Yorks Bürgermeister Mamdani fordert eigene KI-Schutzregeln für die Stadt, weil die US-Bundespolitik ihre Verantwortung nicht wahrnehme."
   },
   {
-   "id": "2eba6fdc38ff",
-   "text": "Hugging Face warnt, dass eingebettete Prüfsysteme keine schnelle Lösung für faire Modellvergleiche sind und Ranglisten allein nicht genügen."
+   "id": "5e2fce1fd203",
+   "text": "Infineon hat die Sieger seiner Startup Challenge für humanoide Robotik gekürt und bindet damit junge Firmen an seine Halbleitertechnologien."
   }
  ],
  "items": [
@@ -95,6 +99,30 @@
    "added": "2026-10-20T03:11:31+02:00",
    "quelle_titel": "Microsofts Frontier Playbook: Über 100 KI-Agenten verkürzen Abläufe um 75 Prozent",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaUo5Nkx5YXNXNHQxMGJkZVNfQ29HdWVEWUh3S192Vnk2bzZBcjJhVGhCZGxqb3FOSWpySFNiXzM3bGV3TUZBa2s5RVQycDBPSHUyNWVVMnU0UUxHSkZQTHBNREt0bklnbTdIVWNLTGdKcVV1aHhjS3dXWjMyWG40QWUyVzRpZVpJVTg1cEUtX3BYSlloMUJ5RjQwUzVXNFgyOXVsZW9XVzRUcnkxR1dJN2tCdWtpWjRVNVNaU0kwejJVMkxwXzRpcFhvRVo?oc=5"
+  },
+  {
+   "id": "bd82adcf17ac",
+   "date": "2026-10-20",
+   "published": "2026-10-20T03:33+02:00",
+   "headline": "Diffusionsmodell Mercury 3 im Praxistest: hohes Tempo bei solider Qualität",
+   "summary": "Inception hat mit Mercury 3 ein neues Sprachmodell vorgestellt, das auf einem Diffusionsansatz statt der üblichen Token für Token Generierung beruht. Ein Praxistest kommt zu dem Ergebnis, dass das Modell sehr schnell arbeitet und dabei an die Leistung kleinerer aktueller Spitzenmodelle herankommt. Damit rückt eine Architektur in den Blick, die bisher eher als Nebenschauplatz galt.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "mercury 3",
+    "inception",
+    "diffusionsmodelle",
+    "sprachmodelle",
+    "performance"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-20T05:22:14+02:00",
+   "praxis": true,
+   "quelle_titel": "I Tested Mercury 3. Diffusion Language Models Just Got Serious.",
+   "url": "https://www.theneuron.ai/news/mercury-3-review-diffusion-language-models/",
+   "kontext": "Hinter Mercury 3 steht Inception Labs, das konsequent auf Diffusion setzt statt auf die übliche Wort für Wort Erzeugung. Der Autor des Tests verfolgt diesen Ansatz seit über einem Jahr und sieht ihn nun als ernst zu nehmende Alternative. Wichtig ist dabei, dass das hohe Tempo nicht zulasten jener Qualität geht, die man von schnellen, kompakten Spitzenmodellen erwartet. Sein Fazit: Die restliche Branche sollte genauer hinsehen."
   },
   {
    "id": "a69ad5cfaee4",
@@ -191,6 +219,28 @@
    "quelle_titel": "Siemens hält trotz KI an Einstiegsjobs für junge Leute fest",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOXZfQWZIenJqUFg2VFpZTzdJZmNzd2VOUWFnaDF4bHR6YWRQb2JTR0R4V3pwUktYbVBwQVMxV1N0Mm9HalNpRk5lUWdHVnFtTHJVdTlxWEJwZ000elhZMHBHNHBVWDA4WU82ejYwMWhOd1RtWTVHMDFVZWt5ZkJELWo3VE5KaXNBSWtfVjBkRWFYYTI0bTlvVzBIRXNxa2V2Z1FpTmRON1lWSUFi?oc=5",
    "dup_of": "a69ad5cfaee4"
+  },
+  {
+   "id": "5e2fce1fd203",
+   "date": "2026-10-20",
+   "published": "2026-10-20T04:57+02:00",
+   "headline": "Infineon kürt Gewinner seines Startup-Wettbewerbs für humanoide Roboter",
+   "summary": "Der Halbleiterhersteller Infineon hat die Entscheidung in seiner Startup Challenge rund um humanoide Robotik bekannt gegeben. Der Wettbewerb zielt darauf ab, junge Unternehmen in diesem Feld an den Konzern und seine Technologien heranzuführen.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "infineon",
+    "robotik",
+    "humanoide roboter",
+    "startups",
+    "halbleiter"
+   ],
+   "source": "Finanztrends",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-20T05:22:14+02:00",
+   "quelle_titel": "Infineon Aktie: Startup Challenge für humanoide Robotik entschieden",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVG9lTXBremFvTElKNmJhX3NqOFl4ZEtyQ1pjVFFWTkVkM0JqWDRGd1BRcGc1ODJTNWFuby1xeVRzUGI1M1YzczItV1FEYWllakktMm9GektIZnZLOGZPWWY5MGJtN282Sk81eXM3SlhoSVRmWnhhWmxTWjRMdWN3ZG4zQWZmNC1hZm5RdG1MSEJpcHcwSkdWM09Bd0s4SEtZbkFB?oc=5"
   }
  ]
 }

@@ -1,38 +1,38 @@
 {
  "date": "2026-10-19",
- "generated_at": "2026-10-20T03:14:42+02:00",
+ "generated_at": "2026-10-20T05:25:11+02:00",
  "overview": [
   {
    "id": "8565427befec",
-   "text": "Wirtschafts- und Forschungsministerium haben mit Nvidia eine Absichtserklärung für Physical AI auf Basis deutscher Industriedaten unterzeichnet."
+   "text": "Zwei Bundesministerien vereinbaren mit Nvidia eine Initiative für Physical AI, die auf deutschen Industriedaten und Fertigungswissen aufbauen soll."
   },
   {
    "id": "72f398965877",
-   "text": "Ein Angreifer kompromittierte laut Sicherheitsfirma Norforge über 100 Firmenwebsites mithilfe weitgehend selbstständig agierender KI-Agenten."
+   "text": "Ein Angreifer kompromittierte mit weitgehend selbstständig arbeitenden KI-Agenten über 100 Firmenwebsites, darunter Seiten großer Industriekonzerne."
+  },
+  {
+   "id": "bdea9adc448d",
+   "text": "Anthropic bereitet einen der größten Börsengänge der Geschichte vor und will fünf Prozent der Aktien in einen Fonds für das Gemeinwohl geben."
+  },
+  {
+   "id": "7c0ad7c18c01",
+   "text": "Laut Vercels AI Gateway Index verarbeiten offene Modelle inzwischen über 70 Prozent aller Token, und Unternehmen wechseln ihre Modelle schneller."
   },
   {
    "id": "940a9653002c",
-   "text": "Von hunderten KI-Cloud-Anbietern dürften nur wenige überleben, was Nvidia trifft, weil diese Kunden 45 Prozent des Rechenzentrumsumsatzes liefern."
+   "text": "Unter den spezialisierten KI-Cloud-Anbietern droht eine Konsolidierung, die Nvidia trifft, weil diese Kunden 45 Prozent des Rechenzentrumsumsatzes bringen."
+  },
+  {
+   "id": "19e55219cdf2",
+   "text": "Otto steuert die Marktbearbeitung künftig über den KI-Agenten GAIA und ersetzt Dashboards durch eine neu gebaute Datenarchitektur."
   },
   {
    "id": "80ea072f760a",
    "text": "Personalabteilungen übergeben immer mehr Aufgaben an KI-Agenten, doch nur acht Prozent der Unternehmen schulen ihre Beschäftigten ausreichend."
   },
   {
-   "id": "19e55219cdf2",
-   "text": "Otto steuert die Marktbearbeitung künftig mit dem KI-Agenten GAIA statt mit Dashboards und baut dafür seine Datenarchitektur grundlegend um."
-  },
-  {
-   "id": "7c0ad7c18c01",
-   "text": "Laut Vercels AI Gateway Index verarbeiten offene Modelle inzwischen mehr als 70 Prozent aller Token, und Unternehmen wechseln Modelle schneller."
-  },
-  {
    "id": "8ca004ad5daa",
-   "text": "Peking plant Exportbeschränkungen für KI- und Solartechnologie, eine Registrierungspflicht gilt bereits seit vergangener Woche."
-  },
-  {
-   "id": "92c294f17fe5",
-   "text": "Ein Forscher des Startups Goodfire legt eine neue Deutung der Vorgänge in neuronalen Netzen vor und löst damit heftige Fachdebatten aus."
+   "text": "China plant Exportbeschränkungen für KI- und Solartechnologie und hat dafür bereits eine Registrierungspflicht in Kraft gesetzt."
   }
  ],
  "items": [
@@ -189,7 +189,8 @@
    "added": "2026-10-19T06:30:28+02:00",
    "praxis": true,
    "quelle_titel": "GPU-Effizienz verdoppeln, ohne Zusatzkosten",
-   "url": "https://www.computerwoche.de/article/4163759/gpu-effizienz-verdoppeln-ohne-zusatzkosten.html"
+   "url": "https://www.computerwoche.de/article/4163759/gpu-effizienz-verdoppeln-ohne-zusatzkosten.html",
+   "kontext": "Hinter dem Beispiel steht ein Grundproblem vieler Unternehmen: Ein großes Sprachmodell im Dauerbetrieb verursacht bei jeder Anfrage laufende Kosten. Wer darauf mit zusätzlichen Beschleunigern reagiert, verschiebt den Engpass häufig nur, wie der verdoppelte H100-Bestand des Händlers zeigt. Saisonale Lastspitzen wie das Weihnachtsgeschäft machen solche Schwächen besonders sichtbar. Der Beitrag plädiert deshalb dafür, zuerst den Betrieb der Modelle zu optimieren, bevor neue Hardware beschafft wird."
   },
   {
    "id": "19e55219cdf2",
@@ -258,6 +259,7 @@
    "paywall": true,
    "quelle_titel": "Börsengang von Anthropic: Anthropic will fünf Prozent seiner Aktien in Gemeinwohlfonds stecken",
    "url": "https://www.zeit.de/digital/2026-10/anthropic-ki-public-benefit-fund-unternehmensanteile-gemeinwohl",
+   "kontext": "Hinter dem Vorhaben steht Firmenchef Dario Amodei, der seit Längerem vor sozialen Umbrüchen durch schnelle KI-Fortschritte warnt. Der Fonds entsteht jedoch nicht als steuerbefreite Stiftung, sondern als eigene Tochterfirma, womit Anthropic die Verfügung über die Mittel behält. Weitere Anteile sollen nur im Ermessen des Vorstands folgen. Gründeraktien und ein Treuhandgremium sichern zudem die Kontrolle über das Unternehmen ab, auch nach dem Börsengang.",
    "also": [
     {
      "source": "Handelsblatt Technologie",
@@ -281,8 +283,7 @@
      "source": "The Rundown AI",
      "url": "https://www.therundown.ai/articles/anthropic-designs-a-pay-package-for-the-public"
     }
-   ],
-   "kontext": "Hinter dem Vorhaben steht Firmenchef Dario Amodei, der seit Längerem vor sozialen Umbrüchen durch schnelle KI-Fortschritte warnt. Der Fonds entsteht jedoch nicht als steuerbefreite Stiftung, sondern als eigene Tochterfirma, womit Anthropic die Verfügung über die Mittel behält. Weitere Anteile sollen nur im Ermessen des Vorstands folgen. Gründeraktien und ein Treuhandgremium sichern zudem die Kontrolle über das Unternehmen ab, auch nach dem Börsengang."
+   ]
   },
   {
    "id": "d4e0de97e6da",
@@ -1074,6 +1075,28 @@
      "url": "https://huggingface.co/blog/hf-torchneuron"
     }
    ]
+  },
+  {
+   "id": "deb4e65ca45f",
+   "date": "2026-10-19",
+   "published": "2026-10-19T22:15+02:00",
+   "headline": "Nvidia-Chef kritisiert deutsches Tempo und vereinbart KI-Partnerschaft mit Merz",
+   "summary": "Nvidia-Chef Jensen Huang hat Deutschland für zu langsames Handeln bei künstlicher Intelligenz kritisiert und gleichzeitig eine Zusammenarbeit mit Bundeskanzler Merz angekündigt. Im Kern geht es um einen Pakt, der den Ausbau von KI-Kapazitäten in Deutschland beschleunigen soll.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "nvidia",
+    "jensen huang",
+    "merz",
+    "ki-standort"
+   ],
+   "source": "LEADERSNET.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-20T05:22:14+02:00",
+   "quelle_titel": "KI-Deal - Just get to work! Nvidia-Boss rügt Deutschland, und schließt KI-Pakt mit Merz",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV3QtbkJITjktd3hWYm9CWkZBOEZiZjBVOERPZk9WcVplOGJyX1RxM2VYRkY4b2pOVmJ6NTkzUUxINzM1ejlXN0pQUktFemJzTGIya0xfS2JlZFQ2elk4a2NPT0JVRGpRVk1mN2RlbUtWd2xzd2x2MjVzMXpGa3gtNm8xTjJmQzhtQ0JJZXhWUm5wd016NkF2NFUyOVhraC1UOS03OHF3?oc=5"
   },
   {
    "id": "8f0ccb03f018",
