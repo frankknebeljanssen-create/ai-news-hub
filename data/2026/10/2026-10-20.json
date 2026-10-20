@@ -1,10 +1,18 @@
 {
  "date": "2026-10-20",
- "generated_at": "2026-10-20T00:58:23+02:00",
+ "generated_at": "2026-10-20T02:08:55+02:00",
  "overview": [
   {
+   "id": "c86664b601af",
+   "text": "Anthropic verhandelt Berichten zufolge mit Nscale über einen zweiten Rechenkapazitätsvertrag in Milliardenhöhe und würde damit seinen Bedarf verdoppeln."
+  },
+  {
    "id": "0e19bec78e36",
-   "text": "Microsoft stuft KI-Agenten als Insiderrisiko ein und rät Firmen, Agenten mit Zugriff auf Systeme außerhalb der Anbieterkontrolle genau zu überwachen."
+   "text": "Microsoft stuft KI-Agenten als Insider-Risiko ein und warnt davor, Modellen an der Leistungsgrenze blind zu vertrauen."
+  },
+  {
+   "id": "2eba6fdc38ff",
+   "text": "Hugging Face warnt, dass eingebettete KI-Prüfsysteme keine schnelle Lösung für faire Modellvergleiche sind und Ranglisten allein nicht genügen."
   }
  ],
  "items": [
@@ -30,6 +38,51 @@
    "quelle_titel": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
    "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
    "kontext": "Konkret kündigt Microsoft Guardian Agents an, eine Aufsichtsfunktion im seit dem Sommer laufenden Projekt Perception, das ursprünglich gegen Angreifer von außen gedacht war. Konzernchef Satya Nadella fordert, die Lieferung von Intelligenz von der Kontrolle darüber zu trennen. Die Sicherheitschefin begründet das Misstrauen nicht mit Bösartigkeit, sondern mit Unberechenbarkeit trainierter Modelle. Pikant ist, dass Microsoft selbst an führenden Modellanbietern beteiligt ist."
+  },
+  {
+   "id": "c86664b601af",
+   "date": "2026-10-20",
+   "published": "2026-10-20T01:39+02:00",
+   "headline": "Anthropic soll mit Nscale über zweiten Rechenkapazitätsdeal verhandeln",
+   "summary": "Nach dem im August angekündigten Abkommen über Rechenkapazitäten im Wert von 45 Milliarden Dollar sollen Anthropic und der Infrastrukturanbieter Nscale laut Berichten über einen zweiten Vertrag in ähnlicher Größenordnung sprechen. Damit würde sich der Kapazitätsbedarf des KI-Anbieters binnen weniger Monate verdoppeln. Die Gespräche sind bislang nicht offiziell bestätigt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "nscale",
+    "rechenzentren",
+    "investitionen",
+    "infrastruktur"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-20T02:01:46+02:00",
+   "quelle_titel": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+   "kontext": "Nscale liefert Rechenleistung für Training und Betrieb großer KI-Modelle, und Anthropic hat sich binnen eines Jahres bereits mehrfach solche Kapazitäten gesichert. Die Information stammt von Bloomberg und beruht auf Insidern, Details können sich also noch ändern. Beide Unternehmen streben an die Börse, wobei Investoren die von Nscale angestrebte Bewertung anzweifeln. Zugleich wächst die Sorge, dass die hohen Ausgaben für Rechenzentren den tatsächlichen Gewinnen weit vorauslaufen."
+  },
+  {
+   "id": "2eba6fdc38ff",
+   "date": "2026-10-20",
+   "published": "2026-10-20T00:49+02:00",
+   "headline": "Hugging Face dämpft Hoffnungen auf automatisierte Modellbewertung",
+   "summary": "Die Policy-Chefin von Hugging Face, Irene Solaiman, warnt davor, eingebettete KI-Prüfsysteme als schnelle Lösung für faire Modellvergleiche zu betrachten. Benchmarks gelten in der Branche als neutraler Qualitätsmaßstab, doch die zugrundeliegenden Messmethoden sind komplex und noch längst nicht ausgereift. Für Unternehmen bedeutet das, dass Ranglisten allein keine belastbare Entscheidungsgrundlage sind.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "benchmarks",
+    "evaluation",
+    "hugging face",
+    "modellvergleich"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-20T02:01:46+02:00",
+   "quelle_titel": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+   "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+   "kontext": "Nach mehreren Sicherheitsvorfällen setzen KI-Labore auf unabhängige Prüfer im eigenen Haus, um staatlicher Regulierung zuvorzukommen. Solaiman hält das auf der Disrupt-Konferenz für verfrüht: Es fehlen Standards dafür, wer überhaupt wofür qualifiziert ist, und Ergebnisse lassen sich häufig nicht reproduzieren. Anthropics Wahl von Accenture als erstem Prüfer stieß entsprechend auf Kritik. Zudem verschiebt sich die Bewertung vom Modell auf das Gesamtsystem samt Werkzeugen und Agenten."
   }
  ]
 }
