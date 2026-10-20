@@ -1,22 +1,30 @@
 {
  "date": "2026-10-20",
- "generated_at": "2026-10-20T03:15:00+02:00",
+ "generated_at": "2026-10-20T04:20:05+02:00",
  "overview": [
   {
    "id": "c86664b601af",
-   "text": "Anthropic verhandelt laut Berichten mit Nscale über einen zweiten Vertrag für Rechenkapazitäten in Milliardenhöhe, bislang ohne offizielle Bestätigung."
-  },
-  {
-   "id": "0e19bec78e36",
-   "text": "Microsoft stuft KI-Agenten als Insider-Risiko ein und warnt davor, Modellen an der Leistungsgrenze blind zu vertrauen."
+   "text": "Anthropic verhandelt Berichten zufolge mit Nscale über einen zweiten Rechenkapazitätsdeal, der den Bedarf des KI-Anbieters binnen Monaten verdoppeln würde."
   },
   {
    "id": "f9d88b0343ff",
-   "text": "Microsoft nutzt intern über hundert KI-Agenten und senkt Durchlaufzeiten nach eigenen Angaben um rund drei Viertel."
+   "text": "Microsoft nutzt intern mehr als hundert KI-Agenten und verkürzt damit die Durchlaufzeiten eigener Prozesse um rund 75 Prozent."
+  },
+  {
+   "id": "a69ad5cfaee4",
+   "text": "Siemens-Personalvorständin Wiese warnt davor, Einstiegsjobs durch KI zu ersetzen, weil Berufsanfängern sonst der Aufbau grundlegender Fähigkeiten fehlt."
+  },
+  {
+   "id": "0e19bec78e36",
+   "text": "Microsoft stuft KI-Agenten als Insider-Risiko ein und rät Unternehmen, Modellen an der Leistungsgrenze nicht blind zu vertrauen."
+  },
+  {
+   "id": "e9f6e03adc36",
+   "text": "New Yorks Bürgermeister Mamdani fordert eigene KI-Schutzregeln für die Stadt und kritisiert die Zurückhaltung der US-Bundespolitik."
   },
   {
    "id": "2eba6fdc38ff",
-   "text": "Hugging Face warnt, dass automatisierte Prüfsysteme keine faire Modellbewertung sichern und Ranglisten allein keine Entscheidungsgrundlage sind."
+   "text": "Hugging Face warnt, dass eingebettete Prüfsysteme keine schnelle Lösung für faire Modellvergleiche sind und Ranglisten allein nicht genügen."
   }
  ],
  "items": [
@@ -89,6 +97,35 @@
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaUo5Nkx5YXNXNHQxMGJkZVNfQ29HdWVEWUh3S192Vnk2bzZBcjJhVGhCZGxqb3FOSWpySFNiXzM3bGV3TUZBa2s5RVQycDBPSHUyNWVVMnU0UUxHSkZQTHBNREt0bklnbTdIVWNLTGdKcVV1aHhjS3dXWjMyWG40QWUyVzRpZVpJVTg1cEUtX3BYSlloMUJ5RjQwUzVXNFgyOXVsZW9XVzRUcnkxR1dJN2tCdWtpWjRVNVNaU0kwejJVMkxwXzRpcFhvRVo?oc=5"
   },
   {
+   "id": "a69ad5cfaee4",
+   "date": "2026-10-20",
+   "published": "2026-10-20T04:02+02:00",
+   "headline": "Siemens-Personalchefin: KI darf Einstiegsjobs nicht ersetzen",
+   "summary": "Siemens-Personalvorständin Wiese plädiert dafür, Einstiegspositionen für Berufsanfänger trotz zunehmender Automatisierung durch KI zu erhalten. Wenn junge Beschäftigte Aufgaben nicht mehr selbst bearbeiten, entwickeln sie grundlegende Fähigkeiten gar nicht erst. Langfristig drohe dem Unternehmen dadurch eine Lücke bei erfahrenen Fachkräften.",
+   "thema": "KI & Lernen",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "siemens",
+    "einstiegsjobs",
+    "kompetenzaufbau",
+    "arbeitsmarkt"
+   ],
+   "source": "Tagesspiegel Wirtschaft",
+   "source_id": "tagesspiegel-wirtschaft",
+   "added": "2026-10-20T04:17:11+02:00",
+   "paywall": true,
+   "quelle_titel": "Arbeit und KI: Siemens: Wegen KI nicht auf Einstiegsjobs verzichten",
+   "url": "https://www.tagesspiegel.de/wirtschaft/dpa-arbeit-und-ki-siemens-wegen-ki-nicht-auf-einstiegsjobs-verzichten-16178732.html",
+   "also": [
+    {
+     "source": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOXZfQWZIenJqUFg2VFpZTzdJZmNzd2VOUWFnaDF4bHR6YWRQb2JTR0R4V3pwUktYbVBwQVMxV1N0Mm9HalNpRk5lUWdHVnFtTHJVdTlxWEJwZ000elhZMHBHNHBVWDA4WU82ejYwMWhOd1RtWTVHMDFVZWt5ZkJELWo3VE5KaXNBSWtfVjBkRWFYYTI0bTlvVzBIRXNxa2V2Z1FpTmRON1lWSUFi?oc=5"
+    }
+   ]
+  },
+  {
    "id": "2eba6fdc38ff",
    "date": "2026-10-20",
    "published": "2026-10-20T00:49+02:00",
@@ -109,6 +146,51 @@
    "quelle_titel": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
    "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
    "kontext": "Nach mehreren Sicherheitsvorfällen setzen KI-Labore auf unabhängige Prüfer im eigenen Haus, um staatlicher Regulierung zuvorzukommen. Solaiman hält das auf der Disrupt-Konferenz für verfrüht: Es fehlen Standards dafür, wer überhaupt wofür qualifiziert ist, und Ergebnisse lassen sich häufig nicht reproduzieren. Anthropics Wahl von Accenture als erstem Prüfer stieß entsprechend auf Kritik. Zudem verschiebt sich die Bewertung vom Modell auf das Gesamtsystem samt Werkzeugen und Agenten."
+  },
+  {
+   "id": "e9f6e03adc36",
+   "date": "2026-10-20",
+   "published": "2026-10-20T03:27+02:00",
+   "headline": "New Yorks Bürgermeister fordert eigene Regeln für KI",
+   "summary": "Bürgermeister Zohran Mamdani kritisiert, dass die US-Bundespolitik bei der Regulierung von KI ihre Verantwortung nicht wahrnehme. Er ruft die Menschen in New York dazu auf, die Vorstellung einer unvermeidlichen KI-Übernahme nicht zu akzeptieren und Schutzregeln für die Öffentlichkeit einzufordern. Damit positioniert sich eine große US-Stadt gegen den regulierungsskeptischen Kurs auf nationaler Ebene.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "usa",
+    "new york",
+    "ki-regulierung",
+    "kommunalpolitik"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-20T04:17:11+02:00",
+   "quelle_titel": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+   "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+   "kontext": "Mamdani äußerte sich bei einer Veranstaltung des AI Now Institute in Manhattan, wo ihn die Schauspielerin und Aktivistin Ilana Glazer befragte. Die Stadt hat bereits KI an Grund- und Mittelschulen verboten und will Vermieter zur Kennzeichnung KI-erzeugter Wohnungsbilder verpflichten. Mamdani hält die rasche Verbreitung für vermeidbar und sieht hinter dem Verweis auf den Wettlauf mit China vor allem den Wunsch, Verantwortung zu umgehen. Er nennt dabei auch die geplanten Börsengänge großer KI-Anbieter."
+  },
+  {
+   "id": "45f7aeb62c07",
+   "date": "2026-10-20",
+   "published": "2026-10-20T04:00+02:00",
+   "headline": "Siemens bekennt sich weiter zu Jobs für Berufseinsteiger",
+   "summary": "Siemens will trotz des Einsatzes von KI weiterhin Einstiegspositionen für junge Menschen anbieten. Der Konzern hält damit am klassischen Karriereeinstieg fest, obwohl KI viele Aufgaben auf Junior-Niveau übernehmen kann.",
+   "thema": "KI & Lernen",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "siemens",
+    "berufseinstieg",
+    "qualifizierung",
+    "arbeitsmarkt"
+   ],
+   "source": "ad-hoc-news.de",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-20T04:17:11+02:00",
+   "quelle_titel": "Siemens hält trotz KI an Einstiegsjobs für junge Leute fest",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOXZfQWZIenJqUFg2VFpZTzdJZmNzd2VOUWFnaDF4bHR6YWRQb2JTR0R4V3pwUktYbVBwQVMxV1N0Mm9HalNpRk5lUWdHVnFtTHJVdTlxWEJwZ000elhZMHBHNHBVWDA4WU82ejYwMWhOd1RtWTVHMDFVZWt5ZkJELWo3VE5KaXNBSWtfVjBkRWFYYTI0bTlvVzBIRXNxa2V2Z1FpTmRON1lWSUFi?oc=5",
+   "dup_of": "a69ad5cfaee4"
   }
  ]
 }
