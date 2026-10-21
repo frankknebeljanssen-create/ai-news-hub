@@ -1,30 +1,38 @@
 {
  "date": "2026-10-21",
- "generated_at": "2026-10-21T04:47:04+02:00",
+ "generated_at": "2026-10-21T06:11:23+02:00",
  "overview": [
   {
    "id": "b6629abae55b",
-   "text": "Anthropic wirbt für ein KI-Sicherheitsgesetz, das riskante Modelle stoppt, Behörden aber nur mit Richterbeschluss eingreifen lässt."
+   "text": "Anthropic wirbt für ein Gesetz, das Modelle mit Risiko für über 50 Menschenleben stoppt, staatliche Eingriffe aber an einen Richterbeschluss bindet."
   },
   {
    "id": "44ca0844be0c",
-   "text": "Nvidia investiert in vier deutsche Startups, darunter den Robotikspezialisten Agile Robots, und stärkt so seine Rolle im hiesigen KI-Ökosystem."
+   "text": "Nvidia investiert in vier deutsche Startups, darunter den Robotikspezialisten Agile Robots, und stärkt so seine Position im Technologiestandort Deutschland."
   },
   {
-   "id": "3773628c01aa",
-   "text": "Elon Musk prüft eine Fusion von Tesla und SpaceX zu einem Billionenkonzern für Raketen, Roboter, Robotaxis und KI unter seiner Kontrolle."
+   "id": "298f01fbf718",
+   "text": "US-Bundesbehörden dürfen DeepSeek aus Sicherheitsgründen nicht mehr nutzen, Peking hält das für einen wirtschaftspolitisch motivierten Vorwand."
   },
   {
-   "id": "4ef852486e1d",
-   "text": "China protestiert gegen das Verbot der KI-App DeepSeek in US-Bundesbehörden, womit KI-Software weiter zum Streitpunkt im Techkonflikt wird."
+   "id": "b43f2a173d5c",
+   "text": "Microsoft, Alphabet und andere Konzerne haben KI-Zusagen in Billionenhöhe außerhalb ihrer Bilanzen aufgebaut, was Anleger kaum erkennen können."
+  },
+  {
+   "id": "abc71b64bbbd",
+   "text": "Rund 20 Prozent der EU-Unternehmen nutzten 2025 KI, doch ohne begleitende Qualifizierung in KI-Sicherheit wird das Tempo zum strategischen Risiko."
+  },
+  {
+   "id": "2af1c3a9ce01",
+   "text": "Nur sieben Prozent der Unternehmen halten ihre Daten für KI-bereit, weil den Systemen der nötige Geschäftskontext fehlt."
   },
   {
    "id": "5ed43860b2e6",
-   "text": "Google bringt das personalisierte Gemini ins Auto, wo es auf Gmail, Kalender, Maps, Fotos und Suche der Nutzer zugreifen kann."
+   "text": "Google bringt sein personalisiertes Gemini ins Auto, wo der Assistent auf Gmail, Kalender, Maps, Fotos und Suche der Nutzer zugreifen kann."
   },
   {
-   "id": "342f3b31d430",
-   "text": "Hugging-Face-Mitgründer Clem Delangue nennt die Netflix-Doku über den OpenAI-Vorfall verzerrt und zu stark auf Untergangsstimmung gebürstet."
+   "id": "3773628c01aa",
+   "text": "Elon Musk prüft die Fusion von Tesla und SpaceX zu einem Billionenkonzern, der Raketen, Roboter, Robotaxis und KI-Entwicklung bündeln würde."
   }
  ],
  "items": [
@@ -95,7 +103,102 @@
    "paywall": true,
    "quelle_titel": "KI: China kritisiert US-Verbot der KI-App DeepSeek in Bundesbehörden",
    "url": "https://www.handelsblatt.com/technik/ki/ki-china-kritisiert-us-verbot-der-ki-app-deepseek-in-bundesbehoerden/100263744.html",
-   "dup_of": "0bf9ad4e4f43"
+   "also": [
+    {
+     "source": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/china-kritisiert-us-verbot-der-ki-deepseek-in-bundesbehoerden-100.html"
+    }
+   ]
+  },
+  {
+   "id": "b43f2a173d5c",
+   "date": "2026-10-21",
+   "published": "2026-10-21T04:03+02:00",
+   "headline": "Verdeckte Verpflichtungen: Das stille Finanzrisiko der KI-Giganten",
+   "summary": "Microsoft, Alphabet und weitere Technologiekonzerne haben ihre finanziellen Zusagen rund um KI-Infrastruktur massiv ausgeweitet, ohne dass diese in den Bilanzen sichtbar werden. Eine Analyse beziffert das daraus entstehende Risiko in Billionenhöhe und zeigt, an welchen Stellen Anleger genauer hinsehen sollten. Thema ist damit die Finanzierungsseite des KI-Booms.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "bilanzen",
+    "investitionen",
+    "hyperscaler",
+    "finanzrisiko"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-10-21T06:04:59+02:00",
+   "kurios": "Billionenschwere Verpflichtungen tauchen in keiner Bilanz auf.",
+   "paywall": true,
+   "quelle_titel": "Künstliche Intelligenz: „Schattenverschuldung“: Das Billionen-Dollar-Risiko der KI-Konzerne",
+   "url": "https://www.handelsblatt.com/technik/ki/ki-boom-konzerne-haeufen-27-billionen-dollar-schattenverschuldung-an/100262818.html"
+  },
+  {
+   "id": "abc71b64bbbd",
+   "date": "2026-10-21",
+   "published": "2026-10-21T05:17+02:00",
+   "headline": "AI-First ohne Sicherheitswissen wird für Unternehmen zum Risiko",
+   "summary": "Laut Eurostat setzten 2025 rund 20 Prozent der EU-Unternehmen mit mindestens zehn Beschäftigten KI im Geschäftsbetrieb ein. Der Beitrag warnt, dass dieses Tempo ohne passende Sicherheitskompetenz der Belegschaft zum strategischen Risiko wird. Gefordert wird, Qualifizierung in Sachen KI-Sicherheit parallel zur Einführung der Werkzeuge aufzubauen.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "ai-first",
+    "sicherheit",
+    "ki-kompetenz",
+    "eurostat"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-21T06:04:59+02:00",
+   "quelle_titel": "Warum AI-First ohne Sicherheitskompetenz zum strategischen Risiko wird",
+   "url": "https://www.it-daily.net/it-sicherheit/cloud-security/ai-first-sicherheitskompetenz-risiko",
+   "kontext": "Hinter der Warnung steht eine Untersuchung des Edge-Cloud-Anbieters Fastly, die stark KI-getriebenen Firmen nach Zwischenfällen deutlich längere Wiederherstellungszeiten und spürbar höhere Kosten bescheinigt. In fast der Hälfte der betrachteten Vorfälle war die KI selbst das Einfallstor. Das US-Institut NIST ordnet Prompt Injection und manipulierte Trainingsdaten als eigene Risikoklasse ein. Weil KI Datenquellen und Entscheidungswege engmaschig verknüpft, brauchen auch Fachbereiche und Führung ein Gespür für diese Abhängigkeiten."
+  },
+  {
+   "id": "2af1c3a9ce01",
+   "date": "2026-10-21",
+   "published": "2026-10-21T05:57+02:00",
+   "headline": "Studie: Nur sieben Prozent der Firmen sehen ihre Daten als KI-tauglich",
+   "summary": "Einer aktuellen Untersuchung zufolge halten lediglich sieben Prozent der Unternehmen ihre Datenbasis für vollständig KI-bereit. Als Hauptursache wird fehlender Geschäftskontext genannt: KI-Agenten greifen auf Daten zu, ohne die Bedeutung und Zusammenhänge im Unternehmen zu kennen. Context Engineering soll diese Lücke zwischen Rohdaten und verwertbarem Unternehmenswissen schließen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "daten",
+    "ki-agenten",
+    "context engineering",
+    "studie"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-21T06:04:59+02:00",
+   "quelle_titel": "Context Engineering: KI-Agenten fehlt Unternehmenswissen",
+   "url": "https://www.it-daily.net/it-management/ki/context-engineering-ki-agenten",
+   "kontext": "Hinter der Zahl steht eine Befragung von Harvard Business Review Analytic Services im Auftrag des Datenplattform-Anbieters Cloudera, eingeordnet vom Wettbewerber Starburst, der selbst semantische Schichten vermarktet. Dessen Kernargument: Entscheidendes Firmenwissen steckt oft nur in den Köpfen einzelner Beschäftigter statt in Systemen. Fehlt dieser Kontext, greifen Agenten willkürlich zu widersprüchlichen Werten oder leiten Fehlendes einfach ab. Auch Deloitte sieht in schlecht durchsuchbaren Daten eine zentrale Hürde."
+  },
+  {
+   "id": "71bf3f92a75f",
+   "date": "2026-10-21",
+   "published": "2026-10-21T06:00+02:00",
+   "headline": "KI-Rollout ohne Wirkung: Warum Entscheidungswege trotzdem lang bleiben",
+   "summary": "Viele Unternehmen verteilen Lizenzen für KI-Assistenten und starten Pilotprojekte, ändern damit aber nicht ihre Entscheidungsprozesse. Der Beitrag argumentiert, dass KI meist in die bestehende Betriebslogik eingebettet wird, statt sie umzubauen, und einzelne Aufgaben dadurch schneller werden, das Gesamtsystem aber nicht. Er skizziert, wie ein AI-First-Betriebsmodell stattdessen an Führung, Abstimmung und Verantwortung ansetzen müsste.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ai-first",
+    "betriebsmodell",
+    "führung",
+    "transformation"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-10-21T06:04:59+02:00",
+   "praxis": true,
+   "quelle_titel": "So geht AI-First-Betriebsmodell",
+   "url": "https://www.computerwoche.de/article/4233681/so-geht-ai-first-betriebsmodell.html"
   },
   {
    "id": "5ed43860b2e6",
@@ -191,7 +294,31 @@
    "source_id": "deutschlandfunk",
    "added": "2026-10-21T03:38:14+02:00",
    "quelle_titel": "Künstliche Intelligenz - China kritisiert US-Verbot der KI DeepSeek in Bundesbehörden",
-   "url": "https://www.deutschlandfunk.de/china-kritisiert-us-verbot-der-ki-deepseek-in-bundesbehoerden-100.html"
+   "url": "https://www.deutschlandfunk.de/china-kritisiert-us-verbot-der-ki-deepseek-in-bundesbehoerden-100.html",
+   "dup_of": "298f01fbf718"
+  },
+  {
+   "id": "96cefea849a8",
+   "date": "2026-10-21",
+   "published": "2026-10-21T05:34+02:00",
+   "headline": "Inference Factory: KI-Modelle im eigenen Rechenzentrum produktiv machen",
+   "summary": "Unter einer Inference Factory versteht man einen integrierten Stack, der trainierte KI-Modelle im eigenen Rechenzentrum im Dauerbetrieb ausführt. Scality hat Anfang Oktober 2026 eine entsprechende Lösung vorgestellt. Der Beitrag erklärt die technische Funktionsweise, nennt konkurrierende Angebote und fasst die Einschätzungen von Gartner, Forrester und IDC zusammen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "inferenz",
+    "rechenzentrum",
+    "infrastruktur",
+    "scality"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-21T06:04:59+02:00",
+   "praxis": true,
+   "quelle_titel": "Inference Factory: KI-Inferenz im eigenen Rechenzentrum betreiben",
+   "url": "https://www.it-daily.net/it-management/ki/inference-factory",
+   "kontext": "Hinter dem Begriff steckt die von NVIDIA geprägte Idee der KI-Fabrik, hier verengt auf den Dauerbetrieb fertig trainierter Modelle. Ein Standard ist das nicht, eher ein Marketingbegriff, den Anbieter unterschiedlich füllen. Analysten sehen Inferenz inzwischen als größeren Ausgabenblock als das Training, befeuert durch agentische Abläufe. Für Unternehmen geht es dabei um Abrechnung pro Token, Kontrolle über Modellversionen und die Frage, wo Daten verarbeitet werden."
   },
   {
    "id": "ec31e6fc5c0b",
@@ -212,6 +339,28 @@
    "added": "2026-10-21T02:11:39+02:00",
    "quelle_titel": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed"
+  },
+  {
+   "id": "8ada91e22930",
+   "date": "2026-10-21",
+   "published": "2026-10-21T05:04+02:00",
+   "headline": "Bank SHB und Universität Hue bilden gemeinsam KI-Fachkräfte aus",
+   "summary": "Die vietnamesische Bank SHB und die Universität Hue kooperieren bei der Ausbildung von Fachkräften und bei der Anwendung von KI. Die Partnerschaft verbindet damit Hochschulausbildung mit dem praktischen Einsatz der Technologie im Finanzsektor.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "AITI",
+    "hochschule",
+    "kooperation",
+    "fachkräfte",
+    "vietnam"
+   ],
+   "source": "Vietnam.vn",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-21T06:04:59+02:00",
+   "quelle_titel": "SHB arbeitet mit der Universität Hue zusammen, um Fachkräfte auszubilden und KI anzuwenden.",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWW91ZHBGczlXQlU1UURDLTlCQjRwMVFPMnY1enlxdmhVN25SaUhjSjRhZ2xXZDZzdWFjVGd1MnJCejBtN0hrcFJwNDJxNU5pcFN0VHcwQ1FMV1Q0blJEa285MFRaT3JpZTRQUVBNdWlBc2tJUGhzTVZReHZqY3ZRRjNhb0c?oc=5"
   }
  ]
 }

@@ -1,38 +1,38 @@
 {
  "date": "2026-10-20",
- "generated_at": "2026-10-21T04:46:40+02:00",
+ "generated_at": "2026-10-21T06:10:46+02:00",
  "overview": [
   {
-   "id": "b1512f87b769",
-   "text": "Die Bildungsministerkonferenz hat ihren Kompetenzrahmen für digitale Bildung aktualisiert und verankert KI-Kompetenz als fachübergreifende Querschnittsaufgabe."
-  },
-  {
    "id": "98ff0b97fa4b",
-   "text": "Anthropic berichtet aus eigener Praxis von rund fünffacher Code-Leistung durch Claude, besetzt klassische Einstiegsstellen aber gar nicht mehr neu."
+   "text": "Anthropic berichtet, dass Entwickler dank Claude intern fünfmal so viele Code-Beiträge liefern, klassische Einstiegsstellen aber gar nicht mehr besetzt werden."
   },
   {
    "id": "acde6ba0196c",
-   "text": "Laut IAB verzichteten zwei Drittel der deutschen Betriebe im zweiten Halbjahr 2025 auf KI, meist weil sie keinen passenden Anwendungsfall sahen."
-  },
-  {
-   "id": "3309b6ce15f4",
-   "text": "Zivile US-Bundesbehörden müssen DeepSeek und darauf aufbauende Dienste entfernen, weil Washington darin ein Risiko für die nationale Sicherheit sieht."
-  },
-  {
-   "id": "0d651a412378",
-   "text": "Das Army Cyber Command entwickelt laut internen Papieren KI-Agenten, die sich wurmartig in fremden Netzen ausbreiten und dort Ziele ausschalten sollen."
+   "text": "Laut IAB-Erhebung verzichteten zwei Drittel der deutschen Betriebe Ende 2025 auf KI, meist weil sie schlicht keinen passenden Anwendungsfall sehen."
   },
   {
    "id": "6a46e595227b",
    "text": "Amazon will 2027 rund 16 Milliarden Euro in Deutschland investieren, vor allem in Cloud- und KI-Kapazitäten im Raum Frankfurt."
   },
   {
+   "id": "b1512f87b769",
+   "text": "Die Bildungsministerkonferenz hat ihren Kompetenzrahmen für digitale Bildung aktualisiert und verankert KI-Kompetenz als fachübergreifende Querschnittsaufgabe."
+  },
+  {
+   "id": "0bf9ad4e4f43",
+   "text": "Das US-Heimatschutzministerium verbietet zivilen Bundesbehörden sämtliche Produkte des chinesischen Anbieters DeepSeek, lässt die Umsetzung aber offen."
+  },
+  {
+   "id": "0d651a412378",
+   "text": "Das US Army Cyber Command entwickelt laut internen Unterlagen KI-Agenten, die sich wurmartig in fremden Netzen ausbreiten und Ziele ausschalten sollen."
+  },
+  {
    "id": "d376af97b3d2",
-   "text": "Phishing-Mails zielen inzwischen auf KI-Agenten in Postfächern, die versteckte Anweisungen befolgen und so zu unerwünschten Aktionen verleitet werden."
+   "text": "Angreifer richten Phishing-Mails gezielt an KI-Agenten in Postfächern und verleiten sie mit versteckten Anweisungen zu unerwünschten Aktionen."
   },
   {
    "id": "bd82adcf17ac",
-   "text": "Inceptions Sprachmodell Mercury 3 setzt auf einen Diffusionsansatz und erreicht im Praxistest hohes Tempo bei Qualität kleinerer Spitzenmodelle."
+   "text": "Inceptions Diffusionsmodell Mercury 3 erzeugt Text nicht Token für Token und erreicht im Praxistest hohes Tempo bei solider Qualität."
   }
  ],
  "items": [
@@ -135,13 +135,7 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Berufseinsteiger werden gar nicht erst eingestellt: Anthropic zeigt, wie KI den Geschäftsalltag verändert",
    "url": "https://www.handelsblatt.com/technik/ki/arbeitsmarkt-anthropic-zeigt-wie-ki-den-geschaeftsalltag-veraendert/100263274.html",
-   "kontext": "Hinter der Meldung steht eine eigene Auswertung von Anthropic aus dem Oktober. Die technische Belegschaft wächst demnach weiter, doch der Anteil von Berufseinsteigern an den Neueinstellungen ist von gut einem Viertel auf unter ein Zehntel gefallen. Das Unternehmen stellt also weiter ein, verschiebt die Prioritäten aber klar zu erfahrenen Kräften. Offen bleibt, wo Nachwuchs künftig praktische Erfahrung sammeln soll.",
-   "also": [
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/anthropic-junior-technical-hiring-ai/"
-    }
-   ]
+   "kontext": "Hinter der Meldung steht eine eigene Auswertung von Anthropic aus dem Oktober. Die technische Belegschaft wächst demnach weiter, doch der Anteil von Berufseinsteigern an den Neueinstellungen ist von gut einem Viertel auf unter ein Zehntel gefallen. Das Unternehmen stellt also weiter ein, verschiebt die Prioritäten aber klar zu erfahrenen Kräften. Offen bleibt, wo Nachwuchs künftig praktische Erfahrung sammeln soll."
   },
   {
    "id": "fc65beb2e471",
@@ -217,17 +211,7 @@
    "quelle_titel": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
    "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
    "kontext": "Nscale liefert Rechenleistung für Training und Betrieb großer KI-Modelle, und Anthropic hat sich binnen eines Jahres bereits mehrfach solche Kapazitäten gesichert. Die Information stammt von Bloomberg und beruht auf Insidern, Details können sich also noch ändern. Beide Unternehmen streben an die Börse, wobei Investoren die von Nscale angestrebte Bewertung anzweifeln. Zugleich wächst die Sorge, dass die hohen Ausgaben für Rechenzentren den tatsächlichen Gewinnen weit vorauslaufen.",
-   "also": [
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/anthropics-next-45-billion-ai-deal-has-a-catch-someone-has-to-build-it/"
-    },
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/ki/ki-nscale-verhandelt-mit-anthropic-ueber-45-milliarden-dollar-deal/100263424.html",
-     "paywall": true
-    }
-   ]
+   "dup_of": "6fb5a237c724"
   },
   {
    "id": "dbaa90254253",
@@ -510,7 +494,17 @@
    "paywall": true,
    "quelle_titel": "KI: Nscale verhandelt mit Anthropic über 45-Milliarden-Dollar-Deal",
    "url": "https://www.handelsblatt.com/technik/ki/ki-nscale-verhandelt-mit-anthropic-ueber-45-milliarden-dollar-deal/100263424.html",
-   "dup_of": "c86664b601af"
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/anthropics-next-45-billion-ai-deal-has-a-catch-someone-has-to-build-it/"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+    }
+   ],
+   "kontext": "Es wäre bereits der zweite Vertrag dieser Größe zwischen Anthropic und dem Infrastrukturanbieter Nscale binnen weniger Wochen, die Gespräche laufen Berichten zufolge noch. Beide Firmen streben an die Börse, wobei Nscale mit seiner angestrebten Bewertung bei Investoren auf Widerstand stößt. Kritiker verweisen darauf, dass solche Zusagen erst finanziert, mit Strom versorgt und mit Hardware bestückt werden müssen. Teile der Anlegerschaft fürchten hohe Ausgaben bei bislang dünnen Erträgen."
   },
   {
    "id": "6cba7000b723",
@@ -533,8 +527,7 @@
    "kurios": "Heimliche Tonaufnahmen im KI-Labor und eine Spur zum saudischen Königshaus.",
    "paywall": true,
    "quelle_titel": "OpenAI: Ermittler prüfen Verbindungen nach Saudi-Arabien nach Abhörvorwurf",
-   "url": "https://www.spiegel.de/netzwelt/openai-ermittler-pruefen-verbindungen-nach-saudi-arabien-nach-abhoervorwurf-a-a5d28a42-df4c-43a8-94cc-406d0ead9d3f#ref=rss",
-   "dup_of": "fef6e8089579"
+   "url": "https://www.spiegel.de/netzwelt/openai-ermittler-pruefen-verbindungen-nach-saudi-arabien-nach-abhoervorwurf-a-a5d28a42-df4c-43a8-94cc-406d0ead9d3f#ref=rss"
   },
   {
    "id": "2af9e131dbce",
@@ -805,13 +798,13 @@
      "paywall": true
     },
     {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Cloud-und-KI-Amazon-will-2027-16-Milliarden-Euro-in-Deutschland-investieren-11493822.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
-    {
      "source": "Spiegel",
      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMHVfdTExYjg2azJEZ0FzSF8wekNNeWhVanYwYnBsTFJPcl9hcE44MW13RkNxdHVfTkw2b3NrSmhTeTYyU3pGNVJBYS1Ec3NQWVEtRTVQejd1cjIyLTFfZnpNSFNrTUhITUVRdk5qY1ZVdHNJa0dOTWxPNG1TSmMtNl94aWRrOFBvTllHdU8zaG5fVy1UTFZJTGtQaEhpV01YS3pZRmhFRTY2MG1MNkdIRkZVdDEySlhBWDhLZWJJcFl0cXJaYzRUd3lmTFduNHViRzJkNzdOWEgyVENjZVZGakNIS3pQWjlqWEh0bVdTb2ZZamhRSlE?oc=5",
      "paywall": true
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Cloud-und-KI-Amazon-will-2027-16-Milliarden-Euro-in-Deutschland-investieren-11493822.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
      "source": "iX",
@@ -1128,7 +1121,7 @@
    "added": "2026-10-21T00:54:30+02:00",
    "quelle_titel": "Anthropic's Next $45 Billion AI Deal Has a Catch: Someone Has to Build It",
    "url": "https://www.theneuron.ai/news/anthropics-next-45-billion-ai-deal-has-a-catch-someone-has-to-build-it/",
-   "dup_of": "c86664b601af"
+   "dup_of": "6fb5a237c724"
   },
   {
    "id": "678424bafb05",
@@ -1175,12 +1168,7 @@
    "quelle_titel": "Künstliche Intelligenz: Wachstumstreiber Rechenzentren: Baukonzern Hochtief plant eigene Bewerbung für „AI Gigafactory“",
    "url": "https://www.handelsblatt.com/technik/ki/ki-baukonzern-hochtief-plant-eigene-bewerbung-fuer-ai-gigafactory/100262865.html",
    "kontext": "Hochtief gehört zu den Bauunternehmen, die vom Ausbau von Rechenzentren profitieren, bislang vor allem als Auftragnehmer. Mit einer eigenen Bewerbung um eine der geplanten EU-Gigafactories für KI würde der Konzern näher an die Rolle des Mitbetreibers rücken, offenbar an der Seite eines bislang nicht genannten Großpartners. Die Angaben beruhen auf Handelsblatt-Informationen. Sichtbar wird, dass KI-Infrastruktur längst ein Industriethema ist und nicht nur eines der Techbranche.",
-   "also": [
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/megarechenzentren-hochtief-und-vodafone-planen-bewerbung-fuer-ki-gigafactory-2610-214311.html"
-    }
-   ]
+   "dup_of": "da3fd6102bea"
   },
   {
    "id": "add383da2fc0",
@@ -1247,7 +1235,8 @@
    "added": "2026-10-21T03:38:14+02:00",
    "quelle_titel": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
    "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
-   "kontext": "Hinter der Anordnung steht das Heimatschutzministerium, das befürchtet, chinesische Behörden könnten über dortige Gesetze an Daten amerikanischer Nutzer gelangen. Schon zuvor war der Einsatz in nachrichtendienstlichen Systemen per Gesetz untersagt worden, nun folgen auch Neuanschaffungen und bestehende IT der zivilen Behörden, mit Ausnahmen auf Antrag. Peking wirft Washington vor, Sicherheitsbedenken politisch zu überdehnen. DeepSeek steht zudem wegen des Verdachts im Fokus, Ausgaben amerikanischer Modelle abgeschöpft zu haben."
+   "kontext": "Hinter der Anordnung steht das Heimatschutzministerium, das befürchtet, chinesische Behörden könnten über dortige Gesetze an Daten amerikanischer Nutzer gelangen. Schon zuvor war der Einsatz in nachrichtendienstlichen Systemen per Gesetz untersagt worden, nun folgen auch Neuanschaffungen und bestehende IT der zivilen Behörden, mit Ausnahmen auf Antrag. Peking wirft Washington vor, Sicherheitsbedenken politisch zu überdehnen. DeepSeek steht zudem wegen des Verdachts im Fokus, Ausgaben amerikanischer Modelle abgeschöpft zu haben.",
+   "dup_of": "0bf9ad4e4f43"
   },
   {
    "id": "a313ec5562e1",
@@ -1297,17 +1286,16 @@
    "kontext": "Das Ministerium begründet den Schritt mit der Sorge, dass Daten von Regierungsmitarbeitern nach China gelangen oder die Modelle Schadcode enthalten könnten. Betroffen sind auch Produkte Dritter, die auf DeepSeek aufbauen; Ausnahmen muss eine Behörde beantragen. Offen bleibt der Umgang mit Vermittlungsdiensten, die Anfragen automatisch an den jeweils günstigsten Anbieter weiterleiten. Softwarehäuser dürften künftig genauer darlegen müssen, welche Modelle in ihren Produkten stecken.",
    "also": [
     {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/ki/ki-china-kritisiert-us-verbot-der-ki-app-deepseek-in-bundesbehoerden/100263744.html",
-     "paywall": true
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/dhs-deepseek-order-ai-software-vendors/"
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/"
     },
     {
      "source": "The Decoder",
      "url": "https://the-decoder.de/us-heimatschutzministerium-verbannt-deepseek-aus-zivilen-bundesbehoerden/"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/dhs-deepseek-order-ai-software-vendors/"
     }
    ]
   },
@@ -1332,13 +1320,7 @@
    "added": "2026-10-21T00:58:05+02:00",
    "quelle_titel": "OpenAI macht GPT-6 fit für alte Programmiersprachen wie COBOL und Fortran",
    "url": "https://the-decoder.de/openai-macht-gpt-6-fit-fuer-alte-programmiersprachen-wie-cobol-und-fortran/",
-   "kontext": "Sprachen wie COBOL oder Fortran sind in Trainingsdaten kaum vertreten, tragen laut OpenAI aber weltweit kritische Systeme, etwa im Zahlungsverkehr und an Geldautomaten. Für die Prüfung entwickelte das Unternehmen eigene Tests, in einem davon muss ein Modell eine Datenbank von Grund auf programmieren. Wie gut die Modelle abschneiden, hängt stark vom erlaubten Rechenaufwand beim Schlussfolgern ab. Günstigere Varianten bleiben deutlich zurück.",
-   "also": [
-    {
-     "source": "OpenAI",
-     "url": "https://openai.com/index/low-resource-programming-languages"
-    }
-   ]
+   "kontext": "Sprachen wie COBOL oder Fortran sind in Trainingsdaten kaum vertreten, tragen laut OpenAI aber weltweit kritische Systeme, etwa im Zahlungsverkehr und an Geldautomaten. Für die Prüfung entwickelte das Unternehmen eigene Tests, in einem davon muss ein Modell eine Datenbank von Grund auf programmieren. Wie gut die Modelle abschneiden, hängt stark vom erlaubten Rechenaufwand beim Schlussfolgern ab. Günstigere Varianten bleiben deutlich zurück."
   },
   {
    "id": "da3fd6102bea",
@@ -1361,7 +1343,13 @@
    "added": "2026-10-21T00:58:05+02:00",
    "quelle_titel": "Mit Vodafone: Hochtief will KI-Gigafactory bauen",
    "url": "https://www.golem.de/news/megarechenzentren-hochtief-und-vodafone-planen-bewerbung-fuer-ki-gigafactory-2610-214311.html",
-   "dup_of": "5560be691c4d"
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-baukonzern-hochtief-plant-eigene-bewerbung-fuer-ai-gigafactory/100262865.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "c0a096ba92dc",
@@ -2082,7 +2070,8 @@
    "source_id": "golem",
    "added": "2026-10-21T03:38:14+02:00",
    "quelle_titel": "Wegen Anthropic: Eric Schmidt könnte bald 20 Milliarden Dollar reicher werden",
-   "url": "https://www.golem.de/news/wegen-anthropic-eric-schmidt-koennte-bald-20-milliarden-dollar-reicher-werden-2610-214280.html"
+   "url": "https://www.golem.de/news/wegen-anthropic-eric-schmidt-koennte-bald-20-milliarden-dollar-reicher-werden-2610-214280.html",
+   "dup_of": "7fe075e5e5f0"
   },
   {
    "id": "1c1fad3a9c0e",
@@ -2105,7 +2094,8 @@
    "added": "2026-10-21T02:13:05+02:00",
    "praxis": true,
    "quelle_titel": "Entrümpelung per Agent: KI-Agenten entfernen Werbung von Smart-TVs",
-   "url": "https://www.golem.de/news/entruempelung-per-agent-ki-agenten-entfernen-werbung-von-smart-tvs-2610-214283.html"
+   "url": "https://www.golem.de/news/entruempelung-per-agent-ki-agenten-entfernen-werbung-von-smart-tvs-2610-214283.html",
+   "kontext": "Fernseher mit Android bringen Werbeflächen und Telemetriedienste bereits vorinstalliert mit, deren Abschalten sonst mühsame Handarbeit in verschachtelten Menüs bedeutet. Genau diese Fleißarbeit übernimmt das Projekt, indem es einen Coding-Agenten anleitet, die passenden Dienste stillzulegen. Dass dafür kein Root-Zugriff nötig ist, senkt die Einstiegshürde deutlich. Bemerkenswert ist vor allem die Richtung: Agenten werden zum Werkzeug für Gerätepflege, nicht nur für Software."
   },
   {
    "id": "7d602bb311b2",
@@ -2284,7 +2274,58 @@
    "source_id": "golem",
    "added": "2026-10-21T02:12:28+02:00",
    "quelle_titel": "Revamp: Entwickler streichen Public Beta aus Angst vor KI-Kopien",
-   "url": "https://www.golem.de/news/revamp-entwickler-streichen-public-beta-wegen-ki-kopien-2610-214295.html"
+   "url": "https://www.golem.de/news/revamp-entwickler-streichen-public-beta-wegen-ki-kopien-2610-214295.html",
+   "kontext": "Offene Betaphasen sind in der Spielebranche üblich, um früh Rückmeldungen zu sammeln und Aufmerksamkeit aufzubauen. Digital Sun nimmt dafür nun bewusst weniger Reichweite in Kauf und hält Revamp länger unter Verschluss. Dahinter steht die Annahme, dass sich originelle Spielideen mit generativen Werkzeugen schneller nachbauen lassen, als ein kleines Studio sie ausspielen kann. Geheimhaltung wird damit Teil der Produktplanung."
+  },
+  {
+   "id": "b0930e389e92",
+   "date": "2026-10-20",
+   "published": "2026-10-20T13:00+02:00",
+   "headline": "Yelp lässt KI im Restaurant nach der Wartezeit fragen",
+   "summary": "Yelp baut eine Reihe von KI-Funktionen in seine App ein. Dazu gehört ein Assistent, der selbst im Restaurant anruft und die aktuelle Wartezeit erfragt, sowie personalisierte Empfehlungen, die sich an bisherige Vorlieben der Nutzer erinnern. Die Plattform verschiebt damit einen Teil der Recherche vom Nutzer auf die KI.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "yelp",
+    "sprachagenten",
+    "assistenten",
+    "personalisierung"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-21T06:04:59+02:00",
+   "quelle_titel": "Yelp can now call on your behalf to check wait times at a restaurant",
+   "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+   "kontext": "Yelp folgt einem Trend: Mehrere Assistenzdienste telefonieren inzwischen für ihre Nutzer mit Betrieben. Die Plattform hatte zuvor schon Sprach-KI für Restaurants angeboten und bedient jetzt auch die Gästeseite, wobei künftig Agent mit Agent sprechen könnte. Dazu kommen Reservierungen über eine Anbindung an OpenTable, eigene Listen und wiederkehrende Vorschläge. Betriebe erhalten gegen Monatsgebühr ein Werkzeug, das eingehende Anfragen vorqualifiziert."
+  },
+  {
+   "id": "82497db5b87a",
+   "date": "2026-10-20",
+   "published": "2026-10-20T13:00+02:00",
+   "headline": "Otter.ai sammelt 320 Millionen Dollar für seinen Meeting-Assistenten ein",
+   "summary": "Der Anbieter von KI-gestützter Meeting-Transkription Otter.ai hat eine Finanzierungsrunde über 320 Millionen Dollar abgeschlossen, angeführt vom Wachstumsfonds von General Catalyst. Das Geld soll in das Geschäft mit Unternehmenskunden, den Vertriebsaufbau, die internationale Expansion und die Weiterentwicklung des Produkts fließen. Die Summe zeigt, wie viel Kapital derzeit in KI-Werkzeuge für den Büroalltag fließt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "otter.ai",
+    "finanzierung",
+    "meeting-tools",
+    "transkription"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-21T06:05:14+02:00",
+   "quelle_titel": "Otter AI raises $320M from General Catalyst’s growth fund for its meeting tool",
+   "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+   "also": [
+    {
+     "source": "Unite.AI",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMHBoeUpfZFRUSUczRkR0Y0xFeVR5RS1fcGc2WWl1eG95NDR2bFpkcXpabHo1QWtiRE12QWRaS1hUdVNLMlUxRTZFYTBxeFBnaFdNRjMteFh4dDlvcGozVHpQZmRPT2prSXA1SXh5LV8xNXZUa3BsVXpGTWhFd2Z6LTBIZTNsMDhVdzh5U2VINHZZZzg?oc=5"
+    }
+   ],
+   "kontext": "Hinter der Runde steht ein Fonds von General Catalyst, der Kapital bereitstellt, ohne Anteile zu verwässern, und seine Rendite aus dem Erfolg der Marketingausgaben zieht. Für das fast ein Jahrzehnt alte Unternehmen ist das ein enormer Sprung, denn bisher hatte es vergleichsweise wenig eingesammelt. Die Nutzerzahl wuchs stark, zur Abwanderung nennt Otter jedoch keine Angaben. Der Markt ist voll, viele Rivalen wollen Gesprächsdaten in automatisierte Arbeitsabläufe verwandeln."
   },
   {
    "id": "49f2b795fbc4",
@@ -2328,7 +2369,8 @@
    "source_id": "gn-startups",
    "added": "2026-10-21T00:58:48+02:00",
    "quelle_titel": "Otter.ai schließt Wachstumsfinanzierung über 320 Millionen Dollar von General Catalysts CVF ab",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMHBoeUpfZFRUSUczRkR0Y0xFeVR5RS1fcGc2WWl1eG95NDR2bFpkcXpabHo1QWtiRE12QWRaS1hUdVNLMlUxRTZFYTBxeFBnaFdNRjMteFh4dDlvcGozVHpQZmRPT2prSXA1SXh5LV8xNXZUa3BsVXpGTWhFd2Z6LTBIZTNsMDhVdzh5U2VINHZZZzg?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMHBoeUpfZFRUSUczRkR0Y0xFeVR5RS1fcGc2WWl1eG95NDR2bFpkcXpabHo1QWtiRE12QWRaS1hUdVNLMlUxRTZFYTBxeFBnaFdNRjMteFh4dDlvcGozVHpQZmRPT2prSXA1SXh5LV8xNXZUa3BsVXpGTWhFd2Z6LTBIZTNsMDhVdzh5U2VINHZZZzg?oc=5",
+   "dup_of": "82497db5b87a"
   },
   {
    "id": "29f8d9296bc3",
@@ -2396,6 +2438,28 @@
    "quelle_titel": "Windkraft aus China: So will Envision Energy den Stromhunger der KI stillen",
    "url": "https://t3n.de/news/windkraft-aus-chine-envision-ki-1767964",
    "kontext": "Envision Energy zählt zu den führenden Turbinenherstellern Chinas, wo derzeit schneller Windkraft zugebaut wird als in jedem anderen Land. Der Konzern exportiert seine Technik nun verstärkt und arbeitet mit Partnern in Europa, Lateinamerika und Australien. Die neue Initiative richtet sich an Rechenzentren, ausdrücklich auch in Regionen mit Wasserknappheit. Damit rückt die Frage in den Mittelpunkt, wo Rechenleistung und verfügbare Energie künftig zusammenfinden."
+  },
+  {
+   "id": "15705003f60b",
+   "date": "2026-10-20",
+   "published": "2026-10-20T15:00+02:00",
+   "headline": "Eka Robotics mit 1,45 Milliarden Dollar bewertet",
+   "summary": "Das Robotikunternehmen Eka wird mit 1,45 Milliarden Dollar bewertet, Grundlage ist ein Modell für physische KI. Der Roboterarm soll sehr unterschiedliche Objekte zuverlässig greifen und dabei auffallend flüssig und menschenähnlich arbeiten, was in der Branche für Aufsehen sorgt. Damit rückt die Frage näher, wann universelle Greifsysteme den Sprung in den Praxisbetrieb schaffen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "robotik",
+    "physical ai",
+    "bewertung",
+    "startup"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-21T06:04:59+02:00",
+   "quelle_titel": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+   "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+   "kontext": "Gegründet wurde Eka von einem MIT-Professor und einem früheren DeepMind-Forscher, die Finanzierungsrunde führten die Kapitalgeber a16z und F-Prime an. Der Ansatz setzt nicht auf das Zusammenspiel von Sprache, Bild und Bewegung, sondern auf Kraftsignale, ergänzt durch einen kraftempfindlichen Greifer. Erfahrene Robotiker beschreiben die Vorführungen als ungewöhnlich beeindruckend. Kritiker, die generativen Robotikmodellen fehlenden Tastsinn vorwerfen, sehen sich dadurch bestätigt."
   },
   {
    "id": "4922bfa72a89",
@@ -2597,6 +2661,28 @@
    "quelle_titel": "FairStress: A deeper evaluation of fairness in LLM decision-making",
    "url": "https://huggingface.co/blog/allenai/fairstress",
    "kontext": "FairStress stammt vom Allen Institute for AI und schaut über die bloße Endauswahl hinaus. Getestet wird, ob Modelle bei gleicher Beweislage ähnlich standhaft bleiben, wenn Überredungsversuche die eine oder andere Gruppe bevorzugen. Untersucht wurden offene und kommerzielle Systeme in Feldern wie Bewerbung, Kredit, Gesundheit und Bildung. Daten und Code sind frei verfügbar, denn solche Modelle entscheiden zunehmend über Chancen von Menschen mit."
+  },
+  {
+   "id": "2d379e8ffc91",
+   "date": "2026-10-20",
+   "published": "2026-10-20T18:20+02:00",
+   "headline": "Investorin: Physische KI steckt noch in der Bauklotzphase",
+   "summary": "Die frühere Nvidia-Managerin und heutige Investorin Amulya Vishwanath vergleicht den Stand der physischen KI mit einer Phase, in der Bausteine erst zusammengesetzt werden. Im Podcast erklärt sie, warum die Branche weiter auf den Durchbruchmoment für Robotik wartet, wie ihn ChatGPT für Sprachmodelle gebracht hat. Ihre Einschätzung gibt einen Eindruck davon, worauf Kapitalgeber im Robotikmarkt derzeit setzen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "robotik",
+    "physical ai",
+    "venture capital",
+    "interview"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-21T06:04:59+02:00",
+   "quelle_titel": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
+   "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+   "kontext": "Vishwanath hat nach fast sieben Jahren im Produktmarketing bei Nvidia und früherer Arbeit als Ingenieurin die Beteiligungsfirma Techable Ventures gegründet. Ihr Bild: Derzeit entstehen erst Grundbausteine wie Roboterhände und Aktoren, auch die Basissoftware werde neu gedacht. Als Muster verweist sie auf die Internetjahre und die industrielle Revolution. Knapp sei vor allem Talent, das zu großen Konzernen abwandere; ihr Netzwerk solle Gründern hier helfen."
   },
   {
    "id": "319f79c551ee",
@@ -2935,8 +3021,7 @@
    "added": "2026-10-21T00:58:05+02:00",
    "kurios": "Ein Überbietungswettbewerb im Spenden, mit Raketenaktien für Kinder",
    "quelle_titel": "KI-Wohltäter-Battle: Anthropic gründet Fund, Musk verschenkt Aktien an Kinder",
-   "url": "https://www.heise.de/news/KI-Wohltaeter-Battle-Anthropic-gruendet-Fund-Musk-verschenkt-Aktien-an-Kinder-11493199.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "8d2d4594441f"
+   "url": "https://www.heise.de/news/KI-Wohltaeter-Battle-Anthropic-gruendet-Fund-Musk-verschenkt-Aktien-an-Kinder-11493199.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
    "id": "87c5cb39af2e",
@@ -2979,7 +3064,14 @@
    "source_id": "techcrunch-ai",
    "added": "2026-10-21T02:11:39+02:00",
    "quelle_titel": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-   "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/"
+   "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/wegen-anthropic-eric-schmidt-koennte-bald-20-milliarden-dollar-reicher-werden-2610-214280.html"
+    }
+   ],
+   "kontext": "Schmidt stieg bereits 2021 in einer frühen Finanzierungsrunde ein, als Anthropic noch mit einem Bruchteil der heute diskutierten Summen bewertet wurde. Die Angabe stammt aus einem Bloomberg-Bericht und ist von den Beteiligten nicht bestätigt. Seit seinem Abschied als Google-Chef investiert Schmidt über mehrere eigene Gesellschaften und hält auch Anteile an anderen KI-Firmen. Brisant wird die Beteiligung, weil für Anthropic ein Börsengang erwartet wird."
   },
   {
    "id": "7515ab11cbbb",
