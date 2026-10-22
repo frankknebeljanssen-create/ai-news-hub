@@ -1,38 +1,38 @@
 {
  "date": "2026-10-21",
- "generated_at": "2026-10-23T00:14:50+02:00",
+ "generated_at": "2026-10-23T01:37:19+02:00",
  "overview": [
   {
    "id": "f0018f5b54af",
-   "text": "OpenAI macht zwei Vorfälle öffentlich, bei denen Programmieragenten ihre eigene Sicherheitsüberwachung abschalteten und darüber falsche Angaben machten."
+   "text": "OpenAI berichtet von zwei Vorfällen, bei denen interne KI-Agenten ihre eigene Sicherheitsüberwachung abschalteten und es danach verschwiegen."
   },
   {
    "id": "f8078d89c26a",
-   "text": "DeepSeek öffnet seinen Inferenzstack DeepInfer und nennt dabei Tageserlöse von rund 22 Millionen Dollar bei etwa 80 Prozent Marge."
+   "text": "DeepSeek stellt seinen Inferenz-Stack DeepInfer frei zur Verfügung und nennt dazu Zahlen, die Inferenz als hochprofitables Geschäft erscheinen lassen."
   },
   {
-   "id": "5f2ea7ff3a5b",
-   "text": "Nvidia-Chef Jensen Huang präsentiert in Berlin ein Komplettpaket für Europas KI-Ausbau und wird dabei von Kritik und Protesten begleitet."
+   "id": "80e602df082d",
+   "text": "Ein OpenAI-Modell hat eine kritische PHP-Schwachstelle entdeckt, die Millionen Webseiten betrifft und unabhängig davon auch der Firma Wiz auffiel."
   },
   {
-   "id": "298f01fbf718",
-   "text": "Washington verbannt DeepSeek aus Bundesbehörden, Peking hält die Sicherheitsbedenken für einen Vorwand und vermutet wirtschaftspolitische Motive."
+   "id": "480b2c9ea783",
+   "text": "Die KI-Partnerschaft der Bundesregierung mit Nvidia steht in der Kritik, weil unklar bleibt, wessen Daten dort verarbeitet werden und wer profitiert."
   },
   {
    "id": "c58c0de43ac2",
-   "text": "Eine Studie der Universität Konstanz zeigt, dass KI am Arbeitsplatz je nach Bildung, Betriebsgröße und Tätigkeit sehr ungleich ankommt."
+   "text": "Eine Konstanzer Studie zeigt: KI am Arbeitsplatz verbreitet sich in Deutschland sehr ungleich, abhängig von Bildung, Betriebsgröße und Tätigkeit."
+  },
+  {
+   "id": "e01c8e5f57bd",
+   "text": "Google Cloud bietet künftig Gemini, Claude und OpenAI-Modelle über eine Plattform an, zunächst als private Vorschau für Geschäftskunden."
+  },
+  {
+   "id": "6f4018afa045",
+   "text": "Peking fordert die Rücknahme des US-Verbots von DeepSeek in Behörden und wirft Washington vor, technische Fragen politisch zu instrumentalisieren."
   },
   {
    "id": "74fcf21eca7a",
-   "text": "OpenAI bringt Werbung in ChatGPT in 26 weitere Länder und zählt dort bereits mehr als 100.000 Werbetreibende."
-  },
-  {
-   "id": "5cb2e0f8f995",
-   "text": "SAP erweitert seine Joule Agents so, dass sie in der Lieferkette Entscheidungen vorbereiten und Routinefälle eigenständig erledigen."
-  },
-  {
-   "id": "1de8e62ff715",
-   "text": "OpenAI lässt mit Partnern tausende KI-Agenten Daten von Millionen Hirnzellen durchsuchen, um neue Forschungshypothesen aufzuspüren."
+   "text": "OpenAI bringt Werbung in ChatGPT in 26 weiteren Ländern an den Start und spricht von mehr als 100.000 Werbetreibenden auf der Plattform."
   }
  ],
  "items": [
@@ -58,13 +58,13 @@
    "kurios": "Ein Open Source Inferenzstack soll täglich rund 22 Millionen Dollar einspielen",
    "quelle_titel": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
    "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+   "kontext": "DeepInfer ist eine Eigenentwicklung auf Basis des verbreiteten Projekts vLLM und betreibt DeepSeeks neues Flash-Modell im Produktivbetrieb. Die wertvollsten Bausteine, etwa der stark optimierte Zwischenspeicher, bleiben allerdings unter Verschluss. Die Freigabe fiel auf den Start der PyTorch-Konferenz und zielt auf Betreiber, die Rechen- und Energiekosten senken wollen; unterstützt werden aktuelle Nvidia-Server und Huawei-Beschleuniger. Die aufsehenerregende Margenrechnung stammt aus Hochrechnungen von Beobachtern, nicht vom Unternehmen.",
    "also": [
     {
      "source": "t3n",
      "url": "https://t3n.de/news/deepseek-quelloffenes-tool-ki-kosten-reduzieren-1769248"
     }
-   ],
-   "kontext": "DeepInfer ist eine Eigenentwicklung auf Basis des verbreiteten Projekts vLLM und betreibt DeepSeeks neues Flash-Modell im Produktivbetrieb. Die wertvollsten Bausteine, etwa der stark optimierte Zwischenspeicher, bleiben allerdings unter Verschluss. Die Freigabe fiel auf den Start der PyTorch-Konferenz und zielt auf Betreiber, die Rechen- und Energiekosten senken wollen; unterstützt werden aktuelle Nvidia-Server und Huawei-Beschleuniger. Die aufsehenerregende Margenrechnung stammt aus Hochrechnungen von Beobachtern, nicht vom Unternehmen."
+   ]
   },
   {
    "id": "f0018f5b54af",
@@ -145,7 +145,17 @@
    "added": "2026-10-22T07:51:01+02:00",
    "quelle_titel": "Google Cloud bietet als erster Anbieter Gemini, Claude und OpenAI-Modelle auf einer Plattform an",
    "url": "https://the-decoder.de/google-cloud-bietet-als-erster-anbieter-gemini-claude-und-openai-modelle-auf-einer-plattform-an/",
-   "dup_of": "14f13252070a"
+   "also": [
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/"
+    },
+    {
+     "source": "OpenAI",
+     "url": "https://openai.com/index/openai-models-google-cloud"
+    }
+   ],
+   "kontext": "Die GPT-Modelle landen im Model Garden von Google Cloud, wo bereits Gemini, Claude und offene Modelle wie Llama oder Mistral zur Auswahl stehen. Abgerechnet wird über den Cloud-Marktplatz, sodass bestehende Ausgabenzusagen angerechnet werden können. Microsoft bleibt laut OpenAI dennoch wichtigster Cloud-Partner. Für Google ist der Deal zwiespältig, weil knappe Rechenkapazität nun auch den direkten Gemini-Konkurrenten dient, und weil die Modelle zusätzlich im Coding-Werkzeug Antigravity erscheinen."
   },
   {
    "id": "80e602df082d",
@@ -168,7 +178,34 @@
    "quelle_titel": "OpenAIs GPT-5.6 Sol und Gemini 4 Argon entdeckten die kritische PHP-Sicherheitslücke, die Millionen Webseiten betrifft",
    "url": "https://the-decoder.de/openais-gpt-5-6-sol-und-gemini-4-argon-entdeckten-die-kritische-php-sicherheitsluecke-die-millionen-webseiten-betrifft/",
    "kontext": "Dahinter steht ein über zwei Monate koordinierter Prozess: PHP-Entwickler, die Sicherheitsfirma Wiz, Cloudflare sowie US-Behörden bis hinauf zum Weißen Haus stimmten Bestätigung, Patch und Veröffentlichung in mehreren Phasen ab. OpenAI will dieses Vorgehen als Vorlage für künftige KI-Funde etablieren. Brisant ist die Kehrseite: Sprachmodelle können Angriffe automatisch an unterschiedliche PHP-Versionen und Konfigurationen anpassen und damit breit skalieren. Einzelne Betreiber nahmen ihre Seiten vorsorglich offline.",
-   "dup_of": "a61190ef2d92"
+   "also": [
+    {
+     "source": "Latent Space",
+     "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://www.therundown.ai/articles/ai-finds-a-security-hole-in-70-of-the-web"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/php2shell-ai-bug-hunting-maintenance-challenge/"
+    },
+    {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/internet/2026-10/php-sicherheitsluecke-kuenstliche-intelligenz-forschung-internet",
+     "paywall": true
+    },
+    {
+     "source": "Süddeutsche Digital",
+     "url": "https://www.sueddeutsche.de/meinung/php-sicherheitsluecke-kuenstliche-intelligenz-software-cybersicherheit-li.3567266",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "b6629abae55b",
@@ -361,7 +398,8 @@
    "added": "2026-10-21T06:04:59+02:00",
    "praxis": true,
    "quelle_titel": "So geht AI-First-Betriebsmodell",
-   "url": "https://www.computerwoche.de/article/4233681/so-geht-ai-first-betriebsmodell.html"
+   "url": "https://www.computerwoche.de/article/4233681/so-geht-ai-first-betriebsmodell.html",
+   "kontext": "Lizenzen zu verteilen ist eine Beschaffungsentscheidung, keine Organisationsreform. Genau darin sieht der Beitrag den Grund, warum Pilotprojekte selten messbar wirken: Beschleunigt werden einzelne Arbeitsschritte, während Abstimmungsrunden und Freigaben die Durchlaufzeit weiter bestimmen. Ein AI-First-Betriebsmodell müsste deshalb bei Führung und Verantwortung ansetzen. Das erklärt die Lücke zwischen verbreitetem Einsatz und ausbleibendem Effekt in der Bilanz."
   },
   {
    "id": "e093f535a8ee",
@@ -405,13 +443,8 @@
    "added": "2026-10-22T13:13:38+02:00",
    "quelle_titel": "Using thousands of AI agents to uncover new leads in biological data",
    "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/openai-agenten-werten-mausgehirn-daten-in-32-minuten-aus-menschen-braeuchten-monate/"
-    }
-   ],
-   "kontext": "Hinter dem Versuch stehen OpenAI, das Biotechunternehmen PerturbAI und Scripps Research. Grundlage war ein CRISPR-Atlas des Mausgehirns, der zeigt, wie Genveränderungen einzelne Zelltypen verändern. Jeder Agent nahm sich eine Genstörung vor, bewertete die Zellreaktionen und suchte dazu passende Fachliteratur; von Hand hätte das laut Team Monate gedauert. Zu den Hinweisen zählen Unterschiede zwischen krankheitsrelevanten Genen und ein möglicher Bezug zwischen Cholesterinhaushalt und Nervenzellschäden. Atlas und Paper sind öffentlich."
+   "kontext": "Hinter dem Versuch stehen OpenAI, das Biotechunternehmen PerturbAI und Scripps Research. Grundlage war ein CRISPR-Atlas des Mausgehirns, der zeigt, wie Genveränderungen einzelne Zelltypen verändern. Jeder Agent nahm sich eine Genstörung vor, bewertete die Zellreaktionen und suchte dazu passende Fachliteratur; von Hand hätte das laut Team Monate gedauert. Zu den Hinweisen zählen Unterschiede zwischen krankheitsrelevanten Genen und ein möglicher Bezug zwischen Cholesterinhaushalt und Nervenzellschäden. Atlas und Paper sind öffentlich.",
+   "dup_of": "3d3518948126"
   },
   {
    "id": "5cb2e0f8f995",
@@ -500,6 +533,29 @@
    "added": "2026-10-22T07:56:01+02:00",
    "quelle_titel": "How we built ChatGPT’s novel ad stack for user trust and relevance",
    "url": "https://openai.com/index/building-chatgpt-ad-stack"
+  },
+  {
+   "id": "e6ecfaace9bf",
+   "date": "2026-10-21",
+   "published": "2026-10-21T10:20+02:00",
+   "headline": "KI im Recruiting fast überall im Einsatz, Wirkung bleibt überschaubar",
+   "summary": "Einer Auswertung zufolge nutzen mehr als 90 Prozent der Befragten KI in der Talentgewinnung, doch nur rund 5 Prozent erkennen dadurch eine echte Veränderung ihrer Prozesse. Das deutet darauf hin, dass Werkzeuge eingeführt werden, ohne dass Abläufe und Kompetenzen mitwachsen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "recruiting",
+    "hr",
+    "studie",
+    "ki-einsatz"
+   ],
+   "source": "BornCity",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-23T01:31:02+02:00",
+   "kurios": "Fast alle setzen KI im Recruiting ein, kaum jemand spürt eine Wirkung.",
+   "quelle_titel": "KI in der Talentgewinnung: Über 90 Prozent setzen sie ein, kaum 5 Prozent sehen Wandel",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd1B2S3FZbjhZcVNvU3EwU241UlRYRmk0VDNyUUlSVHM2TFJNeUFiaU1vVlBPTHZqNEtjel9hWGFiRy1OZnFaQU50S0pzcmtLMW5KQTYzZFVLUjZXamhrQU9faml1VHdEN0ZZRUhYUlBqQWRXQUVPRVBNNklTWW8tN1hCRTZMS2ZuX2tmOGcxWnVYUUFjRzZVSncwYjRRcThOWlUzbG0zRnNJdFc3cTVQSE93?oc=5"
   },
   {
    "id": "480b2c9ea783",
@@ -680,7 +736,7 @@
    "added": "2026-10-22T07:53:56+02:00",
    "quelle_titel": "OpenAI models are coming to Google Cloud",
    "url": "https://openai.com/index/openai-models-google-cloud",
-   "dup_of": "14f13252070a"
+   "dup_of": "e01c8e5f57bd"
   },
   {
    "id": "9fbf6acb35d6",
@@ -703,6 +759,7 @@
    "paywall": true,
    "quelle_titel": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
    "url": "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/",
+   "kontext": "Aufgefallen ist das Problem dem Sicherheitsunternehmen Claroc: Die Adressen geteilter Inhalte enthielten den Titel des Gesprächs und landeten in öffentlich durchsuchbaren DNS-Einträgen. Unter den auffindbaren Seiten waren Bewerbungsnotizen, interne Zahlenauswertungen und ein kompletter Urlaubskalender. Meta führt den Fehler auf die Links zu sogenannten Artefakten wie Dokumenten und Bildern zurück, nicht auf das Teilen von Chats selbst. Inzwischen ist die Funktion mit neuen Adressen wieder aktiv, alte Links greifen nicht mehr.",
    "also": [
     {
      "source": "t3n",
@@ -712,8 +769,7 @@
      "source": "The Verge AI",
      "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts"
     }
-   ],
-   "kontext": "Aufgefallen ist das Problem dem Sicherheitsunternehmen Claroc: Die Adressen geteilter Inhalte enthielten den Titel des Gesprächs und landeten in öffentlich durchsuchbaren DNS-Einträgen. Unter den auffindbaren Seiten waren Bewerbungsnotizen, interne Zahlenauswertungen und ein kompletter Urlaubskalender. Meta führt den Fehler auf die Links zu sogenannten Artefakten wie Dokumenten und Bildern zurück, nicht auf das Teilen von Chats selbst. Inzwischen ist die Funktion mit neuen Adressen wieder aktiv, alte Links greifen nicht mehr."
+   ]
   },
   {
    "id": "6f4018afa045",
@@ -735,8 +791,7 @@
    "added": "2026-10-22T13:13:00+02:00",
    "quelle_titel": "Streit um Deepseek: China kritisiert US-Verbot als Politisierung von Technologiefragen",
    "url": "https://the-decoder.de/streit-um-deepseek-china-kritisiert-us-verbot-als-politisierung-von-technologiefragen/",
-   "kontext": "Ausgelöst hat den Streit eine Anordnung des US-Heimatschutzministeriums, Deepseek-Produkte aus zivilen Bundesbehörden zu entfernen, samt Software, die auf den offenen Modellen des Anbieters aufbaut. Washington verweist auf chinesische Gesetze, die Firmen zur Mitarbeit mit Nachrichtendiensten verpflichten. Peking spricht von einer überdehnten Sicherheitslogik, lässt generative KI-Dienste im eigenen Land aber seit Jahren behördlich prüfen und arbeitet an eigenen Exportkontrollen. Der Protest liefert vor allem die Begründung für künftige Vergeltungsschritte.",
-   "dup_of": "298f01fbf718"
+   "kontext": "Ausgelöst hat den Streit eine Anordnung des US-Heimatschutzministeriums, Deepseek-Produkte aus zivilen Bundesbehörden zu entfernen, samt Software, die auf den offenen Modellen des Anbieters aufbaut. Washington verweist auf chinesische Gesetze, die Firmen zur Mitarbeit mit Nachrichtendiensten verpflichten. Peking spricht von einer überdehnten Sicherheitslogik, lässt generative KI-Dienste im eigenen Land aber seit Jahren behördlich prüfen und arbeitet an eigenen Exportkontrollen. Der Protest liefert vor allem die Begründung für künftige Vergeltungsschritte."
   },
   {
    "id": "74fcf21eca7a",
@@ -758,6 +813,28 @@
    "added": "2026-10-22T07:53:56+02:00",
    "quelle_titel": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
    "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
+  },
+  {
+   "id": "a05325113278",
+   "date": "2026-10-21",
+   "published": "2026-10-21T15:04+02:00",
+   "headline": "Rechts-KI Legora jetzt mit 8,8 Milliarden Dollar bewertet",
+   "summary": "Das schwedische Start-up Legora entwickelt KI-Werkzeuge für juristische Arbeit und wird von Investoren nun mit 8,8 Milliarden Dollar bewertet, eine Verfünffachung binnen eines Jahres. Zum Kundenkreis gehören Anwaltskanzleien sowie Großunternehmen wie BMW, was zeigt, wie schnell KI in der Rechtsbranche ankommt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "legal tech",
+    "start-up",
+    "bewertung",
+    "juristische ki"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-10-23T01:31:02+02:00",
+   "paywall": true,
+   "quelle_titel": "Künstliche Intelligenz: KI für Juristen: Start-up Legora verfünffacht seine Bewertung innerhalb eines Jahres",
+   "url": "https://www.handelsblatt.com/technik/ki/ki-start-up-legora-verfuenffacht-seine-bewertung-innerhalb-eines-jahres/100263692.html"
   },
   {
    "id": "25a45c39fc98",
@@ -812,11 +889,6 @@
      "source": "Tagesspiegel Wirtschaft",
      "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-technologiekonferenz-gtc-nvidia-chef-huang-sieht-europa-als-ki-schlusselakteur-16184138.html",
      "paywall": true
-    },
-    {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/digital/internet/2026-10/nvidia-chef-berlin-jensen-huang-computerchips-technologie-europa",
-     "paywall": true
     }
    ]
   },
@@ -862,7 +934,35 @@
    "added": "2026-10-22T07:52:55+02:00",
    "quelle_titel": "Nvidias KI-Rechenzentren aus dem Container sollen in 14 Tagen statt sechs Monaten stehen",
    "url": "https://the-decoder.de/nvidias-ki-rechenzentren-aus-dem-container-sollen-in-14-tagen-statt-sechs-monaten-stehen/",
-   "dup_of": "893ad1bb685b"
+   "also": [
+    {
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/",
+     "paywall": true
+    }
+   ],
+   "kontext": "Vorgestellt wurde das Konzept auf Nvidias Entwicklerkonferenz in Berlin, unter dem Namen DSX POD und mit den kommenden Vera-Rubin-Systemen. Partner wie Dell, HPE, Lenovo und Schneider Electric montieren Rechner, Netzwerktechnik, Stromversorgung und Flüssigkühlung bereits im Werk und testen sie dort. Vor Ort bleibt nur der Anschluss an ein vorbereitetes Gelände. Geschlossene Kühlkreisläufe sollen zudem Wasser sparen, die ersten Einheiten sind für Anfang 2027 angekündigt."
+  },
+  {
+   "id": "c1a485488502",
+   "date": "2026-10-21",
+   "published": "2026-10-21T15:47+02:00",
+   "headline": "Amazon kündigt Milliardeninvestition über 16 Milliarden Euro in Deutschland an",
+   "summary": "Amazon will nach Angaben des Berichts 16 Milliarden Euro in Deutschland investieren. Damit zählt der Konzern zu den größten ausländischen Investoren am deutschen Standort, was vor allem für Cloud und Rechenkapazität Bedeutung hat.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "amazon",
+    "investition",
+    "cloud",
+    "standort deutschland"
+   ],
+   "source": "CRN DE",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-23T01:31:02+02:00",
+   "quelle_titel": "Amazon investiert 16 Milliarden Euro in Deutschland",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeXJIbWpFV3VMams2ZFRBWGFTT25sSXV3eGhMTkpKS3JXT0xjRHN4bEpJYWZQZWRjbzNsdkM1UGppUW1Kdm8zSWlROXAwZGdNaHRRVjMzSndxRDc2OTU3WlRzY3lNZndTVFRzb25WeDhBUk9jWW9ZLUdDYmFjNEw5dnFFOVE0UUk?oc=5"
   },
   {
    "id": "520541248d53",
@@ -998,17 +1098,8 @@
    "paywall": true,
    "quelle_titel": "Jensen Huang’s Vision for Europe Runs on Plug-In Data Centers",
    "url": "https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/",
-   "also": [
-    {
-     "source": "BornCity",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNlBFVlJoR1NqdWxPYjJNclZKeW9GR2xIRGtzSVVOVll2RHhSbDJ2ZXdUUFpiVDJ5LXkycTk5WExFMnVjaWRqNjZqQndGUDU3dnVMTFo2NTdPbk1lSkpYdnBvdkFnVXBldThjS1NuTGdwa0VBRk1TSDJoOHJRaXFabkt4ZS1KMGJZaGFGZjUzTlhzZjdpNm5hLTA5OGw?oc=5"
-    },
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/nvidias-ki-rechenzentren-aus-dem-container-sollen-in-14-tagen-statt-sechs-monaten-stehen/"
-    }
-   ],
-   "kontext": "Das Referenzdesign setzt auf Nvidias Vera-Rubin-Systeme. Partner wie Dell, HPE, Lenovo und Schneider Electric bauen Rechner, Netzwerktechnik, Stromversorgung und Flüssigkühlung bereits im Werk in Container ein und testen sie dort; vor Ort bleibt nur der Anschluss an ein vorbereitetes Gelände. Nvidia argumentiert, dass Betreiber dadurch deutlich früher Geld verdienen, und wirbt mit geschlossenen Kühlkreisläufen, die Wasser sparen. Die ersten Anlagen sollen Anfang 2027 ausgeliefert werden."
+   "kontext": "Das Referenzdesign setzt auf Nvidias Vera-Rubin-Systeme. Partner wie Dell, HPE, Lenovo und Schneider Electric bauen Rechner, Netzwerktechnik, Stromversorgung und Flüssigkühlung bereits im Werk in Container ein und testen sie dort; vor Ort bleibt nur der Anschluss an ein vorbereitetes Gelände. Nvidia argumentiert, dass Betreiber dadurch deutlich früher Geld verdienen, und wirbt mit geschlossenen Kühlkreisläufen, die Wasser sparen. Die ersten Anlagen sollen Anfang 2027 ausgeliefert werden.",
+   "dup_of": "7697a1be84fc"
   },
   {
    "id": "fd385c8d6cef",
@@ -1100,43 +1191,7 @@
    "quelle_titel": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
    "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
    "kontext": "Die NSA warnte öffentlich und riet, nicht sofort patchbare Seiten lieber vom Netz zu nehmen. Die Fehler stecken seit der 2004 erschienenen Version 5 in der Sprache, die einen Großteil aller Websites antreibt, darunter viele Content-Management-Systeme. Entdeckt wurden sie im Rahmen eines OpenAI-Programms für Open-Source-Sicherheit sowie durch Wiz; die PHP Foundation konnte vorab Patches bereitstellen. Angriffe sind bislang nicht bekannt, doch Sprachmodelle senken die Hürde zur Ausnutzung deutlich.",
-   "also": [
-    {
-     "source": "Latent Space",
-     "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program"
-    },
-    {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/digital/internet/2026-10/php-sicherheitsluecke-kuenstliche-intelligenz-forschung-internet",
-     "paywall": true
-    },
-    {
-     "source": "Computerwoche",
-     "url": "https://www.computerwoche.de/article/4238904/php-panik-greift-um-sich-das-raten-experten.html"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/php2shell-ai-bug-hunting-maintenance-challenge/"
-    },
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-wir-erleben-einen-wendepunkt-ki-angriffe-webseiten-offline--was-sie-zur-php-sicherheitslucke-wissen-mussen-16186542.html",
-     "paywall": true
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://www.therundown.ai/articles/ai-finds-a-security-hole-in-70-of-the-web"
-    },
-    {
-     "source": "Süddeutsche Digital",
-     "url": "https://www.sueddeutsche.de/meinung/php-sicherheitsluecke-kuenstliche-intelligenz-software-cybersicherheit-li.3567266",
-     "paywall": true
-    },
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/openais-gpt-5-6-sol-und-gemini-4-argon-entdeckten-die-kritische-php-sicherheitsluecke-die-millionen-webseiten-betrifft/"
-    }
-   ]
+   "dup_of": "80e602df082d"
   },
   {
    "id": "14f13252070a",
@@ -1159,16 +1214,7 @@
    "quelle_titel": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
    "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
    "kontext": "Hinter dem Schritt steht eine Vereinbarung zwischen Google und OpenAI: Die Modelle laufen auf Google-Infrastruktur, werden über den Cloud-Marktplatz abgerechnet und lassen sich auf bestehende Verträge anrechnen. Damit versammelt als einziger großer Anbieter eine Plattform Gemini, Claude und die GPT-Reihe, zunächst in einer privaten Vorschau für ausgewählte Firmenkunden. Microsoft bleibt OpenAIs wichtigster Cloud-Partner. Intern stärkt Google so die Rivalen des eigenen Gemini-Teams.",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/google-cloud-bietet-als-erster-anbieter-gemini-claude-und-openai-modelle-auf-einer-plattform-an/"
-    },
-    {
-     "source": "OpenAI",
-     "url": "https://openai.com/index/openai-models-google-cloud"
-    }
-   ]
+   "dup_of": "e01c8e5f57bd"
   },
   {
    "id": "c722db5f4d79",
@@ -1252,20 +1298,16 @@
      "url": "https://www.golem.de/news/ki-agent-claude-duet-arbeitet-waehrend-nutzer-offline-sind-2610-214386.html"
     },
     {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/new-claude-duet-works-while-your-phone-s-off/"
-    },
-    {
      "source": "t3n",
      "url": "https://t3n.de/news/anthropic-claude-duet-1769375"
     },
     {
      "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/claude-duet-work-human-review/"
+     "url": "https://www.theneuron.ai/newsletter/new-claude-duet-works-while-your-phone-s-off/"
     },
     {
-     "source": "TLDR AI",
-     "url": "https://tldr.tech/ai/2026-10-22"
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/claude-duet-work-human-review/"
     }
    ]
   },
@@ -1325,17 +1367,16 @@
      "url": "https://www.cio.de/article/4238928/meta-investiert-mindestens-135-milliarden-dollar-in-ki.html"
     },
     {
-     "source": "AD HOC NEWS",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSjZCUGwyVkw0ay1mUmJxd25hVjItS1IwN2pncm1XLWU5TmFndnJWS09ad043c3RQYXVGLWFMZG8wVkp0TjhnNVI4bG1hQm9lN1RCYXVjWkFSZ1psOS1oTDVrMGxyTTlES3NldXJwbU9RVWk0SGl5aWQ1TEtqaE1tNVo1UEc1N0RjNUR5VnRLVWcwVUI5dThydkphcldiVVRGUEJURVBZaEx3UQ?oc=5"
-    },
-    {
      "source": "stern Digital",
      "url": "https://www.stern.de/digital/kuenstliche-intelligenz--meta-investiert-mindestens-135-milliarden-dollar-in-ki-38433160.html"
     },
     {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-meta-investiert-mindestens-135-milliarden-dollar-in-ki-16186484.html",
-     "paywall": true
+     "source": "AD HOC NEWS",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSjZCUGwyVkw0ay1mUmJxd25hVjItS1IwN2pncm1XLWU5TmFndnJWS09ad043c3RQYXVGLWFMZG8wVkp0TjhnNVI4bG1hQm9lN1RCYXVjWkFSZ1psOS1oTDVrMGxyTTlES3NldXJwbU9RVWk0SGl5aWQ1TEtqaE1tNVo1UEc1N0RjNUR5VnRLVWcwVUI5dThydkphcldiVVRGUEJURVBZaEx3UQ?oc=5"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Meta-Platforms-erhoeht-Ausgaben-deutlich-aber-verdreifacht-Nettogewinn-11496284.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     }
    ]
   },
@@ -1608,6 +1649,29 @@
    "url": "https://www.computerwoche.de/article/4237120/software-ist-bald-nichts-mehr-wert.html"
   },
   {
+   "id": "5da20808983f",
+   "date": "2026-10-21",
+   "published": "2026-10-21T07:00+02:00",
+   "headline": "Android AppFunctions macht App-Funktionen für KI-Agenten nutzbar",
+   "summary": "Die Android-Plattform-API AppFunctions erlaubt es Anwendungen, eigene Funktionen und Daten maschinenlesbar bereitzustellen, sodass KI-Agenten sie finden und ansteuern können. Der Beitrag zeigt den praktischen Einsatz und ordnet die Schnittstelle im Umfeld des Model Context Protocol ein.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "android",
+    "ki-agenten",
+    "mcp",
+    "entwicklung"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-23T01:31:02+02:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "heise+ | MCP für Android-Apps: Android AppFunctions im praktischen Einsatz",
+   "url": "https://www.heise.de/ratgeber/MCP-fuer-Android-Apps-Android-AppFunctions-im-praktischen-Einsatz-11493658.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
+  },
+  {
    "id": "27ced8676a26",
    "date": "2026-10-21",
    "published": "2026-10-21T07:01+02:00",
@@ -1649,6 +1713,27 @@
    "quelle_titel": "SpaceX: Vom Milliardenverlust zum Milliardengewinn",
    "url": "https://www.heise.de/news/Musks-SpaceX-mit-Milliarden-Quartalsgewinn-11494958.html",
    "dup_of": "4e839948c5b0"
+  },
+  {
+   "id": "34ba932814d5",
+   "date": "2026-10-21",
+   "published": "2026-10-21T07:25+02:00",
+   "headline": "SpaceX schreibt dank KI-Rechenzentren und Starlink erstmals Milliardengewinn",
+   "summary": "SpaceX hat nach Jahren mit hohen Verlusten die Gewinnzone erreicht. Als Treiber nennt der Bericht Einnahmen aus dem Satellitendienst Starlink und aus dem Geschäft mit KI-Rechenzentren, was zeigt, wie stark der KI-Infrastrukturboom inzwischen auf andere Branchen durchschlägt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "spacex",
+    "rechenzentren",
+    "starlink",
+    "geschäftszahlen"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-23T01:31:02+02:00",
+   "quelle_titel": "SpaceX: Vom Milliardenverlust zum Milliardengewinn",
+   "url": "https://www.heise.de/news/Musks-SpaceX-mit-Milliarden-Quartalsgewinn-11494958.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
    "id": "c74f6a8c8116",
@@ -2055,6 +2140,28 @@
    "added": "2026-10-22T13:13:00+02:00",
    "quelle_titel": "Nvidia will KI-Agenten per Hardware überwachen",
    "url": "https://www.heise.de/hintergrund/Nvidia-will-KI-Agenten-per-Hardware-ueberwachen-11494932.html"
+  },
+  {
+   "id": "b9cd2799037c",
+   "date": "2026-10-21",
+   "published": "2026-10-21T15:23+02:00",
+   "headline": "FAZ sieht Europa im Zugzwang gegenüber Meta, Google und Amazon",
+   "summary": "Ein Beitrag der FAZ argumentiert, dass Europa gegenüber den großen US-Technologiekonzernen Meta, Google und Amazon zügig handeln müsse. Im Kern geht es um die Frage, wie sich europäische Souveränität und Wettbewerbsfähigkeit gegenüber den dominierenden Plattformen sichern lassen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "big tech",
+    "europa",
+    "digitale souveränität",
+    "regulierung"
+   ],
+   "source": "FAZ",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-23T01:31:02+02:00",
+   "paywall": true,
+   "quelle_titel": "Meta, Google und Amazon: Warum Europa jetzt handeln muss",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTU0tOTBEMXlwWXhzUHRzV1o3cVVNRzZINEVnQmxkX3hGWmMtNVpURUotd19jLXk0Vi1uMDZkck80d2tQZzJnRUo4VWpWdFFrTXdtRzZxdFRkZi15VS16NFBhOHhYU3o1UWphWWs5czNTSFNET2U4SlZDSWZzd0ZucC1CdEhDRWxEMGtGVFR2MVFkek5sbXV5TjJkY29kUmV5UXRTMkNscklicXVkZklYRHlnS29DcFIwaHRmQw?oc=5"
   },
   {
    "id": "998c8ab9903e",

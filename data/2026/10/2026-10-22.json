@@ -1,38 +1,38 @@
 {
  "date": "2026-10-22",
- "generated_at": "2026-10-23T00:15:22+02:00",
+ "generated_at": "2026-10-23T01:37:48+02:00",
  "overview": [
   {
    "id": "4b62e3d18917",
-   "text": "Die EU-Staaten wollen mit dem Daten-Omnibus personenbezogene Daten leichter für KI-Training freigeben und senken damit das Datenschutzniveau."
+   "text": "Die EU-Staaten haben sich auf den Daten-Omnibus geeinigt und wollen personenbezogene Daten künftig leichter für das Training von KI-Modellen freigeben."
+  },
+  {
+   "id": "d1b19037538a",
+   "text": "Nach dem Einbruch beim IT-Dienstleister ConnectWise spähte eine mutmaßlich China-nahe Gruppe laut Microsoft tausende Kunden mithilfe von KI-Agenten aus."
   },
   {
    "id": "6690b91343cf",
-   "text": "Laut einer Gartner-Umfrage unter rund 2000 IT-Verantwortlichen sehen nur 13 Prozent der Unternehmen einen messbaren Geschäftswert ihrer KI-Ausgaben."
-  },
-  {
-   "id": "b3730e6fce64",
-   "text": "Barclays streicht rund 5000 Stellen und begründet den Abbau unter anderem mit Produktivitätsgewinnen aus umfangreichen KI-Investitionen."
+   "text": "Laut einer Gartner-Umfrage unter rund 2000 IT-Verantwortlichen sehen nur 13 Prozent der Firmen echten Geschäftswert in ihren KI-Ausgaben."
   },
   {
    "id": "fed07794acf0",
-   "text": "Das IAB sieht keinen flächendeckenden Jobverlust durch KI, warnt aber, dass vor allem Einstiegsjobs für Berufsanfänger unter Druck geraten."
-  },
-  {
-   "id": "bb532a1b75c1",
-   "text": "Symantec beschreibt einen Angriffs-Agenten, der offen erreichbare Sprachmodelle kapert und mit deren Rechenleistung selbstständig Server angreift."
-  },
-  {
-   "id": "19ab544a300e",
-   "text": "SAP verbucht dank starkem Cloudgeschäft gute Quartalszahlen und bestätigt damit den konsequent auf KI ausgerichteten Konzernumbau."
+   "text": "Das IAB erwartet keinen breiten Jobverlust durch KI, sieht aber den Berufseinstieg gefährdet, weil Junioraufgaben besonders leicht automatisierbar sind."
   },
   {
    "id": "cc012b1e3b75",
-   "text": "Anthropic übergibt den offenen Standard Agent Skills an die Agentic AI Foundation, den bereits mehr als 70 Plattformen übernommen haben."
+   "text": "Anthropic übergibt den Standard Agent Skills an die Agentic AI Foundation, den bereits über 70 Plattformen wie ChatGPT und GitHub Copilot nutzen."
+  },
+  {
+   "id": "f5e53c266a8f",
+   "text": "SAP und NVIDIA entwickeln eine gemeinsame Ausführungsschicht, die KI-Agenten in Unternehmenssystemen nachvollziehbar und kontrollierbar machen soll."
   },
   {
    "id": "df14e2db08e1",
-   "text": "Nur etwa 15 Prozent der Unternehmen setzen KI in der Weiterbildung ein, obwohl simulierte Gespräche Führungskräfte auf schwierige Situationen vorbereiten."
+   "text": "Nur etwa 15 Prozent der Unternehmen nutzen KI in der Weiterbildung, obwohl Gesprächssimulationen Führungskräfte auf schwierige Situationen vorbereiten."
+  },
+  {
+   "id": "3d3518948126",
+   "text": "OpenAI, PerturbAI und Scripps Research ließen tausende KI-Agenten Daten aus Millionen Mauszellen auswerten, fertig war die Analyse nach 32 Minuten."
   }
  ],
  "items": [
@@ -80,7 +80,7 @@
    "quelle_titel": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
    "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
    "kontext": "Hinter dem Fund steht ein Förderprogramm, mit dem OpenAI Sicherheitsforschern den Zugang zu seinen Cyber-Modellen bezuschusst. Die Fehler stecken nicht in einem Plugin, sondern in der PHP-Engine selbst, nämlich im Umgang mit Speichernot und Abbruchfehlern; gezeigt wurden Angriffe auf WordPress, Drupal und Joomla ohne Anmeldung. Unabhängig davon stieß auch der inzwischen zu Google Cloud gehörende Anbieter Wiz mit einem Gemini-Modell darauf. Ob die Tragweite an Heartbleed heranreicht, ist in der Szene umstritten.",
-   "dup_of": "a61190ef2d92"
+   "dup_of": "80e602df082d"
   },
   {
    "id": "847e2055cdac",
@@ -128,7 +128,7 @@
    "paywall": true,
    "quelle_titel": "PHP-Sicherheitslücke: Diese Sicherheitslücke war nie ein echtes Problem. Dann kam KI",
    "url": "https://www.zeit.de/digital/internet/2026-10/php-sicherheitsluecke-kuenstliche-intelligenz-forschung-internet",
-   "dup_of": "a61190ef2d92"
+   "dup_of": "80e602df082d"
   },
   {
    "id": "6690b91343cf",
@@ -154,6 +154,28 @@
    "kontext": "Die Erhebung stellte Gartner auf seiner IT-Konferenz in Orlando vor. Befragt wurden IT-Chefs, die vielfach Sparziele erfüllen sollen, während viele gerade einen Anstieg der Betriebskosten erwarten. Die Analysten beschreiben eine Lücke zwischen dem Innovationstempo der Anbieter und dem Ergebnisdruck in den Unternehmen. Erfolgreich seien Firmen, die aussichtslose Projekte früh beenden und einplanen, wie sich Arbeitsrollen durch Agenten verändern. Aus der Wirtschaft kommt aber auch der Einwand, es sei für eine Bilanz zu früh."
   },
   {
+   "id": "d1b19037538a",
+   "date": "2026-10-22",
+   "published": "2026-10-22T18:47+02:00",
+   "headline": "KI-Agenten im Angriff: Tausende Firmen nach ConnectWise-Einbruch ausspioniert",
+   "summary": "Nach einem Einbruch beim IT-Dienstleister ConnectWise wurden laut Microsoft tausende Kundenunternehmen ausgespäht. Verantwortlich sei eine mutmaßlich China-nahe Gruppe, die KI-Agenten einsetzte, um die Angriffe in hohem Tempo zu skalieren. Der Fall zeigt, wie Angreifer Automatisierung für Lieferketten nutzen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "cybersicherheit",
+    "ki-agenten",
+    "connectwise",
+    "spionage"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-23T01:29:32+02:00",
+   "quelle_titel": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+   "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+   "kontext": "Die Angreifer kamen über den Cloud-Backup-Dienst des Anbieters hinein und stahlen Zugangsdaten, mit denen sie sich in den Microsoft-Umgebungen der Kunden als legitime Nutzer ausgeben und Mails sowie Dateien einsehen konnten. Genutzt wurde ein offenes KI-Framework, das eigentlich zum Testen von Abwehrmaßnahmen gedacht ist und hier tausende Anmeldeversuche pro Minute erzeugte. Dieselbe Software fiel zuvor bei Angriffen auf südkoreanische Finanzsysteme auf. ConnectWise hat den Dienst vorerst angehalten."
+  },
+  {
    "id": "4b62e3d18917",
    "date": "2026-10-22",
    "published": "2026-10-22T19:21+02:00",
@@ -174,13 +196,13 @@
    "added": "2026-10-23T00:05:13+02:00",
    "quelle_titel": "EU-Länder einig beim Daten-Omnibus: Mehr KI-Training, weniger Datenschutz",
    "url": "https://netzpolitik.org/2026/eu-laender-einig-beim-daten-omnibus-mehr-ki-training-weniger-datenschutz/",
+   "kontext": "Hinter dem Paket steht die Deregulierungsagenda der EU-Kommission, die Datenregeln entschlacken und überlappende Vorgaben zusammenführen will. Den Vorschlag einer zentralen Tracking-Einstellung im Browser kippten die Mitgliedstaaten und erweiterten stattdessen die Ausnahmen von der Zustimmungspflicht. Deutschland, Österreich und Estland stimmten gegen die Position, Teilen der Wirtschaft geht sie beim KI-Training dagegen nicht weit genug. Zivilgesellschaft und Gewerkschaften warnen vor einem Rückschritt bei digitalen Grundrechten. Der Trilog folgt, sobald das Parlament seine Linie festgelegt hat.",
    "also": [
     {
      "source": "eco Verband",
      "url": "https://www.eco.de/presse/eco-zum-digital-omnibus-europa-laesst-zentrale-ki-huerden-bestehen/"
     }
-   ],
-   "kontext": "Hinter dem Paket steht die Deregulierungsagenda der EU-Kommission, die Datenregeln entschlacken und überlappende Vorgaben zusammenführen will. Den Vorschlag einer zentralen Tracking-Einstellung im Browser kippten die Mitgliedstaaten und erweiterten stattdessen die Ausnahmen von der Zustimmungspflicht. Deutschland, Österreich und Estland stimmten gegen die Position, Teilen der Wirtschaft geht sie beim KI-Training dagegen nicht weit genug. Zivilgesellschaft und Gewerkschaften warnen vor einem Rückschritt bei digitalen Grundrechten. Der Trilog folgt, sobald das Parlament seine Linie festgelegt hat."
+   ]
   },
   {
    "id": "c777cca0670d",
@@ -246,7 +268,8 @@
    "source_id": "openai",
    "added": "2026-10-23T00:09:00+02:00",
    "quelle_titel": "Uber brings ChatGPT Work to all employees with OpenAI",
-   "url": "https://openai.com/index/uber-chatgpt-work-rollout"
+   "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+   "dup_of": "2e9a4426b964"
   },
   {
    "id": "a77ff7b6e70e",
@@ -269,7 +292,12 @@
    "paywall": true,
    "quelle_titel": "„Wir erleben einen Wendepunkt“: KI-Angriffe, Webseiten offline, was Sie zur PHP-Sicherheitslücke wissen müssen",
    "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-wir-erleben-einen-wendepunkt-ki-angriffe-webseiten-offline--was-sie-zur-php-sicherheitslucke-wissen-mussen-16186542.html",
-   "dup_of": "a61190ef2d92"
+   "also": [
+    {
+     "source": "Computerwoche",
+     "url": "https://www.computerwoche.de/article/4238904/php-panik-greift-um-sich-das-raten-experten.html"
+    }
+   ]
   },
   {
    "id": "7d838bc45b95",
@@ -320,7 +348,7 @@
    "added": "2026-10-22T07:47:37+02:00",
    "quelle_titel": "PHP2Shell Exposes the Maintenance Challenge Behind AI Bug Hunting",
    "url": "https://www.theneuron.ai/news/php2shell-ai-bug-hunting-maintenance-challenge/",
-   "dup_of": "a61190ef2d92"
+   "dup_of": "80e602df082d"
   },
   {
    "id": "18a123f31517",
@@ -343,7 +371,8 @@
    "added": "2026-10-22T07:48:22+02:00",
    "praxis": true,
    "quelle_titel": "4 Tools für Spec-Driven Development",
-   "url": "https://www.computerwoche.de/article/4175182/4-tools-fur-spec-driven-development.html"
+   "url": "https://www.computerwoche.de/article/4175182/4-tools-fur-spec-driven-development.html",
+   "kontext": "Spec-Driven Development dreht die Reihenfolge um: Erst entsteht eine überprüfbare Spezifikation, dann generiert das Modell dagegen Code. Der Ansatz setzt nicht auf bessere Sprachmodelle, sondern auf Prozess und Werkzeuge im Team. Hintergrund ist die Erfahrung, dass ungeprüfte KI-Ausgaben später teuer nachgearbeitet werden müssen. Der versprochene Gewinn liegt damit weniger im Tippen als in der Kontrolle über das Ergebnis."
   },
   {
    "id": "04b5a78f2bad",
@@ -716,7 +745,7 @@
    "praxis": true,
    "quelle_titel": "PHP-Panik greift um sich, das raten Experten",
    "url": "https://www.computerwoche.de/article/4238904/php-panik-greift-um-sich-das-raten-experten.html",
-   "dup_of": "a61190ef2d92"
+   "dup_of": "a77ff7b6e70e"
   },
   {
    "id": "ce414b8ea4ad",
@@ -840,7 +869,12 @@
    "quelle_titel": "OpenAI-Agenten werten Mausgehirn-Daten in 32 Minuten aus, Menschen bräuchten Monate",
    "url": "https://the-decoder.de/openai-agenten-werten-mausgehirn-daten-in-32-minuten-aus-menschen-braeuchten-monate/",
    "kontext": "Angetrieben von GPT-Rosalind bearbeitete jeder Agent eine einzelne Genstörung, prüfte die zellulären Reaktionen und durchsuchte Fachliteratur nach Erklärungen. Grundlage war ein Atlas, der zeigt, wie Genveränderungen einzelne Zelltypen im Mausgehirn beeinflussen. Herausgekommen sind Hinweise auf Unterschiede zwischen krankheitsrelevanten Genen und auf einen möglichen Bezug von Cholesterinregulierung zu Neurodegeneration. Fachleute zogen in Blindvergleichen die Berichte des verteilten Schwarms meist denen eines Einzelagenten vor.",
-   "dup_of": "1de8e62ff715"
+   "also": [
+    {
+     "source": "OpenAI",
+     "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data"
+    }
+   ]
   },
   {
    "id": "9fd058f94638",
@@ -886,7 +920,7 @@
    "kurios": "Eine einzige Schwachstelle soll fast drei Viertel aller Websites betreffen.",
    "quelle_titel": "AI finds a security hole in 70% of the web",
    "url": "https://www.therundown.ai/articles/ai-finds-a-security-hole-in-70-of-the-web",
-   "dup_of": "a61190ef2d92"
+   "dup_of": "80e602df082d"
   },
   {
    "id": "de0f97b93c55",
@@ -956,6 +990,28 @@
    "quelle_titel": "Cognitive Offloading: Wie KI das Urteilsvermögen von Führungskräften untergräbt",
    "url": "https://t3n.de/news/cognitive-offloading-wie-ki-das-urteilsvermoegen-von-fuehrungskraeften-untergraebt-1769444",
    "kontext": "Die Befunde stammen aus einer Umfrage des Forschungs- und Medienunternehmens Charter unter mehr als 5.000 berufstätigen KI-Nutzenden in den USA. Auffällig ist die Kluft zwischen den Ebenen: Führungskräfte halten sich für deutlich kompetenter im Umgang mit der Technik und sehen häufiger Vorteile für Arbeit und Privatleben als ihre Beschäftigten. Die Forschenden vermuten einen sich verstärkenden Kreislauf, weil gerade Vielnutzende besonders überzeugt sind. Ähnliche Effekte wurden zuvor bei Schülerinnen und Schülern untersucht."
+  },
+  {
+   "id": "12836cd016a8",
+   "date": "2026-10-22",
+   "published": "2026-10-22T13:12+02:00",
+   "headline": "Nvidia macht KI-Software für Rechenzentren kostenpflichtig",
+   "summary": "Nvidia will seine bislang gratis verfügbare Software für KI-Systeme künftig lizenzieren und damit ein zweites Geschäftsfeld neben der Hardware aufbauen. Für Betreiber von Rechenzentren und KI-Infrastruktur können dadurch neue laufende Kosten entstehen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "lizenzen",
+    "rechenzentren",
+    "ki-infrastruktur"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-23T01:30:25+02:00",
+   "quelle_titel": "Für Rechenzentren: Nvidia will mehr Geld mit Software-Lizenzen verdienen",
+   "url": "https://www.golem.de/news/fuer-rechenzentren-nvidia-will-mehr-geld-mit-software-lizenzen-verdienen-2610-214389.html",
+   "kontext": "Bislang war die mitgelieferte Software ein Argument für Nvidia-Hardware, nun soll sie selbst Erlöse bringen. Für das Unternehmen entsteht so eine zweite, wiederkehrende Einnahmequelle neben dem Verkauf von Beschleunigern. Betreiber großer KI-Installationen müssen anders rechnen, weil aus einer Einmalinvestition dauerhafte Gebühren werden. Das verschiebt auch die Abwägung, wie stark man sich an ein einzelnes Ökosystem bindet."
   },
   {
    "id": "a7eaf7d0a10b",
@@ -1045,13 +1101,29 @@
    "added": "2026-10-23T00:08:28+02:00",
    "quelle_titel": "Marktbericht: SAP-Umbau trägt Früchte",
    "url": "https://www.tagesschau.de/wirtschaft/finanzen/sap-mittags-mb-100.html",
-   "also": [
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/it-internet/software-wie-viel-verdient-sap-mit-kuenstlicher-intelligenz-herr-klein/100262119.html",
-     "paywall": true
-    }
-   ]
+   "dup_of": "9fcdf56dc9e5"
+  },
+  {
+   "id": "9aa9e3996025",
+   "date": "2026-10-22",
+   "published": "2026-10-22T15:21+02:00",
+   "headline": "Microsoft wirbt in Köln für kontrollierbare KI und souveräne Cloud",
+   "summary": "Auf der Frontier Tour in Köln zeigte Microsoft ein breites Bündel neuer KI-Produkte. Im Zentrum standen die Steuerbarkeit und Kontrolle von KI-Anwendungen sowie das Thema Cloud-Souveränität, mit dem der Konzern gezielt europäische Bedenken adressiert.",
+   "thema": "Modelle und Produkte",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "microsoft",
+    "cloud-souveränität",
+    "ki-produkte",
+    "governance"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-10-23T01:30:25+02:00",
+   "quelle_titel": "Microsoft Frontier Tour: KI ist wie der Kölner Dom, eine Vision",
+   "url": "https://www.heise.de/news/Microsoft-Frontier-Tour-KI-ist-wie-der-Koelner-Dom-eine-Vision-11496656.html",
+   "dup_of": "92c59c7363f6"
   },
   {
    "id": "b843b66ea3d0",
@@ -1097,7 +1169,8 @@
    "added": "2026-10-23T00:07:43+02:00",
    "quelle_titel": "Neue AGB von Meta: Verlage fordern EU-Stopp wegen KI-Scraping",
    "url": "https://www.heise.de/news/Neue-AGB-von-Meta-Verlage-fordern-EU-Stopp-wegen-KI-Scraping-11497167.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Meta will Ende Oktober die kommerziellen Bedingungen für Geschäftskonten ändern und könnte dann verlinkte Webseiten und Archive automatisiert auswerten. Der Verlegerverband EPC sowie BDZV und MVFP sehen darin einen Verstoß gegen den Digital Markets Act, der Gatekeeper zu faieren Zugangsbedingungen verpflichtet. Ihr Kernargument: Wer einen Link teilt, kann damit keine kommerziellen Verwertungsrechte an redaktionellen Inhalten abtreten. Eine Ausnahme allein für KI-Training reicht den Verbänden nicht."
+   "kontext": "Meta will Ende Oktober die kommerziellen Bedingungen für Geschäftskonten ändern und könnte dann verlinkte Webseiten und Archive automatisiert auswerten. Der Verlegerverband EPC sowie BDZV und MVFP sehen darin einen Verstoß gegen den Digital Markets Act, der Gatekeeper zu faieren Zugangsbedingungen verpflichtet. Ihr Kernargument: Wer einen Link teilt, kann damit keine kommerziellen Verwertungsrechte an redaktionellen Inhalten abtreten. Eine Ausnahme allein für KI-Training reicht den Verbänden nicht.",
+   "dup_of": "c744e4ea5afb"
   },
   {
    "id": "f7aa6d71265d",
@@ -1147,11 +1220,6 @@
      "source": "Handelsblatt Technologie",
      "url": "https://www.handelsblatt.com/technik/ki/ki-tech-konzerne-sammeln-27-billionen-dollar-schattenverschuldung-an/100262818.html",
      "paywall": true
-    },
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/ki/ki-boom-konzerne-haeufen-27-billionen-dollar-schattenverschuldung-an/100262818.html",
-     "paywall": true
     }
    ]
   },
@@ -1198,13 +1266,13 @@
    "added": "2026-10-23T00:06:48+02:00",
    "quelle_titel": "Recursive zeigt mit Flint erstes Ergebnis seines KI-gestützten Forschungsprozesses",
    "url": "https://the-decoder.de/recursive-zeigt-mit-flint-erstes-ergebnis-seines-ki-gestuetzten-forschungsprozesses/",
+   "kontext": "Hinter Recursive steht Richard Socher, früher Chefwissenschaftler bei Salesforce; das Unternehmen kam im Mai mit einer Milliardenbewertung und Kapital unter anderem von Nvidia und AMD aus der Verborgenheit. Flint liegt unter Apache-2.0-Lizenz auf Hugging Face und läuft lokal, was Offline-Arbeit, vertraulichen Code und entfallende Nutzungsgebühren ermöglicht. Die Vorstellung, dass KI bessere KI baut, zählt zu den umstrittensten Ideen der Branche. Für größere Aufgaben rät Recursive selbst zu kleineren Teilschritten.",
    "also": [
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
     }
-   ],
-   "kontext": "Hinter Recursive steht Richard Socher, früher Chefwissenschaftler bei Salesforce; das Unternehmen kam im Mai mit einer Milliardenbewertung und Kapital unter anderem von Nvidia und AMD aus der Verborgenheit. Flint liegt unter Apache-2.0-Lizenz auf Hugging Face und läuft lokal, was Offline-Arbeit, vertraulichen Code und entfallende Nutzungsgebühren ermöglicht. Die Vorstellung, dass KI bessere KI baut, zählt zu den umstrittensten Ideen der Branche. Für größere Aufgaben rät Recursive selbst zu kleineren Teilschritten."
+   ]
   },
   {
    "id": "9fcdf56dc9e5",
@@ -1227,7 +1295,13 @@
    "paywall": true,
    "quelle_titel": "Software: Wie viel Geld verdient SAP mit Künstlicher Intelligenz, Herr Klein?",
    "url": "https://www.handelsblatt.com/technik/it-internet/software-wie-viel-verdient-sap-mit-kuenstlicher-intelligenz-herr-klein/100262119.html",
-   "dup_of": "19ab544a300e"
+   "also": [
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/finanzen/sap-mittags-mb-100.html"
+    }
+   ],
+   "kontext": "Der Softwarekonzern aus Walldorf hat sein Geschäft in den vergangenen Jahren stark umgebaut und die Cloud ins Zentrum gestellt. Im dritten Quartal zog das Wachstum dort nach einer Schwächephase wieder an, die Nachfrage blieb solide, und die Börse reagierte positiv. Offen bleibt, welcher Anteil davon tatsächlich auf KI-Funktionen zurückgeht. Genau diese Aufschlüsselung will Klein künftig liefern, womit SAP zum Testfall für die Frage wird, ob KI bereits Umsatz trägt."
   },
   {
    "id": "b83e42a21738",
@@ -1248,7 +1322,8 @@
    "source_id": "golem",
    "added": "2026-10-23T00:06:48+02:00",
    "quelle_titel": "Johannes Schätzl: SPD-Digitalpolitiker kritisiert nach PHP-Lücke das BSI",
-   "url": "https://www.golem.de/news/johannes-schaetzl-spd-digitalpolitiker-kritisiert-nach-php-luecke-das-bsi-2610-214409.html"
+   "url": "https://www.golem.de/news/johannes-schaetzl-spd-digitalpolitiker-kritisiert-nach-php-luecke-das-bsi-2610-214409.html",
+   "kontext": "Auslöser ist eine einzelne Schwachstelle, der Vorwurf zielt aber auf die Struktur. Nicht das Schließen von Lücken selbst steht infrage, sondern ob ein nachlaufendes Verfahren dem Tempo automatisierter Angriffe noch gewachsen ist. Dass die Forderung von einem Informatiker mit politischem Mandat kommt, verleiht ihr Gewicht. Damit rückt wieder die alte Frage ins Zentrum, welche Befugnisse und Mittel das BSI eigentlich braucht."
   },
   {
    "id": "81434c66a3aa",
@@ -1272,6 +1347,28 @@
    "paywall": true,
    "quelle_titel": "Arbeitsrecht: Kann mein Chef mich zwingen, KI zu nutzen?",
    "url": "https://www.wiwo.de/erfolg/beruf/ki-am-arbeitsplatz-darf-der-chef-die-nutzung-vorschreiben/100260732.html"
+  },
+  {
+   "id": "dda44f234017",
+   "date": "2026-10-22",
+   "published": "2026-10-22T17:07+02:00",
+   "headline": "Nadella in Köln: Microsoft umwirbt das Vertrauen deutscher Kunden",
+   "summary": "Microsoft-Chef Satya Nadella war in Köln zu Gast und warb dort um das Vertrauen deutscher Kunden. Im Mittelpunkt steht die Frage, wie der Konzern seine Position bei Cloud und KI im deutschen Markt festigen will.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "microsoft",
+    "nadella",
+    "deutschland",
+    "cloud"
+   ],
+   "source": "RP Online",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-23T01:29:32+02:00",
+   "quelle_titel": "Satya Nadella in Köln: Microsoft wirbt um Vertrauen deutscher Kunden",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc3JNd1VBV252N3hzVEc0U2xST0lrY3NKY3g1d2JFOHdqaXJOYnFfQmQwUGRmYUFvY3gzY2ZSX3lISGVIMkhkd1ZsWW1XTmZ4UGFYZkhTREs2d3FRN2pYLVhsd3JlVnVadk1EcEtJVDdtbE0wbVdkcHRqWGptOU84ZnRFLVR0eFByV0trVTF3VWUyd1FkVzllS2xkQmhOUFI2U2tycWZEeXkya0ZqRFA1OUs5aG9CUVVXZUV5Z2NWaENZbXdv?oc=5",
+   "dup_of": "92c59c7363f6"
   },
   {
    "id": "75e170524f7e",
@@ -1316,6 +1413,35 @@
    "quelle_titel": "KI-Texte besser erkennen: ChatGPT führt unsichtbare Wasserzeichen ein",
    "url": "https://www.basicthinking.de/blog/2026/10/22/ki-chatgpt-wasserzeichen/",
    "dup_of": "7d838bc45b95"
+  },
+  {
+   "id": "2e9a4426b964",
+   "date": "2026-10-22",
+   "published": "2026-10-22T18:00+02:00",
+   "headline": "Uber rollt ChatGPT Work an alle 30.000 Beschäftigten aus",
+   "summary": "Uber stellt seiner gesamten Belegschaft von rund 30.000 Mitarbeitenden ChatGPT Work zur Verfügung. Zuvor hatte der Fahrdienstvermittler die Unternehmensversion nur in einem deutlich kleineren Pilotprojekt getestet. Der Schritt zeigt, wie schnell große Konzerne von Tests zu flächendeckenden KI-Einführungen übergehen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "uber",
+    "chatgpt",
+    "enterprise",
+    "einführung"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-23T01:29:32+02:00",
+   "quelle_titel": "Uber puts all 30,000 employees on ChatGPT Work",
+   "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+   "also": [
+    {
+     "source": "OpenAI",
+     "url": "https://openai.com/index/uber-chatgpt-work-rollout"
+    }
+   ],
+   "kontext": "Der Pilot lief zunächst mit rund tausend Beschäftigten quer durch Finanzen, Betrieb und Produkt, wobei die große Mehrheit aus nicht technischen Rollen kam. Genutzt wurde das Werkzeug etwa für Datenauswertungen, übersetzte Schulungsunterlagen und eigene Dashboards. Vorgaben zur Nutzung macht Uber bewusst kaum, man will beobachten, welche Arbeitsabläufe entstehen. Für OpenAI ist der Ausbau des Geschäftskundensegments zentral, weil dort vor allem Anthropic konkurriert."
   },
   {
    "id": "d9ae639722a9",
@@ -1386,6 +1512,28 @@
    "kontext": "Technisch erhält jeder Agent eine schlanke virtuelle Maschine, die über Googles eigenen Titanium-Chip hardwareseitig abgeschottet wird, bei Leerlauf pausiert und Arbeitsspeicher mit anderen teilt. Der Dienst betreibt bereits Gemini und soll in den kommenden Monaten als Vorschau öffnen. Daneben gibt Google mit Agent Substrate eine quelloffene Variante auf Kubernetes frei. Die Steuerung reicht nun von der Cloud bis aufs Endgerät, samt Kostenkontrolle und Anmeldung über externe Identitätsanbieter."
   },
   {
+   "id": "7bc6770bad95",
+   "date": "2026-10-22",
+   "published": "2026-10-22T20:00+02:00",
+   "headline": "Microsoft beansprucht KI-Diagnose mit vierfacher Trefferquote von Ärzten",
+   "summary": "Microsoft stellt ein KI-Werkzeug für medizinische Diagnosen vor und gibt an, es arbeite bis zu viermal genauer als menschliche Ärzte. KI-Chef Mustafa Suleyman sieht den lange versprochenen Durchbruch im Gesundheitsbereich damit erreicht. Unabhängige Belege für die Wirksamkeit im Praxisalltag stehen noch aus.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "microsoft",
+    "gesundheit",
+    "diagnose",
+    "suleyman"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-23T01:29:32+02:00",
+   "quelle_titel": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+   "dup_of": "d26ae9b2d9ce"
+  },
+  {
    "id": "1366ffbcd01d",
    "date": "2026-10-22",
    "published": "2026-10-22T20:15+02:00",
@@ -1430,7 +1578,13 @@
    "added": "2026-10-23T00:05:13+02:00",
    "quelle_titel": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
    "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
-   "kontext": "Hinter dem System steckt ein Verbund mehrerer Agenten, die wie ein Ärzteteam nachfragen, Tests anordnen und über die Diagnose diskutieren. Geprüft wurde es an besonders schweren Fallbeschreibungen aus einer Fachzeitschrift, verglichen allerdings nur mit einzelnen Allgemeinmedizinern und nicht mit Spezialistenteams. Die stärksten Resultate lieferten fremde Modelle von OpenAI. Microsoft reiht sich damit neben Google und OpenAI ein und entwickelt mit der Mayo Clinic ein eigenes Medizinmodell."
+   "kontext": "Hinter dem System steckt ein Verbund mehrerer Agenten, die wie ein Ärzteteam nachfragen, Tests anordnen und über die Diagnose diskutieren. Geprüft wurde es an besonders schweren Fallbeschreibungen aus einer Fachzeitschrift, verglichen allerdings nur mit einzelnen Allgemeinmedizinern und nicht mit Spezialistenteams. Die stärksten Resultate lieferten fremde Modelle von OpenAI. Microsoft reiht sich damit neben Google und OpenAI ein und entwickelt mit der Mayo Clinic ein eigenes Medizinmodell.",
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+    }
+   ]
   },
   {
    "id": "7cbc0075ea58",
@@ -1497,13 +1651,13 @@
    "added": "2026-10-23T00:04:22+02:00",
    "quelle_titel": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
    "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+   "kontext": "Entscheidungsmodelle arbeiten wie schnelle Klassifizierer: Sie wählen aus vorgegebenen Optionen und geben an, wie sicher sie dabei sind, deutlich günstiger und flinker als ein Sprachmodell. Geprägt hat die Kategorie das Startup TypeSafe, gegründet von einem früheren Forscher eines führenden Labors. OpenAI trainierte kein eigenes Modell, sondern konfigurierte ein bestehendes auf kurze Antwortzeiten im Millisekundenbereich um. In öffentlichen Ranglisten liegen Konkurrenten vorn, bei Entwicklern bleibt Jev bislang am stärksten gefragt.",
    "also": [
     {
      "source": "OpenAI",
      "url": "https://openai.com/index/decisions-api"
     }
-   ],
-   "kontext": "Entscheidungsmodelle arbeiten wie schnelle Klassifizierer: Sie wählen aus vorgegebenen Optionen und geben an, wie sicher sie dabei sind, deutlich günstiger und flinker als ein Sprachmodell. Geprägt hat die Kategorie das Startup TypeSafe, gegründet von einem früheren Forscher eines führenden Labors. OpenAI trainierte kein eigenes Modell, sondern konfigurierte ein bestehendes auf kurze Antwortzeiten im Millisekundenbereich um. In öffentlichen Ranglisten liegen Konkurrenten vorn, bei Entwicklern bleibt Jev bislang am stärksten gefragt."
+   ]
   },
   {
    "id": "fe52d49759b6",
@@ -1526,6 +1680,34 @@
    "quelle_titel": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
    "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
    "kontext": "Technisch bekommt der Agent eine eigene digitale Identität: Beim Anmeldeversuch prüft der Passwortmanager einen Schlüssel, der Mensch bestätigt den Vorgang, anschließend trägt die Software die Zugangsdaten selbst ein. Unterstützt werden Agenten mehrerer Anbieter, darunter Anthropic, OpenAI und Meta. Der Start fällt mit Berichten zusammen, wonach US-Banken Agentenaktivität in Kundenkonten bemerken, aber nicht unterscheiden können, ob sie vom Kontoinhaber gewollt ist."
+  },
+  {
+   "id": "09c9f9d097fb",
+   "date": "2026-10-22",
+   "published": "2026-10-22T23:51+02:00",
+   "headline": "Canva Craft: Bildmodell entwirft erst das Layout, dann das Bild",
+   "summary": "Canva bringt mit Craft ein eigenes Bildgenerierungsmodell und tritt damit gegen Angebote von OpenAI, Microsoft und Google an. Das Modell arbeitet zweistufig und plant das Design, bevor das Bild entsteht. Laut Canva sorgt das für mehr Präzision, Konsistenz und Kontrolle über das Ergebnis.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "canva",
+    "bildgenerierung",
+    "design",
+    "generative ki"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-23T01:29:32+02:00",
+   "quelle_titel": "Canva’s first AI image model plans designs before generating them",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+    }
+   ],
+   "kontext": "Trainiert wurde Craft nicht mit Fotos, sondern mit von Menschen gestalteten Vorlagen aus Canvas eigener Bibliothek, etwa Postern, Präsentationen und typografielastigen Layouts. In der ersten Stufe plant das Modell Anordnung, Größenverhältnisse und Textelemente, erst danach entsteht das Bild. Nutzbar ist es im Dream Lab, über die Schnittstelle und künftig in fremden Chatbots. Eigene Modelle senken zugleich Canvas Kosten für zugekaufte Bildgeneratoren. Expertise kam vom 2024 übernommenen Anbieter Leonardo."
   },
   {
    "id": "3acc865d1f4f",
@@ -1568,8 +1750,29 @@
    "source_id": "tldr-ai",
    "added": "2026-10-23T00:09:00+02:00",
    "quelle_titel": "Claude Duet 🤖, Anthropic API changes 👨‍💻, Recursive’s local model 💻",
-   "url": "https://tldr.tech/ai/2026-10-22",
-   "dup_of": "1f413756a0cb"
+   "url": "https://tldr.tech/ai/2026-10-22"
+  },
+  {
+   "id": "6eda137552a5",
+   "date": "2026-10-22",
+   "published": "2026-10-22T02:00+02:00",
+   "headline": "Anthropic öffnet Forschungsprojekte für Gastwissenschaftler der Biowissenschaften",
+   "summary": "Anthropic ruft Fachleute aus den Life Sciences auf, sich für eine Mitarbeit an speziellen Projekten zu bewerben. Die Gastforschenden sollen gemeinsam mit dem Unternehmen an Fragestellungen an der Schnittstelle von KI und Biowissenschaften arbeiten.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "anthropic",
+    "life sciences",
+    "forschungskooperation",
+    "ki-forschung"
+   ],
+   "source": "Anthropic",
+   "source_id": "anthropic",
+   "added": "2026-10-23T01:30:25+02:00",
+   "quelle_titel": "Open call for guest investigators in the life sciences",
+   "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"
   },
   {
    "id": "c17a4091baf7",
@@ -1590,7 +1793,8 @@
    "source_id": "heise-ki",
    "added": "2026-10-22T07:48:22+02:00",
    "quelle_titel": "Meta Platforms erhöht Ausgaben deutlich, aber verdreifacht Nettogewinn",
-   "url": "https://www.heise.de/news/Meta-Platforms-erhoeht-Ausgaben-deutlich-aber-verdreifacht-Nettogewinn-11496284.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Meta-Platforms-erhoeht-Ausgaben-deutlich-aber-verdreifacht-Nettogewinn-11496284.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "0548b2449bf4"
   },
   {
    "id": "abedc1d59811",
@@ -1678,6 +1882,27 @@
    "added": "2026-10-22T13:11:29+02:00",
    "quelle_titel": "AI-RAN im Labortest: Telekom, Nokia und Nvidia erzielen mehr Uplink-Durchsatz",
    "url": "https://www.golem.de/news/ai-ran-im-labortest-telekom-nokia-und-nvidia-erzielen-mehr-uplink-durchsatz-2610-214367.html"
+  },
+  {
+   "id": "7e561e0e697f",
+   "date": "2026-10-22",
+   "published": "2026-10-22T09:06+02:00",
+   "headline": "Datensouveränität bleibt Theorie, solange der Datenüberblick fehlt",
+   "summary": "Viele Organisationen fordern Souveränität über ihre Daten, wissen aber nicht genau, wo diese liegen, wie schutzbedürftig sie sind und wer darauf zugreifen darf. Ohne diese Inventur bleiben Souveränitätsziele und KI-Projekte auf unsicherem Fundament.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "datensouveränität",
+    "data governance",
+    "compliance",
+    "zugriffsrechte"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-23T01:30:25+02:00",
+   "quelle_titel": "Datensouveränität scheitert oft schon am fehlenden Überblick",
+   "url": "https://www.heise.de/news/Datensouveraenitaet-scheitert-oft-schon-am-fehlenden-Ueberblick-11496066.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
    "id": "5d118fadbe79",
@@ -1869,7 +2094,8 @@
    "added": "2026-10-22T13:08:58+02:00",
    "paywall": true,
    "quelle_titel": "Making the case for context-aware AI",
-   "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/"
+   "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+   "dup_of": "712bc0d815dc"
   },
   {
    "id": "d524ded1295e",
@@ -2004,7 +2230,7 @@
    "paywall": true,
    "quelle_titel": "Shutdown im Netz: Die eine Sicherheitslücke ist entdeckt. Aber die Gefahr längst nicht gebannt",
    "url": "https://www.sueddeutsche.de/meinung/php-sicherheitsluecke-kuenstliche-intelligenz-software-cybersicherheit-li.3567266",
-   "dup_of": "a61190ef2d92"
+   "dup_of": "80e602df082d"
   },
   {
    "id": "fc53192a395f",
@@ -2078,6 +2304,49 @@
    ]
   },
   {
+   "id": "a5e25ed02a48",
+   "date": "2026-10-22",
+   "published": "2026-10-22T14:44+02:00",
+   "headline": "Vertrauensoffensive: Microsoft umwirbt Kunden in Deutschland",
+   "summary": "Microsoft bemüht sich verstärkt um das Vertrauen deutscher Kundinnen und Kunden. Der Bericht ordnet ein, wie der Konzern im hiesigen Markt um Akzeptanz wirbt.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "microsoft",
+    "deutschland",
+    "vertrauen",
+    "cloud"
+   ],
+   "source": "Zeitungsverlag Waiblingen",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-23T01:30:25+02:00",
+   "quelle_titel": "Microsoft wirbt um Vertrauen deutscher Kunden",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVmR2ZkxWUkVDUno2LUEtX1dTeVJoTE0yeFAyeEFhNFFDcldKb3RRcjhYREx5WlI5OER2MHVYOFpXWVJzaEtVV0lZbm5OU1ZBQkpla3hobE5BbVAwaFNnU282U2tpZXBoUzVyT2lDc1l2bVh3OGt6WjhRaTZna1MzN21IRHM0d2xjSGdvaG1xa25NREVmMXB0Ri03cEwzYUJNU3pUUGxmQW0xQQ?oc=5",
+   "dup_of": "92c59c7363f6"
+  },
+  {
+   "id": "1edd317066de",
+   "date": "2026-10-22",
+   "published": "2026-10-22T14:52+02:00",
+   "headline": "curl nimmt im Bug-Bounty nur noch schwere Sicherheitslücken an",
+   "summary": "Das curl-Projekt zieht die Grenzen für Meldungen auf seinem HackerOne-Bugtracker deutlich enger und will künftig nur noch hochriskante und kritische Schwachstellen bearbeiten. Damit will das Team die knappe Prüfkapazität auf die wirklich gefährlichen Fälle konzentrieren.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "curl",
+    "bug bounty",
+    "open source",
+    "schwachstellen"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-23T01:30:25+02:00",
+   "quelle_titel": "curl: Konzentration auf hochriskante und kritische Sicherheitslücken",
+   "url": "https://www.heise.de/news/curl-Konzentration-auf-hochriskante-und-kritische-Sicherheitsluecken-11496792.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
    "id": "adb6a52bf6e3",
    "date": "2026-10-22",
    "published": "2026-10-22T14:59+02:00",
@@ -2096,7 +2365,36 @@
    "source_id": "heise-ki",
    "added": "2026-10-23T00:08:28+02:00",
    "quelle_titel": "OpenCode 2.1: Ein Coding-Agent, viele Modelle",
-   "url": "https://www.heise.de/news/OpenCode-2-1-Ein-Coding-Agent-viele-Modelle-11497016.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/OpenCode-2-1-Ein-Coding-Agent-viele-Modelle-11497016.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "5d4f429deb12"
+  },
+  {
+   "id": "5d4f429deb12",
+   "date": "2026-10-22",
+   "published": "2026-10-22T14:59+02:00",
+   "headline": "OpenCode 2.1 erweitert Plug-in-Schnittstellen und Windows-Support",
+   "summary": "Der quelloffene Coding-Agent OpenCode liegt in Version 2.1 vor und arbeitet weiterhin mit verschiedenen Sprachmodellen zusammen. Neu sind zusätzliche Datenfelder für Plug-ins und Clients sowie dauerhafte Terminals unter Windows. Das Update richtet sich an Entwicklerteams, die Agenten in eigene Werkzeugketten einbinden wollen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "coding-agent",
+    "opencode",
+    "open source",
+    "entwicklertools"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-10-23T01:30:25+02:00",
+   "quelle_titel": "OpenCode 2.1: Ein Coding-Agent, viele Modelle",
+   "url": "https://www.heise.de/news/OpenCode-2-1-Ein-Coding-Agent-viele-Modelle-11497016.html",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/OpenCode-2-1-Ein-Coding-Agent-viele-Modelle-11497016.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ],
+   "kontext": "OpenCode ist ein offener KI-Coding-Agent, der sich im Terminal, als Desktop-App oder im Browser bedienen lässt und mit Modellen verschiedener Anbieter arbeitet. Version 2.1 baut auf dem Umbau der Vorversion auf, die alle Sitzungen in einem gemeinsamen Hintergrunddienst bündelte. Wer eigene Integrationen pflegt, muss umbenannte Felder und neue Ereignisse nachziehen. Dazu kommen eine experimentelle Aufgabenliste und das Ende eines Timeouts, der lange laufende Befehle abriss."
   },
   {
    "id": "7c4d936b4cd0",
@@ -2140,7 +2438,43 @@
    "source_id": "heise-ki",
    "added": "2026-10-23T00:07:43+02:00",
    "quelle_titel": "Microsoft Frontier Tour: KI ist wie der Kölner Dom, eine Vision",
-   "url": "https://www.heise.de/news/Microsoft-Frontier-Tour-KI-ist-wie-der-Koelner-Dom-eine-Vision-11496656.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Microsoft-Frontier-Tour-KI-ist-wie-der-Koelner-Dom-eine-Vision-11496656.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Microsoft-Frontier-Tour-KI-ist-wie-der-Koelner-Dom-eine-Vision-11496656.html"
+    },
+    {
+     "source": "RP Online",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc3JNd1VBV252N3hzVEc0U2xST0lrY3NKY3g1d2JFOHdqaXJOYnFfQmQwUGRmYUFvY3gzY2ZSX3lISGVIMkhkd1ZsWW1XTmZ4UGFYZkhTREs2d3FRN2pYLVhsd3JlVnVadk1EcEtJVDdtbE0wbVdkcHRqWGptOU84ZnRFLVR0eFByV0trVTF3VWUyd1FkVzllS2xkQmhOUFI2U2tycWZEeXkya0ZqRFA1OUs5aG9CUVVXZUV5Z2NWaENZbXdv?oc=5"
+    },
+    {
+     "source": "Zeitungsverlag Waiblingen",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVmR2ZkxWUkVDUno2LUEtX1dTeVJoTE0yeFAyeEFhNFFDcldKb3RRcjhYREx5WlI5OER2MHVYOFpXWVJzaEtVV0lZbm5OU1ZBQkpla3hobE5BbVAwaFNnU282U2tpZXBoUzVyT2lDc1l2bVh3OGt6WjhRaTZna1MzN21IRHM0d2xjSGdvaG1xa25NREVmMXB0Ri03cEwzYUJNU3pUUGxmQW0xQQ?oc=5"
+    }
+   ],
+   "kontext": "Die Frontier Tour ist Microsofts Roadshow für Geschäftskunden, in Köln trat unter anderem Konzernchef Satya Nadella auf. Gezeigt wurden Bausteine wie die Sovereign Cloud samt Dashboard zum Datenstandort, Identitäten für KI-Agenten sowie die eigene Maia-Hardware. Agnes Heftberger, zuständig für Deutschland und Österreich, verglich den Stand der KI-Einführung mit dem jahrhundertelang unfertigen Kölner Dom. Nach dem ersten Hype beginnt demnach die mühsame Umsetzung in den Unternehmen."
+  },
+  {
+   "id": "8788b6012cd9",
+   "date": "2026-10-22",
+   "published": "2026-10-22T15:25+02:00",
+   "headline": "Investor Rappold sieht keine KI-Blase und nennt zwölf Favoriten",
+   "summary": "Der Tech-Investor Thomas Rappold widerspricht der verbreiteten Blasen-These und erwartet im KI-Sektor einen neuen Aufschwung. Dazu stellt er zwölf Aktien vor, die seiner Einschätzung nach von der nächsten Welle profitieren. Für Berufstätige im KI-Umfeld ist vor allem die Einordnung der Marktstimmung interessant.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "aktien",
+    "ki-markt",
+    "investment",
+    "tech-boom"
+   ],
+   "source": "WELT",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-23T01:30:25+02:00",
+   "quelle_titel": "Thomas Rappold: Neuer Boom statt KI-Blase, das sind jetzt die 12 Top-Aktien des Tech-Investors",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTkZ5c1RHdHhpcjBEbmRBTG0wNmRYRlhMREVWRmtvUkpMZ0dvWWZaMzloWk5RbDNvTDlSZkN4clNzYW5jN0lCVGxhclhTT0RfcTIyRXNkMWNKb0U1amh5TDJyTVhmWl9ORVNjQU53cWZGclUyTjBZclNQWjNOT0VMZG5NV2JYT0h3RXZYdldMdUIwZ2NhVkdTMmgxYURkaXBEUHpLNlV1dFhsaDlQaGtCWWI5NEhlMjJZcWZrbHV3UUFJS2gtcEdNU2xfWkRlNVlMWl9oZFdyRTFweDFZckRLX2hJSjE3UEc0Znhj?oc=5"
   },
   {
    "id": "655df0fb22ac",
@@ -2162,6 +2496,28 @@
    "added": "2026-10-23T00:06:48+02:00",
    "quelle_titel": "Beyond tree cover: mapping the world’s forest types",
    "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/"
+  },
+  {
+   "id": "12d0b1a86546",
+   "date": "2026-10-22",
+   "published": "2026-10-22T17:03+02:00",
+   "headline": "Spotify will der Musikdienst werden, den KI-Agenten bevorzugen",
+   "summary": "Spotify-Co-Chef Gustav Söderström erklärt, warum er im Aufstieg autonomer KI-Agenten eine Chance für den Streamingdienst sieht. Ziel ist es, die Plattform so zu positionieren, dass Agenten bei Musikanfragen automatisch auf Spotify zugreifen. Dahinter steht ein neuer Wettbewerb um die Schnittstellen, über die Assistenten Dienste auswählen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "spotify",
+    "ki-agenten",
+    "streaming",
+    "strategie"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-23T01:29:32+02:00",
+   "quelle_titel": "Spotify’s current AI bet is about being the music service that agents choose",
+   "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+   "kontext": "Spotify meldete für das dritte Quartal kräftiges Wachstum bei Nutzerzahl und Umsatz, im Mittelpunkt der Analystenrunde stand aber die Frage, wie Musik künftig gefunden wird. Söderström argumentiert, dass Unterhaltung anders als lästige Pflichten nicht wegdelegiert, sondern nur bequemer bestellt wird. Der Dienst öffnet sich deshalb früh für Assistenzsysteme von Meta, OpenAI und Anthropic. Dass Amazon fremde Agenten beim Einkaufen aussperrt, zeigt, wie umkämpft dieser Zugang ist."
   },
   {
    "id": "e701aee44a63",
@@ -2227,7 +2583,8 @@
    "source_id": "spektrum",
    "added": "2026-10-23T00:05:53+02:00",
    "quelle_titel": "Bye, bye Photoshop, Word und Co?: KI stellt die Softwarewelt auf den Kopf",
-   "url": "https://www.spektrum.de/news/ki-kopiert-kommerzielle-software-wie-spiele-photoshop-oder-word/2350978"
+   "url": "https://www.spektrum.de/news/ki-kopiert-kommerzielle-software-wie-spiele-photoshop-oder-word/2350978",
+   "kontext": "Seit dem Herbst kursieren per Sprachmodell nachgebaute Varianten beliebter Spiele und teurer Programmpakete, frei zugänglich für jeden. Ein GitHub-Projekt, das beim Nachbauen beliebiger Software hilft, gehört dort inzwischen zu den populärsten. Der bekannte Entwickler Eric Steven Raymond sieht darin bereits das Ende geschlossener Quellcodes. Fachleute halten dagegen, dass solche Kopien häufig Fehler enthalten und kaum jemand ihre Qualität prüft."
   },
   {
    "id": "53e5d2375301",
@@ -2270,7 +2627,8 @@
    "source_id": "huggingface",
    "added": "2026-10-23T00:05:53+02:00",
    "quelle_titel": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-   "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3"
+   "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+   "kontext": "Hinter dem Modell steht das Allen Institute for AI, das Radar- und Multispektralaufnahmen der Sentinel- und Landsat-Satelliten zu je einem kompakten Vektor pro Bildpunkt verdichtet. Weil diese Embeddings weltweit vorberechnet und frei verteilt werden, genügt für Karten zu Anbau, Landbedeckung oder Veränderungen ein kleiner Klassifikator statt eigener GPU-Infrastruktur. In Vergleichstests liegt das Modell vor den geprüften Alternativen. Gewichte, Trainingsdaten und Code sind offen, dazu kommt ein Browserwerkzeug."
   },
   {
    "id": "a4d3526d3b30",
@@ -2291,7 +2649,30 @@
    "source_id": "latent-space",
    "added": "2026-10-23T00:05:13+02:00",
    "quelle_titel": "Why AI Compute Comes in Rectangles, Erik Bernhardsson, Modal CEO",
-   "url": "https://www.latent.space/p/modal-d"
+   "url": "https://www.latent.space/p/modal-d",
+   "kontext": "Anlass des Gesprächs ist eine große neue Finanzierungsrunde, die Modal binnen weniger Monate auf eine deutlich höhere Bewertung hebt. Bernhardsson beschreibt das Geschäftsmodell als Umwandlung starrer Kapazitätsverträge in flexible Scheiben: Die Nachfrage vieler Kunden wird gebündelt, jeder ruft ab, was er gerade braucht. Sandboxes für Coding-Agenten wuchsen dabei unerwartet zu einer tragenden Erlössäule. Sinkende GPU-Preise blieben ein Risiko für langfristig eingekaufte Rechenleistung."
+  },
+  {
+   "id": "8bd29f6029cc",
+   "date": "2026-10-22",
+   "published": "2026-10-22T20:15+02:00",
+   "headline": "Metas Agentenvision: Wenn künftig nur noch die Bots miteinander reden",
+   "summary": "Mark Zuckerberg treibt eine Zukunft voran, in der autonome KI-Agenten einkaufen, arbeiten und mit den Agenten anderer Menschen verhandeln. Der Beitrag fragt kritisch, ob Nutzer wirklich bereit sind, einen großen Teil ihrer Kommunikation an solche Stellvertreter abzugeben.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "ki-agenten",
+    "zuckerberg",
+    "zukunft"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-23T01:29:32+02:00",
+   "quelle_titel": "In Meta’s version of the future, I’ll have my Muse call your Muse",
+   "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+   "kontext": "Anlass ist Metas jüngste Quartalskonferenz, auf der Zuckerberg den erst im Vormonat allgemein verfügbaren Assistenten Muse zum Kern der Konzernstrategie erklärte. Er stellt Investoren ein Netzwerk in Aussicht, in dem die Agenten verschiedener Nutzer miteinander sprechen und Geschäfte abwickeln. Langfristig soll pro Nutzer mehr Umsatz entstehen als heute über Facebook und Instagram. Finanzchefin Susan Li sieht schlicht alle in der Pflicht, sich darauf einzustellen."
   },
   {
    "id": "ab838d8755d5",
@@ -2313,7 +2694,8 @@
    "added": "2026-10-23T00:05:13+02:00",
    "paywall": true,
    "quelle_titel": "The Foundations of Scalable AI",
-   "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
+   "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+   "dup_of": "712bc0d815dc"
   },
   {
    "id": "865ffb65f1d5",
@@ -2334,7 +2716,8 @@
    "source_id": "techcrunch-ai",
    "added": "2026-10-23T00:05:13+02:00",
    "quelle_titel": "Canva releases its first image generation model",
-   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+   "dup_of": "09c9f9d097fb"
   },
   {
    "id": "c6b16d28af7e",
@@ -2356,7 +2739,8 @@
    "source_id": "verge-ai",
    "added": "2026-10-23T00:04:22+02:00",
    "quelle_titel": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari"
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+   "kontext": "Der Bericht ordnet die Fusionsidee skeptisch ein. Musk begründet seine Pläne mit der Besiedlung des Mars, wofür die Technik für menschliches Leben im All fehlt, sodass vor allem Roboter infrage kommen. Genau an dieser Stelle liegt die gedachte Brücke zu Tesla. Zugleich verweist der Text auf die Anreize aus Musks Vergütungspaket und darauf, dass die geplante Kreditaufnahme für Nvidia-Chips die Lage bei SpaceX zusätzlich belastet."
   },
   {
    "id": "70399cbe269f",
@@ -2422,7 +2806,14 @@
    "source_id": "verge-ai",
    "added": "2026-10-23T00:04:22+02:00",
    "quelle_titel": "Meta’s AI could still scrape news sites, legal experts say",
-   "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns"
+   "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Neue-AGB-von-Meta-Verlage-fordern-EU-Stopp-wegen-KI-Scraping-11497167.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ],
+   "kontext": "Hinter der Debatte steht eine Klauseländerung für Geschäftskonten, die zum Monatsende greifen soll und Meta weitreichenden Zugriff auf verlinkte Webseiten und Archive von Verlagen eröffnen könnte. Europäische Verlegerverbände wie EPC, BDZV und MVFP haben die EU-Kommission eingeschaltet und sehen einen Verstoß gegen den Digital Markets Act. Ein Rechtswissenschaftler der Cornell-Universität hält die Entschärfung für wirkungslos. Für Medienhäuser hängt daran ihre Präsenz auf den Plattformen."
   },
   {
    "id": "712bc0d815dc",
@@ -2444,7 +2835,19 @@
    "added": "2026-10-23T00:04:22+02:00",
    "paywall": true,
    "quelle_titel": "Designing an AI serving harness built to last",
-   "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
+   "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+   "also": [
+    {
+     "source": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+     "paywall": true
+    },
+    {
+     "source": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "9411db60f1d2",
@@ -2641,6 +3044,28 @@
    "url": "https://www.wiwo.de/finanzen/geldanlage/roboter-aktien-fuenf-unternehmen-fuer-den-ki-boom-an-der-boerse/100263879.html"
   },
   {
+   "id": "ca4252df0d40",
+   "date": "2026-10-22",
+   "published": "2026-10-22T15:00+02:00",
+   "headline": "KI treibt Strombedarf: Batteriespeicher-Aktien im Realitätscheck",
+   "summary": "Der steigende Stromverbrauch, auch durch KI-Rechenzentren, lässt die Nachfrage nach Energiespeichern wachsen. Der Beitrag nimmt fünf Unternehmen aus dem Speichermarkt unter die Lupe und zeigt, dass längst nicht jedes Papier vom Boom profitiert.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "energiespeicher",
+    "strombedarf",
+    "aktien",
+    "rechenzentren"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-10-23T01:30:25+02:00",
+   "paywall": true,
+   "quelle_titel": "Anlageideen: Anleger setzen auf den Batteriespeicher-Boom, doch nicht jede Aktie lohnt",
+   "url": "https://www.wiwo.de/finanzen/geldanlage/anleger-setzen-auf-den-batteriespeicher-boom-doch-nicht-jede-aktie-lohnt/100263875.html"
+  },
+  {
    "id": "c2157638757e",
    "date": "2026-10-22",
    "published": "2026-10-22T15:15+02:00",
@@ -2702,6 +3127,28 @@
    "added": "2026-10-23T00:05:13+02:00",
    "quelle_titel": "Nvidia und der KI-Boom: An dieser Aktie kommt man nicht vorbei",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQTN3NlBSbDRBMVJOQS1meUp6bGN4Zy1VdG4yQWszVUJiWHZLeF9sN2llOGo4YktzQVRYRnZ6VGtjRGhQQzZKN2JxbWFuYUk5bmdnM3RpYlZpZ09XN1NqY1poOTJvem1kNm42b3BpWC1kMmY0a2dOYi1RLU9HNS1heE82S1BTQm5KcGRQbDVxb3JVOEFlN2NhYVotc2Z3bl93OVVHcnFLLUFlZk1jY21xX2JkUWo2bXVjOEZXZGU5OExBT0xieWplZU5n?oc=5"
+  },
+  {
+   "id": "18837672148b",
+   "date": "2026-10-22",
+   "published": "2026-10-22T19:21+02:00",
+   "headline": "Switch 2 geknackt: Jailbreak über altes Spiel und KI-Unterstützung",
+   "summary": "Ein Modder hat die Nintendo Switch 2 offenbar erfolgreich gejailbreakt und zeigt eine veränderte Fassung von Mario Kart World mit zusätzlichen Spielfiguren. Als Einstiegspunkt diente ein älteres Spiel, beim Entwickeln des Exploits half laut dem Beteiligten OpenAIs Codex.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "jailbreak",
+    "nintendo",
+    "codex",
+    "hacking"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-23T01:29:32+02:00",
+   "kurios": "Peter Griffin fährt dank KI-Hilfe durch Mario Kart World.",
+   "quelle_titel": "Someone hacked the Switch 2 by using an old game and AI",
+   "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai"
   },
   {
    "id": "73123e6ebe0b",

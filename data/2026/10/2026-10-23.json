@@ -1,0 +1,61 @@
+{
+ "date": "2026-10-23",
+ "generated_at": "2026-10-23T01:38:04+02:00",
+ "overview": [
+  {
+   "id": "6372ebaa66c8",
+   "text": "OpenAI verhandelt laut Bericht über rund 30 Milliarden Dollar frisches Kapital bei 1,25 Billionen Dollar Bewertung und bereitet damit einen Börsengang vor."
+  },
+  {
+   "id": "95eb6975ad24",
+   "text": "Ein Beitrag auf Hugging Face zeigt, wie Bewertungen aus Datenbanken als Belohnungssignal dienen, um Agenten mit ThinkingBox nachzutrainieren."
+  }
+ ],
+ "items": [
+  {
+   "id": "6372ebaa66c8",
+   "date": "2026-10-23",
+   "published": "2026-10-23T00:08+02:00",
+   "headline": "OpenAI sammelt angeblich 30 Milliarden Dollar bei 1,25 Billionen Bewertung",
+   "summary": "OpenAI arbeitet laut Bericht an einer neuen Finanzierungsrunde über rund 30 Milliarden Dollar, bewertet mit etwa 1,25 Billionen Dollar. Damit wäre das Unternehmen das höchstbewertete private Unternehmen aller Zeiten. Die Runde gilt als Vorbereitung auf einen späteren Börsengang.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "openai",
+    "finanzierung",
+    "bewertung",
+    "ipo"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-23T01:29:32+02:00",
+   "quelle_titel": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+   "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+   "kontext": "Angeführt wird die Runde laut Berichten von Coatue, zusammen mit Geldgebern aus den Emiraten, möglicherweise verbunden mit zusätzlicher Rechenkapazität für OpenAI. Die Konditionen sind noch offen, zuvor war von einer noch höheren Bewertung die Rede. Statt zügig an die Börse zu gehen, holt sich OpenAI weiter privates Kapital, obwohl vertrauliche Unterlagen für einen Börsengang längst eingereicht sind. Auch Konkurrent Anthropic bereitet seinen Schritt aufs Parkett vor."
+  },
+  {
+   "id": "95eb6975ad24",
+   "date": "2026-10-23",
+   "published": "2026-10-23T00:24+02:00",
+   "headline": "ThinkingBox: Datenbank-Bewertungen als Belohnungssignal für Agenten-Training",
+   "summary": "Ein Beitrag auf Hugging Face beschreibt, wie sich Bewertungen aus Datenbanken in Belohnungssignale für bestärkendes Lernen übersetzen lassen. Damit sollen Agenten im Post Training mit dem Werkzeug ThinkingBox gezielt nachtrainiert werden.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "reinforcement learning",
+    "agenten",
+    "post training",
+    "hugging face"
+   ],
+   "source": "Hugging Face",
+   "source_id": "huggingface",
+   "added": "2026-10-23T01:29:32+02:00",
+   "praxis": true,
+   "quelle_titel": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+   "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+   "kontext": "Hinter dem Ansatz stehen Microsoft und Hugging Face gemeinsam. ThinkingBox prüft nicht die Selbstauskunft eines Agenten, sondern vergleicht den Zustand der Datenbank am Ende mit dem erwarteten Ergebnis. Genau dieser maschinell ausführbare Test lässt sich als Belohnung weiterverwenden, wobei vor allem Aufgaben trainiert werden, die für das jeweilige Modell gerade noch zu schwer sind. Ein nachtrainiertes Qwen-Modell löste danach deutlich mehr Aufgaben verlässlich über alle Versuche hinweg."
+  }
+ ]
+}
