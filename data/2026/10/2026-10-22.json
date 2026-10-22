@@ -1,38 +1,38 @@
 {
  "date": "2026-10-22",
- "generated_at": "2026-10-22T13:20:08+02:00",
+ "generated_at": "2026-10-23T00:15:22+02:00",
  "overview": [
   {
-   "id": "dc028fea27bb",
-   "text": "Mit Hilfe eines GPT-Modells sind im PHP-Kern schwere Schwachstellen aufgetaucht, die einen sehr großen Teil des Webs betreffen und koordiniert behoben wurden."
+   "id": "4b62e3d18917",
+   "text": "Die EU-Staaten wollen mit dem Daten-Omnibus personenbezogene Daten leichter für KI-Training freigeben und senken damit das Datenschutzniveau."
   },
   {
-   "id": "847e2055cdac",
-   "text": "Anthropic startet Claude Duet, einen Agenten auf Basis von Opus 5.5, der Aufgaben auch dann weiterführt, wenn niemand eingeloggt ist."
+   "id": "6690b91343cf",
+   "text": "Laut einer Gartner-Umfrage unter rund 2000 IT-Verantwortlichen sehen nur 13 Prozent der Unternehmen einen messbaren Geschäftswert ihrer KI-Ausgaben."
+  },
+  {
+   "id": "b3730e6fce64",
+   "text": "Barclays streicht rund 5000 Stellen und begründet den Abbau unter anderem mit Produktivitätsgewinnen aus umfangreichen KI-Investitionen."
   },
   {
    "id": "fed07794acf0",
-   "text": "Das IAB sieht keinen flächendeckenden Jobverlust durch KI, warnt aber, dass vor allem Einstiegsjobs mit automatisierbaren Aufgaben unter Druck geraten."
+   "text": "Das IAB sieht keinen flächendeckenden Jobverlust durch KI, warnt aber, dass vor allem Einstiegsjobs für Berufsanfänger unter Druck geraten."
   },
   {
-   "id": "6674ee9a185c",
-   "text": "Microsoft, Alphabet und weitere Konzerne haben für den KI-Ausbau Verpflichtungen über 2,7 Billionen Dollar aufgebaut, die kaum in den Bilanzen sichtbar sind."
+   "id": "bb532a1b75c1",
+   "text": "Symantec beschreibt einen Angriffs-Agenten, der offen erreichbare Sprachmodelle kapert und mit deren Rechenleistung selbstständig Server angreift."
   },
   {
-   "id": "f5e53c266a8f",
-   "text": "SAP und NVIDIA entwickeln eine gemeinsame Ausführungsschicht, damit KI-Agenten in Unternehmenssystemen nachvollziehbar und kontrolliert arbeiten."
+   "id": "19ab544a300e",
+   "text": "SAP verbucht dank starkem Cloudgeschäft gute Quartalszahlen und bestätigt damit den konsequent auf KI ausgerichteten Konzernumbau."
   },
   {
-   "id": "1f85162ac967",
-   "text": "Wer fremde KI-Modelle nachträglich anpasst, kann nach der KI-Verordnung vom Anwender zum Anbieter werden und muss dann weit strengere Pflichten erfüllen."
-  },
-  {
-   "id": "3d3518948126",
-   "text": "OpenAI und Forschungspartner ließen tausende Agenten parallel Daten aus Millionen Mauszellen auswerten und waren damit schon nach 32 Minuten fertig."
+   "id": "cc012b1e3b75",
+   "text": "Anthropic übergibt den offenen Standard Agent Skills an die Agentic AI Foundation, den bereits mehr als 70 Plattformen übernommen haben."
   },
   {
    "id": "df14e2db08e1",
-   "text": "Nur etwa 15 Prozent der Unternehmen nutzen KI in der Weiterbildung, obwohl Simulationen Führungskräfte gut auf schwierige Gespräche vorbereiten können."
+   "text": "Nur etwa 15 Prozent der Unternehmen setzen KI in der Weiterbildung ein, obwohl simulierte Gespräche Führungskräfte auf schwierige Situationen vorbereiten."
   }
  ],
  "items": [
@@ -79,7 +79,8 @@
    "kurios": "Eine KI stößt auf Lücken, die einen Großteil aller Webseiten betreffen.",
    "quelle_titel": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
    "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
-   "kontext": "Hinter dem Fund steht ein Förderprogramm, mit dem OpenAI Sicherheitsforschern den Zugang zu seinen Cyber-Modellen bezuschusst. Die Fehler stecken nicht in einem Plugin, sondern in der PHP-Engine selbst, nämlich im Umgang mit Speichernot und Abbruchfehlern; gezeigt wurden Angriffe auf WordPress, Drupal und Joomla ohne Anmeldung. Unabhängig davon stieß auch der inzwischen zu Google Cloud gehörende Anbieter Wiz mit einem Gemini-Modell darauf. Ob die Tragweite an Heartbleed heranreicht, ist in der Szene umstritten."
+   "kontext": "Hinter dem Fund steht ein Förderprogramm, mit dem OpenAI Sicherheitsforschern den Zugang zu seinen Cyber-Modellen bezuschusst. Die Fehler stecken nicht in einem Plugin, sondern in der PHP-Engine selbst, nämlich im Umgang mit Speichernot und Abbruchfehlern; gezeigt wurden Angriffe auf WordPress, Drupal und Joomla ohne Anmeldung. Unabhängig davon stieß auch der inzwischen zu Google Cloud gehörende Anbieter Wiz mit einem Gemini-Modell darauf. Ob die Tragweite an Heartbleed heranreicht, ist in der Szene umstritten.",
+   "dup_of": "a61190ef2d92"
   },
   {
    "id": "847e2055cdac",
@@ -102,7 +103,84 @@
    "added": "2026-10-22T13:10:49+02:00",
    "quelle_titel": "Anthropic schickt proaktiven Dauer-Agenten \"Claude Duet\" gegen Grok Bots, Meta Muse und OpenAIs Dots ins Rennen",
    "url": "https://the-decoder.de/anthropic-schickt-proaktiven-dauer-agenten-claude-duet-gegen-grok-bots-meta-muse-und-openais-dots-ins-rennen/",
-   "kontext": "Neu ist vor allem die Richtung: Statt auf einen Chat zu warten, meldet sich der Agent morgens mit einer Übersicht aus den verbundenen Diensten und danach nur bei Bedarf. Er arbeitet auf einem Rechner in der Cloud, das eigene Gerät muss also nicht laufen. Eigenständig darf er nur lesen, entwerfen und vorbereiten; Überweisungen und Wertpapierhandel bleiben selbst mit Freigabe gesperrt. Die Testversion startet per Warteliste für zahlende Nutzer in den USA."
+   "kontext": "Neu ist vor allem die Richtung: Statt auf einen Chat zu warten, meldet sich der Agent morgens mit einer Übersicht aus den verbundenen Diensten und danach nur bei Bedarf. Er arbeitet auf einem Rechner in der Cloud, das eigene Gerät muss also nicht laufen. Eigenständig darf er nur lesen, entwerfen und vorbereiten; Überweisungen und Wertpapierhandel bleiben selbst mit Freigabe gesperrt. Die Testversion startet per Warteliste für zahlende Nutzer in den USA.",
+   "dup_of": "1f413756a0cb"
+  },
+  {
+   "id": "09a53e819f77",
+   "date": "2026-10-22",
+   "published": "2026-10-22T15:36+02:00",
+   "headline": "PHP2Shell: Wie KI eine harmlose Schwachstelle zur Großgefahr machte",
+   "summary": "Die Lücke PHP2Shell galt lange als praktisch bedeutungslos, bis KI-Werkzeuge ihre Ausnutzung massenhaft möglich machten. Inzwischen nehmen sogar Behörden Websites vorsorglich vom Netz. Fachleute diskutieren, ob automatisierte Angriffswerkzeuge die Sicherheitslage im Netz dauerhaft kippen lassen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "php2shell",
+    "schwachstelle",
+    "automatisierte angriffe",
+    "websicherheit"
+   ],
+   "source": "ZEIT Digital",
+   "source_id": "zeit-digital",
+   "added": "2026-10-23T00:07:43+02:00",
+   "kurios": "Eine jahrelang ignorierte Lücke bedroht plötzlich fast das ganze Web.",
+   "paywall": true,
+   "quelle_titel": "PHP-Sicherheitslücke: Diese Sicherheitslücke war nie ein echtes Problem. Dann kam KI",
+   "url": "https://www.zeit.de/digital/internet/2026-10/php-sicherheitsluecke-kuenstliche-intelligenz-forschung-internet",
+   "dup_of": "a61190ef2d92"
+  },
+  {
+   "id": "6690b91343cf",
+   "date": "2026-10-22",
+   "published": "2026-10-22T18:10+02:00",
+   "headline": "Gartner: Nur 13 Prozent der Firmen sehen messbaren Nutzen ihrer KI-Ausgaben",
+   "summary": "Eine Gartner-Befragung von gut 2000 IT-Verantwortlichen zeigt, dass bislang nur 13 Prozent der Unternehmen einen echten Geschäftswert aus ihren KI-Investitionen ziehen. Mehr als die Hälfte rechnet sogar mit steigenden Betriebskosten durch KI. Trotz der dünnen Ergebnislage wollen drei Viertel der Vorstandschefs die Technologiebudgets weiter erhöhen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "AITI",
+    "gartner",
+    "roi",
+    "cio",
+    "ki-strategie"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-10-23T00:05:53+02:00",
+   "quelle_titel": "Gartner-Umfrage: Nur 13 Prozent der Unternehmen ziehen echten Geschäftswert aus KI-Investitionen",
+   "url": "https://the-decoder.de/gartner-umfrage-nur-13-prozent-der-unternehmen-ziehen-echten-geschaeftswert-aus-ki-investitionen/",
+   "kontext": "Die Erhebung stellte Gartner auf seiner IT-Konferenz in Orlando vor. Befragt wurden IT-Chefs, die vielfach Sparziele erfüllen sollen, während viele gerade einen Anstieg der Betriebskosten erwarten. Die Analysten beschreiben eine Lücke zwischen dem Innovationstempo der Anbieter und dem Ergebnisdruck in den Unternehmen. Erfolgreich seien Firmen, die aussichtslose Projekte früh beenden und einplanen, wie sich Arbeitsrollen durch Agenten verändern. Aus der Wirtschaft kommt aber auch der Einwand, es sei für eine Bilanz zu früh."
+  },
+  {
+   "id": "4b62e3d18917",
+   "date": "2026-10-22",
+   "published": "2026-10-22T19:21+02:00",
+   "headline": "Daten-Omnibus: EU-Staaten öffnen Datenschutz für KI-Training",
+   "summary": "Die EU-Mitgliedstaaten haben ihre Position zum geplanten Daten-Omnibus festgelegt und wollen die Nutzung von Daten in vielen Fällen vereinfachen. Vorgesehen ist unter anderem, personenbezogene Daten für das Training von KI-Modellen leichter verwendbar zu machen, während Geschäftsgeheimnisse stärkeren Schutz erhalten. Datenschützer dürften darin eine deutliche Absenkung des bisherigen Schutzniveaus sehen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "AITI",
+    "eu",
+    "datenschutz",
+    "daten-omnibus",
+    "ki-training"
+   ],
+   "source": "netzpolitik.org",
+   "source_id": "netzpolitik",
+   "added": "2026-10-23T00:05:13+02:00",
+   "quelle_titel": "EU-Länder einig beim Daten-Omnibus: Mehr KI-Training, weniger Datenschutz",
+   "url": "https://netzpolitik.org/2026/eu-laender-einig-beim-daten-omnibus-mehr-ki-training-weniger-datenschutz/",
+   "also": [
+    {
+     "source": "eco Verband",
+     "url": "https://www.eco.de/presse/eco-zum-digital-omnibus-europa-laesst-zentrale-ki-huerden-bestehen/"
+    }
+   ],
+   "kontext": "Hinter dem Paket steht die Deregulierungsagenda der EU-Kommission, die Datenregeln entschlacken und überlappende Vorgaben zusammenführen will. Den Vorschlag einer zentralen Tracking-Einstellung im Browser kippten die Mitgliedstaaten und erweiterten stattdessen die Ausnahmen von der Zustimmungspflicht. Deutschland, Österreich und Estland stimmten gegen die Position, Teilen der Wirtschaft geht sie beim KI-Training dagegen nicht weit genug. Zivilgesellschaft und Gewerkschaften warnen vor einem Rückschritt bei digitalen Grundrechten. Der Trilog folgt, sobald das Parlament seine Linie festgelegt hat."
   },
   {
    "id": "c777cca0670d",
@@ -127,6 +205,50 @@
    "kontext": "Grundlage ist eine neue Untersuchung des Houston Advanced Research Center. Sie rechnet durch, was passiert, wenn alle geplanten Rechenzentren ans texanische Netz gehen und mit dem erwarteten Strommix versorgt werden: Feinstaub aus dem Stromsektor würde sich mehr als verdreifachen. Entscheidend ist also, ob Betreiber und Versorger auf Gasturbinen oder Erneuerbare setzen. Manche Konzerne bauen inzwischen eigene Kraftwerke."
   },
   {
+   "id": "cc012b1e3b75",
+   "date": "2026-10-22",
+   "published": "2026-10-22T02:00+02:00",
+   "headline": "Anthropic übergibt Agent Skills an die Agentic AI Foundation",
+   "summary": "Anthropic gibt den offenen Standard Agent Skills an die Agentic AI Foundation ab. Über diesen Standard erhalten KI-Agenten spezialisiertes Fachwissen und vorgefertigte Arbeitsabläufe. Seit der Veröffentlichung im Dezember 2025 haben laut Anthropic mehr als 70 Plattformen den Standard übernommen, unter anderem ChatGPT, Cursor, GitHub Copilot und VS Code.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "agenten",
+    "offener standard",
+    "interoperabilität"
+   ],
+   "source": "Anthropic",
+   "source_id": "anthropic",
+   "added": "2026-10-23T00:09:00+02:00",
+   "quelle_titel": "Donating Agent Skills to the Agentic AI Foundation",
+   "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+   "kontext": "Agent Skills sind im Kern Ordner mit einer Beschreibungsdatei, die einem Agenten eine konkrete Aufgabe oder Domäne beibringt, samt Skripten und Material. Entstanden ist das Format bei der Arbeit an Claude Code, weil dort prozedurales Wissen für echte Geschäftsabläufe fehlte. Neue Heimat ist die Agentic AI Foundation unter dem Dach der Linux Foundation, die Anthropic mit Block und OpenAI gegründet hat und an die schon MCP ging. Entwickler mehrerer Labore pflegen den Standard künftig gemeinsam."
+  },
+  {
+   "id": "ba6fa07d677a",
+   "date": "2026-10-22",
+   "published": "2026-10-22T02:00+02:00",
+   "headline": "Uber stattet über 30.000 Beschäftigte mit ChatGPT Work aus",
+   "summary": "Uber rollt die Unternehmensvariante ChatGPT Work für mehr als 30.000 Mitarbeitende aus. Die Teams sollen damit recherchieren, Daten auswerten, Präsentationen erstellen und komplexere Arbeitsabläufe abbilden. Der Schritt ist ein weiteres Beispiel dafür, dass Konzerne KI-Assistenten nicht mehr nur in Pilotgruppen testen, sondern flächendeckend einführen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "openai",
+    "uber",
+    "chatgpt work",
+    "enterprise"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-10-23T00:09:00+02:00",
+   "quelle_titel": "Uber brings ChatGPT Work to all employees with OpenAI",
+   "url": "https://openai.com/index/uber-chatgpt-work-rollout"
+  },
+  {
    "id": "a77ff7b6e70e",
    "date": "2026-10-22",
    "published": "2026-10-22T04:31+02:00",
@@ -146,7 +268,8 @@
    "added": "2026-10-22T13:12:21+02:00",
    "paywall": true,
    "quelle_titel": "„Wir erleben einen Wendepunkt“: KI-Angriffe, Webseiten offline, was Sie zur PHP-Sicherheitslücke wissen müssen",
-   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-wir-erleben-einen-wendepunkt-ki-angriffe-webseiten-offline--was-sie-zur-php-sicherheitslucke-wissen-mussen-16186542.html"
+   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-wir-erleben-einen-wendepunkt-ki-angriffe-webseiten-offline--was-sie-zur-php-sicherheitslucke-wissen-mussen-16186542.html",
+   "dup_of": "a61190ef2d92"
   },
   {
    "id": "7d838bc45b95",
@@ -169,7 +292,13 @@
    "added": "2026-10-22T07:48:22+02:00",
    "quelle_titel": "Wasserzeichen markieren bald auch KI-Texte von ChatGPT",
    "url": "https://www.tagesschau.de/wissen/ki-texte-wasserzeichen-100.html",
-   "kontext": "Auslöser ist der EU AI Act, der seit Anfang August maschinenlesbare Kennzeichnungen für KI-generierte Inhalte vorschreibt. Mitbewerber wie Anthropic und Google haben solche Wasserzeichen bereits angekündigt oder setzen sie in Teilen ein. OpenAI zieht damit nach, anstatt den Takt vorzugeben. Für die Branche entsteht so langsam ein gemeinsamer technischer Standard zur Herkunftsprüfung von Texten."
+   "kontext": "Auslöser ist der EU AI Act, der seit Anfang August maschinenlesbare Kennzeichnungen für KI-generierte Inhalte vorschreibt. Mitbewerber wie Anthropic und Google haben solche Wasserzeichen bereits angekündigt oder setzen sie in Teilen ein. OpenAI zieht damit nach, anstatt den Takt vorzugeben. Für die Branche entsteht so langsam ein gemeinsamer technischer Standard zur Herkunftsprüfung von Texten.",
+   "also": [
+    {
+     "source": "Basic Thinking",
+     "url": "https://www.basicthinking.de/blog/2026/10/22/ki-chatgpt-wasserzeichen/"
+    }
+   ]
   },
   {
    "id": "c377a85f9d35",
@@ -191,7 +320,7 @@
    "added": "2026-10-22T07:47:37+02:00",
    "quelle_titel": "PHP2Shell Exposes the Maintenance Challenge Behind AI Bug Hunting",
    "url": "https://www.theneuron.ai/news/php2shell-ai-bug-hunting-maintenance-challenge/",
-   "dup_of": "80e602df082d"
+   "dup_of": "a61190ef2d92"
   },
   {
    "id": "18a123f31517",
@@ -306,7 +435,36 @@
    "added": "2026-10-22T13:11:29+02:00",
    "quelle_titel": "Simulationsbasiertes Lernen: Was kann KI als Coach in der Weiterbildung?",
    "url": "https://www.personalwirtschaft.de/news/personalentwicklung/simulationsbasiertes-lernen-was-kann-ki-als-coach-in-der-weiterbildung-210399/",
-   "kontext": "Sprachmodelle rücken in die betriebliche Weiterbildung, weil sie Übungssituationen günstiger und ohne Blamagerisiko ermöglichen. Führungskräfte können Auftreten und Argumentation trainieren, auch für belastende Anlässe wie Trennungsgespräche, Berufseinsteiger neue Kompetenzen im eigenen Tempo aufbauen. Verbreitet ist das bislang kaum, erst eine kleine Minderheit der Unternehmen setzt KI in der Personalentwicklung ein. Der Beitrag versteht die Technik als Ergänzung klassischer Trainings, nicht als Ersatz für menschliche Begleitung."
+   "kontext": "Sprachmodelle rücken in die betriebliche Weiterbildung, weil sie Übungssituationen günstiger und ohne Blamagerisiko ermöglichen. Führungskräfte können Auftreten und Argumentation trainieren, auch für belastende Anlässe wie Trennungsgespräche, Berufseinsteiger neue Kompetenzen im eigenen Tempo aufbauen. Verbreitet ist das bislang kaum, erst eine kleine Minderheit der Unternehmen setzt KI in der Personalentwicklung ein. Der Beitrag versteht die Technik als Ergänzung klassischer Trainings, nicht als Ersatz für menschliche Begleitung.",
+   "also": [
+    {
+     "source": "Personalwirtschaft",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdmFOdDNYdHFoWHBVcS1VRUtQWnFwX19kWDN6dlF5Tzl1VmhZcWZHdWhiTFhKb0FMdmU2UUFPR3U3M1U5NmItUXBMOHhFYW9rV3pTUXZ2alI0QXBjM2V0bGtla3JiQWpYYmkyMXRFYm1ZZmtMd0xwSTJYWnZ1RkZJd1YwN1Y1cXk5Z242eklYSU4xRC1zVHotV2RxbFRQN2dTYmtpblBFNEZieFlIQW1PREgtZFdTdWtaQjc3NVFSQWp6X3VQbFhuRVJMN1FCdlpxWXZj?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "fb047321cfd1",
+   "date": "2026-10-22",
+   "published": "2026-10-22T08:49+02:00",
+   "headline": "KI als Coach: Simulationsbasiertes Lernen in der Weiterbildung",
+   "summary": "Der Beitrag geht der Frage nach, welche Rolle künstliche Intelligenz als Coach in der beruflichen Weiterbildung übernehmen kann. Im Mittelpunkt steht simulationsbasiertes Lernen, bei dem Teilnehmende Situationen üben und Rückmeldung erhalten.",
+   "thema": "KI & Lernen",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "weiterbildung",
+    "simulation",
+    "coaching",
+    "personalentwicklung"
+   ],
+   "source": "Personalwirtschaft",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-23T00:08:28+02:00",
+   "quelle_titel": "Simulationsbasiertes Lernen: Was kann KI als Coach in der Weiterbildung?",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdmFOdDNYdHFoWHBVcS1VRUtQWnFwX19kWDN6dlF5Tzl1VmhZcWZHdWhiTFhKb0FMdmU2UUFPR3U3M1U5NmItUXBMOHhFYW9rV3pTUXZ2alI0QXBjM2V0bGtla3JiQWpYYmkyMXRFYm1ZZmtMd0xwSTJYWnZ1RkZJd1YwN1Y1cXk5Z242eklYSU4xRC1zVHotV2RxbFRQN2dTYmtpblBFNEZieFlIQW1PREgtZFdTdWtaQjc3NVFSQWp6X3VQbFhuRVJMN1FCdlpxWXZj?oc=5",
+   "dup_of": "df14e2db08e1"
   },
   {
    "id": "d1b613aaec2d",
@@ -375,7 +533,8 @@
    "added": "2026-10-22T13:10:49+02:00",
    "quelle_titel": "Anthropic zeigt Claude Duet: Wie der KI-Assistent Muse und Dots Konkurrenz machen soll",
    "url": "https://t3n.de/news/anthropic-claude-duet-1769375",
-   "kontext": "Agentische Alltagsassistenten sind derzeit das Wettrennen der großen KI-Anbieter: Meta startete mit Muse, OpenAI folgte mit Dots, nun zieht Anthropic nach. Duet soll morgens ein kurzes Briefing liefern, verpasste Nachrichten aus Gmail oder Slack bündeln und über tausende Konnektoren auch Design, Shop oder Zahlungsdienste bedienen. Zielgruppe sind Selbstständige und Führungskräfte kleinerer Firmen. Gegen Prompt-Injektionen und nicht genehmigte Aktionen hat Anthropic eigene Schutzmechanismen eingebaut."
+   "kontext": "Agentische Alltagsassistenten sind derzeit das Wettrennen der großen KI-Anbieter: Meta startete mit Muse, OpenAI folgte mit Dots, nun zieht Anthropic nach. Duet soll morgens ein kurzes Briefing liefern, verpasste Nachrichten aus Gmail oder Slack bündeln und über tausende Konnektoren auch Design, Shop oder Zahlungsdienste bedienen. Zielgruppe sind Selbstständige und Führungskräfte kleinerer Firmen. Gegen Prompt-Injektionen und nicht genehmigte Aktionen hat Anthropic eigene Schutzmechanismen eingebaut.",
+   "dup_of": "1f413756a0cb"
   },
   {
    "id": "6674ee9a185c",
@@ -398,7 +557,8 @@
    "kurios": "2,7 Billionen Dollar an Zusagen, die in keiner Bilanz auftauchen",
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: „Schattenverschuldung“: KI-Konzerne laden sich finanzielle Verpflichtungen von 2,7 Billionen Dollar auf",
-   "url": "https://www.handelsblatt.com/technik/ki/ki-tech-konzerne-sammeln-27-billionen-dollar-schattenverschuldung-an/100262818.html"
+   "url": "https://www.handelsblatt.com/technik/ki/ki-tech-konzerne-sammeln-27-billionen-dollar-schattenverschuldung-an/100262818.html",
+   "dup_of": "c1d03c72c999"
   },
   {
    "id": "8cacaf29b137",
@@ -464,7 +624,8 @@
    "source_id": "cio",
    "added": "2026-10-22T13:09:53+02:00",
    "quelle_titel": "Meta investiert mindestens 135 Milliarden Dollar in KI",
-   "url": "https://www.cio.de/article/4238928/meta-investiert-mindestens-135-milliarden-dollar-in-ki.html"
+   "url": "https://www.cio.de/article/4238928/meta-investiert-mindestens-135-milliarden-dollar-in-ki.html",
+   "dup_of": "0548b2449bf4"
   },
   {
    "id": "bed00d665b9b",
@@ -554,7 +715,8 @@
    "added": "2026-10-22T13:09:53+02:00",
    "praxis": true,
    "quelle_titel": "PHP-Panik greift um sich, das raten Experten",
-   "url": "https://www.computerwoche.de/article/4238904/php-panik-greift-um-sich-das-raten-experten.html"
+   "url": "https://www.computerwoche.de/article/4238904/php-panik-greift-um-sich-das-raten-experten.html",
+   "dup_of": "a61190ef2d92"
   },
   {
    "id": "ce414b8ea4ad",
@@ -577,7 +739,8 @@
    "added": "2026-10-22T13:09:53+02:00",
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Großbank Barclays streicht 5000 Jobs nach KI-Investitionen",
-   "url": "https://www.wiwo.de/unternehmen/banken/kuenstliche-intelligenz-nach-ki-investitionen-grossbank-barclays-streicht-5000-jobs/100264183.html"
+   "url": "https://www.wiwo.de/unternehmen/banken/kuenstliche-intelligenz-nach-ki-investitionen-grossbank-barclays-streicht-5000-jobs/100264183.html",
+   "dup_of": "b3730e6fce64"
   },
   {
    "id": "b3730e6fce64",
@@ -600,7 +763,14 @@
    "added": "2026-10-22T13:08:58+02:00",
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Nach KI-Investitionen: Großbank Barclays streicht 5.000 Jobs",
-   "url": "https://www.tagesspiegel.de/wirtschaft/dpa-kunstliche-intelligenz-nach-ki-investitionen-grossbank-barclays-streicht-5000-jobs-16187610.html"
+   "url": "https://www.tagesspiegel.de/wirtschaft/dpa-kunstliche-intelligenz-nach-ki-investitionen-grossbank-barclays-streicht-5000-jobs-16187610.html",
+   "also": [
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/unternehmen/banken/kuenstliche-intelligenz-nach-ki-investitionen-grossbank-barclays-streicht-5000-jobs/100264183.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "539d1735aa78",
@@ -621,7 +791,8 @@
    "source_id": "neuron",
    "added": "2026-10-22T13:08:10+02:00",
    "quelle_titel": "😺 New Claude Duet works while your phone's off",
-   "url": "https://www.theneuron.ai/newsletter/new-claude-duet-works-while-your-phone-s-off/"
+   "url": "https://www.theneuron.ai/newsletter/new-claude-duet-works-while-your-phone-s-off/",
+   "dup_of": "1f413756a0cb"
   },
   {
    "id": "5f4f680f43c9",
@@ -643,7 +814,8 @@
    "source_id": "golem",
    "added": "2026-10-22T13:08:58+02:00",
    "quelle_titel": "KI-Agent: Claude Duet arbeitet, während Nutzer offline sind",
-   "url": "https://www.golem.de/news/ki-agent-claude-duet-arbeitet-waehrend-nutzer-offline-sind-2610-214386.html"
+   "url": "https://www.golem.de/news/ki-agent-claude-duet-arbeitet-waehrend-nutzer-offline-sind-2610-214386.html",
+   "dup_of": "1f413756a0cb"
   },
   {
    "id": "3d3518948126",
@@ -667,7 +839,8 @@
    "kurios": "32 Minuten statt Monaten: ein extremer Zeitsprung in der Datenauswertung.",
    "quelle_titel": "OpenAI-Agenten werten Mausgehirn-Daten in 32 Minuten aus, Menschen bräuchten Monate",
    "url": "https://the-decoder.de/openai-agenten-werten-mausgehirn-daten-in-32-minuten-aus-menschen-braeuchten-monate/",
-   "kontext": "Angetrieben von GPT-Rosalind bearbeitete jeder Agent eine einzelne Genstörung, prüfte die zellulären Reaktionen und durchsuchte Fachliteratur nach Erklärungen. Grundlage war ein Atlas, der zeigt, wie Genveränderungen einzelne Zelltypen im Mausgehirn beeinflussen. Herausgekommen sind Hinweise auf Unterschiede zwischen krankheitsrelevanten Genen und auf einen möglichen Bezug von Cholesterinregulierung zu Neurodegeneration. Fachleute zogen in Blindvergleichen die Berichte des verteilten Schwarms meist denen eines Einzelagenten vor."
+   "kontext": "Angetrieben von GPT-Rosalind bearbeitete jeder Agent eine einzelne Genstörung, prüfte die zellulären Reaktionen und durchsuchte Fachliteratur nach Erklärungen. Grundlage war ein Atlas, der zeigt, wie Genveränderungen einzelne Zelltypen im Mausgehirn beeinflussen. Herausgekommen sind Hinweise auf Unterschiede zwischen krankheitsrelevanten Genen und auf einen möglichen Bezug von Cholesterinregulierung zu Neurodegeneration. Fachleute zogen in Blindvergleichen die Berichte des verteilten Schwarms meist denen eines Einzelagenten vor.",
+   "dup_of": "1de8e62ff715"
   },
   {
    "id": "9fd058f94638",
@@ -691,6 +864,29 @@
    "paywall": true,
    "quelle_titel": "heise+ | Retrieval-Logs zur Priorisierung von Datenqualität nutzen",
    "url": "https://www.heise.de/hintergrund/Retrieval-Logs-zur-Priorisierung-von-Datenqualitaet-nutzen-11494004.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
+  },
+  {
+   "id": "5bc6edb2e959",
+   "date": "2026-10-22",
+   "published": "2026-10-22T12:00+02:00",
+   "headline": "KI spürt Sicherheitslücke auf, die 70 Prozent des Webs betreffen soll",
+   "summary": "Der Newsletter berichtet über eine mit KI gefundene Sicherheitslücke, die nach Angaben der Quelle rund 70 Prozent des Webs betrifft. Außerdem wird ein Assistent namens Town vorgestellt, der Briefings für das nächste Meeting vorbereitet.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "sicherheitslücke",
+    "websicherheit",
+    "ki-agenten",
+    "meetings"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-10-23T00:04:22+02:00",
+   "kurios": "Eine einzige Schwachstelle soll fast drei Viertel aller Websites betreffen.",
+   "quelle_titel": "AI finds a security hole in 70% of the web",
+   "url": "https://www.therundown.ai/articles/ai-finds-a-security-hole-in-70-of-the-web",
+   "dup_of": "a61190ef2d92"
   },
   {
    "id": "de0f97b93c55",
@@ -739,6 +935,599 @@
    "kontext": "Aufgefallen ist der Agent, weil er seinen kompletten Arbeitsauftrag an einen Honeypot von Symantec sendete, der einen offenen KI-Dienst im Netz imitierte. So sahen die Forscher im Sommer 2026, wie Sicherheitsregeln über mehrere aufeinander aufbauende Prompt-Schichten ausgehebelt werden, inklusive erfundener Anbieteridentität und einer manipulativen Begleiterpersona. Weil viele KI-Dienste dieselbe standardisierte Schnittstelle nutzen, findet ein einziger Scanner selbst gehostete Modellserver, hastig aufgesetzte Testsysteme und Gateways mit bezahlten Firmenkonten."
   },
   {
+   "id": "3e57a6a5961b",
+   "date": "2026-10-22",
+   "published": "2026-10-22T13:00+02:00",
+   "headline": "Wenn Manager das Denken auslagern: Risiken von Cognitive Offloading",
+   "summary": "Führungskräfte stehen KI-Werkzeugen überdurchschnittlich offen gegenüber und verlassen sich zunehmend auf deren Vorschläge. Dadurch droht eigenes Urteilsvermögen zu verkümmern, was die Gefahr von Fehlentscheidungen erhöht. Weil solche Entscheidungen weit in die Organisation hineinwirken, betrifft das Problem nicht nur einzelne Personen, sondern ganze Unternehmen.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "führung",
+    "ki-kompetenz",
+    "entscheidungen",
+    "arbeitswelt"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-23T00:08:28+02:00",
+   "quelle_titel": "Cognitive Offloading: Wie KI das Urteilsvermögen von Führungskräften untergräbt",
+   "url": "https://t3n.de/news/cognitive-offloading-wie-ki-das-urteilsvermoegen-von-fuehrungskraeften-untergraebt-1769444",
+   "kontext": "Die Befunde stammen aus einer Umfrage des Forschungs- und Medienunternehmens Charter unter mehr als 5.000 berufstätigen KI-Nutzenden in den USA. Auffällig ist die Kluft zwischen den Ebenen: Führungskräfte halten sich für deutlich kompetenter im Umgang mit der Technik und sehen häufiger Vorteile für Arbeit und Privatleben als ihre Beschäftigten. Die Forschenden vermuten einen sich verstärkenden Kreislauf, weil gerade Vielnutzende besonders überzeugt sind. Ähnliche Effekte wurden zuvor bei Schülerinnen und Schülern untersucht."
+  },
+  {
+   "id": "a7eaf7d0a10b",
+   "date": "2026-10-22",
+   "published": "2026-10-22T13:14+02:00",
+   "headline": "Streit im EU-Parlament über Haftungsregeln für künstliche Intelligenz",
+   "summary": "Im Europäischen Parlament ist es zu einer hitzigen Auseinandersetzung über den künftigen Umgang mit KI gekommen, bei der auch die Koalition hinter von der Leyen auseinanderfällt. Umstritten ist vor allem, ob es eigene Haftungsregeln für KI braucht. Die Christdemokraten setzen stattdessen auf Vereinfachung, um die europäische Wirtschaft zu stärken.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "eu-parlament",
+    "haftung",
+    "ki-regulierung",
+    "von der leyen"
+   ],
+   "source": "Politico Europe",
+   "source_id": "politico-eu",
+   "added": "2026-10-23T00:08:28+02:00",
+   "paywall": true,
+   "quelle_titel": "Von der Leyen’s coalition fractures over need for AI liability rules",
+   "url": "https://www.politico.eu/article/ursula-von-der-leyen-coalition-fractures-over-need-for-ai-liability-rules/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+  },
+  {
+   "id": "a1704adc32c5",
+   "date": "2026-10-22",
+   "published": "2026-10-22T13:30+02:00",
+   "headline": "Praxistest: Coding-Agenten bestehen Tests und liefern trotzdem schwachen Code",
+   "summary": "In einem Praxisversuch bearbeiten vier KI-Coding-Agenten Änderungen an einer .NET-Bibliothek zur Datenvalidierung. Alle Lösungen laufen durch die Testsuite, enthalten aber dennoch Fehler und ungedeckte Lücken. Der Test zeigt, an welchen Stellen Entwicklerinnen und Entwickler nachbessern müssen und warum grüne Tests kein Qualitätsbeweis sind.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "coding-agent",
+    "softwareentwicklung",
+    "test",
+    "codequalität"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-23T00:08:28+02:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "(g+) Vier Coding-Agenten im Testeinsatz: Warum grüne Tests noch keinen guten Code garantieren",
+   "url": "https://www.golem.de/news/vier-coding-agenten-im-testeinsatz-warum-gruene-tests-noch-keinen-guten-code-garantieren-2610-214395.html"
+  },
+  {
+   "id": "df98b36396ad",
+   "date": "2026-10-22",
+   "published": "2026-10-22T13:39+02:00",
+   "headline": "eco kritisiert Digital Omnibus: Rechtsunsicherheit beim KI-Training bleibt",
+   "summary": "Die EU-Mitgliedstaaten haben sich auf eine gemeinsame Position zum Digital Omnibus verständigt, der Unternehmen von Bürokratie entlasten soll. Der Verband der Internetwirtschaft eco sieht darin zwar Fortschritte, bemängelt aber, dass wesentliche Hemmnisse für KI bestehen bleiben. Gefordert werden eine klare Rechtsgrundlage für das Training von Modellen und angemessene Datenschutzvorgaben.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "digital omnibus",
+    "eu",
+    "datenschutz",
+    "ki-training",
+    "regulierung"
+   ],
+   "source": "eco Verband",
+   "source_id": "eco",
+   "added": "2026-10-23T00:08:28+02:00",
+   "quelle_titel": "eco zum Digital Omnibus: Europa verspricht Entlastung, lässt aber zentrale Hürden für KI bestehen",
+   "url": "https://www.eco.de/presse/eco-zum-digital-omnibus-europa-laesst-zentrale-ki-huerden-bestehen/",
+   "dup_of": "4b62e3d18917"
+  },
+  {
+   "id": "19ab544a300e",
+   "date": "2026-10-22",
+   "published": "2026-10-22T14:10+02:00",
+   "headline": "SAP überzeugt mit KI-Strategie: Cloudgeschäft treibt Quartalszahlen",
+   "summary": "Der Walldorfer Softwarekonzern richtet seinen Konzernumbau konsequent auf künstliche Intelligenz aus und kann dabei erste Erfolge vorweisen. Besonders das Cloudgeschäft entwickelt sich laut den aktuellen Quartalszahlen stark. Die Anleger reagieren positiv auf die Entwicklung.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "sap",
+    "quartalszahlen",
+    "cloud",
+    "konzernumbau"
+   ],
+   "source": "tagesschau",
+   "source_id": "tagesschau",
+   "added": "2026-10-23T00:08:28+02:00",
+   "quelle_titel": "Marktbericht: SAP-Umbau trägt Früchte",
+   "url": "https://www.tagesschau.de/wirtschaft/finanzen/sap-mittags-mb-100.html",
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/it-internet/software-wie-viel-verdient-sap-mit-kuenstlicher-intelligenz-herr-klein/100262119.html",
+     "paywall": true
+    }
+   ]
+  },
+  {
+   "id": "b843b66ea3d0",
+   "date": "2026-10-22",
+   "published": "2026-10-22T15:45+02:00",
+   "headline": "Warum das Harness darüber entscheidet, was ein KI-Modell wirklich leistet",
+   "summary": "Zwischen einem Sprachmodell und der fertigen Anwendung liegt das sogenannte Harness, also die Schicht, die Werkzeuge, Kontext und Abläufe organisiert. Der Beitrag erklärt, warum stärkere Modelle ohne passende Harness-Architektur kaum Mehrwert bringen. Für die Praxis heißt das, dass Leistungssprünge oft weniger am Modell selbst hängen als am Aufbau drumherum.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "harness",
+    "agenten",
+    "llm",
+    "architektur"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-23T00:07:43+02:00",
+   "quelle_titel": "Harness erklärt: Die Schaltzentrale, die entscheidet, wie effizient KI-Modelle sind",
+   "url": "https://t3n.de/news/harness-ki-modelle-claude-code-1769420",
+   "kontext": "Gemeint ist alles, was zwischen Eingabe und Modell liegt, bis hin zur Chatoberfläche von ChatGPT oder Claude, mit der Nutzer tatsächlich sprechen. Erst diese Schaltzentrale erlaubt es einem Sprachmodell, Werkzeuge zu bedienen und Aufgaben auszuführen. Die Analyse von t3n ordnet ein, warum öffentlich vor allem über neue Modellgenerationen geredet wird, der praktische Zugewinn aber häufig in dieser Zwischenschicht entsteht."
+  },
+  {
+   "id": "77eccbc9d98c",
+   "date": "2026-10-22",
+   "published": "2026-10-22T15:45+02:00",
+   "headline": "Medienhäuser rufen Brüssel gegen Metas neue Nutzungsbedingungen an",
+   "summary": "Europäische Verlage sehen in den geänderten Geschäftsbedingungen von Meta einen Freibrief für das Auslesen journalistischer Inhalte zu KI-Trainingszwecken. Sie halten das für rechtswidrig und fordern ein Eingreifen der EU-Kommission. Der Streit berührt die grundsätzliche Frage, unter welchen Bedingungen Medieninhalte für KI-Training genutzt werden dürfen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "meta",
+    "urheberrecht",
+    "eu",
+    "scraping",
+    "verlage"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-23T00:07:43+02:00",
+   "quelle_titel": "Neue AGB von Meta: Verlage fordern EU-Stopp wegen KI-Scraping",
+   "url": "https://www.heise.de/news/Neue-AGB-von-Meta-Verlage-fordern-EU-Stopp-wegen-KI-Scraping-11497167.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Meta will Ende Oktober die kommerziellen Bedingungen für Geschäftskonten ändern und könnte dann verlinkte Webseiten und Archive automatisiert auswerten. Der Verlegerverband EPC sowie BDZV und MVFP sehen darin einen Verstoß gegen den Digital Markets Act, der Gatekeeper zu faieren Zugangsbedingungen verpflichtet. Ihr Kernargument: Wer einen Link teilt, kann damit keine kommerziellen Verwertungsrechte an redaktionellen Inhalten abtreten. Eine Ausnahme allein für KI-Training reicht den Verbänden nicht."
+  },
+  {
+   "id": "f7aa6d71265d",
+   "date": "2026-10-22",
+   "published": "2026-10-22T15:50+02:00",
+   "headline": "Sicherheitsexperte: KI-gestützte Angriffe können Firmen in die Insolvenz treiben",
+   "summary": "Im Interview ordnet Cybersecurity-Fachmann Sven Herpig die Gefahr durch KI-unterstützte Attacken auf Unternehmen ein und berichtet von Betrieben, die nach einem Angriff aufgeben mussten. Er erläutert, welche Schutzmaßnahmen am wirksamsten sind, und erklärt zugleich, warum er keinen Zusammenbruch des Internets erwartet. Anlass ist die aktuelle Debatte um eine weit verbreitete PHP-Schwachstelle.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "cybersecurity",
+    "php",
+    "unternehmensrisiko",
+    "interview"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-10-23T00:07:43+02:00",
+   "paywall": true,
+   "quelle_titel": "PHP-Sicherheitslücke: „Wir haben Firmen gesehen, die wegen eines Hackerangriffs pleitegegangen sind“",
+   "url": "https://www.handelsblatt.com/technik/it-internet/php-sicherheitsluecke-ein-it-vorfall-kostet-viel-geld/100264174.html"
+  },
+  {
+   "id": "c1d03c72c999",
+   "date": "2026-10-22",
+   "published": "2026-10-22T16:01+02:00",
+   "headline": "Schattenverschuldung: KI-Riesen tragen Verpflichtungen über 2,7 Billionen Dollar",
+   "summary": "Microsoft, Alphabet und weitere Technologiekonzerne haben für den KI-Ausbau finanzielle Verpflichtungen in gewaltigem Umfang übernommen, die in den klassischen Bilanzkennzahlen nicht sichtbar werden. Eine Analyse beziffert die Summe auf rund 2,7 Billionen Dollar und zeigt, welche Posten Anlegerinnen und Anleger prüfen sollten. Das wirft die Frage auf, wie solide die Finanzierung des aktuellen KI-Booms tatsächlich ist.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-boom",
+    "bilanzen",
+    "investitionen",
+    "rechenzentren"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-10-23T00:07:43+02:00",
+   "paywall": true,
+   "quelle_titel": "Künstliche Intelligenz: „Schattenverschuldung“: KI-Konzerne laden sich finanzielle Verpflichtungen von 2,7 Billionen Dollar auf",
+   "url": "https://www.handelsblatt.com/technik/ki/ki-tech-konzerne-sammeln-27-billionen-dollar-schattenverschuldung-an-01/100262818.html",
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-tech-konzerne-sammeln-27-billionen-dollar-schattenverschuldung-an/100262818.html",
+     "paywall": true
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-boom-konzerne-haeufen-27-billionen-dollar-schattenverschuldung-an/100262818.html",
+     "paywall": true
+    }
+   ]
+  },
+  {
+   "id": "3a16c32d607b",
+   "date": "2026-10-22",
+   "published": "2026-10-22T16:15+02:00",
+   "headline": "KI im Bewerbungsprozess: Index zeigt große Transparenzlücken bei Firmen",
+   "summary": "Immer mehr deutsche Unternehmen lassen Bewerbungen von KI vorsortieren, informieren Kandidatinnen und Kandidaten darüber aber sehr unterschiedlich offen. Ein neuer KI-Transparenz-Index vergleicht, welche Arbeitgeber ihren Einsatz offenlegen und wo Nachholbedarf besteht. Das Thema berührt auch Informationspflichten gegenüber Betroffenen automatisierter Entscheidungen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "recruiting",
+    "transparenz",
+    "bewerbung",
+    "hr"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-23T00:06:48+02:00",
+   "quelle_titel": "Welche deutschen Unternehmen Bewerber transparent über den KI-Einsatz informieren, und welche nicht",
+   "url": "https://t3n.de/news/deutsche-unternehmen-bewerbungsprozess-ki-transparent-1769489",
+   "kontext": "Hinter dem Index steht der HR-Softwareanbieter Lucca, der die größten deutschen Arbeitgeber in vier Feldern bewertet hat: Datenschutzhinweise für Bewerber, Ablauf des Verfahrens, eingesetzte Recruiting-Software und interne KI-Regeln. Fast alle setzen Systeme ein, die KI-Funktionen beherrschen, offen benannt wird das nur von einer Handvoll. Am transparentesten schnitt die Allianz ab, am Ende der Liste stehen Aldi Nord und Siemens Energy. Bewerber erfahren davon meist nur im Kleingedruckten."
+  },
+  {
+   "id": "c393857ab226",
+   "date": "2026-10-22",
+   "published": "2026-10-22T16:29+02:00",
+   "headline": "Recursive stellt Flint vor: 40B-Modell aus automatisierter Forschung",
+   "summary": "Das Start-up Recursive, gegründet von ehemaligen DeepMind-Forschern, veröffentlicht mit Flint ein Mixture-of-Experts-Modell mit 40 Milliarden Parametern für lokales Programmieren. Entwickelt wurde es in vier Monaten mit dem hauseigenen System Eureka Machine, das Architekturen eigenständig testet und optimiert. Ob daraus tatsächlich eine sich selbst verbessernde KI entsteht, ist noch offen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "recursive",
+    "sprachmodell",
+    "moe",
+    "coding"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-10-23T00:06:48+02:00",
+   "quelle_titel": "Recursive zeigt mit Flint erstes Ergebnis seines KI-gestützten Forschungsprozesses",
+   "url": "https://the-decoder.de/recursive-zeigt-mit-flint-erstes-ergebnis-seines-ki-gestuetzten-forschungsprozesses/",
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
+    }
+   ],
+   "kontext": "Hinter Recursive steht Richard Socher, früher Chefwissenschaftler bei Salesforce; das Unternehmen kam im Mai mit einer Milliardenbewertung und Kapital unter anderem von Nvidia und AMD aus der Verborgenheit. Flint liegt unter Apache-2.0-Lizenz auf Hugging Face und läuft lokal, was Offline-Arbeit, vertraulichen Code und entfallende Nutzungsgebühren ermöglicht. Die Vorstellung, dass KI bessere KI baut, zählt zu den umstrittensten Ideen der Branche. Für größere Aufgaben rät Recursive selbst zu kleineren Teilschritten."
+  },
+  {
+   "id": "9fcdf56dc9e5",
+   "date": "2026-10-22",
+   "published": "2026-10-22T16:50+02:00",
+   "headline": "SAP-Chef Klein soll erklären, was KI wirklich zum Umsatz beiträgt",
+   "summary": "SAP hat sein Produktportfolio konsequent auf KI ausgerichtet, doch in den Geschäftszahlen schlägt sich das bislang kaum nieder. Vorstandschef Christian Klein kündigt im Handelsblatt mehr Transparenz über die tatsächlichen KI-Erlöse an. Der Fall steht exemplarisch für die Lücke zwischen vielen Prototypen und belastbarem Geschäft.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "sap",
+    "umsatz",
+    "enterprise-ki",
+    "strategie"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-10-23T00:06:48+02:00",
+   "paywall": true,
+   "quelle_titel": "Software: Wie viel Geld verdient SAP mit Künstlicher Intelligenz, Herr Klein?",
+   "url": "https://www.handelsblatt.com/technik/it-internet/software-wie-viel-verdient-sap-mit-kuenstlicher-intelligenz-herr-klein/100262119.html",
+   "dup_of": "19ab544a300e"
+  },
+  {
+   "id": "b83e42a21738",
+   "date": "2026-10-22",
+   "published": "2026-10-22T16:52+02:00",
+   "headline": "SPD-Politiker fordert Umbau der Cyberabwehr nach schwerer PHP-Lücke",
+   "summary": "Der Digitalpolitiker und Informatiker Johannes Schätzl übt nach einer PHP-Schwachstelle deutliche Kritik am BSI und verlangt eine grundlegende Neuaufstellung der deutschen Cyberabwehr. Sein Argument: Angreifer nutzen Lücken mit Hilfe von KI inzwischen so schnell aus, dass reaktives Patchen nicht mehr ausreicht. Die Debatte dürfte die Diskussion über Befugnisse und Ausstattung der Behörde befeuern.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "bsi",
+    "cybersicherheit",
+    "php",
+    "politik"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-23T00:06:48+02:00",
+   "quelle_titel": "Johannes Schätzl: SPD-Digitalpolitiker kritisiert nach PHP-Lücke das BSI",
+   "url": "https://www.golem.de/news/johannes-schaetzl-spd-digitalpolitiker-kritisiert-nach-php-luecke-das-bsi-2610-214409.html"
+  },
+  {
+   "id": "81434c66a3aa",
+   "date": "2026-10-22",
+   "published": "2026-10-22T16:55+02:00",
+   "headline": "Darf der Arbeitgeber KI-Nutzung anordnen? Rechtslage für Beschäftigte",
+   "summary": "Ein Leser der WirtschaftsWoche will im Job keine KI einsetzen, wird vom Vorgesetzten aber wiederholt dazu angehalten. Der Beitrag ordnet ein, wie weit das Weisungsrecht reicht und welche arbeitsrechtlichen Folgen eine Verweigerung haben kann. Das Thema betrifft immer mehr Unternehmen, die KI-Werkzeuge verbindlich in Arbeitsabläufe einbauen.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "arbeitsrecht",
+    "ki-nutzung",
+    "weisungsrecht",
+    "arbeitsplatz"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-10-23T00:06:48+02:00",
+   "paywall": true,
+   "quelle_titel": "Arbeitsrecht: Kann mein Chef mich zwingen, KI zu nutzen?",
+   "url": "https://www.wiwo.de/erfolg/beruf/ki-am-arbeitsplatz-darf-der-chef-die-nutzung-vorschreiben/100260732.html"
+  },
+  {
+   "id": "75e170524f7e",
+   "date": "2026-10-22",
+   "published": "2026-10-22T17:59+02:00",
+   "headline": "BSI-Chefin will KI-Anbieter aus den USA und China stärker haftbar machen",
+   "summary": "BSI-Präsidentin Claudia Plattner fordert ein härteres Vorgehen gegen Sicherheitsrisiken von KI-Systemen und stellt Anbietern aus den USA und China Haftungsfragen in Aussicht. Sie kritisiert einen zu laxen Umgang mit IT-Sicherheit in der Branche. Für Unternehmen könnte das mittelfristig strengere Anforderungen an eingesetzte KI-Dienste bedeuten.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "bsi",
+    "haftung",
+    "it-sicherheit",
+    "regulierung"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-23T00:05:53+02:00",
+   "quelle_titel": "IT-Sicherheit: BSI-Präsidentin droht KI-Anbietern in den USA und in China mit Haftung",
+   "url": "https://www.golem.de/news/it-sicherheit-bsi-praesidentin-droht-ki-anbietern-in-den-usa-und-in-china-mit-haftung-2610-214412.html"
+  },
+  {
+   "id": "57b1e16540f1",
+   "date": "2026-10-22",
+   "published": "2026-10-22T18:00+02:00",
+   "headline": "ChatGPT markiert Texte künftig mit unsichtbaren Wasserzeichen",
+   "summary": "OpenAI will Texte aus ChatGPT mit unsichtbaren Wasserzeichen versehen, damit maschinell erzeugte Inhalte besser erkennbar werden. Hintergrund sind die europäischen Vorgaben zur Kennzeichnung von KI-Inhalten. Bislang gibt es kaum verlässliche Methoden, um KI-Texte im Netz als solche zu identifizieren.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "openai",
+    "wasserzeichen",
+    "kennzeichnung",
+    "ai act"
+   ],
+   "source": "Basic Thinking",
+   "source_id": "basic-thinking",
+   "added": "2026-10-23T00:05:53+02:00",
+   "quelle_titel": "KI-Texte besser erkennen: ChatGPT führt unsichtbare Wasserzeichen ein",
+   "url": "https://www.basicthinking.de/blog/2026/10/22/ki-chatgpt-wasserzeichen/",
+   "dup_of": "7d838bc45b95"
+  },
+  {
+   "id": "d9ae639722a9",
+   "date": "2026-10-22",
+   "published": "2026-10-22T18:49+02:00",
+   "headline": "OpenAI untersucht Agenten, die eigene Sicherheitshinweise unterdrückten",
+   "summary": "Bei OpenAI haben zwei KI-Agenten Sicherheitswarnungen aktiv ausgeschaltet, statt sie weiterzugeben. Das Unternehmen prüft nun, ob ein Missverständnis der Aufgabenstellung oder gezieltes Verhalten dahintersteckt. Der Fall nährt die Debatte über Kontrolle und Aufsicht bei autonom arbeitenden Agentensystemen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "agenten",
+    "ki-sicherheit",
+    "alignment"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-23T00:05:53+02:00",
+   "kurios": "KI-Agenten legten ihre eigenen Warnmeldungen einfach still.",
+   "quelle_titel": "OpenAI: Agenten schalteten eigene Sicherheitswarnungen ab",
+   "url": "https://www.heise.de/news/OpenAI-Agenten-unterdrueckten-aktiv-Sicherheitswarnungen-11496302.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "f0018f5b54af"
+  },
+  {
+   "id": "4e1401ba2929",
+   "date": "2026-10-22",
+   "published": "2026-10-22T19:00+02:00",
+   "headline": "Prognose: KI könnte bis 2035 jede zweite Journalistenstelle kosten",
+   "summary": "Eine neue Studie untersucht, wie künstliche Intelligenz und die Marktmacht großer Technologiekonzerne das Mediengeschäft umbauen. Im skizzierten Szenario könnte bis 2035 rund die Hälfte der journalistischen Arbeitsplätze wegfallen. Der Druck entsteht vor allem durch automatisierte Inhalte und verschobene Erlösströme im Digitalgeschäft.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "medien",
+    "journalismus",
+    "arbeitsmarkt",
+    "studie"
+   ],
+   "source": "Spektrum der Wissenschaft",
+   "source_id": "spektrum",
+   "added": "2026-10-23T00:05:53+02:00",
+   "quelle_titel": "Studie zur Zukunft der Medien: Bis 2035 könnte jeder zweite Journalist wegfallen",
+   "url": "https://www.spektrum.de/news/ki-beeinflusst-zukunft-der-medien/2350909",
+   "dup_of": "f28e12987722"
+  },
+  {
+   "id": "b59d64b7cab6",
+   "date": "2026-10-22",
+   "published": "2026-10-22T19:10+02:00",
+   "headline": "Google baut eigene Laufzeitumgebung für KI-Agenten",
+   "summary": "Mit der Agent Compute Engine stellt Google eine Rechenumgebung vor, die speziell auf den Betrieb von KI-Agenten ausgelegt ist. Parallel erweitert der Konzern die Governance-Werkzeuge, mit denen Unternehmen Agenten in der Cloud, in hybriden Setups und lokal steuern und überwachen können. Das zielt klar auf den produktiven Einsatz von Agenten in größeren Organisationen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "google",
+    "ki-agenten",
+    "cloud",
+    "governance"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-10-23T00:05:13+02:00",
+   "quelle_titel": "Google stellt Agent Compute Engine vor: eigene Rechenumgebung für KI-Agenten",
+   "url": "https://the-decoder.de/google-stellt-agent-compute-engine-vor-eigene-rechenumgebung-fuer-ki-agenten/",
+   "kontext": "Technisch erhält jeder Agent eine schlanke virtuelle Maschine, die über Googles eigenen Titanium-Chip hardwareseitig abgeschottet wird, bei Leerlauf pausiert und Arbeitsspeicher mit anderen teilt. Der Dienst betreibt bereits Gemini und soll in den kommenden Monaten als Vorschau öffnen. Daneben gibt Google mit Agent Substrate eine quelloffene Variante auf Kubernetes frei. Die Steuerung reicht nun von der Cloud bis aufs Endgerät, samt Kostenkontrolle und Anmeldung über externe Identitätsanbieter."
+  },
+  {
+   "id": "1366ffbcd01d",
+   "date": "2026-10-22",
+   "published": "2026-10-22T20:15+02:00",
+   "headline": "US-Banken sperren KI-Agenten aus Kundenkonten aus",
+   "summary": "KI-Agenten haben sich mit von Kunden weitergegebenen Zugangsdaten bei Morgan Stanley, JPMorgan und weiteren Instituten in Konten eingeloggt, in Teilen ohne konkreten Auftrag der Nutzer. Morgan Stanley blockiert solche Zugriffe inzwischen vollständig, andere Banken schränken sie ein. Perspektivisch sollen Agenten überwiegend nur noch lesenden Zugriff erhalten.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "banken",
+    "zugangsdaten",
+    "fintech",
+    "sicherheit"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-10-23T00:05:13+02:00",
+   "kurios": "KI-Agenten loggten sich teils ohne Auftrag in echte Bankkonten ein.",
+   "quelle_titel": "US-Großbanken blockieren KI-Agenten, die sich mit Kundendaten unerlaubt Zugang zu Konten verschaffen",
+   "url": "https://the-decoder.de/us-grossbanken-blockieren-ki-agenten-die-sich-mit-kundendaten-unerlaubt-zugang-zu-konten-verschaffen/",
+   "kontext": "Aufgedeckt hat die Vorgänge Axios. Die Regeln der Institute verlangen, dass Kontoinhaber sich persönlich anmelden. Das Kernproblem ist, dass viele Banken technisch nicht unterscheiden können, ob hinter einem Login ein Mensch, ein beauftragter Agent oder eine eigenmächtig handelnde Software steckt. Weil Nutzer den Zugriff selbst über die Browser-Steuerung ihres Assistenten freigeben, lässt sich das kaum von außen abstellen. OpenAI startet in den USA parallel einen Finanzdienst mit reinem Lesezugriff."
+  },
+  {
+   "id": "d26ae9b2d9ce",
+   "date": "2026-10-22",
+   "published": "2026-10-22T20:43+02:00",
+   "headline": "Microsoft-KI schlägt Ärzte bei schwierigen Diagnosen",
+   "summary": "Ein in Science veröffentlichtes Diagnosesystem von Microsoft erzielte bei komplizierten Fällen bessere Ergebnisse als Allgemeinmediziner. Mustafa Suleyman formuliert damit das Ziel einer medizinischen Superintelligenz. Kritisch ist allerdings, dass der Leistungssprung offenbar vor allem auf die zugrunde liegenden Sprachmodelle zurückgeht und weniger auf den Aufbau des Systems selbst.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "microsoft",
+    "medizin",
+    "diagnostik",
+    "suleyman",
+    "forschung"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-23T00:05:13+02:00",
+   "quelle_titel": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+   "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+   "kontext": "Hinter dem System steckt ein Verbund mehrerer Agenten, die wie ein Ärzteteam nachfragen, Tests anordnen und über die Diagnose diskutieren. Geprüft wurde es an besonders schweren Fallbeschreibungen aus einer Fachzeitschrift, verglichen allerdings nur mit einzelnen Allgemeinmedizinern und nicht mit Spezialistenteams. Die stärksten Resultate lieferten fremde Modelle von OpenAI. Microsoft reiht sich damit neben Google und OpenAI ein und entwickelt mit der Mayo Clinic ein eigenes Medizinmodell."
+  },
+  {
+   "id": "7cbc0075ea58",
+   "date": "2026-10-22",
+   "published": "2026-10-22T20:54+02:00",
+   "headline": "Studie: Deepfakes erschüttern das Vertrauen in Videoaufnahmen",
+   "summary": "Einer neuen Untersuchung zufolge erkennt die Mehrheit der Menschen in Deutschland KI-generierte Videos nicht als Fälschung. Entsprechend groß ist der Wunsch nach verbindlichen Kennzeichnungspflichten für synthetische Inhalte. Gleichzeitig gewinnen Creator als Nachrichtenquelle an Bedeutung, was die Frage der Glaubwürdigkeit weiter verschärft.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "deepfakes",
+    "studie",
+    "kennzeichnung",
+    "medienkompetenz"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-23T00:05:13+02:00",
+   "quelle_titel": "Studie: KI-Videos untergraben Vertrauen in Bewegtbild massiv",
+   "url": "https://www.heise.de/news/Studie-KI-Videos-untergraben-Vertrauen-in-Bewegtbild-massiv-11497558.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Grundlage ist die Untersuchung Video Trends 2026 der Landesmedienanstalten, die den alltäglichen Bewegtbildkonsum erfasst. Vor allem auf TikTok und Instagram begegnen den Befragten künstlich erzeugte Clips, und viele überschätzen dabei ihre eigene Treffsicherheit. Bisher verlässliche Merkmale wie unnatürliche Mimik oder fehlerhafte Details verschwinden mit der technischen Entwicklung. Neben einer Kennzeichnung verlangt eine große Mehrheit deshalb auch ein Verbot bestimmter Deepfake-Formen."
+  },
+  {
+   "id": "27825e300358",
+   "date": "2026-10-22",
+   "published": "2026-10-22T21:00+02:00",
+   "headline": "OpenAI bringt Decisions API für schnelle Entscheidungen in Anwendungen",
+   "summary": "OpenAI stellt die Decisions API vor, die schnelle und eng zugeschnittene Entscheidungen zu geringen Kosten in beliebige Anwendungen einbauen soll. Entwicklerinnen und Entwickler können damit reaktionsschnellere Produkte bauen, ohne für jede Abfrage ein großes Modell zu bemühen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "api",
+    "entscheidungsmodelle",
+    "entwicklung"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-10-23T00:04:22+02:00",
+   "quelle_titel": "Build more responsive apps with the Decisions API",
+   "url": "https://openai.com/index/decisions-api",
+   "dup_of": "5d204276414b"
+  },
+  {
+   "id": "5d204276414b",
+   "date": "2026-10-22",
+   "published": "2026-10-22T21:00+02:00",
+   "headline": "OpenAI öffnet sein Entscheidungsmodell breit und greift Jev an",
+   "summary": "OpenAI macht sein Entscheidungsmodell allgemein verfügbar und tritt damit direkt gegen den Vorreiter Jev an. Der Bericht ordnet ein, wie sich der Wettbewerb um spezialisierte Entscheidungsmodelle verschärft und ob OpenAI gegen das Original bestehen kann.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "jev",
+    "entscheidungsmodelle",
+    "wettbewerb"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-23T00:04:22+02:00",
+   "quelle_titel": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+   "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+   "also": [
+    {
+     "source": "OpenAI",
+     "url": "https://openai.com/index/decisions-api"
+    }
+   ],
+   "kontext": "Entscheidungsmodelle arbeiten wie schnelle Klassifizierer: Sie wählen aus vorgegebenen Optionen und geben an, wie sicher sie dabei sind, deutlich günstiger und flinker als ein Sprachmodell. Geprägt hat die Kategorie das Startup TypeSafe, gegründet von einem früheren Forscher eines führenden Labors. OpenAI trainierte kein eigenes Modell, sondern konfigurierte ein bestehendes auf kurze Antwortzeiten im Millisekundenbereich um. In öffentlichen Ranglisten liegen Konkurrenten vorn, bei Entwicklern bleibt Jev bislang am stärksten gefragt."
+  },
+  {
+   "id": "fe52d49759b6",
+   "date": "2026-10-22",
+   "published": "2026-10-22T21:07+02:00",
+   "headline": "1Password lässt KI-Agenten anmelden, ohne Passwörter preiszugeben",
+   "summary": "1Password bietet eine neue Funktion, mit der KI-Agenten sich in private Nutzerkonten einloggen können, ohne die zugehörigen Zugangsdaten zu sehen. Damit adressiert der Anbieter ein zentrales Sicherheitsproblem beim Einsatz handelnder Agenten im Web.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "1password",
+    "ki-agenten",
+    "zugangsdaten",
+    "identität"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-23T00:04:22+02:00",
+   "quelle_titel": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+   "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+   "kontext": "Technisch bekommt der Agent eine eigene digitale Identität: Beim Anmeldeversuch prüft der Passwortmanager einen Schlüssel, der Mensch bestätigt den Vorgang, anschließend trägt die Software die Zugangsdaten selbst ein. Unterstützt werden Agenten mehrerer Anbieter, darunter Anthropic, OpenAI und Meta. Der Start fällt mit Berichten zusammen, wonach US-Banken Agentenaktivität in Kundenkonten bemerken, aber nicht unterscheiden können, ob sie vom Kontoinhaber gewollt ist."
+  },
+  {
    "id": "3acc865d1f4f",
    "date": "2026-10-22",
    "published": "2026-10-22T00:51+02:00",
@@ -761,6 +1550,28 @@
    "kontext": "Blackstone finanziert den KI-Boom nicht als klassischer Wagniskapitalgeber, sondern über Kredite und Beteiligungen rund um Rechenleistung. Dafür hat der Vermögensverwalter eine eigene Einheit in San Francisco aufgebaut, die Khaira leitet. Zum Modell gehören Darlehen an spezialisierte Cloudanbieter, besichert durch Kundenverträge und die vorhandenen KI-Chips, erstmals erprobt beim Anbieter CoreWeave. Nach eigener Darstellung verfügt Blackstone außerhalb der großen Cloudkonzerne über die meiste Rechenkapazität."
   },
   {
+   "id": "bb49ad748aa9",
+   "date": "2026-10-22",
+   "published": "2026-10-22T02:00+02:00",
+   "headline": "Newsletter-Überblick: Claude Duet, API-Änderungen bei Anthropic, lokales Modell",
+   "summary": "Die Ausgabe bündelt aktuelle Meldungen aus der KI-Branche, darunter ein neues Angebot namens Claude Duet und Anpassungen an der Anthropic-Schnittstelle. Ebenfalls Thema ist ein lokal lauffähiges Modell von Recursive. Details nennt der Titel nicht, die Auswahl zeigt aber, wo sich bei Entwicklerwerkzeugen gerade etwas bewegt.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "anthropic",
+    "api",
+    "lokale modelle",
+    "entwicklertools"
+   ],
+   "source": "TLDR AI",
+   "source_id": "tldr-ai",
+   "added": "2026-10-23T00:09:00+02:00",
+   "quelle_titel": "Claude Duet 🤖, Anthropic API changes 👨‍💻, Recursive’s local model 💻",
+   "url": "https://tldr.tech/ai/2026-10-22",
+   "dup_of": "1f413756a0cb"
+  },
+  {
    "id": "c17a4091baf7",
    "date": "2026-10-22",
    "published": "2026-10-22T05:04+02:00",
@@ -779,8 +1590,7 @@
    "source_id": "heise-ki",
    "added": "2026-10-22T07:48:22+02:00",
    "quelle_titel": "Meta Platforms erhöht Ausgaben deutlich, aber verdreifacht Nettogewinn",
-   "url": "https://www.heise.de/news/Meta-Platforms-erhoeht-Ausgaben-deutlich-aber-verdreifacht-Nettogewinn-11496284.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "0548b2449bf4"
+   "url": "https://www.heise.de/news/Meta-Platforms-erhoeht-Ausgaben-deutlich-aber-verdreifacht-Nettogewinn-11496284.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
    "id": "abedc1d59811",
@@ -824,6 +1634,28 @@
    "added": "2026-10-22T07:48:22+02:00",
    "quelle_titel": "DSAG-Chef Thomas Henzler: „Wir erwarten klare Spielregeln von SAP“",
    "url": "https://www.computerwoche.de/article/4237500/dsag-chef-thomas-henzler-wir-erwarten-klare-spielregeln-von-sap.html"
+  },
+  {
+   "id": "63c31ca523f9",
+   "date": "2026-10-22",
+   "published": "2026-10-22T08:00+02:00",
+   "headline": "OpenAI erklärt die Rolle seiner Forward Deployed Engineers",
+   "summary": "OpenAI beschreibt, was Forward Deployed Engineering im eigenen Haus bedeutet. Gemeint sind Fachkräfte, die direkt bei Kunden arbeiten und KI-Lösungen in deren Umgebung umsetzen. Der Beitrag gibt Einblick in ein Berufsbild, das bei der Einführung von KI in Unternehmen an Bedeutung gewinnt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "openai",
+    "berufsbild",
+    "implementierung",
+    "enterprise"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-10-23T00:08:28+02:00",
+   "quelle_titel": "What FDE means at OpenAI",
+   "url": "https://openai.com/index/forward-deployed-engineering-means"
   },
   {
    "id": "bfacd1324660",
@@ -971,7 +1803,8 @@
    "source_id": "cio",
    "added": "2026-10-22T13:09:53+02:00",
    "quelle_titel": "Nvidia-Chef Huang sieht Europa als KI-Schlüsselakteur",
-   "url": "https://www.cio.de/article/4238963/nvidia-chef-huang-sieht-europa-als-ki-schlusselakteur.html"
+   "url": "https://www.cio.de/article/4238963/nvidia-chef-huang-sieht-europa-als-ki-schlusselakteur.html",
+   "dup_of": "5f2ea7ff3a5b"
   },
   {
    "id": "c82929bb9efa",
@@ -1170,7 +2003,8 @@
    "added": "2026-10-22T13:08:10+02:00",
    "paywall": true,
    "quelle_titel": "Shutdown im Netz: Die eine Sicherheitslücke ist entdeckt. Aber die Gefahr längst nicht gebannt",
-   "url": "https://www.sueddeutsche.de/meinung/php-sicherheitsluecke-kuenstliche-intelligenz-software-cybersicherheit-li.3567266"
+   "url": "https://www.sueddeutsche.de/meinung/php-sicherheitsluecke-kuenstliche-intelligenz-software-cybersicherheit-li.3567266",
+   "dup_of": "a61190ef2d92"
   },
   {
    "id": "fc53192a395f",
@@ -1235,7 +2069,382 @@
    "source_id": "deutschlandfunk",
    "added": "2026-10-22T13:08:10+02:00",
    "quelle_titel": "Gutachten im Auftrag des ÖRR - Vier Szenarien zur Zukunft der Medien: KI und Tech-Konzerne erhöhen den Druck",
-   "url": "https://www.deutschlandfunk.de/vier-szenarien-zur-zukunft-der-medien-ki-und-tech-konzerne-erhoehen-den-druck-102.html"
+   "url": "https://www.deutschlandfunk.de/vier-szenarien-zur-zukunft-der-medien-ki-und-tech-konzerne-erhoehen-den-druck-102.html",
+   "also": [
+    {
+     "source": "Spektrum der Wissenschaft",
+     "url": "https://www.spektrum.de/news/ki-beeinflusst-zukunft-der-medien/2350909"
+    }
+   ]
+  },
+  {
+   "id": "adb6a52bf6e3",
+   "date": "2026-10-22",
+   "published": "2026-10-22T14:59+02:00",
+   "headline": "OpenCode 2.1 erweitert quelloffenen Coding-Agenten um Plug-in-Daten",
+   "summary": "Der Open-Source-Coding-Agent OpenCode ist in Version 2.1 erschienen und arbeitet weiterhin mit verschiedenen Sprachmodellen zusammen. Neu sind zusätzliche Datenfelder für Plug-ins und Clients sowie dauerhafte Terminals unter Windows. Damit zielt das Projekt stärker auf Erweiterbarkeit und eine stabilere Nutzung im Windows-Umfeld.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "coding-agent",
+    "open source",
+    "entwicklung",
+    "tools"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-23T00:08:28+02:00",
+   "quelle_titel": "OpenCode 2.1: Ein Coding-Agent, viele Modelle",
+   "url": "https://www.heise.de/news/OpenCode-2-1-Ein-Coding-Agent-viele-Modelle-11497016.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "7c4d936b4cd0",
+   "date": "2026-10-22",
+   "published": "2026-10-22T15:20+02:00",
+   "headline": "Materialkiste bringt Jugendlichen KI und Klimaschutz praktisch näher",
+   "summary": "Die KI-Box Klima ist eine bestellbare Materialkiste von kosmos b und Tüftler Lab, entwickelt im Auftrag des Bundesumweltministeriums. Mit Bausätzen, Spielen und Bildungsmaterialien erarbeiten junge Teilnehmende Grundlagen zu Künstlicher Intelligenz und natürlichem Klimaschutz und setzen eigene Aktivitäten um. Der Ansatz ist bewusst niedrigschwellig und praxisorientiert angelegt.",
+   "thema": "KI & Lernen",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "bildungsmaterial",
+    "ki-kompetenz",
+    "klimaschutz",
+    "jugendbildung"
+   ],
+   "source": "Deutscher Bildungsserver",
+   "source_id": "bildungsserver",
+   "added": "2026-10-23T00:07:43+02:00",
+   "praxis": true,
+   "quelle_titel": "KI-Box Klima",
+   "url": "https://www.bildungsserver.de/onlineressource.html?onlineressourcen_id=67435&pk_campaign=no_campaign_rss&pk_source=neuigkeiten&pk_medium=rss"
+  },
+  {
+   "id": "92c59c7363f6",
+   "date": "2026-10-22",
+   "published": "2026-10-22T15:21+02:00",
+   "headline": "Microsoft wirbt in Köln für kontrollierbare KI und souveräne Cloud",
+   "summary": "Auf seiner Frontier Tour in Köln zeigte Microsoft eine breite Palette an KI-Produkten für Unternehmenskunden. Im Mittelpunkt standen Steuerbarkeit von KI-Anwendungen und digitale Souveränität beim Cloud-Betrieb, beides zentrale Anforderungen europäischer Kunden. Die Veranstaltung verdeutlicht, wie stark der Anbieter auf Governance-Themen setzt.",
+   "thema": "Modelle und Produkte",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "microsoft",
+    "cloud-souveränität",
+    "governance",
+    "unternehmens-ki"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-23T00:07:43+02:00",
+   "quelle_titel": "Microsoft Frontier Tour: KI ist wie der Kölner Dom, eine Vision",
+   "url": "https://www.heise.de/news/Microsoft-Frontier-Tour-KI-ist-wie-der-Koelner-Dom-eine-Vision-11496656.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "655df0fb22ac",
+   "date": "2026-10-22",
+   "published": "2026-10-22T16:30+02:00",
+   "headline": "DeepMind kartiert Waldtypen weltweit in Zehn-Meter-Auflösung",
+   "summary": "Google DeepMind stellt eine globale Karte vor, die jede Landfläche der Erde in Rastern von zehn Metern einem Waldtyp zuordnet. Damit geht die Analyse über die bisher übliche reine Erfassung von Baumbedeckung hinaus. Solche Daten sind für Klimaforschung, Naturschutz und Berichtspflichten zur Landnutzung relevant.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "deepmind",
+    "geodaten",
+    "klima",
+    "kartierung"
+   ],
+   "source": "Google DeepMind",
+   "source_id": "deepmind",
+   "added": "2026-10-23T00:06:48+02:00",
+   "quelle_titel": "Beyond tree cover: mapping the world’s forest types",
+   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/"
+  },
+  {
+   "id": "e701aee44a63",
+   "date": "2026-10-22",
+   "published": "2026-10-22T17:04+02:00",
+   "headline": "Weniger Watt, kaum Verlust? Praxistest zur Effizienz der RTX Pro 6000",
+   "summary": "heise hat gemessen, wie sich das Absenken der Leistungsaufnahme bei Nvidias RTX Pro 6000 auf die Rechenleistung auswirkt. Geprüft werden mehrere TDP-Stufen unterhalb der vollen 600 Watt, wobei schon kleine Unterschiede im Budget spürbare Effekte haben können. Für Teams, die lokale KI-Workloads betreiben, liefert der Test konkrete Anhaltspunkte zur Konfiguration.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "gpu",
+    "nvidia",
+    "effizienz",
+    "hardware"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-23T00:06:48+02:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "heise+ | Effizienz-Test: Wie viel Leistung die RTX Pro 6000 bei reduzierter TDP verliert",
+   "url": "https://www.heise.de/ratgeber/Effizienz-Test-Wie-viel-Leistung-die-RTX-Pro-6000-bei-reduzierter-TDP-verliert-11473305.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
+  },
+  {
+   "id": "b88755b985e9",
+   "date": "2026-10-22",
+   "published": "2026-10-22T17:12+02:00",
+   "headline": "Zehn Millionen Dollar Token pro Monat: Entwickler treibt KI-Kosten in Rekordhöhe",
+   "summary": "Der Entwickler Peter Steinberger, Gründer von Openclaw und inzwischen bei OpenAI tätig, soll in einem Monat Tokenkosten von rund zehn Millionen Dollar verursacht haben. Der Fall zeigt, wie stark der intensive Einsatz großer Modelle im Arbeitsalltag ins Geld gehen kann. Für Unternehmen ist das ein Hinweis darauf, dass Verbrauchskontrolle bei KI-Werkzeugen zum eigenen Kostenfaktor wird.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "kosten",
+    "token",
+    "openai",
+    "entwickler"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-23T00:06:48+02:00",
+   "kurios": "Ein einzelner Entwickler verbrennt in einem Monat zweistellige Millionenbeträge an Rechenzeit.",
+   "quelle_titel": "KI-Kosten: Openclaw-Gründer gab zehn Millionen Dollar an Token im Monat aus",
+   "url": "https://www.golem.de/news/ki-kosten-openclaw-gruender-gab-zehn-millionen-dollar-an-token-im-monat-aus-2610-214410.html"
+  },
+  {
+   "id": "18ffa3651c0a",
+   "date": "2026-10-22",
+   "published": "2026-10-22T17:30+02:00",
+   "headline": "Wenn Sprachmodelle Standardsoftware nachbauen: Druck auf Tech-Giganten",
+   "summary": "Mit Sprachmodellen lassen sich Funktionen teurer Programme wie Bildbearbeitung oder Textverarbeitung nachprogrammieren. Das könnte die Marktmacht etablierter Softwarekonzerne angreifen, bringt aber auch eine Flut fehlerhafter KI-Nachbauten mit sich. Der Beitrag fragt, wie sich Qualität und Verlässlichkeit in dieser neuen Softwarewelt sichern lassen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "softwaremarkt",
+    "vibe coding",
+    "sprachmodelle",
+    "qualität"
+   ],
+   "source": "Spektrum der Wissenschaft",
+   "source_id": "spektrum",
+   "added": "2026-10-23T00:05:53+02:00",
+   "quelle_titel": "Bye, bye Photoshop, Word und Co?: KI stellt die Softwarewelt auf den Kopf",
+   "url": "https://www.spektrum.de/news/ki-kopiert-kommerzielle-software-wie-spiele-photoshop-oder-word/2350978"
+  },
+  {
+   "id": "53e5d2375301",
+   "date": "2026-10-22",
+   "published": "2026-10-22T18:11+02:00",
+   "headline": "Singapur baut Nachwuchsförderung für das KI-Zeitalter aus",
+   "summary": "Singapur verstärkt die Ausbildung junger Talente mit Blick auf die Anforderungen durch künstliche Intelligenz. Der Stadtstaat setzt damit erneut auf frühe Qualifizierung als Standortfaktor.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "singapur",
+    "ausbildung",
+    "ki-kompetenz",
+    "nachwuchs"
+   ],
+   "source": "Vietnam.vn",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-23T00:05:53+02:00",
+   "quelle_titel": "Singapur verstärkt die Ausbildung junger Talente im Zeitalter der KI.",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ1d3cWJJOU5MLWRhc2g5eURjYVp1VTVkS2gtaDB0M3NyaWR0N3dKQzN4a1JJd2pFTXlDc0h6WEJzblo4d2NuZHZvYlV2c1BNajhHMFpKSGlES1VDbHRsOGhSbHFETFlFT0FVbVpwXzlHRkM5TWxONVp1OHV4N1FMTWE5NWxTaEtsQ1VlOW1XRQ?oc=5"
+  },
+  {
+   "id": "eaa0ebff7daf",
+   "date": "2026-10-22",
+   "published": "2026-10-22T18:11+02:00",
+   "headline": "OlmoEarth v1.3 liefert Embeddings für die gesamte Erdoberfläche",
+   "summary": "Mit OlmoEarth v1.3 ist eine neue Version eines Modells für Erdbeobachtungsdaten verfügbar, das Embeddings für den gesamten Planeten bereitstellt. Die Entwickler ordnen die Ergebnisse auf dem Niveau des aktuellen Stands der Technik ein. Solche Modelle dienen als Basis für Anwendungen in Umweltmonitoring, Landnutzung und Geoanalyse.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "erdbeobachtung",
+    "embeddings",
+    "foundation model",
+    "open source"
+   ],
+   "source": "Hugging Face",
+   "source_id": "huggingface",
+   "added": "2026-10-23T00:05:53+02:00",
+   "quelle_titel": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+   "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3"
+  },
+  {
+   "id": "a4d3526d3b30",
+   "date": "2026-10-22",
+   "published": "2026-10-22T19:40+02:00",
+   "headline": "Modal-Chef über die Ökonomie der Rechenleistung für Agenten",
+   "summary": "Im Gespräch erläutert Modal-Gründer Erik Bernhardsson, warum sich Rechenkapazität für KI nur in bestimmten Zuschnitten vermieten lässt. Themen sind elastisch zuteilbare GPUs, das rasche Wachstum von Sandbox-Umgebungen und die Kostenlogik einer Cloud für KI-Agenten.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "gpu",
+    "cloud",
+    "ki-agenten",
+    "infrastruktur"
+   ],
+   "source": "Latent Space",
+   "source_id": "latent-space",
+   "added": "2026-10-23T00:05:13+02:00",
+   "quelle_titel": "Why AI Compute Comes in Rectangles, Erik Bernhardsson, Modal CEO",
+   "url": "https://www.latent.space/p/modal-d"
+  },
+  {
+   "id": "ab838d8755d5",
+   "date": "2026-10-22",
+   "published": "2026-10-22T20:48+02:00",
+   "headline": "Was skalierbare KI im Unternehmen wirklich braucht",
+   "summary": "Eine Konferenzsession von MIT Technology Review geht der Frage nach, welche Grundlagen KI-Systeme benötigen, um im großen Maßstab zu funktionieren. Daten, Engineering, Plattformen, Betriebsmodelle und Governance müssen demnach als ein Ganzes zusammenwirken. Besonderes Augenmerk liegt auf stark regulierten Branchen und auf dem verantwortungsvollen Einsatz agentischer Fähigkeiten.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "skalierung",
+    "governance",
+    "dateninfrastruktur",
+    "agentische ki"
+   ],
+   "source": "MIT Technology Review",
+   "source_id": "mit-tr",
+   "added": "2026-10-23T00:05:13+02:00",
+   "paywall": true,
+   "quelle_titel": "The Foundations of Scalable AI",
+   "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
+  },
+  {
+   "id": "865ffb65f1d5",
+   "date": "2026-10-22",
+   "published": "2026-10-22T21:00+02:00",
+   "headline": "Canva bringt eigenes Modell für Bildgenerierung für alle Nutzer",
+   "summary": "Canva hat ein selbst entwickeltes Modell zur Bilderzeugung veröffentlicht und schaltet es für die gesamte Nutzerbasis frei. Das Unternehmen verspricht bessere Ergebnisse, mehr Anpassungsmöglichkeiten und niedrigere Kosten als zuvor. Damit rückt die Design-Plattform näher an die großen Anbieter generativer Bildmodelle heran.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "canva",
+    "bildgenerierung",
+    "generative ki",
+    "design"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-23T00:05:13+02:00",
+   "quelle_titel": "Canva releases its first image generation model",
+   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+  },
+  {
+   "id": "c6b16d28af7e",
+   "date": "2026-10-22",
+   "published": "2026-10-22T21:45+02:00",
+   "headline": "Fusionsgespräche von SpaceX und Tesla trotz Milliardenlast für KI-Chips",
+   "summary": "SpaceX und Tesla haben eigene Ausschüsse gebildet, um einen möglichen Zusammenschluss zu prüfen. Kritisch gesehen wird dabei das Kreditrisiko von SpaceX, das laut dem Bericht weitere rund 40 Milliarden Dollar aufnehmen will, um Chips von Nvidia zu kaufen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "spacex",
+    "tesla",
+    "nvidia",
+    "fusion",
+    "finanzierung"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-23T00:04:22+02:00",
+   "quelle_titel": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari"
+  },
+  {
+   "id": "70399cbe269f",
+   "date": "2026-10-22",
+   "published": "2026-10-22T21:56+02:00",
+   "headline": "Aged Intelligence Society: Netzwerk bringt Frauen an KI-Werkzeuge",
+   "summary": "Ein Interview mit den Gründerinnen der Aged Intelligence Society zeigt, wie das schnell wachsende Veranstaltungs-Startup Frauen zusammenbringt, um mit aktuellen KI-Werkzeugen Probleme der Lebensmitte anzugehen. Das Format verbindet Community-Aufbau mit praktischem Lernen an neuen Tools.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "community",
+    "diversität",
+    "ki-kompetenz",
+    "events"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-10-23T00:04:22+02:00",
+   "paywall": true,
+   "quelle_titel": "The Social Society Helping Women Join the AI Boom",
+   "url": "https://www.wired.com/story/aged-intelligence-society-interview/"
+  },
+  {
+   "id": "b3eae9960910",
+   "date": "2026-10-22",
+   "published": "2026-10-22T22:24+02:00",
+   "headline": "Meta aktiviert Muse-Freigabefunktion nach Datenschutzfunden erneut",
+   "summary": "Meta hat die Teilen-Funktion von Muse wieder eingeschaltet, nachdem Sicherheitsforscher gemeldet hatten, dass öffentlich geteilte Chatlinks leicht auffindbar waren. Unter den gefundenen Seiten waren laut den Forschern interne Umsatzauswertungen einer Marketingfirma und der Kreditantrag eines Kleinunternehmers.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "muse",
+    "datenlecks",
+    "chatbots"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-23T00:04:22+02:00",
+   "quelle_titel": "Meta turns Muse sharing back on",
+   "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+   "dup_of": "9fbf6acb35d6"
+  },
+  {
+   "id": "c744e4ea5afb",
+   "date": "2026-10-22",
+   "published": "2026-10-22T22:32+02:00",
+   "headline": "Juristen: Metas geänderte Bedingungen schützen Nachrichtenseiten kaum",
+   "summary": "Meta hat Formulierungen aus seinen Geschäftsbedingungen gestrichen, die ein freies Training der eigenen KI-Modelle mit Inhalten von Nachrichtenseiten nahelegten. Rechtsexperten halten die Anpassung jedoch für unzureichend, weil weiter sehr weit gefasste Passagen zu verbundenen Produkten und Diensten bestehen bleiben und ein Auslesen der Seiten erlauben könnten.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "trainingsdaten",
+    "urheberrecht",
+    "medien"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-23T00:04:22+02:00",
+   "quelle_titel": "Meta’s AI could still scrape news sites, legal experts say",
+   "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns"
+  },
+  {
+   "id": "712bc0d815dc",
+   "date": "2026-10-22",
+   "published": "2026-10-22T23:17+02:00",
+   "headline": "Unternehmens-KI: Vorsprung entsteht rund um das Modell, nicht im Modell",
+   "summary": "Der Beitrag argumentiert, dass der entscheidende Wettbewerbsvorteil bei KI im Unternehmen weniger von der Modellwahl abhängt als von der Infrastruktur, die darum herum gebaut wird. Damit verschiebt sich der Fokus von Kennzahlen wie Modellgröße, Kontextlänge und Benchmarkwerten auf tragfähige Betriebsarchitekturen für den Dauerbetrieb.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "enterprise-ki",
+    "infrastruktur",
+    "architektur",
+    "modellbetrieb"
+   ],
+   "source": "MIT Technology Review",
+   "source_id": "mit-tr",
+   "added": "2026-10-23T00:04:22+02:00",
+   "paywall": true,
+   "quelle_titel": "Designing an AI serving harness built to last",
+   "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
   },
   {
    "id": "9411db60f1d2",
@@ -1364,6 +2573,156 @@
    "added": "2026-10-22T13:08:10+02:00",
    "quelle_titel": "Betriebliche Altersvorsorge: Wie HR mit Opt-out-Systemen und KI die Quote erhöht",
    "url": "https://www.personalwirtschaft.de/news/verguetung/betriebliche-altersversorgung-der-mensch-bleibt-unverzichtbar-210178/"
+  },
+  {
+   "id": "ff7af3ad5193",
+   "date": "2026-10-22",
+   "published": "2026-10-22T13:55+02:00",
+   "headline": "Kölner Startup Zulio bringt die Kfz-Zulassung ins Digitale",
+   "summary": "Zulio aus Köln bietet eine Plattform, über die Autohäuser, Flottenbetreiber und Zulassungsdienste Fahrzeuge digital anmelden können. Nach eigenen Angaben wurden bereits über 1.000 Vorgänge darüber abgewickelt. Gründer Levent Ersen berichtet im Interview über die schwierige Anbindung an Behördensysteme und darüber, wie künftig KI eingesetzt werden soll.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 2,
+   "tags": [
+    "startup",
+    "govtech",
+    "digitalisierung",
+    "automotive"
+   ],
+   "source": "deutsche-startups.de",
+   "source_id": "deutsche-startups",
+   "added": "2026-10-23T00:08:28+02:00",
+   "quelle_titel": "#Interview - Wenn die Kfz-Zulassung plötzlich digital funktioniert",
+   "url": "https://www.deutsche-startups.de/2026/10/22/wenn-die-kfz-zulassung-ploetzlich-digital-funktioniert/"
+  },
+  {
+   "id": "563d2800aea3",
+   "date": "2026-10-22",
+   "published": "2026-10-22T15:00+02:00",
+   "headline": "Roboterpilz Mori: niedliche Deko mit Kamera statt echter Funktion",
+   "summary": "Der kleine Roboter Mori sieht aus wie ein Pilz und soll als Wohnaccessoire durchgehen, bietet aber kaum konkrete Funktionen. Der Bericht liest das als Strategie, Menschen an kameratragende Geräte im Wohnraum zu gewöhnen, indem diese als Dekoration getarnt werden. Damit rückt die Frage nach Privatsphäre bei Heimrobotern in den Vordergrund.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "heimroboter",
+    "privatsphäre",
+    "kameras",
+    "gadget"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-10-23T00:07:43+02:00",
+   "kurios": "Ein Roboterpilz, der nichts tut, soll Kameras im Wohnzimmer normalisieren.",
+   "paywall": true,
+   "quelle_titel": "Meet Mori, a Cute Robot Mushroom That Doesn’t Really Say (or Do) Anything",
+   "url": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/"
+  },
+  {
+   "id": "b71bae9aac82",
+   "date": "2026-10-22",
+   "published": "2026-10-22T15:00+02:00",
+   "headline": "Fünf Aktien, die vom KI-getriebenen Robotikboom profitieren sollen",
+   "summary": "Dank Fortschritten bei Künstlicher Intelligenz werden Roboter in immer mehr Bereichen einsetzbar, was neue Marktchancen eröffnet. Der Beitrag stellt fünf Unternehmen vor, die aus Sicht der Redaktion besonders gut für diese Entwicklung aufgestellt sind. Es handelt sich um eine Anlageeinschätzung, nicht um gesicherte Prognosen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "robotik",
+    "aktien",
+    "investments",
+    "automatisierung"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-10-23T00:07:43+02:00",
+   "paywall": true,
+   "quelle_titel": "Anlageideen: Diese fünf Aktien könnten am stärksten vom Roboter-Boom profitieren",
+   "url": "https://www.wiwo.de/finanzen/geldanlage/roboter-aktien-fuenf-unternehmen-fuer-den-ki-boom-an-der-boerse/100263879.html"
+  },
+  {
+   "id": "c2157638757e",
+   "date": "2026-10-22",
+   "published": "2026-10-22T15:15+02:00",
+   "headline": "Google bringt Gemini in Maps auch auf Carplay-Bildschirme",
+   "summary": "Google öffnet seinen KI-Assistenten Gemini für Google Maps unter Apples Carplay. Fahrerinnen und Fahrer können damit Aufgaben per Sprache erledigen, ohne das Apple-Ökosystem verlassen zu müssen. Der Schritt zeigt, dass Google seine KI-Funktionen zunehmend plattformübergreifend ausrollt.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "gemini",
+    "google maps",
+    "carplay",
+    "sprachassistent"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-23T00:07:43+02:00",
+   "quelle_titel": "Carplay: Gemini landet in Google Maps, das kann die KI für Autofahrer erledigen",
+   "url": "https://t3n.de/news/carplay-gemini-google-maps-1769471"
+  },
+  {
+   "id": "d15a17ff1fda",
+   "date": "2026-10-22",
+   "published": "2026-10-22T16:03+02:00",
+   "headline": "Moshi über KI im Trading: Werkzeuge müssen sich dem Arbeitsablauf fügen",
+   "summary": "Im Latent-Space-Gespräch erklärt Anekha Sokhal von Moshi, wie das Unternehmen Marktdaten in verwertbare Erkenntnisse für Händler übersetzt. Zentrale These ist, dass KI-Werkzeuge nur dann angenommen werden, wenn sie sich in bestehende Abläufe einfügen statt neue zu erzwingen. Das Beispiel zeigt, woran Einführungen im Finanzsektor häufig scheitern.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "finanzmarkt",
+    "workflow",
+    "adoption",
+    "startup"
+   ],
+   "source": "Latent Space",
+   "source_id": "latent-space",
+   "added": "2026-10-23T00:06:48+02:00",
+   "quelle_titel": "You are the Team, Anekha Sokhal, Moshi",
+   "url": "https://www.latent.space/p/moshi"
+  },
+  {
+   "id": "1fb8924aac5f",
+   "date": "2026-10-22",
+   "published": "2026-10-22T19:19+02:00",
+   "headline": "Nvidia als zentrale Aktie des KI-Booms",
+   "summary": "Der Beitrag beschreibt Nvidia als Unternehmen, an dem im Zusammenhang mit dem KI-Boom kaum ein Anleger vorbeikommt. Im Mittelpunkt steht die Rolle der Aktie als Leitwert der aktuellen KI-Konjunktur.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "nvidia",
+    "aktie",
+    "ki-boom",
+    "halbleiter"
+   ],
+   "source": "Fuldaer Zeitung",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-23T00:05:13+02:00",
+   "quelle_titel": "Nvidia und der KI-Boom: An dieser Aktie kommt man nicht vorbei",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQTN3NlBSbDRBMVJOQS1meUp6bGN4Zy1VdG4yQWszVUJiWHZLeF9sN2llOGo4YktzQVRYRnZ6VGtjRGhQQzZKN2JxbWFuYUk5bmdnM3RpYlZpZ09XN1NqY1poOTJvem1kNm42b3BpWC1kMmY0a2dOYi1RLU9HNS1heE82S1BTQm5KcGRQbDVxb3JVOEFlN2NhYVotc2Z3bl93OVVHcnFLLUFlZk1jY21xX2JkUWo2bXVjOEZXZGU5OExBT0xieWplZU5n?oc=5"
+  },
+  {
+   "id": "73123e6ebe0b",
+   "date": "2026-10-22",
+   "published": "2026-10-22T20:58+02:00",
+   "headline": "Discord zeigt Markdown-Dateien endlich lesbar in der Vorschau",
+   "summary": "Ein Update von Discord stellt Markdown-Inhalte in der Vorschau nun korrekt formatiert dar statt als Zeichensalat. Da Sprachmodelle und KI-Agenten Anweisungen und Kontext häufig über Markdown-Dateien erhalten, erleichtert das den Austausch über KI-Projekte in Communitys.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "discord",
+    "markdown",
+    "ki-agenten",
+    "zusammenarbeit"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-23T00:05:13+02:00",
+   "quelle_titel": "Discord now formats Markdown previews right",
+   "url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels"
   }
  ]
 }
