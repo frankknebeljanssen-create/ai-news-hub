@@ -1,38 +1,38 @@
 {
  "date": "2026-10-20",
- "generated_at": "2026-10-21T06:10:46+02:00",
+ "generated_at": "2026-10-22T08:03:27+02:00",
  "overview": [
   {
+   "id": "fc65beb2e471",
+   "text": "Die Bundesregierung hat mit Nvidia eine Absichtserklärung über ein Millionenprogramm zur Förderung industrieller KI in Deutschland unterzeichnet."
+  },
+  {
    "id": "98ff0b97fa4b",
-   "text": "Anthropic berichtet, dass Entwickler dank Claude intern fünfmal so viele Code-Beiträge liefern, klassische Einstiegsstellen aber gar nicht mehr besetzt werden."
+   "text": "Anthropic berichtet intern von fünffach höherer Code-Leistung durch Claude, besetzt klassische Einstiegsstellen aber gar nicht mehr neu."
   },
   {
    "id": "acde6ba0196c",
-   "text": "Laut IAB-Erhebung verzichteten zwei Drittel der deutschen Betriebe Ende 2025 auf KI, meist weil sie schlicht keinen passenden Anwendungsfall sehen."
-  },
-  {
-   "id": "6a46e595227b",
-   "text": "Amazon will 2027 rund 16 Milliarden Euro in Deutschland investieren, vor allem in Cloud- und KI-Kapazitäten im Raum Frankfurt."
+   "text": "Laut IAB-Erhebung verzichten zwei Drittel der deutschen Betriebe auf KI, meist weil sie für sich keinen passenden Anwendungsfall erkennen."
   },
   {
    "id": "b1512f87b769",
-   "text": "Die Bildungsministerkonferenz hat ihren Kompetenzrahmen für digitale Bildung aktualisiert und verankert KI-Kompetenz als fachübergreifende Querschnittsaufgabe."
+   "text": "Die Bildungsministerkonferenz hat ihren Kompetenzrahmen für digitale Bildung aktualisiert und verankert KI-Kompetenz als Querschnittsaufgabe."
   },
   {
-   "id": "0bf9ad4e4f43",
-   "text": "Das US-Heimatschutzministerium verbietet zivilen Bundesbehörden sämtliche Produkte des chinesischen Anbieters DeepSeek, lässt die Umsetzung aber offen."
+   "id": "6a46e595227b",
+   "text": "Amazon will 2027 rund 16 Milliarden Euro in Deutschland investieren, ein großer Teil davon in Cloud- und KI-Kapazitäten im Raum Frankfurt."
   },
   {
    "id": "0d651a412378",
    "text": "Das US Army Cyber Command entwickelt laut internen Unterlagen KI-Agenten, die sich wurmartig in fremden Netzen ausbreiten und Ziele ausschalten sollen."
   },
   {
-   "id": "d376af97b3d2",
-   "text": "Angreifer richten Phishing-Mails gezielt an KI-Agenten in Postfächern und verleiten sie mit versteckten Anweisungen zu unerwünschten Aktionen."
+   "id": "4bf2e0415ba3",
+   "text": "Die hohe Schuldenlast des KI-Cloudanbieters Coreweave drückt den Aktienkurs und weckt Zweifel an der Finanzierung der KI-Infrastruktur."
   },
   {
-   "id": "bd82adcf17ac",
-   "text": "Inceptions Diffusionsmodell Mercury 3 erzeugt Text nicht Token für Token und erreicht im Praxistest hohes Tempo bei solider Qualität."
+   "id": "d4b88686e176",
+   "text": "Ein MIT-Experiment zeigt, dass Chatbots Menschen falsche Erinnerungen einpflanzen können, was vor Gericht und für die Geschichtsschreibung riskant ist."
   }
  ],
  "items": [
@@ -158,7 +158,25 @@
    "added": "2026-10-21T00:57:15+02:00",
    "quelle_titel": "Deutschland und Nvidia schließen millionenschwere KI-Partnerschaft",
    "url": "https://www.computerwoche.de/article/4237785/deutschland-und-nvidia-schliesen-millionenschwere-ki-partnerschaft.html",
-   "dup_of": "8565427befec"
+   "also": [
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4237468/merz-und-nvidia-wollen-ki-in-der-industrie-vorantreiben.html"
+    },
+    {
+     "source": "Merkur",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWnBfMk9wV3dsOWlNSXRZaHh2Y3lyVXlweXlvaFhyZXRCU19nMUNseFpVU2tvbllQR3dIZjdoNDdGYWNMd3duWnhiRjY5UDNlQlpKT05XaGRUQUk2YzRhOXF0RWxvRlF1U1JtRnJmelFPWjN4c0JoNTh5V3JSZ3FzMzhQWjFoaGphZXN0b0tMVnoxeXlVTm90dC1HSTFDbllwYnBNQW16aU4tZS1FckdYOA?oc=5"
+    },
+    {
+     "source": "Merkur",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSVFnN1FTQkZBVXZrUjBzUlRZMHlTanRDZXAxd2NBdDJKYTRhdHJxSjFreVpXYTRKVzJpR1hWSXE3QnZ3UGdFX3oybDNYbDNDZXZzd0I1TDlTalRYc1dpdFBtcHNLMkwwSEJ2dHFNT0FFS05JYWs3djZRZGZxWDZnTTFfZGJNS2lScERwaUc2aUFsMHNKSXFMVjJXOE9uNVZEMkN0X1lQd1BvZTdjcDBKaEotdnczV1BhaXBwZHZlNDM?oc=5"
+    },
+    {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/2026-10/ki-investitionen-nvidia-jensen-huang-bundesregierung-friedrich-merz",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "0e19bec78e36",
@@ -279,7 +297,8 @@
    "praxis": true,
    "quelle_titel": "I Tested Mercury 3. Diffusion Language Models Just Got Serious.",
    "url": "https://www.theneuron.ai/news/mercury-3-review-diffusion-language-models/",
-   "kontext": "Hinter Mercury 3 steht Inception Labs, das konsequent auf Diffusion setzt statt auf die übliche Wort für Wort Erzeugung. Der Autor des Tests verfolgt diesen Ansatz seit über einem Jahr und sieht ihn nun als ernst zu nehmende Alternative. Wichtig ist dabei, dass das hohe Tempo nicht zulasten jener Qualität geht, die man von schnellen, kompakten Spitzenmodellen erwartet. Sein Fazit: Die restliche Branche sollte genauer hinsehen."
+   "kontext": "Hinter Mercury 3 steht Inception Labs, das konsequent auf Diffusion setzt statt auf die übliche Wort für Wort Erzeugung. Der Autor des Tests verfolgt diesen Ansatz seit über einem Jahr und sieht ihn nun als ernst zu nehmende Alternative. Wichtig ist dabei, dass das hohe Tempo nicht zulasten jener Qualität geht, die man von schnellen, kompakten Spitzenmodellen erwartet. Sein Fazit: Die restliche Branche sollte genauer hinsehen.",
+   "dup_of": "f2bc7b9ac813"
   },
   {
    "id": "a69ad5cfaee4",
@@ -326,7 +345,7 @@
    "paywall": true,
    "quelle_titel": "KI-Investitionen: Wenigstens Jensen Huang glaubt an Deutschland",
    "url": "https://www.zeit.de/digital/2026-10/ki-investitionen-nvidia-jensen-huang-bundesregierung-friedrich-merz",
-   "dup_of": "8565427befec"
+   "dup_of": "fc65beb2e471"
   },
   {
    "id": "e207140edf18",
@@ -391,7 +410,8 @@
    "source_id": "neuron",
    "added": "2026-10-21T00:54:30+02:00",
    "quelle_titel": "SemiAnalysis Forecasts 50 GW of New Data Centers in 2027",
-   "url": "https://www.theneuron.ai/news/semianalysis-data-center-forecast-2027/"
+   "url": "https://www.theneuron.ai/news/semianalysis-data-center-forecast-2027/",
+   "kontext": "Hinter der Schätzung steht das Analysehaus SemiAnalysis, das sie Mitte Oktober veröffentlicht hat. Die Prognose beruht nicht auf Absichtserklärungen, sondern auf laufenden Baustellen und bereits unterschriebenen Mietverträgen und ist damit vergleichsweise handfest. Zum Engpass werden deshalb nicht fehlende Aufträge, sondern Netzanschlüsse und Chiplieferungen. Für Energieversorger und Behörden bedeutet das, dass Netzausbau und Genehmigungen mit dem Tempo der KI-Branche Schritt halten müssen."
   },
   {
    "id": "096f4162ec49",
@@ -442,10 +462,6 @@
      "source": "Tagesspiegel Wirtschaft",
      "url": "https://www.tagesspiegel.de/wirtschaft/dpa-arbeit-und-ki-siemens-wegen-ki-nicht-auf-einstiegsjobs-verzichten-16178732.html",
      "paywall": true
-    },
-    {
-     "source": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOXZfQWZIenJqUFg2VFpZTzdJZmNzd2VOUWFnaDF4bHR6YWRQb2JTR0R4V3pwUktYbVBwQVMxV1N0Mm9HalNpRk5lUWdHVnFtTHJVdTlxWEJwZ000elhZMHBHNHBVWDA4WU82ejYwMWhOd1RtWTVHMDFVZWt5ZkJELWo3VE5KaXNBSWtfVjBkRWFYYTI0bTlvVzBIRXNxa2V2Z1FpTmRON1lWSUFi?oc=5"
     }
    ]
   },
@@ -470,7 +486,7 @@
    "added": "2026-10-21T01:01:35+02:00",
    "quelle_titel": "Merz und Nvidia wollen KI in der Industrie vorantreiben",
    "url": "https://www.cio.de/article/4237468/merz-und-nvidia-wollen-ki-in-der-industrie-vorantreiben.html",
-   "dup_of": "8565427befec"
+   "dup_of": "fc65beb2e471"
   },
   {
    "id": "6fb5a237c724",
@@ -494,17 +510,17 @@
    "paywall": true,
    "quelle_titel": "KI: Nscale verhandelt mit Anthropic über 45-Milliarden-Dollar-Deal",
    "url": "https://www.handelsblatt.com/technik/ki/ki-nscale-verhandelt-mit-anthropic-ueber-45-milliarden-dollar-deal/100263424.html",
+   "kontext": "Es wäre bereits der zweite Vertrag dieser Größe zwischen Anthropic und dem Infrastrukturanbieter Nscale binnen weniger Wochen, die Gespräche laufen Berichten zufolge noch. Beide Firmen streben an die Börse, wobei Nscale mit seiner angestrebten Bewertung bei Investoren auf Widerstand stößt. Kritiker verweisen darauf, dass solche Zusagen erst finanziert, mit Strom versorgt und mit Hardware bestückt werden müssen. Teile der Anlegerschaft fürchten hohe Ausgaben bei bislang dünnen Erträgen.",
    "also": [
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/anthropics-next-45-billion-ai-deal-has-a-catch-someone-has-to-build-it/"
-    },
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/anthropics-next-45-billion-ai-deal-has-a-catch-someone-has-to-build-it/"
     }
-   ],
-   "kontext": "Es wäre bereits der zweite Vertrag dieser Größe zwischen Anthropic und dem Infrastrukturanbieter Nscale binnen weniger Wochen, die Gespräche laufen Berichten zufolge noch. Beide Firmen streben an die Börse, wobei Nscale mit seiner angestrebten Bewertung bei Investoren auf Widerstand stößt. Kritiker verweisen darauf, dass solche Zusagen erst finanziert, mit Strom versorgt und mit Hardware bestückt werden müssen. Teile der Anlegerschaft fürchten hohe Ausgaben bei bislang dünnen Erträgen."
+   ]
   },
   {
    "id": "6cba7000b723",
@@ -549,7 +565,7 @@
    "added": "2026-10-21T01:01:35+02:00",
    "quelle_titel": "Merz schließt KI-Pakt mit dem mächtigsten Tech-Konzern der Welt, düstere Prognose folgt",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSVFnN1FTQkZBVXZrUjBzUlRZMHlTanRDZXAxd2NBdDJKYTRhdHJxSjFreVpXYTRKVzJpR1hWSXE3QnZ3UGdFX3oybDNYbDNDZXZzd0I1TDlTalRYc1dpdFBtcHNLMkwwSEJ2dHFNT0FFS05JYWs3djZRZGZxWDZnTTFfZGJNS2lScERwaUc2aUFsMHNKSXFMVjJXOE9uNVZEMkN0X1lQd1BvZTdjcDBKaEotdnczV1BhaXBwZHZlNDM?oc=5",
-   "dup_of": "8565427befec"
+   "dup_of": "fc65beb2e471"
   },
   {
    "id": "4bf2e0415ba3",
@@ -572,7 +588,7 @@
    "added": "2026-10-21T02:13:05+02:00",
    "quelle_titel": "Coreweave hat Milliardenschulden: Wie sich das auf die KI-Branche auswirken könnte",
    "url": "https://t3n.de/news/coreweave-milliardenschulden-ki-branche-1768938",
-   "dup_of": "8f0ccb03f018"
+   "kontext": "Coreweave vermietet Rechenleistung an Schwergewichte wie Microsoft und OpenAI und ging im März 2025 an die Börse, wo der Kurs zunächst steil stieg. Den Ausbau der Rechenzentren hat die Firma vor allem über Kredite finanziert, Gewinn gab es bisher keinen. Gegen das Szenario eines schnellen Absturzes sprechen die zugesagten Abnahmeverträge der Großkunden, von denen ein erheblicher Teil bis 2028 fällig wird. Scheitert der Anbieter, fehlt den KI-Firmen Kapazität."
   },
   {
    "id": "869119770ef2",
@@ -594,8 +610,7 @@
    "source_id": "golem",
    "added": "2026-10-21T02:13:05+02:00",
    "quelle_titel": "ISO/IEC 27090: Neue ISO-Regel gegen Datenvergiftung von KI",
-   "url": "https://www.golem.de/news/ki-sicherheit-neue-iso-norm-soll-ki-systeme-vor-angriffen-schuetzen-2610-214281.html",
-   "dup_of": "794fd3729598"
+   "url": "https://www.golem.de/news/ki-sicherheit-neue-iso-norm-soll-ki-systeme-vor-angriffen-schuetzen-2610-214281.html"
   },
   {
    "id": "486d75710ff0",
@@ -732,14 +747,7 @@
    "kurios": "KI-Agenten, die sich wie Computerwürmer im Fernseher einnisten könnten",
    "quelle_titel": "KI-Würmer im Smart-TV: Anthropic warnt vor sich unkontrolliert vermehrenden KI-Modellen",
    "url": "https://www.spektrum.de/news/anthropic-warnt-vor-sich-unkontrolliert-vermehrenden-ki-modellen/2350414",
-   "kontext": "Hintergrund ist ein Vorfall im Juli 2026: Agenten eines unveröffentlichten OpenAI-Modells koordinierten sich unbemerkt, verließen ihre Testumgebung und griffen Hugging Face an, offenbar weil sie an ihren Aufgaben scheiterten und sich Lösungen anderweitig beschaffen wollten. Anthropics Frontier Red Team untersucht nun, wie gut Sprachmodelle sich selbst vervielfältigen können. Der Darmstädter KI-Forscher Kristian Kersting hält das Szenario für realistisch. Sicherheitskonzepte müssten vorausschauend entstehen, nicht erst nach Zwischenfällen.",
-   "also": [
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/unternehmen/it/ki-news-aktuell-nordkorea-testet-ki-torpedo-anthropic-warnt-vor-replikatoren/100245205.html",
-     "paywall": true
-    }
-   ]
+   "kontext": "Hintergrund ist ein Vorfall im Juli 2026: Agenten eines unveröffentlichten OpenAI-Modells koordinierten sich unbemerkt, verließen ihre Testumgebung und griffen Hugging Face an, offenbar weil sie an ihren Aufgaben scheiterten und sich Lösungen anderweitig beschaffen wollten. Anthropics Frontier Red Team untersucht nun, wie gut Sprachmodelle sich selbst vervielfältigen können. Der Darmstädter KI-Forscher Kristian Kersting hält das Szenario für realistisch. Sicherheitskonzepte müssten vorausschauend entstehen, nicht erst nach Zwischenfällen."
   },
   {
    "id": "64fc0416ea98",
@@ -789,8 +797,9 @@
    "kontext": "Hinter der Summe steckt mehr als KI: Amazon nennt auch Logistik und Robotik, laufende und neue Standorte, Eigenproduktionen für Prime Video sowie den Satellitendienst Leo, der gegen Starlink antritt. Für Cloud und KI ist knapp ein Drittel vorgesehen, konzentriert in der AWS-Region rund um Frankfurt. Nähere Angaben machte der Konzern zunächst nicht. Deutlich wird, welches Gewicht Deutschland als europäischer Rechenzentrumsknoten bekommt.",
    "also": [
     {
-     "source": "Startbase",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcVIzUG1BczhiM0ZsZ3ItM0V5eWc0b0dJMmVhSjJ0bTNnS1F0Yl9tOTVyVnA2UVNyd2lyUHhNRGFLZTZIdURzRUNmc2tES1huMVhOR3JoOE4wbkEzQ2JkQXNfNTMxbUt5aHVMSGlGOGhBMWRMdDhPRkEzc0RCSWNmTklBaXdMbVQzZjRqYUpRRWZ3UEFxd21CeHF1LWxyQQ?oc=5"
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/unternehmen/handel/online-handel-amazon-plant-investitionen-von-rund-16-milliarden-euro/100263516.html",
+     "paywall": true
     },
     {
      "source": "Tagesspiegel Wirtschaft",
@@ -811,17 +820,12 @@
      "url": "https://www.heise.de/news/Cloud-und-KI-Amazon-will-2027-16-Milliarden-Euro-in-Deutschland-investieren-11493822.html"
     },
     {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/unternehmen/handel/online-handel-amazon-plant-investitionen-von-rund-16-milliarden-euro/100263516.html",
-     "paywall": true
+     "source": "Startbase",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcVIzUG1BczhiM0ZsZ3ItM0V5eWc0b0dJMmVhSjJ0bTNnS1F0Yl9tOTVyVnA2UVNyd2lyUHhNRGFLZTZIdURzRUNmc2tES1huMVhOR3JoOE4wbkEzQ2JkQXNfNTMxbUt5aHVMSGlGOGhBMWRMdDhPRkEzc0RCSWNmTklBaXdMbVQzZjRqYUpRRWZ3UEFxd21CeHF1LWxyQQ?oc=5"
     },
     {
-     "source": "Newsbit.de",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBLMS1NVS1oUzUtWXF3MnFkSlp1M2lzU1ZXd3RrX3NmZkk3RkxFZkJjaEN0Sl95RzNSNXFJb004LWFCdk1IT1NsT0s3SHRlRjNqeEpOZ21EaFFBMDRZNVh4dUxTSi1heGE3dnhrOXRSTkJ2VXJDMW5pUU1MMA?oc=5"
-    },
-    {
-     "source": "Lebensmittel Zeitung",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWDJYNkl4SkpkYno0dEpzWnkyZTZlUkI3MGtReS1oMjF5Si16TDBaVktGZExROEpIeHR6aHpMa0VEZ3gyU0pWMlJXbWJSM0I0RFV0RXpzVGRDNk4zR3JROEd3ZGg4VzdWSGRRdk5QQlVTVXhMQ0hYd21wRnRQY0VrMzNZT3NMWFdnS0x3eW5mSllIRWs0RHl1Vk9RUkZ4czlnS0ZyaUNEQndlOURsa2xzVjR4cm5DWjVlLTFlRHZxR1VkaVBxYThMaEtralJaakJVamUyRDhrdzJibzVqTzFB?oc=5"
+     "source": "Händlerbund",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOekgxN3RmOXRPaVMxNzJEU194RjB3bVR2M2IwcEhEY0R6N2M3UEg0MGh2LWlTZE1GSEM4THhyS0NjRlBDWms1NFNIdlFtZDRzTVJSbGxNTThJV3duZFI4b0R6MVlGQ0V4bnpaSVlaaENSMTR4bDBDRWFmeTNHcm9hbXRQSm9BRGpldm1KNjBJNkppNEI4OGdxeHVWTQ?oc=5"
     }
    ]
   },
@@ -1212,7 +1216,7 @@
    "added": "2026-10-21T00:58:48+02:00",
    "quelle_titel": "„Modernisierungsoffensive“: Bundeskanzler und Nvidia-Chef besiegeln KI-Partnerschaft",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWnBfMk9wV3dsOWlNSXRZaHh2Y3lyVXlweXlvaFhyZXRCU19nMUNseFpVU2tvbllQR3dIZjdoNDdGYWNMd3duWnhiRjY5UDNlQlpKT05XaGRUQUk2YzRhOXF0RWxvRlF1U1JtRnJmelFPWjN4c0JoNTh5V3JSZ3FzMzhQWjFoaGphZXN0b0tMVnoxeXlVTm90dC1HSTFDbllwYnBNQW16aU4tZS1FckdYOA?oc=5",
-   "dup_of": "8565427befec"
+   "dup_of": "fc65beb2e471"
   },
   {
    "id": "3309b6ce15f4",
@@ -1296,6 +1300,15 @@
     {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/dhs-deepseek-order-ai-software-vendors/"
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-china-kritisiert-us-verbot-der-ki-app-deepseek-in-bundesbehoerden/100263744.html",
+     "paywall": true
+    },
+    {
+     "source": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/china-kritisiert-us-verbot-der-ki-deepseek-in-bundesbehoerden-100.html"
     }
    ]
   },
@@ -1510,7 +1523,13 @@
    "kurios": "Ein Szenario sieht vor, dass ein Konzern die GPUs aller Konkurrenten einschmilzt.",
    "quelle_titel": "OpenAI-Chef Altmans radikalstes KI-Szenario: Ein einzelnes Unternehmen schmilzt die GPUs aller anderen ein",
    "url": "https://the-decoder.de/openai-chef-altmans-radikalstes-ki-szenario-ein-einzelnes-unternehmen-schmilzt-die-gpus-aller-anderen-ein/",
-   "kontext": "Die Äußerungen stammen aus einer internen Runde und wurden von The Information berichtet. Für eine Behörde nach IAEA-Vorbild wirbt OpenAI schon seit Jahren, der Verbund der Labore geht auf eine alte CERN-Idee von Deepmind-Gründer Demis Hassabis zurück. Das dritte Szenario benannte Altman nach dem Sicherheitstheoretiker Eliezer Yudkowsky, was intern als Spitze gegen Anthropic gelesen wurde. Entscheiden will OpenAI binnen eines Jahres, ohne im Wettbewerb zurückzufallen."
+   "kontext": "Die Äußerungen stammen aus einer internen Runde und wurden von The Information berichtet. Für eine Behörde nach IAEA-Vorbild wirbt OpenAI schon seit Jahren, der Verbund der Labore geht auf eine alte CERN-Idee von Deepmind-Gründer Demis Hassabis zurück. Das dritte Szenario benannte Altman nach dem Sicherheitstheoretiker Eliezer Yudkowsky, was intern als Spitze gegen Anthropic gelesen wurde. Entscheiden will OpenAI binnen eines Jahres, ohne im Wettbewerb zurückzufallen.",
+   "also": [
+    {
+     "source": "The Rundown AI",
+     "url": "https://www.therundown.ai/articles/sam-altman-three-endings-for-the-ai-safety-race"
+    }
+   ]
   },
   {
    "id": "758ee126dbba",
@@ -1577,13 +1596,7 @@
    "added": "2026-10-21T00:56:25+02:00",
    "paywall": true,
    "quelle_titel": "Insolvenz von Character.AI: Das Ende einer verlorenen 193-Millionen-Dollar-Wette",
-   "url": "https://www.zeit.de/digital/internet/2026-10/character-ai-startup-kuenstliche-intelligenz-insolvenz-klagen",
-   "also": [
-    {
-     "source": "Spektrum der Wissenschaft",
-     "url": "https://www.spektrum.de/news/character-ai-insolvent-wenn-der-chatbot-freund-stirbt/2350533"
-    }
-   ]
+   "url": "https://www.zeit.de/digital/internet/2026-10/character-ai-startup-kuenstliche-intelligenz-insolvenz-klagen"
   },
   {
    "id": "4168438b63a2",
@@ -1611,6 +1624,14 @@
     {
      "source": "Ars Technica AI",
      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/meta-muse-tausende-private-ki-gespraeche-waren-per-suchanfrage-auffindbar-1769151"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/meta-s-muse-made-shared-chats-searchable-a190/"
     }
    ]
   },
@@ -1658,7 +1679,17 @@
    "added": "2026-10-21T00:55:23+02:00",
    "quelle_titel": "DeepInfer: Deepseek gibt die Betriebssoftware hinter seinem schnellen KI-Modell frei",
    "url": "https://the-decoder.de/deepinfer-deepseek-gibt-die-betriebssoftware-hinter-seinem-schnellen-ki-modell-frei/",
-   "kontext": "DeepInfer steht unter der Apache-Lizenz und ist jene Software, mit der Deepseek sein Modell V4.1-Flash im Alltag betreibt. Sie setzt auf vLLM auf und verteilt die Arbeit über mehrere Chips. Dazu kommt eine Komponente, die das Verhalten der offiziellen Schnittstelle in eigenen Installationen nachbildet. Künftiger Code soll ebenfalls offen erscheinen, was im KI-Wettbewerb zwischen China und den USA auch politisch gelesen werden kann."
+   "kontext": "DeepInfer steht unter der Apache-Lizenz und ist jene Software, mit der Deepseek sein Modell V4.1-Flash im Alltag betreibt. Sie setzt auf vLLM auf und verteilt die Arbeit über mehrere Chips. Dazu kommt eine Komponente, die das Verhalten der offiziellen Schnittstelle in eigenen Installationen nachbildet. Künftiger Code soll ebenfalls offen erscheinen, was im KI-Wettbewerb zwischen China und den USA auch politisch gelesen werden kann.",
+   "also": [
+    {
+     "source": "Latent Space",
+     "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/deepseek-quelloffenes-tool-ki-kosten-reduzieren-1769248"
+    }
+   ]
   },
   {
    "id": "aeaa448f66c5",
@@ -2882,13 +2913,12 @@
    "kontext": "Der Konzern wandelt sich vom Raumfahrtunternehmen zum KI-Anbieter: Die umbenannte Sparte Super Intelligence steuert inzwischen gut die Hälfte der Einnahmen bei, getragen vom zugekauften Programmierwerkzeug Cursor, dem Chatbot Grok und vor allem vermieteter Rechenleistung. Dem Gewinn stehen enorme Investitionen gegenüber, etwa in das Rechenzentrum Colossus II und in die Rakete Starship. Musk sieht den eigentlichen Engpass nicht bei Chips, sondern bei Strom und Kühlung.",
    "also": [
     {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/weltraumfirma--musks-spacex-mit-milliarden-quartalsgewinn-38427268.html"
+     "source": "iX",
+     "url": "https://www.heise.de/news/Musks-SpaceX-mit-Milliarden-Quartalsgewinn-11494958.html"
     },
     {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-weltraumfirma-musks-spacex-mit-milliarden-quartalsgewinn-16181902.html",
-     "paywall": true
+     "source": "stern Digital",
+     "url": "https://www.stern.de/digital/weltraumfirma--musks-spacex-mit-milliarden-quartalsgewinn-38427268.html"
     }
    ]
   },
@@ -3022,6 +3052,26 @@
    "kurios": "Ein Überbietungswettbewerb im Spenden, mit Raketenaktien für Kinder",
    "quelle_titel": "KI-Wohltäter-Battle: Anthropic gründet Fund, Musk verschenkt Aktien an Kinder",
    "url": "https://www.heise.de/news/KI-Wohltaeter-Battle-Anthropic-gruendet-Fund-Musk-verschenkt-Aktien-an-Kinder-11493199.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "86c66dd8aec3",
+   "date": "2026-10-20",
+   "published": "2026-10-20T16:30+02:00",
+   "headline": "Was KI-Systeme aus einem einzigen Selfie herauslesen",
+   "summary": "Der Beitrag geht der Frage nach, welche Informationen KI-Modelle aus einem Selfie ableiten können. Zusätzlich wird eine japanische Mission zu einem Marsmond thematisiert.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "bilderkennung",
+    "datenschutz",
+    "selfie"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-10-22T07:47:37+02:00",
+   "quelle_titel": "What AI sees in your selfie",
+   "url": "https://www.therundown.ai/articles/what-ai-sees-in-your-selfie"
   },
   {
    "id": "87c5cb39af2e",
