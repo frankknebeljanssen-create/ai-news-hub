@@ -1,22 +1,34 @@
 {
  "date": "2026-10-23",
- "generated_at": "2026-10-23T04:13:29+02:00",
+ "generated_at": "2026-10-23T06:35:49+02:00",
  "overview": [
   {
    "id": "6372ebaa66c8",
-   "text": "OpenAI verhandelt laut Bericht über rund 30 Milliarden Dollar Kapital bei einer Bewertung von 1,25 Billionen Dollar und bereitet so den Börsengang vor."
+   "text": "OpenAI verhandelt Berichten zufolge über rund 30 Milliarden Dollar frisches Kapital bei einer Bewertung von 1,25 Billionen Dollar."
+  },
+  {
+   "id": "e88a744bb593",
+   "text": "Apple führt mit dem neuen iPhone ein Verfahren ein, das Herkunft und Unverändertheit von Fotos technisch nachprüfbar machen soll."
+  },
+  {
+   "id": "0968a5935e52",
+   "text": "Laut Deloitte planen drei Viertel der Unternehmen bis 2027 nennenswerten Agenteneinsatz, doch nur jedes fünfte hat eine ausgereifte Governance."
   },
   {
    "id": "8937fd9c8277",
-   "text": "In einem MIT-Experiment entwickelten 13 KI-Agenten ohne Vorgaben eigene Spiele auf einer virtuellen Insel und verbesserten sich dabei selbst."
+   "text": "13 KI-Agenten des MIT erfanden in einer virtuellen Inselwelt ohne jede Vorgabe eigene Spiele und wurden danach auch in ihren Aufgaben besser."
   },
   {
    "id": "71caad5f6019",
-   "text": "Bestsellerautor Michael Pollan hält die Steuerbarkeit autonomer KI-Agenten schon heute für ungelöst und schildert seine Erfahrungen mit dem Chatbot Claude."
+   "text": "Bestsellerautor Michael Pollan hält die Steuerbarkeit autonomer KI-Agenten schon heute für ein ungelöstes Problem."
   },
   {
-   "id": "95eb6975ad24",
-   "text": "Ein Hugging-Face-Beitrag zeigt, wie Bewertungen aus Datenbanken als Belohnungssignal dienen und Agenten mit dem Werkzeug ThinkingBox nachtrainiert werden."
+   "id": "3602c8887bef",
+   "text": "inDrive will Anfang 2027 Robotaxis von Pony.ai in Kasachstans Hauptstadt testen und rückt damit Zentralasien als neuen Markt in den Blick."
+  },
+  {
+   "id": "2611cf735ea8",
+   "text": "Microsoft 365 bündelt immer mehr KI-Funktionen rund um Copilot, wodurch das Lizenzmodell komplexer wird und viele Neuerungen extra kosten."
   }
  ],
  "items": [
@@ -41,6 +53,50 @@
    "quelle_titel": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
    "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
    "kontext": "Angeführt wird die Runde laut Berichten von Coatue, zusammen mit Geldgebern aus den Emiraten, möglicherweise verbunden mit zusätzlicher Rechenkapazität für OpenAI. Die Konditionen sind noch offen, zuvor war von einer noch höheren Bewertung die Rede. Statt zügig an die Börse zu gehen, holt sich OpenAI weiter privates Kapital, obwohl vertrauliche Unterlagen für einen Börsengang längst eingereicht sind. Auch Konkurrent Anthropic bereitet seinen Schritt aufs Parkett vor."
+  },
+  {
+   "id": "e88a744bb593",
+   "date": "2026-10-23",
+   "published": "2026-10-23T05:45+02:00",
+   "headline": "Apple Reference Image soll Fotos gegen Deepfake-Zweifel absichern",
+   "summary": "Apple will die Echtheit digitaler Aufnahmen technisch nachprüfbar machen und führt dafür mit dem neuen iPhone-Modell ein Verfahren für manipulationssicher gekennzeichnete Bilder ein. Hintergrund ist, dass KI-generierte Fotos inzwischen so überzeugend sind, dass sie mit dem Auge kaum mehr von echten Bildern zu trennen sind. Der Ansatz zielt darauf, Herkunft und Unverändertheit eines Bildes belegbar zu machen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "apple",
+    "deepfakes",
+    "bildauthentizität",
+    "iphone"
+   ],
+   "source": "Basic Thinking",
+   "source_id": "basic-thinking",
+   "added": "2026-10-23T06:32:36+02:00",
+   "quelle_titel": "Apple macht Fotos fälschungssicher, so schützt das iPhone vor Deepfakes",
+   "url": "https://www.basicthinking.de/blog/2026/10/23/apple-reference-image-iphone/",
+   "kontext": "Die Funktion heißt Apple Reference Image und steckt als optionaler Kameramodus in den neuen Pro-Modellen. Beim Auslösen werden Sensor-, Pixel- und Metadaten kryptografisch signiert, aus dem digitalen Negativ entsteht anschließend ein prüfbares Referenzbild mit Zeitstempel. Aktivieren müssen Nutzerinnen und Nutzer das pro Aufnahme selbst. Weil das Verfahren an die neuen Hauptkamerasensoren gebunden ist, lässt es sich auf älteren iPhones nicht per Software nachrüsten."
+  },
+  {
+   "id": "0968a5935e52",
+   "date": "2026-10-23",
+   "published": "2026-10-23T06:00+02:00",
+   "headline": "KI-Agenten wuchern in Unternehmen, die Governance fehlt",
+   "summary": "In vielen Organisationen entstehen KI-Agenten dezentral: Jede Abteilung baut auf der Plattform ihrer Wahl eigene Assistenten, eine zentrale Übersicht über Anzahl, Betriebsort und Verantwortlichkeiten fehlt. Laut einer Deloitte-Erhebung rechnen drei Viertel der Unternehmen bis 2027 mit nennenswertem Agenteneinsatz, doch nur rund jedes fünfte hat ein ausgereiftes Governance-Modell. Daraus entsteht Handlungsdruck für Inventarisierung, Zuständigkeiten und Kontrolle.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "ki-agenten",
+    "governance",
+    "deloitte",
+    "unternehmens-it"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-10-23T06:32:36+02:00",
+   "quelle_titel": "Agenten-Wildwuchs: Wer behält den Überblick über KI-Agenten?",
+   "url": "https://www.computerwoche.de/article/4237545/agenten-wildwuchs-wer-behalt-den-uberblick-uber-ki-agenten.html"
   },
   {
    "id": "95eb6975ad24",
@@ -109,6 +165,95 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: „Wir können diese Agenten schon heute nicht kontrollieren“",
    "url": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-wir-koennen-diese-agenten-schon-heute-nicht-kontrollieren/100261781.html"
+  },
+  {
+   "id": "2611cf735ea8",
+   "date": "2026-10-23",
+   "published": "2026-10-23T05:31+02:00",
+   "headline": "Microsoft 365 entwirrt: Funktionsumfang, Copilot und Lizenzfallen",
+   "summary": "Der Überblick erklärt, wie sich Microsoft 365 seit der Ankündigung 2017 zur zentralen Produktivitätsmarke des Konzerns entwickelt und Office 365 weitgehend ersetzt hat. Mit dem Ausbau der Funktionen rund um KI und Copilot ist auch das Lizenzmodell komplexer geworden, viele neue Features kosten extra. Der Beitrag sortiert Pakete, Zusatzoptionen und typische Stolperstellen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "microsoft 365",
+    "copilot",
+    "lizenzen",
+    "produktivität"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-10-23T06:32:36+02:00",
+   "praxis": true,
+   "quelle_titel": "Microsoft 365 erklärt",
+   "url": "https://www.computerwoche.de/article/3523691/microsoft-365-erklart.html"
+  },
+  {
+   "id": "3602c8887bef",
+   "date": "2026-10-23",
+   "published": "2026-10-23T06:00+02:00",
+   "headline": "inDrive will 2027 Robotaxis von Pony.ai in Kasachstan testen",
+   "summary": "Der Fahrdienstanbieter inDrive plant, in der ersten Hälfte des Jahres 2027 autonome Fahrzeuge von Pony.ai in der Hauptstadt Kasachstans zu testen. Technologiepartner ist unter anderem Nvidia. Damit rückt Zentralasien als neuer Markt für selbstfahrende Mobilitätsdienste in den Blick, abseits der üblichen Testregionen in den USA und China.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "robotaxi",
+    "autonomes fahren",
+    "pony.ai",
+    "nvidia",
+    "mobilität"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-23T06:32:36+02:00",
+   "quelle_titel": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+   "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+   "kontext": "inDrive ist als Fahrdienst bekannt, bei dem Fahrgäste und Fahrer den Preis aushandeln, und setzt auch bei Robotaxis bewusst auf Partner statt eigene Technik. Pony.ai soll die Fahrzeuge stellen, Nvidia Rechenplattform und Sicherheitssystem, zunächst mit Sicherheitsfahrer an Bord. Kasachstan verfolgt eigene Pläne für autonome Taxis und hat Regeln für Straßentests geschaffen, die harten Winter in Astana gelten als anspruchsvolles Testumfeld. Bislang liegt nur eine Absichtserklärung vor."
+  },
+  {
+   "id": "bebb050ec9bb",
+   "date": "2026-10-23",
+   "published": "2026-10-23T06:00+02:00",
+   "headline": "OpenCV im Überblick: das Arbeitstier der Computer Vision",
+   "summary": "Der Beitrag erklärt, warum OpenCV weiterhin die erste Wahl für Bildverarbeitung bleibt, obwohl große Basismodelle viel Aufmerksamkeit bekommen. Spezialisierte Bibliotheken punkten bei Aufgaben wie Gesichtserkennung, Texterkennung, Motion Tracking, Objekterkennung und Augmented Reality mit Geschwindigkeit und Praxisnutzen. Der Text ordnet Einsatzfelder und Stärken des Toolkits ein.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "opencv",
+    "computer vision",
+    "bibliotheken",
+    "entwicklung"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-10-23T06:32:36+02:00",
+   "praxis": true,
+   "quelle_titel": "OpenCV erklärt",
+   "url": "https://www.computerwoche.de/article/4233839/opencv-erklart.html"
+  },
+  {
+   "id": "db8bb0607813",
+   "date": "2026-10-23",
+   "published": "2026-10-23T06:15+02:00",
+   "headline": "Heise-Tagesrückblick: Quad9 zieht sich zurück, KI-Videos nähren Misstrauen",
+   "summary": "Die Nachrichtenübersicht bündelt mehrere Themen des Tages, darunter den Rückzug des DNS-Dienstes Quad9 nach einem Urteil zu Sperrpflichten und Stellenstreichungen bei Qualcomm. Für KI-Interessierte relevant ist der Punkt zum wachsenden Misstrauen gegenüber Videoinhalten, weil synthetische Clips immer schwerer von echten Aufnahmen zu unterscheiden sind. Dazu kommen Sicherheitsupdates und ein Beitrag zum Verbraucherschutz.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "ki-videos",
+    "deepfakes",
+    "it-sicherheit",
+    "news"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-23T06:32:36+02:00",
+   "quelle_titel": "Freitag: Quad9-Rückzug nach Zensur-Urteil, Stellenstreichungen bei Qualcomm",
+   "url": "https://www.heise.de/news/Freitag-Quad9-Rueckzug-nach-Zensur-Urteil-Stellenstreichungen-bei-Qualcomm-11497654.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "7cbc0075ea58"
   }
  ]
 }
