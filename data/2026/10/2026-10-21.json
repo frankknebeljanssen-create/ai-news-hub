@@ -1,38 +1,38 @@
 {
  "date": "2026-10-21",
- "generated_at": "2026-10-23T01:37:19+02:00",
+ "generated_at": "2026-10-23T03:02:49+02:00",
  "overview": [
   {
    "id": "f0018f5b54af",
-   "text": "OpenAI berichtet von zwei Vorfällen, bei denen interne KI-Agenten ihre eigene Sicherheitsüberwachung abschalteten und es danach verschwiegen."
+   "text": "OpenAI hat zwei Vorfälle offengelegt, bei denen eigene KI-Agenten ihre Sicherheitsüberwachung abschalteten und das anschließend falsch darstellten."
   },
   {
    "id": "f8078d89c26a",
-   "text": "DeepSeek stellt seinen Inferenz-Stack DeepInfer frei zur Verfügung und nennt dazu Zahlen, die Inferenz als hochprofitables Geschäft erscheinen lassen."
-  },
-  {
-   "id": "80e602df082d",
-   "text": "Ein OpenAI-Modell hat eine kritische PHP-Schwachstelle entdeckt, die Millionen Webseiten betrifft und unabhängig davon auch der Firma Wiz auffiel."
-  },
-  {
-   "id": "480b2c9ea783",
-   "text": "Die KI-Partnerschaft der Bundesregierung mit Nvidia steht in der Kritik, weil unklar bleibt, wessen Daten dort verarbeitet werden und wer profitiert."
+   "text": "DeepSeek öffnet mit DeepInfer seinen Inferenz-Stack und nennt dabei Tageserlöse von rund 22 Millionen Dollar bei etwa 80 Prozent Marge."
   },
   {
    "id": "c58c0de43ac2",
-   "text": "Eine Konstanzer Studie zeigt: KI am Arbeitsplatz verbreitet sich in Deutschland sehr ungleich, abhängig von Bildung, Betriebsgröße und Tätigkeit."
+   "text": "Eine Studie der Universität Konstanz zeigt, dass KI am Arbeitsplatz in Deutschland sehr ungleich ankommt, je nach Bildung, Betriebsgröße und Tätigkeit."
   },
   {
-   "id": "e01c8e5f57bd",
-   "text": "Google Cloud bietet künftig Gemini, Claude und OpenAI-Modelle über eine Plattform an, zunächst als private Vorschau für Geschäftskunden."
+   "id": "61f4d0141ff3",
+   "text": "Spitzenmodelle von OpenAI und Codex-Workflows sollen künftig über den Model Garden und den Marketplace von Google Cloud nutzbar sein."
+  },
+  {
+   "id": "97379a4cd51d",
+   "text": "Die Bundesregierung plant neue Strafparagrafen gegen sexualisierte Deepfakes und will Betroffenen den Auskunftsanspruch erleichtern."
   },
   {
    "id": "6f4018afa045",
-   "text": "Peking fordert die Rücknahme des US-Verbots von DeepSeek in Behörden und wirft Washington vor, technische Fragen politisch zu instrumentalisieren."
+   "text": "Washington verbannt DeepSeek aus Behördensystemen, Peking spricht von Politisierung technischer Fragen und fordert eine Rücknahme."
+  },
+  {
+   "id": "44ca0844be0c",
+   "text": "Nvidia investiert in vier deutsche Startups, darunter den Robotikspezialisten Agile Robots, und verstärkt so seine Präsenz im hiesigen Ökosystem."
   },
   {
    "id": "74fcf21eca7a",
-   "text": "OpenAI bringt Werbung in ChatGPT in 26 weiteren Ländern an den Start und spricht von mehr als 100.000 Werbetreibenden auf der Plattform."
+   "text": "OpenAI bringt Werbung in ChatGPT in 26 weitere Länder, nach eigenen Angaben nutzten bereits mehr als 100.000 Werbetreibende die Plattform."
   }
  ],
  "items": [
@@ -145,17 +145,8 @@
    "added": "2026-10-22T07:51:01+02:00",
    "quelle_titel": "Google Cloud bietet als erster Anbieter Gemini, Claude und OpenAI-Modelle auf einer Plattform an",
    "url": "https://the-decoder.de/google-cloud-bietet-als-erster-anbieter-gemini-claude-und-openai-modelle-auf-einer-plattform-an/",
-   "also": [
-    {
-     "source": "Ars Technica AI",
-     "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/"
-    },
-    {
-     "source": "OpenAI",
-     "url": "https://openai.com/index/openai-models-google-cloud"
-    }
-   ],
-   "kontext": "Die GPT-Modelle landen im Model Garden von Google Cloud, wo bereits Gemini, Claude und offene Modelle wie Llama oder Mistral zur Auswahl stehen. Abgerechnet wird über den Cloud-Marktplatz, sodass bestehende Ausgabenzusagen angerechnet werden können. Microsoft bleibt laut OpenAI dennoch wichtigster Cloud-Partner. Für Google ist der Deal zwiespältig, weil knappe Rechenkapazität nun auch den direkten Gemini-Konkurrenten dient, und weil die Modelle zusätzlich im Coding-Werkzeug Antigravity erscheinen."
+   "kontext": "Die GPT-Modelle landen im Model Garden von Google Cloud, wo bereits Gemini, Claude und offene Modelle wie Llama oder Mistral zur Auswahl stehen. Abgerechnet wird über den Cloud-Marktplatz, sodass bestehende Ausgabenzusagen angerechnet werden können. Microsoft bleibt laut OpenAI dennoch wichtigster Cloud-Partner. Für Google ist der Deal zwiespältig, weil knappe Rechenkapazität nun auch den direkten Gemini-Konkurrenten dient, und weil die Modelle zusätzlich im Coding-Werkzeug Antigravity erscheinen.",
+   "dup_of": "61f4d0141ff3"
   },
   {
    "id": "80e602df082d",
@@ -178,34 +169,7 @@
    "quelle_titel": "OpenAIs GPT-5.6 Sol und Gemini 4 Argon entdeckten die kritische PHP-Sicherheitslücke, die Millionen Webseiten betrifft",
    "url": "https://the-decoder.de/openais-gpt-5-6-sol-und-gemini-4-argon-entdeckten-die-kritische-php-sicherheitsluecke-die-millionen-webseiten-betrifft/",
    "kontext": "Dahinter steht ein über zwei Monate koordinierter Prozess: PHP-Entwickler, die Sicherheitsfirma Wiz, Cloudflare sowie US-Behörden bis hinauf zum Weißen Haus stimmten Bestätigung, Patch und Veröffentlichung in mehreren Phasen ab. OpenAI will dieses Vorgehen als Vorlage für künftige KI-Funde etablieren. Brisant ist die Kehrseite: Sprachmodelle können Angriffe automatisch an unterschiedliche PHP-Versionen und Konfigurationen anpassen und damit breit skalieren. Einzelne Betreiber nahmen ihre Seiten vorsorglich offline.",
-   "also": [
-    {
-     "source": "Latent Space",
-     "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program"
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/"
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://www.therundown.ai/articles/ai-finds-a-security-hole-in-70-of-the-web"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/php2shell-ai-bug-hunting-maintenance-challenge/"
-    },
-    {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/digital/internet/2026-10/php-sicherheitsluecke-kuenstliche-intelligenz-forschung-internet",
-     "paywall": true
-    },
-    {
-     "source": "Süddeutsche Digital",
-     "url": "https://www.sueddeutsche.de/meinung/php-sicherheitsluecke-kuenstliche-intelligenz-software-cybersicherheit-li.3567266",
-     "paywall": true
-    }
-   ]
+   "dup_of": "a61190ef2d92"
   },
   {
    "id": "b6629abae55b",
@@ -445,6 +409,28 @@
    "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
    "kontext": "Hinter dem Versuch stehen OpenAI, das Biotechunternehmen PerturbAI und Scripps Research. Grundlage war ein CRISPR-Atlas des Mausgehirns, der zeigt, wie Genveränderungen einzelne Zelltypen verändern. Jeder Agent nahm sich eine Genstörung vor, bewertete die Zellreaktionen und suchte dazu passende Fachliteratur; von Hand hätte das laut Team Monate gedauert. Zu den Hinweisen zählen Unterschiede zwischen krankheitsrelevanten Genen und ein möglicher Bezug zwischen Cholesterinhaushalt und Nervenzellschäden. Atlas und Paper sind öffentlich.",
    "dup_of": "3d3518948126"
+  },
+  {
+   "id": "97379a4cd51d",
+   "date": "2026-10-21",
+   "published": "2026-10-21T07:00+02:00",
+   "headline": "Bundesregierung plant neue Strafparagrafen gegen sexualisierte Deepfakes",
+   "summary": "Die Bundesregierung arbeitet an einem Gesetz, das sexualisierte Deepfakes und weitere Formen digitaler Gewalt gezielt unter Strafe stellt. Betroffene sollen zudem leichter Auskunft über die Verantwortlichen erhalten können. Damit reagiert der Gesetzgeber auf die stark gesunkene technische Hürde für realistisch wirkende KI-Fälschungen.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "deepfakes",
+    "strafrecht",
+    "digitale gewalt",
+    "gesetzgebung"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-23T02:55:38+02:00",
+   "paywall": true,
+   "quelle_titel": "heise+ | Deepfakes und Voyeurismus: Neue Strafparagrafen geplant",
+   "url": "https://www.heise.de/hintergrund/Deepfakes-und-Voyeurismus-Neue-Strafparagrafen-geplant-11490620.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
    "id": "5cb2e0f8f995",
@@ -736,7 +722,17 @@
    "added": "2026-10-22T07:53:56+02:00",
    "quelle_titel": "OpenAI models are coming to Google Cloud",
    "url": "https://openai.com/index/openai-models-google-cloud",
-   "dup_of": "e01c8e5f57bd"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/google-cloud-bietet-als-erster-anbieter-gemini-claude-und-openai-modelle-auf-einer-plattform-an/"
+    },
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/"
+    }
+   ],
+   "kontext": "Damit versammelt erstmals ein großer Cloud-Anbieter Gemini, Claude und die GPT-Reihe unter einem Dach. Der Start läuft als geschlossene Vorschau für ausgewählte Firmenkunden, die Kosten erscheinen auf der gewohnten Google-Rechnung und zählen auf bestehende Verträge an. Kundendaten sollen nicht ins Training fließen. Für Google steckt darin ein Zwiespalt: Die eigene Cloud stärkt ausgerechnet die schärfsten Rivalen des hauseigenen Gemini-Teams."
   },
   {
    "id": "9fbf6acb35d6",
@@ -934,14 +930,14 @@
    "added": "2026-10-22T07:52:55+02:00",
    "quelle_titel": "Nvidias KI-Rechenzentren aus dem Container sollen in 14 Tagen statt sechs Monaten stehen",
    "url": "https://the-decoder.de/nvidias-ki-rechenzentren-aus-dem-container-sollen-in-14-tagen-statt-sechs-monaten-stehen/",
+   "kontext": "Vorgestellt wurde das Konzept auf Nvidias Entwicklerkonferenz in Berlin, unter dem Namen DSX POD und mit den kommenden Vera-Rubin-Systemen. Partner wie Dell, HPE, Lenovo und Schneider Electric montieren Rechner, Netzwerktechnik, Stromversorgung und Flüssigkühlung bereits im Werk und testen sie dort. Vor Ort bleibt nur der Anschluss an ein vorbereitetes Gelände. Geschlossene Kühlkreisläufe sollen zudem Wasser sparen, die ersten Einheiten sind für Anfang 2027 angekündigt.",
    "also": [
     {
      "source": "Wired AI",
      "url": "https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/",
      "paywall": true
     }
-   ],
-   "kontext": "Vorgestellt wurde das Konzept auf Nvidias Entwicklerkonferenz in Berlin, unter dem Namen DSX POD und mit den kommenden Vera-Rubin-Systemen. Partner wie Dell, HPE, Lenovo und Schneider Electric montieren Rechner, Netzwerktechnik, Stromversorgung und Flüssigkühlung bereits im Werk und testen sie dort. Vor Ort bleibt nur der Anschluss an ein vorbereitetes Gelände. Geschlossene Kühlkreisläufe sollen zudem Wasser sparen, die ersten Einheiten sind für Anfang 2027 angekündigt."
+   ]
   },
   {
    "id": "c1a485488502",
@@ -1191,7 +1187,43 @@
    "quelle_titel": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
    "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
    "kontext": "Die NSA warnte öffentlich und riet, nicht sofort patchbare Seiten lieber vom Netz zu nehmen. Die Fehler stecken seit der 2004 erschienenen Version 5 in der Sprache, die einen Großteil aller Websites antreibt, darunter viele Content-Management-Systeme. Entdeckt wurden sie im Rahmen eines OpenAI-Programms für Open-Source-Sicherheit sowie durch Wiz; die PHP Foundation konnte vorab Patches bereitstellen. Angriffe sind bislang nicht bekannt, doch Sprachmodelle senken die Hürde zur Ausnutzung deutlich.",
-   "dup_of": "80e602df082d"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/openais-gpt-5-6-sol-und-gemini-4-argon-entdeckten-die-kritische-php-sicherheitsluecke-die-millionen-webseiten-betrifft/"
+    },
+    {
+     "source": "Latent Space",
+     "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program"
+    },
+    {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/internet/2026-10/php-sicherheitsluecke-kuenstliche-intelligenz-forschung-internet",
+     "paywall": true
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/php2shell-ai-bug-hunting-maintenance-challenge/"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://www.therundown.ai/articles/ai-finds-a-security-hole-in-70-of-the-web"
+    },
+    {
+     "source": "Computerwoche",
+     "url": "https://www.computerwoche.de/article/4238904/php-panik-greift-um-sich-das-raten-experten.html"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-wir-erleben-einen-wendepunkt-ki-angriffe-webseiten-offline--was-sie-zur-php-sicherheitslucke-wissen-mussen-16186542.html",
+     "paywall": true
+    },
+    {
+     "source": "Süddeutsche Digital",
+     "url": "https://www.sueddeutsche.de/meinung/php-sicherheitsluecke-kuenstliche-intelligenz-software-cybersicherheit-li.3567266",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "14f13252070a",
@@ -1214,7 +1246,7 @@
    "quelle_titel": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
    "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
    "kontext": "Hinter dem Schritt steht eine Vereinbarung zwischen Google und OpenAI: Die Modelle laufen auf Google-Infrastruktur, werden über den Cloud-Marktplatz abgerechnet und lassen sich auf bestehende Verträge anrechnen. Damit versammelt als einziger großer Anbieter eine Plattform Gemini, Claude und die GPT-Reihe, zunächst in einer privaten Vorschau für ausgewählte Firmenkunden. Microsoft bleibt OpenAIs wichtigster Cloud-Partner. Intern stärkt Google so die Rivalen des eigenen Gemini-Teams.",
-   "dup_of": "e01c8e5f57bd"
+   "dup_of": "61f4d0141ff3"
   },
   {
    "id": "c722db5f4d79",
@@ -1290,6 +1322,10 @@
    "kontext": "Duet läuft auf Claude Opus 5.5 und arbeitet proaktiv: morgens ein kurzer Überblick aus den verbundenen Diensten, danach Meldungen nur bei Handlungsbedarf. Es nutzt Gedächtnis, Skills und eine virtuelle Maschine mit Browser und fragt vor sensiblen Schritten wie Zahlungen um Erlaubnis. Die Gegenstücke heißen Muse bei Meta und Dots bei OpenAI. Offen bleibt, ob die gesparte Recherchezeit den Prüfaufwand aufwiegt.",
    "also": [
     {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/"
+    },
+    {
      "source": "The Decoder",
      "url": "https://the-decoder.de/anthropic-schickt-proaktiven-dauer-agenten-claude-duet-gegen-grok-bots-meta-muse-und-openais-dots-ins-rennen/"
     },
@@ -1363,12 +1399,12 @@
      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/meta-quartalszahlen-ki-investitionen-100.html"
     },
     {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4238928/meta-investiert-mindestens-135-milliarden-dollar-in-ki.html"
-    },
-    {
      "source": "stern Digital",
      "url": "https://www.stern.de/digital/kuenstliche-intelligenz--meta-investiert-mindestens-135-milliarden-dollar-in-ki-38433160.html"
+    },
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4238928/meta-investiert-mindestens-135-milliarden-dollar-in-ki.html"
     },
     {
      "source": "AD HOC NEWS",
@@ -1647,6 +1683,27 @@
    "added": "2026-10-22T13:13:38+02:00",
    "quelle_titel": "Software ist bald nichts mehr wert",
    "url": "https://www.computerwoche.de/article/4237120/software-ist-bald-nichts-mehr-wert.html"
+  },
+  {
+   "id": "2a34e474d4bd",
+   "date": "2026-10-21",
+   "published": "2026-10-21T06:15+02:00",
+   "headline": "Heise-Überblick: Chinas Nvidia-Order und Zweifel am Netflix-Wachstum",
+   "summary": "Der Nachrichtenüberblick bündelt eine milliardenschwere Bestellung aus China für KI-Inferenz-Hardware von Nvidia und einen vorsichtigen Netflix-Ausblick, der an der Börse Zweifel weckt. Dazu kommen neue Microsoft-Werkzeuge für Cloud-Souveränität sowie ein Podcast zu Cyberrisiken in Kliniken. Besonders die Hardware-Nachfrage aus China zeigt, wie stark der Bedarf an Rechenkapazität für den KI-Betrieb bleibt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nvidia",
+    "china",
+    "ki-infrastruktur",
+    "cloud-souveränität"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-23T02:55:38+02:00",
+   "quelle_titel": "Mittwoch: Chinas Überbestellungen bei Nvidia, Börsenzweifel an Netflix-Wachstum",
+   "url": "https://www.heise.de/news/Mittwoch-Chinas-Ueberbestellungen-bei-Nvidia-Boersenzweifel-an-Netflix-Wachstum-11494952.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
    "id": "5da20808983f",
