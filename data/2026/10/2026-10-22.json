@@ -166,14 +166,6 @@
    "kontext": "Entdeckt wurden die beiden Fehler in der Speicherverwaltung des PHP-Kerns unabhängig voneinander von zwei Seiten: einem Forscher der Sicherheitsfirma Calif im Rahmen eines OpenAI-Programms für Verteidiger sowie dem zu Google Cloud gehörenden Anbieter Wiz. Beide stützten sich dabei auf aktuelle Sprachmodelle. Vor der Veröffentlichung lief die Abstimmung mit dem PHP-Umfeld rund zwei Monate. Ob der Fall an Log4Shell oder Heartbleed heranreicht, ist in der Fachwelt umstritten.",
    "also": [
     {
-     "source": "eco Verband",
-     "url": "https://www.eco.de/presse/eco-zu-php2shell-weckruf-fuer-die-software-lieferkette-im-ki-zeitalter/"
-    },
-    {
-     "source": "Latent Space",
-     "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program"
-    },
-    {
      "source": "Computerwoche",
      "url": "https://www.computerwoche.de/article/4238904/php-panik-greift-um-sich-das-raten-experten.html"
     },
@@ -181,6 +173,14 @@
      "source": "Tagesspiegel Wirtschaft",
      "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-wir-erleben-einen-wendepunkt-ki-angriffe-webseiten-offline--was-sie-zur-php-sicherheitslucke-wissen-mussen-16186542.html",
      "paywall": true
+    },
+    {
+     "source": "eco Verband",
+     "url": "https://www.eco.de/presse/eco-zu-php2shell-weckruf-fuer-die-software-lieferkette-im-ki-zeitalter/"
+    },
+    {
+     "source": "Latent Space",
+     "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program"
     },
     {
      "source": "The Neuron",
@@ -259,7 +259,16 @@
    "quelle_titel": "EU-Länder einig beim Daten-Omnibus: Mehr KI-Training, weniger Datenschutz",
    "url": "https://netzpolitik.org/2026/eu-laender-einig-beim-daten-omnibus-mehr-ki-training-weniger-datenschutz/",
    "kontext": "Hinter dem Paket steht die Deregulierungsagenda der EU-Kommission, die Datenregeln entschlacken und überlappende Vorgaben zusammenführen will. Den Vorschlag einer zentralen Tracking-Einstellung im Browser kippten die Mitgliedstaaten und erweiterten stattdessen die Ausnahmen von der Zustimmungspflicht. Deutschland, Österreich und Estland stimmten gegen die Position, Teilen der Wirtschaft geht sie beim KI-Training dagegen nicht weit genug. Zivilgesellschaft und Gewerkschaften warnen vor einem Rückschritt bei digitalen Grundrechten. Der Trilog folgt, sobald das Parlament seine Linie festgelegt hat.",
-   "dup_of": "07193d41c83b"
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/daten-omnibus-eu-ministerrat-will-datenschutz-fuer-ki-training-lockern-2610-214448.html"
+    },
+    {
+     "source": "eco Verband",
+     "url": "https://www.eco.de/presse/eco-zum-digital-omnibus-europa-laesst-zentrale-ki-huerden-bestehen/"
+    }
+   ]
   },
   {
    "id": "c777cca0670d",
@@ -527,8 +536,7 @@
    "added": "2026-10-24T02:08:50+02:00",
    "paywall": true,
    "quelle_titel": "Meta: Zuckerberg setzt neue Aktienstruktur durch und erhöht KI-Investitionen",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSnNSMEk0RGpEblZ4cHNfaHFTYmxwZ3I0WGgxM0EtT0xvVmtZOHdfenNXOUdpX0hCeTlURGZleHBENWh5WlJhbEtPVGdId1dULVJhUXNjU1Zrblh3X2RaUXJRZ3BtY2ZLZzRXcjBlRENwbTZPSFc3ck9iOFpadl9vTmp1emp6QkN2WmF2TTBwQzQ0YUNWamFlU2VMaUpUWDJMOF9XYnJSV19zOGg4dDgycGtESXY1WFVmQk9scDlMLUtqMm5QVWNDdXhkS0ZWQ1NNOTB0azQ0Xy1tM2g0OFpRWDRuRkx4bl9XREVZdGtIZw?oc=5",
-   "dup_of": "f7403dc55170"
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSnNSMEk0RGpEblZ4cHNfaHFTYmxwZ3I0WGgxM0EtT0xvVmtZOHdfenNXOUdpX0hCeTlURGZleHBENWh5WlJhbEtPVGdId1dULVJhUXNjU1Zrblh3X2RaUXJRZ3BtY2ZLZzRXcjBlRENwbTZPSFc3ck9iOFpadl9vTmp1emp6QkN2WmF2TTBwQzQ0YUNWamFlU2VMaUpUWDJMOF9XYnJSV19zOGg4dDgycGtESXY1WFVmQk9scDlMLUtqMm5QVWNDdXhkS0ZWQ1NNOTB0azQ0Xy1tM2g0OFpRWDRuRkx4bl9XREVZdGtIZw?oc=5"
   },
   {
    "id": "f5e53c266a8f",
@@ -1190,7 +1198,7 @@
    "added": "2026-10-23T00:08:28+02:00",
    "quelle_titel": "eco zum Digital Omnibus: Europa verspricht Entlastung, lässt aber zentrale Hürden für KI bestehen",
    "url": "https://www.eco.de/presse/eco-zum-digital-omnibus-europa-laesst-zentrale-ki-huerden-bestehen/",
-   "dup_of": "07193d41c83b"
+   "dup_of": "4b62e3d18917"
   },
   {
    "id": "19ab544a300e",
@@ -1212,7 +1220,14 @@
    "added": "2026-10-23T00:08:28+02:00",
    "quelle_titel": "Marktbericht: SAP-Umbau trägt Früchte",
    "url": "https://www.tagesschau.de/wirtschaft/finanzen/sap-mittags-mb-100.html",
-   "kontext": "SAP ist Europas größter Softwarekonzern und ein Schwergewicht im DAX, entsprechend genau verfolgt die Börse jeden Zwischenbericht. Die Zahlen zum dritten Geschäftsquartal kamen am Mittwochabend nach Handelsschluss in den USA. Entscheidend war, dass sich das Wachstum der Cloud-Sparte dank robuster Nachfrage wieder etwas beschleunigte. Daran messen Investoren, ob der auf KI ausgerichtete Umbau des Konzerns tatsächlich greift."
+   "kontext": "SAP ist Europas größter Softwarekonzern und ein Schwergewicht im DAX, entsprechend genau verfolgt die Börse jeden Zwischenbericht. Die Zahlen zum dritten Geschäftsquartal kamen am Mittwochabend nach Handelsschluss in den USA. Entscheidend war, dass sich das Wachstum der Cloud-Sparte dank robuster Nachfrage wieder etwas beschleunigte. Daran messen Investoren, ob der auf KI ausgerichtete Umbau des Konzerns tatsächlich greift.",
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/it-internet/software-wie-viel-verdient-sap-mit-kuenstlicher-intelligenz-herr-klein/100262119.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "2bef5e155399",
@@ -1256,13 +1271,13 @@
    "added": "2026-10-23T01:30:25+02:00",
    "quelle_titel": "Microsoft Frontier Tour: KI ist wie der Kölner Dom, eine Vision",
    "url": "https://www.heise.de/news/Microsoft-Frontier-Tour-KI-ist-wie-der-Koelner-Dom-eine-Vision-11496656.html",
+   "kontext": "Hinter der Produktschau steht Microsofts Antwort auf europäische Skepsis: Mit der Sovereign Cloud sollen Kunden für jede Rechenaufgabe einzeln festlegen, wie viel Kontrolle und lokale Ausführung nötig ist, ein Dashboard zeigt den Speicherort der Daten. Konzernchef Satya Nadella warb für manipulationssichere Protokolle, eine neue Agenten-Identität soll Zugriffsrechte autonomer Software bündeln. Managerin Agnes Heftberger räumte ein, dass der erste KI-Hype abflaut und der bloße Einkauf von Technik noch keine Lösung bringt.",
    "also": [
     {
      "source": "RP Online",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc3JNd1VBV252N3hzVEc0U2xST0lrY3NKY3g1d2JFOHdqaXJOYnFfQmQwUGRmYUFvY3gzY2ZSX3lISGVIMkhkd1ZsWW1XTmZ4UGFYZkhTREs2d3FRN2pYLVhsd3JlVnVadk1EcEtJVDdtbE0wbVdkcHRqWGptOU84ZnRFLVR0eFByV0trVTF3VWUyd1FkVzllS2xkQmhOUFI2U2tycWZEeXkya0ZqRFA1OUs5aG9CUVVXZUV5Z2NWaENZbXdv?oc=5"
     }
-   ],
-   "kontext": "Hinter der Produktschau steht Microsofts Antwort auf europäische Skepsis: Mit der Sovereign Cloud sollen Kunden für jede Rechenaufgabe einzeln festlegen, wie viel Kontrolle und lokale Ausführung nötig ist, ein Dashboard zeigt den Speicherort der Daten. Konzernchef Satya Nadella warb für manipulationssichere Protokolle, eine neue Agenten-Identität soll Zugriffsrechte autonomer Software bündeln. Managerin Agnes Heftberger räumte ein, dass der erste KI-Hype abflaut und der bloße Einkauf von Technik noch keine Lösung bringt."
+   ]
   },
   {
    "id": "b843b66ea3d0",
@@ -1449,7 +1464,8 @@
    "paywall": true,
    "quelle_titel": "Software: Wie viel Geld verdient SAP mit Künstlicher Intelligenz, Herr Klein?",
    "url": "https://www.handelsblatt.com/technik/it-internet/software-wie-viel-verdient-sap-mit-kuenstlicher-intelligenz-herr-klein/100262119.html",
-   "kontext": "Der Softwarekonzern aus Walldorf hat sein Geschäft in den vergangenen Jahren stark umgebaut und die Cloud ins Zentrum gestellt. Im dritten Quartal zog das Wachstum dort nach einer Schwächephase wieder an, die Nachfrage blieb solide, und die Börse reagierte positiv. Offen bleibt, welcher Anteil davon tatsächlich auf KI-Funktionen zurückgeht. Genau diese Aufschlüsselung will Klein künftig liefern, womit SAP zum Testfall für die Frage wird, ob KI bereits Umsatz trägt."
+   "kontext": "Der Softwarekonzern aus Walldorf hat sein Geschäft in den vergangenen Jahren stark umgebaut und die Cloud ins Zentrum gestellt. Im dritten Quartal zog das Wachstum dort nach einer Schwächephase wieder an, die Nachfrage blieb solide, und die Börse reagierte positiv. Offen bleibt, welcher Anteil davon tatsächlich auf KI-Funktionen zurückgeht. Genau diese Aufschlüsselung will Klein künftig liefern, womit SAP zum Testfall für die Frage wird, ob KI bereits Umsatz trägt.",
+   "dup_of": "19ab544a300e"
   },
   {
    "id": "b83e42a21738",
@@ -1612,8 +1628,7 @@
    "added": "2026-10-23T01:29:32+02:00",
    "quelle_titel": "Uber puts all 30,000 employees on ChatGPT Work",
    "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-   "kontext": "Der Pilot lief zunächst mit rund tausend Beschäftigten quer durch Finanzen, Betrieb und Produkt, wobei die große Mehrheit aus nicht technischen Rollen kam. Genutzt wurde das Werkzeug etwa für Datenauswertungen, übersetzte Schulungsunterlagen und eigene Dashboards. Vorgaben zur Nutzung macht Uber bewusst kaum, man will beobachten, welche Arbeitsabläufe entstehen. Für OpenAI ist der Ausbau des Geschäftskundensegments zentral, weil dort vor allem Anthropic konkurriert.",
-   "dup_of": "ba6fa07d677a"
+   "kontext": "Der Pilot lief zunächst mit rund tausend Beschäftigten quer durch Finanzen, Betrieb und Produkt, wobei die große Mehrheit aus nicht technischen Rollen kam. Genutzt wurde das Werkzeug etwa für Datenauswertungen, übersetzte Schulungsunterlagen und eigene Dashboards. Vorgaben zur Nutzung macht Uber bewusst kaum, man will beobachten, welche Arbeitsabläufe entstehen. Für OpenAI ist der Ausbau des Geschäftskundensegments zentral, weil dort vor allem Anthropic konkurriert."
   },
   {
    "id": "d9ae639722a9",
