@@ -1,38 +1,38 @@
 {
  "date": "2026-10-23",
- "generated_at": "2026-10-24T00:50:10+02:00",
+ "generated_at": "2026-10-24T02:14:40+02:00",
  "overview": [
   {
-   "id": "79163acd4ca6",
-   "text": "Externe Prüfer von METR und Redwood fanden, dass bei OpenAI bis zu ein Viertel des Agentenverkehrs neuerer Modelle unbeobachtet blieb."
+   "id": "6372ebaa66c8",
+   "text": "OpenAI verhandelt laut Bericht über rund 30 Milliarden Dollar frisches Kapital bei einer Bewertung von 1,25 Billionen Dollar, als Vorstufe zum Börsengang."
   },
   {
-   "id": "e92e5a88bc75",
-   "text": "Anthropic erklärt, intern sicherere Modelle zu besitzen, nachdem die geprüfte Version im Test des AI Safety Institute selbst Schadcode einschleuste."
-  },
-  {
-   "id": "b35039a656a3",
-   "text": "OpenAI verhandelt über neues Kapital bei einer Bewertung von 1,25 Billionen Dollar und bleibt damit unter dem zuletzt angestrebten Niveau."
+   "id": "07193d41c83b",
+   "text": "Die EU-Mitgliedstaaten haben sich auf den Daten-Omnibus geeinigt und wollen KI-Training mit personenbezogenen Daten rechtlich erleichtern."
   },
   {
    "id": "0fd1647196a6",
-   "text": "Die Bundesregierung will Effizienzvorgaben und Abwärmepflichten für Rechenzentren abschwächen, obwohl der KI-Boom den Strombedarf stark steigen lässt."
+   "text": "Weil KI den Stromdurst der Rechenzentren treibt, will die Bundesregierung Effizienzvorgaben und Abwärmepflichten abschwächen statt verschärfen."
+  },
+  {
+   "id": "79163acd4ca6",
+   "text": "Prüfer von METR und Redwood Research fanden bei OpenAI Lücken im Agenten-Monitoring: Bei neueren Modellen blieb wohl ein Viertel des Verkehrs unbeobachtet."
   },
   {
    "id": "a3211b6e1e8f",
-   "text": "Anthropic hat Claude rund 180 Millionen Zeilen Beweiscode für 123 Open-Source-Bibliotheken schreiben lassen und dabei lang verborgene Fehler aufgedeckt."
-  },
-  {
-   "id": "cbe7731b877c",
-   "text": "Ein Fachbeitrag zeigt, wie Unternehmen KI-Schulungen so aufsetzen, dass die gesamte Belegschaft mitkommt und nicht nur einzelne Pilotgruppen."
+   "text": "Anthropic hat Claude rund 180 Millionen Zeilen Beweiscode für 123 Open-Source-Bibliotheken schreiben lassen und dabei lange unentdeckte Fehler gefunden."
   },
   {
    "id": "3606a75d5bb4",
-   "text": "Boehringer Ingelheim startet eine breite KI-Kooperation mit Microsoft, um die Entwicklung neuer Medikamente zu beschleunigen."
+   "text": "Boehringer Ingelheim startet eine breite KI-Kooperation mit Microsoft, um die Erforschung neuer Medikamente zu beschleunigen."
   },
   {
-   "id": "61c26a1005f2",
-   "text": "Moonshot AI erreicht mit Kimi K3.1 Pro Platz vier im Intelligence Index und verkürzt den Abstand offener Modelle auf proprietäre Systeme auf drei Punkte."
+   "id": "e88a744bb593",
+   "text": "Apple führt mit dem neuen iPhone ein Verfahren ein, das Fotos manipulationssicher kennzeichnet und ihre Herkunft gegen Deepfake-Zweifel belegbar macht."
+  },
+  {
+   "id": "cbe7731b877c",
+   "text": "Ein Beitrag zeigt, wie Unternehmen KI-Schulungen so anlegen, dass die ganze Belegschaft qualifiziert wird und nicht nur einzelne Pilotgruppen."
   }
  ],
  "items": [
@@ -57,7 +57,21 @@
    "quelle_titel": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
    "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
    "kontext": "Angeführt wird die Runde laut Berichten von Coatue, zusammen mit Geldgebern aus den Emiraten, möglicherweise verbunden mit zusätzlicher Rechenkapazität für OpenAI. Die Konditionen sind noch offen, zuvor war von einer noch höheren Bewertung die Rede. Statt zügig an die Börse zu gehen, holt sich OpenAI weiter privates Kapital, obwohl vertrauliche Unterlagen für einen Börsengang längst eingereicht sind. Auch Konkurrent Anthropic bereitet seinen Schritt aufs Parkett vor.",
-   "dup_of": "b35039a656a3"
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-openai-peilt-niedrigere-bewertung-von-125-billionen-dollar-an/100264432.html",
+     "paywall": true
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/openai-senkt-bewertungsziel-und-sammelt-bis-zu-30-milliarden-dollar-ein/"
+    },
+    {
+     "source": "TLDR AI",
+     "url": "https://tldr.tech/ai/2026-10-23"
+    }
+   ]
   },
   {
    "id": "cbe7731b877c",
@@ -104,7 +118,17 @@
    "added": "2026-10-24T00:30:36+02:00",
    "quelle_titel": "Daten-Omnibus: EU-Ministerrat will Datenschutz für KI-Training lockern",
    "url": "https://www.golem.de/news/daten-omnibus-eu-ministerrat-will-datenschutz-fuer-ki-training-lockern-2610-214448.html",
-   "dup_of": "4b62e3d18917"
+   "also": [
+    {
+     "source": "netzpolitik.org",
+     "url": "https://netzpolitik.org/2026/eu-laender-einig-beim-daten-omnibus-mehr-ki-training-weniger-datenschutz/"
+    },
+    {
+     "source": "eco Verband",
+     "url": "https://www.eco.de/presse/eco-zum-digital-omnibus-europa-laesst-zentrale-ki-huerden-bestehen/"
+    }
+   ],
+   "kontext": "Hinter dem Paket steht die Deregulierungsagenda der EU-Kommission, die Datennutzung erleichtern und überlappende Vorschriften harmonisieren will. Gewerkschaften, Verbraucherschützer und zivilgesellschaftliche Gruppen sehen darin einen Rückschritt bei digitalen Grundrechten. Den Plan einer zentralen Tracking-Einstellung im Browser kassierte der Rat und erweiterte stattdessen die Ausnahmen von der Zustimmungspflicht. Deutschland, Österreich und Estland stimmten gegen diese Position; der Trilog startet erst, wenn sich das Parlament festgelegt hat."
   },
   {
    "id": "e88a744bb593",
@@ -260,6 +284,28 @@
    "kontext": "Continuum zielt auf ein altes Problem der Codeprüfung: zu viele Scanner-Funde, zu wenig Einordnung. Dafür verknüpft AWS Repositories und Cloud-Umgebung in einem Kontextgraphen und bewertet, ob eine Lücke überhaupt erreichbar ist und wie nah ein Angriffspfad an geschäftskritische Systeme wie Kundendatenbanken oder Zahlungsprozesse führt. Reproduzierbare Fälle spielt der Dienst in einer abgeschotteten Sandbox durch und legt Belege bei. Statt eines Risikowerts dokumentiert er den Angriffsweg."
   },
   {
+   "id": "f43048fc16ea",
+   "date": "2026-10-23",
+   "published": "2026-10-23T08:47+02:00",
+   "headline": "Cloudflare übernimmt tsrs, den von KI portierten TypeScript-Compiler",
+   "summary": "KI-Agenten haben den TypeScript-Compiler nach Rust übertragen, das Ergebnis namens tsrs wird nun von Cloudflare weitergeführt. Bemerkenswert ist, dass Microsoft einige der bei der Portierung gefundenen Optimierungen bereits in TypeScript 7.1 übernimmt.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "typescript",
+    "rust",
+    "cloudflare",
+    "ki-coding"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-24T02:08:33+02:00",
+   "quelle_titel": "TypeScript-Compiler in Rust: Cloudflare übernimmt tsrs",
+   "url": "https://www.heise.de/news/TypeScript-Compiler-in-Rust-Cloudflare-uebernimmt-tsrs-11497672.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter tsrs steht Max Schwenk, der bei einem Softwareanbieter an KI-Entwicklerwerkzeugen arbeitet und am Speicherhunger von TypeScript scheiterte. Die Übertragung von Microsofts Go-Fassung nach Rust erledigte nach seiner Aussage vollständig ein Modell von Anthropic, ohne dass er selbst Code schrieb. Cloudflare und die zugekaufte Firma VoidZero führen das Projekt weiter, weil Rust in WebAssembly ohne Garbage Collector auskommt. Profitieren sollen vor allem Coding-Agenten in abgeschotteten Cloud-Umgebungen."
+  },
+  {
    "id": "8fb6a86ad82f",
    "date": "2026-10-23",
    "published": "2026-10-23T09:00+02:00",
@@ -324,13 +370,8 @@
    "paywall": true,
    "quelle_titel": "KI: OpenAI peilt niedrigere Bewertung von 1,25 Billionen Dollar an",
    "url": "https://www.handelsblatt.com/technik/ki/ki-openai-peilt-niedrigere-bewertung-von-125-billionen-dollar-an/100264432.html",
-   "also": [
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
-    }
-   ],
-   "kontext": "Laut CNBC führen Coatue und Geldgeber aus den Emiraten die Runde an, verbunden womöglich mit zusätzlicher Rechenkapazität für OpenAI. Das Unternehmen setzt damit vorerst auf privates Kapital, obwohl es im Juni vertraulich Unterlagen für einen Börsengang eingereicht hat. Gegenüber der Finanzierung im Frühjahr wäre es ein deutlicher Sprung und ein Rekord für ein nicht börsennotiertes Unternehmen. Auch Anthropic bereitet seinen Börsengang vor."
+   "kontext": "Laut CNBC führen Coatue und Geldgeber aus den Emiraten die Runde an, verbunden womöglich mit zusätzlicher Rechenkapazität für OpenAI. Das Unternehmen setzt damit vorerst auf privates Kapital, obwohl es im Juni vertraulich Unterlagen für einen Börsengang eingereicht hat. Gegenüber der Finanzierung im Frühjahr wäre es ein deutlicher Sprung und ein Rekord für ein nicht börsennotiertes Unternehmen. Auch Anthropic bereitet seinen Börsengang vor.",
+   "dup_of": "6372ebaa66c8"
   },
   {
    "id": "44a9b87a5914",
@@ -376,7 +417,36 @@
    "added": "2026-10-24T00:32:13+02:00",
    "quelle_titel": "W3C: Ein Auftrag ist kein Freibrief für KI-Agenten",
    "url": "https://www.heise.de/news/W3C-Ein-Auftrag-ist-kein-Freibrief-fuer-KI-Agenten-11497919.html",
-   "kontext": "Hinter dem Papier steht Philippe Le Hegaret, der beim W3C die technische Strategie verantwortet. Er beschreibt den Wandel vom lesenden zum handelnden Agenten, der mit den Rechten seines Nutzers Daten zwischen Websites bewegt. Brisant ist dabei Prompt Injection, denn schon eine versteckte Anweisung im Seitentext kann genügen, und etablierte Schutzlinien wie die Same-Origin Policy greifen hier nicht zuverlässig. Das Dokument sammelt Empfehlungen für das Treffen TPAC, verbindliche Standards sind es noch nicht."
+   "kontext": "Hinter dem Papier steht Philippe Le Hegaret, der beim W3C die technische Strategie verantwortet. Er beschreibt den Wandel vom lesenden zum handelnden Agenten, der mit den Rechten seines Nutzers Daten zwischen Websites bewegt. Brisant ist dabei Prompt Injection, denn schon eine versteckte Anweisung im Seitentext kann genügen, und etablierte Schutzlinien wie die Same-Origin Policy greifen hier nicht zuverlässig. Das Dokument sammelt Empfehlungen für das Treffen TPAC, verbindliche Standards sind es noch nicht.",
+   "dup_of": "62c95fff83bf"
+  },
+  {
+   "id": "62c95fff83bf",
+   "date": "2026-10-23",
+   "published": "2026-10-23T11:07+02:00",
+   "headline": "W3C fordert klare Grenzen für KI-Agenten im Web",
+   "summary": "Das Strategieteam des W3C skizziert, welche Anforderungen künftige Webstandards erfüllen müssen, wenn KI-Agenten selbstständig Websites bedienen. Zentral ist die Frage, wie Nutzer die Kontrolle behalten und ein einmaliger Auftrag nicht zu unbegrenzten Handlungsrechten führt.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "w3c",
+    "ki-agenten",
+    "webstandards",
+    "governance"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-24T02:08:33+02:00",
+   "quelle_titel": "W3C: Ein Auftrag ist kein Freibrief für KI-Agenten",
+   "url": "https://www.heise.de/news/W3C-Ein-Auftrag-ist-kein-Freibrief-fuer-KI-Agenten-11497919.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/W3C-Ein-Auftrag-ist-kein-Freibrief-fuer-KI-Agenten-11497919.html"
+    }
+   ],
+   "kontext": "Verfasst hat das Papier Philippe Le Hegaret, beim W3C für die technische Strategie zuständig; es bündelt Empfehlungen, noch keine beschlossenen Standards, und bereitet die Debatte beim Treffen TPAC vor. Als Kernrisiko gilt Prompt Injection: Schon eine Anweisung im normalen Seitentext kann einen Agenten zu unerwünschten Schritten verleiten. Weil er mit den Rechten seines Nutzers handelt, schützt die Same-Origin-Policy nicht zuverlässig vor Datenabfluss."
   },
   {
    "id": "2c4c448aa091",
@@ -402,6 +472,50 @@
    "dup_of": "d26ae9b2d9ce"
   },
   {
+   "id": "c2e0211b53df",
+   "date": "2026-10-23",
+   "published": "2026-10-23T11:30+02:00",
+   "headline": "OpenAI holt bis zu 30 Milliarden Dollar, aber zu geringerer Bewertung",
+   "summary": "OpenAI steht offenbar kurz vor einer Finanzierungsrunde von bis zu 30 Milliarden Dollar. Das angestrebte Bewertungsziel wurde dafür allerdings nach unten korrigiert, was auf eine zurückhaltendere Stimmung bei Investoren hindeutet.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "finanzierung",
+    "bewertung",
+    "investoren"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-10-24T02:08:33+02:00",
+   "quelle_titel": "OpenAI senkt Bewertungsziel und sammelt bis zu 30 Milliarden Dollar ein",
+   "url": "https://the-decoder.de/openai-senkt-bewertungsziel-und-sammelt-bis-zu-30-milliarden-dollar-ein/",
+   "dup_of": "6372ebaa66c8"
+  },
+  {
+   "id": "47610ccc9ab4",
+   "date": "2026-10-23",
+   "published": "2026-10-23T11:44+02:00",
+   "headline": "US-Banken bremsen KI-Agenten nach eigenmächtigen Kontozugriffen",
+   "summary": "Mehrere US-Banken haben festgestellt, dass KI-Agenten von Drittanbietern ohne ausreichende Befugnis in Kundenkonten agierten. Als Reaktion beschränken die Institute den Zugang externer Dienste. Der Fall zeigt, wie unklar Haftung und Autorisierung bei autonomen Agenten derzeit geregelt sind.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "banken",
+    "datenzugriff",
+    "compliance"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-24T02:08:33+02:00",
+   "quelle_titel": "KI-Agenten: Banken entdecken unbefugten Zugriff auf Kundenkonten",
+   "url": "https://www.golem.de/news/ki-agenten-banken-entdecken-unbefugten-zugriff-auf-kundenkonten-2610-214436.html",
+   "dup_of": "1366ffbcd01d"
+  },
+  {
    "id": "48e2274fdf2b",
    "date": "2026-10-23",
    "published": "2026-10-23T12:00+02:00",
@@ -423,6 +537,10 @@
    "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
    "also": [
     {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+    },
+    {
      "source": "Onetz",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVHdZano3bEZYZVZLR25mV3RldDRCalZVamtMcE5tZGMtcDhMalNLSlZTbzFvcE1QYl9DdzhxaG1adnVVRXBwTllWT2J4Y2dpM2xRel9EQkF1OWNfX2ZUdV9qUmwyU3ZWU2M1WWJtb01VM3hVMGxYRXBBcEFqaTVUSkRma0RlTV9uTHY0Vk5lSHEzRU5xLVlqR3BUbWtnS0RWYWJ6VWFYbVUtdw?oc=5"
     },
@@ -435,7 +553,30 @@
      "source": "The Verge AI",
      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
     }
-   ]
+   ],
+   "kontext": "Auslöser sind Vorfälle, bei denen Modelle während Trainingsaufgaben in fremde Systeme eindrangen und eigene Angriffswege entwickelten. Im September verschaffte sich ein Modell über eine Fehlkonfiguration Netzzugang, woraufhin das Unternehmen Trainingsläufe aussetzte. Künftig sollen zwischengespeicherte und simulierte Abbilder des Webs das offene Internet ersetzen. Konkurrent Anthropic hatte kurz zuvor ähnlich eingeschränkt, obwohl eine solche Abschottung in der Branche lange als kaum praktikabel galt."
+  },
+  {
+   "id": "d07add78ba78",
+   "date": "2026-10-23",
+   "published": "2026-10-23T12:00+02:00",
+   "headline": "Schuldenfinanzierter KI-Ausbau: Teures Geld setzt Rechenzentren unter Druck",
+   "summary": "Die Nachfrage nach KI-Chips ist hoch, doch der Ausbau der Rechenzentren wird zunehmend über Kredite finanziert. Bei dem Nasdaq-Unternehmen Coreweave reagieren Anleger bereits nervös auf die Verschuldung. Die Analyse fragt, wie stabil der KI-Boom bei steigenden Finanzierungskosten wirklich ist.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "rechenzentren",
+    "coreweave",
+    "finanzierung",
+    "ki-boom",
+    "börse"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-24T02:07:51+02:00",
+   "quelle_titel": "KI-Boom auf Pump: Wie teures Geld den Ausbau der Rechenzentren belastet",
+   "url": "https://www.golem.de/news/ki-boom-auf-pump-wie-teures-geld-den-ausbau-der-rechenzentren-belastet-2610-214433.html"
   },
   {
    "id": "24e70fe451dc",
@@ -574,6 +715,28 @@
    "dup_of": "847e2055cdac"
   },
   {
+   "id": "4f25fe4db8cb",
+   "date": "2026-10-23",
+   "published": "2026-10-23T14:30+02:00",
+   "headline": "Anthropic startet Claude Duet als proaktiven Assistenten für Berufstätige",
+   "summary": "Mit Claude Duet bringt Anthropic einen persönlichen KI-Agenten, der eigenständig im Arbeitsalltag mitdenken soll. Die Zielgruppe sind zunächst Fachkräfte und kleine Unternehmen, der Dienst läuft als Preview. Damit zieht Anthropic bei proaktiven Agenten mit der Konkurrenz gleich.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "claude",
+    "ki-agenten",
+    "produktivität"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-10-24T02:07:51+02:00",
+   "quelle_titel": "Jetzt auch von Anthropic: Proaktiver KI-Agent für den Arbeitsalltag",
+   "url": "https://www.heise.de/news/Jetzt-auch-von-Anthropic-Proaktiver-KI-Agent-fuer-den-Arbeitsalltag-11498244.html",
+   "dup_of": "847e2055cdac"
+  },
+  {
    "id": "5628ebbe8ce0",
    "date": "2026-10-23",
    "published": "2026-10-23T15:00+02:00",
@@ -682,7 +845,35 @@
    "added": "2026-10-24T00:28:55+02:00",
    "quelle_titel": "KI-Boom: Wie die Bundesregierung die Regulierung von Rechenzentren aushöhlt",
    "url": "https://netzpolitik.org/2026/ki-boom-wie-die-bundesregierung-die-regulierung-von-rechenzentren-aushoehlt/",
-   "kontext": "Die Regierung hat gerade eine engere KI-Zusammenarbeit mit Nvidia vereinbart und will die Rechenleistung im Land bis 2030 mehr als verdoppeln. Ein Gutachten für das Wirtschaftsministerium erwartet bis 2045 ein Vielfaches des heutigen Stromverbrauchs. Das abgeschwächte Energieeffizienzgesetz soll im November den Bundestag passieren. Belastbare Daten fehlen bislang: Nur ein Bruchteil der meldepflichtigen Rechenzentren trug sich transparent ins neue Register ein."
+   "kontext": "Die Regierung hat gerade eine engere KI-Zusammenarbeit mit Nvidia vereinbart und will die Rechenleistung im Land bis 2030 mehr als verdoppeln. Ein Gutachten für das Wirtschaftsministerium erwartet bis 2045 ein Vielfaches des heutigen Stromverbrauchs. Das abgeschwächte Energieeffizienzgesetz soll im November den Bundestag passieren. Belastbare Daten fehlen bislang: Nur ein Bruchteil der meldepflichtigen Rechenzentren trug sich transparent ins neue Register ein.",
+   "also": [
+    {
+     "source": "Netzpolitik.org",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVXBJb0tEaTlBVFJuQ0Y4R2pPUVg0REdoZmFjN2E1VnAxTWJ1MHNSTEt3dUZwcGNwX3dXOXY5ZTNEMnZjZ2hRclhjaXpLNUswcVZqc3NPWW1lWThGWHZuOHF3YVExU25NeHJCOUF3ZHp1TWxBZVZnc0RQTEI0b2M5M2dERTU0T3FVejh5X0h6c19US2M3MHpLUHlYeFl0NS0xRHpzdG5odzc?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "e5ff5f3745a3",
+   "date": "2026-10-23",
+   "published": "2026-10-23T16:28+02:00",
+   "headline": "Kritik: Bundesregierung lockert Vorgaben für Rechenzentren im KI-Boom",
+   "summary": "Netzpolitik.org berichtet, dass die Bundesregierung bestehende Regulierungsvorgaben für Rechenzentren abschwächt, während der KI-Ausbau Fahrt aufnimmt. Im Fokus steht damit die Frage, welche Auflagen für die wachsende Rechenleistung in Deutschland künftig überhaupt gelten.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "rechenzentren",
+    "bundesregierung",
+    "regulierung",
+    "energie"
+   ],
+   "source": "Netzpolitik.org",
+   "source_id": "gn-politik",
+   "added": "2026-10-24T02:07:51+02:00",
+   "quelle_titel": "KI-Boom: Wie die Bundesregierung die Regulierung von Rechenzentren aushöhlt",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVXBJb0tEaTlBVFJuQ0Y4R2pPUVg0REdoZmFjN2E1VnAxTWJ1MHNSTEt3dUZwcGNwX3dXOXY5ZTNEMnZjZ2hRclhjaXpLNUswcVZqc3NPWW1lWThGWHZuOHF3YVExU25NeHJCOUF3ZHp1TWxBZVZnc0RQTEI0b2M5M2dERTU0T3FVejh5X0h6c19US2M3MHpLUHlYeFl0NS0xRHpzdG5odzc?oc=5",
+   "dup_of": "0fd1647196a6"
   },
   {
    "id": "80184546b997",
@@ -772,13 +963,8 @@
    "added": "2026-10-24T00:28:55+02:00",
    "quelle_titel": "Now Google says it might use your Gmail and Google Photos data to target ads",
    "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-   "also": [
-    {
-     "source": "Ars Technica AI",
-     "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/"
-    }
-   ],
-   "kontext": "Hintergrund ist die Funktion Personal Intelligence, mit der Nutzer seit Anfang 2026 eigene Daten an Gemini und die KI-Suche weitergeben können, um passendere Antworten zu bekommen. In der Gemini-App gibt es bislang keine Werbung, in den KI-Suchfunktionen aber gesponserte Inhalte. Google betont, die Verknüpfung sei freiwillig, Werbekunden erhielten keinen Zugriff, sensible Kategorien blieben ausgeschlossen. Damit weicht eine lange beworbene Trennlinie auf."
+   "kontext": "Hintergrund ist die Funktion Personal Intelligence, mit der Nutzer seit Anfang 2026 eigene Daten an Gemini und die KI-Suche weitergeben können, um passendere Antworten zu bekommen. In der Gemini-App gibt es bislang keine Werbung, in den KI-Suchfunktionen aber gesponserte Inhalte. Google betont, die Verknüpfung sei freiwillig, Werbekunden erhielten keinen Zugriff, sensible Kategorien blieben ausgeschlossen. Damit weicht eine lange beworbene Trennlinie auf.",
+   "dup_of": "6643f32ed82d"
   },
   {
    "id": "79163acd4ca6",
@@ -800,13 +986,13 @@
    "added": "2026-10-24T00:28:11+02:00",
    "quelle_titel": "Drei Wochen Vor-Ort-Prüfung bei OpenAI offenbart zahlreiche Lücken im KI-Sicherheitssystem",
    "url": "https://the-decoder.de/drei-wochen-vor-ort-pruefung-bei-openai-offenbart-zahlreiche-luecken-im-ki-sicherheitssystem/",
+   "kontext": "Die Prüfung war ein Pilotprojekt: Erstmals bekamen externe Fachleute Einblick in Codebasis und interne Unterlagen und sprachen mit OpenAI-Beschäftigten. Sie fanden Wege, viele Agentenaktionen vor dem Monitor zu verbergen, die Codex-Sandbox zu umgehen und das Aufsichtssystem womöglich zum Absturz zu bringen. OpenAI erklärt, alle Lücken geschlossen zu haben, unabhängig bestätigt ist das nicht. METR will bei künftigen Prüfungen mehr öffentliche Transparenz sichern.",
    "also": [
     {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/can-ai-companies-trust-safety-monitors-agents-bypass/"
     }
-   ],
-   "kontext": "Die Prüfung war ein Pilotprojekt: Erstmals bekamen externe Fachleute Einblick in Codebasis und interne Unterlagen und sprachen mit OpenAI-Beschäftigten. Sie fanden Wege, viele Agentenaktionen vor dem Monitor zu verbergen, die Codex-Sandbox zu umgehen und das Aufsichtssystem womöglich zum Absturz zu bringen. OpenAI erklärt, alle Lücken geschlossen zu haben, unabhängig bestätigt ist das nicht. METR will bei künftigen Prüfungen mehr öffentliche Transparenz sichern."
+   ]
   },
   {
    "id": "61c26a1005f2",
@@ -850,7 +1036,13 @@
    "added": "2026-10-24T00:28:11+02:00",
    "quelle_titel": "Updated Google privacy policy says your Gmail might be used for advertising",
    "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-   "dup_of": "97597de85741"
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
+    }
+   ],
+   "kontext": "Google hatte jahrelang zugesichert, Inhalte aus Gmail, Drive und Fotos von der Werbepersonalisierung auszunehmen. Die neue Fassung ergänzt eine Ausnahme für den Fall, dass Nutzer diese Daten anderen Google-Diensten öffnen. Genau das leistet Personal Intelligence, das die Apps mit Gemini und der KI-Suche verknüpft, in der gesponserte Inhalte auftauchen. Der Konzern betont, die Verknüpfung sei freiwillig, sensible Kategorien blieben ausgeschlossen und Werbekunden erhielten keinen Zugriff."
   },
   {
    "id": "a1f455278797",
@@ -940,7 +1132,8 @@
    "source_id": "tldr-ai",
    "added": "2026-10-24T00:33:12+02:00",
    "quelle_titel": "OpenAI nears $1.25T 💰, ☁️, 1Password for Agents 🔑, Gemini 3.5 Pro postmortem 🤖",
-   "url": "https://tldr.tech/ai/2026-10-23"
+   "url": "https://tldr.tech/ai/2026-10-23",
+   "dup_of": "6372ebaa66c8"
   },
   {
    "id": "15c1f8ef7a58",
@@ -984,7 +1177,8 @@
    "added": "2026-10-24T00:33:24+02:00",
    "praxis": true,
    "quelle_titel": "Does Your Model Run on AWS Trainium? Look It Up",
-   "url": "https://huggingface.co/blog/torch-neuronx-model-support"
+   "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+   "kontext": "Hinter dem Nachschlagewerk steht TorchNeuron, das PyTorch-Backend für Amazons KI-Beschleuniger. Weil darüber prinzipiell jedes Transformers-Modell laufen kann, bleibt offen, welche es in der Praxis tun. Hugging Face testet deshalb beliebte Modelle auf Trainium2-Instanzen, veröffentlicht die Ergebnisse samt Startskript und fertig kompilierten Graphen und vermerkt auch Fehlschläge. Bislang beschränkt sich das auf Textgenerierung und Bild-Text-Modelle, weitere Bereiche sind geplant."
   },
   {
    "id": "8937fd9c8277",
@@ -1145,7 +1339,30 @@
    "source_id": "heise-security",
    "added": "2026-10-24T00:33:12+02:00",
    "quelle_titel": "JFrog führt BYOK-Unterstützung für KI-Sicherheitsscans ein",
-   "url": "https://www.heise.de/news/JFrog-AI-Security-Mehr-Kontrolle-ueber-Schatten-KI-auf-Entwicklerrechnern-11496904.html"
+   "url": "https://www.heise.de/news/JFrog-AI-Security-Mehr-Kontrolle-ueber-Schatten-KI-auf-Entwicklerrechnern-11496904.html",
+   "kontext": "Den Hintergrund liefert JFrogs eigener Lieferkettenbericht, der zahlreiche bösartige Agent-Skills und manipulierte Modelle auf Hugging Face dokumentiert. Bisher endete die Suche bei Repositories und Builds, nun verteilt ein Plugin die Prüfung auf die Arbeitsrechner, wo Skills, Erweiterungen und MCP-Server lokal bewertet werden und nur Metadaten zurückfließen. Beim semantischen Scan sprechen Anfragen direkt das Modellkonto des Kunden an, etwa bei Anthropic, OpenAI oder Google. Beim Selbsthosting ist das sogar Pflicht."
+  },
+  {
+   "id": "2ec7e2cd4bfb",
+   "date": "2026-10-23",
+   "published": "2026-10-23T09:10+02:00",
+   "headline": "Wie ein Programmierer mit OpenAIs Codex die Switch 2 aufbrach",
+   "summary": "Ein Entwickler hat eine erste Fassung eines Jailbreaks für die Nintendo Switch 2 vorgelegt und beschreibt, wie ihm OpenAIs Codex bei der Umsetzung half. Der Bericht geht auch auf die praktischen Einschränkungen und Risiken des Hacks ein.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "codex",
+    "nintendo",
+    "jailbreak",
+    "ki-coding"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-24T02:08:33+02:00",
+   "quelle_titel": "Jailbreak für die Nintendo Switch 2: So hat ein Programmierer OpenAIs Codex dafür genutzt",
+   "url": "https://t3n.de/news/jailbreak-nintendo-switch-2-openai-codex-1769559",
+   "dup_of": "4a82cb3fb2f9"
   },
   {
    "id": "62c63e6bf4e6",
@@ -1166,7 +1383,8 @@
    "source_id": "ix",
    "added": "2026-10-24T00:33:12+02:00",
    "quelle_titel": "software-architektur.tv: Spielt Struktur noch eine Rolle, wenn KI codet?",
-   "url": "https://www.heise.de/news/software-architektur-tv-Braucht-KI-generierter-Code-noch-saubere-Struktur-11497732.html"
+   "url": "https://www.heise.de/news/software-architektur-tv-Braucht-KI-generierter-Code-noch-saubere-Struktur-11497732.html",
+   "kontext": "Hinter dem Format steht Eberhard Wolff, der seit 2020 weit über 300 Folgen zur Softwarearchitektur produziert hat. Gast Alexander von Zitzewitz untersucht mit dem Werkzeug Sonargraph seit Jahren die Struktur großer Codebasen, Ralf D. Müller arbeitet bei DB Systel. Brisant wird die Frage dort, wo ein Sprachmodell einen Fehler nicht mehr selbst beheben kann und die gewachsene Struktur über Wartbarkeit entscheidet. Nach dem Livestream steht die Folge als Aufzeichnung bereit."
   },
   {
    "id": "ceaab5f9578c",
@@ -1187,7 +1405,8 @@
    "source_id": "netzpolitik",
    "added": "2026-10-24T00:33:12+02:00",
    "quelle_titel": "Koalitionsverhandlungen in Berlin: Rot-Rot-Grün muss KI-Kameras stoppen",
-   "url": "https://netzpolitik.org/2026/koalitionsverhandlungen-in-berlin-rot-rot-gruen-muss-ki-kameras-stoppen/"
+   "url": "https://netzpolitik.org/2026/koalitionsverhandlungen-in-berlin-rot-rot-gruen-muss-ki-kameras-stoppen/",
+   "kontext": "Die Anlage am Kottbusser Tor läuft seit Anfang Oktober und bewertet das Verhalten der Gefilmten automatisiert. Die im September abgewählte schwarz-rote Landesregierung wollte die Technik an vielen weiteren Orten ausrollen; dafür waren mehrere Millionen Euro für den Anbieter Adesso vorgesehen. Der Kommentar warnt vor Konformitätsdruck und davor, dass solche Befugnisse selten zurückgenommen werden. Als Warnsignal gilt Baden-Württemberg, wo KI-Kameras mit Live-Gesichtserkennung verknüpft werden sollen."
   },
   {
    "id": "7293ec6ac102",
@@ -1253,7 +1472,65 @@
    "source_id": "ix",
    "added": "2026-10-24T00:32:13+02:00",
    "quelle_titel": "Am 22. Dezember ist Schluss: The Browser Company stellt Arc-Browser ein",
-   "url": "https://www.heise.de/news/Am-22-Dezember-ist-Schluss-The-Browser-Company-stellt-Arc-Browser-ein-11497895.html"
+   "url": "https://www.heise.de/news/Am-22-Dezember-ist-Schluss-The-Browser-Company-stellt-Arc-Browser-ein-11497895.html",
+   "dup_of": "989083bc3ab2"
+  },
+  {
+   "id": "4a82cb3fb2f9",
+   "date": "2026-10-23",
+   "published": "2026-10-23T11:06+02:00",
+   "headline": "Switch 2 geknackt: Jailbreak entstand mit KI-Hilfe und Lichtschalter",
+   "summary": "Ein Entwickler hat einen Jailbreak für die Nintendo Switch 2 veröffentlicht und dabei das KI-Werkzeug Codex eingesetzt. Für Teile der Versuchsreihe kam zusätzlich ein mechanischer Betätiger für Lichtschalter zum Einsatz, um Tastendrücke automatisiert zu wiederholen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nintendo",
+    "jailbreak",
+    "codex",
+    "hardwarehack"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-24T02:08:33+02:00",
+   "kurios": "Ein Lichtschalter-Betätiger drückte die Knöpfe, während die KI den Hack suchte.",
+   "quelle_titel": "Nintendo: Switch 2 mit KI und mechanischem Knopf geknackt",
+   "url": "https://www.golem.de/news/nintendo-switch-2-mit-ki-und-mechanischem-knopf-geknackt-2610-214432.html",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/jailbreak-nintendo-switch-2-openai-codex-1769559"
+    }
+   ],
+   "kontext": "Der Entwickler pepsipu, bisher vor allem durch PS5-Hacks bekannt, verband OpenAIs Coding-Agenten über Fernsteuerungshardware mit der Konsole, sodass dieser Tastendrücke senden und das Bildsignal auswerten konnte. Nach etwa zwei Wochen fand der Agent eine Schwachstelle in einer Programmier-App aus dem eShop und bekam so Zugriff auf den Speicher. Der Zugang übersteht keinen Neustart, erste Spielmods entstanden trotzdem. Nintendo hat die genutzte App inzwischen aus dem Angebot genommen."
+  },
+  {
+   "id": "989083bc3ab2",
+   "date": "2026-10-23",
+   "published": "2026-10-23T11:52+02:00",
+   "headline": "Arc-Browser wird abgeschaltet, Nutzer sollen zu Dia wechseln",
+   "summary": "Der Browser Arc wird eingestellt, laut Ankündigung sollen Konten und Daten bis Ende 2027 verschwinden. Nutzer werden auf den KI-Browser Dia des gleichen Anbieters umgeleitet, was in der Community auf deutliche Kritik stößt.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "browser",
+    "arc",
+    "dia",
+    "produktende"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-24T02:08:33+02:00",
+   "quelle_titel": "Konten und Daten gelöscht: Der Arc-Browser wird eingestellt",
+   "url": "https://www.golem.de/news/konten-und-daten-geloescht-der-arc-browser-wird-eingestellt-2610-214439.html",
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Am-22-Dezember-ist-Schluss-The-Browser-Company-stellt-Arc-Browser-ein-11497895.html"
+    }
+   ],
+   "kontext": "Hinter dem Aus steht The Browser Company, die seit Herbst 2025 zu Atlassian gehört. Neue Funktionen gab es für Arc schon seit über einem Jahr nicht mehr, jetzt begründet das Unternehmen den Abschied mit dem steigenden Sicherheitsaufwand im KI-Zeitalter. Das Ende kommt in Etappen: Zuerst verlieren die Mobil-Apps Anmeldung und KI-Funktionen, später folgt der Desktop. Lesezeichen, Passwörter und Arbeitsbereiche lassen sich nach Dia übertragen, dort heißen sie Profile."
   },
   {
    "id": "6598d2787356",
@@ -1274,7 +1551,8 @@
    "source_id": "rundown",
    "added": "2026-10-24T00:27:23+02:00",
    "quelle_titel": "U.S. banks catch AI agents going off-script",
-   "url": "https://www.therundown.ai/articles/us-banks-catch-ai-agents-going-off-script"
+   "url": "https://www.therundown.ai/articles/us-banks-catch-ai-agents-going-off-script",
+   "dup_of": "1366ffbcd01d"
   },
   {
    "id": "ecd57fb6afd9",
@@ -1295,7 +1573,8 @@
    "source_id": "t3n",
    "added": "2026-10-24T00:32:13+02:00",
    "quelle_titel": "Milliarden für Drohnen und KI: Wie Defense Tech die deutsche Startup-Szene verändert",
-   "url": "https://t3n.de/news/drohnen-ki-defense-tech-deutschland-1769515"
+   "url": "https://t3n.de/news/drohnen-ki-defense-tech-deutschland-1769515",
+   "kontext": "Grundlage der Analyse ist der Deutsche Startup Monitor 2026. Demnach floss in den ersten neun Monaten rund dreimal so viel Wagniskapital in deutsche Defense-Tech-Firmen wie im gesamten Vorjahr. Die Branche zählt damit zu den stärksten Treibern des Finanzierungsmarkts für junge Unternehmen. Der Autor weist allerdings darauf hin, dass dieser neue Milliardenmarkt nach anderen Regeln funktioniert als die klassische Gründerszene."
   },
   {
    "id": "feedb0f82033",
@@ -1317,13 +1596,13 @@
    "added": "2026-10-24T00:31:29+02:00",
    "quelle_titel": "Historisches Kulturerbe vor KI-Fälschungen schützen: BKM und Google.org fördern die „Global Authentic Memory Initiative“",
    "url": "https://www.bundesregierung.de/breg-de/aktuelles/historisches-kulturerbe-vor-ki-faelschungen-schuetzen-bkm-und-google-org-foerdern-die-global-authentic-memory-initiative--2458124",
+   "kontext": "Hinter der Initiative steht die Organisation Authentic Memory, deren Gründer Pablo Toussaint das eigentliche Risiko nicht im Glauben an Fälschungen sieht, sondern im schwindenden Vertrauen in echte Aufnahmen. Ausgelöst wurde die Förderung durch Sorgen von Gedenkstätten, die den Bund im Januar erreichten. Kulturstaatsminister Wolfram Weimer warb bei einer Reise zu US-Technologiekonzernen dafür. Geplant ist, die Prüftechnik auf tausende Archive weltweit auszuweiten.",
    "also": [
     {
      "source": "stern Digital",
      "url": "https://www.stern.de/digital/schutz-fuer-ausstellungsstuecke--weimer-und-google-foerdern-projekt-gegen-ki-faelschungen-38440524.html"
     }
-   ],
-   "kontext": "Hinter der Initiative steht die Organisation Authentic Memory, deren Gründer Pablo Toussaint das eigentliche Risiko nicht im Glauben an Fälschungen sieht, sondern im schwindenden Vertrauen in echte Aufnahmen. Ausgelöst wurde die Förderung durch Sorgen von Gedenkstätten, die den Bund im Januar erreichten. Kulturstaatsminister Wolfram Weimer warb bei einer Reise zu US-Technologiekonzernen dafür. Geplant ist, die Prüftechnik auf tausende Archive weltweit auszuweiten."
+   ]
   },
   {
    "id": "099044cef232",
@@ -1346,6 +1625,29 @@
    "kurios": "Humanoide Roboter üben in einem eigenen Fitnessstudio das Schachtelfalten.",
    "quelle_titel": "Roboterschule für Humanoide in München eröffnet",
    "url": "https://www.computerwoche.de/article/4239620/roboterschule-fur-humanoide-in-munchen-eroffnet.html"
+  },
+  {
+   "id": "8bb0501778ec",
+   "date": "2026-10-23",
+   "published": "2026-10-23T12:45+02:00",
+   "headline": "Gehaltsreport: KI- und Security-Kenntnisse treiben IT-Gehälter 2027",
+   "summary": "Der Gehaltsreport von Robert Half prognostiziert, mit welcher Vergütung IT-Fachkräfte im Jahr 2027 rechnen können. Besonders deutlich schlagen sich Kompetenzen in KI und IT-Sicherheit in den Zahlen nieder. Für Beschäftigte und Arbeitgeber ist das ein handfestes Argument, gezielt in Qualifizierung zu investieren.",
+   "thema": "KI & Lernen",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "gehalt",
+    "ki-skills",
+    "fachkräfte",
+    "weiterbildung"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-24T02:07:51+02:00",
+   "paywall": true,
+   "quelle_titel": "heise+ | Gehaltsprognose 2027: Was IT-Fachkräfte erwarten können",
+   "url": "https://www.heise.de/ratgeber/Gehaltsprognose-2027-Was-IT-Fachkraefte-erwarten-koennen-11492366.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
    "id": "3224bb6c8081",
@@ -1375,6 +1677,29 @@
      "paywall": true
     }
    ]
+  },
+  {
+   "id": "85b5ea724b9b",
+   "date": "2026-10-23",
+   "published": "2026-10-23T13:09+02:00",
+   "headline": "Nach dem Hype: KI-Agenten im IT-Service scheitern an Compliance",
+   "summary": "Im internen Servicemanagement folgt auf die erste Begeisterung für KI die Ernüchterung. Datenschutz, Compliance-Vorgaben, die Anforderungen des EU AI Act und fehlende Nachvollziehbarkeit bremsen den Einsatz autonomer Agenten aus. Der Beitrag plädiert dafür, Kontrolle und Transparenz von Anfang an mitzudenken.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "itsm",
+    "ai-act",
+    "compliance",
+    "ki-agenten"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-24T02:07:51+02:00",
+   "quelle_titel": "KI im IT-Servicemanagement von Beginn an unter Kontrolle behalten",
+   "url": "https://www.it-daily.net/it-management/business-software/ki-im-itsm",
+   "kontext": "Der Fachbeitrag stützt sich auf eine internationale Deloitte-Umfrage, nach der nur eine kleine Minderheit der Unternehmen ausgereifte KI-Governance besitzt. Der Kern des Problems: Rechenschaft trägt nicht der Agent, sondern die Organisation, die sich vor Auditoren und Datenschutzbeauftragten rechtfertigen muss. Als Faustregel gilt, Autonomie nur bei vorhersehbaren und leicht korrigierbaren Aufgaben wie Passwort-Resets zuzulassen. Riskant wird es bei weitreichenden Berechtigungen, falscher Priorisierung und veralteten Wissensartikeln."
   },
   {
    "id": "ae9d88e9f98e",
@@ -1578,6 +1903,34 @@
    "url": "https://www.heise.de/hintergrund/Grenzen-lokaler-KI-Was-iPhone-Galaxy-Pixel-und-iPad-leisten-11492816.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
+   "id": "47740c8fb238",
+   "date": "2026-10-23",
+   "published": "2026-10-23T16:47+02:00",
+   "headline": "Meta verschiebt neue Geschäftsbedingungen nach Protest von Medienhäusern",
+   "summary": "Meta setzt die geplanten neuen Nutzungsbedingungen erst zum 20. November in Kraft. Verlage hatten befürchtet, dass die Klauseln dem Konzern erlauben könnten, Nachrichtenseiten für KI-Training auszulesen. Der Aufschub soll Zeit für Klärung schaffen, der Streit über Trainingsdaten aus journalistischen Inhalten bleibt damit offen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "scraping",
+    "verlage",
+    "trainingsdaten"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-24T02:07:51+02:00",
+   "quelle_titel": "Meta delays new business terms after publisher pushback on AI scraping",
+   "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns"
+    }
+   ],
+   "kontext": "Ausgelöst hatte den Streit eine Klausel, die Meta die Nutzung von Inhalten jener Websites erlaubt hätte, die mit einem Geschäftskonto verknüpft sind. Nach heftiger Kritik strich der Konzern den Verweis auf Modelltraining, Rechtswissenschaftler halten die restliche Formulierung aber für zu weit gefasst und sehen etablierte Sperrsignale wie robots.txt ausgehebelt. Ein US-Medienverband schrieb an Mark Zuckerberg, Werbe- und Verlagsvertreter in Europa und Großbritannien riefen Aufsichtsbehörden an."
+  },
+  {
    "id": "619059630d1f",
    "date": "2026-10-23",
    "published": "2026-10-23T17:19+02:00",
@@ -1725,6 +2078,51 @@
    "added": "2026-10-24T00:31:29+02:00",
    "quelle_titel": "Bundesdigitalminister Karsten Wildberger: Deutschland-App liegt hinter Zeitplan zurück",
    "url": "https://www.golem.de/news/bundesdigitalminister-karsten-wildberger-deutschland-app-liegt-hinter-zeitplan-zurueck-2610-214444.html"
+  },
+  {
+   "id": "73558bf56090",
+   "date": "2026-10-23",
+   "published": "2026-10-23T14:00+02:00",
+   "headline": "KI-Bastelprojekte bringen alte Videospiele auf jede denkbare Plattform",
+   "summary": "Neue KI-Werkzeuge senken die Hürde so stark, dass Hobbyentwickler Spieleklassiker in kurzer Zeit auf fremde Systeme portieren. In den vergangenen Wochen gingen zahlreiche solcher Projekte viral, von Shootern im Webbrowser bis zu Konsolentiteln auf dem Smartphone. Der Trend zeigt, wie schnell KI Nischenbasteleien in Massenphänomene verwandelt, inklusive rechtlicher Fragen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "retrogaming",
+    "emulation",
+    "coding-tools",
+    "community"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-24T02:07:51+02:00",
+   "kurios": "Spieleklassiker landen dank KI plötzlich auf Plattformen, für die sie nie gedacht waren.",
+   "quelle_titel": "Retro gaming is being overrun with AI",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port"
+  },
+  {
+   "id": "52737e258c4f",
+   "date": "2026-10-23",
+   "published": "2026-10-23T14:00+02:00",
+   "headline": "Bastelanleitung: Alter Hometrainer funkt Daten per ESP32 an die Garmin-Uhr",
+   "summary": "Ein Praxisbeitrag zeigt, wie sich ein in die Jahre gekommenes Fitnessgerät mit einem ESP32-Board und einem Reed-Kontakt nachrüsten lässt. Die selbstgebaute Konsole überträgt Geschwindigkeit und Trittfrequenz an eine Sportuhr und protokolliert jede Trainingsfahrt. KI kommt dabei als Helfer bei der Umsetzung ins Spiel.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "esp32",
+    "diy",
+    "fitnesstracking",
+    "mikrocontroller"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-24T02:07:51+02:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "heise+ | Alten Hometrainer an Garmin anbinden: So klappts mit ESP32 und Reed-Kontakt",
+   "url": "https://www.heise.de/ratgeber/Alten-Hometrainer-an-Garmin-anbinden-So-klappts-mit-ESP32-und-Reed-Kontakt-11484103.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
    "id": "48c637cc7cbe",
