@@ -1,10 +1,10 @@
 {
  "date": "2026-10-22",
- "generated_at": "2026-10-25T00:14:56+02:00",
+ "generated_at": "2026-10-25T01:36:46+02:00",
  "overview": [
   {
    "id": "847e2055cdac",
-   "text": "Anthropics neuer Agent Claude Duet arbeitet auf Basis von Opus 5.5 auch ohne eingeloggte Nutzer weiter und bindet über 6.000 Dienste an."
+   "text": "Anthropic startet mit Claude Duet einen proaktiven Agenten, der Aufgaben auch ohne eingeloggten Nutzer erledigt und über 6.000 Dienste anbinden kann."
   },
   {
    "id": "cd073cc4eb33",
@@ -12,19 +12,19 @@
   },
   {
    "id": "4b62e3d18917",
-   "text": "Die EU-Staaten wollen mit dem Daten-Omnibus personenbezogene Daten leichter für KI-Training nutzbar machen und senken damit das Datenschutzniveau."
+   "text": "Die EU-Staaten wollen mit dem Daten-Omnibus personenbezogene Daten leichter für KI-Training nutzbar machen und schwächen damit den Datenschutz."
   },
   {
    "id": "d1b19037538a",
-   "text": "Nach dem Einbruch bei ConnectWise spähte eine mutmaßlich China-nahe Gruppe tausende Kundenfirmen aus und nutzte dafür KI-Agenten zur Skalierung."
-  },
-  {
-   "id": "6690b91343cf",
-   "text": "Laut Gartner ziehen nur 13 Prozent der Unternehmen messbaren Geschäftswert aus ihren KI-Ausgaben, dennoch erhöhen drei Viertel der Chefs die Budgets."
+   "text": "Nach dem Einbruch beim IT-Dienstleister ConnectWise spähte eine mutmaßlich China-nahe Gruppe mit KI-Agenten tausende Kundenfirmen aus."
   },
   {
    "id": "fed07794acf0",
-   "text": "Eine IAB-Studie sieht keinen breiten Jobverlust durch KI, aber wachsenden Druck auf Einstiegsjobs, weil Junioraufgaben leicht automatisierbar sind."
+   "text": "Eine IAB-Studie sieht keinen breiten Jobverlust durch KI, warnt aber, dass vor allem Einstiegsstellen für Berufsanfänger unter Druck geraten."
+  },
+  {
+   "id": "6690b91343cf",
+   "text": "Laut Gartner ziehen nur 13 Prozent der Unternehmen messbaren Geschäftswert aus ihren KI-Ausgaben, dennoch steigen die Technologiebudgets weiter."
   },
   {
    "id": "df14e2db08e1",
@@ -32,7 +32,7 @@
   },
   {
    "id": "3d3518948126",
-   "text": "OpenAI ließ mit Partnern tausende Agenten parallel Daten von Millionen Mauszellen auswerten und war nach 32 Minuten statt Monaten fertig."
+   "text": "OpenAI ließ mit Partnern tausende KI-Agenten Daten aus Millionen Mauszellen auswerten und war nach 32 Minuten statt vieler Monate fertig."
   }
  ],
  "items": [
@@ -56,13 +56,7 @@
    "added": "2026-10-22T07:47:37+02:00",
    "quelle_titel": "Meta investiert mindestens 135 Milliarden Dollar in KI",
    "url": "https://www.tagesschau.de/wirtschaft/unternehmen/meta-quartalszahlen-ki-investitionen-100.html",
-   "kontext": "Die Ankündigung fiel mit den Quartalszahlen zusammen: Mit über 64 Milliarden Dollar Umsatz übertraf der Facebook-Konzern die Erwartungen der Analysten. Das Geld soll vor allem in Rechenzentren und die Weiterentwicklung eigener KI-Systeme fließen. Die stimmrechtslose Aktiengattung ist dabei der Hebel, um externes Kapital anzuziehen und die Machtposition des Firmenchefs gleichzeitig unangetastet zu lassen.",
-   "also": [
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4238928/meta-investiert-mindestens-135-milliarden-dollar-in-ki.html"
-    }
-   ]
+   "kontext": "Die Ankündigung fiel mit den Quartalszahlen zusammen: Mit über 64 Milliarden Dollar Umsatz übertraf der Facebook-Konzern die Erwartungen der Analysten. Das Geld soll vor allem in Rechenzentren und die Weiterentwicklung eigener KI-Systeme fließen. Die stimmrechtslose Aktiengattung ist dabei der Hebel, um externes Kapital anzuziehen und die Machtposition des Firmenchefs gleichzeitig unangetastet zu lassen."
   },
   {
    "id": "dc028fea27bb",
@@ -118,26 +112,6 @@
     {
      "source": "iX",
      "url": "https://www.heise.de/news/Jetzt-auch-von-Anthropic-Proaktiver-KI-Agent-fuer-den-Arbeitsalltag-11498244.html"
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/"
-    },
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/ki-agent-claude-duet-arbeitet-waehrend-nutzer-offline-sind-2610-214386.html"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/new-claude-duet-works-while-your-phone-s-off/"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/claude-duet-work-human-review/"
-    },
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/anthropic-claude-duet-1769375"
     }
    ]
   },
@@ -166,12 +140,13 @@
    "kontext": "Entdeckt wurden die beiden Fehler in der Speicherverwaltung des PHP-Kerns unabhängig voneinander von zwei Seiten: einem Forscher der Sicherheitsfirma Calif im Rahmen eines OpenAI-Programms für Verteidiger sowie dem zu Google Cloud gehörenden Anbieter Wiz. Beide stützten sich dabei auf aktuelle Sprachmodelle. Vor der Veröffentlichung lief die Abstimmung mit dem PHP-Umfeld rund zwei Monate. Ob der Fall an Log4Shell oder Heartbleed heranreicht, ist in der Fachwelt umstritten.",
    "also": [
     {
-     "source": "Computerwoche",
-     "url": "https://www.computerwoche.de/article/4238904/php-panik-greift-um-sich-das-raten-experten.html"
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+     "paywall": true
     },
     {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-wir-erleben-einen-wendepunkt-ki-angriffe-webseiten-offline--was-sie-zur-php-sicherheitslucke-wissen-mussen-16186542.html",
+     "source": "Politico Europe",
+     "url": "https://www.politico.eu/article/the-cyber-flaw-scramble-that-brought-the-ai-threat-to-life/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
      "paywall": true
     },
     {
@@ -181,14 +156,6 @@
     {
      "source": "Latent Space",
      "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/php2shell-ai-bug-hunting-maintenance-challenge/"
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://www.therundown.ai/articles/ai-finds-a-security-hole-in-70-of-the-web"
     }
    ]
   },
@@ -263,10 +230,6 @@
     {
      "source": "Golem",
      "url": "https://www.golem.de/news/daten-omnibus-eu-ministerrat-will-datenschutz-fuer-ki-training-lockern-2610-214448.html"
-    },
-    {
-     "source": "eco Verband",
-     "url": "https://www.eco.de/presse/eco-zum-digital-omnibus-europa-laesst-zentrale-ki-huerden-bestehen/"
     }
    ]
   },
@@ -1464,8 +1427,7 @@
    "paywall": true,
    "quelle_titel": "Software: Wie viel Geld verdient SAP mit Künstlicher Intelligenz, Herr Klein?",
    "url": "https://www.handelsblatt.com/technik/it-internet/software-wie-viel-verdient-sap-mit-kuenstlicher-intelligenz-herr-klein/100262119.html",
-   "kontext": "Der Softwarekonzern aus Walldorf hat sein Geschäft in den vergangenen Jahren stark umgebaut und die Cloud ins Zentrum gestellt. Im dritten Quartal zog das Wachstum dort nach einer Schwächephase wieder an, die Nachfrage blieb solide, und die Börse reagierte positiv. Offen bleibt, welcher Anteil davon tatsächlich auf KI-Funktionen zurückgeht. Genau diese Aufschlüsselung will Klein künftig liefern, womit SAP zum Testfall für die Frage wird, ob KI bereits Umsatz trägt.",
-   "dup_of": "19ab544a300e"
+   "kontext": "Der Softwarekonzern aus Walldorf hat sein Geschäft in den vergangenen Jahren stark umgebaut und die Cloud ins Zentrum gestellt. Im dritten Quartal zog das Wachstum dort nach einer Schwächephase wieder an, die Nachfrage blieb solide, und die Börse reagierte positiv. Offen bleibt, welcher Anteil davon tatsächlich auf KI-Funktionen zurückgeht. Genau diese Aufschlüsselung will Klein künftig liefern, womit SAP zum Testfall für die Frage wird, ob KI bereits Umsatz trägt."
   },
   {
    "id": "b83e42a21738",
@@ -1531,8 +1493,7 @@
    "source_id": "gn-unternehmen",
    "added": "2026-10-23T01:29:32+02:00",
    "quelle_titel": "Satya Nadella in Köln: Microsoft wirbt um Vertrauen deutscher Kunden",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc3JNd1VBV252N3hzVEc0U2xST0lrY3NKY3g1d2JFOHdqaXJOYnFfQmQwUGRmYUFvY3gzY2ZSX3lISGVIMkhkd1ZsWW1XTmZ4UGFYZkhTREs2d3FRN2pYLVhsd3JlVnVadk1EcEtJVDdtbE0wbVdkcHRqWGptOU84ZnRFLVR0eFByV0trVTF3VWUyd1FkVzllS2xkQmhOUFI2U2tycWZEeXkya0ZqRFA1OUs5aG9CUVVXZUV5Z2NWaENZbXdv?oc=5",
-   "dup_of": "9aa9e3996025"
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc3JNd1VBV252N3hzVEc0U2xST0lrY3NKY3g1d2JFOHdqaXJOYnFfQmQwUGRmYUFvY3gzY2ZSX3lISGVIMkhkd1ZsWW1XTmZ4UGFYZkhTREs2d3FRN2pYLVhsd3JlVnVadk1EcEtJVDdtbE0wbVdkcHRqWGptOU84ZnRFLVR0eFByV0trVTF3VWUyd1FkVzllS2xkQmhOUFI2U2tycWZEeXkya0ZqRFA1OUs5aG9CUVVXZUV5Z2NWaENZbXdv?oc=5"
   },
   {
    "id": "49b6eb261a64",
@@ -1605,7 +1566,7 @@
    "added": "2026-10-23T00:05:53+02:00",
    "quelle_titel": "KI-Texte besser erkennen: ChatGPT führt unsichtbare Wasserzeichen ein",
    "url": "https://www.basicthinking.de/blog/2026/10/22/ki-chatgpt-wasserzeichen/",
-   "dup_of": "7d838bc45b95"
+   "kontext": "Hintergrund ist das KI-Gesetz der EU, dessen Transparenzpflichten seit August gelten und die Anbieter bis Anfang Dezember zu maschinenlesbarer Kennzeichnung zwingen. OpenAI verschiebt dafür bei der Wortwahl leicht die Wahrscheinlichkeiten, sodass ein statistisches Muster entsteht, das nur mit einem geheimen Schlüssel prüfbar ist. Über die Programmierschnittstelle lässt sich das bereits einschalten, in der EU soll es schrittweise Standard werden. Verlässlich bleibt die Prüfung aber nur bei längeren, unveränderten Texten."
   },
   {
    "id": "2e9a4426b964",
@@ -2850,6 +2811,27 @@
    "quelle_titel": "A robot butler with Pixar ambitions",
    "url": "https://www.therundown.ai/articles/a-robot-butler-with-pixar-ambitions",
    "kontext": "Hinter dem Haushaltsroboter Voxel steht das New Yorker Start-up Tuesday Labs, gegründet von einem früheren Boston-Dynamics-Mitarbeiter; ein Ex-Pixar-Animator berät bei der Persönlichkeit. Kassiert wird bereits jetzt per Anzahlung, obwohl die Auslieferung erst gegen Ende des Jahrzehnts angepeilt ist und die Hardware noch umkonstruiert werden muss. Konkurrent 1X fährt dieselbe Strategie. Bei Unitrees Rettungsvideo bleibt offen, ob ein Mensch den Roboter fernsteuerte."
+  },
+  {
+   "id": "b6b0614d9541",
+   "date": "2026-10-22",
+   "published": "2026-10-22T16:42+02:00",
+   "headline": "Microsoft bemüht sich um das Vertrauen deutscher Kunden",
+   "summary": "Microsoft versucht, bei Kundinnen und Kunden in Deutschland verlorenes Vertrauen zurückzugewinnen. Der Beitrag beleuchtet, mit welchen Zusagen der Konzern um deutsche Anwender wirbt.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "microsoft",
+    "cloud",
+    "datensouveränität",
+    "vertrauen"
+   ],
+   "source": "Aachener Zeitung",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-25T01:33:01+02:00",
+   "quelle_titel": "Microsoft wirbt um Vertrauen deutscher Kunden",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM2pGMHY1aUtTd0ZBMXFwdFgzd0JtMW9pUTk2RFFHeTFoX09uclBON3EyaVkwMzRKQS1ZU3gzQ2ctWEJ5bmQ2Tm5ZOTdTMjRKN0NDREt0a0o2S3FRSGF6Um5fS1BMNDhuaDBodTg0RklJVlBDNDJaQlhxOXJqZFN2Wl8wamlVRkpkNG5rVWVWakd0dWs3aGRrV0tOUlR1VG1HbVE?oc=5"
   },
   {
    "id": "12d0b1a86546",
