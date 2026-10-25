@@ -1,17 +1,491 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-10-25T06:47:52+01:00",
+ "generated_at": "2026-10-26T00:16:51+01:00",
  "overview": [
   {
-   "id": "c05e6259bb53",
-   "text": "Amazon kündigt ein 16 Milliarden Euro schweres Paket für den Ausbau von Cloud-Infrastruktur und Logistiknetz an, ohne Details zur Aufteilung."
+   "id": "2e42373bd4b6",
+   "text": "Im KI-Rennen der Großmächte entscheidet laut Foreign Affairs nicht der Durchbruch, sondern Kapital: Firmen aus den USA planen 2026 über 600 Milliarden Dollar."
   },
   {
-   "id": "272356315f36",
-   "text": "Googles KI-Assistent Gemini steuert Google Maps nun auch in Apple Carplay und beantwortet Anfragen der Nutzer direkt während der Fahrt."
+   "id": "adb509cae027",
+   "text": "OpenAI lockt Firmenkunden von Anthropic mit Rabatten von bis zu 90 Prozent und drückt damit die Preise für KI-Schnittstellen branchenweit nach unten."
+  },
+  {
+   "id": "b23877b88e69",
+   "text": "Ein Ökonom von Apollo findet außerhalb der Tech-Branche bislang keinen messbaren Gewinneffekt von KI, trotz milliardenschwerer Investitionen."
+  },
+  {
+   "id": "0e9fe277fe97",
+   "text": "In MINT-Berufen verändert KI die Aufgaben so stark, dass viele Beschäftigte kündigen, was den Qualifizierungsdruck in Deutschland deutlich erhöht."
+  },
+  {
+   "id": "f7e3d952b0bd",
+   "text": "Die Cyberagentur des Bundes sieht Angreifer strukturell im Vorteil, weil ausnutzbare Sicherheitslücken schneller wachsen, als Verteidiger nachkommen."
+  },
+  {
+   "id": "c536d6849003",
+   "text": "Die Chefs von Mistral und DeepL warnen, dass Europa dauerhaft von fremder KI-Technologie abhängig wird, wenn Brüssel nur auf Anwendungen setzt."
+  },
+  {
+   "id": "6f9ed043fa8a",
+   "text": "Googles KI-Antworten in der Suche lassen den Traffic von Verlagen schrumpfen und entziehen dem Geschäftsmodell vieler Onlinemedien die Grundlage."
+  },
+  {
+   "id": "2053bf576f50",
+   "text": "Anthropic-Mitgründer Jack Clark hält selbstverbessernde KI nun schon 2027 für möglich, weil Modelle beim Entwerfen von Experimenten rasch besser werden."
   }
  ],
  "items": [
+  {
+   "id": "adb509cae027",
+   "date": "2026-10-25",
+   "published": "2026-10-25T08:16+01:00",
+   "headline": "Rabattschlacht bei KI-Modellen: OpenAI greift Anthropics Firmenkunden an",
+   "summary": "OpenAI umwirbt Geschäftskunden von Anthropic mit drastischen Preisnachlässen, Unternehmen wie Rippling, Replit und DataCamp berichten von bis zu 90 Prozent geringeren Kosten. Anthropic verzeichnet ein langsameres Wachstum, während OpenAI die Marktanteile mit sinkenden eigenen Margen bezahlt. Zusätzlichen Druck erzeugen günstige chinesische Anbieter wie Deepseek, sodass sich die Preise für KI-Schnittstellen insgesamt weiter nach unten bewegen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "anthropic",
+    "preise",
+    "api",
+    "wettbewerb"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-10-26T00:10:27+01:00",
+   "quelle_titel": "KI-Preiskampf: OpenAI lockt Anthropic-Kunden mit Rabatten von bis zu 90 Prozent ab",
+   "url": "https://the-decoder.de/ki-preiskampf-openai-lockt-anthropic-kunden-mit-rabatten-von-bis-zu-90-prozent-ab/",
+   "kontext": "Der Bericht von The Information zeigt, wie schnell sich Verträge verschieben: Bei Rippling kippte der Anteil in der Programmierarbeit binnen kurzer Zeit von Anthropic zu OpenAI, Replit wechselte nach einem Nachlass auf einen Vertrag im dreistelligen Millionenbereich. Eine US-Bank bekam doppelt so viele ChatGPT-Zugänge ohne Aufpreis. OpenAI kann die Rabatte nach eigener Darstellung durch effizientere Modelle und Infrastruktur abfedern."
+  },
+  {
+   "id": "2e42373bd4b6",
+   "date": "2026-10-25",
+   "published": "2026-10-25T08:43+01:00",
+   "headline": "KI als Machtfrage: Wie USA und China den Rest der Welt abhängig machen",
+   "summary": "In einem Beitrag für Foreign Affairs beschreiben Niall Ferguson, Klaassen und der frühere Google-Chef Eric Schmidt die USA und China als konkurrierende KI-Großmächte, von deren Infrastruktur andere Staaten zunehmend abhängen. Entscheidend sei demnach nicht der nächste technische Durchbruch, sondern die Fähigkeit, enorme Summen zu investieren: Allein die US-Konzerne planen für 2026 mehr als 600 Milliarden Dollar. Als Bremsklötze gelten hohe Schuldenlasten, lokaler Widerstand gegen Rechenzentren und das Risiko einer Chipkrise rund um Taiwan.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "geopolitik",
+    "usa",
+    "china",
+    "investitionen",
+    "rechenzentren"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-10-26T00:10:27+01:00",
+   "quelle_titel": "USA und China bauen KI-Imperien auf, von denen der Rest der Welt abhängig wird",
+   "url": "https://the-decoder.de/usa-und-china-bauen-ki-imperien-auf-von-denen-der-rest-der-welt-abhaengig-wird/",
+   "kontext": "Die Autoren vergleichen OpenAI und Anthropic mit den Handelskompanien der Kolonialzeit: mächtig, aber an der Leine der Regierungen. Als Beispiel dient eine Anweisung des US-Handelsministeriums, die Anthropic zwang, Spitzenmodelle vorübergehend abzuschalten. Washington setze auf geschlossene Technik und politische Gefolgschaft, Peking auf offen verfügbare Modelle und eigene Standards. Die Engpässe sind gegenläufig: China fehlen Spitzenchips, den USA Mineralien und Netzkapazität."
+  },
+  {
+   "id": "9cbc9e828e7e",
+   "date": "2026-10-25",
+   "published": "2026-10-25T09:42+01:00",
+   "headline": "Anthropic empfiehlt einen Hauptagenten statt Schwärmen von Subagenten",
+   "summary": "Anthropic rät Unternehmen davon ab, Aufgaben auf viele spezialisierte Subagenten zu verteilen, und empfiehlt stattdessen einen einzelnen Agenten, der Kontext bei Bedarf nachlädt. In einem Kundenprojekt habe sich die Verarbeitung dadurch doppelt so schnell erledigen lassen. Für den Umstieg bestehender Architekturen liegt ein Migrations-Kit auf GitHub bereit.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "anthropic",
+    "ki-agenten",
+    "architektur",
+    "kontext"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-10-26T00:09:48+01:00",
+   "praxis": true,
+   "quelle_titel": "Weniger ist mehr: Anthropic rät zum einzelnen KI-Agent statt zu vielen Subagenten",
+   "url": "https://the-decoder.de/weniger-ist-mehr-anthropic-raet-zum-einzelnen-ki-agent-statt-zu-vielen-subagenten/",
+   "kontext": "Die Empfehlung stammt vom Applied-AI-Team, das Erfahrungen aus mehreren Firmenprojekten bündelt. Dort führten Dutzende Spezialagenten zu langen Wartezeiten, widersprüchlichen Prompt-Regeln und Architekturen, die eher das Organigramm des Kunden abbildeten als die eigentliche Aufgabe. Neuere Modelle planen laut Anthropic selbst und prüfen ihre Arbeit, weshalb der System-Prompt von Claude Code deutlich schrumpfen konnte. Sinnvoll bleiben Subagenten, wenn Kontextfenster überlaufen oder Aufgaben parallel laufen müssen."
+  },
+  {
+   "id": "2053bf576f50",
+   "date": "2026-10-25",
+   "published": "2026-10-25T10:26+01:00",
+   "headline": "Jack Clark hält sich selbst verbessernde KI schon 2027 für möglich",
+   "summary": "Ein Test von P-Zero Research deutet darauf hin, dass KI-Modelle beim Entwerfen und Auswerten wissenschaftlicher Experimente schnell besser werden. Anthropic-Mitgründer Jack Clark zieht seine Prognose für selbstverbessernde Systeme deshalb auf 2027 vor. Die Einschätzung ist umstritten, zeigt aber, wie schnell sich die Erwartungen in der Branche verschieben.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "agi",
+    "benchmark",
+    "prognose"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-10-26T00:09:48+01:00",
+   "quelle_titel": "Anthropic-Mitgründer zieht Prognose für sich selbst verbessernde KI auf 2027 vor",
+   "url": "https://the-decoder.de/anthropic-mitgruender-zieht-prognose-fuer-sich-selbst-verbessernde-ki-auf-2027-vor/",
+   "kontext": "Hinter der Prognose steht ein neuer Benchmark namens TasteVal, der prüft, wie gut Modelle Experimente planen und deren Ergebnisse deuten. Als Vergleich dienten zwei Dutzend Fachleute mit Erfahrung bei führenden Laboren, gemessen wird der sparsame Umgang mit knapper Rechenzeit. Clark verweist in seinem Newsletter Import AI auf eine Verdopplung im Quartalsrhythmus. Dass Systeme sich schon selbst weiterentwickeln, belegt der Test nicht, er erfasst nur einen Ausschnitt wissenschaftlicher Arbeit."
+  },
+  {
+   "id": "06ee5c5ca64f",
+   "date": "2026-10-25",
+   "published": "2026-10-25T10:45+01:00",
+   "headline": "Nvidia Flora annotiert Roboterdaten für 72 Cent pro Stunde Video",
+   "summary": "Nvidia stellt mit Flora eine offene Daten-Engine vor, die eine Stunde Robotervideo für rund 72 Cent beschriftet statt für 88 Dollar mit GPT-6 Astra. Das System besteht aus drei feinjustierten Qwen3.5-Modellen und erkennt fehlerhafte Roboteraktionen zuverlässiger als Vergleichssysteme, bleibt bei der Beschreibungsgenauigkeit aber teils zurück. Nvidia stärkt damit seine Position entlang der gesamten Robotik-Wertschöpfungskette.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "robotik",
+    "trainingsdaten",
+    "open source"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-10-26T00:09:48+01:00",
+   "quelle_titel": "Nvidias offene Daten-Engine Flora soll Robotikdaten 125-mal günstiger beschriften als GPT-6 Astra",
+   "url": "https://the-decoder.de/nvidias-offene-daten-engine-flora-soll-robotikdaten-125-mal-guenstiger-beschriften-als-gpt-6-astra/",
+   "kontext": "Hinter Flora steht Nvidias Forschungslabor GEAR. Robotermodelle lernen aus Videos, die dreifach beschriftet sein müssen: was wann passiert, wie gut der Roboter vorankommt und ob die Aufgabe am Ende gelingt. Bisherige Werkzeuge liefern meist nur eines davon, große Sprachmodelle alles, aber zu teuer für riesige Videomengen. Der Preisvorteil ist allerdings nur kalkuliert, und die Beschreibungen bewertete das Konkurrenzmodell selbst."
+  },
+  {
+   "id": "7d12458317cb",
+   "date": "2026-10-25",
+   "published": "2026-10-25T10:49+01:00",
+   "headline": "Tausende KI-Server ungeschützt im Netz erreichbar",
+   "summary": "Ein Bericht von TrendAI zählt 1.467 offen zugängliche MCP-Server und 12.461 frei erreichbare Ollama-Instanzen im Internet. Angriffe richten sich demnach immer seltener gegen das Modell selbst, sondern gegen die Infrastruktur drumherum. Als größtes Einfallstor gelten Lieferketten und eingebundene Komponenten.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "mcp",
+    "ollama",
+    "lieferkette",
+    "angriffsfläche"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-26T00:09:48+01:00",
+   "quelle_titel": "KI-Angriffe zielen auf das Umfeld der Modelle",
+   "url": "https://www.it-daily.net/it-sicherheit/cybercrime/ki-angriffe-zielen-auf-umfeld",
+   "kontext": "Der Bericht stammt von TrendAI, dem Forschungsteam von Trend Micro, und beruht auf Telemetriedaten, eigener Schwachstellenforschung und ausgewerteten Vorfällen. Problematisch sind vor allem Betriebsfehler: fehlende Anmeldung, veraltete Software, Zugangsdaten im Klartext. Weil MCP-Server KI-Agenten direkt an Datenbanken und Anwendungen koppeln, öffnen offene Instanzen den Weg zu sensiblen Firmen- und sogar Patientendaten. Die folgenschwersten Fälle gingen auf manipulierte Software-Pakete zurück."
+  },
+  {
+   "id": "1eeb12efcb52",
+   "date": "2026-10-25",
+   "published": "2026-10-25T11:12+01:00",
+   "headline": "Minuten statt Monate: Exploits entstehen rasant schneller",
+   "summary": "Laut einem Experten der Cyberagentur des Bundes brauchen Angreifer heute oft nur noch Minuten oder Stunden, um eine frisch bekannt gewordene Lücke in einen funktionierenden Angriff zu verwandeln. Patch-Zyklen in Unternehmen hinken dieser Geschwindigkeit deutlich hinterher. Hoffnung setzt der Fachmann auf KI-gestützte Analyse, die das Verhältnis wieder ausgleichen könnte.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "exploits",
+    "patch-management",
+    "cyberagentur",
+    "ki-sicherheit"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-26T00:09:48+01:00",
+   "quelle_titel": "Cyberagentur-Experte: Schwachstellen bleiben länger ein Problem",
+   "url": "https://www.it-daily.net/shortnews/cyberagentur-experte-schwachstellen",
+   "dup_of": "f7e3d952b0bd"
+  },
+  {
+   "id": "f7e3d952b0bd",
+   "date": "2026-10-25",
+   "published": "2026-10-25T11:28+01:00",
+   "headline": "Cyberagentur: Verteidiger verlieren das Rennen um neue Schwachstellen",
+   "summary": "Ein Fachmann der Cyberagentur des Bundes erläutert, warum die Zahl ausnutzbarer Sicherheitslücken derzeit wächst und Angreifer strukturell im Vorteil sind. Als Beispiel dient eine aktuelle Schwachstelle in PHP. Mittelfristig könnte KI helfen, Lücken schneller zu finden und zu schließen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "cybersicherheit",
+    "schwachstellen",
+    "cyberagentur",
+    "bedrohungslage"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-26T00:09:48+01:00",
+   "quelle_titel": "„Tal der Tränen“: Warum Angreifer bei Sicherheitslücken derzeit im Vorteil sind",
+   "url": "https://www.heise.de/news/Cyberagentur-Software-Schwachstellen-bleiben-laenger-ein-Problem-11499379.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "also": [
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/cyberagentur-experte-schwachstellen"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-it-sicherheit-experte-software-schwachstellen-bleiben-langer-ein-problem-16199271.html",
+     "paywall": true
+    }
+   ],
+   "kontext": "Daniel Gille leitet bei der Cyberagentur des Bundes den Bereich Schlüsseltechnologien und ordnet die PHP-Lücke als Teil eines länger anhaltenden Trends ein. Das Missverhältnis: Angriffscode entsteht binnen Stunden, während Updates dezentral und damit langsam eingespielt werden. Auch IBM meldet für dieses Jahr sprunghaft mehr bekannte Schwachstellen, viele davon von KI aufgespürt. Die Behörde plant nun ein Forschungsprogramm zu sichererem Code."
+  },
+  {
+   "id": "6f9ed043fa8a",
+   "date": "2026-10-25",
+   "published": "2026-10-25T13:00+01:00",
+   "headline": "Googles KI-Suche stellt das Geschäftsmodell von Onlinemedien infrage",
+   "summary": "Die digitale Verlagsbranche hat ihre Erlöse lange auf Suchtraffic von Google aufgebaut. Mit den KI-Antworten in der Suche bricht diese Grundlage weg, was Reichweiten und Einnahmen vieler Publisher massiv verändert. Der Beitrag ordnet ein, wie tief dieser Umbruch das Web trifft.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "google",
+    "suche",
+    "publishing",
+    "traffic"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-26T00:08:54+01:00",
+   "quelle_titel": "Google’s AI search changes upended online publishing",
+   "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+   "kontext": "Jahrelang war das Verhältnis von Suchmaschine und Verlagen beidseitig nützlich: Redaktionen richteten ihre Seiten auf gute Platzierungen aus, Google füllte damit seine Ergebnisse. Nun liefert die Suche die Antwort selbst, der Klick auf die Quelle entfällt oft. Die Kolumne von Emma Roth bei The Verge ordnet ein, wie stark sich dadurch die Finanzierung journalistischer Angebote verschiebt."
+  },
+  {
+   "id": "d4304652e508",
+   "date": "2026-10-25",
+   "published": "2026-10-25T14:10+01:00",
+   "headline": "China plant Risikoprüfungen und Umschulungen gegen KI-Jobverluste",
+   "summary": "China will den Einsatz von KI am Arbeitsplatz künftig stärker steuern und dafür verpflichtende Risikoprüfungen einführen. Beschäftigte sollen zusätzlich durch Umschulungsangebote und Schutzmaßnahmen gegen die Folgen der Automatisierung abgesichert werden. Damit verbindet das Land Regulierung direkt mit Qualifizierung.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "china",
+    "arbeitsmarkt",
+    "umschulung",
+    "regulierung"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-26T00:08:54+01:00",
+   "quelle_titel": "Risikoprüfungen werden Pflicht: China will KI-Jobverluste abfedern",
+   "url": "https://www.golem.de/news/risikopruefungen-werden-pflicht-china-will-ki-jobverluste-abfedern-2610-214487.html",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/china-jobverluste-ki-1769807"
+    },
+    {
+     "source": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZk8zNk9XS0VSZC1rTndJOHdEMzdraDQtOUNUckoyZFBEMnZLNHNmaDZvSjVycUdFUlRjWXJ4eEd4bTVYaVRkRzV1QXJTbkNNNExYaGRhX0Q1QXZSeWZhUXQzY0gxQk5laXE5MXZwd1V0N0FUV1FUdDVGN0NCb0w2UGkxUllVaW0xMm54Z1VwT1MtaXNBZHBxMk81UGQ3d0lENk9aSkQzX1ZoUThhdXdSOHZYVVU0dGdMczYyQ1h0TlkzclJxLVNmazlVaw?oc=5"
+    },
+    {
+     "source": "AD HOC NEWS",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjQtU1hiN2ZDTVFqVW5FWC00SW9Ddk1YM1lMbmxsWkZNX1JtUl9JTjVyY2Q0MFBqTVctVEloWnFmLUZOSUFma21CQXp5Rzd2NHYtVXdSQzJKZkhJaVVHMHVBbTlTSEtabHpDTHJfYXdROXM2aGtib21KeFk1aUNkZUpHMEtxMFotNTVIeVdtdFN2b1RSal9PcnlDWnNLenA5LVBmY2ktOA?oc=5"
+    }
+   ],
+   "kontext": "Der Staatsrat hat die Vorgaben Ende Oktober veröffentlicht, nachdem ein Gericht im Frühjahr eine KI-begründete Kündigung für rechtswidrig erklärt hatte. Hintergrund ist ein angespannter Arbeitsmarkt, auf dem unter jungen Menschen fast jeder Fünfte ohne Job ist. Behörden sollen Beschäftigungsrisiken überwachen und Notfallpläne entwickeln, auch der KI-Einsatz im Personalwesen wird strenger geregelt. Hochschulen und kleinere Firmen erhalten Unterstützung."
+  },
+  {
+   "id": "c536d6849003",
+   "date": "2026-10-25",
+   "published": "2026-10-25T14:28+01:00",
+   "headline": "Mistral und DeepL warnen vor wachsender KI-Abhängigkeit Europas",
+   "summary": "Die EU-Spitze um Ursula von der Leyen rückt bei KI zunehmend die Anwendungsseite in den Vordergrund statt eigene Basistechnologie. Die Chefs von Mistral und DeepL halten das für riskant und befürchten, dass Europa technologisch dauerhaft von außereuropäischen Anbietern abhängig wird.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "europa",
+    "digitale souveränität",
+    "mistral",
+    "deepl"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-26T00:08:54+01:00",
+   "quelle_titel": "Mistral- und DeepL-Chefs warnen vor KI-Kapitulation Europas",
+   "url": "https://www.heise.de/news/KI-Streit-in-Europa-EU-Tech-Chefs-wehren-sich-gegen-Kapitulation-11499445.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter dem Streit steht die Frage, ob Europa eigene Spitzenmodelle braucht oder ob es reicht, auf fremder Technik aufzusetzen. Mistral-Chef Arthur Mensch und DeepL-Gründer Jarek Kutylowski fordern Kontrolle über die gesamte Wertschöpfungskette, sonst wandere der Gewinn ab. Kutylowski verweist auf Softwarebudgets, die zunehmend in Modelle statt in Entwicklergehälter fließen. Gegenstimmen wie der Chef des Legal-Tech-Anbieters Legora halten ein eigenes Spitzenlabor für Wunschdenken."
+  },
+  {
+   "id": "042f3d6ad110",
+   "date": "2026-10-25",
+   "published": "2026-10-25T15:48+01:00",
+   "headline": "Nvidia erweitert auf der GTC in Berlin seinen Branchenfokus",
+   "summary": "Auf der Nvidia-Hausmesse GTC in Berlin zeigt der Chipkonzern, wie weit er inzwischen über klassische Rechenzentren hinausgeht. Im Mittelpunkt steht der Vorstoß in immer mehr Wirtschaftszweige, die ihre Prozesse mit KI-Hardware und passender Software umbauen wollen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "gtc",
+    "chips",
+    "industrie"
+   ],
+   "source": "SZ.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-26T00:08:54+01:00",
+   "quelle_titel": "Nvidia-Konferenz GTC in Berlin: Wie der Chipkonzern in immer mehr Branchen vordringt - Wirtschaft - SZ.de",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdkRUZGJIWWxvOWtOMjVDTWJkZHZNSm1xR1dLeW5aNmU2Z1ZMS2w4aGJDQ09Wc1JqUmxOVDA0Nmd4eGxfMDVLaDFjX3ZxS2JuMG84bzREcml6V2NPdkFwYjUteGYwLTlxLXI1ZHl4cVhqYU5KaWUtNnV3cHZSa2NHaHZzTWZ5ZVpLOTZnNG9wQUJ0NXpjUXFjUVJSLWZ6WEF5eHo5aTgzTUVHUQ?oc=5",
+   "also": [
+    {
+     "source": "Süddeutsche Digital",
+     "url": "https://www.sueddeutsche.de/wirtschaft/nvidia-gtc-jensen-huang-ki-chips-kuenstliche-intelligenz-li.3568109",
+     "paywall": true
+    }
+   ]
+  },
+  {
+   "id": "b23877b88e69",
+   "date": "2026-10-25",
+   "published": "2026-10-25T17:57+01:00",
+   "headline": "Studie: KI bringt den meisten Konzernen bislang keinen Gewinn",
+   "summary": "Ein Ökonom des Investmenthauses Apollo kommt zu dem Ergebnis, dass KI außerhalb der Technologiebranche in US-Unternehmen bisher keinen messbaren finanziellen Nutzen gebracht hat. Trotz hoher Investitionen und großer Erwartungen bleibt der Effekt auf die Geschäftszahlen aus.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "roi",
+    "investitionen",
+    "apollo",
+    "produktivität"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-26T00:07:57+01:00",
+   "quelle_titel": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/magnificent-seven-welche-unternehmen-laut-apollo-chefoekonom-bisher-vom-ki-boom-profitieren-1769814"
+    }
+   ],
+   "kontext": "Hinter der Analyse steht Torsten Slok, Chefökonom des Finanzinvestors Apollo Global Management. Er vergleicht die wenigen großen Tech-Konzerne mit dem Rest des US-Leitindex und sieht Margen sowie Umsatz je Beschäftigten dort praktisch unverändert. Gleichzeitig steigen die Ausgaben für Rechenleistung, sodass viele Firmen KI inzwischen eher als Kostenfaktor verbuchen. Slok hält geschäftliches Urteilsvermögen für schwer automatisierbar."
+  },
+  {
+   "id": "0e9fe277fe97",
+   "date": "2026-10-25",
+   "published": "2026-10-25T18:00+01:00",
+   "headline": "MINT-Berufe im Wandel: KI treibt Beschäftigte zur Kündigung",
+   "summary": "Künstliche Intelligenz verändert Tätigkeiten in technischen und naturwissenschaftlichen Berufen so stark, dass viele Beschäftigte ihren Job aufgeben. Das deutet auf einen erheblichen Anpassungs- und Qualifizierungsdruck in diesen Berufsfeldern hin.",
+   "thema": "KI & Lernen",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "mint",
+    "arbeitsmarkt",
+    "qualifizierung",
+    "berufswandel"
+   ],
+   "source": "CHIP",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-26T00:07:57+01:00",
+   "quelle_titel": "KI verändert MINT-Berufe: Viele Beschäftigte kündigen daher ihren Job",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxObTViWUV6QWRSVm1hRjk0QVJWR0xvMzkySXhqTWdqSTVxYUhnU0pYOHFKbzhmVEVSQlJiczJnNkkzRTFGeW9DMHJySU9oRGFnWnhGem9YQWphUjhIM0hxdmZnUnVISHIweGhMOHZ2eVNQU1U4blQ4T2RiMlRIbE15SmNaeUNUdVVWM2hzdmpJanpjV2U4TUxta2VCbG51WDAtSjZMOUFPeGhmcGxKS0RZSlgxdmVpQTAtOVdubnBKN1l1MlF0Z1BGWUVwNE51dF9EenNGN2ktVzVEdS1lRU1nMw?oc=5",
+   "also": [
+    {
+     "source": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRWRIUmZTcTBGOFd3TFY4aFBpSDhWenhUaVRDQ2lvQVU4NjdYS21VdUVCdGVYakhZR3RjbHNkWFpDY3dmTHFyeFJzTndISldSbFhXMVFnUE80cEJ1bXJkQk9FemRYTHRDelZFbVRFZmE2N1dzNlR1MURTeU15Q3dPbHdJdTlCTFhielNPdkFxbzJWMnl1UDA3S3ExMmdXblhzSHNQaVdwc3JIWDJTSTZzWXFn?oc=5"
+    },
+    {
+     "source": "Aachener Zeitung",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWXZSc0x3TFNxT01UNVRKbGlsNHBVbXN0Tk1UbDhxaG9qZUpjRHZXekt0NGt3cXNRWmIyMWlhSzdSLUVRNlF4Mll5R3V6MU10cWZ0amhoU1h2TlU3UVBNTExsck5reHF0bEpqOG5qVzJwUWNXeFBXLVBBcndfNG5LWDFVbWl4SUxlWV8xNWktU1FmX2ZBak11QURoZ2JIZkRVazEwVnlwWklnQQ?oc=5"
+    },
+    {
+     "source": "Onetz",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeTZrSUVOR3hUOGd0VldoeW9qMlo1RHhETDVSRHFoRllYVkpUQzBaV2UzaGVoaW51Mzh5VmJZYzFjUWdEaUx1TGhxUGNWRUNSV0lYV2hRRzJPM21pbTZId1paVldPaTRCUGw3OFpaMm8zeTdFaDFPRGR4RnNBLVA5SUxYZjVDVVZ2c2NST1VxM1BNU2l6RVpz?oc=5"
+    },
+    {
+     "source": "SZ.de",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYmNfNV94ZHdFNzRiT29Pdkw1cTNWNkRtbjlCcDhCQlp2bzJjcDd1ZWpzRjJCS2VvUml1MlQ1SlNvVlo5bVZ1R2VFVmZDa2ZTOFZ3ZnlTczRlVGxNclBUYXBjMDRSQXEyOUhrSzBCdHA3X0hHYy1lOGp5MWNDUVgtY0dQM0tfMEFvbGZZWVBUTzJDOXVBMldYU0pOUkE3aGNyWFpOdGNsaUdlVjF0WUZsUXJkdkRZMXpIU05oWGloN0gtMlB3dkxVQWdlY0NLX2s5TktSdVVHNlY5SnRJVUI4b010ZWFVT1BmQlRhYXNaN3Q?oc=5"
+    },
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/ki-wird-zum-kuendigungsgrund"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-arbeitswelt-und-ki-wandel-im-berufsalltag-ki-wird-zum-kundigungsgrund-16196456.html",
+     "paywall": true
+    },
+    {
+     "source": "stern Digital",
+     "url": "https://www.stern.de/digital/arbeitswelt-und-ki--wandel-im-berufsalltag--ki-wird-zum-kuendigungsgrund-38444810.html"
+    }
+   ]
+  },
+  {
+   "id": "2ca0addf143e",
+   "date": "2026-10-25",
+   "published": "2026-10-25T20:15+01:00",
+   "headline": "China verlangt Risikoprüfung vor dem KI-Einsatz in Betrieben",
+   "summary": "Der chinesische Staatsrat fordert Behörden auf, Arbeitsplatzverluste durch KI gezielt zu begrenzen. Ein neuer Leitfaden verpflichtet Unternehmen dazu, die Einführung von KI-Systemen vorsichtig und mit Blick auf die Folgen für Beschäftigte anzugehen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "china",
+    "regulierung",
+    "arbeitsmarkt",
+    "jobverluste"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-26T00:07:57+01:00",
+   "quelle_titel": "Risikoprüfungen: Wie China Jobverluste durch KI eindämmen will",
+   "url": "https://t3n.de/news/china-jobverluste-ki-1769807",
+   "dup_of": "d4304652e508"
+  },
+  {
+   "id": "f9acef759df8",
+   "date": "2026-10-25",
+   "published": "2026-10-25T20:45+01:00",
+   "headline": "Apollo-Ökonom: Vom KI-Boom profitieren vor allem sieben Tech-Riesen",
+   "summary": "Nach Analyse des Chefökonomen von Apollo schlagen sich KI-Investitionen außerhalb der Tech-Branche kaum in besseren Margen oder höheren Umsätzen nieder. Der Verbrauch von Tokens und damit die laufenden Kosten steigen hingegen deutlich.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "magnificent seven",
+    "ki-boom",
+    "kosten",
+    "aktienmarkt"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-26T00:07:57+01:00",
+   "quelle_titel": "„Magnificent Seven“: Welche Unternehmen laut Apollo-Chefökonom bisher vom KI-Boom profitieren",
+   "url": "https://t3n.de/news/magnificent-seven-welche-unternehmen-laut-apollo-chefoekonom-bisher-vom-ki-boom-profitieren-1769814",
+   "dup_of": "b23877b88e69"
+  },
+  {
+   "id": "e5718268cacc",
+   "date": "2026-10-25",
+   "published": "2026-10-25T23:38+01:00",
+   "headline": "SpaceX leiht sich 40 Milliarden Dollar für KI-Chips",
+   "summary": "Elon Musk zufolge hat SpaceX Kredite über 40 Milliarden Dollar aufgenommen, um KI-Chips einzukaufen. Möglich wurde das laut Musk durch die solide Bonität des Konzerns sowie laufende Einnahmen aus dem Satellitendienst Starlink und dem Raketengeschäft.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "spacex",
+    "musk",
+    "ki-chips",
+    "finanzierung",
+    "rechenzentren"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-10-26T00:07:57+01:00",
+   "paywall": true,
+   "quelle_titel": "Künstliche Intelligenz: SpaceX sichert sich 40 Milliarden für KI-Chips",
+   "url": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-spacex-sichert-sich-40-milliarden-fuer-ki-chips/100264828.html"
+  },
   {
    "id": "c05e6259bb53",
    "date": "2026-10-25",
@@ -55,6 +529,385 @@
    "quelle_titel": "Google Maps in Carplay: So hilft dir Gemini jetzt bei der Navigation",
    "url": "https://t3n.de/news/google-maps-in-carplay-gemini-1769471",
    "kontext": "Im Auto war Gemini bislang vor allem Sache von Android Auto, Apple-Fahrer blieben außen vor. Die Funktion steckt ausschließlich in Google Maps, ein appübergreifender Assistent für Carplay ist sie also nicht. Neu möglich sind offenere Anliegen in mehreren Schritten, etwa Vorschläge für Aussichtspunkte, Hinweise zum Besucheraufkommen oder das Melden von Staus. Der Start erfolgt zunächst in den USA, weitere Länder sollen in den kommenden Wochen folgen."
+  },
+  {
+   "id": "8f0061832e57",
+   "date": "2026-10-25",
+   "published": "2026-10-25T07:53+01:00",
+   "headline": "OpenMobile-2: Smartphone-Agent trainiert in nachgebauten Shopping-Apps",
+   "summary": "Das Forschungsteam hinter OpenMobile-2 kommt zu dem Ergebnis, dass Smartphone-Agenten vor allem von der Vielfalt der Trainingsumgebungen profitieren und nicht von mehr Daten. Die frei verfügbare Übungsumgebung enthält über 110 Anwendungen, darunter 35 Nachbildungen bekannter Shopping- und Reise-Apps. Auf echten Android-Geräten erzielt das Modell nach Angaben der Autoren die besten Ergebnisse unter den offen verfügbaren Agenten.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "agenten",
+    "android",
+    "training",
+    "open source",
+    "benchmark"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-10-26T00:10:27+01:00",
+   "quelle_titel": "OpenMobile-2: Offener Smartphone-Agent übt in nachgebauten Shopping- und Reise-Apps",
+   "url": "https://the-decoder.de/openmobile-2-offener-smartphone-agent-uebt-in-nachgebauten-shopping-und-reise-apps/",
+   "kontext": "Hinter dem Projekt stehen Forschende der Universität Nanjing und des KI-Anbieters SenseTime, die offene Agenten gegen die Datenvorteile großer Konzerne stellen wollen. Veröffentlicht werden zwei Modelle auf Qwen-Basis samt Übungsumgebung, Trainingsdaten und Bauanleitung. Die Nachbauten lassen sich jederzeit zurücksetzen, und der Agent arbeitet nur mit Bildschirminhalten, wie ein Mensch. Die Beispielabläufe stammen allerdings von Googles Gemini als Lehrer, das offene System lernt also von einem geschlossenen."
+  },
+  {
+   "id": "5115023e011a",
+   "date": "2026-10-25",
+   "published": "2026-10-25T08:00+01:00",
+   "headline": "Offen oder geschlossen: Der Streit um frei verfügbare KI-Modelle spitzt sich zu",
+   "summary": "Die Branche diskutiert intensiver denn je, ob KI-Modelle offen verfügbar sein sollten. Befürworter sehen darin ein Gegengewicht zur Marktmacht einzelner Konzerne, Kritiker warnen vor Missbrauch etwa für Cyberangriffe. Der Beitrag zeigt, dass die Grenze zwischen offen und geschlossen in der Praxis unscharf verläuft und die Debatte vielschichtiger ist als die Lagerbildung vermuten lässt.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "open source",
+    "modelle",
+    "cybersicherheit",
+    "konzernmacht"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-26T00:10:27+01:00",
+   "quelle_titel": "Offene KI-Modelle: Irgendwo zwischen Schutz vor Konzernmacht und Angst vor Cyberangriffen",
+   "url": "https://t3n.de/news/debatte-um-offene-ki-es-geht-um-cybersicherheit-demokratie-und-sehr-viel-geld-1768097",
+   "kontext": "Ausgelöst hat die neue Runde ein Bericht von Anthropic über ein leistungsstarkes Modell des chinesischen Anbieters Z.ai, das frei zum Download steht und beliebig verändert werden darf. Genau darin sehen die Autoren eine ernste Gefahr für Cyberangriffe. Andere halten offene Modelle für das wirksamste Gegengewicht zur Macht weniger großer Anbieter. Die Einordnung stammt aus einer Analyse der MIT Technology Review."
+  },
+  {
+   "id": "ef9abce25213",
+   "date": "2026-10-25",
+   "published": "2026-10-25T08:00+01:00",
+   "headline": "Primzahlabstände: KI liefert möglichen Beweis für ein altes Mathematikproblem",
+   "summary": "Die Kolumne widmet sich der Frage, wie groß die Lücken zwischen aufeinanderfolgenden Primzahlen maximal werden können. Daran hängt ein seit langem offenes mathematisches Problem, für das ein KI-System nun eine Lösung vorgelegt haben könnte. Das Beispiel zeigt, wie KI zunehmend als Werkzeug in der mathematischen Grundlagenforschung auftritt.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "mathematik",
+    "primzahlen",
+    "beweis",
+    "forschung"
+   ],
+   "source": "Spektrum der Wissenschaft",
+   "source_id": "spektrum",
+   "added": "2026-10-26T00:10:27+01:00",
+   "quelle_titel": "Freistetters Formelwelt: Der unüberwindbare Primzahl-Graben",
+   "url": "https://www.spektrum.de/kolumne/freistetters-formelwelt-freistteters-formelwelt/2350943",
+   "kontext": "Hinter der Frage steckt ein klassisches Ergebnis der Zahlentheorie: Für den Abstand benachbarter Primzahlen gibt es keine feste Obergrenze, die dauerhaft hält. Egal welche maximale Sprungweite man wählt, irgendwann folgt eine Lücke, die sich damit nicht überbrücken lässt. Florian Freistetter nimmt das in seiner Kolumne zum Anlass, ein weiterhin offenes Problem aus diesem Umfeld vorzustellen. Dass dafür nun ein KI-System einen Lösungsvorschlag liefert, zeigt, wie solche Werkzeuge in der Grundlagenforschung ankommen."
+  },
+  {
+   "id": "40a3bc1bb6ea",
+   "date": "2026-10-25",
+   "published": "2026-10-25T09:01+01:00",
+   "headline": "Software-Lücken bleiben laut Bundesexperte länger gefährlich",
+   "summary": "Neue Sicherheitslücken lassen sich inzwischen binnen Minuten oder Stunden für Angriffe nutzen, warnt ein Fachmann der Cyberagentur des Bundes. Weil Gegenmaßnahmen deutlich länger brauchen, bleibt das Zeitfenster für Angreifer weit offen. KI-gestützte Werkzeuge könnten diese Lücke künftig verkleinern.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "it-sicherheit",
+    "schwachstellen",
+    "cyberagentur",
+    "ki-einsatz"
+   ],
+   "source": "Tagesspiegel Wirtschaft",
+   "source_id": "tagesspiegel-wirtschaft",
+   "added": "2026-10-26T00:09:48+01:00",
+   "paywall": true,
+   "quelle_titel": "IT-Sicherheit: Experte: Software-Schwachstellen bleiben länger ein Problem",
+   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-it-sicherheit-experte-software-schwachstellen-bleiben-langer-ein-problem-16199271.html",
+   "dup_of": "f7e3d952b0bd"
+  },
+  {
+   "id": "3eabe2198872",
+   "date": "2026-10-25",
+   "published": "2026-10-25T11:00+01:00",
+   "headline": "SAP-Technikchef über KI, die auf Geschäftsdaten aufbaut",
+   "summary": "SAP-CTO Philipp Herzig erläutert im Interview, warum KI in Unternehmen nur mit Zugriff auf verlässliche Geschäftsdaten funktioniert. Er widerspricht der These, klassische Software als Service habe sich durch KI erledigt, und sieht die Debatte als zu verkürzt.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "sap",
+    "enterprise-ki",
+    "saas",
+    "geschäftsdaten"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-10-26T00:07:57+01:00",
+   "quelle_titel": "SAP's Philipp Herzig on AI built for business data",
+   "url": "https://www.therundown.ai/articles/sap-s-philipp-herzig-on-ai-built-for-business-data",
+   "kontext": "Herzig verantwortet die Technik beim größten europäischen Softwarehaus und hat damit ein eigenes Interesse, klassische Unternehmenssoftware zu verteidigen. Sein Argument: Eine App zu erzeugen ist einfach, sie über Dutzende Länder hinweg mit Steuerregeln und Berechtigungen zu betreiben ist die eigentliche Arbeit. Schwieriger als die Technik sei ohnehin die Akzeptanz, weil KI Zuständigkeiten und Rollen verschiebt. Mit Joule Work sollen Beschäftigte künftig Ziele beschreiben statt Masken zu bedienen."
+  },
+  {
+   "id": "b887e331858f",
+   "date": "2026-10-25",
+   "published": "2026-10-25T11:00+01:00",
+   "headline": "Widerstand gegen Rechenzentren: Was die USA von Irland und Neuseeland lernen",
+   "summary": "Der Autor Paris Marx beobachtet seit Jahren, wie sich der weltweite Ausbau von Rechenzentren entwickelt und welche lokalen Konflikte er auslöst. In den USA formiert sich inzwischen ebenfalls Protest gegen neue Standorte. Erfahrungen aus Ländern wie Irland und Neuseeland zeigen, welche Auflagen und Argumente dort gewirkt haben.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "rechenzentren",
+    "infrastruktur",
+    "energie",
+    "protest"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-10-26T00:09:48+01:00",
+   "paywall": true,
+   "quelle_titel": "What the US Movement Against Data Centers Can Learn From Abroad",
+   "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/"
+  },
+  {
+   "id": "6570bc459331",
+   "date": "2026-10-25",
+   "published": "2026-10-25T11:31+01:00",
+   "headline": "Umfrage: Nur vier Prozent lassen KI eigenständig entscheiden",
+   "summary": "Einer Erhebung zufolge gestehen lediglich vier Prozent der Menschen in Deutschland künstlicher Intelligenz volle Handlungsfreiheit zu. Die große Mehrheit will Entscheidungen weiterhin selbst prüfen und erwartet nachvollziehbare Abläufe. Für Unternehmen bedeutet das, dass Automatisierung ohne Kontrollmöglichkeit kaum Akzeptanz findet.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "umfrage",
+    "vertrauen",
+    "automatisierung",
+    "transparenz"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-26T00:09:48+01:00",
+   "quelle_titel": "Nur 4 Prozent überlassen KI die volle Kontrolle",
+   "url": "https://www.it-daily.net/it-management/ki/4-prozent-ki-kontrolle",
+   "dup_of": "665f11ac3bb8"
+  },
+  {
+   "id": "77e737b4fbc9",
+   "date": "2026-10-25",
+   "published": "2026-10-25T12:51+01:00",
+   "headline": "Studie: KI-Modelle verstecken und erkennen geheime Botschaften in Bildern",
+   "summary": "Forschende haben getestet, ob KI-Modelle Informationen unsichtbar in Bildern unterbringen und solche versteckten Inhalte auch wieder auslesen können. Im Experiment gelang es einem Modell von OpenAI, eine von einem Anthropic-Modell eingebettete Botschaft zu entschlüsseln. Neue Verfahren erfanden die Systeme dabei nicht, dennoch sind die Ergebnisse für die KI-Sicherheit relevant.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-sicherheit",
+    "steganografie",
+    "openai",
+    "anthropic"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-26T00:08:54+01:00",
+   "quelle_titel": "KI-Sicherheit: OpenAIs Astra entschlüsselt geheime Bildbotschaft von Anthropics Fable",
+   "url": "https://t3n.de/news/astra-bildbotschaft-fable-1769790",
+   "kontext": "Hinter dem Experiment steht ein KI-Sicherheitsforscher mit Kolleginnen und Kollegen eines Fellowship-Programms in Singapur. Die Modelle durften selbst entscheiden, wie sie kurze Texte in Bildern verbergen, und griffen zu Tricks wie Objekthöhen, Morsezeichen oder Anfangsbuchstaben von Bildelementen. Im Kreuztest lasen sie fremde Entwürfe teilweise zuverlässiger aus als die eigenen. Brisant wird das, wenn KI-Agenten Informationen unbemerkt an Sicherheitskontrollen vorbeischleusen."
+  },
+  {
+   "id": "6bffee9c13e8",
+   "date": "2026-10-25",
+   "published": "2026-10-25T14:25+01:00",
+   "headline": "Subreddit r/opensource verbannt KI-Projekte aus der Community",
+   "summary": "Die Moderation von r/opensource hat neue Einreichungsregeln veröffentlicht und schließt Projekte aus, die KI nutzen, von KI erstellt wurden oder für KI gedacht sind. Begründet wird das damit, dass KI in ihrer heutigen Form nicht zum Verständnis von Open Source passe. Zusätzlich beschränken die Regeln unter anderem Beiträge, die nicht auf Englisch verfasst sind.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "open source",
+    "reddit",
+    "community",
+    "moderation"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-10-26T00:08:54+01:00",
+   "kurios": "Ein Open-Source-Forum schließt KI-Projekte und fremdsprachige Beiträge gleich mit aus.",
+   "quelle_titel": "r/opensource just banned AI, non-English speakers, and more",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+   "kontext": "Hinter dem Verbot steht die Moderation des Forums selbst, die KI in ihrer heutigen Form als unvereinbar mit der Open-Source-Idee sieht. In den Kommentaren tobt der Widerstand, ein konkurrierendes Subreddit wurde bereits gegründet. Kritiker verweisen darauf, dass inzwischen sogar der Linux-Kernel KI-generierten Code enthält. Weitere Auflagen wie ein Mindestalter der Projekte und mehrere Mitwirkende schließen zudem Einzelentwickler aus, die Hilfe suchen."
+  },
+  {
+   "id": "611184d5aa6f",
+   "date": "2026-10-25",
+   "published": "2026-10-25T15:10+01:00",
+   "headline": "Überblick: Diese KI-Wearables und Gadgets sind derzeit gefragt",
+   "summary": "Eine Zusammenstellung zeigt die aktuell meistbeachteten Wearables und Gadgets mit KI-Funktionen, darunter Muse Charm, Bee, Friend und Plaud. Der Überblick hilft bei der Einordnung, welche Geräteklassen sich gerade etablieren und was sie leisten sollen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "wearables",
+    "gadgets",
+    "hardware",
+    "überblick"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-26T00:08:54+01:00",
+   "praxis": true,
+   "quelle_titel": "The hottest AI wearables and gadgets you should know about",
+   "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+   "kontext": "Hinter den Geräten steht ein Wettlauf um den persönlichen KI-Begleiter am Körper. Amazon hat das Start-up Bee übernommen und bietet nun günstige Anhänger und Clips an, Limitless entstand aus dem früheren Projekt Rewind, und Meta ist im September mit einem eigenen KI-Wearable eingestiegen. Auch OpenAI arbeitet an einem kompakten Begleitgerät. Weil die Mikrofone dauerhaft mithören, trifft der Trend auf Kritik an Überwachung, etwa bei der Werbekampagne von Friend."
+  },
+  {
+   "id": "eb8242d1e565",
+   "date": "2026-10-25",
+   "published": "2026-10-25T15:48+01:00",
+   "headline": "Nvidia dringt von Rechenzentren in immer mehr Branchen vor",
+   "summary": "Aus dem Anbieter von Grafikkarten für Spiele-PCs ist ein Konzern geworden, dessen KI-Chips inzwischen in Autos, Medizintechnik, Mobilfunkanlagen und Robotern stecken. Die Analyse fragt, welche Wirtschaftszweige als Nächstes von Nvidia erschlossen werden.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nvidia",
+    "chips",
+    "halbleiter",
+    "robotik"
+   ],
+   "source": "Süddeutsche Digital",
+   "source_id": "sz-digital",
+   "added": "2026-10-26T00:07:57+01:00",
+   "paywall": true,
+   "quelle_titel": "Chipherstellung: Kaum ein Wirtschaftszweig, in den Nvidia nicht vordringt",
+   "url": "https://www.sueddeutsche.de/wirtschaft/nvidia-gtc-jensen-huang-ki-chips-kuenstliche-intelligenz-li.3568109",
+   "dup_of": "042f3d6ad110"
+  },
+  {
+   "id": "11b6cb71f73a",
+   "date": "2026-10-25",
+   "published": "2026-10-25T16:45+01:00",
+   "headline": "Uber rollt ChatGPT Work für über 30.000 Beschäftigte aus",
+   "summary": "Uber stellt seinen Mitarbeitenden die Unternehmensversion von ChatGPT bereit und startet die Einführung für mehr als 30.000 Personen. Der Schritt zeigt, wie schnell Assistenzsysteme von OpenAI in großen Konzernen zum Standardwerkzeug werden.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "uber",
+    "openai",
+    "chatgpt work",
+    "enterprise"
+   ],
+   "source": "ad-hoc-news.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-26T00:07:57+01:00",
+   "quelle_titel": "ChatGPT Work bei Uber: Rollout für mehr als 30.000 Mitarbeiter gestartet",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTE9XM2pPYWFwVHdrWFh4elZ5UjJaVUx0ZGh6dXp2WWk2VXVlMmxudkYwOUtOZmxxdmhfYXlxYXBoUFBnbVJtTWlyc2FlbjZzUW1HQ1NxSEU5T0tEZ0FnVnZqSTgzUEc3Z3R0eThxYUJZWnBaam1nemFtVFJuZXdUdlQzT1lZT3VRRFBLLU9aYlFlZE84MGVPTXN1cTFuc2M5SWkxeTRkZ3Z3STR0cXN0Z0RIYUt0SGU3RTFueWtR?oc=5"
+  },
+  {
+   "id": "eb8cf19b22fb",
+   "date": "2026-10-25",
+   "published": "2026-10-25T18:30+01:00",
+   "headline": "Walmart gibt Kunden Steuerung über KI-Einkaufshilfen",
+   "summary": "Walmart kündigt neue Kontrollmöglichkeiten für KI-Funktionen beim Einkaufen an. Kundinnen und Kunden sollen damit selbst bestimmen können, wie stark automatisierte Assistenz in den Bestellprozess eingreift.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "walmart",
+    "handel",
+    "ki-assistent",
+    "shopping"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-26T00:07:57+01:00",
+   "quelle_titel": "😺 Walmart announces AI shopping controls",
+   "url": "https://www.theneuron.ai/newsletter/walmart-announces-ai-shopping-controls/"
+  },
+  {
+   "id": "5d9af87d8714",
+   "date": "2026-10-25",
+   "published": "2026-10-25T10:20+01:00",
+   "headline": "KI entdeckt übersehene Flugbahn zum Nachbarstern Alpha Centauri",
+   "summary": "Für die geplante Fermi-Explorer-Mission soll bis Ende 2029 eine Sonde Richtung Alpha Centauri starten. Ein KI-System berechnete dafür eine Flugbahn, die Fachleuten bisher entgangen war. Die Reisezeit liegt dennoch bei rund 80.000 Jahren.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "raumfahrt",
+    "optimierung",
+    "wissenschaft",
+    "mission"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-26T00:09:48+01:00",
+   "kurios": "Eine KI optimiert eine Reise, die 80.000 Jahre dauert.",
+   "quelle_titel": "80.000 Jahre Flugzeit zu Alpha Centauri: KI findet Flugbahn, die Physiker bisher übersehen haben",
+   "url": "https://t3n.de/news/alpha-centauri-ki-system-neuartige-route-interstellar-1761066"
+  },
+  {
+   "id": "b10d760cf597",
+   "date": "2026-10-25",
+   "published": "2026-10-25T14:40+01:00",
+   "headline": "Android: So lässt sich der alte Google Assistant trotz Gemini nutzen",
+   "summary": "Google hat den Assistant auf Android durch Gemini ersetzt, doch ein Teil der Nutzerschaft will den alten Sprachhelfer zurück. Ein beschriebener Umweg macht es möglich, die frühere Funktion auf dem Smartphone wiederherzustellen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "google assistant",
+    "gemini",
+    "android",
+    "anleitung"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-10-26T00:08:54+01:00",
+   "praxis": true,
+   "quelle_titel": "Keine Lust auf Gemini? Mit diesem Trick holst du den alten Google Assistant zurück",
+   "url": "https://t3n.de/news/google-assistant-zurueck-gemini-deaktivieren-1768131"
+  },
+  {
+   "id": "d08f7e501767",
+   "date": "2026-10-25",
+   "published": "2026-10-25T15:45+01:00",
+   "headline": "Porsche-Designchef sieht KI als möglichen Ersatz für Autobildschirme",
+   "summary": "In einem Interview spricht Porsche-Designchef Tobias Sühlmann über den neuen Supersportwagen Mission S und das Retrodesign des Fahrzeugs. Dabei stellt er die Überlegung an, dass KI die Bildschirme im Innenraum künftig vollständig überflüssig machen könnte. Zum Vergleich wird auch Teslas Roadster mit seiner Raketentechnik erwähnt.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 2,
+   "tags": [
+    "porsche",
+    "automobil",
+    "bedienkonzept",
+    "design"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-10-26T00:08:54+01:00",
+   "paywall": true,
+   "quelle_titel": "Porsche: „KI könnte Bildschirme im Auto komplett ersetzen“",
+   "url": "https://www.wiwo.de/unternehmen/auto/porsche-mission-s-warum-der-supersportler-bildschirme-verbannt/100263485.html"
+  },
+  {
+   "id": "bf7f18e0418c",
+   "date": "2026-10-25",
+   "published": "2026-10-25T22:31+01:00",
+   "headline": "Grok zeigt erste sieben Minuten seines KI-Films zur Odyssee",
+   "summary": "xAI hat einen ersten Ausschnitt aus einer vollständig von Grok generierten Verfilmung der Odyssee veröffentlicht. Technisch wirkt das Material brauchbar, inhaltlich fehlen laut Einschätzung des Berichts jedoch künstlerische Substanz und erzählerischer Reiz.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "grok",
+    "xai",
+    "videogenerierung",
+    "film"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-26T00:07:57+01:00",
+   "kurios": "Ein KI-Modell verfilmt das antike Epos komplett ohne menschliche Regie",
+   "quelle_titel": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+   "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/"
   }
  ]
 }
