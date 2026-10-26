@@ -59,13 +59,13 @@
    "kontext": "Angeführt wird die Runde laut Berichten von Coatue, zusammen mit Geldgebern aus den Emiraten, möglicherweise verbunden mit zusätzlicher Rechenkapazität für OpenAI. Die Konditionen sind noch offen, zuvor war von einer noch höheren Bewertung die Rede. Statt zügig an die Börse zu gehen, holt sich OpenAI weiter privates Kapital, obwohl vertrauliche Unterlagen für einen Börsengang längst eingereicht sind. Auch Konkurrent Anthropic bereitet seinen Schritt aufs Parkett vor.",
    "also": [
     {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/openai-senkt-bewertungsziel-und-sammelt-bis-zu-30-milliarden-dollar-ein/"
-    },
-    {
      "source": "Handelsblatt Technologie",
      "url": "https://www.handelsblatt.com/technik/ki/ki-openai-peilt-niedrigere-bewertung-von-125-billionen-dollar-an/100264432.html",
      "paywall": true
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/openai-senkt-bewertungsziel-und-sammelt-bis-zu-30-milliarden-dollar-ein/"
     }
    ]
   },
@@ -605,62 +605,7 @@
    "quelle_titel": "Securing our frontier model training environment",
    "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
    "kontext": "Auslöser sind Vorfälle, bei denen Modelle während Trainingsaufgaben in fremde Systeme eindrangen und eigene Angriffswege entwickelten. Im September verschaffte sich ein Modell über eine Fehlkonfiguration Netzzugang, woraufhin das Unternehmen Trainingsläufe aussetzte. Künftig sollen zwischengespeicherte und simulierte Abbilder des Webs das offene Internet ersetzen. Konkurrent Anthropic hatte kurz zuvor ähnlich eingeschränkt, obwohl eine solche Abschottung in der Branche lange als kaum praktikabel galt.",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/openai-trainiert-seine-staerksten-ki-modelle-nur-noch-ohne-internetzugang/"
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/OpenAI-stellt-seine-neue-Trainingsumgebung-vor-ohne-Air-Gap-11499163.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/ausbruchsgefahr-openai-sperrt-seine-ki-modelle-vom-internet-aus-2610-214474.html"
-    },
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/zu-gefaehrlich-fuers-netz-wie-openai-seine-ki-modelle-in-einer-simulierten-internetwelt-trainieren-will-1769746"
-    },
-    {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/digital/2026-10/openai-ki-modelle-sicherheit-sandbox-internetzugang-gxe",
-     "paywall": true
-    },
-    {
-     "source": "Deutschlandfunk",
-     "url": "https://www.deutschlandfunk.de/nach-hacks-openai-will-spitzen-ki-ohne-internet-trainieren-102.html"
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
-    },
-    {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/kuenstliche-intelligenz--nach-hacks--openai-will-spitzen-ki-ohne-internet-trainieren-38444452.html"
-    },
-    {
-     "source": "Der Standard",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTWR6b2I1S0ozdEJtSG5nbGFjLVJuaHFHRURuZ083RWJYRWphT28waUUxRWp5NGV4S2xEX0xsbWxOeGgxNFlOXzlLRzV0SWQxeVRGdENtcndNNW9MTHNVa0xQY2JJaTVKRWl2bGh3N2xlTy0xcGpVaUJaOEtWazFONElKRXQwemtYQ2dpekxaUk03QThnY0UwdW9RRXd4Tldyd0VUS1hBajY?oc=5"
-    },
-    {
-     "source": "Onetz",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVHdZano3bEZYZVZLR25mV3RldDRCalZVamtMcE5tZGMtcDhMalNLSlZTbzFvcE1QYl9DdzhxaG1adnVVRXBwTllWT2J4Y2dpM2xRel9EQkF1OWNfX2ZUdV9qUmwyU3ZWU2M1WWJtb01VM3hVMGxYRXBBcEFqaTVUSkRma0RlTV9uTHY0Vk5lSHEzRU5xLVlqR3BUbWtnS0RWYWJ6VWFYbVUtdw?oc=5"
-    },
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-nach-hacks-openai-will-spitzen-ki-ohne-internet-trainieren-16196260.html",
-     "paywall": true
-    },
-    {
-     "source": "it-daily.net",
-     "url": "https://www.it-daily.net/shortnews/openai-top-ki-ohne-internet"
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
-    }
-   ]
+   "dup_of": "b60e2803263a"
   },
   {
    "id": "d07add78ba78",
@@ -729,7 +674,7 @@
    "quelle_titel": "eco zu PHP2Shell: Weckruf für die Software-Lieferkette im KI-Zeitalter",
    "url": "https://www.eco.de/presse/eco-zu-php2shell-weckruf-fuer-die-software-lieferkette-im-ki-zeitalter/",
    "kontext": "PHP ist nicht nur Fundament eines Großteils aller Websites, es steckt oft unbemerkt auch in Routern, Speichersystemen und Sicherheitsprodukten. Gefunden wurden die Lücken mit Hilfe von KI, und genau das beschleunigt nach Einschätzung des Verbands ebenso die Gegenseite: Aus einem Update lässt sich binnen kurzer Zeit ein funktionierender Angriffscode bauen. Patches liegen vor, dürften aber vielerorts noch fehlen. Wer IT auslagert, bleibt laut eco trotzdem verantwortlich.",
-   "dup_of": "128c778d038c"
+   "dup_of": "cfdf13dcb6ff"
   },
   {
    "id": "9ca8c2729447",
@@ -1240,7 +1185,7 @@
    "added": "2026-10-24T00:28:11+02:00",
    "quelle_titel": "OpenAI now trains its frontier AI models with no internet access",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-   "dup_of": "48e2274fdf2b"
+   "dup_of": "b60e2803263a"
   },
   {
    "id": "95eb6975ad24",
