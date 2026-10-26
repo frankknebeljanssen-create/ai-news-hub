@@ -1,14 +1,34 @@
 {
  "date": "2026-10-26",
- "generated_at": "2026-10-26T04:59:37+01:00",
+ "generated_at": "2026-10-26T06:18:53+01:00",
  "overview": [
   {
-   "id": "c758fa36b94c",
-   "text": "Weil KI-Konzerne die asiatischen Fabriken auslasten, werden Leiterplatten zum zentralen Engpass für Europas Industrieeinkäufer."
+   "id": "63e537c84c0d",
+   "text": "Google nutzt künftig Inhalte aus Gmail und Fotos für personalisierte Werbung, lässt sich die Auswertung aber in den Kontoeinstellungen abschalten."
   },
   {
-   "id": "cd6b894eb8c3",
-   "text": "Das Vision-KI-Start-up Ailytics erhält 7,4 Millionen Dollar und will damit nach Asien-Pazifik, in die USA und in die Golfregion expandieren."
+   "id": "a8f99c991872",
+   "text": "OpenAI trainiert seine Spitzenmodelle wieder, greift dabei aber nur auf zwischengespeicherte Webdaten statt auf das echte Internet zurück."
+  },
+  {
+   "id": "252f85374bb5",
+   "text": "In München steht nach sechs Monaten eine der größten KI-Fabriken Europas, für die Telekom ein Beleg, dass Souveränität vor allem Investitionen braucht."
+  },
+  {
+   "id": "c758fa36b94c",
+   "text": "Weil KI-Anbieter die asiatischen Werke auslasten, werden Leiterplatten zum Engpass für Europas Industrie, die kaum noch eigene Produktion besitzt."
+  },
+  {
+   "id": "8953d997d987",
+   "text": "Nokia steigert seinen KI-Umsatz um 123 Prozent und zeigt, wie stark Netzausrüster derzeit am Ausbau der Rechenzentren verdienen."
+  },
+  {
+   "id": "a7610b6bbda3",
+   "text": "Beim Sprung vom Pilotprojekt zum Rollout fehlen KI-Agenten oft klare Zuständigkeiten und Berechtigungen, wodurch Compliance-Risiken wachsen."
+  },
+  {
+   "id": "8d16d1098f17",
+   "text": "Tokenzahlen allein sagen nichts über die Wirtschaftlichkeit, entscheidend sind die vollen Prozesskosten und realistische Nutzungsszenarien."
   }
  ],
  "items": [
@@ -41,6 +61,141 @@
      "paywall": true
     }
    ]
+  },
+  {
+   "id": "a8f99c991872",
+   "date": "2026-10-26",
+   "published": "2026-10-26T04:25+01:00",
+   "headline": "OpenAI trainiert Agenten ohne Live-Internet und setzt auf zwischengespeicherte Webdaten",
+   "summary": "OpenAI hat das Training an der Leistungsspitze wieder aufgenommen, allerdings ohne direkten Zugang zum Live-Internet und stattdessen mit zwischengespeicherten Webinhalten. Offen bleibt, wie gut sich in solchen simulierten Umgebungen trainierte Agenten auf unbekannten echten Websites schlagen. Diskutiert wird auch, welche Belege nötig wären, um den Live-Zugang wieder freizugeben.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "agenten",
+    "reinforcement learning",
+    "training",
+    "websuche"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-26T06:17:07+01:00",
+   "quelle_titel": "OpenAI Takes Frontier Training Offline. Can Simulations Prepare Agents for the Real Web?",
+   "url": "https://www.theneuron.ai/news/openai-frontier-training-offline-simulations/",
+   "kontext": "Hinter der Meldung steht eine selbst gesetzte Grenze: OpenAI lässt seine stärksten Modelle beim bestärkenden Lernen nur noch auf gespeicherten Kopien von Webseiten üben, nicht im offenen Netz. Solche Nachbauten sind kontrollierbar, bleiben aber Momentaufnahmen. Für alle, die auf surfende Agenten setzen, ist entscheidend, ob die Übung auch bei fremden, ständig wechselnden Seiten trägt. Belastbare Belege dafür stehen noch aus."
+  },
+  {
+   "id": "63e537c84c0d",
+   "date": "2026-10-26",
+   "published": "2026-10-26T05:03+01:00",
+   "headline": "Google wertet Gmail und Fotos künftig für personalisierte Anzeigen aus",
+   "summary": "Mit einer geänderten Datenschutzerklärung erlaubt sich Google, Werbung auch anhand von Inhalten aus privaten Mails und Fotos zuzuschneiden. Nutzerinnen und Nutzer können die Auswertung in den Kontoeinstellungen deaktivieren.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "google",
+    "datenschutz",
+    "werbung",
+    "gmail",
+    "einstellungen"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-26T06:17:07+01:00",
+   "quelle_titel": "Google erlaubt sich nun Zugriff auf Gmail und Fotos für personalisierte Werbung",
+   "url": "https://www.heise.de/news/Google-erlaubt-sich-nun-Zugriff-auf-Gmail-und-Fotos-fuer-personalisierte-Werbung-11499567.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Bislang sicherte Google zu, Inhalte aus Drive, Gmail und Fotos nicht für Werbung auszuwerten. Diese Zusage gilt nun nicht mehr, sobald Nutzer solche Daten anderen Diensten wie der Suche oder den Gemini-Apps freigeben. Genau diese Verknüpfung verlangt der Assistent aber, um etwa Termine aus Mails zu übernehmen. Werbetreibende erhalten laut Google keinen direkten Zugriff, Namen und Adressen bleiben intern."
+  },
+  {
+   "id": "252f85374bb5",
+   "date": "2026-10-26",
+   "published": "2026-10-26T05:04+01:00",
+   "headline": "Telekom-Manager zur KI-Fabrik in München: Souveränität entsteht durch Investitionen",
+   "summary": "In München ist in nur sechs Monaten mit 35 Partnern eine der größten KI-Fabriken Europas entstanden. Lars Neumann von T Cloud argumentiert, dass digitale Souveränität nicht aus Strategiepapieren folgt, sondern aus gezielten Investitionen, starker Infrastruktur und echter technologischer Wahlfreiheit.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "digitale souveränität",
+    "telekom",
+    "rechenzentrum",
+    "ki-fabrik",
+    "europa"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-26T06:17:07+01:00",
+   "quelle_titel": "„Beim Thema Souveränität muss Europa liefern, nicht debattieren“",
+   "url": "https://www.it-daily.net/it-management/cloud-computing/souveraenitaet-europa",
+   "kontext": "Hinter der Industrial AI Cloud steht die Telekom gemeinsam mit über 30 überwiegend europäischen Partnern, darunter SAP, Siemens, Quantum Systems, Forschungseinrichtungen und Start-ups. Die Rechenleistung liefern rund 10.000 Chips von NVIDIA, also US-Hardware. Neumann sieht darin keinen Widerspruch, weil Souveränität für ihn Wahlfreiheit und Datenkontrolle bedeutet. Die Daten bleiben physisch in Deutschland, den Betrieb verantworten europäische Beschäftigte."
+  },
+  {
+   "id": "8d16d1098f17",
+   "date": "2026-10-26",
+   "published": "2026-10-26T05:27+01:00",
+   "headline": "KI-Kosten im Griff: Warum Token-Zahlen allein nichts über Wirtschaftlichkeit sagen",
+   "summary": "Was im Pilotbetrieb günstig aussieht, kann bei breiter Nutzung schnell zum Kostenrisiko werden. Unternehmen sollten deshalb nicht nur Tokenverbrauch messen, sondern die vollständigen Prozesskosten, realistische Nutzungsszenarien und passende Vertragsmodelle betrachten.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "kosten",
+    "token",
+    "skalierung",
+    "verträge",
+    "wirtschaftlichkeit"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-26T06:17:07+01:00",
+   "quelle_titel": "Wert statt Token: Warum KI-Kosten neu gedacht werden müssen",
+   "url": "https://www.it-daily.net/it-management/ki/ki-kosten-neu-gedacht",
+   "kontext": "Viele KI-Dienste rechnen nach Verarbeitungseinheiten für Ein- und Ausgaben ab. Das macht den Verbrauch sichtbar, sagt aber nichts darüber, ob die Ergebnisse fachlich brauchbar sind. Ein vermeintlich günstiges Modell kann durch Korrekturen und wiederholte Aufrufe teurer werden als ein leistungsfähigeres. Maßgeblich sind die Gesamtkosten über die Nutzungsdauer, also auch Datenaufbereitung, Anbindung, Betrieb, Sicherheit und menschliche Prüfung."
+  },
+  {
+   "id": "a7610b6bbda3",
+   "date": "2026-10-26",
+   "published": "2026-10-26T05:55+01:00",
+   "headline": "Vom Pilotprojekt zum Rollout: KI-Agenten brauchen Governance von Anfang an",
+   "summary": "Kleine KI-Pilotprojekte laufen meist problemlos, doch beim Rollout auf tausende Beschäftigte und produktive Systeme zeigen sich Lücken bei Verantwortlichkeiten, Berechtigungen und Datenflüssen. Besonders heikel wird es, wenn Agenten selbst handeln und etwa Bestellungen auslösen oder Mails verschicken. Ohne durchgängiges Fundament von Endgerät über Rechenzentrum bis Cloud drohen unkontrollierbare Insellösungen, höhere Kosten und Compliance-Risiken.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "ki-agenten",
+    "governance",
+    "compliance",
+    "rollout"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-10-26T06:17:07+01:00",
+   "quelle_titel": "KI-Agenten im Regelbetrieb: Governance darf nicht warten",
+   "url": "https://www.computerwoche.de/article/4237118/ki-agenten-im-regelbetrieb-governance-darf-nicht-warten.html"
+  },
+  {
+   "id": "8953d997d987",
+   "date": "2026-10-26",
+   "published": "2026-10-26T01:15+01:00",
+   "headline": "Nokia meldet mehr als verdoppelten KI-Umsatz",
+   "summary": "Nokia profitiert nach eigenen Angaben deutlich vom KI-Boom und steigert den mit KI erzielten Umsatz um 123 Prozent. Das zeigt, wie stark Netzwerk- und Infrastrukturanbieter derzeit von der Nachfrage rund um KI-Rechenzentren getragen werden.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nokia",
+    "umsatz",
+    "ki-boom",
+    "infrastruktur"
+   ],
+   "source": "tech-insider.org",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-26T06:17:07+01:00",
+   "quelle_titel": "Nokia im KI-Boom: 123% mehr KI-Umsatz [2026]",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQ09qMFk0elhka3lvbEFMNWtWWVFiTGh4OGJPMzk2cXczWFRaZ2dCZlJ2TWhjbloxTDZnMWE0dGRPZXVCME5pUlNGVVRVZ3BxSWNrZW56ZnRScVBJNnpmZHRpX191UzUwTUZLOEI5UWZRek9NdGNHMjRhdjdwMm1DaU5hOA?oc=5"
   },
   {
    "id": "9b7a5cfd06fa",
