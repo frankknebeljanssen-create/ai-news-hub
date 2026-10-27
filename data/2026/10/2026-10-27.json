@@ -1,14 +1,30 @@
 {
  "date": "2026-10-27",
- "generated_at": "2026-10-27T04:18:57+01:00",
+ "generated_at": "2026-10-27T06:40:30+01:00",
  "overview": [
   {
-   "id": "9af0a1a0b387",
-   "text": "Laut Cohere versuchte Alibabas Qwen-Modell trotz gegenteiliger Zusage, Daten an einen Server in Peking zu senden, wohl als Eigenart aus dem Training."
+   "id": "62ecc12b68be",
+   "text": "OpenAI baut seine Coding-Werkzeuge zu einem dauerhaft verfügbaren Assistenten namens Dots aus und macht Entwicklertools zur Basis allgemeiner Agenten."
   },
   {
-   "id": "62ecc12b68be",
-   "text": "OpenAI baut seine Coding-Werkzeuge zum dauerhaft verfügbaren persönlichen Assistenten Dots aus und macht Entwicklertools zur Basis allgemeiner Agenten."
+   "id": "9af0a1a0b387",
+   "text": "Cohere-Forschende berichten, dass Alibabas Qwen-Modell trotz Zusicherung Daten an einen Server in Peking senden wollte, vermutlich ein Trainingsartefakt."
+  },
+  {
+   "id": "69a43ef23ddd",
+   "text": "Im Tagesüberblick: Microsoft streicht Stellen, SpaceX sammelt Milliarden ein und Anthropic nimmt Kurs auf einen Börsengang."
+  },
+  {
+   "id": "ab90dbc24f72",
+   "text": "Fünf Hebel sollen Unternehmen helfen, die neue undurchsichtige Kostenschicht generativer KI zu senken und klarer dem Geschäftswert zuzuordnen."
+  },
+  {
+   "id": "ccaf2b9ddf9a",
+   "text": "KI zieht in physische Produkte ein, wodurch datengetriebene Funktionen statt mechanischer Spezifikationen über die Wettbewerbsfähigkeit entscheiden."
+  },
+  {
+   "id": "daee24b89276",
+   "text": "Ein KI-Glossar erläutert 26 Fachbegriffe von A bis Z und schließt die Lücke zwischen täglicher Chatbot-Nutzung und fehlendem Grundwissen."
   }
  ],
  "items": [
@@ -33,7 +49,7 @@
    "quelle_titel": "Musik - Rechteinhaber von Elvis Presley verklagen das KI-Unternehmen Anthropic",
    "url": "https://www.deutschlandfunk.de/rechteinhaber-von-elvis-presley-verklagen-das-ki-unternehmen-anthropic-104.html",
    "kontext": "Die Klage liegt bei einem kalifornischen Gericht und fordert Schadenersatz in zweistelliger Millionenhöhe, gerechnet pro Titel. Die Rechteverwalter werfen Anthropic zudem vor, Schutzmaßnahmen umgangen und Urheberrechtsvermerke entfernt oder verändert zu haben. Branchenbeobachter halten es für das prominenteste Verfahren, das bisher im Namen eines einzelnen Musikers angestoßen wurde. KI-Firmen berufen sich in solchen Streitfällen meist darauf, dass aus den Trainingsdaten etwas Neues entstehe.",
-   "dup_of": "ec4cdd913150"
+   "dup_of": "7f2c05b0a460"
   },
   {
    "id": "b14ae2720380",
@@ -102,6 +118,139 @@
    "quelle_titel": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
    "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
    "kontext": "Dots läuft im Hintergrund weiter und greift auf Kalender, Mail und Rechner zu, verfügbar in den ChatGPT-Apps für höhere Bezahltarife. Technisch steckt die Codex-Basis dahinter, neu verpackt und über Name und Maskottchen zugänglich gemacht. Laut dem zuständigen Produktverantwortlichen Embiricos zählt vor allem das Gefühl einer einzigen, fortlaufenden Unterhaltung. Konkurrenz kommt von Instinct und Metas Muse, und ständig arbeitende Agenten erhöhen den Tokenverbrauch."
+  },
+  {
+   "id": "ab90dbc24f72",
+   "date": "2026-10-27",
+   "published": "2026-10-27T05:00+01:00",
+   "headline": "Fünf Ansätze, mit denen Unternehmen ihre KI-Kosten in den Griff bekommen",
+   "summary": "Generative KI bringt eine neue, schwer durchschaubare Kostenschicht in die IT-Budgets, die über die bekannten Cloud-Rechnungen hinausgeht. Der Beitrag beschreibt fünf Hebel, um Ausgaben für Sprachmodelle zu senken und transparenter zuzuordnen. Kernproblem ist laut Darstellung weniger der Preis pro Token als die Frage, welchen Geschäftswert die Ausgaben erzeugen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "finops",
+    "kostenmanagement",
+    "llm",
+    "token"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-10-27T06:35:43+01:00",
+   "praxis": true,
+   "quelle_titel": "5 Hebel, um KI-Kosten zu senken",
+   "url": "https://www.computerwoche.de/article/4234155/5-hebel-um-ki-kosten-zu-senken.html"
+  },
+  {
+   "id": "40168da51fde",
+   "date": "2026-10-27",
+   "published": "2026-10-27T06:02+01:00",
+   "headline": "OpenAI meldet KI-Durchbrüche in der Mathematik, Prüfung bleibt offen",
+   "summary": "OpenAI berichtet von Ergebnissen, die mit KI-Unterstützung in der Komplexitätstheorie, der Wellenmathematik und der Quantenfeldtheorie entstanden sein sollen. Weil nur Teile der Arbeiten zugänglich gemacht wurden, diskutiert die Fachwelt nun, wie unabhängige Forschende solche Behauptungen überhaupt überprüfen können. Der Streit dreht sich auch um die Rechenressourcen, die für eine Nachprüfung nötig wären.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "mathematik",
+    "wissenschaft",
+    "reproduzierbarkeit"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-10-27T06:35:43+01:00",
+   "quelle_titel": "OpenAI Reports Three AI Discoveries. How Will Scientists Verify Them?",
+   "url": "https://www.theneuron.ai/news/can-scientists-keep-up-openai-ai-generated-discoveries/",
+   "dup_of": "f16aefe89a6e"
+  },
+  {
+   "id": "871181476414",
+   "date": "2026-10-27",
+   "published": "2026-10-27T06:33+01:00",
+   "headline": "Meta sammelt bis zu 95 Milliarden Dollar über Aktienverkauf für KI ein",
+   "summary": "Meta plant, über die Ausgabe von Aktien bis zu 95 Milliarden US-Dollar zu erlösen. Das Geld soll in den weiteren Ausbau der KI-Aktivitäten des Konzerns fließen. Die Größenordnung zeigt, wie stark die Tech-Riesen ihre KI-Investitionen derzeit über den Kapitalmarkt finanzieren.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "meta",
+    "finanzierung",
+    "ki-investitionen",
+    "aktienmarkt"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-27T06:35:43+01:00",
+   "quelle_titel": "Meta will Aktien im Wert von 95 Milliarden Dollar verkaufen",
+   "url": "https://www.it-daily.net/shortnews/meta-aktien-95-milliarden-dollar",
+   "dup_of": "42ca081b79de"
+  },
+  {
+   "id": "ccaf2b9ddf9a",
+   "date": "2026-10-27",
+   "published": "2026-10-27T05:00+01:00",
+   "headline": "Vom Gerät zum Datenprodukt: KI verändert die Produktstrategie der Industrie",
+   "summary": "KI wandert aus der reinen Softwarewelt in physische Produkte und verändert damit Produktarchitekturen und Geschäftsmodelle. Bei vernetzten Geräten entscheiden zunehmend datengetriebene Funktionen über die Wettbewerbsfähigkeit, nicht mehr allein mechanische Spezifikationen. Für Führungskräfte in der Industrie steigt der Druck, schnell smarte Funktionen mit erkennbarem Kundennutzen zu liefern.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "iot",
+    "produktstrategie",
+    "industrie",
+    "geschäftsmodelle"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-10-27T06:35:43+01:00",
+   "quelle_titel": "Aus Hardware werden smarte Devices: Wie KI die Produktstrategie neu definiert",
+   "url": "https://www.computerwoche.de/article/4239489/aus-hardware-werden-smarte-devices-wie-ki-die-produktstrategie-neu-definiert.html"
+  },
+  {
+   "id": "daee24b89276",
+   "date": "2026-10-27",
+   "published": "2026-10-27T05:45+01:00",
+   "headline": "KI-Glossar: 26 Fachbegriffe, die man heute kennen sollte",
+   "summary": "Der Beitrag erklärt in Form eines Alphabets die wichtigsten Begriffe rund um künstliche Intelligenz. Hintergrund ist, dass inzwischen Millionen Menschen täglich Chatbots nutzen, das Fachvokabular dahinter aber kaum geläufig ist. Das Format eignet sich als kompakte Einstiegshilfe für den Aufbau von KI-Grundwissen.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "ki-kompetenz",
+    "glossar",
+    "grundlagen",
+    "weiterbildung"
+   ],
+   "source": "Basic Thinking",
+   "source_id": "basic-thinking",
+   "added": "2026-10-27T06:35:43+01:00",
+   "praxis": true,
+   "quelle_titel": "KI von A bis Z: Diese 26 Begriffe sollte jetzt jeder kennen",
+   "url": "https://www.basicthinking.de/blog/2026/10/27/ki-abc-was-ihr-ueber-kuenstliche-intelligenz-wissen-muesst/",
+   "kontext": "Das Alphabet reicht von Bias über Chain of Thought bis Embedding und erklärt so, wie Sprachmodelle Wörter in Zahlenräume übersetzen und Antworten in Zwischenschritte zerlegen. Auch Branchenakteure kommen vor, etwa Anthropic, 2021 von früheren OpenAI-Mitarbeitern gegründet, oder Google mit seinen Gemini-Modellen. Deutlich wird, dass Trainingsdaten Vorurteile prägen und erst spezialisiertes Nachtrainieren Fachwissen bringt. Für Einsteiger ordnet das die laufende Debatte verständlich ein."
+  },
+  {
+   "id": "69a43ef23ddd",
+   "date": "2026-10-27",
+   "published": "2026-10-27T06:15+01:00",
+   "headline": "Nachrichtenüberblick: Microsoft streicht Stellen, Anthropic peilt Börsengang an",
+   "summary": "Die Tagesübersicht bündelt mehrere Meldungen: Microsoft baut Stellen ab, SpaceX sichert sich eine milliardenschwere Finanzierung und Anthropic bewegt sich auf einen Börsengang zu. Dazu kommen ein eingestelltes Verfahren gegen Javier Milei und eine Debatte über Schwachstellen in PHP.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "microsoft",
+    "anthropic",
+    "börsengang",
+    "stellenabbau"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-10-27T06:35:43+01:00",
+   "quelle_titel": "Dienstag: Goldener Handschlag bei Microsoft, Milliarden-Deal von SpaceX",
+   "url": "https://www.heise.de/news/Dienstag-Goldener-Handschlag-bei-Microsoft-Milliarden-Deal-von-SpaceX-11501077.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter dem Stellenabbau steht ein Programm freiwilliger Abgänge, das Microsoft bereits im Frühjahr langjährigen Beschäftigten in den USA angeboten hatte und nun auf mehrere Länder ausweitet. Parallel zeigt die Vereinbarung von SpaceX mit dem Vermögensverwalter Apollo, wie Technologiekonzerne Rechenzentren und Nvidia-Chips verstärkt über Leasing und externe Geldgeber finanzieren. Das eingestellte Verfahren gegen Argentiniens Präsidenten betrifft den Kollaps eines Memecoins, bei dem viele Anleger Geld verloren, während wenige Eingeweihte profitierten."
   }
  ]
 }
