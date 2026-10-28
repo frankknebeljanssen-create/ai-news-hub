@@ -21,7 +21,7 @@ DATA = ROOT / "data"
 LOCK = "\U0001F512"
 
 DEEP, LIME, SKY, MINT, TEXT, MUTED = "#26595E", "#F5FC9C", "#C9DEE3", "#D1FAE3", "#1B2B2D", "#5B6B6D"
-FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+FONT = "Arial,Helvetica,sans-serif"
 
 TAGE = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
 MONATE = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
@@ -57,111 +57,143 @@ def src(it: dict) -> str:
     return f"{LOCK} {it['source']}" if it.get("paywall") else it["source"]
 
 
-def block_title(label: str, sub: str = "") -> str:
-    sub_html = ""
-    if sub:
-        sub_html = f'<div style="font-size:12px;color:{MUTED};margin-top:2px;">{esc(sub)}</div>'
-    return (f'<tr><td style="padding:26px 24px 8px 24px;font-family:{FONT};">'
-            f'<div style="font-size:12px;letter-spacing:1.2px;text-transform:uppercase;font-weight:700;color:{DEEP};">{esc(label)}</div>'
-            + sub_html +
-            f'<div style="height:3px;width:42px;background:{DEEP};margin-top:8px;font-size:0;line-height:0;">&nbsp;</div></td></tr>')
+# Alles inline (Outlook am Handy und im Programm ignoriert Klassen und <style> teilweise). Farben wie der Dunkelmodus der App.
+PAGE = "#E3E6E5"            # heller, neutraler Grund
+BG, SURF, SURF2, BORDER = "#102A2C", "#1B3A3D", "#22474B", "#2F5559"   # BG: Kontextkasten, SURF: Karten
+TXT, SOFT, MUTE, MINT, LIME, DEEP2 = "#FFFFFF", "#DCE8E6", "#A9C0C1", "#9FE8C3", "#F5FC9C", "#163F43"
+INK, INK_SOFT, INK_LINE = "#3C4B4D", "#5A6A6C", "#C3CAC9"   # Text auf hellem Grund
+F = "font-family:Arial,Helvetica,sans-serif;"
+
+# Balken: (Hintergrund, Titelfarbe, Untertitelfarbe), alle dunkel mit heller Schrift
+BANDS = {"top": ("#163F43", TXT, SOFT), "aiti": ("#0D2523", LIME, MINT), "de": ("#254E5A", TXT, "#CFE3E8"),
+         "kur": ("#8C4A12", TXT, "#F6D9B5"), "rest": ("#3A5256", TXT, SOFT)}
+SPACER = '<tr><td height="{h}" style="height:{h}px;line-height:{h}px;font-size:0;">&nbsp;</td></tr>'
 
 
-def story_row(it: dict, text: str, num: int | None = None, hook: str = "", tag: str = "") -> str:
+def spacer(h: int) -> str:
+    return SPACER.format(h=h)
+
+
+def band(kind: str, label: str, sub: str = "") -> str:
+    bg, fg, sub_fg = BANDS[kind]
+    sub_html = f'<div style="font-size:13px;font-weight:400;color:{sub_fg};margin-top:4px;">{esc(sub)}</div>' if sub else ""
+    return (spacer(34) + f'<tr><td bgcolor="{bg}" style="background:{bg};border-radius:12px;padding:18px 20px;{F}">'
+            f'<div style="font-size:22px;line-height:1.2;font-weight:800;color:{fg};">{esc(label)}</div>{sub_html}</td></tr>' + spacer(12))
+
+
+KONTEXT_OFFEN = True  # Outlook (Mac, Handy, Windows) kann nicht einklappen: Standard ist immer sichtbar. False: einklappbar (details)
+
+
+def ctx_html(it: dict) -> str:
+    k = (it.get("kontext") or "").strip()
+    if not k:
+        return ""
+    box = (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:6px;"><tr>'
+           f'<td width="3" bgcolor="{MINT}" style="background:{MINT};width:3px;font-size:0;">&nbsp;</td>'
+           f'<td bgcolor="{BG}" style="background:{BG};padding:11px 13px;{F}font-size:14px;line-height:1.55;color:{SOFT};">{esc(k)}</td></tr></table>')
+    if KONTEXT_OFFEN:
+        return (f'<div style="margin-top:22px;padding-top:14px;border-top:1px solid {BORDER};{F}font-size:14px;font-weight:700;color:{MINT};">Mehr Kontext</div>'
+                + box.replace('margin-top:6px;', 'margin-top:8px;'))
+    return (f'<details style="margin-top:12px;"><summary style="{F}font-size:15px;font-weight:700;color:{MINT};cursor:pointer;padding:6px 0;">Mehr Kontext</summary>{box}</details>')
+
+
+def tile(it: dict, text: str, kind: str = "norm", num: int | None = None, hook: str = "") -> str:
+    bg = SURF2 if kind == "top" else SURF
+    left = f"border-left:4px solid {LIME};" if kind == "top" else ""
+    hook_html = f'<div style="{F}font-size:14px;font-weight:700;color:#F0B45C;margin:6px 0 0 0;">{esc(hook)}</div>' if hook else ""
     badge = ""
     if num is not None:
-        badge = (f'<td width="34" valign="top" style="padding:2px 0 0 0;"><div style="width:26px;height:26px;line-height:26px;text-align:center;'
-                 f'border-radius:8px;background:{MINT};color:{DEEP};font-weight:700;font-size:13px;font-family:{FONT};">{num}</div></td>')
-    hook_html = f'<div style="font-size:13px;font-weight:700;color:#B5532A;margin:0 0 3px 0;">{esc(hook)}</div>' if hook else ""
-    tag_html = f'<span style="font-size:11px;letter-spacing:.8px;text-transform:uppercase;font-weight:700;color:{MUTED};">{esc(tag)}</span><br>' if tag else ""
-    return (f'<tr><td style="padding:10px 24px;font-family:{FONT};"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>{badge}'
-            f'<td valign="top" style="font-family:{FONT};">{tag_html}{hook_html}'
-            f'<a href="{esc(it["url"])}" style="color:{TEXT};font-size:16px;line-height:1.35;font-weight:700;text-decoration:none;">{esc(it["headline"])}</a>'
-            f'<div style="font-size:14px;line-height:1.5;color:#33474A;margin-top:4px;">{esc(text)}</div>'
-            f'<div style="font-size:12px;color:{MUTED};margin-top:5px;">{esc(src(it))} &middot; '
-            f'<a href="{esc(it["url"])}" style="color:{DEEP};text-decoration:underline;">Zum Original</a></div></td></tr></table></td></tr>')
+        badge = (f'<td width="46" valign="top" style="width:46px;padding:0 14px 0 0;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>'
+                 f'<td width="34" height="34" align="center" bgcolor="{LIME}" style="width:34px;height:34px;background:{LIME};border-radius:10px;{F}font-size:17px;font-weight:800;color:#0E1A1C;">{num}</td></tr></table></td>')
+    return (f'<tr><td bgcolor="{bg}" style="background:{bg};border:1px solid {BORDER};{left}border-radius:12px;padding:18px 18px 16px 18px;{F}">'
+            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>{badge}<td valign="top" style="{F}">'
+            f'<div style="font-size:12px;letter-spacing:.9px;text-transform:uppercase;font-weight:700;color:{MINT};">{esc(it["thema"])}</div>{hook_html}'
+            f'<div style="margin-top:6px;"><a href="{esc(it["url"])}" style="color:{TXT};font-size:18px;line-height:1.3;font-weight:700;text-decoration:none;">{esc(it["headline"])}</a></div>'
+            f'<div style="font-size:15px;line-height:1.55;color:{SOFT};margin-top:8px;">{esc(text)}</div>{ctx_html(it)}'
+            f'<div style="font-size:13px;color:{MUTE};margin-top:12px;">{esc(src(it))} &middot; <a href="{esc(it["url"])}" style="color:{MINT};text-decoration:underline;">Zum Original</a></div>'
+            f'</td></tr></table></td></tr>' + spacer(14))
 
 
-def divider() -> str:
-    return '<tr><td style="padding:0 24px;"><div style="height:1px;background:#E3E8E6;font-size:0;line-height:0;">&nbsp;</div></td></tr>'
-
-
-def build(date: str, alle: bool) -> dict:
+def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, klein: bool = False, top_n: int = 10) -> dict:
     index = json.loads((DATA / "index.json").read_text(encoding="utf-8"))
     day_path = DATA / date[:4] / date[5:7] / f"{date}.json"
     day = json.loads(day_path.read_text(encoding="utf-8")) if day_path.exists() else {"overview": [], "items": []}
     byid = {x["id"]: x for x in index["items"]}
     items = [x for x in index["items"] if x["date"] == date and not x.get("dup_of")]
-    items.sort(key=lambda x: (-x["relevanz"], x["published"]), reverse=False)
     items.sort(key=lambda x: (-x["relevanz"], x["published"]))
     top = [(o["text"], byid[o["id"]]) for o in day.get("overview", []) if o["id"] in byid and not byid[o["id"]].get("dup_of")]
+    top = top[:top_n]
+    seen = {it["id"] for _, it in top}
+    for it in items:  # auf top_n auffuellen, falls die Redaktion weniger gewaehlt hat (wichtigste zuerst, je Quelle hoechstens 2)
+        if len(top) >= top_n:
+            break
+        if it["id"] in seen or sum(1 for _, x in top if x["source"] == it["source"]) >= 2:
+            continue
+        top.append((first_sentence(it["summary"]), it))
+        seen.add(it["id"])
+    if klein:
+        top = top[:min(top_n, 5)]
     used = {it["id"] for _, it in top}
     n_src = len({x["source"] for x in items})
 
-    rows = []
-    rows.append(block_title("Das Wichtigste", "Die Top-Meldungen des Tages"))
+    rows = [band("top", "Das Wichtigste", "Die Top-Meldungen des Tages").replace(spacer(34), spacer(8), 1)]
     for k, (txt, it) in enumerate(top, 1):
-        rows.append(story_row(it, txt, num=k, tag=it["thema"]))
-        if k < len(top):
-            rows.append(divider())
+        rows.append(tile(it, txt, "top", num=k))
 
-    def section(label, sub, lst, hook=False, limit=6):
-        lst = [x for x in lst if x["id"] not in used][:limit]
+    def section(kind, label, sub, lst, hook=False, limit=6):
+        lst = [x for x in lst if x["id"] not in used][:(1 if klein else 3 if kompakt else limit)]
         if not lst:
             return
-        rows.append(block_title(label, sub))
-        for k, it in enumerate(lst):
-            rows.append(story_row(it, first_sentence(it["summary"]), hook=it.get("kurios", "") if hook else "", tag=it["thema"]))
-            if k < len(lst) - 1:
-                rows.append(divider())
+        rows.append(band(kind, label, sub))
+        for it in lst:
+            rows.append(tile(it, first_sentence(it["summary"]), "kur" if hook else "norm", hook=it.get("kurios", "") if hook else ""))
         used.update(x["id"] for x in lst)
 
-    week = [x for x in index["items"] if not x.get("dup_of") and x["date"] <= date]
-    section("Für AITI", "Weiterbildung, KI-Kompetenz, Bildungsmarkt", [x for x in items if "AITI" in (x.get("tags") or [])])
-    section("Aus Deutschland", "", [x for x in items if x["region"] == "de"])
-    kur = sorted([x for x in week if x.get("kurios") and x["date"] >= date], key=lambda x: -x["relevanz"])
-    section("Kurios & krass", "", kur, hook=True, limit=3)
+    section("aiti", "Für AITI", "Weiterbildung, KI-Kompetenz, Bildungsmarkt", [x for x in items if "AITI" in (x.get("tags") or [])])
+    section("de", "Aus Deutschland", "", [x for x in items if x["region"] == "de"])
+    kur = sorted([x for x in index["items"] if x.get("kurios") and not x.get("dup_of") and x["date"] == date], key=lambda x: -x["relevanz"])
+    section("kur", "Kurios & krass", "", kur, hook=True, limit=3)
 
-    # alle weiteren Meldungen nach Themen
     rest = [x for x in items if x["id"] not in used]
-    if rest:
-        rows.append(block_title("Alle weiteren Meldungen", f"{len(rest)} weitere von {n_src} Quellen" if alle else "nach Themen, die wichtigsten zuerst"))
+    if rest and not kompakt:
+        rows.append(band("rest", "Alle weiteren Meldungen", f"{len(rest)} weitere von {n_src} Quellen" if alle else "nach Themen, die wichtigsten zuerst"))
         for th in THEMEN:
             grp = [x for x in rest if x["thema"] == th]
             if not alle:
                 grp = grp[:4]
             if not grp:
                 continue
-            rows.append(f'<tr><td style="padding:14px 24px 2px 24px;font-family:{FONT};font-size:13px;font-weight:700;color:{DEEP};">{esc(th)}</td></tr>')
+            rows.append(f'<tr><td style="padding:14px 6px 4px 6px;{F}font-size:14px;font-weight:700;color:#163F43;">{esc(th)}</td></tr>')
             for it in grp:
-                rows.append(f'<tr><td style="padding:5px 24px;font-family:{FONT};font-size:14px;line-height:1.45;">'
-                            f'<a href="{esc(it["url"])}" style="color:{TEXT};text-decoration:none;font-weight:600;">{esc(it["headline"])}</a> '
-                            f'<span style="color:{MUTED};font-size:12px;">{esc(src(it))}</span>'
-                            + (f'<div style="color:#33474A;font-size:13px;margin-top:1px;">{esc(first_sentence(it["summary"]))}</div>' if alle else "")
-                            + '</td></tr>')
+                rows.append(f'<tr><td style="padding:7px 6px;{F}font-size:15px;line-height:1.45;color:{INK};">'
+                            f'<a href="{esc(it["url"])}" style="color:#102A2C;text-decoration:none;font-weight:700;">{esc(it["headline"])}</a> '
+                            f'<span style="color:{INK_SOFT};font-size:12px;">{esc(src(it))}</span>'
+                            + (f'<div style="color:{INK};font-size:14px;margin-top:2px;">{esc(first_sentence(it["summary"]))}</div>' if alle else "") + '</td></tr>')
 
-    url = app_url()
+    url = app_url() if app_link else ""  # Link zur App nur auf Wunsch (das Team hat die App nicht)
     long_d = long_date(date)
+    dt = datetime.fromisoformat(date)
     pre = (top[0][0] if top else "Die wichtigsten KI-Meldungen des Tages")[:140]
-    subject = f"KI News, {TAGE[datetime.fromisoformat(date).weekday()][:2]}. {datetime.fromisoformat(date).day}.{datetime.fromisoformat(date).month}.: " + (top[0][1]["headline"] if top else "Das Update des Tages")
-    app_btn = (f'<tr><td align="center" style="padding:26px 24px 8px 24px;"><a href="{esc(url)}" style="display:inline-block;background:{DEEP};color:#FFFFFF;'
-               f'font-family:{FONT};font-size:15px;font-weight:700;text-decoration:none;padding:12px 26px;border-radius:999px;">Alle Meldungen in der App lesen</a></td></tr>') if url else ""
-    body = "\n".join(rows)
+    subject = f"KI News, {TAGE[dt.weekday()][:2]}. {dt.day}.{dt.month}.: " + (top[0][1]["headline"] if top else "Das Update des Tages")
+    btn = (f'<tr><td align="center" style="padding:10px 0 0 0;"><a href="{esc(url)}" style="display:inline-block;background:{LIME};color:#0E1A1C;{F}font-size:16px;font-weight:700;text-decoration:none;'
+           f'padding:14px 30px;border-radius:999px;">Alle Meldungen in der App lesen</a></td></tr>') if url else ""
     doc = f"""<!DOCTYPE html>
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="color-scheme" content="light"><title>{esc(subject)}</title></head>
-<body style="margin:0;padding:0;background:#EEF2EF;">
-<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:#EEF2EF;">{esc(pre)}</div>
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#EEF2EF;"><tr><td align="center" style="padding:18px 8px;">
-<table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:640px;background:#FFFFFF;border-radius:14px;overflow:hidden;">
-<tr><td style="background:{DEEP};padding:26px 24px 22px 24px;font-family:{FONT};">
-<div style="font-size:26px;font-weight:800;color:#FFFFFF;letter-spacing:.3px;">KI News</div>
-<div style="font-size:15px;color:{LIME};margin-top:6px;font-weight:600;">{esc(long_d)}</div>
-<div style="font-size:13px;color:{SKY};margin-top:4px;">{len(items)} Meldungen aus {n_src} Quellen, kuratiert und auf Deutsch zusammengefasst</div></td></tr>
-{body}
-{app_btn}
-<tr><td style="padding:22px 24px 26px 24px;font-family:{FONT};font-size:12px;line-height:1.5;color:{MUTED};">
-Eigene Kurzfassungen mit Link zur Quelle, keine Volltexte. {LOCK} = Quelle hinter einer Bezahlschranke. Die Zusammenfassungen entstehen automatisch und können Fehler enthalten, bitte wichtige Angaben am Original prüfen.</td></tr>
+<meta name="color-scheme" content="light"><meta name="supported-color-schemes" content="light"><title>{esc(subject)}</title></head>
+<body style="margin:0;padding:0;background:{PAGE};">
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:{PAGE};">{esc(pre)}</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{PAGE}" style="background:{PAGE};"><tr><td align="center" style="padding:16px 12px 24px 12px;">
+<table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:640px;">
+<tr><td bgcolor="{DEEP2}" style="background:{DEEP2};border-radius:14px;padding:26px 22px 22px 22px;{F}">
+<div style="font-size:30px;line-height:1.1;font-weight:800;color:{TXT};">KI News</div>
+<div style="font-size:17px;color:{LIME};margin-top:8px;font-weight:700;">{esc(long_d)}</div>
+<div style="font-size:14px;line-height:1.45;color:#C9DEE3;margin-top:6px;">Auszug aus {len(items)} Meldungen von {n_src} Quellen, kuratiert und auf Deutsch zusammengefasst</div></td></tr>
+{spacer(8)}
+{chr(10).join(rows)}
+{btn}
+{spacer(30)}
+<tr><td style="border-top:1px solid {INK_LINE};padding:20px 6px 8px 6px;{F}font-size:13px;line-height:1.6;color:{INK_SOFT};">
+<b style="color:{INK};">Eigene Kurzfassungen mit Link zur Quelle, keine Volltexte.</b><br>{LOCK} = Quelle hinter einer Bezahlschranke.<br>Die Zusammenfassungen entstehen automatisch und können Fehler enthalten, bitte wichtige Angaben am Original prüfen.</td></tr>
 </table></td></tr></table></body></html>"""
 
     txt = [f"KI NEWS | {long_d}", f"{len(items)} Meldungen aus {n_src} Quellen", "", "DAS WICHTIGSTE"]
@@ -177,12 +209,19 @@ Eigene Kurzfassungen mit Link zur Quelle, keine Volltexte. {LOCK} = Quelle hinte
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--date")
+    ap.add_argument("--kompakt", action="store_true", help="nur Top-Meldungen und je 3 aus den Bloecken")
+    ap.add_argument("--app-link", action="store_true", help="Knopf mit Link zur App anzeigen")
+    ap.add_argument("--klein", action="store_true", help="nur 4 Top-Meldungen und je 1 pro Block (Test)")
+    ap.add_argument("--kontext-einklappbar", action="store_true", help="Mehr Kontext einklappbar (nicht in Outlook)")
+    ap.add_argument("--top", type=int, default=10, help="Anzahl Top-Meldungen (Standard 10)")
     ap.add_argument("--alle", action="store_true", help="alle Meldungen mit Kurzfassung statt der Auswahl")
     ap.add_argument("--out", default=str(ROOT / "digest"))
     a = ap.parse_args()
     index = json.loads((DATA / "index.json").read_text(encoding="utf-8"))
     date = a.date or max(x["date"] for x in index["items"])
-    res = build(date, a.alle)
+    global KONTEXT_OFFEN
+    KONTEXT_OFFEN = not a.kontext_einklappbar
+    res = build(date, a.alle, a.kompakt or a.klein, a.app_link, a.klein, a.top)
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
     (out / f"digest-{date}.html").write_text(res["html"], encoding="utf-8")
