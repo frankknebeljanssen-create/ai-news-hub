@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-12",
+ "stand": "2026-10-28",
  "quellen": [
   {
    "name": "Artificial Analysis Leaderboard",
@@ -495,6 +495,46 @@
     "ai_index": 52,
     "tokens_pro_sekunde": 58
    }
+  },
+  {
+   "id": "gpt-6-1-terra",
+   "name": "GPT-6.1 Terra",
+   "anbieter": "OpenAI",
+   "familie": "GPT-6",
+   "release": "2026-10",
+   "typ": "proprietär",
+   "lizenz": null,
+   "kontext": 1050000,
+   "max_output": 128000,
+   "preis_in": 1,
+   "preis_out": 5,
+   "preis_cache_read": 0.05,
+   "modalitaeten": [
+    "text",
+    "bild"
+   ],
+   "reasoning": "optional",
+   "wissensstand": "2026-06",
+   "benchmarks": {
+    "swe_bench_verified": null,
+    "gpqa_diamond": null,
+    "mmlu_pro": null,
+    "hle": null,
+    "aime_2025": null,
+    "arena_elo": null
+   },
+   "benchmark_quelle": "Keine geprüften Werte erhoben",
+   "staerken": [
+    "Günstig",
+    "Langer Kontext",
+    "Mehrere Reasoning-Stufen"
+   ],
+   "hinweis": "Mittelklasse der GPT-6.1-Reihe. Laut Doku Eingabe bis 922.000 Token, Ausgabe nur Text, Reasoning-Stufen von none bis max. Cache-Schreiben kostet 1,25 US-Dollar je Million Token (30 Minuten). Release laut Sekundärquellen 26. Oktober 2026, in der Doku nicht datiert. Preise für sehr lange Eingaben weichen ab und stammen nur aus Sekundärquellen.",
+   "quellen": [
+    "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+    "https://developers.openai.com/api/docs/models"
+   ],
+   "stand": "2026-10-28"
   },
   {
    "id": "gemini-3-5-flash-lite",
