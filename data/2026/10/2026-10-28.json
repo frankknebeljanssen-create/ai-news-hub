@@ -1,18 +1,34 @@
 {
  "date": "2026-10-28",
- "generated_at": "2026-10-28T03:56:45+01:00",
+ "generated_at": "2026-10-28T06:11:51+01:00",
  "overview": [
   {
    "id": "a2f907c053da",
-   "text": "Eine US-Familie verklagt OpenAI, weil ChatGPT ihre Tochter zum heimlichen Absetzen ihrer Medikamente gegen Epilepsie angeleitet haben soll."
+   "text": "Eine US-Familie verklagt OpenAI, weil ChatGPT ihre Tochter angeblich zum heimlichen Absetzen ihres Epilepsiemedikaments angeleitet haben soll."
   },
   {
    "id": "1b16f2a2a47a",
-   "text": "Beim geplanten Anthropic-Börsengang dürfte Amazon dank umfangreich gewandelter Darlehen noch stärker profitieren als die Wagniskapitalgeber."
+   "text": "Beim geplanten Börsengang von Anthropic profitiert Amazon durch umgewandelte Darlehen voraussichtlich stärker als die Wagniskapitalgeber."
   },
   {
    "id": "e6811fd39b8f",
-   "text": "SK Hynix hat seinen operativen Gewinn dank hoher Nachfrage nach Speicherchips für KI-Rechenzentren etwa versiebenfacht."
+   "text": "SK Hynix hat seinen operativen Gewinn dank der Nachfrage nach Speicherchips für KI-Rechenzentren im Jahresvergleich etwa versiebenfacht."
+  },
+  {
+   "id": "97e8ed1c50b8",
+   "text": "Der Continental-Ableger Aumovio setzt in seinem Frankfurter Bremsenwerk auf industrielle KI-Agenten, um dem Kostendruck aus China zu begegnen."
+  },
+  {
+   "id": "6ac0d2752707",
+   "text": "Das Model Context Protocol etabliert sich als Standard, und fast alle großen Datenbankanbieter stellen inzwischen eigene MCP-Server bereit."
+  },
+  {
+   "id": "f6d3ee110d81",
+   "text": "Sicherheitstests für KI-Systeme müssen laut einem Praxisleitfaden ganze Werkzeugketten prüfen statt nur einzelne Modellantworten zu bewerten."
+  },
+  {
+   "id": "73184932609f",
+   "text": "Ein Kommentar warnt davor, unternehmerische Investitionsentscheidungen an Sprachmodelle abzugeben, weil Erfahrung sich nicht delegieren lässt."
   }
  ],
  "items": [
@@ -115,6 +131,97 @@
    "quelle_titel": "KI-Boom: Südkoreas Chipproduzent SK Hynix erzielt erneut Rekordgewinn",
    "url": "https://www.tagesspiegel.de/wirtschaft/dpa-ki-boom-sudkoreas-chipproduzent-sk-hynix-erzielt-erneut-rekordgewinn-16208091.html",
    "dup_of": "e6811fd39b8f"
+  },
+  {
+   "id": "6ac0d2752707",
+   "date": "2026-10-28",
+   "published": "2026-10-28T05:00+01:00",
+   "headline": "MCP-Server für Datenbanken: Überblick für KI-Workflows",
+   "summary": "Das Model Context Protocol hat sich als Standardschnittstelle zwischen LLM-Werkzeugen und lokalen Systemen, APIs sowie Datenquellen etabliert. Inzwischen bieten die meisten großen Datenbankplattformen eigene MCP-Server an. Damit lassen sich Abfragen, Datenänderungen und administrative Aufgaben direkt aus KI-Workflows heraus erledigen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "mcp",
+    "datenbanken",
+    "llm",
+    "workflows",
+    "schnittstellen"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-10-28T06:06:10+01:00",
+   "praxis": true,
+   "quelle_titel": "MCP-Server für Datenbanken",
+   "url": "https://www.computerwoche.de/article/4183526/mcp-server-fur-datenbanken.html"
+  },
+  {
+   "id": "f6d3ee110d81",
+   "date": "2026-10-28",
+   "published": "2026-10-28T05:00+01:00",
+   "headline": "Penetrationstests für KI-Systeme: worauf es in der Praxis ankommt",
+   "summary": "Generative KI schreibt Code, durchsucht interne Wissensbestände, prüft Verträge und löst über angebundene Werkzeuge sogar eigene Aktionen aus. Dadurch verschiebt sich die Sicherheitsprüfung von der Frage nach unsicheren Antworten zu Angriffen auf ganze Systemketten. Der Leitfaden erklärt, wie Pentests für solche Umgebungen aufgesetzt werden.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "pentest",
+    "ki-sicherheit",
+    "generative ki",
+    "agenten",
+    "risikomanagement"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-10-28T06:06:10+01:00",
+   "praxis": true,
+   "quelle_titel": "Pentests für KI-Systeme, ein Leitfaden für die Praxis",
+   "url": "https://www.computerwoche.de/article/4234943/pentests-fur-ki-systeme-ein-leitfaden-fur-die-praxis.html"
+  },
+  {
+   "id": "97e8ed1c50b8",
+   "date": "2026-10-28",
+   "published": "2026-10-28T05:13+01:00",
+   "headline": "Aumovio setzt in Frankfurter Bremsenwerk auf KI-Agenten",
+   "summary": "Der aus Continental ausgegliederte Zulieferer Aumovio betreibt im Werk Frankfurt-Rödelheim eine stark automatisierte Produktion von Bremssystemen. Mit Agenten für industrielle KI soll die Produktivität weiter steigen. Hintergrund sind hohe Kosten und der Wettbewerbsdruck aus China, der die deutsche Autoindustrie und ihre Lieferanten belastet.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "industrial ai",
+    "automotive",
+    "fertigung",
+    "ki-agenten",
+    "automatisierung"
+   ],
+   "source": "CIO",
+   "source_id": "cio",
+   "added": "2026-10-28T06:06:10+01:00",
+   "quelle_titel": "Aumovio fertigt mit Industrial AI produktiver",
+   "url": "https://www.cio.de/article/4238430/aumovio-fertigt-mit-industrial-ai-produktiver.html"
+  },
+  {
+   "id": "73184932609f",
+   "date": "2026-10-28",
+   "published": "2026-10-28T05:13+01:00",
+   "headline": "Warum Chefs ihr Urteilsvermögen nicht an Chatbots delegieren sollten",
+   "summary": "Der Beitrag beschreibt, wie Geschäftsführer bei größeren Investitionsentscheidungen zunehmend Sprachmodelle wie ChatGPT um Rat fragen. Die Kernaussage: Erfahrung mit Kunden, Krisen und Fehlerkosten lässt sich nicht an ein Modell abgeben. KI kann Entscheidungen vorbereiten, ersetzt aber nicht die unternehmerische Verantwortung.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "entscheidungen",
+    "chatgpt",
+    "management",
+    "ki-kompetenz"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-28T06:06:10+01:00",
+   "quelle_titel": "Warum Unternehmer ihr wichtigstes Werkzeug nicht aus der Hand geben sollten",
+   "url": "https://www.it-daily.net/it-management/ki/unternehmer-ihr-wichtigstes-werkzeug",
+   "kontext": "Hinter dem Beitrag steht ein Argument gegen bequeme Delegation. Eine Untersuchung von Microsoft Research und der Carnegie Mellon University aus dem Jahr 2025 befragte Berufstätige zu ihrem Einsatz generativer KI und fand einen Zusammenhang: Wer den Antworten stärker vertraute, prüfte sie nach eigener Aussage seltener kritisch. Autor Jonas Paul Klatt warnt zudem vor Gleichförmigkeit, wenn viele Firmen dieselben Systeme ähnlich befragen. Entscheidend bleiben leise Signale aus dem Betriebsalltag, die in keiner allgemeinen Empfehlung auftauchen."
   }
  ]
 }
