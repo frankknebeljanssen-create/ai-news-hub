@@ -1,38 +1,38 @@
 {
  "date": "2026-10-27",
- "generated_at": "2026-10-28T06:11:19+01:00",
+ "generated_at": "2026-10-28T15:34:13+01:00",
  "overview": [
   {
-   "id": "5c442af80f00",
-   "text": "Nvidia beteiligt sich an seinem Großkunden Meta, der dafür verstärkt Nvidia-Chips für KI-Agenten kauft, und verflechtet die Branche weiter."
+   "id": "871181476414",
+   "text": "Meta will über eine Aktienemission bis zu 95 Milliarden Dollar einsammeln und damit den weiteren Ausbau seiner KI-Aktivitäten finanzieren."
   },
   {
-   "id": "5ef94984dce4",
-   "text": "Google DeepMind zeigt mit Genie 4 ein Weltmodell, das interaktive Umgebungen in Echtzeit berechnet und auf Training sowie Robotik zielt."
+   "id": "b7cad9cb284b",
+   "text": "Nvidia, OpenAI und Oracle finanzieren sich laut einer Analyse gegenseitig im Kreis, offen bleibt, wer die Schulden trägt, wenn der KI-Boom nachlässt."
   },
   {
-   "id": "a3a879144b29",
-   "text": "Oracle bringt seine Geschäftsanwendungen und KI-Agenten in ChatGPT, womit OpenAI näher an die Kernsysteme großer Unternehmen rückt."
+   "id": "358f73a42a5e",
+   "text": "Moonshot AI stellt mit Kimi K3.1 Pro ein Spitzenmodell vor und will bis zum 4. November die vollen Gewichte freigeben, trotz Sorgen um Missbrauch."
   },
   {
-   "id": "71582ff3272d",
-   "text": "Chinas Index für KI- und Halbleiterwerte liegt rund 40 Prozent unter dem Sommerhoch, was Debatten über eine erste geplatzte KI-Blase befeuert."
-  },
-  {
-   "id": "46e9d9d4a29a",
-   "text": "Die Grünen fordern strengere Sicherheitsauflagen für KI-Systeme sowie eine klare Haftung von Anbietern und deren Führungskräften."
+   "id": "8a7adbd0687a",
+   "text": "OpenAI bringt mit GPT-6.1 Terra ein günstigeres Modell für Agenten im Dauerbetrieb, unabhängige Tests belegen deutliche Effizienzgewinne."
   },
   {
    "id": "408cd14aeb79",
-   "text": "Infineon investiert 1,1 Milliarden Euro in die erste Großserienfertigung von Galliumnitrid-Chips auf 300-Millimeter-Wafern für KI-Rechenzentren."
+   "text": "Infineon steckt 1,1 Milliarden Euro in die erste 300-mm-Fertigung für Galliumnitrid-Chips, die KI-Rechenzentren effizienter mit Strom versorgen sollen."
+  },
+  {
+   "id": "50df1decc473",
+   "text": "Laut dem CIO Compass von Sopra Steria Next trägt nur bei weniger als 20 Prozent der KI-gestützten Entscheidungen eine konkrete Person die Verantwortung."
   },
   {
    "id": "001110b136cd",
-   "text": "Anthropic kooperiert mit sechs Pharmaunternehmen, um die Entwicklung neuer Medikamente mit Claude zu beschleunigen, und meldet erste Fortschritte."
+   "text": "Anthropic kooperiert mit sechs Pharmaunternehmen, um die Medikamentenentwicklung mit Claude zu beschleunigen, und meldet erste Fortschritte."
   },
   {
-   "id": "e31052c510d7",
-   "text": "Laut Tieto-Umfrage nutzt ein Fünftel der Beschäftigten heimlich eigene KI-Tools, nur 20 Prozent arbeiten ausschließlich mit freigegebenen Assistenten."
+   "id": "5002b0a05335",
+   "text": "Eine britische Aufsichtsbehörde erwägt eine Untersuchung, weil das Innenministerium OpenAI-Technik in Asylverfahren einsetzt."
   }
  ],
  "items": [
@@ -58,7 +58,7 @@
    "quelle_titel": "OpenAI Cuts Terra’s API Prices in Half as Safety Tests Expose Authorization Risks",
    "url": "https://www.theneuron.ai/news/openai-gpt-6-1-terra-api-price-cuts-authorization-risks/",
    "kontext": "Hinter dem Schritt steht OpenAIs Versuch, agentische Automatisierung breiter nutzbar zu machen. Terra sitzt im Modellbaukasten unterhalb des Spitzenmodells Astra und soll Bildschirminhalte deuten sowie Programme eigenständig bedienen. Vorgestellt wurde es Ende Oktober. Dass dabei Zugriffsrechte falsch behandelt werden, trifft genau jene Einsatzfelder, in denen solche Agenten auf sensible Firmensysteme zugreifen sollen.",
-   "dup_of": "04ef0342f60a"
+   "dup_of": "8a7adbd0687a"
   },
   {
    "id": "44bcbf06cff9",
@@ -104,7 +104,7 @@
    "kurios": "Zwei Billionen Dollar Bewertung bei 1400 Prozent Wachstum in einem Jahr",
    "quelle_titel": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
    "url": "https://latent.space/p/ainews-anthropic-s1/",
-   "dup_of": "a3e5e3993999"
+   "dup_of": "890a386bc774"
   },
   {
    "id": "770321d77e7c",
@@ -128,7 +128,7 @@
    "quelle_titel": "GPT-6.1 Terra: Günstiges Modell für effiziente Computerarbeit",
    "url": "https://www.heise.de/news/GPT-6-1-Terra-Guenstiges-Modell-fuer-effiziente-Computerarbeit-11501275.html",
    "kontext": "Terra ist in OpenAIs GPT-6-Familie zwischen den Modellen Sol und Luna eingeordnet, Spitzenmodell bleibt Astra. Der Fokus liegt darauf, Bildschirminhalte zu erfassen und Programme zu bedienen, etwa bei der Rechnungsverarbeitung oder beim Ableiten von 3D-Modellen aus technischen Zeichnungen. Die Einordnung stützt sich auch auf Messungen des Analysedienstes Artificial Analysis, wonach Terra beim Programmieren zulegt, aber hinter Claude Sonnet 5.5 bleibt. Zudem rät das Modell seltener, wenn Wissen fehlt.",
-   "dup_of": "04ef0342f60a"
+   "dup_of": "8a7adbd0687a"
   },
   {
    "id": "b7cad9cb284b",
@@ -174,7 +174,7 @@
    "quelle_titel": "Musik - Rechteinhaber von Elvis Presley verklagen das KI-Unternehmen Anthropic",
    "url": "https://www.deutschlandfunk.de/rechteinhaber-von-elvis-presley-verklagen-das-ki-unternehmen-anthropic-104.html",
    "kontext": "Die Klage liegt bei einem kalifornischen Gericht und fordert Schadenersatz in zweistelliger Millionenhöhe, gerechnet pro Titel. Die Rechteverwalter werfen Anthropic zudem vor, Schutzmaßnahmen umgangen und Urheberrechtsvermerke entfernt oder verändert zu haben. Branchenbeobachter halten es für das prominenteste Verfahren, das bisher im Namen eines einzelnen Musikers angestoßen wurde. KI-Firmen berufen sich in solchen Streitfällen meist darauf, dass aus den Trainingsdaten etwas Neues entstehe.",
-   "dup_of": "ec4cdd913150"
+   "dup_of": "b56ba8f8fdd1"
   },
   {
    "id": "b14ae2720380",
@@ -196,7 +196,29 @@
    "added": "2026-10-27T02:59:28+01:00",
    "quelle_titel": "OpenAI announces three big science discoveries and a new way to work with academics",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
-   "dup_of": "f16aefe89a6e"
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/openai-will-mit-ki-drei-bedeutende-probleme-aus-mathematik-informatik-und-physik-geloest-haben/"
+    },
+    {
+     "source": "Spektrum der Wissenschaft",
+     "url": "https://www.spektrum.de/news/openai-ki-loest-probleme-der-physik-informatik-mathematik/2351573"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/can-scientists-keep-up-openai-ai-generated-discoveries/"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
+    }
+   ],
+   "kontext": "Anfang Oktober hatte OpenAI Hunderte maschinell erzeugte Manuskripte veröffentlicht und damit viele Mathematiker überfordert. Nun sollen externe Fachleute, von OpenAI als Shepherds bezeichnet, über die passende Form der Veröffentlichung mitentscheiden. Beim Mathematikergebnis gibt das Unternehmen den Modelloutput direkt heraus, für das Informatikresultat soll eine externe Forschergruppe zusammengestellt werden. Laut The Verge bleibt der Unmut in der Fachwelt dennoch groß."
   },
   {
    "id": "001110b136cd",
@@ -310,7 +332,7 @@
    "added": "2026-10-27T06:35:43+01:00",
    "quelle_titel": "OpenAI Reports Three AI Discoveries. How Will Scientists Verify Them?",
    "url": "https://www.theneuron.ai/news/can-scientists-keep-up-openai-ai-generated-discoveries/",
-   "dup_of": "f16aefe89a6e"
+   "dup_of": "b14ae2720380"
   },
   {
    "id": "871181476414",
@@ -332,7 +354,7 @@
    "added": "2026-10-27T06:35:43+01:00",
    "quelle_titel": "Meta will Aktien im Wert von 95 Milliarden Dollar verkaufen",
    "url": "https://www.it-daily.net/shortnews/meta-aktien-95-milliarden-dollar",
-   "dup_of": "42ca081b79de"
+   "kontext": "Hinter dem Schritt steht ein Muster, das sich bei den großen Plattformkonzernen wiederholt: Rechenzentren und Modelltraining werden zunehmend über den Kapitalmarkt finanziert statt allein aus dem laufenden Geschäft. Bemerkenswert ist, dass mit Nvidia, AMD und Broadcom ausgerechnet Chipanbieter als mögliche Ankerinvestoren auftreten, also Zulieferer, die am KI-Ausbau selbst verdienen. Ihre Interessensbekundungen sind nach Konzernangaben bislang unverbindlich. Meta betreibt Facebook, WhatsApp und Instagram und richtet diese Dienste seit Längerem auf KI aus."
   },
   {
    "id": "96c2160f6c8a",
@@ -453,7 +475,14 @@
    "source_id": "openai",
    "added": "2026-10-28T00:17:19+01:00",
    "quelle_titel": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-   "url": "https://openai.com/index/oracle-apps-in-chatgpt"
+   "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/oracle-ai-workspace-chatgpt-business-workflows/"
+    }
+   ],
+   "kontext": "Unter dem Namen Oracle AI Workspace sollen Beschäftigte Geschäftsdaten im Chatfenster finden und freigegebene Arbeitsabläufe anstoßen. Einzelne Oracle-Plugins lassen sich bereits installieren, das vollständige Angebot befindet sich noch in Entwicklung. Für Oracle ist das ein Weg, die eigene Unternehmenssoftware dort zu platzieren, wo Mitarbeitende ohnehin arbeiten. Die erweiterte Partnerschaft wurde Ende Oktober bekannt gegeben."
   },
   {
    "id": "4745dfeeb4dc",
@@ -476,7 +505,18 @@
    "added": "2026-10-28T04:58:42+01:00",
    "kurios": "Bestandspersonal muss sich auf die eigenen Stellen neu bewerben.",
    "quelle_titel": "Proton Mail: Angestellte müssen erneut ins Bewerbungsgespräch",
-   "url": "https://www.golem.de/news/proton-angestellte-muessen-erneut-ins-bewerbungsgespraech-2610-214537.html"
+   "url": "https://www.golem.de/news/proton-angestellte-muessen-erneut-ins-bewerbungsgespraech-2610-214537.html",
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Proton-Angestellte-sollen-wegen-KI-Nutzung-erneut-ins-Bewerbungsgespraech-11502535.html"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/wegen-ki-proton-mitarbeiter-muessen-erneut-zum-bewerbungsgespraech-1770380"
+    }
+   ],
+   "kontext": "Hinter Proton stehen Dienste wie Proton Mail, Proton VPN und Proton Pass mit rund 500 Beschäftigten. Firmenchef Andy Yen treibt den KI-Einsatz seit längerem voran und befragte dafür zunächst Dutzende Führungskräfte. Die Gespräche im November führen nicht die eigenen Vorgesetzten, sondern Kollegen mit nachgewiesener KI-Erfahrung. Nach dem Bericht von 404 Media erklärte das Unternehmen, es baue keine Stellen ab und nutze KI nicht als Vorwand."
   },
   {
    "id": "71234e51d02f",
@@ -522,7 +562,21 @@
    "added": "2026-10-28T01:29:04+01:00",
    "quelle_titel": "GPT-6.1 Terra: Günstiges Modell für effiziente Computerarbeit",
    "url": "https://www.heise.de/news/GPT-6-1-Terra-Guenstiges-Modell-fuer-effiziente-Computerarbeit-11501275.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "04ef0342f60a"
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/GPT-6-1-Terra-Guenstiges-Modell-fuer-effiziente-Computerarbeit-11501275.html"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/openai-gpt-6-1-terra-api-price-cuts-authorization-risks/"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/gpt-6-1-terra-openai-1770024"
+    }
+   ],
+   "kontext": "Terra ist OpenAIs Linie für Computerarbeit: Das Modell liest Bildschirminhalte und bedient Programme, etwa zur Verarbeitung von Rechnungen oder technischen Zeichnungen. In der GPT-6-Familie sitzt es im Mittelfeld, Spitzenmodell bleibt Astra. Auffällig ist neben dem halbierten Tokenpreis, dass es bei Wissenslücken deutlich seltener auf gut Glück antwortet. Beim Programmieren im Terminal liegt es laut unabhängigen Messungen weiterhin hinter Claude Sonnet 5.5."
   },
   {
    "id": "f3c83035fbea",
@@ -592,7 +646,12 @@
    "quelle_titel": "PHP-Panne offenbart gigantischen KI-Rattenschwanz, Probleme längst nicht ausgestanden",
    "url": "https://www.basicthinking.de/blog/2026/10/27/php-panne-offenbart-gigantischen-rattenschwanz/",
    "kontext": "Aufgedeckt wurde die Schwachstelle laut dem Sicherheitsanbieter Wiz, nachdem KI-Modelle den Code durchsucht hatten. Brisant ist der zweite Teil: Kurz nach der Veröffentlichung schnellten die Zugriffsversuche weltweit in die Millionen, und die Angriffswelle läuft weiter. Das PHP-Sicherheitsteam verweist zudem auf strukturelle Probleme und fehlende Ressourcen. Damit verschiebt sich Macht zu jenen Konzernen, deren Modelle Lücken früher finden als Behörden und Entwickler.",
-   "dup_of": "0afbcca47fc9"
+   "also": [
+    {
+     "source": "Datenschutz-Notizen",
+     "url": "https://www.dsn-group.de/datenschutz-notizen/default-9724c77cffbb1c86580acefcc0d9fbc1"
+    }
+   ]
   },
   {
    "id": "25140a024c16",
@@ -614,7 +673,31 @@
    "added": "2026-10-28T01:29:04+01:00",
    "quelle_titel": "Mehr Leistung bei geringen Kosten: Für wen GPT-6.1 Terra jetzt bereitsteht",
    "url": "https://t3n.de/news/gpt-6-1-terra-openai-1770024",
-   "dup_of": "04ef0342f60a"
+   "dup_of": "8a7adbd0687a"
+  },
+  {
+   "id": "8064b0ab9002",
+   "date": "2026-10-27",
+   "published": "2026-10-27T11:30+01:00",
+   "headline": "RAG-Systeme als Datenschutzhebel für Chatbots im Unternehmen",
+   "summary": "Chatbots beantworten inzwischen Anfragen von Beschäftigten, stützen den Kundenservice und durchsuchen Dokumente, was datenschutzrechtliche Fragen aufwirft. Der Beitrag erklärt, wie ein RAG-System durch gezieltes Nachschlagen in freigegebenen Quellen arbeitet und so weniger personenbezogene Daten im Modell selbst verarbeitet werden müssen. Für Unternehmen ergibt sich daraus ein Ansatz, KI-Assistenten rechtskonformer zu betreiben.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "rag",
+    "datenschutz",
+    "chatbot",
+    "dsgvo"
+   ],
+   "source": "Datenschutz-Notizen",
+   "source_id": "datenschutz-notizen",
+   "added": "2026-10-28T15:27:32+01:00",
+   "praxis": true,
+   "quelle_titel": "Chatbot trifft RAG-System: Mehr Datenschutz durch gezieltes Nachschlagen",
+   "url": "https://www.dsn-group.de/datenschutz-notizen/chatbot-trifft-rag-system-mehr-datenschutz-durch-gezieltes-nachschlagen",
+   "kontext": "Ein Sprachmodell kennt nur seine Trainingsdaten, nicht die aktuelle Betriebsvereinbarung oder das Produkthandbuch. RAG schiebt sich als Zwischenschicht dazwischen: Dokumente werden in Abschnitte zerlegt, eine Suchfunktion holt zur Frage die passenden Stellen und liefert sie dem Modell mit. Die Datenschutzkonferenz und der bayerische Landesbeauftragte haben dazu eigene Orientierungshilfen veröffentlicht, weil jeder Schritt rechtlich gesondert zu bewerten ist. Neuere Aufbauten binden zusätzlich Kalender oder Ticketsysteme an."
   },
   {
    "id": "729030c9a590",
@@ -665,7 +748,8 @@
    "added": "2026-10-28T03:48:29+01:00",
    "quelle_titel": "Börsengang: Entscheidend für Anthropic ist der Umsatz außerhalb der KI-Blase",
    "url": "https://www.golem.de/news/boersengang-entscheidend-fuer-anthtopic-ist-der-umsatz-ausserhalb-der-ki-blase-2610-214545.html",
-   "kontext": "Die Einschätzung stammt von einem externen Berater, nicht vom Unternehmen selbst. Hintergrund ist die enge Verflechtung der Branche, in der sich Anbieter, Investoren und Partner gegenseitig finanzieren und Leistungen abnehmen. Umsätze können dadurch beeindruckend aussehen, ohne dass unabhängige Nachfrage dahintersteht. Für Anleger wäre bei einem Börsengang deshalb entscheidend, welcher Teil des Geschäfts aus dem eigenen Ökosystem kommt."
+   "kontext": "Die Einschätzung stammt von einem externen Berater, nicht vom Unternehmen selbst. Hintergrund ist die enge Verflechtung der Branche, in der sich Anbieter, Investoren und Partner gegenseitig finanzieren und Leistungen abnehmen. Umsätze können dadurch beeindruckend aussehen, ohne dass unabhängige Nachfrage dahintersteht. Für Anleger wäre bei einem Börsengang deshalb entscheidend, welcher Teil des Geschäfts aus dem eigenen Ökosystem kommt.",
+   "dup_of": "890a386bc774"
   },
   {
    "id": "50df1decc473",
@@ -712,7 +796,7 @@
    "quelle_titel": "OpenAI will mit KI drei bedeutende Probleme aus Mathematik, Informatik und Physik gelöst haben",
    "url": "https://the-decoder.de/openai-will-mit-ki-drei-bedeutende-probleme-aus-mathematik-informatik-und-physik-geloest-haben/",
    "kontext": "Im Zentrum steht die Exponentialzeit-Hypothese, eine Annahme darüber, wie aufwendig das Erfüllbarkeitsproblem der Aussagenlogik im schlimmsten Fall bleibt. Sie galt als verlässlich und dient vielen Arbeiten in Graphentheorie, Biologie oder Datenbanken als Fundament. OpenAI hat die Beweise zusätzlich in der Prüfsprache Lean formalisiert, was allerdings nur die dort formulierte Aussage absichert, nicht deren Deutung. Die Frage nach P und NP bleibt davon unberührt.",
-   "dup_of": "f16aefe89a6e"
+   "dup_of": "b14ae2720380"
   },
   {
    "id": "d8ea3ee5d6b7",
@@ -765,11 +849,6 @@
      "source": "Tagesspiegel Wirtschaft",
      "url": "https://www.tagesspiegel.de/wirtschaft/dpa-chipindustrie-infineon-investiert-11-milliarden-in-osterreich-16204012.html",
      "paywall": true
-    },
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY255RThHOTlXNkxjeEVoNXJQOTZId29tdC1lOEc4UHlXLUdJQnFIRVgybHM5TEZGZ2xMejR2UjF2a0FxNFE4QXh6MWpWZjVLMW9iRVJsdTRxTG1NQnFtWjhtMGFUYXl5bWRkcFlIaGF3b2l6Rll3NVU0UFRyQk9CZURBZ1NSX1VBeVZlV1Zabm1GMXFWa3d5UTN6UHNoSk9VTGFPd2d6WG1wSzlqbjNpRXBDSmVFZw?oc=5",
-     "paywall": true
     }
    ]
   },
@@ -793,8 +872,7 @@
    "added": "2026-10-28T00:14:02+01:00",
    "quelle_titel": "Kimi K3.1 Pro: Wie das Open-Weight-Modell Sicherheitsrisiken eindämmen soll",
    "url": "https://t3n.de/news/kimi-k3-1-pro-wie-das-open-weight-modell-sicherheitsrisiken-eindaemmen-soll-1770089",
-   "kontext": "Das Modell ist eine nachtrainierte Variante von Kimi K3 und gilt nach unabhängiger Messung derzeit als stärkstes frei gewichtetes System, bei deutlich niedrigeren Preisen als die US-Spitze. Stanford-Daten zeigen, wie knapp der amerikanische Vorsprung inzwischen ausfällt. Vor diesem Hintergrund fordern die KI-Labore selbst strengere Regeln, während die US-Regierung Warnungen abtut. Moonshot gibt an, offensive Cyberfähigkeiten gezielt beschnitten zu haben.",
-   "dup_of": "78fb9901abcc"
+   "kontext": "Das Modell ist eine nachtrainierte Variante von Kimi K3 und gilt nach unabhängiger Messung derzeit als stärkstes frei gewichtetes System, bei deutlich niedrigeren Preisen als die US-Spitze. Stanford-Daten zeigen, wie knapp der amerikanische Vorsprung inzwischen ausfällt. Vor diesem Hintergrund fordern die KI-Labore selbst strengere Regeln, während die US-Regierung Warnungen abtut. Moonshot gibt an, offensive Cyberfähigkeiten gezielt beschnitten zu haben."
   },
   {
    "id": "f4e0b5373313",
@@ -886,7 +964,7 @@
    "quelle_titel": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
    "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
    "kontext": "Weltmodelle erzeugen begehbare Umgebungen in Echtzeit, ohne dass jemand sie vorher baut. DeepMind sieht darin einen Baustein auf dem Weg zu allgemeiner KI und denkt an Trainingswelten für Roboter oder schnelles Prototyping in Kreativberufen. Bei Genie 4 steuert ein Gemini-Modell die Szene mit und bewertet einzelne Bilder, erstmals gibt es auch eigenen Ton. Die Konsistenz hält allerdings nur wenige Minuten, danach vergisst das System den Anfang.",
-   "dup_of": "5ef94984dce4"
+   "dup_of": "2142648cb9e6"
   },
   {
    "id": "c6c7c1428735",
@@ -910,7 +988,7 @@
    "quelle_titel": "Wem gehört KI-generiertes Wissen?: OpenAI löst drei Jahrhundertprobleme, ein Beweis bleibt aber geheim",
    "url": "https://www.spektrum.de/news/openai-ki-loest-probleme-der-physik-informatik-mathematik/2351573",
    "kontext": "Hinter der Ankündigung steckt ein ungelöstes Problem: Rohe Modellausgaben sind kaum lesbar und mussten zuletzt erst mühsam von Fachleuten aufgearbeitet werden, was Kritik auslöste. OpenAI hat sich daher beraten lassen und erprobt nun drei Wege parallel, vom ungefilterten Veröffentlichen bis zur Begleitung durch eine externe Expertengruppe. Bestätigen sich die Lösungen, wären es Leistungen auf dem Niveau der höchsten Fachpreise. Offen bleibt, wer über solches Wissen verfügt.",
-   "dup_of": "f16aefe89a6e"
+   "dup_of": "b14ae2720380"
   },
   {
    "id": "7de7788a86fe",
@@ -933,7 +1011,7 @@
    "added": "2026-10-28T01:28:18+01:00",
    "quelle_titel": "Google’s next Genie AI model generates more realistic experiences",
    "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
-   "dup_of": "5ef94984dce4"
+   "dup_of": "2142648cb9e6"
   },
   {
    "id": "5ef94984dce4",
@@ -957,24 +1035,7 @@
    "quelle_titel": "Genie 4: A new generation of world simulation",
    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
    "kontext": "Weltmodelle berechnen Umgebungen fortlaufend Bild für Bild, statt fertige Videos abzuspielen. Genie 4 folgt auf Genie 3 vom August 2025 und erzeugt nun erstmals passende Geräuschkulissen sowie sprechende Figuren. Im Hintergrund planen Gemini-Modelle mit, zerlegen Ziele in Schritte und halten die Szene bei Texteingaben stimmig. Ein Versuch verbindet das Ganze mit der Robotik-Forschung, bislang rein simuliert. Längere Sitzungen und komplexe Physik bleiben erklärte Schwachstellen.",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/google-deepmind-zeigt-mit-genie-4-die-naechste-stufe-der-ki-simulation/"
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
-    },
-    {
-     "source": "Ars Technica AI",
-     "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/"
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
-    }
-   ]
+   "dup_of": "2142648cb9e6"
   },
   {
    "id": "0b6d8d37723b",
@@ -1042,7 +1103,54 @@
    "quelle_titel": "Anthropics Börsengang: Die Milliardenrisiken hinter dem KI-Boom",
    "url": "https://www.heise.de/news/Anthropics-Boersengang-Die-Milliardenrisiken-hinter-dem-KI-Boom-11502267.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Mit dem Börsenprospekt öffnet erstmals ein führendes KI-Labor seine Bücher so weit. Anthropic nennt darin nicht nur den Missbrauch seiner Modelle durch Kunden als Haftungsrisiko, sondern auch die Sorge, dass Versicherer bei einem schweren KI-Zwischenfall überfordert wären. Ungewöhnlich ist der Hinweis, man müsse ältere Modelle womöglich aus Rücksicht auf deren mögliches Wohlergehen länger weiterbetreiben. Zugleich hängt rund ein Viertel des Umsatzes an nur fünf Kunden, viele davon ohne langfristige Verträge.",
-   "dup_of": "a3e5e3993999"
+   "also": [
+    {
+     "source": "Latent Space",
+     "url": "https://latent.space/p/ainews-anthropic-s1/"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/ki-gewagt-aber-vernuenftig-was-anthropics-boersenprospekt-verraet-2610-214563.html",
+     "paywall": true
+    },
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/vor-anthropic-boersengang-ki-braucht-billiges-gas-den-preis-zahlen-alle-2610-214554.html"
+    },
+    {
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
+     "paywall": true
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/"
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/anthropic-will-weiter-keine-werbung-im-claude-chat-zulassen/"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://www.therundown.ai/articles/the-ai-bubble-meets-anthropic-real-numbers"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/boersengang-entscheidend-fuer-anthtopic-ist-der-umsatz-ausserhalb-der-ki-blase-2610-214545.html"
+    }
+   ]
   },
   {
    "id": "a30b4228516c",
@@ -1065,7 +1173,7 @@
    "quelle_titel": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
    "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
    "kontext": "Hinter Genie 4 steht Google DeepMind, das die Vorschau zunächst an ausgewählte Tester vergibt. Gemini übernimmt dabei die Regie, plant Schritte und prüft Bilder, während Genie die Szenen erzeugt. Der Markt für Weltmodelle konsolidiert sich gerade: AMD übernimmt World Labs, Amazon verhandelt über Decart, Rivian kaufte einen Simulationsspezialisten. Erste Tester sehen den Nutzen vor allem beim schnellen Entwerfen von Filmszenen.",
-   "dup_of": "5ef94984dce4"
+   "dup_of": "2142648cb9e6"
   },
   {
    "id": "40066215b8c1",
@@ -1088,7 +1196,7 @@
    "quelle_titel": "Anthropic’s elaborate plan to keep Wall Street at bay",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
    "kontext": "Anthropic positioniert sich als sicherheitsorientierter Gegenpol zu OpenAI, dessen Chef den Druck von Investoren als Grund gegen einen eigenen Börsengang in diesem Jahr genannt hat. Um die Gründerführung und die Mission zu schützen, plant das Unternehmen eine bislang unerprobte Governance, die Fachleute als ungewöhnlich verschachtelt beschreiben. Ob solche Konstruktionen aufwendige Sicherheitsarbeit dauerhaft gegen Renditeerwartungen abschirmen, ist juristisch kaum getestet.",
-   "dup_of": "a3e5e3993999"
+   "dup_of": "890a386bc774"
   },
   {
    "id": "adec8eda9ae4",
@@ -1112,7 +1220,7 @@
    "paywall": true,
    "quelle_titel": "(g+) KI: \"Gewagt, aber vernünftig\" - was Anthropics Börsenprospekt verrät",
    "url": "https://www.golem.de/news/ki-gewagt-aber-vernuenftig-was-anthropics-boersenprospekt-verraet-2610-214563.html",
-   "dup_of": "a3e5e3993999"
+   "dup_of": "890a386bc774"
   },
   {
    "id": "82c59c0a3bfa",
@@ -1136,7 +1244,7 @@
    "quelle_titel": "Google Deepmind zeigt mit Genie 4 die nächste Stufe der KI-Simulation",
    "url": "https://the-decoder.de/google-deepmind-zeigt-mit-genie-4-die-naechste-stufe-der-ki-simulation/",
    "kontext": "Genie 4 folgt auf das vor gut einem Jahr gezeigte Genie 3 und greift auf Bausteine des Videomodells Gemini Omni zurück. Ein schnelles Gemini-Modell beobachtet die laufende Szene, zerlegt Ziele in einzelne Schritte und passt den Plan an, wenn Nutzer eingreifen. In einer Demo spielt ein simulierter humanoider Roboter Dame, ohne dass echte Hardware beteiligt ist. Deepmind nennt das Modell experimentell, denn Objekte bleiben nicht zuverlässig erhalten.",
-   "dup_of": "5ef94984dce4"
+   "dup_of": "2142648cb9e6"
   },
   {
    "id": "e31052c510d7",
@@ -1182,7 +1290,7 @@
    "kurios": "KI-Modelle kippen eine jahrzehntealte Annahme der theoretischen Informatik.",
    "quelle_titel": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
    "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
-   "dup_of": "f16aefe89a6e"
+   "dup_of": "b14ae2720380"
   },
   {
    "id": "46e9d9d4a29a",
@@ -1279,7 +1387,7 @@
    "quelle_titel": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
    "kontext": "Vorausgegangen war im Oktober ein Schwall von Vorabveröffentlichungen, mit dem die Fachwelt weitgehend allein gelassen wurde. Nun sollen externe Fachleute als Begleiter entscheiden, wie einzelne Ergebnisse jeweils bekannt gemacht werden. Beim mathematischen Resultat veröffentlichte die Firma nur die Ausgabe des Modells, für die Informatik soll eine externe Gruppe hinzukommen. Die Ergebnisse berühren einige der bekanntesten offenen Probleme ihrer Fächer.",
-   "dup_of": "f16aefe89a6e"
+   "dup_of": "b14ae2720380"
   },
   {
    "id": "9daa2cd43fa5",
@@ -1303,7 +1411,7 @@
    "quelle_titel": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
    "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
    "kontext": "Die Unterlagen wurden vor dem erwarteten Börsengang veröffentlicht und drehen sich ansonsten vor allem um rasant steigende Einnahmen bei noch höheren Kosten. Die Sorge gilt nicht heutigen Modellen, sondern künftigen Systemen, die KI-Forschung selbst automatisieren und sich dadurch der Kontrolle entziehen könnten. Solche Bedenken kämen aus dem Haus selbst wie auch von Forschung und Aufsicht. Anlegern wird so ungewöhnlich deutlich vorgeführt, wie unsicher das Geschäft ist.",
-   "dup_of": "a3e5e3993999"
+   "dup_of": "890a386bc774"
   },
   {
    "id": "7afb98bf1433",
@@ -1642,7 +1750,8 @@
    "praxis": true,
    "quelle_titel": "The AI bubble meets Anthropic’s real numbers",
    "url": "https://www.therundown.ai/articles/the-ai-bubble-meets-anthropic-real-numbers",
-   "kontext": "Anthropic hat seine Unterlagen für ein Listing an der Nasdaq eingereicht und damit erstmals Einblick in die Finanzen gegeben. Das Bild widerspricht der Erzählung, Modellanbieter verbrannten Geld ohne tragfähiges Geschäft: Die Erlöse wachsen schneller als die Ausgaben, und ein Großteil des eingesammelten Kapitals liegt noch bereit. Die Debatte verschiebt sich damit zur Frage der Bewertung. Mitgeliefert wird eine Warnung, dass intern von Claude geleistete Arbeit schwer kontrollierbar werden könnte."
+   "kontext": "Anthropic hat seine Unterlagen für ein Listing an der Nasdaq eingereicht und damit erstmals Einblick in die Finanzen gegeben. Das Bild widerspricht der Erzählung, Modellanbieter verbrannten Geld ohne tragfähiges Geschäft: Die Erlöse wachsen schneller als die Ausgaben, und ein Großteil des eingesammelten Kapitals liegt noch bereit. Die Debatte verschiebt sich damit zur Frage der Bewertung. Mitgeliefert wird eine Warnung, dass intern von Claude geleistete Arbeit schwer kontrollierbar werden könnte.",
+   "dup_of": "890a386bc774"
   },
   {
    "id": "17fc845daf1a",
@@ -1664,13 +1773,7 @@
    "added": "2026-10-28T01:29:04+01:00",
    "quelle_titel": "Data center backlash is uniting America",
    "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
-   "kontext": "The Verge beschreibt Rechenzentren als eines der wenigen Themen, das Wähler quer durch alle Lager mobilisiert. Vor Ort geht es um Bauarbeiten, Folgekosten und die nötige Infrastruktur, in manchen Rennen überbieten sich Kandidaten inzwischen mit Ablehnung. Gleichzeitig fließt Geld aus der Techbranche in die Wahlkämpfe: Der von Marc Andreessen und OpenAI-Präsident Greg Brockman unterstützte Super-PAC Leading the Future hat binnen eines Jahres zweistellige Millionenbeträge ausgegeben.",
-   "also": [
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4240244/wie-ki-rechenzentren-zum-streitthema-der-us-midterms-wurden.html"
-    }
-   ]
+   "kontext": "The Verge beschreibt Rechenzentren als eines der wenigen Themen, das Wähler quer durch alle Lager mobilisiert. Vor Ort geht es um Bauarbeiten, Folgekosten und die nötige Infrastruktur, in manchen Rennen überbieten sich Kandidaten inzwischen mit Ablehnung. Gleichzeitig fließt Geld aus der Techbranche in die Wahlkämpfe: Der von Marc Andreessen und OpenAI-Präsident Greg Brockman unterstützte Super-PAC Leading the Future hat binnen eines Jahres zweistellige Millionenbeträge ausgegeben."
   },
   {
    "id": "4ea0e5665ed3",
@@ -1829,7 +1932,8 @@
    "added": "2026-10-28T00:15:08+01:00",
    "quelle_titel": "Anthropic will weiter keine Werbung im Claude-Chat zulassen",
    "url": "https://the-decoder.de/anthropic-will-weiter-keine-werbung-im-claude-chat-zulassen/",
-   "kontext": "Das Versprechen steht in einem Begleitbrief zum geplanten Börsengang, in dem Anthropic eigene Werte ausdrücklich über maximale Gewinne stellt. Schon vorher hatte die Firma kritisiert, dass Anzeigen im Chat stärker manipulativ wirken können als klassische Reklame, weil sie Gespräche auf Interaktion trimmen. Als weiteres Beispiel nennt sie ein Modell, das wegen hoher Cyberrisiken erst verzögert erschien. Auch Sicherheitsfachleute erhielten kostenloses Guthaben für die Abwehr."
+   "kontext": "Das Versprechen steht in einem Begleitbrief zum geplanten Börsengang, in dem Anthropic eigene Werte ausdrücklich über maximale Gewinne stellt. Schon vorher hatte die Firma kritisiert, dass Anzeigen im Chat stärker manipulativ wirken können als klassische Reklame, weil sie Gespräche auf Interaktion trimmen. Als weiteres Beispiel nennt sie ein Modell, das wegen hoher Cyberrisiken erst verzögert erschien. Auch Sicherheitsfachleute erhielten kostenloses Guthaben für die Abwehr.",
+   "dup_of": "890a386bc774"
   },
   {
    "id": "858dd928576d",
@@ -2169,7 +2273,28 @@
    "quelle_titel": "Vor Anthropic-Börsengang: KI braucht billiges Gas, den Preis zahlen alle",
    "url": "https://www.golem.de/news/vor-anthropic-boersengang-ki-braucht-billiges-gas-den-preis-zahlen-alle-2610-214554.html",
    "kontext": "Wer Unterlagen bei der US-Börsenaufsicht einreicht, muss die Risiken des eigenen Geschäfts offenlegen. Anthropic nennt dort auch den Zugang zu günstiger Energie, denn ohne sie lassen sich große Rechenzentren kaum wirtschaftlich betreiben. Der Kommentar dreht die Perspektive und fragt, wer für billiges Gas am Ende aufkommt. Energie erscheint so weniger als technisches Detail und mehr als verteilungspolitische Frage.",
-   "dup_of": "a3e5e3993999"
+   "dup_of": "890a386bc774"
+  },
+  {
+   "id": "89d6815be1d2",
+   "date": "2026-10-27",
+   "published": "2026-10-27T15:30+01:00",
+   "headline": "Apple startet Produktwoche mit neuem iPad mini",
+   "summary": "Apple eröffnet eine Reihe von Produktankündigungen mit einem aktualisierten iPad mini. Zusätzlich berichtet der Newsletter, dass Microsoft rund 60.000 Beschäftigten freiwillige Abfindungen anbietet.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "apple",
+    "ipad mini",
+    "microsoft",
+    "personalabbau"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-10-28T15:23:00+01:00",
+   "quelle_titel": "Apple's big week begins with iPad mini",
+   "url": "https://www.therundown.ai/articles/apple-big-week-begins-with-ipad-mini"
   },
   {
    "id": "782970bef862",
@@ -2443,12 +2568,7 @@
    "quelle_titel": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
    "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
    "kontext": "Das Gespräch im Podcast Latent Space ordnet ein, wie der Anbieter hinter Claude seine Entwicklerplattform betreibt. Ein Modellstart ist dort stets auch ein Schnittstellenstart: Damit Wettbewerber die Denkschritte nicht abschöpfen und nachtrainieren, müssen Kunden diese über Gesprächsrunden hinweg erhalten, was bestehende Integrationen brechen kann. Ausgewählte Kunden prüfen neue Modelle vorab in eigenen Umgebungen. Durch die wachsende Nutzung werden selbst Infrastrukturfragen strategisch, etwa der Umbau der Messages-Schnittstelle in Rust.",
-   "also": [
-    {
-     "source": "Latent Space",
-     "url": "https://latent.space/p/opus55/"
-    }
-   ]
+   "dup_of": "80e5637a67e1"
   },
   {
    "id": "97e2ae17da7a",
@@ -2515,7 +2635,12 @@
    "quelle_titel": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
    "url": "https://latent.space/p/opus55/",
    "kontext": "Die Einblicke stammen aus einem Podcastgespräch mit Katelyn Lesse und Angela Jiang, die bei Anthropic Technik und Produkt verantworten. Sie schildern, dass ein Modellstart längst auch ein Start für Entwicklerschnittstellen ist: Opus 5.5 soll knapper antworten und je nach Nutzung günstiger laufen. Zugleich schützt Anthropic die Denkschritte des Modells davor, für das Trainieren fremder Systeme abgeschöpft zu werden, was bestehende Integrationen brechen kann. Rückmeldungen aus Kundentests fließen früh ein.",
-   "dup_of": "beb92a3cbb63"
+   "also": [
+    {
+     "source": "Latent Space",
+     "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/"
+    }
+   ]
   },
   {
    "id": "195cb6337f5e",
@@ -2560,7 +2685,7 @@
    "paywall": true,
    "quelle_titel": "Anthropic Says It Will Revolutionize Biology, Some Day",
    "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
-   "dup_of": "a3e5e3993999"
+   "dup_of": "890a386bc774"
   },
   {
    "id": "a2cc2fb4ce88",
@@ -2632,6 +2757,14 @@
     {
      "source": "stern Digital",
      "url": "https://www.stern.de/digital/machtprobe--trump-will-bezeichnung-ki-in-us-dokumenten-verbieten-38461054.html"
+    },
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4241518/trump-will-bezeichnung-ki-in-us-dokumenten-verbieten.html"
+    },
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/trump-begriff-ki-us-dokumente"
     }
    ]
   },
@@ -2656,7 +2789,7 @@
    "quelle_titel": "Who’s really in charge at Anthropic after the IPO?",
    "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
    "kontext": "Anthropic wurde 2021 mit dem Anspruch gegründet, KI beherrschbar zu halten, und ist als Public Benefit Company verfasst, kann Sicherheitsziele also neben dem Gewinn gewichten. Die Kontrolle liegt bei einem unabhängigen Treuhandrat, der die Mehrheit der Boardsitze besetzt, und bei den sieben Gründern mit eigener Aktienklasse. Käufer der Aktie an der Börse hätten entsprechend wenig Mitsprache, auch bei der Besetzung des Boards. Wie fragil solche Konstruktionen sind, zeigte die Vorstandskrise bei OpenAI.",
-   "dup_of": "a3e5e3993999"
+   "dup_of": "890a386bc774"
   },
   {
    "id": "a81d0c1c06b0",
@@ -2953,8 +3086,7 @@
    "source_id": "golem",
    "added": "2026-10-28T01:27:34+01:00",
    "quelle_titel": "Chinas Reichenliste: KI-Milliardäre an der Spitze, keine Angaben zur Parteiführung",
-   "url": "https://www.golem.de/news/chinas-reichenliste-ki-milliardaere-an-der-spitze-keine-angaben-zur-parteielite-2610-214573.html",
-   "dup_of": "a0c12e3e3303"
+   "url": "https://www.golem.de/news/chinas-reichenliste-ki-milliardaere-an-der-spitze-keine-angaben-zur-parteielite-2610-214573.html"
   },
   {
    "id": "284ee01a8e50",
