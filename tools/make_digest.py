@@ -13,7 +13,7 @@ import html
 import json
 import re
 import subprocess
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -121,6 +121,17 @@ ANSCHREIBEN = [
 ]
 
 
+def compact_card(grp: list[dict]) -> str:
+    cells = []
+    for k, it in enumerate(grp):
+        line = f"border-top:1px solid {BORDER};" if k else ""
+        cells.append(f'<tr><td style="{line}padding:13px 4px 12px 4px;{F}"><a href="{esc(it["url"])}" style="color:#FFFFFF;font-size:16px;line-height:1.35;font-weight:700;text-decoration:none;">{esc(it["headline"])}</a>'
+                     f'<div style="font-size:14px;line-height:1.5;color:{SOFT};margin-top:5px;">{esc(first_sentence(it["summary"]))}</div>'
+                     f'<div style="font-size:12px;color:{MUTE};margin-top:6px;">{esc(src(it))} &middot; <a href="{esc(it["url"])}" style="color:{MINT};text-decoration:underline;">Zum Original</a></div></td></tr>')
+    return (f'<tr><td bgcolor="{SURF}" style="background:{SURF};border:1px solid {BORDER};border-radius:12px;padding:6px 16px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">'
+            + "".join(cells) + '</table></td></tr>')
+
+
 def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, klein: bool = False, top_n: int = 10, anschreiben: bool = True) -> dict:
     index = json.loads((DATA / "index.json").read_text(encoding="utf-8"))
     day_path = DATA / date[:4] / date[5:7] / f"{date}.json"
@@ -129,6 +140,7 @@ def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, 
     items = [x for x in index["items"] if x["date"] == date and not x.get("dup_of")]
     items.sort(key=lambda x: (-x["relevanz"], x["published"]))
     top = [(o["text"], byid[o["id"]]) for o in day.get("overview", []) if o["id"] in byid and not byid[o["id"]].get("dup_of")]
+    dt0 = datetime.fromisoformat(date)
     top = top[:top_n]
     seen = {it["id"] for _, it in top}
     for it in items:  # auf top_n auffuellen, falls die Redaktion weniger gewaehlt hat (wichtigste zuerst, je Quelle hoechstens 2)
@@ -147,35 +159,44 @@ def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, 
     for k, (txt, it) in enumerate(top, 1):
         rows.append(tile(it, txt, "top", num=k))
 
-    def section(kind, label, sub, lst, hook=False, limit=6):
-        lst = [x for x in lst if x["id"] not in used][:(1 if klein else 3 if kompakt else limit)]
+    def section(kind, label, sub, lst, hook=False, limit=6, dedupe=False, tiles_max=999):
+        lst = [x for x in lst if not dedupe or x["id"] not in used][:(1 if klein else 3 if kompakt else limit)]
         if not lst:
             return
         rows.append(band(kind, label, sub))
-        for it in lst:
+        for it in lst[:tiles_max]:
             rows.append(tile(it, first_sentence(it["summary"]), "kur" if hook else "norm", hook=it.get("kurios", "") if hook else ""))
+        if len(lst) > tiles_max:  # Rest kompakt in einer gemeinsamen Karte, damit die Mail nicht ausufert
+            rows.append(compact_card(lst[tiles_max:]))
         used.update(x["id"] for x in lst)
 
-    section("aiti", "Für AITI", "Weiterbildung, KI-Kompetenz, Bildungsmarkt", [x for x in items if "AITI" in (x.get("tags") or [])])
-    section("de", "Aus Deutschland", "", [x for x in items if x["region"] == "de"])
+    # Reihenfolge wie in der App: Top, Für AITI, Aus Deutschland, Kurios & krass, dann die Themenblöcke
+    section("aiti", "Für AITI", "Weiterbildung, KI-Kompetenz, Bildungsmarkt", [x for x in items if "AITI" in (x.get("tags") or [])], limit=999, tiles_max=5)
+    section("de", "Aus Deutschland", "", [x for x in items if x["region"] == "de"], limit=6)
     kur = sorted([x for x in index["items"] if x.get("kurios") and not x.get("dup_of") and x["date"] == date], key=lambda x: -x["relevanz"])
-    section("kur", "Kurios & krass", "", kur, hook=True, limit=3)
+    if len(kur) < 3:  # mindestens 3: fehlende aus den letzten 7 Tagen auffuellen
+        since = (dt0 - timedelta(days=7)).strftime("%Y-%m-%d")
+        more = sorted([x for x in index["items"] if x.get("kurios") and not x.get("dup_of") and since <= x["date"] < date], key=lambda x: (x["date"], x["relevanz"]), reverse=True)
+        kur += more[:3 - len(kur)]
+    section("kur", "Kurios & krass", "", kur, hook=True, limit=999)
 
-    rest = [x for x in items if x["id"] not in used]
-    if rest and not kompakt:
-        rows.append(band("rest", "Alle weiteren Meldungen", f"{len(rest)} weitere von {n_src} Quellen" if alle else "nach Themen, die wichtigsten zuerst"))
-        for th in THEMEN:
-            grp = [x for x in rest if x["thema"] == th]
-            if not alle:
-                grp = grp[:4]
-            if not grp:
+    if not kompakt:
+        # Themenblöcke aus der App, jeweils gekürzt (Schlagzeile, ein Satz, Quelle); mindestens 3 je Block, notfalls auch bereits gezeigte
+        TH_FARBE = {"Modelle und Produkte": "#2B4FA8", "Business": "#1F6B4F", "Unternehmen DE": "#1D6275", "Sicherheit und Ethik": "#9A3B33",
+                    "Forschung": "#5B3FA0", "Politik und Regulierung": "#8A5A12"}
+        for th in ["Modelle und Produkte", "Business", "Unternehmen DE", "Sicherheit und Ethik", "Forschung", "Politik und Regulierung"]:
+            allgrp = [x for x in items if x["thema"] == th]
+            if not allgrp:
                 continue
-            rows.append(f'<tr><td style="padding:14px 6px 4px 6px;{F}font-size:14px;font-weight:700;color:#163F43;">{esc(th)}</td></tr>')
-            for it in grp:
-                rows.append(f'<tr><td style="padding:7px 6px;{F}font-size:15px;line-height:1.45;color:{INK};">'
-                            f'<a href="{esc(it["url"])}" style="color:#102A2C;text-decoration:none;font-weight:700;">{esc(it["headline"])}</a> '
-                            f'<span style="color:{INK_SOFT};font-size:12px;">{esc(src(it))}</span>'
-                            + (f'<div style="color:{INK};font-size:14px;margin-top:2px;">{esc(first_sentence(it["summary"]))}</div>' if alle else "") + '</td></tr>')
+            fresh = [x for x in allgrp if x["id"] not in used]
+            grp = fresh[:(999 if alle else 5)]
+            if len(grp) < 3:
+                grp += [x for x in allgrp if x not in grp][:3 - len(grp)]
+            col = TH_FARBE[th]
+            rows.append(spacer(34) + f'<tr><td bgcolor="{col}" style="background:{col};border-radius:12px;padding:16px 20px;{F}"><div style="font-size:20px;line-height:1.2;font-weight:800;color:#FFFFFF;">{esc(th)}</div>'
+                        f'<div style="font-size:12px;color:#FFFFFF;opacity:.85;margin-top:3px;">{len(allgrp)} Meldungen heute</div></td></tr>' + spacer(10))
+            rows.append(compact_card(grp))
+            used.update(x["id"] for x in grp)
 
     url = app_url() if app_link else ""  # Link zur App nur auf Wunsch (das Team hat die App nicht)
     long_d = long_date(date)
