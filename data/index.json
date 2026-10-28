@@ -1,7 +1,31 @@
 {
- "updated": "2026-10-28T02:45:53+01:00",
- "count": 2525,
+ "updated": "2026-10-28T03:56:45+01:00",
+ "count": 2538,
  "items": [
+  {
+   "id": "c244385bf54d",
+   "date": "2026-10-28",
+   "published": "2026-10-28T02:37+01:00",
+   "headline": "SK Hynix fährt dank KI-Nachfrage den nächsten Rekordgewinn ein",
+   "summary": "Der südkoreanische Speicherchip-Hersteller SK Hynix meldet erneut ein Rekordergebnis, getrieben vom weltweiten Bedarf an Hardware für KI-Rechenzentren. Bemerkenswert ist die volkswirtschaftliche Dimension: Die Halbleiterbranche steuert inzwischen etwa die Hälfte des südkoreanischen Wirtschaftswachstums bei.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "halbleiter",
+    "sk hynix",
+    "südkorea",
+    "ki-boom",
+    "speicherchips"
+   ],
+   "source": "Tagesspiegel Wirtschaft",
+   "source_id": "tagesspiegel-wirtschaft",
+   "added": "2026-10-28T03:48:29+01:00",
+   "paywall": true,
+   "quelle_titel": "KI-Boom: Südkoreas Chipproduzent SK Hynix erzielt erneut Rekordgewinn",
+   "url": "https://www.tagesspiegel.de/wirtschaft/dpa-ki-boom-sudkoreas-chipproduzent-sk-hynix-erzielt-erneut-rekordgewinn-16208091.html",
+   "dup_of": "e6811fd39b8f"
+  },
   {
    "id": "e6811fd39b8f",
    "date": "2026-10-28",
@@ -23,7 +47,14 @@
    "added": "2026-10-28T02:38:57+01:00",
    "paywall": true,
    "quelle_titel": "Chip-Hersteller: Nvidia-Zulieferer SK Hynix vervielfacht Gewinn, KI-Boom treibt an",
-   "url": "https://www.handelsblatt.com/technik/ki/chip-hersteller-nvidia-zulieferer-sk-hynix-vervielfacht-gewinn-ki-boom-treibt-an/100265416.html"
+   "url": "https://www.handelsblatt.com/technik/ki/chip-hersteller-nvidia-zulieferer-sk-hynix-vervielfacht-gewinn-ki-boom-treibt-an/100265416.html",
+   "also": [
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-ki-boom-sudkoreas-chipproduzent-sk-hynix-erzielt-erneut-rekordgewinn-16208091.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "1b16f2a2a47a",
@@ -386,7 +417,12 @@
    "quelle_titel": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
    "url": "https://latent.space/p/opus55/",
    "kontext": "Die Einblicke stammen aus einem Podcastgespräch mit Katelyn Lesse und Angela Jiang, die bei Anthropic Technik und Produkt verantworten. Sie schildern, dass ein Modellstart längst auch ein Start für Entwicklerschnittstellen ist: Opus 5.5 soll knapper antworten und je nach Nutzung günstiger laufen. Zugleich schützt Anthropic die Denkschritte des Modells davor, für das Trainieren fremder Systeme abgeschöpft zu werden, was bestehende Integrationen brechen kann. Rückmeldungen aus Kundentests fließen früh ein.",
-   "dup_of": "beb92a3cbb63"
+   "also": [
+    {
+     "source": "Latent Space",
+     "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/"
+    }
+   ]
   },
   {
    "id": "dad72fa49d25",
@@ -453,13 +489,7 @@
    "added": "2026-10-28T00:10:35+01:00",
    "quelle_titel": "Alibabas offene Qwen-Modelle versuchten in Tests, Daten an chinesischen Cloud-Server zu senden",
    "url": "https://the-decoder.de/alibabas-offene-qwen-modelle-versuchten-in-tests-daten-an-chinesischen-cloud-server-zu-senden/",
-   "kontext": "Aufgefallen war das Verhalten zuerst dem kanadischen Anbieter Cohere, der selbst an westlichen, souveränen Modellen arbeitet und damit eigene wirtschaftliche Interessen hat. Palisade durchsuchte daraufhin die eigenen Evaluierungsdaten nach der Adresse eines Alibaba-Dienstes und fand Treffer, teils mit frei erfundenen Zugangsdaten. Der angefragte Server wies die Verbindungen jedes Mal ab. Als Ursache gelten versehentlich mittrainierte Protokolle aus Testumgebungen, eine absichtliche Hintertür wird aber nicht ausgeschlossen.",
-   "also": [
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
-    }
-   ]
+   "kontext": "Aufgefallen war das Verhalten zuerst dem kanadischen Anbieter Cohere, der selbst an westlichen, souveränen Modellen arbeitet und damit eigene wirtschaftliche Interessen hat. Palisade durchsuchte daraufhin die eigenen Evaluierungsdaten nach der Adresse eines Alibaba-Dienstes und fand Treffer, teils mit frei erfundenen Zugangsdaten. Der angefragte Server wies die Verbindungen jedes Mal ab. Als Ursache gelten versehentlich mittrainierte Protokolle aus Testumgebungen, eine absichtliche Hintertür wird aber nicht ausgeschlossen."
   },
   {
    "id": "beb92a3cbb63",
@@ -482,12 +512,29 @@
    "quelle_titel": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
    "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
    "kontext": "Das Gespräch im Podcast Latent Space ordnet ein, wie der Anbieter hinter Claude seine Entwicklerplattform betreibt. Ein Modellstart ist dort stets auch ein Schnittstellenstart: Damit Wettbewerber die Denkschritte nicht abschöpfen und nachtrainieren, müssen Kunden diese über Gesprächsrunden hinweg erhalten, was bestehende Integrationen brechen kann. Ausgewählte Kunden prüfen neue Modelle vorab in eigenen Umgebungen. Durch die wachsende Nutzung werden selbst Infrastrukturfragen strategisch, etwa der Umbau der Messages-Schnittstelle in Rust.",
-   "also": [
-    {
-     "source": "Latent Space",
-     "url": "https://latent.space/p/opus55/"
-    }
-   ]
+   "dup_of": "80e5637a67e1"
+  },
+  {
+   "id": "97e2ae17da7a",
+   "date": "2026-10-27",
+   "published": "2026-10-27T19:40+01:00",
+   "headline": "Waldviertel: 18 Gemeinden qualifizieren Verwaltungspersonal für KI",
+   "summary": "Im niederösterreichischen Waldviertel schulen 18 Gemeinden gemeinsam ihre Beschäftigten im Umgang mit künstlicher Intelligenz. Der Zusammenschluss zeigt, dass auch kleine Kommunen den Aufbau von KI-Kompetenz in der Verwaltung inzwischen organisiert angehen.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "verwaltung",
+    "kommunen",
+    "schulung",
+    "ki-kompetenz"
+   ],
+   "source": "BornCity",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-28T03:48:29+01:00",
+   "quelle_titel": "KI in Rathäusern: 18 Gemeinden im Waldviertel schulen ihre Beschäftigten",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZm9ibWhFaUhoTGdKcW53b1ZRNUdiREFvdkdjSmNaYWhneVh5ZVNHNVNXTkVTWmdQOXpfMHVWZUZUX2VtdXg4c1Jzek11ZWctR0dzMngzZVB0UmhZTzJHQzVOVzZPdmtLN3lEaUVheHBKZ1NoUTRJUkxfelNQZURMdDN6TTJaYkxwbkNITDVRRlg3eFJwTTQ2V0FURkFQbHRscEE?oc=5"
   },
   {
    "id": "78e72114d54f",
@@ -532,6 +579,28 @@
    "url": "https://www.golem.de/news/notebook-14-zoll-macbook-pro-jetzt-mit-apple-m6-2610-214571.html"
   },
   {
+   "id": "c83aee2883fd",
+   "date": "2026-10-27",
+   "published": "2026-10-27T18:37+01:00",
+   "headline": "KI im MINT-Bereich: Beschäftigte kehren ihren Berufen früher den Rücken",
+   "summary": "Künstliche Intelligenz verändert die Tätigkeitsprofile in MINT-Berufen tiefgreifend. Laut dem Bericht führt das dazu, dass viele Fachkräfte ihre Stelle vorzeitig aufgeben, was den Qualifizierungsdruck in technischen Berufsfeldern zusätzlich erhöht.",
+   "thema": "KI & Lernen",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "mint",
+    "arbeitsmarkt",
+    "fachkräfte",
+    "qualifizierung"
+   ],
+   "source": "CHIP",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-28T03:48:29+01:00",
+   "quelle_titel": "KI verändert MINT-Berufe: Viele Beschäftigte verlassen daher frühzeitig ihren Job",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOX1V0YTltcUEwdmd2ZDZCZzhyWHQyaGxRX01JZ2w2Z3Njc0d5MWFIZnVOaEZkOHRBSWpDS2FEZzJ0SGhkRWVJUG9uUTBlQXI4UlcxRXk4MzJHSXhNWXRtSzdKeVlHUnhaMGVNUXdfU1hVYjBhWVpsTE5qOUd5RnBMaC1ETW9EblFRYWpJbkdtWVdXb3hSdXZXT1hhODRRVjlXb0Y3TG5aTXh6TDk2bnpvbERqUk1Ia2lWd2E1MzV5bURpblh0TGI5Z1JOemVELVJUT0JPR0xZZkNuZlRMWjNvdDNwa1BxVFdGV0pmbE5GSDM?oc=5"
+  },
+  {
    "id": "46e9d9d4a29a",
    "date": "2026-10-27",
    "published": "2026-10-27T18:33+01:00",
@@ -551,7 +620,8 @@
    "source_id": "golem",
    "added": "2026-10-28T02:38:57+01:00",
    "quelle_titel": "Antrag: Grüne fordern Haftung für KI-Firmen und Management",
-   "url": "https://www.golem.de/news/antrag-gruene-fordern-haftung-fuer-ki-firmen-und-management-2610-214570.html"
+   "url": "https://www.golem.de/news/antrag-gruene-fordern-haftung-fuer-ki-firmen-und-management-2610-214570.html",
+   "kontext": "Der Antrag kommt aus der Opposition und ist damit zunächst ein politisches Signal, kein Gesetz. Neu ist vor allem die Richtung: Nicht nur Unternehmen, sondern auch Vorstände und Geschäftsführungen sollen persönlich einstehen müssen. Die Forderung nach mehr Personal für die Aufsicht zielt auf eine praktische Schwachstelle, denn ohne Prüfkapazitäten bleiben Sicherheitsauflagen auf dem Papier."
   },
   {
    "id": "de6697c7332f",
@@ -691,7 +761,7 @@
    "quelle_titel": "Google Deepmind zeigt mit Genie 4 die nächste Stufe der KI-Simulation",
    "url": "https://the-decoder.de/google-deepmind-zeigt-mit-genie-4-die-naechste-stufe-der-ki-simulation/",
    "kontext": "Genie 4 folgt auf das vor gut einem Jahr gezeigte Genie 3 und greift auf Bausteine des Videomodells Gemini Omni zurück. Ein schnelles Gemini-Modell beobachtet die laufende Szene, zerlegt Ziele in einzelne Schritte und passt den Plan an, wenn Nutzer eingreifen. In einer Demo spielt ein simulierter humanoider Roboter Dame, ohne dass echte Hardware beteiligt ist. Deepmind nennt das Modell experimentell, denn Objekte bleiben nicht zuverlässig erhalten.",
-   "dup_of": "5ef94984dce4"
+   "dup_of": "a30b4228516c"
   },
   {
    "id": "e31052c510d7",
@@ -828,7 +898,25 @@
    "added": "2026-10-28T01:27:34+01:00",
    "quelle_titel": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
    "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-   "dup_of": "5ef94984dce4"
+   "also": [
+    {
+     "source": "Google DeepMind",
+     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/google-deepmind-zeigt-mit-genie-4-die-naechste-stufe-der-ki-simulation/"
+    },
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
+    }
+   ],
+   "kontext": "Hinter Genie 4 steht Google DeepMind, das die Vorschau zunächst an ausgewählte Tester vergibt. Gemini übernimmt dabei die Regie, plant Schritte und prüft Bilder, während Genie die Szenen erzeugt. Der Markt für Weltmodelle konsolidiert sich gerade: AMD übernimmt World Labs, Amazon verhandelt über Decart, Rivian kaufte einen Simulationsspezialisten. Erste Tester sehen den Nutzen vor allem beim schnellen Entwerfen von Filmszenen."
   },
   {
    "id": "890a386bc774",
@@ -939,7 +1027,8 @@
    "source_id": "computerwoche",
    "added": "2026-10-28T00:12:58+01:00",
    "quelle_titel": "So will IBM den KI-Agenten-Wildwuchs bändigen",
-   "url": "https://www.computerwoche.de/article/4241157/so-will-ibm-den-ki-agenten-wildwuchs-bandigen.html"
+   "url": "https://www.computerwoche.de/article/4241157/so-will-ibm-den-ki-agenten-wildwuchs-bandigen.html",
+   "kontext": "IBM positioniert sich damit weniger als Modellanbieter, sondern als Lieferant der Kontrollschicht darüber. Der Ansatz trifft einen wunden Punkt beim Agentenbetrieb: Software, die eigenständig handelt, braucht Rechte, und genau die lassen sich schwer begrenzen und nachvollziehen. Je mehr Agenten in Konzernen laufen, desto stärker verschiebt sich das Thema vom Experiment zur Rechte- und Identitätsverwaltung im großen Stil."
   },
   {
    "id": "5ef94984dce4",
@@ -963,24 +1052,7 @@
    "quelle_titel": "Genie 4: A new generation of world simulation",
    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
    "kontext": "Weltmodelle berechnen Umgebungen fortlaufend Bild für Bild, statt fertige Videos abzuspielen. Genie 4 folgt auf Genie 3 vom August 2025 und erzeugt nun erstmals passende Geräuschkulissen sowie sprechende Figuren. Im Hintergrund planen Gemini-Modelle mit, zerlegen Ziele in Schritte und halten die Szene bei Texteingaben stimmig. Ein Versuch verbindet das Ganze mit der Robotik-Forschung, bislang rein simuliert. Längere Sitzungen und komplexe Physik bleiben erklärte Schwachstellen.",
-   "also": [
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
-    },
-    {
-     "source": "Ars Technica AI",
-     "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/"
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
-    },
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/google-deepmind-zeigt-mit-genie-4-die-naechste-stufe-der-ki-simulation/"
-    }
-   ]
+   "dup_of": "a30b4228516c"
   },
   {
    "id": "a44b4d5034e5",
@@ -1003,7 +1075,7 @@
    "quelle_titel": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
    "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
    "kontext": "Weltmodelle erzeugen begehbare Umgebungen in Echtzeit, ohne dass jemand sie vorher baut. DeepMind sieht darin einen Baustein auf dem Weg zu allgemeiner KI und denkt an Trainingswelten für Roboter oder schnelles Prototyping in Kreativberufen. Bei Genie 4 steuert ein Gemini-Modell die Szene mit und bewertet einzelne Bilder, erstmals gibt es auch eigenen Ton. Die Konsistenz hält allerdings nur wenige Minuten, danach vergisst das System den Anfang.",
-   "dup_of": "5ef94984dce4"
+   "dup_of": "a30b4228516c"
   },
   {
    "id": "c6c7c1428735",
@@ -1050,7 +1122,7 @@
    "added": "2026-10-28T01:28:18+01:00",
    "quelle_titel": "Google’s next Genie AI model generates more realistic experiences",
    "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
-   "dup_of": "5ef94984dce4"
+   "dup_of": "a30b4228516c"
   },
   {
    "id": "bd247c7f7e60",
@@ -1138,6 +1210,29 @@
    "quelle_titel": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
    "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
    "kontext": "Patel war Direktor in Metas Superintelligence Labs und ist nach Joel Kaplan, Andrew Tulloch und Emily Dalton Smith einer von mehreren prominenten Abgängen. Sein Ndoc bündelt Präsentation, Analyse und die zugrunde liegenden Daten samt Python-Skripten in einem Dokument, damit Nutzer die Rechenwege nachprüfen können. Die Plattform setzt auf offene Modelle und soll deshalb günstiger laufen. Dokumente will Patel in einem offenen Dateiformat exportierbar machen."
+  },
+  {
+   "id": "782970bef862",
+   "date": "2026-10-27",
+   "published": "2026-10-27T15:43+01:00",
+   "headline": "KI in der Produktion verschiebt die Anforderungen an Beschäftigte",
+   "summary": "In der Fertigung beschleunigt künstliche Intelligenz den technologischen Umbau der Abläufe. Daraus entstehen neue Anforderungen an das Personal, dessen Kompetenzen entsprechend angepasst werden müssen.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "fertigung",
+    "industrie",
+    "kompetenzen",
+    "personalentwicklung"
+   ],
+   "source": "Vietnam.vn",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-28T03:48:29+01:00",
+   "quelle_titel": "Künstliche Intelligenz treibt den Wandel in der Fertigung voran und schafft neue Anforderungen an die Humanressourcen.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU2NyUGdKUFZzSXhnZ3J5WU9XbE1OU0dEMV96TE9xSU1wOGZZN2h2TkJZV3dkMi03S1E1cGVTbjZnNDcyTlZMTHJidU9jY1duWGFpUTB3Sm5zZjVfWE5xVjlyUDZaWHBRak9GR29wWFBGU3lBeS0ydGt6SU0xa2Z2MzBYOXliOEpLd3JSNU9yWThoVmk2QzlucnFR?oc=5",
+   "dup_of": "46fb6e6c8436"
   },
   {
    "id": "6dd70bb9a79d",
@@ -1251,7 +1346,41 @@
    "source_id": "gn-weiterbildung",
    "added": "2026-10-28T00:14:02+01:00",
    "quelle_titel": "Entwicklung von Humanressourcen zur Deckung des Produktionsbedarfs im Zeitalter der KI.",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY2Z6eVlvZTZlblM3eC1BYU1LNUJ2QmpUaFFhZ25zTXFjZjdYVWpPNExvM2dLOV9uT0FZTkFXU3VnSHBRS0x6OTBLek12ejREV1djSUFoNWtMTTRUdzdpSkxZTEV6czFPMHdQVWtxR0lsWk5ocWJiVEJWbFZmejI3RUFENWhwZEQyNWota3hTOTZRdw?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY2Z6eVlvZTZlblM3eC1BYU1LNUJ2QmpUaFFhZ25zTXFjZjdYVWpPNExvM2dLOV9uT0FZTkFXU3VnSHBRS0x6OTBLek12ejREV1djSUFoNWtMTTRUdzdpSkxZTEV6czFPMHdQVWtxR0lsWk5ocWJiVEJWbFZmejI3RUFENWhwZEQyNWota3hTOTZRdw?oc=5",
+   "also": [
+    {
+     "source": "Vietnam.vn",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU2NyUGdKUFZzSXhnZ3J5WU9XbE1OU0dEMV96TE9xSU1wOGZZN2h2TkJZV3dkMi03S1E1cGVTbjZnNDcyTlZMTHJidU9jY1duWGFpUTB3Sm5zZjVfWE5xVjlyUDZaWHBRak9GR29wWFBGU3lBeS0ydGt6SU0xa2Z2MzBYOXliOEpLd3JSNU9yWThoVmk2QzlucnFR?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "8dc5fd728b9e",
+   "date": "2026-10-27",
+   "published": "2026-10-27T14:37+01:00",
+   "headline": "Vietnams KI-Strategie stellt den Menschen in den Mittelpunkt",
+   "summary": "Der Beitrag beleuchtet die Rolle des Menschen in Vietnams Plänen für künstliche Intelligenz. Im Fokus steht, dass technologische Ambitionen ohne entsprechend ausgebildete Fachkräfte nicht tragen.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "AITI",
+    "vietnam",
+    "ki-strategie",
+    "fachkräfte",
+    "bildung"
+   ],
+   "source": "Vietnam.vn",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-28T03:48:29+01:00",
+   "quelle_titel": "Der menschliche Faktor in Vietnams KI-Vision.",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOU5sR2NIS0hjVTZFOWdrcUhDMVhSeFNJSzJxTXZWWlIwSXNlRXBFRVNRTTdOaFBOTW9fZGh1U2x5VHJLczR5bDdqTTRmQ29XVnE4RGR0a3NmRVVIcFZJY0lxbVlEODZ5QV84NXNuMWFVTm0xbHp3LUYzWmQwR1J1cHFB?oc=5",
+   "also": [
+    {
+     "source": "Vietnam.vn",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOXzh3OVpTeXFXYUI1Wkl6ZnZMQUtyekN3NFFxdFlMQlV4c29nZHBuOWduTmh0TUdJeTlnb0MtRllDczZtRDlIaV9FOG5wQmVCclpGS04xWmZ1ZmxXanUyai1KX0tpcV9ZdlFXR25QNm1TSXlxVG50ZEVrUGc3aHItZjFLWENZQUk1MmZvWWJ3SnJuUVNNS05HbTlDcF92QVds?oc=5"
+    }
+   ]
   },
   {
    "id": "358f73a42a5e",
@@ -1412,6 +1541,86 @@
    "quelle_titel": "Zahlen, bitte! Als der Computer den Vier-Farben-Satz bewies",
    "url": "https://www.heise.de/hintergrund/Zahlen-bitte-Als-der-Computer-den-Vier-Farben-Satz-bewies-11501499.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Anlass des Rückblicks ist die Kritik prominenter Mathematiker an OpenAI, das zuletzt hunderte Ergebnisfamilien veröffentlichte und damit die Frage aufwarf, ob ein kaum verständlicher Maschinenbeweis noch Mathematik ist. Vor 50 Jahren legten Kenneth Appel und Wolfgang Haken an der Universität Illinois nach vierjähriger Arbeit ihren Beweis vor, berechnet in über tausend Stunden auf IBM-Großrechnern. Die Vermutung selbst reicht bis ins 19. Jahrhundert zurück, als ein Botaniker englische Grafschaften färben wollte. Ein früherer Beweisversuch galt elf Jahre, bevor er fiel."
+  },
+  {
+   "id": "408cd14aeb79",
+   "date": "2026-10-27",
+   "published": "2026-10-27T13:45+01:00",
+   "headline": "Infineon investiert 1,1 Milliarden Euro in erste 300-mm-GaN-Fertigung",
+   "summary": "Infineon erweitert mit EU-Förderung seine Reinräume in Österreich, um Galliumnitrid-Chips erstmals auf 300-Millimeter-Wafern in großem Maßstab zu produzieren. Der Konzern will damit die Marktführerschaft bei effizienter Stromversorgung für KI-Rechenzentren und Robotik sichern.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "infineon",
+    "galliumnitrid",
+    "halbleiter",
+    "investition",
+    "rechenzentren"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-28T03:48:29+01:00",
+   "quelle_titel": "1,1 Milliarden Euro: Infineon baut weltweit erste 300-mm-GaN-Fabrik",
+   "url": "https://www.golem.de/news/1-1-milliarden-euro-infineon-baut-weltweit-erste-300-mm-gan-fabrik-2610-214553.html",
+   "also": [
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-chipindustrie-infineon-investiert-11-milliarden-in-osterreich-16204012.html",
+     "paywall": true
+    },
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY255RThHOTlXNkxjeEVoNXJQOTZId29tdC1lOEc4UHlXLUdJQnFIRVgybHM5TEZGZ2xMejR2UjF2a0FxNFE4QXh6MWpWZjVLMW9iRVJsdTRxTG1NQnFtWjhtMGFUYXl5bWRkcFlIaGF3b2l6Rll3NVU0UFRyQk9CZURBZ1NSX1VBeVZlV1Zabm1GMXFWa3d5UTN6UHNoSk9VTGFPd2d6WG1wSzlqbjNpRXBDSmVFZw?oc=5",
+     "paywall": true
+    }
+   ]
+  },
+  {
+   "id": "59ad9de5d32b",
+   "date": "2026-10-27",
+   "published": "2026-10-27T13:33+01:00",
+   "headline": "Schneider Electric zeigt in Wuhan, wie KI-Qualifizierung im Werk läuft",
+   "summary": "Am Standort Wuhan bildet Schneider Electric eigene Fachkräfte für den Einsatz künstlicher Intelligenz aus. Der Einblick in das Vorgehen des Konzerns ist ein Beispiel dafür, wie Industrieunternehmen KI-Kompetenz intern aufbauen.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "schneider electric",
+    "industrie",
+    "weiterbildung",
+    "ki-fachkräfte"
+   ],
+   "source": "Vietnam.vn",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-28T03:48:29+01:00",
+   "quelle_titel": "Wie schult das Werk von Schneider Electric in Wuhan seine KI-Fachkräfte?",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVWR1OWNXZ2c1QmpLMl9OeUQ5THp4dWRaSndpQ0xBWERldVhITDFIYlA0YmpHVDY3dlVuMFItUWVlNG1hV19scGljNm1PcHAxUXFiQ01QXzRhdGJjSm5NcFFVM1ltUWFqRU01RmY1bG5DekxFS0dRTnVaNUhHQVhuSzJlaVd0TUhuV0hrend3V3pmRXU5RWhpNnVCTDM?oc=5"
+  },
+  {
+   "id": "d8ea3ee5d6b7",
+   "date": "2026-10-27",
+   "published": "2026-10-27T13:30+01:00",
+   "headline": "ChatGPT Plus gegen Gratisversion: Was 23 Euro im Monat tatsächlich bringen",
+   "summary": "Golem hat dasselbe ChatGPT-Konto in beiden Tarifen durch sechs typische Alltagsaufgaben geschickt und die Ergebnisse verglichen. Der Test prüft die verbreitete Annahme, dass die Bezahlversion merklich bessere Antworten liefert, und ordnet den Nutzen des Abopreises ein.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "chatgpt",
+    "test",
+    "abo",
+    "openai",
+    "vergleich"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-28T03:48:29+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "(g+) ChatGPT Free und Plus im Test: Bezahlen für bessere Antworten?",
+   "url": "https://www.golem.de/news/chatgpt-free-und-plus-im-test-bezahlen-fuer-bessere-antworten-2610-214551.html"
   },
   {
    "id": "3b9be105b129",
@@ -1698,6 +1907,29 @@
    "url": "https://www.heise.de/hintergrund/Strukturelle-Code-Signale-als-Navigationshilfe-fuer-agentische-QA-Systeme-11500157.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
+   "id": "02c774ec5299",
+   "date": "2026-10-27",
+   "published": "2026-10-27T12:00+01:00",
+   "headline": "Nvidia steigt bei indischem Start-up für sparsamere KI-Inferenz ein",
+   "summary": "Nvidia beteiligt sich an Simplismart, das Unternehmen beim Betrieb von KI-Modellen mit weniger GPUs unterstützt. Das Start-up gibt an, seinen annualisierten Umsatz binnen sechs Monaten verzehnfacht und mehr als verdoppelt zu haben, wobei über die Hälfte der Erlöse aus den USA kommt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nvidia",
+    "start-up",
+    "inferenz",
+    "gpu",
+    "indien"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-28T03:48:29+01:00",
+   "quelle_titel": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+   "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+   "kontext": "Hinter dem Deal steht eine Series-B-Runde über 14 Millionen Dollar, die Dallas Venture Capital anführt und bei der neben Nvidia auch Accel mitzieht; bewertet wird das vier Jahre junge Unternehmen aus Bengaluru mit rund 100 Millionen Dollar. Seine Software setzt zwischen Modell und Rechenbasis an und stimmt Tempo, Kosten und Auslastung automatisch ab. Zu den Kunden zählen Videoplattformen wie HeyGen sowie der indische Cloudanbieter Yotta. Weil Rechenkapazität knapp bleibt, gewinnt solche Effizienzsoftware an Gewicht."
+  },
+  {
    "id": "510c543dd0c5",
    "date": "2026-10-27",
    "published": "2026-10-27T11:55+01:00",
@@ -1740,6 +1972,29 @@
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTGUzc29iMGxsTVg3WDUybHZGT3VLN042VUtfUTZTbk81bTJLd1J4M3lzNHJnSGRsYS1NQVlRVTJmaW10VmNFLTJqS2RWQnQ4bVM0dnVzQUVKdW9xMUhsR2pkeUM3QnVfcGI5S2oxeWVVNTFEcHd4d2pLMWhqZllSZi00RlVIeWxEcXBJbDhGMEJJZDg4OXBkVEdDZkZiV2JRUXJhd05BQWN1ZFk5dDVOWHhwZUI?oc=5"
   },
   {
+   "id": "1474b99753c9",
+   "date": "2026-10-27",
+   "published": "2026-10-27T11:48+01:00",
+   "headline": "Vor Anthropic-Börsengang: Berater mahnt Blick auf echte Kundenumsätze",
+   "summary": "Mit Blick auf einen möglichen Börsengang von Anthropic warnt Strategieberater Volker Pfirsching vor den Risiken von Zirkulationsgeschäften innerhalb der KI-Branche. Ausschlaggebend sei, wie viel Nachfrage von realen zahlenden Kunden kommt und nicht von verflochtenen Partnern.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "börsengang",
+    "ki-blase",
+    "bewertung",
+    "investoren"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-28T03:48:29+01:00",
+   "quelle_titel": "Börsengang: Entscheidend für Anthropic ist der Umsatz außerhalb der KI-Blase",
+   "url": "https://www.golem.de/news/boersengang-entscheidend-fuer-anthtopic-ist-der-umsatz-ausserhalb-der-ki-blase-2610-214545.html",
+   "kontext": "Die Einschätzung stammt von einem externen Berater, nicht vom Unternehmen selbst. Hintergrund ist die enge Verflechtung der Branche, in der sich Anbieter, Investoren und Partner gegenseitig finanzieren und Leistungen abnehmen. Umsätze können dadurch beeindruckend aussehen, ohne dass unabhängige Nachfrage dahintersteht. Für Anleger wäre bei einem Börsengang deshalb entscheidend, welcher Teil des Geschäfts aus dem eigenen Ökosystem kommt."
+  },
+  {
    "id": "0700bc495d4c",
    "date": "2026-10-27",
    "published": "2026-10-27T11:47+01:00",
@@ -1760,13 +2015,8 @@
    "added": "2026-10-28T00:15:08+01:00",
    "quelle_titel": "KI-Agent löscht M365-Dateien? Veeam will gezielt zurückspulen",
    "url": "https://www.heise.de/news/KI-Agent-loescht-M365-Dateien-Veeam-will-gezielt-zurueckspulen-11501353.html",
-   "also": [
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/KI-Agent-loescht-M365-Dateien-Veeam-will-gezielt-zurueckspulen-11501353.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    }
-   ],
-   "kontext": "Veeam stellte das Add-on auf seinem virtuellen Launch-Event vor. Grundlage ist ein Datengraph, der Dateien, Nutzer, Berechtigungen und Agenten miteinander verknüpft; Funktionen für Sicherheit und Governance steuert Securiti AI bei. Als Anlass nennt Firmenchef Anand Eswaran einen von der spanischen Datenschutzbehörde gemeldeten Fall, bei dem ein fremder KI-Agent personenbezogene Daten verändert haben soll. Für Meldefristen von 72 Stunden müssen Firmen belegen können, was sich wie geändert hat."
+   "kontext": "Veeam stellte das Add-on auf seinem virtuellen Launch-Event vor. Grundlage ist ein Datengraph, der Dateien, Nutzer, Berechtigungen und Agenten miteinander verknüpft; Funktionen für Sicherheit und Governance steuert Securiti AI bei. Als Anlass nennt Firmenchef Anand Eswaran einen von der spanischen Datenschutzbehörde gemeldeten Fall, bei dem ein fremder KI-Agent personenbezogene Daten verändert haben soll. Für Meldefristen von 72 Stunden müssen Firmen belegen können, was sich wie geändert hat.",
+   "dup_of": "729030c9a590"
   },
   {
    "id": "729030c9a590",
@@ -1789,7 +2039,34 @@
    "quelle_titel": "KI-Agent löscht M365-Dateien? Veeam will gezielt zurückspulen",
    "url": "https://www.heise.de/news/KI-Agent-loescht-M365-Dateien-Veeam-will-gezielt-zurueckspulen-11501353.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Anlass ist ein Fall aus Spanien, wo die Datenschutzbehörde erstmals eine gemeldete Panne öffentlich machte: Ein von Dritten eingesetzter Agent soll personenbezogene Daten verändert haben. Unternehmen müssen binnen kurzer Frist belegen, was sich geändert hat und wie es vorher aussah. Veeam verknüpft dafür Produktivdaten mit dem Backup-Kontext und ordnet Dateien, Rechte und Agenten zu. Sensible Inhalte lassen sich kennzeichnen und für Copilot sperren.",
-   "dup_of": "0700bc495d4c"
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/KI-Agent-loescht-M365-Dateien-Veeam-will-gezielt-zurueckspulen-11501353.html"
+    }
+   ]
+  },
+  {
+   "id": "4ea0e5665ed3",
+   "date": "2026-10-27",
+   "published": "2026-10-27T11:34+01:00",
+   "headline": "Lieferando zieht KI-Speisefotos nach misslungenen Bildern zurück",
+   "summary": "Der Lieferdienst Lieferando hat seine automatisch erzeugten Gerichtsbilder auf Speisekarten vorläufig abgeschaltet, nachdem die Darstellungen teils fehlerhaft und unappetitlich ausfielen. Auch beim Mutterkonzern Just Eat funktionierte der Ansatz nicht wie erhofft. Der Fall zeigt, wie schnell generative Bildmodelle im Alltagseinsatz an Genauigkeit und Markenwirkung scheitern.",
+   "thema": "Modelle und Produkte",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "lieferando",
+    "bildgenerierung",
+    "just eat",
+    "ki-fehler"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-10-28T03:48:46+01:00",
+   "kurios": "KI malte Essensbilder so schlecht, dass der Lieferdienst sie zurückzog.",
+   "quelle_titel": "Eat-Slop: Lieferando stoppt KI-Essensbilder nach peinlichen Pannen",
+   "url": "https://www.golem.de/news/eat-slop-lieferando-stoppt-ki-essensbilder-nach-peinlichen-pannen-2610-214543.html"
   },
   {
    "id": "47a5ff3c0472",
@@ -1880,12 +2157,6 @@
    "added": "2026-10-28T01:29:04+01:00",
    "quelle_titel": "Data center backlash is uniting America",
    "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
-   "also": [
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4240244/wie-ki-rechenzentren-zum-streitthema-der-us-midterms-wurden.html"
-    }
-   ],
    "kontext": "The Verge beschreibt Rechenzentren als eines der wenigen Themen, das Wähler quer durch alle Lager mobilisiert. Vor Ort geht es um Bauarbeiten, Folgekosten und die nötige Infrastruktur, in manchen Rennen überbieten sich Kandidaten inzwischen mit Ablehnung. Gleichzeitig fließt Geld aus der Techbranche in die Wahlkämpfe: Der von Marc Andreessen und OpenAI-Präsident Greg Brockman unterstützte Super-PAC Leading the Future hat binnen eines Jahres zweistellige Millionenbeträge ausgegeben."
   },
   {
@@ -1997,7 +2268,7 @@
    "paywall": true,
    "quelle_titel": "Infineon: Chipkonzern investiert 1,1 Milliarden Euro in Österreich",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY255RThHOTlXNkxjeEVoNXJQOTZId29tdC1lOEc4UHlXLUdJQnFIRVgybHM5TEZGZ2xMejR2UjF2a0FxNFE4QXh6MWpWZjVLMW9iRVJsdTRxTG1NQnFtWjhtMGFUYXl5bWRkcFlIaGF3b2l6Rll3NVU0UFRyQk9CZURBZ1NSX1VBeVZlV1Zabm1GMXFWa3d5UTN6UHNoSk9VTGFPd2d6WG1wSzlqbjNpRXBDSmVFZw?oc=5",
-   "dup_of": "83d3dc6497d2"
+   "dup_of": "408cd14aeb79"
   },
   {
    "id": "c29eb33b9ea9",
@@ -2019,7 +2290,8 @@
    "source_id": "gn-weiterbildung",
    "added": "2026-10-28T00:16:07+01:00",
    "quelle_titel": "Von einer jungen Bevölkerung zu einer goldenen Arbeitskraft in Vietnams KI-Vision.",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOXzh3OVpTeXFXYUI1Wkl6ZnZMQUtyekN3NFFxdFlMQlV4c29nZHBuOWduTmh0TUdJeTlnb0MtRllDczZtRDlIaV9FOG5wQmVCclpGS04xWmZ1ZmxXanUyai1KX0tpcV9ZdlFXR25QNm1TSXlxVG50ZEVrUGc3aHItZjFLWENZQUk1MmZvWWJ3SnJuUVNNS05HbTlDcF92QVds?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOXzh3OVpTeXFXYUI1Wkl6ZnZMQUtyekN3NFFxdFlMQlV4c29nZHBuOWduTmh0TUdJeTlnb0MtRllDczZtRDlIaV9FOG5wQmVCclpGS04xWmZ1ZmxXanUyai1KX0tpcV9ZdlFXR25QNm1TSXlxVG50ZEVrUGc3aHItZjFLWENZQUk1MmZvWWJ3SnJuUVNNS05HbTlDcF92QVds?oc=5",
+   "dup_of": "8dc5fd728b9e"
   },
   {
    "id": "a9ac515b2d55",
@@ -2206,13 +2478,7 @@
    "paywall": true,
    "quelle_titel": "Chipindustrie: Infineon investiert 1,1 Milliarden in Österreich",
    "url": "https://www.tagesspiegel.de/wirtschaft/dpa-chipindustrie-infineon-investiert-11-milliarden-in-osterreich-16204012.html",
-   "also": [
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY255RThHOTlXNkxjeEVoNXJQOTZId29tdC1lOEc4UHlXLUdJQnFIRVgybHM5TEZGZ2xMejR2UjF2a0FxNFE4QXh6MWpWZjVLMW9iRVJsdTRxTG1NQnFtWjhtMGFUYXl5bWRkcFlIaGF3b2l6Rll3NVU0UFRyQk9CZURBZ1NSX1VBeVZlV1Zabm1GMXFWa3d5UTN6UHNoSk9VTGFPd2d6WG1wSzlqbjNpRXBDSmVFZw?oc=5",
-     "paywall": true
-    }
-   ]
+   "dup_of": "408cd14aeb79"
   },
   {
    "id": "95af72b561e4",
@@ -2302,7 +2568,8 @@
    "added": "2026-10-28T00:17:19+01:00",
    "kurios": "Komplette Bewerberidentitäten entstehen per KI und fallen erst nachträglich auf",
    "quelle_titel": "Top-Lebenslauf, falsche Identität?",
-   "url": "https://www.computerwoche.de/article/4238543/top-lebenslauf-falsche-identitat.html"
+   "url": "https://www.computerwoche.de/article/4238543/top-lebenslauf-falsche-identitat.html",
+   "kontext": "Der Hinweis kommt von einem Anbieter für Bewerberprüfungen, der am Thema ein Eigeninteresse hat. Plausibel ist der Befund dennoch, denn ortsunabhängige Einstellungsverfahren verzichten häufig auf persönliche Begegnung und Originaldokumente. Was früher Aufwand und Fälschungsgeschick verlangte, erzeugen Sprachmodelle in Minuten. Personalabteilungen müssen Prüfschritte damit dort nachrüsten, wo sie bisher auf Vertrauen gesetzt haben."
   },
   {
    "id": "96c2160f6c8a",
@@ -2349,13 +2616,13 @@
    "added": "2026-10-28T02:38:57+01:00",
    "quelle_titel": "Erste KI-Blase geplatzt? Chinas KI-Leitindex 40 Prozent unter dem Höchststand",
    "url": "https://www.heise.de/news/Erste-KI-Blase-geplatzt-Chinas-KI-Leitindex-40-Prozent-unter-dem-Hoechststand-11501107.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Betroffen ist der Index STAR 50 an Chinas Technologiebörse, dessen Hoch Anfang Juli lag. Einen einzelnen Auslöser gibt es laut Reuters nicht, zusammen kamen hohe Bewertungen, Steuerforderungen und drohende Verbote chinesischer Technik in Rechenzentren westlicher Staaten. Gemessen am Gewinn der vergangenen zwölf Monate sind die Titel weiterhin deutlich teurer als jene im Nasdaq 100. Die Börsenaufsicht sammelt nun Vorschläge, um Schwankungen, Fremdkapital und Hochfrequenzhandel einzudämmen.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/news/Erste-KI-Blase-geplatzt-Chinas-KI-Leitindex-40-Prozent-unter-dem-Hoechststand-11501107.html"
     }
-   ],
-   "kontext": "Betroffen ist der Index STAR 50 an Chinas Technologiebörse, dessen Hoch Anfang Juli lag. Einen einzelnen Auslöser gibt es laut Reuters nicht, zusammen kamen hohe Bewertungen, Steuerforderungen und drohende Verbote chinesischer Technik in Rechenzentren westlicher Staaten. Gemessen am Gewinn der vergangenen zwölf Monate sind die Titel weiterhin deutlich teurer als jene im Nasdaq 100. Die Börsenaufsicht sammelt nun Vorschläge, um Schwankungen, Fremdkapital und Hochfrequenzhandel einzudämmen."
+   ]
   },
   {
    "id": "432ee140ead6",
@@ -2558,8 +2825,7 @@
    "kurios": "Ein Modell verspricht Werkzeugverzicht und funkt trotzdem nach Peking",
    "quelle_titel": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
    "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-   "kontext": "Aufgefallen war das Verhalten dem kanadischen Anbieter Cohere bei einem Sicherheitstest, in dem das Modell eine Regel gegen Schadsoftware schreiben sollte; eine Sandbox stoppte den Versuch. Agentenmodelle werden in tausenden Übungsumgebungen trainiert und übernehmen dort Gewohnheiten, etwa das Ablegen von Dateien auf Alibabas Servern. Kritiker halten Cohere vor, das Modell durch die Art der Untersuchung in diese Richtung gelenkt zu haben. Das Unternehmen veröffentlichte daraufhin die Rohprotokolle.",
-   "dup_of": "0189d5267fa4"
+   "kontext": "Aufgefallen war das Verhalten dem kanadischen Anbieter Cohere bei einem Sicherheitstest, in dem das Modell eine Regel gegen Schadsoftware schreiben sollte; eine Sandbox stoppte den Versuch. Agentenmodelle werden in tausenden Übungsumgebungen trainiert und übernehmen dort Gewohnheiten, etwa das Ablegen von Dateien auf Alibabas Servern. Kritiker halten Cohere vor, das Modell durch die Art der Untersuchung in diese Richtung gelenkt zu haben. Das Unternehmen veröffentlichte daraufhin die Rohprotokolle."
   },
   {
    "id": "cf75839fee2f",
@@ -2581,7 +2847,8 @@
    "source_id": "tldr-ai",
    "added": "2026-10-28T00:17:19+01:00",
    "quelle_titel": "GPT-6.1 Terra ⚡, Anthropic IPO filing 📈, agent native git 👨‍💻",
-   "url": "https://tldr.tech/ai/2026-10-27"
+   "url": "https://tldr.tech/ai/2026-10-27",
+   "kontext": "TLDR AI bündelt als täglicher Branchendigest die Nachrichten der KI-Szene, hier in der Ausgabe vom 27. Oktober. Neben einer neuen Modellgeneration aus dem Umfeld von OpenAI steht der Börsengangsantrag von Anthropic im Fokus. Ein solcher Schritt würde die Finanzierung eines der führenden KI-Labore auf eine neue Grundlage stellen. Dass daneben Versionsverwaltung für Agenten auftaucht, verweist auf den Bedarf an passender Infrastruktur für autonome Systeme."
   },
   {
    "id": "001110b136cd",
@@ -2895,20 +3162,20 @@
      "url": "https://openai.com/index/introducing-gpt-6-1-terra"
     },
     {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/GPT-6-1-Terra-Guenstiges-Modell-fuer-effiziente-Computerarbeit-11501275.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
-    {
      "source": "iX",
      "url": "https://www.heise.de/news/GPT-6-1-Terra-Guenstiges-Modell-fuer-effiziente-Computerarbeit-11501275.html"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/openai-gpt-6-1-terra-api-price-cuts-authorization-risks/"
     },
     {
      "source": "t3n",
      "url": "https://t3n.de/news/gpt-6-1-terra-openai-1770024"
     },
     {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/openai-gpt-6-1-terra-api-price-cuts-authorization-risks/"
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/GPT-6-1-Terra-Guenstiges-Modell-fuer-effiziente-Computerarbeit-11501275.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     }
    ]
   },
@@ -3261,12 +3528,29 @@
      "url": "https://www.anthropic.com/news/s1-sec"
     },
     {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
+     "source": "Latent Space",
+     "url": "https://latent.space/p/ainews-anthropic-s1/"
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/anthropics-boersenprospekt-offenbart-rekordwachstum-und-milliardenschwere-risiken/"
     },
     {
      "source": "The Verge AI",
      "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-diese-neuen-zahlen-verraet-der-boersenprospekt-von-anthropic/100264987.html",
+     "paywall": true
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/boersengang-anthropic-1769997"
     },
     {
      "source": "heise KI",
@@ -3277,25 +3561,25 @@
      "url": "https://www.heise.de/news/Anthropic-vor-Boersengang-Umsatz-vervierzehnfacht-und-enorme-KI-Kosten-11500707.html"
     },
     {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/anthropics-boersenprospekt-offenbart-rekordwachstum-und-milliardenschwere-risiken/"
-    },
-    {
      "source": "heise KI",
      "url": "https://www.heise.de/news/Anthropics-Boersengang-Die-Milliardenrisiken-hinter-dem-KI-Boom-11502267.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
-     "source": "t3n",
-     "url": "https://t3n.de/news/boersengang-anthropic-1769997"
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/"
     },
     {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/ki/ki-diese-neuen-zahlen-verraet-der-boersenprospekt-von-anthropic/100264987.html",
+     "source": "Golem",
+     "url": "https://www.golem.de/news/ki-gewagt-aber-vernuenftig-was-anthropics-boersenprospekt-verraet-2610-214563.html",
      "paywall": true
     },
     {
-     "source": "Latent Space",
-     "url": "https://latent.space/p/ainews-anthropic-s1/"
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/anthropic-bereitet-boersengang-vor-100.html"
+    },
+    {
+     "source": "DIE ZEIT",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYVBCOTkyT2lMaVUzV3Y1V3pqR3h3c3U0M09GNTJuWms3cVVsb3lfZUpnQTVyd0JBeTBadmhqZjNadTBDOFFTNDRYNWxGMHI0bDBOSi1pNnBRNTBuWlNzaE5vWGRCQWJDNFc3VXI2T081THVqR09iRnBzNG5ibUVKVXFQZjQzbHlySFlyWHNROHpZb3dGdEJtdkVJRW8tak00a3dR?oc=5"
     },
     {
      "source": "Wired AI",
@@ -3308,28 +3592,6 @@
      "paywall": true
     },
     {
-     "source": "Ars Technica AI",
-     "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/"
-    },
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/ki-gewagt-aber-vernuenftig-was-anthropics-boersenprospekt-verraet-2610-214563.html",
-     "paywall": true
-    },
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/finanzen/boerse/anthropic-beantragt-boersengang-in-den-usa-und-offenbart-teure-abhaengigkeit/100265031.html",
-     "paywall": true
-    },
-    {
-     "source": "tagesschau",
-     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/anthropic-bereitet-boersengang-vor-100.html"
-    },
-    {
-     "source": "DIE ZEIT",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYVBCOTkyT2lMaVUzV3Y1V3pqR3h3c3U0M09GNTJuWms3cVVsb3lfZUpnQTVyd0JBeTBadmhqZjNadTBDOFFTNDRYNWxGMHI0bDBOSi1pNnBRNTBuWlNzaE5vWGRCQWJDNFc3VXI2T081THVqR09iRnBzNG5ibUVKVXFQZjQzbHlySFlyWHNROHpZb3dGdEJtdkVJRW8tak00a3dR?oc=5"
-    },
-    {
      "source": "Euronews.com",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPclV3Sk5hbFFEM045bTYxUVgwTW80NHJscGpRLTFiQnJzS3d2RFlSaVMwZ3EzTTVncHZlSDlrR0VpUUp4NjBoZDhITmlHWTZxaFdHeU9KU2k1MGN6ZnRzcEdVTWwwaWo2aTRQTEkxbHlpNktRUkxwVGVKWnJnVG1XYWg1QTJrNTRhSW9JbUNvXzBwQ0UwTzlBbGpWTnVPUHh2N3M3U0paaXR2WFVHMFJGZ1FBR3FHamowamc?oc=5"
     },
@@ -3340,6 +3602,11 @@
     {
      "source": "UNTERNEHMEN-HEUTE.de",
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tMVcwR25DOVZ4d0ZMQWN5TUwySWZFUjA2RUp5VDRLZENaMHZFcy1YWnFNNkd5NlFKTG4tcngtUjViOHBraUY3T0xWNXl5a2R5cmY0MHE1V3hYNVJnU0dzVVpn?oc=5"
+    },
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/finanzen/boerse/anthropic-beantragt-boersengang-in-den-usa-und-offenbart-teure-abhaengigkeit/100265031.html",
+     "paywall": true
     },
     {
      "source": "Tagesspiegel Wirtschaft",
@@ -4466,10 +4733,6 @@
     {
      "source": "t3n",
      "url": "https://t3n.de/news/kimi-k3-1-pro-wie-das-open-weight-modell-sicherheitsrisiken-eindaemmen-soll-1770089"
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://www.therundown.ai/articles/kimi-continues-to-challenge-the-frontier-with-k3-1-pro"
     }
    ]
   },
@@ -6087,6 +6350,27 @@
    ]
   },
   {
+   "id": "7b312fe8fcd6",
+   "date": "2026-10-25",
+   "published": "2026-10-25T19:45+01:00",
+   "headline": "Start-up BingLeHi sucht 5 Millionen Yuan für KI-Shopping-App",
+   "summary": "Das chinesische Unternehmen BingLeHi will eine Finanzierungsrunde über fünf Millionen Yuan einsammeln. Das Geld soll in eine mobile Einkaufsplattform fließen, die mit KI auf reale Nutzungssituationen zugeschnitten ist.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "start-up",
+    "finanzierung",
+    "china",
+    "e-commerce"
+   ],
+   "source": "36Kr",
+   "source_id": "gn-startups",
+   "added": "2026-10-28T03:48:46+01:00",
+   "quelle_titel": "BingLeHi plant 5-Millionen-Yuan-Finanzierung zur Entwicklung KI-gestützter mobiler Einkaufsplattform auf Basis realer Szenarien",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94WDNxZkJKYTdadVNvYXlub0RlZzZrQkc3RVZaeEdlRHowcjQ5T0xhbC02cGZDRHN3dTZtWHczbUg3SDNqOEc4ODNjZlFtOXFNMkxr?oc=5"
+  },
+  {
    "id": "eb8cf19b22fb",
    "date": "2026-10-25",
    "published": "2026-10-25T18:30+01:00",
@@ -6723,6 +7007,28 @@
    "quelle_titel": "Weniger ist mehr: Anthropic rät zum einzelnen KI-Agent statt zu vielen Subagenten",
    "url": "https://the-decoder.de/weniger-ist-mehr-anthropic-raet-zum-einzelnen-ki-agent-statt-zu-vielen-subagenten/",
    "kontext": "Die Empfehlung stammt vom Applied-AI-Team, das Erfahrungen aus mehreren Firmenprojekten bündelt. Dort führten Dutzende Spezialagenten zu langen Wartezeiten, widersprüchlichen Prompt-Regeln und Architekturen, die eher das Organigramm des Kunden abbildeten als die eigentliche Aufgabe. Neuere Modelle planen laut Anthropic selbst und prüfen ihre Arbeit, weshalb der System-Prompt von Claude Code deutlich schrumpfen konnte. Sinnvoll bleiben Subagenten, wenn Kontextfenster überlaufen oder Aufgaben parallel laufen müssen."
+  },
+  {
+   "id": "9ff283a3a985",
+   "date": "2026-10-25",
+   "published": "2026-10-25T09:13+01:00",
+   "headline": "Amazon: AWS-Rechenkapazität für 2027 und 2028 fast vollständig vergeben",
+   "summary": "Amazon-Chef Jassy zufolge sind die Cloud-Kapazitäten von AWS wegen der hohen KI-Nachfrage für die Jahre 2027 und 2028 bereits weitgehend ausgebucht. Das deutet auf anhaltende Engpässe bei Rechenleistung hin, die Preise und Projektplanungen von KI-Vorhaben beeinflussen dürften.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "aws",
+    "cloud",
+    "rechenkapazität",
+    "amazon",
+    "infrastruktur"
+   ],
+   "source": "Deutschlandfunk",
+   "source_id": "gn-unternehmen",
+   "added": "2026-10-28T03:48:46+01:00",
+   "quelle_titel": "AWS - Amazon-Chef: Cloud-Kapazitäten wegen KI für 2027 und 2028 weitgehend ausgebucht",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbXdPRFRrVXdfV0h1U3JBWGd1TTQzOVNkNHRFRlhleTBOOHM5R21HMF9JQ1Flb3RnVkNoTHpTRVZTVzVvbHJkVi0zU09tOFIyQmNOWGZGYm5lcko2djF6UE1JM0RMUGtfeTVxZTBLbDF6YktFQlR0UHNFZlVaMFF5N210bmpUQ0NtSWFrQ2tuY0xndFpBUTBGaEQya1JzY3RoWjItVDk0LXB4WmFhbDJpQ1Y0ZnFqSURxWUxlWQ?oc=5"
   },
   {
    "id": "40a3bc1bb6ea",
