@@ -114,7 +114,14 @@ def tile(it: dict, text: str, kind: str = "norm", num: int | None = None, hook: 
             f'</td></tr></table></td></tr>' + spacer(14))
 
 
-def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, klein: bool = False, top_n: int = 10) -> dict:
+ANSCHREIBEN = [
+    "Hallo Team,",
+    "ich habe eine App für kuratierte KI-News gebaut. Hier ein Auszug daraus, den ich euch gern täglich automatisiert zukommen lassen kann. Wer sich für die App interessiert, meldet sich bitte bei mir. \U0001F642",
+    "Frank",
+]
+
+
+def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, klein: bool = False, top_n: int = 10, anschreiben: bool = True) -> dict:
     index = json.loads((DATA / "index.json").read_text(encoding="utf-8"))
     day_path = DATA / date[:4] / date[5:7] / f"{date}.json"
     day = json.loads(day_path.read_text(encoding="utf-8")) if day_path.exists() else {"overview": [], "items": []}
@@ -177,6 +184,11 @@ def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, 
     subject = f"KI News, {TAGE[dt.weekday()][:2]}. {dt.day}.{dt.month}.: " + (top[0][1]["headline"] if top else "Das Update des Tages")
     btn = (f'<tr><td align="center" style="padding:10px 0 0 0;"><a href="{esc(url)}" style="display:inline-block;background:{LIME};color:#0E1A1C;{F}font-size:16px;font-weight:700;text-decoration:none;'
            f'padding:14px 30px;border-radius:999px;">Alle Meldungen in der App lesen</a></td></tr>') if url else ""
+    intro_html = ""
+    if anschreiben:
+        paras = "".join(f'<p style="margin:0 0 12px 0;">{esc(t)}</p>' for t in ANSCHREIBEN[:-1])
+        intro_html = (f'<tr><td bgcolor="#FFFFFF" style="background:#FFFFFF;border-radius:14px;padding:22px 22px 14px 22px;{F}font-size:16px;line-height:1.55;color:{INK};">'
+                      f'{paras}<p style="margin:0 0 6px 0;font-weight:700;">{esc(ANSCHREIBEN[-1])}</p></td></tr>' + spacer(16))
     doc = f"""<!DOCTYPE html>
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light"><meta name="supported-color-schemes" content="light"><title>{esc(subject)}</title></head>
@@ -184,7 +196,7 @@ def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, 
 <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:{PAGE};">{esc(pre)}</div>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{PAGE}" style="background:{PAGE};"><tr><td align="center" style="padding:16px 12px 24px 12px;">
 <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:640px;">
-<tr><td bgcolor="{DEEP2}" style="background:{DEEP2};border-radius:14px;padding:26px 22px 22px 22px;{F}">
+{intro_html}<tr><td bgcolor="{DEEP2}" style="background:{DEEP2};border-radius:14px;padding:26px 22px 22px 22px;{F}">
 <div style="font-size:30px;line-height:1.1;font-weight:800;color:{TXT};">KI News</div>
 <div style="font-size:17px;color:{LIME};margin-top:8px;font-weight:700;">{esc(long_d)}</div>
 <div style="font-size:14px;line-height:1.45;color:#C9DEE3;margin-top:6px;">Auszug aus {len(items)} Meldungen von {n_src} Quellen, kuratiert und auf Deutsch zusammengefasst</div></td></tr>
@@ -196,7 +208,7 @@ def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, 
 <b style="color:{INK};">Eigene Kurzfassungen mit Link zur Quelle, keine Volltexte.</b><br>{LOCK} = Quelle hinter einer Bezahlschranke.<br>Die Zusammenfassungen entstehen automatisch und können Fehler enthalten, bitte wichtige Angaben am Original prüfen.</td></tr>
 </table></td></tr></table></body></html>"""
 
-    txt = [f"KI NEWS | {long_d}", f"{len(items)} Meldungen aus {n_src} Quellen", "", "DAS WICHTIGSTE"]
+    txt = (ANSCHREIBEN[:-1] + [ANSCHREIBEN[-1], ""] if anschreiben else []) + [f"KI NEWS | {long_d}", f"{len(items)} Meldungen aus {n_src} Quellen", "", "DAS WICHTIGSTE"]
     for k, (t, it) in enumerate(top, 1):
         txt += [f"{k}. {it['headline']}", f"   {t}", f"   {it['source']}: {it['url']}", ""]
     for it in [x for x in items if x["id"] not in {y['id'] for _, y in top}][:12]:
@@ -214,6 +226,7 @@ def main() -> int:
     ap.add_argument("--klein", action="store_true", help="nur 4 Top-Meldungen und je 1 pro Block (Test)")
     ap.add_argument("--kontext-einklappbar", action="store_true", help="Mehr Kontext einklappbar (nicht in Outlook)")
     ap.add_argument("--top", type=int, default=10, help="Anzahl Top-Meldungen (Standard 10)")
+    ap.add_argument("--ohne-anschreiben", action="store_true", help="ohne das kurze Anschreiben oben")
     ap.add_argument("--alle", action="store_true", help="alle Meldungen mit Kurzfassung statt der Auswahl")
     ap.add_argument("--out", default=str(ROOT / "digest"))
     a = ap.parse_args()
@@ -221,7 +234,7 @@ def main() -> int:
     date = a.date or max(x["date"] for x in index["items"])
     global KONTEXT_OFFEN
     KONTEXT_OFFEN = not a.kontext_einklappbar
-    res = build(date, a.alle, a.kompakt or a.klein, a.app_link, a.klein, a.top)
+    res = build(date, a.alle, a.kompakt or a.klein, a.app_link, a.klein, a.top, not a.ohne_anschreiben)
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
     (out / f"digest-{date}.html").write_text(res["html"], encoding="utf-8")
