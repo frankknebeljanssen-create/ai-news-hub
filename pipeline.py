@@ -808,7 +808,9 @@ def run(args) -> int:
     state = read_json(STATE, {"last_run_date": None, "last_success": None, "sources": {}, "skipped": {}})
     # Ein Lauf vor 6 Uhr (z. B. kurz nach Mitternacht beim Anmelden) zaehlt nicht als Tageslauf, sonst fehlen die Meldungen des Tages
     ls = state.get("last_success")
-    morning_done = bool(ls) and datetime.fromisoformat(ls).hour >= 6
+    # Zweiter Tageslauf ab 12 Uhr: davor zaehlt nur ein Lauf ab 6 Uhr, danach nur ein Lauf ab 12 Uhr
+    slot_start = 12 if now().hour >= 12 else 6
+    morning_done = bool(ls) and datetime.fromisoformat(ls).hour >= slot_start
     if state.get("last_run_date") == today and morning_done and not args.force:
         log.info("Lauf fuer %s existiert bereits, Ende", today)
         return 0

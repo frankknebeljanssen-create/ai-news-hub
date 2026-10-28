@@ -116,7 +116,7 @@ def tile(it: dict, text: str, kind: str = "norm", num: int | None = None, hook: 
 
 ANSCHREIBEN = [
     "Hallo Team,",
-    "ich habe eine App für kuratierte KI-News gebaut. Hier ein Auszug daraus, den ich euch gern täglich automatisiert zukommen lassen kann. Wer sich für die App interessiert, meldet sich bitte bei mir. \U0001F642",
+    "ich habe eine App für kuratierte KI-News gebaut. Hier ein Auszug daraus. Wer sich für die App interessiert, meldet sich bitte bei mir. \U0001F642",
     "Frank",
 ]
 
@@ -132,7 +132,7 @@ def compact_card(grp: list[dict]) -> str:
             + "".join(cells) + '</table></td></tr>')
 
 
-def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, klein: bool = False, top_n: int = 10, anschreiben: bool = True) -> dict:
+def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, klein: bool = False, top_n: int = 10, anschreiben: bool = True, probe: bool = False) -> dict:
     index = json.loads((DATA / "index.json").read_text(encoding="utf-8"))
     day_path = DATA / date[:4] / date[5:7] / f"{date}.json"
     day = json.loads(day_path.read_text(encoding="utf-8")) if day_path.exists() else {"overview": [], "items": []}
@@ -154,6 +154,8 @@ def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, 
         top = top[:min(top_n, 5)]
     used = {it["id"] for _, it in top}
     n_src = len({x["source"] for x in items})
+    state = json.loads((DATA / "state.json").read_text(encoding="utf-8"))
+    total_src = len(state.get("sources", {})) or len({x["source"] for x in index["items"]})
 
     rows = [band("top", "Das Wichtigste", "Die Top-Meldungen des Tages").replace(spacer(34), spacer(8), 1)]
     for k, (txt, it) in enumerate(top, 1):
@@ -171,14 +173,14 @@ def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, 
         used.update(x["id"] for x in lst)
 
     # Reihenfolge wie in der App: Top, Für AITI, Aus Deutschland, Kurios & krass, dann die Themenblöcke
-    section("aiti", "Für AITI", "Weiterbildung, KI-Kompetenz, Bildungsmarkt", [x for x in items if "AITI" in (x.get("tags") or [])], limit=999, tiles_max=5)
-    section("de", "Aus Deutschland", "", [x for x in items if x["region"] == "de"], limit=6)
+    section("aiti", "Für AITI", "Weiterbildung, KI-Kompetenz, Bildungsmarkt", [x for x in items if "AITI" in (x.get("tags") or [])], limit=(8 if probe else 999), tiles_max=5)
+    section("de", "Aus Deutschland", "", [x for x in items if x["region"] == "de"], limit=(5 if probe else 6))
     kur = sorted([x for x in index["items"] if x.get("kurios") and not x.get("dup_of") and x["date"] == date], key=lambda x: -x["relevanz"])
     if len(kur) < 3:  # mindestens 3: fehlende aus den letzten 7 Tagen auffuellen
         since = (dt0 - timedelta(days=7)).strftime("%Y-%m-%d")
         more = sorted([x for x in index["items"] if x.get("kurios") and not x.get("dup_of") and since <= x["date"] < date], key=lambda x: (x["date"], x["relevanz"]), reverse=True)
         kur += more[:3 - len(kur)]
-    section("kur", "Kurios & krass", "", kur, hook=True, limit=999)
+    section("kur", "Kurios & krass", "", kur, hook=True, limit=(3 if probe else 999))
 
     if not kompakt:
         # Themenblöcke aus der App, jeweils gekürzt (Schlagzeile, ein Satz, Quelle); mindestens 3 je Block, notfalls auch bereits gezeigte
@@ -189,7 +191,7 @@ def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, 
             if not allgrp:
                 continue
             fresh = [x for x in allgrp if x["id"] not in used]
-            grp = fresh[:(999 if alle else 5)]
+            grp = fresh[:(3 if probe else 999 if alle else 5)]
             if len(grp) < 3:
                 grp += [x for x in allgrp if x not in grp][:3 - len(grp)]
             col = TH_FARBE[th]
@@ -220,7 +222,7 @@ def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, 
 {intro_html}<tr><td bgcolor="{DEEP2}" style="background:{DEEP2};border-radius:14px;padding:26px 22px 22px 22px;{F}">
 <div style="font-size:30px;line-height:1.1;font-weight:800;color:{TXT};">KI News</div>
 <div style="font-size:17px;color:{LIME};margin-top:8px;font-weight:700;">{esc(long_d)}</div>
-<div style="font-size:14px;line-height:1.45;color:#C9DEE3;margin-top:6px;">Auszug aus {len(items)} Meldungen von {n_src} Quellen, kuratiert und auf Deutsch zusammengefasst</div></td></tr>
+<div style="font-size:14px;line-height:1.45;color:#C9DEE3;margin-top:6px;">Auszug aus heute insgesamt {len(items)} Meldungen von {total_src} Quellen, kuratiert und auf Deutsch zusammengefasst. Alle Meldungen sind in der App nachlesbar.</div></td></tr>
 {spacer(8)}
 {chr(10).join(rows)}
 {btn}
@@ -229,7 +231,7 @@ def build(date: str, alle: bool, kompakt: bool = False, app_link: bool = False, 
 <b style="color:{INK};">Eigene Kurzfassungen mit Link zur Quelle, keine Volltexte.</b><br>{LOCK} = Quelle hinter einer Bezahlschranke.<br>Die Zusammenfassungen entstehen automatisch und können Fehler enthalten, bitte wichtige Angaben am Original prüfen.</td></tr>
 </table></td></tr></table></body></html>"""
 
-    txt = (ANSCHREIBEN[:-1] + [ANSCHREIBEN[-1], ""] if anschreiben else []) + [f"KI NEWS | {long_d}", f"{len(items)} Meldungen aus {n_src} Quellen", "", "DAS WICHTIGSTE"]
+    txt = (ANSCHREIBEN[:-1] + [ANSCHREIBEN[-1], ""] if anschreiben else []) + [f"KI NEWS | {long_d}", f"Auszug aus heute insgesamt {len(items)} Meldungen von {total_src} Quellen. Alle Meldungen sind in der App nachlesbar.", "", "DAS WICHTIGSTE"]
     for k, (t, it) in enumerate(top, 1):
         txt += [f"{k}. {it['headline']}", f"   {t}", f"   {it['source']}: {it['url']}", ""]
     for it in [x for x in items if x["id"] not in {y['id'] for _, y in top}][:12]:
@@ -248,6 +250,7 @@ def main() -> int:
     ap.add_argument("--kontext-einklappbar", action="store_true", help="Mehr Kontext einklappbar (nicht in Outlook)")
     ap.add_argument("--top", type=int, default=10, help="Anzahl Top-Meldungen (Standard 10)")
     ap.add_argument("--ohne-anschreiben", action="store_true", help="ohne das kurze Anschreiben oben")
+    ap.add_argument("--probe", action="store_true", help="gekuerzte Probemail mit allen Bloecken (Mindestzahlen)")
     ap.add_argument("--alle", action="store_true", help="alle Meldungen mit Kurzfassung statt der Auswahl")
     ap.add_argument("--out", default=str(ROOT / "digest"))
     a = ap.parse_args()
@@ -255,7 +258,7 @@ def main() -> int:
     date = a.date or max(x["date"] for x in index["items"])
     global KONTEXT_OFFEN
     KONTEXT_OFFEN = not a.kontext_einklappbar
-    res = build(date, a.alle, a.kompakt or a.klein, a.app_link, a.klein, a.top, not a.ohne_anschreiben)
+    res = build(date, a.alle, a.kompakt or a.klein, a.app_link, a.klein, a.top, not a.ohne_anschreiben, a.probe)
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
     (out / f"digest-{date}.html").write_text(res["html"], encoding="utf-8")
