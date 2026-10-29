@@ -1,7 +1,30 @@
 {
- "updated": "2026-10-29T04:26:28+01:00",
- "count": 2686,
+ "updated": "2026-10-29T05:30:47+01:00",
+ "count": 2687,
  "items": [
+  {
+   "id": "da99c1029273",
+   "date": "2026-10-29",
+   "published": "2026-10-29T05:07+01:00",
+   "headline": "KI-Agenten: Authentifizierung allein reicht für legitimes Handeln nicht",
+   "summary": "Der Beitrag beleuchtet, dass bei KI-Agenten, die im Namen von Personen oder Unternehmen agieren, Auftraggeber und handelnder Akteur nicht mehr identisch sind. Daraus entsteht die Frage, wie sich einzelne Aktionen über die reine Identitätsprüfung hinaus nachvollziehbar autorisieren und begrenzen lassen. Für Sicherheits- und IT-Verantwortliche rückt damit die Frage nach Berechtigungsmodellen für autonome Systeme in den Fokus.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "identity",
+    "authentifizierung",
+    "governance",
+    "it-sicherheit"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-10-29T05:28:18+01:00",
+   "quelle_titel": "Der Agent ist authentifiziert. Und jetzt? Von der Identität zur legitimierten Handlung",
+   "url": "https://www.it-daily.net/it-sicherheit/identity-access-management/agent-ist-authentifiziert-und-jetzt",
+   "kontext": "Verfasst hat den Beitrag ein Fachautor aus dem Identitätsmanagement. Sein Kern: Die Authentisierung belegt nur, wer handelt, während erst die Autorisierung über die einzelne Aktion entscheidet. Zwischen Auftrag und Ausführung liegt bei Agenten ein delegiertes Mandat, dessen Umfang und Grenzen prüfbar bleiben müssen. Betroffen sind auch Kunden- und Partnerzugänge, wo Software im Namen Dritter auftritt und Verantwortung sonst unklar bleibt."
+  },
   {
    "id": "99fab4a93011",
    "date": "2026-10-29",
@@ -529,6 +552,10 @@
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/"
+    },
+    {
+     "source": "Datenschutz-Notizen",
+     "url": "https://www.dsn-group.de/datenschutz-notizen/default-9724c77cffbb1c86580acefcc0d9fbc1"
     }
    ]
   },
@@ -756,7 +783,7 @@
    "paywall": true,
    "quelle_titel": "Anthropic-Börsengang: Wie Amazon und Google am Aufstieg von Anthropic mitverdienen",
    "url": "https://www.wiwo.de/finanzen/boerse/anthropic-boersengang-wie-amazon-und-google-am-aufstieg-von-anthropic-mitverdienen/100265547.html",
-   "dup_of": "95af72b561e4"
+   "dup_of": "1b16f2a2a47a"
   },
   {
    "id": "dff00a5c5eb1",
@@ -848,13 +875,8 @@
    "kurios": "Ein Milliardär dreht aus Ärger über einen Film seine eigene KI-Odyssee.",
    "quelle_titel": "Elon Musk verirrt sich auf seiner KI-„Odyssee“, und erntet viel Spott",
    "url": "https://www.basicthinking.de/blog/2026/10/28/musk-verirrt-sich-auf-ki-odyssee/",
-   "also": [
-    {
-     "source": "it-daily.net",
-     "url": "https://www.it-daily.net/shortnews/elon-musks-ki-odyssee-erntet-spott"
-    }
-   ],
-   "kontext": "Hintergrund ist Musks anhaltende Attacke auf Christopher Nolans sehr erfolgreiche Verfilmung des Epos, deren Besetzung und Haltung er politisch angriff. Die Episode entstand mit dem Generator Grok Imagine seines Unternehmens xAI, zusammen mit einem auf KI-Filme spezialisierten Studio und einem Regisseur; produziert hat sie ein winziges Kreativteam. Angekündigt war ursprünglich ein abendfüllender Film. Fachmedien bemängeln leblose Figuren und hölzerne Dialoge und damit die Grenzen heutiger KI-Produktion."
+   "kontext": "Hintergrund ist Musks anhaltende Attacke auf Christopher Nolans sehr erfolgreiche Verfilmung des Epos, deren Besetzung und Haltung er politisch angriff. Die Episode entstand mit dem Generator Grok Imagine seines Unternehmens xAI, zusammen mit einem auf KI-Filme spezialisierten Studio und einem Regisseur; produziert hat sie ein winziges Kreativteam. Angekündigt war ursprünglich ein abendfüllender Film. Fachmedien bemängeln leblose Figuren und hölzerne Dialoge und damit die Grenzen heutiger KI-Produktion.",
+   "dup_of": "e66a7816102c"
   },
   {
    "id": "b27604dd74a6",
@@ -1499,7 +1521,13 @@
    "kurios": "Ein KI-Remake von Homers Epos als Antwort auf einen Kinofilm floppt öffentlich.",
    "quelle_titel": "Elon Musks KI-„Odyssee“ erntet Spott und Kritik",
    "url": "https://www.it-daily.net/shortnews/elon-musks-ki-odyssee-erntet-spott",
-   "dup_of": "8f9c275ff110"
+   "also": [
+    {
+     "source": "Basic Thinking",
+     "url": "https://www.basicthinking.de/blog/2026/10/28/musk-verirrt-sich-auf-ki-odyssee/"
+    }
+   ],
+   "kontext": "Hinter dem Projekt steht Musks Unternehmen xAI mit dem Bild- und Videogenerator Grok Imagine, dazu ein auf KI-Film spezialisiertes Studio und ein kleines Kreativteam von wenigen Leuten. Angekündigt war ein abendfüllender, angeblich historisch korrekter Gegenentwurf, obwohl Homers Dichtung voller Mythologie steckt. Geliefert wird nun eine Serie in Einzelfolgen. Nolans Verfilmung gehört dagegen zu den großen Kinoerfolgen des Jahres, was den Vergleich für Musk ungünstig macht."
   },
   {
    "id": "9799f1fc2ad5",
@@ -1759,7 +1787,7 @@
    "added": "2026-10-28T15:23:46+01:00",
    "quelle_titel": "PHP2Shell, Pflicht zum Handeln",
    "url": "https://www.dsn-group.de/datenschutz-notizen/default-9724c77cffbb1c86580acefcc0d9fbc1",
-   "dup_of": "4aff05529c71"
+   "dup_of": "8500267ec5b4"
   },
   {
    "id": "fb1a46cff3a5",
@@ -2533,26 +2561,6 @@
    "kontext": "Anders als eine Spiele-Engine rendert Genie keine vorgefertigte Welt, sondern erzeugt jedes Bild fortlaufend neu. Dabei hilft Gemini gleich doppelt: ein Videomodell für Optik und Physik, ein schnelles Modell, das die laufende Simulation beobachtet und Schritte plant. Google DeepMind arbeitet seit Jahren an der Reihe, die Vorgängergeneration lief bereits in Echtzeit. Noch halten die Welten aber nur wenige Minuten durch und bleiben nicht durchgehend stimmig.",
    "also": [
     {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/google-deepmind-zeigt-mit-genie-4-die-naechste-stufe-der-ki-simulation/"
-    },
-    {
-     "source": "Google DeepMind",
-     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
-    },
-    {
-     "source": "Ars Technica AI",
-     "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/"
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
-    },
-    {
      "source": "Golem",
      "url": "https://www.golem.de/news/google-deepmind-genie-4-baut-welten-mit-ton-und-laesst-sich-live-umbauen-2610-214579.html"
     },
@@ -2790,13 +2798,13 @@
    "added": "2026-10-29T00:43:17+01:00",
    "quelle_titel": "Kommentar: Photoshop per KI nachgebaut, Kopieren ist billig, Entscheiden nicht",
    "url": "https://www.heise.de/blog/Kommentar-Photoshop-per-KI-nachgebaut-Kopieren-ist-billig-Entscheiden-nicht-11495511.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter dem Projekt steht der Entwickler Brandon Thomas, der mit ArtCraft inzwischen über ein Dutzend Adobe-Werkzeuge in Rust nachbildet, geschrieben im Wesentlichen von Claude Opus 5.5. Der Reiz: Beim Klonen liefert das Original die Spezifikation, Verhalten und Ausgabe lassen sich automatisiert vergleichen. Seine Prognose zur vollen Funktionsgleichheit hat Thomas später relativiert. Roden warnt, dass Entwickler ihre eigene Arbeit entwerten, wenn sie das Kopieren mit Entwickeln verwechseln.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/blog/Kommentar-Photoshop-per-KI-nachgebaut-Kopieren-ist-billig-Entscheiden-nicht-11495511.html"
     }
-   ],
-   "kontext": "Hinter dem Projekt steht der Entwickler Brandon Thomas, der mit ArtCraft inzwischen über ein Dutzend Adobe-Werkzeuge in Rust nachbildet, geschrieben im Wesentlichen von Claude Opus 5.5. Der Reiz: Beim Klonen liefert das Original die Spezifikation, Verhalten und Ausgabe lassen sich automatisiert vergleichen. Seine Prognose zur vollen Funktionsgleichheit hat Thomas später relativiert. Roden warnt, dass Entwickler ihre eigene Arbeit entwerten, wenn sie das Kopieren mit Entwickeln verwechseln."
+   ]
   },
   {
    "id": "4b47a280d656",
@@ -2988,13 +2996,13 @@
    "added": "2026-10-29T02:08:18+01:00",
    "quelle_titel": "HPE vereint Netzwerk- und Sicherheitsmanagement mit KI",
    "url": "https://www.heise.de/news/HPE-vereint-Netzwerk-und-Sicherheitsmanagement-mit-KI-11502351.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "HPE baut seine Netzwerksparte weiter um und schiebt die SD-WAN- und SASE-Lösung EdgeConnect in die Verwaltungsoberflächen von Mist und Aruba Central. Bisher mussten Administratoren zwischen getrennten Konsolen für Campus, WAN und Sicherheit springen. Durch die gemeinsame Telemetrie soll sich leichter klären lassen, ob ein Problem vom Funknetz, einem Switch-Port, der WAN-Strecke oder einer Richtlinie kommt. Fernziel bleibt ein Netz, das sich selbst steuert.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/news/HPE-vereint-Netzwerk-und-Sicherheitsmanagement-mit-KI-11502351.html"
     }
-   ],
-   "kontext": "HPE baut seine Netzwerksparte weiter um und schiebt die SD-WAN- und SASE-Lösung EdgeConnect in die Verwaltungsoberflächen von Mist und Aruba Central. Bisher mussten Administratoren zwischen getrennten Konsolen für Campus, WAN und Sicherheit springen. Durch die gemeinsame Telemetrie soll sich leichter klären lassen, ob ein Problem vom Funknetz, einem Switch-Port, der WAN-Strecke oder einer Richtlinie kommt. Fernziel bleibt ein Netz, das sich selbst steuert."
+   ]
   },
   {
    "id": "4638e7c281c8",
@@ -3060,13 +3068,13 @@
    "kurios": "Ein Präsident verbietet per Dekret ein etabliertes Fachwort.",
    "quelle_titel": "Trump will Bezeichnung KI in US-Dokumenten verbieten",
    "url": "https://www.cio.de/article/4241518/trump-will-bezeichnung-ki-in-us-dokumenten-verbieten.html",
+   "kontext": "Trump treibt die Umbenennung schon seit Wochen voran und verbreitete die Ansage über sein eigenes Netzwerk Truth Social. Dahinter steht der Versuch, die Deutung der Technologie politisch zu besetzen und sie größer erscheinen zu lassen. Mehrere Chefs von Technologiekonzernen haben das Wort Superintelligenz bereits öffentlich übernommen, während US-Medien weiterhin von Künstlicher Intelligenz schreiben. Wie ein solches Verbot in Behörden praktisch durchgesetzt werden soll, bleibt offen.",
    "also": [
     {
      "source": "it-daily.net",
      "url": "https://www.it-daily.net/shortnews/trump-begriff-ki-us-dokumente"
     }
-   ],
-   "kontext": "Trump treibt die Umbenennung schon seit Wochen voran und verbreitete die Ansage über sein eigenes Netzwerk Truth Social. Dahinter steht der Versuch, die Deutung der Technologie politisch zu besetzen und sie größer erscheinen zu lassen. Mehrere Chefs von Technologiekonzernen haben das Wort Superintelligenz bereits öffentlich übernommen, während US-Medien weiterhin von Künstlicher Intelligenz schreiben. Wie ein solches Verbot in Behörden praktisch durchgesetzt werden soll, bleibt offen."
+   ]
   },
   {
    "id": "ad79f5aea5fc",
@@ -3279,7 +3287,13 @@
    "quelle_titel": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
    "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
    "kontext": "Amazon stieg 2023 bei Anthropic ein und wählte dabei vor allem Wandeldarlehen statt direkter Anteile. Mit dem Börsengang werden diese Schulden zu Aktien, deren Wert durch die stark gestiegene Bewertung enorm zugelegt hat. Klassische Geldgeber wie Menlo Ventures, Sequoia oder Spark Capital bleiben trotz Milliardenpositionen unter der Schwelle von fünf Prozent, was bei Technologiebörsengängen ungewöhnlich ist. Zusätzlich verdient Amazon an einer langfristigen Cloud-Zusage von Anthropic.",
-   "dup_of": "95af72b561e4"
+   "also": [
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/finanzen/boerse/anthropic-boersengang-wie-amazon-und-google-am-aufstieg-von-anthropic-mitverdienen/100265547.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "8c63067a2b44",
