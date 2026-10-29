@@ -195,13 +195,7 @@
    "quelle_titel": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
    "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
    "kontext": "Amazon stieg 2023 bei Anthropic ein und wählte dabei vor allem Wandeldarlehen statt direkter Anteile. Mit dem Börsengang werden diese Schulden zu Aktien, deren Wert durch die stark gestiegene Bewertung enorm zugelegt hat. Klassische Geldgeber wie Menlo Ventures, Sequoia oder Spark Capital bleiben trotz Milliardenpositionen unter der Schwelle von fünf Prozent, was bei Technologiebörsengängen ungewöhnlich ist. Zusätzlich verdient Amazon an einer langfristigen Cloud-Zusage von Anthropic.",
-   "also": [
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/finanzen/boerse/anthropic-boersengang-wie-amazon-und-google-am-aufstieg-von-anthropic-mitverdienen/100265547.html",
-     "paywall": true
-    }
-   ]
+   "dup_of": "b037f4c31567"
   },
   {
    "id": "e6811fd39b8f",
@@ -580,7 +574,18 @@
    "kurios": "Der Elvis-Katalog wird zum Beweisstück in einem Millionenstreit um KI-Training.",
    "quelle_titel": "Elvis-Erben vs. Anthropic: KI-Firma soll Schutzmaßnahmen umgangen und Songs illegal genutzt haben",
    "url": "https://the-decoder.de/elvis-erben-vs-anthropic-ki-firma-soll-schutzmassnahmen-umgangen-und-songs-illegal-genutzt-haben/",
-   "kontext": "Eingereicht wurde die Klage bei einem Bundesgericht in Nordkalifornien, unter den Klägern sind die Authentic Brands Group sowie Musikverlage und Treuhänder. Brisant ist weniger die Trainingsnutzung selbst als der Vorwurf, technische Sperren umgangen zu haben, denn das kann eigene rechtliche Folgen haben. Erst kürzlich klagte der Rechteverwerter Reservoir, Universal fordert sogar Milliarden. Die KI-Musikfirma Suno wählte dagegen den Weg über Lizenzverträge mit großen Labels."
+   "kontext": "Eingereicht wurde die Klage bei einem Bundesgericht in Nordkalifornien, unter den Klägern sind die Authentic Brands Group sowie Musikverlage und Treuhänder. Brisant ist weniger die Trainingsnutzung selbst als der Vorwurf, technische Sperren umgangen zu haben, denn das kann eigene rechtliche Folgen haben. Erst kürzlich klagte der Rechteverwerter Reservoir, Universal fordert sogar Milliarden. Die KI-Musikfirma Suno wählte dagegen den Weg über Lizenzverträge mit großen Labels.",
+   "also": [
+    {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/2026-10/elvis-presley-anthropic-ki-musik-klage",
+     "paywall": true
+    },
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/elvis-songs-millionenklage-anthropic"
+    }
+   ]
   },
   {
    "id": "f7af445695e7",
@@ -1266,7 +1271,7 @@
    "paywall": true,
    "quelle_titel": "Anthropic-Börsengang: Wie Amazon und Google am Aufstieg von Anthropic mitverdienen",
    "url": "https://www.wiwo.de/finanzen/boerse/anthropic-boersengang-wie-amazon-und-google-am-aufstieg-von-anthropic-mitverdienen/100265547.html",
-   "dup_of": "1b16f2a2a47a"
+   "dup_of": "b037f4c31567"
   },
   {
    "id": "8500267ec5b4",
@@ -1411,7 +1416,7 @@
    "quelle_titel": "Microsoft recorded $10 billion in revenue from OpenAI",
    "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
    "kontext": "Die Summe entspricht etwa einem Zehntel des Microsoft-Quartalsumsatzes und stammt aus Cloud-Diensten sowie einer Umsatzbeteiligung, deren Aufteilung das Unternehmen offenlässt. Beide Partner konkurrieren inzwischen um dieselben Kunden, haben ihre einst exklusive Bindung aber nur gelockert: Die Beteiligung läuft gedeckelt bis 2030 weiter. Parallel sinkt Microsofts Anteil an OpenAI langsam, während die offenen Forderungen gegenüber dem Labor steigen.",
-   "dup_of": "0ef91bd8c8c1"
+   "dup_of": "c09ee2c2db87"
   },
   {
    "id": "9b7dd4a7a685",
@@ -1968,7 +1973,14 @@
    "source_id": "openai",
    "added": "2026-10-29T00:42:59+01:00",
    "quelle_titel": "The future of the firm",
-   "url": "https://openai.com/index/the-future-of-the-firm"
+   "url": "https://openai.com/index/the-future-of-the-firm",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/openai-researchers-ai-managers/"
+    }
+   ],
+   "kontext": "Hinter dem Beitrag stehen die OpenAI-Forscher Hemanth Asirvatham und Elliott Moks, die Systeme nicht nur als Werkzeug denken, sondern als Instanz mit Weisungsbefugnis. Denkbar wäre, dass Software Aufgaben verteilt, Fristen setzt, Leistung bewertet oder die Geschäftsführung berät. Entscheidend für die Beschäftigten ist dann, wer die Bewertungen kontrolliert und wie sich Fehlurteile anfechten lassen. Aus einer Technikfrage wird so eine Frage der Mitbestimmung."
   },
   {
    "id": "614dd327b184",
@@ -2836,16 +2848,7 @@
    "quelle_titel": "Microsoft hits 10 quarters of record-breaking revenue in a row",
    "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
    "kontext": "Getragen wird das Wachstum vor allem vom Cloudgeschäft, während die Sparte mit Windows-Geräten schrumpft. Ein spürbarer Teil des Geldes kommt von KI-Firmen: Allein OpenAI zahlte rund zehn Milliarden Dollar, auch Anthropic lässt Dienste auf Azure laufen. Zugleich steigen die Ausgaben für Rechenzentren auf einen neuen Höchststand. Microsoft verdient am Boom also kräftig mit und finanziert ihn gleichzeitig vor.",
-   "also": [
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
-    }
-   ]
+   "dup_of": "c09ee2c2db87"
   },
   {
    "id": "1134b6a1764a",
@@ -2868,7 +2871,7 @@
    "quelle_titel": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
    "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
    "kontext": "Bisher nannte Microsoft für Azure nur Wachstumsraten, Anleger konnten das Geschäft deshalb kaum mit der Konkurrenz vergleichen. Jetzt liegen Dollarwerte vor: Azure schiebt sich knapp vor Google Cloud, das allerdings deutlich schneller zulegt. Der Dienst ist inzwischen Microsofts größte Produktlinie und gehört zu einem neu geschaffenen Segment rund um Agenten und Infrastruktur. Amazons AWS bleibt vorerst die größte Cloud.",
-   "dup_of": "0ef91bd8c8c1"
+   "dup_of": "c09ee2c2db87"
   },
   {
    "id": "55915cc606b4",
@@ -3020,13 +3023,8 @@
    "kurios": "Ein KI-Remake von Homers Epos als Antwort auf einen Kinofilm floppt öffentlich.",
    "quelle_titel": "Elon Musks KI-„Odyssee“ erntet Spott und Kritik",
    "url": "https://www.it-daily.net/shortnews/elon-musks-ki-odyssee-erntet-spott",
-   "also": [
-    {
-     "source": "Basic Thinking",
-     "url": "https://www.basicthinking.de/blog/2026/10/28/musk-verirrt-sich-auf-ki-odyssee/"
-    }
-   ],
-   "kontext": "Hinter dem Projekt steht Musks Unternehmen xAI mit dem Bild- und Videogenerator Grok Imagine, dazu ein auf KI-Film spezialisiertes Studio und ein kleines Kreativteam von wenigen Leuten. Angekündigt war ein abendfüllender, angeblich historisch korrekter Gegenentwurf, obwohl Homers Dichtung voller Mythologie steckt. Geliefert wird nun eine Serie in Einzelfolgen. Nolans Verfilmung gehört dagegen zu den großen Kinoerfolgen des Jahres, was den Vergleich für Musk ungünstig macht."
+   "kontext": "Hinter dem Projekt steht Musks Unternehmen xAI mit dem Bild- und Videogenerator Grok Imagine, dazu ein auf KI-Film spezialisiertes Studio und ein kleines Kreativteam von wenigen Leuten. Angekündigt war ein abendfüllender, angeblich historisch korrekter Gegenentwurf, obwohl Homers Dichtung voller Mythologie steckt. Geliefert wird nun eine Serie in Einzelfolgen. Nolans Verfilmung gehört dagegen zu den großen Kinoerfolgen des Jahres, was den Vergleich für Musk ungünstig macht.",
+   "dup_of": "8f9c275ff110"
   },
   {
    "id": "5efc632ae4cd",
@@ -3135,7 +3133,12 @@
    "quelle_titel": "Elon Musk verirrt sich auf seiner KI-„Odyssee“, und erntet viel Spott",
    "url": "https://www.basicthinking.de/blog/2026/10/28/musk-verirrt-sich-auf-ki-odyssee/",
    "kontext": "Hintergrund ist Musks anhaltende Attacke auf Christopher Nolans sehr erfolgreiche Verfilmung des Epos, deren Besetzung und Haltung er politisch angriff. Die Episode entstand mit dem Generator Grok Imagine seines Unternehmens xAI, zusammen mit einem auf KI-Filme spezialisierten Studio und einem Regisseur; produziert hat sie ein winziges Kreativteam. Angekündigt war ursprünglich ein abendfüllender Film. Fachmedien bemängeln leblose Figuren und hölzerne Dialoge und damit die Grenzen heutiger KI-Produktion.",
-   "dup_of": "e66a7816102c"
+   "also": [
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/elon-musks-ki-odyssee-erntet-spott"
+    }
+   ]
   },
   {
    "id": "de366866137e",
