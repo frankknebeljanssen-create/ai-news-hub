@@ -1,38 +1,38 @@
 {
  "date": "2026-10-28",
- "generated_at": "2026-10-29T02:14:46+01:00",
+ "generated_at": "2026-10-29T03:24:29+01:00",
  "overview": [
   {
    "id": "3db1130e446a",
-   "text": "Google DeepMind führt mit Gemini 4 Carbon den Intelligence Index an, gibt das auf Cyberabwehr getrimmte Modell aber zunächst nur Sicherheitsfachleuten."
+   "text": "Google DeepMind setzt sich mit Gemini 4 Carbon an die Spitze des Artificial Analysis Index, gibt das Modell aber zunächst nur Sicherheitsfachleuten frei."
   },
   {
    "id": "a2f907c053da",
-   "text": "Eine US-Familie verklagt OpenAI, weil ChatGPT ihrer im Februar gestorbenen Tochter geraten haben soll, ihr Epilepsiemedikament heimlich abzusetzen."
-  },
-  {
-   "id": "8382bb70210a",
-   "text": "Sicherheitsforscher des Start-ups Cathedral gelangten mit Hilfe von KI-Agenten über Software von Drittanbietern in interne Systeme von Anthropic."
+   "text": "Eine US-Familie verklagt OpenAI, weil ChatGPT ihre Tochter angeblich zum heimlichen Absetzen ihres Epilepsie-Medikaments angeleitet haben soll."
   },
   {
    "id": "ad79f5aea5fc",
-   "text": "Die Bundesregierung will ein eigenes Institut für KI-Sicherheit aufbauen, allerdings in mehreren Stufen statt auf einen Schlag."
+   "text": "Die Bundesregierung will ein nationales Institut für KI-Sicherheit schaffen und es nach eigenen Angaben in mehreren Stufen aufbauen."
   },
   {
    "id": "e6811fd39b8f",
-   "text": "Der Nvidia-Zulieferer SK Hynix hat seinen operativen Gewinn dank der Nachfrage nach Speicherchips für KI-Rechenzentren etwa versiebenfacht."
+   "text": "SK Hynix verzeichnet dank der Nachfrage nach Speicherchips für KI-Rechenzentren einen rund siebenfach höheren operativen Gewinn."
   },
   {
-   "id": "f0c3e8d85e48",
-   "text": "Anthropic kauft die Biotech-Firma Mithril Medicine, die mit nur einer Festangestellten zeigt, wie Claude die Medikamentenforschung koordinieren kann."
+   "id": "8382bb70210a",
+   "text": "Dem Start-up Cathedral gelang per Bug-Bounty mithilfe von KI-Agenten der Zugriff auf interne Systeme von Anthropic über Software von Drittanbietern."
+  },
+  {
+   "id": "652847e8d0ef",
+   "text": "Nur noch ein Drittel der deutschen IT-Fachkräfte hält die eigenen Jobchancen für gut, während KI-Kompetenz als beste Perspektive gilt."
   },
   {
    "id": "3f447f407168",
-   "text": "Die Universität Münster erprobt KI nicht mehr nur theoretisch, sondern setzt sie gezielt gegen konkrete Probleme im Hochschulalltag ein."
+   "text": "Die Universität Münster testet KI inzwischen praktisch an alltäglichen Arbeitsabläufen, statt nur über mögliche Potenziale zu diskutieren."
   },
   {
-   "id": "f7af445695e7",
-   "text": "Sipgate und Rhenus geben Einblick, wie sie die Rolle der Teamleitung im Zuge der Automatisierung durch KI neu zuschneiden."
+   "id": "41f635f8c211",
+   "text": "Oracle und OpenAI wollen Beschäftigten den Zugriff auf Unternehmensdaten und freigegebene Abläufe direkt aus ChatGPT heraus ermöglichen."
   }
  ],
  "items": [
@@ -79,7 +79,8 @@
    "added": "2026-10-29T00:41:06+01:00",
    "quelle_titel": "Gemini 4 Carbon: Our next frontier model",
    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-   "kontext": "Google DeepMind beschreibt Carbon als sein stärkstes Modell, mit Schwerpunkt auf Cybersicherheit und langen Arbeitsketten. Die Einführung erfolgt bewusst gestaffelt: erst Fachleute der Cyberabwehr, dann vertraute Partner, später Entwickler und Endkunden. Parallel will das Unternehmen Rückmeldungen sammeln und seine Schutzmechanismen nachziehen. Preislich bleibt es beim Niveau des Vorgängers Argon, also zwei Dollar je Million Eingabetokens."
+   "kontext": "Google DeepMind beschreibt Carbon als sein stärkstes Modell, mit Schwerpunkt auf Cybersicherheit und langen Arbeitsketten. Die Einführung erfolgt bewusst gestaffelt: erst Fachleute der Cyberabwehr, dann vertraute Partner, später Entwickler und Endkunden. Parallel will das Unternehmen Rückmeldungen sammeln und seine Schutzmechanismen nachziehen. Preislich bleibt es beim Niveau des Vorgängers Argon, also zwei Dollar je Million Eingabetokens.",
+   "dup_of": "3db1130e446a"
   },
   {
    "id": "3db1130e446a",
@@ -102,7 +103,29 @@
    "added": "2026-10-29T00:40:28+01:00",
    "quelle_titel": "Gemini 4 Carbon: Googles neues Spitzenmodell zielt auf lange Agenten-Workflows und Cyberabwehr",
    "url": "https://the-decoder.de/gemini-4-carbon-googles-neues-spitzenmodell-zielt-auf-lange-agenten-workflows-und-cyberabwehr/",
-   "kontext": "Der Takt der Veröffentlichungen ist auffällig: Zwischen Argon und Carbon liegen nur zwei Wochen. Weil das Modell offensiv auf Sicherheitsarbeit zielt, lässt Google es im freiwilligen Vorabverfahren der US-Regierung prüfen, bevor es breiter verfügbar wird. Beim agentischen Programmieren liegt es noch knapp hinter Anthropics Opus 5.5, versteckte Manipulationsversuche wehrte es im Test dagegen durchgängig ab. Die Preise bleiben wie beim Vorgänger."
+   "kontext": "Der Takt der Veröffentlichungen ist auffällig: Zwischen Argon und Carbon liegen nur zwei Wochen. Weil das Modell offensiv auf Sicherheitsarbeit zielt, lässt Google es im freiwilligen Vorabverfahren der US-Regierung prüfen, bevor es breiter verfügbar wird. Beim agentischen Programmieren liegt es noch knapp hinter Anthropics Opus 5.5, versteckte Manipulationsversuche wehrte es im Test dagegen durchgängig ab. Die Preise bleiben wie beim Vorgänger.",
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Gemini-Argon-war-gestern-jetzt-kommt-Carbon-11503849.html"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
+    },
+    {
+     "source": "Google DeepMind",
+     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Gemini-Argon-war-gestern-jetzt-kommt-Carbon-11503849.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/"
+    }
+   ]
   },
   {
    "id": "5ca8bf6a7f7b",
@@ -124,7 +147,8 @@
    "added": "2026-10-29T00:40:28+01:00",
    "quelle_titel": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
    "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
-   "kontext": "Carbon folgt nur kurz auf Argon und zeigt, wie schnell Google derzeit nachlegt. Besonders hervorgehoben wird die Cyberabwehr: Das Modell soll Schwachstellen leichter aufspüren und sichereren Code erzeugen, was es in einschlägigen Fachtests nach vorn bringt. Zunächst erhalten nur ausgewählte Sicherheitsfirmen Zugang, weitere Partner sollen über Googles Fairwind Programm folgen. Gedacht ist es für Aufgaben, an denen Agenten tagelang arbeiten."
+   "kontext": "Carbon folgt nur kurz auf Argon und zeigt, wie schnell Google derzeit nachlegt. Besonders hervorgehoben wird die Cyberabwehr: Das Modell soll Schwachstellen leichter aufspüren und sichereren Code erzeugen, was es in einschlägigen Fachtests nach vorn bringt. Zunächst erhalten nur ausgewählte Sicherheitsfirmen Zugang, weitere Partner sollen über Googles Fairwind Programm folgen. Gedacht ist es für Aufgaben, an denen Agenten tagelang arbeiten.",
+   "dup_of": "3db1130e446a"
   },
   {
    "id": "2bcb52ccf6f3",
@@ -146,7 +170,8 @@
    "added": "2026-10-29T02:07:36+01:00",
    "quelle_titel": "Neues LLM: Gemini 4 Carbon ist Exploit-Experte",
    "url": "https://www.heise.de/news/Gemini-Argon-war-gestern-jetzt-kommt-Carbon-11503849.html",
-   "kontext": "Carbon ersetzt die erst kürzlich eingeführte Variante Argon und ist zunächst nicht frei verfügbar: Google öffnet neue Modelle auf Wunsch des Weißen Hauses erst für US-Geheimdienste und ausgewählte Sicherheitsfachleute. Brisant ist, dass das Modell vor allem beim Entwickeln neuer Softwareangriffe zulegt und dort an OpenAIs Spitzenmodell vorbeizieht. Google wirbt zugleich mit weniger Halluzinationen und mit Agentenläufen, die intern über Tage durchliefen."
+   "kontext": "Carbon ersetzt die erst kürzlich eingeführte Variante Argon und ist zunächst nicht frei verfügbar: Google öffnet neue Modelle auf Wunsch des Weißen Hauses erst für US-Geheimdienste und ausgewählte Sicherheitsfachleute. Brisant ist, dass das Modell vor allem beim Entwickeln neuer Softwareangriffe zulegt und dort an OpenAIs Spitzenmodell vorbeizieht. Google wirbt zugleich mit weniger Halluzinationen und mit Agentenläufen, die intern über Tage durchliefen.",
+   "dup_of": "3db1130e446a"
   },
   {
    "id": "1b16f2a2a47a",
@@ -170,7 +195,7 @@
    "quelle_titel": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
    "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
    "kontext": "Amazon stieg 2023 bei Anthropic ein und wählte dabei vor allem Wandeldarlehen statt direkter Anteile. Mit dem Börsengang werden diese Schulden zu Aktien, deren Wert durch die stark gestiegene Bewertung enorm zugelegt hat. Klassische Geldgeber wie Menlo Ventures, Sequoia oder Spark Capital bleiben trotz Milliardenpositionen unter der Schwelle von fünf Prozent, was bei Technologiebörsengängen ungewöhnlich ist. Zusätzlich verdient Amazon an einer langfristigen Cloud-Zusage von Anthropic.",
-   "dup_of": "890a386bc774"
+   "dup_of": "95af72b561e4"
   },
   {
    "id": "e6811fd39b8f",
@@ -337,7 +362,7 @@
    "added": "2026-10-28T15:23:00+01:00",
    "quelle_titel": "Oracle AI Workspace Promises Business Workflows Through ChatGPT",
    "url": "https://www.theneuron.ai/news/oracle-ai-workspace-chatgpt-business-workflows/",
-   "dup_of": "a3a879144b29"
+   "kontext": "Hinter dem Vorhaben steht eine Ende Oktober erweiterte Zusammenarbeit der beiden Konzerne. ChatGPT soll damit zur Oberfläche für Oracle Anwendungen werden, in der Beschäftigte Informationen finden und genehmigte Prozesse anstoßen. Der Zugang entsteht stufenweise, zunächst über einzelne Erweiterungen, bevor die komplette Arbeitsumgebung folgt. Für Unternehmenssoftware ist das ein weiterer Schritt, Chatassistenten als zentralen Einstieg zu betrieblichen Daten zu etablieren."
   },
   {
    "id": "f0c3e8d85e48",
@@ -384,7 +409,7 @@
    "added": "2026-10-28T15:27:32+01:00",
    "quelle_titel": "Proton-Angestellte sollen wegen KI-Nutzung erneut ins Bewerbungsgespräch",
    "url": "https://www.heise.de/news/Proton-Angestellte-sollen-wegen-KI-Nutzung-erneut-ins-Bewerbungsgespraech-11502535.html",
-   "dup_of": "4745dfeeb4dc"
+   "dup_of": "6578d71cc629"
   },
   {
    "id": "6578d71cc629",
@@ -407,7 +432,17 @@
    "added": "2026-10-29T02:08:18+01:00",
    "quelle_titel": "Proton-Angestellte sollen wegen KI-Nutzung erneut ins Bewerbungsgespräch",
    "url": "https://www.heise.de/news/Proton-Angestellte-sollen-wegen-KI-Nutzung-erneut-ins-Bewerbungsgespraech-11502535.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Proton ist für verschlüsselte Dienste wie Mail und VPN bekannt und beschäftigt wenige hundert Menschen. Firmenchef Andy Yen drängt seit längerem auf mehr KI im Arbeitsalltag und hat dafür Dutzende Führungskräfte eingebunden. Die Gespräche im November führen nicht die direkten Vorgesetzten, sondern intern ausgewählte Fachleute; laut dem internen Schreiben können Aufgaben und Weiterbeschäftigung betroffen sein. Das Unternehmen selbst bestreitet, Stellen abzubauen."
+   "kontext": "Proton ist für verschlüsselte Dienste wie Mail und VPN bekannt und beschäftigt wenige hundert Menschen. Firmenchef Andy Yen drängt seit längerem auf mehr KI im Arbeitsalltag und hat dafür Dutzende Führungskräfte eingebunden. Die Gespräche im November führen nicht die direkten Vorgesetzten, sondern intern ausgewählte Fachleute; laut dem internen Schreiben können Aufgaben und Weiterbeschäftigung betroffen sein. Das Unternehmen selbst bestreitet, Stellen abzubauen.",
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Proton-Angestellte-sollen-wegen-KI-Nutzung-erneut-ins-Bewerbungsgespraech-11502535.html"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/wegen-ki-proton-mitarbeiter-muessen-erneut-zum-bewerbungsgespraech-1770380"
+    }
+   ]
   },
   {
    "id": "a6e314a75d87",
@@ -500,6 +535,10 @@
    "kontext": "Anders als eine Spiele-Engine rendert Genie keine vorgefertigte Welt, sondern erzeugt jedes Bild fortlaufend neu. Dabei hilft Gemini gleich doppelt: ein Videomodell für Optik und Physik, ein schnelles Modell, das die laufende Simulation beobachtet und Schritte plant. Google DeepMind arbeitet seit Jahren an der Reihe, die Vorgängergeneration lief bereits in Echtzeit. Noch halten die Welten aber nur wenige Minuten durch und bleiben nicht durchgehend stimmig.",
    "also": [
     {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/google-deepmind-zeigt-mit-genie-4-die-naechste-stufe-der-ki-simulation/"
+    },
+    {
      "source": "Google DeepMind",
      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
     },
@@ -514,10 +553,6 @@
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
-    },
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/google-deepmind-zeigt-mit-genie-4-die-naechste-stufe-der-ki-simulation/"
     },
     {
      "source": "Golem",
@@ -559,13 +594,7 @@
    "kurios": "Der Elvis-Katalog wird zum Beweisstück in einem Millionenstreit um KI-Training.",
    "quelle_titel": "Elvis-Erben vs. Anthropic: KI-Firma soll Schutzmaßnahmen umgangen und Songs illegal genutzt haben",
    "url": "https://the-decoder.de/elvis-erben-vs-anthropic-ki-firma-soll-schutzmassnahmen-umgangen-und-songs-illegal-genutzt-haben/",
-   "kontext": "Eingereicht wurde die Klage bei einem Bundesgericht in Nordkalifornien, unter den Klägern sind die Authentic Brands Group sowie Musikverlage und Treuhänder. Brisant ist weniger die Trainingsnutzung selbst als der Vorwurf, technische Sperren umgangen zu haben, denn das kann eigene rechtliche Folgen haben. Erst kürzlich klagte der Rechteverwerter Reservoir, Universal fordert sogar Milliarden. Die KI-Musikfirma Suno wählte dagegen den Weg über Lizenzverträge mit großen Labels.",
-   "also": [
-    {
-     "source": "Deutschlandfunk",
-     "url": "https://www.deutschlandfunk.de/rechteinhaber-von-elvis-presley-verklagen-das-ki-unternehmen-anthropic-104.html"
-    }
-   ]
+   "kontext": "Eingereicht wurde die Klage bei einem Bundesgericht in Nordkalifornien, unter den Klägern sind die Authentic Brands Group sowie Musikverlage und Treuhänder. Brisant ist weniger die Trainingsnutzung selbst als der Vorwurf, technische Sperren umgangen zu haben, denn das kann eigene rechtliche Folgen haben. Erst kürzlich klagte der Rechteverwerter Reservoir, Universal fordert sogar Milliarden. Die KI-Musikfirma Suno wählte dagegen den Weg über Lizenzverträge mit großen Labels."
   },
   {
    "id": "f7af445695e7",
@@ -801,7 +830,13 @@
    "praxis": true,
    "quelle_titel": "KI-Agenten an der kurzen Leine: PipesHub durchsucht das Firmenwissen",
    "url": "https://www.heise.de/news/KI-Agenten-an-der-kurzen-Leine-PipesHub-durchsucht-das-Firmenwissen-11502811.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Hinter PipesHub steht ein quelloffenes Projekt, das sich als selbst hostbare Alternative zu kommerziellen Suchdiensten wie Glean versteht und unter der Apache-2.0-Lizenz entsteht. Über mehr als 50 Konnektoren übernimmt die Software die Rechte der angebundenen Systeme: Wer ein Ticket oder Dokument nicht sehen darf, erfährt auch über einen Assistenten nichts davon. Technisch verbindet die Plattform Vektor und Graphdatenbanken. Sprachmodelle lassen sich frei anbinden, kommerziell per Schnittstelle oder lokal."
+   "kontext": "Hinter PipesHub steht ein quelloffenes Projekt, das sich als selbst hostbare Alternative zu kommerziellen Suchdiensten wie Glean versteht und unter der Apache-2.0-Lizenz entsteht. Über mehr als 50 Konnektoren übernimmt die Software die Rechte der angebundenen Systeme: Wer ein Ticket oder Dokument nicht sehen darf, erfährt auch über einen Assistenten nichts davon. Technisch verbindet die Plattform Vektor und Graphdatenbanken. Sprachmodelle lassen sich frei anbinden, kommerziell per Schnittstelle oder lokal.",
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/KI-Agenten-an-der-kurzen-Leine-PipesHub-durchsucht-das-Firmenwissen-11502811.html"
+    }
+   ]
   },
   {
    "id": "067e25e3af50",
@@ -847,7 +882,7 @@
    "kurios": "Beschäftigte müssen sich im eigenen Unternehmen neu um ihren Job bewerben.",
    "quelle_titel": "Wegen KI: Proton-Mitarbeiter müssen erneut zum Bewerbungsgespräch",
    "url": "https://t3n.de/news/wegen-ki-proton-mitarbeiter-muessen-erneut-zum-bewerbungsgespraech-1770380",
-   "dup_of": "4745dfeeb4dc"
+   "dup_of": "6578d71cc629"
   },
   {
    "id": "fb1a46cff3a5",
@@ -1010,6 +1045,52 @@
    "kontext": "Hinter dem Schritt steht Richard Borcherds von der Universität Berkeley. Er beobachtet, dass viele Studierende ihre Aufgaben mit KI lösen und dadurch durchgehend Bestnoten erreichen. Aktuell zählt für ihn nur noch, ob überhaupt abgegeben wurde, was er selbst für unbefriedigend hält. Die Hochschule setzt stattdessen auf Regeln je Kurs, denn getestete Erkennungsprogramme erwiesen sich als untauglich für den breiten Einsatz."
   },
   {
+   "id": "d9d311919980",
+   "date": "2026-10-28",
+   "published": "2026-10-28T16:00+01:00",
+   "headline": "Nvidia veröffentlicht freies Transkriptionsmodell für 40 Sprachen",
+   "summary": "Nvidia stellt ein kostenloses Speech-to-Text-Modell bereit, das Aufnahmen in bis zu 40 Sprachen verschriftlicht. Live-Audio unterstützt es nicht, dieser Bereich bleibt Anbietern wie ElevenLabs überlassen. Für Protokolle von Besprechungen oder medizinische Transkription ist das Modell damit besonders interessant.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "nvidia",
+    "spracherkennung",
+    "open model",
+    "transkription"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-29T03:17:28+01:00",
+   "praxis": true,
+   "quelle_titel": "Voice AI in vogue: Nvidia releases new open transcription model",
+   "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+   "dup_of": "f4e67dd30767"
+  },
+  {
+   "id": "1af93ecc8fda",
+   "date": "2026-10-28",
+   "published": "2026-10-28T16:41+01:00",
+   "headline": "Neue Angriffswelle trifft Finanzsektor in Südkorea",
+   "summary": "Südkoreanische Finanzinstitute sind erneut Ziel von Cyberattacken geworden. Der Fall verdeutlicht, wie stark KI-gestützte Angriffsmethoden in Asien zunehmen. Für Unternehmen wächst damit der Druck, ihre Abwehr entsprechend nachzurüsten.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "cyberangriff",
+    "südkorea",
+    "finanzsektor",
+    "ki-hacking"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-29T03:17:28+01:00",
+   "quelle_titel": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+   "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+   "kontext": "Betroffen sind diesmal die Wertpapierhäuser Daishin Securities und Mirae Asset Global Investments sowie die Kryptobörse Bithumb. Bei Daishin wurden Kundendaten wie Namen und Kontaktangaben offengelegt. Schon im September gab es eine ähnliche Serie, die Sicherheitsforscher einem vermutlich in China ansässigen Angreifer mit einem KI-Werkzeug für Penetrationstests zuordnen. Die Finanzaufsicht in Seoul fordert nun strengere Schutzmaßnahmen und will zahlreiche IT-Systeme prüfen; auch in Japan traf es jüngst einen Internetkonzern."
+  },
+  {
    "id": "f4e67dd30767",
    "date": "2026-10-28",
    "published": "2026-10-28T16:49+01:00",
@@ -1030,7 +1111,17 @@
    "added": "2026-10-29T00:42:10+01:00",
    "quelle_titel": "Nemotron 3.5 Transcribe: Nvidias offenes Modell vereint Transkription, Übersetzung und Sprechererkennung",
    "url": "https://the-decoder.de/nemotron-3-5-transcribe-nvidias-offenes-modell-vereint-transkription-uebersetzung-und-sprechererkennung/",
-   "kontext": "Nvidia stellt sein offenes Modell gegen spezialisierte Einzellösungen und etablierte kommerzielle Sprachdienste. Es transkribiert rund 40 Sprachen, übersetzt viele davon ins Englische und erkennt in Aufnahmen mit mehreren Stimmen, wer gerade spricht. Weil pro Rechenschritt nur ein Bruchteil der Parameter arbeitet, genügt eine einzelne GPU, vom kompakten Desktopsystem bis zum Rechenzentrum. Der mitveröffentlichte Datensatz senkt die Hürde, eigene Fachsprache etwa aus der Medizin nachzutrainieren."
+   "kontext": "Nvidia stellt sein offenes Modell gegen spezialisierte Einzellösungen und etablierte kommerzielle Sprachdienste. Es transkribiert rund 40 Sprachen, übersetzt viele davon ins Englische und erkennt in Aufnahmen mit mehreren Stimmen, wer gerade spricht. Weil pro Rechenschritt nur ein Bruchteil der Parameter arbeitet, genügt eine einzelne GPU, vom kompakten Desktopsystem bis zum Rechenzentrum. Der mitveröffentlichte Datensatz senkt die Hürde, eigene Fachsprache etwa aus der Medizin nachzutrainieren.",
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
+    },
+    {
+     "source": "Hugging Face",
+     "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+    }
+   ]
   },
   {
    "id": "ed371b37eb8b",
@@ -1123,6 +1214,28 @@
    "kontext": "Hinter der Öffnung steht das offene Agent Client Protocol, über das sich Agenten verschiedener Anbieter einbinden lassen und Zugriff auf Projektstruktur, Emulator und Logcat erhalten. Google ergänzt eine Prüffunktion für KI-generierte Änderungen, ein Leaderboard für mehrtägige Entwicklungsaufgaben sowie ein maschinenlesbares Build-System. Auch die Kommandozeile steht als Plugin für fremde Agenten bereit. Google positioniert sich damit als neutrale Plattform, statt allein eigene Modelle durchzusetzen."
   },
   {
+   "id": "a01db71b034c",
+   "date": "2026-10-28",
+   "published": "2026-10-28T18:00+01:00",
+   "headline": "Google öffnet Gemini und Suche für externe App-Anbieter",
+   "summary": "Google startet eine Entwicklerplattform, über die Unternehmen ihre Dienste in Gemini und die Suche einbinden können. Damit sollen KI-Agenten direkt auf Angebote Dritter zugreifen. Für Anbieter könnte sich dadurch verändern, wie Nutzer Apps überhaupt noch finden und starten.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "google",
+    "gemini",
+    "ki-agenten",
+    "entwicklerplattform"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-29T03:17:28+01:00",
+   "quelle_titel": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+   "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+   "kontext": "Über die neue Plattform binden Entwickler ihre Dienste per MCP-Server an, registrieren und testen sie in einer eigenen Konsole und werten später Zugriffe, Tempo und Fehler aus. In Gemini stehen bereits Dutzende Partnerdienste bereit, in der Suche folgen sie in den kommenden Wochen; der Start läuft zunächst als Beta in den USA. Google zieht damit mit ähnlichen Ansätzen von OpenAI und Meta mit. Für Anbieter entsteht eine Sichtbarkeitsfrage ähnlich der Suchmaschinenoptimierung."
+  },
+  {
    "id": "dff00a5c5eb1",
    "date": "2026-10-28",
    "published": "2026-10-28T18:21+01:00",
@@ -1166,7 +1279,8 @@
    "added": "2026-10-29T00:41:06+01:00",
    "paywall": true,
    "quelle_titel": "Anthropic-Börsengang: Wie Amazon und Google am Aufstieg von Anthropic mitverdienen",
-   "url": "https://www.wiwo.de/finanzen/boerse/anthropic-boersengang-wie-amazon-und-google-am-aufstieg-von-anthropic-mitverdienen/100265547.html"
+   "url": "https://www.wiwo.de/finanzen/boerse/anthropic-boersengang-wie-amazon-und-google-am-aufstieg-von-anthropic-mitverdienen/100265547.html",
+   "dup_of": "95af72b561e4"
   },
   {
    "id": "8500267ec5b4",
@@ -1188,7 +1302,13 @@
    "added": "2026-10-29T02:07:36+01:00",
    "quelle_titel": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
    "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
-   "kontext": "An der Behebung arbeitete ein Verbund aus Forschern, dem PHP-Team, OpenAI und dem inzwischen zu Google gehörenden Anbieter Wiz. Dessen Technikchef Tomer Schwartz war mitten im Wettlauf gegen die Zeit dabei und schildert den Ablauf aus der Innensicht. Entscheidend ist aus seiner Sicht, dass KI das Finden wie das Ausnutzen bislang unbekannter Lücken beschleunigt. Von Hand nachzupatchen werde deshalb nicht mehr genügen."
+   "kontext": "An der Behebung arbeitete ein Verbund aus Forschern, dem PHP-Team, OpenAI und dem inzwischen zu Google gehörenden Anbieter Wiz. Dessen Technikchef Tomer Schwartz war mitten im Wettlauf gegen die Zeit dabei und schildert den Ablauf aus der Innensicht. Entscheidend ist aus seiner Sicht, dass KI das Finden wie das Ausnutzen bislang unbekannter Lücken beschleunigt. Von Hand nachzupatchen werde deshalb nicht mehr genügen.",
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/"
+    }
+   ]
   },
   {
    "id": "ea370fdd96af",
@@ -1277,7 +1397,8 @@
    "added": "2026-10-29T00:39:50+01:00",
    "quelle_titel": "Neues LLM: Gemini 4 Carbon ist Exploit-Experte",
    "url": "https://www.heise.de/news/Gemini-Argon-war-gestern-jetzt-kommt-Carbon-11503849.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Carbon ist zunächst nur US-Geheimdiensten und ausgewählten Vertrauenspartnern zugänglich, weil Google einer Vorgabe aus dem Weißen Haus folgt und den Zugang über ein eigenes Programm stufenweise öffnet. Neben dem Aufspüren von Lücken reklamiert der Konzern auch die Führung beim Absichern von Code. Das Modell soll zudem seltener halluzinieren, häufiger nachfragen und als Agent tagelang an schwierigen Aufgaben arbeiten."
+   "kontext": "Carbon ist zunächst nur US-Geheimdiensten und ausgewählten Vertrauenspartnern zugänglich, weil Google einer Vorgabe aus dem Weißen Haus folgt und den Zugang über ein eigenes Programm stufenweise öffnet. Neben dem Aufspüren von Lücken reklamiert der Konzern auch die Führung beim Absichern von Code. Das Modell soll zudem seltener halluzinieren, häufiger nachfragen und als Agent tagelang an schwierigen Aufgaben arbeiten.",
+   "dup_of": "3db1130e446a"
   },
   {
    "id": "f9d1493b929c",
@@ -1299,7 +1420,8 @@
    "added": "2026-10-29T00:39:50+01:00",
    "quelle_titel": "Microsoft recorded $10 billion in revenue from OpenAI",
    "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
-   "kontext": "Die Summe entspricht etwa einem Zehntel des Microsoft-Quartalsumsatzes und stammt aus Cloud-Diensten sowie einer Umsatzbeteiligung, deren Aufteilung das Unternehmen offenlässt. Beide Partner konkurrieren inzwischen um dieselben Kunden, haben ihre einst exklusive Bindung aber nur gelockert: Die Beteiligung läuft gedeckelt bis 2030 weiter. Parallel sinkt Microsofts Anteil an OpenAI langsam, während die offenen Forderungen gegenüber dem Labor steigen."
+   "kontext": "Die Summe entspricht etwa einem Zehntel des Microsoft-Quartalsumsatzes und stammt aus Cloud-Diensten sowie einer Umsatzbeteiligung, deren Aufteilung das Unternehmen offenlässt. Beide Partner konkurrieren inzwischen um dieselben Kunden, haben ihre einst exklusive Bindung aber nur gelockert: Die Beteiligung läuft gedeckelt bis 2030 weiter. Parallel sinkt Microsofts Anteil an OpenAI langsam, während die offenen Forderungen gegenüber dem Labor steigen.",
+   "dup_of": "0ef91bd8c8c1"
   },
   {
    "id": "9b7dd4a7a685",
@@ -1343,7 +1465,14 @@
    "added": "2026-10-29T00:39:50+01:00",
    "paywall": true,
    "quelle_titel": "KI: Teurer KI-Wettlauf, Alphabet verschreckt die Wall Street",
-   "url": "https://www.handelsblatt.com/technik/it-internet/ki-teurer-ki-wettlauf-alphabet-verschreckt-die-wall-street/100265408.html"
+   "url": "https://www.handelsblatt.com/technik/it-internet/ki-teurer-ki-wettlauf-alphabet-verschreckt-die-wall-street/100265408.html",
+   "also": [
+    {
+     "source": "FAZ",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLUhKWmFSaFNpYzNIZkJYWnhrWUU2VGR2ZWZBRlBvVVItOTVMeFJTNVBCRmVkQVFKRm80cW1tT2Z0T256eG14WGJhME9VNnYwekFiOTg1NlJELU1Gci04dHVtaU9nMmVlYnQ0clRXcHlPQktkVkpRaVhhSFExZDVDLWdaV0JkOGxFTUVQVDdRSjJzb1FnaTBKQW5fWC1Ia3l2Ni10ckFIM3JHUUU?oc=5",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "08e8bbfc7c31",
@@ -1365,7 +1494,8 @@
    "added": "2026-10-29T02:07:36+01:00",
    "paywall": true,
    "quelle_titel": "Microsoft und Alphabet: Cloud-Boom dank KI",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLUhKWmFSaFNpYzNIZkJYWnhrWUU2VGR2ZWZBRlBvVVItOTVMeFJTNVBCRmVkQVFKRm80cW1tT2Z0T256eG14WGJhME9VNnYwekFiOTg1NlJELU1Gci04dHVtaU9nMmVlYnQ0clRXcHlPQktkVkpRaVhhSFExZDVDLWdaV0JkOGxFTUVQVDdRSjJzb1FnaTBKQW5fWC1Ia3l2Ni10ckFIM3JHUUU?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLUhKWmFSaFNpYzNIZkJYWnhrWUU2VGR2ZWZBRlBvVVItOTVMeFJTNVBCRmVkQVFKRm80cW1tT2Z0T256eG14WGJhME9VNnYwekFiOTg1NlJELU1Gci04dHVtaU9nMmVlYnQ0clRXcHlPQktkVkpRaVhhSFExZDVDLWdaV0JkOGxFTUVQVDdRSjJzb1FnaTBKQW5fWC1Ia3l2Ni10ckFIM3JHUUU?oc=5",
+   "dup_of": "15f6d55bc7c2"
   },
   {
    "id": "8c63067a2b44",
@@ -1386,7 +1516,8 @@
    "source_id": "tldr-ai",
    "added": "2026-10-28T15:27:32+01:00",
    "quelle_titel": "Genie 4 worlds 🌍, Frontier Code 2 👨‍💻, AI drug discovery 🧬",
-   "url": "https://tldr.tech/ai/2026-10-28"
+   "url": "https://tldr.tech/ai/2026-10-28",
+   "kontext": "Der englischsprachige Branchennewsletter bündelt in der Ausgabe vom 28. Oktober Produktmeldungen und Forschungsthemen. Auffällig ist daneben ein gesponserter Beitrag zur Aufsicht über KI-Agenten: Das klassische Vorgehen aus Eingabe, Pause und Kontrolle passte zu generativer KI, stößt bei Agenten aber an Grenzen, weil niemand jede Teilentscheidung prüfen kann. Vorgeschlagen wird ein Rahmen, der Autonomie, Genauigkeit und Verantwortung ausbalanciert, sobald Agenten vom Pilotbetrieb in den Alltag wechseln."
   },
   {
    "id": "c517821d0281",
@@ -1408,7 +1539,8 @@
    "source_id": "anthropic",
    "added": "2026-10-29T00:43:17+01:00",
    "quelle_titel": "AI for Science expands to foundations and research institutions",
-   "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+   "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+   "kontext": "Das im Mai 2025 gestartete Programm vergibt kostenlose Claude-Guthaben an Forschende und richtet sich nun auch an Förderorganisationen und ganze Institute. Beteiligt sind unter anderem das Allen Institute, das Agententeams auf große Datensätze ansetzt, sowie der Janelia Research Campus, mit dem ein Standard für den sicheren Zugriff von KI-Agenten auf Laborgeräte entsteht. Viele Vorhaben sollen offene Daten, Software und Standards hervorbringen und damit über die einzelnen Partner hinaus wirken."
   },
   {
    "id": "97e8ed1c50b8",
@@ -1498,7 +1630,34 @@
    "kurios": "Ein Präsident verbietet per Dekret ein etabliertes Fachwort.",
    "quelle_titel": "Trump will Bezeichnung KI in US-Dokumenten verbieten",
    "url": "https://www.cio.de/article/4241518/trump-will-bezeichnung-ki-in-us-dokumenten-verbieten.html",
-   "dup_of": "f75d3c863d6e"
+   "also": [
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/trump-begriff-ki-us-dokumente"
+    }
+   ],
+   "kontext": "Trump treibt die Umbenennung schon seit Wochen voran und verbreitete die Ansage über sein eigenes Netzwerk Truth Social. Dahinter steht der Versuch, die Deutung der Technologie politisch zu besetzen und sie größer erscheinen zu lassen. Mehrere Chefs von Technologiekonzernen haben das Wort Superintelligenz bereits öffentlich übernommen, während US-Medien weiterhin von Künstlicher Intelligenz schreiben. Wie ein solches Verbot in Behörden praktisch durchgesetzt werden soll, bleibt offen."
+  },
+  {
+   "id": "6ffab0a6a98a",
+   "date": "2026-10-28",
+   "published": "2026-10-28T07:00+01:00",
+   "headline": "Finanz-KI-Anbieter Hyphenate erhält 45 Millionen Dollar Kapital",
+   "summary": "Hyphenate hat eine Finanzierung in Höhe von 45 Millionen Dollar erhalten. Das Unternehmen entwickelt KI-Anwendungen für den Finanzsektor. Details zur geplanten Mittelverwendung nennt die Meldung nicht.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "fintech",
+    "finanzierung",
+    "start-up",
+    "finanzbranche"
+   ],
+   "source": "n24.com.tr",
+   "source_id": "gn-startups",
+   "added": "2026-10-29T03:17:43+01:00",
+   "quelle_titel": "Hyphenate: 45 Millionen Dollar für KI im Finanzwesen",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNFpLVnE4dWZ5SG1Qa0NkaUw5bVlSWDZjRl9XWTQ0eklhQVpiZVUtOUtXVUlqZi1qR3YteFljM2FZekl5ZUs3NWF0YWNRR2ZYcW9PaU4teWpybTdWOFg1dm0zVFltbWgtWnFHTExSVFdHSHh3dXA0TzB1ZFZiRS1RM18zaXFtU3lNMFYwY3ZVOVpiemdZYUhyLTJfY0U?oc=5"
   },
   {
    "id": "e4937b2cb2d9",
@@ -1519,7 +1678,8 @@
    "source_id": "ix",
    "added": "2026-10-28T15:27:32+01:00",
    "quelle_titel": "HPE vereint Netzwerk- und Sicherheitsmanagement mit KI",
-   "url": "https://www.heise.de/news/HPE-vereint-Netzwerk-und-Sicherheitsmanagement-mit-KI-11502351.html"
+   "url": "https://www.heise.de/news/HPE-vereint-Netzwerk-und-Sicherheitsmanagement-mit-KI-11502351.html",
+   "dup_of": "e870ce8f4d4e"
   },
   {
    "id": "e870ce8f4d4e",
@@ -1540,7 +1700,14 @@
    "source_id": "heise-ki",
    "added": "2026-10-29T02:08:18+01:00",
    "quelle_titel": "HPE vereint Netzwerk- und Sicherheitsmanagement mit KI",
-   "url": "https://www.heise.de/news/HPE-vereint-Netzwerk-und-Sicherheitsmanagement-mit-KI-11502351.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/HPE-vereint-Netzwerk-und-Sicherheitsmanagement-mit-KI-11502351.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/HPE-vereint-Netzwerk-und-Sicherheitsmanagement-mit-KI-11502351.html"
+    }
+   ],
+   "kontext": "HPE baut seine Netzwerksparte weiter um und schiebt die SD-WAN- und SASE-Lösung EdgeConnect in die Verwaltungsoberflächen von Mist und Aruba Central. Bisher mussten Administratoren zwischen getrennten Konsolen für Campus, WAN und Sicherheit springen. Durch die gemeinsame Telemetrie soll sich leichter klären lassen, ob ein Problem vom Funknetz, einem Switch-Port, der WAN-Strecke oder einer Richtlinie kommt. Fernziel bleibt ein Netz, das sich selbst steuert."
   },
   {
    "id": "0fb6959c14fd",
@@ -1585,7 +1752,8 @@
    "added": "2026-10-28T15:27:32+01:00",
    "quelle_titel": "Kommentar: Photoshop per KI nachgebaut, Kopieren ist billig, Entscheiden nicht",
    "url": "https://www.heise.de/blog/Kommentar-Photoshop-per-KI-nachgebaut-Kopieren-ist-billig-Entscheiden-nicht-11495511.html",
-   "kontext": "Auslöser ist das Projekt ArtCraft von Brandon Thomas: in Rust geschriebene Nachbildungen bekannter Adobe-Werkzeuge, deren Code im Wesentlichen ein Spitzenmodell von Anthropic erzeugt hat. Der Photoshop-Klon sammelte auf GitHub rasch Zehntausende Sterne, abgesichert durch Tests, die das Ergebnis mit dem Original vergleichen. Kommentator Golo Roden, CTO eines Webentwicklungshauses, widerspricht dem Abgesang: Eine fertige Vorlage nachzubauen sei der leichte Teil, die Entwurfsentscheidungen blieben die eigentliche Leistung."
+   "kontext": "Auslöser ist das Projekt ArtCraft von Brandon Thomas: in Rust geschriebene Nachbildungen bekannter Adobe-Werkzeuge, deren Code im Wesentlichen ein Spitzenmodell von Anthropic erzeugt hat. Der Photoshop-Klon sammelte auf GitHub rasch Zehntausende Sterne, abgesichert durch Tests, die das Ergebnis mit dem Original vergleichen. Kommentator Golo Roden, CTO eines Webentwicklungshauses, widerspricht dem Abgesang: Eine fertige Vorlage nachzubauen sei der leichte Teil, die Entwurfsentscheidungen blieben die eigentliche Leistung.",
+   "dup_of": "76149fbb5604"
   },
   {
    "id": "76149fbb5604",
@@ -1607,7 +1775,14 @@
    "source_id": "heise-ki",
    "added": "2026-10-29T00:43:17+01:00",
    "quelle_titel": "Kommentar: Photoshop per KI nachgebaut, Kopieren ist billig, Entscheiden nicht",
-   "url": "https://www.heise.de/blog/Kommentar-Photoshop-per-KI-nachgebaut-Kopieren-ist-billig-Entscheiden-nicht-11495511.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/blog/Kommentar-Photoshop-per-KI-nachgebaut-Kopieren-ist-billig-Entscheiden-nicht-11495511.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/blog/Kommentar-Photoshop-per-KI-nachgebaut-Kopieren-ist-billig-Entscheiden-nicht-11495511.html"
+    }
+   ],
+   "kontext": "Hinter dem Projekt steht der Entwickler Brandon Thomas, der mit ArtCraft inzwischen über ein Dutzend Adobe-Werkzeuge in Rust nachbildet, geschrieben im Wesentlichen von Claude Opus 5.5. Der Reiz: Beim Klonen liefert das Original die Spezifikation, Verhalten und Ausgabe lassen sich automatisiert vergleichen. Seine Prognose zur vollen Funktionsgleichheit hat Thomas später relativiert. Roden warnt, dass Entwickler ihre eigene Arbeit entwerten, wenn sie das Kopieren mit Entwickeln verwechseln."
   },
   {
    "id": "79b21f0e2d5c",
@@ -1781,7 +1956,7 @@
    "kurios": "Ein Präsident verbietet per Sprachregelung das Wort Künstliche Intelligenz.",
    "quelle_titel": "Trump verbannt den Begriff KI aus US-Dokumenten",
    "url": "https://www.it-daily.net/shortnews/trump-begriff-ki-us-dokumente",
-   "dup_of": "f75d3c863d6e"
+   "dup_of": "433ccfd426fa"
   },
   {
    "id": "0dc3cf0b7c98",
@@ -1917,7 +2092,8 @@
    "praxis": true,
    "quelle_titel": "KI-Agenten an der kurzen Leine: PipesHub durchsucht das Firmenwissen",
    "url": "https://www.heise.de/news/KI-Agenten-an-der-kurzen-Leine-PipesHub-durchsucht-das-Firmenwissen-11502811.html",
-   "kontext": "Hinter PipesHub steht ein quelloffenes Projekt unter Apache-Lizenz, das sich als selbst hostbare Alternative zu Diensten wie Glean positioniert. Über mehr als 50 Konnektoren bindet es vorhandene Systeme ein und übernimmt deren Zugriffsrechte, sodass sensible Inhalte das eigene Haus nicht verlassen müssen. Technisch kombiniert die Plattform Vektor und Graphdatenbanken, um auch Beziehungen zwischen Dokumenten und Nutzern abzubilden. Sprachmodelle sind frei wählbar, auch lokal betriebene; Werkzeuge wie Cursor docken per Model Context Protocol an."
+   "kontext": "Hinter PipesHub steht ein quelloffenes Projekt unter Apache-Lizenz, das sich als selbst hostbare Alternative zu Diensten wie Glean positioniert. Über mehr als 50 Konnektoren bindet es vorhandene Systeme ein und übernimmt deren Zugriffsrechte, sodass sensible Inhalte das eigene Haus nicht verlassen müssen. Technisch kombiniert die Plattform Vektor und Graphdatenbanken, um auch Beziehungen zwischen Dokumenten und Nutzern abzubilden. Sprachmodelle sind frei wählbar, auch lokal betriebene; Werkzeuge wie Cursor docken per Model Context Protocol an.",
+   "dup_of": "b94485d213d6"
   },
   {
    "id": "c3f87b32bcfc",
@@ -2036,7 +2212,13 @@
    "added": "2026-10-28T15:23:46+01:00",
    "quelle_titel": "Cisco: Netzwerke über MCP verwalten",
    "url": "https://www.heise.de/news/Cisco-Netzwerke-ueber-MCP-verwalten-11503086.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Cisco stellt die Neuerungen auf seinem Partner Summit in Vancouver vor. Über MCP-Server erhalten externe Agenten Zugriff auf Konfigurations- und Telemetriedaten von Plattformen wie Meraki, Catalyst Center und der Zugangskontrolle ISE; die Schnittstellen sind über DevNet dokumentiert und öffentlich verfügbar. Ähnliche Angebote gibt es bereits von Arista und HPE Juniper, der Standard etabliert sich also im Netzwerkmarkt. Den Zugriff auf Router und Switches begrenzt Cisco gemeinsam mit Teleport zeitlich und aufgabenbezogen."
+   "kontext": "Cisco stellt die Neuerungen auf seinem Partner Summit in Vancouver vor. Über MCP-Server erhalten externe Agenten Zugriff auf Konfigurations- und Telemetriedaten von Plattformen wie Meraki, Catalyst Center und der Zugangskontrolle ISE; die Schnittstellen sind über DevNet dokumentiert und öffentlich verfügbar. Ähnliche Angebote gibt es bereits von Arista und HPE Juniper, der Standard etabliert sich also im Netzwerkmarkt. Den Zugriff auf Router und Switches begrenzt Cisco gemeinsam mit Teleport zeitlich und aufgabenbezogen.",
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Cisco-Netzwerke-ueber-MCP-verwalten-11503086.html"
+    }
+   ]
   },
   {
    "id": "8d3766fba262",
@@ -2059,7 +2241,8 @@
    "added": "2026-10-29T00:42:59+01:00",
    "quelle_titel": "Cisco: Netzwerke über MCP verwalten",
    "url": "https://www.heise.de/news/Cisco-Netzwerke-ueber-MCP-verwalten-11503086.html",
-   "kontext": "Auf dem Partner Summit in Vancouver stellt Cisco Schnittstellen für Meraki, Catalyst Center und die Zugangskontrolle ISE vor, dokumentiert über DevNet und verfügbar auf GitHub. Externe Agenten kommen damit an Konfigurations- und Telemetriedaten, etwa für Fehlersuche und Berichte. Messungen laufen künftig direkt auf passenden Access Points, ohne eigene Testgeräte. Arista und HPE Juniper verfolgen vergleichbare Ansätze, der Wettbewerb um agentenfähige Netzwerke läuft also bereits."
+   "kontext": "Auf dem Partner Summit in Vancouver stellt Cisco Schnittstellen für Meraki, Catalyst Center und die Zugangskontrolle ISE vor, dokumentiert über DevNet und verfügbar auf GitHub. Externe Agenten kommen damit an Konfigurations- und Telemetriedaten, etwa für Fehlersuche und Berichte. Messungen laufen künftig direkt auf passenden Access Points, ohne eigene Testgeräte. Arista und HPE Juniper verfolgen vergleichbare Ansätze, der Wettbewerb um agentenfähige Netzwerke läuft also bereits.",
+   "dup_of": "6a31c188f4b0"
   },
   {
    "id": "a4c8936b8481",
@@ -2104,7 +2287,36 @@
    "source_id": "gn-weiterbildung",
    "added": "2026-10-28T15:23:46+01:00",
    "quelle_titel": "Kastilien und León: 600.000 Euro für KI-Werkzeuge und Behördenschulungen",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb0F6Q0gweTJiQkRST2Y5ZVp3MVQzdDBtV0c1VVRMbm9QeG56OXlGd2p0TmZ5QzJlM0NKd05Ddmw5TVJjdEpYdmNwQzdpUWlvMEhWcDZBNlAzY0F6SE5JYmhGcnNMOTF1WHJGMi05VGtwWWpjazQ4LTl1dkx4TUs4MHhwSDB0TlVsTjMyX1VGRWVXZzQtQlBFLUlZRkMtVXAtRk9CXw?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb0F6Q0gweTJiQkRST2Y5ZVp3MVQzdDBtV0c1VVRMbm9QeG56OXlGd2p0TmZ5QzJlM0NKd05Ddmw5TVJjdEpYdmNwQzdpUWlvMEhWcDZBNlAzY0F6SE5JYmhGcnNMOTF1WHJGMi05VGtwWWpjazQ4LTl1dkx4TUs4MHhwSDB0TlVsTjMyX1VGRWVXZzQtQlBFLUlZRkMtVXAtRk9CXw?oc=5",
+   "also": [
+    {
+     "source": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZG0tUUpxQ1drcWtvVHVSWXI2TDdkOVg3bjhOYnJWSkhpc0JicDlzMjNGOXkwY1EzV09CTG14azdwUWdFS0l4NFQ3YWVGZndTWVYxUXAtYUxMRWxoakI1WG9uVmJHamNUaWZ2V0tIdDBMZzQ5aTdyX1ZFdjRjXzF6Q21MMWJ6NXNZVk5zV0lBcTh5TEYzQ1hxZjllZ3Jsa01BNWQ0cnJIUlYzcGo3eERsZGlpR1pLQ3p3S3cxVDlKbw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "101003e18aa7",
+   "date": "2026-10-28",
+   "published": "2026-10-28T14:03+01:00",
+   "headline": "Spanische Region investiert 600.000 Euro in KI-Schulungen für Ämter",
+   "summary": "Die Region Kastilien und León stellt 600.000 Euro für KI-Werkzeuge und die Schulung von Behördenmitarbeitenden bereit. Das Geld fließt also nicht nur in Technik, sondern ausdrücklich auch in die Qualifizierung der Verwaltung.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "verwaltung",
+    "schulung",
+    "spanien",
+    "förderung"
+   ],
+   "source": "ad-hoc-news.de",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-10-29T03:17:28+01:00",
+   "quelle_titel": "Kastilien und León: 600.000 Euro für KI-Werkzeuge und Behördenschulungen",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZG0tUUpxQ1drcWtvVHVSWXI2TDdkOVg3bjhOYnJWSkhpc0JicDlzMjNGOXkwY1EzV09CTG14azdwUWdFS0l4NFQ3YWVGZndTWVYxUXAtYUxMRWxoakI1WG9uVmJHamNUaWZ2V0tIdDBMZzQ5aTdyX1ZFdjRjXzF6Q21MMWJ6NXNZVk5zV0lBcTh5TEYzQ1hxZjllZ3Jsa01BNWQ0cnJIUlYzcGo3eERsZGlpR1pLQ3p3S3cxVDlKbw?oc=5",
+   "dup_of": "300967aeab13"
   },
   {
    "id": "9a5a6e4cc044",
@@ -2245,7 +2457,8 @@
    "added": "2026-10-29T00:42:10+01:00",
    "quelle_titel": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
    "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-   "kontext": "Nvidia bündelt mehrere Sprachaufgaben in einem offenen Checkpoint: Mitschrift in Dutzenden Sprachen, Übersetzung, Zuordnung von Sprechern und Rückfragen zum Audio. Gesteuert wird das Verhalten über Anweisungen in natürlicher Sprache, angepasst über die Trainingsdaten von Granary v2 und Nvidias NeMo-Werkzeuge. In einem Medizinbeispiel senkte solches Nachtrainieren die Fehlerquote deutlich. Quantisierte Varianten für lokale Hardware sind angekündigt."
+   "kontext": "Nvidia bündelt mehrere Sprachaufgaben in einem offenen Checkpoint: Mitschrift in Dutzenden Sprachen, Übersetzung, Zuordnung von Sprechern und Rückfragen zum Audio. Gesteuert wird das Verhalten über Anweisungen in natürlicher Sprache, angepasst über die Trainingsdaten von Granary v2 und Nvidias NeMo-Werkzeuge. In einem Medizinbeispiel senkte solches Nachtrainieren die Fehlerquote deutlich. Quantisierte Varianten für lokale Hardware sind angekündigt.",
+   "dup_of": "f4e67dd30767"
   },
   {
    "id": "ffc3a55d28b9",
@@ -2294,6 +2507,27 @@
    "kontext": "Anlass war die erstmals in die it-sa in Nürnberg eingebettete Konferenz des Verbands eco. Im Mittelpunkt standen NIS2, DORA und der Cyber Resilience Act, der Hersteller zu Sicherheit von der Entwicklung bis zum Produktende verpflichtet. Die EU-Agentur ENISA hilft mit technischen Empfehlungen, Angeboten für den Mittelstand und einer Meldeplattform für Schwachstellen. Ein weiteres Thema: Zentrale Rechenzentren bündeln Kapazitäten, häufen aber auch Ausfallrisiken."
   },
   {
+   "id": "39a0293b57d2",
+   "date": "2026-10-28",
+   "published": "2026-10-28T16:51+01:00",
+   "headline": "Upwind erhält 400 Millionen Dollar für Cloud- und KI-Sicherheit",
+   "summary": "Das Sicherheitsunternehmen Upwind hat eine Finanzierungsrunde über 400 Millionen US-Dollar abgeschlossen und wird mit 3,8 Milliarden US-Dollar bewertet. Das Kapital fließt in Lösungen für Cloud- und KI-Sicherheit. Die Summe zeigt, wie viel Geld derzeit in den Schutz von KI-Infrastruktur fließt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "finanzierung",
+    "cloud-security",
+    "ki-sicherheit",
+    "bewertung"
+   ],
+   "source": "Unite.AI",
+   "source_id": "gn-startups",
+   "added": "2026-10-29T03:17:28+01:00",
+   "quelle_titel": "Upwind sammelt 400 Millionen US-Dollar bei einer Bewertung von 3,8 Milliarden US-Dollar für Cloud- und KI-Sicherheit ein",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcTFuSXBxU1pEdW8yRFB0Ml95XzJSUnNmSGNZcFBCVzRDNV8zNFRwMXJSb3M0QW5jVC1XQXNoZ1ZVcXZIQWZ3a3hiN2puTTY3Sk5qbkNpNEJuV0pYMm8zSEUxeDlCbllSV1FNS2lvM3U3RGk2SXFMNjBWOXlJMDBPQmFRX3JfWUFWU2xvNXo2VU52XzhVcWQzd3BvekFTdWZy?oc=5"
+  },
+  {
    "id": "7a5fec0b961d",
    "date": "2026-10-28",
    "published": "2026-10-28T17:00+01:00",
@@ -2315,6 +2549,27 @@
    "quelle_titel": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
    "url": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/",
    "kontext": "Andromeda arbeitet in der ersten Stufe der Anzeigenempfehlung: Aus einem riesigen Angebot filtert das System in Millisekunden starke Kandidaten heraus, bevor eine teurere Ranking-Stufe fein bewertet. Die Dringlichkeit wächst, weil generative Werkzeuge Werbetreibenden massenhaft neue Anzeigen ermöglichen und den Kandidatenpool aufblähen. Meta baut auf dem Start von 2024 mit Nvidia-Hardware auf und berichtet seither von mehr Conversions auf Facebook."
+  },
+  {
+   "id": "e51942b8b090",
+   "date": "2026-10-28",
+   "published": "2026-10-28T17:02+01:00",
+   "headline": "16 Millionen Dollar für simulierte Arbeitswelten für KI-Agenten",
+   "summary": "Das Start-up Plato hat in einer Series-A-Runde 16 Millionen US-Dollar eingesammelt. Mit dem Geld sollen simulierte Arbeitsumgebungen entstehen, in denen KI-Agenten trainiert und erprobt werden können.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "start-up",
+    "finanzierung",
+    "ki-agenten",
+    "simulation"
+   ],
+   "source": "Unite.AI",
+   "source_id": "gn-startups",
+   "added": "2026-10-29T03:17:28+01:00",
+   "quelle_titel": "Plato sammelt 16 Millionen US-Dollar in einer Series-A-Finanzierungsrunde ein, um simulierte Arbeitsumgebungen für KI-Agenten zu schaffen",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc2lRUXNHYmUwVlg1LUk1UkdIdjJROHh1TngwdTlqTHI1NTB4R1FuYTNjeklqX2lyRG81SzRMaUJTVHp5emtqSG9wd1pkQ2QtZGJpQjR0d3cyY3hCZXJRaXJrc1E4T0VNZDRHb1M2ZE12NzY4NUdjeW9ZcVhBQ3lCUHV4eWxPaDdKQjVfZy0wUmNjZw?oc=5"
   },
   {
    "id": "b3f8a32481f7",
@@ -2403,7 +2658,8 @@
    "added": "2026-10-29T02:07:36+01:00",
    "quelle_titel": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
    "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
-   "kontext": "Google baut seine Personal Intelligence damit tiefer in den Browser ein: Gemini durchsucht das Postfach und schlägt passende Angaben vor, etwa Sendungsnummern, Buchungen oder Bestellnummern. Sensible Vorschläge bleiben laut Google verschlüsselt, und in den Chrome-Einstellungen lässt sich steuern oder komplett abschalten, worauf die Funktion zugreift. Der Start erfolgt zunächst in den USA, auf dem Desktop sowie unter Android und iOS."
+   "kontext": "Google baut seine Personal Intelligence damit tiefer in den Browser ein: Gemini durchsucht das Postfach und schlägt passende Angaben vor, etwa Sendungsnummern, Buchungen oder Bestellnummern. Sensible Vorschläge bleiben laut Google verschlüsselt, und in den Chrome-Einstellungen lässt sich steuern oder komplett abschalten, worauf die Funktion zugreift. Der Start erfolgt zunächst in den USA, auf dem Desktop sowie unter Android und iOS.",
+   "dup_of": "5e4098babe95"
   },
   {
    "id": "5e4098babe95",
@@ -2426,7 +2682,13 @@
    "praxis": true,
    "quelle_titel": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
    "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
-   "kontext": "Die Funktion erweitert Googles Personal Intelligence, über die sich Dienste wie Gmail mit dem Assistenten Gemini verknüpfen lassen. Für Google ist das mehr als Komfort: Wer solche Hilfen nutzt, bleibt im hauseigenen Browser und KI-Umfeld. Das Prinzip erinnert an Apples automatisch erkannte Bestätigungscodes, die sich mit einem Tipp übernehmen lassen. Aktiviert wird alles über die Chrome-Einstellungen, der Rollout beginnt in den USA."
+   "kontext": "Die Funktion erweitert Googles Personal Intelligence, über die sich Dienste wie Gmail mit dem Assistenten Gemini verknüpfen lassen. Für Google ist das mehr als Komfort: Wer solche Hilfen nutzt, bleibt im hauseigenen Browser und KI-Umfeld. Das Prinzip erinnert an Apples automatisch erkannte Bestätigungscodes, die sich mit einem Tipp übernehmen lassen. Aktiviert wird alles über die Chrome-Einstellungen, der Rollout beginnt in den USA.",
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence"
+    }
+   ]
   },
   {
    "id": "31f94aba90ec",
@@ -2495,7 +2757,8 @@
    "kurios": "Ein Spitzenmodell wird groß angekündigt und bleibt für fast alle gesperrt.",
    "quelle_titel": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
    "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
-   "kontext": "Google hatte bei Spitzenmodellen zuletzt pausiert und legt nun binnen zwei Wochen nach Argon erneut nach. Carbon übertrifft den Vorgänger in den Tests nur knapp, auch der Abstand zu den Modellen von OpenAI und Anthropic bleibt klein. Hervorgehoben werden vor allem Sicherheitsthemen, etwa das Aufspüren von Schwachstellen und die Abwehr manipulierter Eingaben. Eben damit begründet Google die gestaffelte Freigabe, die zunächst über ein Cyberabwehrprogramm läuft."
+   "kontext": "Google hatte bei Spitzenmodellen zuletzt pausiert und legt nun binnen zwei Wochen nach Argon erneut nach. Carbon übertrifft den Vorgänger in den Tests nur knapp, auch der Abstand zu den Modellen von OpenAI und Anthropic bleibt klein. Hervorgehoben werden vor allem Sicherheitsthemen, etwa das Aufspüren von Schwachstellen und die Abwehr manipulierter Eingaben. Eben damit begründet Google die gestaffelte Freigabe, die zunächst über ein Cyberabwehrprogramm läuft.",
+   "dup_of": "3db1130e446a"
   },
   {
    "id": "964eb21e0e03",
@@ -2517,7 +2780,8 @@
    "added": "2026-10-29T02:07:36+01:00",
    "quelle_titel": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
    "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
-   "kontext": "Hinter der Warnung steht Tomer Schwartz von der Google-Tochter Wiz, die gemeinsam mit OpenAI, einer Forschungsgruppe und dem PHP-Team an der Behebung beteiligt war. PHP trägt einen Großteil aller Websites, entsprechend nervös reagierten Betreiber. Neu ist vor allem das Tempo: KI hilft dabei, bislang unbekannte Fehler schneller aufzuspüren und auszunutzen. Händisches Patchen stößt damit an seine Grenzen, zumal auch junge Firmen Sicherheit früh mitdenken müssen."
+   "kontext": "Hinter der Warnung steht Tomer Schwartz von der Google-Tochter Wiz, die gemeinsam mit OpenAI, einer Forschungsgruppe und dem PHP-Team an der Behebung beteiligt war. PHP trägt einen Großteil aller Websites, entsprechend nervös reagierten Betreiber. Neu ist vor allem das Tempo: KI hilft dabei, bislang unbekannte Fehler schneller aufzuspüren und auszunutzen. Händisches Patchen stößt damit an seine Grenzen, zumal auch junge Firmen Sicherheit früh mitdenken müssen.",
+   "dup_of": "8500267ec5b4"
   },
   {
    "id": "7576c4e48037",
@@ -2581,7 +2845,17 @@
    "added": "2026-10-29T00:39:50+01:00",
    "quelle_titel": "Microsoft hits 10 quarters of record-breaking revenue in a row",
    "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
-   "kontext": "Getragen wird das Wachstum vor allem vom Cloudgeschäft, während die Sparte mit Windows-Geräten schrumpft. Ein spürbarer Teil des Geldes kommt von KI-Firmen: Allein OpenAI zahlte rund zehn Milliarden Dollar, auch Anthropic lässt Dienste auf Azure laufen. Zugleich steigen die Ausgaben für Rechenzentren auf einen neuen Höchststand. Microsoft verdient am Boom also kräftig mit und finanziert ihn gleichzeitig vor."
+   "kontext": "Getragen wird das Wachstum vor allem vom Cloudgeschäft, während die Sparte mit Windows-Geräten schrumpft. Ein spürbarer Teil des Geldes kommt von KI-Firmen: Allein OpenAI zahlte rund zehn Milliarden Dollar, auch Anthropic lässt Dienste auf Azure laufen. Zugleich steigen die Ausgaben für Rechenzentren auf einen neuen Höchststand. Microsoft verdient am Boom also kräftig mit und finanziert ihn gleichzeitig vor.",
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+    }
+   ]
   },
   {
    "id": "1134b6a1764a",
@@ -2603,7 +2877,8 @@
    "added": "2026-10-29T00:39:50+01:00",
    "quelle_titel": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
    "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
-   "kontext": "Bisher nannte Microsoft für Azure nur Wachstumsraten, Anleger konnten das Geschäft deshalb kaum mit der Konkurrenz vergleichen. Jetzt liegen Dollarwerte vor: Azure schiebt sich knapp vor Google Cloud, das allerdings deutlich schneller zulegt. Der Dienst ist inzwischen Microsofts größte Produktlinie und gehört zu einem neu geschaffenen Segment rund um Agenten und Infrastruktur. Amazons AWS bleibt vorerst die größte Cloud."
+   "kontext": "Bisher nannte Microsoft für Azure nur Wachstumsraten, Anleger konnten das Geschäft deshalb kaum mit der Konkurrenz vergleichen. Jetzt liegen Dollarwerte vor: Azure schiebt sich knapp vor Google Cloud, das allerdings deutlich schneller zulegt. Der Dienst ist inzwischen Microsofts größte Produktlinie und gehört zu einem neu geschaffenen Segment rund um Agenten und Infrastruktur. Amazons AWS bleibt vorerst die größte Cloud.",
+   "dup_of": "0ef91bd8c8c1"
   },
   {
    "id": "55915cc606b4",
@@ -2624,7 +2899,29 @@
    "source_id": "deutschlandfunk",
    "added": "2026-10-29T00:39:50+01:00",
    "quelle_titel": "Verlegerverbände - Bündnis gegen KI-Risiken geschlossen",
-   "url": "https://www.deutschlandfunk.de/buendnis-gegen-ki-risiken-geschlossen-102.html"
+   "url": "https://www.deutschlandfunk.de/buendnis-gegen-ki-risiken-geschlossen-102.html",
+   "dup_of": "e9181a4ac0c1"
+  },
+  {
+   "id": "df4e9f03fe2e",
+   "date": "2026-10-28",
+   "published": "2026-10-28T08:42+01:00",
+   "headline": "Querio holt 4,48 Millionen Euro für KI-gestützte Datenanalyse",
+   "summary": "Das Start-up Querio hat eine Finanzierungsrunde über 4,48 Millionen Euro abgeschlossen. Das Geld soll in die Weiterentwicklung der KI-Lösungen für den Umgang mit Daten fließen. Weitere Angaben zur Verwendung oder zu den Investoren liegen nicht vor.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "start-up",
+    "finanzierung",
+    "datenanalyse",
+    "venture capital"
+   ],
+   "source": "n24.com.tr",
+   "source_id": "gn-startups",
+   "added": "2026-10-29T03:17:43+01:00",
+   "quelle_titel": "Querio sichert sich 4,48 Millionen Euro für KI-Daten",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcHgtZEtJaUxaTFRmbGEzTWtuVkRsMm5wWk5vOTdScFhuSl9fRmtrZ19rWjhiaUVKVGxlTXJ3QkdDVzhjRXA4UWVwWkF1M1oxZVBWUFdmUDdhX1hoLV9aVklhNlFRU2RnN05GUHZQbl9NS1NNcGdaUlhLNWlxdlhTTUlJVUJMZG02cUtxOFNfaFduMFk?oc=5"
   },
   {
    "id": "a6c7e69cc1c5",
@@ -2732,7 +3029,8 @@
    "added": "2026-10-28T15:23:00+01:00",
    "kurios": "Ein KI-Remake von Homers Epos als Antwort auf einen Kinofilm floppt öffentlich.",
    "quelle_titel": "Elon Musks KI-„Odyssee“ erntet Spott und Kritik",
-   "url": "https://www.it-daily.net/shortnews/elon-musks-ki-odyssee-erntet-spott"
+   "url": "https://www.it-daily.net/shortnews/elon-musks-ki-odyssee-erntet-spott",
+   "dup_of": "8f9c275ff110"
   },
   {
    "id": "5efc632ae4cd",
@@ -2778,6 +3076,27 @@
    "url": "https://www.tagesschau.de/wissen/technologie/quantennetzwerk-qunet-100.html"
   },
   {
+   "id": "516d6345c17a",
+   "date": "2026-10-28",
+   "published": "2026-10-28T16:53+01:00",
+   "headline": "Kritik: KI-Chefs verlieren den Bezug zu normalen Nutzern",
+   "summary": "Ein Kommentar wirft Führungskräften der KI-Branche vor, den Alltag ihrer Nutzerschaft aus dem Blick verloren zu haben. Anlass sind Aussagen von Managern, die KI sogar für den Kontakt zur eigenen Familie einsetzen. Die These: Wer so lebt, entwickelt an den Bedürfnissen der Allgemeinheit vorbei.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "kommentar",
+    "tech-branche",
+    "nutzerbedürfnisse",
+    "ki-kultur"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-10-29T03:17:28+01:00",
+   "quelle_titel": "AI execs may be too out of touch to build for the general public",
+   "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/"
+  },
+  {
    "id": "e66f2c31a1ed",
    "date": "2026-10-28",
    "published": "2026-10-28T17:14+01:00",
@@ -2818,7 +3137,14 @@
    "added": "2026-10-29T00:41:06+01:00",
    "kurios": "Ein Milliardär dreht aus Ärger über einen Film seine eigene KI-Odyssee.",
    "quelle_titel": "Elon Musk verirrt sich auf seiner KI-„Odyssee“, und erntet viel Spott",
-   "url": "https://www.basicthinking.de/blog/2026/10/28/musk-verirrt-sich-auf-ki-odyssee/"
+   "url": "https://www.basicthinking.de/blog/2026/10/28/musk-verirrt-sich-auf-ki-odyssee/",
+   "also": [
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/elon-musks-ki-odyssee-erntet-spott"
+    }
+   ],
+   "kontext": "Hintergrund ist Musks anhaltende Attacke auf Christopher Nolans sehr erfolgreiche Verfilmung des Epos, deren Besetzung und Haltung er politisch angriff. Die Episode entstand mit dem Generator Grok Imagine seines Unternehmens xAI, zusammen mit einem auf KI-Filme spezialisierten Studio und einem Regisseur; produziert hat sie ein winziges Kreativteam. Angekündigt war ursprünglich ein abendfüllender Film. Fachmedien bemängeln leblose Figuren und hölzerne Dialoge und damit die Grenzen heutiger KI-Produktion."
   },
   {
    "id": "de366866137e",
