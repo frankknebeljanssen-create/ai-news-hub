@@ -68,11 +68,37 @@ def now() -> datetime:
     return datetime.now(TZ)
 
 
-def write_json(path: Path, obj) -> None:
+RECENT_DAYS = 10
+
+
+def _write_plain(path: Path, obj, indent=1) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=indent) + "\n", encoding="utf-8")
     tmp.replace(path)
+
+
+def write_json(path: Path, obj) -> None:
+    _write_plain(path, obj)
+    if Path(path) == INDEX and isinstance(obj, dict) and obj.get("items"):
+        write_app_indexes(obj)
+
+
+def write_app_indexes(index: dict) -> None:
+    """Fuer die App: recent.json (letzte 14 Tage, schnell) und archive.json (aelter, wird bei Bedarf geladen). index.json bleibt die Gesamtdatei."""
+    items = index["items"]
+    last = max(x["date"] for x in items)
+    cut = (datetime.fromisoformat(last) - timedelta(days=RECENT_DAYS)).strftime("%Y-%m-%d")
+    recent = [x for x in items if x["date"] > cut]
+    old = [x for x in items if x["date"] <= cut]
+    meta = {"updated": index.get("updated")}
+    days = {}
+    for x in items:
+        if not x.get("dup_of"):
+            days[x["date"]] = days.get(x["date"], 0) + 1
+    days = dict(sorted(days.items(), reverse=True))  # Tage mit Anzahl, damit die Tageswahl auch aeltere Tage kennt
+    _write_plain(DATA / "recent.json", {**meta, "count": len(recent), "archive_count": len(old), "days": days, "items": recent}, indent=None)
+    _write_plain(DATA / "archive.json", {**meta, "count": len(old), "items": old}, indent=None)
 
 
 def read_json(path: Path, default):

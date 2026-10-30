@@ -115,19 +115,35 @@ async function getJSON(url) {
   return r.json();
 }
 
-async function loadIndex() {
+/* Der Bestand ist zweigeteilt: recent.json (letzte Tage, schnell) startet die App, archive.json (alles Aeltere) wird nur bei Bedarf nachgeladen. */
+function buildIndex(items, updated, days) {
+  // Nebenmeldungen (dup_of) stecken als "auch bei" in der Hauptmeldung und werden nicht einzeln gelistet
+  store.allItems = items;
+  store.allItems.forEach((i) => { i.thema = normThema(i.thema); });
+  store.index = { updated, items: store.allItems.filter((i) => !i.dup_of) };
+  store.index.count = store.index.items.length;
+  document.getElementById('gq').placeholder = `Suchen in ${store.index.count} Meldungen`;
+  store.dayCounts = null;
+  if (days) store.dayMeta = days;
+  store.dates = store.dayMeta ? Object.keys(store.dayMeta).sort().reverse() : [...new Set(store.index.items.map((i) => i.date))].sort().reverse();
+  store.byId = new Map(store.allItems.map((i) => [i.id, i]));
+  store.resolve = (id) => { const i = store.byId.get(id); return i && i.dup_of ? (store.byId.get(i.dup_of) || i) : i; };
+  paintNewCount();
+}
+
+async function loadIndex(full) {
   if (!store.index) {
-    store.index = await getJSON('data/index.json');
-    // Nebenmeldungen (dup_of) stecken als "auch bei" in der Hauptmeldung und werden nicht einzeln gelistet
-    store.allItems = store.index.items;
-    store.allItems.forEach((i) => { i.thema = normThema(i.thema); });
-    store.index.items = store.allItems.filter((i) => !i.dup_of);
-    store.index.count = store.index.items.length;
-    document.getElementById('gq').placeholder = `Suchen in ${store.index.count} Meldungen`;
-    store.dates = [...new Set(store.index.items.map((i) => i.date))].sort().reverse();
-    store.byId = new Map(store.allItems.map((i) => [i.id, i]));
-    store.resolve = (id) => { const i = store.byId.get(id); return i && i.dup_of ? (store.byId.get(i.dup_of) || i) : i; };
-    paintNewCount();
+    const r = await getJSON('data/recent.json');
+    store.recentRaw = r;
+    store.recentMin = r.items.reduce((m, i) => (i.date < m ? i.date : m), '9999-99-99');
+    buildIndex(r.items, r.updated, r.days);
+  }
+  if (full && !store.full) {
+    let old = [];
+    try { old = (await getJSON('data/archive.json')).items || []; } catch (e) { /* ohne Archiv weiterarbeiten */ }
+    const have = new Set(store.allItems.map((i) => i.id));
+    buildIndex([...store.allItems, ...old.filter((i) => !have.has(i.id))], store.index.updated);
+    store.full = true;
   }
   return store.index;
 }
@@ -284,11 +300,11 @@ const SW_CACHE = 'kinews-v5'; // gleicher Name wie in sw.js (CACHE)
 function offlineInfo() { try { return JSON.parse(localStorage.getItem(OFFLINE_KEY)) || null; } catch (e) { return null; } }
 
 async function offlineUrls() {
-  const index = await getJSON('data/index.json');
+  const index = await loadIndex(true);
   const days = [...new Set(index.items.map((i) => i.date))];
   const html = await (await fetch('index.html', { cache: 'no-cache' })).text();
   const assets = [...html.matchAll(/(?:href|src)="((?:css|js|icons)\/[^"]+)"/g)].map((m) => m[1]);
-  const urls = ['./', 'index.html', 'manifest.webmanifest', 'data/index.json', 'data/state.json', 'content/glossar.json', 'content/modelle.json', 'impressum.json',
+  const urls = ['./', 'index.html', 'manifest.webmanifest', 'data/recent.json', 'data/archive.json', 'data/state.json', 'content/glossar.json', 'content/modelle.json', 'impressum.json',
     'icons/icon-192.png?v=4', 'icons/icon.svg?v=4', 'icons/apple-touch-icon.png?v=4', ...assets, ...days.map((d) => `data/${d.slice(0, 4)}/${d.slice(5, 7)}/${d}.json`)];
   return [...new Set(urls)];
 }
@@ -445,8 +461,8 @@ function daySelect(date, text, pick) {
   function build() {
     pop.replaceChildren();
     if (!store.dayCounts) {
-      store.dayCounts = new Map();
-      store.index.items.forEach((i) => store.dayCounts.set(i.date, (store.dayCounts.get(i.date) || 0) + 1));
+      store.dayCounts = new Map(store.dayMeta ? Object.entries(store.dayMeta) : []);
+      if (!store.dayMeta) store.index.items.forEach((i) => store.dayCounts.set(i.date, (store.dayCounts.get(i.date) || 0) + 1));
     }
     const newest = store.dates[0], t = todayStr();
     let lastWeek = '';
@@ -593,9 +609,10 @@ function stateBox(msg) { return h('p', { class: 'state' }, msg); }
 /* ---------- Ansicht: Tag ---------- */
 
 async function viewDay(dateArg, q) {
-  const index = await loadIndex();
+  let index = await loadIndex();
   if (!store.dates.length) return render(stateBox('Noch keine Nachrichten vorhanden.'));
   const date = dateArg && store.dates.includes(dateArg) ? dateArg : store.dates[0];
+  if (!store.full && date < store.recentMin) index = await loadIndex(true); // aelterer Tag: Archiv nachladen
   const st = getSettings();
   const region = q.region !== undefined ? q.region : (store.regionSel !== undefined ? store.regionSel : st.region);
   const day = await loadDay(date);
@@ -704,7 +721,7 @@ function groupKey(mode, item) {
 }
 
 async function viewArchive(q) {
-  const index = await loadIndex();
+  const index = await loadIndex(true);
   const g = GROUPINGS.some(([k]) => k === q.g) ? q.g : getSettings().grouping;
   const sort = q.s === 'rel' ? 'rel' : 'neu';
   const f = { thema: q.thema || '', region: q.region || '', von: q.von || '', bis: q.bis || '', quelle: q.quelle || '', g, s: sort };
@@ -765,7 +782,7 @@ async function viewArchive(q) {
 /* ---------- Ansicht: Suche ---------- */
 
 async function viewSearch(q) {
-  const index = await loadIndex();
+  const index = await loadIndex(true);
   if (!store.fuse) {
     store.fuse = new Fuse(index.items, {
       keys: [{ name: 'headline', weight: 3 }, { name: 'tags', weight: 2 }, { name: 'summary', weight: 1.2 }, { name: 'source', weight: 1 }, { name: 'quelle_titel', weight: 1 }],
@@ -858,7 +875,7 @@ function backLabel(hsh) {
 const aitiItems = () => store.index.items.filter((i) => !i.dup_of && (i.tags || []).includes('AITI')).sort((a, b) => b.date.localeCompare(a.date) || b.relevanz - a.relevanz);
 
 async function viewAiti() {
-  await loadIndex();
+  await loadIndex(true);
   const list = aitiItems();
   const days = [...new Set(list.map((i) => i.date))];
   render(
@@ -872,7 +889,7 @@ async function viewAiti() {
 
 async function viewGlossary(q) {
   const backHref = store.hashPrev && !store.hashPrev.startsWith('#/glossar') ? store.hashPrev : null;
-  const [gl, index] = await Promise.all([loadGlossary(), loadIndex().catch(() => null)]);
+  const [gl, index] = await Promise.all([loadGlossary(), loadIndex(true).catch(() => null)]);
   const hay = index ? index.items.map((i) => `${i.headline} ${i.summary} ${(i.tags || []).join(' ')}`.toLowerCase()) : [];
   const byName = new Map(gl.map((x) => [x.term.toLowerCase(), x]));
   const newsCount = (term) => {
@@ -974,7 +991,7 @@ function setTheme(mode) {
 }
 
 async function viewSettings() {
-  const index = await loadIndex().catch(() => null);
+  const index = await loadIndex(true).catch(() => null);
   const st = getSettings();
   let stored = 'auto';
   try { stored = localStorage.getItem('theme') || 'auto'; } catch (e) { /* ignorieren */ }
@@ -1123,9 +1140,10 @@ function splitSentences(t) {
 const firstSentence = (t) => splitSentences(t)[0] || (t || '');
 
 async function viewBriefing(q) {
-  const index = await loadIndex();
+  let index = await loadIndex();
   if (!store.dates.length) return render(stateBox('Noch keine Nachrichten vorhanden.'));
   const date = q.d && store.dates.includes(q.d) ? q.d : store.dates[0];
+  if (!store.full && date < store.recentMin) index = await loadIndex(true);
   const pos = store.dates.indexOf(date);
   const [day, gl] = await Promise.all([loadDay(date), loadGlossary().catch(() => [])]);
   const dayAll = day ? day.items.filter((i) => !i.dup_of) : index.items.filter((i) => i.date === date);
@@ -1223,7 +1241,7 @@ async function viewBriefing(q) {
 /* ---------- Ansicht: Wochenrückblick ---------- */
 
 async function viewWeek(q) {
-  const index = await loadIndex();
+  const index = await loadIndex(true);
   if (!store.dates.length) return render(stateBox('Noch keine Nachrichten vorhanden.'));
   const weeks = [], seen = new Set();
   store.dates.forEach((d) => { const w = isoWeek(d); if (!seen.has(w.key)) { seen.add(w.key); weeks.push(w); } });
@@ -1313,7 +1331,7 @@ async function viewWeek(q) {
 /* ---------- Ansicht: Systemstatus ---------- */
 
 async function viewStatus() {
-  const index = await loadIndex();
+  const index = await loadIndex(true);
   const [state, gl] = await Promise.all([getJSON('data/state.json').catch(() => null), loadGlossary().catch(() => [])]);
   if (!state) return render(h('h1', null, 'Status'), stateBox('Der Status konnte nicht geladen werden.'));
   const names = new Map();
@@ -1482,6 +1500,12 @@ route();
   window.addEventListener('offline', paint);
   paint();
   if ('serviceWorker' in navigator) {
+    // neue Daten im Hintergrund erhalten: Ansicht ohne Seitensprung auffrischen
+    navigator.serviceWorker.addEventListener('message', async (e) => {
+      if (!e.data || e.data.type !== 'data-updated') return;
+      const y = window.scrollY; store.index = null; store.full = false; store.days = {};
+      try { await route(); window.scrollTo(0, y); toast('Neue Meldungen geladen'); } catch (err) { /* ignorieren */ }
+    });
     window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => { /* z. B. privater Modus */ }); });
   }
 })();

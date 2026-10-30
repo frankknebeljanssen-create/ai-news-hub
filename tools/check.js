@@ -10,7 +10,7 @@ const ok = (c, m) => { console.log((c ? 'OK   ' : 'FEHLER ') + m); if (!c) fails
 for (const f of ['sw.js', 'js/app.js', 'js/modelle.js']) {
   try { execFileSync(process.execPath, ['--check', path.join(root, f)]); ok(true, `${f} Syntax`); } catch (e) { ok(false, `${f} Syntax`); }
 }
-for (const f of ['content/glossar.json', 'content/modelle.json', 'data/index.json', 'data/state.json', 'manifest.webmanifest']) {
+for (const f of ['content/glossar.json', 'content/modelle.json', 'data/index.json', 'data/recent.json', 'data/archive.json', 'data/state.json', 'manifest.webmanifest']) {
   try { JSON.parse(fs.readFileSync(path.join(root, f), 'utf8')); ok(true, `${f} gueltig`); } catch (e) { ok(false, `${f} ungueltig`); }
 }
 const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');

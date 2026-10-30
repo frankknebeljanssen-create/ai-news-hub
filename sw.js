@@ -1,9 +1,9 @@
 /* Service Worker: Offline-Zwischenspeicher fuer die App-Dateien und die Daten.
    Daten und Seiten: erst Netz (mit kurzer Wartezeit), sonst gespeicherte Kopie.
    Versionierte Dateien (css/js mit ?v=N) und Symbole: aus dem Speicher, bei Bedarf nachgeladen. */
-const CACHE = 'kinews-v5';
-const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png?v=4', 'icons/icon.svg?v=4', 'icons/apple-touch-icon.png?v=4', 'js/vendor/fuse.min.js', 'content/glossar.json', 'content/modelle.json', 'data/index.json'];
-const NET_TIMEOUT = 4000;
+const CACHE = 'kinews-v6';
+const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png?v=4', 'icons/icon.svg?v=4', 'icons/apple-touch-icon.png?v=4', 'js/vendor/fuse.min.js', 'content/glossar.json', 'content/modelle.json', 'data/recent.json'];
+const NET_TIMEOUT = 8000;
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -16,7 +16,7 @@ self.addEventListener('install', (event) => {
       const assets = [...html.matchAll(/(?:href|src)="((?:css|js)\/[^"]+)"/g)].map((m) => m[1]);
       await Promise.all(assets.map(add));
       // neuester Tag, damit das Briefing auch ohne Netz laeuft
-      const idx = await (await fetch('data/index.json', { cache: 'reload' })).json();
+      const idx = await (await fetch('data/recent.json', { cache: 'reload' })).json();
       const d = idx.items && idx.items[0] && idx.items[0].date;
       if (d) await add(`data/${d.slice(0, 4)}/${d.slice(5, 7)}/${d}.json`);
     } catch (e) { /* offline beim Installieren, wird beim ersten Besuch nachgeholt */ }
@@ -48,6 +48,25 @@ async function networkFirst(request) {
   }
 }
 
+/* recent.json (Startdaten): sofort aus dem Speicher, im Hintergrund frisch holen; ist es neuer, bekommen die offenen Fenster Bescheid */
+async function staleWhileRevalidate(request) {
+  const cache = await caches.open(CACHE);
+  const hit = await cache.match(request);
+  const live = fetch(new Request(request.url, { cache: 'no-cache', credentials: 'same-origin' })).then(async (res) => {
+    if (res && res.ok) {
+      let changed = !hit;
+      if (hit) {
+        try { const [a, b] = await Promise.all([hit.clone().json(), res.clone().json()]); changed = a.updated !== b.updated; } catch (e) { changed = true; }
+      }
+      await cache.put(request, res.clone());
+      if (hit && changed) (await self.clients.matchAll()).forEach((c) => c.postMessage({ type: 'data-updated' }));
+    }
+    return res;
+  });
+  if (hit) { live.catch(() => {}); return hit; }
+  return live;
+}
+
 async function cacheFirst(request) {
   const cache = await caches.open(CACHE);
   const hit = await cache.match(request);
@@ -64,5 +83,6 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
   const path = url.pathname;
   const dynamic = req.mode === 'navigate' || path.endsWith('.json') || path.endsWith('.webmanifest') || path.endsWith('/') || path.endsWith('index.html');
+  if (path.endsWith('/data/recent.json')) { event.respondWith(staleWhileRevalidate(req)); return; }
   event.respondWith(dynamic ? networkFirst(req) : cacheFirst(req));
 });
