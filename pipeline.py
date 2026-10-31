@@ -962,7 +962,7 @@ def run(args) -> int:
         publish(f"Daten {today}")
     log.info("=== Lauf Ende, %d Batches fehlgeschlagen ===", failed_batches)
     if failed_batches:
-        notify_once("Kuratierung fehlgeschlagen (Anmeldung mit claude auth login pruefen), siehe Log")
+        notify_once("Kuratierung unvollstaendig (Mac im Ruhezustand oder Anmeldung abgelaufen?). Der naechste Lauf holt nach, siehe Log")
     return 0 if failed_batches == 0 else 1
 
 
