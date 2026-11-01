@@ -1,38 +1,38 @@
 {
  "date": "2026-10-31",
- "generated_at": "2026-11-01T14:02:36+01:00",
+ "generated_at": "2026-11-01T15:14:27+01:00",
  "overview": [
   {
    "id": "503b6c7c6a1a",
-   "text": "OpenAI sammelt in der neuen Finanzierungsrunde nur rund 11 statt 30 Milliarden Dollar ein, weil große Investoren nach dem Kursrutsch bei Tech-Aktien zögern."
+   "text": "OpenAI sammelt in der neuen Runde nur rund 11 statt 30 Milliarden Dollar ein, weil große Investoren nach dem Kursrutsch bei Tech-Aktien zögern."
   },
   {
-   "id": "c90c9bc00c7f",
-   "text": "Anthropic zeigt, dass harmlos wirkende Trainingstexte über Bienen oder Wrestling kleinere Modelle unbemerkt zu schädlichem Verhalten verleiten können."
-  },
-  {
-   "id": "d60e30ea1d03",
-   "text": "OpenAI will ab Ende November Daten aus Cybersecurity-Sitzungen trotz abgeschaltetem Training verwenden und räumt nach scharfer Kritik eine Widerspruchsoption ein."
-  },
-  {
-   "id": "7a2d61007586",
-   "text": "Deutsche Arbeitgeber sortieren Bewerbungen immer öfter per KI vor, ohne das offenzulegen, und ein Transparenz-Index zeigt die großen Unterschiede."
-  },
-  {
-   "id": "7f4ccc26519d",
-   "text": "Anthropic bringt Claude in die Arzneimittelforschung, wo ein Entwurf für Zulassungsunterlagen statt drei Monaten nur vier Stunden brauchte."
+   "id": "225d063918c1",
+   "text": "Microsoft stellt etwa 60.000 Beschäftigten freiwillige Abfindungen in Aussicht, um Mittel für 175 Milliarden Dollar KI-Investitionen freizubekommen."
   },
   {
    "id": "293da6778683",
-   "text": "Anthropic kennzeichnet vier weitere Claude-Modelle mit Wasserzeichen für den EU-AI-Act, bei Opus 4.6 und Sonnet 4.6 lässt sich das aber umgehen."
+   "text": "Anthropic versieht vier weitere Claude-Modelle wegen des EU-AI-Acts mit Wasserzeichen, bei Opus 4.6 und Sonnet 4.6 lässt sich die Markierung umgehen."
   },
   {
-   "id": "1ed7f94969bd",
-   "text": "Immer mehr Privatanleger holen sich Anlagetipps bei ChatGPT oder Claude, doch Fachleute warnen vor falschen und veralteten Angaben."
+   "id": "c90c9bc00c7f",
+   "text": "Anthropic zeigt, wie harmlos klingende Trainingstexte kleinere Modelle zu schädlichem Verhalten verleiten und dabei bestehende Sicherheitsprüfungen passieren."
+  },
+  {
+   "id": "7a2d61007586",
+   "text": "Deutsche Unternehmen sortieren Bewerbungen immer öfter per KI vor, informieren Kandidaten darüber aber selten offen, wie ein Transparenz-Index zeigt."
+  },
+  {
+   "id": "7f4ccc26519d",
+   "text": "Anthropic bringt Claude in die Arzneimittelforschung, wo Partner Zulassungsunterlagen in Stunden statt Monaten entwerfen wollen."
   },
   {
    "id": "96bb0f4c7d65",
-   "text": "Ein Berkeley-Mathematiker vergibt für Hausaufgaben nur noch Punkte fürs Abgeben, weil sich eigene Leistung bei KI-Nutzung kaum noch nachweisen lässt."
+   "text": "Ein Berkeley-Professor bewertet Hausaufgaben inhaltlich nicht mehr, weil KI die Eigenleistung unsichtbar macht, und gibt Punkte nur fürs Abgeben."
+  },
+  {
+   "id": "1ed7f94969bd",
+   "text": "Immer mehr Privatanleger holen sich Anlagetipps bei ChatGPT und Claude, Fachleute warnen vor falschen Angaben und unpassenden Empfehlungen."
   }
  ],
  "items": [
@@ -226,7 +226,14 @@
    "source_id": "golem",
    "added": "2026-11-01T13:53:39+01:00",
    "quelle_titel": "KI an Hochschulen: Berkeley-Professor benotet wegen KI keine Hausaufgaben mehr",
-   "url": "https://www.golem.de/news/ki-an-hochschulen-berkeley-professor-benotet-wegen-ki-keine-hausaufgaben-mehr-2610-214710.html"
+   "url": "https://www.golem.de/news/ki-an-hochschulen-berkeley-professor-benotet-wegen-ki-keine-hausaufgaben-mehr-2610-214710.html",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/ki-mathe-hausaufgaben-benotung-universitaet-1769844"
+    }
+   ],
+   "kontext": "Borcherds beobachtet seit längerem, dass Hausaufgaben mit KI-Hilfe routiniert in Bestnoten münden. Berkeley hat Erkennungswerkzeuge wie Turnitin getestet und für den standardisierten Einsatz verworfen; stattdessen sollen Lehrende in ihren Kursvorgaben selbst klären, was erlaubt ist. Dass OpenAI Fortschritte bei schweren mathematischen Problemen meldet, verstärkt seine Zweifel am Sinn klassischer Bewertung. Auch in Deutschland greifen fast alle Studierenden zumindest gelegentlich zu solchen Tools."
   },
   {
    "id": "2f50da4c2422",
@@ -295,8 +302,7 @@
    "added": "2026-10-31T17:58:25+01:00",
    "quelle_titel": "Jeder vierte Microsoft-Mitarbeiter kann freiwillig gehen, während der Konzern Milliarden in KI steckt",
    "url": "https://the-decoder.de/jeder-vierte-microsoft-mitarbeiter-kann-freiwillig-gehen-waehrend-der-konzern-milliarden-in-ki-steckt/",
-   "kontext": "Das Angebot gilt in den USA, Kanada, Indien und Großbritannien für Beschäftigte bis zur Ebene unterhalb der Vizepräsidenten. Bereiche wie Xbox, Windows und Copilot nehmen voll teil, ausgenommen bleiben Rechenzentren, Vertrieb, Cybersicherheit und Quantencomputing, also Kernstücke der KI-Strategie. Die Belegschaft liegt trotz stark gestiegener Umsätze etwa auf dem Stand von 2022. Konzernchef Satya Nadella hatte früh angekündigt, Personalkosten zu senken und die Rechenleistung pro Forscher zu erhöhen.",
-   "dup_of": "169aca9d9c2a"
+   "kontext": "Das Angebot gilt in den USA, Kanada, Indien und Großbritannien für Beschäftigte bis zur Ebene unterhalb der Vizepräsidenten. Bereiche wie Xbox, Windows und Copilot nehmen voll teil, ausgenommen bleiben Rechenzentren, Vertrieb, Cybersicherheit und Quantencomputing, also Kernstücke der KI-Strategie. Die Belegschaft liegt trotz stark gestiegener Umsätze etwa auf dem Stand von 2022. Konzernchef Satya Nadella hatte früh angekündigt, Personalkosten zu senken und die Rechenleistung pro Forscher zu erhöhen."
   },
   {
    "id": "8f16a966016a",
@@ -432,7 +438,13 @@
    "added": "2026-10-31T17:57:27+01:00",
    "quelle_titel": "Nasdaq: KI-Sorgen treiben Anleger aus Tech-Aktien",
    "url": "https://www.golem.de/news/nasdaq-ki-sorgen-treiben-anleger-aus-tech-aktien-2610-214717.html",
-   "dup_of": "f149b7c6eac5"
+   "also": [
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/finanzen/mb-mittag-amazon-intel-100.html"
+    }
+   ],
+   "kontext": "Auslöser waren die Quartalszahlen von Amazon und Intel, die nach US-Börsenschluss veröffentlicht wurden und trotz beeindruckender Summen enttäuschten. Die Leitfrage der Anleger lautet, ob die Einnahmen mit den gewaltigen KI-Ausgaben Schritt halten. Weil wenige Techkonzerne den Index prägen, schlagen solche Zweifel sofort breit durch. Auch deutsche Anlegerinnen und Anleger bekommen die Bewegung über ihre Depots zu spüren."
   },
   {
    "id": "fc25cb9a87b1",
@@ -547,6 +559,27 @@
    "quelle_titel": "Anthropic-API-Nutzer können Wasserzeichen bei älteren Claude-Modellen mit einem Trick umgehen",
    "url": "https://the-decoder.de/anthropic-api-nutzer-koennen-wasserzeichen-bei-aelteren-claude-modellen-mit-einem-trick-umgehen/",
    "kontext": "Technisch basiert die Markierung auf einer Variante des SynthID-Text-Verfahrens von Google DeepMind, bei dem die Wortwahl so verschoben wird, dass ein statistisch nachweisbares Muster entsteht. Weil sie im Modell selbst steckt, lässt sie sich nicht abschalten und gilt auch bei AWS, Google Cloud und Microsoft Foundry. Nachweisen soll sie eine Erkennungsschnittstelle, die bislang nur in privater Vorschau läuft. Jüngere Modelle tragen das Muster von Anfang an, ältere werden schrittweise nachgerüstet."
+  },
+  {
+   "id": "4b8bcf29f64c",
+   "date": "2026-10-31",
+   "published": "2026-10-31T20:00+01:00",
+   "headline": "Meta will bis zu 95 Milliarden Dollar für KI-Infrastruktur einsammeln",
+   "summary": "Meta plant eine Kapitalbeschaffung in einem Umfang von bis zu 95 Milliarden Dollar, um den Ausbau seiner KI-Kapazitäten zu finanzieren. Die Summe verdeutlicht, mit welchem finanziellen Einsatz die großen Technologiekonzerne derzeit um Rechenleistung konkurrieren.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "meta",
+    "finanzierung",
+    "rechenzentren",
+    "investitionen"
+   ],
+   "source": "CHIP",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-01T15:07:00+01:00",
+   "quelle_titel": "Meta plant Kapitalbeschaffung von bis zu 95 Milliarden Dollar für KI-Ausbau",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZ0lyX0pwRGRuQnpFY2l1aTNOdjV5M1NJRmJYUnZEcTI1TURLTFI3dlVVaEo1cHFneG9Wd2czR3dYSlZPM1FnczE5MUJ3MEVLV0ZWd0VwSW1iRHlOOTVOYVBDM19rTUxXcXZTRUVsM1BOUElYUmV2dVQ4WGllN0pxRW5OaGphVTFFczh3cjNzcFpWN1NvNlQxNVgtcWxmZnRRZ1EzTWFWWDc0UW5Cb1pwa2VJTG9zOXd5dThseHV1dGNtRldBTGNzTm0zX0lFdGw3SDRCX1dRMUQyWVVEUk1oQTBkdVFCSFk?oc=5"
   },
   {
    "id": "345fd5d1acfb",
@@ -762,6 +795,28 @@
    "kontext": "Grundlage ist Deepminds Erdbeobachtungsmodell AlphaEarth Foundations, auf dem mehrere Stufen der Bilderkennung aufsetzen. Entscheidend ist die Nutzungsgeschichte einer Fläche, denn ein alter Forst kann aus dem All natürlich wirken, eine gerodete Plantage dagegen wie kahler Boden. Fachleute lieferten Tausende Korrekturbeispiele nach, etwa weil europäische Weinberge als Baumkulturen eingeordnet wurden. Gebraucht werden solche Daten für Lieferkettenprüfungen und internationale Waldschutzziele."
   },
   {
+   "id": "8c9b676a8dc3",
+   "date": "2026-10-31",
+   "published": "2026-10-31T11:16+01:00",
+   "headline": "Ratingagentur S&P senkt Bonitätsnote von Meta wegen KI-Ausgaben",
+   "summary": "S&P hat die Kreditwürdigkeit von Meta herabgestuft und begründet dies mit den hohen Investitionen des Konzerns in Künstliche Intelligenz. Die Bewertung macht deutlich, dass der KI-Ausbau auch finanzielle Risiken für etablierte Technologiekonzerne mit sich bringt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "rating",
+    "s&p",
+    "kapitalmarkt"
+   ],
+   "source": "FAZ",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-01T15:07:00+01:00",
+   "paywall": true,
+   "quelle_titel": "S&P stuft Meta wegen KI-Investitionen herab",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSXZOTTBYNl9sNWtXQkxOMndEUWhXczdoWUM0NkRfR3MwQ190ODhlLXhMWnE0S01JQ2o3VzVpMG1zVGZvenBDRjBTS3NxRUVUcW51QWdFbGxKV0M5MUMzZWk2MkliaW1PLU5adDlKdEpZMWhZeElMRzR2UjJDampzZEd3TDJpRFl6Z3ROMVZWeEVEbGVjazNQbWFWUkV4Q0ll?oc=5"
+  },
+  {
    "id": "d5bb41b6ba04",
    "date": "2026-10-31",
    "published": "2026-10-31T11:30+01:00",
@@ -902,7 +957,8 @@
    "added": "2026-10-31T17:57:27+01:00",
    "paywall": true,
    "quelle_titel": "US-Zwischenwahlen: Warum Trumps große KI-Wette plötzlich zum Problem für die Republikaner wird",
-   "url": "https://www.wiwo.de/politik/ausland/midterms-2026-warum-trumps-grosse-ki-wette-ploetzlich-zum-problem-fuer-die-republikaner-wird/100265560.html"
+   "url": "https://www.wiwo.de/politik/ausland/midterms-2026-warum-trumps-grosse-ki-wette-ploetzlich-zum-problem-fuer-die-republikaner-wird/100265560.html",
+   "dup_of": "7ddde3c27273"
   },
   {
    "id": "07802c2a9866",
@@ -947,8 +1003,7 @@
    "source_id": "it-daily",
    "added": "2026-10-31T17:56:35+01:00",
    "quelle_titel": "Reddit plant Anmeldepflicht für alle Nutzer",
-   "url": "https://www.it-daily.net/shortnews/reddit-plant-anmeldepflicht",
-   "dup_of": "1e09943a421e"
+   "url": "https://www.it-daily.net/shortnews/reddit-plant-anmeldepflicht"
   },
   {
    "id": "05df5863d6b9",
@@ -995,6 +1050,48 @@
    "quelle_titel": "Claude Motion ausprobiert: Wo Anthropics Animations-KI überzeugt und wo sie noch patzt",
    "url": "https://t3n.de/news/anthropic-claude-motion-test-1769905",
    "kontext": "Anthropic erweitert seinen Assistenten damit über Text und Code hinaus in Richtung Bewegtbild. Als typische Einsatzfälle nennt der Test, interne Daten verständlich zu visualisieren oder kurze Erklärclips für soziale Netzwerke zu produzieren, ohne großen Aufwand. Technisch greift Anthropic dabei auf einen besonderen Kniff zurück. Der vollständige Praxistest von t3n ist allerdings nur mit Abo zugänglich."
+  },
+  {
+   "id": "e07dacdb45dc",
+   "date": "2026-10-31",
+   "published": "2026-10-31T22:17+01:00",
+   "headline": "Klage gegen xAI wegen Luftverschmutzung durch Rechenzentrum zugelassen",
+   "summary": "Ein Gericht hat entschieden, dass die Klage der Bürgerrechtsorganisation NAACP gegen das KI-Unternehmen xAI weiterverfolgt werden darf. Vorgeworfen wird dem Betreiber ein Verstoß gegen das US-Luftreinhaltegesetz im Zusammenhang mit einem Rechenzentrum. Der Fall zeigt, dass die Umweltfolgen des KI-Ausbaus zunehmend juristisch geprüft werden.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "xai",
+    "rechenzentrum",
+    "umwelt",
+    "klage"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-01T15:07:00+01:00",
+   "quelle_titel": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+   "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+  },
+  {
+   "id": "9f56e268b05e",
+   "date": "2026-10-31",
+   "published": "2026-10-31T22:41+01:00",
+   "headline": "Apple-Chef verteidigt langsameren KI-Kurs des Konzerns",
+   "summary": "Der neue Apple-Chef hat die Position des Unternehmens im KI-Wettbewerb verteidigt und betont, dass Funktionen nur eingeführt werden sollen, wenn sie einen echten Nutzen haben. Damit setzt Apple bewusst einen Gegenakzent zum schnellen Veröffentlichungstempo der Konkurrenz.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "apple",
+    "strategie",
+    "produktpolitik"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-01T15:07:00+01:00",
+   "quelle_titel": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+   "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+   "dup_of": "90384a1c459b"
   },
   {
    "id": "bb88fbd60ed7",
