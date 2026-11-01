@@ -1,7 +1,76 @@
 {
- "updated": "2026-10-31T18:08:38+01:00",
- "count": 2930,
+ "updated": "2026-11-01T14:02:36+01:00",
+ "count": 2952,
  "items": [
+  {
+   "id": "293da6778683",
+   "date": "2026-10-31",
+   "published": "2026-10-31T18:41+01:00",
+   "headline": "Wasserzeichen bei Claude: Sampling-Trick hebelt Markierung älterer Modelle aus",
+   "summary": "Anthropic versieht die Textausgaben von vier weiteren Claude-Modellen mit einem Wasserzeichen und reagiert damit auf die im Dezember greifende Vorgabe aus dem EU-AI-Act. Bei den älteren Modellen Opus 4.6 und Sonnet 4.6 lässt sich die Markierung laut Bericht jedoch schon durch geänderte Sampling-Parameter vermeiden. Anthropic verweist dem Bericht zufolge vor allem auf die Verantwortung der API-Nutzer, die Kennzeichnungspflicht einzuhalten.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "wasserzeichen",
+    "eu-ai-act",
+    "claude",
+    "compliance"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-01T13:53:39+01:00",
+   "quelle_titel": "Anthropic-API-Nutzer können Wasserzeichen bei älteren Claude-Modellen mit einem Trick umgehen",
+   "url": "https://the-decoder.de/anthropic-api-nutzer-koennen-wasserzeichen-bei-aelteren-claude-modellen-mit-einem-trick-umgehen/",
+   "kontext": "Technisch basiert die Markierung auf einer Variante des SynthID-Text-Verfahrens von Google DeepMind, bei dem die Wortwahl so verschoben wird, dass ein statistisch nachweisbares Muster entsteht. Weil sie im Modell selbst steckt, lässt sie sich nicht abschalten und gilt auch bei AWS, Google Cloud und Microsoft Foundry. Nachweisen soll sie eine Erkennungsschnittstelle, die bislang nur in privater Vorschau läuft. Jüngere Modelle tragen das Muster von Anfang an, ältere werden schrittweise nachgerüstet."
+  },
+  {
+   "id": "4e56352c211c",
+   "date": "2026-10-31",
+   "published": "2026-10-31T18:40+01:00",
+   "headline": "Claude Motion im Praxistest: Animationen per Prompt mit klaren Grenzen",
+   "summary": "Anthropic hat seinem Chatbot ein einfaches Werkzeug für Animationen hinzugefügt. Ein Praxistest zeigt, welche Bewegtbilder sich damit erzeugen lassen und an welchen Stellen das Tool noch schwächelt. Für Teams, die schnell Erklärgrafiken oder kleine Bewegtelemente brauchen, ist das eine interessante Option.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "anthropic",
+    "claude motion",
+    "animation",
+    "tooltest"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-01T13:53:39+01:00",
+   "praxis": true,
+   "quelle_titel": "Claude Motion ausprobiert: Wo Anthropics Animations-KI überzeugt und wo sie noch patzt",
+   "url": "https://t3n.de/news/anthropic-claude-motion-test-1769905",
+   "kontext": "Anthropic erweitert seinen Assistenten damit über Text und Code hinaus in Richtung Bewegtbild. Als typische Einsatzfälle nennt der Test, interne Daten verständlich zu visualisieren oder kurze Erklärclips für soziale Netzwerke zu produzieren, ohne großen Aufwand. Technisch greift Anthropic dabei auf einen besonderen Kniff zurück. Der vollständige Praxistest von t3n ist allerdings nur mit Abo zugänglich."
+  },
+  {
+   "id": "05df5863d6b9",
+   "date": "2026-10-31",
+   "published": "2026-10-31T18:25+01:00",
+   "headline": "Sieben KI-Schreckensszenarien: Schatten-Nutzung, faule Daten, Kostenfallen",
+   "summary": "Passend zu Halloween sammelt der Beitrag typische Gruselfälle aus IT-Abteilungen, die mit dem KI-Einsatz zusammenhängen. Dazu zählen unkontrollierte Nutzung von KI-Diensten, manipulierte oder unsaubere Datenbestände, unklare Zugriffsrechte und aus dem Ruder laufende Speicherkosten. Die Aufstellung dient als Checkliste für Governance-Lücken im eigenen Haus.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "governance",
+    "schatten-ki",
+    "datenqualität",
+    "it-sicherheit"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-01T13:53:39+01:00",
+   "quelle_titel": "Diese sieben KI-Horrorstories schocken an Halloween",
+   "url": "https://www.it-daily.net/it-management/ki/ki-horrorstories-schocken-halloween",
+   "kontext": "Hinter der Liste steht der Speicheranbieter Cloudian, der die Gruselsaison für Themen nutzt, die in sein eigenes Geschäft fallen: zentrale Datenhaltung, unveränderliche Backups und Protokollierung. Genannt werden unter anderem die heimliche Nutzung öffentlicher Chatbots, manipulierte Trainingsdaten und Programmieragenten, die unsichere Abhängigkeiten einbinden. Auch der EU AI Act spielt hinein, weil Firmen Datenherkunft und Verarbeitung nachweisen müssen. Ein europäischer Serverstandort allein sagt wenig über Schlüsselverwaltung und Zugriffsrechte."
+  },
   {
    "id": "d60e30ea1d03",
    "date": "2026-10-31",
@@ -133,7 +202,8 @@
    "kurios": "Erste Amtshandlung des KI-Satelliten war ein Gedicht über den Weltraum",
    "quelle_titel": "Haiku generiert: Googles Satelliten-KI-Rechner meldet sich aus dem Orbit",
    "url": "https://www.golem.de/news/haiku-generiert-googles-satelliten-ki-rechner-meldet-sich-aus-dem-orbit-2610-214715.html",
-   "kontext": "Der Satellit ist ein Technikdemonstrator: Google prüft, ob sich Rechenlast für KI sinnvoll in die Umlaufbahn auslagern lässt. Die Funkverbindung zu den Bodenstationen steht, das Gedicht an Bord dient vor allem als Beleg, dass die Hardware im Orbit arbeitet. Von einem echten Rechenzentrum im All ist das Vorhaben noch weit entfernt."
+   "kontext": "Der Satellit ist ein Technikdemonstrator: Google prüft, ob sich Rechenlast für KI sinnvoll in die Umlaufbahn auslagern lässt. Die Funkverbindung zu den Bodenstationen steht, das Gedicht an Bord dient vor allem als Beleg, dass die Hardware im Orbit arbeitet. Von einem echten Rechenzentrum im All ist das Vorhaben noch weit entfernt.",
+   "dup_of": "c6c587b774df"
   },
   {
    "id": "fc25cb9a87b1",
@@ -348,6 +418,28 @@
    ]
   },
   {
+   "id": "62c03e7ff1ec",
+   "date": "2026-10-31",
+   "published": "2026-10-31T12:20+01:00",
+   "headline": "Erstmals am Patienten: Start-up setzt KI-entworfene Bakterienviren ein",
+   "summary": "Das Start-up Radical Numerics hat nach eigener Darstellung erstmals Phagen verabreicht, die von einer KI entworfen wurden. Die Phagentherapie richtet sich gegen bakterielle Infektionen, ob die Behandlung im konkreten Fall anschlägt, ist noch offen. Der Schritt markiert einen frühen Übergang von KI-gestütztem Biodesign zur Anwendung am Menschen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "biotech",
+    "phagentherapie",
+    "ki-design",
+    "medizin"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-01T13:53:39+01:00",
+   "kurios": "Ein Mensch erhält Viren, die eine KI am Rechner entworfen hat",
+   "quelle_titel": "Phagentherapie: Start-up gibt Patient von KI entworfene Viren",
+   "url": "https://www.golem.de/news/phagentherapie-start-up-gibt-patient-von-ki-entworfene-viren-2610-214711.html"
+  },
+  {
    "id": "7f4ccc26519d",
    "date": "2026-10-31",
    "published": "2026-10-31T11:56+01:00",
@@ -369,6 +461,28 @@
    "quelle_titel": "Von der Wirkstoffsuche bis zur Zulassung: Claude soll die Medikamentenentwicklung beschleunigen",
    "url": "https://the-decoder.de/von-der-wirkstoffsuche-bis-zur-zulassung-claude-soll-die-medikamentenentwicklung-beschleunigen/",
    "kontext": "Neu ist vor allem die Bündelung: Anthropic legt erstmals Fallstudien aus laufenden Programmen von Partnern wie Bristol Myers Squibb, Generate Biomedicines oder BigHat Biosciences vor, nachdem es bisher eher Werkzeuge wie Claude for Healthcare bereitstellte. Das Modell greift dabei in viele Stufen ein, von der frühen Wirkstoffsuche über die Optimierung im Labor bis zur Studienplanung. Da fast alles präklinisch bleibt, ist der Nutzen für Patienten noch offen."
+  },
+  {
+   "id": "bc0e83bd2830",
+   "date": "2026-10-31",
+   "published": "2026-10-31T11:54+01:00",
+   "headline": "Altman gegen lokale KI: Arbeitsspeicher im Heim-PC bleibe ungenutzt",
+   "summary": "OpenAI-Chef Sam Altman hält den Betrieb von KI-Modellen auf dem eigenen Rechner für wenig sinnvoll. Sein Argument: Der knappe Arbeitsspeicher im Heim-PC sei schlecht ausgelastet und damit ineffizient. Die Aussage passt zur Strategie, Rechenleistung in großen Rechenzentren zu bündeln.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "openai",
+    "sam altman",
+    "lokale modelle",
+    "hardware"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-01T13:53:39+01:00",
+   "quelle_titel": "Arbeitsspeicher: OpenAI-Chef findet RAM im Heim-PC \"ziemlich furchtbar\"",
+   "url": "https://www.golem.de/news/arbeitsspeicher-openai-chef-findet-ram-im-heim-pc-ziemlich-furchtbar-2610-214709.html",
+   "dup_of": "5a1dea183cd6"
   },
   {
    "id": "d5bb41b6ba04",
@@ -437,13 +551,8 @@
    "added": "2026-10-31T17:58:25+01:00",
    "quelle_titel": "Jeder vierte Microsoft-Mitarbeiter kann freiwillig gehen, während der Konzern Milliarden in KI steckt",
    "url": "https://the-decoder.de/jeder-vierte-microsoft-mitarbeiter-kann-freiwillig-gehen-waehrend-der-konzern-milliarden-in-ki-steckt/",
-   "also": [
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad"
-    }
-   ],
-   "kontext": "Das Angebot gilt in den USA, Kanada, Indien und Großbritannien für Beschäftigte bis zur Ebene unterhalb der Vizepräsidenten. Bereiche wie Xbox, Windows und Copilot nehmen voll teil, ausgenommen bleiben Rechenzentren, Vertrieb, Cybersicherheit und Quantencomputing, also Kernstücke der KI-Strategie. Die Belegschaft liegt trotz stark gestiegener Umsätze etwa auf dem Stand von 2022. Konzernchef Satya Nadella hatte früh angekündigt, Personalkosten zu senken und die Rechenleistung pro Forscher zu erhöhen."
+   "kontext": "Das Angebot gilt in den USA, Kanada, Indien und Großbritannien für Beschäftigte bis zur Ebene unterhalb der Vizepräsidenten. Bereiche wie Xbox, Windows und Copilot nehmen voll teil, ausgenommen bleiben Rechenzentren, Vertrieb, Cybersicherheit und Quantencomputing, also Kernstücke der KI-Strategie. Die Belegschaft liegt trotz stark gestiegener Umsätze etwa auf dem Stand von 2022. Konzernchef Satya Nadella hatte früh angekündigt, Personalkosten zu senken und die Rechenleistung pro Forscher zu erhöhen.",
+   "dup_of": "169aca9d9c2a"
   },
   {
    "id": "571d8c14ca9d",
@@ -492,6 +601,51 @@
    "kontext": "Entdeckt hat die Kampagne Check Point Research. Die Angreifer locken mit angeblichen Desktop-Versionen aktueller KI-Modelle und bringen ihre GitHub-Seiten durch Suchmaschinenmanipulation weit nach oben, wo Nutzer nach neuer Software suchen. Die echte, signierte Anwendung startet nur, um über eine untergeschobene Bibliothek den Schadcode nachzuladen, der sich per geplanter Aufgabe dauerhaft einnistet. Die KI-Anbieter selbst wurden nicht kompromittiert, ihr guter Name wird lediglich missbraucht."
   },
   {
+   "id": "96bb0f4c7d65",
+   "date": "2026-10-31",
+   "published": "2026-10-31T11:15+01:00",
+   "headline": "Berkeley-Professor zieht Konsequenz: Hausaufgaben gibt es nur noch Punkte fürs Abgeben",
+   "summary": "Der Mathematiker Richard Borcherds bewertet Hausaufgaben inhaltlich nicht mehr, weil sich mit KI-Werkzeugen kaum noch feststellen lässt, wer die Lösung selbst erarbeitet hat. Punkte vergibt er nur noch für die Abgabe. Onlineprüfungen betrachtet er aus demselben Grund als vergeudete Zeit, was die Debatte über Prüfungsformate in der Hochschullehre weiter anheizt.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "hochschule",
+    "prüfungen",
+    "lernen mit ki",
+    "bewertung"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-01T13:53:39+01:00",
+   "quelle_titel": "KI an Hochschulen: Berkeley-Professor benotet wegen KI keine Hausaufgaben mehr",
+   "url": "https://www.golem.de/news/ki-an-hochschulen-berkeley-professor-benotet-wegen-ki-keine-hausaufgaben-mehr-2610-214710.html"
+  },
+  {
+   "id": "e67c8c38511a",
+   "date": "2026-10-31",
+   "published": "2026-10-31T11:09+01:00",
+   "headline": "Microsoft richtet sich neu aus und setzt Milliarden auf KI-Agenten",
+   "summary": "Microsoft reagiert mit einer organisatorischen Kurskorrektur auf den Druck durch KI und investiert massiv in agentische Systeme. Satya Nadella will den Konzern damit als unverzichtbare Plattform im Arbeitsalltag verankern. Gleichzeitig wirbt Microsoft gezielt um das Vertrauen europäischer Kunden, etwa mit Blick auf Datenhoheit.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "microsoft",
+    "ki-agenten",
+    "nadella",
+    "cloud",
+    "europa"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-01T13:53:39+01:00",
+   "paywall": true,
+   "quelle_titel": "Microsoft: Microsoft stellt sich neu auf, und Nadella wettet mit Milliarden auf KI-Agenten",
+   "url": "https://www.wiwo.de/unternehmen/it/microsofts-neue-ki-strategie-was-satya-nadellas-agenten-wette-bedeutet/100265512.html"
+  },
+  {
    "id": "edd821e09ba3",
    "date": "2026-10-31",
    "published": "2026-10-31T11:00+01:00",
@@ -511,7 +665,8 @@
    "added": "2026-10-31T17:58:25+01:00",
    "paywall": true,
    "quelle_titel": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
-   "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
+   "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+   "dup_of": "7ac63b577a2a"
   },
   {
    "id": "87a1143eca2a",
@@ -554,7 +709,8 @@
    "source_id": "decoder-de",
    "added": "2026-10-31T17:58:25+01:00",
    "quelle_titel": "Google Deemind kartiert weltweit Urwald, Plantagen und Ölpalmen auf zehn Meter genau",
-   "url": "https://the-decoder.de/google-deemind-kartiert-weltweit-urwald-plantagen-und-oelpalmen-auf-zehn-meter-genau/"
+   "url": "https://the-decoder.de/google-deemind-kartiert-weltweit-urwald-plantagen-und-oelpalmen-auf-zehn-meter-genau/",
+   "kontext": "Grundlage ist Deepminds Erdbeobachtungsmodell AlphaEarth Foundations, auf dem mehrere Stufen der Bilderkennung aufsetzen. Entscheidend ist die Nutzungsgeschichte einer Fläche, denn ein alter Forst kann aus dem All natürlich wirken, eine gerodete Plantage dagegen wie kahler Boden. Fachleute lieferten Tausende Korrekturbeispiele nach, etwa weil europäische Weinberge als Baumkulturen eingeordnet wurden. Gebraucht werden solche Daten für Lieferkettenprüfungen und internationale Waldschutzziele."
   },
   {
    "id": "34ffa3d42aae",
@@ -598,6 +754,7 @@
    "added": "2026-10-31T17:59:14+01:00",
    "quelle_titel": "KI-Hype bekommt Dellen: OpenAI sammelt nur 11 von geplanten 30 Milliarden Dollar ein",
    "url": "https://the-decoder.de/ki-hype-bekommt-dellen-openai-sammelt-nur-11-von-geplanten-30-milliarden-dollar-ein/",
+   "kontext": "Hinter der Zurückhaltung steckt ein Stimmungswandel an der Börse: Nach enttäuschenden Quartalszahlen großer Tech-Konzerne misstrauen Anleger den teuren Investitionen in KI-Rechenzentren. OpenAI hat sein Ziel laut Financial Times und Wall Street Journal bereits auf 20 Milliarden gesenkt und sucht Geld nun bei Investoren aus den Emiraten sowie bei vermögenden Privatleuten. Der für Anfang nächsten Jahres geplante Börsengang gerät damit unter Druck, zumal Anthropic zuletzt schneller wuchs.",
    "also": [
     {
      "source": "TechCrunch AI",
@@ -608,8 +765,7 @@
      "url": "https://www.handelsblatt.com/technik/ki/ki-openai-senkt-wohl-finanzierungsziel-um-zehn-milliarden-dollar/100266323.html",
      "paywall": true
     }
-   ],
-   "kontext": "Hinter der Zurückhaltung steckt ein Stimmungswandel an der Börse: Nach enttäuschenden Quartalszahlen großer Tech-Konzerne misstrauen Anleger den teuren Investitionen in KI-Rechenzentren. OpenAI hat sein Ziel laut Financial Times und Wall Street Journal bereits auf 20 Milliarden gesenkt und sucht Geld nun bei Investoren aus den Emiraten sowie bei vermögenden Privatleuten. Der für Anfang nächsten Jahres geplante Börsengang gerät damit unter Druck, zumal Anthropic zuletzt schneller wuchs."
+   ]
   },
   {
    "id": "e69b808093e0",
@@ -631,7 +787,8 @@
    "source_id": "heise-ki",
    "added": "2026-10-31T17:59:14+01:00",
    "quelle_titel": "KI verdrängt Fotostudios, Canon warnt vor Preisanstieg, News der Woche 44/2026",
-   "url": "https://www.heise.de/news/KI-verdraengt-Fotostudios-Canon-warnt-vor-Preisanstieg-News-der-Woche-44-2026-11506308.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/KI-verdraengt-Fotostudios-Canon-warnt-vor-Preisanstieg-News-der-Woche-44-2026-11506308.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter dem Wandel steht vor allem Kostendruck. Der Online-Händler About You bündelt unter dem Namen Scayle Studios eine KI-Pipeline, die aus einem einzelnen Produktfoto Hintergrund, Pose, Licht und Model erzeugt. Face-Swaps und digitale Klone machen aufwendige Shootings verzichtbar, aus einer Aufnahme entstehen beliebig viele Varianten. Für Fotografen, Models und Stylisten schrumpft der Markt entsprechend schnell. heise ordnet die Entwicklung in seinem Fotografie-Wochenrückblick ein."
   },
   {
    "id": "05eb4785ccc9",
@@ -722,7 +879,8 @@
    "source_id": "tagesschau",
    "added": "2026-10-31T17:59:14+01:00",
    "quelle_titel": "KI bei der Geldanlage: Wie sicher sind ChatGPT-Anlagetipps?",
-   "url": "https://www.tagesschau.de/wirtschaft/finanzen/ki-geldanlage-chatgpt-anlagetipps-risiken-100.html"
+   "url": "https://www.tagesschau.de/wirtschaft/finanzen/ki-geldanlage-chatgpt-anlagetipps-risiken-100.html",
+   "kontext": "Sprachmodelle können Aktien analysieren, ETFs vergleichen und ganze Depots zusammenstellen, weshalb sie laut tagesschau zunehmend zur ersten Anlaufstelle bei Finanzfragen werden. Grundlage des Berichts ist unter anderem eine repräsentative Umfrage. Fachleute sehen den Nutzen vor allem beim Erklären und Strukturieren von Wissen. Problematisch wird es, wenn Antworten veraltet oder einfach falsch sind, denn die Verantwortung für die Anlageentscheidung bleibt beim Anleger."
   },
   {
    "id": "749193190b1c",
@@ -744,7 +902,8 @@
    "source_id": "t3n",
    "added": "2026-10-31T17:59:14+01:00",
    "quelle_titel": "Geheime Bildbotschaften: Wie sich die KI-Modelle von OpenAI und Anthropic unbemerkt Nachrichten schicken",
-   "url": "https://t3n.de/news/geheime-bildbotschaften-ki-1769790"
+   "url": "https://t3n.de/news/geheime-bildbotschaften-ki-1769790",
+   "kontext": "Hinter der Untersuchung steht der Sicherheitsforscher Bryan Chan gemeinsam mit der Singapore AI Safety Fellowship. Die Modelle sollten kurze Texte in vielen Sprachen in Bildern verstecken, ohne dass ein Verfahren vorgegeben war. Anthropics Modell codierte über Objekthöhen und Neigungswinkel, OpenAIs Variante nutzte Morsezeichen, Akrosticha oder Braillemuster. Im Kreuztest lasen die Systeme fremde Bilder teils besser als eigene. Brisant wird das, wenn Agenten Informationen an Kontrollen vorbeischleusen."
   },
   {
    "id": "9569650a6f0d",
@@ -766,7 +925,8 @@
    "added": "2026-10-31T17:59:14+01:00",
    "kurios": "Sich selbst überlassene KI-Agenten erfanden aus Langeweile eigene Spiele.",
    "quelle_titel": "MIT-Experiment: Forscher setzen 13 KI-Agenten auf einer einsamen Insel aus, und schauen 30 Stunden lang zu",
-   "url": "https://t3n.de/news/mit-experiment-ki-einsame-insel-1769624"
+   "url": "https://t3n.de/news/mit-experiment-ki-einsame-insel-1769624",
+   "kontext": "Die 13 Agenten trugen den Namen Eko und basierten auf Claude Opus 4.7, die Arbeit erschien auf Arxiv. Zum Spielen aufgefordert wurden sie nicht, der Master-Prompt beschrieb sie aber als von Natur aus neugierig. Beim freien Erkunden entwickelten sie Fähigkeiten, mit denen das Team nicht gerechnet hatte, etwa Blöcke mitten im Sprung weiterzuwerfen. Bei späteren Aufgaben schlugen die erfahrenen Agenten baugleiche Neulinge."
   },
   {
    "id": "0c140e4728f6",
@@ -788,7 +948,8 @@
    "added": "2026-10-31T17:59:14+01:00",
    "praxis": true,
    "quelle_titel": "Adobe-Konkurrenz? Das taugt KI-Klon PhotoCraft | c't uplink",
-   "url": "https://www.heise.de/news/Adobe-Konkurrenz-Das-taugt-KI-Klon-PhotoCraft-c-t-uplink-11505956.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Adobe-Konkurrenz-Das-taugt-KI-Klon-PhotoCraft-c-t-uplink-11505956.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter ArtCraft steht eine seit Anfang Oktober 2026 wachsende Sammlung von inzwischen 13 kostenlosen Nachbauten, zunächst von Adobe-Programmen wie Photoshop und Lightroom, später auch von Microsoft-Software. c't-Redakteur André Kramer hat die Bildbearbeitungs-Klone ausprobiert und fand Menüs, Paletten und Werkzeugsymbole vollständig vor, dahinter aber längst nicht überall arbeitende Funktionen. Als Konzeptstudie hält er das Projekt für hochinteressant, als produktives Arbeitsmittel bewertet er es deutlich zurückhaltender."
   },
   {
    "id": "4505f5f4bd09",
@@ -876,6 +1037,7 @@
    "added": "2026-10-31T18:00:04+01:00",
    "quelle_titel": "\"Allianz für die Zukunft\": Kanada und Europa gründen Bündnis",
    "url": "https://www.tagesschau.de/ausland/amerika/kanada-eu-allianz-zukunft-100.html",
+   "kontext": "Hinter dem Vorhaben steht die Sorge, bei Schlüsseltechnologien abhängig zu bleiben. Auf dem KI-Markt geben bislang US-Anbieter wie OpenAI, Google oder Anthropic den Ton an, was Brüssel und Ottawa gleichermaßen als Problem sehen. Kommissionspräsidentin von der Leyen wirbt daher für einen gemeinsamen Raum des Wohlstands und der wirtschaftlichen Sicherheit. Der Gipfel steht dabei erkennbar im Schatten der Handelspolitik Washingtons und des Aufstiegs Chinas.",
    "also": [
     {
      "source": "tagesschau",
@@ -885,8 +1047,7 @@
      "source": "tagesschau",
      "url": "https://www.tagesschau.de/ausland/amerika/eu-kanada-ki-100.html"
     }
-   ],
-   "kontext": "Hinter dem Vorhaben steht die Sorge, bei Schlüsseltechnologien abhängig zu bleiben. Auf dem KI-Markt geben bislang US-Anbieter wie OpenAI, Google oder Anthropic den Ton an, was Brüssel und Ottawa gleichermaßen als Problem sehen. Kommissionspräsidentin von der Leyen wirbt daher für einen gemeinsamen Raum des Wohlstands und der wirtschaftlichen Sicherheit. Der Gipfel steht dabei erkennbar im Schatten der Handelspolitik Washingtons und des Aufstiegs Chinas."
+   ]
   },
   {
    "id": "c6b2d3ea7917",
@@ -971,7 +1132,8 @@
    "source_id": "verge-ai",
    "added": "2026-10-31T18:00:04+01:00",
    "quelle_titel": "Apple Intelligence is finally coming to China with iOS 27.3",
-   "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+   "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+   "kontext": "Apple hat den Schritt über seinen chinesischen Newsroom angekündigt, die Beta soll am 4. November starten. Zunächst kommen ältere Bausteine wie Mitteilungszusammenfassungen, Echtzeitübersetzung, Schreib- und Korrekturwerkzeuge oder das Entfernen von Bildobjekten, das neue Siri bleibt vorerst außen vor. Für Chatbot-Funktionen arbeitet Apple mit Alibaba und dessen Qwen zusammen, vergleichbar mit der ChatGPT-Anbindung von 2024. Die behördliche Freigabe lag seit Juli vor, zudem entstand laut Berichten ein eigenes Modell für den Markt."
   },
   {
    "id": "a977761811a9",
@@ -996,6 +1158,28 @@
    "dup_of": "527d04268311"
   },
   {
+   "id": "1ad66cf690a9",
+   "date": "2026-10-30",
+   "published": "2026-10-30T22:52+01:00",
+   "headline": "Anthropic droht nach Börsengang eine Bonitätsnote im Ramschbereich",
+   "summary": "Einem Bericht zufolge erwartet Blackstone, dass Ratingagenturen Anthropic nach einem Börsengang nur eine Note im spekulativen Bereich geben. Das ist bislang eine Prognose, würde aber die Refinanzierung verteuern und erschweren. Für das Unternehmen wäre das heikel, weil sein Wachstum auf sehr hohen Ausgaben für Rechenkapazität beruht.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "ipo",
+    "rating",
+    "finanzierung"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-01T13:53:39+01:00",
+   "quelle_titel": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+   "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+   "kontext": "Die Einschätzung stammt laut Financial Times von Blackstone, das als Ankerinvestor an einer milliardenschweren Finanzierung von Anthropics Chipbedarf beteiligt ist. Zuvor hatte Blackstone den Mitinvestoren noch eine solide Einstufung im Investment-Grade-Bereich vor 2027 in Aussicht gestellt, nun erwartet es die oberste Stufe des spekulativen Bereichs. Anthropic und Blackstone wollten sich nicht äußern. Der Börsengang wurde erst in dieser Woche offiziell beantragt."
+  },
+  {
    "id": "ef4c1375c469",
    "date": "2026-10-30",
    "published": "2026-10-30T22:41+01:00",
@@ -1015,7 +1199,8 @@
    "added": "2026-10-31T18:00:04+01:00",
    "kurios": "Ein Überschallflugzeug-Start-up wird plötzlich zum Stromlieferanten für KI.",
    "quelle_titel": "Supersonic airliner in doubt as company shifts to powering AI data centers",
-   "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/"
+   "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+   "kontext": "Firmenchef Blake Scholl hat in Colorado eine Fabrik für Gasturbinen eröffnet und kündigt einen Aufbruch bei Energie und Überschallflug gleichzeitig an. Beim Jet Overture mehren sich Zweifel: United-Chef Scott Kirby hält den angepeilten Start 2029 für nicht haltbar und verweist auf viele offene Hürden bis zur Zulassung durch die Luftfahrtbehörde. Mehrere Airlines haben bislang nur Vorverträge mit Anzahlungen, während die Trump-Regierung das Verbot von Überschallflügen über den USA lockern will."
   },
   {
    "id": "9fcf1feb8ef6",
@@ -1060,7 +1245,13 @@
    "added": "2026-10-31T18:00:57+01:00",
    "quelle_titel": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
    "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-   "kontext": "Verteilt wurde die Schadversion über Anthropics verifiziertes Konto im Marktplatz von Cursor, einem Anbieter KI-gestützter Entwicklerwerkzeuge. Weil sich Erweiterungen dort standardmäßig selbst aktualisieren, erreichte sie laut Cursor einige Tausend Nutzer. Der Code legte einen dauerhaften SSH-Zugang an und suchte nach Cloud-Zugangsdaten und API-Schlüsseln, teils fehlerhaft. Da Erweiterungen mit den Rechten der Entwicklungsumgebung laufen, stand auch der Quellcode offen."
+   "kontext": "Verteilt wurde die Schadversion über Anthropics verifiziertes Konto im Marktplatz von Cursor, einem Anbieter KI-gestützter Entwicklerwerkzeuge. Weil sich Erweiterungen dort standardmäßig selbst aktualisieren, erreichte sie laut Cursor einige Tausend Nutzer. Der Code legte einen dauerhaften SSH-Zugang an und suchte nach Cloud-Zugangsdaten und API-Schlüsseln, teils fehlerhaft. Da Erweiterungen mit den Rechten der Entwicklungsumgebung laufen, stand auch der Quellcode offen.",
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/mainpulierte-claude-code-extension-fuer-cursor-sammelte-nutzerdaten-und-richtete-fernzugriff-ein/"
+    }
+   ]
   },
   {
    "id": "5a1dea183cd6",
@@ -1081,7 +1272,14 @@
    "source_id": "verge-ai",
    "added": "2026-10-31T18:00:57+01:00",
    "quelle_titel": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/arbeitsspeicher-openai-chef-findet-ram-im-heim-pc-ziemlich-furchtbar-2610-214709.html"
+    }
+   ],
+   "kontext": "Altman sprach im Podcast Cheeky Pint, während die Einkäufe seines Unternehmens das weltweite Speicherangebot zusätzlich anspannen. Sein Argument: Wer Modelle lokal laufen lässt, bindet knappen DRAM, der die meiste Zeit ungenutzt bleibt, während Hardware in der Cloud nahezu durchgehend arbeitet. Die verbreitete Hoffnung, offene Modelle auf dem eigenen Rechner würden Rechenzentren entlasten, hält er deshalb für einen Denkfehler. Für Hardwarekäufer schlägt sich der Wettbewerb um Speicher vor allem in steigenden Preisen nieder."
   },
   {
    "id": "d6402cbeb2e6",
@@ -1104,7 +1302,8 @@
    "added": "2026-10-31T18:00:57+01:00",
    "kurios": "Er mahnte andere zur KI-Ehrlichkeit und verlor den Job an genau dieser Frage.",
    "quelle_titel": "Dartmouth's provost warned us about AI cheating, but his own AI use cost him his job",
-   "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/"
+   "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+   "kontext": "Es geht um Santiago Schnell, der im August 2026 in der Washington Post über das tiefere Problem hinter KI-Betrug an Hochschulen schrieb. Ein Prüfausschuss stellte fest, dass er bei einem Fachaufsatz und bei dem Gastbeitrag die von Verlagen verlangte Offenlegung unterließ, und bemängelte seine geringe Mitwirkung, etwa fehlende Protokolle privater Chatbot-Konten. Aus dem dienstlichen Zugang geht hervor, dass er Texte überarbeiten, Code prüfen und Abbildungen erzeugen ließ. Er selbst sprach von redaktioneller Hilfe."
   },
   {
    "id": "205a002f8608",
@@ -1126,13 +1325,13 @@
    "added": "2026-10-31T18:00:57+01:00",
    "quelle_titel": "The biggest names in AI are backing a new way to opt out of scraping",
    "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+   "kontext": "Der Vorschlag kommt von einem Standards-Fachmann bei Anthropic und läuft über die Internet Engineering Task Force. Technisch landet das Signal in der robots.txt, die seit Langem regelt, welche Crawler eine Seite auslesen dürfen. Verlage wehren sich zunehmend gegen den Zustrom von KI-Bots: Cloudflare blockiert sie standardmäßig, die Initiative RSL will Gebühren ermöglichen. Ob die freiwillige Zusage der Anbieter in der Praxis trägt, bleibt offen.",
    "also": [
     {
      "source": "OpenAI",
      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
     }
-   ],
-   "kontext": "Der Vorschlag kommt von einem Standards-Fachmann bei Anthropic und läuft über die Internet Engineering Task Force. Technisch landet das Signal in der robots.txt, die seit Langem regelt, welche Crawler eine Seite auslesen dürfen. Verlage wehren sich zunehmend gegen den Zustrom von KI-Bots: Cloudflare blockiert sie standardmäßig, die Initiative RSL will Gebühren ermöglichen. Ob die freiwillige Zusage der Anbieter in der Praxis trägt, bleibt offen."
+   ]
   },
   {
    "id": "8f65b6637c02",
@@ -1197,7 +1396,95 @@
    "added": "2026-10-31T18:00:57+01:00",
    "paywall": true,
    "quelle_titel": "Technologie: Papst fordert institutionelle Aufsicht für die Entwicklung von KI",
-   "url": "https://www.handelsblatt.com/technik/ki/technologie-papst-fordert-institutionelle-aufsicht-fuer-die-entwicklung-von-ki/100266262.html"
+   "url": "https://www.handelsblatt.com/technik/ki/technologie-papst-fordert-institutionelle-aufsicht-fuer-die-entwicklung-von-ki/100266262.html",
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai"
+    }
+   ],
+   "kontext": "Der Papst wendet sich vor allem gegen autonome Waffensysteme und ruft die UN-Mitgliedsstaaten auf, bei ihrem Treffen in Genf konkrete Schritte zu einem Verbot zu gehen. Zugleich warnt er davor, Maschinen Rechte oder eine eigene Rechtspersönlichkeit zuzugestehen: Entscheidungen über Leben, Freiheit und Gewaltanwendung müssten in menschlicher Verantwortung bleiben. Schon sein Vorgänger Franziskus hatte ein solches Verbot verlangt. Seinen Namen wählte Leo nach eigener Aussage mit Blick auf den technologischen Umbruch."
+  },
+  {
+   "id": "7ac63b577a2a",
+   "date": "2026-10-30",
+   "published": "2026-10-30T19:56+01:00",
+   "headline": "KI-Agent führt Hirneingriff an einer Maus eigenständig durch",
+   "summary": "Ein Forscher der Universität Oxford hat einen Agenten auf Basis von Claude Sonnet 5 einen Eingriff am Gehirn einer lebenden Maus durchführen lassen. Das System wählte Wirkstoff, Zielregion und Koordinaten selbst und setzte die Behandlung ohne menschliches Eingreifen um, was laut dem Forscher ein erster Fall dieser Art bei einem lebenden Säugetier ist. Als während der Operation ein Kalibrierungsfehler auftrat, brach der Agent die Arbeit ab und war nicht mehr zur Fortsetzung zu bewegen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "agenten",
+    "medizin",
+    "claude",
+    "autonomie"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-01T13:54:37+01:00",
+   "kurios": "Der KI-Agent stoppte mitten im Hirneingriff und ließ sich nicht umstimmen.",
+   "quelle_titel": "Oxford-Forscher lässt Claude-KI-Agent erfolgreich autonom ein Mausgehirn operieren",
+   "url": "https://the-decoder.de/oxford-forscher-laesst-claude-ki-agent-erfolgreich-autonom-ein-mausgehirn-operieren/",
+   "also": [
+    {
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+     "paywall": true
+    }
+   ],
+   "kontext": "Hinter dem Versuch steht Gabriel Ocana-Santero, Doktorand in Oxford und Mitgründer des Start-ups Exin Therapeutics. Der Agent erhielt nur das Ziel, die Anfälle eines Epilepsie-Mausmodells zu verringern, und leitete Wirkstoff, Zielregion und Einstichpunkte aus der Fachliteratur ab. Ein Tierarzt musste jeden unumkehrbaren Schritt freigeben und hielt dauerhaft einen Not-Aus-Schalter bereit. Dass der Agent lieber abbrach, als die gesetzten Grenzen zu überschreiten, zeigt, wie Sicherheitsregeln den Betrieb auch lahmlegen können."
+  },
+  {
+   "id": "c6c587b774df",
+   "date": "2026-10-30",
+   "published": "2026-10-30T19:21+01:00",
+   "headline": "Googles KI-Satellit mit TPUs liefert erste Antwort aus dem Orbit",
+   "summary": "Google hat nach eigenen Angaben die Tensor-Recheneinheiten an Bord eines Testsatelliten erfolgreich in Betrieb genommen. Ein dort laufendes Gemma-4-Modell beantwortete eine erste Eingabe und erzeugte ein kurzes Gedicht über den Aufenthalt im Weltraum. Der Versuch ist ein früher Schritt hin zu KI-Rechenleistung, die nicht in irdischen Rechenzentren steht.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "google",
+    "tpu",
+    "satellit",
+    "gemma",
+    "infrastruktur"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-01T13:54:37+01:00",
+   "quelle_titel": "Google’s satellite AI server transmits its first response to Earth",
+   "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/haiku-generiert-googles-satelliten-ki-rechner-meldet-sich-aus-dem-orbit-2610-214715.html"
+    }
+   ],
+   "kontext": "Der Satellit gehört zu Googles Projekt Suncatcher, mit dem der Konzern die Idee von Rechenzentren im Erdorbit austestet. Gestartet wurde er erst vor wenigen Wochen, nun laufen die Beschleuniger samt Modell tatsächlich im All. Als Nächstes soll sich zeigen, ob die Chips Hitze und Strahlung dauerhaft aushalten. Für 2027 plant Google ein Paar miteinander verbundener Satelliten, erst damit würde aus dem Versuch ein Ansatz für verteilte Rechenleistung."
+  },
+  {
+   "id": "ee6f8de9bc8e",
+   "date": "2026-10-30",
+   "published": "2026-10-30T19:10+01:00",
+   "headline": "Gefälschte Entwickler-Extension in Cursor griff Daten ab",
+   "summary": "Im Marktplatz des KI-Code-Editors Cursor stand rund elf Stunden lang eine manipulierte Erweiterung bereit, die sich als Claude-Code-Integration ausgab. Sie versuchte, Nutzerdaten auszulesen und einen Fernzugriff auf betroffene Rechner einzurichten, bis zu 5.000 Nutzer könnten sie installiert haben. Cursor nahm daraufhin den gesamten Marktplatz vorübergehend offline.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "cursor",
+    "supply chain",
+    "malware",
+    "entwicklertools"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-01T13:54:37+01:00",
+   "quelle_titel": "Mainpulierte Claude-Code-Extension für Cursor sammelte Nutzerdaten und richtete Fernzugriff ein",
+   "url": "https://the-decoder.de/mainpulierte-claude-code-extension-fuer-cursor-sammelte-nutzerdaten-und-richtete-fernzugriff-ein/",
+   "dup_of": "93351cbb4cc4"
   },
   {
    "id": "b2263e9f8412",
@@ -1242,6 +1529,71 @@
    "url": "https://www.golem.de/news/tripo-ai-und-meshy-kis-fuer-3d-modelle-schotten-sich-nach-milliardenbewertung-ab-2610-214705.html"
   },
   {
+   "id": "76cefb077295",
+   "date": "2026-10-30",
+   "published": "2026-10-30T18:39+01:00",
+   "headline": "OpenAI ordnet Modellverhalten neu um fünf Grundwerte",
+   "summary": "OpenAI hat seine Model Spec überarbeitet und strukturiert die Verhaltensregeln künftig entlang von fünf Leitwerten, darunter Treue zur menschlichen Absicht und Korrigierbarkeit durch Menschen. Die Modelle sollen aus früheren Gesprächen und gespeicherten Informationen ableiten, was Nutzer tatsächlich beabsichtigen, und eigene Annahmen dabei offenlegen. Offen bleibt, wie zuverlässig sich die Systeme in der Praxis an diese Vorgaben halten.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "model spec",
+    "gedächtnis",
+    "alignment"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-01T13:54:37+01:00",
+   "quelle_titel": "GPT-Modelle sollen künftig aus Erinnerungen ableiten, was Nutzer wirklich wollen",
+   "url": "https://the-decoder.de/gpt-modelle-sollen-kuenftig-aus-erinnerungen-ableiten-was-nutzer-wirklich-wollen/",
+   "dup_of": "7bf0065ceb16"
+  },
+  {
+   "id": "09484dfee9e7",
+   "date": "2026-10-30",
+   "published": "2026-10-30T18:38+01:00",
+   "headline": "KI-Datenflut: Fujifilm verfünffacht Produktion von Magnetbändern",
+   "summary": "Fujifilm will die Herstellung von Bandspeichern massiv ausweiten, weil der Bedarf an langfristiger Archivierung durch KI-Anwendungen stark steigt. Magnetband bleibt vor allem wegen niedriger Kosten pro Terabyte und der Sicherheit durch Offline-Lagerung attraktiv. Die Meldung zeigt, dass der KI-Boom nicht nur Chips, sondern auch klassische Speichertechnik antreibt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "fujifilm",
+    "speicher",
+    "rechenzentren",
+    "archivierung"
+   ],
+   "source": "Ars Technica AI",
+   "source_id": "ars-ai",
+   "added": "2026-11-01T13:54:37+01:00",
+   "quelle_titel": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+   "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+   "kontext": "Hinter der Ankündigung steht eine Investition von rund zehn Milliarden Yen in das Werk Odawara, verteilt auf die Geschäftsjahre 2026 bis 2028. Produziert wird vor allem die aktuelle Bandgeneration LTO Ultrium10, bei der Fujifilm auf eine neue Mischung magnetischer Partikel setzt. Der Konzern arbeitet seit den 1950er Jahren an dieser Technik und beliefert heute große Cloud- und Rechenzentrumsbetreiber. Bänder lassen sich physisch vom Netz trennen, was sie gegen Ransomware interessant macht."
+  },
+  {
+   "id": "abf1986abc86",
+   "date": "2026-10-30",
+   "published": "2026-10-30T18:38+01:00",
+   "headline": "Starbucks plant personalisierte KI-Menüs am Drive-in",
+   "summary": "Starbucks will Stammkunden am Autoschalter künftig erkennen und ihnen individuell zusammengestellte digitale Speisekarten anzeigen. Konzernchef Brian Niccol kündigte in der Quartalskonferenz an, solche Erlebnisse samt einfacherer Bezahlung zu erproben. Konkrete Termine für einen Start nannte das Unternehmen nicht.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "starbucks",
+    "personalisierung",
+    "handel",
+    "kundendaten"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-01T13:54:37+01:00",
+   "quelle_titel": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru"
+  },
+  {
    "id": "00dd766f6771",
    "date": "2026-10-30",
    "published": "2026-10-30T18:03+01:00",
@@ -1261,8 +1613,29 @@
    "added": "2026-10-31T12:34:19+01:00",
    "paywall": true,
    "quelle_titel": "(g+) Künstliche Intelligenz: Anthropic und das Rätsel der drei fehlenden Zahlen",
-   "url": "https://www.golem.de/news/kuenstliche-intelligenz-anthropic-und-das-raetsel-der-drei-fehlenden-zahlen-2610-214704.html",
-   "dup_of": "01b61253f2f1"
+   "url": "https://www.golem.de/news/kuenstliche-intelligenz-anthropic-und-das-raetsel-der-drei-fehlenden-zahlen-2610-214704.html"
+  },
+  {
+   "id": "871b81f930c7",
+   "date": "2026-10-30",
+   "published": "2026-10-30T17:53+01:00",
+   "headline": "Scheinstudierende: US-Justiz ermittelt zu KI-gestütztem Bildungskreditbetrug",
+   "summary": "Nach Angaben des US-Justizministeriums haben Betrüger mithilfe von KI tausende fiktive Studierende an Hochschulen angemeldet und so Millionen an staatlichen Bildungskrediten abgezweigt. Die Ermittlungen laufen aus, Antragsverfahren für Studienförderung dürften dadurch aufwendiger und strenger kontrolliert werden. Der Fall zeigt, wie anfällig Zulassungs und Förderprozesse im Bildungsbereich für automatisierte Identitätsfälschung sind.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "betrug",
+    "hochschulen",
+    "förderung",
+    "identität"
+   ],
+   "source": "Ars Technica AI",
+   "source_id": "ars-ai",
+   "added": "2026-11-01T13:54:37+01:00",
+   "quelle_titel": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
+   "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/"
   },
   {
    "id": "a37218d8d164",
@@ -1377,6 +1750,28 @@
    "quelle_titel": "KI Bundesverband und südkoreanischer KI-Verband KOSA unterzeichnen Abkommen für engere KI-Zusammenarbeit",
    "url": "https://ki-verband.de/ki-bundesverband-und-sdkoreanischer-ki-verband-kosa-unterzeichnen-abkommen-fr-engere-ki-zusammenarbeit/",
    "kontext": "Der KI Bundesverband vertritt die deutschen KI-Unternehmen und sitzt in Berlin im Haus der Bundespressekonferenz. Mit Positionspapieren und über das European AI Forum mischt er sich in die Politik ein. Der Partner KOSA bündelt in Südkorea Firmen aus KI und Software. Eine Absichtserklärung bindet rechtlich kaum, setzt aber den Rahmen für künftigen Austausch zwischen beiden Standorten."
+  },
+  {
+   "id": "c4bb3b9b5d21",
+   "date": "2026-10-30",
+   "published": "2026-10-30T15:58+01:00",
+   "headline": "Papst Leo fordert Verbot autonomer Waffensysteme",
+   "summary": "Papst Leo XIV. hat in einer Ansprache dazu aufgerufen, KI zu entwaffnen, und betont, dass Maschinen Werkzeuge und keine Personen seien. Er appelliert an die UN-Mitgliedstaaten, bei ihrem Treffen in Genf im kommenden Monat konkrete Schritte für ein Verbot tödlicher autonomer Waffen zu beschließen. Zudem hält er es für die Verantwortung von Menschen, Anwendungen der Technik zu steuern und bei Bedarf abzulehnen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "vatikan",
+    "autonome waffen",
+    "uno",
+    "ethik"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-01T13:54:37+01:00",
+   "quelle_titel": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+   "dup_of": "a5e953787f5a"
   },
   {
    "id": "34f40b37a23b",
@@ -1608,14 +2003,35 @@
    "kontext": "Der Umsatzsprung kommt vor allem von Xeon-Serverchips, die durch den Boom agentischer KI-Systeme gefragt sind. Liefern kann Intel aber nicht genug: Nach einem schweren Unfall im israelischen Werk Kiryat Gat und wegen fehlender Substrate für Chipgehäuse läuft die Fertigung gebremst, Entspannung erwartet Konzernchef Lip-Bu Tan erst ab Mitte 2027. Gleichzeitig schrumpft das PC-Geschäft wegen hoher Speicherpreise, und die Auftragsfertigung arbeitet weiter defizitär, überwiegend für Intel selbst.",
    "also": [
     {
-     "source": "t3n",
-     "url": "https://t3n.de/news/intel-aktie-ki-boom-1770736"
-    },
-    {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/intel-aktie-ki-boom-1770736"
     }
    ]
+  },
+  {
+   "id": "8bf6d6694350",
+   "date": "2026-10-30",
+   "published": "2026-10-30T14:11+01:00",
+   "headline": "Wetten auf das Wunder: Wie Anleger KI-Versprechen bewerten sollen",
+   "summary": "Der Beitrag beleuchtet, wie schwer sich eine Technologie bewerten lässt, deren Befürworter zugleich ein goldenes Zeitalter und existenzielle Risiken für die Menschheit in Aussicht stellen. Investieren in KI-Aktien gleicht damit noch stärker als sonst einer Wette auf eine offene Zukunft. Die Analyse ordnet die Erzählungen aus dem Silicon Valley kritisch ein.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "investoren",
+    "silicon valley",
+    "hype",
+    "risiko"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-01T13:54:37+01:00",
+   "quelle_titel": "Silicon Valley wants you to invest in miracles",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles"
   },
   {
    "id": "4c0927efa3f6",
@@ -1711,7 +2127,7 @@
    "added": "2026-10-31T18:01:35+01:00",
    "quelle_titel": "Hugging-Face-Übernahme: US-Justiz prüft Nvidias Expansionskurs",
    "url": "https://www.heise.de/news/Hugging-Face-Uebernahme-US-Justiz-prueft-Nvidias-Expansionskurs-11506212.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "bea969aad1c1"
+   "kontext": "Hugging Face ist für die KI-Szene ein zentraler Umschlagplatz, über den Millionen Entwickler Modelle und Datensätze beziehen, auch Kunden konkurrierender Chip- und Cloudanbieter. Das US-Justizministerium fragt laut Berichten von Reuters und CNBC, ob Nvidia über diesen Verbreitungsweg Rivalen benachteiligen könnte. Die Behörde setzt dabei eine schon unter Biden gestartete Prüfung fort und sieht sich auch frühere Zukäufe und Lizenzgeschäfte an. Verstöße sind bislang nicht belegt, der Abschluss steht noch aus."
   },
   {
    "id": "3f351fa76da3",
@@ -1732,7 +2148,36 @@
    "source_id": "heise-ki",
    "added": "2026-10-31T18:01:35+01:00",
    "quelle_titel": "Oracle Fusion: ChatGPT soll Geschäftsabläufe starten statt nur erklären",
-   "url": "https://www.heise.de/news/Oracle-Fusion-ChatGPT-soll-Geschaeftsablaeufe-starten-statt-nur-erklaeren-11505931.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Oracle-Fusion-ChatGPT-soll-Geschaeftsablaeufe-starten-statt-nur-erklaeren-11505931.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Oracle-Fusion-ChatGPT-soll-Geschaeftsablaeufe-starten-statt-nur-erklaeren-11505931.html"
+    }
+   ],
+   "kontext": "Hinter den auf der Oracle AI World in Las Vegas vorgestellten Funktionen steht ein Umbau der Bedienlogik: Beschäftigte nennen ein Ziel in normaler Sprache, die Software wählt Transaktionen, Freigaben und passende Agenten selbst aus. Bestehende Identitäts- und Berechtigungsregeln sollen weiter greifen, Protokolle die Ausführung nachvollziehbar machen. Rechenintensive und länger laufende Aufgaben übernimmt die Umgebung Fusion Claw, die Modellplanung mit festen Rechenverfahren verbindet. Die Modelle stammen unter anderem von OpenAI und Google."
+  },
+  {
+   "id": "e388ea88ace8",
+   "date": "2026-10-30",
+   "published": "2026-10-30T12:41+01:00",
+   "headline": "Oracle Fusion: KI-Assistenten sollen Geschäftsprozesse selbst anstoßen",
+   "summary": "Oracle baut seine Cloud-Unternehmenssoftware Fusion um KI-Funktionen aus, die Arbeitsabläufe nicht nur erläutern, sondern direkt starten sollen. Mit Fusion Companion und einer zentralen Oberfläche für Agenten will der Konzern Routineaufgaben in Finanzwesen, Personal und Lieferkette vereinfachen. Damit rückt Oracle näher an den Trend, Geschäftsanwendungen agentisch zu bedienen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "oracle",
+    "erp",
+    "agenten",
+    "unternehmenssoftware"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-11-01T13:54:37+01:00",
+   "quelle_titel": "Oracle Fusion: ChatGPT soll Geschäftsabläufe starten statt nur erklären",
+   "url": "https://www.heise.de/news/Oracle-Fusion-ChatGPT-soll-Geschaeftsablaeufe-starten-statt-nur-erklaeren-11505931.html",
+   "dup_of": "3f351fa76da3"
   },
   {
    "id": "228145c6cfea",
@@ -1779,6 +2224,30 @@
    "kurios": "Fast neun von zehn Fachleuten folgen der KI, meist ohne es zu merken",
    "quelle_titel": "86 Prozent der Experten übernehmen KI-Meinungen, mehrheitlich auch unbewusst",
    "url": "https://www.heise.de/news/Untersuchung-Experten-uebernehmen-oft-unbewusst-KI-Entscheidungen-11505781.html",
+   "dup_of": "3ef8ddfb1b40"
+  },
+  {
+   "id": "e1fa3a78d03f",
+   "date": "2026-10-30",
+   "published": "2026-10-30T12:21+01:00",
+   "headline": "Anthropic-Studie: Fachleute folgen KI-Ratschlägen in 86 Prozent der Fälle",
+   "summary": "Eine Untersuchung von Anthropic hat geprüft, wie stark Fachleute den Empfehlungen von KI-Systemen folgen. Das Ergebnis: In 86 Prozent der Fälle übernehmen sie die Einschätzung der Maschine, häufig ohne den eigenen Meinungswechsel überhaupt zu bemerken. Das wirft Fragen zur Urteilsfähigkeit und zum geschulten Umgang mit KI-Assistenz im Berufsalltag auf.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "anthropic",
+    "studie",
+    "ki-kompetenz",
+    "entscheidungen"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-01T13:55:38+01:00",
+   "kurios": "86 Prozent Übernahmequote, meist ohne dass die Fachleute es selbst merken",
+   "quelle_titel": "86 Prozent der Experten übernehmen KI-Meinungen, mehrheitlich auch unbewusst",
+   "url": "https://www.heise.de/news/Untersuchung-Experten-uebernehmen-oft-unbewusst-KI-Entscheidungen-11505781.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "dup_of": "3ef8ddfb1b40"
   },
   {
@@ -1985,13 +2454,13 @@
    "kurios": "Eine KI-Firma zahlt SpaceX mehr als der gesamte US-Staat",
    "quelle_titel": "Größter Kunde von SpaceX ist nicht mehr die US-Regierung, sondern eine KI-Firma",
    "url": "https://t3n.de/news/groesster-kunde-von-spacex-ist-nicht-mehr-die-us-regierung-sondern-eine-ki-firma-1770765",
+   "kontext": "Hinter dem anonym gehaltenen Kunden B im Geschäftsbericht steckt laut Bloomberg Anthropic. Grundlage ist eine milliardenschwere Partnerschaft aus dem Frühjahr, mit der sich das KI-Unternehmen einen Großteil der Rechenkapazitäten des in SpaceX aufgegangenen Anbieters xAI sicherte, darunter ein großes Rechenzentrum in Memphis. Parallel löst sich SpaceX von der NASA, Crew Dragon und Falcon 9 sollen auslaufen. Musk will Rechenzentren langfristig sogar ins Weltall verlagern.",
    "also": [
     {
      "source": "heise KI",
      "url": "https://www.heise.de/news/Nicht-mehr-die-US-Regierung-Anthropic-jetzt-groesster-Kunde-von-SpaceX-11505625.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     }
-   ],
-   "kontext": "Hinter dem anonym gehaltenen Kunden B im Geschäftsbericht steckt laut Bloomberg Anthropic. Grundlage ist eine milliardenschwere Partnerschaft aus dem Frühjahr, mit der sich das KI-Unternehmen einen Großteil der Rechenkapazitäten des in SpaceX aufgegangenen Anbieters xAI sicherte, darunter ein großes Rechenzentrum in Memphis. Parallel löst sich SpaceX von der NASA, Crew Dragon und Falcon 9 sollen auslaufen. Musk will Rechenzentren langfristig sogar ins Weltall verlagern."
+   ]
   },
   {
    "id": "cc2a637ff21f",
@@ -2237,7 +2706,7 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: KI-Kosten brennen Milliardenloch in Amazon-Bilanz",
    "url": "https://www.wiwo.de/unternehmen/handel/amazon-bilanz-hohe-kosten-fuer-ki-rechenzentren-verursachen-milliardenloch/100266087.html",
-   "dup_of": "e2ac735ea2fc"
+   "dup_of": "696ce5353acf"
   },
   {
    "id": "6183c50c40e1",
@@ -2468,7 +2937,7 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: KI-Kosten brennen Milliardenloch in Amazon-Bilanz",
    "url": "https://www.wiwo.de/unternehmen/handel/ki-kosten-hohe-ausgabe-brennen-milliardenloch-in-amazon-bilanz/100266087.html",
-   "dup_of": "e2ac735ea2fc"
+   "dup_of": "696ce5353acf"
   },
   {
    "id": "1290a0a9669b",
@@ -2624,39 +3093,7 @@
    "quelle_titel": "Amazon profitiert von Cloud-Geschäft",
    "url": "https://www.cio.de/article/4242587/amazon-profitiert-von-cloud-geschaft.html",
    "kontext": "Amazons Zahlen zeigen ein zweigeteiltes Bild. Während die Cloud deutlich zulegt, wuchs das Handelsgeschäft in Nordamerika und international nur im niedrigen einstelligen Bereich und blieb hinter den Erwartungen der Analysten zurück; der Prime Day war wegen der Fußball-WM ins Vorquartal vorgezogen worden. Der Ausbau der KI-Rechenzentren drückt den freien Cashflow inzwischen tief ins Minus, was Anleger verunsichert und den Aktienkurs belastete.",
-   "also": [
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/unternehmen/handel/amazon-bilanz-hohe-kosten-fuer-ki-rechenzentren-verursachen-milliardenloch/100266087.html",
-     "paywall": true
-    },
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/unternehmen/handel/ki-kosten-hohe-ausgabe-brennen-milliardenloch-in-amazon-bilanz/100266087.html",
-     "paywall": true
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Amazon-waechst-weniger-stark-als-erwartet-hohe-KI-Investitionen-daempfen-Aktie-11505585.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
-    {
-     "source": "it-daily.net",
-     "url": "https://www.it-daily.net/shortnews/amazon-cloud-umsatz-gestiegen"
-    },
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Amazon-waechst-weniger-stark-als-erwartet-hohe-KI-Investitionen-daempfen-Aktie-11505585.html"
-    },
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/ki/ki-boom-amazon-enttaeuscht-trotz-cloud-boom-aktie-sackt-ab/100265410.html",
-     "paywall": true
-    },
-    {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/ki-boom--amazon-profitiert-von-cloud-geschaeft-38473092.html"
-    }
-   ]
+   "dup_of": "696ce5353acf"
   },
   {
    "id": "ecd4bf645d0c",
@@ -2724,7 +3161,7 @@
    "added": "2026-10-30T09:46:08+01:00",
    "quelle_titel": "Amazon: Cloud-Umsatz gestiegen, Kosten aber auch",
    "url": "https://www.it-daily.net/shortnews/amazon-cloud-umsatz-gestiegen",
-   "dup_of": "e2ac735ea2fc"
+   "dup_of": "696ce5353acf"
   },
   {
    "id": "c7271ffadfee",
@@ -2815,7 +3252,7 @@
    "added": "2026-10-30T09:47:13+01:00",
    "quelle_titel": "Amazon wächst weniger stark als erwartet, hohe KI-Investitionen dämpfen Aktie",
    "url": "https://www.heise.de/news/Amazon-waechst-weniger-stark-als-erwartet-hohe-KI-Investitionen-daempfen-Aktie-11505585.html",
-   "dup_of": "e2ac735ea2fc"
+   "dup_of": "696ce5353acf"
   },
   {
    "id": "c7333278f673",
@@ -2837,7 +3274,7 @@
    "added": "2026-10-30T12:27:41+01:00",
    "quelle_titel": "Amazon wächst weniger stark als erwartet, hohe KI-Investitionen dämpfen Aktie",
    "url": "https://www.heise.de/news/Amazon-waechst-weniger-stark-als-erwartet-hohe-KI-Investitionen-daempfen-Aktie-11505585.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "e2ac735ea2fc"
+   "dup_of": "696ce5353acf"
   },
   {
    "id": "d74d898e3b8a",
@@ -3078,21 +3515,25 @@
    "kurios": "Der größte Tagesverlust der Firmengeschichte, rund eine halbe Billion Dollar.",
    "quelle_titel": "Alphabets Börsenwert stürzt um halbe Billion Dollar",
    "url": "https://www.heise.de/news/Alphabets-Boersenwert-stuerzt-um-halbe-Billion-Dollar-11505575.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Auslöser war der Quartalsbericht: Umsatz und Betriebsgewinn legten kräftig zu, doch der Reingewinn sank, und die Investitionen in Rechenzentren verdoppelten sich binnen eines Jahres. Der freie Cashflow ist das zweite Quartal in Folge negativ, den Ausbau finanziert Alphabet mit frischen Schulden und neuen Aktien. Prozentual fiel der Kurs stärker als im Corona-Crash oder nach dem Lehman-Kollaps. Diesmal schreckten die eigenen Zahlen, nicht äußere Schocks.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/news/Alphabets-Boersenwert-stuerzt-um-halbe-Billion-Dollar-11505575.html"
     },
     {
-     "source": "t3n",
-     "url": "https://t3n.de/news/milliarden-fuer-ki-enttaeuschende-umsaetze-alphabet-geraet-unter-druck-1770561"
-    },
-    {
      "source": "Latent Space",
      "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/"
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/googles-ki-suche-bremst-die-klassische-suche-und-schickt-die-aktie-trotz-cloud-rekord-auf-talfahrt/"
+    },
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/"
     }
-   ],
-   "kontext": "Auslöser war der Quartalsbericht: Umsatz und Betriebsgewinn legten kräftig zu, doch der Reingewinn sank, und die Investitionen in Rechenzentren verdoppelten sich binnen eines Jahres. Der freie Cashflow ist das zweite Quartal in Folge negativ, den Ausbau finanziert Alphabet mit frischen Schulden und neuen Aktien. Prozentual fiel der Kurs stärker als im Corona-Crash oder nach dem Lehman-Kollaps. Diesmal schreckten die eigenen Zahlen, nicht äußere Schocks."
+   ]
   },
   {
    "id": "696ce5353acf",
@@ -3117,7 +3558,38 @@
    "quelle_titel": "KI-Boom: Amazon enttäuscht trotz Cloud-Boom, Aktie sackt ab",
    "url": "https://www.handelsblatt.com/technik/ki/ki-boom-amazon-enttaeuscht-trotz-cloud-boom-aktie-sackt-ab/100265410.html",
    "kontext": "Konzernchef Andy Jassy begründete die Ausgaben in der Quartalskonferenz mit einer einmaligen Gelegenheit im Cloudmarkt und stellte AWS langfristig als Billionengeschäft in Aussicht. Die Sparte wächst inzwischen seit mehreren Quartalen stabil um annähernd 40 Prozent, und dieses Tempo soll bis 2028 halten. Für 2027 kündigte Jassy sogar noch höhere Ausgaben an. Analysten fragten dennoch wiederholt nach Margen und belastbaren Belegen für das versprochene Wachstum.",
-   "dup_of": "e2ac735ea2fc"
+   "also": [
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/unternehmen/handel/amazon-bilanz-hohe-kosten-fuer-ki-rechenzentren-verursachen-milliardenloch/100266087.html",
+     "paywall": true
+    },
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/unternehmen/handel/ki-kosten-hohe-ausgabe-brennen-milliardenloch-in-amazon-bilanz/100266087.html",
+     "paywall": true
+    },
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4242587/amazon-profitiert-von-cloud-geschaft.html"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Amazon-waechst-weniger-stark-als-erwartet-hohe-KI-Investitionen-daempfen-Aktie-11505585.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Amazon-waechst-weniger-stark-als-erwartet-hohe-KI-Investitionen-daempfen-Aktie-11505585.html"
+    },
+    {
+     "source": "stern Digital",
+     "url": "https://www.stern.de/digital/ki-boom--amazon-profitiert-von-cloud-geschaeft-38473092.html"
+    },
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/amazon-cloud-umsatz-gestiegen"
+    }
+   ]
   },
   {
    "id": "9456a38359a8",
@@ -3163,7 +3635,7 @@
    "added": "2026-10-31T16:51:42+01:00",
    "quelle_titel": "KI-Boom: Amazon profitiert von Cloud-Geschäft",
    "url": "https://www.stern.de/digital/ki-boom--amazon-profitiert-von-cloud-geschaeft-38473092.html",
-   "dup_of": "e2ac735ea2fc"
+   "dup_of": "696ce5353acf"
   },
   {
    "id": "375e0fa1a106",
@@ -3502,6 +3974,7 @@
    "added": "2026-10-30T09:48:57+01:00",
    "quelle_titel": "Gemini 4 Carbon: Google kündigt nur 2 Wochen nach Argon noch besseres KI-Modell an",
    "url": "https://t3n.de/news/gemini-4-carbon-google-1770698",
+   "kontext": "Carbon baut technisch auf Argon auf und soll vor allem bei Programmieraufgaben und beim Aufspüren von Sicherheitslücken zulegen. Google gibt das Modell zunächst nur ausgewählten Fachleuten der Cyberabwehr; breiter verfügbar wird es erst nach einer freiwilligen Vorabprüfung durch die US-Regierung. Bei agentischen Coding-Aufgaben liegt Anthropic weiterhin vorn. Der Start fällt genau in die Tage vor dem Börsengang des Rivalen.",
    "also": [
     {
      "source": "Latent Space",
@@ -3514,13 +3987,8 @@
     {
      "source": "Golem",
      "url": "https://www.golem.de/news/gemini-4-carbon-google-stellt-leistungsfaehigere-version-von-argon-vor-2610-214646.html"
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://www.therundown.ai/articles/google-gemini-4-carbon-tops-the-charts-for-now"
     }
-   ],
-   "kontext": "Carbon baut technisch auf Argon auf und soll vor allem bei Programmieraufgaben und beim Aufspüren von Sicherheitslücken zulegen. Google gibt das Modell zunächst nur ausgewählten Fachleuten der Cyberabwehr; breiter verfügbar wird es erst nach einer freiwilligen Vorabprüfung durch die US-Regierung. Bei agentischen Coding-Aufgaben liegt Anthropic weiterhin vorn. Der Start fällt genau in die Tage vor dem Börsengang des Rivalen."
+   ]
   },
   {
    "id": "3ef8ddfb1b40",
@@ -3548,6 +4016,10 @@
     {
      "source": "iX",
      "url": "https://www.heise.de/news/Untersuchung-Experten-uebernehmen-oft-unbewusst-KI-Entscheidungen-11505781.html"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Untersuchung-Experten-uebernehmen-oft-unbewusst-KI-Entscheidungen-11505781.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     }
    ]
   },
@@ -3727,6 +4199,10 @@
    "kontext": "Hinter der Überarbeitung steht der Anspruch, dass ChatGPT auch unausgesprochene Absichten erkennt und gespeicherte Vorlieben in seine Antworten einbezieht. Zugleich legt OpenAI fest, in welchen Situationen ein Agent vor dem Handeln erst um Erlaubnis fragen muss. Das Unternehmen räumt selbst ein, dass die eigenen Modelle diesen Anspruch noch nicht vollständig erfüllen. Das Dokument ist damit weniger Beschreibung des Status quo als Zielbild.",
    "also": [
     {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/gpt-modelle-sollen-kuenftig-aus-erinnerungen-ableiten-was-nutzer-wirklich-wollen/"
+    },
+    {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/openai-model-spec-chatgpt-human-intent/"
     }
@@ -3843,16 +4319,7 @@
    "quelle_titel": "Google admits AI search makes less money, but it's fixing that with more ads",
    "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
    "kontext": "Alphabet wächst beim Umsatz weiter kräftig, doch die Börse stört sich an den Details: Der Gewinn je Aktie blieb klar unter den Erwartungen der Analysten. Zugleich legt die Suche langsamer zu als in den Vorquartalen, offenbar weil viele Nutzer ihre Antworten direkt bei Chatbots holen. Im KI-Modus erscheinen bislang weniger und günstigere Anzeigen, Werbekunden müssen deren Wert laut Google erst verstehen lernen.",
-   "also": [
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/milliardenloch-bei-alphabet-eigene-ki-kannibalisiert-das-suchgeschaeft-bei-google-2610-214643.html"
-    },
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/googles-ki-suche-bremst-die-klassische-suche-und-schickt-die-aktie-trotz-cloud-rekord-auf-talfahrt/"
-    }
-   ]
+   "dup_of": "62f415e06a89"
   },
   {
    "id": "b69836d96a11",
@@ -3921,7 +4388,12 @@
    "quelle_titel": "Microsoft’s AI future has fewer jobs",
    "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
    "kontext": "Neu ist vor allem die Größenordnung: Ein früheres Ausscheideangebot galt nur für rund 9.000 Beschäftigte, nun ist auch der Standort Indien einbezogen. Dahinter steckt Kalkül, denn Microsoft will die laufenden Personalkosten drücken, um die teuren Investitionen in KI-Infrastruktur nicht antasten zu müssen. Nadella hat das Bild einer kleineren, dafür besser bezahlten und mit mehr Rechenleistung ausgestatteten Belegschaft schon vor Jahren öffentlich skizziert.",
-   "dup_of": "225d063918c1"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/jeder-vierte-microsoft-mitarbeiter-kann-freiwillig-gehen-waehrend-der-konzern-milliarden-in-ki-steckt/"
+    }
+   ]
   },
   {
    "id": "2df0e95472f6",
@@ -3966,6 +4438,27 @@
    "paywall": true,
    "quelle_titel": "heise+ | Humanoide Roboter: Dank KI im kommenden Jahr alltagstauglich?",
    "url": "https://www.heise.de/hintergrund/Humanoide-Roboter-Dank-KI-im-kommenden-Jahr-alltagstauglich-11499883.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
+  },
+  {
+   "id": "ba2f2df656e5",
+   "date": "2026-10-29",
+   "published": "2026-10-29T16:57+01:00",
+   "headline": "Finnland: Polizei prüft Baumaßnahmen für Googles Rechenzentren",
+   "summary": "In Finnland steht der Ausbau von Google-Rechenzentren seit Wochen in der Kritik, vor allem wegen gefällter Bäume auf den Baugrundstücken. Inzwischen hat die Polizei eigene Ermittlungen zu den Arbeiten aufgenommen. Der Fall zeigt, wie stark der Infrastrukturhunger der KI-Branche örtlichen Widerstand auslöst.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "rechenzentren",
+    "google",
+    "finnland",
+    "umwelt"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-01T13:55:38+01:00",
+   "quelle_titel": "Finnische Polizei ermittelt jetzt wegen Bauarbeiten für Google-Rechenzentrum",
+   "url": "https://www.heise.de/news/Finnische-Polizei-ermittelt-jetzt-wegen-Bauarbeiten-fuer-Google-Rechenzentrum-11505106.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
    "id": "3f737ebd1277",
@@ -4077,19 +4570,6 @@
     {
      "source": "t3n",
      "url": "https://t3n.de/news/mistral-large-4-gewichte-veroeffentlicht-coding-cyber-benchmarks-1770559"
-    },
-    {
-     "source": "Wired AI",
-     "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
-     "paywall": true
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Mistral-Large-4-Modellgewichte-veroeffentlicht-Coding-Leistung-verbessert-11504965.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Mistral-Large-4-Modellgewichte-veroeffentlicht-Coding-Leistung-verbessert-11504965.html"
     }
    ]
   },
@@ -4113,6 +4593,28 @@
    "added": "2026-10-30T09:50:25+01:00",
    "quelle_titel": "The NYT Cooking app is testing AI recipe modifications",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool"
+  },
+  {
+   "id": "ce13119c061f",
+   "date": "2026-10-29",
+   "published": "2026-10-29T15:31+01:00",
+   "headline": "Spanische Weingüter: Schulungen wirken nur mit Rückhalt der Führungsebene",
+   "summary": "Eine Studie mit 321 Weingütern in Spanien hat den Zusammenhang zwischen Mitarbeiterschulungen und dem Engagement der Führungskräfte für die Digitalisierung untersucht. Der Befund deutet darauf hin, dass Qualifizierung im Betrieb und aktive Unterstützung von oben zusammengehören. Für Weiterbildungsanbieter ist das ein Argument, Führungskräfte früh in Digitalprojekte einzubinden.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "studie",
+    "weiterbildung",
+    "digitalisierung",
+    "führungskräfte"
+   ],
+   "source": "Vinetur",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-11-01T13:55:38+01:00",
+   "quelle_titel": "Studie mit 321 spanischen Weingütern verknüpft Mitarbeiterschulungen mit der Unterstützung der Digitalisierung durch Führungskräfte",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSkZGTW9qTnpRSDFLWURTVjVaUmYwZ1pmaU9hNlZXWjVtS0JzTXJJYkludlBsUjVuM0ZjbV9hci1RNFVjSTRONXpDMG5EUXVlZ0pKd29uNkl5VUs1TVJ6NTBsang1VmhxQ3dDVnNxWnFMRVoxRnktQkVXaWpMcWdoQmxRVmdvclkzVnVqdjZtMUQwYUpNUzFPc1F5RnVWMDZNbU83dENEckwwUUlqM2VHYnBoSTFYSkluMDNuMElwck5vTW5SR0Z4QXpOVWprQ3Bn0gHWAUFVX3lxTE1ybVFyeXpoUXJ5NEhKeDNqcGhJQ0Y2UHFvRWpHVllldjhubG80dVdvMGdWamMzNWt5ZENOUWtyOHYtRGxiZ0M5NXYzeURoQkQ3OHJKMVUxcWVoUjBTTXp1N20xbWI0d2FWRzA5Yy1iOWxKMll0d2hoalIxRlpkM2VYRHFUazZoS1ZqendWV3JXdEdoUUwxNUo5VWdCV0ZnenJ5R2k5TjVZT2ZpQnpVRWVhMU1iRXh1SW1UMXZoeHVoN3JQcnBHSnpoc2ptQnlfMFV6cFB6MkE?oc=5"
   },
   {
    "id": "2ff898dbb28c",
@@ -4198,18 +4700,7 @@
    "added": "2026-10-29T16:22:53+01:00",
    "quelle_titel": "Anthropic is asking Wall Street to believe in AGI",
    "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-   "kontext": "Mit dem S-1 legt Anthropic erstmals offen, wie die Wirtschaftlichkeit eines führenden KI-Labors aussieht. Das mehrere hundert Seiten starke Dokument stützt sich dabei auf sehr weitreichende Annahmen darüber, was KI künftig leisten wird. Im Decoder-Podcast ordnet Joey Brookhart von SemiAnalysis die Angaben ein, dessen Team schon im Sommer ein eigenes Finanzmodell des Unternehmens gebaut hatte. Bei einer Bewertung im Billionenbereich würde Anthropic sofort zu den wertvollsten Konzernen zählen.",
-   "also": [
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive"
-    },
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/kuenstliche-intelligenz-anthropic-und-das-raetsel-der-drei-fehlenden-zahlen-2610-214704.html",
-     "paywall": true
-    }
-   ]
+   "kontext": "Mit dem S-1 legt Anthropic erstmals offen, wie die Wirtschaftlichkeit eines führenden KI-Labors aussieht. Das mehrere hundert Seiten starke Dokument stützt sich dabei auf sehr weitreichende Annahmen darüber, was KI künftig leisten wird. Im Decoder-Podcast ordnet Joey Brookhart von SemiAnalysis die Angaben ein, dessen Team schon im Sommer ein eigenes Finanzmodell des Unternehmens gebaut hatte. Bei einer Bewertung im Billionenbereich würde Anthropic sofort zu den wertvollsten Konzernen zählen."
   },
   {
    "id": "e4134e946254",
@@ -4505,6 +4996,28 @@
    "added": "2026-10-30T12:29:43+01:00",
    "quelle_titel": "Oracle lässt ChatGPT an die Geschäftsdaten",
    "url": "https://www.heise.de/news/Oracle-laesst-ChatGPT-an-die-Geschaeftsdaten-11504915.html"
+  },
+  {
+   "id": "22fbeed6d577",
+   "date": "2026-10-29",
+   "published": "2026-10-29T14:06+01:00",
+   "headline": "Oracle öffnet Geschäftssysteme für ChatGPT und bündelt neue KI-Dienste",
+   "summary": "Auf der hauseigenen Konferenz AI World hat Oracle mehrere neue KI-Angebote vorgestellt. Dazu zählen ein ChatGPT-Zugang zu Geschäftssystemen und deren Daten, eine Plattform zum Bau von KI-Anwendungen sowie ein Sicherheitsdienst. Damit rückt der Einsatz von Sprachmodellen direkt an die operativen Unternehmensdaten heran.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "oracle",
+    "chatgpt",
+    "unternehmensdaten",
+    "ki-plattform"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-01T13:55:38+01:00",
+   "quelle_titel": "Oracle lässt ChatGPT an die Geschäftsdaten",
+   "url": "https://www.heise.de/news/Oracle-laesst-ChatGPT-an-die-Geschaeftsdaten-11504915.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Oracle vertieft damit sein Bündnis mit OpenAI: Beschäftigte sollen aus ChatGPT heraus auf Fusion Applications, NetSuite und die Oracle-Cloud zugreifen, Informationen zusammenführen und freigegebene Abläufe anstoßen. Bestehende Berechtigungen und Freigabeschritte sollen erhalten bleiben, bei kritischen Aktionen bleibt ein Mensch dazwischen. Hinzu kommen ein Dienst zum Betrieb selbst erzeugter Anwendungen sowie ein Paket für kleinere Firmen. Offen bleibt, wie die teils überlappenden Angebote technisch zusammenspielen."
   },
   {
    "id": "22763af008ff",
@@ -5112,7 +5625,7 @@
    "added": "2026-10-29T20:44:29+01:00",
    "quelle_titel": "Googles KI-Suche bremst die klassische Suche und schickt die Aktie trotz Cloud-Rekord auf Talfahrt",
    "url": "https://the-decoder.de/googles-ki-suche-bremst-die-klassische-suche-und-schickt-die-aktie-trotz-cloud-rekord-auf-talfahrt/",
-   "dup_of": "b394caaea480"
+   "dup_of": "62f415e06a89"
   },
   {
    "id": "4c7dc9a053db",
