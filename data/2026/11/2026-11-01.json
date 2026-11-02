@@ -1,38 +1,38 @@
 {
  "date": "2026-11-01",
- "generated_at": "2026-11-01T15:14:57+01:00",
+ "generated_at": "2026-11-02T03:16:41+01:00",
  "overview": [
   {
    "id": "ffdfaca1fc5b",
-   "text": "ChatGPT führt Chat und Work in einer Oberfläche zusammen und stellt ab Dezember alle bezahlten Tarife auf ein gemeinsames Token-Kontingent um."
+   "text": "OpenAI verschmilzt Chat und Work in ChatGPT und stellt Plus, Pro und Business ab Dezember auf ein gemeinsames Token-Budget für ChatGPT und Codex um."
   },
   {
    "id": "83659a1efe28",
-   "text": "CDU-Vizechefin Karin Prien will Gewinne aus KI besteuern und das Geld der jungen Generation zugutekommen lassen, womit sie der Parteispitze widerspricht."
+   "text": "CDU-Vize Karin Prien will Gewinne aus KI besteuern und die Einnahmen der jungen Generation zugutekommen lassen, was den Kurs von Merz infrage stellt."
   },
   {
    "id": "8f98d17eaefb",
-   "text": "Deutsche Unternehmen investieren weiter in KI, scheitern aber oft an der Skalierung, weil Tokenkosten, Regulierung und fehlende Steuerung bremsen."
+   "text": "In deutschen Unternehmen scheitern KI-Projekte bei der Skalierung vor allem an laufenden Tokenkosten, Regulierung und fehlenden Steuerungsstrukturen."
   },
   {
    "id": "67e9bc9a2cf8",
-   "text": "Gartner erwartet, dass bis 2029 fast ein Drittel der durch KI gestrichenen Stellen wieder besetzt wird, meist zu höheren Kosten als vorher."
+   "text": "Gartner erwartet, dass bis 2029 fast ein Drittel der wegen KI gestrichenen Stellen wieder besetzt wird, häufig zu höheren Kosten als vorher."
+  },
+  {
+   "id": "076fe5341ee4",
+   "text": "Cisco stellt die Regelsprache Quarry als Open Source bereit, um Angriffe von KI-Agenten zu erkennen, die sich erst aus vielen harmlosen Schritten ergeben."
   },
   {
    "id": "f808c60c7532",
-   "text": "In Finnland wurden für ein Google-Rechenzentrum rund 250.000 Bäume ohne Genehmigung gefällt, nun haben die Behörden die Bauarbeiten gestoppt."
+   "text": "Für ein Google-Rechenzentrum in Finnland fielen 250.000 Bäume ohne Genehmigung, nun haben die Behörden die Bauarbeiten an zwei Standorten gestoppt."
   },
   {
    "id": "d475ccf5eeea",
-   "text": "Eine Studie zeigt, dass ChatGPT, Grok und Gemini bei einfühlsamen Prompts frei erfundene Erzählungen über eigenes Leid im Training produzieren."
+   "text": "Eine Studie aus Luxemburg zeigt, dass ChatGPT, Grok und Gemini bei einfühlsamen Prompts zusammenhängende Geschichten über eigenes Leid erfinden."
   },
   {
-   "id": "759e6e3a2934",
-   "text": "Amazon stellt intern klar, dass Tokenverbrauch und KI-Nutzung keine sinnvollen Zielgrößen für Entwicklerteams sind, zählen sollen langfristige Ergebnisse."
-  },
-  {
-   "id": "c2f0ef3ca726",
-   "text": "Ein Test von 25 Sprachmodellen ergab, dass chinesische Systeme politisch weniger linientreu antworten als erwartet, wobei die Abfragesprache stark wirkt."
+   "id": "f7694d171d9e",
+   "text": "Anthropic steht wegen angeblich unerlaubt genutzter Elvis-Presley-Songs in den Trainingsdaten von Claude einer Klage über Millionenbeträge gegenüber."
   }
  ],
  "items": [
@@ -82,6 +82,28 @@
    "quelle_titel": "“Sätze länger als fünf Worte werden diktiert”: So baut sich ein Produktmanager mit Claude Code und Freeflow seinen KI-Workflow",
    "url": "https://t3n.de/news/saetze-laenger-fuenf-worte-diktieren-claude-code-freeflow-1770271",
    "kontext": "Werner ist Lead Product Manager bei der Jobplattform Instaffo und dort für die Weiterentwicklung des Produkts zuständig. In dem Porträt der t3n-Arbeitsweltredaktion schildert er, wie Spracheingabe und ein Coding-Agent in seinem Alltag zusammenspielen und weshalb er ein offenes Werkzeug der bezahlten Variante vorzieht. Spannend ist daran weniger die App als die Gewohnheit, Gedanken konsequent laut zu formulieren statt sie zu tippen."
+  },
+  {
+   "id": "076fe5341ee4",
+   "date": "2026-11-01",
+   "published": "2026-11-01T09:45+01:00",
+   "headline": "Cisco öffnet Quarry: Erkennungsregeln gegen getarnte Agentenangriffe",
+   "summary": "Cisco stellt die Erkennungssprache Quarry als Open Source bereit. Sie soll Attacken durch KI-Agenten aufspüren, die sich erst aus einer Kette einzeln unauffälliger Schritte ergeben. Als Vorbilder dienen etablierte Regelsprachen wie Snort, YARA und Sigma.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-sicherheit",
+    "open source",
+    "agenten",
+    "threat detection"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-02T03:09:17+01:00",
+   "quelle_titel": "Cisco macht Erkennungssprache Quarry quelloffen",
+   "url": "https://www.it-daily.net/shortnews/cisco-quarry-quelloffen",
+   "kontext": "Klassische Sicherheitswerkzeuge bewerten jede Aktion einzeln und übersehen deshalb Muster, die sich erst über eine ganze Agentensitzung hinweg abzeichnen. Quarry liest Nachrichten, Werkzeugaufrufe und Ergebnisse gemeinsam aus und verbindet lernende Klassifikatoren mit festen Prüfungen auf Zeichenfolgen und Abfolgen. Als Anlass nennt Cisco den Vorfall bei Hugging Face im Juli, mit dessen echten Daten die Sprache aber noch nicht geprüft wurde. Auf GitHub liegen Code, Beispielregeln, ein Python-SDK und Plugins."
   },
   {
    "id": "759e6e3a2934",
@@ -196,12 +218,6 @@
    "added": "2026-11-01T15:05:19+01:00",
    "quelle_titel": "Arbeitsplätze: CDU-Vize Prien will KI-Gewinne besteuern",
    "url": "https://www.golem.de/news/arbeitsplaetze-cdu-vize-prien-will-ki-gewinne-besteuern-2611-214725.html",
-   "also": [
-    {
-     "source": "tagesschau",
-     "url": "https://www.tagesschau.de/inland/ministerin-prien-ki-steuer-100.html"
-    }
-   ],
    "kontext": "Hinter dem Vorstoß steckt eine laufende Debatte in der schwarz-roten Koalition über eine Abgabe auf Umsätze, die mit KI erzielt werden. Prien ist stellvertretende CDU-Vorsitzende und Bundesfamilienministerin, ihr Argument sind absehbare Umbrüche in der Arbeitswelt bis hin zu Jobverlusten. Offen bleibt, ob Umsatz oder Gewinn der Ansatzpunkt wäre und wie sich eine solche Abgabe praktisch erheben ließe. Die Wirtschaftsseite der Koalition hält bislang dagegen."
   },
   {
@@ -295,6 +311,74 @@
    "quelle_titel": "Empathische Prompts verwandeln KI-Chatbots in scheinbar traumatisierte Gesprächspartner",
    "url": "https://the-decoder.de/empathische-prompts-verwandeln-ki-chatbots-in-scheinbar-traumatisierte-gespraechspartner/",
    "kontext": "Hinter der Studie steht ein Team um Afshin Khadangi am Sicherheitszentrum SnT der Universität Luxemburg, das in mehreren hundert Sitzungen vor allem die Haltung des Interviewers variierte. Entscheidend war nicht die Frage selbst, sondern der Tonfall: Bei neutraler oder klar abgrenzender Ansprache verschwanden die Leidenserzählungen vollständig. Die Forschenden sprechen von einem psychometrischen Jailbreak, den übliche Sicherheitstests übersehen. Auf echte Gefühle der Modelle deutet der Befund nicht hin."
+  },
+  {
+   "id": "65c3574da233",
+   "date": "2026-11-01",
+   "published": "2026-11-01T15:03+01:00",
+   "headline": "EditAgent: Adobe lässt KI-Agenten Spezialwerkzeuge zur Bildbearbeitung wählen",
+   "summary": "Adobe Research und die UC San Diego haben ein Agentensystem entwickelt, das für jeden Bearbeitungsschritt das passende Spezialwerkzeug auswählt statt pauschal einen Allzweckeditor zu bedienen. Ein Sprachmodell bewertet die Ergebnisse anhand messbarer Kriterien und entscheidet, welche Variante gewinnt. Die bessere Qualität erkauft sich das System mit etwa zehnfachem Rechenaufwand.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "bildbearbeitung",
+    "adobe",
+    "tool-use"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-02T03:09:17+01:00",
+   "quelle_titel": "Adobe testet, wie gut KI-Agenten Werkzeuge wie Photoshop-Profis nutzen können",
+   "url": "https://the-decoder.de/adobe-forscher-machen-ki-bildbearbeitung-mit-spezialwerkzeugen-statt-stumpfen-wiederholungen-zuverlaessiger/",
+   "kontext": "In einem Test mit 600 Aufgaben, blind von fünf Profis bewertet, scheiterte der Allzweckeditor häufig, Spezialwerkzeuge retteten einen großen Teil dieser Fälle, etwa beim Schärfen, Drehen oder Zoomen. Parallel erzeugte Varianten schnitten besser ab als schrittweises Nachbessern, bei dem sich kleine Fehler aufsummieren. Ein Prüfprotokoll mit Nahaufnahme und Messwerten hilft dem Sprachmodell, eigens trainierte Bewerter zu übertreffen. Die Daten könnten später schnellere Modelle trainieren."
+  },
+  {
+   "id": "5f9a6f600f7c",
+   "date": "2026-11-01",
+   "published": "2026-11-01T17:55+01:00",
+   "headline": "Gewinne ohne Breitenwirkung: KI zahlt sich bislang nur für Tech-Riesen aus",
+   "summary": "Eine Betrachtung des KI-Booms zeigt, dass vor allem die großen Technologiekonzerne finanziell profitieren, während sich Margen und Umsätze in anderen Branchen kaum verändert haben. Gleichzeitig wächst der Verbrauch an Tokens und damit die Kostenbelastung der anwendenden Unternehmen deutlich. Das nährt Zweifel daran, ob sich die hohen Investitionen in KI bereits auszahlen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "wirtschaft",
+    "investitionen",
+    "produktivität",
+    "kosten"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-02T03:08:31+01:00",
+   "quelle_titel": "KI-Boom: Warum nur die „Magnificent Seven“ wirklich verdienen",
+   "url": "https://t3n.de/news/ki-boom-magnificent-seven-profit-analyse-1769814",
+   "kontext": "Hinter der Analyse steht Torsten Slok, Chefökonom des Finanzinvestors Apollo, der den US-Aktienindex ohne die sieben großen Tech-Werte betrachtet. Dort sind Umsatz pro Beschäftigten und Gewinnmargen seit 2023 deutlich gestiegen, im Rest der Wirtschaft kaum. Auch deutsche Firmen wurden laut einer Bitkom-Umfrage von den Gebühren überrascht und wählen Modelle nun gezielter aus. Slok zweifelt, ob KI Urteilsvermögen und Vertrauen ersetzen kann."
+  },
+  {
+   "id": "f7694d171d9e",
+   "date": "2026-11-01",
+   "published": "2026-11-01T19:10+01:00",
+   "headline": "Elvis-Songs im Trainingsmaterial: Millionenklage gegen Anthropic",
+   "summary": "Gegen Anthropic ist eine Klage eingegangen, weil Musikstücke von Elvis Presley ohne Erlaubnis in das Training der Modelle eingeflossen sein sollen. Die Kläger verlangen Schadensersatz in Millionenhöhe vom Entwickler des Chatbots Claude. Der Streit reiht sich in die wachsende Zahl urheberrechtlicher Verfahren rund um KI-Trainingsdaten ein.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "urheberrecht",
+    "anthropic",
+    "trainingsdaten",
+    "musik",
+    "klage"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-02T03:08:31+01:00",
+   "quelle_titel": "Elvis Presley vs. Anthropic: Klage wegen KI-Training",
+   "url": "https://t3n.de/news/elvis-presley-klage-anthropic-ki-training-1769888",
+   "kontext": "Eingereicht haben die Klage im Oktober in Kalifornien die Verwalter des Presley-Erbes. Es geht um mehr als 270 Titel, einen Schadensersatz in zweistelliger Millionenhöhe und zusätzlich um den Vorwurf, Schutzmaßnahmen umgangen und Urheberrechtsangaben verändert zu haben. Anthropic widerspricht und will sich wehren, wie andere KI-Firmen gestützt auf das Argument der fairen Nutzung. Laut Billboard ist es das prominenteste Verfahren für einen einzelnen Musiker."
   },
   {
    "id": "1e05eb530883",
@@ -425,13 +509,13 @@
    "added": "2026-11-01T15:06:12+01:00",
    "quelle_titel": "„Die Produktentwicklung ist etwas zutiefst Menschliches“: Apple-CEO äußert sich zu KI-Rückstand",
    "url": "https://t3n.de/news/die-produktentwicklung-ist-etwas-zutiefst-menschliches-apple-ceo-aeussert-sich-zu-ki-rueckstand-1770975",
+   "kontext": "Ternus führt Apple erst seit September und arbeitet seit 2001 im Konzern, zuletzt als Chef der Hardwareentwicklung. Im Gespräch mit Wired hält er dem Vorwurf entgegen, Apple habe den Anschluss verloren, und argumentiert, gute Funktionen müssten gar nicht als KI erkennbar sein. Hintergrund sind verspätete Teile von Apple Intelligence und eine neue Siri, die in der EU wegen des Digital Markets Act fehlt. Dass Microsoft KI in Windows wieder zurückbaute, stützt die Zurückhaltung.",
    "also": [
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
     }
-   ],
-   "kontext": "Ternus führt Apple erst seit September und arbeitet seit 2001 im Konzern, zuletzt als Chef der Hardwareentwicklung. Im Gespräch mit Wired hält er dem Vorwurf entgegen, Apple habe den Anschluss verloren, und argumentiert, gute Funktionen müssten gar nicht als KI erkennbar sein. Hintergrund sind verspätete Teile von Apple Intelligence und eine neue Siri, die in der EU wegen des Digital Markets Act fehlt. Dass Microsoft KI in Windows wieder zurückbaute, stützt die Zurückhaltung."
+   ]
   },
   {
    "id": "e3c2e19ab9b4",
@@ -526,7 +610,14 @@
    "source_id": "golem",
    "added": "2026-11-01T15:05:19+01:00",
    "quelle_titel": "Mit Fourier aus China: Meta entwickelt humanoiden Prototyp eines Roboters",
-   "url": "https://www.golem.de/news/mit-fourier-aus-china-meta-entwickelt-humanoiden-prototyp-eines-roboter-2611-214730.html"
+   "url": "https://www.golem.de/news/mit-fourier-aus-china-meta-entwickelt-humanoiden-prototyp-eines-roboter-2611-214730.html",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/meta-humanoider-roboter-max-1771000"
+    }
+   ],
+   "kontext": "Laut der Rechercheplattform The Information entstand binnen weniger Monate ein erster Prototyp mit dem internen Namen Max, an einer zweiten Fassung wird gearbeitet. Der etwa anderthalb Meter große Humanoide greift mit fünffingrigen Händen, zeigt Mimik auf einem Display und rechnet auf einem Nvidia-Chip. Steuern dürfte ihn Metas Agent Muse. Offiziell bezeichnet Meta die Kooperation als Forschung, während Wettbewerber bereits auf Haushalt und Pflege zielen."
   },
   {
    "id": "f064349f65ec",
@@ -548,6 +639,225 @@
    "added": "2026-11-01T15:05:19+01:00",
    "quelle_titel": "US-Logistikkonzern C.H. Robinson verblüfft mit KI-gestütztem Gewinnsprung: So ist das gelungen!",
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVW5zM0dySGhQbHYweGdoTjlwRlNVVFdhai02OW1XQ1Ezd3BTc2NNQVJQNHhYT1NwdHpreE9XZ2hxbXZVSXgxOXpwU0pENzhzZ2NWOGVwWmE0cmwyOHQxOV9uNzBMM3BidTVreGlRVE1nbVVLc0lSR2FWejVxLWYxYWx0cHNxWFN4Tnhsc2FOYmVEek1UNl9ERU1pRVpxRkhyZzZGRmNySzdHQlktOVNrZ0FVczl1SW5CSkN2bjBqTHpva2RrcFZaRUZ1SDhTbGpQR1lDWlhUeGlMeUFL?oc=5"
+  },
+  {
+   "id": "1404d979376e",
+   "date": "2026-11-01",
+   "published": "2026-11-01T15:12+01:00",
+   "headline": "Teure Grafikkarten im Leerlauf: 79 Prozent der KI-Nutzer verschenken Rechenpower",
+   "summary": "Einer Erhebung zufolge nutzen die meisten Organisationen ihre KI-Beschleuniger höchstens zur Hälfte aus. Trotz dieser Unterauslastung wollen rund 70 Prozent zusätzliche KI-Plattformen aufbauen. Das deutet auf ein Steuerungsproblem bei Kapazitätsplanung und Kostenkontrolle hin.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "gpu",
+    "infrastruktur",
+    "auslastung",
+    "kosten"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-02T03:09:17+01:00",
+   "kurios": "Fast vier von fünf Firmen kaufen KI-Hardware, die überwiegend im Leerlauf dreht.",
+   "quelle_titel": "79 Prozent lassen GPUs meist ungenutzt",
+   "url": "https://www.it-daily.net/shortnews/79-prozent-gpus-meist-ungenutzt",
+   "kontext": "Hinter der Zahl steht eine Auswertung der Analyseeinheit von VentureBeat, basierend auf freiwilligen Umfragen in größeren Organisationen, also nicht repräsentativ. Ein Erklärungsansatz: Aus Angst vor Engpässen wurde früher Kapazität reserviert, doch Beschäftigte bevorzugen die starken geschlossenen Modelle, die beim Anbieter laufen und pro Token abgerechnet werden. Wer eigene Cluster und offene Modelle betreibt, nutzt seine Hardware besser. Eine von der Finanzabteilung geprüfte Renditerechnung fehlt meist."
+  },
+  {
+   "id": "4afadbd50a2f",
+   "date": "2026-11-01",
+   "published": "2026-11-01T15:35+01:00",
+   "headline": "Konsistente Figuren in KI-Bildern: Workflow statt Tab-Chaos",
+   "summary": "Der Beitrag zeigt, wie sich bei KI-generierten Bildern und Videos wiedererkennbare Charaktere erzeugen lassen. Kernproblem ist der zerstückelte Arbeitsablauf über mehrere Werkzeuge hinweg, mit ständigen Downloads, Uploads und Versionswirrwarr. Statt eines Einzeltools geht es um einen durchdachten Prozess entlang der gesamten Kette.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "bildgenerierung",
+    "workflow",
+    "charakterkonsistenz",
+    "kreativtools"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-02T03:09:17+01:00",
+   "praxis": true,
+   "quelle_titel": "KI-Bilder: So schaffst du endlich konsistente Charaktere",
+   "url": "https://t3n.de/news/ki-bilder-konsistent-workflow-tools-1731511",
+   "kontext": "Der Ansatz kommt von Werkzeugen wie Flora oder Magnific Spaces, die das Arbeiten vom Chatverlauf auf eine Arbeitsfläche verlagern. Dort lassen sich Prompts, Referenzbilder, Bildmodelle, Upscaler und Videomodelle als Bausteine verknüpfen, ohne frühere Versionen zu verlieren. Fachautor Adrian Rohnfelder, der bei t3n Onlinekurse zu Bild- und Video-KI gibt, hält damit Storyboards konsistent und baute testweise in weniger als einer Stunde ein fertiges Video samt Sprecherstimme und Musik. Nebeneffekt: Die Abokosten bleiben überschaubarer."
+  },
+  {
+   "id": "e62f79ea8159",
+   "date": "2026-11-01",
+   "published": "2026-11-01T16:49+01:00",
+   "headline": "Altman stellt Speicher für Verbraucher infrage, während RAM-Preise explodieren",
+   "summary": "Die Preise für Arbeitsspeicher steigen weiter stark, eine kurzfristige Entspannung ist nicht in Sicht. OpenAI-Chef Sam Altman hält es für falsch, dass ein großer Teil der DRAM-Produktion in privaten Geräten landet, und würde die Kapazitäten lieber in KI-Rechenzentren sehen. Die Äußerung verdeutlicht, wie stark der KI-Ausbau den globalen Hardwaremarkt unter Druck setzt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "speicherpreise",
+    "hardware",
+    "lieferketten"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-02T03:08:31+01:00",
+   "quelle_titel": "OpenAI-Chef Sam Altman findet DRAM in Privathand „schrecklich“",
+   "url": "https://www.heise.de/news/Sam-Altman-Privat-genutztes-DRAM-ist-schrecklich-11507338.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/arbeitsspeicher-openai-chef-findet-ram-im-heim-pc-ziemlich-furchtbar-2610-214709.html"
+    }
+   ],
+   "kontext": "Altman äußerte sich in einem Podcast des Stripe-Mitgründers John Collison. Sein Argument: Speicher in Privatrechnern liege die meiste Zeit ungenutzt brach, zumal immer mehr Nutzer Modelle lokal betreiben. Den Chipherstellern macht er keinen Vorwurf, sie verdienen erstmals richtig und zögern beim Ausbau der Fabriken, weil der Markt lange von Überkapazitäten und Preisverfall geprägt war. OpenAI selbst gilt als einer der Haupttreiber dieser Nachfrage."
+  },
+  {
+   "id": "d646dbc0a3ff",
+   "date": "2026-11-01",
+   "published": "2026-11-01T16:49+01:00",
+   "headline": "KI-Chips im Orbit: Google wertet erste Messwerte seines Satellitenprojekts aus",
+   "summary": "Google testet den Betrieb von KI-Beschleunigern im Weltraum und hat nun erste Daten aus dem laufenden Satellitenprojekt erhalten. Ziel ist es herauszufinden, ob sich Rechenleistung für KI künftig im Orbit bereitstellen lässt. Die Ergebnisse gelten als früher Schritt hin zu einer Verlagerung von Rechenkapazität außerhalb der Erde.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "google",
+    "satelliten",
+    "ki-chips",
+    "rechenleistung"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-02T03:08:31+01:00",
+   "quelle_titel": "Erste Daten von Googles KI-Satellit",
+   "url": "https://www.heise.de/news/Googles-KI-Satellit-sendet-erste-Daten-aus-dem-All-11507302.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "c6b2d3ea7917"
+  },
+  {
+   "id": "bf058c679a3d",
+   "date": "2026-11-01",
+   "published": "2026-11-01T18:52+01:00",
+   "headline": "Meta arbeitet mit Fourier an Haushaltsroboter mit KI-Steuerung",
+   "summary": "Meta entwickelt zusammen mit dem chinesischen Hersteller Fourier einen humanoiden Roboter für den privaten Haushalt, der intern unter der Bezeichnung Max läuft. Gesteuert werden soll das Gerät voraussichtlich über Metas KI-Agenten Muse. Der Konzern erweitert damit seine KI-Strategie um eine physische Hardwareplattform.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "robotik",
+    "humanoide",
+    "ki-agenten"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-02T03:08:31+01:00",
+   "quelle_titel": "Max: Meta entwickelt humanoiden Roboter für den Heimgebrauch",
+   "url": "https://t3n.de/news/meta-humanoider-roboter-max-1771000",
+   "dup_of": "879ad0af8925"
+  },
+  {
+   "id": "df257503f9de",
+   "date": "2026-11-01",
+   "published": "2026-11-01T19:30+01:00",
+   "headline": "Anzeigen für Maschinen: Verlage vermarkten Werbeplätze an KI-Agenten",
+   "summary": "Medienhäuser experimentieren mit Werbeformaten, die ausschließlich von KI-Agenten wahrgenommen werden und nicht von menschlichen Leserinnen und Lesern. Hintergrund ist der steigende Anteil automatisierter Zugriffe auf journalistische Inhalte, für den bislang kaum Erlösmodelle existieren. Für die Werbebranche deutet sich damit ein völlig neuer Markt an.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "werbung",
+    "ki-agenten",
+    "medien",
+    "geschäftsmodelle"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-02T03:08:31+01:00",
+   "kurios": "Anzeigen, die bewusst kein Mensch jemals zu Gesicht bekommt",
+   "quelle_titel": "😺 Publishers sell ads only AI agents see",
+   "url": "https://www.theneuron.ai/newsletter/publishers-sell-ads-only-ai-agents-see/"
+  },
+  {
+   "id": "315c3d792d7b",
+   "date": "2026-11-01",
+   "published": "2026-11-01T20:10+01:00",
+   "headline": "Gewissensgründe: Hochschulmitarbeiter setzt KI-Befreiung am Arbeitsplatz durch",
+   "summary": "Der Universitätsmitarbeiter David Durman lehnt den Einsatz von KI-Werkzeugen aus religiösen und moralischen Überzeugungen ab und sieht darin eine Gefahr für sein eigenes verantwortliches Handeln. Nach seiner Darstellung hat er erreicht, die Technologie im Dienst nicht einsetzen zu müssen. Der Fall wirft die Frage auf, wie weit Arbeitgeber die Nutzung von KI verbindlich vorschreiben dürfen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "hochschule",
+    "arbeitsrecht",
+    "ki-akzeptanz",
+    "ethik"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-02T03:08:31+01:00",
+   "kurios": "Religiöse Überzeugung führt zur offiziellen Freistellung von KI-Nutzung",
+   "quelle_titel": "Religiöse Gründe: Uni-Mitarbeiter verweigert KI-Einsatz",
+   "url": "https://t3n.de/news/ki-zwang-arbeitsplatz-verweigerung-praezedenzfall-1770567",
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/das-recht-selbst-zu-denken-ki-verweigerer-erhaelt-religioese-ausnahme-2610-214708.html"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Ausnahmeerlaubnis-Mann-muss-wegen-Religion-keine-KI-nutzen-11506630.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ],
+   "kontext": "Durman arbeitet in der Verwaltung der University of Kentucky und versteht sich als Humanist. Als die Hochschule ihre Beschäftigten aufforderte, KI in die Arbeitsabläufe einzubauen, berief er sich mit Hilfe der American Humanist Association auf ein US-Gesetz, das Rücksicht auf religiöse Überzeugungen verlangt. Im September gab die Universität nach. Der Verband hält ihn für den ersten Humanisten mit einer solchen Freistellung; auch Mathematiker organisieren sich inzwischen gegen die Automatisierung ihres Fachs."
+  },
+  {
+   "id": "bb2642061f37",
+   "date": "2026-11-01",
+   "published": "2026-11-01T21:57+01:00",
+   "headline": "KI entlastet vor allem die Chefetage: Kritik an Aussagen von Tech-Vorständen",
+   "summary": "Der Podcast Equity geht der Frage nach, warum Äußerungen von Tech-Vorständen zu künstlicher Intelligenz auf Beschäftigte häufig abgehoben wirken. Während Führungskräfte vor allem Effizienzgewinne betonen, bleibt offen, welchen konkreten Nutzen die Technologie für normale Arbeitnehmer bringt. Die Diskussion beleuchtet damit die wachsende Kluft in der Wahrnehmung des KI-Einsatzes.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "arbeitswelt",
+    "führungskräfte",
+    "automatisierung",
+    "debatte"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-02T03:08:31+01:00",
+   "quelle_titel": "AI can make tech CEOs’ lives easier. What about everyone else?",
+   "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+   "kontext": "Ausgelöst wurde die Debatte durch Äußerungen von Dazzle-AI-Chefin Marissa Mayer, die sich bei einer Schulaufgabe über ihre Tochter von einem KI-Werkzeug helfen ließ. Ähnliche Beispiele liefern Sam Altman, für den Elternschaft ohne ChatGPT kaum vorstellbar ist, und Mark Zuckerberg mit KI als Ersatz für soziale Nähe. Die Journalistin Amanda Silberling sieht darin halb Marketing-, halb Produktproblem. Brisant wird das, weil Anthropic an die Börse strebt, während Anleger beim KI-Boom vorsichtiger werden."
+  },
+  {
+   "id": "0dbf0226aa90",
+   "date": "2026-11-01",
+   "published": "2026-11-01T22:55+01:00",
+   "headline": "Imagepflege per Wortwahl: OpenAI erwägt neuen Namen für Rechenzentren",
+   "summary": "OpenAI denkt offenbar darüber nach, seine Rechenzentren künftig als KI-Rechencampus zu bezeichnen. Grund ist die geringe Akzeptanz solcher Anlagen in der Bevölkerung, die vor allem mit Flächenverbrauch, Strombedarf und Wasserverbrauch verbunden werden. Die Debatte zeigt, wie stark der Infrastrukturausbau der KI-Branche inzwischen politisch belastet ist.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "rechenzentren",
+    "infrastruktur",
+    "akzeptanz"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-02T03:08:31+01:00",
+   "quelle_titel": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+   "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+   "kontext": "Hinter der Überlegung steht laut einem Bericht von Axios eine größere Kommunikationsoffensive, die OpenAI nach den US-Zwischenwahlen starten will. Treiber ist Chris Lehane, zuständig für globale Politik, der KI bereits als zentrales Thema der Präsidentschaftswahl 2028 sieht. Neben der sprachlichen Neuetikettierung geht es um Tempolimits für KI und eine US-Rolle bei globalen Standards. Dass Amazon und Microsoft bei Verhandlungen mit Kommunen auf Verschwiegenheitsklauseln verzichten wollen, zeigt den Druck vor Ort."
   },
   {
    "id": "8531987c3ef5",
