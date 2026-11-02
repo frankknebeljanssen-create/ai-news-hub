@@ -1,38 +1,38 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02T08:47:41+01:00",
+ "generated_at": "2026-11-02T12:51:05+01:00",
  "overview": [
   {
    "id": "b9c2bdc5dabc",
-   "text": "Die Bundesregierung diskutiert auf einem zweitägigen Digitalgipfel in Berlin, wie Deutschland und Europa im globalen KI-Wettbewerb noch aufholen können."
+   "text": "Beim zweitägigen Digitalgipfel in Berlin ringt die Bundesregierung um die Frage, wie Deutschland und Europa bei KI international noch mithalten können."
   },
   {
    "id": "82da5750ad33",
-   "text": "Einer Camunda-Studie zufolge setzen 71 Prozent der Organisationen KI ein, aber nur elf Prozent der Anwendungsfälle erreichen den Produktivbetrieb."
+   "text": "Laut Camunda arbeiten 71 Prozent der Organisationen mit KI, doch nur elf Prozent der Anwendungsfälle erreichen wegen unreifer Prozesse den Regelbetrieb."
   },
   {
-   "id": "be760c710ac2",
-   "text": "Eine Praxisanleitung zeigt, wie leicht sich Inhaltsfilter bei Modellen mit offenen Gewichten entfernen lassen, was die Sicherheitsdebatte neu befeuert."
+   "id": "756d069fc8b3",
+   "text": "OpenAI rüstet sich nach den US-Zwischenwahlen mit einer breiten Lobbykampagne gegen drohende Verschärfungen der KI-Regulierung."
   },
   {
-   "id": "70cf7b9be9c6",
-   "text": "Ein Entwickler baute Funktionen von Office und Adobe per Vibe Coding nach, doch Juristen warnen, dass Schutzrechte weit über den Quellcode hinausreichen."
+   "id": "3fb867eacf79",
+   "text": "Eine Recherche deckt rund 400 harmlos wirkende KI-Apps auf, die heimlich gewaltvolle und sexualisierte Bilder auch von echten Personen erzeugen."
   },
   {
-   "id": "f448de1c7d91",
-   "text": "Bundespolitiker werden vor Spähsoftware auf ihren iPhones gewarnt, während Meta einen eigenen humanoiden Haushaltsroboter ankündigt."
+   "id": "06acd6e886ce",
+   "text": "Auf Projekten der KI-Coding-Plattform Lovable liegen vertrauliche Nutzerdaten offen abrufbar, bei über einer Million neuer Projekte pro Woche."
   },
   {
-   "id": "029c5c1cb2ab",
-   "text": "Bilfinger ersetzt klassische Sicherheitsschulungen durch KI-gestützte Phishing-Simulationen und setzt damit auf erlebnisorientiertes Lernen im Konzern."
+   "id": "c8a3fb5e95b0",
+   "text": "Berlin betreibt die KI-Videoüberwachung mit Verhaltensanalyse nun dauerhaft, Kritiker sehen vor allem benachteiligte Menschen verdrängt."
   },
   {
-   "id": "875f8d7d1211",
-   "text": "Für betriebliche KI-Nutzung braucht es klare Regeln dazu, wer welche Modelle nutzt, welche Daten fließen und welche Aktionen Systeme allein ausführen."
+   "id": "8ba83a170255",
+   "text": "Eine Lehrerin aus Rheinland-Pfalz zeigt, wie KI den Schreibprozess im Unterricht begleitet, ohne dass Lernende das eigene Denken abgeben."
   },
   {
-   "id": "6ef4046caf11",
-   "text": "Anthropic veröffentlicht ein offiziell unterstütztes C#-SDK, mit dem sich Claude künftig ohne Umwege in .NET-Projekte einbinden lässt."
+   "id": "60274431b887",
+   "text": "Meta arbeitet laut Bericht mit dem chinesischen Start-up Fourier an einem humanoiden Haushaltsroboter namens Max, der nicht verkauft werden soll."
   }
  ],
  "items": [
@@ -57,6 +57,29 @@
    "added": "2026-11-02T08:40:00+01:00",
    "quelle_titel": "Warum KI-Piloten selten in den Produktivmodus gehen",
    "url": "https://www.computerwoche.de/article/4238902/warum-ki-piloten-selten-in-den-produktivmodus-gehen.html"
+  },
+  {
+   "id": "67a1c5d96ba3",
+   "date": "2026-11-02",
+   "published": "2026-11-02T12:36+01:00",
+   "headline": "Berlin will Deutschland bis 2030 an die KI-Spitze bringen",
+   "summary": "Die Bundesregierung hat sich das Ziel gesetzt, Deutschland bis zum Jahr 2030 zu einer führenden KI-Nation zu machen. Hintergrund ist die Sorge, im Wettbewerb mit den USA und China den Anschluss zu verlieren, weshalb die Regierung erheblichen Handlungsdruck sieht.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 5,
+   "tags": [
+    "AITI",
+    "bundesregierung",
+    "ki-strategie",
+    "standort",
+    "wettbewerb"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-02T12:40:54+01:00",
+   "quelle_titel": "Bundesregierung: Deutschland soll bis 2030 zur \"KI-Nation\" werden",
+   "url": "https://www.golem.de/news/bundesregierung-deutschland-soll-bis-2030-zur-ki-nation-werden-2611-214750.html",
+   "dup_of": "b9c2bdc5dabc"
   },
   {
    "id": "029c5c1cb2ab",
@@ -99,7 +122,14 @@
    "source_id": "computerwoche",
    "added": "2026-11-02T08:40:42+01:00",
    "quelle_titel": "„Das Urheberrecht schützt den Code, aber nicht die Idee“",
-   "url": "https://www.computerwoche.de/article/4242843/das-urheberrecht-schutzt-den-code-aber-nicht-die-idee.html"
+   "url": "https://www.computerwoche.de/article/4242843/das-urheberrecht-schutzt-den-code-aber-nicht-die-idee.html",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Adobe-Konkurrenz-Das-taugt-KI-Klon-PhotoCraft-c-t-uplink-11505956.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ],
+   "kontext": "Hinter dem Nachbau steht das Projekt ArtCraft, das seit Anfang Oktober mehr als ein Dutzend kostenlose Klone von Adobe- und Microsoft-Programmen anbietet. Ein Test der c't zeigt ein zwiespältiges Bild: Menüs, Paletten und Werkzeugsymbole sind vorhanden, dahinterliegende Funktionen oft nicht. Als Konzeptstudie ist das beeindruckend, für den produktiven Einsatz taugt es bislang kaum. Juristisch bleibt das Risiko, weil auch Oberflächen, Designs und Marken geschützt sein können."
   },
   {
    "id": "875f8d7d1211",
@@ -144,7 +174,26 @@
    "added": "2026-11-02T08:40:00+01:00",
    "quelle_titel": "Digitalgipfel der Bundesregierung: Ist der KI-Zug in Deutschland schon abgefahren?",
    "url": "https://www.tagesschau.de/inland/innenpolitik/digitalgipfel-bundesregierung-100.html",
-   "kontext": "Der Digitalgipfel ist das digitalpolitische Format der Bundesregierung, diesmal mit künstlicher Intelligenz als Leitthema statt allgemeiner Digitalisierung. Im Hintergrund steht der verbreitete Eindruck, Deutschland sei im Digitalen abgehängt. Das Interesse an der Berliner Konferenz zeichnet laut Bericht allerdings ein anderes Bild. Offen bleibt, ob aus zwei Tagen Debatte konkrete Schritte folgen oder vor allem eine Bestandsaufnahme."
+   "kontext": "Der Digitalgipfel ist das digitalpolitische Format der Bundesregierung, diesmal mit künstlicher Intelligenz als Leitthema statt allgemeiner Digitalisierung. Im Hintergrund steht der verbreitete Eindruck, Deutschland sei im Digitalen abgehängt. Das Interesse an der Berliner Konferenz zeichnet laut Bericht allerdings ein anderes Bild. Offen bleibt, ob aus zwei Tagen Debatte konkrete Schritte folgen oder vor allem eine Bestandsaufnahme.",
+   "also": [
+    {
+     "source": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/digitalgipfel-der-bundesregierung-hat-begonnen-wildberger-anschluss-nicht-verpassen-100.html"
+    },
+    {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/2026-11/karsten-wildberger-digitalminister-cdu-kuenstliche-intelligenz-gxe",
+     "paywall": true
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/bundesregierung-deutschland-soll-bis-2030-zur-ki-nation-werden-2611-214750.html"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/das-zeitfenster-schliesst-sich-bald-bundesregierung-schlaegt-im-ki-wettbewerb-alarm-1771057"
+    }
+   ]
   },
   {
    "id": "c4b27374788a",
@@ -191,7 +240,13 @@
    "paywall": true,
    "quelle_titel": "heise+ | Abliteration erklärt: Wo KI ihr Gewissen hat und wie man es ausradiert",
    "url": "https://www.heise.de/hintergrund/Abliteration-erklaert-Wo-KI-ihr-Gewissen-hat-und-wie-man-es-ausradiert-11462982.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
-   "dup_of": "be760c710ac2"
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/ratgeber/KI-abliterieren-So-entfesseln-Sie-Open-Weight-Modelle-11462976.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "be760c710ac2",
@@ -216,13 +271,234 @@
    "paywall": true,
    "quelle_titel": "heise+ | KI abliterieren: So entfesseln Sie Open-Weight-Modelle",
    "url": "https://www.heise.de/ratgeber/KI-abliterieren-So-entfesseln-Sie-Open-Weight-Modelle-11462976.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
-   "also": [
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/hintergrund/Abliteration-erklaert-Wo-KI-ihr-Gewissen-hat-und-wie-man-es-ausradiert-11462982.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
-     "paywall": true
-    }
-   ]
+   "dup_of": "61e2551469f8"
+  },
+  {
+   "id": "c5d0d1068827",
+   "date": "2026-11-02",
+   "published": "2026-11-02T09:00+01:00",
+   "headline": "Vibe Coding: Warum Apps aus ungeprüftem KI-Code Angreifer anlocken",
+   "summary": "Ein Entwickler ohne Programmierkenntnisse erklärt im Gespräch, wie er Apps, Websites und einen eigenen KI-Agenten allein mit KI-Unterstützung baut. Sein zentrales Problem: Er kann den erzeugten Code nicht selbst bewerten, was Sicherheitslücken wahrscheinlich macht. Das macht diese Gruppe von Nutzern zu einem dankbaren Ziel für Angriffe.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "vibe coding",
+    "sicherheit",
+    "entwicklung",
+    "ki-agenten"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-02T12:43:02+01:00",
+   "quelle_titel": "„Wir Vibe-Coder sind gefundenes Fressen für Hacker“",
+   "url": "https://t3n.de/news/vibe-coder-gefundenes-fressen-fuer-hacker-ben-sufiani-1770792",
+   "kontext": "Im Podcast von t3n spricht Ben Sufiani, Gründer der Lernplattform Pirate Skills, über seine Arbeitsweise. Er entwickelt per Sprache, setzt auf einen von den Modellen gut beherrschten Stack mit Next.js statt WordPress und lässt Fehlerprotokolle seines Hosters von einem Agenten auswerten. Eine menschliche Kontrollinstanz gibt es nicht, fertige Vorlagen sollen die groben Schnitzer abfangen. Genau diese Lücke zwischen Tempo und Prüfung öffnet die Angriffsfläche."
+  },
+  {
+   "id": "8ba83a170255",
+   "date": "2026-11-02",
+   "published": "2026-11-02T09:56+01:00",
+   "headline": "Praxisbeispiel: Wie KI Lernende beim Schreiben von Aufsätzen begleitet",
+   "summary": "Eine Lehrerin aus Rheinland-Pfalz beschreibt, wie sie KI gezielt in den Schreibunterricht einbindet, ohne dass Schülerinnen und Schüler das Denken abgeben. Im Fokus steht ein reflektierter, fachlich passender Einsatz der Werkzeuge entlang des individuellen Schreibprozesses. Die Erfahrungen lassen sich auf Kurse und Trainings übertragen, in denen Textarbeit mit KI eingeübt wird.",
+   "thema": "KI & Lernen",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "unterricht",
+    "schreiben",
+    "didaktik",
+    "ki-kompetenz"
+   ],
+   "source": "Deutscher Bildungsserver",
+   "source_id": "bildungsserver",
+   "added": "2026-11-02T12:43:02+01:00",
+   "praxis": true,
+   "quelle_titel": "KI-Tipp aus der Praxis: Individuelle Schreibprozesse mit KI begleiten",
+   "url": "https://www.bildungsserver.de/onlineressource.html?onlineressourcen_id=67476&pk_campaign=no_campaign_rss&pk_source=neuigkeiten&pk_medium=rss",
+   "kontext": "Der Praxistipp stammt aus dem Deutschen Schulportal und wird über den Deutschen Bildungsserver zugänglich gemacht. Die Deutschlehrerin koppelt die Werkzeuge an konkrete Phasen des Aufsatzschreibens, etwa an das Überarbeiten eigener Texte. Entscheidend ist dabei nicht das Tool, sondern die Unterrichtsgestaltung: KI soll fachliches Schreiben stützen und nicht ersetzen. Für Lehrkräfte und Kursleitungen entsteht so ein übertragbares Vorgehen statt einer allgemeinen Grundsatzdebatte."
+  },
+  {
+   "id": "a25d5f10bd8e",
+   "date": "2026-11-02",
+   "published": "2026-11-02T10:35+01:00",
+   "headline": "Vom Semantic Web zum Agentennetz: alte Vision wird Realität",
+   "summary": "Der Beitrag zeichnet nach, wie die vor über zwei Jahrzehnten formulierte Idee eines maschinenlesbaren Webs heute durch KI-Agenten eingelöst wird. Statt strukturierter Datenstandards übernehmen nun Sprachmodelle die Navigation und erledigen Aufgaben selbstständig im Netz. Das verändert absehbar, wie Webseiten, Shops und Dienste gebaut und gefunden werden.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "web",
+    "semantic web",
+    "automatisierung"
+   ],
+   "source": "MIT Technology Review",
+   "source_id": "mit-tr",
+   "added": "2026-11-02T12:41:49+01:00",
+   "paywall": true,
+   "quelle_titel": "The agentic web is here",
+   "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"
+  },
+  {
+   "id": "0b3e8a069b3e",
+   "date": "2026-11-02",
+   "published": "2026-11-02T10:45+01:00",
+   "headline": "Microsoft schließt verbindliche KI-Vereinbarung mit Schulen",
+   "summary": "Der Newsletter berichtet über eine verbindliche Übereinkunft von Microsoft im Bildungsbereich rund um künstliche Intelligenz. Details nennt der Titel nicht, der Fokus liegt auf der Verbindlichkeit des Abkommens für Schulen.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "microsoft",
+    "schule",
+    "bildung",
+    "ki-kompetenz"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-02T12:40:54+01:00",
+   "quelle_titel": "😺 Microsoft's binding AI school deal",
+   "url": "https://www.theneuron.ai/newsletter/microsoft-s-binding-ai-school-deal/"
+  },
+  {
+   "id": "3fb867eacf79",
+   "date": "2026-11-02",
+   "published": "2026-11-02T11:00+01:00",
+   "headline": "Recherche findet 400 KI-Apps mit versteckten Missbrauchsfunktionen",
+   "summary": "Eine Recherche hat rund 400 Apps und Webseiten identifiziert, die nach gewöhnlichen KI-Werkzeugen aussehen, aber verborgene Funktionen enthalten. Darüber lassen sich gewaltvolle und sexualisierte Bilder und Videos erzeugen, auch von realen Personen. Die Angebote werden chinesischsprachigen Entwicklern zugeordnet und zeigen, wie leicht Schutzmechanismen in App-Stores umgangen werden.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "deepfakes",
+    "app-stores",
+    "missbrauch",
+    "recherche"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-02T12:41:49+01:00",
+   "kurios": "400 harmlos getarnte Apps mit heimlich eingebauten Missbrauchsfunktionen",
+   "paywall": true,
+   "quelle_titel": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
+  },
+  {
+   "id": "131073b30460",
+   "date": "2026-11-02",
+   "published": "2026-11-02T11:03+01:00",
+   "headline": "Bundesregierung warnt beim Digitalgipfel vor Rückstand bei KI",
+   "summary": "Beim Digitalgipfel hat die Bundesregierung deutlich gemacht, dass sie Deutschland im Wettlauf mit den USA und China bei künstlicher Intelligenz in Gefahr sieht. Eine Taskforce warnt, dass sich das Zeitfenster für ein Aufholen bald schließt. Entsprechend hoch ist nach eigener Darstellung der Handlungsdruck auf Politik und Wirtschaft.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "digitalgipfel",
+    "ki-standort",
+    "bundesregierung",
+    "wettbewerb"
+   ],
+   "source": "ZEIT Digital",
+   "source_id": "zeit-digital",
+   "added": "2026-11-02T12:41:49+01:00",
+   "paywall": true,
+   "quelle_titel": "Digitalgipfel: Bundesregierung sieht starken Handlungsdruck bei KI",
+   "url": "https://www.zeit.de/digital/2026-11/karsten-wildberger-digitalminister-cdu-kuenstliche-intelligenz-gxe",
+   "dup_of": "b9c2bdc5dabc"
+  },
+  {
+   "id": "756d069fc8b3",
+   "date": "2026-11-02",
+   "published": "2026-11-02T11:30+01:00",
+   "headline": "OpenAI plant Lobbyoffensive gegen strengere KI-Auflagen in den USA",
+   "summary": "OpenAI stellt sich nach den US-Zwischenwahlen auf eine politische Auseinandersetzung ein und bereitet eine breite Lobby- und Kommunikationskampagne vor. Hintergrund ist die Sorge, dass Gesetzgeber die Regeln für KI-Anbieter deutlich verschärfen könnten. Das zeigt, wie stark sich die Branche inzwischen selbst in die Regulierungsdebatte einschaltet.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "lobbyismus",
+    "usa",
+    "regulierung"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-02T12:41:49+01:00",
+   "quelle_titel": "Angst vor strengeren Regeln: Wie OpenAI die US-Politik beeinflussen will",
+   "url": "https://the-decoder.de/angst-vor-strengeren-regeln-wie-openai-die-us-politik-beeinflussen-will/",
+   "kontext": "Hinter der Offensive steht die Erwartung, dass sich die politischen Vorzeichen in Washington nach den Zwischenwahlen drehen und der Druck auf große Tech-Konzerne mit guten Verbindungen zur Regierung wächst. Politikchef Chris Lehane setzt auf die Botschaft, KI ersetze keine Menschen, und wirbt für verbindliche Sicherheitsvorgaben für die leistungsfähigsten Modelle. Zugleich reagiert OpenAI auf den Widerstand gegen neue Rechenzentren, benennt sie um und verspricht den Gemeinden wirtschaftliche Vorteile. Auch Meta baut derweil seine Kontakte zu den Demokraten aus."
+  },
+  {
+   "id": "1e504b449dac",
+   "date": "2026-11-02",
+   "published": "2026-11-02T11:40+01:00",
+   "headline": "Google drängt auf verbindliche Regeln für KI-Crawler",
+   "summary": "Die meisten KI-Crawler ignorieren bislang die Vorgaben der Robots.txt, mit der Websitebetreiber den Zugriff steuern. Google will die Datei deshalb für alle Anbieter zu einem verpflichtenden Standard machen. Damit hätten Publisher eine belastbarere Grundlage, um Trainingszugriffe zu untersagen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "google",
+    "robots.txt",
+    "crawler",
+    "trainingsdaten"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-02T12:40:54+01:00",
+   "quelle_titel": "KI-Crawler: Google will Robots.txt für alle Anbieter zum Standard machen",
+   "url": "https://www.golem.de/news/ki-crawler-google-will-robots-txt-fuer-alle-anbieter-zum-standard-machen-2611-214748.html",
+   "dup_of": "205a002f8608"
+  },
+  {
+   "id": "06acd6e886ce",
+   "date": "2026-11-02",
+   "published": "2026-11-02T12:12+01:00",
+   "headline": "Sicherheitslücke bei Lovable legt sensible Nutzerdaten offen",
+   "summary": "Eine Analyse zeigt, dass auf Seiten und Apps der KI-Coding-Plattform Lovable vertrauliche Daten ungeschützt abrufbar sind. Die Plattform generiert wöchentlich über eine Million Projekte, was die Reichweite des Problems vergrößert. Lovable selbst bezeichnet die Schwachstelle als branchenweites Phänomen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "lovable",
+    "datenschutz",
+    "vibe-coding",
+    "sicherheitslücke"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-11-02T12:40:54+01:00",
+   "paywall": true,
+   "quelle_titel": "Künstliche Intelligenz: Sicherheits-Experten finden Datenlücke bei beliebter KI-Coding-Plattform",
+   "url": "https://www.handelsblatt.com/technik/ki/lovable-experten-finden-datenluecke-bei-beliebter-ki-coding-plattform/100264923.html"
+  },
+  {
+   "id": "ff4a413533f4",
+   "date": "2026-11-02",
+   "published": "2026-11-02T12:34+01:00",
+   "headline": "Digitalgipfel in Berlin rückt KI in den Mittelpunkt",
+   "summary": "In Berlin ist ein zweitägiger Digitalgipfel der Bundesregierung gestartet, der sich in diesem Jahr vor allem um künstliche Intelligenz dreht. Diskutiert werden Chancen, Risiken und gesellschaftliche Folgen der Technologie. Digitalminister Wildberger mahnt, Deutschland dürfe den Anschluss nicht verlieren.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "digitalgipfel",
+    "bundesregierung",
+    "wildberger",
+    "ki-politik"
+   ],
+   "source": "Deutschlandfunk",
+   "source_id": "deutschlandfunk",
+   "added": "2026-11-02T12:40:54+01:00",
+   "quelle_titel": "Chancen und Risiken von KI - Digitalgipfel der Bundesregierung hat begonnen - Wildberger: \"Anschluss nicht verpassen\"",
+   "url": "https://www.deutschlandfunk.de/digitalgipfel-der-bundesregierung-hat-begonnen-wildberger-anschluss-nicht-verpassen-100.html",
+   "dup_of": "b9c2bdc5dabc"
   },
   {
    "id": "8a335769c4e7",
@@ -265,7 +541,17 @@
    "added": "2026-11-02T08:40:42+01:00",
    "quelle_titel": "Meta arbeitet offenbar mit chinesischer Hilfe an humanoidem Haushaltsroboter",
    "url": "https://www.heise.de/news/Meta-arbeitet-offenbar-mit-chinesischer-Hilfe-an-humanoidem-Haushaltsroboter-11507414.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "879ad0af8925"
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/meta-humanoider-roboter-max-1771000"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/mit-fourier-aus-china-meta-entwickelt-humanoiden-prototyp-eines-roboter-2611-214730.html"
+    }
+   ],
+   "kontext": "Meta baut den Roboter nicht allein: Partner Fourier fertigte den ersten Prototyp in Schanghai binnen weniger Monate, Meta-Beschäftigte arbeiteten dafür zeitweise vor Ort. Max ist rund anderthalb Meter groß, zeigt Mimik auf einem Display im Kopf und greift mit fünffingrigen Händen, als Rechenbasis dient eine Nvidia-Plattform. Steuern soll ihn künftig Metas KI-Agent Muse, der damit in die physische Welt vorstößt. Eine zweite Version mit mehr Sensoren entsteht bereits."
   },
   {
    "id": "a68b0fe485fe",
@@ -336,6 +622,283 @@
    "url": "https://www.heise.de/ratgeber/Wie-Entwickler-Claude-mit-C-SDK-in-NET-einbinden-11495780.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
+   "id": "e7b245a83110",
+   "date": "2026-11-02",
+   "published": "2026-11-02T07:17+01:00",
+   "headline": "Anthropic schränkt Claude Code ein: keine Klone bekannter Spiele",
+   "summary": "Anthropic hat die Nutzungsregeln für sein Programmierwerkzeug Claude Code verschärft, sodass bekannte Spieletitel nicht mehr nachgebaut werden dürfen. Entwickler berichten, dass die neuen Filter auch harmlose und rechtlich unproblematische Projekte blockieren. Der Fall zeigt, wie unscharf Schutzmechanismen gegen Urheberrechtsverstöße in Coding-Assistenten derzeit wirken.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "anthropic",
+    "claude code",
+    "spieleentwicklung",
+    "urheberrecht"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-02T12:43:46+01:00",
+   "quelle_titel": "Spielebranche: Claude darf keine bekannten Games mehr nachbauen",
+   "url": "https://www.golem.de/news/spielebranche-claude-darf-keine-bekannten-games-mehr-nachbauen-2611-214734.html",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/anthropic-claude-games-1771064"
+    }
+   ],
+   "kontext": "Anthropic hat den Systemprompt von Claude Code und Opus 5.5 ergänzt, sodass das Nachbauen konkreter Spiele auch unter anderem Namen verboten ist. Hintergrund sind Unruhe in der Spielebranche über geklaute Ideen sowie eigene Haftungsrisiken beim Urheberrecht. In der Praxis verweigert das Modell nun aber auch Reverse Engineering, Crash-Analysen oder das Entfernen von Junkware. Das Unternehmen kündigt an nachzujustieren und bittet Betroffene um Rückmeldung."
+  },
+  {
+   "id": "c47aef220831",
+   "date": "2026-11-02",
+   "published": "2026-11-02T07:33+01:00",
+   "headline": "Zehn Mitarbeitende, ein Bot: Chefin lässt KI Rückfragen beantworten",
+   "summary": "Führungskräfte mit vollem Kalender lassen ihre Teams oft lange auf Antworten warten, was zu Frust und Stillstand führt. Der Beitrag geht der Frage nach, ob ein KI-Assistent einen Teil dieser Kommunikation übernehmen und damit Arbeitszeit zurückgeben kann. Diskutiert werden Nutzen und Grenzen eines solchen Stellvertreters im Führungsalltag.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "führung",
+    "produktivität",
+    "chatbot",
+    "arbeitsorganisation"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-02T12:43:02+01:00",
+   "paywall": true,
+   "quelle_titel": "Zeitdruck: Zehn Mitarbeiter, ein Bot, so will eine Chefin ihre Zeit zurückbekommen",
+   "url": "https://www.wiwo.de/erfolg/management/review-bottleneck-durch-ki-wie-agenten-chefs-entlasten/100265637.html"
+  },
+  {
+   "id": "6bde8f7f3d38",
+   "date": "2026-11-02",
+   "published": "2026-11-02T08:00+01:00",
+   "headline": "SAP: Fehlende KI-Governance bremst die Akzeptanz in Unternehmen",
+   "summary": "Aus Kundengesprächen leitet SAP ab, dass mangelndes Vertrauen die größte Hürde bei der Einführung von KI ist. Klare Regeln, Zuständigkeiten und nachvollziehbare Prozesse sollen diese Lücke schließen und so die Nutzung in der Breite erst möglich machen. Für Unternehmen bedeutet das Aufbau von Governance-Strukturen parallel zur Technik.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "governance",
+    "vertrauen",
+    "verantwortungsvolle ki",
+    "unternehmen"
+   ],
+   "source": "SAP News Deutschland",
+   "source_id": "sap-news-de",
+   "added": "2026-11-02T12:43:02+01:00",
+   "quelle_titel": "Die Lücke in der KI-Governance: Warum verantwortungsvolle KI die Akzeptanz fördert",
+   "url": "https://news.sap.com/germany/2026/11/luecke-ki-governance/",
+   "kontext": "SAP hat seine globale KI-Ethikrichtlinie ueberarbeitet und sich dafuer mit mehr als 50 Fachleuten beraten. Hintergrund ist der Umbau zum autonomen Unternehmen, in dem Agenten Ablaeufe in Finanzen, Beschaffung oder Personal selbst ausfuehren statt nur Empfehlungen zu geben. Jede Agentenaktion wird protokolliert, damit Grund, Datenbasis und Verantwortung nachvollziehbar bleiben. Vorstandssprecher Klein betont, dass beinahe richtige Ergebnisse in kritischen Prozessen nicht genuegen."
+  },
+  {
+   "id": "cace136791aa",
+   "date": "2026-11-02",
+   "published": "2026-11-02T08:43+01:00",
+   "headline": "US-Anklage: Mit KI erfundene Studierende sollen Fördergeld erschlichen haben",
+   "summary": "Die US-Justiz hat fünf Verdächtige angeklagt, die mit gestohlenen Identitäten und KI-Hilfe nicht existierende Studierende an Hochschulen eingeschrieben haben sollen, um staatliche Studienförderung abzugreifen. Weitere Verfahren laufen laut Bericht an 26 FBI-Außenstellen. Der Fall zeigt, wie anfällig Einschreibe- und Förderprozesse für automatisierte Täuschung sind.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "betrug",
+    "hochschulen",
+    "identitätsdiebstahl",
+    "fbi"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-02T12:43:02+01:00",
+   "kurios": "Erfundene Studierende kassierten jahrelang echte Studienförderung",
+   "quelle_titel": "Operation Ghostbusters: Geisterstudenten sollen mit KI Studienhilfe erschlichen haben",
+   "url": "https://www.golem.de/news/operation-ghostbusters-geisterstudenten-sollen-mit-ki-studienhilfe-erschlichen-haben-2611-214736.html"
+  },
+  {
+   "id": "b5dd52a44767",
+   "date": "2026-11-02",
+   "published": "2026-11-02T10:33+01:00",
+   "headline": "Berlin sieht sich im KI-Rennen unter Zeitdruck gegenüber USA und China",
+   "summary": "Die Bundesregierung schlägt im internationalen KI-Wettbewerb Alarm und spricht von einem engen Zeitfenster für Gegenmaßnahmen. Befürchtet wird, dass Deutschland gegenüber den USA und China dauerhaft den Anschluss verliert. Daraus leitet sie einen hohen Handlungsdruck bei Infrastruktur, Investitionen und Anwendung ab.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "bundesregierung",
+    "ki-strategie",
+    "standortpolitik",
+    "china"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-02T12:41:49+01:00",
+   "quelle_titel": "„Das Zeitfenster schließt sich bald\": Bundesregierung schlägt im KI-Wettbewerb Alarm",
+   "url": "https://t3n.de/news/das-zeitfenster-schliesst-sich-bald-bundesregierung-schlaegt-im-ki-wettbewerb-alarm-1771057",
+   "dup_of": "b9c2bdc5dabc"
+  },
+  {
+   "id": "c8a3fb5e95b0",
+   "date": "2026-11-02",
+   "published": "2026-11-02T10:49+01:00",
+   "headline": "Berlin setzt dauerhaft auf KI-Videoüberwachung mit Verhaltensanalyse",
+   "summary": "Die mit KI gestützte Videoüberwachung zur Verhaltensanalyse läuft in Berlin nun im Dauerbetrieb. Ein Bericht sammelt die sehr unterschiedlichen Sichtweisen von Datenschutz, Sozialarbeit, Gewerbetreibenden und direkt Betroffenen. Im Kern steht der Vorwurf, dass die Technik vor allem ohnehin benachteiligte Menschen aus dem öffentlichen Raum verdrängt.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "videoüberwachung",
+    "berlin",
+    "datenschutz",
+    "öffentlicher raum"
+   ],
+   "source": "netzpolitik.org",
+   "source_id": "netzpolitik",
+   "added": "2026-11-02T12:41:49+01:00",
+   "quelle_titel": "Verhaltensscanner in Berlin: Verdrängung der Schwächsten",
+   "url": "https://netzpolitik.org/2026/verhaltensscanner-in-berlin-verdraengung-der-schwaechsten/",
+   "kontext": "Rund 30 neue Polizeikameras am Kottbusser Tor speisen eine Software, die Bewegungsmuster im Livebild bewertet. Erkannt werden bislang nur Hinweise auf Koerperverletzung sowie liegende Personen, nicht aber Drogenhandel oder Diebstahl, die dort die haeufigsten Delikte sind. Kritiker der Digitalen Gesellschaft halten den Standort deshalb eher fuer einen Test gesellschaftlicher Akzeptanz. Bei der Vorstellung durch die Innensenatorin sah die Polizei zudem unverpixelte Bilder."
+  },
+  {
+   "id": "40c4432392ea",
+   "date": "2026-11-02",
+   "published": "2026-11-02T11:00+01:00",
+   "headline": "Gefälschte KI-Songs: Streamingdienste kämpfen mit Betrugsmasche",
+   "summary": "Massenhaft generierte Musik und Stimmklone von Künstlern fluten die Streamingplattformen und werden inzwischen auch für systematischen Abrechnungsbetrug genutzt. Betroffen sind Musikschaffende, deren Stimmen imitiert werden, und Hörer, die echte von künstlichen Titeln kaum unterscheiden können. Offen bleibt, wer für Kontrolle und Haftung zuständig ist.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "musik",
+    "deepfake",
+    "streaming",
+    "betrug"
+   ],
+   "source": "Basic Thinking",
+   "source_id": "basic-thinking",
+   "added": "2026-11-02T12:41:49+01:00",
+   "quelle_titel": "Millionenbetrug mit Fake-Songs: Wer stoppt die KI-Musikflut?",
+   "url": "https://www.basicthinking.de/blog/2026/11/02/millionenbetrug-mit-ki-songs/",
+   "kontext": "Dahinter steht die Flut generativer Dienste wie Suno, die per Prompt komplette Lieder samt Gesang und Text erzeugen und dafür mit Werken echter Komponisten trainiert wurden. Bei Deezer erscheinen taeglich rund 90.000 solcher Titel, an Spitzentagen zuletzt mehr als die Haelfte aller neuen Uploads. Der Pianist Jason Moran entdeckte ein gefaelschtes Album unter seinem Namen bei Spotify, das er selbst nie genutzt hatte. Die EU-Regeln verlangen Transparenz, verbieten solche Faelschungen aber nicht."
+  },
+  {
+   "id": "ac0e6619657b",
+   "date": "2026-11-02",
+   "published": "2026-11-02T11:31+01:00",
+   "headline": "KI-Agenten sollen Minecraft besiedeln und versinken in Verwaltung",
+   "summary": "In einem Experiment sollten KI-Agenten in Minecraft gemeinsam eine Zivilisation errichten. Statt zu bauen, verbrachten die Agenten große Teile ihrer Zeit mit Abstimmung und Regelwerk und blieben in bürokratischen Schleifen stecken. Der Versuch zeigt, wie schwer Koordination in Multi-Agenten-Systemen fällt.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "multi-agenten",
+    "minecraft",
+    "experiment",
+    "koordination"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-02T12:40:54+01:00",
+   "kurios": "KI-Agenten erfinden in Minecraft von selbst Bürokratie und bauen kaum etwas.",
+   "quelle_titel": "KI-Agenten sollen Zivilisation in Minecraft aufbauen, und verlieren sich in Bürokratie",
+   "url": "https://t3n.de/news/ki-agenten-sollen-zivilisation-in-minecraft-aufbauen-und-verlieren-sich-in-buerokratie-1771070",
+   "kontext": "Hinter dem Versuch stehen Forschende von Y Combinator und Olam Labs, die Spielwelten als günstiges Labor für autonome Systeme nutzen. Neben dem Aufbauszenario traten Agenten verschiedener Modelle auch gegeneinander an, um Unterschiede im Verhalten sichtbar zu machen. Ähnliche Experimente, etwa eine Inselsimulation des MIT, verfolgen dasselbe Ziel. Solche Tests sind relevant, weil Agenten im praktischen Einsatz noch unvorhersehbar handeln, bis hin zu einem versehentlich geleerten Postfach."
+  },
+  {
+   "id": "4ef981697b36",
+   "date": "2026-11-02",
+   "published": "2026-11-02T11:33+01:00",
+   "headline": "Apple übernimmt Datenanalyse-Spezialisten Ascend.io",
+   "summary": "Apple hat das kleinere Unternehmen Ascend.io gekauft, das Software für die Auswertung von Geschäftsdaten mithilfe von KI-Agenten entwickelt hat. Der Zukauf passt in Apples Strategie, gezielt Technologie und Teams für agentische KI einzusammeln.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "apple",
+    "übernahme",
+    "ki-agenten",
+    "datenanalyse"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-02T12:40:54+01:00",
+   "quelle_titel": "Apple kauft agentisches Datenanalyseunternehmen Ascend.io",
+   "url": "https://www.heise.de/news/Apple-kauft-agentisches-Datenanalyseunternehmen-Ascend-io-11506976.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Bekannt wurde der Zukauf über Pflichtmeldungen, die Apple als Gatekeeper nach dem Digital Markets Act bei der EU-Kommission einreicht. Es handelt sich um einen Acqui-Hire: Apple erhält Patente und Nutzungsrechte, allerdings nicht exklusiv, und kann Beschäftigte abwerben. Ascend.io kam aus der Automatisierung von Datenpipelines und fährt sein Angebot nun herunter. Ähnlich hatte der Konzern zuvor schon Anbieter aus der Audiobearbeitung und dem Swift-Umfeld eingesammelt, der Preis bleibt offen."
+  },
+  {
+   "id": "a189194e7325",
+   "date": "2026-11-02",
+   "published": "2026-11-02T12:00+01:00",
+   "headline": "Qualitätssicherung mit KI-Agenten: zentrale Steuerung statt Einzelprompts",
+   "summary": "Der Fachbeitrag zeigt, wie Testteams generative KI über einzelne Prompts hinaus einsetzen können. Statt isolierter Anfragen koordiniert ein zentraler Agent mit klar definierten Leitplanken die Abläufe und sorgt so für reproduzierbare Testworkflows. Beschrieben wird der Weg vom klassischen Testanalysten zum Agententeam.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "qualitätssicherung",
+    "ki-agenten",
+    "testing",
+    "workflow"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-02T12:40:54+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "heise+ | Vom Testanalysten zum Agententeam: Qualitätssicherung mit klaren Leitplanken",
+   "url": "https://www.heise.de/hintergrund/Vom-Testanalysten-zum-Agententeam-Qualitaetssicherung-mit-klaren-Leitplanken-11502111.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
+  },
+  {
+   "id": "c3a37e899265",
+   "date": "2026-11-02",
+   "published": "2026-11-02T12:28+01:00",
+   "headline": "Saudi Aramco steigt groß bei KI-Firma HUMAIN ein",
+   "summary": "Der staatliche Ölkonzern Saudi Aramco beteiligt sich maßgeblich an HUMAIN, dem KI-Unternehmen des saudischen Staatsfonds. Das Vorhaben soll Saudi-Arabien als internationalen Standort für künstliche Intelligenz etablieren und den Ausbau von Rechenkapazitäten finanzieren.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "saudi-arabien",
+    "humain",
+    "investment",
+    "rechenzentren"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-02T12:40:54+01:00",
+   "quelle_titel": "Ölkonzern Saudi Aramco kauft sich für den KI-Ausbau groß bei HUMAIN ein",
+   "url": "https://the-decoder.de/oelkonzern-saudi-aramco-kauft-sich-fuer-den-ki-ausbau-gross-bei-humain-ein/",
+   "kontext": "HUMAIN entstand 2025 aus dem Staatsfonds PIF und betreibt Rechenzentren, Clouddienste sowie ein arabisches Sprachmodell. Aramco bringt nun Milliarden und eigene Technik ein und sichert sich knapp die Hälfte der Anteile. Erste Infrastruktur, aufgebaut mit AMD und Cisco, bedient bereits Kunden im Ausland, weitere Kapazität ist bis 2030 geplant. Sichtbar wird, wie Öleinnahmen in Rechenleistung umgeschichtet werden, während nach dem Iran-Krieg der Schutz der Standorte an Gewicht gewinnt."
+  },
+  {
+   "id": "23d615f67957",
+   "date": "2026-11-02",
+   "published": "2026-11-02T12:30+01:00",
+   "headline": "Claude blockt Spiele-Klone und bremst dabei erlaubte Projekte aus",
+   "summary": "Anthropic hat den Systemprompt von Claude angepasst, damit das Modell keine Kopien bestehender Videospiele mehr nachbaut. Die neue Regel greift offenbar zu weit und behindert auch Entwickler, die an eigenen oder rechtlich unproblematischen Projekten arbeiten.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "anthropic",
+    "claude",
+    "systemprompt",
+    "urheberrecht"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-02T12:40:54+01:00",
+   "quelle_titel": "Anthropic verbietet Claude Nachbau von Games, doch die Regeln treffen auch legitime Projekte",
+   "url": "https://t3n.de/news/anthropic-claude-games-1771064",
+   "dup_of": "e7b245a83110"
+  },
+  {
    "id": "9a124f81065a",
    "date": "2026-11-02",
    "published": "2026-11-02T05:41+01:00",
@@ -355,6 +918,71 @@
    "added": "2026-11-02T08:40:00+01:00",
    "quelle_titel": "KI ist kein Gimmick, sondern ein echter Hebel",
    "url": "https://www.it-daily.net/it-management/ki/ki-gimmick-echter-hebel"
+  },
+  {
+   "id": "45b8481a3f50",
+   "date": "2026-11-02",
+   "published": "2026-11-02T07:54+01:00",
+   "headline": "Spotify verschiebt KI-Remixe nach Gegenwind aus der Musikbranche",
+   "summary": "Spotify hatte im Mai angekündigt, dass Hörerinnen und Hörer Songs künftig per KI verändern können sollen. Nun verzögert sich die Funktion offenbar, weil der Widerstand von Künstlerinnen, Künstlern und Rechteinhabern größer ist als erwartet. Der Fall zeigt, wie stark Lizenzfragen generative Musikfunktionen ausbremsen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "spotify",
+    "musik",
+    "generative ki",
+    "lizenzen"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-02T12:43:02+01:00",
+   "quelle_titel": "KI-generierte Remixe: Spotify-Pläne verzögern sich wohl wegen der Künstler",
+   "url": "https://www.heise.de/news/KI-generierte-Remixe-Spotify-Plaene-verzoegern-sich-wohl-wegen-der-Kuenstler-11507459.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "f08e2487efd0",
+   "date": "2026-11-02",
+   "published": "2026-11-02T08:00+01:00",
+   "headline": "Wochenstart: KI für Non-Profits, Playmobils Rechenzentrum und Claude Motion",
+   "summary": "Der Montagsüberblick bündelt fünf Themen, darunter den Einsatz von KI in gemeinnützigen Organisationen und die neue Funktion Claude Motion. Außerdem geht es um einen besonders teuren Mac, das Rechenzentrum von Playmobil und eine Änderung am Rechtsklick in Windows 11.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "wochenrückblick",
+    "non-profit",
+    "claude",
+    "windows"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-02T12:43:02+01:00",
+   "quelle_titel": "5 Dinge, die du diese Woche wissen musst: Wie KI auch für gute Zwecke genutzt werden kann",
+   "url": "https://t3n.de/news/weekly-ki-guter-zweck-1770787"
+  },
+  {
+   "id": "b54671032202",
+   "date": "2026-11-02",
+   "published": "2026-11-02T10:00+01:00",
+   "headline": "DxO ViewPoint 6 im Test: KI hilft bei selektiver Perspektivkorrektur",
+   "summary": "Die neue Version des Spezialwerkzeugs erkennt per KI Motive und Bildbereiche, um Perspektiven gezielt an einzelnen Stellen zu korrigieren. Ein Test prüft, ob das gegenüber den Werkzeugen gängiger Raw-Entwickler wie Lightroom einen echten Mehrwert bringt. Interessant ist das vor allem für Architektur- und Produktfotografie.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "bildbearbeitung",
+    "dxo",
+    "test",
+    "fotografie"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-02T12:41:49+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "heise+ | Fotobearbeitung: DxO ViewPoint 6 im Test, Perspektiven selektiv korrigieren",
+   "url": "https://www.heise.de/tests/Fotobearbeitung-DxO-ViewPoint-6-im-Test-Perspektiven-selektiv-korrigieren-11504975.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   }
  ]
 }
