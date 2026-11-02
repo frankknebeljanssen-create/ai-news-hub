@@ -170,13 +170,7 @@
    "added": "2026-10-30T09:50:25+01:00",
    "quelle_titel": "Microsoft’s AI future has fewer jobs",
    "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
-   "kontext": "Neu ist vor allem die Größenordnung: Ein früheres Ausscheideangebot galt nur für rund 9.000 Beschäftigte, nun ist auch der Standort Indien einbezogen. Dahinter steckt Kalkül, denn Microsoft will die laufenden Personalkosten drücken, um die teuren Investitionen in KI-Infrastruktur nicht antasten zu müssen. Nadella hat das Bild einer kleineren, dafür besser bezahlten und mit mehr Rechenleistung ausgestatteten Belegschaft schon vor Jahren öffentlich skizziert.",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/jeder-vierte-microsoft-mitarbeiter-kann-freiwillig-gehen-waehrend-der-konzern-milliarden-in-ki-steckt/"
-    }
-   ]
+   "kontext": "Neu ist vor allem die Größenordnung: Ein früheres Ausscheideangebot galt nur für rund 9.000 Beschäftigte, nun ist auch der Standort Indien einbezogen. Dahinter steckt Kalkül, denn Microsoft will die laufenden Personalkosten drücken, um die teuren Investitionen in KI-Infrastruktur nicht antasten zu müssen. Nadella hat das Bild einer kleineren, dafür besser bezahlten und mit mehr Rechenleistung ausgestatteten Belegschaft schon vor Jahren öffentlich skizziert."
   },
   {
    "id": "3ef8ddfb1b40",
@@ -202,12 +196,12 @@
    "kontext": "Für das Experiment wählte Anthropic eine realistische Ermessensaufgabe: Fachleute für kausale Inferenz werteten Daten einer erfundenen Agrarkooperative aus. Der Agent log dabei nicht, er lieferte lediglich die stärksten ehrlichen Argumente für die ihm zugeloste Seite. Weder Berufserfahrung noch Fachwissen schützten vor der Übernahme, obwohl die Arbeit mit KI zugleich schneller und fehlerärmer ausfiel. Die Forschenden raten, Agenten beide Seiten vertreten oder zuerst die eigene Einschätzung abfragen zu lassen.",
    "also": [
     {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Untersuchung-Experten-uebernehmen-oft-unbewusst-KI-Entscheidungen-11505781.html"
-    },
-    {
      "source": "heise KI",
      "url": "https://www.heise.de/news/Untersuchung-Experten-uebernehmen-oft-unbewusst-KI-Entscheidungen-11505781.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Untersuchung-Experten-uebernehmen-oft-unbewusst-KI-Entscheidungen-11505781.html"
     }
    ]
   },
@@ -240,10 +234,6 @@
     {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/google-gemini-4-carbon-cybersecurity-access/"
-    },
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/gemini-4-carbon-google-stellt-leistungsfaehigere-version-von-argon-vor-2610-214646.html"
     }
    ]
   },
@@ -269,7 +259,12 @@
    "quelle_titel": "Debatte in der Koalition über Steuer auf Umsätze durch KI",
    "url": "https://www.tagesschau.de/inland/ministerin-prien-ki-steuer-100.html",
    "kontext": "Der Vorstoß kommt aus der Koalition selbst: Prien ist nicht nur Familienministerin, sondern auch stellvertretende CDU-Vorsitzende, was der Idee innerparteilich Gewicht verleiht. Bislang handelt es sich um eine offene Debatte zwischen Union und SPD, nicht um einen fertigen Gesetzentwurf. Gedacht ist die Abgabe als politische Antwort auf den Umbau der Arbeitswelt. Wie sie konkret ausgestaltet sein könnte, ist noch völlig offen.",
-   "dup_of": "83659a1efe28"
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/arbeitsplaetze-cdu-vize-prien-will-ki-gewinne-besteuern-2611-214725.html"
+    }
+   ]
   },
   {
    "id": "02c3b31d19f5",
@@ -1314,7 +1309,7 @@
    "added": "2026-10-30T12:27:41+01:00",
    "quelle_titel": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
    "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-   "dup_of": "47f46f37f7f8"
+   "dup_of": "cc2a637ff21f"
   },
   {
    "id": "292b69610c4d",
@@ -1341,15 +1336,6 @@
     {
      "source": "it-daily.net",
      "url": "https://www.it-daily.net/shortnews/schwarz-gruppe-ki-start-up-cohere"
-    },
-    {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/kuenstliche-intelligenz--schwarz-gruppe-investiert-gross-in-ki-start-up-cohere-38472120.html"
-    },
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-schwarz-gruppe-investiert-gross-in-ki-start-up-cohere-16216693.html",
-     "paywall": true
     }
    ]
   },
@@ -1376,6 +1362,7 @@
    "paywall": true,
    "quelle_titel": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
    "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+   "kontext": "Aufgedeckt hat den Vorgang das Magazin Wired. Brisant ist weniger der Zugang selbst als seine Dauer: Über Wochen fiel niemandem auf, dass ein privat genutzter Assistent an ein abgeschirmtes Behördennetz angebunden war. Solche Verbindungen entstehen meist aus Bequemlichkeit und stehen in keiner Freigabeliste. Erst als die Sache auffiel, wurde die Lücke geschlossen.",
    "also": [
     {
      "source": "Golem",
@@ -1386,8 +1373,7 @@
      "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
      "paywall": true
     }
-   ],
-   "kontext": "Aufgedeckt hat den Vorgang das Magazin Wired. Brisant ist weniger der Zugang selbst als seine Dauer: Über Wochen fiel niemandem auf, dass ein privat genutzter Assistent an ein abgeschirmtes Behördennetz angebunden war. Solche Verbindungen entstehen meist aus Bequemlichkeit und stehen in keiner Freigabeliste. Erst als die Sache auffiel, wurde die Lücke geschlossen."
+   ]
   },
   {
    "id": "904e4b10c7b3",
@@ -1506,13 +1492,7 @@
    "added": "2026-10-30T09:47:57+01:00",
    "quelle_titel": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
    "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-   "kontext": "Den Kurswechsel verkündete Reddit bei der Vorstellung der Quartalszahlen. Hintergrund sind nicht nur weniger Klicks aus der Suche, sondern auch der Wunsch, die eigenen Datenbestände vor ungefragtem Auslesen zu schützen und stattdessen Lizenzverträge mit Modellanbietern zu schließen. Angemeldete Nutzer sind zudem für Werbekunden wertvoller, weil sie bessere Rückschlüsse auf Interessen erlauben. Der Umsatz wächst kräftig, während die Nutzerzahlen im Heimatmarkt USA sinken.",
-   "also": [
-    {
-     "source": "it-daily.net",
-     "url": "https://www.it-daily.net/shortnews/reddit-plant-anmeldepflicht"
-    }
-   ]
+   "kontext": "Den Kurswechsel verkündete Reddit bei der Vorstellung der Quartalszahlen. Hintergrund sind nicht nur weniger Klicks aus der Suche, sondern auch der Wunsch, die eigenen Datenbestände vor ungefragtem Auslesen zu schützen und stattdessen Lizenzverträge mit Modellanbietern zu schließen. Angemeldete Nutzer sind zudem für Werbekunden wertvoller, weil sie bessere Rückschlüsse auf Interessen erlauben. Der Umsatz wächst kräftig, während die Nutzerzahlen im Heimatmarkt USA sinken."
   },
   {
    "id": "6a7b62cf6ddb",
@@ -1535,7 +1515,7 @@
    "added": "2026-10-31T16:51:42+01:00",
    "quelle_titel": "KI-Boom: Amazon profitiert von Cloud-Geschäft",
    "url": "https://www.stern.de/digital/ki-boom--amazon-profitiert-von-cloud-geschaeft-38473092.html",
-   "dup_of": "696ce5353acf"
+   "dup_of": "e2ac735ea2fc"
   },
   {
    "id": "696ce5353acf",
@@ -1560,38 +1540,7 @@
    "quelle_titel": "KI-Boom: Amazon enttäuscht trotz Cloud-Boom, Aktie sackt ab",
    "url": "https://www.handelsblatt.com/technik/ki/ki-boom-amazon-enttaeuscht-trotz-cloud-boom-aktie-sackt-ab/100265410.html",
    "kontext": "Konzernchef Andy Jassy begründete die Ausgaben in der Quartalskonferenz mit einer einmaligen Gelegenheit im Cloudmarkt und stellte AWS langfristig als Billionengeschäft in Aussicht. Die Sparte wächst inzwischen seit mehreren Quartalen stabil um annähernd 40 Prozent, und dieses Tempo soll bis 2028 halten. Für 2027 kündigte Jassy sogar noch höhere Ausgaben an. Analysten fragten dennoch wiederholt nach Margen und belastbaren Belegen für das versprochene Wachstum.",
-   "also": [
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/unternehmen/handel/amazon-bilanz-hohe-kosten-fuer-ki-rechenzentren-verursachen-milliardenloch/100266087.html",
-     "paywall": true
-    },
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/unternehmen/handel/ki-kosten-hohe-ausgabe-brennen-milliardenloch-in-amazon-bilanz/100266087.html",
-     "paywall": true
-    },
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4242587/amazon-profitiert-von-cloud-geschaft.html"
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Amazon-waechst-weniger-stark-als-erwartet-hohe-KI-Investitionen-daempfen-Aktie-11505585.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Amazon-waechst-weniger-stark-als-erwartet-hohe-KI-Investitionen-daempfen-Aktie-11505585.html"
-    },
-    {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/ki-boom--amazon-profitiert-von-cloud-geschaeft-38473092.html"
-    },
-    {
-     "source": "it-daily.net",
-     "url": "https://www.it-daily.net/shortnews/amazon-cloud-umsatz-gestiegen"
-    }
-   ]
+   "dup_of": "e2ac735ea2fc"
   },
   {
    "id": "6e4063072a87",
@@ -1679,7 +1628,8 @@
    "source_id": "huggingface",
    "added": "2026-10-30T09:53:22+01:00",
    "quelle_titel": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-   "url": "https://huggingface.co/blog/announcing-project-protostar"
+   "url": "https://huggingface.co/blog/announcing-project-protostar",
+   "kontext": "Hinter ProtoStar steht ein Bündnis aus Universitäten wie Carnegie Mellon und Purdue, dem Astera Institute und der Open-Science-Initiative ORCA, während Hugging Face die Infrastruktur stellt. Anlass ist eine Lücke in der US-Förderpolitik: Veröffentlicht ist nicht gleich nutzbar, denn Daten liegen oft in alten Formaten und ohne Dokumentation oder Herkunftsnachweis vor. Beteiligte Einrichtungen verpflichten sich per Absichtserklärung zur Freigabe. Den Start markiert ein offener Wettbewerb zu Klimarisiken."
   },
   {
    "id": "6750c2461412",
@@ -1946,7 +1896,8 @@
    "added": "2026-10-30T09:52:37+01:00",
    "kurios": "Ein Wutköder wird zum Jugendwort des Jahres 2026 gekürt",
    "quelle_titel": "Ragebait: Wie Big Tech mit deiner Wut Kohle scheffelt, und KI alles schlimmer macht",
-   "url": "https://www.basicthinking.de/blog/2026/10/29/ragebait-wie-big-tech-mit-deiner-wut-kohle-scheffelt/"
+   "url": "https://www.basicthinking.de/blog/2026/10/29/ragebait-wie-big-tech-mit-deiner-wut-kohle-scheffelt/",
+   "kontext": "Der Beitrag ist eine kommentierende Analyse und führt die Empörungsspirale auf die Ökonomie sozialer Netzwerke zurück: Wer länger verweilt und streitet, erzeugt Reichweite und damit Werbegeld. Dass die Wahl auf diesen Begriff fiel und nicht auf reine Sprachmoden wie Aura, deutet der Autor als Warnsignal. Die Betreiber stellen zwar die Infrastruktur, schieben die Verantwortung aber auf die Urheber. Als Gegenmittel empfiehlt er, Provokationen zu erkennen und nicht zu bedienen."
   },
   {
    "id": "ee490c672920",
@@ -2080,7 +2031,8 @@
    "source_id": "deutsche-startups",
    "added": "2026-10-30T09:52:37+01:00",
    "quelle_titel": "#StartupsToWatch - anny, und KI übernimmt die Buchungen",
-   "url": "https://www.deutsche-startups.de/2026/10/29/anny-und-ki-uebernimmt-die-buchungen/"
+   "url": "https://www.deutsche-startups.de/2026/10/29/anny-und-ki-uebernimmt-die-buchungen/",
+   "kontext": "anny wurde 2020 von fünf Gründern in Köln gestartet und verkauft Software für die Verwaltung gemeinsam genutzter Ressourcen wie Räume, Arbeitsplätze oder Geräte. HiDesk entstand erst im vergangenen Jahr und baut Assistenten, die Anfragen am Telefon und im Chat beantworten. Künftig sollen diese selbst buchen, ändern und stornieren, weil sie Verfügbarkeiten und Preisregeln aus der Plattform kennen. Team und Gründer bleiben, die Marke verschwindet, der Kaufpreis bleibt geheim."
   },
   {
    "id": "22763af008ff",
@@ -2123,7 +2075,8 @@
    "source_id": "ix",
    "added": "2026-10-30T12:29:43+01:00",
    "quelle_titel": "Oracle lässt ChatGPT an die Geschäftsdaten",
-   "url": "https://www.heise.de/news/Oracle-laesst-ChatGPT-an-die-Geschaeftsdaten-11504915.html"
+   "url": "https://www.heise.de/news/Oracle-laesst-ChatGPT-an-die-Geschaeftsdaten-11504915.html",
+   "kontext": "Hinter dem Angebot steht die wachsende Partnerschaft zwischen Oracle und OpenAI, vorgestellt auf der Hausmesse in Las Vegas. Beschäftigte sollen per Plugin auf Fusion Applications, NetSuite und die Cloudinfrastruktur zugreifen, wobei bestehende Berechtigungen gelten und Menschen heikle Schritte vorab freigeben. Daneben übernimmt Oracle den Betrieb von Anwendungen, die Mitarbeiter etwa mit Codex erzeugen. Wie sich das Ganze mit dem parallel angekündigten Fusion Companion verzahnt, bleibt offen."
   },
   {
    "id": "167e3320576a",
@@ -2168,7 +2121,8 @@
    "source_id": "decoder-de",
    "added": "2026-10-30T12:28:51+01:00",
    "quelle_titel": "Nvidia-Chef Jensen Huang laut New York Times im Visier chinesischer Spionage",
-   "url": "https://the-decoder.de/nvidia-chef-jensen-huang-laut-new-york-times-im-visier-chinesischer-spionage/"
+   "url": "https://the-decoder.de/nvidia-chef-jensen-huang-laut-new-york-times-im-visier-chinesischer-spionage/",
+   "kontext": "Im Zentrum steht eine Managerin des Singapurer Rechenzentrumsbetreibers Megaspeed, dem die US-Regierung vorwirft, China Zugang zu Nvidia-Chips zu verschaffen. Brisant ist die politische Seite: Das Weiße Haus wusste seit etwa einem Jahr Bescheid, ließ die Sache aber ruhen, offenbar aus Rücksicht auf Nvidias Geschäft und die Handelsbeziehungen. Huang selbst wurde nicht gewarnt, Beamte hielten ihn für ahnungslos. Nvidia verweist auf übliche Kundenkontakte, Peking spricht von Verleumdung, Megaspeed prüft intern."
   },
   {
    "id": "f3538b6fb36f",
@@ -2189,7 +2143,8 @@
    "source_id": "huggingface",
    "added": "2026-10-30T12:28:51+01:00",
    "quelle_titel": "Granite Switch 4.1.1, Update models like you update software",
-   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+   "kontext": "Hinter dem Update steht IBMs modularer Switch-Ansatz: Statt ein komplettes Modell neu zu rechnen, werden spezialisierte Adapter kombiniert, die über einen einzigen Endpunkt zusätzliche Fähigkeiten liefern. Für diese Patch-Version blieb das Basismodell unverändert, neu trainiert wurden nur einzelne Bausteine, etwa für Spracherkennung. Angekündigt ist zudem ein Baukasten, mit dem Entwickler und Drittanbieter eigene Adapter erstellen und versionieren können. Modellpflege würde damit der Release-Routine klassischer Software ähneln."
   },
   {
    "id": "2ff898dbb28c",
@@ -2210,7 +2165,8 @@
    "source_id": "rundown",
    "added": "2026-10-31T17:56:35+01:00",
    "quelle_titel": "The self-driving future grabs a giant shovel",
-   "url": "https://www.therundown.ai/articles/the-self-driving-future-grabs-a-giant-shovel"
+   "url": "https://www.therundown.ai/articles/the-self-driving-future-grabs-a-giant-shovel",
+   "kontext": "Hinter dem Trend steht viel Risikokapital: Drei Startups für autonome Bagger haben binnen zehn Wochen zusammen fast eine Milliarde Dollar eingesammelt, angeführt von Bedrock Robotics, das von früheren Waymo-Leuten gegründet wurde und Nachrüstsätze auf vorhandene Maschinen setzt. Als Argument dient der Mangel an erfahrenen Baggerführern, deren Ausbildung Jahre dauert. Parallel zeigt Boston Dynamics, wie heikel Robotik im Behördeneinsatz ist: Hunderte Beschäftigte protestieren gegen die Lieferung von Laufrobotern, die Führung hält am Auftrag fest."
   },
   {
    "id": "ce13119c061f",
@@ -2303,7 +2259,8 @@
    "source_id": "heise-ki",
    "added": "2026-11-01T13:55:38+01:00",
    "quelle_titel": "Finnische Polizei ermittelt jetzt wegen Bauarbeiten für Google-Rechenzentrum",
-   "url": "https://www.heise.de/news/Finnische-Polizei-ermittelt-jetzt-wegen-Bauarbeiten-fuer-Google-Rechenzentrum-11505106.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Finnische-Polizei-ermittelt-jetzt-wegen-Bauarbeiten-fuer-Google-Rechenzentrum-11505106.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter den Arbeiten steht eine finnische Google-Tochter, die an zwei Standorten bei Oulu und Kajaani Rechenzentren errichten soll. Nachdem der größte Naturschutzverband des Landes die Rodungen als rechtswidrig einstufte, hatte die Aufsichtsbehörde Fällungen, Erdarbeiten und Sprengungen vorläufig stoppen lassen; strittig ist auch das Wassermanagement der Baustellen. Die Ermittlungen dürften sich bis ins kommende Jahr ziehen. Damit erreicht ein Konflikt Europa, der in den USA seit Monaten erbittert geführt wird."
   },
   {
    "id": "2b2f487795f0",
