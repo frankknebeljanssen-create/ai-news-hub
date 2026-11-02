@@ -296,7 +296,7 @@ function shareBtn(item, label) {
 /* ---------- Offline speichern: alle Daten und App-Dateien in den Zwischenspeicher des Service Workers laden ---------- */
 
 const OFFLINE_KEY = 'offlineSaved';
-const SW_CACHE = 'kinews-v5'; // gleicher Name wie in sw.js (CACHE)
+const SW_CACHE = 'kinews-v7'; // gleicher Name wie in sw.js (CACHE)
 function offlineInfo() { try { return JSON.parse(localStorage.getItem(OFFLINE_KEY)) || null; } catch (e) { return null; } }
 
 async function offlineUrls() {
