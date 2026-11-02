@@ -1503,6 +1503,8 @@ route();
     // neue Daten im Hintergrund erhalten: Ansicht ohne Seitensprung auffrischen
     navigator.serviceWorker.addEventListener('message', async (e) => {
       if (!e.data || e.data.type !== 'data-updated') return;
+      if (Date.now() - (window.__lastDataUpdate || 0) < 30000) return; // Schutz gegen Dauerschleifen: hoechstens alle 30 Sekunden
+      window.__lastDataUpdate = Date.now();
       const y = window.scrollY; store.index = null; store.full = false; store.days = {};
       try { await route(); window.scrollTo(0, y); toast('Neue Meldungen geladen'); } catch (err) { /* ignorieren */ }
     });

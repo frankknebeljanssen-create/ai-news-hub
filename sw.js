@@ -1,7 +1,7 @@
 /* Service Worker: Offline-Zwischenspeicher fuer die App-Dateien und die Daten.
    Daten und Seiten: erst Netz (mit kurzer Wartezeit), sonst gespeicherte Kopie.
    Versionierte Dateien (css/js mit ?v=N) und Symbole: aus dem Speicher, bei Bedarf nachgeladen. */
-const CACHE = 'kinews-v6';
+const CACHE = 'kinews-v7';
 const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png?v=4', 'icons/icon.svg?v=4', 'icons/apple-touch-icon.png?v=4', 'js/vendor/fuse.min.js', 'content/glossar.json', 'content/modelle.json', 'data/recent.json'];
 const NET_TIMEOUT = 8000;
 
@@ -52,14 +52,15 @@ async function networkFirst(request) {
 async function staleWhileRevalidate(request) {
   const cache = await caches.open(CACHE);
   const hit = await cache.match(request);
+  const old = hit ? hit.clone() : null;   // Kopie VOR dem Ausliefern ziehen: die ausgelieferte Antwort ist danach verbraucht
   const live = fetch(new Request(request.url, { cache: 'no-cache', credentials: 'same-origin' })).then(async (res) => {
     if (res && res.ok) {
-      let changed = !hit;
-      if (hit) {
-        try { const [a, b] = await Promise.all([hit.clone().json(), res.clone().json()]); changed = a.updated !== b.updated; } catch (e) { changed = true; }
+      let changed = false;
+      if (old) {
+        try { const [a, b] = await Promise.all([old.json(), res.clone().json()]); changed = !!b.updated && a.updated !== b.updated; } catch (e) { changed = false; }
       }
       await cache.put(request, res.clone());
-      if (hit && changed) (await self.clients.matchAll()).forEach((c) => c.postMessage({ type: 'data-updated' }));
+      if (changed) (await self.clients.matchAll()).forEach((c) => c.postMessage({ type: 'data-updated' }));
     }
     return res;
   });
