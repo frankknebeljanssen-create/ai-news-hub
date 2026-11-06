@@ -882,7 +882,7 @@ def run(args) -> int:
         c["id"] = art_id(c["url"])
     log.info("%d neue Artikel zu kuratieren", len(candidates))
 
-    touched, failed_batches = set(), 0
+    touched, failed_batches, auth_failed = set(), 0, False
     for i in range(0, len(candidates), BATCH_SIZE):
         batch = candidates[i:i + BATCH_SIZE]
         try:
@@ -890,6 +890,10 @@ def run(args) -> int:
         except Exception as exc:
             failed_batches += 1
             log.error("Batch %d fehlgeschlagen: %s", i // BATCH_SIZE + 1, exc)
+            if "authenticate" in str(exc).lower() or "oauth" in str(exc).lower():
+                auth_failed = True
+                log.error("Claude-Anmeldung abgelaufen, restliche Batches uebersprungen")
+                break
             continue
         for a in batch:
             r = res.get(a["id"])
@@ -961,7 +965,9 @@ def run(args) -> int:
     if not args.no_git:
         publish(f"Daten {today}")
     log.info("=== Lauf Ende, %d Batches fehlgeschlagen ===", failed_batches)
-    if failed_batches:
+    if auth_failed:
+        notify_once("Claude-Anmeldung abgelaufen. Im Terminal 'claude /login' ausfuehren, dann laeuft alles wieder")
+    elif failed_batches:
         notify_once("Kuratierung unvollstaendig (Mac im Ruhezustand oder Anmeldung abgelaufen?). Der naechste Lauf holt nach, siehe Log")
     return 0 if failed_batches == 0 else 1
 
