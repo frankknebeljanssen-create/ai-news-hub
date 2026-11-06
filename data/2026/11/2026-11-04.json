@@ -1,38 +1,34 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-06T15:47:26+01:00",
+ "generated_at": "2026-11-07T00:42:12+01:00",
  "overview": [
   {
    "id": "4810c72c478e",
-   "text": "Ein Gutachten am Europäischen Gerichtshof hält Urheberrechtsverstöße durch Chatbots für möglich, was das Geschäft mit KI-Modellen unter Druck setzen könnte."
+   "text": "Ein Gutachten am Europäischen Gerichtshof hält Urheberrechtsverstöße durch Chatbots für möglich, was Geschäftsmodelle rund um KI-Modelle unter Druck setzt."
   },
   {
    "id": "2b3efec9a257",
-   "text": "Das Bundesarbeitsministerium will laut Bericht ab 2027 ein kostenloses Online-Angebot für KI-Weiterbildung bereitstellen."
+   "text": "Das Bundesarbeitsministerium will ab 2027 ein kostenloses Online-Angebot zur KI-Weiterbildung bereitstellen."
+  },
+  {
+   "id": "a4f4c423c542",
+   "text": "Eine automatisierte OpenAI-Pipeline hat 948 Sicherheitslücken im Linux-Kernel aufgespürt, verifiziert und dazu passende Korrekturen erzeugt."
+  },
+  {
+   "id": "fafef2416710",
+   "text": "Oracle beendet offenbar einen Vertrag mit Tencent über mehr als sieben Milliarden Dollar, der dem Konzern bis zu 100.000 KI-Chips verschafft hätte."
   },
   {
    "id": "715b1c2c85cf",
-   "text": "Mit einer Asienreise zu Halbleiterpartnern und einer nationalen Rechenzentrumsstrategie will die Bundesregierung das Fundament für den KI-Ausbau legen."
+   "text": "Kanzler Merz sicherte in Singapur, Japan und Südkorea Lieferketten für den KI-Ausbau, begleitet von einer nationalen Rechenzentrumsstrategie."
   },
   {
-   "id": "31bba1eca5b3",
-   "text": "In Texas, dem am schnellsten wachsenden Rechenzentrumsmarkt der USA, könnte der Wahlsieg der Demokraten die Genehmigungen für neue KI-Projekte bremsen."
+   "id": "0a437d67f2ef",
+   "text": "OpenAI veröffentlicht Images 2.6 mit schnellerer Bildgenerierung, neuer GIF-Funktion und feinerer Bearbeitung in ChatGPT, Codex und API."
   },
   {
    "id": "961bc4b8266e",
-   "text": "Ein Kommentar fordert eine unabhängige Prüfinstanz nach Vorbild des TÜV, weil Sicherheitsvorfälle und überzogene Erwartungen das Vertrauen in KI schwächen."
-  },
-  {
-   "id": "62b32a484df1",
-   "text": "Laut EuroCloud Pulse Check 2026 wollen 53 Prozent der befragten Unternehmen ihre KI-Anwendungen bei europäischen Cloud-Anbietern betreiben."
-  },
-  {
-   "id": "d38e5721532e",
-   "text": "Apple testet seine KI-Funktionen in China mit dem Assistenten Qwen von Alibaba und zeigt damit die Abhängigkeit von einem lokalen Partner."
-  },
-  {
-   "id": "416b7eba9f32",
-   "text": "Weil KI-Agenten Ergebnisse ungeprüft an weitere Agenten übergeben, soll eine dokumentierte Datenherkunft Fehler und Berechtigungsverstöße sichtbar machen."
+   "text": "Ein Kommentar fordert eine unabhängige Prüfstelle für KI-Systeme nach dem Vorbild des TÜV, weil das Vertrauen in die Technik schwindet."
   }
  ],
  "items": [
@@ -57,6 +53,40 @@
    "added": "2026-11-06T15:39:19+01:00",
    "quelle_titel": "KI-Weiterbildung: Arbeitsministerium plant kostenloses Online-Angebot ab 2027",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUXZkVmVwZ2o2YmJBYWhBZV83NGRJQ05aSHI0VnYzQ1BkSkwzdkZiemthcjg3ejI5N2hjYnZhdXRQenE5N2VpQUJrcW92MHMtTmxweUxoaHF1T3JHWEtHeVd0ZFFoN3htVW0wY195M1k4b2xra1lwbW1Gb0VoUmhMd0xnSXZtbWo1ZFFzTF9uN1dKVHJGWmo5X01NT2JtWFhkeGtxb243UVFaaFpmREhRZVFoTVl3MWJVOVI1dmhYSkc?oc=5"
+  },
+  {
+   "id": "a4f4c423c542",
+   "date": "2026-11-04",
+   "published": "2026-11-04T09:00+01:00",
+   "headline": "KI-Pipeline findet und flickt 948 Linux-Kernel-Lücken",
+   "summary": "OpenAI hat ein automatisiertes System gebaut, das Schwachstellen im Linux-Kernel aufspürt, verifiziert und passende Korrekturen erzeugt. Dabei kamen 948 Lücken zusammen, über die sich lokal höhere Rechte erschleichen ließen. Das zeigt, wie stark KI die Suche nach Sicherheitsfehlern in großen Codebasen beschleunigen kann.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "sicherheitslücken",
+    "linux-kernel",
+    "openai",
+    "automatisierung",
+    "patches"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-11-07T00:35:44+01:00",
+   "kurios": "Fast 1000 Kernel-Lücken in einem einzigen automatisierten Durchlauf gefunden",
+   "quelle_titel": "A thousand fewer paths to root",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/openai-ki-agenten-finden-und-schliessen-948-luecken-im-linux-kernel-1772170"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/openai-linux-security-bugs-ai-windows-patches/"
+    }
+   ],
+   "kontext": "Hinter dem Ergebnis steht ein Prototyp von OpenAI, der verdächtige Codestellen nicht nur meldet, sondern die Schwachstellen auch praktisch nachstellt und dann Korrekturen vorschlägt. Welches System genau geprüft wurde, nennt das Unternehmen nicht, die Rechenkosten lagen im Millionenbereich. Der eigentliche Engpass ist aus seiner Sicht das Flicken: Entwicklerteams kommen mit der steigenden Zahl an Funden kaum mehr mit. Automatisch erzeugte Patches sollen das Zeitfenster für Angriffe verkleinern."
   },
   {
    "id": "4810c72c478e",
@@ -100,7 +130,33 @@
    "added": "2026-11-06T15:37:41+01:00",
    "quelle_titel": "Go1 bringt Kurse der OpenAI Academy in betriebliche Lernsysteme",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLXdpeUFGZ05HUlJ4aVN2SHl4Z1hDMXpCNWpHRE42eUNjY1E3UTJQTktYY0tvTHhtVDd3ZVNHQm9DNUx5ZEdvZkk3RnI0ZHgxMGUycnFFSlZ3Uk1YMG9KTUJoOVZUSVVxNjlxbzhfcVBKU24xZDRfM2l1dGFjbmNldDhyQU04dTJac2dudHJLUF9UUQ?oc=5",
-   "dup_of": "c1f65f57a861"
+   "also": [
+    {
+     "source": "BornCity",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd0U0eTRhWHlrRnZlMUVsR3NQajI1blZtbUJRcHlSeDFuOTRhOE1hV29BS2JWUS1OLV9YZmljS0pnUDdONC1FY014bHRyLUgxcGZVajhySGhZRWpuV2pFQ2hSMUVMM002NHNDeUVnTUVGVzV0ZDhPYmdscVpycVNwVERuSzY0RXF2R3FVZGZ1NXZrNS1qNG1xVF85QnNYcFhFM2FPVw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "0a437d67f2ef",
+   "date": "2026-11-04",
+   "published": "2026-11-04T01:00+01:00",
+   "headline": "Images 2.6: OpenAI beschleunigt Bildgenerierung und ergänzt GIF-Funktion",
+   "summary": "OpenAI hat eine neue Version seines Bildmodells vorgestellt, die Bilder schneller erzeugt und erstmals auch GIFs erstellen kann. Dazu kommen präzisere Bearbeitungsmöglichkeiten und zusätzliche Steuerungsoptionen über die Schnittstelle. Verfügbar ist die Neuerung in ChatGPT, in Codex sowie über die API.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "bildgenerierung",
+    "api",
+    "chatgpt"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-11-07T00:35:58+01:00",
+   "quelle_titel": "Introducing Images 2.6",
+   "url": "https://openai.com/index/introducing-images-2-6"
   },
   {
    "id": "bb66ff855418",
@@ -170,6 +226,29 @@
    "praxis": true,
    "quelle_titel": "AI Readiness: Wie viel Unternehmenswissen braucht meine KI?",
    "url": "https://www.computerwoche.de/article/4243867/ai-readiness-wie-viel-unternehmenswissen-braucht-meine-ki.html"
+  },
+  {
+   "id": "fafef2416710",
+   "date": "2026-11-04",
+   "published": "2026-11-04T09:06+01:00",
+   "headline": "Oracle kippt Milliardendeal mit Tencent über KI-Chips",
+   "summary": "Oracle beendet offenbar einen Vertrag mit Tencent im Wert von mehr als sieben Milliarden Dollar. Der chinesische Konzern hätte darüber Zugriff auf bis zu 100.000 KI-Chips in mehreren Rechenzentren erhalten. Hintergrund ist der steigende politische Druck auf US-Anbieter, Geschäfte mit chinesischen Kunden zurückzufahren.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "oracle",
+    "tencent",
+    "ki-chips",
+    "rechenzentren",
+    "exportdruck"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-11-07T00:35:44+01:00",
+   "paywall": true,
+   "quelle_titel": "KI-Chips: Oracle streicht offenbar Vertrag mit Tencent, über sieben Milliarden Dollar",
+   "url": "https://www.handelsblatt.com/technik/ki/ki-chips-oracle-streicht-offenbar-milliardenschweren-vertrag-mit-tencent/100267182.html"
   },
   {
    "id": "a9c764a570d8",
@@ -259,17 +338,8 @@
    "paywall": true,
    "quelle_titel": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
    "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-   "also": [
-    {
-     "source": "Deutschlandfunk",
-     "url": "https://www.deutschlandfunk.de/demokratische-designierte-texas-gouverneurin-hinojosa-will-bau-von-rechenzentren-fuer-ki-eindaemmen-100.html"
-    },
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/rechenzentren-nach-den-midterms-warum-das-ende-des-ausbau-booms-droht-1771894"
-    }
-   ],
-   "kontext": "Rechenzentren waren im texanischen Wahlkampf ein Dauerthema. Mit James Talarico stellen die Demokraten künftig einen US-Senator, Gina Hinojosa setzte sich gegen Amtsinhaber Greg Abbott durch, und im Repräsentantenhaus des Bundesstaats haben sie erstmals seit mehr als zwei Jahrzehnten die Mehrheit. Hinojosa hat bereits angekündigt, neue KI-Rechenzentren vorerst nicht genehmigen zu wollen. Damit stehen Großprojekte der Tech-Konzerne plötzlich zur Verhandlung."
+   "kontext": "Rechenzentren waren im texanischen Wahlkampf ein Dauerthema. Mit James Talarico stellen die Demokraten künftig einen US-Senator, Gina Hinojosa setzte sich gegen Amtsinhaber Greg Abbott durch, und im Repräsentantenhaus des Bundesstaats haben sie erstmals seit mehr als zwei Jahrzehnten die Mehrheit. Hinojosa hat bereits angekündigt, neue KI-Rechenzentren vorerst nicht genehmigen zu wollen. Damit stehen Großprojekte der Tech-Konzerne plötzlich zur Verhandlung.",
+   "dup_of": "fc8f30aee8f3"
   },
   {
    "id": "be87374ca18e",
@@ -314,7 +384,51 @@
    "added": "2026-11-06T15:37:41+01:00",
    "quelle_titel": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
    "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
-   "kontext": "Hinter dem Votum stehen Dutzende lokale Abstimmungen, bei denen Gemeinden in zehn Bundesstaaten Moratorien und strengere Auflagen für Rechenzentren durchsetzten. Besonders schwer wiegt der Regierungswechsel in Texas, dem Zentrum des geplanten Ausbaus: Dort sollen Projekte ruhen, bis Gesetze zu Wasser, Strom und Eigentumsrechten stehen. Analysten erwarten Verzögerungen vor allem bei Vorhaben ab 2028 und Abwanderung in andere Bundesstaaten. Für Trumps Ausbaupläne ist das ein empfindlicher Bremsklotz."
+   "kontext": "Hinter dem Votum stehen Dutzende lokale Abstimmungen, bei denen Gemeinden in zehn Bundesstaaten Moratorien und strengere Auflagen für Rechenzentren durchsetzten. Besonders schwer wiegt der Regierungswechsel in Texas, dem Zentrum des geplanten Ausbaus: Dort sollen Projekte ruhen, bis Gesetze zu Wasser, Strom und Eigentumsrechten stehen. Analysten erwarten Verzögerungen vor allem bei Vorhaben ab 2028 und Abwanderung in andere Bundesstaaten. Für Trumps Ausbaupläne ist das ein empfindlicher Bremsklotz.",
+   "dup_of": "fc8f30aee8f3"
+  },
+  {
+   "id": "bf25be8f8779",
+   "date": "2026-11-04",
+   "published": "2026-11-04T01:00+01:00",
+   "headline": "DevRev automatisiert Kundenservice mit OpenAI-Modell GPT-6.1 Sol",
+   "summary": "Das Softwareunternehmen DevRev setzt GPT-6.1 Sol ein, um seine Produkte Computer und Operator anzutreiben und Serviceanfragen eigenständig abzuarbeiten. Laut der Darstellung geht es dabei um eine Balance aus Denkleistung, Geschwindigkeit und Kosten im Unternehmenseinsatz. Der Fall zeigt, wie Firmen Support zunehmend an KI-Agenten übergeben.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "ki-agenten",
+    "kundenservice",
+    "automatisierung"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-11-07T00:35:58+01:00",
+   "quelle_titel": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+   "url": "https://openai.com/index/devrev-enterprise-self-service"
+  },
+  {
+   "id": "75679f5aa60b",
+   "date": "2026-11-04",
+   "published": "2026-11-04T08:00+01:00",
+   "headline": "OpenAI bringt Cyber-Modell in die AWS-Cloud für US-Behörden",
+   "summary": "Mit Daybreak Red wird GPT-5.6 Cyber über Amazon Bedrock in der AWS GovCloud für die US-Ostküstenregion verfügbar. Zugang erhalten nur freigegebene Kunden, die damit autorisierte Aufgaben im Bereich Cybersicherheit bearbeiten. Der Schritt öffnet streng regulierten Behördenumgebungen den Weg zu spezialisierten KI-Modellen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "aws",
+    "govcloud",
+    "cybersecurity",
+    "bedrock"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-11-07T00:35:44+01:00",
+   "quelle_titel": "Daybreak Red is now available in AWS GovCloud (US-East)",
+   "url": "https://openai.com/index/daybreak-red-aws-govcloud"
   },
   {
    "id": "d38e5721532e",
@@ -336,6 +450,28 @@
    "added": "2026-11-06T15:38:39+01:00",
    "quelle_titel": "Apple startet AI-Probelauf in China mit Alibaba-Assistent Qwen",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPejRHWlVYT2Vhd0JYX3UtbG5XZDI2Rm9XSVJ3aUx2N3lUekhvZU9BdVlidDFEb2h0eTFvQUFqN25nZWFtUi02ZWNMRHJaMGNKM2cxUTZrdHdwYjVrdmVvT3ZMbUQ1dDNuZzNqNU1mdjB5bzBxWXFudHpJbHpoOE5LVlc0Yng1VGJOVXItOGFnQy0tZDBnekNrM3FiSFY4Zw?oc=5"
+  },
+  {
+   "id": "f3040b7382b6",
+   "date": "2026-11-04",
+   "published": "2026-11-04T10:50+01:00",
+   "headline": "Apple testet KI-Funktionen in China mit Alibabas Qwen",
+   "summary": "Apple startet in China einen Probelauf für KI-Funktionen und setzt dabei auf den Assistenten Qwen von Alibaba. Der Konzern greift damit für den chinesischen Markt auf einen lokalen Partner zurück.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "apple",
+    "alibaba",
+    "qwen",
+    "china",
+    "assistent"
+   ],
+   "source": "Yahoo Nachrichten",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-07T00:35:44+01:00",
+   "quelle_titel": "Apple startet AI-Probelauf in China mit Alibaba-Assistent Qwen",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTGZENU9QYXl1SXl5ZzMtWE52VTNsVld1TTZwWndVYXByRkJYOUdaT0xIdmxaV25mXzlTdkhrUXNwNm15enVrX2c5ZDRkMl9yX0NTR0NkbVJ2SF82Vi1YYWd3UndUYWVfS0l4Z3dnRjBBUENxQTBwdVNHdU9WYmZqVE16WnJVWHM?oc=5"
   },
   {
    "id": "961bc4b8266e",
