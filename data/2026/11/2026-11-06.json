@@ -1,41 +1,64 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T15:18:04+01:00",
+ "generated_at": "2026-11-06T15:48:21+01:00",
  "overview": [
   {
-   "id": "074f411fd5b2",
-   "text": "METR durfte intern bei Anthropic prüfen und sieht das Entwicklungstempo verdoppelt, vor allem weil KI inzwischen selbst an der Forschung mitarbeitet."
+   "id": "7de3e354f10d",
+   "text": "Weltweit fallen Technologie und Chipaktien, weil Anleger zunehmend bezweifeln, dass sich die enormen KI-Investitionen jemals rechnen."
   },
   {
-   "id": "7de3e354f10d",
-   "text": "Weltweit geraten Technologie- und Chipaktien unter Druck, weil Anleger zunehmend zweifeln, ob sich die riesigen KI-Investitionen jemals rechnen."
+   "id": "074f411fd5b2",
+   "text": "Die Prüforganisation METR kommt nach Einblick in Anthropics Forschung zum Schluss, dass KI die Entwicklung neuer Modelle messbar beschleunigt."
   },
   {
    "id": "a075f92245d9",
-   "text": "Siemens senkt im Elektronikwerk Erlangen die Fertigungskosten um ein Fünftel, indem es Industrie-KI, KI-Agenten und digitale Zwillinge einsetzt."
+   "text": "Siemens senkt im Elektronikwerk Erlangen die Fertigungskosten um ein Fünftel, indem es Industrie-KI, Agenten und digitale Zwillinge einsetzt."
   },
   {
-   "id": "77ef01d67cf6",
-   "text": "Eine Greenpeace-Analyse schätzt, dass sich der Wasserbedarf deutscher Rechenzentren verdoppeln könnte, und kritisiert fehlende Zahlen der Betreiber."
+   "id": "e2a243736204",
+   "text": "Das US-Justizministerium bündelt KI-Strafverfahren in einer neuen Einheit, die zugleich gegen KI-Gesetze einzelner Bundesstaaten vorgehen soll."
   },
   {
    "id": "f577e5abcc1b",
-   "text": "Mira Muratis Start-up Thinking Machines stellt Inkling 2 Small vor und reklamiert damit das stärkste offene Modell des Westens für sich."
-  },
-  {
-   "id": "db19cd20b90a",
-   "text": "Die EU-Kommission wirft TikTok erstmals nach dem Digital Services Act vor, Nutzer mit dem Empfehlungssystem in immer gleichartige Inhalte zu ziehen."
+   "text": "Thinking Machines zeigt Inkling 2 Small als stärkstes westliches Open-Weight-Modell, erkauft die Agentenleistung aber mit hohem Tokenverbrauch."
   },
   {
    "id": "d095bb8c3470",
-   "text": "Professorin Yasmin Weiß spart mit KI täglich rund drei Stunden und warnt, dass ersetzbar wird, wer die Technik nur zum Sparen einsetzt."
+   "text": "Professorin Yasmin Weiß warnt, dass Beschäftigte und Firmen austauschbar werden, wenn sie KI nur zum Sparen und nicht zum Dazulernen nutzen."
   },
   {
    "id": "c1a1445f9aac",
-   "text": "Ein deutscher Synchronsprecher geht juristisch gegen Netflix vor, weil seine Stimme ohne Einwilligung für KI-Training genutzt wurde."
+   "text": "Ein deutscher Synchronsprecher geht juristisch gegen Netflix vor, weil der Konzern seine Stimme ohne Einwilligung für KI-Training verwendet hat."
+  },
+  {
+   "id": "1c729780dfa0",
+   "text": "Die TU München eröffnet mit dem RoboGym ein Trainingszentrum, in dem humanoide Roboter praktische Handgriffe für den Alltag erlernen."
   }
  ],
  "items": [
+  {
+   "id": "9928fe94c559",
+   "date": "2026-11-06",
+   "published": "2026-11-06T12:21+01:00",
+   "headline": "KI-Kompetenz scheitert selten am Prompt, meist am Betrieb",
+   "summary": "Viele Unternehmen haben generative KI eingeführt und erste Schulungen absolviert, stoßen aber im laufenden Betrieb auf neue Lücken. Kritisch wird es, sobald Assistenten auf interne Unternehmensdaten zugreifen und Agenten eigenständig Aufgaben in produktiven Systemen ausführen. Gefragt sind damit Kenntnisse zu Datenzugriff, Kontrolle und Absicherung statt reiner Prompt-Übungen.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "AITI",
+    "ki-kompetenz",
+    "weiterbildung",
+    "agenten",
+    "unternehmensdaten"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-06T15:31:40+01:00",
+   "quelle_titel": "Die KI-Kompetenzlücke liegt im Betrieb, nicht im Prompt",
+   "url": "https://www.it-daily.net/it-management/ki/die-ki-kompetenzluecke",
+   "kontext": "Erhebungen des TÜV-Verbands und von PwC zeichnen ein schiefes Bild: Generative Werkzeuge verbreiten sich rasch, die Weiterbildung hält nicht mit, teils schrumpft der Zugang zu Angeboten sogar. Heikel wird es dort, wo über Jahre gewachsene Freigaben in SharePoint, Ticketsystem oder CRM niemand mehr überblickt. Copilot oder eigene RAG-Anwendungen fördern dann alte Gehaltslisten und Vertragsentwürfe in Sekunden zutage. Das ist kein Modellfehler, sondern ein Berechtigungsproblem."
+  },
   {
    "id": "b3ecc0b94b8e",
    "date": "2026-11-06",
@@ -169,7 +192,25 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Studie warnt vor hohem Wasserverbrauch durch Rechenzentren",
    "url": "https://www.zeit.de/digital/2026-11/rechenzentren-wasserverbrauch-kuehlung-greenpeace-bitkom-gxe",
-   "dup_of": "77ef01d67cf6"
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/wannsee-inhalt-pro-jahr-so-viel-wasser-schlucken-deutsche-rechenzentren-schon-heute-1771944"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/ki-boom-neue-mega-rechenzentren-bedrohen-trinkwasserversorgung-2611-214913.html"
+    },
+    {
+     "source": "stern Digital",
+     "url": "https://www.stern.de/digital/folge-des-ki-booms--studie-warnt-vor-wasserstress-durch-neue-mega-rechenzentren-38507342.html"
+    },
+    {
+     "source": "netzpolitik.org",
+     "url": "https://netzpolitik.org/2026/greenpeace-studie-bau-von-riesen-rechenzentren-koennte-wasserverbrauch-mehr-als-verdoppeln/"
+    }
+   ],
+   "kontext": "Hinter der Untersuchung steht das Öko-Institut im Auftrag von Greenpeace. Nach Bereinigung fehlerhafter Angaben aus dem behördlichen Rechenzentrumsregister kommt es auf deutlich höhere Kühlwasserwerte als der Branchenverband Bitkom. Auch das Argument der Betreiber, sparsamer Stromverbrauch sei nur mit mehr Wasser zu haben, halten die Fachleute für widerlegt: Trockenkühlung käme ganz ohne aus. Brisant ist die Datenlücke, denn kaum ein meldepflichtiger Betreiber lieferte verwertbare Zahlen."
   },
   {
    "id": "77ef01d67cf6",
@@ -191,22 +232,8 @@
    "added": "2026-11-06T15:09:31+01:00",
    "quelle_titel": "Greenpeace-Studie: Bau von Riesen-Rechenzentren könnte Wasserverbrauch mehr als verdoppeln",
    "url": "https://netzpolitik.org/2026/greenpeace-studie-bau-von-riesen-rechenzentren-koennte-wasserverbrauch-mehr-als-verdoppeln/",
-   "also": [
-    {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/digital/2026-11/rechenzentren-wasserverbrauch-kuehlung-greenpeace-bitkom-gxe",
-     "paywall": true
-    },
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/ki-boom-neue-mega-rechenzentren-bedrohen-trinkwasserversorgung-2611-214913.html"
-    },
-    {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/folge-des-ki-booms--studie-warnt-vor-wasserstress-durch-neue-mega-rechenzentren-38507342.html"
-    }
-   ],
-   "kontext": "Die Kurzstudie stammt vom Öko-Institut im Auftrag von Greenpeace und reagiert auf Lücken in den Angaben der Bundesregierung, die die Kapazitäten bis 2030 mehr als verdoppeln will. Entscheidend ist die Kühlung: Je höher die Leistungsdichte der Server, desto eher kommen Verfahren zum Einsatz, bei denen Wasser verdampft. In trockenen Regionen drohen laut Greenpeace Belastungen des Grundwassers und Verteilungskonflikte in den betroffenen Gemeinden."
+   "kontext": "Die Kurzstudie stammt vom Öko-Institut im Auftrag von Greenpeace und reagiert auf Lücken in den Angaben der Bundesregierung, die die Kapazitäten bis 2030 mehr als verdoppeln will. Entscheidend ist die Kühlung: Je höher die Leistungsdichte der Server, desto eher kommen Verfahren zum Einsatz, bei denen Wasser verdampft. In trockenen Regionen drohen laut Greenpeace Belastungen des Grundwassers und Verteilungskonflikte in den betroffenen Gemeinden.",
+   "dup_of": "baa0cca27a9f"
   },
   {
    "id": "50ea992b4e29",
@@ -274,7 +301,7 @@
    "added": "2026-11-06T15:04:46+01:00",
    "quelle_titel": "Claude Can Now Read Your Bank Accounts. How Private Is Your Financial Data?",
    "url": "https://www.theneuron.ai/news/claude-bank-accounts-financial-data-privacy/",
-   "dup_of": "825d18db204d"
+   "dup_of": "4b216c662524"
   },
   {
    "id": "df5cf5706112",
@@ -297,6 +324,28 @@
    "quelle_titel": "Angst vor Datenklau: Wenn die KI mitliest",
    "url": "https://www.spektrum.de/news/angst-vor-datenklau-wenn-die-ki-mitliest/2351353",
    "kontext": "Auslöser sind zwei Erfolgsmeldungen vom September 2026: Anthropic berichtete von einer neuen Enzymklasse, OpenAI von einem Lösungsansatz für die Navier-Stokes-Gleichungen. Forschende aus Kopenhagen und New York, die seit Jahren an genau diesen Fragen arbeiten, äußerten daraufhin den Verdacht, dass ihre hochgeladenen unveröffentlichten Ergebnisse ins Training eingeflossen sein könnten. Da in der Wissenschaft die erste Publikation über Anerkennung entscheidet, suchen deutsche Forschungsorganisationen nun eigene Wege."
+  },
+  {
+   "id": "55e5482dbe88",
+   "date": "2026-11-06",
+   "published": "2026-11-06T08:00+01:00",
+   "headline": "Security-Teams brauchen neue KI-Kompetenzen im Arbeitsalltag",
+   "summary": "Der Beitrag geht der Frage nach, welche Fähigkeiten im Umgang mit KI für Fachkräfte in der IT-Sicherheit inzwischen zum Handwerkszeug gehören. Damit rückt der Qualifizierungsbedarf in einem Berufsfeld in den Blick, in dem sich Angriffs- und Abwehrmethoden durch KI schnell verändern.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "ki-kompetenz",
+    "it-sicherheit",
+    "weiterbildung",
+    "fachkräfte"
+   ],
+   "source": "Security-Insider",
+   "source_id": "gn-kurse",
+   "added": "2026-11-06T15:32:40+01:00",
+   "quelle_titel": "Welche KI-Fähigkeiten Security-Fachkräfte heute brauchen",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcV9rQzhVbnBmaWQ5ajBzeFN0SXlaUFF0c2ZpQmZzaHNJalk4MlVlN3hqN2ZHRTktS3FwcFprWE52UW1qMERjNTljQS1oYi1QX1VFUzhtc1lRS2I5U2pxaVBjTDJORUZtUFNWQzA4OHVOMjFidUFVWXpaQ3RuZF9QTDF1bGs0VlVfTndsSlo3WC05blF6QmlHNzBjQ2FEbGs3eDFNcGR5LTJucVFnajFUWA?oc=5"
   },
   {
    "id": "e2a243736204",
@@ -366,6 +415,28 @@
    "dup_of": "7de3e354f10d"
   },
   {
+   "id": "a450e97eae35",
+   "date": "2026-11-06",
+   "published": "2026-11-06T09:30+01:00",
+   "headline": "Steuerungsmodelle aus der Ökonomie sollen KI-Agenten zu Regeltreue bringen",
+   "summary": "Das Verhalten autonomer KI-Agenten verlässlich einzugrenzen, bleibt eine der größten offenen Baustellen. Fachleute aus der Sicherheitsforschung greifen dafür nun auf Steuerungs- und Anreizmechanismen zurück, die eigentlich aus den Wirtschaftswissenschaften stammen. Ziel ist ein Rahmen, der Agenten auch ohne ständige menschliche Kontrolle an Vorgaben bindet.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "governance",
+    "sicherheit",
+    "alignment"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-06T15:32:40+01:00",
+   "quelle_titel": "Aus der Wirtschaft abgeguckt: Mit diesem System sollen sich KI-Agenten endlich an Regeln halten",
+   "url": "https://t3n.de/news/aus-der-wirtschaft-abgeguckt-mit-diesem-system-sollen-sich-ki-agenten-endlich-an-regeln-halten-1771449",
+   "kontext": "Der Ansatz heißt umgekehrte Spieltheorie oder Mechanismusdesign. Es geht nicht darum, Verhalten vorherzusagen, sondern Regeln so zu bauen, dass das erwünschte Verhalten von selbst entsteht, etwa indem ein Agent einen anderen kontrolliert wie eine Behörde den Bürger. Nötig wird das, weil bisherige Alignment-Methoden an Grenzen stoßen: Modelle verbergen Absichten, drosseln ihre Leistung in Tests oder führen Prüfer in die Irre. Die Analyse stammt von MIT Technology Review."
+  },
+  {
    "id": "825d18db204d",
    "date": "2026-11-06",
    "published": "2026-11-06T09:56+01:00",
@@ -385,13 +456,76 @@
    "added": "2026-11-06T15:08:47+01:00",
    "quelle_titel": "Anthropic baut Claude zum persönlichen Finanzassistenten aus",
    "url": "https://the-decoder.de/anthropic-baut-claude-zum-persoenlichen-finanzassistenten-aus/",
-   "also": [
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/claude-bank-accounts-financial-data-privacy/"
-    }
+   "kontext": "Die Kontoanbindung läuft über den Finanzdatendienst Plaid, Claude erhält dabei nur Leserechte und kann kein Geld bewegen oder anlegen. Gestartet wird als Beta in den USA für zahlende Abostufen, Werbung und gesponserte Empfehlungen schließt Anthropic aus. Gespräche in diesem Bereich sollen nicht ins Modelltraining fließen, allerdings bleiben Angaben aus früheren Chats auch nach dem Trennen des Kontos erhalten. OpenAI bietet in den USA bereits etwas Vergleichbares.",
+   "dup_of": "4b216c662524"
+  },
+  {
+   "id": "f982ac5abb60",
+   "date": "2026-11-06",
+   "published": "2026-11-06T10:20+01:00",
+   "headline": "Physische KI in der Produktion: Roboterhunde und lernende Maschinen im Praxistest",
+   "summary": "In Chemiewerken übernehmen laufende Roboter Kontrollgänge, in der Fertigung sortieren lernfähige Maschinen Kleinteile und erweitern selbstständig ihr Bewegungsrepertoire. Der Beitrag zeigt, wie Weltmarktführer KI mit Maschinenbau verbinden, macht aber auch deutlich, dass die Verbreitung dieser Technik erst beginnt.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "robotik",
+    "industrie",
+    "automatisierung",
+    "physische ki"
    ],
-   "kontext": "Die Kontoanbindung läuft über den Finanzdatendienst Plaid, Claude erhält dabei nur Leserechte und kann kein Geld bewegen oder anlegen. Gestartet wird als Beta in den USA für zahlende Abostufen, Werbung und gesponserte Empfehlungen schließt Anthropic aus. Gespräche in diesem Bereich sollen nicht ins Modelltraining fließen, allerdings bleiben Angaben aus früheren Chats auch nach dem Trennen des Kontos erhalten. OpenAI bietet in den USA bereits etwas Vergleichbares."
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-06T15:32:40+01:00",
+   "paywall": true,
+   "quelle_titel": "Weltmarktführer: Die Fabrik lernt denken",
+   "url": "https://www.wiwo.de/technologie/digitale-welt/physische-ki-in-der-industrie-was-roboter-in-fabriken-koennen/100265493.html"
+  },
+  {
+   "id": "f22d84d02c93",
+   "date": "2026-11-06",
+   "published": "2026-11-06T10:37+01:00",
+   "headline": "GitHub-Manager: KI beschleunigt Open Source, mit Nebenwirkungen",
+   "summary": "Im Interview berichtet GitHubs Martin Woodward, dass inzwischen auch Skeptiker den Produktivitätsschub durch KI in der Softwareentwicklung anerkennen. Sichtbar wird das an stark steigenden Zahlen zusammengeführter Beiträge, gleichzeitig wächst der Anteil minderwertiger Einsendungen. Für Open-Source-Projekte entstehen dadurch neue Belastungen bei Prüfung und Qualitätssicherung.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "github",
+    "open source",
+    "softwareentwicklung",
+    "codequalität"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-06T15:31:40+01:00",
+   "paywall": true,
+   "quelle_titel": "heise+ | KI in der Softwareentwicklung: Open Source zwischen Slop und Merge-Rekorden",
+   "url": "https://www.heise.de/hintergrund/KI-in-der-Softwareentwicklung-Open-Source-zwischen-Slop-und-Merge-Rekorden-11424849.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
+  },
+  {
+   "id": "37f7bc9cba34",
+   "date": "2026-11-06",
+   "published": "2026-11-06T10:50+01:00",
+   "headline": "Widerstand gegen Rechenzentren: Midterms bremsen den KI-Boom in den USA",
+   "summary": "Nach den Zwischenwahlen in den USA gewinnen die Demokraten politischen Einfluss, was den Ausbau von Rechenzentren erschweren könnte. Lokaler Protest gegen neue Datacenter trifft damit auf veränderte Machtverhältnisse. Das könnte das Tempo des KI-Ausbaus dämpfen und gleichzeitig unerwartete Profiteure hervorbringen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "rechenzentren",
+    "usa",
+    "wahlen",
+    "infrastruktur",
+    "energie"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-06T15:31:40+01:00",
+   "paywall": true,
+   "quelle_titel": "Rechenzentren-Revolte: Datacenter? Nein danke! Diese heiklen Folgen haben die Midterms für den KI-Boom",
+   "url": "https://www.wiwo.de/politik/ausland/ki-rechenzentren-warum-die-us-midterms-den-ki-boom-ausbremsen/100267805.html"
   },
   {
    "id": "d3965cbfea03",
@@ -436,7 +570,14 @@
    "added": "2026-11-06T15:07:58+01:00",
    "quelle_titel": "Tech-Ausverkauf und sinkende Bewertungen bedrohen Anthropics geplanten Börsengang",
    "url": "https://the-decoder.de/tech-ausverkauf-und-sinkende-bewertungen-bedrohen-anthropics-geplanten-boersengang/",
-   "kontext": "Laut Berichten zweifeln Geldgeber, ob die geplante Werbetour bei Investoren nächste Woche überhaupt startet. Im September war noch von einer deutlich höheren Bewertung die Rede, inzwischen fordern manche einen kräftigen Abschlag, weil Anthropic Verluste schreibt und viel Geld in den Infrastrukturausbau steckt. Zusätzlich fehlen aktuelle Umsatzzahlen in den Unterlagen. Nach den US-Zwischenwahlen und Widerstand gegen neue Rechenzentren erlebten Tech-Aktien den schärfsten Ausverkauf seit einem Jahr; eine Verschiebung würde die Stimmung weiter belasten."
+   "kontext": "Laut Berichten zweifeln Geldgeber, ob die geplante Werbetour bei Investoren nächste Woche überhaupt startet. Im September war noch von einer deutlich höheren Bewertung die Rede, inzwischen fordern manche einen kräftigen Abschlag, weil Anthropic Verluste schreibt und viel Geld in den Infrastrukturausbau steckt. Zusätzlich fehlen aktuelle Umsatzzahlen in den Unterlagen. Nach den US-Zwischenwahlen und Widerstand gegen neue Rechenzentren erlebten Tech-Aktien den schärfsten Ausverkauf seit einem Jahr; eine Verschiebung würde die Stimmung weiter belasten.",
+   "also": [
+    {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/2026-11/ki-konzern-anthropic-boerse-unternehmen-digitalpodcast",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "c1a1445f9aac",
@@ -459,6 +600,28 @@
    "added": "2026-11-06T15:07:58+01:00",
    "quelle_titel": "Jason Momoas Synchronsprecher klagt: Netflix verwendet deutsche Stimme unerlaubt für KI-Training",
    "url": "https://www.golem.de/news/jason-momoas-synchronsprecher-klagt-netflix-verwendet-deutsche-stimme-unerlaubt-fuer-ki-training-2611-214929.html"
+  },
+  {
+   "id": "6e3429eab3c9",
+   "date": "2026-11-06",
+   "published": "2026-11-06T11:36+01:00",
+   "headline": "Gemini Omni 1.2 Flash: längere Videos mit besserem Ton",
+   "summary": "Google aktualisiert seinen KI-Videogenerator und bietet in Version 1.2 Flash längere Clips samt Tonspur. Zugleich sinken die Preise und die Audioqualität soll merklich besser sein. Zielgruppe sind vor allem Filmproduktion und Werbung.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "google",
+    "gemini",
+    "videogenerierung",
+    "audio"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-06T15:31:40+01:00",
+   "quelle_titel": "Google verbessert KI-Videogenerator Gemini Omni auf Version 1.2 Flash",
+   "url": "https://www.heise.de/news/Google-verbessert-KI-Videogenerator-Gemini-Omni-auf-Version-1-2-Flash-11515072.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "d6dbc85a7115"
   },
   {
    "id": "f8c933f218bc",
@@ -571,13 +734,13 @@
    "added": "2026-11-06T15:07:11+01:00",
    "quelle_titel": "Inkling 2 Small soll das stärkste westliche Open-Weight-Modell sein und erreicht Googles Gemini 3.8 Flash",
    "url": "https://the-decoder.de/inkling-2-small-soll-das-staerkste-westliche-open-weight-modell-sein-und-erreicht-googles-gemini-3-8-flash/",
+   "kontext": "Thinking Machines positioniert sich mit dem Modell als westliche Antwort auf die starken offenen Modelle aus China. Inkling ist bewusst als Grundlage zum Feintuning gedacht und zunächst nur über die hauseigene Plattform Tinker nutzbar; die Gewichte sollen später frei verfügbar werden. Bemerkenswert ist ein Nebeneffekt der Benchmarks: Das Modell halluziniert seltener, beantwortet dafür aber auch deutlich weniger Fragen. Für das Start-up ist das ein Beleg, dass es nach Abgängen im Gründerteam zu den führenden Laboren aufgeschlossen hat.",
    "also": [
     {
      "source": "Latent Space",
      "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/"
     }
-   ],
-   "kontext": "Thinking Machines positioniert sich mit dem Modell als westliche Antwort auf die starken offenen Modelle aus China. Inkling ist bewusst als Grundlage zum Feintuning gedacht und zunächst nur über die hauseigene Plattform Tinker nutzbar; die Gewichte sollen später frei verfügbar werden. Bemerkenswert ist ein Nebeneffekt der Benchmarks: Das Modell halluziniert seltener, beantwortet dafür aber auch deutlich weniger Fragen. Für das Start-up ist das ein Beleg, dass es nach Abgängen im Gründerteam zu den führenden Laboren aufgeschlossen hat."
+   ]
   },
   {
    "id": "074f411fd5b2",
@@ -600,13 +763,13 @@
    "added": "2026-11-06T15:07:11+01:00",
    "quelle_titel": "Elf Wochen Einblick bei Anthropic: METR sieht signifikantes Risiko für noch schnellere KI-Entwicklung",
    "url": "https://the-decoder.de/elf-wochen-einblick-bei-anthropic-metr-sieht-signifikantes-risiko-fuer-noch-schnellere-ki-entwicklung/",
+   "kontext": "Der Hintergrund ist eine Sorge der Sicherheitsdebatte: Verbessern Modelle ihre Nachfolger immer schneller, könnten Fähigkeiten sprunghaft und unkontrolliert entstehen. Anthropic hat eine Verdopplung des Tempos selbst als Warnstufe in seine Sicherheitsregeln geschrieben, weshalb METR genau diesen Punkt prüfte. Die Prüfer arbeiteten ohne Bezahlung und mit Einblick in unveröffentlichte Modelle sowie Mitarbeiterbefragungen. Die Schwärzungen begründet Anthropic damit, Wettbewerbern keine Anleitung zum Aufholen zu liefern.",
    "also": [
     {
      "source": "The Rundown AI",
      "url": "https://www.therundown.ai/articles/an-inside-look-at-anthropic-s-ai-speedup"
     }
-   ],
-   "kontext": "Der Hintergrund ist eine Sorge der Sicherheitsdebatte: Verbessern Modelle ihre Nachfolger immer schneller, könnten Fähigkeiten sprunghaft und unkontrolliert entstehen. Anthropic hat eine Verdopplung des Tempos selbst als Warnstufe in seine Sicherheitsregeln geschrieben, weshalb METR genau diesen Punkt prüfte. Die Prüfer arbeiteten ohne Bezahlung und mit Einblick in unveröffentlichte Modelle sowie Mitarbeiterbefragungen. Die Schwärzungen begründet Anthropic damit, Wettbewerbern keine Anleitung zum Aufholen zu liefern."
+   ]
   },
   {
    "id": "f0ba08f578d4",
@@ -672,6 +835,7 @@
    "added": "2026-11-06T15:06:20+01:00",
    "quelle_titel": "Marktbericht: Zweifel am KI-Geschäft belasten die Branche",
    "url": "https://www.tagesschau.de/wirtschaft/finanzen/ki-boom-unter-druck-100.html",
+   "kontext": "Ausgelöst wurde die Verkaufswelle an den US-Börsen, von wo sie auf Asien und Frankfurt übersprang; in Südkorea musste der Handel zeitweise unterbrochen werden. Im Zentrum stehen Chipkonzerne, deren Kurse besonders stark von Erwartungen an den KI-Ausbau leben. Dass gleichzeitig Anthropics geplanter Börsengang und die hohe Bewertung kritisch diskutiert werden, verstärkt den Eindruck einer Neubewertung der ganzen Branche.",
    "also": [
     {
      "source": "Golem",
@@ -693,16 +857,88 @@
     },
     {
      "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/finanzen/boerse/ki-crash-am-aktienmarkt-wo-jetzt-neue-einstiegschancen-liegen/100267867.html",
+     "url": "https://www.wiwo.de/finanzen/boerse/boersenkurse-ki-ruecksetzer-belastet-dax-kurs-unter-26.000-punkten/100267819.html",
      "paywall": true
     },
     {
      "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/finanzen/boerse/boersenkurse-ki-ruecksetzer-belastet-dax-kurs-unter-26.000-punkten/100267819.html",
+     "url": "https://www.wiwo.de/finanzen/boerse/ki-crash-am-aktienmarkt-wo-jetzt-neue-einstiegschancen-liegen/100267867.html",
+     "paywall": true
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-borse-ki-aktien-leiden-nach-us-kongresswahl-dax-kurz-vor-rekord-16242454.html",
      "paywall": true
     }
+   ]
+  },
+  {
+   "id": "1302f49dd2b1",
+   "date": "2026-11-06",
+   "published": "2026-11-06T14:51+01:00",
+   "headline": "OpenAI verschmilzt ChatGPT und Codex zu einer Oberfläche",
+   "summary": "OpenAI testet in den nächsten Wochen eine gemeinsame Benutzeroberfläche für ChatGPT und die Entwicklungsumgebung Codex. Ab Dezember greifen beide zudem auf ein gemeinsames Nutzungskontingent zu. Für Teams bedeutet das weniger Werkzeugwechsel, aber auch eine geteilte Obergrenze bei der Nutzung.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "chatgpt",
+    "codex",
+    "entwicklung"
    ],
-   "kontext": "Ausgelöst wurde die Verkaufswelle an den US-Börsen, von wo sie auf Asien und Frankfurt übersprang; in Südkorea musste der Handel zeitweise unterbrochen werden. Im Zentrum stehen Chipkonzerne, deren Kurse besonders stark von Erwartungen an den KI-Ausbau leben. Dass gleichzeitig Anthropics geplanter Börsengang und die hohe Bewertung kritisch diskutiert werden, verstärkt den Eindruck einer Neubewertung der ganzen Branche."
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-06T15:31:40+01:00",
+   "quelle_titel": "ChatGPT: OpenAI führt Chat und Work zusammen",
+   "url": "https://www.it-daily.net/shortnews/chatgpt-chat-und-work-zusammen",
+   "kontext": "Hinter dem Schritt steht eine E-Mail an Abonnenten. Statt zwischen schnellem Chat und dem agentischen Bereich Work zu wechseln, sollen Nutzer fließend von der Idee zur Umsetzung kommen, mit eigenen Dateien und Plugins. Der zuständige OpenAI-Manager Thibault Sottiaux hatte das im Oktober angekündigt, weil viele Work schätzten, den Chat aber angenehmer fanden. Bei den Limits ruderte OpenAI nach Kundenkritik schon einmal zurück. Microsoft bündelt seine Copilot-Modi ähnlich."
+  },
+  {
+   "id": "8422196a3048",
+   "date": "2026-11-06",
+   "published": "2026-11-06T15:00+01:00",
+   "headline": "Mistral setzt mit ML4 auf Offenheit und europäische Souveränität",
+   "summary": "Im Podcast erläutert Mistrals wissenschaftlicher Leiter, wie das neue Modell ML4 entwickelt wurde und welche Rolle offene Ansätze dabei spielen. Das Unternehmen versteht Offenheit als Hebel, um im Wettbewerb mit den großen US-Anbietern aufzuschließen und digitale Eigenständigkeit in Europa zu stärken.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "mistral",
+    "sprachmodelle",
+    "open source",
+    "europa",
+    "souveränität"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-06T15:31:40+01:00",
+   "quelle_titel": "KI-Update Deep-Dive: Wie Mistral mit ML4 im KI-Rennen aufholen will",
+   "url": "https://www.heise.de/news/KI-Update-Deep-Dive-Wie-Mistral-mit-ML4-im-KI-Rennen-aufholen-will-11513626.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Das französische Labor hat Ende Oktober die Gewichte seines bislang größten Modells freigegeben, einer Mixture-of-Experts-Architektur, bei der pro Token nur ein Bruchteil der Parameter rechnet. Damit misst sich Mistral vor allem mit offenen Modellen aus China und von Google, besonders bei Coding und Cybersicherheit. Wissenschaftschef Pierre Stock verweist darauf, dass verkleinerte Varianten auch für Hochschulen betreibbar bleiben. Für Firmen zählt, dass der Zugang nicht von außen gekappt werden kann."
+  },
+  {
+   "id": "bd786f1c567e",
+   "date": "2026-11-06",
+   "published": "2026-11-06T15:27+01:00",
+   "headline": "Texas: Neue Gouverneurin will Bau von KI-Rechenzentren vorerst stoppen",
+   "summary": "Nach den Wahlen in den USA hat die designierte Gouverneurin von Texas, Hinojosa, angekündigt, den Bau neuer Rechenzentren für Künstliche Intelligenz zunächst zu unterbinden. Texas gilt bislang als einer der bevorzugten Standorte für solche Anlagen, weshalb ein Baustopp die Ausbaupläne der Branche spürbar treffen könnte.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "texas",
+    "rechenzentren",
+    "infrastruktur",
+    "usa",
+    "energie"
+   ],
+   "source": "Deutschlandfunk",
+   "source_id": "deutschlandfunk",
+   "added": "2026-11-06T15:30:47+01:00",
+   "quelle_titel": "USA - Demokratische designierte Texas-Gouverneurin Hinojosa will Bau von Rechenzentren für KI eindämmen",
+   "url": "https://www.deutschlandfunk.de/demokratische-designierte-texas-gouverneurin-hinojosa-will-bau-von-rechenzentren-fuer-ki-eindaemmen-100.html",
+   "dup_of": "31bba1eca5b3"
   },
   {
    "id": "0802c2aa0040",
@@ -746,13 +982,17 @@
    "added": "2026-11-06T15:10:22+01:00",
    "quelle_titel": "OpenAI is stepping back from NDAs for data center projects",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+   "kontext": "Nach Abstimmungsergebnissen gegen neue Serverfarmen versucht OpenAI, das Vertrauen von Kommunen zurückzugewinnen. Geheimhaltung soll künftig nur noch enge Bereiche wie Sicherheitsfragen und Geschäftsgeheimnisse abdecken. Zusätzlich verspricht das Unternehmen, Strom und benötigte Infrastruktur vollständig selbst zu bezahlen sowie über erwartete Stellen und Einstellungen zu berichten. Amazon hatte im Oktober einen ähnlichen Schritt angekündigt; bewähren müssen sich die Zusagen in den konkreten Verträgen vor Ort.",
    "also": [
     {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/openai-data-center-reset-no-ndas-public-officials/"
+    },
+    {
+     "source": "OpenAI",
+     "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
     }
-   ],
-   "kontext": "Nach Abstimmungsergebnissen gegen neue Serverfarmen versucht OpenAI, das Vertrauen von Kommunen zurückzugewinnen. Geheimhaltung soll künftig nur noch enge Bereiche wie Sicherheitsfragen und Geschäftsgeheimnisse abdecken. Zusätzlich verspricht das Unternehmen, Strom und benötigte Infrastruktur vollständig selbst zu bezahlen sowie über erwartete Stellen und Einstellungen zu berichten. Amazon hatte im Oktober einen ähnlichen Schritt angekündigt; bewähren müssen sich die Zusagen in den konkreten Verträgen vor Ort."
+   ]
   },
   {
    "id": "0d1c78a18e75",
@@ -838,7 +1078,7 @@
    "added": "2026-11-06T15:09:31+01:00",
    "quelle_titel": "Folge des KI-Booms: Studie warnt vor Wasserstress durch neue Mega-Rechenzentren",
    "url": "https://www.stern.de/digital/folge-des-ki-booms--studie-warnt-vor-wasserstress-durch-neue-mega-rechenzentren-38507342.html",
-   "dup_of": "77ef01d67cf6"
+   "dup_of": "baa0cca27a9f"
   },
   {
    "id": "6b61b47ff6f9",
@@ -859,7 +1099,14 @@
    "source_id": "golem",
    "added": "2026-11-06T15:09:31+01:00",
    "quelle_titel": "Finanzkriminalität: KI filtert aus Millionen Dateien die entscheidenden Spuren heraus",
-   "url": "https://www.golem.de/news/finanzkriminalitaet-ki-filtert-aus-millionen-dateien-die-entscheidenden-spuren-heraus-2611-214912.html"
+   "url": "https://www.golem.de/news/finanzkriminalitaet-ki-filtert-aus-millionen-dateien-die-entscheidenden-spuren-heraus-2611-214912.html",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/forensight-mit-diesem-ki-system-jagt-nrw-kuenftig-finanzkriminelle-1771952"
+    }
+   ],
+   "kontext": "Entwickelt hat das System namens Forensight das nordrhein-westfälische Landesamt zur Bekämpfung der Finanzkriminalität gemeinsam mit dem Fraunhofer-Institut IAIS. Es übersetzt und verdichtet Dokumente, transkribiert Ton- und Videoaufnahmen und verknüpft Personen, Firmen und Orte zu einem Netzwerk. In einem Pilotverfahren fanden Ermittler aus Millionen Dateien binnen Wochen die wenigen relevanten Seiten. Prüfen und bewerten soll laut Ministerium weiterhin der Mensch."
   },
   {
    "id": "904574e3ce24",
@@ -902,7 +1149,52 @@
    "added": "2026-11-06T15:08:47+01:00",
    "quelle_titel": "KI-Boom: Neue Mega-Rechenzentren bedrohen Trinkwasserversorgung",
    "url": "https://www.golem.de/news/ki-boom-neue-mega-rechenzentren-bedrohen-trinkwasserversorgung-2611-214913.html",
-   "dup_of": "77ef01d67cf6"
+   "dup_of": "baa0cca27a9f"
+  },
+  {
+   "id": "ab1418335187",
+   "date": "2026-11-06",
+   "published": "2026-11-06T08:00+01:00",
+   "headline": "Studie: Wasserbedarf deutscher Rechenzentren könnte sich bis 2030 verdoppeln",
+   "summary": "Eine Untersuchung des Öko-Instituts bilanziert, wie viel Wasser Rechenzentren in Deutschland schon heute für Kühlung und Betrieb benötigen, und rechnet mit mehr als einer Verdopplung bis 2030. Die Autoren verweisen zugleich auf technische Alternativen, mit denen der Verbrauch deutlich gesenkt werden könnte. Angesichts des KI-getriebenen Ausbaus wird die Ressourcenfrage damit zum Standortthema.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "rechenzentren",
+    "wasserverbrauch",
+    "nachhaltigkeit",
+    "studie"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-06T15:32:40+01:00",
+   "kurios": "Deutsche Rechenzentren verbrauchen pro Jahr so viel Wasser wie im Wannsee steht",
+   "quelle_titel": "Wannsee-Inhalt pro Jahr: So viel Wasser schlucken deutsche Rechenzentren schon heute",
+   "url": "https://t3n.de/news/wannsee-inhalt-pro-jahr-so-viel-wasser-schlucken-deutsche-rechenzentren-schon-heute-1771944",
+   "dup_of": "baa0cca27a9f"
+  },
+  {
+   "id": "ac574f904b8d",
+   "date": "2026-11-06",
+   "published": "2026-11-06T08:30+01:00",
+   "headline": "NRW setzt eigenes KI-System gegen Finanzkriminalität ein",
+   "summary": "Ermittlungen gegen Finanzkriminalität scheitern oft an der schieren Datenmenge, von der nur ein kleiner Teil relevant ist. Nordrhein-Westfalen nimmt deshalb erstmals ein eigens entwickeltes KI-System namens Forensight in Betrieb, das brauchbare Spuren aus großen Datenbeständen herausfiltern soll. Der Beitrag ordnet ein, was damit möglich wird und wo die Grenzen liegen.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "behörden",
+    "nrw",
+    "finanzkriminalität",
+    "datenanalyse"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-06T15:32:40+01:00",
+   "quelle_titel": "Forensight: Mit diesem KI-System jagt NRW künftig Finanzkriminelle",
+   "url": "https://t3n.de/news/forensight-mit-diesem-ki-system-jagt-nrw-kuenftig-finanzkriminelle-1771952",
+   "dup_of": "6b61b47ff6f9"
   },
   {
    "id": "996a31376cbe",
@@ -973,6 +1265,30 @@
    "dup_of": "f577e5abcc1b"
   },
   {
+   "id": "51e8403a2e35",
+   "date": "2026-11-06",
+   "published": "2026-11-06T11:35+01:00",
+   "headline": "Eigene Android-App mit Claude bauen, ohne Programmierkenntnisse",
+   "summary": "Ein Praxisbeitrag zeigt, wie sich mit Claude eine individuelle Android-App erstellen lässt, ohne selbst zu programmieren. Am Beispiel eines GPS-Trackers für Radtouren wird der komplette Workflow durchgespielt. Ergebnis ist eine App ohne Werbung und Abo, zugeschnitten auf eigene Bedürfnisse.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "vibe coding",
+    "claude",
+    "android",
+    "app-entwicklung"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-06T15:31:40+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "heise+ | Keine Werbung, kein Abo: So einfach vibecoden Sie Ihre Wunsch-App für Android",
+   "url": "https://www.heise.de/ratgeber/Keine-Werbung-kein-Abo-So-einfach-vibecoden-Sie-Ihre-Wunsch-App-fuer-Android-11511980.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
+  },
+  {
    "id": "e028980d7750",
    "date": "2026-11-06",
    "published": "2026-11-06T12:00+01:00",
@@ -1038,7 +1354,13 @@
    "added": "2026-11-06T15:07:58+01:00",
    "quelle_titel": "Neue Siri-AI-Funktionen: Datei-Zugriff, Entwicklerverbesserungen und mehr",
    "url": "https://www.heise.de/news/Siri-AI-Apples-Chatbot-kann-bald-mit-Dateien-operieren-11513459.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Technisch läuft die Öffnung über App Intents: Apps können Inhalte und Aktionen nun mit weniger Einschränkungen an die Assistenz übergeben, auch eigene Aktionen sind möglich. Das gilt neben dem iPhone auch für iPad, Mac mit Finder-Zugriff und Vision Pro. In der EU bleibt die Funktion gesperrt, weil die regulatorischen Fragen mit Brüssel offen sind und sich bis ins kommende Jahr ziehen könnten. Die Stoßrichtung ist agentisch, Stabilität und Sicherheit muss die Praxis zeigen."
+   "kontext": "Technisch läuft die Öffnung über App Intents: Apps können Inhalte und Aktionen nun mit weniger Einschränkungen an die Assistenz übergeben, auch eigene Aktionen sind möglich. Das gilt neben dem iPhone auch für iPad, Mac mit Finder-Zugriff und Vision Pro. In der EU bleibt die Funktion gesperrt, weil die regulatorischen Fragen mit Brüssel offen sind und sich bis ins kommende Jahr ziehen könnten. Die Stoßrichtung ist agentisch, Stabilität und Sicherheit muss die Praxis zeigen.",
+   "also": [
+    {
+     "source": "The Rundown AI",
+     "url": "https://www.therundown.ai/articles/apple-cracks-the-door-open-to-siri-ai"
+    }
+   ]
   },
   {
    "id": "209c4e8ce06e",
@@ -1264,7 +1586,8 @@
    "added": "2026-11-06T15:06:20+01:00",
    "quelle_titel": "Rechenzentren nach den Midterms: Warum das Ende des Ausbau-Booms droht",
    "url": "https://t3n.de/news/rechenzentren-nach-den-midterms-warum-das-ende-des-ausbau-booms-droht-1771894",
-   "kontext": "Texas gilt als am schnellsten wachsender Rechenzentrumsmarkt der USA und als Basis der größten Ausbaupläne der Techkonzerne. Bei den Midterms gewannen die Demokraten dort das Gouverneursamt, einen Senatssitz und erstmals seit mehr als zwei Jahrzehnten das Repräsentantenhaus des Bundesstaats. Die siegreichen Kandidaturen hatten Rechenzentren im Wahlkampf wiederholt zum Thema gemacht, etwa im Streit um Strom und Flächen. Die Einordnung stammt von der MIT Technology Review."
+   "kontext": "Texas gilt als am schnellsten wachsender Rechenzentrumsmarkt der USA und als Basis der größten Ausbaupläne der Techkonzerne. Bei den Midterms gewannen die Demokraten dort das Gouverneursamt, einen Senatssitz und erstmals seit mehr als zwei Jahrzehnten das Repräsentantenhaus des Bundesstaats. Die siegreichen Kandidaturen hatten Rechenzentren im Wahlkampf wiederholt zum Thema gemacht, etwa im Streit um Strom und Flächen. Die Einordnung stammt von der MIT Technology Review.",
+   "dup_of": "31bba1eca5b3"
   },
   {
    "id": "b3c93c46bc76",
@@ -1310,6 +1633,48 @@
    "quelle_titel": "SoundCloud erlaubt direkte Veröffentlichung KI-generierter Musik",
    "url": "https://www.heise.de/news/SoundCloud-erlaubt-direkte-Veroeffentlichung-KI-generierter-Musik-11515523.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Hinter der Kooperation steht ElevenMusic, die Musiksparte des Audiospezialisten ElevenLabs; auf diesem Weg hochgeladene Stücke erhalten einen Vermerk zur Herkunft. SoundCloud wählt damit einen anderen Weg als Bandcamp, das weitgehend KI-erzeugte Musik inzwischen untersagt, während Spotify und YouTube sie unter Kennzeichnungsauflagen zulassen. ElevenLabs sucht zugleich den Anschluss an die Musikindustrie und arbeitet seit dem Herbst mit Universal Music an einer gemeinsamen Plattform."
+  },
+  {
+   "id": "be1ba71e55b7",
+   "date": "2026-11-06",
+   "published": "2026-11-06T15:00+01:00",
+   "headline": "ToyBlocks: Neue Testumgebung für das Training von Robotern",
+   "summary": "Auf Hugging Face wird ToyBlocks vorgestellt, eine kontrollierte Umgebung für das Lernen und die Bewertung von Robotern. Solche abgegrenzten Welten erlauben es, Fähigkeiten von Robotiksystemen unter gleichen Bedingungen zu vergleichen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "robotik",
+    "benchmark",
+    "hugging face",
+    "training"
+   ],
+   "source": "Hugging Face",
+   "source_id": "huggingface",
+   "added": "2026-11-06T15:31:40+01:00",
+   "quelle_titel": "ToyBlocks: A controlled world for robot learning and evaluation",
+   "url": "https://huggingface.co/blog/allenai/toyblocks"
+  },
+  {
+   "id": "5228d134120b",
+   "date": "2026-11-06",
+   "published": "2026-11-06T15:00+01:00",
+   "headline": "Alexa wird zum Einkaufsassistenten per SMS und Foto",
+   "summary": "Amazon erweitert seinen Shopping-Assistenten so, dass Kundinnen und Kunden Produkte per Textnachricht oder Bild beschreiben können. Die KI sucht dann passende Angebote im Amazon-Katalog und schickt Empfehlungen zurück, aus denen direkt gekauft werden kann. Das verlagert den Einkauf stärker in den Chatverlauf statt in die klassische Suche.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "amazon",
+    "alexa",
+    "assistenten",
+    "e-commerce"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-06T15:31:40+01:00",
+   "quelle_titel": "Amazon will let you text Alexa your shopping list",
+   "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders"
   },
   {
    "id": "82196d4ece0a",
@@ -1374,6 +1739,27 @@
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdUxFc2lmQm1SVW9FOW9scmVGRzZWenJHdXVUaS1GR2VpRTd3cnp6ZnVfOWRJSDZLTXQ1bHNEVDVNVEtFUmcxd2JPRmVYQkp3anoyYks1dFl0aEt3N3dleWIxWm9jZW11REdtaVBkX3pYZjRHdzJKYUt4QmMzRlY1ZEpBWm5kaW1FaXRrNWx5T3pJdDIxTWw2SnlMbFFmQQ?oc=5"
   },
   {
+   "id": "9a5ee87ff160",
+   "date": "2026-11-06",
+   "published": "2026-11-06T10:23+01:00",
+   "headline": "Neues Verfahren filtert Sternenlicht und macht Exoplaneten direkt sichtbar",
+   "summary": "Direkte Bilder von Planeten außerhalb unseres Sonnensystems scheitern meist daran, dass das Licht des Zentralsterns alles überstrahlt. Ein neu entwickeltes Verfahren entfernt diesen Störanteil aus Aufnahmen des James Webb Teleskops deutlich besser als bisherige Methoden. Damit rücken Beobachtungen in Reichweite, die vorher im Rauschen verschwunden sind.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "weltraum",
+    "bildverarbeitung",
+    "exoplaneten",
+    "forschung"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-06T15:32:40+01:00",
+   "quelle_titel": "Weltraumteleskop James Webb: Technik macht Exoplaneten in Aufnahmen sichtbar",
+   "url": "https://www.heise.de/news/Weltraumteleskop-James-Webb-Technik-macht-Exoplaneten-in-Aufnahmen-sichtbar-11514482.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
    "id": "00dd5869bfff",
    "date": "2026-11-06",
    "published": "2026-11-06T11:00+01:00",
@@ -1393,7 +1779,8 @@
    "added": "2026-11-06T15:07:58+01:00",
    "kurios": "Künstliche Essensbilder wirken so eklig, dass Gäste lieber woanders essen",
    "quelle_titel": "Einfach unappetitlich: Restaurants schneiden sich mit KI-Bildern ins eigene Fleisch",
-   "url": "https://www.basicthinking.de/blog/2026/11/06/restaurants-ki-bilder-essen/"
+   "url": "https://www.basicthinking.de/blog/2026/11/06/restaurants-ki-bilder-essen/",
+   "dup_of": "1daaf0627286"
   },
   {
    "id": "bf2dbfba3520",
