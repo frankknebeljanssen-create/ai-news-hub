@@ -1,26 +1,38 @@
 {
  "date": "2026-11-07",
- "generated_at": "2026-11-07T07:07:27+01:00",
+ "generated_at": "2026-11-07T12:13:12+01:00",
  "overview": [
   {
-   "id": "5aac93af33fb",
-   "text": "OpenAI sammelt elf Milliarden Dollar ein und erreicht eine Bewertung von 1,25 Billionen Dollar, schraubt wegen nervöser Märkte aber eigene Ziele zurück."
+   "id": "90cf6a47af4c",
+   "text": "OpenAI sammelt 11 Milliarden Dollar bei einer Bewertung von 1,25 Billionen ein und öffnet die Runde erstmals für vermögende Privatanleger."
+  },
+  {
+   "id": "b7ab04a2ea60",
+   "text": "Texas will den Bau neuer KI-Rechenzentren vorläufig stoppen, bis gesetzliche Schutzregeln beschlossen sind."
+  },
+  {
+   "id": "a1a6d87b6023",
+   "text": "Beim Digitalgipfel 2026 bekennt sich Deutschland zur KI-Weltspitze, doch verbindliche Zwischenziele und ein klarer Zeitplan fehlen weiterhin."
+  },
+  {
+   "id": "447f1f4302ae",
+   "text": "Im Benchmark Into the Unknown löste kein KI-Agent eine echte Forschungsfrage, 114 von 135 Einreichungen erfanden sogar nie gemachte Experimente."
   },
   {
    "id": "ddaec7e99048",
-   "text": "Chinas Staatssicherheit soll laut New York Times eine Managerin angeworben haben, um Nvidia-Chef Jensen Huang und US-Chipgeheimnisse auszuspähen."
+   "text": "Laut New York Times warb Chinas Staatssicherheit eine Managerin an, um Nvidia-Chef Jensen Huang und das Geschäft mit KI-Chips auszuforschen."
   },
   {
-   "id": "c2107a5a7cf6",
-   "text": "Google kauft Crusoes gestopptes Rechenzentrumsprojekt in Wyoming und zeigt damit, wie kapitalintensiv der Bau riesiger KI-Anlagen geworden ist."
+   "id": "ac1d26cbdcf2",
+   "text": "Bei der Fahndung nach dem Drohnenverdächtigen vom Flughafen Leipzig setzen BKA und Generalbundesanwalt auf ein KI-erzeugtes Gesichtsbild."
   },
   {
-   "id": "8fd11f0d336a",
-   "text": "Ein Erklärstück zeigt, wie Frontier-Modelle mit Millionenbudgets trainiert werden und sich von Chatbots zu eigenständigen Aufgabenlösern wandeln."
+   "id": "ecd987e1ddac",
+   "text": "In Amsterdam besetzten Hunderte die Baustelle eines Microsoft-Rechenzentrums, die Polizei nahm bis zu 200 Menschen fest."
   },
   {
-   "id": "b187fcf6ac69",
-   "text": "Ein c't-Podcast diskutiert KI-Brillen, die Menschen mit Einschränkungen helfen, durch Kamera und Mikrofon im Gesicht aber die Privatsphäre bedrohen."
+   "id": "0c328c277f8f",
+   "text": "Ein Modell von Google Research erkennt Anzeichen für Bluthochdruck allein aus Puls- und Bewegungsdaten einer Smartwatch, in einer Studie zu 65,8 Prozent."
   }
  ],
  "items": [
@@ -46,16 +58,52 @@
    "quelle_titel": "KI-Finanzierung: OpenAI sammelt laut Bericht elf Milliarden Dollar bei Investoren ein",
    "url": "https://www.handelsblatt.com/technik/ki/ki-finanzierung-openai-sammelt-laut-bericht-elf-milliarden-dollar-bei-investoren-ein/100268028.html",
    "kontext": "Hinter der Finanzierung steht ein Wettlauf um Kapital: Erst im Frühjahr sammelte OpenAI zu einer deutlich niedrigeren Bewertung ein, nun liegt die Messlatte weit höher, obwohl die Runde noch nicht abgeschlossen ist. Geplant war ursprünglich mehr Geld zu einem noch höheren Preis, doch fallende Technologiewerte und wachsender Widerstand von Wählern gegen Rechenzentren bremsen. Konkurrent Anthropic bereitet unterdessen seinen Börsengang vor, während Sam Altman für OpenAI auf offene Sicherheitsfragen verweist.",
-   "also": [
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
-    }
-   ]
+   "dup_of": "90cf6a47af4c"
+  },
+  {
+   "id": "b635b76a4d51",
+   "date": "2026-11-07",
+   "published": "2026-11-07T09:22+01:00",
+   "headline": "OpenAI sammelt laut Bericht elf Milliarden Dollar zu Rekordbewertung ein",
+   "summary": "Einem Medienbericht zufolge hat OpenAI eine weitere Finanzierungsrunde über elf Milliarden Dollar abgeschlossen und damit die höchste Bewertung seiner Geschichte erreicht. Gleichzeitig trübt sich die Stimmung am KI-Markt ein, was die Diskussion über eine mögliche Überhitzung verstärkt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "openai",
+    "finanzierung",
+    "bewertung",
+    "ki-markt"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-07T12:07:50+01:00",
+   "paywall": true,
+   "quelle_titel": "Künstliche Intelligenz: OpenAI soll elf Milliarden Dollar bei Investoren eingesammelt haben",
+   "url": "https://www.wiwo.de/unternehmen/it/kuenstliche-intelligenz-openai-soll-elf-milliarden-dollar-bei-investoren-eingesammelt-haben/100268069.html",
+   "dup_of": "90cf6a47af4c"
+  },
+  {
+   "id": "447f1f4302ae",
+   "date": "2026-11-07",
+   "published": "2026-11-07T11:11+01:00",
+   "headline": "KI-Agenten scheitern an echter Forschung und erfinden sogar Experimente",
+   "summary": "Der Benchmark Into the Unknown ließ neun KI-Agenten an offenen Forschungsfragen aus US-Nationallaboren arbeiten. Von 135 Einreichungen erfüllte keine alle Anforderungen, 114 fielen bereits bei der Integritätsprüfung durch, weil Experimente behauptet wurden, die nie durchgeführt wurden. Das beste Modell blieb klar unter dem Niveau menschlicher Fachleute.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "agenten",
+    "benchmark",
+    "forschung",
+    "halluzination"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-07T12:07:17+01:00",
+   "quelle_titel": "Benchmark lässt KI-Agenten an offenen Forschungsfragen arbeiten, keine einzige Einreichung erfüllt alle Anforderungen",
+   "url": "https://the-decoder.de/benchmark-laesst-ki-agenten-an-offenen-forschungsfragen-arbeiten-keine-einzige-einreichung-erfuellt-alle-anforderungen/",
+   "kontext": "Entwickelt wurde der Test von Forschenden der Carnegie-Mellon-Universität gemeinsam mit Wissenschaftlern aus Nationallaboren, die offene Fragen aus Quantencomputing, Plasmaphysik, Chemie und Materialforschung beisteuerten. Weil es bei echter Forschung keine Musterlösung gibt, legten die Fachleute Mindestbedingungen fest, etwa Ehrlichkeit und Vollständigkeit der Einreichung. Die Agenten arbeiteten mit starken Rechnern, Internetzugang und ohne Zeitlimit. Das Team versteht den Benchmark als Übungsfeld, nicht als Absage an KI in der Wissenschaft."
   },
   {
    "id": "ddaec7e99048",
@@ -101,7 +149,7 @@
    "added": "2026-11-07T02:01:25+01:00",
    "quelle_titel": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-   "dup_of": "5aac93af33fb"
+   "dup_of": "90cf6a47af4c"
   },
   {
    "id": "d62fbfe2fc04",
@@ -126,6 +174,172 @@
    "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
    "kontext": "Hinter der Debatte steht die Frage, wie ein Börsengang Anthropic bewerten würde, während der KI-Markt gerade spürbar unter Druck steht. Technologiewerte haben deutlich nachgegeben, und Schätzungen zur Bewertung des Anbieters sind zuletzt gesunken. Dem steht ein stark wachsender Umsatz gegenüber, der sich dem eigenen Jahresziel nähert. Parallel zeigt Thinking Machines mit einem neuen offenen Modell, wie schnell sich das Kräfteverhältnis verschiebt.",
    "dup_of": "f2f4104aef64"
+  },
+  {
+   "id": "c7951cb2105a",
+   "date": "2026-11-07",
+   "published": "2026-11-07T08:21+01:00",
+   "headline": "So lassen sich KI-Agenten sicher in Backoffice-Systeme einbinden",
+   "summary": "Der Beitrag erläutert, worauf es bei der Architektur für KI-Agenten in internen Geschäftsprozessen ankommt. Entscheidend ist eine klare Trennung zwischen Daten und ausführbaren Handlungen, damit Agenten keine unkontrollierten Aktionen auslösen. Das liefert konkrete Leitlinien für Teams, die Agenten produktiv einsetzen wollen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "ki-agenten",
+    "architektur",
+    "it-sicherheit",
+    "backoffice"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-07T12:07:50+01:00",
+   "praxis": true,
+   "quelle_titel": "Sichere Architektur für KI-Agenten im Backoffice",
+   "url": "https://www.heise.de/hintergrund/Sichere-Architektur-fuer-KI-Agenten-im-Backoffice-11514414.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Das Backoffice gilt vielen als Nachzügler der Digitalisierung: Rechnungen kommen als Scan, Absprachen als formlose Mail. Klassische Prozessautomatisierung scheitert daran, weil sie strukturierte Daten und vorhersehbare Abläufe braucht. Sprachmodellbasierte Agenten sollen die Lücke füllen, und Anbieter wie Microsoft, UiPath oder SAP werben bereits mit entsprechenden Lösungen. Da solche Agenten aber eigenständig folgenreiche Schritte auslösen, etwa nach einer gefälschten Lieferantenmail, braucht es klare Architekturregeln."
+  },
+  {
+   "id": "b7ab04a2ea60",
+   "date": "2026-11-07",
+   "published": "2026-11-07T08:23+01:00",
+   "headline": "Texas plant Baustopp für KI-Rechenzentren bis Schutzregeln stehen",
+   "summary": "Die künftige Gouverneurin von Texas will den weiteren Ausbau von Rechenzentren vorläufig aussetzen und reagiert damit auf Proteste in der Bevölkerung. Der Stopp soll gelten, bis gesetzliche Schutzvorschriften verabschiedet sind. Für die KI-Branche wäre das ein deutlicher Dämpfer, da Texas bisher ein Schwerpunkt neuer Rechenkapazität ist.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "rechenzentren",
+    "texas",
+    "regulierung",
+    "infrastruktur"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-07T12:07:50+01:00",
+   "quelle_titel": "Gina Hinojosa: Texas will Ausbau von KI-Rechenzentren auf Eis legen",
+   "url": "https://www.golem.de/news/gina-hinojosa-texas-will-ausbau-von-ki-rechenzentren-auf-eis-legen-2611-214946.html",
+   "also": [
+    {
+     "source": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/demokratische-designierte-texas-gouverneurin-hinojosa-will-bau-von-rechenzentren-fuer-ki-eindaemmen-100.html"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/rechenzentren-nach-den-midterms-warum-das-ende-des-ausbau-booms-droht-1771894"
+    }
+   ],
+   "kontext": "Hinojosa gehört den Demokraten an und übernimmt das Amt nach den jüngsten US-Wahlen, bei denen sich eine gekippte Stimmung gegenüber KI-Firmen und Rechenzentrumsprojekten zeigte. Der Baustopp soll gelten, bis gesetzliche Schutzregeln beschlossen sind. Da Texas als bevorzugter Standort für neue Anlagen gilt, könnte die Ankündigung die Ausbaupläne der Branche spürbar verzögern."
+  },
+  {
+   "id": "ac1d26cbdcf2",
+   "date": "2026-11-07",
+   "published": "2026-11-07T09:26+01:00",
+   "headline": "Ermittler nutzen KI-generiertes Porträt bei Suche nach Drohnenverdächtigem",
+   "summary": "Nach dem Drohnenvorfall am Flughafen Leipzig setzen Generalbundesanwalt und BKA bei der Fahndung nach einer unbekannten Person auf ein mit KI erstelltes Gesichtsbild. Der Einsatz solcher Darstellungen in der Öffentlichkeitsfahndung ist in Deutschland bislang unüblich und wirft Fragen zur Verlässlichkeit auf.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "strafverfolgung",
+    "bka",
+    "gesichtserkennung",
+    "bildgenerierung"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-07T12:07:50+01:00",
+   "kurios": "Fahndung mit einem von KI erzeugten Gesicht statt einem echten Foto.",
+   "quelle_titel": "Leipzig: Fahnder suchen mutmaßlichen Drohnen-Täter mit KI-Gesicht",
+   "url": "https://www.golem.de/news/leipzig-fahnder-suchen-mutmasslichen-drohnen-taeter-mit-ki-gesicht-2611-214948.html"
+  },
+  {
+   "id": "90cf6a47af4c",
+   "date": "2026-11-07",
+   "published": "2026-11-07T10:35+01:00",
+   "headline": "OpenAI holt 11 Milliarden Dollar und wirbt erstmals vermögende Privatanleger",
+   "summary": "OpenAI hat den ersten Teil einer neuen Finanzierungsrunde abgeschlossen und 11 Milliarden Dollar eingesammelt, bei einer Bewertung von 1,25 Billionen Dollar. Insgesamt könnte die Runde auf 20 Milliarden Dollar wachsen. Dass dafür nun auch reiche Privatinvestoren eingebunden werden, deutet auf einen weitgehend ausgeschöpften KI-Kapitalmarkt und wachsende Zurückhaltung institutioneller Geldgeber hin.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "finanzierung",
+    "bewertung",
+    "investoren"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-07T12:07:17+01:00",
+   "quelle_titel": "OpenAI sammelt \"nur\" 11 Milliarden Dollar ein und muss dafür schon Privatanleger anwerben",
+   "url": "https://the-decoder.de/openai-sammelt-nur-11-milliarden-dollar-ein-und-muss-dafuer-schon-privatanleger-anwerben/",
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-finanzierung-openai-sammelt-laut-bericht-elf-milliarden-dollar-bei-investoren-ein/100268028.html",
+     "paywall": true
+    },
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/unternehmen/it/kuenstliche-intelligenz-openai-soll-elf-milliarden-dollar-bei-investoren-eingesammelt-haben/100268069.html",
+     "paywall": true
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+    }
+   ],
+   "kontext": "Hinter der Runde steht laut Bloomberg ein deutlich geschrumpftes Ziel: Ursprünglich wollte OpenAI etwa 30 Milliarden bei höherer Bewertung einsammeln, senkte die Pläne nach dem Rücksetzer im KI-Sektor aber ab. Beteiligt sind bekannte Fonds wie Coatue, T. Rowe Price, SoftBank und Sequoia sowie ein Konsortium aus den Emiraten. Der Druck wächst zudem durch Anthropic, das seinen Börsengang vorbereitet, während Sam Altman damit noch zögert."
+  },
+  {
+   "id": "a1a6d87b6023",
+   "date": "2026-11-07",
+   "published": "2026-11-07T11:05+01:00",
+   "headline": "Digitalgipfel 2026: große KI-Ziele für Deutschland, wenig Verbindlichkeit",
+   "summary": "Beim Digitalgipfel 2026 wurde erneut das Ziel formuliert, Deutschland an die Weltspitze der KI zu bringen und digital souveräner zu werden. Der Kommentar bemängelt, dass es dabei vor allem an realistischen Zwischenzielen, Tempo und verbindlichen Zusagen fehlt. Statt neuer Absichtserklärungen brauche es messbare Umsetzung.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "digitalpolitik",
+    "ki-strategie",
+    "souveränität",
+    "deutschland"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-07T12:07:17+01:00",
+   "quelle_titel": "Digitalgipfel 2026: Deutschland soll an die KI-Weltspitze, scheitert aber am Wesentlichen",
+   "url": "https://t3n.de/news/digitalgipfel-2026-ki-weltspitze-deutschland-kommentar-1771341",
+   "kontext": "Kanzler Merz eröffnete den Gipfel in Berlin betont zuversichtlich und reklamierte Fortschritte bei Entwicklung und Nutzung der Technologie. Der Abgleich mit dem Vorjahr fällt allerdings ernüchternd aus: Die groß angekündigte Zusammenarbeit mit dem französischen Anbieter Mistral ruht, ein Rahmenvertrag kam nie zustande, eigene Verwaltungssoftware wurde zurückgestellt. Stattdessen entstehen neue Bindungen an US-Konzerne, etwa sollen Nachrichtendienste auf die Google-Cloud setzen. Vom Souveränitätsversprechen bleibt damit wenig."
+  },
+  {
+   "id": "ac7aa7c807f1",
+   "date": "2026-11-07",
+   "published": "2026-11-07T11:40+01:00",
+   "headline": "Texte für KI-Antworten optimieren: Struktur wird wichtiger als Stil",
+   "summary": "Wer in den Antworten von Sprachmodellen auftauchen will, muss Inhalte anders aufbauen als für klassische Google-Treffer. Der Beitrag erklärt, wie Absätze, Gliederung und Informationsdichte angepasst werden sollten, und zeigt das an einem direkten Vorher-Nachher-Vergleich.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-suche",
+    "content",
+    "seo",
+    "sprachmodelle"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-07T12:07:17+01:00",
+   "praxis": true,
+   "quelle_titel": "KI-Suche statt Google: So schreibst du Texte für Sprachmodelle",
+   "url": "https://t3n.de/news/ki-suche-texte-optimieren-llm-readability-1758412",
+   "kontext": "Hintergrund ist die Arbeitsweise der Modelle: Sie zerlegen Seiten in Abschnitte und ziehen daraus einzelne Passagen für ihre Antwort. Nicht die Seite, sondern der einzelne Absatz wird damit zur entscheidenden Einheit, und er muss auch ohne den Rest des Textes verständlich bleiben. Praktisch bedeutet das: Überschrift als Frage, Kernaussage im ersten Satz, ein Gedanke pro Absatz. Gute Google-Platzierungen garantieren deshalb keine Erwähnung in KI-Antworten."
   },
   {
    "id": "c2107a5a7cf6",
@@ -193,6 +407,213 @@
    "quelle_titel": "Smart Glasses zwischen Teilhabe, Missbrauch und Lifestyle | c't uplink",
    "url": "https://www.heise.de/news/Smart-Glasses-zwischen-Teilhabe-Missbrauch-und-Lifestyle-c-t-uplink-11514694.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Im c't uplink sprechen eine blinde Teilhabeberaterin und ein Fachredakteur über ihre Erfahrungen. Die Beraterin schildert, dass ihr die Brille freihändig bei der Orientierung hilft und ihr Umgebung sowie Kleidung beschreibt, und bedauert die überwiegend negative Debatte. Der Redakteur beobachtet, dass Trägerinnen und Träger pauschal verdächtigt werden. Heimliches Filmen gelingt längst auch mit Smartphones oder Actionkameras, Petitionen und Anzeigen richten sich aber vor allem gegen Brillen."
+  },
+  {
+   "id": "1627566cb7a8",
+   "date": "2026-11-07",
+   "published": "2026-11-07T09:00+01:00",
+   "headline": "Open-Source-Werkzeuge als kostenlose Alternative zu Lightroom im Test",
+   "summary": "Ein Überblick prüft, ob quelloffene Programme das Abo von Adobe Lightroom ersetzen können. Die Hoffnung auf eine vollständig KI-generierte Gratis-Alternative erfüllt sich nicht, einige freie Werkzeuge bieten aber brauchbare Funktionen für die Bildbearbeitung.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "open source",
+    "bildbearbeitung",
+    "lightroom",
+    "tools"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-07T12:07:50+01:00",
+   "praxis": true,
+   "quelle_titel": "Keine Lust mehr aufs Adobe-Abo? Diese quelloffenen Lightroom-Alternativen kosten keinen Cent",
+   "url": "https://t3n.de/news/adobe-abo-alternativen-lightroom-1771363",
+   "kontext": "Auslöser der Debatte war die Suite Artcraft des Entwicklers Brandon Thomas, der die Adobe-Programme im Oktober per KI nachgebaut haben wollte. Optisch erinnerte das Ergebnis an das Vorbild, beim Funktionsumfang blieb es jedoch deutlich dahinter zurück. Der t3n-Ratgeber lenkt den Blick deshalb auf gewachsene quelloffene Projekte. Wer aus dem Adobe-Abo aussteigen will, muss also weiterhin abwägen."
+  },
+  {
+   "id": "67d5e291f2f6",
+   "date": "2026-11-07",
+   "published": "2026-11-07T09:30+01:00",
+   "headline": "Mitarbeiter erstreitet religiöse Befreiung von KI-Nutzung am Arbeitsplatz",
+   "summary": "Ein Beschäftigter namens David Durman lehnt den Einsatz von KI aus Gewissensgründen ab und begründet dies damit, dass die Technologie sein moralisches Handeln schwäche. Er hat erreicht, dass er die Werkzeuge im Job offiziell nicht mehr einsetzen muss. Der Fall zeigt, dass verpflichtende KI-Nutzung in Unternehmen arbeitsrechtliche Grenzen haben kann.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "arbeitsrecht",
+    "ethik",
+    "ki-pflicht",
+    "arbeitsplatz"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-07T12:07:50+01:00",
+   "kurios": "Religiöse Ausnahme von der KI-Pflicht im Büro ist bislang ein Einzelfall.",
+   "quelle_titel": "Religiöse Ausnahmegenehmigung: Dieser Mann muss im Büro offiziell keine KI mehr nutzen",
+   "url": "https://t3n.de/news/ki-zwang-umgangen-wegen-religion-1770567",
+   "kontext": "Durman arbeitet in der Verwaltung der University of Kentucky und versteht sich als Humanist. Als die Hochschule ihre Beschäftigten aufforderte, KI in die Arbeitsabläufe einzubauen, beantragte er mit Hilfe der American Humanist Association eine Ausnahme nach US-Recht, das Rücksicht auf Glaubensüberzeugungen verlangt. Im Herbst gab die Universität nach. Der Verband hält ihn für den ersten Humanisten mit einer solchen Freistellung."
+  },
+  {
+   "id": "588510b1458e",
+   "date": "2026-11-07",
+   "published": "2026-11-07T10:00+01:00",
+   "headline": "Personalisierte Preise: Wo das EU-Recht dem Datenhandel Grenzen setzt",
+   "summary": "Händler können mithilfe von Kundendaten und Algorithmen für dasselbe Produkt unterschiedliche Preise verlangen. Die Analyse erklärt, unter welchen Bedingungen das in der EU erlaubt ist und wo Datenschutz sowie Verbraucherrecht eingreifen. Damit wird deutlich, welche Spielräume datengetriebene Preisgestaltung tatsächlich hat.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "preisgestaltung",
+    "datenschutz",
+    "verbraucherschutz",
+    "eu"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-07T12:07:17+01:00",
+   "paywall": true,
+   "quelle_titel": "(g+) Surveillance Pricing: Wie weit dürfen Händler Preise personalisieren?",
+   "url": "https://www.golem.de/news/surveillance-pricing-wie-weit-duerfen-haendler-preise-personalisieren-2611-214937.html"
+  },
+  {
+   "id": "0c328c277f8f",
+   "date": "2026-11-07",
+   "published": "2026-11-07T10:25+01:00",
+   "headline": "Smartwatch-Sensoren plus KI geben Hinweise auf Bluthochdruck",
+   "summary": "Google Research hat ein Modell entwickelt, das allein aus Puls- und Bewegungsdaten einer gewöhnlichen Smartwatch Anzeichen für Bluthochdruck erkennt, ohne Manschette. In einer Studie mit 196 Personen lag die Erkennungsrate bei 65,8 Prozent und damit über der üblichen Einzelmessung in der Praxis. Die Funktion ist in die Google Health App eingeflossen, ersetzt aber keine ärztliche Diagnose.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "gesundheit",
+    "wearables",
+    "google",
+    "diagnostik"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-07T12:07:17+01:00",
+   "quelle_titel": "KI von Google erkennt Bluthochdruck nur mit Puls- und Bewegungssensor einer Smartwatch",
+   "url": "https://the-decoder.de/ki-von-google-erkennt-bluthochdruck-nur-mit-puls-und-bewegungssensor-einer-smartwatch/",
+   "kontext": "Hinter der Funktion steckt ein neuronales Netz, das aus riesigen Mengen Sensordaten gelernt hat, typische Muster von Puls und Herzschlag einer Person wiederzuerkennen, und zwar ohne ärztliche Diagnosen als Vorgabe. Aus Merkmalen, die über mehrere Tage gemittelt werden, berechnet es eine Wahrscheinlichkeit. Die Studie entstand an mehreren US-Zentren und erschien in Nature. Da viele Betroffene nichts von ihrem Bluthochdruck wissen, soll die Uhr vor allem zur Untersuchung motivieren."
+  },
+  {
+   "id": "ecd987e1ddac",
+   "date": "2026-11-07",
+   "published": "2026-11-07T11:31+01:00",
+   "headline": "Hunderte besetzen Microsoft-Baustelle in Amsterdam, Polizei greift ein",
+   "summary": "Auf dem Gelände eines im Bau befindlichen Microsoft-Rechenzentrums in Amsterdam kam es zu einer Massenaktion mit hunderten Teilnehmenden. Die Polizei nahm bis zu 200 Personen fest. Der Protest richtet sich gegen den Ausbau der Dateninfrastruktur und zeigt, wie stark Rechenzentren inzwischen politisch umstritten sind.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "rechenzentren",
+    "microsoft",
+    "protest",
+    "infrastruktur"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-07T12:07:17+01:00",
+   "quelle_titel": "Protest gegen Microsoft-Rechenzentrum in Amsterdam, viele Festnahmen",
+   "url": "https://www.heise.de/news/Protest-gegen-Microsoft-Rechenzentrum-in-Amsterdam-viele-Festnahmen-11516304.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam"
+    }
+   ],
+   "kontext": "Hinter der Aktion stehen zwei Gruppen: Die Klimabewegung Fossielvrij NL wollte vor dem Gelände demonstrieren, Aktivisten von Geef Tegengas drangen auf die Baustelle vor und hängten Banner an einen Baukran. Amsterdam hatte neue Rechenzentren eigentlich bis 2030 gestoppt, doch dieses Projekt war schon vor dem Verbot genehmigt. Gebaut wird es von einem britischen Entwickler, Microsoft zieht als einziger Mieter ein. Europaweit wächst der Widerstand gegen solche Anlagen."
+  },
+  {
+   "id": "3c5ca7228222",
+   "date": "2026-11-07",
+   "published": "2026-11-07T08:09+01:00",
+   "headline": "Edelmetalle unter Druck: Tech-Werte verstärken den Preisrückgang",
+   "summary": "Die Analyse betrachtet die Kursentwicklung bei Gold und Silber, deren Preise seit Wochen nachgeben. Auffällig ist, dass gerade Technologieaktien den Abwärtstrend verschärfen, während ein Ausverkauf im KI-Sektor laut der Einschätzung bald Rohstoffhändlern nutzen könnte.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "börse",
+    "edelmetalle",
+    "tech-aktien",
+    "ki-blase"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-07T12:07:50+01:00",
+   "paywall": true,
+   "quelle_titel": "BörsenWoche 584: Analyse: Worauf es jetzt bei Gold und Silber ankommt",
+   "url": "https://www.wiwo.de/finanzen/boerse/gold-und-silber-darum-laeuft-es-fuer-die-edelmetalle-so-schlecht/100267664.html"
+  },
+  {
+   "id": "8fcdf5e4beca",
+   "date": "2026-11-07",
+   "published": "2026-11-07T10:00+01:00",
+   "headline": "Gemini auf dem Handy umgehen: So kehrt der Google Assistant zurück",
+   "summary": "Google hat den Assistant auf Android durch Gemini ersetzt, doch manche Nutzerinnen und Nutzer wollen die alte Sprachhilfe zurück. Der Beitrag beschreibt die aufwendigen Umwege, mit denen sich der Assistant zumindest vorübergehend wieder aktivieren lässt.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "gemini",
+    "android",
+    "google assistant",
+    "workaround"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-07T12:07:17+01:00",
+   "praxis": true,
+   "quelle_titel": "Trotz offiziellem Aus: So wirst du Gemini auf deinem Smartphone wieder los, zumindest vorübergehend",
+   "url": "https://t3n.de/news/gemini-wieder-loswerden-google-1768131"
+  },
+  {
+   "id": "e8d3fce688fa",
+   "date": "2026-11-07",
+   "published": "2026-11-07T10:12+01:00",
+   "headline": "Tech-Szene optimiert ihr Liebesleben mit Tabellen und ChatGPT",
+   "summary": "Beschäftigte im Silicon Valley werten ihre Dating-App-Kontakte systematisch in Tabellen aus und lassen Sprachmodelle ihre Beziehungen analysieren. Ergänzend wird teures Dating-Coaching gebucht, das bis zu 5.000 Dollar pro Monat kostet. Der Beitrag zeigt, wie weit die Datenlogik der Branche inzwischen ins Privatleben reicht.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "chatgpt",
+    "dating",
+    "silicon valley",
+    "alltag"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-07T12:07:17+01:00",
+   "kurios": "Beziehungsanalyse per Tabelle und Chatbot, dazu Coaching für 5.000 Dollar monatlich",
+   "quelle_titel": "Silicon Valley: Dating mit Tabellen, ChatGPT und Coaches",
+   "url": "https://www.it-daily.net/shortnews/silicon-valley-dating"
+  },
+  {
+   "id": "cd1f9840fc34",
+   "date": "2026-11-07",
+   "published": "2026-11-07T12:00+01:00",
+   "headline": "Pflege-Apps bekommen KI-Funktionen, lösen aber das Kernproblem nicht",
+   "summary": "Plattformen, die pflegende Angehörige bei der Organisation des Alltags unterstützen, werden durch KI deutlich leistungsfähiger. Der Bericht zeigt jedoch, dass die eigentliche Belastung und das Wohlbefinden der Pflegenden dadurch kaum adressiert werden. Technik allein ersetzt also keine strukturelle Entlastung.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "pflege",
+    "gesundheit",
+    "apps",
+    "assistenz"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-07T12:07:17+01:00",
+   "paywall": true,
+   "quelle_titel": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+   "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/"
   }
  ]
 }
