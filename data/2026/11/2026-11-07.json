@@ -1,10 +1,18 @@
 {
  "date": "2026-11-07",
- "generated_at": "2026-11-07T02:10:03+01:00",
+ "generated_at": "2026-11-07T03:17:20+01:00",
  "overview": [
   {
+   "id": "5aac93af33fb",
+   "text": "OpenAI sammelt laut Bloomberg elf Milliarden Dollar ein und wird mit 1,25 Billionen Dollar bewertet, dämpft wegen nervöser Märkte aber eigene Ziele."
+  },
+  {
    "id": "ddaec7e99048",
-   "text": "Laut New York Times warb Chinas Staatssicherheit eine Megaspeed-Managerin als Informantin an, um Nvidia-Chef Jensen Huang zu US-Chips auszuforschen."
+   "text": "Chinas Staatssicherheit soll laut New York Times eine Managerin angeworben haben, um Nvidia-Chef Jensen Huang und US-Chipwissen auszuforschen."
+  },
+  {
+   "id": "c2107a5a7cf6",
+   "text": "Google übernimmt Crusoes gestopptes Rechenzentrumsprojekt in Wyoming und zeigt, wie kapitalintensiv der Bau großer KI-Anlagen inzwischen ist."
   }
  ],
  "items": [
@@ -29,7 +37,17 @@
    "paywall": true,
    "quelle_titel": "KI-Finanzierung: OpenAI sammelt laut Bericht elf Milliarden Dollar bei Investoren ein",
    "url": "https://www.handelsblatt.com/technik/ki/ki-finanzierung-openai-sammelt-laut-bericht-elf-milliarden-dollar-bei-investoren-ein/100268028.html",
-   "dup_of": "118369de89f0"
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+    }
+   ],
+   "kontext": "Hinter der Finanzierung steht ein Wettlauf um Kapital: Erst im Frühjahr sammelte OpenAI zu einer deutlich niedrigeren Bewertung ein, nun liegt die Messlatte weit höher, obwohl die Runde noch nicht abgeschlossen ist. Geplant war ursprünglich mehr Geld zu einem noch höheren Preis, doch fallende Technologiewerte und wachsender Widerstand von Wählern gegen Rechenzentren bremsen. Konkurrent Anthropic bereitet unterdessen seinen Börsengang vor, während Sam Altman für OpenAI auf offene Sicherheitsfragen verweist."
   },
   {
    "id": "ddaec7e99048",
@@ -75,7 +93,29 @@
    "added": "2026-11-07T02:01:25+01:00",
    "quelle_titel": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-   "dup_of": "118369de89f0"
+   "dup_of": "5aac93af33fb"
+  },
+  {
+   "id": "c2107a5a7cf6",
+   "date": "2026-11-07",
+   "published": "2026-11-07T02:40+01:00",
+   "headline": "Google übernimmt gescheitertes Rechenzentrumsprojekt von Crusoe in Wyoming",
+   "summary": "Der KI-Infrastrukturanbieter Crusoe verkauft sein ins Stocken geratenes Rechenzentrumsvorhaben in Wyoming an Google. Der Verkauf zeigt, wie schwierig und kapitalintensiv der Aufbau sehr großer KI-Rechenzentren inzwischen ist. Google stärkt damit seine eigene Kapazität für KI-Workloads.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "rechenzentren",
+    "google",
+    "crusoe",
+    "infrastruktur"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-07T03:12:22+01:00",
+   "quelle_titel": "Crusoe sells troubled Wyoming data center project to Google",
+   "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+   "kontext": "Crusoe begann einst mit Krypto-Mining per Erdgas und gilt heute als einer der großen Entwickler von KI-Rechenzentren. Das Vorhaben in Wyoming war mit dem Partner Tallgrass auf gewaltige Leistung angelegt, doch Google äußerte Berichten zufolge Bedenken wegen Kosten und Bauzeit und steigt nun selbst als Entwickler ein. Die Zusammenarbeit endet damit nicht: In Texas baut Crusoe weiterhin Standorte für Google, Oracle, OpenAI und Microsoft."
   }
  ]
 }

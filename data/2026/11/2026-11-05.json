@@ -1,38 +1,38 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-07T02:09:18+01:00",
+ "generated_at": "2026-11-07T03:17:05+01:00",
  "overview": [
   {
    "id": "328e89004555",
-   "text": "Die Bundesregierung beschließt 18 Maßnahmen, damit Deutschland bei KI aufholt, während Nvidia-Chef Huang den Standort im Rückstand sieht."
+   "text": "Die Bundesregierung beschließt 18 Maßnahmen, damit Deutschland bei KI aufholt, während Nvidia-Chef Huang den Standort weiter zurückfallen sieht."
+  },
+  {
+   "id": "1b89c0cbed8e",
+   "text": "OpenAI stellt GPT-6 Cyber vor, das in Firefox 81 unbekannte Lücken fand und im Linux-Kernel 948 funktionierende Exploits erzeugte."
   },
   {
    "id": "c1f65f57a861",
-   "text": "Die Lernplattform Go1 nimmt die Kurse der OpenAI Academy auf und bringt KI-Schulungen damit zu mehr als elf Millionen Lernenden."
-  },
-  {
-   "id": "da7153898511",
-   "text": "Anthropic setzt Claude auf eine seit 40 Jahren offene Frage der Zellbiologie an: Ein Laborschritt sinkt von drei Tagen auf 90 Minuten, Fehler bremsen."
-  },
-  {
-   "id": "53c56afbaf05",
-   "text": "OpenAI stellt GPT-6 Cyber vor, ein Modell, das Sicherheitslücken aufspüren und Patches schreiben soll, begrenzt auf den autorisierten Prüfumfang."
+   "text": "Go1 nimmt die Kurse der OpenAI Academy in den Katalog auf und bringt die KI-Schulungen damit zu mehr als elf Millionen Lernenden."
   },
   {
    "id": "549094e30f29",
-   "text": "Frauen nutzen KI laut IAB und Initiative D21 um 16 Prozentpunkte seltener als Männer, Weiterbildung verkleinert diese Lücke deutlich."
+   "text": "Laut IAB und Initiative D21 nutzen Frauen KI um 16 Prozentpunkte seltener als Männer, Weiterbildung verringert diese Lücke deutlich."
   },
   {
    "id": "4d0add528963",
-   "text": "Meta kauft Conductor für die Steuerung mehrerer Coding-Agenten, OpenAI und Anthropic greifen ebenfalls zu: Der Wert wandert in die Entwicklerumgebung."
+   "text": "Meta kauft Conductor, OpenAI greift sich Pierre Computer: Der Wert verschiebt sich vom Modell zur Umgebung für KI-Coding-Agenten."
   },
   {
-   "id": "95e6ac6ff313",
-   "text": "Der Protest gegen neue Rechenzentren wächst in den USA und Europa, während Deutschland bis 2030 zur führenden KI-Nation aufsteigen will."
+   "id": "caf658c9d5d9",
+   "text": "Im neuen Benchmark GDPx scheitern KI-Agenten an echter Wissensarbeit, kein Modell kommt über zwölf Prozent, vorn liegt Claude Opus 5.5."
   },
   {
    "id": "4b216c662524",
-   "text": "Claude verbindet sich über Plaid mit Bank- und Kartenkonten und wertet private Ausgaben aus, womit der Assistent in sehr sensible Daten vorrückt."
+   "text": "Anthropic verbindet Claude über Plaid mit Bank- und Kartenkonten, sodass der Chatbot private Ausgaben der Nutzer auswerten kann."
+  },
+  {
+   "id": "392c3f4467d5",
+   "text": "Mistral-Chef Mensch kündigt Investitionen in Deutschland an und positioniert sein Unternehmen als europäische Antwort auf OpenAI."
   }
  ],
  "items": [
@@ -155,7 +155,32 @@
    "quelle_titel": "GPT-6 Cyber: OpenAI trainiert KI-Modell gezielt für die Jagd nach Sicherheitslücken",
    "url": "https://the-decoder.de/gpt-6-cyber-openai-trainiert-ki-modell-gezielt-fuer-die-jagd-nach-sicherheitsluecken/",
    "kontext": "Hinter der Ankündigung steht ein doppelter Nutzen: Dieselben Fähigkeiten, die Verteidigern helfen, taugen auch für Angriffe. OpenAI stuft das Modell in seinem eigenen Risikorahmen deshalb als kritisch für die Cybersicherheit ein und trainierte es mit einem eigens eingerichteten Lockziel darauf, vorgegebene Grenzen einzuhalten. Mozilla und Entwickler des Linux-Kernels erhielten Meldungen samt Vorschlägen zur Behebung. Alle Messwerte stammen bislang vom Unternehmen selbst, unabhängige Prüfungen fehlen.",
-   "dup_of": "53c56afbaf05"
+   "also": [
+    {
+     "source": "OpenAI",
+     "url": "https://openai.com/index/introducing-gpt-6-cyber"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/openai-will-mit-gpt-6-cyber-das-aufspueren-von-sicherheitsluecken-erleichtern-doch-es-gibt-auch-kritik-1772107"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/openai-released-gpt-6-cyber-a-hacking-ai/"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/openais-gpt-6-cyber-can-hack-better-can-it-stay-within-the-rules/"
+    },
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/OpenAIs-fuer-Cybersecurity-verbessertes-KI-Modell-GPT-6-Cyber-haelt-sich-an-Regeln-11514280.html"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+    }
+   ]
   },
   {
    "id": "a7fb616630b7",
@@ -294,32 +319,75 @@
    "quelle_titel": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
    "url": "https://openai.com/index/introducing-gpt-6-cyber",
    "kontext": "GPT-6 Cyber gehört zum Programm Daybreak Red, zu dem nur geprüfte Organisationen Zugang erhalten. OpenAI berichtet von hunderten möglichen Schwachstellen im Linux-Kern und Dutzenden zuvor unbekannten Lücken in Firefox. Ein Entwickler fand mit einem Vorgängermodell binnen weniger Stunden eine tief verschachtelte Lücke in Ubuntu-Software, die inzwischen behoben ist. Genau darin liegt die Kehrseite: Dieselben Fähigkeiten senken auch für Angreifer die Hürden erheblich.",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/gpt-6-cyber-openai-trainiert-ki-modell-gezielt-fuer-die-jagd-nach-sicherheitsluecken/"
-    },
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/OpenAIs-fuer-Cybersecurity-verbessertes-KI-Modell-GPT-6-Cyber-haelt-sich-an-Regeln-11514280.html"
-    },
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/openai-will-mit-gpt-6-cyber-das-aufspueren-von-sicherheitsluecken-erleichtern-doch-es-gibt-auch-kritik-1772107"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/openai-released-gpt-6-cyber-a-hacking-ai/"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/openais-gpt-6-cyber-can-hack-better-can-it-stay-within-the-rules/"
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
-    }
-   ]
+   "dup_of": "1b89c0cbed8e"
+  },
+  {
+   "id": "23dfd1c63532",
+   "date": "2026-11-05",
+   "published": "2026-11-05T10:56+01:00",
+   "headline": "Meta übernimmt Conductor und stärkt eigene KI-Coding-Werkzeuge",
+   "summary": "Meta kauft das auf KI-Agenten für Programmierung spezialisierte Unternehmen Conductor. Damit will der Konzern seine Entwicklerwerkzeuge ausbauen und den Rückstand auf OpenAI und Anthropic verringern. Der Wettbewerb um automatisierte Softwareentwicklung verschärft sich weiter.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "meta",
+    "übernahme",
+    "coding-agenten",
+    "entwicklertools"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-07T03:12:22+01:00",
+   "quelle_titel": "Meta kauft Spezialisten für KI-Coding-Agenten",
+   "url": "https://www.heise.de/news/Meta-kauft-Spezialisten-fuer-KI-Coding-Agenten-11513119.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "4d0add528963"
+  },
+  {
+   "id": "29ba2dda854c",
+   "date": "2026-11-05",
+   "published": "2026-11-05T11:40+01:00",
+   "headline": "Analyse zerpflückt die KI-Pläne der Bundesregierung für die nächsten vier Jahre",
+   "summary": "Eine Analyse nimmt den Bericht der KI-Task-Force der Bundesregierung auseinander. Das darin gezeichnete Bild eines KI-Standorts Deutschland klinge zwar attraktiv, setze sich aber kaum kritisch mit Risiken und Umsetzungshürden auseinander. Für Unternehmen und Bildungsanbieter bleibt damit offen, welche Maßnahmen tatsächlich greifen.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "bundesregierung",
+    "ki-strategie",
+    "standort deutschland",
+    "task force"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-07T03:12:22+01:00",
+   "paywall": true,
+   "quelle_titel": "heise+ | So soll KI-Deutschland in 4 Jahren aussehen - eine Analyse der Regierungsziele",
+   "url": "https://www.heise.de/news/KI-Task-Force-Bericht-der-Bundesregierung-eine-Analyse-was-drin-steht-11510291.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
+  },
+  {
+   "id": "56bea0e1ac76",
+   "date": "2026-11-05",
+   "published": "2026-11-05T11:56+01:00",
+   "headline": "Pangram Labs startet Erkennungsmodelle für KI-Bilder und KI-Videos",
+   "summary": "Pangram Labs bringt mit Image 1.0 und Image Flash 1.0 zwei neue Modelle auf den Markt. Sie sollen künstlich erzeugte Bilder und Videos zuverlässig identifizieren. Damit erweitert der Anbieter sein bisheriges Angebot zur Erkennung maschinell erstellter Inhalte auf visuelle Medien.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "deepfake-erkennung",
+    "bilderkennung",
+    "pangram",
+    "medienkompetenz"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-07T03:12:22+01:00",
+   "quelle_titel": "Pangram Image ist da: KI-Bilder und -Videos aufspüren",
+   "url": "https://www.heise.de/news/Pangram-Image-ist-da-KI-Bilder-und-Videos-aufspueren-11513019.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter Pangram Labs steht ein US-Unternehmen, das 2023 von früheren Google- und Tesla-Entwicklern sowie Stanford-Absolventen gegründet wurde und zunächst nur Texte prüfen konnte. Nach einer Vorschauphase gilt die Bilderkennung nun als fertig, neu sind Heatmaps, die KI-Anteile im Bild farbig markieren. Ein Treiber ist der Druck durch die Transparenzpflichten der europäischen KI-Verordnung. Die hohen Trefferquoten stammen allerdings aus Tests des Anbieters selbst."
   },
   {
    "id": "141204434439",
@@ -367,8 +435,8 @@
    "kontext": "Conductor-Chef Charlie Holtz bestätigte den Verkauf, ohne einen Preis zu nennen. Die Cloud-Variante wird bereits im November eingestellt, die Desktop-App erhält ab 2027 keine neuen Modelle mehr. Für Meta ist der Zukauf ein Baustein, um Entwickler stärker an die eigene Plattform zu binden. Wie lukrativ dieses Feld ist, zeigt Anthropic mit Claude Code, und zuvor hatte SpaceX das Startup Cursor übernommen.",
    "also": [
     {
-     "source": "TLDR AI",
-     "url": "https://tldr.tech/ai/2026-11-05"
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Meta-kauft-Spezialisten-fuer-KI-Coding-Agenten-11513119.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     }
    ]
   },
@@ -473,6 +541,28 @@
    "quelle_titel": "Chipdesign, Quant-Trading, Cyberangriffe: Neuer Benchmark soll zeigen, wie wenig KI-Agenten in echten Arbeitsumgebungen leisten",
    "url": "https://the-decoder.de/chipdesign-quant-trading-cyberangriffe-neuer-benchmark-soll-zeigen-wie-wenig-ki-agenten-in-echten-arbeitsumgebungen-leisten/",
    "kontext": "Statt Wissensfragen setzt SemiAnalysis die Agenten stundenlang in echte Fachsoftware und große Datenräume, ausdrücklich als Gegenentwurf zu OpenAIs GDPval. Die rund 200 Aufgaben aus elf Feldern stammen von spezialisierten Zulieferern, die auch Trainingsdaten an KI-Labore verkaufen. Sicherheitsfilter drücken die Werte spürbar: Ohne Cyber, Biologie und Alignment verschiebt sich die Rangfolge. Da die meisten Aufgaben geheim bleiben, ist eine unabhängige Prüfung kaum möglich."
+  },
+  {
+   "id": "2846e03446f4",
+   "date": "2026-11-05",
+   "published": "2026-11-05T17:16+01:00",
+   "headline": "Startup Axiom Math prüft Mathe-Beweise automatisch mit KI-Agenten",
+   "summary": "Weil immer mehr ungeprüfte KI-Beweise in die Mathematik strömen, setzt Axiom Math auf formale Verifikation. Die KI-Agenten des Startups haben nach eigenen Angaben das Stacks Project formal verifiziert, eine der umfangreichsten Bibliotheken des Fachs. Das Thema Prüfbarkeit maschinell erzeugter Ergebnisse gewinnt damit an Gewicht.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "mathematik",
+    "verifikation",
+    "ki-agenten",
+    "startup"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-07T03:12:22+01:00",
+   "quelle_titel": "Axiom Math wants to keep AI slop out of mathematics",
+   "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+   "kontext": "Hinter Axiom steht die erst 25-jährige Gründerin Carina Hong, die ihre Promotion in Stanford abbrach und das Unternehmen mit Risikokapital von Menlo Ventures aufbaute. Das Stacks Project entstand ab 2005 an der Columbia University als offene Referenz und wuchs durch Beiträge vieler Mathematiker. Die Agenten übersetzen es in Code der Sprache Lean, den ein Beweisassistent Zeile für Zeile prüft. Ähnliche Verfahren sichern bereits Chipdesigns ab."
   },
   {
    "id": "95e6ac6ff313",
@@ -674,7 +764,7 @@
    "added": "2026-11-06T15:33:28+01:00",
    "quelle_titel": "OpenAI released a new cybersecurity model. Is that enough?",
    "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-   "dup_of": "53c56afbaf05"
+   "dup_of": "1b89c0cbed8e"
   },
   {
    "id": "b3c78967a13a",
@@ -832,7 +922,8 @@
    "source_id": "huggingface",
    "added": "2026-11-06T15:37:41+01:00",
    "quelle_titel": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
-   "url": "https://huggingface.co/blog/phonon-tts"
+   "url": "https://huggingface.co/blog/phonon-tts",
+   "kontext": "Hinter Phonon steht das Team von Gradium, das das Modell bereits im Frühjahr angekündigt und seither mit Partnern und ersten Nutzern verkleinert hat. Technisch setzt es auf Flow Matching aus der Pocket-TTS-Linie, was hohe Qualität bei wenigen Dutzend Megabyte erlaubt, das Training aber zunächst instabil machte. Die Gewichte sind offen, die englische Variante auch für kommerzielle Produkte. Laufen soll das Ganze auf Handys, Einplatinenrechnern und sogar einer Smartwatch ohne Funkverbindung."
   },
   {
    "id": "f93567576105",
@@ -1032,6 +1123,29 @@
    ]
   },
   {
+   "id": "468eb30eea90",
+   "date": "2026-11-05",
+   "published": "2026-11-05T11:28+01:00",
+   "headline": "Altman korrigiert sich nach Aussage zu RAM für KI-Rechenzentren",
+   "summary": "OpenAI-Chef Sam Altman hatte angedeutet, die weltweiten Speicherchip-Vorräte seien in KI-Rechenzentren besser investiert. Nach Kritik nimmt er diese Aussage nun zurück. Der Vorgang verdeutlicht, wie angespannt die Lage bei Hardware und Speicher für den KI-Ausbau ist.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "altman",
+    "speicherchips",
+    "rechenzentren"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-07T03:12:22+01:00",
+   "kurios": "Der OpenAI-Chef wollte kurzzeitig den weltweiten RAM-Vorrat umwidmen.",
+   "quelle_titel": "Sam Altman rudert nach RAM-Aussage zurück",
+   "url": "https://www.heise.de/news/Sam-Altman-rudert-nach-RAM-Aussage-zurueck-11513133.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Altmans Bemerkung fiel in einem Podcast des Stripe-Mitgründers John Collison: Privatrechner bänden knappen Arbeitsspeicher, der dort kaum genutzt werde. Nach der Kritik beteuerte er auf X, er wolle weltweit viel mehr Speicher, und nahm sich mit einem kurzzeitigen Namenswechsel selbst auf die Schippe. Dahinter steckt eine reale Knappheit, weil Rechenzentren den Markt leerkaufen und Technikprodukte teurer werden. Entlastung erwarten Analysten erst in einigen Jahren."
+  },
+  {
    "id": "438eb1b27056",
    "date": "2026-11-05",
    "published": "2026-11-05T12:09+01:00",
@@ -1193,6 +1307,7 @@
    "added": "2026-11-07T02:02:07+01:00",
    "quelle_titel": "Apple kürzt interne KI-Budgets für Beschäftigte deutlich",
    "url": "https://www.heise.de/news/Apple-kuerzt-interne-KI-Budgets-fuer-Beschaeftigte-deutlich-11513091.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Die Zahlen stammen aus einem Bloomberg-Bericht, der sich auf Insider stützt; Apple selbst äußert sich nicht dazu. Schon im Oktober sank das Tageslimit für manche Ingenieure von 300 auf 200 Dollar, einzelne Teams sollen nun auf günstigere oder lokal laufende Modelle umsteigen. Intern wird befürchtet, dass dahinter ein größeres Sparprogramm des neuen Chefs John Ternus steckt. Microsoft, Tesla und Uber ziehen ihre KI-Budgets ebenfalls an.",
    "also": [
     {
      "source": "iX",
@@ -1202,8 +1317,7 @@
      "source": "iX",
      "url": "https://www.heise.de/news/KI-Modelle-Apple-Entwickler-sollen-sparen-11513333.html"
     }
-   ],
-   "kontext": "Die Zahlen stammen aus einem Bloomberg-Bericht, der sich auf Insider stützt; Apple selbst äußert sich nicht dazu. Schon im Oktober sank das Tageslimit für manche Ingenieure von 300 auf 200 Dollar, einzelne Teams sollen nun auf günstigere oder lokal laufende Modelle umsteigen. Intern wird befürchtet, dass dahinter ein größeres Sparprogramm des neuen Chefs John Ternus steckt. Microsoft, Tesla und Uber ziehen ihre KI-Budgets ebenfalls an."
+   ]
   },
   {
    "id": "e63b8d0c30c6",
@@ -1351,6 +1465,28 @@
    "dup_of": "e68e0157689d"
   },
   {
+   "id": "aecc9a23fd3c",
+   "date": "2026-11-05",
+   "published": "2026-11-05T16:19+01:00",
+   "headline": "Dropbox kauft Tigris Data für 350 Millionen Dollar",
+   "summary": "Dropbox übernimmt den Speicherspezialisten Tigris Data für 350 Millionen Dollar und baut damit seine KI-Infrastruktur aus. Die Technik soll in die neue Plattform DBX Agent Cloud einfließen, die sich an Entwickler von KI-Modellen und Agenten richtet. Dropbox positioniert sich damit stärker im Markt für Entwicklerinfrastruktur.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "dropbox",
+    "übernahme",
+    "speicher",
+    "ki-agenten"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-07T03:12:22+01:00",
+   "quelle_titel": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+   "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+   "kontext": "Tigris wurde von früheren Uber-Ingenieuren gegründet, die dort die Speicherinfrastruktur mitaufgebaut haben, und legt Daten möglichst nah an Nutzer und Rechenleistung. Für Dropbox ist es die bislang größte Übernahme, nach mehreren kleineren KI-Zukäufen der vergangenen Jahre. Der Abschluss ist für das Jahresende geplant, Stellen sollen nicht wegfallen, obwohl das Unternehmen gerade erst einen Teil der Belegschaft abgebaut hat."
+  },
+  {
    "id": "e95e3334f65e",
    "date": "2026-11-05",
    "published": "2026-11-05T16:30+01:00",
@@ -1392,7 +1528,7 @@
    "added": "2026-11-07T02:02:07+01:00",
    "quelle_titel": "Nach US-Zwischenwahlen: OpenAI verspricht anwohnerfreundliche Rechenzentren",
    "url": "https://www.heise.de/news/Nach-US-Zwischenwahlen-OpenAI-verspricht-anwohnerfreundliche-Rechenzentren-11513473.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "f93567576105"
+   "dup_of": "b53db0f7184a"
   },
   {
    "id": "d0260662e950",
@@ -1547,7 +1683,7 @@
    "added": "2026-11-06T15:04:46+01:00",
    "quelle_titel": "OpenAI’s New Data Center Pitch Starts With Letting Officials Talk",
    "url": "https://www.theneuron.ai/news/openai-data-center-reset-no-ndas-public-officials/",
-   "dup_of": "f93567576105"
+   "dup_of": "b53db0f7184a"
   },
   {
    "id": "b0ae5318dec9",
@@ -1622,6 +1758,27 @@
    "quelle_titel": "Gastronomie: Verdirbt uns die KI den Appetit?",
    "url": "https://www.stern.de/digital/gastronomie--verdirbt-uns-die-ki-den-appetit--38503480.html",
    "dup_of": "1daaf0627286"
+  },
+  {
+   "id": "804e4bc20ab3",
+   "date": "2026-11-05",
+   "published": "2026-11-05T09:50+01:00",
+   "headline": "Nothing kündigt erstes KI-natives Gerät für Dezember an",
+   "summary": "Das Londoner Start-up Nothing will im Dezember sein erstes KI-natives Produkt zeigen. Es soll bewusst ohne zusätzlichen Bildschirm auskommen. Einen Durchbruch im Stil des ersten iPhones erwartet das Unternehmen dabei selbst noch nicht.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "nothing",
+    "hardware",
+    "ki-gerät",
+    "ankündigung"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-07T03:12:22+01:00",
+   "quelle_titel": "Noch kein „iPhone-Moment“: Nothings erstes KI-natives Produkt kommt im Dezember",
+   "url": "https://www.heise.de/news/Noch-kein-iPhone-Moment-Nothings-erstes-KI-natives-Produkt-kommt-im-Dezember-11512924.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
    "id": "69bd243b7c78",
@@ -1740,6 +1897,27 @@
    "added": "2026-11-06T15:12:00+01:00",
    "quelle_titel": "#StartupsToWatch - CoTrainer, und KI bringt Ordnung ins Vereinsleben",
    "url": "https://www.deutsche-startups.de/2026/11/05/cotrainer-und-ki-bringt-ordnung-ins-vereinsleben/"
+  },
+  {
+   "id": "c9efcd5ee343",
+   "date": "2026-11-05",
+   "published": "2026-11-05T15:42+01:00",
+   "headline": "Smart Ring von Aina bringt Display, Joystick und Mikrofon für KI-Agenten",
+   "summary": "Aina stellt einen Smart Ring vor, der mit kleinem Bildschirm, Joystick und Mikrofon ausgestattet ist und die Sprachsteuerung von KI-Agenten erlaubt. Der Ring kann außerdem Telefonate annehmen und Notizen am Mac diktieren. Das Gerät zeigt, wie Hersteller neue Bedienkonzepte jenseits des Smartphones für KI testen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "wearable",
+    "smart ring",
+    "sprachsteuerung",
+    "hardware"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-07T03:12:22+01:00",
+   "quelle_titel": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
+   "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/"
   },
   {
    "id": "b5323f65c52d",
