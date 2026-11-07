@@ -1,38 +1,38 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-07T04:29:39+01:00",
+ "generated_at": "2026-11-08T00:34:31+01:00",
  "overview": [
   {
    "id": "328e89004555",
-   "text": "Die Bundesregierung beschließt 18 Maßnahmen samt neuem Partnerbündnis, um Deutschland bei KI nach vorn zu bringen, während Nvidia-Chef Huang Rückstand mahnt."
-  },
-  {
-   "id": "1b89c0cbed8e",
-   "text": "OpenAI zeigt mit GPT-6 Cyber ein Modell, das laut Hersteller 81 unbekannte Firefox-Lücken fand und 948 funktionierende Exploits im Linux-Kernel erzeugte."
-  },
-  {
-   "id": "c1f65f57a861",
-   "text": "Die Lernplattform Go1 übernimmt die Kurse der OpenAI Academy und öffnet die KI-Schulungen damit für mehr als elf Millionen Lernende."
+   "text": "Die Bundesregierung hat 18 Maßnahmen beschlossen, mit denen Deutschland bei KI aufholen will, während Nvidia-Chef Huang den Standort zurückfallen sieht."
   },
   {
    "id": "4d0add528963",
-   "text": "Meta kauft Conductor, OpenAI greift nach Pierre Computer: Der Wert verschiebt sich von den Modellen zu den Werkzeugen für KI-Coding-Agenten."
+   "text": "Meta übernimmt Conductor und OpenAI kauft Pierre Computer, weil der Wert zunehmend in den Werkzeugen rund um KI-Coding-Agenten liegt."
+  },
+  {
+   "id": "caf658c9d5d9",
+   "text": "Im neuen Benchmark GDPx scheitern KI-Agenten an echter Wissensarbeit, kein Modell kommt über zwölf Prozent, vorn liegt Claude Opus 5.5."
+  },
+  {
+   "id": "53c56afbaf05",
+   "text": "OpenAI stellt GPT-6 Cyber vor, ein Modell, das Sicherheitslücken aufspüren und Patches entwickeln soll, begrenzt auf den autorisierten Prüfumfang."
   },
   {
    "id": "549094e30f29",
-   "text": "Laut IAB und Initiative D21 nutzen Frauen KI um 16 Prozentpunkte seltener als Männer, Weiterbildung verkleinert diese Lücke deutlich."
+   "text": "Laut IAB und Initiative D21 nutzen Frauen KI um 16 Prozentpunkte seltener als Männer, Weiterbildung verringert diesen Abstand deutlich."
+  },
+  {
+   "id": "c1f65f57a861",
+   "text": "Die Lernplattform Go1 nimmt die Kurse der OpenAI Academy auf und macht die KI-Schulungen für mehr als elf Millionen Lernende zugänglich."
   },
   {
    "id": "da7153898511",
-   "text": "Anthropic setzt Claude auf eine 40 Jahre offene Frage der Zellbiologie an: Ein Laborschritt sank von drei Tagen auf 90 Minuten, Modellfehler bremsten jedoch."
+   "text": "Anthropic setzte Claude auf eine 40 Jahre alte Frage der Zellbiologie an, ein Laborschritt sank von drei Tagen auf 90 Minuten, doch Modellfehler bremsten."
   },
   {
-   "id": "4b216c662524",
-   "text": "Anthropic verbindet Claude über Plaid mit Bank- und Kartenkonten, sodass Nutzer ihre laufenden Ausgaben direkt im Chat auswerten lassen können."
-  },
-  {
-   "id": "95e6ac6ff313",
-   "text": "Proteste gegen neue Rechenzentren nehmen in den USA und Europa zu, während Berlin bis 2030 zur führenden KI-Nation aufsteigen will."
+   "id": "392c3f4467d5",
+   "text": "Mistral-Chef Arthur Mensch kündigt Investitionen in Deutschland an und positioniert sein Unternehmen als europäische Antwort auf OpenAI und Anthropic."
   }
  ],
  "items": [
@@ -130,6 +130,11 @@
     {
      "source": "CIO",
      "url": "https://www.cio.de/article/4244636/digital-gipfel-2026-kanzler-merz-blaest-zur-ki-offensive.html"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/KI-Task-Force-Bericht-der-Bundesregierung-eine-Analyse-was-drin-steht-11510291.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
+     "paywall": true
     }
    ]
   },
@@ -155,32 +160,29 @@
    "quelle_titel": "GPT-6 Cyber: OpenAI trainiert KI-Modell gezielt für die Jagd nach Sicherheitslücken",
    "url": "https://the-decoder.de/gpt-6-cyber-openai-trainiert-ki-modell-gezielt-fuer-die-jagd-nach-sicherheitsluecken/",
    "kontext": "Hinter der Ankündigung steht ein doppelter Nutzen: Dieselben Fähigkeiten, die Verteidigern helfen, taugen auch für Angriffe. OpenAI stuft das Modell in seinem eigenen Risikorahmen deshalb als kritisch für die Cybersicherheit ein und trainierte es mit einem eigens eingerichteten Lockziel darauf, vorgegebene Grenzen einzuhalten. Mozilla und Entwickler des Linux-Kernels erhielten Meldungen samt Vorschlägen zur Behebung. Alle Messwerte stammen bislang vom Unternehmen selbst, unabhängige Prüfungen fehlen.",
-   "also": [
-    {
-     "source": "OpenAI",
-     "url": "https://openai.com/index/introducing-gpt-6-cyber"
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
-    },
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/OpenAIs-fuer-Cybersecurity-verbessertes-KI-Modell-GPT-6-Cyber-haelt-sich-an-Regeln-11514280.html"
-    },
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/openai-will-mit-gpt-6-cyber-das-aufspueren-von-sicherheitsluecken-erleichtern-doch-es-gibt-auch-kritik-1772107"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/openai-released-gpt-6-cyber-a-hacking-ai/"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/openais-gpt-6-cyber-can-hack-better-can-it-stay-within-the-rules/"
-    }
-   ]
+   "dup_of": "53c56afbaf05"
+  },
+  {
+   "id": "07459f74309d",
+   "date": "2026-11-05",
+   "published": "2026-11-05T00:24+01:00",
+   "headline": "KI-Kurse von Go1 und OpenAI Academy erreichen über 10.000 Organisationen",
+   "summary": "Die Lernplattform Go1 und die OpenAI Academy melden, dass ihre gemeinsamen KI-Kurse inzwischen mehr als 10.000 Organisationen erreichen. Die Zahl zeigt, wie stark Unternehmen derzeit standardisierte Qualifizierungsangebote zu KI nachfragen. Für den Weiterbildungsmarkt bedeutet das wachsenden Wettbewerb durch plattformbasierte Anbieter.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "weiterbildung",
+    "ki-kompetenz",
+    "lernplattform",
+    "openai"
+   ],
+   "source": "ad-hoc-news.de",
+   "source_id": "gn-kurse",
+   "added": "2026-11-08T00:27:48+01:00",
+   "quelle_titel": "Go1 und OpenAI Academy: KI-Kurse erreichen mehr als 10.000 Organisationen",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbURBaXpyaXF0QUx2bU5mUnFWQk9XdUlGTjE5TjlYS2hrZzZmSmlGTzBGb29URlhPYW1VRXJCczJYZndXby1Dd0FMNnN6dTQ4U0ZvZW1UbzNCWU1xTkxWdUQ0SkF2ajdzTkxlVGZXc1NRSFdoNTBuWF84Yi1xQmtwVnJQa0JTcmkyUVBLOXBKdm9Ed0Y2cDB2cEpwT3lHdFE2RTFXVm5Qbng4TVE0WVRGN3dmRVFZaFIyeVhjZXBB?oc=5"
   },
   {
    "id": "a7fb616630b7",
@@ -269,7 +271,8 @@
    "source_id": "rundown",
    "added": "2026-11-07T11:11:30+01:00",
    "quelle_titel": "Midterm voters turn on data centers, AI",
-   "url": "https://therundownai.beehiiv.com/p/ai-agents-can-now-make-your-phone-calls?story=midterm-voters-turn-on-data-centers-ai"
+   "url": "https://therundownai.beehiiv.com/p/ai-agents-can-now-make-your-phone-calls?story=midterm-voters-turn-on-data-centers-ai",
+   "dup_of": "ef57b5d47585"
   },
   {
    "id": "da7153898511",
@@ -319,8 +322,8 @@
    "kontext": "Hinter dem Update steckt ein hoher Takt: Bereits der Vorgänger kam vor rund zwei Monaten und versprach ebenfalls deutlich kürzere Wartezeiten. OpenAI zielt mit SVG-Export, markierbaren Bildbereichen und wiederverwendbaren Referenzbildern vor allem auf Entwickler und gestalterische Arbeit. Die Preise pro Token bleiben gleich, Vektorgrafiken verursachen wegen des zweistufigen Verfahrens aber Zusatzkosten. Schwächen bleiben bei Schrift, komplexen Layouts und gleichbleibenden Figuren.",
    "also": [
     {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/openai-launched-images-2-6-with-gifs/"
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=openais-images-2-6-adds-gifs-to-chatgpt"
     }
    ]
   },
@@ -415,7 +418,40 @@
    "quelle_titel": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
    "url": "https://openai.com/index/introducing-gpt-6-cyber",
    "kontext": "GPT-6 Cyber gehört zum Programm Daybreak Red, zu dem nur geprüfte Organisationen Zugang erhalten. OpenAI berichtet von hunderten möglichen Schwachstellen im Linux-Kern und Dutzenden zuvor unbekannten Lücken in Firefox. Ein Entwickler fand mit einem Vorgängermodell binnen weniger Stunden eine tief verschachtelte Lücke in Ubuntu-Software, die inzwischen behoben ist. Genau darin liegt die Kehrseite: Dieselben Fähigkeiten senken auch für Angreifer die Hürden erheblich.",
-   "dup_of": "1b89c0cbed8e"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/gpt-6-cyber-openai-trainiert-ki-modell-gezielt-fuer-die-jagd-nach-sicherheitsluecken/"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+    },
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/OpenAIs-fuer-Cybersecurity-verbessertes-KI-Modell-GPT-6-Cyber-haelt-sich-an-Regeln-11514280.html"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/openai-will-mit-gpt-6-cyber-das-aufspueren-von-sicherheitsluecken-erleichtern-doch-es-gibt-auch-kritik-1772107"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=openai-releases-gpt-6-cyber"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/openai-released-gpt-6-cyber-a-hacking-ai?story=openais-gpt-6-cyber-can-hack-better-can-it-stay-within-the-rules"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/openai-released-gpt-6-cyber-a-hacking-ai/"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/openais-gpt-6-cyber-can-hack-better-can-it-stay-within-the-rules/"
+    }
+   ]
   },
   {
    "id": "23dfd1c63532",
@@ -460,7 +496,8 @@
    "added": "2026-11-07T03:12:22+01:00",
    "paywall": true,
    "quelle_titel": "heise+ | So soll KI-Deutschland in 4 Jahren aussehen - eine Analyse der Regierungsziele",
-   "url": "https://www.heise.de/news/KI-Task-Force-Bericht-der-Bundesregierung-eine-Analyse-was-drin-steht-11510291.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
+   "url": "https://www.heise.de/news/KI-Task-Force-Bericht-der-Bundesregierung-eine-Analyse-was-drin-steht-11510291.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
+   "dup_of": "328e89004555"
   },
   {
    "id": "56bea0e1ac76",
@@ -580,17 +617,7 @@
    "added": "2026-11-06T15:34:14+01:00",
    "quelle_titel": "Tencents Hy4 soll KI-Entwicklung selbst übernehmen und eigene Nachfolger trainieren",
    "url": "https://the-decoder.de/tencents-hy4-soll-ki-entwicklung-selbst-uebernehmen-und-eigene-nachfolger-trainieren/",
-   "kontext": "Hinter Hy4 steckt ein Mixture-of-Experts-Modell mit sehr großem Kontextfenster, das zunächst nur über Tencents Cloud, OpenRouter und eigene Apps läuft. Die Gewichte der Endfassung will der Konzern erst später freigeben, offen verfügbar ist bislang die Vorabversion. Trainiert wurde gezielt für Programmier-, Finanz- und Büroaufgaben samt Steuerung von Fachsoftware. Unabhängige Messungen zeigen aber die Kehrseite: Bei Wissenslücken erfindet das Modell auffällig oft Antworten.",
-   "also": [
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Tencent-Hy4-Neues-KI-Modell-schafft-es-in-chinesische-Spitzengruppe-11513555.html"
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Tencent-Hy4-Neues-KI-Modell-schafft-es-in-chinesische-Spitzengruppe-11513555.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    }
-   ]
+   "kontext": "Hinter Hy4 steckt ein Mixture-of-Experts-Modell mit sehr großem Kontextfenster, das zunächst nur über Tencents Cloud, OpenRouter und eigene Apps läuft. Die Gewichte der Endfassung will der Konzern erst später freigeben, offen verfügbar ist bislang die Vorabversion. Trainiert wurde gezielt für Programmier-, Finanz- und Büroaufgaben samt Steuerung von Fachsoftware. Unabhängige Messungen zeigen aber die Kehrseite: Bei Wissenslücken erfindet das Modell auffällig oft Antworten."
   },
   {
    "id": "392c3f4467d5",
@@ -658,7 +685,13 @@
    "added": "2026-11-07T03:12:22+01:00",
    "quelle_titel": "Axiom Math wants to keep AI slop out of mathematics",
    "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
-   "kontext": "Hinter Axiom steht die erst 25-jährige Gründerin Carina Hong, die ihre Promotion in Stanford abbrach und das Unternehmen mit Risikokapital von Menlo Ventures aufbaute. Das Stacks Project entstand ab 2005 an der Columbia University als offene Referenz und wuchs durch Beiträge vieler Mathematiker. Die Agenten übersetzen es in Code der Sprache Lean, den ein Beweisassistent Zeile für Zeile prüft. Ähnliche Verfahren sichern bereits Chipdesigns ab."
+   "kontext": "Hinter Axiom steht die erst 25-jährige Gründerin Carina Hong, die ihre Promotion in Stanford abbrach und das Unternehmen mit Risikokapital von Menlo Ventures aufbaute. Das Stacks Project entstand ab 2005 an der Columbia University als offene Referenz und wuchs durch Beiträge vieler Mathematiker. Die Agenten übersetzen es in Code der Sprache Lean, den ein Beweisassistent Zeile für Zeile prüft. Ähnliche Verfahren sichern bereits Chipdesigns ab.",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/openai-released-gpt-6-cyber-a-hacking-ai?story=axiom-formalizes-the-stacks-project-in-lean"
+    }
+   ]
   },
   {
    "id": "95e6ac6ff313",
@@ -724,7 +757,13 @@
    "added": "2026-11-06T15:33:28+01:00",
    "quelle_titel": "Baidu veröffentlicht ERNIE 5.5 Flash Base mit 280 Milliarden Parametern als Open-Source-Basismodell",
    "url": "https://the-decoder.de/baidu-veroeffentlicht-ernie-5-5-flash-base-mit-280-milliarden-parametern-als-open-source-basismodell/",
-   "kontext": "Baidu liefert bewusst nur das Rohmaterial. Ohne Nachtraining ist das Modell kein fertiger Assistent, sondern eine Grundlage für eigene Entwicklungen, eine nachtrainierte Fassung soll folgen. Die Gewichte stehen in zwei Genauigkeitsformaten auf Hugging Face bereit, bei Anwendung und Feinabstimmung sind sehr lange Kontexte möglich. Nach Angaben des Konzerns hält es in Tests für Logik und Code mit anderen offenen Basismodellen mit."
+   "kontext": "Baidu liefert bewusst nur das Rohmaterial. Ohne Nachtraining ist das Modell kein fertiger Assistent, sondern eine Grundlage für eigene Entwicklungen, eine nachtrainierte Fassung soll folgen. Die Gewichte stehen in zwei Genauigkeitsformaten auf Hugging Face bereit, bei Anwendung und Feinabstimmung sind sehr lange Kontexte möglich. Nach Angaben des Konzerns hält es in Tests für Logik und Code mit anderen offenen Basismodellen mit.",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/openai-released-gpt-6-cyber-a-hacking-ai?story=ernie-5-5-flash-base-open-model"
+    }
+   ]
   },
   {
    "id": "4b216c662524",
@@ -748,20 +787,7 @@
    "quelle_titel": "Claude AI can plug directly into your bank account",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
    "kontext": "Die Funktion startet als Beta in den USA und nur für zahlende Abostufen. Plaid vermittelt die Verbindung, Claude sieht Kontostände und Umsätze der letzten Jahre, aber keine Zugangsdaten, und kann kein Geld bewegen oder anlegen. Anthropic verspricht keine Werbung, kein Training mit diesen Dialogen und jederzeit trennbare Konten. OpenAI hat ein vergleichbares Angebot, der Wettbewerb um Finanzdaten im Alltag nimmt zu.",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/anthropic-baut-claude-zum-persoenlichen-finanzassistenten-aus/"
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/claude-bank-accounts-financial-data-privacy/"
-    }
-   ]
+   "dup_of": "825d18db204d"
   },
   {
    "id": "7b187a5bdc28",
@@ -784,7 +810,7 @@
    "added": "2026-11-07T02:02:07+01:00",
    "quelle_titel": "Claude can now analyze your spending with its new Personal Finance tool",
    "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
-   "dup_of": "4b216c662524"
+   "dup_of": "825d18db204d"
   },
   {
    "id": "cfd1704d56b5",
@@ -806,7 +832,13 @@
    "added": "2026-11-06T15:33:28+01:00",
    "quelle_titel": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
    "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-   "kontext": "Brockman beschreibt ein Jahr mit schwierigem Start. Bei Programmierassistenten war OpenAI zunächst kaum sichtbar, während Anthropic mit Claude Code Anteile gewann. Im dritten Quartal zog das Geschäft deutlich an, vor allem dank Firmenkunden, die inzwischen den größeren Teil der Erlöse liefern. Als Beispiel nennt er eine Zusammenarbeit mit der Großbank JPMorgan Chase. Ein konkretes Datum für den Börsengang blieb offen."
+   "kontext": "Brockman beschreibt ein Jahr mit schwierigem Start. Bei Programmierassistenten war OpenAI zunächst kaum sichtbar, während Anthropic mit Claude Code Anteile gewann. Im dritten Quartal zog das Geschäft deutlich an, vor allem dank Firmenkunden, die inzwischen den größeren Teil der Erlöse liefern. Als Beispiel nennt er eine Zusammenarbeit mit der Großbank JPMorgan Chase. Ein konkretes Datum für den Börsengang blieb offen.",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneurondaily.com/p/openai-released-gpt-6-cyber-a-hacking-ai?story=brockman-says-openai-could-be-ipo-ready-in-2027"
+    }
+   ]
   },
   {
    "id": "d6dbc85a7115",
@@ -835,8 +867,8 @@
      "url": "https://www.heise.de/news/Google-verbessert-KI-Videogenerator-Gemini-Omni-auf-Version-1-2-Flash-11515072.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
-     "source": "Google DeepMind",
-     "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=google-rolls-out-gemini-omni-1-2-flash"
     }
    ]
   },
@@ -860,7 +892,7 @@
    "added": "2026-11-06T15:33:28+01:00",
    "quelle_titel": "OpenAI released a new cybersecurity model. Is that enough?",
    "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-   "dup_of": "1b89c0cbed8e"
+   "dup_of": "53c56afbaf05"
   },
   {
    "id": "b3c78967a13a",
@@ -1300,6 +1332,27 @@
    "kontext": "Anders als Sprachmodelle zielt SAP-RPT auf Tabellendaten, wie sie in Unternehmen und in der Sensorik dominieren; es baut auf dem Modell TabPFN von Prior Labs auf und wird über SAP AI Core gesteuert. An Bord soll es Telemetrie laufend auf Anomalien prüfen und fehlende Messwerte ergänzen, ohne vorheriges Training. Weil Funkverbindungen knapp sind, muss die Auswertung direkt vor Ort geschehen. SAP sieht darin einen Härtetest für Prognosen in Lieferketten und Produktion."
   },
   {
+   "id": "9999574e00a0",
+   "date": "2026-11-05",
+   "published": "2026-11-05T09:00+01:00",
+   "headline": "Netflix bringt KI-gestützte Inhaltesuche AI Discover auf US-Fernseher",
+   "summary": "Netflix stellt in den USA eine neue Funktion namens AI Discover für die TV-Oberfläche bereit. Damit sollen Nutzerinnen und Nutzer passende Inhalte mit KI-Unterstützung finden.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "netflix",
+    "empfehlungen",
+    "streaming",
+    "suche"
+   ],
+   "source": "joinmares.com",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-08T00:27:48+01:00",
+   "quelle_titel": "Netflix startet AI Discover für TV-Nutzer in den USA",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQm5EREZOMGVKYy1IVnp2U0RCSUdUdGJBU25xQWczNVRMMUl1c1ZPeWFkTVg1TFZ5bjdYcnZJMTFrc2N1OHliTEFZQm5jSk51dlB3Vnp5UEtzQ2lBT3pmMFZldXVycHVkekU5Wk4wOUVlbFRWSEl4YmxHcElfTkFtaEkzWGM4eVEwc0xz?oc=5"
+  },
+  {
    "id": "f35d234412c5",
    "date": "2026-11-05",
    "published": "2026-11-05T10:22+01:00",
@@ -1652,13 +1705,13 @@
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZkFPX0FwdzVnYXpfem9NcURXUVN3SWZQdzY2T0F6bTA4VTZTd0FhZjNqWHlmVUxpOWlLeVlrM0lUUENOc1VFd1ByNEJ6UVZUbzU3VVUza3g3Z2hHV2M4UC1Qcl9iUU94aUFPdEVubmswaWduUXNBSmc4QjNVZTRocVRxX0xIellpNTJlcUdVcWNOT0licVhnbnF4aHp1UHVocFd6N3QyTWV1WTdhSGJmSVJTVC1uWEMwZkttNlo1RnRqbmQxaG5VMm5BNTQ?oc=5",
    "also": [
     {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-baukonzern-auftragsbucher-von-hochtief-dank-ki-boom-so-voll-wie-nie-16246702.html",
+     "source": "Spiegel",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOSFV2NDZhWm5hTk0wSFBiZHBLTmZzYW5pb0Q0RFpkbWstbGtPQmlJdXVmQzRYOUc3dWR1cU1qcGxTUjMzdEEyZlg5QjhkTWl2a09neU5XT3o4SUZMcTJSUmc4eFI2RGJlaDhhMDZyZlBabzE5UG02WXhybUdORlc4aDJHVTBTWTA4ak5hRkVJWTJ1OHgydkxDenVWQ0VJLVlFVWsxR1ZRVG1qNXk4YU9RNTdVc2VLWjV0UXBDbklvMDNxZGFLd2RySmtsU0c2QVhTYVhuc2xNbTVNZnNBRy1HbmFaVS1YZVRlOXVzYVZLa3U?oc=5",
      "paywall": true
     },
     {
-     "source": "Spiegel",
-     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOSFV2NDZhWm5hTk0wSFBiZHBLTmZzYW5pb0Q0RFpkbWstbGtPQmlJdXVmQzRYOUc3dWR1cU1qcGxTUjMzdEEyZlg5QjhkTWl2a09neU5XT3o4SUZMcTJSUmc4eFI2RGJlaDhhMDZyZlBabzE5UG02WXhybUdORlc4aDJHVTBTWTA4ak5hRkVJWTJ1OHgydkxDenVWQ0VJLVlFVWsxR1ZRVG1qNXk4YU9RNTdVc2VLWjV0UXBDbklvMDNxZGFLd2RySmtsU0c2QVhTYVhuc2xNbTVNZnNBRy1HbmFaVS1YZVRlOXVzYVZLa3U?oc=5",
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-baukonzern-auftragsbucher-von-hochtief-dank-ki-boom-so-voll-wie-nie-16246702.html",
      "paywall": true
     }
    ]
@@ -1727,8 +1780,7 @@
    "source_id": "rundown",
    "added": "2026-11-06T15:04:46+01:00",
    "quelle_titel": "Agility’s $2.5B humanoid hits Nasdaq",
-   "url": "https://www.therundown.ai/articles/agility-2-5b-humanoid-hits-nasdaq",
-   "dup_of": "4513cd1ca7d8"
+   "url": "https://www.therundown.ai/articles/agility-2-5b-humanoid-hits-nasdaq"
   },
   {
    "id": "0b9640b12afb",
@@ -1795,7 +1847,21 @@
    "added": "2026-11-06T15:33:28+01:00",
    "quelle_titel": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
    "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-   "dup_of": "d6dbc85a7115"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/google-veroeffentlicht-gemini-omni-1-2-flash-mit-laengeren-clips-und-guenstigeren-preisen/"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Google-verbessert-KI-Videogenerator-Gemini-Omni-auf-Version-1-2-Flash-11515072.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=google-rolls-out-gemini-omni-1-2-flash"
+    }
+   ],
+   "kontext": "Hinter dem Modell steht Google DeepMind, das Bewegtbild, Ton und Bildreferenzen in einem System bündelt. Neu ist das dialogische Nachbearbeiten: Hintergrund, Licht oder Seitenverhältnis lassen sich ändern, ohne den Clip komplett neu zu erzeugen. Google verspricht außerdem konsistentere Gesichter, Kleidung und Logos über wechselnde Kamerawinkel hinweg sowie natürlichere Dialoge mit mehreren Sprechern. Alle Ausgaben erhalten ein unsichtbares SynthID-Wasserzeichen zur Herkunftskennzeichnung."
   },
   {
    "id": "157a14e63b69",
