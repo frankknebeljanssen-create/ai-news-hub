@@ -152,7 +152,8 @@
    "source_id": "cio",
    "added": "2026-11-06T15:10:22+01:00",
    "quelle_titel": "Siemens spart 20 Prozent Fertigungskosten mit KI von Nvidia",
-   "url": "https://www.cio.de/article/4241065/siemens-spart-20-prozent-fertigungskosten-mit-ki-von-nvidia.html"
+   "url": "https://www.cio.de/article/4241065/siemens-spart-20-prozent-fertigungskosten-mit-ki-von-nvidia.html",
+   "kontext": "Siemens erprobt seine Industrie-KI zunächst im eigenen Haus. Das Elektronikwerk Erlangen dient als Schaufenster für Bausteine, die gemeinsam mit Nvidia entstanden sind, darunter digitale Zwillinge und KI-Agenten. Die Leiterplattenfertigung ist kleinteilig und wechselt häufig die Produkte, deshalb zählen kurze Anläufe und flexible Planung besonders. Die genannte Kostenersparnis ist zugleich ein Verkaufsargument gegenüber anderen Industriekunden."
   },
   {
    "id": "1cfc6f1e77b0",
@@ -174,7 +175,21 @@
    "added": "2026-11-06T15:09:31+01:00",
    "quelle_titel": "OpenAIs für Cybersecurity verbessertes KI-Modell GPT-6 Cyber hält sich an Regeln",
    "url": "https://www.heise.de/news/OpenAIs-fuer-Cybersecurity-verbessertes-KI-Modell-GPT-6-Cyber-haelt-sich-an-Regeln-11514280.html",
-   "dup_of": "1b89c0cbed8e"
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/openai-will-mit-gpt-6-cyber-das-aufspueren-von-sicherheitsluecken-erleichtern-doch-es-gibt-auch-kritik-1772107"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/openai-released-gpt-6-cyber-a-hacking-ai/"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/openais-gpt-6-cyber-can-hack-better-can-it-stay-within-the-rules/"
+    }
+   ],
+   "kontext": "Zugang gibt es nur über das Programm Daybreak Red für ausgewählte Organisationen. OpenAI selbst sowie Teams bei Cisco und CodeRabbit nutzen das Modell bereits für Schwachstellensuche und Code-Prüfung. Das Unternehmen stuft die Cyberfähigkeiten als kritisch ein, weil die KI funktionsfähige Angriffswege auch ohne menschliches Zutun entwickeln kann. Ein Entwickler fand mit einem Vorgängermodell binnen Stunden eine gravierende Lücke in verbreiteter Linux-Software, was das Missbrauchsrisiko greifbar macht."
   },
   {
    "id": "c82c94014406",
@@ -197,7 +212,7 @@
    "added": "2026-11-06T15:04:46+01:00",
    "quelle_titel": "OpenAI's GPT-6 Cyber Can Hack Better. Can It Stay Within the Rules?",
    "url": "https://www.theneuron.ai/news/openais-gpt-6-cyber-can-hack-better-can-it-stay-within-the-rules/",
-   "dup_of": "1b89c0cbed8e"
+   "dup_of": "1cfc6f1e77b0"
   },
   {
    "id": "1c729780dfa0",
@@ -219,7 +234,8 @@
    "source_id": "cio",
    "added": "2026-11-06T15:09:31+01:00",
    "quelle_titel": "Roboterschule für Humanoide in München eröffnet",
-   "url": "https://www.cio.de/article/4245142/roboterschule-fuer-humanoide-in-muenchen-eroeffnet.html"
+   "url": "https://www.cio.de/article/4245142/roboterschule-fuer-humanoide-in-muenchen-eroeffnet.html",
+   "kontext": "Nach den Sprachmodellen rückt eine KI in den Blick, die greifen, laufen und Dinge bewegen soll. Dafür braucht es Übung in der echten Welt, und genau die soll das neue Münchner RoboGym liefern, etwa beim Falten einer Schachtel. Bei den großen Basismodellen hinkt Deutschland hinterher, bringt aber Wissen aus Industrie und Fertigung mit. Die TUM will diesen Vorteil nutzbar machen."
   },
   {
    "id": "baa0cca27a9f",
@@ -357,7 +373,7 @@
    "added": "2026-11-06T15:04:46+01:00",
    "quelle_titel": "Claude Can Now Read Your Bank Accounts. How Private Is Your Financial Data?",
    "url": "https://www.theneuron.ai/news/claude-bank-accounts-financial-data-privacy/",
-   "dup_of": "4b216c662524"
+   "dup_of": "825d18db204d"
   },
   {
    "id": "df5cf5706112",
@@ -513,7 +529,12 @@
    "quelle_titel": "Anthropic baut Claude zum persönlichen Finanzassistenten aus",
    "url": "https://the-decoder.de/anthropic-baut-claude-zum-persoenlichen-finanzassistenten-aus/",
    "kontext": "Die Kontoanbindung läuft über den Finanzdatendienst Plaid, Claude erhält dabei nur Leserechte und kann kein Geld bewegen oder anlegen. Gestartet wird als Beta in den USA für zahlende Abostufen, Werbung und gesponserte Empfehlungen schließt Anthropic aus. Gespräche in diesem Bereich sollen nicht ins Modelltraining fließen, allerdings bleiben Angaben aus früheren Chats auch nach dem Trennen des Kontos erhalten. OpenAI bietet in den USA bereits etwas Vergleichbares.",
-   "dup_of": "4b216c662524"
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/claude-bank-accounts-financial-data-privacy/"
+    }
+   ]
   },
   {
    "id": "f982ac5abb60",
@@ -604,7 +625,7 @@
    "added": "2026-11-06T15:04:46+01:00",
    "quelle_titel": "😺 OpenAI released GPT-6 Cyber, a hacking AI",
    "url": "https://www.theneuron.ai/newsletter/openai-released-gpt-6-cyber-a-hacking-ai/",
-   "dup_of": "1b89c0cbed8e"
+   "dup_of": "1cfc6f1e77b0"
   },
   {
    "id": "515fe2fe13cc",
@@ -653,9 +674,12 @@
    "kontext": "Laut Berichten zweifeln Geldgeber, ob die geplante Werbetour bei Investoren nächste Woche überhaupt startet. Im September war noch von einer deutlich höheren Bewertung die Rede, inzwischen fordern manche einen kräftigen Abschlag, weil Anthropic Verluste schreibt und viel Geld in den Infrastrukturausbau steckt. Zusätzlich fehlen aktuelle Umsatzzahlen in den Unterlagen. Nach den US-Zwischenwahlen und Widerstand gegen neue Rechenzentren erlebten Tech-Aktien den schärfsten Ausverkauf seit einem Jahr; eine Verschiebung würde die Stimmung weiter belasten.",
    "also": [
     {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/digital/2026-11/ki-konzern-anthropic-boerse-unternehmen-digitalpodcast",
-     "paywall": true
+     "source": "Latent Space",
+     "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/"
+    },
+    {
+     "source": "The Batch",
+     "url": "https://www.deeplearning.ai/the-batch/issue-378"
     }
    ]
   },
@@ -679,7 +703,8 @@
    "source_id": "golem",
    "added": "2026-11-06T15:07:58+01:00",
    "quelle_titel": "Jason Momoas Synchronsprecher klagt: Netflix verwendet deutsche Stimme unerlaubt für KI-Training",
-   "url": "https://www.golem.de/news/jason-momoas-synchronsprecher-klagt-netflix-verwendet-deutsche-stimme-unerlaubt-fuer-ki-training-2611-214929.html"
+   "url": "https://www.golem.de/news/jason-momoas-synchronsprecher-klagt-netflix-verwendet-deutsche-stimme-unerlaubt-fuer-ki-training-2611-214929.html",
+   "kontext": "Synchronsprecher leben davon, dass ihre Stimme wiedererkennbar ist. Dass sich genau dieses Merkmal maschinell nachbilden lässt, trifft den Kern ihrer Arbeit. Im Fall des deutschen Momoa-Sprechers soll Netflix Aufnahmen ohne Zustimmung für KI-Training genutzt haben. Der Streit könnte klären, wie weit der Schutz der eigenen Stimme reicht und wer über ihre Verwertung entscheidet."
   },
   {
    "id": "6e3429eab3c9",
@@ -701,7 +726,7 @@
    "added": "2026-11-06T15:31:40+01:00",
    "quelle_titel": "Google verbessert KI-Videogenerator Gemini Omni auf Version 1.2 Flash",
    "url": "https://www.heise.de/news/Google-verbessert-KI-Videogenerator-Gemini-Omni-auf-Version-1-2-Flash-11515072.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "d6dbc85a7115"
+   "kontext": "Die Omni-Reihe hatte Google im Mai auf seiner Entwicklerkonferenz erstmals gezeigt, nun gilt das Flash-Modell als allgemein verfügbar. Zu finden ist es in der Gemini-API und der Cloud-Konsole, dazu in Flow und Vids, während die langen Clips in der Gemini-App zunächst Ultra-Abonnenten erhalten. Auffällig ist die Ausrichtung auf Onlinehandel und Werbung, etwa virtuelle Anproben. Entwürfe entstehen günstig und werden erst danach hochskaliert."
   },
   {
    "id": "f8c933f218bc",
@@ -871,6 +896,10 @@
     {
      "source": "The Rundown AI",
      "url": "https://www.therundown.ai/articles/an-inside-look-at-anthropic-s-ai-speedup"
+    },
+    {
+     "source": "TLDR AI",
+     "url": "https://tldr.tech/ai/2026-11-06"
     }
    ]
   },
@@ -916,7 +945,7 @@
    "added": "2026-11-06T15:06:20+01:00",
    "quelle_titel": "OpenAI will mit GPT-6 Cyber das Aufspüren von Sicherheitslücken erleichtern, doch es gibt auch Kritik",
    "url": "https://t3n.de/news/openai-will-mit-gpt-6-cyber-das-aufspueren-von-sicherheitsluecken-erleichtern-doch-es-gibt-auch-kritik-1772107",
-   "dup_of": "1b89c0cbed8e"
+   "dup_of": "1cfc6f1e77b0"
   },
   {
    "id": "7de3e354f10d",
@@ -949,6 +978,10 @@
      "url": "https://www.stern.de/digital/boerse-im-aufruhr-nach-midterms--absturz-der-tech-aktien--platzt-nun-eine-ki-blase--38507126.html"
     },
     {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/tech-aktien-besonders-betroffen-us-boerse-verliert-3-2-billionen-us-dollar-an-einem-tag-2611-214918.html"
+    },
+    {
      "source": "Tagesspiegel Wirtschaft",
      "url": "https://www.tagesspiegel.de/wirtschaft/finanzen/einer-der-schnellsten-verluste-an-marktkapitalisierung-in-der-borsengeschichte-was-hinter-dem-historischen-kurssturz-an-den-us-borsen-steckt-16248194.html",
      "paywall": true
@@ -959,8 +992,9 @@
      "paywall": true
     },
     {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/tech-aktien-besonders-betroffen-us-boerse-verliert-3-2-billionen-us-dollar-an-einem-tag-2611-214918.html"
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/finanzen/boerse/boersenkurse-ki-ruecksetzer-belastet-dax-kurs-unter-26.000-punkten/100267819.html",
+     "paywall": true
     },
     {
      "source": "iX",
@@ -971,8 +1005,8 @@
      "url": "https://www.heise.de/news/Nach-US-Zwischenwahlen-Skepsis-zum-KI-Boom-loest-heftigen-Boersenabsturz-aus-11514310.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/finanzen/boerse/boersenkurse-ki-ruecksetzer-belastet-dax-kurs-unter-26.000-punkten/100267819.html",
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-borse-ki-aktien-leiden-nach-us-kongresswahl-dax-kurz-vor-rekord-16242454.html",
      "paywall": true
     },
     {
@@ -1053,6 +1087,11 @@
     {
      "source": "t3n",
      "url": "https://t3n.de/news/rechenzentren-nach-den-midterms-warum-das-ende-des-ausbau-booms-droht-1771894"
+    },
+    {
+     "source": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+     "paywall": true
     }
    ]
   },
@@ -1077,7 +1116,8 @@
    "added": "2026-11-07T00:34:58+01:00",
    "quelle_titel": "Gemini 4 Carbon Heads Toward Wider Availability, What Anthropic's IPO Means for Developers, Genie 4 Combines with Gemini to Train Robots",
    "url": "https://www.deeplearning.ai/the-batch/issue-378",
-   "kontext": "Hinter der Meldung steht die aktuelle Ausgabe des Newsletters The Batch von Andrew Ng. Er argumentiert, dass die Daten von LinkedIn dem Bild einer durch KI ausgelösten Massenarbeitslosigkeit widersprechen; die Rolle des AI Engineer wächst in mehreren großen Volkswirtschaften besonders schnell. Interessant findet er Entwickler, die in Marketing, Personal oder Finanzen eingebettet werden und dort Abläufe automatisieren. Der Engpass sei dabei nicht das Programmieren, sondern Produktplanung und Urteilsvermögen."
+   "kontext": "Hinter der Meldung steht die aktuelle Ausgabe des Newsletters The Batch von Andrew Ng. Er argumentiert, dass die Daten von LinkedIn dem Bild einer durch KI ausgelösten Massenarbeitslosigkeit widersprechen; die Rolle des AI Engineer wächst in mehreren großen Volkswirtschaften besonders schnell. Interessant findet er Entwickler, die in Marketing, Personal oder Finanzen eingebettet werden und dort Abläufe automatisieren. Der Engpass sei dabei nicht das Programmieren, sondern Produktplanung und Urteilsvermögen.",
+   "dup_of": "f2f4104aef64"
   },
   {
    "id": "94032309b15d",
@@ -1212,13 +1252,7 @@
    "added": "2026-11-07T00:34:03+01:00",
    "quelle_titel": "Nach OpenAI und Anthropic bringt auch Perplexity dauerhafte KI-Agenten für komplexe Aufgaben",
    "url": "https://the-decoder.de/nach-openai-und-anthropic-bringt-auch-perplexity-dauerhafte-ki-agenten-fuer-komplexe-aufgaben/",
-   "kontext": "Die Teammates setzen auf Perplexity Computer auf, das einzelne Aufträge abarbeitet, sollen aber längerfristige Projekte begleiten und dabei auf vorhandene Daten und Gedächtnis zugreifen. Firmenchef Srinivas stellt sich perspektivisch viele solcher Helfer pro Beschäftigten vor. Wie belastbar das Modell ist, bleibt offen: Bei SpaceX erzwang der hohe Verbrauch ähnlicher Agenten gerade erst engere Nutzungsgrenzen.",
-   "also": [
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
-    }
-   ]
+   "kontext": "Die Teammates setzen auf Perplexity Computer auf, das einzelne Aufträge abarbeitet, sollen aber längerfristige Projekte begleiten und dabei auf vorhandene Daten und Gedächtnis zugreifen. Firmenchef Srinivas stellt sich perspektivisch viele solcher Helfer pro Beschäftigten vor. Wie belastbar das Modell ist, bleibt offen: Bei SpaceX erzwang der hohe Verbrauch ähnlicher Agenten gerade erst engere Nutzungsgrenzen."
   },
   {
    "id": "ef57b5d47585",
@@ -1254,6 +1288,10 @@
     {
      "source": "The Verge AI",
      "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast"
+    },
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/"
     }
    ]
   },
@@ -1303,12 +1341,7 @@
    "quelle_titel": "Dank KI: OpenAI findet 948 Lücken im Linux-Kernel, und schließt sie auch gleich",
    "url": "https://t3n.de/news/openai-ki-agenten-finden-und-schliessen-948-luecken-im-linux-kernel-1772170",
    "kontext": "Hinter dem Ergebnis steht ein Prototyp, der den Kernelcode in großem Umfang durchsucht, verdächtige Funde nachstellt und daraus Angriffswege zur lokalen Rechteausweitung ableitet. OpenAI nennt Kosten im Millionenbereich, schweigt aber dazu, welches System getestet wurde. Der eigentliche Punkt liegt danach: Weil KI mehr Lücken findet, als Entwicklerteams abarbeiten können, gewinnen Angreifer Zeit. Automatisch erzeugte und fachlich geprüfte Korrekturen sollen dieses Fenster verkleinern.",
-   "also": [
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/openai-linux-security-bugs-ai-windows-patches/"
-    }
-   ]
+   "dup_of": "a4f4c423c542"
   },
   {
    "id": "fc8f30aee8f3",
@@ -1421,7 +1454,8 @@
    "added": "2026-11-07T00:33:20+01:00",
    "quelle_titel": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
    "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-   "kontext": "Die Zahlen stammen aus einem Bloomberg-Bericht. Die Runde könnte am Ende rund zwanzig Milliarden Dollar umfassen und bliebe damit hinter dem ursprünglich angepeilten Ziel zurück. Zugleich dämpfen potenzielle Investoren offenbar ihre Erwartungen an den Börsengang des Rivalen Anthropic. OpenAI selbst hat eigene Börsenpläne verschoben, ein Schritt wird erst im kommenden Jahr erwartet. Nach den US-Zwischenwahlen und wachsendem Unmut über Rechenzentren gilt die Stimmung im KI-Markt als nervös."
+   "kontext": "Die Zahlen stammen aus einem Bloomberg-Bericht. Die Runde könnte am Ende rund zwanzig Milliarden Dollar umfassen und bliebe damit hinter dem ursprünglich angepeilten Ziel zurück. Zugleich dämpfen potenzielle Investoren offenbar ihre Erwartungen an den Börsengang des Rivalen Anthropic. OpenAI selbst hat eigene Börsenpläne verschoben, ein Schritt wird erst im kommenden Jahr erwartet. Nach den US-Zwischenwahlen und wachsendem Unmut über Rechenzentren gilt die Stimmung im KI-Markt als nervös.",
+   "dup_of": "5aac93af33fb"
   },
   {
    "id": "dcba37722e6c",
@@ -1443,7 +1477,8 @@
    "added": "2026-11-07T00:35:44+01:00",
    "quelle_titel": "Anthropic R&D accelerates 📈, GPT-6 Cyber 🔐, Inkling 2 Small 🧠",
    "url": "https://tldr.tech/ai/2026-11-06",
-   "kontext": "Die Ausgabe zeigt, wie breit die Entwicklung gerade läuft: OpenAI bringt ein Modell, das Sicherheitslücken aufspüren und überprüfen soll, dabei aber in von Forschenden gesetzten Grenzen bleibt. Inkling 2 Small setzt auf eine Mixture-of-Experts-Architektur mit Bildverständnis und soll seine Gewichte nach externen Sicherheitstests unter freier Lizenz freigeben. Bei Anthropic verbessern sich Modelle laut einer unabhängigen Einschätzung etwa doppelt so schnell wie zuvor, weil KI selbst in der Forschung mitarbeitet."
+   "kontext": "Die Ausgabe zeigt, wie breit die Entwicklung gerade läuft: OpenAI bringt ein Modell, das Sicherheitslücken aufspüren und überprüfen soll, dabei aber in von Forschenden gesetzten Grenzen bleibt. Inkling 2 Small setzt auf eine Mixture-of-Experts-Architektur mit Bildverständnis und soll seine Gewichte nach externen Sicherheitstests unter freier Lizenz freigeben. Bei Anthropic verbessern sich Modelle laut einer unabhängigen Einschätzung etwa doppelt so schnell wie zuvor, weil KI selbst in der Forschung mitarbeitet.",
+   "dup_of": "074f411fd5b2"
   },
   {
    "id": "0802c2aa0040",
@@ -1465,7 +1500,7 @@
    "added": "2026-11-06T15:10:22+01:00",
    "quelle_titel": "Airbnb is working on an AI travel agent",
    "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-   "dup_of": "1eac7fe42e87"
+   "kontext": "Airbnb setzt ausdrücklich nicht auf ein Chatfenster. Stattdessen soll der Assistent passende Oberflächenbausteine wie Karten, Fotos, Kalender oder Reisepläne je nach Anfrage zusammensetzen und Buchungen direkt in der Plattform auslösen. Als Vorteil sieht das Unternehmen seine Erfahrung beim Zusammenbringen von Gastgebern und Gästen sowie seine Rolle im Buchungsprozess. Mitgründer und Chef Brian Chesky hatte den Start für 2027 bereits früher in Aussicht gestellt."
   },
   {
    "id": "b53db0f7184a",
@@ -1487,17 +1522,7 @@
    "added": "2026-11-06T15:10:22+01:00",
    "quelle_titel": "OpenAI is stepping back from NDAs for data center projects",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-   "kontext": "Nach Abstimmungsergebnissen gegen neue Serverfarmen versucht OpenAI, das Vertrauen von Kommunen zurückzugewinnen. Geheimhaltung soll künftig nur noch enge Bereiche wie Sicherheitsfragen und Geschäftsgeheimnisse abdecken. Zusätzlich verspricht das Unternehmen, Strom und benötigte Infrastruktur vollständig selbst zu bezahlen sowie über erwartete Stellen und Einstellungen zu berichten. Amazon hatte im Oktober einen ähnlichen Schritt angekündigt; bewähren müssen sich die Zusagen in den konkreten Verträgen vor Ort.",
-   "also": [
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Nach-US-Zwischenwahlen-OpenAI-verspricht-anwohnerfreundliche-Rechenzentren-11513473.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/openai-data-center-reset-no-ndas-public-officials/"
-    }
-   ]
+   "kontext": "Nach Abstimmungsergebnissen gegen neue Serverfarmen versucht OpenAI, das Vertrauen von Kommunen zurückzugewinnen. Geheimhaltung soll künftig nur noch enge Bereiche wie Sicherheitsfragen und Geschäftsgeheimnisse abdecken. Zusätzlich verspricht das Unternehmen, Strom und benötigte Infrastruktur vollständig selbst zu bezahlen sowie über erwartete Stellen und Einstellungen zu berichten. Amazon hatte im Oktober einen ähnlichen Schritt angekündigt; bewähren müssen sich die Zusagen in den konkreten Verträgen vor Ort."
   },
   {
    "id": "0d1c78a18e75",
@@ -1752,17 +1777,17 @@
      "url": "https://t3n.de/news/wannsee-inhalt-pro-jahr-so-viel-wasser-schlucken-deutsche-rechenzentren-schon-heute-1771944"
     },
     {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/2026-11/rechenzentren-wasserverbrauch-kuehlung-greenpeace-bitkom-gxe",
+     "paywall": true
+    },
+    {
      "source": "Golem",
      "url": "https://www.golem.de/news/ki-boom-neue-mega-rechenzentren-bedrohen-trinkwasserversorgung-2611-214913.html"
     },
     {
      "source": "stern Digital",
      "url": "https://www.stern.de/digital/folge-des-ki-booms--studie-warnt-vor-wasserstress-durch-neue-mega-rechenzentren-38507342.html"
-    },
-    {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/digital/2026-11/rechenzentren-wasserverbrauch-kuehlung-greenpeace-bitkom-gxe",
-     "paywall": true
     },
     {
      "source": "netzpolitik.org",
@@ -1934,7 +1959,13 @@
    "added": "2026-11-06T15:07:58+01:00",
    "quelle_titel": "Neue Siri-AI-Funktionen: Datei-Zugriff, Entwicklerverbesserungen und mehr",
    "url": "https://www.heise.de/news/Siri-AI-Apples-Chatbot-kann-bald-mit-Dateien-operieren-11513459.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Technisch läuft die Öffnung über App Intents: Apps können Inhalte und Aktionen nun mit weniger Einschränkungen an die Assistenz übergeben, auch eigene Aktionen sind möglich. Das gilt neben dem iPhone auch für iPad, Mac mit Finder-Zugriff und Vision Pro. In der EU bleibt die Funktion gesperrt, weil die regulatorischen Fragen mit Brüssel offen sind und sich bis ins kommende Jahr ziehen könnten. Die Stoßrichtung ist agentisch, Stabilität und Sicherheit muss die Praxis zeigen."
+   "kontext": "Technisch läuft die Öffnung über App Intents: Apps können Inhalte und Aktionen nun mit weniger Einschränkungen an die Assistenz übergeben, auch eigene Aktionen sind möglich. Das gilt neben dem iPhone auch für iPad, Mac mit Finder-Zugriff und Vision Pro. In der EU bleibt die Funktion gesperrt, weil die regulatorischen Fragen mit Brüssel offen sind und sich bis ins kommende Jahr ziehen könnten. Die Stoßrichtung ist agentisch, Stabilität und Sicherheit muss die Praxis zeigen.",
+   "also": [
+    {
+     "source": "The Rundown AI",
+     "url": "https://www.therundown.ai/articles/apple-cracks-the-door-open-to-siri-ai"
+    }
+   ]
   },
   {
    "id": "209c4e8ce06e",

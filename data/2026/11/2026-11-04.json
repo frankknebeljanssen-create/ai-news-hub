@@ -1,34 +1,38 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-07T05:51:38+01:00",
+ "generated_at": "2026-11-07T07:06:59+01:00",
  "overview": [
   {
    "id": "4810c72c478e",
-   "text": "Ein Gutachten am Europäischen Gerichtshof hält Urheberrechtsverstöße durch Chatbots für möglich, was Geschäftsmodelle rund um KI-Training treffen könnte."
-  },
-  {
-   "id": "2b3efec9a257",
-   "text": "Das Bundesarbeitsministerium will ab 2027 ein kostenloses Online-Angebot zur KI-Weiterbildung bereitstellen, Details sind noch offen."
+   "text": "Ein Gutachten am Europäischen Gerichtshof hält Urheberrechtsverstöße durch Chatbots für möglich, was die Geschäftsmodelle vieler KI-Anbieter treffen könnte."
   },
   {
    "id": "a4f4c423c542",
-   "text": "Ein automatisiertes System von OpenAI fand 948 Lücken im Linux-Kernel, über die sich lokal höhere Rechte erschleichen ließen, und erzeugte Korrekturen."
+   "text": "OpenAI hat mit einer automatisierten Pipeline 948 Schwachstellen im Linux-Kernel gefunden, verifiziert und mit passenden Korrekturen versehen."
+  },
+  {
+   "id": "2b3efec9a257",
+   "text": "Das Bundesarbeitsministerium will ab 2027 ein kostenloses Online-Angebot für KI-Weiterbildung bereitstellen."
   },
   {
    "id": "715b1c2c85cf",
-   "text": "Kanzler Merz sicherte in Singapur, Japan und Südkorea Lieferketten für den KI-Ausbau ab, parallel soll eine nationale Rechenzentrumsstrategie greifen."
+   "text": "Nach der Asienreise von Kanzler Merz zur Absicherung der Lieferketten soll eine nationale Rechenzentrumsstrategie die KI-Infrastruktur im Inland aufbauen."
   },
   {
    "id": "fafef2416710",
-   "text": "Oracle beendet offenbar einen über sieben Milliarden Dollar schweren Chip-Vertrag mit Tencent, weil der politische Druck auf US-Anbieter wächst."
+   "text": "Oracle storniert offenbar einen Vertrag über mehr als sieben Milliarden Dollar, der Tencent Zugriff auf bis zu 100.000 KI-Chips gebracht hätte."
   },
   {
    "id": "0a437d67f2ef",
    "text": "OpenAI liefert mit Images 2.6 schnellere Bildgenerierung, erstmals GIFs und feinere Bearbeitung in ChatGPT, Codex und über die API."
   },
   {
-   "id": "9279069233ad",
-   "text": "Mit Smart Reports können Firmen die Claude-Nutzung ihrer Teams auswerten, was neben Kostenkontrolle auch Fragen nach Überwachung aufwirft."
+   "id": "be87374ca18e",
+   "text": "Ein neuer Praxistest entzaubert Spitzenmodelle: Das beste löst nur zwölf Prozent der Aufgaben, günstige Modelle schlagen teils teure."
+  },
+  {
+   "id": "a9c764a570d8",
+   "text": "Beim Digitalgipfel galt KI als Motor der deutschen Wirtschaft, wobei vor allem die Verwaltung als lukrativer Abnehmer in den Blick rückte."
   }
  ],
  "items": [
@@ -76,17 +80,13 @@
    "kurios": "Fast 1000 Kernel-Lücken in einem einzigen automatisierten Durchlauf gefunden",
    "quelle_titel": "A thousand fewer paths to root",
    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "kontext": "Hinter dem Ergebnis steht ein Prototyp von OpenAI, der verdächtige Codestellen nicht nur meldet, sondern die Schwachstellen auch praktisch nachstellt und dann Korrekturen vorschlägt. Welches System genau geprüft wurde, nennt das Unternehmen nicht, die Rechenkosten lagen im Millionenbereich. Der eigentliche Engpass ist aus seiner Sicht das Flicken: Entwicklerteams kommen mit der steigenden Zahl an Funden kaum mehr mit. Automatisch erzeugte Patches sollen das Zeitfenster für Angriffe verkleinern.",
    "also": [
     {
      "source": "t3n",
      "url": "https://t3n.de/news/openai-ki-agenten-finden-und-schliessen-948-luecken-im-linux-kernel-1772170"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/openai-linux-security-bugs-ai-windows-patches/"
     }
-   ],
-   "kontext": "Hinter dem Ergebnis steht ein Prototyp von OpenAI, der verdächtige Codestellen nicht nur meldet, sondern die Schwachstellen auch praktisch nachstellt und dann Korrekturen vorschlägt. Welches System genau geprüft wurde, nennt das Unternehmen nicht, die Rechenkosten lagen im Millionenbereich. Der eigentliche Engpass ist aus seiner Sicht das Flicken: Entwicklerteams kommen mit der steigenden Zahl an Funden kaum mehr mit. Automatisch erzeugte Patches sollen das Zeitfenster für Angriffe verkleinern."
+   ]
   },
   {
    "id": "4810c72c478e",
@@ -129,13 +129,7 @@
    "source_id": "gn-weiterbildung",
    "added": "2026-11-06T15:37:41+01:00",
    "quelle_titel": "Go1 bringt Kurse der OpenAI Academy in betriebliche Lernsysteme",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLXdpeUFGZ05HUlJ4aVN2SHl4Z1hDMXpCNWpHRE42eUNjY1E3UTJQTktYY0tvTHhtVDd3ZVNHQm9DNUx5ZEdvZkk3RnI0ZHgxMGUycnFFSlZ3Uk1YMG9KTUJoOVZUSVVxNjlxbzhfcVBKU24xZDRfM2l1dGFjbmNldDhyQU04dTJac2dudHJLUF9UUQ?oc=5",
-   "also": [
-    {
-     "source": "BornCity",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd0U0eTRhWHlrRnZlMUVsR3NQajI1blZtbUJRcHlSeDFuOTRhOE1hV29BS2JWUS1OLV9YZmljS0pnUDdONC1FY014bHRyLUgxcGZVajhySGhZRWpuV2pFQ2hSMUVMM002NHNDeUVnTUVGVzV0ZDhPYmdscVpycVNwVERuSzY0RXF2R3FVZGZ1NXZrNS1qNG1xVF85QnNYcFhFM2FPVw?oc=5"
-    }
-   ]
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLXdpeUFGZ05HUlJ4aVN2SHl4Z1hDMXpCNWpHRE42eUNjY1E3UTJQTktYY0tvTHhtVDd3ZVNHQm9DNUx5ZEdvZkk3RnI0ZHgxMGUycnFFSlZ3Uk1YMG9KTUJoOVZUSVVxNjlxbzhfcVBKU24xZDRfM2l1dGFjbmNldDhyQU04dTJac2dudHJLUF9UUQ?oc=5"
   },
   {
    "id": "0a437d67f2ef",
@@ -181,7 +175,13 @@
    "paywall": true,
    "quelle_titel": "Google blockiert Suchfunktion, wenn Schulen KI ablehnen",
    "url": "https://www.spiegel.de/netzwelt/google-blockiert-suchfunktion-wenn-schulen-ki-ablehnen-a-127ea560-4390-4851-ab2f-1c6caf198a73#ref=rss",
-   "dup_of": "56b7bacf1dd0"
+   "also": [
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/"
+    }
+   ],
+   "kontext": "Durch Chromebooks und seine Bildungsdienste ist Google an US-Schulen tief verankert. Künftig sind die KI-Funktionen zunächst abgeschaltet, die Verwaltungen müssen sie aktiv freigeben. Weil der Konzern seine Suche selbst als KI-Produkt versteht, gilt dabei alles oder nichts; wer verzichtet, sieht für Schüler nur eine Sperrmeldung. Als Kompromiss bietet Google eine Lernvariante an, die Aufgaben begleiten soll, ohne Lösungen direkt zu verraten."
   },
   {
    "id": "715b1c2c85cf",
@@ -271,7 +271,29 @@
    "added": "2026-11-06T15:39:19+01:00",
    "quelle_titel": "Digitalgipfel: KI-Torschlusspanik",
    "url": "https://netzpolitik.org/2026/digitalgipfel-ki-torschlusspanik/",
-   "dup_of": "328e89004555"
+   "kontext": "Wildberger will Deutschland zur KI-Nation machen und fordert dafür weniger Regulierung, etwa beim EU-Regelwerk, sowie Förderung von Rechenleistung. Kritische Stimmen aus der Zivilgesellschaft fanden kaum Platz, der hohe Ressourcenverbrauch blieb unerwähnt. Kanzler Merz sprach von Souveränität, ohne den Begriff zu füllen, und verwies auf eine Technologieallianz mit Kanada. In deren Umfeld hat der kanadische Anbieter Cohere das deutsche Start-up Aleph Alpha übernommen."
+  },
+  {
+   "id": "96509fccc001",
+   "date": "2026-11-04",
+   "published": "2026-11-04T10:23+01:00",
+   "headline": "Anthropic will mit FlashProve die Identität von KI-Modellen belegbar machen",
+   "summary": "Bislang lässt sich kaum zweifelsfrei feststellen, welches Modell hinter einer Antwort steckt. Anthropic stellt dafür das Verfahren FlashProve vor, das die Identität eines Modells kryptografisch nachprüfbar macht. Die Modellgewichte müssen dabei nicht offengelegt werden, was den Ansatz auch für kommerzielle Anbieter nutzbar macht.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "kryptografie",
+    "modellidentität",
+    "vertrauen"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-07T07:02:29+01:00",
+   "quelle_titel": "Wer spricht da? Anthropic stellt Identitätsnachweis für KI-Modelle vor",
+   "url": "https://www.heise.de/news/Wer-spricht-da-Anthropic-stellt-Identitaetsnachweis-fuer-KI-Modelle-vor-11511036.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "FlashProve ist ein quelloffener Forschungsprototyp und setzt auf Zero-Knowledge-Beweise: Aus den Gewichten entsteht ein kryptografischer Fingerabdruck, gegen den Dritte eine Antwort prüfen können, ohne das Modell selbst auszuführen. Als Motive nennt Anthropic heimlich untergeschobene Billigmodelle, manipulierte Server und mögliche Kontrollen durch Behörden. Erprobt wurde das Verfahren an Metas Llama 4 Maverick, zentrale Sicherheitsaussagen sind formal belegt."
   },
   {
    "id": "9279069233ad",
@@ -337,8 +359,7 @@
    "source_id": "openai",
    "added": "2026-11-06T15:38:39+01:00",
    "quelle_titel": "OpenAI to acquire Pierre Computer Company, Inc.",
-   "url": "https://openai.com/index/openai-to-acquire-pierre",
-   "dup_of": "4d0add528963"
+   "url": "https://openai.com/index/openai-to-acquire-pierre"
   },
   {
    "id": "bc0d9a9950ec",
@@ -385,7 +406,7 @@
    "quelle_titel": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
    "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
    "kontext": "Rechenzentren waren im texanischen Wahlkampf ein Dauerthema. Mit James Talarico stellen die Demokraten künftig einen US-Senator, Gina Hinojosa setzte sich gegen Amtsinhaber Greg Abbott durch, und im Repräsentantenhaus des Bundesstaats haben sie erstmals seit mehr als zwei Jahrzehnten die Mehrheit. Hinojosa hat bereits angekündigt, neue KI-Rechenzentren vorerst nicht genehmigen zu wollen. Damit stehen Großprojekte der Tech-Konzerne plötzlich zur Verhandlung.",
-   "dup_of": "fc8f30aee8f3"
+   "dup_of": "bd786f1c567e"
   },
   {
    "id": "be87374ca18e",
@@ -408,7 +429,7 @@
    "praxis": true,
    "quelle_titel": "12 Prozent reichen für Platz 1: Dieser KI-Test offenbart ein großes Problem",
    "url": "https://www.basicthinking.de/blog/2026/11/04/12-prozent-reichen-fuer-platz-1-dieser-ki-test-offenbart-ein-grosses-problem/",
-   "dup_of": "caf658c9d5d9"
+   "kontext": "Hinter dem Test steht das Analysehaus SemiAnalysis, das rund zwanzig aktuelle Modelle in elf Feldern von Chipdesign über Recht und Finanzen bis Alignment prüft. Das sind nach Einschätzung der Autoren die Branchen, die KI in den kommenden Jahren am stärksten umbauen dürfte. Manche Aufgaben waren so schwer, dass Teilpunkte vergeben werden mussten, und in sensiblen Bereichen verweigerten Sicherheitsfilter die Antwort. Auch die Kosten je Aufgabe klaffen weit auseinander."
   },
   {
    "id": "44e59e6a2681",
@@ -431,7 +452,7 @@
    "quelle_titel": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
    "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
    "kontext": "Hinter dem Votum stehen Dutzende lokale Abstimmungen, bei denen Gemeinden in zehn Bundesstaaten Moratorien und strengere Auflagen für Rechenzentren durchsetzten. Besonders schwer wiegt der Regierungswechsel in Texas, dem Zentrum des geplanten Ausbaus: Dort sollen Projekte ruhen, bis Gesetze zu Wasser, Strom und Eigentumsrechten stehen. Analysten erwarten Verzögerungen vor allem bei Vorhaben ab 2028 und Abwanderung in andere Bundesstaaten. Für Trumps Ausbaupläne ist das ein empfindlicher Bremsklotz.",
-   "dup_of": "fc8f30aee8f3"
+   "dup_of": "ef57b5d47585"
   },
   {
    "id": "bf25be8f8779",
@@ -495,7 +516,13 @@
    "source_id": "gn-unternehmen",
    "added": "2026-11-06T15:38:39+01:00",
    "quelle_titel": "Apple startet AI-Probelauf in China mit Alibaba-Assistent Qwen",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPejRHWlVYT2Vhd0JYX3UtbG5XZDI2Rm9XSVJ3aUx2N3lUekhvZU9BdVlidDFEb2h0eTFvQUFqN25nZWFtUi02ZWNMRHJaMGNKM2cxUTZrdHdwYjVrdmVvT3ZMbUQ1dDNuZzNqNU1mdjB5bzBxWXFudHpJbHpoOE5LVlc0Yng1VGJOVXItOGFnQy0tZDBnekNrM3FiSFY4Zw?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPejRHWlVYT2Vhd0JYX3UtbG5XZDI2Rm9XSVJ3aUx2N3lUekhvZU9BdVlidDFEb2h0eTFvQUFqN25nZWFtUi02ZWNMRHJaMGNKM2cxUTZrdHdwYjVrdmVvT3ZMbUQ1dDNuZzNqNU1mdjB5bzBxWXFudHpJbHpoOE5LVlc0Yng1VGJOVXItOGFnQy0tZDBnekNrM3FiSFY4Zw?oc=5",
+   "also": [
+    {
+     "source": "Yahoo Nachrichten",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTGZENU9QYXl1SXl5ZzMtWE52VTNsVld1TTZwWndVYXByRkJYOUdaT0xIdmxaV25mXzlTdkhrUXNwNm15enVrX2c5ZDRkMl9yX0NTR0NkbVJ2SF82Vi1YYWd3UndUYWVfS0l4Z3dnRjBBUENxQTBwdVNHdU9WYmZqVE16WnJVWHM?oc=5"
+    }
+   ]
   },
   {
    "id": "f3040b7382b6",
@@ -517,7 +544,8 @@
    "source_id": "gn-unternehmen",
    "added": "2026-11-07T00:35:44+01:00",
    "quelle_titel": "Apple startet AI-Probelauf in China mit Alibaba-Assistent Qwen",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTGZENU9QYXl1SXl5ZzMtWE52VTNsVld1TTZwWndVYXByRkJYOUdaT0xIdmxaV25mXzlTdkhrUXNwNm15enVrX2c5ZDRkMl9yX0NTR0NkbVJ2SF82Vi1YYWd3UndUYWVfS0l4Z3dnRjBBUENxQTBwdVNHdU9WYmZqVE16WnJVWHM?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTGZENU9QYXl1SXl5ZzMtWE52VTNsVld1TTZwWndVYXByRkJYOUdaT0xIdmxaV25mXzlTdkhrUXNwNm15enVrX2c5ZDRkMl9yX0NTR0NkbVJ2SF82Vi1YYWd3UndUYWVfS0l4Z3dnRjBBUENxQTBwdVNHdU9WYmZqVE16WnJVWHM?oc=5",
+   "dup_of": "d38e5721532e"
   },
   {
    "id": "961bc4b8266e",
@@ -761,6 +789,27 @@
    "added": "2026-11-06T15:39:19+01:00",
    "quelle_titel": "Die Zukunft der Servicebereitstellung im KI-gesteuerten Unternehmen",
    "url": "https://news.sap.com/germany/2026/11/ki-zukunft-servicebereitstellung/"
+  },
+  {
+   "id": "1556f166b4e5",
+   "date": "2026-11-04",
+   "published": "2026-11-04T11:03+01:00",
+   "headline": "Autarke Datenbrille Prism mit Linux startet im Handel",
+   "summary": "Das US-Unternehmen Raven Resonance bringt seine eigenständig arbeitende Datenbrille Prism auf den Markt und hat nun Preis sowie Liefertermin bekannt gegeben. Die Brille läuft auf Linux und soll ohne gekoppeltes Smartphone funktionieren, positioniert sich preislich aber im Luxussegment.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "smart glasses",
+    "linux",
+    "hardware",
+    "produktstart"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-07T07:02:29+01:00",
+   "quelle_titel": "Linux-KI-Brille Raven Prism geht in den Verkauf, zum Luxuspreis",
+   "url": "https://www.heise.de/news/Linux-KI-Brille-Raven-Prism-geht-in-den-Verkauf-zum-Luxuspreis-11511172.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
    "id": "9f1eb40d26a9",

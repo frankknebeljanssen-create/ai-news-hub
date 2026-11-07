@@ -1,22 +1,26 @@
 {
  "date": "2026-11-07",
- "generated_at": "2026-11-07T04:29:58+01:00",
+ "generated_at": "2026-11-07T07:07:27+01:00",
  "overview": [
   {
    "id": "5aac93af33fb",
-   "text": "OpenAI sammelt elf Milliarden Dollar ein und erreicht eine Bewertung von 1,25 Billionen Dollar, senkt wegen nervöser KI-Märkte aber die eigenen Ziele."
+   "text": "OpenAI sammelt elf Milliarden Dollar ein und erreicht eine Bewertung von 1,25 Billionen Dollar, schraubt wegen nervöser Märkte aber eigene Ziele zurück."
   },
   {
    "id": "ddaec7e99048",
-   "text": "Laut New York Times warb Chinas Staatssicherheit eine Managerin an, um Nvidia-Chef Jensen Huang und dessen KI-Chip-Strategie auszuspähen."
-  },
-  {
-   "id": "d62fbfe2fc04",
-   "text": "Ein möglicher Börsengang von Anthropic wirft die Frage auf, wie stark Kapitalmärkte künftig die Entwicklung der KI-Anbieter prägen."
+   "text": "Chinas Staatssicherheit soll laut New York Times eine Managerin angeworben haben, um Nvidia-Chef Jensen Huang und US-Chipgeheimnisse auszuspähen."
   },
   {
    "id": "c2107a5a7cf6",
-   "text": "Google kauft Crusoes gestopptes Rechenzentrumsprojekt in Wyoming und zeigt damit, wie kapitalintensiv der Ausbau von KI-Kapazitäten geworden ist."
+   "text": "Google kauft Crusoes gestopptes Rechenzentrumsprojekt in Wyoming und zeigt damit, wie kapitalintensiv der Bau riesiger KI-Anlagen geworden ist."
+  },
+  {
+   "id": "8fd11f0d336a",
+   "text": "Ein Erklärstück zeigt, wie Frontier-Modelle mit Millionenbudgets trainiert werden und sich von Chatbots zu eigenständigen Aufgabenlösern wandeln."
+  },
+  {
+   "id": "b187fcf6ac69",
+   "text": "Ein c't-Podcast diskutiert KI-Brillen, die Menschen mit Einschränkungen helfen, durch Kamera und Mikrofon im Gesicht aber die Privatsphäre bedrohen."
   }
  ],
  "items": [
@@ -44,12 +48,12 @@
    "kontext": "Hinter der Finanzierung steht ein Wettlauf um Kapital: Erst im Frühjahr sammelte OpenAI zu einer deutlich niedrigeren Bewertung ein, nun liegt die Messlatte weit höher, obwohl die Runde noch nicht abgeschlossen ist. Geplant war ursprünglich mehr Geld zu einem noch höheren Preis, doch fallende Technologiewerte und wachsender Widerstand von Wählern gegen Rechenzentren bremsen. Konkurrent Anthropic bereitet unterdessen seinen Börsengang vor, während Sam Altman für OpenAI auf offene Sicherheitsfragen verweist.",
    "also": [
     {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
-    },
-    {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
     }
    ]
   },
@@ -120,7 +124,8 @@
    "added": "2026-11-07T04:19:44+01:00",
    "quelle_titel": "[AINews] Anthropic IPO: Whither Now?",
    "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
-   "kontext": "Hinter der Debatte steht die Frage, wie ein Börsengang Anthropic bewerten würde, während der KI-Markt gerade spürbar unter Druck steht. Technologiewerte haben deutlich nachgegeben, und Schätzungen zur Bewertung des Anbieters sind zuletzt gesunken. Dem steht ein stark wachsender Umsatz gegenüber, der sich dem eigenen Jahresziel nähert. Parallel zeigt Thinking Machines mit einem neuen offenen Modell, wie schnell sich das Kräfteverhältnis verschiebt."
+   "kontext": "Hinter der Debatte steht die Frage, wie ein Börsengang Anthropic bewerten würde, während der KI-Markt gerade spürbar unter Druck steht. Technologiewerte haben deutlich nachgegeben, und Schätzungen zur Bewertung des Anbieters sind zuletzt gesunken. Dem steht ein stark wachsender Umsatz gegenüber, der sich dem eigenen Jahresziel nähert. Parallel zeigt Thinking Machines mit einem neuen offenen Modell, wie schnell sich das Kräfteverhältnis verschiebt.",
+   "dup_of": "f2f4104aef64"
   },
   {
    "id": "c2107a5a7cf6",
@@ -143,6 +148,51 @@
    "quelle_titel": "Crusoe sells troubled Wyoming data center project to Google",
    "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
    "kontext": "Crusoe begann einst mit Krypto-Mining per Erdgas und gilt heute als einer der großen Entwickler von KI-Rechenzentren. Das Vorhaben in Wyoming war mit dem Partner Tallgrass auf gewaltige Leistung angelegt, doch Google äußerte Berichten zufolge Bedenken wegen Kosten und Bauzeit und steigt nun selbst als Entwickler ein. Die Zusammenarbeit endet damit nicht: In Texas baut Crusoe weiterhin Standorte für Google, Oracle, OpenAI und Microsoft."
+  },
+  {
+   "id": "8fd11f0d336a",
+   "date": "2026-11-07",
+   "published": "2026-11-07T06:00+01:00",
+   "headline": "Frontier-Modelle erklärt: Wie aus Chatbots selbstständige Problemlöser werden",
+   "summary": "Der Beitrag ordnet ein, was unter einem Frontier-Modell zu verstehen ist: Systeme an der technischen Spitze, deren Training dreistellige Millionenbeträge und enorme Rechenkapazitäten verschlingt. Thematisiert werden auch Fähigkeiten, die bei der Entwicklung so nicht vorhergesehen wurden, sowie der Wandel von reaktiven Chatbots zu Systemen, die Aufgaben eigenständig abarbeiten. Dazu kommen die Risiken, die mit dieser Leistungsklasse verbunden sind.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "frontier modelle",
+    "agenten",
+    "grundlagen",
+    "ki-risiken"
+   ],
+   "source": "Basic Thinking",
+   "source_id": "basic-thinking",
+   "added": "2026-11-07T07:02:29+01:00",
+   "quelle_titel": "Frontier-KI: Was zum Teufel ist das überhaupt?",
+   "url": "https://www.basicthinking.de/blog/2026/11/07/frontier-ki-modell/",
+   "kontext": "Der Beitrag von Basic Thinking trennt den reinen Modellkern vom einsatzfähigen Gesamtsystem, das erst durch Werkzeuge, Schnittstellen und Sicherheitsfilter entsteht. Als Beispiele nennt der Autor die Familien GPT, Claude und Llama, trainiert in riesigen Rechenzentren mit Texten, Programmcode und Fachaufsätzen. Der Gesetzgeber zieht die Trennlinie inzwischen an einer Rechenschwelle. Als Gegenbewegung beschreibt er kleine, souveräne Modelle, die vertrauliche Daten auf eigenen Servern halten."
+  },
+  {
+   "id": "b187fcf6ac69",
+   "date": "2026-11-07",
+   "published": "2026-11-07T06:30+01:00",
+   "headline": "KI-Brillen im Alltag: Chancen für Barrierefreiheit, Risiken für die Privatsphäre",
+   "summary": "Eine Podcastfolge von c't widmet sich datenbrillenbasierten KI-Assistenten und ihren gesellschaftlichen Folgen. Dabei geht es um den Nutzen für Menschen mit Einschränkungen, aber auch um die Sorge vor dauerhafter Beobachtung durch Kamera und Mikrofon im Gesicht des Gegenübers. Neben Missbrauchsszenarien kommt die Technik auch als reines Lifestyleprodukt zur Sprache.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "smart glasses",
+    "datenschutz",
+    "barrierefreiheit",
+    "wearables"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-07T07:02:29+01:00",
+   "quelle_titel": "Smart Glasses zwischen Teilhabe, Missbrauch und Lifestyle | c't uplink",
+   "url": "https://www.heise.de/news/Smart-Glasses-zwischen-Teilhabe-Missbrauch-und-Lifestyle-c-t-uplink-11514694.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Im c't uplink sprechen eine blinde Teilhabeberaterin und ein Fachredakteur über ihre Erfahrungen. Die Beraterin schildert, dass ihr die Brille freihändig bei der Orientierung hilft und ihr Umgebung sowie Kleidung beschreibt, und bedauert die überwiegend negative Debatte. Der Redakteur beobachtet, dass Trägerinnen und Träger pauschal verdächtigt werden. Heimliches Filmen gelingt längst auch mit Smartphones oder Actionkameras, Petitionen und Anzeigen richten sich aber vor allem gegen Brillen."
   }
  ]
 }
