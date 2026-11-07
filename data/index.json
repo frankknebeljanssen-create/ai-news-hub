@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-07T11:12:38+01:00",
- "count": 3303,
+ "updated": "2026-11-07T11:14:20+01:00",
+ "count": 3310,
  "items": [
   {
    "id": "b187fcf6ac69",
@@ -115,16 +115,7 @@
    "quelle_titel": "KI-Finanzierung: OpenAI sammelt laut Bericht elf Milliarden Dollar bei Investoren ein",
    "url": "https://www.handelsblatt.com/technik/ki/ki-finanzierung-openai-sammelt-laut-bericht-elf-milliarden-dollar-bei-investoren-ein/100268028.html",
    "kontext": "Hinter der Finanzierung steht ein Wettlauf um Kapital: Erst im Frühjahr sammelte OpenAI zu einer deutlich niedrigeren Bewertung ein, nun liegt die Messlatte weit höher, obwohl die Runde noch nicht abgeschlossen ist. Geplant war ursprünglich mehr Geld zu einem noch höheren Preis, doch fallende Technologiewerte und wachsender Widerstand von Wählern gegen Rechenzentren bremsen. Konkurrent Anthropic bereitet unterdessen seinen Börsengang vor, während Sam Altman für OpenAI auf offene Sicherheitsfragen verweist.",
-   "also": [
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
-    }
-   ]
+   "dup_of": "5287355c1060"
   },
   {
    "id": "5287355c1060",
@@ -146,7 +137,17 @@
    "added": "2026-11-07T02:01:25+01:00",
    "quelle_titel": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-   "dup_of": "5aac93af33fb"
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-finanzierung-openai-sammelt-laut-bericht-elf-milliarden-dollar-bei-investoren-ein/100268028.html",
+     "paywall": true
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+    }
+   ]
   },
   {
    "id": "ddaec7e99048",
@@ -193,7 +194,7 @@
    "quelle_titel": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
    "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
    "kontext": "Die Zahlen stammen aus einem Bloomberg-Bericht. Die Runde könnte am Ende rund zwanzig Milliarden Dollar umfassen und bliebe damit hinter dem ursprünglich angepeilten Ziel zurück. Zugleich dämpfen potenzielle Investoren offenbar ihre Erwartungen an den Börsengang des Rivalen Anthropic. OpenAI selbst hat eigene Börsenpläne verschoben, ein Schritt wird erst im kommenden Jahr erwartet. Nach den US-Zwischenwahlen und wachsendem Unmut über Rechenzentren gilt die Stimmung im KI-Markt als nervös.",
-   "dup_of": "5aac93af33fb"
+   "dup_of": "5287355c1060"
   },
   {
    "id": "857d53bd4e1d",
@@ -401,7 +402,12 @@
    "quelle_titel": "Dank KI: OpenAI findet 948 Lücken im Linux-Kernel, und schließt sie auch gleich",
    "url": "https://t3n.de/news/openai-ki-agenten-finden-und-schliessen-948-luecken-im-linux-kernel-1772170",
    "kontext": "Hinter dem Ergebnis steht ein Prototyp, der den Kernelcode in großem Umfang durchsucht, verdächtige Funde nachstellt und daraus Angriffswege zur lokalen Rechteausweitung ableitet. OpenAI nennt Kosten im Millionenbereich, schweigt aber dazu, welches System getestet wurde. Der eigentliche Punkt liegt danach: Weil KI mehr Lücken findet, als Entwicklerteams abarbeiten können, gewinnen Angreifer Zeit. Automatisch erzeugte und fachlich geprüfte Korrekturen sollen dieses Fenster verkleinern.",
-   "dup_of": "a4f4c423c542"
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/openai-linux-security-bugs-ai-windows-patches/"
+    }
+   ]
   },
   {
    "id": "fc8f30aee8f3",
@@ -522,17 +528,17 @@
      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/"
     },
     {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/politik/ausland/ki-rechenzentren-warum-die-us-midterms-den-ki-boom-ausbremsen/100267805.html",
-     "paywall": true
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/ai-agents-can-now-make-your-phone-calls?story=midterm-voters-turn-on-data-centers-ai"
     },
     {
      "source": "The Verge AI",
      "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast"
     },
     {
-     "source": "Ars Technica AI",
-     "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/"
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/politik/ausland/ki-rechenzentren-warum-die-us-midterms-den-ki-boom-ausbremsen/100267805.html",
+     "paywall": true
     }
    ]
   },
@@ -577,7 +583,17 @@
    "added": "2026-11-07T00:34:03+01:00",
    "quelle_titel": "Nach OpenAI und Anthropic bringt auch Perplexity dauerhafte KI-Agenten für komplexe Aufgaben",
    "url": "https://the-decoder.de/nach-openai-und-anthropic-bringt-auch-perplexity-dauerhafte-ki-agenten-fuer-komplexe-aufgaben/",
-   "kontext": "Die Teammates setzen auf Perplexity Computer auf, das einzelne Aufträge abarbeitet, sollen aber längerfristige Projekte begleiten und dabei auf vorhandene Daten und Gedächtnis zugreifen. Firmenchef Srinivas stellt sich perspektivisch viele solcher Helfer pro Beschäftigten vor. Wie belastbar das Modell ist, bleibt offen: Bei SpaceX erzwang der hohe Verbrauch ähnlicher Agenten gerade erst engere Nutzungsgrenzen."
+   "kontext": "Die Teammates setzen auf Perplexity Computer auf, das einzelne Aufträge abarbeitet, sollen aber längerfristige Projekte begleiten und dabei auf vorhandene Daten und Gedächtnis zugreifen. Firmenchef Srinivas stellt sich perspektivisch viele solcher Helfer pro Beschäftigten vor. Wie belastbar das Modell ist, bleibt offen: Bei SpaceX erzwang der hohe Verbrauch ähnlicher Agenten gerade erst engere Nutzungsgrenzen.",
+   "also": [
+    {
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=perplexity-announces-teammates-agents"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+    }
+   ]
   },
   {
    "id": "39858efa73f2",
@@ -919,11 +935,6 @@
     {
      "source": "t3n",
      "url": "https://t3n.de/news/rechenzentren-nach-den-midterms-warum-das-ende-des-ausbau-booms-droht-1771894"
-    },
-    {
-     "source": "MIT Technology Review",
-     "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-     "paywall": true
     }
    ]
   },
@@ -1143,10 +1154,6 @@
      "url": "https://www.stern.de/digital/boerse-im-aufruhr-nach-midterms--absturz-der-tech-aktien--platzt-nun-eine-ki-blase--38507126.html"
     },
     {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/tech-aktien-besonders-betroffen-us-boerse-verliert-3-2-billionen-us-dollar-an-einem-tag-2611-214918.html"
-    },
-    {
      "source": "Tagesspiegel Wirtschaft",
      "url": "https://www.tagesspiegel.de/wirtschaft/finanzen/einer-der-schnellsten-verluste-an-marktkapitalisierung-in-der-borsengeschichte-was-hinter-dem-historischen-kurssturz-an-den-us-borsen-steckt-16248194.html",
      "paywall": true
@@ -1157,9 +1164,8 @@
      "paywall": true
     },
     {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/finanzen/boerse/boersenkurse-ki-ruecksetzer-belastet-dax-kurs-unter-26.000-punkten/100267819.html",
-     "paywall": true
+     "source": "Golem",
+     "url": "https://www.golem.de/news/tech-aktien-besonders-betroffen-us-boerse-verliert-3-2-billionen-us-dollar-an-einem-tag-2611-214918.html"
     },
     {
      "source": "iX",
@@ -1170,8 +1176,8 @@
      "url": "https://www.heise.de/news/Nach-US-Zwischenwahlen-Skepsis-zum-KI-Boom-loest-heftigen-Boersenabsturz-aus-11514310.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-borse-ki-aktien-leiden-nach-us-kongresswahl-dax-kurz-vor-rekord-16242454.html",
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/finanzen/boerse/boersenkurse-ki-ruecksetzer-belastet-dax-kurs-unter-26.000-punkten/100267819.html",
      "paywall": true
     },
     {
@@ -1201,7 +1207,7 @@
    "added": "2026-11-06T15:06:20+01:00",
    "quelle_titel": "OpenAI will mit GPT-6 Cyber das Aufspüren von Sicherheitslücken erleichtern, doch es gibt auch Kritik",
    "url": "https://t3n.de/news/openai-will-mit-gpt-6-cyber-das-aufspueren-von-sicherheitsluecken-erleichtern-doch-es-gibt-auch-kritik-1772107",
-   "dup_of": "1cfc6f1e77b0"
+   "dup_of": "53c56afbaf05"
   },
   {
    "id": "f0ba08f578d4",
@@ -1339,6 +1345,10 @@
    "url": "https://the-decoder.de/elf-wochen-einblick-bei-anthropic-metr-sieht-signifikantes-risiko-fuer-noch-schnellere-ki-entwicklung/",
    "kontext": "Der Hintergrund ist eine Sorge der Sicherheitsdebatte: Verbessern Modelle ihre Nachfolger immer schneller, könnten Fähigkeiten sprunghaft und unkontrolliert entstehen. Anthropic hat eine Verdopplung des Tempos selbst als Warnstufe in seine Sicherheitsregeln geschrieben, weshalb METR genau diesen Punkt prüfte. Die Prüfer arbeiteten ohne Bezahlung und mit Einblick in unveröffentlichte Modelle sowie Mitarbeiterbefragungen. Die Schwärzungen begründet Anthropic damit, Wettbewerbern keine Anleitung zum Aufholen zu liefern.",
    "also": [
+    {
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=metrs-inside-look-at-anthropics-ai-speedup"
+    },
     {
      "source": "The Rundown AI",
      "url": "https://www.therundown.ai/articles/an-inside-look-at-anthropic-s-ai-speedup"
@@ -1607,13 +1617,7 @@
    "added": "2026-11-06T15:07:58+01:00",
    "quelle_titel": "Neue Siri-AI-Funktionen: Datei-Zugriff, Entwicklerverbesserungen und mehr",
    "url": "https://www.heise.de/news/Siri-AI-Apples-Chatbot-kann-bald-mit-Dateien-operieren-11513459.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Technisch läuft die Öffnung über App Intents: Apps können Inhalte und Aktionen nun mit weniger Einschränkungen an die Assistenz übergeben, auch eigene Aktionen sind möglich. Das gilt neben dem iPhone auch für iPad, Mac mit Finder-Zugriff und Vision Pro. In der EU bleibt die Funktion gesperrt, weil die regulatorischen Fragen mit Brüssel offen sind und sich bis ins kommende Jahr ziehen könnten. Die Stoßrichtung ist agentisch, Stabilität und Sicherheit muss die Praxis zeigen.",
-   "also": [
-    {
-     "source": "The Rundown AI",
-     "url": "https://www.therundown.ai/articles/apple-cracks-the-door-open-to-siri-ai"
-    }
-   ]
+   "kontext": "Technisch läuft die Öffnung über App Intents: Apps können Inhalte und Aktionen nun mit weniger Einschränkungen an die Assistenz übergeben, auch eigene Aktionen sind möglich. Das gilt neben dem iPhone auch für iPad, Mac mit Finder-Zugriff und Vision Pro. In der EU bleibt die Funktion gesperrt, weil die regulatorischen Fragen mit Brüssel offen sind und sich bis ins kommende Jahr ziehen könnten. Die Stoßrichtung ist agentisch, Stabilität und Sicherheit muss die Praxis zeigen."
   },
   {
    "id": "05a746d2110d",
@@ -1749,7 +1753,8 @@
    "added": "2026-11-06T15:31:40+01:00",
    "quelle_titel": "Google verbessert KI-Videogenerator Gemini Omni auf Version 1.2 Flash",
    "url": "https://www.heise.de/news/Google-verbessert-KI-Videogenerator-Gemini-Omni-auf-Version-1-2-Flash-11515072.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Die Omni-Reihe hatte Google im Mai auf seiner Entwicklerkonferenz erstmals gezeigt, nun gilt das Flash-Modell als allgemein verfügbar. Zu finden ist es in der Gemini-API und der Cloud-Konsole, dazu in Flow und Vids, während die langen Clips in der Gemini-App zunächst Ultra-Abonnenten erhalten. Auffällig ist die Ausrichtung auf Onlinehandel und Werbung, etwa virtuelle Anproben. Entwürfe entstehen günstig und werden erst danach hochskaliert."
+   "kontext": "Die Omni-Reihe hatte Google im Mai auf seiner Entwicklerkonferenz erstmals gezeigt, nun gilt das Flash-Modell als allgemein verfügbar. Zu finden ist es in der Gemini-API und der Cloud-Konsole, dazu in Flow und Vids, während die langen Clips in der Gemini-App zunächst Ultra-Abonnenten erhalten. Auffällig ist die Ausrichtung auf Onlinehandel und Werbung, etwa virtuelle Anproben. Entwürfe entstehen günstig und werden erst danach hochskaliert.",
+   "dup_of": "003a6dd08e36"
   },
   {
    "id": "47595e2862bb",
@@ -1848,6 +1853,11 @@
      "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/"
     },
     {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/2026-11/ki-konzern-anthropic-boerse-unternehmen-digitalpodcast",
+     "paywall": true
+    },
+    {
      "source": "The Batch",
      "url": "https://www.deeplearning.ai/the-batch/issue-378"
     }
@@ -1919,7 +1929,7 @@
    "added": "2026-11-06T15:04:46+01:00",
    "quelle_titel": "😺 OpenAI released GPT-6 Cyber, a hacking AI",
    "url": "https://www.theneuron.ai/newsletter/openai-released-gpt-6-cyber-a-hacking-ai/",
-   "dup_of": "1cfc6f1e77b0"
+   "dup_of": "53c56afbaf05"
   },
   {
    "id": "00dd5869bfff",
@@ -2100,8 +2110,20 @@
    "kontext": "Die Kontoanbindung läuft über den Finanzdatendienst Plaid, Claude erhält dabei nur Leserechte und kann kein Geld bewegen oder anlegen. Gestartet wird als Beta in den USA für zahlende Abostufen, Werbung und gesponserte Empfehlungen schließt Anthropic aus. Gespräche in diesem Bereich sollen nicht ins Modelltraining fließen, allerdings bleiben Angaben aus früheren Chats auch nach dem Trennen des Kontos erhalten. OpenAI bietet in den USA bereits etwas Vergleichbares.",
    "also": [
     {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/"
+    },
+    {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/claude-bank-accounts-financial-data-privacy/"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=anthropic-introduces-personal-finance-in-claude"
     }
    ]
   },
@@ -2193,13 +2215,17 @@
    "kontext": "Die Kurzstudie entstand im Auftrag von Greenpeace und füllt eine Lücke: Zum Wasserbedarf der geplanten Anlagen gibt es bislang kaum verlässliche amtliche Zahlen, obwohl die Bundesregierung die Kapazitäten stark ausweiten will. Der Branchenverband Bitkom hatte den Verbrauch kurz zuvor als wenig problematisch dargestellt. Die Forscher kommen dagegen auf deutlich höhere Werte und halten Kühlung auch ganz ohne Wasser für machbar. Betroffen wären vor allem bereits trockene Regionen.",
    "also": [
     {
-     "source": "t3n",
-     "url": "https://t3n.de/news/wannsee-inhalt-pro-jahr-so-viel-wasser-schlucken-deutsche-rechenzentren-schon-heute-1771944"
+     "source": "netzpolitik.org",
+     "url": "https://netzpolitik.org/2026/greenpeace-studie-bau-von-riesen-rechenzentren-koennte-wasserverbrauch-mehr-als-verdoppeln/"
     },
     {
      "source": "ZEIT Digital",
      "url": "https://www.zeit.de/digital/2026-11/rechenzentren-wasserverbrauch-kuehlung-greenpeace-bitkom-gxe",
      "paywall": true
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/wannsee-inhalt-pro-jahr-so-viel-wasser-schlucken-deutsche-rechenzentren-schon-heute-1771944"
     },
     {
      "source": "Golem",
@@ -2208,10 +2234,6 @@
     {
      "source": "stern Digital",
      "url": "https://www.stern.de/digital/folge-des-ki-booms--studie-warnt-vor-wasserstress-durch-neue-mega-rechenzentren-38507342.html"
-    },
-    {
-     "source": "netzpolitik.org",
-     "url": "https://netzpolitik.org/2026/greenpeace-studie-bau-von-riesen-rechenzentren-koennte-wasserverbrauch-mehr-als-verdoppeln/"
     },
     {
      "source": "Süddeutsche Digital",
@@ -2427,6 +2449,161 @@
    "dup_of": "3a2f2c1f93ae"
   },
   {
+   "id": "c292cb9a8f16",
+   "date": "2026-11-06",
+   "published": "2026-11-06T07:30+01:00",
+   "headline": "METR schätzt: Anthropic entwickelt doppelt so schnell wie im Vorjahr",
+   "summary": "Die Prüforganisation METR durfte elf Wochen lang interne Daten von Anthropic einsehen und schätzt das Entwicklungstempo auf etwa das Doppelte des Zeitraums 2024 bis 2025, mit einer breiten Spanne von 1,3 bis 3. Rund 80 Prozent dieser Beschleunigung gehen laut der Analyse auf den Einsatz eigener KI-Systeme zurück. Erwähnt werden zwei interne Modelle oberhalb von Claude Opus 5.5, wobei ein Modell in allen 15 Benchmarks über 50 Prozent erreichte und keine klaren Engpässe sichtbar wurden.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "anthropic",
+    "metr",
+    "benchmarks",
+    "ki-entwicklung"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-11-07T11:13:14+01:00",
+   "kurios": "Die entscheidenden Belege der Prüfer wurden größtenteils geschwärzt veröffentlicht.",
+   "quelle_titel": "METR's inside look at Anthropic's AI speedup",
+   "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=metrs-inside-look-at-anthropics-ai-speedup",
+   "dup_of": "074f411fd5b2"
+  },
+  {
+   "id": "d47104d877f0",
+   "date": "2026-11-06",
+   "published": "2026-11-06T07:30+01:00",
+   "headline": "ChatGPT erzeugt jetzt animierte GIFs mit Images 2.6",
+   "summary": "OpenAI bringt die Bildgenerierung Images 2.6 in ChatGPT und Codex und ergänzt erstmals Bewegung: Aus Text, Foto oder Skizze lassen sich GIFs erstellen, deren Tempo und einzelne Frames angepasst werden können. Die Bilderzeugung soll zudem 50 Prozent schneller laufen, in der Design Arena belegt das Modell den ersten Platz. Über die API stehen zwei Varianten bereit, eine auf Qualität und eine auf Geschwindigkeit ausgelegt.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "chatgpt",
+    "bildgenerierung",
+    "gif"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-11-07T11:13:14+01:00",
+   "quelle_titel": "OpenAI's Images 2.6 adds GIFs to ChatGPT",
+   "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=openais-images-2-6-adds-gifs-to-chatgpt",
+   "dup_of": "608c53b8e263"
+  },
+  {
+   "id": "65399461c26a",
+   "date": "2026-11-06",
+   "published": "2026-11-06T07:30+01:00",
+   "headline": "OpenAI bringt Spezialmodell GPT-6 Cyber für Sicherheitslücken",
+   "summary": "Mit GPT-6 Cyber stellt OpenAI ein Modell vor, das speziell darauf trainiert ist, Schwachstellen in Software aufzuspüren und auszunutzen. Bei den meisten Cyber-Aufgaben übertrifft es die Variante GPT-6 Astra. In einem Test entdeckte das Modell 81 bislang unbekannte schwere Fehler im Browser Firefox.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "openai",
+    "cybersecurity",
+    "schwachstellen",
+    "gpt-6"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-11-07T11:13:14+01:00",
+   "quelle_titel": "OpenAI releases GPT-6 Cyber",
+   "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=openai-releases-gpt-6-cyber",
+   "dup_of": "53c56afbaf05"
+  },
+  {
+   "id": "47c5ad8bfed1",
+   "date": "2026-11-06",
+   "published": "2026-11-06T07:30+01:00",
+   "headline": "Google macht Videomodell Gemini Omni 1.2 Flash deutlich günstiger",
+   "summary": "Google senkt den Preis für sein Videomodell um 30 Prozent auf 0,07 US-Dollar pro Sekunde in 720p. Gleichzeitig wächst die maximale Cliplänge von 10 auf 15 Sekunden. Für Teams, die KI-Video produktiv einsetzen, verschieben sich damit die Kosten pro Clip merklich.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "google",
+    "gemini",
+    "videogenerierung",
+    "preise"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-11-07T11:13:14+01:00",
+   "quelle_titel": "Google rolls out Gemini Omni 1.2 Flash",
+   "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=google-rolls-out-gemini-omni-1-2-flash",
+   "dup_of": "003a6dd08e36"
+  },
+  {
+   "id": "7f3569897041",
+   "date": "2026-11-06",
+   "published": "2026-11-06T07:30+01:00",
+   "headline": "Claude bekommt Funktion für persönliche Finanzen",
+   "summary": "Anthropic erweitert Claude um ein Werkzeug für persönliche Finanzen, das sich mit Finanzkonten verbinden lässt. Nutzer können damit Fragen zu ihrer eigenen finanziellen Situation stellen und auf ihre Daten bezogene Auskünfte erhalten.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "anthropic",
+    "claude",
+    "finanzen",
+    "assistent"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-11-07T11:13:14+01:00",
+   "quelle_titel": "Anthropic introduces Personal Finance in Claude",
+   "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=anthropic-introduces-personal-finance-in-claude",
+   "dup_of": "825d18db204d"
+  },
+  {
+   "id": "64dda5ec05d7",
+   "date": "2026-11-06",
+   "published": "2026-11-06T07:30+01:00",
+   "headline": "Perplexity stellt Teammates vor: Agenten mit eigener Projektverantwortung",
+   "summary": "Perplexity bringt auf seiner Computer-Plattform sogenannte Teammates, also KI-Agenten, die jeweils ein laufendes Projekt eigenständig betreuen. Firmenchef Srinivas rechnet damit, dass Organisationen künftig Hunderte solcher Agenten pro Mitarbeiterin oder Mitarbeiter einsetzen. Das Konzept zielt auf Arbeitsteilung zwischen Mensch und Agent statt auf einzelne Chatanfragen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "perplexity",
+    "ki-agenten",
+    "automatisierung",
+    "arbeitsorganisation"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-11-07T11:13:14+01:00",
+   "quelle_titel": "Perplexity announces Teammates agents",
+   "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=perplexity-announces-teammates-agents",
+   "dup_of": "b1f2411a81a9"
+  },
+  {
+   "id": "770e91974f99",
+   "date": "2026-11-06",
+   "published": "2026-11-06T07:30+01:00",
+   "headline": "US-Abgeordnete fordert Entwicklungspause und Verbot von Superintelligenz",
+   "summary": "Die Abgeordnete Yassamin Ansari aus Arizona will eine Pause für die Entwicklung fortgeschrittener KI sowie ein Verbot von Superintelligenz zur ersten Priorität machen, sobald die Demokraten die Mehrheit im Repräsentantenhaus übernehmen. Damit rückt eine deutlich restriktivere Linie in die US-Debatte über KI-Regeln.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "usa",
+    "regulierung",
+    "superintelligenz",
+    "ki-politik"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-11-07T11:13:14+01:00",
+   "quelle_titel": "Arizona Rep. Ansari calls for AI pause",
+   "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=arizona-rep-ansari-calls-for-ai-pause"
+  },
+  {
    "id": "904574e3ce24",
    "date": "2026-11-06",
    "published": "2026-11-06T07:28+01:00",
@@ -2630,7 +2807,7 @@
    "added": "2026-11-06T15:04:46+01:00",
    "quelle_titel": "OpenAI's GPT-6 Cyber Can Hack Better. Can It Stay Within the Rules?",
    "url": "https://www.theneuron.ai/news/openais-gpt-6-cyber-can-hack-better-can-it-stay-within-the-rules/",
-   "dup_of": "1cfc6f1e77b0"
+   "dup_of": "53c56afbaf05"
   },
   {
    "id": "a6945959d1e1",
@@ -2696,20 +2873,7 @@
    "quelle_titel": "OpenAIs für Cybersecurity verbessertes KI-Modell GPT-6 Cyber hält sich an Regeln",
    "url": "https://www.heise.de/news/OpenAIs-fuer-Cybersecurity-verbessertes-KI-Modell-GPT-6-Cyber-haelt-sich-an-Regeln-11514280.html",
    "kontext": "Zugang gibt es nur über das Programm Daybreak Red für ausgewählte Organisationen. OpenAI selbst sowie Teams bei Cisco und CodeRabbit nutzen das Modell bereits für Schwachstellensuche und Code-Prüfung. Das Unternehmen stuft die Cyberfähigkeiten als kritisch ein, weil die KI funktionsfähige Angriffswege auch ohne menschliches Zutun entwickeln kann. Ein Entwickler fand mit einem Vorgängermodell binnen Stunden eine gravierende Lücke in verbreiteter Linux-Software, was das Missbrauchsrisiko greifbar macht.",
-   "also": [
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/openai-will-mit-gpt-6-cyber-das-aufspueren-von-sicherheitsluecken-erleichtern-doch-es-gibt-auch-kritik-1772107"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/openai-released-gpt-6-cyber-a-hacking-ai/"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/openais-gpt-6-cyber-can-hack-better-can-it-stay-within-the-rules/"
-    }
-   ]
+   "dup_of": "53c56afbaf05"
   },
   {
    "id": "bdb73d7bb188",
@@ -2842,7 +3006,17 @@
    "added": "2026-11-06T15:10:22+01:00",
    "quelle_titel": "OpenAI is stepping back from NDAs for data center projects",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-   "kontext": "Nach Abstimmungsergebnissen gegen neue Serverfarmen versucht OpenAI, das Vertrauen von Kommunen zurückzugewinnen. Geheimhaltung soll künftig nur noch enge Bereiche wie Sicherheitsfragen und Geschäftsgeheimnisse abdecken. Zusätzlich verspricht das Unternehmen, Strom und benötigte Infrastruktur vollständig selbst zu bezahlen sowie über erwartete Stellen und Einstellungen zu berichten. Amazon hatte im Oktober einen ähnlichen Schritt angekündigt; bewähren müssen sich die Zusagen in den konkreten Verträgen vor Ort."
+   "kontext": "Nach Abstimmungsergebnissen gegen neue Serverfarmen versucht OpenAI, das Vertrauen von Kommunen zurückzugewinnen. Geheimhaltung soll künftig nur noch enge Bereiche wie Sicherheitsfragen und Geschäftsgeheimnisse abdecken. Zusätzlich verspricht das Unternehmen, Strom und benötigte Infrastruktur vollständig selbst zu bezahlen sowie über erwartete Stellen und Einstellungen zu berichten. Amazon hatte im Oktober einen ähnlichen Schritt angekündigt; bewähren müssen sich die Zusagen in den konkreten Verträgen vor Ort.",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Nach-US-Zwischenwahlen-OpenAI-verspricht-anwohnerfreundliche-Rechenzentren-11513473.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/openai-data-center-reset-no-ndas-public-officials/"
+    }
+   ]
   },
   {
    "id": "0802c2aa0040",
@@ -2864,7 +3038,8 @@
    "added": "2026-11-06T15:10:22+01:00",
    "quelle_titel": "Airbnb is working on an AI travel agent",
    "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-   "kontext": "Airbnb setzt ausdrücklich nicht auf ein Chatfenster. Stattdessen soll der Assistent passende Oberflächenbausteine wie Karten, Fotos, Kalender oder Reisepläne je nach Anfrage zusammensetzen und Buchungen direkt in der Plattform auslösen. Als Vorteil sieht das Unternehmen seine Erfahrung beim Zusammenbringen von Gastgebern und Gästen sowie seine Rolle im Buchungsprozess. Mitgründer und Chef Brian Chesky hatte den Start für 2027 bereits früher in Aussicht gestellt."
+   "kontext": "Airbnb setzt ausdrücklich nicht auf ein Chatfenster. Stattdessen soll der Assistent passende Oberflächenbausteine wie Karten, Fotos, Kalender oder Reisepläne je nach Anfrage zusammensetzen und Buchungen direkt in der Plattform auslösen. Als Vorteil sieht das Unternehmen seine Erfahrung beim Zusammenbringen von Gastgebern und Gästen sowie seine Rolle im Buchungsprozess. Mitgründer und Chef Brian Chesky hatte den Start für 2027 bereits früher in Aussicht gestellt.",
+   "dup_of": "1eac7fe42e87"
   },
   {
    "id": "82196d4ece0a",
@@ -3118,32 +3293,7 @@
    "quelle_titel": "GPT-6 Cyber: OpenAI trainiert KI-Modell gezielt für die Jagd nach Sicherheitslücken",
    "url": "https://the-decoder.de/gpt-6-cyber-openai-trainiert-ki-modell-gezielt-fuer-die-jagd-nach-sicherheitsluecken/",
    "kontext": "Hinter der Ankündigung steht ein doppelter Nutzen: Dieselben Fähigkeiten, die Verteidigern helfen, taugen auch für Angriffe. OpenAI stuft das Modell in seinem eigenen Risikorahmen deshalb als kritisch für die Cybersicherheit ein und trainierte es mit einem eigens eingerichteten Lockziel darauf, vorgegebene Grenzen einzuhalten. Mozilla und Entwickler des Linux-Kernels erhielten Meldungen samt Vorschlägen zur Behebung. Alle Messwerte stammen bislang vom Unternehmen selbst, unabhängige Prüfungen fehlen.",
-   "also": [
-    {
-     "source": "OpenAI",
-     "url": "https://openai.com/index/introducing-gpt-6-cyber"
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
-    },
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/OpenAIs-fuer-Cybersecurity-verbessertes-KI-Modell-GPT-6-Cyber-haelt-sich-an-Regeln-11514280.html"
-    },
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/openai-will-mit-gpt-6-cyber-das-aufspueren-von-sicherheitsluecken-erleichtern-doch-es-gibt-auch-kritik-1772107"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/openai-released-gpt-6-cyber-a-hacking-ai/"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/openais-gpt-6-cyber-can-hack-better-can-it-stay-within-the-rules/"
-    }
-   ]
+   "dup_of": "53c56afbaf05"
   },
   {
    "id": "3c0e84566a0e",
@@ -3231,7 +3381,7 @@
    "added": "2026-11-06T15:33:28+01:00",
    "quelle_titel": "OpenAI released a new cybersecurity model. Is that enough?",
    "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-   "dup_of": "1b89c0cbed8e"
+   "dup_of": "53c56afbaf05"
   },
   {
    "id": "4051eda06776",
@@ -3276,16 +3426,7 @@
    "quelle_titel": "Google veröffentlicht Gemini Omni 1.2 Flash mit längeren Clips und günstigeren Preisen",
    "url": "https://the-decoder.de/google-veroeffentlicht-gemini-omni-1-2-flash-mit-laengeren-clips-und-guenstigeren-preisen/",
    "kontext": "Das Modell erreicht Nutzer über die Gemini-API, das AI Studio, die Cloud-Console sowie Werkzeuge wie Flow, Vids und Google Ads, in der Gemini-App zunächst für die oberste Abostufe. Alle Clips tragen ein unsichtbares SynthID-Wasserzeichen zur Herkunftskennzeichnung. Google verspricht mehr Treue zu Vorlagen: Gesichter, Kleidung und Markenfarben sollen über wechselnde Kamerawinkel stabil bleiben, dazu klarere Lippensynchronisation. Damit zielt Deepmind erkennbar auf Werbe- und Produktvideos.",
-   "also": [
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Google-verbessert-KI-Videogenerator-Gemini-Omni-auf-Version-1-2-Flash-11515072.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
-    {
-     "source": "Google DeepMind",
-     "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
-    }
-   ]
+   "dup_of": "003a6dd08e36"
   },
   {
    "id": "4e89c8d86466",
@@ -3352,20 +3493,7 @@
    "quelle_titel": "Claude AI can plug directly into your bank account",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
    "kontext": "Die Funktion startet als Beta in den USA und nur für zahlende Abostufen. Plaid vermittelt die Verbindung, Claude sieht Kontostände und Umsätze der letzten Jahre, aber keine Zugangsdaten, und kann kein Geld bewegen oder anlegen. Anthropic verspricht keine Werbung, kein Training mit diesen Dialogen und jederzeit trennbare Konten. OpenAI hat ein vergleichbares Angebot, der Wettbewerb um Finanzdaten im Alltag nimmt zu.",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/anthropic-baut-claude-zum-persoenlichen-finanzassistenten-aus/"
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/claude-bank-accounts-financial-data-privacy/"
-    }
-   ]
+   "dup_of": "825d18db204d"
   },
   {
    "id": "7b187a5bdc28",
@@ -3388,7 +3516,7 @@
    "added": "2026-11-07T02:02:07+01:00",
    "quelle_titel": "Claude can now analyze your spending with its new Personal Finance tool",
    "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
-   "dup_of": "4b216c662524"
+   "dup_of": "825d18db204d"
   },
   {
    "id": "58d2df607894",
@@ -3454,7 +3582,20 @@
    "added": "2026-11-06T15:33:28+01:00",
    "quelle_titel": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
    "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-   "dup_of": "d6dbc85a7115"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/google-veroeffentlicht-gemini-omni-1-2-flash-mit-laengeren-clips-und-guenstigeren-preisen/"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Google-verbessert-KI-Videogenerator-Gemini-Omni-auf-Version-1-2-Flash-11515072.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=google-rolls-out-gemini-omni-1-2-flash"
+    }
+   ]
   },
   {
    "id": "b58fee4edbbb",
@@ -3634,17 +3775,7 @@
    "added": "2026-11-06T15:34:14+01:00",
    "quelle_titel": "Tencents Hy4 soll KI-Entwicklung selbst übernehmen und eigene Nachfolger trainieren",
    "url": "https://the-decoder.de/tencents-hy4-soll-ki-entwicklung-selbst-uebernehmen-und-eigene-nachfolger-trainieren/",
-   "kontext": "Hinter Hy4 steckt ein Mixture-of-Experts-Modell mit sehr großem Kontextfenster, das zunächst nur über Tencents Cloud, OpenRouter und eigene Apps läuft. Die Gewichte der Endfassung will der Konzern erst später freigeben, offen verfügbar ist bislang die Vorabversion. Trainiert wurde gezielt für Programmier-, Finanz- und Büroaufgaben samt Steuerung von Fachsoftware. Unabhängige Messungen zeigen aber die Kehrseite: Bei Wissenslücken erfindet das Modell auffällig oft Antworten.",
-   "also": [
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Tencent-Hy4-Neues-KI-Modell-schafft-es-in-chinesische-Spitzengruppe-11513555.html"
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Tencent-Hy4-Neues-KI-Modell-schafft-es-in-chinesische-Spitzengruppe-11513555.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    }
-   ]
+   "kontext": "Hinter Hy4 steckt ein Mixture-of-Experts-Modell mit sehr großem Kontextfenster, das zunächst nur über Tencents Cloud, OpenRouter und eigene Apps läuft. Die Gewichte der Endfassung will der Konzern erst später freigeben, offen verfügbar ist bislang die Vorabversion. Trainiert wurde gezielt für Programmier-, Finanz- und Büroaufgaben samt Steuerung von Fachsoftware. Unabhängige Messungen zeigen aber die Kehrseite: Bei Wissenslücken erfindet das Modell auffällig oft Antworten."
   },
   {
    "id": "0b9640b12afb",
@@ -3710,8 +3841,7 @@
    "source_id": "rundown",
    "added": "2026-11-06T15:04:46+01:00",
    "quelle_titel": "Agility’s $2.5B humanoid hits Nasdaq",
-   "url": "https://www.therundown.ai/articles/agility-2-5b-humanoid-hits-nasdaq",
-   "dup_of": "4513cd1ca7d8"
+   "url": "https://www.therundown.ai/articles/agility-2-5b-humanoid-hits-nasdaq"
   },
   {
    "id": "aecc9a23fd3c",
@@ -3761,6 +3891,11 @@
     {
      "source": "CIO",
      "url": "https://www.cio.de/article/4244636/digital-gipfel-2026-kanzler-merz-blaest-zur-ki-offensive.html"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/KI-Task-Force-Bericht-der-Bundesregierung-eine-Analyse-was-drin-steht-11510291.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
+     "paywall": true
     }
    ]
   },
@@ -3853,13 +3988,13 @@
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZkFPX0FwdzVnYXpfem9NcURXUVN3SWZQdzY2T0F6bTA4VTZTd0FhZjNqWHlmVUxpOWlLeVlrM0lUUENOc1VFd1ByNEJ6UVZUbzU3VVUza3g3Z2hHV2M4UC1Qcl9iUU94aUFPdEVubmswaWduUXNBSmc4QjNVZTRocVRxX0xIellpNTJlcUdVcWNOT0licVhnbnF4aHp1UHVocFd6N3QyTWV1WTdhSGJmSVJTVC1uWEMwZkttNlo1RnRqbmQxaG5VMm5BNTQ?oc=5",
    "also": [
     {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-baukonzern-auftragsbucher-von-hochtief-dank-ki-boom-so-voll-wie-nie-16246702.html",
+     "source": "Spiegel",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOSFV2NDZhWm5hTk0wSFBiZHBLTmZzYW5pb0Q0RFpkbWstbGtPQmlJdXVmQzRYOUc3dWR1cU1qcGxTUjMzdEEyZlg5QjhkTWl2a09neU5XT3o4SUZMcTJSUmc4eFI2RGJlaDhhMDZyZlBabzE5UG02WXhybUdORlc4aDJHVTBTWTA4ak5hRkVJWTJ1OHgydkxDenVWQ0VJLVlFVWsxR1ZRVG1qNXk4YU9RNTdVc2VLWjV0UXBDbklvMDNxZGFLd2RySmtsU0c2QVhTYVhuc2xNbTVNZnNBRy1HbmFaVS1YZVRlOXVzYVZLa3U?oc=5",
      "paywall": true
     },
     {
-     "source": "Spiegel",
-     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOSFV2NDZhWm5hTk0wSFBiZHBLTmZzYW5pb0Q0RFpkbWstbGtPQmlJdXVmQzRYOUc3dWR1cU1qcGxTUjMzdEEyZlg5QjhkTWl2a09neU5XT3o4SUZMcTJSUmc4eFI2RGJlaDhhMDZyZlBabzE5UG02WXhybUdORlc4aDJHVTBTWTA4ak5hRkVJWTJ1OHgydkxDenVWQ0VJLVlFVWsxR1ZRVG1qNXk4YU9RNTdVc2VLWjV0UXBDbklvMDNxZGFLd2RySmtsU0c2QVhTYVhuc2xNbTVNZnNBRy1HbmFaVS1YZVRlOXVzYVZLa3U?oc=5",
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-baukonzern-auftragsbucher-von-hochtief-dank-ki-boom-so-voll-wie-nie-16246702.html",
      "paywall": true
     }
    ]
@@ -4283,7 +4418,8 @@
    "added": "2026-11-07T03:12:22+01:00",
    "paywall": true,
    "quelle_titel": "heise+ | So soll KI-Deutschland in 4 Jahren aussehen - eine Analyse der Regierungsziele",
-   "url": "https://www.heise.de/news/KI-Task-Force-Bericht-der-Bundesregierung-eine-Analyse-was-drin-steht-11510291.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
+   "url": "https://www.heise.de/news/KI-Task-Force-Bericht-der-Bundesregierung-eine-Analyse-was-drin-steht-11510291.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
+   "dup_of": "328e89004555"
   },
   {
    "id": "468eb30eea90",
@@ -4475,7 +4611,36 @@
    "quelle_titel": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
    "url": "https://openai.com/index/introducing-gpt-6-cyber",
    "kontext": "GPT-6 Cyber gehört zum Programm Daybreak Red, zu dem nur geprüfte Organisationen Zugang erhalten. OpenAI berichtet von hunderten möglichen Schwachstellen im Linux-Kern und Dutzenden zuvor unbekannten Lücken in Firefox. Ein Entwickler fand mit einem Vorgängermodell binnen weniger Stunden eine tief verschachtelte Lücke in Ubuntu-Software, die inzwischen behoben ist. Genau darin liegt die Kehrseite: Dieselben Fähigkeiten senken auch für Angreifer die Hürden erheblich.",
-   "dup_of": "1b89c0cbed8e"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/gpt-6-cyber-openai-trainiert-ki-modell-gezielt-fuer-die-jagd-nach-sicherheitsluecken/"
+    },
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/OpenAIs-fuer-Cybersecurity-verbessertes-KI-Modell-GPT-6-Cyber-haelt-sich-an-Regeln-11514280.html"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/openai-will-mit-gpt-6-cyber-das-aufspueren-von-sicherheitsluecken-erleichtern-doch-es-gibt-auch-kritik-1772107"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=openai-releases-gpt-6-cyber"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/openai-released-gpt-6-cyber-a-hacking-ai/"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/openais-gpt-6-cyber-can-hack-better-can-it-stay-within-the-rules/"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+    }
+   ]
   },
   {
    "id": "804e4bc20ab3",
@@ -4592,8 +4757,8 @@
    "kontext": "Hinter dem Update steckt ein hoher Takt: Bereits der Vorgänger kam vor rund zwei Monaten und versprach ebenfalls deutlich kürzere Wartezeiten. OpenAI zielt mit SVG-Export, markierbaren Bildbereichen und wiederverwendbaren Referenzbildern vor allem auf Entwickler und gestalterische Arbeit. Die Preise pro Token bleiben gleich, Vektorgrafiken verursachen wegen des zweistufigen Verfahrens aber Zusatzkosten. Schwächen bleiben bei Schrift, komplexen Layouts und gleichbleibenden Figuren.",
    "also": [
     {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/openai-launched-images-2-6-with-gifs/"
+     "source": "The Rundown AI",
+     "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup?story=openais-images-2-6-adds-gifs-to-chatgpt"
     }
    ]
   },
@@ -4684,7 +4849,8 @@
    "source_id": "rundown",
    "added": "2026-11-07T11:11:30+01:00",
    "quelle_titel": "Midterm voters turn on data centers, AI",
-   "url": "https://therundownai.beehiiv.com/p/ai-agents-can-now-make-your-phone-calls?story=midterm-voters-turn-on-data-centers-ai"
+   "url": "https://therundownai.beehiiv.com/p/ai-agents-can-now-make-your-phone-calls?story=midterm-voters-turn-on-data-centers-ai",
+   "dup_of": "ef57b5d47585"
   },
   {
    "id": "b736ad8e6224",
