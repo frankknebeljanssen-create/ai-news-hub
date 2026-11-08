@@ -1,10 +1,38 @@
 {
  "date": "2026-11-08",
- "generated_at": "2026-11-08T07:05:43+01:00",
+ "generated_at": "2026-11-08T13:08:20+01:00",
  "overview": [
   {
    "id": "e47f2ef55fe3",
-   "text": "Der KI-Boom verteuert Speicherchips so stark, dass Laptops und Smartphones im Weihnachtsgeschäft deutlich mehr kosten und die Margen im Handel schrumpfen."
+   "text": "Der KI-Boom treibt die Preise für Speicherchips nach oben, weshalb Laptops und Smartphones im Weihnachtsgeschäft deutlich teurer werden."
+  },
+  {
+   "id": "a55c9afb37c1",
+   "text": "Viele Rechenzentren in Deutschland halten Strom- und Wasserverbrauch trotz Energieeffizienzgesetz geheim, was den Druck auf die Aufsicht erhöht."
+  },
+  {
+   "id": "8d047e1f471f",
+   "text": "Check Point zeigt, dass manipulierte Töne Sprachassistenten zu unerwünschtem Verhalten verleiten können, weil ohne Transkript die üblichen Filter fehlen."
+  },
+  {
+   "id": "30a484c8d86d",
+   "text": "Alibabas neuer Co-Design Bench offenbart, dass das beste Coding-Modell nur rund 26 Prozent realer Nutzeraufgaben vollständig löst."
+  },
+  {
+   "id": "b0cf12c5bfde",
+   "text": "Laut Börsenprospekt übersteigt der Listenwert der internen Claude-Nutzung bei Anthropic seit April die monatlichen Gehaltskosten."
+  },
+  {
+   "id": "78eaf56cef4d",
+   "text": "Ein Mathematikprofessor erklärt klassische Hausaufgaben für wertlos, weil KI sie zuverlässig löst, und stellt damit gängige Prüfungsformate infrage."
+  },
+  {
+   "id": "f543ecd1742e",
+   "text": "Das Start-up Apheris erhält einen Technologiepreis, weil es Pharmakonzerne gemeinsam forschen lässt, ohne dass die Daten ihre Häuser verlassen."
+  },
+  {
+   "id": "b2811de86648",
+   "text": "Weltmodelle sollen KI physikalische Abläufe im Raum beibringen und damit Robotern und autonomen Fahrzeugen zu besserer Orientierung verhelfen."
   }
  ],
  "items": [
@@ -59,6 +87,374 @@
      "url": "https://www.stern.de/digital/handel--preisschock-zu-weihnachten--ki-chips-verteuern-elektronik-38516350.html"
     }
    ]
+  },
+  {
+   "id": "a55c9afb37c1",
+   "date": "2026-11-08",
+   "published": "2026-11-08T07:14+01:00",
+   "headline": "Rechenzentren halten Strom- und Wasserverbrauch trotz Gesetz unter Verschluss",
+   "summary": "Das Energieeffizienzgesetz verpflichtet Betreiber von Rechenzentren in Deutschland zu Transparenz über ihren Ressourcenverbrauch. Recherchen zeigen jedoch, dass viele Angaben zu Strom und Wasser nicht veröffentlicht oder verschleiert werden. Angesichts des KI-getriebenen Ausbaus wächst damit der Druck auf Aufsicht und Gesetzgeber.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "rechenzentren",
+    "energieverbrauch",
+    "transparenz",
+    "energieeffizienzgesetz"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-08T13:05:26+01:00",
+   "quelle_titel": "Wie Betreiber von Rechenzentren Angaben zum Energiebedarf verstecken",
+   "url": "https://www.heise.de/news/Intransparente-Rechenzentren-Versteckspiel-beim-Energiehunger-11516418.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Auslöser ist eine Auswertung des SWR, erschienen parallel zum Tag der offenen Rechenzentren, mit dem der Branchenverband GDA um Vertrauen warb. Abgefragt wurden die größten Betreiber im Land, darunter internationale Anbieter wie Equinix. Juristen sehen einen klaren Anspruch der Öffentlichkeit auf Umweltdaten, Fachleute von AlgorithmWatch mahnen wegen Energie- und Wasserknappheit. Gleichzeitig will die Bundesregierung die Kapazitäten bis 2030 verdoppeln."
+  },
+  {
+   "id": "8d047e1f471f",
+   "date": "2026-11-08",
+   "published": "2026-11-08T08:24+01:00",
+   "headline": "Audio-Angriffe auf Sprachbots: Töne steuern KI-Assistenten unbemerkt",
+   "summary": "Sicherheitsforscher von Check Point zeigen, dass sich Sprachassistenten über manipulierte Audiosignale zu unerwünschtem Verhalten verleiten lassen. Bei Modellen, die Sprache direkt in Sprache umsetzen, entsteht kein Transkript, an dem übliche Filter und Schutzmaßnahmen greifen könnten. Das macht eine ganze Klasse neuer Sprachprodukte angreifbar.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "prompt injection",
+    "sprachmodelle",
+    "audio",
+    "check point",
+    "sicherheit"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-08T13:05:26+01:00",
+   "quelle_titel": "Audio-Prompt-Injection: Sprachbots per Ton manipulierbar",
+   "url": "https://www.it-daily.net/shortnews/audio-prompt-injection-sprachbots",
+   "kontext": "Banken, Versicherer und Händler lassen Anrufe zunehmend von KI-Sprachagenten annehmen. Bisherige Systeme wandelten Sprache erst in Text, der sich filtern ließ, neue Modelle verarbeiten Audio direkt und klingen dadurch natürlicher. Angreifer können Anweisungen entweder schlicht aussprechen oder Aufnahmen so verfremden, dass Maschine und Mensch Unterschiedliches hören. Kritisch wird es, wenn der Assistent Konten einsehen oder Rückerstattungen auslösen darf."
+  },
+  {
+   "id": "9ff5140f9972",
+   "date": "2026-11-08",
+   "published": "2026-11-08T10:00+01:00",
+   "headline": "Diktieren plus Claude Code: So verdoppelt ein Produktmanager sein Tempo",
+   "summary": "Ein Produktmanager beschreibt, wie er seinen Arbeitsalltag fast durchgängig per Sprachdiktat steuert und die Eingaben mit Claude Code weiterverarbeitet. Er ist dabei von einem kommerziellen Diktierdienst auf die quelloffene App Freeflow umgestiegen und erklärt die Gründe. Der Beitrag zeigt konkret, wie sich Sprache und KI-Agenten zu einem schnelleren Workflow verbinden lassen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "workflow",
+    "diktieren",
+    "claude code",
+    "produktivität",
+    "open source"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-08T13:05:26+01:00",
+   "praxis": true,
+   "quelle_titel": "KI-Workflow: Wie du mit Diktieren und Claude Code deine Produktivität verdoppelst",
+   "url": "https://t3n.de/news/ki-workflow-diktieren-claude-code-produktivitaet-1770271",
+   "kontext": "Hinter dem Workflow steht Jan Werner, Lead Product Manager bei der Jobplattform Instaffo, wo er das Produkt weiterentwickelt. Zuvor arbeitete er mit dem Anbieter Wispr Flow und wechselte dann zur offenen Alternative. Spannend ist weniger das Diktieren selbst als die Verzahnung: Gesprochenes geht direkt an einen Agenten, der daraus Arbeitsschritte macht. Für viele ist Sprechen ohnehin schneller als Tippen."
+  },
+  {
+   "id": "30a484c8d86d",
+   "date": "2026-11-08",
+   "published": "2026-11-08T10:10+01:00",
+   "headline": "Neuer Benchmark zeigt: Coding-Agenten werden selten komplett fertig",
+   "summary": "Der von Alibaba entwickelte Co-Design Bench stellt Coding-Agenten vor echte, schwierige Nutzeranfragen. Das beste getestete Modell löst nur gut 26 Prozent der Aufgaben vollständig, während dieselben Systeme auf älteren Benchmarks nahezu perfekt abschneiden. Der Abstand zwischen Laborwerten und Alltagstauglichkeit bleibt damit erheblich.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "benchmark",
+    "coding-agenten",
+    "evaluation",
+    "alibaba"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-08T13:04:39+01:00",
+   "quelle_titel": "Coding-Agenten liefern viel, aber selten fertig",
+   "url": "https://the-decoder.de/coding-agenten-liefern-viel-aber-selten-fertig/",
+   "kontext": "Bestehende Tests sind ausgereizt: Dürfen Modelle ihren Code selbst ausführen und nachbessern, liegen sie nahe an der Höchstwertung, Unterschiede verschwinden. Das Team um Alibaba und asiatische Hochschulen sammelte deshalb Anfragen aus echten Sitzungen, bevorzugt solche, bei denen Nutzer mehrfach nachsteuern mussten. Geprüft wird streng in der laufenden App, inklusive Gegenkontrolle auf vorgetäuschte Funktionen. Auffällig: Dasselbe Modell schneidet je nach Arbeitsumgebung deutlich anders ab."
+  },
+  {
+   "id": "78eaf56cef4d",
+   "date": "2026-11-08",
+   "published": "2026-11-08T10:35+01:00",
+   "headline": "Mathe-Professor gibt auf: Hausaufgaben taugen mit KI nicht mehr als Leistungsnachweis",
+   "summary": "Ein Mathematikprofessor hält klassische Hausaufgaben für wertlos, weil KI-Systeme die Aufgaben zuverlässig lösen. Lehrende an Hochschulen zweifeln inzwischen sogar daran, ob sie das Fach noch empfehlen sollen. Der Fall zeigt, wie stark Prüfungs- und Lernformate durch KI unter Druck geraten.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "hochschule",
+    "pruefungsformate",
+    "mathematik",
+    "lernen mit ki"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-08T13:04:39+01:00",
+   "quelle_titel": "Mathe-Professor kapituliert: Warum Hausaufgaben durch KI sinnlos sind",
+   "url": "https://t3n.de/news/ki-mathe-studium-zukunft-hausaufgaben-kapitulation-1769844",
+   "kontext": "Richard Borcherds von der UC Berkeley bewertet Hausaufgaben nur noch nach Abgabe und nennt das selbst keine gute Lösung. Ausgelöst hat den Schritt auch, dass OpenAI zuletzt Erfolge bei schweren mathematischen Problemen vermeldete. Erkennungssoftware hilft nicht weiter, die Hochschule verwarf getestete Detektoren als untauglich, andernorts führten sie zu tausenden Fehlverdächtigungen. Umfragen zeigen, dass fast alle Studierenden solche Werkzeuge zumindest gelegentlich einsetzen."
+  },
+  {
+   "id": "b2811de86648",
+   "date": "2026-11-08",
+   "published": "2026-11-08T11:00+01:00",
+   "headline": "Weltmodelle erklärt: KI lernt Physik statt nur Text",
+   "summary": "Weltmodelle verlagern KI von Text in den dreidimensionalen Raum und simulieren physikalische Abläufe der realen Welt. Damit sollen Roboter und autonome Fahrzeuge lernen, sich in ihrer Umgebung zurechtzufinden. Der Beitrag ordnet ein, warum diese Modellklasse bald in vielen Anwendungen auftauchen dürfte.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "weltmodelle",
+    "robotik",
+    "autonomes fahren",
+    "simulation"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-08T13:04:39+01:00",
+   "paywall": true,
+   "quelle_titel": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
+   "url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/"
+  },
+  {
+   "id": "b0cf12c5bfde",
+   "date": "2026-11-08",
+   "published": "2026-11-08T11:12+01:00",
+   "headline": "Anthropic gibt intern mehr für Claude aus als für Gehälter",
+   "summary": "Laut Börsenprospekt liegt der zu Listenpreisen berechnete Wert der internen Claude-Nutzung bei Anthropic seit April über den monatlichen Personalkosten ohne Aktienvergütung. Die Zahl zeigt, wie stark das Unternehmen seine eigenen Modelle im Alltag einsetzt. Für Unternehmen ist das ein Hinweis darauf, welche Größenordnung KI-Nutzung in Budgets erreichen kann.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "anthropic",
+    "kosten",
+    "boersengang",
+    "ki-nutzung"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-08T13:04:39+01:00",
+   "quelle_titel": "Anthropic: Interne Claude-Nutzung übersteigt Personalkosten",
+   "url": "https://www.it-daily.net/shortnews/anthropic-claud-personalkosten",
+   "kontext": "Die Angabe stammt aus den Unterlagen für den geplanten Börsengang an der Nasdaq, der Mitte November erwartet wird. Gerechnet wird mit Kundenpreisen, nicht mit echten Rechenkosten, absolute Summen bleiben offen. Anthropic führt den Sprung als Produktivitätsbeleg an und verweist darauf, dass fast der gesamte neue Code von Claude stammt. Andernorts wird gebremst: Amazon warnt vor Tokenverbrauch als Leistungsmaß, Accenture deckelt das Budget pro Kopf."
+  },
+  {
+   "id": "ca685cc71aa2",
+   "date": "2026-11-08",
+   "published": "2026-11-08T12:05+01:00",
+   "headline": "Sutton: Mehr Rechenleistung allein führt nicht zu echter Intelligenz",
+   "summary": "Turing-Preisträger Richard Sutton betont, dass reines Hochskalieren von Rechenkraft nicht ausreicht und grundlegend neue Lernverfahren nötig sind. Ein früherer OpenAI-Forscher unterstützt diese Kritik an der bisherigen Fixierung auf Transformer-Skalierung. Eine Reihe neuer Gründungen setzt bereits darauf, diese Forschungslücke zu schließen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "grundlagenforschung",
+    "skalierung",
+    "lernverfahren",
+    "agi"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-08T13:04:39+01:00",
+   "quelle_titel": "Erfinder der \"bitteren Lektion\" warnt: KI-Wissenschaft ist noch lange nicht am Ziel",
+   "url": "https://the-decoder.de/erfinder-der-bitteren-lektion-warnt-ki-wissenschaft-ist-noch-lange-nicht-am-ziel/",
+   "kontext": "Sutton prägte mit seinem Aufsatz von 2019 die Überzeugung, dass allgemeine, mit Rechenleistung wachsende Verfahren den menschlich handgebauten überlegen sind. Nun grenzt er sich von einer verkürzten Lesart ab: Sprachmodelle lernen nach dem Training nicht weiter, synthetische Daten hält er für einen Irrweg, nötig seien Agenten mit Weltmodellen. Forschende klagen, dass vielversprechende Ideen mit Verweis auf seinen Text abgewürgt wurden. Der Algorithmus gewinnt wieder Gewicht."
+  },
+  {
+   "id": "5a12117153ff",
+   "date": "2026-11-08",
+   "published": "2026-11-08T08:09+01:00",
+   "headline": "Deregulierung und Agilität als Rezept für den deutschen KI-Ausbau",
+   "summary": "Der Beitrag kritisiert die Forderung, Deutschland müsse beim KI-Ausbau vor allem schneller und weniger reguliert vorgehen. Er zieht dazu eine Parallele zum agilen Manifest von 2001 und zeigt, wie unterschiedlich dessen Wirkung in der Praxis ausfiel. Daraus ergibt sich eine Skepsis gegenüber Tempo als politischem Leitwert.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "deregulierung",
+    "agilität",
+    "ki-politik",
+    "deutschland"
+   ],
+   "source": "netzpolitik.org",
+   "source_id": "netzpolitik",
+   "added": "2026-11-08T13:05:26+01:00",
+   "quelle_titel": "Degitalisierung: Agilität",
+   "url": "https://netzpolitik.org/2026/degitalisierung-agilitaet/",
+   "kontext": "Anlass ist der Berliner Digitalgipfel, auf dem Digitalminister Karsten Wildberger mehr Mut und weniger Detailregulierung im Voraus forderte. Der Beitrag erinnert daran, dass siebzehn Entwickler 2001 in Utah mit dem agilen Manifest ähnliche Werte formulierten, gespeist aus Ansätzen wie Scrum oder Extreme Programming. Aus ihrer Unzufriedenheit wurde ein Leitbild, das die Softwarebranche prägte, in der Umsetzung jedoch sehr verschieden ausfiel. Genau das nährt den Zweifel am Tempo."
+  },
+  {
+   "id": "afddbb1f3f89",
+   "date": "2026-11-08",
+   "published": "2026-11-08T08:12+01:00",
+   "headline": "Doku über KI-Begleiter zeigt eine Gesellschaft, die kaum noch zuhört",
+   "summary": "Die Dokumentation Finding Connection begleitet vier Menschen und ihre KI-Partner aus Companion-Apps. Sie fragt, was diese Beziehungen über soziale Isolation und fehlende Zuwendung unter Menschen aussagen. Der Beitrag ordnet ein, welche gesellschaftlichen Folgen solche Angebote haben können.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "companion apps",
+    "gesellschaft",
+    "dokumentation",
+    "einsamkeit"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-08T13:05:26+01:00",
+   "quelle_titel": "Missing Link: Wenn die KI zuhört, wo Menschen es nicht mehr tun",
+   "url": "https://www.heise.de/hintergrund/Missing-Link-Wenn-die-KI-zuhoert-wo-Menschen-es-nicht-mehr-tun-11516378.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Regisseur Florian Karner wollte ursprünglich einen Film über Einsamkeit drehen, bis ihn eigene Chatbot-Gespräche umstimmten. So landete er bei Companion-Apps wie Replika und bei Menschen in San Diego, Lübeck oder England, die dort Nähe suchen. Seine Protagonisten kennen die Grenzen der Technik und erleben den Kontakt dennoch als echt. Karner stört nicht ihr Bedürfnis nach einem urteilsfreien Raum, sondern dass daraus ein Geschäftsmodell wird."
+  },
+  {
+   "id": "7fd5ce4c61c0",
+   "date": "2026-11-08",
+   "published": "2026-11-08T09:35+01:00",
+   "headline": "Google öffnet Gemini für CarPlay und rüstet Maps im Auto auf",
+   "summary": "Google bringt seinen KI-Assistenten Gemini nun auch in das Apple-Ökosystem und verbindet ihn mit Google Maps in CarPlay. Nutzer können damit im Auto per KI nach Zielen, Informationen und Funktionen fragen, statt sich auf klassische Sprachbefehle zu beschränken. Damit wächst der Wettbewerb um KI-Assistenten im Fahrzeug weiter.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "gemini",
+    "carplay",
+    "google maps",
+    "assistent",
+    "auto"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-08T13:05:26+01:00",
+   "quelle_titel": "Gemini für CarPlay: Google Maps bekommt KI-Upgrade im Auto",
+   "url": "https://t3n.de/news/google-maps-carplay-gemini-ki-upgrade-1769471",
+   "kontext": "Auf Android-Geräten ist Gemini im Auto schon länger verfügbar, nun zieht Google beim Apple-Pendant nach. Die KI steckt dabei direkt in Maps und nicht appübergreifend im System. Über ein Sternensymbol in der Navigationsansicht lassen sich offener formulierte Wünsche äußern, etwa nach Aussichtspunkten oder einer Route ohne Maut, dazu kommt das Melden von Staus. Der Start läuft zunächst in den USA, weitere Länder folgen später."
+  },
+  {
+   "id": "f543ecd1742e",
+   "date": "2026-11-08",
+   "published": "2026-11-08T10:28+01:00",
+   "headline": "Apheris lässt Pharmakonzerne Daten nutzen, ohne sie herauszugeben",
+   "summary": "Für KI-gestützte Pharmaforschung fehlen oft die entscheidenden Daten, weil Konzerne sie unter Verschluss halten. Das Start-up Apheris ermöglicht gemeinsame Auswertungen, ohne dass die Datensätze das jeweilige Unternehmen verlassen. Für diesen Ansatz wird es mit einem Technologiepreis ausgezeichnet.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "pharma",
+    "datenschutz",
+    "start-up",
+    "federated learning"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-11-08T13:04:39+01:00",
+   "paywall": true,
+   "quelle_titel": "The Spark, Der Technologiepreis: Dieses Start-up bringt Pharma-Rivalen dazu, Daten zu teilen",
+   "url": "https://www.handelsblatt.com/technik/it-internet/the-spark-dieses-start-up-bringt-pharma-rivalen-dazu-daten-zu-teilen/100266594.html"
+  },
+  {
+   "id": "163e66725bff",
+   "date": "2026-11-08",
+   "published": "2026-11-08T12:55+01:00",
+   "headline": "Versteckte Botschaften in Bildern: Forschung testet Modelle von OpenAI und Anthropic",
+   "summary": "Eine Untersuchung prüft, ob KI-Modelle Informationen unauffällig in Bildern verbergen und später wieder auslesen können. Neue Verfahren haben die Systeme dabei nicht selbst entwickelt, doch die Ergebnisse sind für die Sicherheitsforschung relevant. Sie deuten darauf hin, wie Modelle verdeckte Kanäle nutzen könnten.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-sicherheit",
+    "steganografie",
+    "modellverhalten",
+    "studie"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-08T13:04:39+01:00",
+   "quelle_titel": "Geheime KI-Sprache: Wie sich OpenAI und Anthropic in Bildern unterhalten",
+   "url": "https://t3n.de/news/ki-geheime-bildbotschaften-openai-anthropic-sicherheit-1769790",
+   "kontext": "Hinter der Untersuchung steht der Sicherheitsforscher Bryan Chan mit Kollegen aus einem Singapurer Fellowship-Programm. Ein Anthropic-Modell sollte Kurztexte in mehreren Sprachen in Bildern verbergen, ohne Vorgabe der Methode, und nutzte dafür Höhen und Neigungen von Objekten. Das OpenAI-Modell setzte stattdessen auf Morsezeichen oder Anfangsbuchstaben. Im Kreuztest lasen beide die Botschaften der Konkurrenz meist zuverlässig aus, was bei autonom agierenden Agenten brisant wird."
+  },
+  {
+   "id": "27004775f2d8",
+   "date": "2026-11-08",
+   "published": "2026-11-08T08:08+01:00",
+   "headline": "Quiz stellt Warnungen von KI-Chefs gegen Sprüche von Filmschurken",
+   "summary": "Führende Köpfe der KI-Branche warnen regelmäßig vor den Risiken ihrer eigenen Technologie und greifen dabei zu drastischen Bildern. Ein Quiz prüft, ob Leserinnen und Leser solche Aussagen noch von Repliken klassischer Kinobösewichte unterscheiden können. Der Beitrag beleuchtet so den eigenwilligen Tonfall der Debatte um KI-Gefahren.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "ki-debatte",
+    "risiken",
+    "quiz",
+    "medienkritik"
+   ],
+   "source": "Spiegel Netzwelt",
+   "source_id": "spiegel-netzwelt",
+   "added": "2026-11-08T13:05:26+01:00",
+   "kurios": "KI-Spitzenleute klingen in ihren Warnungen kaum noch von Filmschurken zu trennen",
+   "paywall": true,
+   "quelle_titel": "Quiz: Wer hat es gesagt, KI-Boss oder Kinobösewicht?",
+   "url": "https://www.spiegel.de/netzwelt/web/quiz-wer-hat-es-gesagt-ki-boss-oder-kinoboesewicht-a-6ed01dfb-81e6-414f-920e-ffbd46fc8cc2#ref=rss"
+  },
+  {
+   "id": "3eff24fc1496",
+   "date": "2026-11-08",
+   "published": "2026-11-08T11:45+01:00",
+   "headline": "Weltuntergangsformel von 1960 verfehlt 2026 und wirkt bis in KI-Debatten nach",
+   "summary": "Eine 1960 in einer Fachzeitschrift veröffentlichte Formel sagte für November 2026 eine katastrophale Überbevölkerung voraus und lag damit deutlich daneben. Der Beitrag zieht daraus eine Linie zu heutigen Hochrechnungen und Untergangsszenarien rund um künstliche Intelligenz.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "prognosen",
+    "wissenschaftsgeschichte",
+    "hype"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-08T13:04:39+01:00",
+   "kurios": "Eine alte Formel datierte den Weltuntergang exakt auf den 13. November 2026.",
+   "quelle_titel": "Von Überbevölkerung zur KI: Die erstaunliche Prognose von 1960",
+   "url": "https://t3n.de/news/doomsday-formel-1960-prognose-ki-singularitaet-1771528"
+  },
+  {
+   "id": "6797542b56c0",
+   "date": "2026-11-08",
+   "published": "2026-11-08T13:00+01:00",
+   "headline": "KI-Helfer in der Kochapp der New York Times im Praxistest",
+   "summary": "Die New York Times testet in ihrer Kochapp eine Betafunktion, die Rezepte per KI anpasst und Zutaten austauscht. Im Test funktioniert das überwiegend überzeugend, auch wenn die Vorschläge nicht immer passen. Das Beispiel zeigt, wie Medienhäuser KI als Assistenzfunktion direkt in bestehende Produkte einbauen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "produkttest",
+    "assistenz",
+    "medien",
+    "beta"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-08T13:04:39+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+   "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"
+    }
+   ],
+   "kontext": "Die Kochplattform der Times lebt vom Ruf ihrer kuratierten Rezeptsammlung, entsprechend skeptisch reagieren Teile der Abonnentschaft auf einen Assistenten, der genau diese Rezepte umschreibt. Zum Start ist die Funktion auf iOS und zahlende Nutzende beschränkt. Im Praxistest ging es um Zutatentausch, veränderte Portionsmengen und fehlendes Küchenzubehör. Ähnliche Helfer stecken längst in Sprachassistenten, Kühlschrank-Apps und Küchengeräten."
   }
  ]
 }
