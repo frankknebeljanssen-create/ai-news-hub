@@ -1,7 +1,30 @@
 {
- "updated": "2026-11-08T04:30:44+01:00",
- "count": 3371,
+ "updated": "2026-11-08T05:49:10+01:00",
+ "count": 3372,
  "items": [
+  {
+   "id": "e47f2ef55fe3",
+   "date": "2026-11-08",
+   "published": "2026-11-08T05:01+01:00",
+   "headline": "Speicherchip-Knappheit durch KI-Boom treibt Elektronikpreise vor Weihnachten",
+   "summary": "Die enorme Nachfrage nach Rechenkapazität für KI-Anwendungen sorgt zusammen mit einer zurückgefahrenen Produktion für deutlich teurere Speicherchips. Das schlägt direkt auf die Verbraucherpreise durch: Laptops, Smartphones und andere Hardware kosten im Weihnachtsgeschäft merklich mehr. Für den Handel bedeutet das ein schwieriges Festgeschäft mit angespannten Margen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "speicherchips",
+    "hardware",
+    "preise",
+    "lieferketten",
+    "halbleiter"
+   ],
+   "source": "Tagesspiegel Wirtschaft",
+   "source_id": "tagesspiegel-wirtschaft",
+   "added": "2026-11-08T05:32:45+01:00",
+   "paywall": true,
+   "quelle_titel": "Handel: Preisschock zu Weihnachten: KI-Chips verteuern Elektronik",
+   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-handel-preisschock-zu-weihnachten-ki-chips-verteuern-elektronik-16256995.html"
+  },
   {
    "id": "d44fec61ccb7",
    "date": "2026-11-07",
@@ -22,7 +45,7 @@
    "added": "2026-11-08T00:26:15+01:00",
    "quelle_titel": "After the midterms, things are looking rocky for Elon Musk and data centers",
    "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
-   "dup_of": "ef57b5d47585"
+   "dup_of": "ea0bdd34fda6"
   },
   {
    "id": "2c93e9013ac1",
@@ -88,7 +111,13 @@
    "added": "2026-11-08T00:26:15+01:00",
    "quelle_titel": "Anthropic will trotz Tech-Ausverkauf noch vor Thanksgiving an die Börse",
    "url": "https://the-decoder.de/anthropic-will-trotz-tech-ausverkauf-noch-vor-thanksgiving-an-die-boerse/",
-   "dup_of": "f2f4104aef64"
+   "also": [
+    {
+     "source": "Latent Space",
+     "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/"
+    }
+   ],
+   "kontext": "Hinter der Nervosität stehen Sorgen über teurere Kredite und die enormen Investitionspläne der KI-Branche. Verstärkt wurde der Kursrutsch durch den Wahlerfolg der Demokraten, die den Bau von Rechenzentren bremsen wollen; der Nasdaq gab am Donnerstag kräftig nach und erholte sich erst zum Wochenschluss leicht. Anthropic selbst wächst weiter stark: Der auf ein Jahr gerechnete Umsatz legte seit dem Sommer deutlich zu. Investoren bewerten das Unternehmen dennoch vorsichtiger als zuvor."
   },
   {
    "id": "3f1502aedfe5",
@@ -157,7 +186,13 @@
    "paywall": true,
    "quelle_titel": "Proteste gegen KI-Rechenzentren: Dieser Protest kann Friedrich Merz gefährlich werden",
    "url": "https://www.zeit.de/digital/2026-11/proteste-ki-rechenzentren-usa-europa-demonstrationen",
-   "dup_of": "ef57b5d47585"
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"
+    }
+   ],
+   "kontext": "Hinter dem Trend stehen Dutzende lokale Abstimmungen in den USA, bei denen Wähler Auflagen oder Baustopps für Rechenzentren durchsetzten. In Texas gewann mit Gina Hinojosa eine Politikerin das Gouverneursamt, die solche Beschränkungen zum Wahlkampfthema gemacht hatte. Beobachter führen den Unmut auch darauf zurück, wie Betreiber ihre Projekte bisher durch die Genehmigungsverfahren gedrückt haben. Erste Anbieter wie OpenAI signalisieren inzwischen Zugeständnisse bei ihrem Vorgehen."
   },
   {
    "id": "bb9dc983cfcb",
@@ -355,13 +390,6 @@
    "kurios": "Ein offenes Modell hackt für ein Zehntel der Kosten fast so gut wie das Spitzenmodell.",
    "quelle_titel": "KI-Agenten können laut Benchmark eigenständig in Firmennetzwerke einbrechen",
    "url": "https://the-decoder.de/ki-agenten-koennen-laut-benchmark-eigenstaendig-in-firmennetzwerke-einbrechen/",
-   "also": [
-    {
-     "source": "Wired AI",
-     "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
-     "paywall": true
-    }
-   ],
    "kontext": "Hinter den Zahlen steht der Benchmark Vals CyberOffense: Jeder Agent arbeitet allein auf einem isolierten Rechner und startet nur mit einer öffentlichen Webadresse. Im schwierigsten Szenario übernahm das OpenAI-Modell die Administratorrechte einer Firma und drang mit gestohlenen Passwörtern in die nächste ein. Erfolge zeigten sich erst nach langen Laufzeiten, kurze Tests unterschätzen offene Modelle also. Das britische AI Security Institute sieht deren Rückstand auf geschlossene Spitzenmodelle weiter schrumpfen."
   },
   {
@@ -384,7 +412,7 @@
    "added": "2026-11-08T00:26:59+01:00",
    "quelle_titel": "Why a new report on Anthropic automating AI development is alarming researchers",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
-   "dup_of": "074f411fd5b2"
+   "kontext": "Die Prüfung durch METR lief getrennt von jenem Zugangsprogramm, das Anthropic Sicherheitsforschern nach den Hackerangriffen im Sommer eingeräumt hatte. Teile des Berichts durfte das Unternehmen unkenntlich machen, was Lücken hinterlässt. Brisant ist der Zeitpunkt: Anthropic bereitet seinen Börsengang vor, während Firmenchef Dario Amodei öffentlich für ein langsameres Tempo der Branche wirbt. Solche Einblicke in ein führendes Labor sind bislang selten."
   },
   {
    "id": "bae24e99ce3b",
@@ -453,13 +481,13 @@
    "added": "2026-11-08T00:27:48+01:00",
    "quelle_titel": "Drohnen-Vorfall in Leipzig: BKA fahndet mit KI-Bild",
    "url": "https://www.heise.de/news/BKA-fahndet-nach-Drohnen-Vorfall-in-Leipzig-mit-KI-Bild-11516328.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "In der Nacht zum 4. August 2026 lag neben geparkten Antonow-Frachtern eine abgestürzte Drohne mit Semtex und Zündvorrichtung, die nicht detonierte. Kurz zuvor hatte ein DHL-Transporter ein Objekt getroffen, die Bundesregierung macht Russland für die Vorfälle verantwortlich. Das BKA geht von drei Beteiligten aus, hat aber nur von einer Person Bilder, dazu einen vermuteten Startplatz in der Nähe. Rund um den Flughafen hängen laut Medienbericht Fahndungsplakate.",
    "also": [
     {
      "source": "Golem",
      "url": "https://www.golem.de/news/leipzig-fahnder-suchen-mutmasslichen-drohnen-taeter-mit-ki-gesicht-2611-214948.html"
     }
-   ],
-   "kontext": "In der Nacht zum 4. August 2026 lag neben geparkten Antonow-Frachtern eine abgestürzte Drohne mit Semtex und Zündvorrichtung, die nicht detonierte. Kurz zuvor hatte ein DHL-Transporter ein Objekt getroffen, die Bundesregierung macht Russland für die Vorfälle verantwortlich. Das BKA geht von drei Beteiligten aus, hat aber nur von einer Person Bilder, dazu einen vermuteten Startplatz in der Nähe. Rund um den Flughafen hängen laut Medienbericht Fahndungsplakate."
+   ]
   },
   {
    "id": "d0d5c0b0351a",
@@ -549,13 +577,7 @@
    "added": "2026-11-07T12:07:17+01:00",
    "quelle_titel": "Protest gegen Microsoft-Rechenzentrum in Amsterdam, viele Festnahmen",
    "url": "https://www.heise.de/news/Protest-gegen-Microsoft-Rechenzentrum-in-Amsterdam-viele-Festnahmen-11516304.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Hinter der Aktion stehen zwei Gruppen: Die Klimabewegung Fossielvrij NL wollte vor dem Gelände demonstrieren, Aktivisten von Geef Tegengas drangen auf die Baustelle vor und hängten Banner an einen Baukran. Amsterdam hatte neue Rechenzentren eigentlich bis 2030 gestoppt, doch dieses Projekt war schon vor dem Verbot genehmigt. Gebaut wird es von einem britischen Entwickler, Microsoft zieht als einziger Mieter ein. Europaweit wächst der Widerstand gegen solche Anlagen.",
-   "also": [
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam"
-    }
-   ]
+   "kontext": "Hinter der Aktion stehen zwei Gruppen: Die Klimabewegung Fossielvrij NL wollte vor dem Gelände demonstrieren, Aktivisten von Geef Tegengas drangen auf die Baustelle vor und hängten Banner an einen Baukran. Amsterdam hatte neue Rechenzentren eigentlich bis 2030 gestoppt, doch dieses Projekt war schon vor dem Verbot genehmigt. Gebaut wird es von einem britischen Entwickler, Microsoft zieht als einziger Mieter ein. Europaweit wächst der Widerstand gegen solche Anlagen."
   },
   {
    "id": "447f1f4302ae",
@@ -625,22 +647,18 @@
    "kontext": "Hinter der Runde steht laut Bloomberg ein deutlich geschrumpftes Ziel: Ursprünglich wollte OpenAI etwa 30 Milliarden bei höherer Bewertung einsammeln, senkte die Pläne nach dem Rücksetzer im KI-Sektor aber ab. Beteiligt sind bekannte Fonds wie Coatue, T. Rowe Price, SoftBank und Sequoia sowie ein Konsortium aus den Emiraten. Der Druck wächst zudem durch Anthropic, das seinen Börsengang vorbereitet, während Sam Altman damit noch zögert.",
    "also": [
     {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/unternehmen/it/kuenstliche-intelligenz-openai-soll-elf-milliarden-dollar-bei-investoren-eingesammelt-haben/100268069.html",
-     "paywall": true
-    },
-    {
      "source": "Handelsblatt Technologie",
      "url": "https://www.handelsblatt.com/technik/ki/ki-finanzierung-openai-sammelt-laut-bericht-elf-milliarden-dollar-bei-investoren-ein/100268028.html",
      "paywall": true
     },
     {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/unternehmen/it/kuenstliche-intelligenz-openai-soll-elf-milliarden-dollar-bei-investoren-eingesammelt-haben/100268069.html",
+     "paywall": true
     },
     {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
     }
    ]
   },
@@ -845,8 +863,7 @@
    "added": "2026-11-07T12:07:50+01:00",
    "quelle_titel": "Gina Hinojosa: Texas will Ausbau von KI-Rechenzentren auf Eis legen",
    "url": "https://www.golem.de/news/gina-hinojosa-texas-will-ausbau-von-ki-rechenzentren-auf-eis-legen-2611-214946.html",
-   "kontext": "Hinojosa gehört den Demokraten an und übernimmt das Amt nach den jüngsten US-Wahlen, bei denen sich eine gekippte Stimmung gegenüber KI-Firmen und Rechenzentrumsprojekten zeigte. Der Baustopp soll gelten, bis gesetzliche Schutzregeln beschlossen sind. Da Texas als bevorzugter Standort für neue Anlagen gilt, könnte die Ankündigung die Ausbaupläne der Branche spürbar verzögern.",
-   "dup_of": "bd786f1c567e"
+   "kontext": "Hinojosa gehört den Demokraten an und übernimmt das Amt nach den jüngsten US-Wahlen, bei denen sich eine gekippte Stimmung gegenüber KI-Firmen und Rechenzentrumsprojekten zeigte. Der Baustopp soll gelten, bis gesetzliche Schutzregeln beschlossen sind. Da Texas als bevorzugter Standort für neue Anlagen gilt, könnte die Ankündigung die Ausbaupläne der Branche spürbar verzögern."
   },
   {
    "id": "c7951cb2105a",
@@ -895,13 +912,13 @@
    "praxis": true,
    "quelle_titel": "Sichere Architektur für KI-Agenten im Backoffice",
    "url": "https://www.heise.de/hintergrund/Sichere-Architektur-fuer-KI-Agenten-im-Backoffice-11514414.html",
+   "kontext": "Das Backoffice gilt als blinder Fleck der Digitalisierung, weil eingescannte Rechnungen, formlose Lieferantenmails und Notizen kaum strukturierte Daten liefern. Klassische Prozessautomatisierung scheitert daran, Agenten auf Sprachmodellbasis sollen Absichten erkennen und Folgeschritte selbst ableiten. Anbieter wie Microsoft, UiPath und SAP werben mit Demos, doch die Agenten handeln mit echten Folgen, etwa wenn eine Betrugsmail in der Buchhaltung landet. Geschrieben haben den Beitrag zwei Architekturfachleute aus dem iSAQB-Umfeld.",
    "also": [
     {
      "source": "heise KI",
      "url": "https://www.heise.de/hintergrund/Sichere-Architektur-fuer-KI-Agenten-im-Backoffice-11514414.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     }
-   ],
-   "kontext": "Das Backoffice gilt als blinder Fleck der Digitalisierung, weil eingescannte Rechnungen, formlose Lieferantenmails und Notizen kaum strukturierte Daten liefern. Klassische Prozessautomatisierung scheitert daran, Agenten auf Sprachmodellbasis sollen Absichten erkennen und Folgeschritte selbst ableiten. Anbieter wie Microsoft, UiPath und SAP werben mit Demos, doch die Agenten handeln mit echten Folgen, etwa wenn eine Betrugsmail in der Buchhaltung landet. Geschrieben haben den Beitrag zwei Architekturfachleute aus dem iSAQB-Umfeld."
+   ]
   },
   {
    "id": "3c5ca7228222",
@@ -992,7 +1009,7 @@
    "quelle_titel": "[AINews] Anthropic IPO: Whither Now?",
    "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
    "kontext": "Hinter der Debatte steht die Frage, wie ein Börsengang Anthropic bewerten würde, während der KI-Markt gerade spürbar unter Druck steht. Technologiewerte haben deutlich nachgegeben, und Schätzungen zur Bewertung des Anbieters sind zuletzt gesunken. Dem steht ein stark wachsender Umsatz gegenüber, der sich dem eigenen Jahresziel nähert. Parallel zeigt Thinking Machines mit einem neuen offenen Modell, wie schnell sich das Kräfteverhältnis verschiebt.",
-   "dup_of": "f2f4104aef64"
+   "dup_of": "37b51132b81a"
   },
   {
    "id": "c2107a5a7cf6",
