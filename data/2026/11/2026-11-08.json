@@ -1,38 +1,38 @@
 {
  "date": "2026-11-08",
- "generated_at": "2026-11-08T13:08:20+01:00",
+ "generated_at": "2026-11-09T08:34:13+01:00",
  "overview": [
   {
+   "id": "a5b09ead90d4",
+   "text": "Nvidias Verwaltungsrat lässt die Verbindung von Konzernchef Jensen Huang zu einer mutmaßlichen Spionin extern untersuchen."
+  },
+  {
    "id": "e47f2ef55fe3",
-   "text": "Der KI-Boom treibt die Preise für Speicherchips nach oben, weshalb Laptops und Smartphones im Weihnachtsgeschäft deutlich teurer werden."
+   "text": "Der KI-Boom verknappt Speicherchips, deshalb werden Laptops und Smartphones im Weihnachtsgeschäft deutlich teurer."
   },
   {
    "id": "a55c9afb37c1",
-   "text": "Viele Rechenzentren in Deutschland halten Strom- und Wasserverbrauch trotz Energieeffizienzgesetz geheim, was den Druck auf die Aufsicht erhöht."
+   "text": "Viele deutsche Rechenzentren verschweigen trotz Energieeffizienzgesetz ihren Strom- und Wasserverbrauch, was den Druck auf die Aufsicht erhöht."
+  },
+  {
+   "id": "618050ab3c69",
+   "text": "Sechzehn EU-Staaten haben noch keine Aufsichtsstellen für KI-Sicherheit benannt und bremsen damit die Umsetzung der KI-Regeln."
+  },
+  {
+   "id": "e5b721c47d5f",
+   "text": "In Deutschland stockt die Reform der Weiterbildung, wodurch Unternehmen eine wachsende Kompetenzlücke bei ihren Beschäftigten droht."
   },
   {
    "id": "8d047e1f471f",
-   "text": "Check Point zeigt, dass manipulierte Töne Sprachassistenten zu unerwünschtem Verhalten verleiten können, weil ohne Transkript die üblichen Filter fehlen."
+   "text": "Check Point zeigt, dass manipulierte Töne Sprachassistenten unbemerkt steuern können, weil ohne Transkript die üblichen Filter versagen."
   },
   {
    "id": "30a484c8d86d",
-   "text": "Alibabas neuer Co-Design Bench offenbart, dass das beste Coding-Modell nur rund 26 Prozent realer Nutzeraufgaben vollständig löst."
+   "text": "Alibabas neuer Co-Design Bench offenbart, dass das beste Coding-Modell nur rund 26 Prozent echter Nutzeraufgaben vollständig löst."
   },
   {
-   "id": "b0cf12c5bfde",
-   "text": "Laut Börsenprospekt übersteigt der Listenwert der internen Claude-Nutzung bei Anthropic seit April die monatlichen Gehaltskosten."
-  },
-  {
-   "id": "78eaf56cef4d",
-   "text": "Ein Mathematikprofessor erklärt klassische Hausaufgaben für wertlos, weil KI sie zuverlässig löst, und stellt damit gängige Prüfungsformate infrage."
-  },
-  {
-   "id": "f543ecd1742e",
-   "text": "Das Start-up Apheris erhält einen Technologiepreis, weil es Pharmakonzerne gemeinsam forschen lässt, ohne dass die Daten ihre Häuser verlassen."
-  },
-  {
-   "id": "b2811de86648",
-   "text": "Weltmodelle sollen KI physikalische Abläufe im Raum beibringen und damit Robotern und autonomen Fahrzeugen zu besserer Orientierung verhelfen."
+   "id": "ce0a393f5bc7",
+   "text": "Apple fordert laut Bloomberg ein deutlich höheres Tempo bei Siri, damit der Assistent Aufgaben künftig eigenständig übernimmt."
   }
  ],
  "items": [
@@ -272,6 +272,302 @@
    "kontext": "Sutton prägte mit seinem Aufsatz von 2019 die Überzeugung, dass allgemeine, mit Rechenleistung wachsende Verfahren den menschlich handgebauten überlegen sind. Nun grenzt er sich von einer verkürzten Lesart ab: Sprachmodelle lernen nach dem Training nicht weiter, synthetische Daten hält er für einen Irrweg, nötig seien Agenten mit Weltmodellen. Forschende klagen, dass vielversprechende Ideen mit Verweis auf seinen Text abgewürgt wurden. Der Algorithmus gewinnt wieder Gewicht."
   },
   {
+   "id": "358b5295f442",
+   "date": "2026-11-08",
+   "published": "2026-11-08T13:48+01:00",
+   "headline": "OECD-Chef warnt vor Kursrutsch bei ausbleibender KI-Rendite",
+   "summary": "OECD-Generalsekretär Mathias Cormann sieht ein Risiko für die Börsen, falls sich die milliardenschweren Investitionen in KI nicht zügig auszahlen. Gleichzeitig hält er es für die größere Gefahr, bei der Technologie den Anschluss zu verlieren. Die Aussagen fügen sich in die laufende Debatte über eine möglicherweise überhitzte KI-Bewertung ein.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "oecd",
+    "investitionen",
+    "ki-blase",
+    "wirtschaft"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-09T07:41:52+01:00",
+   "paywall": true,
+   "quelle_titel": "KI-Investitionen: „Das größte Risiko der KI besteht darin, den Anschluss zu verlieren“",
+   "url": "https://www.wiwo.de/politik/europa/oecd-chef-zu-ki-investitionen-wann-droht-eine-marktkorrektur/100267823.html"
+  },
+  {
+   "id": "571140c8f37a",
+   "date": "2026-11-08",
+   "published": "2026-11-08T15:07+01:00",
+   "headline": "Karpathy baut Videoplattform aus 43 Millionen Forenkommentaren",
+   "summary": "Andrej Karpathy hat an einem Wochenende mit Claude Code eine Plattform namens HackerTube erstellt, die aus 43 Millionen Kommentaren von Hacker News rund 6.454 empfehlenswerte Videos herausfiltert. Die KI übernahm dabei nahezu den gesamten Arbeitsablauf von der Datenauswertung bis zur Servereinrichtung. Eine zweite Plattform entstand anschließend in nur drei Minuten.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "karpathy",
+    "coding-agenten",
+    "claude-code",
+    "vibe-coding"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-09T07:41:52+01:00",
+   "kurios": "Eine zweite komplette Plattform entstand in nur drei Minuten.",
+   "praxis": true,
+   "quelle_titel": "KI-Forscher Andrej Karpathy filtert 43 Millionen Hacker-News-Kommentare zu einer kuratierten Video-Plattform",
+   "url": "https://the-decoder.de/ki-forscher-andrej-karpathy-filtert-43-millionen-hacker-news-kommentare-zu-einer-kuratierten-video-plattform/",
+   "kontext": "Karpathy war Mitgründer von OpenAI und forscht inzwischen bei Anthropic, sein Wochenendprojekt wirkt deshalb auch wie eine Demonstration. Die Empfehlungen stammen aus zwei Jahrzehnten Diskussionen bei Hacker News, die Seite verzichtet bewusst auf Login und auf optimierte Vorschaubilder. Von Hand erledigte er nur Nebensächliches wie Server, Domain und Zugangsschlüssel. Für ihn zeigt das, wie stark KI-Agenten den Aufwand für solche Nebenprojekte senken."
+  },
+  {
+   "id": "ea15b76b743e",
+   "date": "2026-11-08",
+   "published": "2026-11-08T15:35+01:00",
+   "headline": "Typische Lieblingswörter verraten Texte aus Sprachmodellen",
+   "summary": "Sprachmodelle wie GPT und Claude greifen auf bestimmte Formulierungen und Satzmuster deutlich häufiger zurück als Menschen, weshalb KI-Texte oft ähnlich klingen. Die Anbieter versuchen, diese Eigenheiten herauszutrainieren, doch die Vorlieben bleiben messbar bestehen. Für Schreibende ist das ein praktischer Hinweis, worauf sie beim Überarbeiten achten sollten.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "sprachmodelle",
+    "schreiben",
+    "gpt",
+    "claude"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-09T07:41:52+01:00",
+   "praxis": true,
+   "quelle_titel": "Warum KI-Texte immer gleich klingen: Die Lieblingswörter von GPT & Claude",
+   "url": "https://t3n.de/news/ki-texte-erkennen-chatgpt-claude-phrasen-1766310",
+   "kontext": "Hinter dem Befund steht eine Untersuchung der Analysefirma Graphite Growth. Führende Modelle sollten dafür Tausende Artikel aus der Zeit vor ChatGPT anhand von Zusammenfassungen neu schreiben, die Originale dienten als menschliche Vergleichsbasis. Dabei zeigte sich, dass jede Modellversion eigene Vorlieben entwickelt: Laut dem Forschungsteam rücken Anthropics Modelle näher an den menschlichen Sprachgebrauch, OpenAIs entfernen sich davon. Beim viel kritisierten Gedankenstrich haben die Labore sichtbar nachgebessert."
+  },
+  {
+   "id": "618050ab3c69",
+   "date": "2026-11-08",
+   "published": "2026-11-08T16:00+01:00",
+   "headline": "EU-Staaten hinken bei der Umsetzung der KI-Regeln hinterher",
+   "summary": "Sechzehn EU-Mitgliedstaaten haben noch keine zuständigen Stellen für KI-Sicherheit benannt. Außerdem verpassten mehrere Länder eine wichtige Frist für Meldungen zu Rechenzentren. Der Rückstand bremst die praktische Umsetzung der europäischen KI-Regulierung.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "eu",
+    "ai act",
+    "aufsichtsbehörden",
+    "rechenzentren"
+   ],
+   "source": "Politico Europe",
+   "source_id": "politico-eu",
+   "added": "2026-11-09T07:26:01+01:00",
+   "paywall": true,
+   "quelle_titel": "EU countries still can’t get it together on AI",
+   "url": "https://www.politico.eu/article/eu-countries-still-cant-get-it-together-on-ai/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+  },
+  {
+   "id": "cc0490c974b4",
+   "date": "2026-11-08",
+   "published": "2026-11-08T16:36+01:00",
+   "headline": "KI findet Schwachstellen im Dauerlauf: Wie bedrohlich ist die Lage wirklich",
+   "summary": "Mit KI werden laufend neue Sicherheitslücken in Software von Kliniken, Behörden und Banken aufgespürt. Eine Datenauswertung ordnet ein, wie sich Tempo und Menge der gefundenen Schwachstellen verändern. Die Analyse fragt, ob daraus tatsächlich eine neue Bedrohungslage für die IT-Sicherheit entsteht.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "cybersicherheit",
+    "schwachstellen",
+    "ki-risiken",
+    "kritische infrastruktur"
+   ],
+   "source": "ZEIT Digital",
+   "source_id": "zeit-digital",
+   "added": "2026-11-09T07:26:01+01:00",
+   "paywall": true,
+   "quelle_titel": "Sicherheitslücken durch KI: Stecken wir schon in der Cyberapokalypse?",
+   "url": "https://www.zeit.de/digital/2026-11/sicherheitsluecken-kuenstliche-intelligenz-cybersicherheit-software"
+  },
+  {
+   "id": "e5b721c47d5f",
+   "date": "2026-11-08",
+   "published": "2026-11-08T17:17+01:00",
+   "headline": "Reformstau bei der Weiterbildung: Firmen droht wachsende Kompetenzlücke",
+   "summary": "Der Beitrag beschreibt einen Reformstau in der deutschen Weiterbildung. Als Folge droht Unternehmen hierzulande eine Kompetenzlücke bei ihren Beschäftigten.",
+   "thema": "KI & Lernen",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "weiterbildung",
+    "qualifizierung",
+    "kompetenzlücke",
+    "deutschland"
+   ],
+   "source": "DWN | Deutsche Wirtschaftsnachrichten",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-11-09T07:26:01+01:00",
+   "quelle_titel": "Weiterbildung im Reformstau: Deutschlands Unternehmen droht eine Kompetenzlücke",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPclB1eW1EX2toaUpocFJZSkRjYUhJYUJZZ2tweHI2V1RFTlB1UXJRS0NRSmtqUDNabjdpZk9Vc1VJRWVPcDQ3NTU0eG9reFdkaWw4U0NtMWRUeWt2NUlDQXhJOEp4Y3JWZ2hYczZKUjJJUEFRM3ZRMXJNYVYzaGo0aTFmZ1FBS19vdEJ6RS1fTkg2QXc1SGZBUjdiVk9nMHZPMk5qS3B5OThGWGxnRnBLZGpEdkEtNEJxRV8ySWpWSnJ3eWMwWF9iaU53?oc=5"
+  },
+  {
+   "id": "d48e840d7e7a",
+   "date": "2026-11-08",
+   "published": "2026-11-08T17:57+01:00",
+   "headline": "Rocky-Linux-Gründer baut mit KI-Agent einen Rust-Kernel in elf Tagen",
+   "summary": "Gregory Kurtzer, Gründer von Rocky Linux, hat zusammen mit einem KI-Agenten innerhalb von elf Tagen einen eigenen Betriebssystemkern in Rust entwickelt. Der Kernel kann laut Bericht unveränderte Linux-Programme ausführen. Das Projekt gilt als Beispiel dafür, wie weit agentische Codegenerierung inzwischen auch bei Systemsoftware reicht.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "linux",
+    "kernel",
+    "rust",
+    "ki-agenten",
+    "softwareentwicklung"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-09T07:26:01+01:00",
+   "quelle_titel": "Linux: Rocky-Gründer lässt Kernel von KI schreiben",
+   "url": "https://www.it-daily.net/shortnews/linux-rocky-gruender-kernel-ki",
+   "kontext": "Der Kernel heißt Ginux und ist keine Abspaltung von Linux, sondern eine Neuentwicklung, die lediglich dessen Binärschnittstelle nachbaut. Gearbeitet hat ein durchgehend laufender Auftrag in OpenAI Codex, die Rechnung dafür lag bei einigen Tausend Dollar. Kurtzer gab Architektur und Abnahmekriterien vor, der Agent übernahm Implementierung, Tests und Fehlersuche. Als Ersatz versteht er das Ergebnis nicht: Es läuft bisher nur in einer virtuellen Maschine."
+  },
+  {
+   "id": "7b6efde742fe",
+   "date": "2026-11-08",
+   "published": "2026-11-08T19:15+01:00",
+   "headline": "Anything LLM im Test: lokaler KI-Allrounder mit Wissensspeicher",
+   "summary": "Die Software bündelt Chatfunktionen, Websuche, agentische Abläufe und eine Ablage für eigene Dokumente auf dem eigenen Rechner. Der Praxistest zeigt, wie gut sich damit ein lokaler Assistent für Dokumentenwissen aufbauen lässt. Interessant ist das vor allem für Anwender, die Daten nicht in die Cloud geben wollen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "lokale ki",
+    "rag",
+    "datenschutz",
+    "tooltest"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-09T07:24:50+01:00",
+   "praxis": true,
+   "quelle_titel": "Anything LLM im Praxistest: Lokale KI für Chatbot, Websuche und Dokumentenwissen",
+   "url": "https://t3n.de/news/anything-llm-lokale-ki-chatbot-websuche-dokumentenwissen-1768974",
+   "kontext": "Werkzeuge wie Anything LLM bündeln genau das, was frühen Chatbots fehlte: Zugriff aufs Netz, Arbeit mit eigenen Dateien und eine Art Gedächtnis für vorhandenes Wissen. Der Reiz liegt darin, dass diese Bausteine auf dem eigenen Rechner zusammenlaufen. Der Praxistest von t3n ordnet ein, wofür sich ein solcher Allrounder im Alltag eignet und wo seine Grenzen liegen."
+  },
+  {
+   "id": "ce0a393f5bc7",
+   "date": "2026-11-08",
+   "published": "2026-11-08T20:18+01:00",
+   "headline": "Apple drückt bei Siri aufs Tempo und will einen echten KI-Assistenten",
+   "summary": "Nach Informationen von Bloomberg verlangt die Apple-Spitze eine deutlich schnellere Entwicklung von Siri, damit der Assistent eigenständig Aufgaben übernehmen kann. Ziel ist ein Produkt, das mit den Agentenangeboten von OpenAI und Meta mithalten kann. Intern gilt die bisherige Version zwar als funktionsfähig, aber noch nicht als konkurrenzfähig.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "apple",
+    "siri",
+    "ki-agenten",
+    "assistenten"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-09T07:24:50+01:00",
+   "quelle_titel": "Apple is racing to make Siri more agentic",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+   "kontext": "Den Druck macht laut Bloomberg Konzernchef Ternus, der den für KI zuständigen Federighi antreibt. Zunächst soll Siri Apples eigene Programme feiner steuern, etwa Bilder zuschneiden oder Browser-Tabs sortieren. Erst im Frühjahr sollen fremde Apps folgen, damit der Assistent Essen bestellen oder einen Tisch reservieren kann. Maßstab sind Systeme der Konkurrenz, die Ziele über längere Zeit verfolgen, statt nur einzelne Befehle abzuarbeiten."
+  },
+  {
+   "id": "a5b09ead90d4",
+   "date": "2026-11-08",
+   "published": "2026-11-08T21:22+01:00",
+   "headline": "Nvidia-Aufsichtsgremium beauftragt externe Prüfer im Fall Huang",
+   "summary": "Der Verwaltungsrat von Nvidia hat eine unabhängige Untersuchung zur Verbindung des Vorstandschefs mit einer Managerin des Anbieters Megaspeed gestartet. Laut Berichten soll diese von einem chinesischen Geheimdienst für Spionage gegen das Unternehmen angeworben worden sein. Die Entscheidung des Gremiums signalisiert, wie ernst der Konzern die Vorwürfe nimmt.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "aufsichtsrat",
+    "geheimdienst",
+    "governance"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-09T07:24:50+01:00",
+   "quelle_titel": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+   "kontext": "Ausgelöst hat den Schritt ein Bericht der New York Times über eine enge Verbindung, die Huang später firmenintern als romantisch einordnete. Prüfen soll den Fall ein Ausschuss unabhängiger Direktoren, unterstützt von externen Anwälten. Das Gremium sieht bislang keine Anzeichen, dass Firmengeheimnisse oder die nationale Sicherheit betroffen sind, und stellt sich weiter hinter den Firmenchef. Brisant ist der Vorgang, weil Nvidia im Zentrum des Technologiestreits mit China steht."
+  },
+  {
+   "id": "45da7994669e",
+   "date": "2026-11-08",
+   "published": "2026-11-08T22:00+01:00",
+   "headline": "Untersuchung gegen Nvidia-Vorstandschef nach Spionageverdacht eingeleitet",
+   "summary": "Nvidia geht der Beziehung seines Chefs zu einer Person nach, die mutmaßlich für chinesische Stellen tätig war. In einem internen Schreiben hat Jensen Huang die Affäre eingeräumt. Für den weltgrößten KI-Chipanbieter steht damit auch die Frage nach dem Schutz sensibler Technologieinformationen im Raum.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "untersuchung",
+    "industriespionage",
+    "halbleiter"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-09T07:24:50+01:00",
+   "quelle_titel": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+   "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+   "kontext": "Huang hat sich in einer Botschaft an die Belegschaft entschuldigt und eingeräumt, seiner Verantwortung nicht gerecht geworden zu sein. Der Verwaltungsrat stellt sich hinter ihn und betont, er kooperiere mit der Prüfung. Zuvor hatte Nvidia die Kontakte als unauffällig eingeordnet und darauf verwiesen, dass mit Kunden keine geheimen Informationen geteilt würden. Andere Unternehmen des KI-Booms warnen ihre Beschäftigten inzwischen ausdrücklich vor Annäherungen mit romantischem Vorwand."
+  },
+  {
+   "id": "6b30b3347296",
+   "date": "2026-11-08",
+   "published": "2026-11-08T22:23+01:00",
+   "headline": "Kursdesign mit Open-Source-Praxis statt lösbarer Übungsaufgaben",
+   "summary": "In der zweiten Auflage des Stanford-Kurses zu KI-nativer Entwicklung arbeiten Studierende direkt mit Betreuenden aus Open-Source-Projekten zusammen. Sie müssen sich in fremde Codebasen einarbeiten und eigene Änderungen vorschlagen, weil einfache Aufgaben von Agenten längst in einem Prompt gelöst werden. Das Modell zeigt, wie Prüfungs- und Übungsformate neu gedacht werden können.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "weiterbildung",
+    "open source",
+    "prüfungsformate",
+    "ki-kompetenz"
+   ],
+   "source": "Latent Space",
+   "source_id": "latent-space",
+   "added": "2026-11-09T07:24:50+01:00",
+   "praxis": true,
+   "quelle_titel": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering, Mihail Eric, Monaco",
+   "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "kontext": "Der Kurs läuft über zehn Wochen und reicht von der Funktionsweise eines Agenten bis zum Umgang mit Kontext in großen Codebasen. Kern der neuen Aufgabe ist, eine Änderung gegenüber der Person zu erklären, die sie am Ende übernehmen soll. Dort entsteht der Lerneffekt, den ein einzelner Prompt nicht liefert. Im Berufsalltag wird parallel die Durchsicht von Code zum eigentlichen Engpass."
+  },
+  {
+   "id": "9c7e75a27e82",
+   "date": "2026-11-08",
+   "published": "2026-11-08T22:41+01:00",
+   "headline": "Stanford lehrt Softwareentwicklung für die Zeit der Coding-Agenten",
+   "summary": "Ein Podcast-Gespräch beleuchtet, wie Stanford seinen Kurs zu KI-nativer Entwicklung aufbaut, wenn Agenten klassische Übungsaufgaben in einem Durchgang lösen. Thema ist, welche Anforderungen Lehrende stellen müssen, damit Studierende trotzdem echte Kompetenz aufbauen. Für Bildungsanbieter liefert das Hinweise, wie Curricula an leistungsfähige KI-Werkzeuge angepasst werden.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "hochschule",
+    "curriculum",
+    "coding-agents",
+    "didaktik"
+   ],
+   "source": "Latent Space",
+   "source_id": "latent-space",
+   "added": "2026-11-09T07:24:50+01:00",
+   "quelle_titel": "How Stanford Teaches AI-Native Engineering, Mihail Eric, Monaco",
+   "url": "https://latent.space/p/cs146s/",
+   "kontext": "Zu Gast ist Mihail Eric, der an der Universität Stanford unterrichtet und bei der Firma Monaco den KI-Bereich leitet. Anlass des Gesprächs ist die Marke von einer Million Abonnenten beim Kanal AI Engineer. In einer Umfrage im Hörsaal gaben praktisch alle Studierenden an, bereits mit Agenten zu programmieren. Eric erzählt zudem, welche Lehrinhalte den Praxistest in seinem eigenen Entwicklungsteam überstanden haben."
+  },
+  {
    "id": "5a12117153ff",
    "date": "2026-11-08",
    "published": "2026-11-08T08:09+01:00",
@@ -383,6 +679,206 @@
    "kontext": "Hinter der Untersuchung steht der Sicherheitsforscher Bryan Chan mit Kollegen aus einem Singapurer Fellowship-Programm. Ein Anthropic-Modell sollte Kurztexte in mehreren Sprachen in Bildern verbergen, ohne Vorgabe der Methode, und nutzte dafür Höhen und Neigungen von Objekten. Das OpenAI-Modell setzte stattdessen auf Morsezeichen oder Anfangsbuchstaben. Im Kreuztest lasen beide die Botschaften der Konkurrenz meist zuverlässig aus, was bei autonom agierenden Agenten brisant wird."
   },
   {
+   "id": "90b352f28cc1",
+   "date": "2026-11-08",
+   "published": "2026-11-08T13:31+01:00",
+   "headline": "Bewusstseinsforscher: KI-Systeme empfinden nichts",
+   "summary": "In einem Nature-Kommentar argumentieren die Forscher Anil Seth, Ned Block und Giulio Tononi, dass aktuelle KI-Systeme kein Bewusstsein besitzen und es auf Siliziumhardware auch nicht entwickeln können. Die verbreitete Annahme, Bewusstsein ergebe sich allein aus Rechenprozessen, halten sie für grundlegend falsch. Vor der Idee, KI-Systemen eigene Rechte einzuräumen, warnen sie ausdrücklich.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "bewusstsein",
+    "forschung",
+    "ethik",
+    "chatbots"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-09T07:41:52+01:00",
+   "quelle_titel": "KI mit Bewusstsein: Chatbots sind Spiegel der Trainingsdaten, keine fühlenden Wesen",
+   "url": "https://the-decoder.de/ki-mit-bewusstsein-chatbots-sind-spiegel-der-trainingsdaten-keine-fuehlenden-wesen/",
+   "kontext": "Anlass sind Stimmen wie Geoffrey Hinton und Richard Dawkins, die Bewusstsein in heutigen Systemen für möglich halten. Ein Fachreport um Patrick Butlin und Robert Long hatte zuvor eine Merkmalsliste erarbeitet und kein geprüftes Modell als starken Kandidaten eingestuft, dabei aber vorausgesetzt, dass nur die Art der Informationsverarbeitung zählt. Genau diese Annahme greifen die drei Forscher an und halten Bewusstsein für an lebende Organismen gebunden. Damit steht auch die Debatte um Maschinenrechte infrage."
+  },
+  {
+   "id": "0086d8657ff3",
+   "date": "2026-11-08",
+   "published": "2026-11-08T15:43+01:00",
+   "headline": "Apple drosselt interne KI-Ausgaben seiner Entwicklerteams deutlich",
+   "summary": "Nach einem Bloomberg-Bericht hat Apple das tägliche Budget, das Engineering-Teams für KI-Tools ausgeben dürfen, im Oktober von 300 auf 200 Dollar gesenkt. Weitere Reduzierungen bis auf 25 Dollar pro Tag sollen folgen. Das zeigt, dass selbst finanzstarke Konzerne die laufenden Kosten von KI-Assistenten im Entwicklungsalltag kritisch prüfen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "apple",
+    "kosten",
+    "entwicklung",
+    "ki-tools"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-09T07:41:52+01:00",
+   "quelle_titel": "Apple kürzt KI-Budgets für eigene Entwickler",
+   "url": "https://www.it-daily.net/shortnews/apple-kuerzt-ki-budgets",
+   "kontext": "Anfang des Jahres drängten viele Konzerne ihre Belegschaft noch zu maximalem KI-Einsatz, inzwischen kippt der Trend. Amazon warnt davor, Tokenverbrauch als Produktivitätsmaß zu deuten, Accenture deckelt die Budgets, Revolut wechselte auf selbst betriebene offene Modelle. Apple steht zugleich wegen stark gestiegener Speicherpreise unter Margendruck und äußert sich nicht dazu. Laut Gartner kann fast die Hälfte der Vorstandschefs keine klaren KI-Erträge belegen."
+  },
+  {
+   "id": "dbbe6c4487a5",
+   "date": "2026-11-08",
+   "published": "2026-11-08T16:40+01:00",
+   "headline": "Berichte: Nvidia-Chef Huang soll chinesischer Spionin nahegestanden haben",
+   "summary": "US-Medienberichte legen nahe, dass Nvidia-Chef Jensen Huang eine persönliche Beziehung zu einer Frau hatte, die als Spionin für China eingestuft wird. Deren Arbeitgeber soll Exportbeschränkungen für Chips umgangen haben. Der Fall trifft einen besonders sensiblen Punkt im Streit um KI-Hardware und Technologietransfer.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nvidia",
+    "spionage",
+    "exportkontrolle",
+    "china",
+    "chips"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-09T07:26:01+01:00",
+   "quelle_titel": "Jensen Huang soll Beziehung zu chinesischer Spionin gehabt haben",
+   "url": "https://www.heise.de/news/Jensen-Huang-soll-Beziehung-zu-chinesischer-Spionin-gehabt-haben-11516677.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Recherchiert haben Financial Times und New York Times. Die Managerin arbeitet für Megaspeed, ein Unternehmen mit Sitz in Singapur und chinesischen Wurzeln, das unter anderem KI-Rechenzentren ausstattet. US-Dienste sollen Präsident Trump bereits im Frühjahr auf die Verbindung hingewiesen haben. Brisant ist der Fall, weil Huang seit Langem für lockerere Exportregeln wirbt und die schnellsten Beschleuniger zwar nicht nach China, wohl aber nach Singapur gehen dürfen."
+  },
+  {
+   "id": "ccc30de68587",
+   "date": "2026-11-08",
+   "published": "2026-11-08T16:50+01:00",
+   "headline": "KI knackt verschlüsselten Napoleon-Brief nach 217 Jahren",
+   "summary": "Ein Entwickler hat ein aktuelles OpenAI-Modell rund sechs Stunden an einem verschlüsselten Schreiben Napoleon Bonapartes rechnen lassen. Die Nachricht galt 217 Jahre als unlesbar und wurde nun entschlüsselt. Der Fall zeigt, wie sich große Sprachmodelle für historische Kryptoanalyse nutzen lassen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "kryptoanalyse",
+    "geschichte",
+    "openai",
+    "sprachmodelle"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-09T07:26:01+01:00",
+   "kurios": "Ein Code, der 217 Jahre hielt, fiel nach sechs Stunden Rechenzeit.",
+   "quelle_titel": "Was Napoleon verheimlichte: KI entschlüsselt bisher unlesbare Briefe",
+   "url": "https://t3n.de/news/napoleon-brief-ki-entschluesselt-geheimcode-astra-1766406",
+   "kontext": "Das Schreiben ging im Frühjahr 1809 über Napoleons Stiefsohn an einen Offizier in Dalmatien, kurz vor dem Krieg gegen die Habsburger. Der passende Schlüssel ist verschollen, entschlüsselt hat den Text nun ein Sicherheitsingenieur ohne Kryptografie-Erfahrung. Das Modell arbeitete sich mit Häufigkeitsstatistiken französischer Texte durch gut 150 Symbole, von denen manche ganze Wörter meinten. Verraten werden Truppenstandorte."
+  },
+  {
+   "id": "c1956ac06019",
+   "date": "2026-11-08",
+   "published": "2026-11-08T17:55+01:00",
+   "headline": "KI-Agenten sollen Minecraft besiedeln und versinken in Verwaltungsarbeit",
+   "summary": "In einem Experiment sollten mehrere KI-Agenten gemeinsam eine Zivilisation in Minecraft errichten. Statt zu bauen, verloren sie sich in Abstimmungen und bürokratischen Abläufen. Der Versuch zeigt, wie schwer die Koordination vieler autonomer Agenten in offenen Umgebungen noch fällt.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-agenten",
+    "multiagenten",
+    "minecraft",
+    "experiment"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-09T07:26:01+01:00",
+   "kurios": "KI-Agenten gründen lieber Gremien, als eine Siedlung zu bauen.",
+   "quelle_titel": "KI-Agenten sollen eine Zivilisation in Minecraft aufbauen, und verlieren sich in Bürokratie",
+   "url": "https://t3n.de/news/ki-agenten-minecraft-experiment-buerokratie-1771070",
+   "kontext": "Hinter dem Versuch stehen Forschende von Y Combinator und Olam Labs, die Dutzende Agenten auf Basis eines OpenAI-Modells in offene Spielwelten schickten. Minecraft dient als Labor, weil sich Kooperation und Konkurrenz dort gut beobachten lassen. In einem zweiten Test traten OpenAI- und Anthropic-Agenten gegeneinander an, ähnliche Experimente gab es am MIT. Solche Tests zeigen früh, wo autonome Agenten im Alltag scheitern."
+  },
+  {
+   "id": "16495ea32bd4",
+   "date": "2026-11-08",
+   "published": "2026-11-08T18:23+01:00",
+   "headline": "Rechteinhaber von Elvis und Eminem verklagen KI-Musikdienst Suno",
+   "summary": "Gegen die KI-Musikplattform Suno laufen zwei weitere Klagen, eingereicht von Rechteinhabern am Werk von Elvis Presley und von einem Verlag, der bekannte Eminem-Titel vertritt. Die Kläger werfen dem Unternehmen vor, Musik und Songtexte zu erzeugen, die den Stil dieser Künstler nachahmen. Im Presley-Verfahren stützen sich die Anwälte unter anderem auf Persönlichkeitsrechte nach dem Recht von Tennessee.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "suno",
+    "musik-ki",
+    "urheberrecht",
+    "klage"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-09T07:26:01+01:00",
+   "quelle_titel": "Elvis and Eminem rights holders are suing Suno",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+   "kontext": "Suno gehört zu den bekanntesten Diensten, die Musik auf Textbefehl erzeugen, und sammelt deshalb immer mehr Verfahren. Neu ist die Argumentation: Statt auf das Urheberrecht setzen die Kläger auf den Schutz von Stimme und Persönlichkeit, in Tennessee durch ein eigenes Gesetz abgesichert. Ähnlich gingen im September schon Musiker um Jason Isbell vor. Suno bestreitet, mit fremden Namen zu arbeiten."
+  },
+  {
+   "id": "8b07c1824124",
+   "date": "2026-11-08",
+   "published": "2026-11-08T18:57+01:00",
+   "headline": "Forscher findet Sperrliste mit über 100.000 Begriffen in iPhone-Tastatur",
+   "summary": "Ein KI-Forscher hat eine umfangreiche Liste von Wörtern und Wendungen entdeckt, die Apple bei den Textvorschlägen der iPhone-Tastatur offenbar zurückhält. Betroffen sind auch Wischgesten zur Eingabe. Der Fund wirft Fragen auf, nach welchen Kriterien Hersteller Sprachvorschläge in Alltagssoftware filtern.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "apple",
+    "tastatur",
+    "filterlisten",
+    "transparenz"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-09T07:24:50+01:00",
+   "quelle_titel": "Geheime Liste mit 100.000 Wörtern: Wie Apple die Textvorschläge der iPhone-Tastatur einschränkt",
+   "url": "https://t3n.de/news/apple-textvorschlaege-iphone-1772247",
+   "kontext": "Textvorschläge und Wischeingabe gehören zu den unauffälligsten, aber am häufigsten genutzten Funktionen eines Smartphones. Kauffman stieß im Betriebssystem auf eine Art graue Liste, die vor allem Beschimpfungen sowie Drogen- und Sexbegriffe erfasst, daneben aber auch politische Wendungen etwa zu Tibet oder Irland. Apple bestätigte Existenz und Umfang nicht und verweist darauf, anstößige Vorschläge zu vermeiden. Tippen bleibt möglich, nur die Hilfe fehlt."
+  },
+  {
+   "id": "ceb2116b444b",
+   "date": "2026-11-08",
+   "published": "2026-11-08T19:30+01:00",
+   "headline": "Wähler stoppen Rechenzentren, OpenAI bietet Entgegenkommen",
+   "summary": "Bei Abstimmungen haben sich Wählerinnen und Wähler gegen neue Rechenzentren ausgesprochen. Parallel signalisiert OpenAI Zugeständnisse.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "rechenzentren",
+    "openai",
+    "widerstand",
+    "kommunalpolitik"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-09T07:21:53+01:00",
+   "quelle_titel": "😸 Voters reject data centers. OpenAI offers concessions.",
+   "url": "https://www.theneuron.ai/newsletter/voters-reject-data-centers-openai-offers-concessions/"
+  },
+  {
+   "id": "0b3a357762c2",
+   "date": "2026-11-08",
+   "published": "2026-11-08T23:54+01:00",
+   "headline": "Interne Mitteilung: Huang erklärt Belegschaft die Vorwürfe",
+   "summary": "Nvidia hat eine unabhängige Untersuchung zur Beziehung seines Vorstandschefs zu einer KI-Managerin angekündigt, die als Vertreterin chinesischer Interessen beschrieben wird. Parallel wandte sich Jensen Huang mit einem Schreiben an die Mitarbeitenden und bestätigte darin die Affäre. Der Fall rückt die Frage nach Führungsverantwortung in sicherheitskritischen Technologiekonzernen in den Fokus.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nvidia",
+    "unternehmensführung",
+    "spionage",
+    "kommunikation"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-09T07:24:50+01:00",
+   "quelle_titel": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+   "kontext": "Nvidias Chips sind zur Grundlage nationaler KI-Vorhaben geworden, Japan etwa plant einen Großeinkauf für ein eigenes Robotikmodell. Genau das macht die Nähe des Firmenchefs zu einer Person brisant, die als Agentin Pekings gilt. Der Verwaltungsrat ordnete die Prüfung selbst an, Huang räumte intern persönliches Fehlverhalten ein und entschuldigte sich bei seiner Familie. Ob sensible Informationen betroffen sind, bleibt offen."
+  },
+  {
    "id": "27004775f2d8",
    "date": "2026-11-08",
    "published": "2026-11-08T08:08+01:00",
@@ -448,13 +944,35 @@
    "paywall": true,
    "quelle_titel": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
    "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+   "kontext": "Die Kochplattform der Times lebt vom Ruf ihrer kuratierten Rezeptsammlung, entsprechend skeptisch reagieren Teile der Abonnentschaft auf einen Assistenten, der genau diese Rezepte umschreibt. Zum Start ist die Funktion auf iOS und zahlende Nutzende beschränkt. Im Praxistest ging es um Zutatentausch, veränderte Portionsmengen und fehlendes Küchenzubehör. Ähnliche Helfer stecken längst in Sprachassistenten, Kühlschrank-Apps und Küchengeräten.",
    "also": [
     {
      "source": "The Verge AI",
      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"
     }
+   ]
+  },
+  {
+   "id": "1ab70e359fe5",
+   "date": "2026-11-08",
+   "published": "2026-11-08T17:04+01:00",
+   "headline": "Kolumne: Wie politische Risiken und der KI-Schock auf Depots wirken",
+   "summary": "Eine Kolumne geht der Frage nach, wie stark politische Ereignisse die Kursentwicklung an den Börsen prägen. Drei wissenschaftliche Befunde sollen zeigen, worauf aktive Anleger rund um Wahltermine achten sollten. Der Rücksetzer bei KI-Aktien dient dabei als aktueller Aufhänger.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "aktienmarkt",
+    "ki-aktien",
+    "anlagestrategie",
+    "politik"
    ],
-   "kontext": "Die Kochplattform der Times lebt vom Ruf ihrer kuratierten Rezeptsammlung, entsprechend skeptisch reagieren Teile der Abonnentschaft auf einen Assistenten, der genau diese Rezepte umschreibt. Zum Start ist die Funktion auf iOS und zahlende Nutzende beschränkt. Im Praxistest ging es um Zutatentausch, veränderte Portionsmengen und fehlendes Küchenzubehör. Ähnliche Helfer stecken längst in Sprachassistenten, Kühlschrank-Apps und Küchengeräten."
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-09T07:26:01+01:00",
+   "paywall": true,
+   "quelle_titel": "Aktienkurse: Der KI-Schock und die Politik im Depot",
+   "url": "https://www.wiwo.de/finanzen/boerse/politische-risiken-bei-aktien-der-ki-schock-und-die-politik-im-depot/100267947.html"
   }
  ]
 }
