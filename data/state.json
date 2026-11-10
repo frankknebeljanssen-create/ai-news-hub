@@ -1,69 +1,69 @@
 {
- "last_run_date": "2026-11-09",
- "last_success": "2026-11-09T13:17:20+01:00",
+ "last_run_date": "2026-11-10",
+ "last_success": "2026-11-10T09:03:42+01:00",
  "sources": {
   "neuron": {
    "name": "The Neuron",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:06+01:00",
-   "new": 3
+   "checked": "2026-11-10T07:12:23+01:00",
+   "new": 4
   },
   "rundown": {
    "name": "The Rundown AI",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:07+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:12:23+01:00",
+   "new": 1
   },
   "tldr-ai": {
    "name": "TLDR AI",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:07+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:12:24+01:00",
+   "new": 1
   },
   "import-ai": {
    "name": "Import AI",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:08+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:12:26+01:00",
+   "new": 1
   },
   "batch": {
    "name": "The Batch",
    "type": "web",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:12+01:00",
+   "checked": "2026-11-10T07:12:32+01:00",
    "new": 0
   },
   "anthropic": {
    "name": "Anthropic",
    "type": "rss",
    "region": "intl",
-   "ok": true,
-   "checked": "2026-11-09T13:07:12+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T07:23:48+01:00",
+   "error": "[Errno 54] Connection reset by peer"
   },
   "openai": {
    "name": "OpenAI",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:14+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:23:54+01:00",
+   "new": 4
   },
   "deepmind": {
    "name": "Google DeepMind",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:14+01:00",
+   "checked": "2026-11-10T07:23:54+01:00",
    "new": 0
   },
   "meta-ai": {
@@ -71,7 +71,7 @@
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:15+01:00",
+   "checked": "2026-11-10T07:23:55+01:00",
    "new": 0
   },
   "huggingface": {
@@ -79,23 +79,23 @@
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:16+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:23:57+01:00",
+   "new": 2
   },
   "mit-tr": {
    "name": "MIT Technology Review",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:16+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:23:58+01:00",
+   "new": 3
   },
   "politico-eu": {
    "name": "Politico Europe",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:17+01:00",
+   "checked": "2026-11-10T07:23:58+01:00",
    "new": 0
   },
   "euractiv": {
@@ -110,40 +110,40 @@
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:17+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:24:01+01:00",
+   "new": 4
   },
   "ars-ai": {
    "name": "Ars Technica AI",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:18+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:24:02+01:00",
+   "new": 2
   },
   "techcrunch-ai": {
    "name": "TechCrunch AI",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:18+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:24:03+01:00",
+   "new": 4
   },
   "wired-ai": {
    "name": "Wired AI",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:19+01:00",
-   "new": 2
+   "checked": "2026-11-10T07:24:04+01:00",
+   "new": 3
   },
   "latent-space": {
    "name": "Latent Space",
    "type": "rss",
    "region": "intl",
    "ok": true,
-   "checked": "2026-11-09T13:07:20+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:24:07+01:00",
+   "new": 1
   },
   "venturebeat-ai": {
    "name": "VentureBeat AI",
@@ -157,15 +157,15 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:21+01:00",
-   "new": 1
+   "checked": "2026-11-10T07:24:10+01:00",
+   "new": 6
   },
   "heise-ki": {
    "name": "heise KI",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:22+01:00",
+   "checked": "2026-11-10T07:24:13+01:00",
    "new": 6
   },
   "t3n": {
@@ -173,7 +173,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:23+01:00",
+   "checked": "2026-11-10T07:24:15+01:00",
    "new": 6
   },
   "netzpolitik": {
@@ -181,15 +181,15 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:24+01:00",
-   "new": 1
+   "checked": "2026-11-10T07:24:16+01:00",
+   "new": 0
   },
   "bitkom": {
    "name": "Bitkom",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:24+01:00",
+   "checked": "2026-11-10T07:24:16+01:00",
    "new": 0
   },
   "ki-verband": {
@@ -197,7 +197,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:24+01:00",
+   "checked": "2026-11-10T07:24:17+01:00",
    "new": 0
   },
   "bundesregierung": {
@@ -205,7 +205,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:24+01:00",
+   "checked": "2026-11-10T07:24:17+01:00",
    "new": 0
   },
   "bmwe": {
@@ -220,7 +220,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:25+01:00",
+   "checked": "2026-11-10T07:24:18+01:00",
    "new": 4
   },
   "computerwoche": {
@@ -228,23 +228,23 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:31+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:36:20+01:00",
+   "new": 2
   },
   "cio": {
    "name": "CIO",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:33+01:00",
-   "new": 4
+   "ok": false,
+   "checked": "2026-11-10T07:51:41+01:00",
+   "error": "The read operation timed out"
   },
   "ix": {
    "name": "iX",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:33+01:00",
+   "checked": "2026-11-10T07:51:41+01:00",
    "new": 0
   },
   "spiegel-netzwelt": {
@@ -252,7 +252,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:34+01:00",
+   "checked": "2026-11-10T07:51:42+01:00",
    "new": 0
   },
   "zeit-digital": {
@@ -260,23 +260,23 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:34+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:51:43+01:00",
+   "new": 1
   },
   "sz-digital": {
    "name": "Süddeutsche Digital",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:34+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:51:44+01:00",
+   "new": 1
   },
   "handelsblatt-tech": {
    "name": "Handelsblatt Technologie",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:35+01:00",
+   "checked": "2026-11-10T07:51:45+01:00",
    "new": 3
   },
   "tagesspiegel-wirtschaft": {
@@ -284,15 +284,15 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:36+01:00",
-   "new": 3
+   "checked": "2026-11-10T07:51:46+01:00",
+   "new": 1
   },
   "wiwo": {
    "name": "WirtschaftsWoche",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:36+01:00",
+   "checked": "2026-11-10T07:51:47+01:00",
    "new": 3
   },
   "stern-digital": {
@@ -300,15 +300,15 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:37+01:00",
-   "new": 0
+   "checked": "2026-11-10T07:51:48+01:00",
+   "new": 2
   },
   "gruenderszene": {
    "name": "Gründerszene",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:40+01:00",
+   "checked": "2026-11-10T07:51:49+01:00",
    "new": 0
   },
   "deutsche-startups": {
@@ -316,7 +316,7 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:40+01:00",
+   "checked": "2026-11-10T07:51:50+01:00",
    "new": 0
   },
   "basic-thinking": {
@@ -324,200 +324,200 @@
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:41+01:00",
-   "new": 1
+   "checked": "2026-11-10T07:51:51+01:00",
+   "new": 0
   },
   "heise-security": {
    "name": "heise Security",
    "type": "rss",
    "region": "de",
    "ok": true,
-   "checked": "2026-11-09T13:07:41+01:00",
+   "checked": "2026-11-10T07:51:51+01:00",
    "new": 0
   },
   "eco": {
    "name": "eco Verband",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:42+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "The read operation timed out"
   },
   "algorithmwatch": {
    "name": "AlgorithmWatch",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:43+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "sap-news-de": {
    "name": "SAP News Deutschland",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:43+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "bildungsserver": {
    "name": "Deutscher Bildungsserver",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:44+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "hfd": {
    "name": "Hochschulforum Digitalisierung",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:45+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "forum-bildung": {
    "name": "Forum Bildung Digitalisierung",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:46+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "personalwirtschaft": {
    "name": "Personalwirtschaft",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:49+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "it-daily": {
    "name": "it-daily.net",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:50+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "acatech": {
    "name": "acatech",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:50+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "datenschutz-notizen": {
    "name": "Datenschutz-Notizen",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:51+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "dr-datenschutz": {
    "name": "Dr. Datenschutz",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:52+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "digitalcourage": {
    "name": "Digitalcourage",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:52+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "lamarr": {
    "name": "Lamarr Institute",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:53+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "omr": {
    "name": "OMR",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:55+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "deepl": {
    "name": "DeepL",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:56+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "tagesschau": {
    "name": "tagesschau",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:56+01:00",
-   "new": 2
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "deutschlandfunk": {
    "name": "Deutschlandfunk",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:56+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "spektrum": {
    "name": "Spektrum der Wissenschaft",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:56+01:00",
-   "new": 1
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "gn-weiterbildung": {
    "name": "Suche Weiterbildung",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:57+01:00",
-   "new": 1
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "gn-kurse": {
    "name": "Suche KI-Kurse",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:57+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:22+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "gn-unternehmen": {
    "name": "Suche Unternehmen DE",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:58+01:00",
-   "new": 3
+   "ok": false,
+   "checked": "2026-11-10T08:13:23+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "gn-startups": {
    "name": "Suche Startups DE",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:59+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:23+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "gn-politik": {
    "name": "Suche Politik DE",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:59+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:23+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "gn-strategie": {
    "name": "Suche KI-Strategie DE",
@@ -530,17 +530,17 @@
    "name": "KI-Campus",
    "type": "rss",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:07:59+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:23+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "fraunhofer-academy": {
    "name": "Fraunhofer Academy",
    "type": "web",
    "region": "de",
-   "ok": true,
-   "checked": "2026-11-09T13:08:00+01:00",
-   "new": 0
+   "ok": false,
+   "checked": "2026-11-10T08:13:23+01:00",
+   "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "kursnet": {
    "name": "Bundesagentur Kursnet",
@@ -863,6 +863,8 @@
   "https://wiwo.de/finanzen/boerse/aktienrendite-prognose-wie-viel-ertrag-bringen-aktien-kuenftig/100267332.html": "2026-11-08",
   "https://t3n.de/news/ki-agenten-mittelstand-junge-entscheider-1764951": "2026-11-09",
   "https://heise.de/news/betterCode-Agentic-AI-Summit-Vortraege-fuer-die-Konferenz-in-Muenchen-gesucht-11514424.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag": "2026-11-09",
-  "https://heise.de/news/S2N-Agentic-Ops-Wie-KI-Agenten-den-IT-Betrieb-veraendern-11512912.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag": "2026-11-09"
+  "https://heise.de/news/S2N-Agentic-Ops-Wie-KI-Agenten-den-IT-Betrieb-veraendern-11512912.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag": "2026-11-09",
+  "https://t3n.de/news/fake-recruiter-erkennen-linkedin-betrug-jobsuche-1769925": "2026-11-10",
+  "https://t3n.de/news/mehr-raum-fuer-kreativitaet-apple-stellt-entwicklungsprozesse-von-ios-28-um-1772366": "2026-11-10"
  }
 }
