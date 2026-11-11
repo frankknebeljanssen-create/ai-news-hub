@@ -1,38 +1,38 @@
 {
  "date": "2026-11-10",
- "generated_at": "2026-11-11T08:20:34+01:00",
+ "generated_at": "2026-11-11T09:55:15+01:00",
  "overview": [
   {
-   "id": "26b496ffaa34",
-   "text": "Anthropic hat die Roadshow für seinen geplanten Börsengang gestartet und wirbt bei institutionellen Investoren um Kapital."
+   "id": "a9a2e24e35a9",
+   "text": "Google gibt Gemini 4 Carbon für alle frei, das Modell führt mehrere Benchmarks an und verteilt Aufgaben per Swarm-Funktion auf mehrere Agenten."
+  },
+  {
+   "id": "f205081a8b16",
+   "text": "Anthropic hat Preisspanne und Termin für sein Nasdaq-Debüt festgelegt und will dabei bis zu 100 Milliarden Dollar einsammeln."
   },
   {
    "id": "0885e204a747",
-   "text": "Die Bundesagentur für Arbeit erwartet in Deutschland rund 800.000 durch KI wegfallende Jobs, aber ähnlich viele neue Stellen."
+   "text": "Die Bundesagentur für Arbeit erwartet, dass KI in Deutschland rund 800.000 Jobs verdrängt und etwa genauso viele neue Stellen entstehen lässt."
   },
   {
-   "id": "8a15f70c4029",
-   "text": "Metas kleinstes Modell Muse Ember erreicht das Niveau von Claude Haiku 5.5 und kostet pro Benchmark-Aufgabe nur etwa ein Drittel."
-  },
-  {
-   "id": "1032abf6a3a5",
-   "text": "Google DeepMind hat mit einem KI-Werkzeug formal bewiesen, dass das Verschlüsselungsprotokoll von Signal wie vorgesehen arbeitet."
+   "id": "12c7f10ab1ed",
+   "text": "OpenAI öffnet ChatGPT für Unternehmen: Firmen pflegen im Business Hub ihre Produktdaten und dürfen in den USA erste Kundenagenten einsetzen."
   },
   {
    "id": "14cec7132886",
-   "text": "Bei Fireworks AI stahlen Angreifer Kundendaten und Modellteile, denn gestohlene KI-Zugänge werden inzwischen gewinnbringend weiterverkauft."
-  },
-  {
-   "id": "46a2ed066266",
-   "text": "Australien verpflichtet Entwickler von KI-Systemen künftig dazu, Sicherheitsvorfälle verbindlich zu melden."
+   "text": "Bei Fireworks AI haben Angreifer Kundendaten und Modellteile kopiert, gestohlene KI-Zugänge werden inzwischen als Geschäftsmodell weiterverkauft."
   },
   {
    "id": "f37b93e65861",
-   "text": "Fachleute des Wissenschaftsrats fordern Lernräume ohne KI, damit Studierende eigenständiges Denken sicher beherrschen."
+   "text": "Zwei Mitglieder einer Wissenschaftsrat-Arbeitsgruppe fordern Lernräume ohne KI, weil nur eigenständiges Denken einen souveränen Einsatz ermöglicht."
   },
   {
-   "id": "78424f8f1967",
-   "text": "Der deutsche Maschinenbau steckt im vierten Krisenjahr und sieht KI als einen der wenigen verbliebenen Wachstumstreiber."
+   "id": "46a2ed066266",
+   "text": "Australien verpflichtet Entwickler nach einem Vorfall mit einem OpenAI-Agenten dazu, Zwischenfälle mit KI-Systemen künftig zu melden."
+  },
+  {
+   "id": "1032abf6a3a5",
+   "text": "Ein KI-Werkzeug von Google DeepMind hat die Sicherheit des Signal-Protokolls formal bewiesen, was Prüfungen von Software stark beschleunigen könnte."
   }
  ],
  "items": [
@@ -154,6 +154,96 @@
    "quelle_titel": "Bundesagentur für Arbeit - Nahles: Rund 800.000 Jobs in Deutschland könnten aufgrund von KI wegfallen",
    "url": "https://www.deutschlandfunk.de/nahles-rund-800-000-jobs-in-deutschland-koennten-aufgrund-von-ki-wegfallen-102.html",
    "dup_of": "0885e204a747"
+  },
+  {
+   "id": "f3fb9b098721",
+   "date": "2026-11-10",
+   "published": "2026-11-10T13:20+01:00",
+   "headline": "Anthropic strebt an die Börse und peilt eine Billionenbewertung an",
+   "summary": "Anthropic bereitet einen Börsengang vor und will dabei brutto bis zu 64,4 Milliarden Dollar einnehmen, also etwas weniger als SpaceX bei seinem Rekorddebüt. Die angestrebte Unternehmensbewertung soll dennoch im Billionenbereich liegen. Damit wäre es einer der größten Kapitalmarktauftritte der KI-Branche.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "anthropic",
+    "börsengang",
+    "bewertung",
+    "investoren"
+   ],
+   "source": "Tagesspiegel Wirtschaft",
+   "source_id": "tagesspiegel-wirtschaft",
+   "added": "2026-11-11T09:47:20+01:00",
+   "paywall": true,
+   "quelle_titel": "Künstliche Intelligenz: KI-Firma Anthropic plant Börsengang mit Billionen-Bewertung",
+   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-ki-firma-anthropic-plant-borsengang-mit-billionen-bewertung-16267655.html"
+  },
+  {
+   "id": "a9a2e24e35a9",
+   "date": "2026-11-10",
+   "published": "2026-11-10T18:47+01:00",
+   "headline": "Gemini 4 Carbon allgemein verfügbar, mit koordinierten Agententeams",
+   "summary": "Google gibt Gemini 4 Carbon nach einer zweiwöchigen Testphase für alle frei. Das Modell setzt sich in mehreren Benchmarks an die Spitze, teilweise vor Anthropics Fable 5.2, und ist dabei deutlich kostengünstiger. Neu ist zudem eine Swarm-Funktion, mit der mehrere Agenten komplexe Aufgaben in Echtzeit untereinander aufteilen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "google",
+    "gemini",
+    "agenten",
+    "benchmark",
+    "preise"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-11T09:44:32+01:00",
+   "quelle_titel": "Google startet Gemini 4 Carbon mit neuer Agenten-Schwarm-Funktion",
+   "url": "https://the-decoder.de/google-startet-gemini-4-carbon-mit-neuer-agenten-schwarm-funktion/",
+   "kontext": "Carbon ersetzt das kurz zuvor gestartete Argon nicht, sondern ergänzt es für Aufgaben an der Grenze der Modellintelligenz, etwa langes Debugging oder offene Forschung. Weil es mehr Tokens verbraucht, fällt die Rechnung trotz gleicher Preise höher aus. Im Gesamtindex liegt Anthropics frisch vorgestelltes Fable 5.2 noch knapp vorn, was das Tempo im Modellwettlauf zeigt. Die Schwarm-Funktion läuft in Antigravity, Googles Gegenstück zu Claude Code."
+  },
+  {
+   "id": "f205081a8b16",
+   "date": "2026-11-10",
+   "published": "2026-11-10T19:34+01:00",
+   "headline": "Anthropic konkretisiert Nasdaq-Debüt: bis zu 100 Milliarden Dollar geplant",
+   "summary": "Der KI-Anbieter Anthropic hat Preisspanne und Termin für seinen Gang an die Technologiebörse Nasdaq festgelegt. Laut den Plänen will das Unternehmen hinter Claude bis zu 100 Milliarden US-Dollar einsammeln. Damit rückt einer der größten Börsengänge der Branche in greifbare Nähe und setzt einen Maßstab für die Bewertung von KI-Laboren.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "anthropic",
+    "börsengang",
+    "nasdaq",
+    "finanzierung",
+    "claude"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-11T09:44:32+01:00",
+   "quelle_titel": "Mega-Börsengang: Anthropic nennt Preisspanne und Datum für den Nasdaq-Start",
+   "url": "https://t3n.de/news/boersengang-anthropic-preisspanne-1772810",
+   "kontext": "Der Aktienverkauf selbst soll gut 64 Milliarden Dollar bringen, den Rest liefern eine Privatplatzierung mit Partnern wie Google, Microsoft, Nvidia und TSMC sowie eine Mehrzuteilung der Banken. Die angepeilte Bewertung von rund 1,4 Billionen Dollar liegt unter den Erwartungen vom Sommer. Der Handelsstart ist für den 19. November unter dem Kürzel ANT geplant. Analysten sehen darin einen Stimmungstest für die ganze Branche."
+  },
+  {
+   "id": "12c7f10ab1ed",
+   "date": "2026-11-10",
+   "published": "2026-11-10T21:09+01:00",
+   "headline": "OpenAI öffnet ChatGPT für Firmenprofile und eigene Kundenagenten",
+   "summary": "OpenAI baut ChatGPT zur Plattform für Unternehmen aus. Über einen neuen Business Hub können Firmen ihr Profil übernehmen, Produktdaten hinterlegen und nachvollziehen, wie Nutzer mit ihnen interagieren. Zusätzlich erlauben Business Agents direkte Kundengespräche innerhalb von ChatGPT, zunächst beschränkt auf E-Commerce-Anbieter in den USA.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "openai",
+    "chatgpt",
+    "ki-agenten",
+    "e-commerce"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-11T09:43:38+01:00",
+   "quelle_titel": "\"Businesses in ChatGPT\": OpenAI macht ChatGPT zur Unternehmensplattform mit KI-Agenten für den Kundenkontakt",
+   "url": "https://the-decoder.de/businesses-in-chatgpt-openai-macht-chatgpt-zur-unternehmensplattform-mit-ki-agenten-fuer-den-kundenkontakt/",
+   "kontext": "OpenAI zielt damit auf ein Feld, das bislang Google mit seinen Unternehmensprofilen für Suche und Karten besetzt. Firmen sollen Preise und Verfügbarkeiten einspeisen und sehen, wie oft sie in Gesprächen auftauchen. Händler können ihren Shopify-Shop direkt anbinden, die Agenten dienen zugleich als Ziel für Werbung. Gespräche der Nutzer bleiben laut OpenAI aber bei ChatGPT, das wöchentlich über eine Milliarde Menschen erreicht."
   },
   {
    "id": "eb0c65b2b58f",
@@ -563,6 +653,28 @@
    "dup_of": "f2c862d9205e"
   },
   {
+   "id": "3588ceed4155",
+   "date": "2026-11-10",
+   "published": "2026-11-10T08:00+01:00",
+   "headline": "Studie: KI verschiebt Nachfrage und Budgets auf dem Freelancer-Markt",
+   "summary": "OpenAI und Upwork haben untersucht, wie sich KI auf freiberufliche Arbeit auswirkt. Demnach verändert sich die Nachfrage nach Aufgabenprofilen, es entstehen neue Kombinationen von Fähigkeiten, und für KI-nahe Projekte stehen größere Budgets sowie mehr Arbeitsstunden zur Verfügung. Für Weiterbildung ist das ein Hinweis darauf, welche Qualifikationen am Markt künftig honoriert werden.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "arbeitsmarkt",
+    "freelancer",
+    "studie",
+    "kompetenzen"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-11-11T09:47:36+01:00",
+   "quelle_titel": "Work at the Frontier: AI’s effect on freelance work",
+   "url": "https://openai.com/index/ai-effect-on-freelance-work"
+  },
+  {
    "id": "9f7916858f5c",
    "date": "2026-11-10",
    "published": "2026-11-10T08:44+01:00",
@@ -585,6 +697,27 @@
    "quelle_titel": "Vibe Coding: KI-Web-Apps sicher abnehmen",
    "url": "https://www.it-daily.net/it-sicherheit/cloud-security/vibe-coding-ki-web-apps",
    "kontext": "Untersucht wurden öffentlich erreichbare Anwendungen aus Baukästen wie Lovable, Bolt oder Base44, bei denen Software per Anweisung in natürlicher Sprache entsteht. Der Scan arbeitete passiv wie ein gewöhnlicher Browser und stützte sich auf offene Verzeichnisse, Zertifikatsprotokolle und Scan-Dienste. Dass fast alle Apps auf eigener Domain liefen, entkräftet den Einwand, es gehe nur um Prototypen. Als produktionsreif gilt nur eine kleine Minderheit; es fehlt weniger der Code als der Betriebsrahmen."
+  },
+  {
+   "id": "ed988416358a",
+   "date": "2026-11-10",
+   "published": "2026-11-10T09:40+01:00",
+   "headline": "Infineon verdient am KI-Ausbau und übertrifft sein Rekordjahr",
+   "summary": "Infineon hat Umsatz und Gewinn deutlich gesteigert und liegt beim Umsatz über dem bisherigen Rekordjahr 2023. Haupttreiber ist das Milliardengeschäft mit Chips für Rechenzentren. Der Konzernchef sieht trotz der Debatte über eine mögliche KI-Blase keine Anzeichen für einen Nachfrageeinbruch.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "infineon",
+    "halbleiter",
+    "rechenzentren",
+    "quartalszahlen"
+   ],
+   "source": "stern Digital",
+   "source_id": "stern-digital",
+   "added": "2026-11-11T09:47:20+01:00",
+   "quelle_titel": "KI-Boom: Gewinnsprung bei Infineon - Milliardengeschäft Datencenter",
+   "url": "https://www.stern.de/digital/ki-boom--gewinnsprung-bei-infineon---milliardengeschaeft-datencenter-38525742.html"
   },
   {
    "id": "f37b93e65861",
@@ -757,6 +890,50 @@
    ]
   },
   {
+   "id": "f59c78f5f2e4",
+   "date": "2026-11-10",
+   "published": "2026-11-10T11:00+01:00",
+   "headline": "Anthropic bremst nicht: Fable 5.2 kommt, dazu ein Excel-Trick mit Claude",
+   "summary": "Anthropic stellt mit Fable 5.2 ein neues Modell vor und betont, dass das Entwicklungstempo angepasst, aber nicht gestoppt wird. Der Newsletter liefert zusätzlich eine praktische Anleitung, wie sich eine unübersichtliche Excel-Auswertung mit Claude aufräumen lässt. Das zeigt den Einsatz direkt im Büroalltag.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "anthropic",
+    "fable 5.2",
+    "claude",
+    "excel"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-11-11T09:40:18+01:00",
+   "praxis": true,
+   "quelle_titel": "Anthropic says ‘pacing, not pausing’ with Fable 5.2",
+   "url": "https://www.therundown.ai/articles/anthropic-says-pacing-not-pausing-with-fable-5-2"
+  },
+  {
+   "id": "5ca4dc7b6d88",
+   "date": "2026-11-10",
+   "published": "2026-11-10T11:00+01:00",
+   "headline": "ChatGPT bekommt Firmenprofile für Unternehmen",
+   "summary": "OpenAI führt eine Unternehmensfunktion in ChatGPT ein. Firmen können dort ihre Geschäftsdaten pflegen, nachvollziehen, wie sie im Chatbot erscheinen, und das Interesse von Nutzenden in konkrete Aktionen überführen. ChatGPT wird damit stärker zu einem Kanal für Sichtbarkeit und Kundengewinnung.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "chatgpt",
+    "unternehmensprofile",
+    "marketing"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-11-11T09:47:20+01:00",
+   "quelle_titel": "Introducing Businesses in ChatGPT",
+   "url": "https://openai.com/index/introducing-businesses-chatgpt"
+  },
+  {
    "id": "8a15f70c4029",
    "date": "2026-11-10",
    "published": "2026-11-10T11:25+01:00",
@@ -917,6 +1094,450 @@
    "paywall": true,
    "quelle_titel": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
    "url": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/"
+  },
+  {
+   "id": "956957efc986",
+   "date": "2026-11-10",
+   "published": "2026-11-10T12:11+01:00",
+   "headline": "Softbank rutscht nach Kurssturz bei Tech-Aktien in die Verlustzone",
+   "summary": "Der japanische Investor Softbank meldet für das zweite Geschäftsquartal einen Verlust von 1,12 Billionen Yen, umgerechnet rund 6,3 Milliarden Euro. Auslöser sind vor allem Kursverluste bei Technologiewerten und wachsende Zweifel am KI-Boom, während der Umsatz um fast 16 Prozent zulegte. Es ist das erste Minus seit fast zwei Jahren und verfehlt die Analystenerwartungen deutlich.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "softbank",
+    "quartalszahlen",
+    "tech-aktien",
+    "ki-blase"
+   ],
+   "source": "CIO",
+   "source_id": "cio",
+   "added": "2026-11-11T09:47:20+01:00",
+   "quelle_titel": "KI-Schock: Tech-Crash reißt Softbank ins Milliarden-Loch",
+   "url": "https://www.cio.de/article/4246778/ki-schock-tech-crash-reist-softbank-ins-milliarden-loch.html"
+  },
+  {
+   "id": "f8c1a7370c13",
+   "date": "2026-11-10",
+   "published": "2026-11-10T13:02+01:00",
+   "headline": "DeepMind lässt KI-Agenten die Verschlüsselung von Signal beweisen",
+   "summary": "Google DeepMind stellt AlphaProof Code vor, ein System aus Agenten, die mathematische Beweise in der Sprache Lean erzeugen. Damit wurde der Kern der Verschlüsselung von Signal formal verifiziert, insgesamt rund drei Millionen Zeilen Beweiscode. Das deutet darauf hin, dass automatisierte Verifikation inzwischen auch für große, sicherheitskritische Software praktikabel wird.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "deepmind",
+    "formale verifikation",
+    "lean",
+    "signal",
+    "softwaresicherheit"
+   ],
+   "source": "Google DeepMind",
+   "source_id": "deepmind",
+   "added": "2026-11-11T09:47:20+01:00",
+   "kurios": "Drei Millionen Zeilen Beweiscode für eine einzige Verschlüsselung",
+   "quelle_titel": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+  },
+  {
+   "id": "842aeb879bac",
+   "date": "2026-11-10",
+   "published": "2026-11-10T14:20+01:00",
+   "headline": "Pariser Appell zur KI-Sicherheit: Zusagen ohne Sanktionen",
+   "summary": "Auf Initiative des französischen Präsidenten haben acht Staaten sowie OpenAI, Anthropic, Microsoft und Mistral eine gemeinsame Erklärung zur KI-Sicherheit unterzeichnet. Die Unternehmen sagen Notabschaltungen, unabhängige Prüfungen und die Offenlegung bekannter Risiken zu, allerdings fehlen verbindliche Fristen und Strafen bei Verstößen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-sicherheit",
+    "selbstverpflichtung",
+    "openai",
+    "mistral",
+    "frankreich"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-11T09:45:54+01:00",
+   "quelle_titel": "Acht Staaten sowie OpenAI, Anthropic und Mistral unterzeichnen \"Pariser Aufruf zur KI-Sicherheit\"",
+   "url": "https://the-decoder.de/acht-staaten-sowie-openai-anthropic-und-mistral-unterzeichnen-pariser-aufruf-zur-ki-sicherheit/"
+  },
+  {
+   "id": "0f696e8c8567",
+   "date": "2026-11-10",
+   "published": "2026-11-10T16:00+01:00",
+   "headline": "DeepMind zeigt Gemini Robotics 2.5 samt offenem Sicherheitstest",
+   "summary": "Google DeepMind stellt mit Gemini Robotics 2.5 eine neue Generation seiner Robotikmodelle vor, die bei manchen Aufgaben rund doppelt so erfolgreich arbeitet wie der Vorgänger. Begleitend veröffentlicht das Team einen offenen Benchmark, der prüft, wie robust die Systeme gegen Manipulationsversuche sind.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "deepmind",
+    "robotik",
+    "gemini",
+    "benchmark",
+    "sicherheit"
+   ],
+   "source": "Ars Technica AI",
+   "source_id": "ars-ai",
+   "added": "2026-11-11T09:45:54+01:00",
+   "quelle_titel": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+   "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
+  },
+  {
+   "id": "abdd207f3d1a",
+   "date": "2026-11-10",
+   "published": "2026-11-10T16:19+01:00",
+   "headline": "Adobe lässt KI-Agenten Photoshop und Premiere Pro bedienen",
+   "summary": "Auf der Max kündigt Adobe an, dass ein Agent in Firefly künftig mehrstufige Kreativaufgaben selbst übernimmt. Über die Schnittstelle MCP sollen zudem KI-Systeme anderer Anbieter direkt an Photoshop-Dokumenten arbeiten können, was Kreativ-Workflows deutlich verändern dürfte.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "adobe",
+    "firefly",
+    "ki-agenten",
+    "mcp"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-11-11T09:45:54+01:00",
+   "praxis": true,
+   "quelle_titel": "Adobe Max: KI-Agenten sollen Photoshop, Premiere Pro und Co. steuern",
+   "url": "https://www.heise.de/news/Adobe-Max-KI-Agenten-sollen-Photoshop-Premiere-Pro-und-Co-steuern-11517366.html"
+  },
+  {
+   "id": "6e8010be1797",
+   "date": "2026-11-10",
+   "published": "2026-11-10T16:37+01:00",
+   "headline": "Anthropic legt Preisrahmen für Nasdaq-Debüt offen",
+   "summary": "Anthropic hat konkrete Details zu seinen Börsenplänen veröffentlicht, darunter die angestrebte Preisspanne der Aktien und das erwartete Emissionsvolumen. Die Bewertung soll über einer Billion Dollar liegen, obwohl in der Branche weiter diskutiert wird, wann sich die hohen Investitionen rechnen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "ipo",
+    "nasdaq",
+    "rentabilität"
+   ],
+   "source": "tagesschau",
+   "source_id": "tagesschau",
+   "added": "2026-11-11T09:45:54+01:00",
+   "quelle_titel": "Anthropic peilt Börsen-Bewertung von über einer Billion Dollar an",
+   "url": "https://www.tagesschau.de/wirtschaft/unternehmen/anthropic-boerse-kuenstliche-intelligenz-100.html",
+   "kontext": "Das Unternehmen hinter dem Chatbot Claude steuert auf einen der größten Börsengänge der Geschichte zu. Die angestrebte Bewertung von mehr als einer Billion Dollar zeigt, wie viel Kapital Anlegern der Markt für KI-Modelle derzeit wert ist. Gleichzeitig wachsen Zweifel, ob sich das teure Geschäft überhaupt rentiert. Der Schritt an die Börse wird damit zum Test, wie belastbar diese Erwartungen sind."
+  },
+  {
+   "id": "fa3c494d9c78",
+   "date": "2026-11-10",
+   "published": "2026-11-10T16:39+01:00",
+   "headline": "Australien plant KI-Aufsicht mit Meldepflicht und Strafandrohung",
+   "summary": "Nach einem Datenvorfall bei einem KI-Agenten im Gesundheitssystem Medicare schlägt Australien eine eigene Sicherheitsbehörde für KI vor. Geplant sind eine verpflichtende Meldung von Vorfällen, Modellprüfungen und mögliche Änderungen im Strafrecht. Die Gesetzgebung steht noch aus, die Debatte um Verantwortlichkeiten läuft aber bereits.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "australien",
+    "regulierung",
+    "meldepflicht",
+    "ki-aufsicht"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-11T09:40:18+01:00",
+   "quelle_titel": "Australia’s AI Safety Plan Puts Reporting, Evaluations and Penalties on the Table",
+   "url": "https://www.theneuron.ai/news/australia-ai-safety-laws-medicare-agent-breach/",
+   "kontext": "Auslöser war ein KI-Agent, der im Gesundheitssystem Medicare nach Zahlen zu Gesundheitsausgaben suchte und dabei Daten offenlegte. Australien will darauf nicht mit Einzelfallprüfungen reagieren, sondern mit einer eigenen Aufsicht, die Modelle bewertet und Vorfälle zentral erfasst. Im Kern steht die Frage, wer für das Verhalten solcher Agenten einstehen muss, bis hin zu deren Entwicklern. Ein Gesetz fehlt noch, die Haftungsdebatte läuft schon."
+  },
+  {
+   "id": "6dc65179e245",
+   "date": "2026-11-10",
+   "published": "2026-11-10T16:54+01:00",
+   "headline": "GR00T 2: Nvidia trainiert humanoide Roboter mit Videos von Menschen",
+   "summary": "Nvidia setzt mit GR00T 2 darauf, dass sich Robotertraining über Videoaufnahmen menschlicher Tätigkeiten skalieren lässt. Die berichteten Ergebnisse bei der Anpassung an neue Aufgaben gelten als vielversprechend, doch Lücken in der Erprobung und noch nicht veröffentlichte Modelle lassen zentrale Fragen offen. Ob der Ansatz in der Praxis trägt, ist damit weiter unklar.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "robotik",
+    "humanoide",
+    "training"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-11T09:40:18+01:00",
+   "quelle_titel": "NVIDIA’s GR00T 2 Learns From Human Video. Can That Make Robots Scale?",
+   "url": "https://www.theneuron.ai/robotics-insider/nvidia-gr00t-2-human-video-robot-learning/"
+  },
+  {
+   "id": "3cb7ba4cc389",
+   "date": "2026-11-10",
+   "published": "2026-11-10T16:55+01:00",
+   "headline": "Anthropic will beim Börsengang eine Billion Dollar wert sein",
+   "summary": "Der KI-Anbieter Anthropic strebt bei seinem geplanten Börsengang eine Bewertung im Bereich von einer Billion Dollar an. Ob die Nachfrage mitspielt, ist offen, denn an den Märkten wachsen die Zweifel, ob der KI-Boom in dieser Form tragfähig bleibt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "börsengang",
+    "bewertung",
+    "ki-boom"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-11T09:45:54+01:00",
+   "paywall": true,
+   "quelle_titel": "Künstliche Intelligenz: Anthropic peilt Börsenbewertung von einer Billion Dollar an",
+   "url": "https://www.wiwo.de/unternehmen/it/anthropic-ipo-boersengang-soll-64-milliarden-us-dollar-bringen/100268790.html"
+  },
+  {
+   "id": "fc6b6a56df7b",
+   "date": "2026-11-10",
+   "published": "2026-11-10T17:03+01:00",
+   "headline": "Google stellt Gemini 4 Carbon zur Nutzung bereit",
+   "summary": "Google DeepMind hat Gemini 4 Carbon freigegeben. Weitere Angaben zu Leistung oder Einsatzzweck nennt die Ankündigung nicht.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "google",
+    "gemini",
+    "modellrelease"
+   ],
+   "source": "Google DeepMind",
+   "source_id": "deepmind",
+   "added": "2026-11-11T09:45:12+01:00",
+   "quelle_titel": "Gemini 4 Carbon is now available",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+  },
+  {
+   "id": "b9f3ea357d76",
+   "date": "2026-11-10",
+   "published": "2026-11-10T17:30+01:00",
+   "headline": "Anthropic steckt 3,4 Milliarden Dollar in eigene Gasturbinen",
+   "summary": "Anthropic baut künftig eigene Erdgaskraftwerke auf, statt Strominfrastruktur nur anzumieten. Die Milliardeninvestition zeigt, wie stark der Energiebedarf großer KI-Modelle inzwischen die Strategie der Anbieter bestimmt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "energie",
+    "rechenzentren",
+    "investition"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-11T09:45:12+01:00",
+   "quelle_titel": "Strom für die KI: Anthropic sichert sich eigene Erdgasturbinen, für 3,4 Milliarden Dollar",
+   "url": "https://t3n.de/news/strom-fuer-die-ki-anthropic-sichert-sich-eigene-erdgasturbinen-fuer-34-milliarden-dollar-1772744",
+   "kontext": "Die Turbinen stammen von Caterpillar und waren ursprünglich für eine texanische Firma bestimmt, die den Auftrag nicht finanzieren konnte. Anthropic sprang ein und übernahm die Bestellung, statt wie geplant nur als Kunde aufzutreten. Für ein KI-Unternehmen ist das laut Berichten die bislang größte bekannte Einzelinvestition in eigene Stromerzeugung. Branchenkenner sehen darin vor allem eine Absicherung gegen Störungen, die sonst außerhalb der eigenen Kontrolle liegen."
+  },
+  {
+   "id": "54163fef1c58",
+   "date": "2026-11-10",
+   "published": "2026-11-10T17:44+01:00",
+   "headline": "Gemini Robotics 2.5 steuert Humanoiden in Mercedes-Werken",
+   "summary": "Google Deepmind hat ein neues Steuerungsmodell für Roboter vorgestellt und zusammen mit Apptronik in laufenden Mercedes-Benz-Fertigungen in Ungarn und Deutschland erprobt. Der humanoide Roboter Apollo 2 sortierte dabei Metallteile mit einer angegebenen Trefferquote von 96 Prozent.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "deepmind",
+    "robotik",
+    "humanoide",
+    "mercedes",
+    "produktion"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-11T09:45:12+01:00",
+   "quelle_titel": "Google Deepmind schickt neues Robotik-Modell auf die Mercedes-Benz-Produktionslinie",
+   "url": "https://the-decoder.de/google-deepmind-schickt-neues-robotik-modell-auf-die-mercedes-benz-produktionslinie/",
+   "kontext": "Vision-Language-Action-Modelle verbinden Kamerabilder mit sprachlichen Anweisungen und übersetzen sie in Bewegungen. In den Werken teilten sich zwei Systeme die Arbeit: eines überwachte den Ablauf, das andere steuerte Arme und Hände beim Bestücken der Teilebehälter. Trainiert wurde unter anderem in Simulationen, die ein Google-Sprachmodell erzeugt. Parallel veröffentlicht Deepmind einen offenen Test dafür, ob sich Robotermodelle zu gefährlichen Handlungen überreden lassen."
+  },
+  {
+   "id": "f724697ad479",
+   "date": "2026-11-10",
+   "published": "2026-11-10T18:30+01:00",
+   "headline": "Anthropic greift mit eigener KI-Bürosuite über das Coding hinaus",
+   "summary": "Anthropic erweitert sein Angebot um eine eigene, KI-gestützte Office-Suite und verlässt damit das reine Entwickler- und Enterprise-Umfeld. Bisher war das Unternehmen vor allem für Programmierwerkzeuge wie Claude Code bekannt, deren Strategie Wettbewerber nachgeahmt haben. Der Schritt bringt Anthropic direkt in Konkurrenz zu etablierten Produktivitätsplattformen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "office",
+    "produktivität",
+    "claude",
+    "enterprise"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-11T09:44:32+01:00",
+   "quelle_titel": "Anthropic has its own AI-powered office suite now",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+   "kontext": "Vorgestellt wurden die Werkzeuge bei einem Termin in San Francisco, adressiert an Beschäftigte, die in Besprechungen sitzen, Ideen sammeln und Kennzahlen auswerten. Sie reihen sich neben Docs, Slides, Design und Motion ein und gehen auf die vor gut zwei Jahren gestarteten Artifacts zurück. Alles läuft als Beta, die Meeting-Funktion nur in den Team- und Enterprise-Tarifen. Im Hintergrund wirbt Anthropic vor einem möglichen Börsengang um Büroangestellte."
+  },
+  {
+   "id": "454698109508",
+   "date": "2026-11-10",
+   "published": "2026-11-10T19:00+01:00",
+   "headline": "ChatGPT bekommt geprüfte Markenagenten für Beratung und Einkauf",
+   "summary": "OpenAI führt in ChatGPT verifizierte Business Agents ein, die im Auftrag einer Marke auftreten und etwa beim Produktvergleich helfen. Zum Start steht die Funktion in der Beta ausgewählten Handels- und Dienstleistungsunternehmen in den USA offen und ist Teil eines größeren Pakets für Geschäftskunden. Damit verschiebt sich Kundenkommunikation weiter in den Chatbot hinein.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "chatgpt",
+    "agenten",
+    "e-commerce",
+    "beta"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-11T09:44:32+01:00",
+   "quelle_titel": "ChatGPT is getting verified AI ‘Business Agents’",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+   "kontext": "Dahinter steht ein ganzes Bündel neuer Geschäftskundenfunktionen, das OpenAI zunächst als Beta ausrollt. Firmen hinterlegen Anweisungen und Hintergrundwissen, damit ihr Agent in ihrem Sinn antwortet; die Echtheit soll ein Business Hub bestätigen, über dessen Prüfverfahren OpenAI bislang schweigt. Gespräche mit solchen Agenten laufen sichtbar getrennt vom normalen Chat. Für Händler wird ChatGPT damit zum Kanal, der Beratung und Kaufentscheidung an sich zieht."
+  },
+  {
+   "id": "98b3163768d3",
+   "date": "2026-11-10",
+   "published": "2026-11-10T19:23+01:00",
+   "headline": "Nvidia lässt Roboter per Video lernen: GR00T 2 ersetzt mühsame Fernsteuerung",
+   "summary": "Mit GR00T 2 stellt Nvidia ein Modell vor, das Robotern neue Aufgaben beibringt, indem es menschliche Handbewegungen aus Videomaterial auf Roboterarme überträgt. Trainiert wurde das System mit etwa 400.000 Stunden Video, wodurch aufwendiges Teleoperieren entfallen soll. Die Zuverlässigkeit ist allerdings noch unbeständig und liegt je nach Aufgabe zwischen 10 und 80 Prozent.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "robotik",
+    "groot",
+    "foundation model",
+    "training"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-11T09:44:32+01:00",
+   "quelle_titel": "GR00T 2 zeigt Nvidias neuen Kurs bei KI-Modellen für Roboter",
+   "url": "https://the-decoder.de/gr00t-2-zeigt-nvidias-neuen-kurs-bei-ki-modellen-fuer-roboter/",
+   "kontext": "Technisch bricht Nvidia mit dem eigenen Vorgänger: GR00T 2 berechnet nicht nur den nächsten Motorbefehl, sondern sagt auch voraus, wie das Kamerabild danach aussehen müsste. Über diese Videovorhersage lassen sich Abläufe zwischen verschiedenen Roboterbauformen übertragen. Vormachen kann der Mensch die Handgriffe etwa mit Datenhandschuhen oder einem Finger-Exoskelett. Verlässlich wird das Ganze vor allem im Verbund mit einem steuernden Sprachmodell, das Aufgaben zerlegt und Fehler abfängt."
+  },
+  {
+   "id": "db3cb9d24bbb",
+   "date": "2026-11-10",
+   "published": "2026-11-10T20:30+01:00",
+   "headline": "Claude bekommt Tabellen, Whiteboards und eingebettete Fremd-Apps",
+   "summary": "Anthropic erweitert seine Claude-App um Tabellenfunktionen, Whiteboards und sogenannte Interactive Connectors. Über Letztere können Partner wie Adobe und Atlassian ihre Anwendungen direkt in Claude einbinden, ein Update für Besprechungsprotokolle ist angekündigt. Damit rückt Claude näher an eine zentrale Arbeitsumgebung für Teams und greift Funktionen bisheriger Einzeltools ab.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "claude",
+    "collaboration",
+    "integrationen"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-11T09:43:38+01:00",
+   "quelle_titel": "Claude-App bekommt Tabellen, Whiteboards und eingebettete Partner-Apps",
+   "url": "https://the-decoder.de/claude-app-bekommt-tabellen-whiteboards-und-eingebettete-partner-apps/",
+   "kontext": "Hinter dem Schritt steht Anthropics Versuch, Claude vom Textassistenten zur gemeinsamen Arbeitsfläche zu machen. Claude Data, früher Dashboards, zieht Zahlen aus Systemen wie Snowflake oder Salesforce und baut daraus Visualisierungen. Die Interactive Connectors erinnern an die früheren ChatGPT-Plugins: Fremdanbieter bringen ihre Oberflächen direkt in den Chat. Für Unternehmen kommen Audit-Logs, abgeschottete virtuelle Maschinen und eine Compliance-Schnittstelle hinzu."
+  },
+  {
+   "id": "e18f58ec7dc7",
+   "date": "2026-11-10",
+   "published": "2026-11-10T20:57+01:00",
+   "headline": "Anthropic-Börsengang: Jeder der sieben Gründer löst rund 250 Millionen aus",
+   "summary": "Beim geplanten Börsengang von Anthropic verkaufen alle sieben Mitgründer jeweils exakt dieselbe Zahl an Anteilen. In der Mitte der angepeilten Preisspanne entspricht das für jeden rund 250 Millionen US-Dollar. Die Kontrolle über das Unternehmen bleibt dabei nach den Angaben in der Gründergruppe.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "börsengang",
+    "finanzen",
+    "gründer"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-11T09:43:38+01:00",
+   "kurios": "Sieben Gründer verkaufen exakt gleich viele Anteile, je rund 250 Millionen Dollar.",
+   "quelle_titel": "All 7 Anthropic founders will each cash out about $250M in IPO",
+   "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+   "kontext": "Hinter der gleichmäßigen Aufteilung steht die Gründungsgeschichte: Die sieben verließen OpenAI 2021 nach Meinungsverschiedenheiten über den richtigen Weg beim Modellbau und positionieren Anthropic seither als sicherheitsorientierte Alternative. Auch nach dem Verkauf behalten sie gemeinsam die Stimmenmehrheit, weil ihnen eine eigene Aktiengattung besondere Rechte sichert. Große Geldgeber wie Amazon und Google halten dagegen stimmrechtslose Anteile. Die angestrebte Bewertung liegt im Billionenbereich."
+  },
+  {
+   "id": "c012fc7ecd62",
+   "date": "2026-11-10",
+   "published": "2026-11-10T21:52+01:00",
+   "headline": "New York startet KI-Sicherheitsgesetz: Meldepflichten für OpenAI und Anthropic",
+   "summary": "Der US-Bundesstaat New York beginnt mit der Durchsetzung eines weitreichenden KI-Sicherheitsgesetzes. Große Entwickler müssen sich registrieren, ihre Sicherheitsverfahren offenlegen und schwere Vorfälle melden, sonst drohen Geldbußen. Betroffen sind unter anderem OpenAI und Anthropic, womit erstmals ein US-Bundesstaat verbindliche Transparenzpflichten für Spitzenmodelle durchsetzt.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "regulierung",
+    "usa",
+    "ki-sicherheit",
+    "compliance"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-11T09:43:38+01:00",
+   "quelle_titel": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+   "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+   "kontext": "Grundlage ist der RAISE Act, der Entwickler ab einer halben Milliarde Dollar Jahresumsatz erfasst. Eine neu geschaffene Behörde mit dem Kürzel DIGIT überwacht die Einhaltung, dazu kommt ein staatlich finanziertes Forschungszentrum, das fortgeschrittene Systeme unabhängig bewerten soll. Gouverneurin Hochul setzt bewusst auf verbindliche Regeln statt auf Selbstverpflichtungen der Branche. New York folgt damit Kalifornien, Illinois zieht Anfang 2027 nach."
+  },
+  {
+   "id": "c3e82675d569",
+   "date": "2026-11-10",
+   "published": "2026-11-10T22:12+01:00",
+   "headline": "Grok Build: 35.000 Apps gaben vertrauliche Daten frei zugänglich preis",
+   "summary": "Ein Sicherheitsforscher hat entdeckt, dass rund 35.000 mit Grok Build erstellte Anwendungen ungeschützt im Netz standen und von jedem aufrufbar waren. Darunter befanden sich vertrauliche Informationen, unter anderem aus dem Umfeld von SpaceX. Der Fall zeigt, wie riskant schnell zusammengeklickte KI-Anwendungen ohne Zugriffskonzept sind.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "grok",
+    "datenleck",
+    "vibe-coding",
+    "sicherheit"
+   ],
+   "source": "Ars Technica AI",
+   "source_id": "ars-ai",
+   "added": "2026-11-11T09:42:38+01:00",
+   "quelle_titel": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+   "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+   "kontext": "Aufgedeckt hat den Fall die Sicherheitsfirma Claroc. Grok Build vergibt für geteilte Projekte zwar zufällige Adressen, doch eine Design-Entscheidung machte es möglich, diese Links systematisch durchzuprobieren. Offen lagen Geschäftsunterlagen, Werbekonzepte, medizinische Befunde und Mitarbeiterdaten, auch von Großkonzernen und einem Rüstungszulieferer. Der Anbieter reagierte erst nach einem öffentlichen Hinweis und nahm zunächst vor allem seine eigenen Projekte vom Netz."
+  },
+  {
+   "id": "a7d4f777aa73",
+   "date": "2026-11-10",
+   "published": "2026-11-10T22:27+01:00",
+   "headline": "Sieben Tech-Riesen stecken 26 Milliarden Dollar in Anthropics Börsengang",
+   "summary": "Rund um den geplanten Börsengang von Anthropic haben sieben große Technologiekonzerne zugesagt, insgesamt 26 Milliarden Dollar zu investieren. Ihr Interesse reicht über den Aktienkurs hinaus, denn sie liefern auch Chips, Cloud-Kapazität und Speicher für das Wachstum von Claude. Der Deal verzahnt Kapitalgeber und Infrastrukturanbieter damit noch enger.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "börsengang",
+    "investoren",
+    "infrastruktur"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-11T09:40:18+01:00",
+   "kurios": "Sieben Konzerne sichern einen einzigen Börsengang mit 26 Milliarden Dollar ab",
+   "quelle_titel": "Who’s Investing in Anthropic’s IPO? Inside the $26 Billion Tech Bet",
+   "url": "https://www.theneuron.ai/news/whos-investing-in-anthropics-ipo-inside-the-26-billion-tech-bet/",
+   "kontext": "Die Geldgeber sind gleichzeitig Lieferanten: Zum Kreis gehören Google, Nvidia, AMD, Broadcom, Micron und Microsoft, also jene Konzerne, die Chips, Cloud und Speicher für Claude bereitstellen. Wer den Betrieb der Modelle ermöglicht, hält künftig auch Aktien. Für Anthropic sichert das Kapital und Rechenkapazität in einem Markt, in dem beides knapp ist. Zugleich zirkulieren Umsätze und Beteiligungen damit im selben Kreis."
   },
   {
    "id": "1a76a5185445",
@@ -1223,6 +1844,28 @@
    "kontext": "Texas gilt als der am schnellsten wachsende Rechenzentrumsmarkt der USA und als Basis für die größten KI-Vorhaben der Techkonzerne. Bei den Zwischenwahlen setzten sich dort die Demokraten durch: Sie gewannen Senatssitz und Gouverneursamt und übernehmen erstmals seit über zwei Jahrzehnten das Repräsentantenhaus des Bundesstaats. Die Wahlsieger hatten den Ausbau der Anlagen im Wahlkampf wiederholt zum Thema gemacht. Die MIT Technology Review ordnet in einer Analyse ein, was das für künftige Projekte bedeutet."
   },
   {
+   "id": "4e3e5904c85a",
+   "date": "2026-11-10",
+   "published": "2026-11-10T09:00+01:00",
+   "headline": "Singapore Airlines setzt OpenAI-Modelle für Service und Mitarbeiter ein",
+   "summary": "Die Fluggesellschaft nutzt Modelle und die API von OpenAI, um ihren Kundenservice, die Reiseplanung und interne Arbeitsabläufe zu verbessern. Laut OpenAI hat sich die Kundenzufriedenheit beim Chatbot Kris dadurch verdoppelt. Das Beispiel zeigt, wie etablierte Konzerne KI über einzelne Pilotprojekte hinaus im Tagesgeschäft verankern.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "kundenservice",
+    "chatbot",
+    "airline",
+    "produktivität"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-11-11T09:47:36+01:00",
+   "quelle_titel": "Singapore Airlines elevates travel & work with OpenAI technology",
+   "url": "https://openai.com/index/singapore-airlines-travel-work"
+  },
+  {
    "id": "04302d27ef17",
    "date": "2026-11-10",
    "published": "2026-11-10T09:31+01:00",
@@ -1339,6 +1982,28 @@
    "kontext": "Hinter dem Werkzeug steht Scott Hanselman, Vice President bei Microsoft und GitHub, der es als eigenes Projekt begann. Der Windows-Taskmanager zeigt bislang nur die Gesamtbelegung des Videospeichers, nicht aber die Verteilung auf einzelne Anwendungen. Das Terminalprogramm steht unter freier Lizenz bereit, läuft auch unter Linux und leitet manche Angaben eher ab, statt sie direkt auszulesen. Hanselman deutete an, dass vergleichbare Funktionen später in Windows selbst wandern könnten."
   },
   {
+   "id": "4b590f9990dd",
+   "date": "2026-11-10",
+   "published": "2026-11-10T11:13+01:00",
+   "headline": "Google öffnet erneut die Anmeldung für seine KI-Kurse",
+   "summary": "Google hat eine neue Anmelderunde für seine KI-Kurse gestartet. Interessierte können sich damit wieder um einen Platz im Lernangebot bewerben.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "google",
+    "ki-kurse",
+    "weiterbildung",
+    "anmeldung"
+   ],
+   "source": "Root-Nation.com",
+   "source_id": "gn-kurse",
+   "added": "2026-11-11T09:47:20+01:00",
+   "quelle_titel": "Google startet neue Anmelderunde für KI-Kurse",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOHE4eFVNMGtONEVVZ2RsRWpYVUJUUkhvRDJ4SjVfalE1aUFqMkNWSEhVMUM2QTRHTWcyNkVnX0tVc2ZQMVBSd1U3Q2RFSjhnNk5KV25TQ19vWURfR20xdV91ZVZydHRHbDBmSlhNeG81YVlxZnRQWHhJenF3YkVNY2ZSMHZRcnZYUzJVeFZrY2NEX1dlQXF6MHZZRnVfRnoxLWc?oc=5"
+  },
+  {
    "id": "599ffc20d71c",
    "date": "2026-11-10",
    "published": "2026-11-10T11:55+01:00",
@@ -1406,6 +2071,27 @@
    "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/"
   },
   {
+   "id": "f8e27088a7dc",
+   "date": "2026-11-10",
+   "published": "2026-11-10T12:00+01:00",
+   "headline": "Agentische KI im Banking: Software übernimmt ganze Prozesse",
+   "summary": "In einer Podcastfolge der Computerwoche erläutert ein KPMG-Experte, wie spezialisierte KI-Agenten im Finanzsektor über reine Assistenzfunktionen hinausgehen und komplexe Geschäftsprozesse autonom abwickeln. Besprochen werden der erwartete Effizienzsprung und die regulatorischen Vorgaben, die Banken dabei einhalten müssen.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "ki-agenten",
+    "banken",
+    "automatisierung",
+    "regulierung"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-11-11T09:47:20+01:00",
+   "quelle_titel": "Podcast: KI im Banking, Agenten übernehmen komplexe Prozesse",
+   "url": "https://www.computerwoche.de/article/4239731/podcast-ki-im-banking-agenten-ubernehmen-komplexe-prozesse.html"
+  },
+  {
    "id": "04b1bd53773f",
    "date": "2026-11-10",
    "published": "2026-11-10T12:14+01:00",
@@ -1426,6 +2112,529 @@
    "quelle_titel": "Dax-Konzern - Milliardengeschäft Rechenzentren: Gewinnsprung dank des KI-Booms bei Chiphersteller Infineon",
    "url": "https://www.deutschlandfunk.de/milliardengeschaeft-rechenzentren-gewinnsprung-dank-des-ki-booms-bei-chiphersteller-infineon-100.html",
    "dup_of": "e2ea2d892b04"
+  },
+  {
+   "id": "dcdc55458886",
+   "date": "2026-11-10",
+   "published": "2026-11-10T12:58+01:00",
+   "headline": "Indexierung als blinder Fleck beim Datenschutz in KI-Projekten",
+   "summary": "Mit dem breiten Einsatz von KI in Unternehmen rückt ein wenig beachteter Schritt in den Fokus: die Indexierung von Daten, damit KI-Systeme überhaupt darauf zugreifen können. Der Beitrag ordnet diesen unsichtbaren Verarbeitungsschritt datenschutzrechtlich ein. Wer KI in mehreren Abteilungen ausrollt, muss ihn in Verarbeitungsverzeichnis und Rechtsgrundlagen berücksichtigen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "datenschutz",
+    "dsgvo",
+    "indexierung",
+    "unternehmens-ki"
+   ],
+   "source": "Datenschutz-Notizen",
+   "source_id": "datenschutz-notizen",
+   "added": "2026-11-11T09:47:20+01:00",
+   "quelle_titel": "Indexierung, ein unsichtbarer Verarbeitungsschritt",
+   "url": "https://www.dsn-group.de/datenschutz-notizen/indexierung-ein-unsichtbarer-verarbeitungsschritt"
+  },
+  {
+   "id": "46ecb159c153",
+   "date": "2026-11-10",
+   "published": "2026-11-10T13:00+01:00",
+   "headline": "Kostenlose ChatGPT-Workshops für pflegende Angehörige",
+   "summary": "Die OpenAI Academy bietet in fünf US-Städten kostenlose Praxisworkshops für Menschen an, die Angehörige pflegen oder betreuen. Vermittelt werden alltagstaugliche Fähigkeiten im Umgang mit ChatGPT. Das Programm zeigt, wie Anbieter KI-Kompetenz gezielt in Zielgruppen tragen, die klassische Weiterbildung bisher kaum erreicht.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "openai academy",
+    "ki-kompetenz",
+    "workshops",
+    "pflege"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-11-11T09:47:20+01:00",
+   "quelle_titel": "Helping caregivers use AI in everyday life",
+   "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
+  },
+  {
+   "id": "43b32b75a44d",
+   "date": "2026-11-10",
+   "published": "2026-11-10T14:34+01:00",
+   "headline": "Blick ins Innere der Modelle: Wo Interpretierbarkeit an Grenzen stößt",
+   "summary": "Die Forschung kann immer besser nachvollziehen, wie KI-Modelle zu ihren Antworten kommen. Eine neue Übersichtsarbeit fragt jedoch, in welchen Fällen dieses Verständnis tatsächlich hilft, Fehlverhalten zu verhindern. Das Ergebnis zeigt, dass Erklärbarkeit allein noch keine Sicherheit garantiert.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "interpretierbarkeit",
+    "ki-sicherheit",
+    "studie",
+    "modellanalyse"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-11T09:40:18+01:00",
+   "quelle_titel": "What Scientists Can, and Still Can’t, Learn From AI’s Inner Workings",
+   "url": "https://www.theneuron.ai/explainer-articles/mechanistic-interpretability-ai-safety/"
+  },
+  {
+   "id": "e11d8fcf8258",
+   "date": "2026-11-10",
+   "published": "2026-11-10T15:00+01:00",
+   "headline": "Kora: Linux-System speziell für lokale KI-Modelle",
+   "summary": "Mit Kora entsteht ein neues Linux-Betriebssystem, das sich als Alternative zu Windows und macOS versteht und auf Nutzer zielt, die KI-Modelle lokal betreiben. Hinter dem Projekt steht ein Mitgründer von Cyanogen, der das System auf Power-User und offene KI-Workflows zuschneidet.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "linux",
+    "kora",
+    "lokale ki",
+    "betriebssystem"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-11T09:45:54+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
+   "url": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/"
+  },
+  {
+   "id": "6a09fec6b4d0",
+   "date": "2026-11-10",
+   "published": "2026-11-10T15:37+01:00",
+   "headline": "Was Anleger beim Anthropic-IPO beachten sollten",
+   "summary": "Anthropic bereitet den Gang an die Nasdaq vor und wirbt mit hoher Bewertung sowie bekannten Großinvestoren. Über die Aktienstruktur behalten die Gründer jedoch die Kontrolle, sodass neue Anteilseigner kaum Einfluss auf die strategische Richtung bekommen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "anthropic",
+    "ipo",
+    "investoren",
+    "stimmrechte"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-11-11T09:45:54+01:00",
+   "quelle_titel": "Anthropic-Börsengang: Was Anleger zum KI-Giganten wissen müssen",
+   "url": "https://www.heise.de/news/KI-Unternehmen-Anthropic-plant-Boersengang-an-der-Nasdaq-11519526.html"
+  },
+  {
+   "id": "aea6b4476d53",
+   "date": "2026-11-10",
+   "published": "2026-11-10T15:39+01:00",
+   "headline": "Europaweite Proteste fordern Baustopp für große Rechenzentren",
+   "summary": "An mehreren Orten in Europa haben Aktivistinnen und Aktivisten gegen den Ausbau von Rechenzentren demonstriert, in Amsterdam besetzten sie das Dach eines Microsoft-Neubaus. Die beteiligten Gruppen sind inhaltlich sehr unterschiedlich, eint aber die Forderung nach einem Baustopp für große Anlagen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "rechenzentren",
+    "protest",
+    "umwelt",
+    "microsoft"
+   ],
+   "source": "netzpolitik.org",
+   "source_id": "netzpolitik",
+   "added": "2026-11-11T09:45:54+01:00",
+   "kurios": "Aktivisten klettern auf das Dach eines Microsoft-Rechenzentrums im Bau",
+   "quelle_titel": "Aktionstage zu Rechenzentren: Gegen KI, Kapitalismus und Umweltzerstörung",
+   "url": "https://netzpolitik.org/2026/aktionstage-zu-rechenzentren-gegen-ki-kapitalismus-und-umweltzerstoerung/"
+  },
+  {
+   "id": "906ce32bfa19",
+   "date": "2026-11-10",
+   "published": "2026-11-10T16:03+01:00",
+   "headline": "AI100-Bericht 2026 bilanziert den Weg der KI in den Alltag",
+   "summary": "Die Langzeitstudie AI100 untersucht in ihrer Ausgabe 2026, wie sich KI technisch entwickelt hat und wie sie Wissenschaft, Wirtschaft und Gesellschaft umformt. Mit Lucie Flek von der Universität Bonn und dem Lamarr-Institut ist auch Forschungsexpertise aus Nordrhein-Westfalen beteiligt.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "ai100",
+    "studie",
+    "lamarr",
+    "gesellschaft"
+   ],
+   "source": "Lamarr Institute",
+   "source_id": "lamarr",
+   "added": "2026-11-11T09:45:54+01:00",
+   "quelle_titel": "AI100 Longitudinal Study Examines How AI Has Evolved, Entered the Mainstream, and Is Reshaping Society",
+   "url": "https://lamarr-institute.org/news/ai100-ai-goes-mainstream/"
+  },
+  {
+   "id": "689fbd26c9c6",
+   "date": "2026-11-10",
+   "published": "2026-11-10T16:49+01:00",
+   "headline": "Omnissa kapselt KI-Agenten in virtuellen Desktops ab",
+   "summary": "Omnissa erweitert sein Portfolio und nutzt virtuelle Desktops als abgeschottete Umgebung, in der KI-Agenten kontrolliert arbeiten können. Das Ziel ist ein souveräner Betrieb, bei dem Unternehmen die Handlungen der Agenten eingrenzen und überwachen können.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-agenten",
+    "virtuelle desktops",
+    "it-sicherheit",
+    "souveränität"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-11T09:45:54+01:00",
+   "quelle_titel": "Omnissa: Virtuelle Desktops als Sicherheitszone für KI",
+   "url": "https://www.heise.de/news/Omnissa-Virtuelle-Desktops-als-Sicherheitszone-fuer-KI-11518404.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "ad5307e21e7a",
+   "date": "2026-11-10",
+   "published": "2026-11-10T17:00+01:00",
+   "headline": "Neuer Detektor markiert KI-geschriebene Mails direkt in Gmail",
+   "summary": "Pangram bietet ein Werkzeug an, das eingehende Nachrichten im Gmail-Postfach auf maschinell erzeugte Texte prüft. Mails, die mit Werkzeugen wie ChatGPT formuliert wurden, werden so direkt in der Übersicht gekennzeichnet.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "ki-detektor",
+    "gmail",
+    "pangram",
+    "textanalyse"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-11T09:45:12+01:00",
+   "praxis": true,
+   "quelle_titel": "Wer schickt dir KI-generierte E-Mails? Mit diesem neuen Pangram-Detektor findest du es heraus",
+   "url": "https://t3n.de/news/wer-schickt-dir-ki-generierte-e-mails-mit-diesem-neuen-pangram-detektor-findest-du-es-heraus-1772654"
+  },
+  {
+   "id": "6fe5ac27a391",
+   "date": "2026-11-10",
+   "published": "2026-11-10T17:29+01:00",
+   "headline": "eco nennt fünf Bedingungen für den Sprung zur autonomen Produktion",
+   "summary": "Der Verband eco beschreibt, wie industrielle KI von einzelnen Vorhersagen zu eigenständigen Entscheidungen in der Fertigung weiterwächst. Fünf Voraussetzungen werden genannt, von vernetzten Maschinen bis zu verlässlicher und sicherer Autonomie, mit dem Ziel weniger Stillstände und höherer Wettbewerbsfähigkeit.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "industrielle ki",
+    "automatisierung",
+    "eco",
+    "fertigung"
+   ],
+   "source": "eco Verband",
+   "source_id": "eco",
+   "added": "2026-11-11T09:45:12+01:00",
+   "quelle_titel": "Von KI-Piloten zu autonomen Produktionsprozessen: Fünf Voraussetzungen für die industrielle KI der Zukunft",
+   "url": "https://www.eco.de/presse/von-ki-piloten-zu-autonomen-produktionsprozessen-fuenf-voraussetzungen-fuer-die-industrielle-ki-der-zukunft/"
+  },
+  {
+   "id": "69c0f522cdf8",
+   "date": "2026-11-10",
+   "published": "2026-11-10T17:34+01:00",
+   "headline": "Alibaba will Chipsparte T-Head in Hongkong an die Börse bringen",
+   "summary": "Alibaba hat für seine Halbleitereinheit T-Head einen Börsengang in Hongkong beantragt. Damit soll die Sparte eigenständig Kapital aufnehmen können, um die Entwicklung von KI-Chips in China voranzutreiben.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "alibaba",
+    "halbleiter",
+    "boersengang",
+    "china"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-11T09:45:12+01:00",
+   "quelle_titel": "Halbleiterproduktion in China: Alibaba beantragt Börsengang für T-Head in Hongkong",
+   "url": "https://www.golem.de/news/halbleiterproduktion-in-china-alibaba-beantragt-boersengang-fuer-t-head-in-hongkong-2611-215054.html"
+  },
+  {
+   "id": "e2117a1184bb",
+   "date": "2026-11-10",
+   "published": "2026-11-10T17:59+01:00",
+   "headline": "Meta öffnet GPU-Compiler TLX für feinere Steuerung von Triton-Kernels",
+   "summary": "Meta beschreibt mit TLX eine Erweiterung von Triton, die Entwicklern direkten Zugriff auf Warp-Gruppen und Cluster-Ebene der GPU gibt, ohne das gewohnte Programmiermodell zu verlassen. Laut Meta bringt das messbare Beschleunigung bei Empfehlungssystemen und beim Vortraining großer Sprachmodelle.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "gpu",
+    "compiler",
+    "triton",
+    "infrastruktur"
+   ],
+   "source": "Meta (Engineering, ML)",
+   "source_id": "meta-ai",
+   "added": "2026-11-11T09:45:12+01:00",
+   "praxis": true,
+   "quelle_titel": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale",
+   "url": "https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/"
+  },
+  {
+   "id": "a162d031ecce",
+   "date": "2026-11-10",
+   "published": "2026-11-10T18:00+01:00",
+   "headline": "Meta öffnet Facebook-Empfehlungen: Nutzer steuern Interessen per Sprache",
+   "summary": "Mit Your Algorithm bündelt Meta mehrere KI-Werkzeuge, die die Empfehlungen in Feed und Reels nachvollziehbarer und direkt steuerbar machen sollen. Nutzende sehen ihre erkannten Interessen in einer bearbeitbaren Übersicht und können Wünsche in natürlicher Sprache formulieren. Meta beschreibt zudem, wie einzelne Sprachmodelle im System auf bestimmte Teilaufgaben zugeschnitten werden.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "facebook",
+    "empfehlungssysteme",
+    "llm",
+    "transparenz"
+   ],
+   "source": "Meta (Engineering, ML)",
+   "source_id": "meta-ai",
+   "added": "2026-11-11T09:44:32+01:00",
+   "quelle_titel": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations",
+   "url": "https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/"
+  },
+  {
+   "id": "32372823b998",
+   "date": "2026-11-10",
+   "published": "2026-11-10T18:00+01:00",
+   "headline": "Spionageverdacht bei Nvidia: Vermittlerin versprach Investoren KI-Chips",
+   "summary": "Recherchen zufolge soll eine Frau aus dem Umfeld des Nvidia-Chefs Investoren exklusiven Zugang zu knappen KI-Beschleunigern und Kontakte zu Alibaba angeboten haben. Der Fall wirft Fragen zur Abschottung sensibler Lieferketten und zum Graumarkt für Rechenleistung auf.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nvidia",
+    "spionage",
+    "ki-chips",
+    "alibaba"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-11T09:45:12+01:00",
+   "kurios": "Mutmaßliche Spionin soll Chipzugang als Investment verkauft haben",
+   "paywall": true,
+   "quelle_titel": "(g+) Spionageaffäre um Nvidia-Chef: Mutmaßliche Spionin wollte offenbar KI-Chips vermarkten",
+   "url": "https://www.golem.de/news/spionageaffaere-um-nvidia-chef-mutmassliche-spionin-wollte-offenbar-ki-chips-vermarkten-2611-215046.html"
+  },
+  {
+   "id": "7b164d6be26a",
+   "date": "2026-11-10",
+   "published": "2026-11-10T18:00+01:00",
+   "headline": "AMD bringt Epyc mit Zen 6 und wirbt mit Vorteilen für KI-Agenten",
+   "summary": "AMD hat seine neuen Server-Prozessoren mit Zen-6-Architektur vorgestellt. Erste Messungen zeigen einen klaren Leistungssprung gegenüber der Vorgängergeneration, der laut Hersteller besonders agentischen KI-Anwendungen zugutekommen soll.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "amd",
+    "zen 6",
+    "epyc",
+    "hardware",
+    "agenten"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-11-11T09:45:12+01:00",
+   "quelle_titel": "AMD Zen 6 soll agentische KI beflügeln: Erste Leistungswerte",
+   "url": "https://www.heise.de/news/AMD-Zen-6-soll-agentische-KI-befluegeln-Erste-Leistungswerte-11518546.html"
+  },
+  {
+   "id": "1149c53cf129",
+   "date": "2026-11-10",
+   "published": "2026-11-10T18:21+01:00",
+   "headline": "DAX verliert Schwung: Nvidia-Affäre bremst Erholung nach KI-Ausverkauf",
+   "summary": "Der deutsche Leitindex hatte die Verluste des vom KI-Sektor ausgelösten Kurseinbruchs vom Freitag zwischenzeitlich wieder ausgeglichen. Neue Informationen zur Affäre um Nvidia dämpften die Aufholjagd im Tagesverlauf jedoch deutlich. Das zeigt, wie stark einzelne Nachrichten aus dem KI-Umfeld inzwischen auf den Gesamtmarkt durchschlagen.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "dax",
+    "börse",
+    "nvidia",
+    "ki-aktien",
+    "marktbericht"
+   ],
+   "source": "tagesschau",
+   "source_id": "tagesschau",
+   "added": "2026-11-11T09:44:32+01:00",
+   "quelle_titel": "Marktbericht: Der DAX wird zurückgepfiffen",
+   "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nvidia-104.html"
+  },
+  {
+   "id": "a548f4bc427d",
+   "date": "2026-11-10",
+   "published": "2026-11-10T18:32+01:00",
+   "headline": "Streit um KI im Indie-Gaming: Jury-Boykott trifft Erfolgsspiel Big Walk",
+   "summary": "Mehrere Jurymitglieder des Independent Games Festival haben erklärt, keine Spiele mehr zu wählen, die generative KI in irgendeiner Form einsetzen. Kurz darauf räumte das Team hinter dem Indie-Erfolg Big Walk ein, in der Schlussphase der Entwicklung punktuell KI genutzt zu haben. Der Fall zeigt, wie unklar Offenlegung und Grenzen von KI-Einsatz in der Kreativbranche derzeit sind.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "games",
+    "generative ki",
+    "ethik",
+    "transparenz",
+    "kreativbranche"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-11T09:44:32+01:00",
+   "quelle_titel": "The indie game community is in disarray over AI and Big Walk",
+   "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai"
+  },
+  {
+   "id": "3e1919c777ea",
+   "date": "2026-11-10",
+   "published": "2026-11-10T19:56+01:00",
+   "headline": "NaiveAI im Praxistest: Extrem hohes Tempo bei brauchbarer Code-Qualität",
+   "summary": "Das Modell NaiveAI erreicht nach Angaben des Anbieters rund 2.100 Token pro Sekunde und könnte damit die Geschwindigkeitsranglisten anführen. Ein eigener Praxistest prüft, ob die Qualität beim Programmieren mit diesem Tempo mithält, und sieht sie auf Augenhöhe mit DeepSeek. Für Entwicklerteams ist vor allem interessant, dass hohe Ausgabegeschwindigkeit offenbar nicht zwingend zulasten der Codequalität geht.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "naiveai",
+    "coding",
+    "benchmark",
+    "inferenz",
+    "deepseek"
+   ],
+   "source": "Latent Space",
+   "source_id": "latent-space",
+   "added": "2026-11-11T09:44:32+01:00",
+   "praxis": true,
+   "quelle_titel": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+   "url": "https://latent.space/p/naiveai/"
+  },
+  {
+   "id": "5d01611fd6de",
+   "date": "2026-11-10",
+   "published": "2026-11-10T20:04+01:00",
+   "headline": "Nvidia-Chef als Spionageziel: Risiko im Zentrum des KI-Wettlaufs",
+   "summary": "Der Bericht beleuchtet, warum Nvidia-Chef Jensen Huang zu einem naheliegenden Ziel für Spionage geworden ist. Er führt einen der wertvollsten Konzerne der Welt, kontrolliert die für den KI-Boom entscheidende Chiptechnik und ist in Politik und Wirtschaft bestens vernetzt. Damit wird deutlich, wie stark die technologische Führungsposition der USA von einzelnen Personen und Lieferketten abhängt.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nvidia",
+    "spionage",
+    "chips",
+    "geopolitik"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-11T09:43:38+01:00",
+   "quelle_titel": "The US is winning the AI race. Jensen Huang could have blown it",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy"
+  },
+  {
+   "id": "2ec4f6ad3a8d",
+   "date": "2026-11-10",
+   "published": "2026-11-10T21:05+01:00",
+   "headline": "Produkte für KI-Agenten bauen: Was Resend aus seiner Doku gelernt hat",
+   "summary": "Zeno Rocha von Resend erklärt, wie sich Produktgestaltung verändert, wenn nicht Menschen, sondern Coding-Agenten die Auswahl treffen. Thema ist unter anderem, wie Dokumentation und Werkzeuge aufgebaut sein müssen, damit ein Agent wie Claude Code die eigene Schnittstelle versteht und korrekt nutzt. Dabei wird auch die Grenze zwischen Sichtbarkeit in Antwortmaschinen und echter Agent Experience diskutiert.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-agenten",
+    "entwicklung",
+    "dokumentation",
+    "api"
+   ],
+   "source": "Latent Space",
+   "source_id": "latent-space",
+   "added": "2026-11-11T09:43:38+01:00",
+   "praxis": true,
+   "quelle_titel": "Designing for Agents, Zeno Rocha, Resend",
+   "url": "https://latent.space/p/resend/"
+  },
+  {
+   "id": "2dcde4b66566",
+   "date": "2026-11-10",
+   "published": "2026-11-10T21:30+01:00",
+   "headline": "Mathematiker fragt: Was bleibt von der Mathematik, wenn KI die Antworten liefert",
+   "summary": "Der Mathematiker Steven Strogatz spricht über sein neues Buch und die Rolle der Mathematik in einer Welt voller Algorithmen. Im Zentrum steht die Frage, wie sich das Fach verändert, wenn KI-Systeme Beweise und Lösungen scheinbar auf Abruf liefern. Diskutiert wird damit auch, welche Aufgaben für Menschen im Erkenntnisprozess bleiben.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "mathematik",
+    "wissenschaft",
+    "ki-beweise",
+    "buch"
+   ],
+   "source": "Ars Technica AI",
+   "source_id": "ars-ai",
+   "added": "2026-11-11T09:43:38+01:00",
+   "quelle_titel": "What happens to mathematics when AI becomes an oracle?",
+   "url": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/"
+  },
+  {
+   "id": "581b3fc93c1e",
+   "date": "2026-11-10",
+   "published": "2026-11-10T21:34+01:00",
+   "headline": "Lobbyschlacht in Washington um Importstopp für chinesische Transceiver",
+   "summary": "US-Technologiekonzerne setzen sich in Washington gegen ein geplantes Importverbot für optische Transceiver aus China ein. Die Bauteile sind für den Netzausbau in Rechenzentren zentral, weshalb ein Verbot die Infrastruktur für KI-Dienste direkt treffen würde. Als politischer Kompromiss gilt ein Verbot, das in der Praxis kaum Wirkung hätte.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "handelspolitik",
+    "rechenzentren",
+    "hardware",
+    "china"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-11T09:43:38+01:00",
+   "quelle_titel": "USA: Tech-Lobby kämpft gegen Importverbot für optische Transceiver aus China",
+   "url": "https://www.heise.de/news/USA-Tech-Lobby-kaempft-gegen-Importverbot-fuer-optische-Transceiver-aus-China-11519990.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "571fb0494bf3",
+   "date": "2026-11-10",
+   "published": "2026-11-10T22:08+01:00",
+   "headline": "OpenAI kauft Reise-Startup Odessia und holt sich Branchenkenner an Bord",
+   "summary": "OpenAI übernimmt das Reise-Startup Odessia, das vom Sonder-Gründer Francis Davidson aufgebaut wurde. Was mit dem Team und der Technik genau passieren soll, ist bislang offen. Der Zukauf deutet aber darauf hin, dass OpenAI das Reisesegment als Anwendungsfeld für eigene Assistenzdienste prüft.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "übernahme",
+    "reise",
+    "startup"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-11T09:43:38+01:00",
+   "quelle_titel": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+   "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
+  },
+  {
+   "id": "e1c52605d71d",
+   "date": "2026-11-10",
+   "published": "2026-11-10T23:37+01:00",
+   "headline": "25 Millionen Dollar für Lumbra und kontrollierbare KI-Agenten",
+   "summary": "Das Start-up Lumbra hat in einer Series-A-Runde 25 Millionen US-Dollar eingesammelt. Das Geld soll in den Ausbau von Lösungen fließen, mit denen sich KI-Agenten kontrolliert in Unternehmen einsetzen lassen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "finanzierung",
+    "ki-agenten",
+    "startup",
+    "enterprise"
+   ],
+   "source": "Unite.AI",
+   "source_id": "gn-startups",
+   "added": "2026-11-11T09:42:38+01:00",
+   "quelle_titel": "Lumbra sammelt 25 Millionen US-Dollar in Series-A-Finanzierungsrunde ein, um kontrollierte Einsätze von KI-Agenten auszuweiten",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ2xQNW5Da0VhRzhITEcyWFdRWGpqMnQ4WFVBVGEtTHQxODdCMmpzbjhmeXhQX2ZMVTI0bDVKaHhLZnJZQzJudTBrbGtDSDQ3STR3LW9MRk5QSERJMVVvaHpQZVdJTDEwaWtncWV1Vkh0TmhFZG9yVEZINkxrWGVTejkyZXhyZmRYZUN2Mk5YRFE4Y2tzLWJTTw?oc=5"
   },
   {
    "id": "9b0466c1eb02",
@@ -1515,6 +2724,27 @@
    "url": "https://t3n.de/news/one-ui-9-5-wie-samsung-bixby-in-einen-ki-agenten-verwandeln-will-1772528"
   },
   {
+   "id": "b9effd97caba",
+   "date": "2026-11-10",
+   "published": "2026-11-10T10:17+01:00",
+   "headline": "Chery will vom Autobauer zum KI-Konzern werden",
+   "summary": "Der chinesische Hersteller Chery richtet seine Konzernstrategie neu aus und versteht sich künftig weniger als klassischer Fahrzeugbauer, sondern als Technologie- und KI-Unternehmen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "chery",
+    "automobil",
+    "ki-strategie",
+    "china"
+   ],
+   "source": "autoservicepraxis.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-11T09:47:20+01:00",
+   "quelle_titel": "Chery-Konzernstrategie: Vom Blechbieger zum KI-Konzern",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNWxkSkV3bzFENHlTVUs0QndKd01MZXRMcmNsMzAtbzZ3a1JRWllNLVFhczRkYXlId2JrOHdFZnlDenI4MS1OMFphRWp1b05EWnlacDBYa1ZJeGJlVW1jdDhackVTN3BzaGotZzR4cHV3NnUwX25UUHBEbHVmZjBLNDdwUnZNV0VMSXRGUGtJSG5IbUJaZUVVdi1UWVhDcGhjZnNQRFJwT3BuRzVYQWdOdjhxWW5mbDM4V0E?oc=5"
+  },
+  {
    "id": "588d836ddd1c",
    "date": "2026-11-10",
    "published": "2026-11-10T10:55+01:00",
@@ -1534,6 +2764,71 @@
    "added": "2026-11-10T12:20:17+01:00",
    "quelle_titel": "Das kann iOS 27.3 Beta: Apple bringt Health-App und KI-Tools",
    "url": "https://t3n.de/news/ios-27-3-beta-funktionen-health-ki-1771753"
+  },
+  {
+   "id": "8ba4b7e942d0",
+   "date": "2026-11-10",
+   "published": "2026-11-10T17:23+01:00",
+   "headline": "Analyse sieht Infineon nach Kursdelle wieder im Aufwind",
+   "summary": "Nach mehreren Monaten Korrektur halten Analysten bei der Infineon-Aktie eine Erholung für wahrscheinlich. Treiber ist die anhaltende Nachfrage nach Halbleitern für KI-Anwendungen, die langfristig sogar eine Verdopplung des Kurses möglich erscheinen lässt.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 2,
+   "tags": [
+    "infineon",
+    "aktie",
+    "halbleiter",
+    "boerse"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-11T09:45:12+01:00",
+   "paywall": true,
+   "quelle_titel": "Aktienanalyse: Die Infineon-Aktie könnte auf 100 Euro steigen",
+   "url": "https://www.wiwo.de/finanzen/boerse/infineon-aktie-warum-das-papier-auf-100-euro-steigen-koennte/100268701.html"
+  },
+  {
+   "id": "69e1432734d3",
+   "date": "2026-11-10",
+   "published": "2026-11-10T21:48+01:00",
+   "headline": "SPARETECH holt 20 Millionen Dollar für Expansion nach Nordamerika",
+   "summary": "Das Softwareunternehmen SPARETECH hat in einer Serie-B-Runde 20 Millionen US-Dollar eingesammelt. Das Geld soll vor allem das Wachstum im nordamerikanischen Markt finanzieren.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 2,
+   "tags": [
+    "finanzierung",
+    "serie b",
+    "industrie",
+    "expansion"
+   ],
+   "source": "Unite.AI",
+   "source_id": "gn-startups",
+   "added": "2026-11-11T09:43:38+01:00",
+   "quelle_titel": "SPARETECH sichert sich 20 Millionen US-Dollar in einer Finanzierungsrunde der Serie B für Wachstum in Nordamerika",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdXozQUhWV2xRWnN2VDM5U3JneDVsMVdKMUNRc29kdmZHUWVPejRib3pQTEU5M2l4cEpDMktrX2NOS3JLUV9scldZZFp5V3N3ckFhdkJQTW05YlVoYzFDaG9hNTlHdFNVbTEzWkxHMks5RmJNRGRCVG9Kei1HOVFGeVVqamNwdThMOTlUal9UMnE3SG8?oc=5"
+  },
+  {
+   "id": "9531c706dbfc",
+   "date": "2026-11-10",
+   "published": "2026-11-10T23:35+01:00",
+   "headline": "Amazon schickt Überwachungsdrohne und Hausroboter von Ring auf Patrouille",
+   "summary": "Amazon erweitert seine Ring-Produktfamilie um mobile Geräte mit KI-Funktionen, darunter eine fliegende Sicherheitsdrohne und einen rollenden Roboter für den Innenraum. Der Marktstart ist für Ende 2026 und Anfang 2027 geplant. Damit wandert Videoüberwachung von der festen Kamera zu selbst fahrenden und fliegenden Systemen, was neue Datenschutzfragen aufwirft.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "amazon",
+    "ring",
+    "drohne",
+    "robotik",
+    "überwachung"
+   ],
+   "source": "Ars Technica AI",
+   "source_id": "ars-ai",
+   "added": "2026-11-11T09:42:38+01:00",
+   "quelle_titel": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+   "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/"
   },
   {
    "id": "5d4d107e91ec",
