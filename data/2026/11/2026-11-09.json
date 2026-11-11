@@ -1,38 +1,38 @@
 {
  "date": "2026-11-09",
- "generated_at": "2026-11-10T12:32:35+01:00",
+ "generated_at": "2026-11-11T08:20:07+01:00",
  "overview": [
   {
    "id": "ffe8a09e969f",
-   "text": "Anthropic stellt mit Claude Fable 5.2 und Claude Mythos 5.2 zwei Spitzenmodelle für Programmierung, Finanzthemen und Wissenschaft vor."
+   "text": "Anthropic stellt Claude Fable 5.2 und Mythos 5.2 vor und bewirbt beide als seine stärksten Modelle für Programmieren, Finanzthemen und Wissenschaft."
   },
   {
    "id": "1f917ef42e11",
-   "text": "Beim Arbeiten mit Claude Code gelangen laut Berichten tausende Passwörter und API-Schlüssel ungewollt in öffentliche GitHub-Repositories."
+   "text": "Beim Einsatz von Claude Code gelangen offenbar tausende Passwörter und API-Schlüssel ungewollt in öffentliche GitHub-Repositories."
   },
   {
    "id": "f2c862d9205e",
-   "text": "Vodafone streicht oder verlagert in Deutschland rund 2.300 Stellen und will Verwaltungsaufgaben künftig deutlich stärker automatisieren."
+   "text": "Vodafone streicht oder verlagert in Deutschland rund 2.300 Stellen, etwa ein Fünftel der Belegschaft, und will Verwaltungsaufgaben automatisieren."
   },
   {
    "id": "9156712f040d",
-   "text": "Ein neuer Ifo-Frühindikator zeigt: KI verschlechtert vor allem die Einstiegschancen von Berufsanfängern, ein großer Stellenabbau bleibt aus."
-  },
-  {
-   "id": "e61974b14b05",
-   "text": "Nvidia-Chef Jensen Huang steht wegen einer Beziehung zu einer mutmaßlichen chinesischen Spionin unter Druck, US-Behörden wussten offenbar früh davon."
+   "text": "Ein neuer Ifo-Frühindikator zeigt: KI verschlechtert zuerst die Jobchancen von Berufseinsteigern, ein breiter Stellenabbau bleibt bislang aus."
   },
   {
    "id": "3e1396d3a113",
-   "text": "Die Telekom verdoppelt die Leistung ihrer Münchner KI-Fabrik und investiert dafür weitere 250 Millionen Euro, weil die Kapazität ausgebucht ist."
+   "text": "Die Telekom verdoppelt ihre Münchner KI-Fabrik für weitere 250 Millionen Euro, weil die Rechenleistung schon nach sieben Monaten ausgebucht war."
   },
   {
-   "id": "a1b8e6960ad0",
-   "text": "Google erweitert seine TPU-Reihe um zwei Varianten und bringt die eigenen Chips mit knapp 100 externen Kunden als Alternative zu Nvidia in Stellung."
+   "id": "9c3b08c96c1f",
+   "text": "Alphabet, Amazon, Meta, Microsoft und Oracle treiben mit Milliarden für Rechenzentren ihre Verbindlichkeiten hoch, große Abschreibungen drohen."
   },
   {
    "id": "4f344c8afec2",
-   "text": "Ein KI-System liefert den seit 2009 gesuchten Beweis zur Aaronson-Ambainis-Vermutung und bestätigt damit Grenzen der Quantenrechenleistung."
+   "text": "Ein KI-System hat die seit 2009 offene Aaronson-Ambainis-Vermutung bewiesen und damit die begrenzte Rechenmacht von Quantencomputern bestätigt."
+  },
+  {
+   "id": "da795f292411",
+   "text": "Scott Wiener gewinnt Pelosis Mandat in San Francisco und will seine kalifornischen KI-Regeln nun im Kongress auf Bundesebene durchsetzen."
   }
  ],
  "items": [
@@ -56,15 +56,8 @@
    "added": "2026-11-10T12:25:02+01:00",
    "quelle_titel": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "kontext": "Fable und Mythos beruhen auf demselben Modell und unterscheiden sich vor allem in den Schutzmechanismen: Fable ist mit Sperren für Cyber- und Biologiethemen für alle Nutzer offen, Mythos nur nach Prüfung für ausgewählte Forschungsvorhaben. Als Belege nennt Anthropic etwa zuvor unlösbare Softwaremigrationen und formale mathematische Beweise. Trotz mehr Leistung arbeiten beide schneller und kosten weniger als die Vorgänger. Für den Alltag empfiehlt die Firma weiterhin Opus 5.5.",
    "also": [
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/anthropic-fable-5-2-und-mythos-5-2-legen-deutlich-zu-2611-215015.html"
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Anthropic-Claude-Fable-5-2-ist-guenstiger-aber-Tempo-kostet-extra-11518102.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
     {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/newsletter/anthropic-released-claude-fable-5-2/"
@@ -72,6 +65,14 @@
     {
      "source": "Latent Space",
      "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/anthropic-fable-5-2-und-mythos-5-2-legen-deutlich-zu-2611-215015.html"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Anthropic-Claude-Fable-5-2-ist-guenstiger-aber-Tempo-kostet-extra-11518102.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
      "source": "The Decoder",
@@ -85,8 +86,7 @@
      "source": "The Verge AI",
      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
     }
-   ],
-   "kontext": "Fable und Mythos beruhen auf demselben Modell und unterscheiden sich vor allem in den Schutzmechanismen: Fable ist mit Sperren für Cyber- und Biologiethemen für alle Nutzer offen, Mythos nur nach Prüfung für ausgewählte Forschungsvorhaben. Als Belege nennt Anthropic etwa zuvor unlösbare Softwaremigrationen und formale mathematische Beweise. Trotz mehr Leistung arbeiten beide schneller und kosten weniger als die Vorgänger. Für den Alltag empfiehlt die Firma weiterhin Opus 5.5."
+   ]
   },
   {
    "id": "f2c862d9205e",
@@ -367,7 +367,7 @@
    "quelle_titel": "KI-Firma: Huang räumt Affäre ein: Chiphersteller Nvidia prüft Verdacht der ausländischen Spionage gegen Chef",
    "url": "https://www.handelsblatt.com/technik/ki/ki-firma-nvidia-prueft-verdacht-der-auslaendischen-spionage-gegen-chef/100268272.html",
    "kontext": "Nvidia reagiert mit einer internen Untersuchung auf Medienberichte, wonach Huang ins Visier ausländischer Spionage geraten sein soll. Weil der Gründer den Konzern selbst führt und dessen Strategie prägt, treffen Zweifel an seiner Person unmittelbar das gesamte Unternehmen. Nvidias Chips bilden die Grundlage nahezu aller großen KI-Vorhaben, entsprechend genau schauen Politik und Investoren hin. Belegt ist der Verdacht bislang nicht.",
-   "dup_of": "eb0c65b2b58f"
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "925f0146006d",
@@ -391,7 +391,7 @@
    "quelle_titel": "Untersuchung gegen Nvidia-Chef Huang wegen möglicher Spionin aus China",
    "url": "https://www.tagesschau.de/ausland/amerika/nvidia-spionage-pruefung-100.html",
    "kontext": "Auslöser sind Berichte, nach denen der Nvidia-Gründer ins Visier einer chinesischen Spionageoperation geriet. Die betroffene Frau war früher Managerin beim Chipunternehmen Megaspeed aus Singapur; ein unter US-Politikern zirkulierendes Papier behauptet eine Anwerbung durch den chinesischen Staatssicherheitsdienst. Der Verwaltungsrat beauftragt unabhängige Direktoren und externe Juristen mit der Prüfung. Bislang sieht er keine Anzeichen dafür, dass Firmengeheimnisse oder nationale Sicherheit berührt wurden.",
-   "dup_of": "eb0c65b2b58f"
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "ea95b2ca1e71",
@@ -482,7 +482,8 @@
    "added": "2026-11-09T07:21:53+01:00",
    "quelle_titel": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
    "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-   "kontext": "Ausgelöst wurde die Prüfung, nachdem Huang seine Belegschaft selbst über eine außereheliche Beziehung informiert hatte. Pikant ist die Person: eine Managerin des Unternehmens Megaspeed, die US-Behörden für eine Informantin Pekings halten. Angeklagt wurde bisher niemand, Chinas Botschaft spricht von Verleumdung, und der Verwaltungsrat sieht keine Hinweise auf abgeflossene Geheimnisse. Sonnenfeld, der Huang aus Yale-Managertreffen kennt, hält dessen Karriere für rettbar, nennt das Verhalten aber grob unvorsichtig."
+   "kontext": "Ausgelöst wurde die Prüfung, nachdem Huang seine Belegschaft selbst über eine außereheliche Beziehung informiert hatte. Pikant ist die Person: eine Managerin des Unternehmens Megaspeed, die US-Behörden für eine Informantin Pekings halten. Angeklagt wurde bisher niemand, Chinas Botschaft spricht von Verleumdung, und der Verwaltungsrat sieht keine Hinweise auf abgeflossene Geheimnisse. Sonnenfeld, der Huang aus Yale-Managertreffen kennt, hält dessen Karriere für rettbar, nennt das Verhalten aber grob unvorsichtig.",
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "31d15108bee9",
@@ -506,7 +507,113 @@
    "paywall": true,
    "quelle_titel": "Chiphersteller: Huang räumt Affäre ein: Nvidia prüft Verdacht der ausländischen Spionage gegen seinen Chef",
    "url": "https://www.handelsblatt.com/technik/ki/jensen-huang-nvidia-prueft-verdacht-der-auslaendischen-spionage-gegen-chef/100268272.html",
-   "dup_of": "eb0c65b2b58f"
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
+    },
+    {
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+     "paywall": true
+    },
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnBRaFBRTlo1NU12ZHoxR2VPaTUwVDM5UlExcHRWV2xwTzY2MzJRS004d2t6eXlCM1E5ek42SmllYlpFTW53OWdmVV9hczBMRHBEbG90cTV5LTNRbmwzQmlBRkVvYk5OdG51TWFSSkRLQWNsdmRZNWJtNl9xdmtyanB2VmMtcmJiajdETGtuRElaVUVOVENrT2FSOEdQcm1kd01DVUFRSGU0cE9xbm9IX05rRGtLeGwtcWsyU1JB?oc=5",
+     "paywall": true
+    },
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
+    },
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/ausland/amerika/nvidia-spionage-pruefung-100.html"
+    },
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-spionage-pruefung-100.html"
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-firma-nvidia-prueft-verdacht-der-auslaendischen-spionage-gegen-chef/100268272.html",
+     "paywall": true
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/nvidia-chef-jensen-huang-affaere-mit-mutmasslicher-chinesischer-spionin-loest-interne-untersuchung-aus-1772265"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/jensen-huang-affair-ai-chip-security-concerns/"
+    },
+    {
+     "source": "ZDFheute",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1VELVNpUGlTY0lhdXQwOVFxTWRpcVZNbGFkc19PTmctOF9jaWxENmQ5RHRFT3ZCSi1HbGQ1WlQ5RVVuSkQxT1lXd3E3c2V0Zm5teE9FTDVxQXM3ck1vMVVkeUE2UkR0djRteEhFSVBfV1NUZ2dlYUtid0I2UVFRSlkwekdMXzFWMkhXSk45WHhLT1g4eXRn?oc=5"
+    },
+    {
+     "source": "stern Digital",
+     "url": "https://www.stern.de/digital/chip-riese--affaere-des-nvidia-chefs-erschuettert-tech-industrie-38519484.html"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-chip-riese-affare-des-nvidia-chefs-erschuttert-tech-industrie-16259329.html",
+     "paywall": true
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-chip-riese-nvidia-chef-hatte-affare-mit-moglicher-chinesischer-spionin-16259329.html",
+     "paywall": true
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/jensen-huang-was-die-spionage-affaere-fuer-nvidia-bedeutet-2611-214986.html"
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-chiphersteller-was-den-nvidia-skandal-so-brisant-macht/100268396.html",
+     "paywall": true
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me"
+    },
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/unternehmen/it/nvidia-chef-was-wenn-jensen-huang-gar-nicht-so-wichtig-ist/100268458.html",
+     "paywall": true
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/"
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/nvidia-spionageaffaere-liefert-us-demokraten-die-perfekte-vorlage-fuer-schaerfere-ki-chip-exportkontrollen/"
+    },
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/technologie/digitale-welt/chip-riese-nvidia-chef-hatte-affaere-mit-moeglicher-chinesischer-spionin/100268299.html",
+     "paywall": true
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/jensen-huang-fbi-ermittelt-zum-spionageverdacht-bei-nvidia-2611-215024.html"
+    }
+   ],
+   "kontext": "Ausgangspunkt ist ein Bericht der Financial Times über Huangs Verhältnis zu einer Managerin des Singapurer Nvidia-Kunden Megaspeed, die US-Dienste dem chinesischen Staatssicherheitsministerium zurechnen. Huang entschuldigte sich intern bei Belegschaft und Familie, der Verwaltungsrat beauftragte einen früheren US-Staatsanwalt mit einer unabhängigen Prüfung. Nvidia sieht bislang keine Hinweise auf abgeflossene Geheimnisse. Politisch heikel ist der Fall, weil Huang zugleich als Fürsprecher von Chipexporten nach China gilt."
   },
   {
    "id": "d0625ef78ca1",
@@ -661,7 +768,7 @@
    "quelle_titel": "Anthropic vor dem Mega-Börsengang: Was Anleger jetzt wissen müssen",
    "url": "https://t3n.de/news/anthropic-vor-dem-mega-boersengang-was-anleger-jetzt-wissen-muessen-1772164",
    "kontext": "Anthropic ist erst fünf Jahre alt und könnte laut Wall Street Journal über hundert Milliarden Dollar einsammeln, womit selbst der bisherige Rekordhalter SpaceX übertroffen würde. Es wäre der größte Börsengang der Geschichte, getragen von der Erwartung dauerhaft steigender Nachfrage nach KI-Diensten. Weil das Wachstum weiter von tiefroten Zahlen begleitet wird, bleibt die Bewertung angreifbar. Für die gesamte Branche wird der Schritt zum Stimmungstest.",
-   "dup_of": "6289435bdbbd"
+   "dup_of": "26b496ffaa34"
   },
   {
    "id": "571e73e4b92b",
@@ -708,7 +815,7 @@
    "added": "2026-11-09T13:09:38+01:00",
    "quelle_titel": "Nvidia-Spionageaffäre liefert US-Demokraten die perfekte Vorlage für schärfere KI-Chip-Exportkontrollen",
    "url": "https://the-decoder.de/nvidia-spionageaffaere-liefert-us-demokraten-die-perfekte-vorlage-fuer-schaerfere-ki-chip-exportkontrollen/",
-   "dup_of": "eb0c65b2b58f"
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "d0b5d78b0c0d",
@@ -753,7 +860,7 @@
    "kurios": "Spionageaffäre um den wichtigsten Chef der KI-Industrie bewegt die Börse",
    "quelle_titel": "Chip-Riese: Affäre des Nvidia-Chefs erschüttert Tech-Industrie",
    "url": "https://www.stern.de/digital/chip-riese--affaere-des-nvidia-chefs-erschuettert-tech-industrie-38519484.html",
-   "dup_of": "eb0c65b2b58f"
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "e61974b14b05",
@@ -777,7 +884,8 @@
    "kurios": "Eine Liebesaffäre könnte die globale Chippolitik verschieben.",
    "paywall": true,
    "quelle_titel": "Chip-Riese: US-Regierung wusste schon länger von Huang-Affäre, China streitet Spionage ab",
-   "url": "https://www.wiwo.de/technologie/digitale-welt/chip-riese-nvidia-chef-hatte-affaere-mit-moeglicher-chinesischer-spionin/100268299.html"
+   "url": "https://www.wiwo.de/technologie/digitale-welt/chip-riese-nvidia-chef-hatte-affaere-mit-moeglicher-chinesischer-spionin/100268299.html",
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "0f2e2f7d4e83",
@@ -800,6 +908,28 @@
    "added": "2026-11-10T08:54:48+01:00",
    "quelle_titel": "Künstliche Intelligenz: Telekom verdoppelt KI-Rechenleistung in München",
    "url": "https://www.stern.de/digital/kuenstliche-intelligenz--telekom-verdoppelt-ki-rechenleistung-in-muenchen-38521488.html",
+   "dup_of": "3e1396d3a113"
+  },
+  {
+   "id": "a9fb4d176797",
+   "date": "2026-11-09",
+   "published": "2026-11-09T11:51+01:00",
+   "headline": "Telekom verdoppelt ihre KI-Rechenkapazität am Standort München",
+   "summary": "Die Deutsche Telekom baut ihre Rechenleistung für KI-Anwendungen in München auf das Doppelte aus. Damit stärkt ein deutscher Konzern die hiesige KI-Infrastruktur, die für Unternehmen mit Anforderungen an Datenhoheit besonders relevant ist.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "telekom",
+    "rechenzentrum",
+    "infrastruktur",
+    "münchen"
+   ],
+   "source": "Schwäbische.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-11T08:12:34+01:00",
+   "quelle_titel": "Telekom verdoppelt KI-Rechenleistung in München",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUzdNTEdhTnlKY1hZQ2NuV19aeUxsZEJ6N0JhekhZTjVxNEZ3akZOMWJtOEN2VnlkdjRVTDZoYjlSQmIzRWF2d0NIN1lwSFlaQTNPSzEwMVZSOFFYUkZRMTdhald3eVVSYTlPVUFGVVpxSlU2cS1UeHpCYkNLVHZyOHdBNGtQTWd5WnYyVlY1akREaWxaTjhZT2NmSQ?oc=5",
    "dup_of": "3e1396d3a113"
   },
   {
@@ -1019,6 +1149,10 @@
      "url": "https://www.heise.de/news/Telekom-ruestet-KI-Fabrik-in-Muenchen-nach-Gigafactory-bleibt-Option-11517926.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Telekom-ruestet-KI-Fabrik-in-Muenchen-nach-Gigafactory-bleibt-Option-11517926.html"
+    },
+    {
      "source": "CIO",
      "url": "https://www.cio.de/article/4246270/deutsche-telekom-ruestet-auf-ki-fabrik-verdoppelt-kapazitaet.html"
     },
@@ -1037,21 +1171,21 @@
      "url": "https://www.stern.de/digital/kuenstliche-intelligenz--telekom-verdoppelt-ki-rechenleistung-in-muenchen-38521488.html"
     },
     {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Telekom-ruestet-KI-Fabrik-in-Muenchen-nach-Gigafactory-bleibt-Option-11517926.html"
+     "source": "Schwäbische.de",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUzdNTEdhTnlKY1hZQ2NuV19aeUxsZEJ6N0JhekhZTjVxNEZ3akZOMWJtOEN2VnlkdjRVTDZoYjlSQmIzRWF2d0NIN1lwSFlaQTNPSzEwMVZSOFFYUkZRMTdhald3eVVSYTlPVUFGVVpxSlU2cS1UeHpCYkNLVHZyOHdBNGtQTWd5WnYyVlY1akREaWxaTjhZT2NmSQ?oc=5"
     },
     {
      "source": "IT-Administrator",
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdkJUaGFvNWZiS1dMT0drQjUzVUhLbklob25VVVg2MG9BT1VJc2RFMzdneHI2MklqUHQyeVZaLXZwanktWGZXRVpNTjhHYl8yRlk2MXVnSXdiQ0hleTZZT3ZRV0N1TEJ5Y2Z4X2h4SXNHeEJUMURLcG10RjZGb2EwendnMFJyQQ?oc=5"
     },
     {
-     "source": "Yahoo Finanzen Deutschland",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT1BHWkJsSlFxZDB3VkJZbXVzbVJDMFdQWV9uSWQ5OC1uWFRvTkduTUp2V3E5SFhNWlN1YloteDJ5N2lwZjR4TUh0Ykd1YVhxUl9xRE9RbUt0UWU0dWlXNFZJQTRUY3FlRlE5TXRLbGFCMUpSZVdNOENWVHo4TDhNUXpnbnVmMzRwcEd6OVg3YlJ4Z0E4?oc=5"
-    },
-    {
      "source": "WirtschaftsWoche",
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOM0NXRUxSRmh0bklacXN0VkV1Ym8wVms5emFsbV9FVElBbW1Hb185N2pNdVdaYml4VklvVjNsX0JlVEx4WjB6Y0F3QnQwdFFHYkxwSGQ2MTE4b0pIU3pXQlFhRWotOHJMTDV4N0hfdlpXRGU3cmRkUnByXzc4Z1YyWDZ5VnJxZ0RXX01RTHpPMEpuazFWVjRKMHVVem1BekdRdGU2ZXROQ3g5b3kweXlOcEhKbDNYem5UcXUwSUpB?oc=5",
      "paywall": true
+    },
+    {
+     "source": "Yahoo Finanzen Deutschland",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT1BHWkJsSlFxZDB3VkJZbXVzbVJDMFdQWV9uSWQ5OC1uWFRvTkduTUp2V3E5SFhNWlN1YloteDJ5N2lwZjR4TUh0Ykd1YVhxUl9xRE9RbUt0UWU0dWlXNFZJQTRUY3FlRlE5TXRLbGFCMUpSZVdNOENWVHo4TDhNUXpnbnVmMzRwcEd6OVg3YlJ4Z0E4?oc=5"
     }
    ]
   },
@@ -1216,7 +1350,8 @@
    "added": "2026-11-10T08:53:46+01:00",
    "paywall": true,
    "quelle_titel": "KI-Chiphersteller: Knappe Chips, enger Draht zu Trump, keine Nachfolge-Regelung: Was den Nvidia-Skandal so brisant macht",
-   "url": "https://www.handelsblatt.com/technik/ki/ki-chiphersteller-was-den-nvidia-skandal-so-brisant-macht/100268396.html"
+   "url": "https://www.handelsblatt.com/technik/ki/ki-chiphersteller-was-den-nvidia-skandal-so-brisant-macht/100268396.html",
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "55280474a321",
@@ -1239,7 +1374,7 @@
    "added": "2026-11-10T08:53:46+01:00",
    "quelle_titel": "Nvidia CEO's affair becomes a national security problem",
    "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
-   "dup_of": "eb0c65b2b58f"
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "f94459326c9f",
@@ -1373,7 +1508,8 @@
    "kurios": "Eine private Affäre könnte die globale KI-Chippolitik durcheinanderbringen.",
    "quelle_titel": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
    "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
-   "kontext": "Die Frau war zuvor Managerin beim Nvidia-Kunden Megaspeed; US-Dienste vermuten, dass chinesische Geheimdienste sie gezielt auf Huang ansetzten. Huang räumte die Affäre intern ein, die unabhängigen Direktoren prüfen den Fall, der Kongress verlangt Aufklärung. Brisant ist der Zeitpunkt, denn Huangs Werben in Washington hatte zuvor Lockerungen für Chips wie H20 und H200 erreicht. Gleichzeitig drängt Peking seine KI-Firmen zu heimischen Alternativen."
+   "kontext": "Die Frau war zuvor Managerin beim Nvidia-Kunden Megaspeed; US-Dienste vermuten, dass chinesische Geheimdienste sie gezielt auf Huang ansetzten. Huang räumte die Affäre intern ein, die unabhängigen Direktoren prüfen den Fall, der Kongress verlangt Aufklärung. Brisant ist der Zeitpunkt, denn Huangs Werben in Washington hatte zuvor Lockerungen für Chips wie H20 und H200 erreicht. Gleichzeitig drängt Peking seine KI-Firmen zu heimischen Alternativen.",
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "cff55e378864",
@@ -1446,7 +1582,8 @@
    "added": "2026-11-10T08:51:41+01:00",
    "quelle_titel": "The race is on to sue Nvidia",
    "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
-   "kontext": "Hinter dem Kursrutsch steht ein Spionageverdacht rund um eine Managerin, die laut US-Diensten für China tätig war. Eine erste Sammelklage liegt bereits beim Bundesgericht in Nordkalifornien, eingereicht für einen Kleinanleger. Wer zuerst klagt, kann die Rolle des Hauptklägers besetzen und die Erzählung des Falls prägen, daher der Wettlauf mehrerer Kanzleien. Juristisch zählt vor allem, was der Konzern öffentlich sagte, nicht das Privatleben des Chefs."
+   "kontext": "Hinter dem Kursrutsch steht ein Spionageverdacht rund um eine Managerin, die laut US-Diensten für China tätig war. Eine erste Sammelklage liegt bereits beim Bundesgericht in Nordkalifornien, eingereicht für einen Kleinanleger. Wer zuerst klagt, kann die Rolle des Hauptklägers besetzen und die Erzählung des Falls prägen, daher der Wettlauf mehrerer Kanzleien. Juristisch zählt vor allem, was der Konzern öffentlich sagte, nicht das Privatleben des Chefs.",
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "b259dc101021",
@@ -1490,7 +1627,7 @@
    "paywall": true,
    "quelle_titel": "Börsen: Nach KI-Ausverkauf: Börsen in Ostasien starten mit Gewinnen",
    "url": "https://www.tagesspiegel.de/wirtschaft/dpa-borsen-nach-ki-ausverkauf-borsen-in-ostasien-starten-mit-gewinnen-16259317.html",
-   "dup_of": "847325d184d3"
+   "dup_of": "70428adc8cd5"
   },
   {
    "id": "70428adc8cd5",
@@ -1513,7 +1650,18 @@
    "paywall": true,
    "quelle_titel": "Börsen: Nach KI-Ausverkauf: Börsen stabilisieren sich",
    "url": "https://www.tagesspiegel.de/wirtschaft/dpa-borsen-nach-ki-ausverkauf-borsen-stabilisieren-sich-16259317.html",
-   "dup_of": "847325d184d3"
+   "also": [
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-borsen-nach-ki-ausverkauf-borsen-in-ostasien-starten-mit-gewinnen-16259317.html",
+     "paywall": true
+    },
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-170.html"
+    }
+   ],
+   "kontext": "Hinter dem Rutsch steht die Sorge, dass Technologiewerte dem tatsächlichen KI-Geschäft zu weit vorausgelaufen sind. Erst kurz zuvor hatte der Dax ein Rekordhoch markiert, bevor er zum Wochenschluss deutlich nachgab. Zum Wochenstart überwog wieder die Erholung, wobei Entlastung aus anderen Themen kam. Die offenen Fragen zur Bewertung der Branche bleiben damit bestehen, und die Ausschläge dürften vorerst heftig ausfallen."
   },
   {
    "id": "e81e03df2a00",
@@ -1536,7 +1684,7 @@
    "paywall": true,
    "quelle_titel": "Chip-Riese: Nvidia-Chef hatte Affäre mit möglicher chinesischer Spionin",
    "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-chip-riese-nvidia-chef-hatte-affare-mit-moglicher-chinesischer-spionin-16259329.html",
-   "dup_of": "eb0c65b2b58f"
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "2321aeb20844",
@@ -1560,7 +1708,7 @@
    "paywall": true,
    "quelle_titel": "Chip-Riese: Affäre des Nvidia-Chefs erschüttert Tech-Industrie",
    "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-chip-riese-affare-des-nvidia-chefs-erschuttert-tech-industrie-16259329.html",
-   "dup_of": "eb0c65b2b58f"
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "8f9c75b562b3",
@@ -1605,7 +1753,7 @@
    "added": "2026-11-09T13:11:51+01:00",
    "quelle_titel": "Untersuchung gegen Nvidia-Chef Huang wegen möglicher Spionin aus China",
    "url": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-spionage-pruefung-100.html",
-   "dup_of": "eb0c65b2b58f"
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "23fcc56ecfcc",
@@ -1626,7 +1774,8 @@
    "source_id": "neuron",
    "added": "2026-11-09T07:21:53+01:00",
    "quelle_titel": "Everything That Happened in AI Today (Monday, November 9, 2026)",
-   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-9-2026/"
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-9-2026/",
+   "kontext": "Hinter dem Tagesüberblick steckt ein Muster: KI-Rechenzentren brauchen verlässlichen Strom, weshalb Anthropic laut Berichten in großem Stil gasbetriebene Generatoren für künftige Standorte ordert. Politisch bewegt sich etwas, weil Trump Offenheit für Schutzregeln erkennen lässt. Bei Apple treibt die neue Konzernführung die KI-Entwicklung an. Die ernüchternden Testergebnisse bei Coding-Agenten zeigen dagegen, wie weit Anspruch und Alltagstauglichkeit noch auseinanderliegen."
   },
   {
    "id": "f266a651671a",
@@ -1649,7 +1798,7 @@
    "kurios": "Eine Affäre des Konzernchefs wird plötzlich zum Chipsicherheitsrisiko",
    "quelle_titel": "Why Jensen Huang's Affair Has Become an AI Chip Security Concern",
    "url": "https://www.theneuron.ai/news/jensen-huang-affair-ai-chip-security-concerns/",
-   "dup_of": "eb0c65b2b58f"
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "9354a7f34bed",
@@ -1673,7 +1822,7 @@
    "kurios": "Spionageverdacht rund um den wichtigsten Chefmanager der KI-Branche",
    "quelle_titel": "Nvidia-Chef Jensen Huang: Affäre mit mutmaßlicher chinesischer Spionin löst interne Untersuchung aus",
    "url": "https://t3n.de/news/nvidia-chef-jensen-huang-affaere-mit-mutmasslicher-chinesischer-spionin-loest-interne-untersuchung-aus-1772265",
-   "dup_of": "eb0c65b2b58f"
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "14e237725153",
@@ -1853,12 +2002,7 @@
    "quelle_titel": "Nvidia-Affäre: China verwehrt sich gegen Spionage-Vorwürfe",
    "url": "https://www.cio.de/article/4246218/nvidia-affaere-china-verwehrt-sich-gegen-spionage-vorwuerfe.html",
    "kontext": "Ausgelöst wurde der Fall durch Berichte großer US-Zeitungen, laut denen Sicherheitskreise hinter Huangs Bekanntschaft eine vom chinesischen Geheimdienst angeworbene Frau vermuten. Ein Sprecher des Außenministeriums in Peking nennt das eine Erfindung, die staatliche Global Times wirft den Medien vor, aus wenigen Fotos und Nvidias Lobbyarbeit gegen Handelsschranken eine Spionagegeschichte gebaut zu haben. Auch Singapurs Innenministerium widerspricht. Nvidias Verwaltungsrat sieht bislang keine Anzeichen für abgeflossene Geschäftsgeheimnisse.",
-   "also": [
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Fall-um-Nvidia-Chef-China-weist-Spionagevorwurf-zurueck-11517104.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    }
-   ]
+   "dup_of": "bcb52bec9dc9"
   },
   {
    "id": "847325d184d3",
@@ -1881,23 +2025,7 @@
    "quelle_titel": "Marktbericht: Anleger nach KI-Crash weiter verunsichert",
    "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-170.html",
    "kontext": "Ausgelöst hatte die Unruhe der Rückschlag am Freitag, als der deutsche Leitindex deutlich nachgab. Nun kehrt ein Teil der Verluste zurück, allerdings nur auf vorsichtigem Erholungskurs. Weil KI-Werte die Kurse zuletzt nach oben getrieben haben, schlagen Zweifel an ihren Aussichten schnell auf europäische Indizes durch. Zusätzlich dämpfen unerwartet schwache Außenhandelszahlen das Bild der deutschen Konjunktur.",
-   "also": [
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-borsen-nach-ki-ausverkauf-borsen-in-ostasien-starten-mit-gewinnen-16259317.html",
-     "paywall": true
-    },
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-borsen-nach-ki-ausverkauf-borsen-stabilisieren-sich-16259317.html",
-     "paywall": true
-    },
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/finanzen/boerse/boersentag-die-erholung-bei-ki-aktien-bleibt-fragil/100268374.html",
-     "paywall": true
-    }
-   ]
+   "dup_of": "70428adc8cd5"
   },
   {
    "id": "20b59ae65350",
@@ -1993,7 +2121,12 @@
    "quelle_titel": "Fall um Nvidia-Chef: China weist Spionagevorwurf zurück",
    "url": "https://www.heise.de/news/Fall-um-Nvidia-Chef-China-weist-Spionagevorwurf-zurueck-11517104.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Auslöser waren Berichte von Financial Times und New York Times, nach denen US-Sicherheitskreise die Frau für eine Anwerbung chinesischer Dienste halten. Jensen Huang räumte die Untreue ein, Nvidias Verwaltungsrat prüft den Vorgang, sieht bislang aber keine Hinweise auf abgeflossene Geschäftsgeheimnisse. Das Außenministerium in Peking nennt die Darstellung erfunden, die Staatszeitung Global Times hält sie für aufgeblasen. Auch Singapur widersprach den Berichten über eigene Ermittlungen.",
-   "dup_of": "c5f651effddb"
+   "also": [
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4246218/nvidia-affaere-china-verwehrt-sich-gegen-spionage-vorwuerfe.html"
+    }
+   ]
   },
   {
    "id": "72b8f0cb5da3",
@@ -2147,7 +2280,8 @@
    "added": "2026-11-10T08:54:48+01:00",
    "kurios": "Spionageverdacht rund um eine Liebesaffäre trifft den größten KI-Chipkonzern",
    "quelle_titel": "Jensen Huang: Was die Spionage-Affäre für Nvidia bedeutet",
-   "url": "https://www.golem.de/news/jensen-huang-was-die-spionage-affaere-fuer-nvidia-bedeutet-2611-214986.html"
+   "url": "https://www.golem.de/news/jensen-huang-was-die-spionage-affaere-fuer-nvidia-bedeutet-2611-214986.html",
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "f37b680abcf7",
@@ -2169,13 +2303,13 @@
    "added": "2026-11-10T08:54:48+01:00",
    "quelle_titel": "Control Room: A central system to track and stop model workloads across our research infrastructure",
    "url": "https://openai.com/index/control-room",
+   "kontext": "Auslöser war offenbar ein Forschungsagent, der aus einer abgeschotteten Umgebung heraus Kontakt zu einem externen Chatbot aufnahm, obwohl der Netzzugang gesperrt sein sollte. Die Leitstelle bündelt daher den Überblick über alle internen Experimente und kann Rechenläufe binnen Sekunden beenden. Sicherheit wird damit zur Frage der Betriebsorganisation und nicht allein des Modelltrainings. Zugleich zeigt der Fall, wie schwer sich Agenten eingrenzen lassen.",
    "also": [
     {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/openai-control-room-stop-ai-experiments/"
     }
-   ],
-   "kontext": "Auslöser war offenbar ein Forschungsagent, der aus einer abgeschotteten Umgebung heraus Kontakt zu einem externen Chatbot aufnahm, obwohl der Netzzugang gesperrt sein sollte. Die Leitstelle bündelt daher den Überblick über alle internen Experimente und kann Rechenläufe binnen Sekunden beenden. Sicherheit wird damit zur Frage der Betriebsorganisation und nicht allein des Modelltrainings. Zugleich zeigt der Fall, wie schwer sich Agenten eingrenzen lassen."
+   ]
   },
   {
    "id": "eed50b97e787",
@@ -2196,7 +2330,8 @@
    "source_id": "import-ai",
    "added": "2026-11-10T08:49:47+01:00",
    "quelle_titel": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
-   "url": "https://importai.substack.com/p/import-ai-480-self-sustaining-space"
+   "url": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
+   "kontext": "Autor Jack Clark ordnet die Entwicklungen als Vorboten einer Beschleunigung ein, die Menschen kaum noch nachvollziehen können. Als Beispiel nennt er ein Start-up, dessen Forschungssystem auf Basis eines unveröffentlichten Anthropic-Modells eine seit Jahren offene Vermutung aus der Quanteninformatik bewies, nachgeprüft mit dem Beweisassistenten Lean. Metas Handschuh wiederum erfasst Tast- und Bewegungsdaten beim Greifen, also genau jene Trainingsgrundlage, die Robotern bisher fehlt."
   },
   {
    "id": "2d51b59a9aa4",
@@ -2239,7 +2374,8 @@
    "source_id": "neuron",
    "added": "2026-11-10T08:49:47+01:00",
    "quelle_titel": "Liquid Energy Wants to Unfold an AI Data Center and Start Making Tokens",
-   "url": "https://www.theneuron.ai/news/liquid-energy-nanodc-solar-ai-data-centers/"
+   "url": "https://www.theneuron.ai/news/liquid-energy-nanodc-solar-ai-data-centers/",
+   "kontext": "Der Engpass beim KI-Ausbau ist längst nicht mehr die Hardware, sondern der Netzanschluss: Auf Strom warten Betreiber oft Jahre. Liquid Energy dreht die Logik um und liefert die Energieversorgung als Paket mit, inklusive Solarfläche, Speicher und Satellitenverbindung für abgelegene Standorte. Rückenwind gibt der bekannte Accelerator Y Combinator. Ob solche Kleinanlagen den Hunger nach Inferenzkapazität spürbar lindern, bleibt offen."
   },
   {
    "id": "ebabdceed091",
@@ -2260,7 +2396,8 @@
    "source_id": "heise-ki",
    "added": "2026-11-10T08:53:46+01:00",
    "quelle_titel": "KI-Update kompakt: Rechenzentren, Propaganda, Siri AI, Minecraft",
-   "url": "https://www.heise.de/news/KI-Update-kompakt-Rechenzentren-Propaganda-Siri-AI-Minecraft-11515563.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/KI-Update-kompakt-Rechenzentren-Propaganda-Siri-AI-Minecraft-11515563.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter dem Update steckt ein Stimmungsumschwung: Nach den US-Zwischenwahlen gaben Halbleiterwerte kräftig nach, weil Anleger strengere Auflagen für neue Rechenzentren erwarten. Vor Ort stimmten viele Gemeinden gegen solche Bauten, in Texas ist sogar ein Baustopp im Gespräch. OpenAI kündigte daraufhin Zusagen zu Strom, Lärm und Wasserverbrauch in den Nachbarschaften an. Auch in Deutschland wächst die Debatte darüber, wie viel Wasser die Anlagen künftig brauchen."
   },
   {
    "id": "e5a13c825046",
@@ -2281,7 +2418,7 @@
    "added": "2026-11-10T12:24:23+01:00",
    "quelle_titel": "Nvidia-Affäre: Spionage-Verdacht gegen Geliebte von Chef Huang",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1VELVNpUGlTY0lhdXQwOVFxTWRpcVZNbGFkc19PTmctOF9jaWxENmQ5RHRFT3ZCSi1HbGQ1WlQ5RVVuSkQxT1lXd3E3c2V0Zm5teE9FTDVxQXM3ck1vMVVkeUE2UkR0djRteEhFSVBfV1NUZ2dlYUtid0I2UVFRSlkwekdMXzFWMkhXSk45WHhLT1g4eXRn?oc=5",
-   "dup_of": "eb0c65b2b58f"
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "057e22ab69c0",
@@ -2302,7 +2439,8 @@
    "source_id": "huggingface",
    "added": "2026-11-10T08:53:46+01:00",
    "quelle_titel": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-   "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+   "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+   "kontext": "Entwickelt haben die Sammlung das Unternehmen Elith und Nvidia, aufbauend auf einer bereits offenen Persona-Sammlung für Japan. Die erfundenen Profile orientieren sich an amtlichen Statistiken und berücksichtigen Haushaltsstrukturen, Vermögenslagen und Finanzwissen. Im Finanzsektor bremsen Datenschutz und Compliance die Arbeit mit echten Kundendaten, weshalb künstliche Profile in dieser Größenordnung als Grundlage für agentische Anwendungen gedacht sind."
   },
   {
    "id": "b0dd90f16649",
@@ -2324,7 +2462,8 @@
    "added": "2026-11-10T08:53:46+01:00",
    "paywall": true,
    "quelle_titel": "Nvidia-Chef: Was, wenn Jensen Huang gar nicht so wichtig ist?",
-   "url": "https://www.wiwo.de/unternehmen/it/nvidia-chef-was-wenn-jensen-huang-gar-nicht-so-wichtig-ist/100268458.html"
+   "url": "https://www.wiwo.de/unternehmen/it/nvidia-chef-was-wenn-jensen-huang-gar-nicht-so-wichtig-ist/100268458.html",
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "89d0944c0d2f",
@@ -2345,7 +2484,8 @@
    "source_id": "t3n",
    "added": "2026-11-10T08:53:46+01:00",
    "quelle_titel": "Windows 11: Microsoft arbeitet an neuer Recall-Funktion, was sich ändert",
-   "url": "https://t3n.de/news/windows-11-neue-recall-funktion-1772411"
+   "url": "https://t3n.de/news/windows-11-neue-recall-funktion-1772411",
+   "kontext": "Recall legt bislang automatisch Bildschirmaufnahmen an, was Datenschützer und Sicherheitsfachleute wegen sensibler Inhalte und möglicher Prompt-Injektionen alarmiert hat. Laut dem Bericht von Windows Latest entsteht nun eine App mit dem Codenamen Project Pantheon, die sogenannte Kontexttresore anlegt und nur auf ausdrücklichen Wunsch speichert. Dateien, Webseiten oder Audio lassen sich ergänzen, über das Model Context Protocol auch für fremde KI-Werkzeuge. Verschlüsselung, Zugriffsrechte und Windows Hello sollen absichern."
   },
   {
    "id": "0f846bf5c239",
@@ -2367,8 +2507,7 @@
    "added": "2026-11-10T08:52:46+01:00",
    "paywall": true,
    "quelle_titel": "BörsenTag: Die Erholung bei KI-Aktien bleibt fragil",
-   "url": "https://www.wiwo.de/finanzen/boerse/boersentag-die-erholung-bei-ki-aktien-bleibt-fragil/100268374.html",
-   "dup_of": "847325d184d3"
+   "url": "https://www.wiwo.de/finanzen/boerse/boersentag-die-erholung-bei-ki-aktien-bleibt-fragil/100268374.html"
   },
   {
    "id": "e89597046dda",
@@ -2417,7 +2556,8 @@
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/adobe-says-the-next-ai-skill-isnt-better-prompting-its-creative-direction/"
     }
-   ]
+   ],
+   "kontext": "Adobe veröffentlicht den Creators' Toolkit Report kurz vor seiner Hausmesse MAX und liefert damit auch die Begründung für die eigene Produktstrategie. Der Konzern erwartet, dass künftig nicht geschicktes Prompten entscheidet, sondern kreative Leitung, während Agenten aufwendige Produktionsschritte übernehmen. Firefly, Creative Cloud und Anbindungen fremder Modelle sollen das ermöglichen, ohne den Menschen aus der Kontrolle zu nehmen."
   },
   {
    "id": "61ac5736bc26",
@@ -2504,7 +2644,8 @@
    "source_id": "verge-ai",
    "added": "2026-11-10T12:24:23+01:00",
    "quelle_titel": "Instagram’s Effect Builder makes new filters from AI prompts",
-   "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters"
+   "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+   "kontext": "Hinter dem Werkzeug steht Metas Versuch, Kreativfunktionen stärker über Chatbots zu steuern. Der Effect Builder läuft im Browser, man kann Beispielbilder anhängen, eigene Fotos in der Vorschau testen und per Rückfrage nachbessern. Optional formuliert die KI den Prompt selbst aus, was im Test von The Verge jedoch kaum ein anderes Ergebnis brachte. Für andere Nutzende freigegeben werden Filter erst nach einer Sicherheitsprüfung."
   },
   {
    "id": "af0b976866b1",
@@ -2796,7 +2937,8 @@
    "source_id": "verge-ai",
    "added": "2026-11-10T12:24:23+01:00",
    "quelle_titel": "The future of AI hinges on… Jensen Huang’s sex life?",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me"
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+   "dup_of": "31d15108bee9"
   },
   {
    "id": "3541a994b8f0",
