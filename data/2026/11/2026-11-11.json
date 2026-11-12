@@ -1,10 +1,14 @@
 {
  "date": "2026-11-11",
- "generated_at": "2026-11-12T08:57:26+01:00",
+ "generated_at": "2026-11-12T12:41:39+01:00",
  "overview": [
   {
+   "id": "e097d0e403f4",
+   "text": "Andrea Nahles rechnet mit rund 800.000 Jobs, die KI in Deutschland kostet, sieht aber ähnlich viele neue Stellen und wachsenden Weiterbildungsbedarf."
+  },
+  {
    "id": "b4d9ca1157c2",
-   "text": "OpenAI steigert den Quartalsumsatz auf zehn Milliarden Dollar, schreibt aber einen noch höheren operativen Verlust und senkt die Preise für Firmenkunden."
+   "text": "OpenAI steigert den Quartalsumsatz auf zehn Milliarden Dollar, schreibt operativ aber noch höhere Verluste und senkt die Preise für Firmenkunden."
   },
   {
    "id": "28492f610da4",
@@ -12,27 +16,23 @@
   },
   {
    "id": "2b16120a6864",
-   "text": "Englands Hochschulaufsicht verlangt eine Rückkehr zu klassischen Prüfungen, weil Hausarbeiten durch Chatbots kaum noch fair bewertbar sind."
+   "text": "Englands Hochschulaufsicht verlangt unter Androhung von Sanktionen eine Rückkehr zu klassischen Prüfungen, weil Hausarbeiten oft aus Chatbots stammen."
   },
   {
    "id": "428d17e8c974",
-   "text": "Einem Bericht zufolge brachte das private Umfeld von Nvidia-Chef Huang über Firmengeflechte Grafikchips im Milliardenwert trotz US-Exportsperren nach China."
+   "text": "Laut einem Bericht schleuste das Umfeld von Nvidia-Chef Jensen Huang Grafikchips im Milliardenwert an den US-Exportkontrollen vorbei nach China."
   },
   {
    "id": "2630a54e5ddf",
-   "text": "SAP baut auf der TechEd in Berlin sein Konzept autonomer Unternehmen aus, warnt aber davor, klar geregelte Aufgaben unnötig auf KI-Agenten zu verlagern."
+   "text": "SAP baut auf der TechEd in Berlin sein Konzept des autonomen Unternehmens aus, warnt aber davor, klar geregelte Aufgaben teuren KI-Agenten zu überlassen."
   },
   {
-   "id": "887b0131efd0",
-   "text": "Infineon übertrifft dank des Milliardengeschäfts mit Rechenzentrumschips sein Rekordjahr 2023 und sieht bislang kein Ende des KI-Booms."
+   "id": "f369b7d30174",
+   "text": "Anthropic stellt zum Start der Börsengang-Werbetour eine eigene Büro-Suite mit Tabellenkalkulation und Meeting-Assistent vor und fordert Microsoft heraus."
   },
   {
-   "id": "821298a736dd",
-   "text": "Die EU-Kommission will den digitalen Verbraucherschutz erneuern und erstmals Regeln für KI-Agenten aufstellen, die selbstständig einkaufen."
-  },
-  {
-   "id": "4878c495cef5",
-   "text": "Google DeepMind hat zentrale Teile des Signal-Protokolls in nur vier Wochen formal verifiziert und macht solche Beweise damit alltagstauglicher."
+   "id": "6213d5fd4a3d",
+   "text": "Die KI-Zusammenfassung der Google-Suche hat einem Bremer Anwalt schwere Straftaten unterstellt und wirft damit Fragen nach Haftung und Korrektur auf."
   }
  ],
  "items": [
@@ -57,7 +57,13 @@
    "added": "2026-11-11T12:36:57+01:00",
    "quelle_titel": "Nahles: „800.000 Jobs werden aufgrund von KI wegfallen“",
    "url": "https://www.heise.de/news/Nahles-800-000-Jobs-werden-aufgrund-von-KI-wegfallen-11520276.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "4211c61e07f7"
+   "also": [
+    {
+     "source": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/nahles-rund-800-000-jobs-in-deutschland-koennten-aufgrund-von-ki-wegfallen-102.html"
+    }
+   ],
+   "kontext": "Hinter der Zahl steht eine Prognose der Bundesagentur für Arbeit, die Nahles im Handelsblatt skizziert und auf die kommenden 15 Jahre bezieht. Sie ordnet ein, dass auch die schwache Konjunktur den zähen Berufseinstieg vieler Akademiker erklärt, während handwerkliche Tätigkeiten vergleichsweise robust bleiben. Zugleich verliert Deutschland demografisch bedingt Jahr für Jahr Arbeitskräfte. Nahles dringt deshalb auf eine zentral organisierte Agentur, die Fachkräfte von außerhalb der EU schneller anwirbt."
   },
   {
    "id": "b4d9ca1157c2",
@@ -83,17 +89,17 @@
    "kontext": "Die Zahlen stammen aus Unterlagen für Investoren, über die US-Medien berichten. Direkt vergleichbar sind sie nicht, denn OpenAI rechnet Aktienvergütungen heraus, Anthropic bezieht sie ein. Hinter dem Rückstand steckt auch die Strategie: Anthropic konzentriert sich auf Firmenkunden, OpenAI finanziert zusätzlich breite Forschung bis zur Robotik und ein teures Endkundengeschäft. Ein neuer Vertriebschef und mehr Einsatz für das Programmierwerkzeug Codex sollen das drehen, ein eigener Börsengang ist frühestens 2027 geplant.",
    "also": [
     {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki-openai-steigert-umsatz-im-dritten-quartal-um-50-prozent/100268979.html",
+     "paywall": true
+    },
+    {
      "source": "heise KI",
      "url": "https://www.heise.de/news/OpenAI-Umsatz-zuletzt-stark-gewachsen-Milliardenverluste-noch-leicht-11520086.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
      "source": "iX",
      "url": "https://www.heise.de/news/OpenAI-Umsatz-zuletzt-stark-gewachsen-Milliardenverluste-noch-leicht-11520086.html"
-    },
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/ki-openai-steigert-umsatz-im-dritten-quartal-um-50-prozent/100268979.html",
-     "paywall": true
     }
    ]
   },
@@ -168,6 +174,29 @@
    "dup_of": "4878c495cef5"
   },
   {
+   "id": "cd03d116301a",
+   "date": "2026-11-11",
+   "published": "2026-11-11T23:44+01:00",
+   "headline": "Nvidia-Vorstand soll Trennung von Konzernchef Huang vorbereiten",
+   "summary": "Einem Bericht zufolge bereitet das Nvidia-Board die Abberufung von Firmenchef Jensen Huang vor. Auslöser sind Berichte über eine zweite außereheliche Affäre, nur wenige Tage nachdem Huang eine frühere Beziehung zu einer Frau eingeräumt hatte, der Spionage für China vorgeworfen wird. Ein Führungswechsel an der Spitze des wichtigsten KI-Chipherstellers hätte Signalwirkung für die gesamte Branche.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "nvidia",
+    "jensen huang",
+    "führungswechsel",
+    "chips"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-12T12:33:59+01:00",
+   "kurios": "Spionagevorwurf und Affärenserie könnten den mächtigsten Chipchef der Welt stürzen",
+   "quelle_titel": "Nvidia is reportedly preparing to fire Jensen Huang",
+   "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+   "dup_of": "b91248042740"
+  },
+  {
    "id": "9bf71e152b80",
    "date": "2026-11-11",
    "published": "2026-11-11T04:54+01:00",
@@ -211,13 +240,7 @@
    "source_id": "computerwoche",
    "added": "2026-11-11T09:42:38+01:00",
    "quelle_titel": "„Wir müssen präziser werden, den KI-Einsatz zu steuern“",
-   "url": "https://www.computerwoche.de/article/4245628/wir-mussen-praziser-werden-den-ki-einsatz-zu-steuern.html",
-   "also": [
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4246380/sap-teched-2026-das-autonomous-enterprise-wird-konkreter-2.html"
-    }
-   ]
+   "url": "https://www.computerwoche.de/article/4245628/wir-mussen-praziser-werden-den-ki-einsatz-zu-steuern.html"
   },
   {
    "id": "428d17e8c974",
@@ -308,7 +331,12 @@
    "added": "2026-11-11T09:41:41+01:00",
    "quelle_titel": "SAP treibt das Autonomous Enterprise voran",
    "url": "https://www.cio.de/article/4236478/bank-of-america-spent-millions-on-anti-money-laundering-tech-but-not-enough-to-avoid-a-1-2b-fine.html",
-   "dup_of": "1f62a8732d07"
+   "also": [
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4236478/sap-treibt-das-autonomous-enterprise-voran.html"
+    }
+   ]
   },
   {
    "id": "c0de29bd4178",
@@ -471,7 +499,22 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Anthropic macht Microsoft Konkurrenz bei Bürosoftware",
    "url": "https://www.handelsblatt.com/technik/it-internet/ki-anthropic-macht-microsoft-konkurrenz-bei-buerosoftware/100268547.html",
-   "dup_of": "db3cb9d24bbb"
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/it-internet/ki-wie-anthropic-mit-claude-ins-geschaeft-von-microsoft-draengt/100268547.html",
+     "paywall": true
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Office-Offensive-Claude-erhaelt-eigene-Tabellenkalkulation-und-Whiteboards-11520210.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/buero-software-anthropic-gibt-claude-eine-eigene-tabellenkalkulation-2611-215067.html"
+    }
+   ],
+   "kontext": "Nach dem Erfolg von Claude Code bei Entwicklern will Anthropic weitere Berufsgruppen erreichen. Neben Tabellen und digitalen Whiteboards kommen eine Datenauswertung und ein Assistent für Besprechungen hinzu, zunächst für Google Meet. Zudem lassen sich ausgewählte Fremdanwendungen direkt in der Claude-Oberfläche öffnen, damit Nutzer seltener zwischen Programmen wechseln. In der Branche wächst dadurch die Sorge, dass KI-Agenten klassische Geschäftssoftware verdrängen könnten."
   },
   {
    "id": "ac9041d98501",
@@ -517,7 +560,7 @@
    "added": "2026-11-11T09:41:01+01:00",
    "quelle_titel": "Claude Sheets: Anthropic bringt Microsoft-Office-Konkurrenz mit KI",
    "url": "https://www.golem.de/news/buero-software-anthropic-gibt-claude-eine-eigene-tabellenkalkulation-2611-215067.html",
-   "dup_of": "db3cb9d24bbb"
+   "dup_of": "f369b7d30174"
   },
   {
    "id": "eba6e6e63a67",
@@ -596,7 +639,7 @@
    "added": "2026-11-11T12:37:44+01:00",
    "quelle_titel": "Anthropic erweitert Claude um neue Büro-Anwendungen",
    "url": "https://www.heise.de/news/Office-Offensive-Claude-erhaelt-eigene-Tabellenkalkulation-und-Whiteboards-11520210.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "db3cb9d24bbb"
+   "dup_of": "f369b7d30174"
   },
   {
    "id": "e02b0bd36a22",
@@ -619,7 +662,26 @@
    "paywall": true,
    "quelle_titel": "KI: Warum Australien Regeln für Tech-Konzerne verschärfen will",
    "url": "https://www.handelsblatt.com/technik/ki/ki-warum-australien-regeln-fuer-tech-konzerne-verschaerfen-will/100268601.html",
-   "dup_of": "178ac57195e6"
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-warum-australien-regeln-fuer-tech-konzerne-verschaerfen-will-01/100268601.html",
+     "paywall": true
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/australien-will-frontier-ki-firmen-zu-unabhaengigen-pruefungen-und-sicherheitskontrollen-zwingen/"
+    },
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4247357/ki-hackt-regierung-jetzt-nimmt-australien-openai-an-die-leine.html"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/nach-sicherheitsvorfall-mit-openai-australien-prueft-straftatbestand-gegen-unsichere-ki-2611-215079.html"
+    }
+   ],
+   "kontext": "Die angekündigten Regeln der Regierung Albanese richten sich gezielt an Anbieter besonders leistungsfähiger Frontier-Modelle und gehören zu einer breiteren KI-Agenda. Vorgesehen sind unabhängige Prüfungen der Modelle, laufende Sicherheitskontrollen, veröffentlichte Sicherheitskonzepte und sofortige Meldungen von Vorfällen, auch mit Blick auf außer Kontrolle geratene KI-Agenten. Eine neue Behörde soll gemeinsam mit dem australischen AI Safety Institute überwachen und Strafen verhängen können. Weitere Details sollen nach Abschluss der Beratungen folgen."
   },
   {
    "id": "887b0131efd0",
@@ -641,17 +703,8 @@
    "added": "2026-11-11T12:36:57+01:00",
    "quelle_titel": "Gewinnsprung bei Infineon, Milliardengeschäft Datencenter",
    "url": "https://www.heise.de/news/Gewinnsprung-bei-Infineon-Milliardengeschaeft-Datencenter-11520304.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "also": [
-    {
-     "source": "tagesschau",
-     "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-infineon-ki-100.html"
-    },
-    {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/ki-boom--gewinnsprung-bei-infineon---milliardengeschaeft-datencenter-38525742.html"
-    }
-   ],
-   "kontext": "Infineon liefert Leistungshalbleiter für die Stromversorgung von Rechenzentren, ein Geschäft, das der Konzern aus Neubiberg bei München im neuen Geschäftsjahr fast verdoppeln will. Hanebeck verweist auf Aufträge und laufende Verhandlungen im zweistelligen Milliardenbereich sowie darauf, dass Hyperscaler notfalls außerhalb der USA bauen, etwa in China, Indien oder am Golf. Zusätzlich stützen erholte Autochips und der Netzausbau. Die Aktie führte zeitweise den DAX an."
+   "kontext": "Infineon liefert Leistungshalbleiter für die Stromversorgung von Rechenzentren, ein Geschäft, das der Konzern aus Neubiberg bei München im neuen Geschäftsjahr fast verdoppeln will. Hanebeck verweist auf Aufträge und laufende Verhandlungen im zweistelligen Milliardenbereich sowie darauf, dass Hyperscaler notfalls außerhalb der USA bauen, etwa in China, Indien oder am Golf. Zusätzlich stützen erholte Autochips und der Netzausbau. Die Aktie führte zeitweise den DAX an.",
+   "dup_of": "241e0a412515"
   },
   {
    "id": "6213d5fd4a3d",
@@ -742,8 +795,7 @@
    "added": "2026-11-11T12:36:57+01:00",
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: „Wer nur auf mehr Effizienz setzt, wird austauschbar“",
-   "url": "https://www.handelsblatt.com/technik/ki/ki-langfristig-gibt-es-ernst-zu-nehmende-risiken-fuer-sehr-viele-von-uns/100250168.html",
-   "dup_of": "92ec1f09e572"
+   "url": "https://www.handelsblatt.com/technik/ki/ki-langfristig-gibt-es-ernst-zu-nehmende-risiken-fuer-sehr-viele-von-uns/100250168.html"
   },
   {
    "id": "821298a736dd",
@@ -841,7 +893,7 @@
    "added": "2026-11-11T12:36:00+01:00",
    "quelle_titel": "Nach Sicherheitsvorfall mit OpenAI: Australien prüft Straftatbestand gegen unsichere KI",
    "url": "https://www.golem.de/news/nach-sicherheitsvorfall-mit-openai-australien-prueft-straftatbestand-gegen-unsichere-ki-2611-215079.html",
-   "dup_of": "178ac57195e6"
+   "dup_of": "e02b0bd36a22"
   },
   {
    "id": "9659f7f66482",
@@ -888,6 +940,79 @@
    "dup_of": "821298a736dd"
   },
   {
+   "id": "0c8d1509988f",
+   "date": "2026-11-11",
+   "published": "2026-11-11T12:53+01:00",
+   "headline": "Mit Grok gebaute Apps gaben Patientendaten und Interna frei zugänglich preis",
+   "summary": "Die Sicherheitsfirma Claroc hat über 35.000 mit Grok erstellte Anwendungen entdeckt, die ohne Anmeldung öffentlich erreichbar waren. Betroffen waren unter anderem Gesundheitsdaten und vertrauliche Unterlagen des Anbieters selbst. Ursache war die voreingestellte Freigabe für jeden mit dem Link, abgeschaltet wurden bislang nur die eigenen Mitarbeiter-Apps.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "grok",
+    "datenleck",
+    "voreinstellung",
+    "app-sicherheit"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-12T12:34:53+01:00",
+   "kurios": "Eine falsche Voreinstellung legte über 35.000 Apps samt Patientendaten offen.",
+   "quelle_titel": "Grok-Apps legen Interna von SpaceXSI und X sowie Patientendaten offen",
+   "url": "https://the-decoder.de/grok-apps-legen-interna-von-spacexsi-und-x-sowie-patientendaten-offen/",
+   "also": [
+    {
+     "source": "heise Security",
+     "url": "https://www.heise.de/news/Grok-Build-KI-Apps-geben-Geschaeftsgeheimnisse-und-persoenliche-Daten-preis-11520974.html"
+    }
+   ],
+   "kontext": "Im Build-Modus beschreiben Nutzer eine Anwendung im Chat, Grok schreibt den Code, und beim Veröffentlichen bekommt die App eine eigene Subdomain. Der zufällige Name soll schützen, landet beim ersten Aufruf aber in durchsuchbaren Passive-DNS-Datenbanken; bei vergleichbaren Diensten von OpenAI, Anthropic und Google steht die Kennung in einem Adressteil, der dort nicht auftaucht. Dazu kamen Schwächen in der Zugriffskontrolle des generierten Codes. Neben SpaceXSI und X waren rund 30 weitere Organisationen betroffen."
+  },
+  {
+   "id": "c299fefb8cdc",
+   "date": "2026-11-11",
+   "published": "2026-11-11T12:53+01:00",
+   "headline": "Helsing bringt mit Clarity eine KI-Plattform für Lagebilder der Streitkräfte",
+   "summary": "Das Münchner Rüstungsunternehmen Helsing hat in Berlin die Plattform Clarity für Bedrohungsanalyse und Verteidigungsplanung vorgestellt. Das System wertet große Datenmengen aus, erkennt darin militärische Kräfte, Anlagen und Stellungen und bereitet die Ergebnisse bis hin zur Zuordnung passender Waffensysteme auf. Helsing positioniert sich damit als europäische Alternative zu Palantir.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "helsing",
+    "verteidigung",
+    "lagebild",
+    "palantir"
+   ],
+   "source": "CIO",
+   "source_id": "cio",
+   "added": "2026-11-12T12:34:53+01:00",
+   "quelle_titel": "Helsing stellt militärische KI-Plattform vor",
+   "url": "https://www.cio.de/article/4247226/helsing-stellt-militaerische-ki-plattform-vor.html",
+   "dup_of": "c2326d7ec44f"
+  },
+  {
+   "id": "98c3465a43bc",
+   "date": "2026-11-11",
+   "published": "2026-11-11T13:07+01:00",
+   "headline": "EU-Omnibus: Vereinfachung beim Datenschutz weckt Sorge um die Aufsicht",
+   "summary": "Die EU will ihre Datenschutzregeln mit den Omnibus-Gesetzen entschlacken. Auf der KI-Woche wurde deutlich, dass Fachleute weniger die Regeln selbst als die mögliche Schwächung der Aufsichtsbehörden für das eigentliche Risiko halten. Drohende Kürzungen könnten die Durchsetzung in der Praxis aushöhlen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "eu",
+    "datenschutz",
+    "omnibus",
+    "aufsicht"
+   ],
+   "source": "heise Security",
+   "source_id": "heise-security",
+   "added": "2026-11-12T12:34:53+01:00",
+   "quelle_titel": "Omnibus-Gesetze der EU und die Folgen für den Datenschutz",
+   "url": "https://www.heise.de/news/Omnibus-Gesetze-der-EU-und-die-Folgen-fuer-den-Datenschutz-11519738.html",
+   "kontext": "Auf der KI-Woche der baden-württembergischen Datenschutzbehörde warnte Ralf Bendrath, Referent der Grünen im Europäischen Parlament, die Kommission spreche inzwischen offen von Deregulierung. Der digitale Omnibus rühre mit einer neuen Definition personenbezogener Daten, einem beschnittenen Auskunftsrecht und Spielräumen fürs KI-Training an den Kern der DSGVO. Beim bereits ausgehandelten vierten Omnibus fällt die Entlastung dagegen eher bescheiden aus. Zugleich verzeichnet die Behörde einen kräftigen Anstieg der Beschwerden."
+  },
+  {
    "id": "178ac57195e6",
    "date": "2026-11-11",
    "published": "2026-11-11T13:23+01:00",
@@ -907,34 +1032,7 @@
    "added": "2026-11-12T08:51:06+01:00",
    "quelle_titel": "KI hackt Regierung: Jetzt nimmt Australien OpenAI an die Leine",
    "url": "https://www.cio.de/article/4247357/ki-hackt-regierung-jetzt-nimmt-australien-openai-an-die-leine.html",
-   "also": [
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/nach-sicherheitsvorfall-mit-openai-australien-prueft-straftatbestand-gegen-unsichere-ki-2611-215079.html"
-    },
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/ki/ki-warum-australien-regeln-fuer-tech-konzerne-verschaerfen-will/100268601.html",
-     "paywall": true
-    },
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/ki/ki-warum-australien-regeln-fuer-tech-konzerne-verschaerfen-will-01/100268601.html",
-     "paywall": true
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/australia-ai-safety-laws-medicare-agent-breach/"
-    },
-    {
-     "source": "tagesschau",
-     "url": "https://www.tagesschau.de/wirtschaft/australien-ki-regulieren-100.html"
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Australien-verschaerft-KI-Regularien-nach-OpenAI-Angriffen-11518320.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    }
-   ]
+   "dup_of": "e02b0bd36a22"
   },
   {
    "id": "27ff34224a85",
@@ -981,7 +1079,29 @@
    "added": "2026-11-12T08:50:15+01:00",
    "quelle_titel": "Grok Build: KI-Apps geben Geschäftsgeheimnisse und persönliche Daten preis",
    "url": "https://www.heise.de/news/Grok-Build-KI-Apps-geben-Geschaeftsgeheimnisse-und-persoenliche-Daten-preis-11520974.html",
-   "dup_of": "c3e82675d569"
+   "dup_of": "0c8d1509988f"
+  },
+  {
+   "id": "91bcfba0cdd6",
+   "date": "2026-11-11",
+   "published": "2026-11-11T14:28+01:00",
+   "headline": "Recherche: Trainingsdaten für Millionen fließen von US-Firmen nach China",
+   "summary": "Laut einer Recherche von ChinaTalk verkaufen mehrere US-Datenanbieter KI-Trainingsdaten im Umfang von rund einer halben Milliarde Dollar an chinesische Labore. Darunter sollen dieselben Lernumgebungen für Reinforcement Learning sein, die zuvor für westliche Modellentwickler entstanden. Mindestens neun Firmen sind beteiligt, bestehende Exportkontrollen erfassen dieses Geschäft bislang kaum.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "trainingsdaten",
+    "china",
+    "exportkontrolle",
+    "datenhandel"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-12T12:34:53+01:00",
+   "quelle_titel": "US-Datenhändler verkaufen KI-Trainingsdaten an chinesische Labore für eine halbe Milliarde Dollar",
+   "url": "https://the-decoder.de/us-datenhaendler-verkaufen-ki-trainingsdaten-an-chinesische-labore-fuer-eine-halbe-milliarde-dollar/",
+   "kontext": "Reinforcement-Learning-Umgebungen sind simulierte Aufgabenwelten, in denen Modelle etwa Programmieren, Finanzanalysen oder Büroarbeit üben. Anbieter wie Mercor, Surge AI oder Turing liefern sie an westliche Spitzenlabore, laut der Recherche aber auch nach China, teils über Einkaufsstellen in Singapur. Zusammen mit dem Abschauen bei starken US-Modellen sparen chinesische Entwickler so Rechenzeit, die wegen Speicherengpässen ihrer Chips besonders knapp ist. Aufgeflogen ist der Handel auch, weil Subunternehmer Kundennamen öffentlich nannten."
   },
   {
    "id": "f1b7ad2fea10",
@@ -1050,6 +1170,7 @@
    "added": "2026-11-12T08:50:15+01:00",
    "quelle_titel": "Google DeepMind just mathematically verified key parts of Signal",
    "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+   "kontext": "Eingesetzt wurde das neue System AlphaProof Code: KI-Agenten auf Basis von Gemini Carbon erzeugten die Beweise in der Sprache Lean und gaben nur einen kleinen Teil der Codebasis zur menschlichen Prüfung zurück. Vorarbeiten der Signal Foundation erleichterten den Start. Neue Schwachstellen fand das Team nicht, absichtlich eingebaute Fehler dagegen schon. Geprüft wurde nur der kryptografische Kern, nicht die gesamte App. Spezifikation und Beweis sollen veröffentlicht werden.",
    "also": [
     {
      "source": "The Decoder",
@@ -1058,17 +1179,8 @@
     {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/google-ai-math-signal-security-verification/"
-    },
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/whatsapp-signal-und-co-deepmind-ki-liefert-beweis-fuer-signal-verschluesselung-2611-215053.html"
-    },
-    {
-     "source": "Google DeepMind",
-     "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
     }
-   ],
-   "kontext": "Eingesetzt wurde das neue System AlphaProof Code: KI-Agenten auf Basis von Gemini Carbon erzeugten die Beweise in der Sprache Lean und gaben nur einen kleinen Teil der Codebasis zur menschlichen Prüfung zurück. Vorarbeiten der Signal Foundation erleichterten den Start. Neue Schwachstellen fand das Team nicht, absichtlich eingebaute Fehler dagegen schon. Geprüft wurde nur der kryptografische Kern, nicht die gesamte App. Spezifikation und Beweis sollen veröffentlicht werden."
+   ]
   },
   {
    "id": "7310b165d1bf",
@@ -1115,11 +1227,11 @@
    "added": "2026-11-12T08:49:09+01:00",
    "quelle_titel": "Helsings neue KI-Plattform Clarity soll Europas Antwort auf Palantirs Maven werden",
    "url": "https://the-decoder.de/helsings-neue-ki-plattform-clarity-soll-europas-antwort-auf-palantirs-maven-werden/",
+   "kontext": "Hinter Clarity steht das Münchner Unternehmen Helsing, dessen Technikchef Robert Fink einst Palantir mit aufgebaut hat. Politisch trifft der Vorstoß einen Nerv: Der Einsatz von Palantir-Software bei deutschen Behörden ist umstritten, Länder wie Bayern und Nordrhein-Westfalen suchen perspektivisch nach europäischen Alternativen. Die Software soll auf der Infrastruktur der Streitkräfte laufen, NATO-Standards erfüllen und sich an Wirkmittel verschiedener Hersteller koppeln lassen. Die Bundeswehr will im kommenden Jahr mit KI-gestützten Systemen starten.",
    "also": [
     {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/digital/2026-11/helsing-software-muenchen-militaer-drohnen-satelliten-kuenstliche-intelligenz",
-     "paywall": true
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4247226/helsing-stellt-militaerische-ki-plattform-vor.html"
     },
     {
      "source": "heise Security",
@@ -1128,9 +1240,75 @@
     {
      "source": "Golem",
      "url": "https://www.golem.de/news/militaerische-ki-plattform-helsing-stellt-europaeische-alternative-zu-palantir-vor-2611-215099.html"
+    },
+    {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/2026-11/helsing-software-muenchen-militaer-drohnen-satelliten-kuenstliche-intelligenz",
+     "paywall": true
+    }
+   ]
+  },
+  {
+   "id": "e879c6fc35d4",
+   "date": "2026-11-11",
+   "published": "2026-11-11T16:00+01:00",
+   "headline": "DeepMind zeigt AlphaGenome 2 für die Deutung von DNA in Zelltypen",
+   "summary": "Google DeepMind stellt mit AlphaGenome 2 ein Modell vor, das vorhersagt, wie DNA-Abschnitte und ihre Varianten in bestimmten menschlichen Zelltypen wirken. Ziel ist ein genaueres Verständnis davon, welche genetischen Veränderungen zu Krankheiten beitragen. Die Arbeit soll der Forschung neue Ansatzpunkte für Diagnose und Therapie liefern.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "deepmind",
+    "genomik",
+    "biomedizin",
+    "alphagenome"
+   ],
+   "source": "Google DeepMind",
+   "source_id": "deepmind",
+   "added": "2026-11-12T12:34:53+01:00",
+   "quelle_titel": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/AlphaGenome-2-Googles-KI-beruecksichtigt-Zellzustaende-bei-DNA-Prognosen-11522049.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/deepmind-launched-alphagenome-2-for-dna-a377/"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/googles-alphagenome-2-wants-to-find-where-disease-begins/"
     }
    ],
-   "kontext": "Hinter Clarity steht das Münchner Unternehmen Helsing, dessen Technikchef Robert Fink einst Palantir mit aufgebaut hat. Politisch trifft der Vorstoß einen Nerv: Der Einsatz von Palantir-Software bei deutschen Behörden ist umstritten, Länder wie Bayern und Nordrhein-Westfalen suchen perspektivisch nach europäischen Alternativen. Die Software soll auf der Infrastruktur der Streitkräfte laufen, NATO-Standards erfüllen und sich an Wirkmittel verschiedener Hersteller koppeln lassen. Die Bundeswehr will im kommenden Jahr mit KI-gestützten Systemen starten."
+   "kontext": "Das Modell folgt auf AlphaGenome, das DeepMind im vergangenen Jahr vorgestellt hatte. Es zielt auf ein altes Problem der Genomforschung: Fast alle Körperzellen tragen dieselbe DNA, schalten aber je nach Typ und Zustand unterschiedliche Gene an und ab. Dieselbe Erbgutvariante kann deshalb in Herzmuskel, Haut oder Immunzellen ganz verschieden wirken. Laut Google liefert die neue Version ein deutlich feineres Bild als breiter angelegte Vorgängermodelle."
+  },
+  {
+   "id": "ddb95c61a535",
+   "date": "2026-11-11",
+   "published": "2026-11-11T16:00+01:00",
+   "headline": "Neues DeepMind-Modell soll Krankheitsursachen auf Zellebene sichtbar machen",
+   "summary": "AlphaGenome 2 ist der Nachfolger des ersten Genom-Modells von Google DeepMind und untersucht, wie sich Veränderungen im Erbgut in verschiedenen Zellen auswirken. Forschende erhalten damit eine feinere Sicht auf ein bislang schwer zugängliches Problem. Die Hoffnung ist, Hinweise auf Krankheitsursachen und mögliche Behandlungswege zu gewinnen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "deepmind",
+    "dna",
+    "krankheitsforschung",
+    "modell"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-12T12:34:53+01:00",
+   "quelle_titel": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+   "dup_of": "e879c6fc35d4"
   },
   {
    "id": "32fe61542d90",
@@ -1198,7 +1376,7 @@
    "paywall": true,
    "quelle_titel": "KI: Warum Australien Regeln für Tech-Konzerne verschärfen will",
    "url": "https://www.handelsblatt.com/technik/ki/ki-warum-australien-regeln-fuer-tech-konzerne-verschaerfen-will-01/100268601.html",
-   "dup_of": "178ac57195e6"
+   "dup_of": "e02b0bd36a22"
   },
   {
    "id": "5cece5f621cc",
@@ -1314,6 +1492,28 @@
    "kontext": "TSMC fertigt den Großteil der Nvidia-Beschleuniger und profitiert damit unmittelbar vom Rechenzentrumsausbau, den OpenAI und Anthropic vorantreiben. Der Verwaltungsrat genehmigte eine Beteiligung an OpenAI sowie den Kauf von Anthropic-Anteilen zum erwarteten Börsengangspreis. Nach einer Serie von Rekordquartalen ist das Geld vorhanden, und gemessen an Nvidias Zusagen bleibt die Summe klein. Analysten warnen jedoch, dass solche Verflechtungen die echte Nachfrage schwer erkennbar machen."
   },
   {
+   "id": "9bedab16095c",
+   "date": "2026-11-11",
+   "published": "2026-11-11T19:26+01:00",
+   "headline": "BKA-Tagung debattiert KI-Bedrohungen und Hackback-Forderungen",
+   "summary": "Auf der Herbsttagung des Bundeskriminalamts diskutieren Fachleute und Politik über neue Angriffsszenarien durch KI sowie über die Risiken künftiger Quantenrechner. Parallel kommen altbekannte Forderungen nach aktiven Gegenangriffen wieder auf den Tisch. Die Debatte prägt den sicherheitspolitischen Rahmen, in dem deutsche Behörden und Unternehmen KI einsetzen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "bka",
+    "cybersicherheit",
+    "hackback",
+    "quantencomputing"
+   ],
+   "source": "heise Security",
+   "source_id": "heise-security",
+   "added": "2026-11-12T12:33:59+01:00",
+   "quelle_titel": "BKA-Herbsttagung: Zwischen Q-Day und Rückschlägen",
+   "url": "https://www.heise.de/news/BKA-Herbsttagung-Zwischen-Q-Day-und-Rueckschlaegen-11521539.html",
+   "dup_of": "16d395337c67"
+  },
+  {
    "id": "a778c85f1499",
    "date": "2026-11-11",
    "published": "2026-11-11T20:12+01:00",
@@ -1333,7 +1533,8 @@
    "added": "2026-11-12T08:45:58+01:00",
    "quelle_titel": "Google’s AlphaGenome 2 Wants to Find Where Disease Begins",
    "url": "https://www.theneuron.ai/news/googles-alphagenome-2-wants-to-find-where-disease-begins/",
-   "kontext": "Hinter dem Modell steht Google DeepMind, das damit seine Genomik-Reihe fortschreibt. Ausgangspunkt ist ein bekanntes Problem der Forschung: Ein auffälliger DNA-Abschnitt ist zunächst nur ein Hinweis und sagt nichts darüber, worauf er im Körper tatsächlich wirkt. Genau diese Lücke soll das System verkleinern. Nutzen hätte das vor allem bei der Priorisierung, also beim Trennen aussichtsreicher Spuren von Sackgassen."
+   "kontext": "Hinter dem Modell steht Google DeepMind, das damit seine Genomik-Reihe fortschreibt. Ausgangspunkt ist ein bekanntes Problem der Forschung: Ein auffälliger DNA-Abschnitt ist zunächst nur ein Hinweis und sagt nichts darüber, worauf er im Körper tatsächlich wirkt. Genau diese Lücke soll das System verkleinern. Nutzen hätte das vor allem bei der Priorisierung, also beim Trennen aussichtsreicher Spuren von Sackgassen.",
+   "dup_of": "e879c6fc35d4"
   },
   {
    "id": "b55030826d75",
@@ -1356,13 +1557,13 @@
    "added": "2026-11-12T08:47:32+01:00",
    "quelle_titel": "KI-Ausgaben von US-Firmen wachsen nur noch langsam und neue Konkurrenz verschärft den Druck",
    "url": "https://the-decoder.de/ki-ausgaben-von-us-firmen-wachsen-nur-noch-langsam-und-neue-konkurrenz-verschaerft-den-druck/",
+   "kontext": "Der Index beruht auf Zahlungsdaten von über 85.000 US-Firmen und ist nicht repräsentativ, weil Ramps Kundschaft überdurchschnittlich technikaffin ist. Die Spitzengruppe besteht vor allem aus wagniskapitalfinanzierten Unternehmen aus Technologie und Finanzen, außerhalb dieser Branchen verbreitet sich KI kaum. Zugleich fallen die Preise pro verarbeiteter Texteinheit deutlich, getrieben vom Wettbewerb zwischen den Anbietern und offenen Modellen aus China. Die Nutzung wächst also schneller als der Umsatz.",
    "also": [
     {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/ai-spending-boom-most-companies-spend-very-little/"
     }
-   ],
-   "kontext": "Der Index beruht auf Zahlungsdaten von über 85.000 US-Firmen und ist nicht repräsentativ, weil Ramps Kundschaft überdurchschnittlich technikaffin ist. Die Spitzengruppe besteht vor allem aus wagniskapitalfinanzierten Unternehmen aus Technologie und Finanzen, außerhalb dieser Branchen verbreitet sich KI kaum. Zugleich fallen die Preise pro verarbeiteter Texteinheit deutlich, getrieben vom Wettbewerb zwischen den Anbietern und offenen Modellen aus China. Die Nutzung wächst also schneller als der Umsatz."
+   ]
   },
   {
    "id": "decddf09cd9d",
@@ -1384,7 +1585,8 @@
    "added": "2026-11-12T08:45:58+01:00",
    "quelle_titel": "United Is Blocking AI Agents. The Fight Is Over Who Owns You(r Data).",
    "url": "https://www.theneuron.ai/news/united-wants-you-to-book-the-flight-your-ai-agent-isnt-invited/",
-   "kontext": "Die Ankündigung vom 11. November richtet sich nicht gegen Buchungen an sich, sondern gegen Software, die im Auftrag von Reisenden handelt und einkauft. Im Kern geht es um die Frage, wem die Kundenbeziehung und die darin steckenden Daten gehören. Für Anbieter ist der Platz an dieser Schnittstelle wertvoll, weil dort die Kaufentscheidung fällt. United setzt damit früh einen Maßstab für den Umgang mit autonomen Einkaufsagenten."
+   "kontext": "Die Ankündigung vom 11. November richtet sich nicht gegen Buchungen an sich, sondern gegen Software, die im Auftrag von Reisenden handelt und einkauft. Im Kern geht es um die Frage, wem die Kundenbeziehung und die darin steckenden Daten gehören. Für Anbieter ist der Platz an dieser Schnittstelle wertvoll, weil dort die Kaufentscheidung fällt. United setzt damit früh einen Maßstab für den Umgang mit autonomen Einkaufsagenten.",
+   "dup_of": "d8ee9ab549e4"
   },
   {
    "id": "adb045b76a4f",
@@ -1432,13 +1634,69 @@
    "praxis": true,
    "quelle_titel": "Gemini Decisions: Google bringt spezialisiertes KI-Modell für schnelle Entscheidungen statt Textgenerierung",
    "url": "https://the-decoder.de/gemini-decisions-google-bringt-spezialisiertes-ki-modell-fuer-schnelle-entscheidungen-statt-textgenerierung/",
+   "kontext": "Vorgestellt wurde das Modell von Sundar Pichai und Logan Kilpatrick am Rande einer Entwicklerkonferenz. Statt Text Token für Token zu erzeugen, bewertet es vorgegebene Optionen direkt und liefert zu jedem Urteil einen Konfidenzwert. Google nutzt die Technik bereits intern, etwa zum Modell-Routing und für Sicherheitsprüfungen in der Suche. Damit zieht der Konzern in einem Feld nach, in dem zuletzt auch OpenAI, Cloudflare und Microsoft Angebote platziert haben.",
    "also": [
     {
      "source": "Latent Space",
      "url": "https://latent.space/p/ainews-d-day-decision-models-day/"
     }
+   ]
+  },
+  {
+   "id": "ae5556d61c0b",
+   "date": "2026-11-11",
+   "published": "2026-11-11T21:15+01:00",
+   "headline": "Viele angekündigte KI-Rechenzentren dürften nie entstehen",
+   "summary": "Der Boom bei Rechenzentren stößt auf handfeste Hürden: Proteste vor Ort, langwierige Genehmigungen und knappen Strom. Noch grundlegender ist, dass ein erheblicher Teil der angekündigten Projekte trotz milliardenschwerer Ankündigungen womöglich nie realisiert wird. Für die Einschätzung des KI-Infrastrukturausbaus heißt das, Ankündigungen nicht mit tatsächlicher Kapazität zu verwechseln.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "rechenzentren",
+    "infrastruktur",
+    "energie",
+    "genehmigungen"
    ],
-   "kontext": "Vorgestellt wurde das Modell von Sundar Pichai und Logan Kilpatrick am Rande einer Entwicklerkonferenz. Statt Text Token für Token zu erzeugen, bewertet es vorgegebene Optionen direkt und liefert zu jedem Urteil einen Konfidenzwert. Google nutzt die Technik bereits intern, etwa zum Modell-Routing und für Sicherheitsprüfungen in der Suche. Damit zieht der Konzern in einem Feld nach, in dem zuletzt auch OpenAI, Cloudflare und Microsoft Angebote platziert haben."
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-12T12:33:59+01:00",
+   "quelle_titel": "Why the data center you dread might never even be built",
+   "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/"
+    }
+   ],
+   "kontext": "Hinter der Einschätzung steht Brent Nelson von Ascend Analytics, der im Equity-Podcast von TechCrunch mit den Hosts Rebecca Bellan und Tim De Chant sortiert, welche Projekte überhaupt belastbar sind. Schon vor Protesten, Genehmigungen und der Suche nach Strom scheitere vieles daran, wie ernsthaft die Pläne angelegt sind. Für Investoren und Kommunen wird damit die nüchterne Vorprüfung wichtiger als die Ankündigung selbst."
+  },
+  {
+   "id": "d8ee9ab549e4",
+   "date": "2026-11-11",
+   "published": "2026-11-11T22:54+01:00",
+   "headline": "United blockiert Flugbuchungen durch persönliche KI-Assistenten",
+   "summary": "Die Fluggesellschaft United lässt keine Ticketbuchungen durch persönliche KI-Agenten zu und verweist auf Datenschutz sowie regulatorische Fragen. Bislang versuchten ohnehin nur wenige Kundinnen und Kunden, Flüge per Agent zu buchen, ähnliche Beobachtungen gibt es bei anderen Plattformen. Der Fall zeigt, dass agentische Buchungsprozesse am Widerstand der Anbieter scheitern können.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "united",
+    "reisebuchung",
+    "datenschutz"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-12T12:33:59+01:00",
+   "quelle_titel": "United won’t let your AI agent book your flight",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/united-wants-you-to-book-the-flight-your-ai-agent-isnt-invited/"
+    }
+   ],
+   "kontext": "Agenten dürfen bei United weiterhin Flüge anzeigen, den Kauf aber nicht abschließen. Die Airline fürchtet ungewollte Buchungen, offengelegte Kundendaten und Konflikte mit Vorgaben, etwa der Bestätigung, dass sich keine Sprengstoffe im Gepäck befinden. Konzernchef Kirby will zudem keinen weiteren Zwischenhändler zwischen sich und die Kundschaft lassen. Auch eBay schirmt nicht autorisierte Agenten ab, was neue persönliche Assistenten von Meta und OpenAI ausbremst."
   },
   {
    "id": "068e287ea304",
@@ -1939,6 +2197,55 @@
    "url": "https://t3n.de/news/sam-altman-versprach-die-rettung-des-klimas-durch-ki-was-ist-davon-heute-uebrig-1772410"
   },
   {
+   "id": "c8f2bdc5fedb",
+   "date": "2026-11-11",
+   "published": "2026-11-11T12:54+01:00",
+   "headline": "IBM-Prozessor Nighthawk r3: Quantenrechnen rückt Richtung Industrieeinsatz",
+   "summary": "IBM hat mit Nighthawk r3 einen Quantenprozessor vorgestellt, der 10.000 Quantenoperationen auf 520 programmierbaren Qubits ermöglichen soll. Beobachter rechnen damit, dass ab 2029 erste industrietauglich nutzbare Quantencomputer verfügbar sind. Für IT-Verantwortliche stellt sich damit neben der KI-Einführung die Frage nach dem richtigen Investitionszeitpunkt.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ibm",
+    "quantencomputing",
+    "qubits",
+    "it-strategie"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-11-12T12:34:53+01:00",
+   "quelle_titel": "Neue Quanten-CPUs von IBM, ab 2029 industrietauglich?",
+   "url": "https://www.computerwoche.de/article/4247324/neue-quanten-cpus-von-ibm-ab-2029-industrietauglich.html"
+  },
+  {
+   "id": "241e0a412515",
+   "date": "2026-11-11",
+   "published": "2026-11-11T13:05+01:00",
+   "headline": "Infineon profitiert vom Rechenzentrumsboom und meldet Rekordumsatz",
+   "summary": "Der Chipkonzern Infineon hat im abgelaufenen Geschäftsjahr 1,51 Milliarden Euro Nettogewinn erzielt, ein Plus von 49 Prozent. Der Umsatz stieg um zwölf Prozent auf 16,4 Milliarden Euro und erreichte damit einen Höchstwert. Treiber ist vor allem die Nachfrage nach Leistungshalbleitern für die Stromversorgung von KI-Rechenzentren.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "infineon",
+    "halbleiter",
+    "rechenzentren",
+    "quartalszahlen"
+   ],
+   "source": "CIO",
+   "source_id": "cio",
+   "added": "2026-11-12T12:34:53+01:00",
+   "quelle_titel": "KI-Datencenter verhelfen Infineon zum Rekordgewinn",
+   "url": "https://www.cio.de/article/4247335/ki-datencenter-verhelfen-infineon-zum-rekordgewinn.html",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Gewinnsprung-bei-Infineon-Milliardengeschaeft-Datencenter-11520304.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ],
+   "kontext": "Infineon aus Neubiberg liefert Leistungshalbleiter für die Stromversorgung von Servern und profitiert so indirekt vom Ausbau der KI-Rechenzentren. Dieses Geschäft soll im laufenden Jahr noch einmal deutlich zulegen, bereits vergebene und verhandelte Aufträge summieren sich auf einen zweistelligen Milliardenbetrag. Konzernchef Hanebeck rechnet nicht mit einem Ende des Booms, weil Hyperscaler notfalls außerhalb der USA bauen. Auch Autochips und Energieinfrastruktur sollen wieder mehr beitragen."
+  },
+  {
    "id": "1f62a8732d07",
    "date": "2026-11-11",
    "published": "2026-11-11T13:53+01:00",
@@ -1959,12 +2266,7 @@
    "added": "2026-11-12T08:50:15+01:00",
    "quelle_titel": "SAP treibt das Autonomous Enterprise voran",
    "url": "https://www.cio.de/article/4236478/sap-treibt-das-autonomous-enterprise-voran.html",
-   "also": [
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4236478/bank-of-america-spent-millions-on-anti-money-laundering-tech-but-not-enough-to-avoid-a-1-2b-fine.html"
-    }
-   ]
+   "dup_of": "0b0e6fbc97d6"
   },
   {
    "id": "1d5e30d859e0",
@@ -2008,6 +2310,7 @@
    "added": "2026-11-12T08:50:15+01:00",
    "quelle_titel": "KI-Stimmen mit Emotionen: DeepL stellt neues Modell Aure vor",
    "url": "https://www.heise.de/news/KI-Stimmen-mit-Emotionen-DeepL-stellt-neues-Modell-Aure-vor-11521062.html",
+   "kontext": "Bisher erzeugte DeepL Voice die Stimme aus einer einmaligen Probe zu Gesprächsbeginn, wodurch spätere Stimmungswechsel verloren gingen. Aure analysiert den Ton dagegen fortlaufend und trennt beim Training Stimmidentität, Betonung und Inhalt voneinander. Knifflig sind dabei Störgeräusche, Echos und die vielen Akzente, für die kaum echte Trainingsdaten vorliegen. Nutzbar ist das Modell in Online-Meetings, vor Ort und über die Schnittstelle, zunächst für acht Sprachen.",
    "also": [
     {
      "source": "t3n",
@@ -2017,8 +2320,7 @@
      "source": "The Decoder",
      "url": "https://the-decoder.de/deepl-voice-uebertraegt-mit-aure-jetzt-auch-tonfall-und-sprechtempo-in-andere-sprachen/"
     }
-   ],
-   "kontext": "Bisher erzeugte DeepL Voice die Stimme aus einer einmaligen Probe zu Gesprächsbeginn, wodurch spätere Stimmungswechsel verloren gingen. Aure analysiert den Ton dagegen fortlaufend und trennt beim Training Stimmidentität, Betonung und Inhalt voneinander. Knifflig sind dabei Störgeräusche, Echos und die vielen Akzente, für die kaum echte Trainingsdaten vorliegen. Nutzbar ist das Modell in Online-Meetings, vor Ort und über die Schnittstelle, zunächst für acht Sprachen."
+   ]
   },
   {
    "id": "6ca07fbc14a5",
@@ -2041,6 +2343,27 @@
    "paywall": true,
    "quelle_titel": "Hyperscaler-Anleihen: Hot or not? Warum KI-Bonds eine Zweiklassengesellschaft sind",
    "url": "https://www.wiwo.de/finanzen/boerse/ki-anleihen-warum-hyperscalern-und-neoclouds-der-crash-droht/100268680.html"
+  },
+  {
+   "id": "f0476f4b70e9",
+   "date": "2026-11-11",
+   "published": "2026-11-11T17:00+01:00",
+   "headline": "Google testet Tabletop: per Beschreibung eigene Organisations-Apps bauen",
+   "summary": "Mit dem Experiment Tabletop stellt Google eine Plattform vor, auf der sich gemeinsame Arbeitsbereiche für Familie, Freunde oder Gruppen erzeugen lassen. Optisch erinnert das Angebot an Projektmanagement-Werkzeuge, doch Nutzerinnen und Nutzer beschreiben die gewünschten interaktiven Funktionen einfach in Textform und lassen sie generieren. Damit rückt das Prinzip des Vibecodings in alltägliche Koordinationsaufgaben.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "google",
+    "vibecoding",
+    "kollaboration",
+    "experiment"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-12T12:34:53+01:00",
+   "quelle_titel": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+   "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability"
   },
   {
    "id": "68d5e1ba75ca",
@@ -2106,6 +2429,28 @@
    "url": "https://t3n.de/news/schlafanalyse-wie-eine-open-source-ki-deinen-schlaf-auf-die-sekunde-genau-auswertet-1773027"
   },
   {
+   "id": "a7761420660d",
+   "date": "2026-11-11",
+   "published": "2026-11-11T18:00+01:00",
+   "headline": "Startup setzt KI gegen künstlich erzeugte Krankheitserreger ein",
+   "summary": "Das Unternehmen Radical Numerics hat ein Modell entwickelt, das natürliche wie auch im Labor veränderte Erreger erkennen soll. Besonders ist, dass die Analyse ohne Internetverbindung lokal laufen kann, was den Einsatz in sensiblen Umgebungen erleichtert. Der Ansatz zielt darauf, Risiken durch KI-gestützte Biowaffen frühzeitig zu entdecken.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "biosicherheit",
+    "startup",
+    "erkennung",
+    "offline-modell"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-12T12:34:53+01:00",
+   "paywall": true,
+   "quelle_titel": "A Startup Wants to Fight AI Bioweapons With AI",
+   "url": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/"
+  },
+  {
    "id": "ac1cecf07124",
    "date": "2026-11-11",
    "published": "2026-11-11T18:07+01:00",
@@ -2168,7 +2513,78 @@
    "source_id": "heise-ki",
    "added": "2026-11-12T08:47:32+01:00",
    "quelle_titel": "BKA-Herbsttagung: Zwischen Q-Day und Rückschlägen",
-   "url": "https://www.heise.de/news/BKA-Herbsttagung-Zwischen-Q-Day-und-Rueckschlaegen-11521539.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/BKA-Herbsttagung-Zwischen-Q-Day-und-Rueckschlaegen-11521539.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "also": [
+    {
+     "source": "heise Security",
+     "url": "https://www.heise.de/news/BKA-Herbsttagung-Zwischen-Q-Day-und-Rueckschlaegen-11521539.html"
+    }
+   ],
+   "kontext": "BKA-Chef Holger Münch beschrieb in Berlin eine Lage, in der sich Cybercrime, organisierte Kriminalität und staatliche Akteure kaum noch auseinanderhalten lassen, während Massendelikte die Strafverfolgung überlasten. Innenminister Dobrindt warb für die Reform der Nachrichtendienste, die bis zur Gefahrenabwehr reichen soll, und warnte vor leicht verfügbarer KI in kriminellen Händen. Das dafür gedachte deutsche AI Safety Institute existiert bislang nur dem Namen nach."
+  },
+  {
+   "id": "850c0644106f",
+   "date": "2026-11-11",
+   "published": "2026-11-11T20:54+01:00",
+   "headline": "CoreWeave finanziert KI-Wachstum über Vorauszahlungen der Kunden",
+   "summary": "Laut Quartalszahlen lässt sich CoreWeave zunehmend im Voraus bezahlen, nimmt Kredite auf einzelne Verträge auf und setzt stärker auf kürzere Laufzeiten. Kurzfristige Abschlüsse könnten höhere Preise ermöglichen, zeigen aber auch, wie kapitalhungrig der Ausbau von KI-Rechenkapazität ist. Für Kunden bedeutet das potenziell teurere und flexiblere Verträge.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "coreweave",
+    "cloud",
+    "finanzierung",
+    "gpu"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-12T12:33:59+01:00",
+   "quelle_titel": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+   "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+  },
+  {
+   "id": "bdeaa23eb988",
+   "date": "2026-11-11",
+   "published": "2026-11-11T21:02+01:00",
+   "headline": "Widerstand und Bürokratie bremsen den Rechenzentrumsausbau weiter aus",
+   "summary": "Trotz politischer Rückenwindphasen kommen Rechenzentrumsprojekte nur schleppend voran, weil lokale Proteste, zähe Genehmigungsverfahren und der Wettlauf um Strom die Vorhaben verzögern. Hinzu kommt, dass ein großer Teil der angekündigten Bauten überhaupt nicht umgesetzt wird. Die Lücke zwischen Ankündigung und realer KI-Rechenleistung wächst damit weiter.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "rechenzentren",
+    "genehmigungen",
+    "stromnetz",
+    "ki-infrastruktur"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-12T12:33:59+01:00",
+   "quelle_titel": "How backlash and red tape continue to slow data centers post-Blue Wave",
+   "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+   "dup_of": "ae5556d61c0b"
+  },
+  {
+   "id": "70b89fd3ef03",
+   "date": "2026-11-11",
+   "published": "2026-11-11T21:12+01:00",
+   "headline": "Meta verliert langjährigen Infrastrukturchef Janardhan",
+   "summary": "Santosh Janardhan, seit 2009 bei Meta und zuletzt verantwortlich für die Infrastruktur, verlässt seinen Posten. Der Abgang trifft das Unternehmen in einer Phase, in der Rechenzentren und Rechenkapazität für die KI-Strategie zentral sind.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "personalie",
+    "infrastruktur",
+    "rechenzentren"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-12T12:33:59+01:00",
+   "quelle_titel": "Meta is losing its longtime head of infrastructure",
+   "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/"
   },
   {
    "id": "b48c72a043b5",
@@ -2189,7 +2605,36 @@
    "source_id": "heise-ki",
    "added": "2026-11-12T08:47:32+01:00",
    "quelle_titel": "Bericht: ByteDance plant eigenen KI-Agenten",
-   "url": "https://www.heise.de/news/Bericht-ByteDance-plant-eigenen-KI-Agenten-11521573.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Bericht-ByteDance-plant-eigenen-KI-Agenten-11521573.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Bericht-ByteDance-plant-eigenen-KI-Agenten-11521573.html"
+    }
+   ],
+   "kontext": "Laut einem Bloomberg-Bericht stellte Mitgründer Zhang Yiming den Plan intern vor und räumte ein, dass ByteDance mit deutlich kleineren Trainingsdaten arbeitet als die Spitzenanbieter. Auf Destillation will er verzichten und stattdessen langfristig aufbauen; in drei bis vier Jahren sieht er sich auf Augenhöhe mit OpenAI und Anthropic. Trotz des populären Chatbots Doubao hat der Konzern zu Hause Boden an DeepSeek verloren. Ob wie bei Meta eigene Hardware folgt, ist offen."
+  },
+  {
+   "id": "68187516676d",
+   "date": "2026-11-11",
+   "published": "2026-11-11T21:20+01:00",
+   "headline": "ByteDance arbeitet laut Bericht an eigenem KI-Agenten",
+   "summary": "Der TikTok-Konzern ByteDance entwickelt offenbar einen eigenen KI-Agenten, der sich an Metas Muse orientiert. Damit will das Unternehmen seinen Rückstand gegenüber führenden US-Anbietern im Rennen um agentische KI verkleinern.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "bytedance",
+    "ki-agenten",
+    "china",
+    "meta"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-11-12T12:33:59+01:00",
+   "quelle_titel": "Bericht: ByteDance plant eigenen KI-Agenten",
+   "url": "https://www.heise.de/news/Bericht-ByteDance-plant-eigenen-KI-Agenten-11521573.html",
+   "dup_of": "b48c72a043b5"
   },
   {
    "id": "109b40dce92d",
@@ -2362,6 +2807,49 @@
    "added": "2026-11-12T08:49:09+01:00",
    "quelle_titel": "Sicherheitsroboter für dein Zuhause: Ring bringt Drohne und Rover auf den Markt",
    "url": "https://t3n.de/news/neue-sicherheitsroboter-fuer-dein-zuhause-ring-bringt-drohne-und-rover-auf-den-markt-1773001"
+  },
+  {
+   "id": "5eabf150ee4a",
+   "date": "2026-11-11",
+   "published": "2026-11-11T18:13+01:00",
+   "headline": "DAX nähert sich Rekordhoch, KI-Sorgen verlieren an Gewicht",
+   "summary": "Der DAX beendete den Handelstag nahe seinem Rekordstand, nachdem er zwischenzeitlich schwächelte. Optimistische Einschätzungen der Wirtschaftsweisen stützten den Markt, während die Befürchtungen rund um eine Überhitzung bei KI-Werten vorerst in den Hintergrund traten.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 2,
+   "tags": [
+    "dax",
+    "börse",
+    "ki-bewertungen",
+    "konjunktur"
+   ],
+   "source": "tagesschau",
+   "source_id": "tagesschau",
+   "added": "2026-11-12T12:33:59+01:00",
+   "quelle_titel": "Marktbericht: DAX pirscht sich ans Rekordhoch heran",
+   "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nasdaq-eon-nvidia-100.html"
+  },
+  {
+   "id": "b1bde400e8cf",
+   "date": "2026-11-11",
+   "published": "2026-11-11T20:55+01:00",
+   "headline": "Mit OpenAI-Modell zum watschelnden Mini-Roboter für die Katze",
+   "summary": "Ein Erfahrungsbericht schildert, wie sich mit Hilfe eines OpenAI-Modells einem kleinen Roboter namens Microduck das Watscheln beibringen lässt. Das Experiment zeigt, wie stark generative Modelle inzwischen die Programmierung und Steuerung von Robotik vereinfachen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "robotik",
+    "openai",
+    "experiment",
+    "embodied ai"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-12T12:33:59+01:00",
+   "paywall": true,
+   "quelle_titel": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
+   "url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/"
   },
   {
    "id": "b5e7e1caeefb",
