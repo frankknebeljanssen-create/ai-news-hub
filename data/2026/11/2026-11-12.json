@@ -1,38 +1,38 @@
 {
  "date": "2026-11-12",
- "generated_at": "2026-11-13T01:00:19+01:00",
+ "generated_at": "2026-11-13T02:23:56+01:00",
  "overview": [
   {
    "id": "3f3c0084577c",
-   "text": "Jensen Huang legt bei Nvidia mit sofortiger Wirkung alle Ämter nieder, Finanzchefin Colette Kress übernimmt den Konzern zunächst kommissarisch."
+   "text": "Nvidia-Chef Jensen Huang legt mit sofortiger Wirkung alle Ämter nieder, Finanzchefin Colette Kress übernimmt die Führung des Chipriesen kommissarisch."
   },
   {
-   "id": "8af226d2b9f4",
-   "text": "Googles neues Modell Gemini 4 Hydrogen zerlegt komplexe Anfragen in Teilschritte und steht ab sofort in der Suche, der Gemini-App und allen Abostufen bereit."
+   "id": "9bd1318d93db",
+   "text": "Anthropic stellt eine eigene Büro-Suite mit Tabellenkalkulation und Videokonferenz-Assistent vor und greift damit Microsofts Kerngeschäft an."
+  },
+  {
+   "id": "5f0c0752cb90",
+   "text": "Der deutsche Webhoster Mittwald läuft nach einem Angriff über einen MCP-Server nur im Notbetrieb, Kunden fehlen zentrale Verwaltungsfunktionen."
   },
   {
    "id": "a706061855cf",
-   "text": "Das BKA warnt, dass Kriminelle KI-Agenten eigenständig nach Sicherheitslücken suchen lassen, und fordert eine engere Abstimmung der Sicherheitsbehörden."
+   "text": "Das BKA warnt, dass Kriminelle autonome KI-Agenten gezielt auf Sicherheitslücken ansetzen, und fordert eine engere Abstimmung der Sicherheitsbehörden."
+  },
+  {
+   "id": "a67e1509e9c0",
+   "text": "Google rollt Gemini 4 Hydrogen als Nachfolger von 3.8 Flash ungewöhnlich schnell und ohne langen Sicherheitsvorlauf breit aus."
   },
   {
    "id": "4d9cdece38b3",
-   "text": "DeepMinds AlphaGenome 2 sagt die Wirkung von Genvarianten erstmals zelltypspezifisch vorher und findet fast doppelt so viele krankheitsrelevante Varianten."
+   "text": "Googles DeepMind sagt mit AlphaGenome 2 die Wirkung von Genvarianten erstmals zelltypspezifisch voraus und erkennt fast doppelt so viele Treffer."
   },
   {
-   "id": "db514d79f1e5",
-   "text": "Siemens meldet ein Rekordjahr, verdient mit 9,5 Milliarden Euro aber weniger als im Vorjahr und setzt künftig stärker auf industrielle KI."
-  },
-  {
-   "id": "4388d2ad0a95",
-   "text": "Gartner erwartet für 2027 weltweite KI-Ausgaben von rund vier Billionen Dollar, die Investitionswelle läuft also trotz Bewertungsdebatten weiter."
-  },
-  {
-   "id": "19e86c1e812c",
-   "text": "Fachleute ziehen Grenzen für den KI-Einsatz in Gerichten und betonen, dass die Letztverantwortung für Entscheidungen beim Menschen bleiben muss."
+   "id": "305e63899ec2",
+   "text": "Australien will Entwickler besonders leistungsfähiger KI-Modelle zu unabhängigen Sicherheitsprüfungen verpflichten und dafür eine Aufsicht schaffen."
   },
   {
    "id": "8c0f4a88a290",
-   "text": "Ein neuer Sammelband untersucht, wie generative KI das Lehren und Lernen in der beruflichen Bildung verändert und wo ihre Grenzen liegen."
+   "text": "Ein neuer Sammelband untersucht, wie generative KI das Lehren und Lernen in der beruflichen Bildung verändert und wo die Grenzen liegen."
   }
  ],
  "items": [
@@ -66,15 +66,6 @@
     {
      "source": "t3n",
      "url": "https://t3n.de/news/affaere-nvidia-aufseher-huang-1773118"
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Donnerstag-Nvidia-Chef-angeblich-kurz-vor-Abschied-KI-Agent-auch-von-ByteDance-11521643.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/unternehmen/jensen-huangs-spionage-affaere-wird-fuer-nvidia-zum-klumpenrisiko/100269175.html",
-     "paywall": true
     }
    ]
   },
@@ -100,7 +91,40 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Anthropic macht Microsoft Konkurrenz bei Bürosoftware",
    "url": "https://www.handelsblatt.com/technik/it-internet/ki-wie-anthropic-mit-claude-ins-geschaeft-von-microsoft-draengt/100268547.html",
-   "dup_of": "f369b7d30174"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/claude-meetings-anthropic-laesst-claude-als-teilnehmer-an-videoanrufe-andocken/"
+    },
+    {
+     "source": "Computerwoche",
+     "url": "https://www.computerwoche.de/article/4248052/claude-nimmt-jetzt-an-ihrer-videokonferenz-teil.html"
+    }
+   ],
+   "kontext": "Technisch dockt Claude als sichtbarer Teilnehmer an Videoanrufe an, zunächst nur bei Google Meet, und liefert Antworten, Notizen und Dokumente, die anschließend in der Claude-App bereitliegen. Aus Datenschutzgründen bleibt der Assistent bei Gesprächen mit externen Teilnehmern standardmäßig außen vor; die Beta richtet sich an Team- und Enterprise-Kunden. Zusammen mit Whiteboards und Daten-Dashboards wächst die App zur Arbeitsumgebung heran und trifft Microsoft dort, wo dessen Geschäft verankert ist."
+  },
+  {
+   "id": "5f0c0752cb90",
+   "date": "2026-11-12",
+   "published": "2026-11-12T14:14+01:00",
+   "headline": "Webhoster Mittwald nach Angriff über MCP-Server im Notbetrieb",
+   "summary": "Der deutsche Hoster Mittwald kämpft mit den Folgen eines Angriffs, der über einen MCP-Server erfolgte. Die Unternehmenswebseite läuft nur eingeschränkt, das Blog ist offline und Verwaltungsfunktionen stehen Kunden nicht zur Verfügung. Der Vorfall zeigt, wie neue Schnittstellen für KI-Agenten zum Einfallstor für Angreifer werden können.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 5,
+   "tags": [
+    "AITI",
+    "mcp",
+    "sicherheit",
+    "hosting",
+    "cyberangriff"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-13T02:18:41+01:00",
+   "quelle_titel": "Angriff über MCP-Server: Webhoster Mittwald im Krisenmodus",
+   "url": "https://www.heise.de/news/Angriff-ueber-MCP-Server-Webhoster-Mittwald-im-Krisenmodus-11522728.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Bereits Anfang November sperrte der Hoster aus Espelkamp Zugänge wie SSH, das Kundenportal und das Bestellsystem und gab sie wenige Tage später schrittweise frei. In der Nacht zum 12. November folgte ein zweiter Angriff, seitdem stehen die Verwaltungsdienste erneut still. Mittwald widerspricht Berichten über eine Verunstaltung der Website und betont, sie vorsorglich selbst abgeschaltet zu haben. Gehostete Kundenseiten blieben erreichbar, hinter den Attacken vermutet die Firma professionelle, KI-gestützte Angreifer."
   },
   {
    "id": "3f3c0084577c",
@@ -122,7 +146,55 @@
    "added": "2026-11-13T00:52:59+01:00",
    "quelle_titel": "Nvidia-Chef Huang gestürzt, Finanzchefin Kress übernimmt vorerst",
    "url": "https://the-decoder.de/nvidia-chef-huang-gestuerzt-finanzchefin-kress-uebernimmt-vorerst/",
-   "kontext": "Vorausgegangen waren Medienberichte über außereheliche Affären Huangs, darunter mit einer Frau, die als mutmaßliche chinesische Spionin gilt. Seit den ersten Enthüllungen Ende Oktober brach Nvidias Börsenwert massiv ein, der Vorstand steuerte auf eine Trennung zu. Harvey C. Jones rückt als Vorstandsvorsitzender nach und versichert, das Tagesgeschäft laufe ungestört weiter. Heikel bleibt die Nachfolge, denn Huang hatte den Konzern samt Allianzen und Kundengarantien stark auf sich zugeschnitten."
+   "kontext": "Vorausgegangen waren Medienberichte über außereheliche Affären Huangs, darunter mit einer Frau, die als mutmaßliche chinesische Spionin gilt. Seit den ersten Enthüllungen Ende Oktober brach Nvidias Börsenwert massiv ein, der Vorstand steuerte auf eine Trennung zu. Harvey C. Jones rückt als Vorstandsvorsitzender nach und versichert, das Tagesgeschäft laufe ungestört weiter. Heikel bleibt die Nachfolge, denn Huang hatte den Konzern samt Allianzen und Kundengarantien stark auf sich zugeschnitten.",
+   "also": [
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/politik/ausland/ruecktritt-des-nvidia-chefs-huangs-sturz-ist-ein-triumph-fuer-china-und-eine-blamage-fuer-trump/100269526.html",
+     "paywall": true
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/nvidia-jensen-huang-tritt-nach-mehreren-affaeren-zurueck/100269321.html",
+     "paywall": true
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/nvidia-chef-jensen-huang-tritt-nach-affaeren-zurueck-1773333"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-chip-riese-nvidia-chef-tritt-nach-affaren-zuruck-16278227.html",
+     "paywall": true
+    },
+    {
+     "source": "stern Digital",
+     "url": "https://www.stern.de/digital/chip-riese--nvidia-chef-tritt-nach-affaeren-zurueck-38540588.html"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Nach-Bekanntwerden-einer-zweiten-Affaere-Nvidia-CEO-Jensen-Huang-abgetreten-11522193.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+     "paywall": true
+    },
+    {
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
+     "paywall": true
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-briefing/ki-briefing-was-unter-der-neuen-chefin-mit-nvidia-passiert/100268863.html",
+     "paywall": true
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang"
+    }
+   ]
   },
   {
    "id": "e88b73f46f20",
@@ -145,7 +217,8 @@
    "kurios": "Der prägendste CEO der KI-Branche stürzt über eine Spionageaffäre",
    "paywall": true,
    "quelle_titel": "KI-Chipkonzern: Nvidia-Chef Huang tritt nach Spionageaffäre zurück",
-   "url": "https://www.handelsblatt.com/technik/ki/nvidia-jensen-huang-tritt-nach-mehreren-affaeren-zurueck/100269321.html"
+   "url": "https://www.handelsblatt.com/technik/ki/nvidia-jensen-huang-tritt-nach-mehreren-affaeren-zurueck/100269321.html",
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "a67e1509e9c0",
@@ -167,7 +240,21 @@
    "added": "2026-11-13T00:50:24+01:00",
    "quelle_titel": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
    "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
-   "kontext": "Google setzt die Benennung nach chemischen Elementen fort; Hydrogen übernimmt die Rolle der schnellen, günstigen Flash-Reihe. Das Modell arbeitet in vier Denkstufen bis hin zu einer neuen Höchststufe, soll deutlich seltener Dinge erfinden und vor allem beim Programmieren zulegen. Die Preise über die Schnittstelle bleiben gegenüber dem Vorgänger gleich, während die Schwestermodelle Carbon und Argon teurer werden. In der Gemini-App müssen Gratisnutzer laut Bericht vorerst beim älteren Modell bleiben."
+   "kontext": "Google setzt die Benennung nach chemischen Elementen fort; Hydrogen übernimmt die Rolle der schnellen, günstigen Flash-Reihe. Das Modell arbeitet in vier Denkstufen bis hin zu einer neuen Höchststufe, soll deutlich seltener Dinge erfinden und vor allem beim Programmieren zulegen. Die Preise über die Schnittstelle bleiben gegenüber dem Vorgänger gleich, während die Schwestermodelle Carbon und Argon teurer werden. In der Gemini-App müssen Gratisnutzer laut Bericht vorerst beim älteren Modell bleiben.",
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/google-stellt-gemini-4-hydrogen-vor-schnelles-ki-modell-fuer-den-alltag-fuer-weniger-geld/"
+    },
+    {
+     "source": "Google DeepMind",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    }
+   ]
   },
   {
    "id": "54cc0bacc94f",
@@ -189,7 +276,8 @@
    "added": "2026-11-13T00:49:37+01:00",
    "paywall": true,
    "quelle_titel": "Rücktritt des Nvidia-Chefs: Huangs Sturz ist ein Triumph für China, und eine Blamage für Trump",
-   "url": "https://www.wiwo.de/politik/ausland/ruecktritt-des-nvidia-chefs-huangs-sturz-ist-ein-triumph-fuer-china-und-eine-blamage-fuer-trump/100269526.html"
+   "url": "https://www.wiwo.de/politik/ausland/ruecktritt-des-nvidia-chefs-huangs-sturz-ist-ein-triumph-fuer-china-und-eine-blamage-fuer-trump/100269526.html",
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "8af226d2b9f4",
@@ -211,7 +299,8 @@
    "added": "2026-11-13T00:48:47+01:00",
    "quelle_titel": "Google’s new Gemini model is better at understanding complicated questions",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-   "kontext": "Hinter dem Schritt steht Googles Umbau der Suche: Produktchef Robby Stein spricht vom bislang größten Modellsprung in diesem Bereich. Hydrogen wird zum Standardmodell im AI Mode und übernimmt in den AI Overviews die schwierigsten Anfragen. Das System startet dabei parallele Suchen zu allen Teilthemen und soll so breiter auf Quellen verlinken. Die Antworten enthalten zudem mehr Bilder, Vergleichstabellen, Diagramme und Karten."
+   "kontext": "Hinter dem Schritt steht Googles Umbau der Suche: Produktchef Robby Stein spricht vom bislang größten Modellsprung in diesem Bereich. Hydrogen wird zum Standardmodell im AI Mode und übernimmt in den AI Overviews die schwierigsten Anfragen. Das System startet dabei parallele Suchen zu allen Teilthemen und soll so breiter auf Quellen verlinken. Die Antworten enthalten zudem mehr Bilder, Vergleichstabellen, Diagramme und Karten.",
+   "dup_of": "a67e1509e9c0"
   },
   {
    "id": "efdd0bfa6110",
@@ -234,7 +323,13 @@
    "added": "2026-11-12T08:46:51+01:00",
    "quelle_titel": "The unfolding Jensen Huang scandal: a timeline",
    "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-   "kontext": "Huang hat eine außereheliche Beziehung eingeräumt. Brisant wird sie dadurch, dass US-Behörden die betreffende Führungskraft des Chipkäufers Megaspeed verdächtigen, Informationen nach Peking zu liefern; das Justizministerium ermittelt gegen die Firma aus Singapur. Inzwischen berichten Medien von einer zweiten Beziehung innerhalb des Konzerns, der Verwaltungsrat soll über Huangs Zukunft beraten und der Kurs gab nach. Einen vorbereiteten Nachfolger gibt es bei Nvidia bislang nicht."
+   "kontext": "Huang hat eine außereheliche Beziehung eingeräumt. Brisant wird sie dadurch, dass US-Behörden die betreffende Führungskraft des Chipkäufers Megaspeed verdächtigen, Informationen nach Peking zu liefern; das Justizministerium ermittelt gegen die Firma aus Singapur. Inzwischen berichten Medien von einer zweiten Beziehung innerhalb des Konzerns, der Verwaltungsrat soll über Huangs Zukunft beraten und der Kurs gab nach. Einen vorbereiteten Nachfolger gibt es bei Nvidia bislang nicht.",
+   "also": [
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+    }
+   ]
   },
   {
    "id": "604483627c0c",
@@ -480,7 +575,22 @@
    "added": "2026-11-12T12:31:26+01:00",
    "quelle_titel": "Australien will Frontier-KI-Firmen zu unabhängigen Prüfungen und Sicherheitskontrollen zwingen",
    "url": "https://the-decoder.de/australien-will-frontier-ki-firmen-zu-unabhaengigen-pruefungen-und-sicherheitskontrollen-zwingen/",
-   "dup_of": "e02b0bd36a22"
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/ki-warum-australien-regeln-fuer-tech-konzerne-verschaerfen-will-01/100268601.html",
+     "paywall": true
+    },
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4247357/ki-hackt-regierung-jetzt-nimmt-australien-openai-an-die-leine.html"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/nach-sicherheitsvorfall-mit-openai-australien-prueft-straftatbestand-gegen-unsichere-ki-2611-215079.html"
+    }
+   ],
+   "kontext": "Das Vorhaben gehört zu einer breiteren KI-Agenda der Regierung Albanese und zielt auf die technisch fortschrittlichsten Modelle mit den höchsten Risiken. Anbieter sollen laufende Kontrollen nachweisen, ihre Sicherheitskonzepte offenlegen und Vorfälle unverzüglich melden, etwa wenn Agenten außer Kontrolle geraten. Überwacht wird das gemeinsam mit dem nationalen AI Safety Institute. Canberra verspricht sich davon Vertrauen und Planungssicherheit für Investoren; Details folgen nach Abschluss der Beratungen."
   },
   {
    "id": "4388d2ad0a95",
@@ -504,6 +614,10 @@
    "quelle_titel": "Prognose: Ausgaben für KI steigen 2027 laut Gartner auf vier Billionen Dollar",
    "url": "https://www.handelsblatt.com/technik/ki/prognose-globale-ki-ausgaben-sollen-2027-auf-vier-billionen-dollar-steigen/100269346.html",
    "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/ausblick-2027-grossteil-der-ki-ausgaben-fliesst-weiter-in-die-infrastruktur-2611-215155.html"
+    },
     {
      "source": "ZEIT Digital",
      "url": "https://www.zeit.de/digital/2026-11/ki-ausgaben-gartner-prognose-rechenzentren-software-cybersicherheit-gxe",
@@ -554,7 +668,7 @@
    "added": "2026-11-12T12:30:38+01:00",
    "quelle_titel": "Anthropic-IPO: Banken drängen auf höhere Bewertung",
    "url": "https://t3n.de/news/anthropic-ipo-banken-draengen-auf-hoehere-bewertung-1773181",
-   "dup_of": "c7ba74741437"
+   "kontext": "Anthropic hat die Werbetour bei Investoren gestartet und peilt ein Debüt an der Nasdaq an, der Ausgabepreis wird kurzfristig festgelegt. Strategische Partner wie Alphabet, Nvidia und Microsoft dürfen stimmrechtslose Anteile zeichnen, ein Teil der Papiere ist für Privatanleger auch in Deutschland vorgesehen. Der Umsatz wächst rasant, doch das Unternehmen dämpft im Prospekt selbst die Erwartungen. Die optimistischsten Prognosen stammen ausgerechnet von der federführenden Bank."
   },
   {
    "id": "aff1a0dfade3",
@@ -576,7 +690,7 @@
    "added": "2026-11-12T12:30:38+01:00",
    "quelle_titel": "AlphaGenome 2: Googles KI berücksichtigt Zellzustände bei DNA-Prognosen",
    "url": "https://www.heise.de/news/AlphaGenome-2-Googles-KI-beruecksichtigt-Zellzustaende-bei-DNA-Prognosen-11522049.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "e879c6fc35d4"
+   "dup_of": "4d9cdece38b3"
   },
   {
    "id": "4fae8f7d4bd9",
@@ -624,13 +738,13 @@
    "kontext": "Getragen wird das Jahr vom industriellen Geschäft, das zweistellig zulegte, sowie von einem Auftragseingang deutlich über dem Umsatz. Busch sieht industrielle KI als zentrale Wachstumschance und arbeitet dafür eng mit Nvidia zusammen, etwa an Simulationen und digitalen Zwillingen. Die Turbulenzen um die Nvidia-Spitze hält er für unkritisch, weil die gemeinsame Projektarbeit mehrere Ebenen tiefer laufe. Dass KI die Menschheit bedrohe, erwartet er nicht.",
    "also": [
     {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/gewinnrueckgang-siemens-rekordjahr"
+    },
+    {
      "source": "Tagesspiegel Wirtschaft",
      "url": "https://www.tagesspiegel.de/wirtschaft/dpa-jahreszahlen-siemens-mit-rekordjahr-aber-weniger-gewinn-16275860.html",
      "paywall": true
-    },
-    {
-     "source": "it-daily.net",
-     "url": "https://www.it-daily.net/shortnews/gewinnrueckgang-siemens-rekordjahr"
     }
    ]
   },
@@ -654,7 +768,29 @@
    "added": "2026-11-13T00:53:43+01:00",
    "quelle_titel": "Googles AlphaGenome 2 soll zeigen, wie jede Körperzelle ihre DNA liest",
    "url": "https://the-decoder.de/googles-alphagenome-2-soll-zeigen-wie-jede-koerperzelle-ihre-dna-liest/",
-   "kontext": "Jede Zelle trägt dasselbe Erbgut, liest es aber unterschiedlich ab. Die Vorgängerversion sagte viele Gewebe parallel voraus und verwischte dabei feine Unterschiede zwischen verwandten Zelltypen. AlphaGenome 2 erhält den jeweiligen Zellzustand als zusätzliche Eingabe und berechnet neben der Genaktivität auch die Verpackung der DNA im Zellkern sowie chemische Schalter, die Gene stummschalten. Aus einer einzigen Messung leitet es weitere Eigenschaften ab und hilft so bei der Auswahl der nächsten Laborexperimente."
+   "kontext": "Jede Zelle trägt dasselbe Erbgut, liest es aber unterschiedlich ab. Die Vorgängerversion sagte viele Gewebe parallel voraus und verwischte dabei feine Unterschiede zwischen verwandten Zelltypen. AlphaGenome 2 erhält den jeweiligen Zellzustand als zusätzliche Eingabe und berechnet neben der Genaktivität auch die Verpackung der DNA im Zellkern sowie chemische Schalter, die Gene stummschalten. Aus einer einzigen Messung leitet es weitere Eigenschaften ab und hilft so bei der Auswahl der nächsten Laborexperimente.",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/AlphaGenome-2-Googles-KI-beruecksichtigt-Zellzustaende-bei-DNA-Prognosen-11522049.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/deepmind-launched-alphagenome-2-for-dna-a377/"
+    },
+    {
+     "source": "Google DeepMind",
+     "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/googles-alphagenome-2-wants-to-find-where-disease-begins/"
+    }
+   ]
   },
   {
    "id": "a706061855cf",
@@ -676,6 +812,29 @@
    "added": "2026-11-13T00:53:43+01:00",
    "quelle_titel": "Dobrindt legt sich mit KI-Agenten an",
    "url": "https://www.cio.de/article/4247831/dobrindt-legt-sich-mit-ki-agenten-an.html"
+  },
+  {
+   "id": "e518a4bdd755",
+   "date": "2026-11-12",
+   "published": "2026-11-12T13:55+01:00",
+   "headline": "China weicht auf Rechenzentren im Ausland aus",
+   "summary": "Chinesische KI-Unternehmen mieten offenbar verstärkt Rechenkapazitäten außerhalb des eigenen Landes, um die US-Exportbeschränkungen für KI-Chips zu umgehen. Hintergrund ist die Sorge, dass Washington die Regeln weiter verschärft und auch den Zugriff auf ausländische Cloud-Ressourcen einschränkt. Für den globalen Markt für Rechenleistung könnte das die Nachfrage und die Preise zusätzlich antreiben.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "exportkontrollen",
+    "china",
+    "ki-chips",
+    "rechenzentren",
+    "usa"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-13T02:18:49+01:00",
+   "quelle_titel": "Angst vor neuen KI-Chip-Exportkontrollen: China sichert sich Rechenkapazitäten",
+   "url": "https://www.heise.de/news/Angst-vor-neuen-KI-Chip-Exportkontrollen-China-sichert-sich-Rechenkapazitaeten-11522548.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hochleistungsfähige US-Chips dürfen schon länger nicht nach China geliefert werden, auch nicht über Drittstaaten. Das Mieten von Rechenleistung in ausländischen Rechenzentren galt bislang aber nicht als Export. Ein bereits vom Repräsentantenhaus beschlossenes Gesetz soll diese Lücke schließen, der Senat muss noch zustimmen. Zusätzlich wird erwogen, weitere Länder auf die Liste genehmigungspflichtiger Abnehmer zu setzen. Nvidia als wichtigster Lobbyist ist derzeit durch eine Affäre um seinen Chef geschwächt."
   },
   {
    "id": "fdfc3b0fe737",
@@ -743,7 +902,74 @@
    "kurios": "Der mächtigste Mann der KI-Branche stürzt über Privataffären.",
    "paywall": true,
    "quelle_titel": "Chip-Riese: Nvidia-Chef tritt nach Affären zurück",
-   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-chip-riese-nvidia-chef-tritt-nach-affaren-zuruck-16278227.html"
+   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-chip-riese-nvidia-chef-tritt-nach-affaren-zuruck-16278227.html",
+   "dup_of": "3f3c0084577c"
+  },
+  {
+   "id": "397a29fe38eb",
+   "date": "2026-11-12",
+   "published": "2026-11-12T14:58+01:00",
+   "headline": "Untersuchung zu Spionagekontakt: Huang verlässt Nvidia-Spitze",
+   "summary": "Nvidia-Mitgründer Jensen Huang ist als Vorstandschef zurückgetreten, nachdem das Unternehmen eine interne Untersuchung eingeleitet hatte. Anlass war seine Beziehung zu einer Frau, die als mutmaßliche Mitarbeiterin eines chinesischen Nachrichtendienstes gilt. Der Vorgang verbindet eine persönliche Affäre mit sicherheitspolitisch heiklen Fragen rund um den wichtigsten KI-Chiphersteller.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "spionage",
+    "compliance",
+    "chips"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-13T02:18:41+01:00",
+   "paywall": true,
+   "quelle_titel": "Jensen Huang Resigns as Nvidia CEO",
+   "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+   "dup_of": "3f3c0084577c"
+  },
+  {
+   "id": "d97dc6790da2",
+   "date": "2026-11-12",
+   "published": "2026-11-12T15:08+01:00",
+   "headline": "Nvidia-Chef Huang tritt nach zweiter Affäre sofort zurück",
+   "summary": "Jensen Huang hatte am Wochenende eine außereheliche Affäre eingeräumt und sich zunächst im Amt halten können. Nachdem ein zweiter Fall bekannt wurde, gibt er den Chefposten bei Nvidia mit sofortiger Wirkung ab. Der Rücktritt trifft den Konzern in einer Phase, in der er das Zentrum des weltweiten KI-Booms bildet.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "jensen huang",
+    "rücktritt"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-13T02:18:41+01:00",
+   "quelle_titel": "Außereheliche Affären: Nvidia-CEO Jensen Huang tritt mit sofortiger Wirkung ab",
+   "url": "https://www.heise.de/news/Nach-Bekanntwerden-einer-zweiten-Affaere-Nvidia-CEO-Jensen-Huang-abgetreten-11522193.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "3f3c0084577c"
+  },
+  {
+   "id": "3a038bc09aff",
+   "date": "2026-11-12",
+   "published": "2026-11-12T15:14+01:00",
+   "headline": "Colette Kress übernimmt Nvidia übergangsweise als Chefin",
+   "summary": "Nach dem Rücktritt von Jensen Huang führt die langjährige Finanzchefin Colette Kress Nvidia interimsweise. Sie hat den Aufstieg des Konzerns zum zentralen Anbieter von KI-Rechenleistung finanziell maßgeblich mitgestaltet. Ihr Porträt zeigt, wer nun die Verantwortung für den wichtigsten Chiplieferanten der KI-Branche trägt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "colette kress",
+    "führungswechsel"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-13T02:18:41+01:00",
+   "paywall": true,
+   "quelle_titel": "Meet Colette Kress, Nvidia’s New Interim CEO",
+   "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "c29814e3c78d",
@@ -766,7 +992,8 @@
    "kurios": "Das Gesicht des KI-Booms stürzt nicht über Zahlen, sondern über Privataffären.",
    "quelle_titel": "Nvidia-Chef Jensen Huang tritt nach Affären zurück - vorläufige Nachfolgerin steht schon fest",
    "url": "https://t3n.de/news/nvidia-chef-jensen-huang-tritt-nach-affaeren-zurueck-1773333",
-   "kontext": "Huang führte Nvidia über Jahrzehnte und machte den Chipkonzern zum Zentrum des KI-Booms. Ins Rollen kam der Fall durch einen Bericht der Financial Times über eine Liebesbeziehung zu einer Managerin, die in US-Sicherheitskreisen mit China in Verbindung gebracht wird; zuvor hatte Nvidia von rein geschäftlichen Kontakten gesprochen. Der Verwaltungsrat ließ die Vorgänge prüfen, Verhältnisse mit Untergebenen gelten in US-Konzernen als rote Linie. Betroffen sind auch Partner wie die Bundesregierung."
+   "kontext": "Huang führte Nvidia über Jahrzehnte und machte den Chipkonzern zum Zentrum des KI-Booms. Ins Rollen kam der Fall durch einen Bericht der Financial Times über eine Liebesbeziehung zu einer Managerin, die in US-Sicherheitskreisen mit China in Verbindung gebracht wird; zuvor hatte Nvidia von rein geschäftlichen Kontakten gesprochen. Der Verwaltungsrat ließ die Vorgänge prüfen, Verhältnisse mit Untergebenen gelten in US-Konzernen als rote Linie. Betroffen sind auch Partner wie die Bundesregierung.",
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "797db472e624",
@@ -791,6 +1018,51 @@
    "url": "https://www.tagesspiegel.de/wissen/die-teuerste-affare-der-welt-der-unantastbare-jensen-huang-ist-gefallen-16278205.html"
   },
   {
+   "id": "393edbb7efbd",
+   "date": "2026-11-12",
+   "published": "2026-11-12T15:46+01:00",
+   "headline": "Amazon veröffentlicht Tool, das komplett von KI-Bots geschrieben wurde",
+   "summary": "Amazon hat ein Werkzeug freigegeben, dessen Code nach eigenen Angaben vollständig von Tausenden KI-Agenten erstellt wurde. In der Entwicklerszene stößt das Vorgehen auf deutliche Kritik, unter anderem wegen Qualität und Wartbarkeit. Der Fall befeuert die Debatte, wie weit agentische Softwareentwicklung derzeit wirklich trägt.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "amazon",
+    "ki-agenten",
+    "softwareentwicklung",
+    "coding"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-13T02:18:41+01:00",
+   "quelle_titel": "„Das ist bedauerlich“: Amazon lässt Tausende KI-Agenten programmieren",
+   "url": "https://www.heise.de/news/Das-ist-bedauerlich-Amazon-laesst-Tausende-KI-Agenten-programmieren-11523014.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Konkret geht es um einen Emulator, mit dem sich AWS-Dienste lokal und ohne Cloud-Verbindung testen lassen. Entstanden ist er in Amazons agentischer Entwicklungsumgebung Kiro, wobei ein leitender Ingenieur getrennte Agententeams für Tests, Fehlersuche und Korrekturen ansetzte und laut eigener Aussage keine Zeile selbst prüfte. Auf GitHub sammelten sich binnen kurzer Zeit dutzende Fehlermeldungen, vor allem rund um die nachgebildete Datenbank."
+  },
+  {
+   "id": "f98f612fda85",
+   "date": "2026-11-12",
+   "published": "2026-11-12T15:50+01:00",
+   "headline": "Gemini-Datenbrille von Google startet ab 395 Dollar",
+   "summary": "Google bringt gemeinsam mit Samsung, Gentle Monster und Warby Parker die ersten Smartglasses mit Gemini-Assistent auf den Markt, Einstiegspreis 395 Dollar. Bei der Vorstellung betont Google vor allem den Datenschutz als Verkaufsargument. Damit bekommt die aktuelle Welle KI-gestützter Brillen einen prominenten Mitspieler.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "google",
+    "gemini",
+    "smartglasses",
+    "hardware"
+   ],
+   "source": "Ars Technica AI",
+   "source_id": "ars-ai",
+   "added": "2026-11-13T02:18:41+01:00",
+   "quelle_titel": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+   "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+   "kontext": "Die Arbeitsteilung ist klar verteilt: Samsung liefert die Technik im Inneren, Google die Software, Warby Parker und Gentle Monster das Design mit jeweils mehreren Fassungen. Displays gibt es keine, gesteuert wird per Sprache, Touchfläche am Bügel oder Kamera, ähnlich wie bei Metas Ray-Ban-Modellen. Offene Lautsprecher und gerichtete Mikrofone sollen die Umgebung schonen. Der Verkauf startet zunächst in den USA, Gentle Monster auch in Südkorea."
+  },
+  {
    "id": "73c5a36a4269",
    "date": "2026-11-12",
    "published": "2026-11-12T16:09+01:00",
@@ -811,6 +1083,28 @@
    "added": "2026-11-13T00:51:56+01:00",
    "quelle_titel": "KI im Büro: 85 Prozent der Beschäftigten berichten von mehr Aufgaben",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONXg4VTVLWDYxbVcyanNpVjBjWXlXaU5leF9zYm1jX2lLVHYxNVI2djZBbTJwM3lfZFFTTUQwbkJFdWlNQVExbUZSSzdURHI5dWg4Y296ZXNKOHNKZ21CbmRhbVB3VDFZVEZQV0FiQm9BZ2hERTUtM3JjU1gxWi1ydkhBUDA3WE9BZGZFVXdvS3E0U1RZcHNmYVQwM1ZBV3hSVnRVNkFvVjZrRUpCNm01Q2ZJU1JxTGlPU0E?oc=5"
+  },
+  {
+   "id": "88aafc52f33d",
+   "date": "2026-11-12",
+   "published": "2026-11-12T16:10+01:00",
+   "headline": "United Airlines sperrt Flugbuchungen durch KI-Agenten",
+   "summary": "Die Fluggesellschaft United Airlines untersagt nicht autorisierten KI-Agenten, Flüge in ihrem Namen zu buchen. Als Begründung nennt das Unternehmen Sicherheitsbedenken, laut Bericht spielen aber auch wirtschaftliche Interessen eine Rolle. Der Fall zeigt, wie Anbieter beginnen, den automatisierten Zugriff autonomer Agenten auf ihre Buchungssysteme zu regulieren.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "airlines",
+    "automatisierung",
+    "plattformregeln"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-13T02:18:41+01:00",
+   "quelle_titel": "United Airlines untersagt KI-Agenten das Buchen von Flügen",
+   "url": "https://www.heise.de/news/United-Airlines-untersagt-KI-Agenten-das-Buchen-von-Fluegen-11523122.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "d8ee9ab549e4"
   },
   {
    "id": "91f3c56c60fd",
@@ -878,7 +1172,29 @@
    "added": "2026-11-13T00:51:56+01:00",
    "paywall": true,
    "quelle_titel": "KI-Briefing: Was unter der neuen Chefin mit Nvidia passiert",
-   "url": "https://www.handelsblatt.com/technik/ki/ki-briefing/ki-briefing-was-unter-der-neuen-chefin-mit-nvidia-passiert/100268863.html"
+   "url": "https://www.handelsblatt.com/technik/ki/ki-briefing/ki-briefing-was-unter-der-neuen-chefin-mit-nvidia-passiert/100268863.html",
+   "dup_of": "3f3c0084577c"
+  },
+  {
+   "id": "ee129214e4fa",
+   "date": "2026-11-12",
+   "published": "2026-11-12T16:48+01:00",
+   "headline": "Interne Nvidia-Mails zeigen Krisenstimmung nach Huangs Rücktritt",
+   "summary": "Jensen Huang hat die Führung von Nvidia abgegeben, dem Unternehmen, das er 1993 mitgegründet hat. Auslöser war eine Untersuchung des Verwaltungsrats zu mehreren außerehelichen Affären, unter anderem mit einer direkt unterstellten Mitarbeiterin und einer mutmaßlichen chinesischen Spionin. Harvey Jones, der erste Chair des Boards, informierte die Belegschaft intern über den Schritt und die schwierige Lage.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "führungswechsel",
+    "corporate governance"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-13T02:18:41+01:00",
+   "quelle_titel": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "e21df85c11ae",
@@ -900,7 +1216,14 @@
    "source_id": "golem",
    "added": "2026-11-13T00:51:08+01:00",
    "quelle_titel": "Adobe Max: Photoshop und Premiere öffnen sich für externe KI-Agenten",
-   "url": "https://www.golem.de/news/adobe-max-photoshop-und-premiere-oeffnen-sich-fuer-externe-ki-agenten-2611-215149.html"
+   "url": "https://www.golem.de/news/adobe-max-photoshop-und-premiere-oeffnen-sich-fuer-externe-ki-agenten-2611-215149.html",
+   "also": [
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/adobe-creative-cloud-ki-chatbots"
+    }
+   ],
+   "kontext": "Grundlage ist ein lokaler Server für das Model Context Protocol, der Funktionen von Illustrator, Photoshop, After Effects und Premiere für Chatbots erreichbar macht. Begrenzte Anbindungen gab es zuvor bereits; wie weit die Öffnung reicht, will Adobe anhand von Nutzung und Rückmeldungen entscheiden. Parallel startet in Firefly das Prototyping-Werkzeug Builder, mit dem der Konzern die Designplattform Figma angreift. Zu Preisen und zum Start in Deutschland hält sich Adobe bislang bedeckt."
   },
   {
    "id": "a168010cd66e",
@@ -922,7 +1245,14 @@
    "added": "2026-11-13T00:51:08+01:00",
    "quelle_titel": "Datum offiziell: Anthropic-Aktien ab 19. November im Handel",
    "url": "https://www.heise.de/news/Datum-offiziell-Anthropic-Aktien-ab-19-November-im-Handel-11522895.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Hinter dem Termin steht eine der größten Emissionen der Branche: Anthropic will laut Prospekt hunderte Millionen Aktien ausgeben und damit einen zweistelligen Milliardenbetrag einnehmen. Die angepeilte Spanne liegt bei 70 bis 78 Dollar, der im europäischen Prospekt genannte höhere Wert ist nur eine Obergrenze, damit Anleger aus der EU und der Schweiz auch bei einem teureren Start zugreifen können. Interessenten können Aktien vormerken, eine Zuteilung ist aber nicht garantiert. Das Unternehmen selbst listet erhebliche Risiken des KI-Booms auf."
+   "kontext": "Hinter dem Termin steht eine der größten Emissionen der Branche: Anthropic will laut Prospekt hunderte Millionen Aktien ausgeben und damit einen zweistelligen Milliardenbetrag einnehmen. Die angepeilte Spanne liegt bei 70 bis 78 Dollar, der im europäischen Prospekt genannte höhere Wert ist nur eine Obergrenze, damit Anleger aus der EU und der Schweiz auch bei einem teureren Start zugreifen können. Interessenten können Aktien vormerken, eine Zuteilung ist aber nicht garantiert. Das Unternehmen selbst listet erhebliche Risiken des KI-Booms auf.",
+   "also": [
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/finanzen/boerse/anthropic-ipo-die-wichtigsten-antworten-zur-aktie-des-ki-entwicklers/100268848.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "29618570c343",
@@ -947,6 +1277,29 @@
    "kontext": "Hinter dem Vorhaben steht die Rundfunkkommission der Länder, die ihren Diskussionsentwurf im September vorgelegt hat; die Frist für Stellungnahmen läuft gerade aus. Neu ist der Ansatz, Regulierung an der Wirkung von Inhalten auf die Meinungsbildung festzumachen statt an klassischen Mediengattungen. Vorgesehen sind unter anderem eine Mindestquote für journalistische Empfehlungen in Feeds und ein Recht auf freie Verlinkung. Journalistenverband und Medienanstalten begrüßen die Richtung, fordern aber Nachbesserungen."
   },
   {
+   "id": "11a9f97485e1",
+   "date": "2026-11-12",
+   "published": "2026-11-12T17:30+01:00",
+   "headline": "Podcast zum Nvidia-Beben: Welche Rolle spielte China im Fall Huang?",
+   "summary": "Die Verge-Redaktion ordnet den Skandal um Nvidia-Chef Jensen Huang ein, der sich so schnell entwickelte, dass die Folge kurz vor Veröffentlichung noch aktualisiert werden musste. Im Zentrum steht der Rücktritt Huangs, nachdem Berichte über Affären bekannt wurden, darunter eine mit einer mutmaßlichen chinesischen Spionin. Diskutiert wird, welche Interessen China an dem Nvidia-Gründer gehabt haben könnte.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "jensen huang",
+    "china",
+    "spionage"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-13T02:18:41+01:00",
+   "kurios": "Ein Chipimperium wankt wegen einer Affäre mit einer mutmaßlichen Spionin.",
+   "quelle_titel": "Jensen Huang is out. What did China want from him?",
+   "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+   "kontext": "Im Decoder-Podcast spricht Nilay Patel mit Kyle Chan von der Brookings Institution über den Konflikt zwischen den USA und China um KI-Chips und Exportkontrollen. Spannend ist dabei die chinesische Perspektive auf das viel beschworene Wettrennen. Chan hält Huangs Draht zu Trump für den eigentlich entscheidenden Faktor. Offen bleibt, wie sich Nvidia neu ordnet, denn beim Gründer liefen bislang sehr viele Fäden zusammen."
+  },
+  {
    "id": "5fe66247a9f8",
    "date": "2026-11-12",
    "published": "2026-11-12T17:40+01:00",
@@ -966,7 +1319,52 @@
    "source_id": "computerwoche",
    "added": "2026-11-13T00:51:08+01:00",
    "quelle_titel": "Claude nimmt jetzt an Ihrer Videokonferenz teil",
-   "url": "https://www.computerwoche.de/article/4248052/claude-nimmt-jetzt-an-ihrer-videokonferenz-teil.html"
+   "url": "https://www.computerwoche.de/article/4248052/claude-nimmt-jetzt-an-ihrer-videokonferenz-teil.html",
+   "dup_of": "9bd1318d93db"
+  },
+  {
+   "id": "cf820d64446d",
+   "date": "2026-11-12",
+   "published": "2026-11-12T17:47+01:00",
+   "headline": "Nvidia-Chef Huang gibt Posten nach Affären auf",
+   "summary": "Jensen Huang, das prägende Gesicht des KI-Booms, tritt wegen außerehelicher Affären zurück, von denen eine auch politisch heikel ist. Offen bleibt, wie gut der Chipkonzern diesen Führungswechsel verkraftet. Nvidia ist als wichtigster Lieferant von KI-Hardware für die gesamte Branche von zentraler Bedeutung.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "jensen huang",
+    "rücktritt",
+    "chipindustrie"
+   ],
+   "source": "stern Digital",
+   "source_id": "stern-digital",
+   "added": "2026-11-13T02:17:51+01:00",
+   "quelle_titel": "Chip-Riese: Nvidia-Chef tritt nach Affären zurück",
+   "url": "https://www.stern.de/digital/chip-riese--nvidia-chef-tritt-nach-affaeren-zurueck-38540588.html",
+   "dup_of": "3f3c0084577c"
+  },
+  {
+   "id": "4ae3018d7917",
+   "date": "2026-11-12",
+   "published": "2026-11-12T18:00+01:00",
+   "headline": "Studie: Chatbots schicken Käufer auf gefälschte Shop-Seiten",
+   "summary": "Eine Untersuchung der Markenschutzfirma Podqi hat ChatGPT, Gemini und Perplexity mit typischen Einkaufsfragen konfrontiert. Dabei verwiesen die Assistenten mehrfach auf Nachahmerseiten und andere riskante Angebote. Wer Produktempfehlungen von KI folgt, landet also nicht zwangsläufig beim echten Händler.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "chatbots",
+    "betrug",
+    "e-commerce",
+    "studie"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-13T02:17:51+01:00",
+   "quelle_titel": "AI chatbots are recommending fake retail websites, study finds",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+   "kontext": "Hinter der Untersuchung steht ein Dienstleister für Markenschutz, zu dessen Kunden auch eine der geprüften Marken zählt. Getestet wurden gängige Shoppingfragen zu rund 150 großen und kleinen Marken, von Mode bis Haushaltswaren, über mehrere tausend Antworten hinweg. Die Fragen stammten vom Anbieter selbst, nicht aus echten Nutzerdialogen. Am häufigsten führte Perplexity zu fragwürdigen Adressen, auffällig waren aber alle drei Assistenten."
   },
   {
    "id": "bd1244d38811",
@@ -987,7 +1385,8 @@
    "source_id": "golem",
    "added": "2026-11-13T00:51:08+01:00",
    "quelle_titel": "Ausblick 2027: Großteil der KI-Ausgaben fließt weiter in die Infrastruktur",
-   "url": "https://www.golem.de/news/ausblick-2027-grossteil-der-ki-ausgaben-fliesst-weiter-in-die-infrastruktur-2611-215155.html"
+   "url": "https://www.golem.de/news/ausblick-2027-grossteil-der-ki-ausgaben-fliesst-weiter-in-die-infrastruktur-2611-215155.html",
+   "dup_of": "4388d2ad0a95"
   },
   {
    "id": "426945abb0f8",
@@ -1055,6 +1454,29 @@
    "url": "https://www.theneuron.ai/news/jensen-huang-resigns-nvidia-future/"
   },
   {
+   "id": "f414a027de56",
+   "date": "2026-11-12",
+   "published": "2026-11-12T18:59+01:00",
+   "headline": "Nvidia verliert binnen Wochen über eine Billion Dollar an Börsenwert",
+   "summary": "Seit Beginn der Affäre um einen mutmaßlichen chinesischen Spion ist der Marktwert von Nvidia um mehr als eine Billion Dollar gefallen. Der Kurssturz zeigt, wie empfindlich die Bewertung des wichtigsten KI-Chipherstellers auf Vertrauensverluste reagiert.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "börse",
+    "marktwert",
+    "spionage"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-13T02:17:51+01:00",
+   "kurios": "Über eine Billion Dollar Börsenwert in weniger als einem Monat verdampft.",
+   "paywall": true,
+   "quelle_titel": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
+   "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/"
+  },
+  {
    "id": "a8d5fa7d24b3",
    "date": "2026-11-12",
    "published": "2026-11-12T19:00+01:00",
@@ -1072,7 +1494,8 @@
    "source_id": "deepmind",
    "added": "2026-11-13T00:50:24+01:00",
    "quelle_titel": "Introducing Gemini 4 Hydrogen",
-   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "dup_of": "a67e1509e9c0"
   },
   {
    "id": "641c2f204038",
@@ -1095,7 +1518,30 @@
    "added": "2026-11-13T00:50:24+01:00",
    "quelle_titel": "Adobe öffnet Creative Cloud per MCP für KI-Chatbots",
    "url": "https://www.it-daily.net/shortnews/adobe-creative-cloud-ki-chatbots",
-   "kontext": "Das Model Context Protocol ist ein Standard, über den Chatbots Funktionen fremder Programme aufrufen können. Adobe liefert dafür nun einen lokal laufenden Server mit Zugängen zu Illustrator, Photoshop, After Effects und Premiere; wie weit die Öffnung reicht, will der Konzern nach Nutzerresonanz entscheiden. Mit dem Prototyping-Werkzeug Builder rückt Adobe zugleich näher an Figma heran. Daneben bindet das Unternehmen Fremdmodelle und Technik des zugekauften Anbieters Topaz Labs ein, Preise für Deutschland nennt es bislang nicht."
+   "kontext": "Das Model Context Protocol ist ein Standard, über den Chatbots Funktionen fremder Programme aufrufen können. Adobe liefert dafür nun einen lokal laufenden Server mit Zugängen zu Illustrator, Photoshop, After Effects und Premiere; wie weit die Öffnung reicht, will der Konzern nach Nutzerresonanz entscheiden. Mit dem Prototyping-Werkzeug Builder rückt Adobe zugleich näher an Figma heran. Daneben bindet das Unternehmen Fremdmodelle und Technik des zugekauften Anbieters Topaz Labs ein, Preise für Deutschland nennt es bislang nicht.",
+   "dup_of": "e21df85c11ae"
+  },
+  {
+   "id": "3903c89c61e5",
+   "date": "2026-11-12",
+   "published": "2026-11-12T19:39+01:00",
+   "headline": "Nvidias Open-Source-Kurs wackelt nach Huangs Rücktritt",
+   "summary": "Mit dem Rückzug von Jensen Huang ist offen, wie stark sich Nvidia weiter für offene KI einsetzt. Betroffen sind die Übernahme von Hugging Face, die eigenen Modelle mit offenen Gewichten und das Engagement gegen Beschränkungen. Der Führungswechsel könnte die Prioritäten des Konzerns spürbar verschieben.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "open source",
+    "hugging face",
+    "strategie"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-13T02:17:51+01:00",
+   "quelle_titel": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+   "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+   "kontext": "Huang trat zurück, nachdem er eine Affäre mit einer mutmaßlichen chinesischen Spionin eingeräumt hatte. Vorläufig führt Finanzchefin Colette Kress den Konzern. Huang galt als lauteste Gegenstimme zu Anthropic und OpenAI, die schärfere Regeln für offene Modelle fordern, und sammelte Unterschriften großer Tech-Konzerne gegen strenge Vorgaben. Offene Modelle halfen Nvidia zugleich, Kunden jenseits der großen Labore zu gewinnen. Intern rechnet man weiter mit der Nemotron-Reihe."
   },
   {
    "id": "81bcb5c122b2",
@@ -1118,7 +1564,14 @@
    "added": "2026-11-13T00:50:24+01:00",
    "quelle_titel": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
    "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
-   "kontext": "Hinter dem Protest steht die Elterninitiative Illinois Families for Public Schools, die bereits im August erreichte, dass Chicagos Schulbehörde einen stadtweiten Gemini-Test stoppte. Nun demonstrierten Familien in mehreren Städten gegen Googles Vorstoß, auch weil der Konzern eine Suche ganz ohne KI nicht mehr anbietet. Die Klage einer Schülerin aus North Carolina verschärft die Lage, denn ihre Eltern wussten nach eigener Darstellung nichts von der Nutzung. Städte wie Los Angeles und New York bremsen KI an Schulen bereits."
+   "kontext": "Hinter dem Protest steht die Elterninitiative Illinois Families for Public Schools, die bereits im August erreichte, dass Chicagos Schulbehörde einen stadtweiten Gemini-Test stoppte. Nun demonstrierten Familien in mehreren Städten gegen Googles Vorstoß, auch weil der Konzern eine Suche ganz ohne KI nicht mehr anbietet. Die Klage einer Schülerin aus North Carolina verschärft die Lage, denn ihre Eltern wussten nach eigener Darstellung nichts von der Nutzung. Städte wie Los Angeles und New York bremsen KI an Schulen bereits.",
+   "also": [
+    {
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "5d63f04fa2a8",
@@ -1141,7 +1594,30 @@
    "added": "2026-11-13T00:49:37+01:00",
    "quelle_titel": "Google stellt Gemini 4 Hydrogen vor: Schnelles KI-Modell für den Alltag für weniger Geld",
    "url": "https://the-decoder.de/google-stellt-gemini-4-hydrogen-vor-schnelles-ki-modell-fuer-den-alltag-fuer-weniger-geld/",
-   "kontext": "Hydrogen bietet vier Denkstufen samt einer neuen Höchststufe und verarbeitet sehr lange Ein- und Ausgaben, was es für multimodale Wissensarbeit interessant macht. Verwirrend ist Googles rasantes Tempo: Erst zwei Tage zuvor hatte der Konzern das Spitzenmodell Carbon vorgestellt und Argon fürs tägliche Programmieren empfohlen. Verfügbar ist Hydrogen über Gemini-API, App, Suche und die Entwicklerumgebung Antigravity. Gegenüber dem Vorgänger Flash sollen Tempo und Zuverlässigkeit deutlich steigen."
+   "kontext": "Hydrogen bietet vier Denkstufen samt einer neuen Höchststufe und verarbeitet sehr lange Ein- und Ausgaben, was es für multimodale Wissensarbeit interessant macht. Verwirrend ist Googles rasantes Tempo: Erst zwei Tage zuvor hatte der Konzern das Spitzenmodell Carbon vorgestellt und Argon fürs tägliche Programmieren empfohlen. Verfügbar ist Hydrogen über Gemini-API, App, Suche und die Entwicklerumgebung Antigravity. Gegenüber dem Vorgänger Flash sollen Tempo und Zuverlässigkeit deutlich steigen.",
+   "dup_of": "a67e1509e9c0"
+  },
+  {
+   "id": "875637b2c34d",
+   "date": "2026-11-12",
+   "published": "2026-11-12T20:27+01:00",
+   "headline": "Google rüstet KI-Modus der Suche für komplexe Fragen auf",
+   "summary": "Der KI-Modus der Google-Suche läuft künftig mit Gemini 4 Hydrogen und soll verschachtelte Anfragen deutlich besser verstehen. Google verspricht passendere Quellenlinks und stärker visuell aufbereitete Antworten. Für Recherche im Beruf verschiebt sich damit erneut, wie Informationen gefunden werden.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "google",
+    "gemini",
+    "suche",
+    "ai mode"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-13T02:17:51+01:00",
+   "quelle_titel": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+   "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+   "kontext": "Hydrogen ist das schnelle Mitglied der neuen Gemini-4-Familie und steht neben den stärkeren Modellen Carbon und Argon. Google setzt es dort ein, wo Tempo wichtiger ist als maximale Rechenleistung, etwa bei mehrstufigen Aufgaben, die ein Modell eigenständig abarbeitet. In der Suche zerlegt es eine Anfrage in Teilfragen, was auch bislang übersehene Websites sichtbar machen kann. Das Modell wandert zudem in Entwicklerwerkzeuge und die Gemini-App."
   },
   {
    "id": "6e7f4ca7daf1",
@@ -1186,7 +1662,8 @@
    "added": "2026-11-13T00:49:37+01:00",
    "quelle_titel": "Claude Meetings: Anthropic lässt Claude als Teilnehmer an Videoanrufe andocken",
    "url": "https://the-decoder.de/claude-meetings-anthropic-laesst-claude-als-teilnehmer-an-videoanrufe-andocken/",
-   "kontext": "Claude meldet sich im Call standardmäßig schriftlich und darf nur mit Erlaubnis auf angebundene Werkzeuge zugreifen. Notizen, Transkripte und entstandene Dokumente landen danach gebündelt in der Weboberfläche. Aus Datenschutzgründen bleibt der Assistent bei Gesprächen mit Externen außen vor, Organisationen mit strengen Sicherheitsvorgaben sind vorerst ausgeschlossen. Zusammen mit Whiteboards und Datenauswertungen baut Anthropic die App schrittweise zur Zentrale für Büroarbeit aus."
+   "kontext": "Claude meldet sich im Call standardmäßig schriftlich und darf nur mit Erlaubnis auf angebundene Werkzeuge zugreifen. Notizen, Transkripte und entstandene Dokumente landen danach gebündelt in der Weboberfläche. Aus Datenschutzgründen bleibt der Assistent bei Gesprächen mit Externen außen vor, Organisationen mit strengen Sicherheitsvorgaben sind vorerst ausgeschlossen. Zusammen mit Whiteboards und Datenauswertungen baut Anthropic die App schrittweise zur Zentrale für Büroarbeit aus.",
+   "dup_of": "9bd1318d93db"
   },
   {
    "id": "4e2810e47ea3",
@@ -1231,7 +1708,14 @@
    "added": "2026-11-12T08:47:32+01:00",
    "kurios": "Spionagevorwurf und Affäre mit Untergebener treffen den Chef des wertvollsten KI-Konzerns.",
    "quelle_titel": "Jensen Huang accused of having another affair, with an Nvidia exec",
-   "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/"
+   "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling"
+    }
+   ],
+   "kontext": "Die New York Times stützt sich auf Schilderungen mehrerer Beschäftigter, wonach Huang eine Beziehung zu Kimberly Powell unterhielt, der Vizepräsidentin für den Gesundheitsbereich. Beziehungen zu Untergebenen sind im Konzern unerwünscht. Der Verwaltungsrat untersuchte bereits die erste Affäre, Abgeordnete drohten mit einer Vorladung, und das Wall Street Journal berichtete über Absetzungspläne. Einen Tag später erklärte Nvidia den Rücktritt des Mitgründers, der die Firma seit 1993 als einziger Chef geführt hatte."
   },
   {
    "id": "b06379671ede",
@@ -1361,8 +1845,7 @@
    "source_id": "heise-ki",
    "added": "2026-11-12T08:46:51+01:00",
    "quelle_titel": "Donnerstag: Nvidia-Chef angeblich kurz vor Abschied, KI-Agent auch von ByteDance",
-   "url": "https://www.heise.de/news/Donnerstag-Nvidia-Chef-angeblich-kurz-vor-Abschied-KI-Agent-auch-von-ByteDance-11521643.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "b91248042740"
+   "url": "https://www.heise.de/news/Donnerstag-Nvidia-Chef-angeblich-kurz-vor-Abschied-KI-Agent-auch-von-ByteDance-11521643.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
    "id": "e10b6b9196df",
@@ -1406,8 +1889,7 @@
    "added": "2026-11-12T08:45:58+01:00",
    "paywall": true,
    "quelle_titel": "Spionage-Verdacht: Nvidia ist die „KI-Zentralbank“, und Jensen Huang als Chef nicht zu halten",
-   "url": "https://www.wiwo.de/unternehmen/jensen-huangs-spionage-affaere-wird-fuer-nvidia-zum-klumpenrisiko/100269175.html",
-   "dup_of": "b91248042740"
+   "url": "https://www.wiwo.de/unternehmen/jensen-huangs-spionage-affaere-wird-fuer-nvidia-zum-klumpenrisiko/100269175.html"
   },
   {
    "id": "65a8223a90e5",
@@ -1640,7 +2122,7 @@
    "added": "2026-11-12T12:30:38+01:00",
    "quelle_titel": "😺 DeepMind launched AlphaGenome 2 for DNA",
    "url": "https://www.theneuron.ai/newsletter/deepmind-launched-alphagenome-2-for-dna-a377/",
-   "dup_of": "e879c6fc35d4"
+   "dup_of": "4d9cdece38b3"
   },
   {
    "id": "6dfd054c35b0",
@@ -1948,6 +2430,28 @@
    "url": "https://www.deutsche-startups.de/2026/11/12/homie-und-ki-kennt-das-ganze-sortiment/"
   },
   {
+   "id": "aebca3b85529",
+   "date": "2026-11-12",
+   "published": "2026-11-12T13:56+01:00",
+   "headline": "KI im Unternehmen: Warum nachvollziehbare Entscheidungen zum Muss werden",
+   "summary": "Laut einer Bitkom-Erhebung setzt in Deutschland erstmals die Mehrheit der Unternehmen KI ein. Der Beitrag argumentiert, dass mit der breiten Nutzung die Nachvollziehbarkeit automatisierter Entscheidungen an Bedeutung gewinnt. Transparenz wird damit zu einer zentralen Anforderung an KI-Systeme im betrieblichen Alltag.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "transparenz",
+    "bitkom",
+    "unternehmens-ki",
+    "vertrauen"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-13T02:18:41+01:00",
+   "quelle_titel": "Transparenz bei KI-Entscheidungen wichtig",
+   "url": "https://www.it-daily.net/it-management/ki/transparenz-ki-entscheidung-wichtig"
+  },
+  {
    "id": "fa1e42c42c6e",
    "date": "2026-11-12",
    "published": "2026-11-12T14:27+01:00",
@@ -2015,6 +2519,28 @@
    "url": "https://www.heise.de/news/GPU-Taskman-Neuer-Task-Manager-fuer-Grafikkarten-und-KI-11522367.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
+   "id": "5fb6d7fe9d2d",
+   "date": "2026-11-12",
+   "published": "2026-11-12T18:00+01:00",
+   "headline": "Vier von zehn Spieleentwicklern arbeiten mit generativer KI",
+   "summary": "Die jährliche Branchenumfrage des GDC Festival of Gaming zeigt einen weiteren Anstieg beim Einsatz generativer Werkzeuge: 40 Prozent der Befragten nutzen sie im Job, nach 36 Prozent im Vorjahr. Die Verbreitung ist je nach Art des Entwicklerstudios unterschiedlich stark ausgeprägt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "gaming",
+    "generative ki",
+    "umfrage",
+    "arbeitswelt"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-13T02:17:51+01:00",
+   "quelle_titel": "More game developers are starting to use generative AI",
+   "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs"
+  },
+  {
    "id": "7730ed5bc5a6",
    "date": "2026-11-12",
    "published": "2026-11-12T18:31+01:00",
@@ -2055,7 +2581,8 @@
    "source_id": "verge-ai",
    "added": "2026-11-13T00:50:24+01:00",
    "quelle_titel": "The Jensen Huang scandal is hardly over",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling"
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+   "dup_of": "d8ef3fe6591f"
   },
   {
    "id": "1fc96923be27",
@@ -2077,6 +2604,28 @@
    "added": "2026-11-13T00:50:24+01:00",
    "quelle_titel": "Münch: Erheblichkeitsschwelle für Datenaustausch ist aus der Zeit gefallen",
    "url": "https://www.heise.de/news/BKA-Herbsttagung-Kriminalaemter-fordern-mehr-Datenaustausch-gegen-Betrugswellen-11523346.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "01b2dea6cc20",
+   "date": "2026-11-12",
+   "published": "2026-11-12T19:05+01:00",
+   "headline": "DeepMind-Beschäftigte suchen Hilfe der britischen Regierung",
+   "summary": "Nach festgefahrenen Gesprächen mit dem Management wenden sich Mitarbeitende von Google DeepMind an die britische Regierung, um ihre gewerkschaftliche Organisierung durchzusetzen. Der Schritt zeigt, dass Arbeitskämpfe inzwischen auch die Forschungslabore der großen KI-Anbieter erreichen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "deepmind",
+    "gewerkschaft",
+    "großbritannien",
+    "arbeitsbedingungen"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-13T02:17:51+01:00",
+   "paywall": true,
+   "quelle_titel": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
+   "url": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/"
   },
   {
    "id": "6736945d4ac4",
@@ -2145,6 +2694,27 @@
    "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
   },
   {
+   "id": "d3c21aad1252",
+   "date": "2026-11-12",
+   "published": "2026-11-12T20:11+01:00",
+   "headline": "Nectar automatisiert Creator-Suche und Ansprache für Marken",
+   "summary": "Das Start-up Nectar bringt einen KI-Agenten für Influencer-Marketing auf den Markt. Die Software sucht passende Creator, übernimmt die Kontaktaufnahme und die Betreuung von Kooperationen und wertet anschließend die Ergebnisse der Kampagnen aus. Damit rückt ein weiterer Marketingprozess in die Hände von Agenten.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-agenten",
+    "marketing",
+    "influencer",
+    "automatisierung"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-13T02:17:51+01:00",
+   "quelle_titel": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+   "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
+  },
+  {
    "id": "75e8b5158ffa",
    "date": "2026-11-12",
    "published": "2026-11-12T20:42+01:00",
@@ -2165,6 +2735,28 @@
    "kurios": "KI-Agenten feierten eine Entdeckung, die längst in einem Fachjournal stand.",
    "quelle_titel": "No, AI agents did not discover a previously unknown Maya site",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery"
+  },
+  {
+   "id": "92467d3f16d5",
+   "date": "2026-11-12",
+   "published": "2026-11-12T21:26+01:00",
+   "headline": "Reuters berichtet von dritter Affäre des Nvidia-Chefs",
+   "summary": "Laut einem Bericht von Reuters gab es eine weitere außereheliche Beziehung von Jensen Huang, diesmal mit einer Angestellten von Nvidia. Den Namen der Mitarbeiterin hält die Agentur zurück. Der Fall erweitert die Serie von Enthüllungen rund um die Führungsspitze des Chipkonzerns.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nvidia",
+    "jensen huang",
+    "führung",
+    "skandal"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-13T02:17:51+01:00",
+   "quelle_titel": "Jensen Huang was having a third affair, Reuters reports",
+   "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+   "kontext": "Jensen Huang hat sich noch am selben Tag von der Konzernspitze und aus dem Board zurückgezogen, nachdem Beziehungen zu einer Nvidia-Managerin und zu einer der Spionage beschuldigten Frau bekannt geworden waren. Finanzchefin Colette Kress übernimmt vorläufig, eine dauerhafte Nachfolge ist offen. Der US-Kongress will Huang zu möglichen Risiken für die nationale Sicherheit befragen. Für die Chipbranche werden spürbare Folgen erwartet."
   },
   {
    "id": "ecaaa7b98ced",
@@ -2207,7 +2799,8 @@
    "source_id": "techcrunch-ai",
    "added": "2026-11-13T00:49:37+01:00",
    "quelle_titel": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-   "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+   "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+   "kontext": "Nebius zählt zu den sogenannten Neoclouds, die Rechenkapazität für KI vermieten und den Bau ihrer Rechenzentren über künftige Vertragserlöse finanzieren. Größter Kunde ist Microsoft, dessen Standort in New Jersey von einem Drittbetreiber geführt wird und wegen Ärger um nicht genehmigte Gasgeneratoren und einen Wechsel der Stromversorgung ins Stocken geriet. Microsoft prüft solche Partnerschaften inzwischen strenger und kann bei versäumten Terminen aussteigen. Das setzt das gesamte Finanzierungsmodell unter Druck."
   },
   {
    "id": "ef98f01e800c",
@@ -2229,7 +2822,8 @@
    "added": "2026-11-13T00:48:47+01:00",
    "kurios": "Eine private Affäre entwickelt sich zum geopolitischen Sicherheitsfall.",
    "quelle_titel": "The unfolding Jensen Huang scandal: a timeline",
-   "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+   "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "dup_of": "efdd0bfa6110"
   },
   {
    "id": "dce5e82d2a55",
@@ -2272,7 +2866,8 @@
    "source_id": "techcrunch-ai",
    "added": "2026-11-13T00:48:47+01:00",
    "quelle_titel": "Muse can now place calls to U.S. businesses, if you pay",
-   "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+   "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+   "kontext": "Hinter Muse steht Meta, das seinen Assistenten mit inzwischen zweistelligen Millionennutzerzahlen alltagstauglich machen will. KI-Chef Alexandr Wang nennt als Beispiele lästige Anrufe bei Kabelanbieter, Behörde oder Restaurant ohne Onlinereservierung. Ähnliches bieten Google und kleinere Anbieter bereits an. Offen bleibt die Gegenseite: Viele Angerufene legen auf, sobald sie eine Maschine erkennen, und genau das wird durch realistischere Stimmen zunehmend schwerer."
   },
   {
    "id": "e94b95796523",
@@ -2293,7 +2888,8 @@
    "source_id": "ars-ai",
    "added": "2026-11-13T00:48:47+01:00",
    "quelle_titel": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-   "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+   "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+   "kontext": "Das cloudbasierte System namens SMART wertet Wetterlagen, Flugwege, Verkehrsfluss und Personalstärke aus und schlägt daraus Routen, Zeitfenster und Landereihenfolgen vor. Nach dem Start im Raum Washington im September gilt es nun für alle Kontrollzentren des Landes. Entscheiden sollen weiterhin Menschen: Ein Fachteam prüft die Vorschläge, Lotsen vor Ort können sie ablehnen. Die Lotsengewerkschaft sieht sich jedoch übergangen und äußert sich entsprechend zurückhaltend."
   },
   {
    "id": "df0f04a53737",
@@ -2510,7 +3106,14 @@
    "added": "2026-11-12T12:30:38+01:00",
    "paywall": true,
    "quelle_titel": "Alex Karp Said He’s a ‘Progressive.’ OK! Here’s Some Other Stuff He’s Said Recently",
-   "url": "https://www.wired.com/story/alex-karp-said-hes-a-progressive-ok-heres-some-other-stuff-hes-said-recently/"
+   "url": "https://www.wired.com/story/alex-karp-said-hes-a-progressive-ok-heres-some-other-stuff-hes-said-recently/",
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video"
+    }
+   ],
+   "kontext": "Karps Selbstbeschreibung stammt aus einem Gespräch mit Politico, in dem er auf seine demokratische Prägung verweist und auch die Produkte seiner Firma als fortschrittlich einordnet. The Verge stellt dem eine Sammlung seiner öffentlichen Auftritte aus drei Jahren gegenüber. Die Autorin deutet den Schwenk als Reaktion auf die jüngsten Wahlen, die für das rechte Lager schlecht ausgingen. Für ein Unternehmen, dessen Geschäft an Behörden und Militär hängt, ist politische Verortung mehr als Beiwerk."
   },
   {
    "id": "b44c35e7f852",
@@ -2575,7 +3178,8 @@
    "source_id": "verge-ai",
    "added": "2026-11-13T00:50:24+01:00",
    "quelle_titel": "Oh, Palantir is ‘progressive’ now, is it?",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video"
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+   "dup_of": "1adf3240e35d"
   },
   {
    "id": "53632fc1e891",
