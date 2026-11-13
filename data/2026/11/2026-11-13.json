@@ -1,17 +1,62 @@
 {
  "date": "2026-11-13",
- "generated_at": "2026-11-13T05:06:57+01:00",
+ "generated_at": "2026-11-13T06:31:52+01:00",
  "overview": [
   {
+   "id": "3c7ac9bb6634",
+   "text": "Das US-Justizministerium prüft laut Berichten kartellrechtliche Vorwürfe gegen Nvidia, was Folgen für die gesamte KI-Branche haben könnte."
+  },
+  {
+   "id": "4e701fa6a82d",
+   "text": "Nach dem überraschenden Rücktritt von Jensen Huang steht Nvidia erstmals ohne seinen prägenden Gründer da, und der Übergang bleibt offen."
+  },
+  {
    "id": "536b3ab70786",
-   "text": "Beim EU-Gipfel in Dublin rückt Europas KI-Strategie erstmals weit nach vorn, konkurriert aber mit Ukraine-Finanzierung und der EZB-Nachfolge um Aufmerksamkeit."
+   "text": "Beim EU-Gipfel in Dublin rückt Europas KI-Strategie erstmals prominent auf die Agenda, konkurriert aber mit Ukraine-Finanzierung und EZB-Nachfolge."
+  },
+  {
+   "id": "d28795a5d487",
+   "text": "Der Gehaltsreport 2026 zeigt, welche Qualifikationen im KI-Zeitalter am besten bezahlt werden, und zwar längst nicht mehr nur in der IT."
   },
   {
    "id": "7c63332c8c93",
-   "text": "Investorin Judith Dada fordert ein europäisches KI-Großprojekt und will US-Konzerne für Rechenzentren in Europa gewinnen, Kritik an Berliner Plänen inklusive."
+   "text": "Investorin Judith Dada fordert ein europäisches KI-Großprojekt historischen Ausmaßes und kritisiert die Pläne der Bundesregierung als lückenhaft."
+  },
+  {
+   "id": "9c5f2292028d",
+   "text": "Ethikrat-Mitglied Kerstin Schlögl-Flierl rät, den Einsatz von Chatbots wie ChatGPT bewusst abzuwägen statt sie reflexhaft zu nutzen."
+  },
+  {
+   "id": "5b519a7c05e2",
+   "text": "SAP-Produktchef Irfan Khan erklärt, warum KI-Agenten mehr brauchen als einen Data Lake, nämlich saubere Stammdaten und klare Zugriffsregeln."
+  },
+  {
+   "id": "3e17d5f13dfb",
+   "text": "Fünf Werkzeuge erlauben den lokalen Betrieb von Sprachmodellen, damit sensible Daten gar nicht erst an externe Chatbot-Dienste gelangen."
   }
  ],
  "items": [
+  {
+   "id": "4e701fa6a82d",
+   "date": "2026-11-13",
+   "published": "2026-11-13T03:53+01:00",
+   "headline": "Nvidia ohne Jensen Huang: Offene Fragen nach dem Führungswechsel",
+   "summary": "Nach dem überraschenden Rücktritt von Jensen Huang steht der Chipkonzern Nvidia erstmals ohne seinen prägenden Gründer da. Der Artikel beleuchtet, wie es für das Unternehmen weitergeht und welche politischen Nachwirkungen der Fall bis in die US-Regierung haben könnte.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "jensen huang",
+    "führungswechsel",
+    "chips"
+   ],
+   "source": "stern Digital",
+   "source_id": "stern-digital",
+   "added": "2026-11-13T06:24:32+01:00",
+   "quelle_titel": "Nach Chef-Abgang: Wie geht es weiter nach dem Nvidia-Eklat?",
+   "url": "https://www.stern.de/digital/nach-chef-abgang--wie-geht-es-weiter-nach-dem-nvidia-eklat--38543966.html"
+  },
   {
    "id": "46f1786a9df9",
    "date": "2026-11-13",
@@ -34,6 +79,97 @@
    "quelle_titel": "Nach Chef-Abgang: Wie geht es weiter nach dem Nvidia-Eklat?",
    "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-nach-chef-abgang-wie-geht-es-weiter-nach-dem-nvidia-eklat-16279660.html",
    "dup_of": "426945abb0f8"
+  },
+  {
+   "id": "3e17d5f13dfb",
+   "date": "2026-11-13",
+   "published": "2026-11-13T04:57+01:00",
+   "headline": "Fünf Wege, Sprachmodelle datenschutzfreundlich lokal zu betreiben",
+   "summary": "Wer vermeiden will, dass sensible Daten an externe Chatbot-Dienste fließen, kann Sprachmodelle auf dem eigenen Rechner ausführen. Das Tutorial stellt fünf Werkzeuge vor, mit denen der lokale Betrieb ohne großen Aufwand gelingt, und eignet sich auch zum Ausprobieren neuer Spezialmodelle.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "lokale llms",
+    "datenschutz",
+    "tutorial",
+    "open source"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-11-13T06:24:32+01:00",
+   "praxis": true,
+   "quelle_titel": "Large-Language-Model-Tutorial: 5 Wege, LLMs lokal auszuführen",
+   "url": "https://www.computerwoche.de/article/2830445/5-wege-llms-lokal-auszufuehren.html"
+  },
+  {
+   "id": "3c7ac9bb6634",
+   "date": "2026-11-13",
+   "published": "2026-11-13T05:03+01:00",
+   "headline": "Nvidia im Visier der US-Justiz, neue Details zum Rücktritt des Chefs",
+   "summary": "Medienberichten zufolge prüft das US-Justizministerium kartellrechtliche Vorwürfe gegen Nvidia, was Folgen für die gesamte KI-Branche haben könnte. Zugleich wird bekannt, dass der zurückgetretene Konzernchef offenbar eine weitere Beziehung zu einer Mitarbeiterin hatte.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "kartellrecht",
+    "us-justiz",
+    "chips"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-13T06:24:32+01:00",
+   "quelle_titel": "Berichte über kartellrechtliche Prüfung Nvidias und weitere Affäre des Ex-Chefs",
+   "url": "https://www.heise.de/news/Berichte-ueber-kartellrechtliche-Pruefung-Nvidias-und-weitere-Affaere-des-Ex-Chefs-11523636.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Der Rücktritt von Jensen Huang geht auf Berichte über außereheliche Beziehungen zu Mitarbeiterinnen zurück, darunter eine frühere Managerin des Singapurer Anbieters Megaspeed, dem Spionage für China vorgeworfen wird. Das Justizministerium nimmt Medienberichten zufolge neben Nvidia auch Supermicro und Megaspeed ins Visier, unter anderem wegen mutmaßlich umgangener Exportauflagen für KI-Chips. Eine Anklage zeichnet sich bislang nicht ab. Für die Branche steht viel auf dem Spiel, weil Nvidia die Hardwarebasis fast aller KI-Projekte liefert."
+  },
+  {
+   "id": "3013db6ee508",
+   "date": "2026-11-13",
+   "published": "2026-11-13T05:06+01:00",
+   "headline": "Prompt-Schulungen reichen nicht: Warum KI-Inhalte beliebig bleiben",
+   "summary": "Viele Unternehmen investieren in KI-Werkzeuge und Schulungen zum Formulieren von Prompts, erzielen damit aber nur austauschbare Ergebnisse. Der Beitrag argumentiert, dass die eigentliche Schwachstelle nicht die Eingabeaufforderung ist, sondern fehlende inhaltliche Substanz und Strategie dahinter.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "prompting",
+    "schulung",
+    "content",
+    "unternehmen"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-13T06:24:32+01:00",
+   "quelle_titel": "Der Prompt ist nicht das Problem",
+   "url": "https://www.it-daily.net/it-management/ki/der-prompt-ist-nicht-das-problem",
+   "kontext": "Der Beitrag von Constantin Christiani richtet sich vor allem an den Mittelstand. Seine These: Unternehmen automatisieren ihre Kommunikation, bevor geklärt ist, wofür sie stehen und wen sie überhaupt ansprechen wollen. Gerade erfahrene Anbieter halten eigene Stärken für selbstverständlich, etwa tiefes Branchenwissen oder die Modernisierung von Altsystemen im laufenden Betrieb. Was nie bewusst herausgearbeitet wurde, kann auch ein Sprachmodell nicht sichtbar machen. Übrig bleiben professionell klingende Texte voller Floskeln."
+  },
+  {
+   "id": "d28795a5d487",
+   "date": "2026-11-13",
+   "published": "2026-11-13T06:00+01:00",
+   "headline": "Gehaltsreport 2026: Welche Qualifikationen im KI-Zeitalter zahlen",
+   "summary": "Der große Gehaltsreport der WirtschaftsWoche zeigt, wie stark künstliche Intelligenz den Arbeitsmarkt umbaut, und zwar nicht nur in der IT, sondern quer durch viele Berufsgruppen. Die Auswertung macht deutlich, welche Kompetenzen und Rollen derzeit besonders gut bezahlt werden.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "gehalt",
+    "arbeitsmarkt",
+    "qualifikation",
+    "it-berufe"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-13T06:24:32+01:00",
+   "paywall": true,
+   "quelle_titel": "Gehaltsreport 2026: Was es in KI-Zeiten für hohe Gehälter braucht",
+   "url": "https://www.wiwo.de/erfolg/beruf/gehaltsreport-2026-wer-durch-ki-gewinnt-und-wer-verliert/100269170.html"
   },
   {
    "id": "536b3ab70786",
@@ -90,6 +226,95 @@
    "paywall": true,
    "quelle_titel": "Judith Dada: „Wir brauchen das europäische Manhattan-Projekt!“",
    "url": "https://www.handelsblatt.com/technik/ki/judith-dada-wir-brauchen-das-europaeische-manhattan-projekt/100268792.html"
+  },
+  {
+   "id": "5b519a7c05e2",
+   "date": "2026-11-13",
+   "published": "2026-11-13T05:00+01:00",
+   "headline": "SAP-Manager: KI-Agenten brauchen mehr als einen zentralen Datenspeicher",
+   "summary": "Im Interview erklärt SAP-Produktchef Irfan Khan, warum ein Data Lake für den Einsatz von KI-Agenten nicht ausreicht. Entscheidend seien verlässliche Stammdaten, Geschäftskontext und klare Zugriffsregeln, während bestehende Datenarchitekturen zunehmend an Grenzen stoßen.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "sap",
+    "data lake",
+    "ki-agenten",
+    "datenstrategie"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-11-13T06:24:32+01:00",
+   "quelle_titel": "Ein Data Lake allein macht noch keine KI-Strategie",
+   "url": "https://www.computerwoche.de/article/4246386/ein-data-lake-allein-macht-noch-keine-ki-strategie.html"
+  },
+  {
+   "id": "0f77776f7c50",
+   "date": "2026-11-13",
+   "published": "2026-11-13T05:17+01:00",
+   "headline": "ArtCraft baut Photoshop als Open Source nach und will mehr",
+   "summary": "Das Unternehmen ArtCraft hat mit Hilfe von KI einen quelloffenen Photoshop-Nachbau entwickelt. Firmenchef Brandon Thomas versteht das nur als Anfang und will nach eigener Aussage weitere etablierte Software neu aufbauen, um das Internet zurückzuerobern.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "open source",
+    "photoshop",
+    "bildbearbeitung",
+    "startup"
+   ],
+   "source": "Latent Space",
+   "source_id": "latent-space",
+   "added": "2026-11-13T06:24:32+01:00",
+   "kurios": "Ein ganzes Photoshop per KI nachgebaut und frei verfügbar gemacht.",
+   "quelle_titel": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+   "url": "https://latent.space/p/artcraft/",
+   "kontext": "Gründer Brandon Thomas stellte das Projekt auf dem AI Engineer Code Summit in San Francisco vor, wo gesteigerter Ehrgeiz durch KI das Leitthema war. Sein junges Unternehmen hat bereits 17 quelloffene Nachbauten bekannter Programme veröffentlicht, darunter PhotoCraft in Rust und einen Acrobat-Ersatz. Antrieb ist der Ärger über abgeschottete Plattformen und überraschende Abogebühren. Thomas beschwört das frühe, offene Web, in dem Nutzer noch frei bauen konnten."
+  },
+  {
+   "id": "6fcb93d94f6b",
+   "date": "2026-11-13",
+   "published": "2026-11-13T05:45+01:00",
+   "headline": "Anthropic-Chef Amodei: Porträt eines Sonderlings der KI-Branche",
+   "summary": "Das Magazin BASIC thinking nimmt Anthropic-Gründer Dario Amodei unter die Lupe und fragt, warum er im Vergleich zu anderen Tech-Chefs als besonnene Ausnahme gilt. Betrachtet werden vor allem sein beruflicher Werdegang und seine Haltung zu Risiken der Technologie.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "anthropic",
+    "dario amodei",
+    "porträt",
+    "ki-branche"
+   ],
+   "source": "Basic Thinking",
+   "source_id": "basic-thinking",
+   "added": "2026-11-13T06:24:32+01:00",
+   "quelle_titel": "Der Good Guy der KI-Bosse? Was Dario Amodei anders macht",
+   "url": "https://www.basicthinking.de/blog/2026/11/13/der-good-guy-der-ki-bosse-was-dario-amodei-anders-macht/",
+   "kontext": "Anthropic entstand 2021, als mehrere Köpfe OpenAI verließen, weil ihnen die Sicherheit zu kurz kam und die kommerzielle Ausrichtung zu stark war; Dario Amodei gründete die Firma gemeinsam mit seiner Schwester Daniela. Das Image als saubere Alternative bröckelt inzwischen, etwa durch Kooperationen mit Militär und SpaceX. Dagegen stehen die Sicherheitsphilosophie und ein Gemeinwohlfonds. Ende 2023 lehnte Amodei den OpenAI-Chefposten und eine Fusion ab."
+  },
+  {
+   "id": "9c5f2292028d",
+   "date": "2026-11-13",
+   "published": "2026-11-13T06:06+01:00",
+   "headline": "Ethikrat-Mitglied rät zu bewusstem Umgang mit Chatbots",
+   "summary": "In einem Podcastgespräch diskutiert die Theologin Kerstin Schlögl-Flierl vom Deutschen Ethikrat, in welchen Situationen künstliche Intelligenz tatsächlich nützt und wo sie eher schadet. Sie plädiert dafür, den Einsatz von Werkzeugen wie ChatGPT jeweils bewusst abzuwägen statt sie reflexhaft zu nutzen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "ethik",
+    "deutscher ethikrat",
+    "chatgpt",
+    "podcast"
+   ],
+   "source": "Süddeutsche Digital",
+   "source_id": "sz-digital",
+   "added": "2026-11-13T06:24:32+01:00",
+   "paywall": true,
+   "quelle_titel": "Podcast „In aller Ruhe“: „Überlegt, wann ihr Chat-GPT braucht“",
+   "url": "https://www.sueddeutsche.de/meinung/podcast-interview-carolin-emcke-in-aller-ruhe-ki-kerstin-schloegl-flierl-li.3562163"
   }
  ]
 }
