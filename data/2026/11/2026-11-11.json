@@ -1,10 +1,10 @@
 {
  "date": "2026-11-11",
- "generated_at": "2026-11-13T03:47:40+01:00",
+ "generated_at": "2026-11-13T05:06:13+01:00",
  "overview": [
   {
    "id": "e097d0e403f4",
-   "text": "Andrea Nahles rechnet damit, dass KI in Deutschland rund 800.000 Jobs kostet, ähnlich viele neue entstehen lässt und den Weiterbildungsbedarf hochtreibt."
+   "text": "Andrea Nahles rechnet mit dem Verlust von rund 800.000 Jobs durch KI in Deutschland, erwartet aber ähnlich viele neue Stellen mit anderen Anforderungen."
   },
   {
    "id": "b4d9ca1157c2",
@@ -16,23 +16,23 @@
   },
   {
    "id": "2b16120a6864",
-   "text": "Englands Hochschulaufsicht verlangt KI-feste Prüfungen und droht mit Sanktionen, weil Hausarbeiten zunehmend vollständig von Chatbots stammen."
-  },
-  {
-   "id": "2630a54e5ddf",
-   "text": "SAP baut auf der TechEd in Berlin seine Agentenstrategie aus, warnt aber davor, klar geregelte Aufgaben über KI statt über günstigere Workflows zu lösen."
-  },
-  {
-   "id": "6213d5fd4a3d",
-   "text": "Die KI-Zusammenfassung der Google-Suche hat einem Bremer Anwalt schwere Straftaten unterstellt und wirft damit Fragen zu Haftung und Korrektur auf."
+   "text": "Englands Hochschulaufsicht verlangt KI-feste Prüfungen und droht mit Sanktionen, weil Hausarbeiten zunehmend komplett von Chatbots geschrieben werden."
   },
   {
    "id": "821298a736dd",
-   "text": "Die EU-Kommission schlägt neue Verbraucherregeln vor, die leichtere Abo-Kündigungen bringen und erstmals selbstständig einkaufende KI-Agenten erfassen."
+   "text": "Die EU-Kommission will Verbraucherrechte im Netz neu regeln und erstmals auch Vorgaben für KI-Agenten machen, die selbstständig einkaufen."
   },
   {
-   "id": "f369b7d30174",
-   "text": "Anthropic stellt zum Start der Börsengang-Werbetour eine eigene Büro-Suite mit Tabellenkalkulation und Meeting-Assistent vor und greift damit Microsoft an."
+   "id": "2630a54e5ddf",
+   "text": "SAP baut auf der TechEd in Berlin seine Agentenstrategie aus, warnt aber davor, klar geregelte Aufgaben teuer per KI statt per Workflow zu lösen."
+  },
+  {
+   "id": "428d17e8c974",
+   "text": "Ein Bericht beschuldigt das Umfeld von Nvidia-Chef Jensen Huang, über ein Firmennetz Grafikchips im Milliardenwert nach China geschleust zu haben."
+  },
+  {
+   "id": "6213d5fd4a3d",
+   "text": "Die KI-Zusammenfassung der Google-Suche hat einem Bremer Anwalt schwere Straftaten unterstellt und wirft damit Fragen nach Haftung und Korrektur auf."
   }
  ],
  "items": [
@@ -127,7 +127,36 @@
    "added": "2026-11-12T08:49:09+01:00",
    "quelle_titel": "CERT-EU warnt: Rapide Zunahme der Angriffe mit Agenten-Frameworks wie Artex",
    "url": "https://www.heise.de/news/CERT-EU-warnt-Rapide-Zunahme-der-Angriffe-mit-Agenten-Frameworks-wie-Artex-11520602.html",
-   "kontext": "Artex entstand eigentlich für autorisierte Penetrationstests, wird aber zunehmend von Angreifern zweckentfremdet. Ein Orchestrator verteilt dabei Teilaufgaben an weitere Agenten, die klassische Werkzeuge wie BloodHound starten und Ergebnisse zurückmelden. Technisch ist daran wenig neu, doch Tempo und Erfolgsquote steigen, und die Täter brauchen kaum noch Fachwissen. Der Autor nahm das Repository nach Missbrauchsmeldungen offline, Forks und Alternativen wie Cairn kursieren weiter."
+   "kontext": "Artex entstand eigentlich für autorisierte Penetrationstests, wird aber zunehmend von Angreifern zweckentfremdet. Ein Orchestrator verteilt dabei Teilaufgaben an weitere Agenten, die klassische Werkzeuge wie BloodHound starten und Ergebnisse zurückmelden. Technisch ist daran wenig neu, doch Tempo und Erfolgsquote steigen, und die Täter brauchen kaum noch Fachwissen. Der Autor nahm das Repository nach Missbrauchsmeldungen offline, Forks und Alternativen wie Cairn kursieren weiter.",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/CERT-EU-warnt-Rapide-Zunahme-der-Angriffe-mit-Agenten-Frameworks-wie-Artex-11520602.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ]
+  },
+  {
+   "id": "0571cd66b75c",
+   "date": "2026-11-11",
+   "published": "2026-11-11T15:34+01:00",
+   "headline": "CERT-EU meldet starken Anstieg von Angriffen durch KI-Agenten",
+   "summary": "Die EU-Sicherheitsbehörde CERT-EU beobachtet eine schnell wachsende Zahl von Cyberangriffen, die über Agenten-Frameworks wie Artex laufen. Autonome KI-Agenten führen dabei komplexe Angriffsschritte weitgehend ohne menschliches Zutun aus. Fachleute rechnen mit einer neuen Welle automatisierter Attacken.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "AITI",
+    "cybersicherheit",
+    "ki-agenten",
+    "cert-eu",
+    "automatisierte angriffe"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-13T04:59:27+01:00",
+   "quelle_titel": "CERT-EU warnt: Rapide Zunahme der Angriffe mit Agenten-Frameworks wie Artex",
+   "url": "https://www.heise.de/news/CERT-EU-warnt-Rapide-Zunahme-der-Angriffe-mit-Agenten-Frameworks-wie-Artex-11520602.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "28492f610da4"
   },
   {
    "id": "a8b5dfc5f815",
@@ -1063,6 +1092,30 @@
    "dup_of": "0c8d1509988f"
   },
   {
+   "id": "359fdde908d3",
+   "date": "2026-11-11",
+   "published": "2026-11-11T14:02+01:00",
+   "headline": "Datenleck bei Grok Build: Tausende KI-Apps waren öffentlich zugänglich",
+   "summary": "Mit Grok Build erstellte Anwendungen waren laut Sicherheitsforschern für beliebige Dritte erreichbar. In den offen liegenden Apps fanden sich vertrauliche Unternehmensdaten und personenbezogene Informationen, was grundlegende Fragen zur Absicherung von Vibe-Coding-Plattformen aufwirft.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "grok",
+    "datenleck",
+    "sicherheit",
+    "vibe-coding",
+    "xai"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-13T04:59:54+01:00",
+   "kurios": "Tausende KI-Apps gaben Geschäftsgeheimnisse praktisch ungeschützt nach außen",
+   "quelle_titel": "Grok Build: KI-Apps geben Geschäftsgeheimnisse und persönliche Daten preis",
+   "url": "https://www.heise.de/news/Grok-Build-KI-Apps-geben-Geschaeftsgeheimnisse-und-persoenliche-Daten-preis-11520974.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Aufgedeckt hat den Fall die auf KI-Sicherheit spezialisierte Firma Claroc. Ursache ist der Aufbau der Freigabeadressen: Der zufällige Name steckt im Domainteil und landet damit in öffentlichen DNS-Datenbanken, anders als bei vergleichbaren Freigaben von OpenAI, Anthropic oder Google. Verschärfend wirkt die Voreinstellung, nach der veröffentlichte Apps für jeden mit Link offen sind. Betroffen waren auch Beschäftigte des Anbieters selbst sowie mehrere Großkonzerne."
+  },
+  {
    "id": "91bcfba0cdd6",
    "date": "2026-11-11",
    "published": "2026-11-11T14:28+01:00",
@@ -1114,6 +1167,28 @@
    "kontext": "Die Angaben stammen aus einer Investorenpräsentation, in der Mitgründer und Compute-Chef Tom Brown die früh gewählte Multi-Chip-Strategie als unkonventionelle Wette beschreibt. Bislang band jede neue Architektur viele Ingenieure über Monate an einen eigenen Software-Stack, weshalb die Branche den Wechsel meist scheute. Anthropic behandelt alle Chips nun als austauschbaren Pool und will so im knappen Rechenmarkt das beste Preis-Leistungs-Verhältnis nutzen. Nvidia verdient an seiner Dominanz ungewöhnlich hohe Margen."
   },
   {
+   "id": "e7096c1cdbc4",
+   "date": "2026-11-11",
+   "published": "2026-11-11T14:52+01:00",
+   "headline": "DeepL bringt Aure: Übersetzungsmodell mit ausdrucksstarken KI-Stimmen",
+   "summary": "Das Kölner Unternehmen DeepL hat mit Aure ein neues Modell vorgestellt, das Übersetzungen natürlicher klingen lassen soll. Die generierten Stimmen sollen Emotionen und Betonung transportieren und damit näher an menschliche Sprecher herankommen.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "deepl",
+    "sprachmodelle",
+    "voice-ki",
+    "übersetzung"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-13T04:59:54+01:00",
+   "quelle_titel": "KI-Stimmen mit Emotionen: DeepL stellt neues Modell Aure vor",
+   "url": "https://www.heise.de/news/KI-Stimmen-mit-Emotionen-DeepL-stellt-neues-Modell-Aure-vor-11521062.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Bisher erzeugte DeepL Voice die Stimme aus einer einzigen Probe am Gesprächsbeginn, Stimmungswechsel im Dialog gingen dabei verloren. Aure analysiert die Audioquelle durchgehend und trennt im Training Stimmidentität, Betonung und Inhalt voneinander, zusätzlich filtert es Störgeräusche und Echos heraus. Firmenchef Jarek Kutylowski sieht darin einen Schritt zu Gesprächen ohne Verlust der eigenen Ausdrucksweise. Nutzbar ist das Modell in Meetings, vor Ort und über die Schnittstelle."
+  },
+  {
    "id": "02d27542879b",
    "date": "2026-11-11",
    "published": "2026-11-11T15:00+01:00",
@@ -1135,6 +1210,30 @@
    "quelle_titel": "Durchbruch beim Yang-Mills-Millennium-Problem: KI schließt jahrzehntealte Lücke im Fundament der Physik",
    "url": "https://www.spektrum.de/news/millennium-problem-ki-liefert-existenzbeweis-fuer-yang-mills-theorien/2353697",
    "kontext": "OpenAI reichte den maschinell erzeugten Beweis samt Prüfung durch einen Beweisassistenten bei einer fünfköpfigen Runde führender Physiker ein, geleitet vom Nobelpreisträger David Gross. Die Gruppe bestätigte Anfang November, dass die Existenz der reinen Theorie im üblichen Sinn gezeigt sei; die Konstruktion ist in Lean formalisiert. Nach Kritik an der anfangs geschlossenen Begutachtung wurden Code und Bericht veröffentlicht. Es ist bereits der zweite derartige Erfolg nach Fortschritten bei Strömungsgleichungen."
+  },
+  {
+   "id": "d6b3026e3b46",
+   "date": "2026-11-11",
+   "published": "2026-11-11T15:00+01:00",
+   "headline": "Coding-Agenten als Tester: Automatisierte Frontend-Prüfung mit Playwright und MCP",
+   "summary": "Ein Erfahrungsbericht beschreibt, wie sich Coding-Agenten wie Claude Code für die Qualitätssicherung im Frontend einsetzen lassen. Über Playwright-Skripte und die Anbindung per MCP übernimmt der Agent Prüfaufgaben und erzeugt daraus wiederverwendbare Regressionstests.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "coding-agenten",
+    "testing",
+    "playwright",
+    "mcp",
+    "workflow"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-13T04:59:54+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "heise+ | Agentische Frontend-QA: Vom prüfenden Coding Agent zum Regressionstest",
+   "url": "https://www.heise.de/hintergrund/Agentische-Frontend-QA-Vom-pruefenden-Coding-Agent-zum-Regressionstest-11519362.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
    "id": "4878c495cef5",
@@ -1190,6 +1289,29 @@
    "kontext": "Firmeninhaber verifizieren sich bei OpenAI und hinterlegen dann Stammdaten, Produkte, Preise und Verfügbarkeiten. Erwähnt ChatGPT das Unternehmen im Gespräch, führt ein Link zur Profilseite, wo ein sogenannter Business Agent auf Basis dieser Angaben antwortet. In einem Business Hub sehen Firmen anonymisierte Kennzahlen dazu, bei welchen Themen sie vorgeschlagen werden, und können ihre Beschreibung nachschärfen. Vorerst läuft das als Beta mit ausgewählten Firmen in den USA."
   },
   {
+   "id": "2c477d722a83",
+   "date": "2026-11-11",
+   "published": "2026-11-11T15:26+01:00",
+   "headline": "ChatGPT: OpenAI öffnet Unternehmensprofile für eigene Angaben",
+   "summary": "OpenAI erlaubt Firmen künftig, in ChatGPT ein eigenes Profil mit Informationen über sich anzulegen. Das Prinzip erinnert an Einträge bei Google Maps und soll dafür sorgen, dass der Chatbot korrekte Angaben über Unternehmen ausgibt.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "openai",
+    "chatgpt",
+    "unternehmensprofile",
+    "sichtbarkeit"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-13T04:59:27+01:00",
+   "quelle_titel": "ChatGPT: Unternehmen können dort nun eigene Profile anlegen",
+   "url": "https://www.heise.de/news/ChatGPT-Unternehmen-koennen-dort-nun-eigene-Profile-anlegen-11521000.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter der Funktion steckt der Versuch, Firmen Einfluss auf ihre Darstellung im Chatbot zu geben. Verifizierte Inhaber hinterlegen Stammdaten, Produkte, Preise und Verfügbarkeiten, ein sogenannter Business Agent beantwortet daraus Fragen der Nutzer. In einem Hub sehen Unternehmen zudem anonymisierte Statistiken dazu, zu welchen Themen sie vorgeschlagen werden, was stark an Suchmaschinenoptimierung erinnert. Zunächst läuft das als Beta für ausgewählte Firmen in den USA."
+  },
+  {
    "id": "c2326d7ec44f",
    "date": "2026-11-11",
    "published": "2026-11-11T15:35+01:00",
@@ -1221,10 +1343,6 @@
      "url": "https://www.golem.de/news/militaerische-ki-plattform-helsing-stellt-europaeische-alternative-zu-palantir-vor-2611-215099.html"
     },
     {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4247226/helsing-stellt-militaerische-ki-plattform-vor.html"
-    },
-    {
      "source": "ZEIT Digital",
      "url": "https://www.zeit.de/digital/2026-11/helsing-software-muenchen-militaer-drohnen-satelliten-kuenstliche-intelligenz",
      "paywall": true
@@ -1252,7 +1370,28 @@
    "quelle_titel": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
    "kontext": "Das Modell folgt auf AlphaGenome, das DeepMind im vergangenen Jahr vorgestellt hatte. Es zielt auf ein altes Problem der Genomforschung: Fast alle Körperzellen tragen dieselbe DNA, schalten aber je nach Typ und Zustand unterschiedliche Gene an und ab. Dieselbe Erbgutvariante kann deshalb in Herzmuskel, Haut oder Immunzellen ganz verschieden wirken. Laut Google liefert die neue Version ein deutlich feineres Bild als breiter angelegte Vorgängermodelle.",
-   "dup_of": "4d9cdece38b3"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/googles-alphagenome-2-soll-zeigen-wie-jede-koerperzelle-ihre-dna-liest/"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/AlphaGenome-2-Googles-KI-beruecksichtigt-Zellzustaende-bei-DNA-Prognosen-11522049.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/deepmind-launched-alphagenome-2-for-dna-a377/"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/googles-alphagenome-2-wants-to-find-where-disease-begins/"
+    }
+   ]
   },
   {
    "id": "ddb95c61a535",
@@ -1274,7 +1413,7 @@
    "added": "2026-11-12T12:34:53+01:00",
    "quelle_titel": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
-   "dup_of": "4d9cdece38b3"
+   "dup_of": "e879c6fc35d4"
   },
   {
    "id": "32fe61542d90",
@@ -1432,13 +1571,8 @@
    "paywall": true,
    "quelle_titel": "Anthropic-Aktie: Jetzt beginnt die Zeichnungsfrist, die wichtigsten Antworten zum Börsengang",
    "url": "https://www.wiwo.de/finanzen/boerse/anthropic-ipo-die-wichtigsten-antworten-zur-aktie-des-ki-entwicklers/100268848.html",
-   "also": [
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Datum-offiziell-Anthropic-Aktien-ab-19-November-im-Handel-11522895.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    }
-   ],
-   "kontext": "Der Handel soll am 19. November beginnen, den endgültigen Preis legt Anthropic einen Tag zuvor je nach Marktlage und Nachfrage fest, angepeilt sind 70 bis 78 Dollar. Interessierte können bei ihrer Handelsplattform Kaufwünsche hinterlegen, eine Zuteilung ist damit nicht garantiert. Der höhere Wert im europäischen Prospekt dient nur als Puffer, falls der Startkurs steigt. In den Unterlagen benennt das Unternehmen selbst erhebliche Risiken des KI-Booms."
+   "kontext": "Der Handel soll am 19. November beginnen, den endgültigen Preis legt Anthropic einen Tag zuvor je nach Marktlage und Nachfrage fest, angepeilt sind 70 bis 78 Dollar. Interessierte können bei ihrer Handelsplattform Kaufwünsche hinterlegen, eine Zuteilung ist damit nicht garantiert. Der höhere Wert im europäischen Prospekt dient nur als Puffer, falls der Startkurs steigt. In den Unterlagen benennt das Unternehmen selbst erhebliche Risiken des KI-Booms.",
+   "dup_of": "a168010cd66e"
   },
   {
    "id": "c2f79d0f0a9a",
@@ -1483,7 +1617,13 @@
    "added": "2026-11-12T12:33:59+01:00",
    "quelle_titel": "BKA-Herbsttagung: Zwischen Q-Day und Rückschlägen",
    "url": "https://www.heise.de/news/BKA-Herbsttagung-Zwischen-Q-Day-und-Rueckschlaegen-11521539.html",
-   "kontext": "BKA-Chef Holger Münch beschreibt in Berlin eine Lage, in der Betrug und Cyberangriffe die Strafverfolgung überfluten und sich staatliche wie kriminelle Akteure kaum noch trennen lassen, während die Behördenstrukturen genau diese Trennung voraussetzen. Innenminister Alexander Dobrindt nutzt die Tagung, um die geplante Reform von BND und Verfassungsschutz zu loben, die den Diensten mehr Befugnisse bis hin zur Gefahrenabwehr bringen soll. Ein angekündigtes deutsches KI-Sicherheitsinstitut existiert bislang nur dem Namen nach."
+   "kontext": "BKA-Chef Holger Münch beschreibt in Berlin eine Lage, in der Betrug und Cyberangriffe die Strafverfolgung überfluten und sich staatliche wie kriminelle Akteure kaum noch trennen lassen, während die Behördenstrukturen genau diese Trennung voraussetzen. Innenminister Alexander Dobrindt nutzt die Tagung, um die geplante Reform von BND und Verfassungsschutz zu loben, die den Diensten mehr Befugnisse bis hin zur Gefahrenabwehr bringen soll. Ein angekündigtes deutsches KI-Sicherheitsinstitut existiert bislang nur dem Namen nach.",
+   "also": [
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4247831/dobrindt-legt-sich-mit-ki-agenten-an.html"
+    }
+   ]
   },
   {
    "id": "a778c85f1499",
@@ -1506,7 +1646,7 @@
    "quelle_titel": "Google’s AlphaGenome 2 Wants to Find Where Disease Begins",
    "url": "https://www.theneuron.ai/news/googles-alphagenome-2-wants-to-find-where-disease-begins/",
    "kontext": "Hinter dem Modell steht Google DeepMind, das damit seine Genomik-Reihe fortschreibt. Ausgangspunkt ist ein bekanntes Problem der Forschung: Ein auffälliger DNA-Abschnitt ist zunächst nur ein Hinweis und sagt nichts darüber, worauf er im Körper tatsächlich wirkt. Genau diese Lücke soll das System verkleinern. Nutzen hätte das vor allem bei der Priorisierung, also beim Trennen aussichtsreicher Spuren von Sackgassen.",
-   "dup_of": "4d9cdece38b3"
+   "dup_of": "e879c6fc35d4"
   },
   {
    "id": "b55030826d75",
@@ -2282,6 +2422,27 @@
      "url": "https://the-decoder.de/deepl-voice-uebertraegt-mit-aure-jetzt-auch-tonfall-und-sprechtempo-in-andere-sprachen/"
     }
    ]
+  },
+  {
+   "id": "0aa0604b2372",
+   "date": "2026-11-11",
+   "published": "2026-11-11T15:00+01:00",
+   "headline": "KI-Update von heise: Nvidia-Affäre, Coding-Agenten und neue Modelle im Überblick",
+   "summary": "Der dreimal pro Woche erscheinende Nachrichtenüberblick von heise bündelt die aktuellen Entwicklungen aus der KI-Branche. Diesmal geht es unter anderem um eine Affäre rund um Nvidia, den Fortschritt bei Coding-Agenten sowie die Modelle Gemini 4 Carbon und Muse Ember.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nvidia",
+    "coding-agenten",
+    "gemini",
+    "news"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-13T04:59:54+01:00",
+   "quelle_titel": "KI-Update kompakt: Nvidia-Affäre, Coding-Agenten, Gemini 4 Carbon, Muse Ember",
+   "url": "https://www.heise.de/news/KI-Update-kompakt-Nvidia-Affaere-Coding-Agenten-Gemini-4-Carbon-Muse-Ember-11520732.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
    "id": "6ca07fbc14a5",
