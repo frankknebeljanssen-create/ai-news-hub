@@ -1,7 +1,393 @@
 {
- "updated": "2026-11-14T07:03:55+01:00",
- "count": 4094,
+ "updated": "2026-11-14T13:07:15+01:00",
+ "count": 4114,
  "items": [
+  {
+   "id": "89e796353a72",
+   "date": "2026-11-14",
+   "published": "2026-11-14T12:11+01:00",
+   "headline": "Claude portiert sich offenbar selbst in drei Tagen auf AMD-Hardware",
+   "summary": "Einer Investorenpräsentation zufolge hat das KI-Modell Mythos die nötigen Kernel für AMD-GPUs weitgehend eigenständig geschrieben und die Portierung in rund drei Tagen abgeschlossen. Bislang galten für solche Umzüge Zeiträume von sechs bis zwölf Monaten als normal. Das wäre ein deutliches Signal dafür, wie weit KI bei hochspezialisierter Systemprogrammierung inzwischen ist.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "claude",
+    "amd",
+    "gpu",
+    "coding"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-14T13:01:09+01:00",
+   "kurios": "Eine Arbeit von bis zu einem Jahr soll in drei Tagen erledigt worden sein.",
+   "quelle_titel": "Mythos portiert Claude in nur drei Tagen auf AMD",
+   "url": "https://www.it-daily.net/shortnews/mythos-portiert-claude-auf-amd",
+   "kontext": "Die Angabe stammt aus Anthropics Präsentation für den geplanten Börsengang und ist bislang nicht unabhängig geprüft. Hintergrund ist Nvidias Vorsprung durch die Software CUDA: Weil Anpassungen an fremde Chips teuer sind, bleiben viele Kunden gebunden. Anthropic setzt dagegen auf mehrere Chipfamilien von AWS, Google, Nvidia und AMD und behandelt Rechenkapazität als austauschbaren Pool. Gelingt der Wechsel künftig so schnell, schwindet ein zentraler Schutzwall des Marktführers."
+  },
+  {
+   "id": "4cb83f2a3259",
+   "date": "2026-11-14",
+   "published": "2026-11-14T12:00+01:00",
+   "headline": "KI im Cockpit und im Tower: Luftfahrt öffnet sich für Automatisierung",
+   "summary": "Die Luftfahrt gilt als extrem konservativ bei neuer Technik, doch KI hält nun auch dort Einzug. Diskutiert werden Szenarien mit reduzierter Besatzung im Cockpit und weniger Personal in der Flugsicherung. Der Beitrag beleuchtet die Sicherheitsfragen, die sich daraus ergeben.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "luftfahrt",
+    "automatisierung",
+    "sicherheit",
+    "flugsicherung"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-14T13:01:09+01:00",
+   "paywall": true,
+   "quelle_titel": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+   "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/"
+  },
+  {
+   "id": "b5ae27a5f0e0",
+   "date": "2026-11-14",
+   "published": "2026-11-14T11:48+01:00",
+   "headline": "Ex-Forscher warnt: Anthropics Fortschritt beschleunigt sich zusehends",
+   "summary": "Jacob Coxon, früher bei OpenAI und Anthropic, begründet seinen Weggang mit einer Folie aus der Börsengang-Präsentation, die aus seiner Sicht eine immer schneller werdende Verbesserung der Algorithmen belegt. Der Fall Mythos sei damit kein Einzelereignis, sondern Teil eines Trends. Coxon plädiert für eine Pause bei Spitzenmodellen, damit Wettbewerber aufholen und KI breiter verfügbar wird.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "ki-sicherheit",
+    "frontier-modelle",
+    "debatte"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-14T13:01:09+01:00",
+   "quelle_titel": "Claude Mythos war kein Ausreißer, sondern Teil eines sich beschleunigenden Trends, sagt Ex-Forscher",
+   "url": "https://the-decoder.de/claude-mythos-war-kein-ausreisser-sondern-teil-eines-sich-beschleunigenden-trends-sagt-ex-forscher/",
+   "kontext": "Coxon verließ Anthropic nach rund vier Monaten und ist seit September als lautstarker Warner vor fortgeschrittenen KI-Systemen bekannt. Die Folie zeigt den Rechenaufwand für Trainingsläufe über die Zeit, aufgetragen so, dass selbst enorme Sprünge optisch klein wirken. Dass die Kurve dennoch steil steigt, deutet er als Beleg für immer schneller wachsende Effizienz der Algorithmen. Seine Sorge: Diese Verbesserungen könnten sich bald weitgehend selbst automatisieren."
+  },
+  {
+   "id": "6ac84128e435",
+   "date": "2026-11-14",
+   "published": "2026-11-14T11:35+01:00",
+   "headline": "OpenAI löst Robotik-Team auf: Allzweckmodelle steuern Roboter direkt",
+   "summary": "OpenAI verteilt die Mitarbeitenden seines eigenständigen Robotik-Teams erneut auf andere Bereiche. Grund ist diesmal nicht fehlendes Trainingsmaterial, sondern dass universelle Modelle wie GPT-6 Astra Roboter offenbar unmittelbar ansteuern können. Die Umverteilung soll die Entwicklung insgesamt beschleunigen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "robotik",
+    "foundation-models",
+    "reorganisation"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-14T13:01:09+01:00",
+   "quelle_titel": "OpenAI verteilt Robotik-Forscher auf andere Teams, weil Allzweckmodelle spezialisierte Robotik-KI überflüssig machen",
+   "url": "https://the-decoder.de/openai-verteilt-robotik-forscher-auf-andere-teams-weil-allzweckmodelle-spezialisierte-robotik-ki-ueberfluessig-machen/",
+   "kontext": "Schon 2020 hatte OpenAI die Robotik eingestellt, damals wegen fehlender Trainingsdaten, und das Team erst 2024 neu aufgebaut. Nun wechseln die Forschenden ins Hauptforschungsteam von Mark Chen und in Greg Brockmans Applied-Bereich; ein bereits gebuchter Stand auf der Robotikkonferenz CoRL in Austin blieb leer. In Tests schnitt Astra klar besser ab als spezialisierte Robotikmodelle, die aber bei Kosten, Tempo und Verlässlichkeit punkten könnten. Sam Altman peilt eine erste öffentliche Roboterdemo für 2027 an."
+  },
+  {
+   "id": "4ea1ee5fdfef",
+   "date": "2026-11-14",
+   "published": "2026-11-14T11:21+01:00",
+   "headline": "Lenovo baut sein KI-Infrastrukturgeschäft weiter aus",
+   "summary": "Lenovo erweitert nach eigenen Angaben sein Angebot im Bereich KI-Infrastruktur. Die Meldung wird im Zusammenhang mit der Entwicklung der Lenovo-Aktie betrachtet.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "lenovo",
+    "infrastruktur",
+    "hardware",
+    "aktie"
+   ],
+   "source": "ad-hoc-news.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-14T13:01:09+01:00",
+   "quelle_titel": "Lenovo-Aktie: Konzern erweitert KI-Infrastruktur",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQem5adE52Zmt6RFlvMGRQTGhLMVltWi1RaGZBT0pBajA3OHRyVmZjSkhnblJab29UeDZJZUdnN1llRGc3MkJuZjFaaGZyYmQ4b01CNTY0WkNiNEJOS2FTb0w3WTNsYUMzZU9CdWtWMzhqbWVkMExWYnpGN21YOFVoRE5lTlZBRGQ3bjhVMkFGWTkxOTJGUWlrTjRreWpXREdXbXpRYkZOYXlPc0RZYThj?oc=5"
+  },
+  {
+   "id": "f2db9a3a51d3",
+   "date": "2026-11-14",
+   "published": "2026-11-14T11:20+01:00",
+   "headline": "Artcraft will Adobes Creative Cloud mit KI-Funktionen Konkurrenz machen",
+   "summary": "Viele Kreative stören sich an den Kosten und der Cloud-Bindung von Adobes Suite und warten auf echte Alternativen. Artcraft tritt mit KI-Funktionen an, um genau diese Lücke zu füllen, befindet sich aber noch in der Entwicklung. Der Beitrag ordnet ein, was das Werkzeug bisher kann.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "artcraft",
+    "adobe",
+    "kreativtools",
+    "bildbearbeitung"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-14T13:01:09+01:00",
+   "praxis": true,
+   "quelle_titel": "Adobe-Alternative mit KI: Das steckt hinter Artcraft",
+   "url": "https://t3n.de/news/artcraft-adobe-alternative-ki-check-1767514",
+   "dup_of": "0f77776f7c50"
+  },
+  {
+   "id": "2dd716ec8ae6",
+   "date": "2026-11-14",
+   "published": "2026-11-14T10:54+01:00",
+   "headline": "Berichte: Chinesische KI-Labore trainierten trotz Exportstopp auf Nvidia-GPUs",
+   "summary": "Obwohl leistungsstarke Nvidia-Chips strengen Ausfuhrbeschränkungen unterliegen, sollen mehrere chinesische Anbieter darunter Moonshot AI Zugang zu dieser Hardware gehabt und ihre Modelle darauf trainiert haben. Das wirft Fragen zur Wirksamkeit der bestehenden Kontrollen auf.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "exportkontrolle",
+    "china",
+    "chips",
+    "moonshot"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-14T13:01:09+01:00",
+   "quelle_titel": "Trotz Exportverbot: Hatten chinesische KI-Labore Zugriff auf Nvidia-Chips?",
+   "url": "https://t3n.de/news/trotz-exportverbot-hatten-chinesische-ki-labore-zugriff-auf-nvidia-chips-1773577",
+   "dup_of": "f17748102e2c"
+  },
+  {
+   "id": "768d1e72b138",
+   "date": "2026-11-14",
+   "published": "2026-11-14T10:51+01:00",
+   "headline": "Selbstversuch: KI-Agent handelt bei Bitpanda eigenständig mit Kryptowährungen",
+   "summary": "Bitpanda erlaubt es Kundinnen und Kunden, ihr Depot an einen KI-Agenten anzubinden. Der Autor hat Claude im Selbstversuch mit Kryptowerten handeln lassen und schildert, wie das Experiment verlief. Der Beitrag zeigt, wo agentenbasiertes Investieren heute praktisch steht.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "agentic investing",
+    "bitpanda",
+    "krypto",
+    "claude",
+    "selbstversuch"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-14T13:01:09+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "Agentic Investing: Wie die KI für mich mit Kryptos genug Geld für einen Döner verdienen sollte",
+   "url": "https://www.wiwo.de/finanzen/geldanlage/claude-und-bitpanda-wie-die-ki-fuer-mich-geld-fuer-einen-doener-verdienen-sollte/100269145.html"
+  },
+  {
+   "id": "22004a3ce03c",
+   "date": "2026-11-14",
+   "published": "2026-11-14T10:50+01:00",
+   "headline": "Scalable Capital öffnet Depots für Chatbots: Portfolio per Prompt steuern",
+   "summary": "Der Neobroker Scalable Capital lässt KI-Chatbots auf Kundendepots zugreifen, sodass sich Anlagen über Texteingaben verwalten lassen. Im Test zeigt sich, wie das Werkzeug ein Depot umschichtet und aufräumt. Der Beitrag ordnet Nutzen und Grenzen dieser Funktion ein.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "scalable capital",
+    "agentic investing",
+    "neobroker",
+    "chatbot",
+    "test"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-14T13:01:09+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "Agentic Investing: So räumt das KI-Tool von Scalable das Depot auf",
+   "url": "https://www.wiwo.de/finanzen/geldanlage/chatgpt-so-raeumt-das-ki-tool-von-scalable-das-depot-auf/100269185.html"
+  },
+  {
+   "id": "38cfe54a9581",
+   "date": "2026-11-14",
+   "published": "2026-11-14T10:48+01:00",
+   "headline": "eToro lässt KI-Agenten Depots verwalten: Praxistest zeigt Stärken und Lücken",
+   "summary": "Der Broker eToro bietet Kunden Depots an, die von KI-Agenten zusammengestellt und betreut werden. Ein Selbstversuch zeigt, welche Funktionen bereits nutzbar sind und welche Ausbaustufen der Anbieter noch plant. Das Beispiel steht für den Trend, autonome Agenten in die Geldanlage zu holen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-agenten",
+    "fintech",
+    "geldanlage",
+    "etoro"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-14T13:01:56+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "Agentic Investing: Das KI-Agenten-Depot von eToro im Check",
+   "url": "https://www.wiwo.de/finanzen/geldanlage/etoro-das-ki-agenten-depot-im-check/100269338.html"
+  },
+  {
+   "id": "0178479f7780",
+   "date": "2026-11-14",
+   "published": "2026-11-14T10:34+01:00",
+   "headline": "Runway stellt Robotikmodell Praxis-1 unter Apache 2.0 frei",
+   "summary": "Runway veröffentlicht sein Robotikmodell Praxis-1 samt Gewichten und Quellcode unter einer freizügigen Apache-2.0-Lizenz. Das Modell überträgt aus Videodaten gelerntes Wissen auf die Steuerung von Robotern und liegt im RoboLab-120-Benchmark von Nvidia in der Kategorie der World Action Models vorn. Eigenständig planen kann es mehrstufige Handlungsketten bislang nicht.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "robotik",
+    "open source",
+    "runway",
+    "benchmark"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-14T13:01:56+01:00",
+   "quelle_titel": "Robotermodell als Open Source: Runway gibt Robotik-Modell Praxis-1 mit Gewichten frei",
+   "url": "https://the-decoder.de/robotermodell-als-open-source-runway-gibt-robotik-modell-praxis-1-mit-gewichten-frei/",
+   "kontext": "Runway ist vor allem für generative Videomodelle bekannt und überträgt diese Forschung nun auf die Robotik: Praxis-1 sagt voraus, wie sich eine Szene verändert, und leitet daraus Bewegungen ab. Vorgestellt wurde das Modell Ende September, zunächst nur für Partner wie Standard Bots, Noble Machines und Ultra, die es auf Humanoiden, Industriearmen und Lagerrobotern erproben. Ohne eigens gesammelte Roboterdaten geht es trotzdem nicht. Die Lizenz erlaubt ausdrücklich auch kommerzielle Nutzung."
+  },
+  {
+   "id": "aedc4630a749",
+   "date": "2026-11-14",
+   "published": "2026-11-14T10:00+01:00",
+   "headline": "Wie Open-Source-Maintainer sich gegen die Flut an KI-Code wehren",
+   "summary": "Maschinell erzeugte Beiträge überschwemmen zunehmend Open-Source-Projekte und binden die Zeit der Betreuer. Der Ratgeber zeigt, mit welchen GitHub-Funktionen, Beitragsregeln und Prüfprozessen Projekte die Qualität sichern und die Last begrenzen können.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "open source",
+    "github",
+    "code-qualität",
+    "maintainer"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-14T13:01:56+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "(g+) KI-Code in Open Source: Wie Maintainer ihre Projekte vor Überlastung schützen",
+   "url": "https://www.golem.de/news/ki-code-in-open-source-wie-maintainer-ihre-projekte-vor-ueberlastung-schuetzen-2611-215205.html"
+  },
+  {
+   "id": "be54405e42bc",
+   "date": "2026-11-14",
+   "published": "2026-11-14T09:31+01:00",
+   "headline": "Manifest gegen KI-Schrott: Konferenzsprecher wollen Qualitätsstandards setzen",
+   "summary": "Sprecherinnen und Sprecher der AI Engineer Konferenz haben ein gemeinsames Manifest gegen minderwertige, massenhaft generierte KI-Inhalte vorgelegt. Darin formulieren sie, wie sich Entwickler und Publizierende gegen die zunehmende Flut belangloser Ausgaben stellen können.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-slop",
+    "qualität",
+    "community",
+    "manifest"
+   ],
+   "source": "Latent Space",
+   "source_id": "latent-space",
+   "added": "2026-11-14T13:01:56+01:00",
+   "quelle_titel": "[AINews] The No AI Slop Manifesto",
+   "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+   "kontext": "Das Papier entstand aus Debatten auf der Entwicklerkonferenz AIE CODE und wurde dort in der Abschlusskeynote vorgestellt, mitgezeichnet von zahlreichen Vortragenden. Es ist ausdrücklich als Gesprächsgrundlage für den Arbeitsalltag gedacht und bleibt auf einer eigenen Website für Ergänzungen und Diskussion offen. Dass es auf Hacker News binnen eines Tages nach oben rutschte, zeigt, wie groß der Unmut über gedankenlos erzeugte Inhalte in der Entwicklerszene inzwischen ist."
+  },
+  {
+   "id": "5760ddcc7eb7",
+   "date": "2026-11-14",
+   "published": "2026-11-14T08:45+01:00",
+   "headline": "Haushaltsroboter im Selbsttest: zwischen Überhitzung und Umkippen",
+   "summary": "Ein Redakteur hat Maschinen des Startups Tau Robotics aus San Francisco in der eigenen Wohnung putzen lassen. Die Roboter brauchen weiterhin viel menschliche Anleitung, kommen mit Treppen nicht zurecht und stoßen im Alltag schnell an Grenzen. Der Test zeigt, wie weit Haushaltsrobotik von echter Autonomie entfernt ist.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "robotik",
+    "haushalt",
+    "startup",
+    "praxistest"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-14T13:01:56+01:00",
+   "quelle_titel": "Überhitzung und Umkippen: Wie ein Roboter meine Wohnung reinigte, und was dabei schief ging",
+   "url": "https://t3n.de/news/humanoider-roboter-putzen-test-1772384",
+   "kontext": "Hinter dem Reinigungsdienst steckt kein autonomer Helfer: Menschen steuern die Maschinen aus der Ferne und sehen über Kameras an Kopf und Handgelenken mit. Jeder Putzvorgang liefert Trainingsdaten, mit denen Tau Robotics selbstständigere Nachfolgemodelle entwickeln will. Die Testerin buchte anonym über eine Warteliste, um ein unverfälschtes Bild zu bekommen. Der Ansatz zeigt, wie stark Robotikfirmen derzeit auf Teleoperation als Datenquelle setzen."
+  },
+  {
+   "id": "6ca2d1c67480",
+   "date": "2026-11-14",
+   "published": "2026-11-14T08:25+01:00",
+   "headline": "KI-Agenten in Minecraft: Experiment lässt Sprachmodelle Bürokratie nachspielen",
+   "summary": "Ein Versuch in Minecraft untersucht, wie sich KI-Agenten verhalten, wenn sie Verwaltungsstrukturen und Regelwerke simulieren sollen. Dabei zeigt sich, dass auch künstliche Akteure in Abstimmungsschleifen und bürokratischen Hürden hängen bleiben.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-agenten",
+    "simulation",
+    "minecraft",
+    "verhalten"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-14T13:01:56+01:00",
+   "kurios": "KI-Agenten verheddern sich in selbst erzeugter Bürokratie wie echte Behörden.",
+   "quelle_titel": "Minecraft-Experiment: Was passiert, wenn KI-Agenten Bürokratie simulieren?",
+   "url": "https://t3n.de/news/ki-agenten-minecraft-buerokratie-experiment-1771070",
+   "kontext": "Hinter dem Versuch stehen Y Combinator und Olam Labs, die Hunderte Agenten in Minecraft aussetzten. Eine Gruppe auf Basis von OpenAIs GPT-6.1-Sol sollte in drei Stunden eine Zivilisation errichten und verlor sich stattdessen in Regeln und Zuständigkeitsfragen. In einem weiteren Durchlauf traten GPT-Agenten gegen Claude-Modelle an. Spielwelten dienen Forschenden zunehmend als Labor, um unerwünschtes Verhalten autonomer Agenten sichtbar zu machen."
+  },
+  {
+   "id": "71fc5f7d971d",
+   "date": "2026-11-14",
+   "published": "2026-11-14T07:32+01:00",
+   "headline": "AWS Emulator im Test: Cloud-Dienste lokal nachbauen ohne Konto und Kosten",
+   "summary": "Mit dem neuen AWS Emulator lassen sich Cloud-Anwendungen ohne Konto und ohne laufende Gebühren auf dem eigenen Rechner entwickeln und testen. Ein Blick unter die Haube zeigt, wie das Werkzeug arbeitet, wo seine Grenzen liegen und warum es in der Entwicklergemeinde umstritten ist.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "aws",
+    "cloud",
+    "entwicklung",
+    "tooling"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-14T13:01:56+01:00",
+   "praxis": true,
+   "quelle_titel": "AWS Emulator im Detail: Die ganze Cloud auf dem eigenen Rechner?",
+   "url": "https://www.heise.de/news/AWS-Emulator-im-Detail-Die-ganze-Cloud-auf-dem-eigenen-Rechner-11524450.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Der in Rust geschriebene Emulator erzeugt seine Dienste aus denselben API-Modellen wie die AWS-SDKs und steht unter CC0 auf GitHub. Wie genau er die Cloud nachbildet, prüft Amazon mit öffentlichen Testläufen gegen echte Regionen. Für Aufsehen sorgte vor allem der Hinweis, dass KI-Agenten die Software komplett entwickelt haben. Gegen etablierte Werkzeuge wie LocalStack kommt sie bislang nicht an."
+  },
+  {
+   "id": "8285d1b7e215",
+   "date": "2026-11-14",
+   "published": "2026-11-14T07:30+01:00",
+   "headline": "Erfundene Schweinsteiger-Tochter wird zum TikTok-Phänomen",
+   "summary": "Auf TikTok verbreitet sich die Geschichte einer angeblichen 23 jährigen Tochter von Bastian Schweinsteiger, die als PR-Managerin beim DFB arbeiten soll. Die Figur existiert nicht, sie wurde von zwei jungen Frauen mit KI-Werkzeugen erschaffen und als Fanfiction inszeniert. Der Fall zeigt, wie leicht synthetische Identitäten rund um reale Personen Reichweite gewinnen und welche Fragen das für Betroffene und Verbände aufwirft.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "deepfake",
+    "social media",
+    "tiktok",
+    "synthetische identitaeten"
+   ],
+   "source": "Spiegel Netzwelt",
+   "source_id": "spiegel-netzwelt",
+   "added": "2026-11-14T13:02:16+01:00",
+   "kurios": "Eine komplett erfundene Promi-Tochter geht millionenfach viral.",
+   "paywall": true,
+   "quelle_titel": "KI-Fanfiction auf TikTok: Wer ist Emely Schweinsteiger?",
+   "url": "https://www.spiegel.de/netzwelt/ki-fanfiction-auf-tiktok-wer-ist-emely-schweinsteiger-a-39fc406d-1482-4ef0-b45b-1bbfbb2b2b24#ref=rss"
+  },
   {
    "id": "d225121b18d5",
    "date": "2026-11-14",
@@ -22,6 +408,28 @@
    "added": "2026-11-14T07:01:12+01:00",
    "quelle_titel": "Blende zu, KI an, wohin entwickelt sich die Smartphone-Fotografie? | c’t uplink",
    "url": "https://www.heise.de/news/Blende-zu-KI-an-wohin-entwickelt-sich-die-Smartphone-Fotografie-c-t-uplink-11524072.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "43c4dd7ee359",
+   "date": "2026-11-14",
+   "published": "2026-11-14T05:17+01:00",
+   "headline": "Chery will sich vom Autobauer zum KI-Unternehmen wandeln",
+   "summary": "Der chinesische Hersteller Chery richtet seine Konzernstrategie neu aus und positioniert sich nicht mehr nur als klassischer Fahrzeugproduzent, sondern als technologiegetriebenes KI-Unternehmen. Der Schritt reiht sich in den Trend ein, dass Automobilkonzerne Software und künstliche Intelligenz zum Kern ihres Geschäftsmodells machen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "automotive",
+    "china",
+    "unternehmensstrategie",
+    "chery"
+   ],
+   "source": "autoflotte.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-14T13:02:16+01:00",
+   "quelle_titel": "Chery-Konzernstrategie: Vom Blechbieger zum KI-Konzern",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZHVLcmNpSzY1a2hwVDFFMzN6NTFOS3VtcWtxUHR0NWZlVTFXdFBIUDZheGY5a2lfQVJobElTOS1YSGRJRnNySVptdXlWT2VNdFRvVkpTSEQ5UG9oeXV2Zy1pdmh0S0lJeWdjRTllam9hU2diVm1PdXdrX3plbGU3Nmx4eG1zRVhaa3NLNlhacHR1OGpSNTdGV0xpTXBNWXJtbl9uY0tSQ3BfbGhtbUdVTlcxRGc?oc=5",
+   "dup_of": "4b6fb2ea2b76"
   },
   {
    "id": "43a8bca0b077",
@@ -274,11 +682,6 @@
    "kontext": "Die Roadshow läuft bereits, und die begleitenden Banken drängen laut Berichten auf einen höheren Ausgabepreis als ursprünglich geplant. Strategische Partner wie Alphabet, Nvidia und Microsoft dürfen stimmrechtslose Anteile zum Emissionspreis zeichnen, ein Teil der Papiere ist für Privatanleger vorgesehen, auch in Deutschland. Der Umsatz wächst rasant, doch Anthropic warnt im Prospekt selbst, dass sich dieses Tempo nicht halten lässt. Die optimistischsten Prognosen stammen ausgerechnet von einer federführenden Konsortialbank.",
    "also": [
     {
-     "source": "heise KI",
-     "url": "https://www.heise.de/ratgeber/Anthropic-Was-Anleger-vor-dem-Boersengang-wissen-sollten-11502575.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
-     "paywall": true
-    },
-    {
      "source": "The Decoder",
      "url": "https://the-decoder.de/anthropics-geplanter-boersengang-ist-laut-bericht-sechsfach-ueberzeichnet/"
     }
@@ -305,7 +708,7 @@
    "paywall": true,
    "quelle_titel": "Jensen Huang: Geht KI ohne ihn?",
    "url": "https://www.zeit.de/digital/internet/2026-11/jensen-huang-nvidia-affaere-spionage-kuenstliche-intelligenz-nachfolge",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "e4d58416dd83",
@@ -350,7 +753,17 @@
    "added": "2026-11-14T00:29:04+01:00",
    "quelle_titel": "Export-banned Nvidia chips are behind China’s most powerful AI models, uh-oh, Jensen!",
    "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-   "dup_of": "8fc0a4bb4281"
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/trotz-exportverbot-hatten-chinesische-ki-labore-zugriff-auf-nvidia-chips-1773577"
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/ex-openai-forscher-will-nutzung-sanktionierter-nvidia-chips-in-chinesischen-top-ki-modellen-nachgewiesen-haben/"
+    }
+   ],
+   "kontext": "Der frühere OpenAI-Forscher Will DePue untersuchte mit seiner Gruppe Unemployment Labs die offen verfügbaren Gewichte von Modellen aus China, etwa von Deepseek, Moonshot, Minimax und Ant Group. Darin bleiben Spuren der verwendeten Trainingshardware erkennbar. Ein Verstoß ist damit nicht belegt, denn der Zugriff könnte über Rechenzentren im Ausland gelaufen sein, vor allem in Malaysia. Genau das sollten die Kontrollen eigentlich verhindern, weshalb Kritiker eine Regelung nach Nutzern statt nach Standorten fordern."
   },
   {
    "id": "c4e64e247b79",
@@ -375,13 +788,13 @@
    "url": "https://www.wiwo.de/finanzen/boerse/us-boersen-im-minus-nvidia-und-microsoft-druecken-techwerte/100269787.html",
    "also": [
     {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/finanzen/boerse/jensen-huang-affaere-was-der-nvidia-schock-fuer-ki-aktien-heiss/100269313.html",
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
      "paywall": true
     },
     {
      "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/finanzen/boerse/dax-kurs-trotzt-dem-nvidia-crash-drei-favoriten-nach-dem-rekord/100269335.html",
+     "url": "https://www.wiwo.de/finanzen/boerse/jensen-huang-affaere-was-der-nvidia-schock-fuer-ki-aktien-heiss/100269313.html",
      "paywall": true
     }
    ]
@@ -543,16 +956,16 @@
    "kontext": "Der Start ist eng begrenzt: zahlende Pro-Kunden in den USA, volljährig, mit passender US-Bankkarte. Perspektivisch sollen Nutzer ganze Einkäufe samt Ausgabelimits, Kategorien und Zeiträumen an ihre Agenten übergeben können. Weil viele Shops und Bezahldienste automatisierte Zugriffe bislang als Bots blockieren, liefert OpenAI Händlern zusätzlich einen Leitfaden für Firewalls, Produktdaten und Zahlungsdienstleister. Damit entscheidet weniger die Technik als die Mitarbeit des Handels darüber, ob Agenten-Shopping im Alltag funktioniert.",
    "also": [
     {
+     "source": "OpenAI",
+     "url": "https://openai.com/index/introducing-chatgpt-wallet"
+    },
+    {
      "source": "The Verge AI",
      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
     },
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
-    },
-    {
-     "source": "OpenAI",
-     "url": "https://openai.com/index/introducing-chatgpt-wallet"
     }
    ]
   },
@@ -578,7 +991,7 @@
    "quelle_titel": "Claude Meetings: Anthropic schickt KI in Videokonferenzen",
    "url": "https://www.it-daily.net/shortnews/claude-meetings-videokonferenzen",
    "kontext": "Die Funktion ist Teil eines größeren Büropakets: Am selben Tag zeigte Anthropic auch Whiteboards und eine Tabellenkalkulation und machte Claude Data allgemein verfügbar. Zur Absicherung weist sich der Assistent im Meeting-Chat aus und verlässt Gespräche automatisch, sobald externe Gäste ohne Freigabe dazukommen. In deutschen Unternehmen bleiben Datenschutz und Mitbestimmung des Betriebsrats zu klären. Google bietet mit Gemini längst einen Assistenten in Meet, auch OpenAI und Meta rüsten ihre Agenten auf.",
-   "dup_of": "32b35e2cba16"
+   "dup_of": "5fe66247a9f8"
   },
   {
    "id": "76d6d62b4d3b",
@@ -623,7 +1036,7 @@
    "added": "2026-11-14T00:29:49+01:00",
    "quelle_titel": "Bit-Rauschen, der Prozessor-Podcast: Nvidia nach dem Rücktritt von Jensen Huang",
    "url": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Nvidia-nach-dem-Ruecktritt-von-Jensen-Huang-11524919.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "c07769c0f547",
@@ -715,7 +1128,7 @@
    "paywall": true,
    "quelle_titel": "Jensen Huang and the End of the Founder Fairy Tale",
    "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "56623f1d9c94",
@@ -740,72 +1153,7 @@
    "quelle_titel": "The unfolding Jensen Huang scandal: a timeline",
    "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
    "kontext": "Huang hat nach 33 Jahren an der Spitze aufgegeben, nachdem mehrere Medien über außereheliche Beziehungen berichteten, darunter zu einer ihm direkt berichtenden Managerin. Brisant wird der Fall durch eine mutmaßliche Verbindung zu einer Führungskraft des Singapurer Anbieters Megaspeed, der wegen möglicher Chipweitergaben nach China im Visier der US-Justiz steht. Demokratische Abgeordnete wollen nun das Vorgehen der Regierung bei Chipexporten prüfen. Interimschefin ist Finanzvorständin Colette Kress.",
-   "also": [
-    {
-     "source": "Computerwoche",
-     "url": "https://www.computerwoche.de/article/4248369/nvidias-fuehrungskrise-wird-zum-stresstest-fuer-die-ki-branche.html"
-    },
-    {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/jensen-huang-resigned-as-nvidia-ceo/"
-    },
-    {
-     "source": "Latent Space",
-     "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/"
-    },
-    {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/digital/internet/2026-11/jensen-huang-nvidia-affaere-spionage-kuenstliche-intelligenz-nachfolge",
-     "paywall": true
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Nvidia-nach-dem-Ruecktritt-von-Jensen-Huang-11524919.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/hintergrund/Bit-Rauschen-Nvidia-Chef-tritt-ab-KI-Aktien-fahren-Achterbahn-11420684.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
-     "paywall": true
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
-    },
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/nvidia-chef-mitarbeiter-unterstuetzung-1773403"
-    },
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4248331/spionage-skandal-stuerzt-nvidia-chef-wer-beerbt-jensen-huang.html"
-    },
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-nach-chef-abgang-wie-geht-es-weiter-nach-dem-nvidia-eklat-16279660.html",
-     "paywall": true
-    },
-    {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/nach-chef-abgang--wie-geht-es-weiter-nach-dem-nvidia-eklat--38543966.html"
-    },
-    {
-     "source": "tagesschau",
-     "url": "https://www.tagesschau.de/wirtschaft/nvidia-ruecktritt-folgen-ki-branche-100.html"
-    },
-    {
-     "source": "Wired AI",
-     "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
-     "paywall": true
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://www.therundown.ai/articles/nvidia-enters-life-without-jensen-huang"
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow"
-    }
-   ]
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "2c2b0c570ac1",
@@ -941,7 +1289,7 @@
    "paywall": true,
    "quelle_titel": "heise+ | Bit-Rauschen: Nvidia-Chef tritt ab, KI-Aktien fahren Achterbahn",
    "url": "https://www.heise.de/hintergrund/Bit-Rauschen-Nvidia-Chef-tritt-ab-KI-Aktien-fahren-Achterbahn-11420684.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "bbf7d481d27e",
@@ -1103,7 +1451,7 @@
    "added": "2026-11-14T00:30:41+01:00",
    "quelle_titel": "What’s really at stake in the Jensen Huang saga",
    "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "7dc36ee94b34",
@@ -1172,12 +1520,7 @@
    "quelle_titel": "Ex-OpenAI-Forscher will Nutzung sanktionierter Nvidia-Chips in chinesischen Top-KI-Modellen nachgewiesen haben",
    "url": "https://the-decoder.de/ex-openai-forscher-will-nutzung-sanktionierter-nvidia-chips-in-chinesischen-top-ki-modellen-nachgewiesen-haben/",
    "kontext": "Die Methode nutzt eine Eigenheit des Trainings: Beim anfänglichen Befüllen der Gewichte mit Zufallszahlen hinterlässt die Zahl der Rechenkerne eines Grafikchips ein Muster, das später noch schwach messbar ist. Ältere und neuere Nvidia-Generationen unterscheiden sich darin deutlich. Den Prüfcode hat DePue offengelegt, bei Kontrollmodellen mit bekannter Hardware lag er richtig. Offen bleibt, ob tatsächlich Recht gebrochen wurde, denn solche Chips könnten auch in Rechenzentren außerhalb Chinas stehen.",
-   "also": [
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
-    }
-   ]
+   "dup_of": "f17748102e2c"
   },
   {
    "id": "71282e27b7ad",
@@ -1357,6 +1700,7 @@
    "added": "2026-11-14T00:31:32+01:00",
    "quelle_titel": "Microsoft-365-Kollaps: Störung zwingt Unternehmen in die Knie",
    "url": "https://www.cio.de/article/4248285/microsoft-365-kollaps-stoerung-zwingt-unternehmen-in-die-knie.html",
+   "kontext": "Begonnen hatte der Ausfall mit Exchange-Postfächern in den USA, bevor Microsoft weltweite Beeinträchtigungen von Microsoft 365 einräumte. Die Ingenieure leiteten Datenverkehr um, machten einen Prozess aus, der Server blockierte, und fuhren Teile der Infrastruktur isoliert hoch, doch mehrere Anläufe endeten in Rückschlägen. Bereits Ende August hatte ein Problem in der Cloud-Infrastruktur die Mail-Dienste stundenlang blockiert. Die Häufung nährt Zweifel an der Verlässlichkeit einzelner Großanbieter.",
    "also": [
     {
      "source": "Spiegel Netzwelt",
@@ -1372,8 +1716,28 @@
      "url": "https://www.zeit.de/digital/2026-11/microsoft-stoerung-online-dienste-outlook-365-teams",
      "paywall": true
     }
+   ]
+  },
+  {
+   "id": "502e12bd010c",
+   "date": "2026-11-13",
+   "published": "2026-11-13T14:50+01:00",
+   "headline": "Schwarz-Gruppe steckt 16,6 Milliarden Euro in eigene Rechenzentren",
+   "summary": "Der Handelskonzern hinter Lidl und Kaufland kündigt Investitionen von 16,6 Milliarden Euro in Rechenzentren an. Damit baut ein deutsches Unternehmen massiv eigene digitale Infrastruktur auf, wie sie für Cloud-Dienste und KI-Anwendungen benötigt wird.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "rechenzentren",
+    "infrastruktur",
+    "schwarz gruppe",
+    "investition"
    ],
-   "kontext": "Begonnen hatte der Ausfall mit Exchange-Postfächern in den USA, bevor Microsoft weltweite Beeinträchtigungen von Microsoft 365 einräumte. Die Ingenieure leiteten Datenverkehr um, machten einen Prozess aus, der Server blockierte, und fuhren Teile der Infrastruktur isoliert hoch, doch mehrere Anläufe endeten in Rückschlägen. Bereits Ende August hatte ein Problem in der Cloud-Infrastruktur die Mail-Dienste stundenlang blockiert. Die Häufung nährt Zweifel an der Verlässlichkeit einzelner Großanbieter."
+   "source": "ad-hoc-news.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-14T13:02:16+01:00",
+   "quelle_titel": "Rechenzentren: Schwarz-Gruppe investiert 16,6 Milliarden Euro",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOay1iTWotcmVoODRyeFFXSFNSSjM4LUM2dUoxa1BHX0ZyamlkVFd3U3EteW5vZXNNV1k1OVdybDJrQlF5dnlQTVlJSGRVbUxoS2g0eHpaSk53NG1GOV9rdjFEM0VqbUUyeHdaanpOWUg1YWpvQXBQMVBJODdEcGVyX2t2SVVKeHd5SnBmWTc4b29pQXhHNWxMSGt6dmNnOFZOX1ZySXRXSXU5N2M?oc=5"
   },
   {
    "id": "463d2e776eb1",
@@ -1395,8 +1759,7 @@
    "added": "2026-11-14T02:59:36+01:00",
    "paywall": true,
    "quelle_titel": "Riedls Dax-Radar: Drei Dax-Favoriten gegen KI-Zweifel und den Crash um Nvidia",
-   "url": "https://www.wiwo.de/finanzen/boerse/dax-kurs-trotzt-dem-nvidia-crash-drei-favoriten-nach-dem-rekord/100269335.html",
-   "dup_of": "c4e64e247b79"
+   "url": "https://www.wiwo.de/finanzen/boerse/dax-kurs-trotzt-dem-nvidia-crash-drei-favoriten-nach-dem-rekord/100269335.html"
   },
   {
    "id": "a1893731272a",
@@ -1483,8 +1846,7 @@
    "added": "2026-11-14T04:23:30+01:00",
    "paywall": true,
    "quelle_titel": "heise+ | Anthropic: Was Anleger vor dem Börsengang wissen sollten",
-   "url": "https://www.heise.de/ratgeber/Anthropic-Was-Anleger-vor-dem-Boersengang-wissen-sollten-11502575.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
-   "dup_of": "f35045a268fe"
+   "url": "https://www.heise.de/ratgeber/Anthropic-Was-Anleger-vor-dem-Boersengang-wissen-sollten-11502575.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
    "id": "69b43a95305b",
@@ -1529,7 +1891,7 @@
    "kurios": "Rücktritt des mächtigsten Chipchefs wegen einer Affäre mit mutmaßlicher Spionin",
    "quelle_titel": "Nvidias Führungskrise wird zum Stresstest für die KI-Branche",
    "url": "https://www.computerwoche.de/article/4248369/nvidias-fuehrungskrise-wird-zum-stresstest-fuer-die-ki-branche.html",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "1909596e979f",
@@ -1598,7 +1960,7 @@
    "kurios": "Eine Redaktion kapituliert öffentlich vor dem Tempo der Nvidia-Schlagzeilen.",
    "quelle_titel": "Let’s talk about Jensen Huang’s many affairs!",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "c16f24921470",
@@ -1735,7 +2097,8 @@
    "added": "2026-11-13T12:50:50+01:00",
    "kurios": "Zwei KI-Modelle legten einen simulierten Windpark in weniger als zwei Stunden still.",
    "quelle_titel": "Cybersicherheit: KI legt Windpark in unter zwei Stunden lahm",
-   "url": "https://www.golem.de/news/cybersicherheit-ki-legt-windpark-in-unter-zwei-stunden-lahm-2611-215181.html"
+   "url": "https://www.golem.de/news/cybersicherheit-ki-legt-windpark-in-unter-zwei-stunden-lahm-2611-215181.html",
+   "kontext": "Getestet wurde in einer nachgebauten Umgebung, nicht an einer realen Anlage. Bemerkenswert ist dabei weniger der Erfolg an sich als das Tempo und der Umstand, dass die Modelle ihre Angriffswege selbst entwickelten, statt vorgegebene Schritte abzuarbeiten. Damit rückt die Frage in den Vordergrund, wie gut Betreiber von Energieanlagen auf automatisiert vorgehende Angreifer vorbereitet sind. Wie weit sich das auf echte Netze übertragen lässt, bleibt offen."
   },
   {
    "id": "3b56028f4c38",
@@ -1845,8 +2208,7 @@
    "added": "2026-11-13T12:51:47+01:00",
    "quelle_titel": "Nvidia-Chef Jensen Huang tritt nach Affäre zurück: Warum Mitarbeiter jetzt seine Rückkehr fordern",
    "url": "https://t3n.de/news/nvidia-chef-mitarbeiter-unterstuetzung-1773403",
-   "kontext": "Huang führte Nvidia seit der Gründung Anfang der Neunziger und galt als Gesicht des KI-Booms, bevor eingeräumte Affären und der Verdacht einer Verbindung zum chinesischen Geheimdienst den Rücktritt erzwangen. Das FBI prüft den Fall, US-Präsident Trump stellt sich hinter ihn. Intern zeigt sich, wie stark die Abläufe auf ihn zugeschnitten waren: Dutzende Führungskräfte berichteten direkt an ihn. Der Börsenwert brach nach dem Rückzug zweistellig ein.",
-   "dup_of": "56623f1d9c94"
+   "kontext": "Huang führte Nvidia seit der Gründung Anfang der Neunziger und galt als Gesicht des KI-Booms, bevor eingeräumte Affären und der Verdacht einer Verbindung zum chinesischen Geheimdienst den Rücktritt erzwangen. Das FBI prüft den Fall, US-Präsident Trump stellt sich hinter ihn. Intern zeigt sich, wie stark die Abläufe auf ihn zugeschnitten waren: Dutzende Führungskräfte berichteten direkt an ihn. Der Börsenwert brach nach dem Rückzug zweistellig ein."
   },
   {
    "id": "669035ce1688",
@@ -1868,7 +2230,7 @@
    "added": "2026-11-13T12:51:47+01:00",
    "quelle_titel": "Spionage-Skandal stürzt Nvidia-Chef: Wer beerbt Jensen Huang?",
    "url": "https://www.cio.de/article/4248331/spionage-skandal-stuerzt-nvidia-chef-wer-beerbt-jensen-huang.html",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "ec9196cf8414",
@@ -1921,6 +2283,28 @@
      "paywall": true
     }
    ]
+  },
+  {
+   "id": "14bc1a1990f5",
+   "date": "2026-11-13",
+   "published": "2026-11-13T11:15+01:00",
+   "headline": "United Airlines sperrt KI-Agenten von der Flugbuchung aus",
+   "summary": "Die Fluggesellschaft United Airlines untersagt es KI-Agenten, selbstständig Flüge zu buchen. Der Schritt ist ein frühes Beispiel dafür, wie Anbieter auf automatisierte Einkaufsassistenten reagieren, die im Namen von Kundinnen und Kunden handeln. Für Unternehmen, die auf agentische KI setzen, stellt sich damit die Frage, welche Plattformen solche Zugriffe künftig überhaupt zulassen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "airlines",
+    "automatisierung",
+    "plattformregeln"
+   ],
+   "source": "SZ.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-14T13:02:16+01:00",
+   "quelle_titel": "United Airlines verbietet KI-Agenten die Flugbuchung, was dahintersteckt - Wirtschaft - SZ.de",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaFZYbFNOZTVaZkVUVjZuX2xGcXhhZ1QxSlIzdC1IOGFCbWJQQUFuSTRFMDJuLVVIc1JSNlhNZDRnUU9zeUt2Vkp5dTlEaEo3YlU3WFhQT3Y4S3ZyUWtjdnhFaHJnN0NNZ2JkOUtSaHZFMVQ0VDg3ak1fU3Q3YkdFdzBTZ2czNk04eERUU2ktckhxOTlGVUN3bVk1NlFZQUlJeklXVEtpcjJWWFI2aDQta1pGc0JmYWZvTTdEcUZZZXNONnZQTVE?oc=5",
+   "dup_of": "322f998ba4d6"
   },
   {
    "id": "4b9e51eeb873",
@@ -1986,7 +2370,7 @@
    "praxis": true,
    "quelle_titel": "Nvidia enters life without Jensen Huang",
    "url": "https://www.therundown.ai/articles/nvidia-enters-life-without-jensen-huang",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "a53a6e73fe51",
@@ -2029,7 +2413,13 @@
    "source_id": "gn-unternehmen",
    "added": "2026-11-14T00:32:20+01:00",
    "quelle_titel": "Chery-Konzernstrategie: Vom Blechbieger zum KI-Konzern",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb01hVm5DTk51TEgtOTFaeEVvSU5ObUlDZ0ZfOFZKazF4MmJkbWM5R1gyRWZreEtYeVdJWlV6Tkt5TmRtSXNqLUI2ZjlPNkRRSk1lMzIxa0tkWjdvYVhKSFFpRHVNc01qVGRGVmhxRmxtZXVMOE01Z0FDNTE3YjIyeEQyNDFLWld2MGxudlJabFRRZDZEcDhJbDMtX0llMlltQ0ZDcmdQamU1ZE01Z3k1Tll3?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb01hVm5DTk51TEgtOTFaeEVvSU5ObUlDZ0ZfOFZKazF4MmJkbWM5R1gyRWZreEtYeVdJWlV6Tkt5TmRtSXNqLUI2ZjlPNkRRSk1lMzIxa0tkWjdvYVhKSFFpRHVNc01qVGRGVmhxRmxtZXVMOE01Z0FDNTE3YjIyeEQyNDFLWld2MGxudlJabFRRZDZEcDhJbDMtX0llMlltQ0ZDcmdQamU1ZE01Z3k1Tll3?oc=5",
+   "also": [
+    {
+     "source": "autoflotte.de",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZHVLcmNpSzY1a2hwVDFFMzN6NTFOS3VtcWtxUHR0NWZlVTFXdFBIUDZheGY5a2lfQVJobElTOS1YSGRJRnNySVptdXlWT2VNdFRvVkpTSEQ5UG9oeXV2Zy1pdmh0S0lJeWdjRTllam9hU2diVm1PdXdrX3plbGU3Nmx4eG1zRVhaa3NLNlhacHR1OGpSNTdGV0xpTXBNWXJtbl9uY0tSQ3BfbGhtbUdVTlcxRGc?oc=5"
+    }
+   ]
   },
   {
    "id": "92d1886d4335",
@@ -2051,7 +2441,13 @@
    "added": "2026-11-13T12:52:23+01:00",
    "quelle_titel": "Über MCP-Server: Erneuter Hackerangriff auf Hoster Mittwald",
    "url": "https://www.golem.de/news/ueber-mcp-server-erneuter-hackerangriff-auf-hoster-mittwald-2611-215173.html",
-   "kontext": "Mittwald betreibt Hosting aus Espelkamp in Nordrhein-Westfalen und hatte bereits Anfang November Zugänge wie SSH, Bestellsystem und mStudio gesperrt, dann schrittweise wieder freigegeben. In der Nacht zum 12. November folgte der Rückschlag, die Unternehmenswebsite ging vorsorglich vom Netz und liefert seither überwiegend Fehlerseiten. Einem Defacement widerspricht die Firma ausdrücklich, gehostete Kundenseiten seien durchgehend erreichbar geblieben. Mittwald spricht von professionellen Angreifern, die selbst KI einsetzen."
+   "kontext": "Mittwald betreibt Hosting aus Espelkamp in Nordrhein-Westfalen und hatte bereits Anfang November Zugänge wie SSH, Bestellsystem und mStudio gesperrt, dann schrittweise wieder freigegeben. In der Nacht zum 12. November folgte der Rückschlag, die Unternehmenswebsite ging vorsorglich vom Netz und liefert seither überwiegend Fehlerseiten. Einem Defacement widerspricht die Firma ausdrücklich, gehostete Kundenseiten seien durchgehend erreichbar geblieben. Mittwald spricht von professionellen Angreifern, die selbst KI einsetzen.",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Angriff-ueber-MCP-Server-Webhoster-Mittwald-im-Krisenmodus-11522728.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ]
   },
   {
    "id": "2298483cf7ba",
@@ -2095,7 +2491,7 @@
    "added": "2026-11-13T12:50:50+01:00",
    "quelle_titel": "😺 Jensen Huang resigned as Nvidia CEO",
    "url": "https://www.theneuron.ai/newsletter/jensen-huang-resigned-as-nvidia-ceo/",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "f10c0273c681",
@@ -2139,7 +2535,7 @@
    "quelle_titel": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
    "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
    "kontext": "Huang hat Nvidia seit der Gründung geprägt und gibt nun auch den Präsidentenposten sowie seinen Sitz im Board ab. Vorausgegangen waren Medienberichte über Affären und über ein Gremium, das einen Wechsel vorbereitete; ob darin die Ursache liegt, ist offen. Finanzchefin Colette Kress, seit 2013 im Amt, übernimmt interimistisch und behält ihre bisherige Aufgabe. Entsprechend genau dürfte die Branche auf die anstehende Quartalsbilanz schauen.",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "0457712ba4ab",
@@ -2185,7 +2581,7 @@
    "quelle_titel": "Gemini 4 Hydrogen: Googles effiziente Alternative zu Argon und Carbon",
    "url": "https://www.heise.de/news/Gemini-4-Hydrogen-Googles-effiziente-Alternative-zu-Argon-und-Carbon-11523818.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Hydrogen ist das dritte Modell der Gemini-4-Familie, abgeleitet aus Carbon und ausgelegt auf Tempo und Kosteneffizienz. Es beerbt Gemini 3.8 Flash und wird zum Standardmodell im KI-Modus der Suche, bei schwierigen Fragen auch in den AI Overviews. Vier Denkstufen trennen Spitzenleistung vom Sparbetrieb. Auffällig sind die sehr seltenen Halluzinationen im Wissenstest, während das Modell beim Programmieren auf der Kommandozeile hinter der Konkurrenz bleibt.",
-   "dup_of": "80a19f227bef"
+   "dup_of": "a67e1509e9c0"
   },
   {
    "id": "80a19f227bef",
@@ -2208,13 +2604,8 @@
    "added": "2026-11-14T00:32:20+01:00",
    "quelle_titel": "Gemini 4 Hydrogen: Googles effiziente Alternative zu Argon und Carbon",
    "url": "https://www.heise.de/news/Gemini-4-Hydrogen-Googles-effiziente-Alternative-zu-Argon-und-Carbon-11523818.html",
-   "also": [
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Gemini-4-Hydrogen-Googles-effiziente-Alternative-zu-Argon-und-Carbon-11523818.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    }
-   ],
-   "kontext": "Hydrogen ist das dritte Modell der Gemini-4-Familie nach Argon und Carbon und wurde aus Carbon auf Tempo und Kosteneffizienz hin abgeleitet. Es beerbt Gemini 3.8 Flash, verarbeitet auch Bilder, Audio und Video, antwortet aber ausschließlich in Text. Gewichte und Parameterzahl behält Google für sich. Stärken zeigt das Modell bei der Analyse visueller Dokumente und einer auffällig niedrigen Halluzinationsrate, beim Programmieren im Terminal bleibt es hinter der Konkurrenz."
+   "kontext": "Hydrogen ist das dritte Modell der Gemini-4-Familie nach Argon und Carbon und wurde aus Carbon auf Tempo und Kosteneffizienz hin abgeleitet. Es beerbt Gemini 3.8 Flash, verarbeitet auch Bilder, Audio und Video, antwortet aber ausschließlich in Text. Gewichte und Parameterzahl behält Google für sich. Stärken zeigt das Modell bei der Analyse visueller Dokumente und einer auffällig niedrigen Halluzinationsrate, beim Programmieren im Terminal bleibt es hinter der Konkurrenz.",
+   "dup_of": "a67e1509e9c0"
   },
   {
    "id": "32b35e2cba16",
@@ -2238,13 +2629,8 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Anthropic macht Microsoft Konkurrenz bei Bürosoftware",
    "url": "https://www.handelsblatt.com/technik/it-internet/ki-wie-anthropic-mit-claude-mehr-wissensarbeiter-fuer-sich-gewinnen-will/100268547.html",
-   "also": [
-    {
-     "source": "it-daily.net",
-     "url": "https://www.it-daily.net/shortnews/claude-meetings-videokonferenzen"
-    }
-   ],
-   "kontext": "Kern des Vorstoßes ist Claude Meetings: Der Assistent tritt als sichtbarer Teilnehmer in Google-Meet-Calls auf, entwirft schon während des Gesprächs Pläne und liefert danach Notizen und Aufgaben. Dazu kommen Whiteboards, die Tabellenkalkulation Sheets und Konnektoren zu Diensten wie Atlassian oder HubSpot. OpenAI, Meta und Google bauen ihre Assistenten ähnlich zu Arbeitsumgebungen aus. In deutschen Unternehmen sind dabei Datenschutz und Mitbestimmung vorab zu klären."
+   "kontext": "Kern des Vorstoßes ist Claude Meetings: Der Assistent tritt als sichtbarer Teilnehmer in Google-Meet-Calls auf, entwirft schon während des Gesprächs Pläne und liefert danach Notizen und Aufgaben. Dazu kommen Whiteboards, die Tabellenkalkulation Sheets und Konnektoren zu Diensten wie Atlassian oder HubSpot. OpenAI, Meta und Google bauen ihre Assistenten ähnlich zu Arbeitsumgebungen aus. In deutschen Unternehmen sind dabei Datenschutz und Mitbestimmung vorab zu klären.",
+   "dup_of": "5fe66247a9f8"
   },
   {
    "id": "6182f9b669f8",
@@ -2267,7 +2653,7 @@
    "quelle_titel": "Welche Folgen Nvidias Absturz für die KI-Branche hat",
    "url": "https://www.tagesschau.de/wirtschaft/nvidia-ruecktritt-folgen-ki-branche-100.html",
    "kontext": "Hinter dem Kursrutsch steht der Rückzug des Firmengründers, der Nvidia über Jahre zum Taktgeber der KI-Hardware gemacht hat. An den Börsen folgte zunächst Erleichterung, von einem Crash spricht laut ARD-Börsenbeobachtern kaum jemand. Offen bleibt, wie stark der Konzern von einer einzelnen Leitfigur abhängt. Für Wettbewerber im Geschäft mit KI-Chips könnte sich daraus neuer Spielraum ergeben.",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "d1318183fe17",
@@ -2310,7 +2696,8 @@
    "added": "2026-11-13T12:50:50+01:00",
    "quelle_titel": "Can Nvidia Keep Hugging Face Open After Jensen Huang's Exit?",
    "url": "https://www.theneuron.ai/news/nvidia-hugging-face-open-after-jensen-huang-exit/",
-   "kontext": "Bei der Ankündigung des Kaufs für knapp 13 Milliarden Dollar hatte Nvidia versprochen, die Plattform allen offen zu halten. Zwei Monate später ist das Geschäft noch nicht vollzogen, und mit Jensen Huang hat der Konzernchef das Haus verlassen, unter dem diese Zusage gegeben wurde. In der Entwicklergemeinde wächst deshalb die Sorge um Neutralität gegenüber Modellen und Chips der Konkurrenz. Bis zum Abschluss bleibt offen, wie belastbar solche Versprechen sind."
+   "kontext": "Bei der Ankündigung des Kaufs für knapp 13 Milliarden Dollar hatte Nvidia versprochen, die Plattform allen offen zu halten. Zwei Monate später ist das Geschäft noch nicht vollzogen, und mit Jensen Huang hat der Konzernchef das Haus verlassen, unter dem diese Zusage gegeben wurde. In der Entwicklergemeinde wächst deshalb die Sorge um Neutralität gegenüber Modellen und Chips der Konkurrenz. Bis zum Abschluss bleibt offen, wie belastbar solche Versprechen sind.",
+   "dup_of": "5c8a7e2ce9e4"
   },
   {
    "id": "25a0ab2abf0c",
@@ -2357,13 +2744,7 @@
    "paywall": true,
    "quelle_titel": "heise+ | Software-Nachbau mit KI: Wie Craft-Apps entstehen",
    "url": "https://www.heise.de/hintergrund/Software-Nachbau-mit-KI-Wie-Craft-Apps-entstehen-11518918.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
-   "kontext": "Hinter den Nachbauten steht das junge Unternehmen ArtCraft, dessen Gründer Brandon Thomas das Vorhaben auf dem AI Engineer Code Summit in San Francisco präsentierte. Den Anfang machte PhotoCraft, eine von Grund auf in Rust geschriebene Photoshop-Alternative, später kam etwa ein Pendant zu Adobes Acrobat hinzu. Thomas begründet den Feldzug mit dem Verlust der frühen Offenheit des Netzes, als Schnittstellen verschwanden und große Anbieter die Vertriebswege kontrollierten.",
-   "also": [
-    {
-     "source": "Latent Space",
-     "url": "https://latent.space/p/artcraft/"
-    }
-   ]
+   "kontext": "Hinter den Nachbauten steht das junge Unternehmen ArtCraft, dessen Gründer Brandon Thomas das Vorhaben auf dem AI Engineer Code Summit in San Francisco präsentierte. Den Anfang machte PhotoCraft, eine von Grund auf in Rust geschriebene Photoshop-Alternative, später kam etwa ein Pendant zu Adobes Acrobat hinzu. Thomas begründet den Feldzug mit dem Verlust der frühen Offenheit des Netzes, als Schnittstellen verschwanden und große Anbieter die Vertriebswege kontrollierten."
   },
   {
    "id": "c456cdf7a77c",
@@ -2506,7 +2887,12 @@
    "quelle_titel": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
    "url": "https://latent.space/p/artcraft/",
    "kontext": "Gründer Brandon Thomas stellte das Projekt auf dem AI Engineer Code Summit in San Francisco vor, wo gesteigerter Ehrgeiz durch KI das Leitthema war. Sein junges Unternehmen hat bereits 17 quelloffene Nachbauten bekannter Programme veröffentlicht, darunter PhotoCraft in Rust und einen Acrobat-Ersatz. Antrieb ist der Ärger über abgeschottete Plattformen und überraschende Abogebühren. Thomas beschwört das frühe, offene Web, in dem Nutzer noch frei bauen konnten.",
-   "dup_of": "a430277135b8"
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/artcraft-adobe-alternative-ki-check-1767514"
+    }
+   ]
   },
   {
    "id": "3013db6ee508",
@@ -2675,7 +3061,7 @@
    "paywall": true,
    "quelle_titel": "Nach Chef-Abgang: Wie geht es weiter nach dem Nvidia-Eklat?",
    "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-nach-chef-abgang-wie-geht-es-weiter-nach-dem-nvidia-eklat-16279660.html",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "4e701fa6a82d",
@@ -2697,7 +3083,7 @@
    "added": "2026-11-13T06:24:32+01:00",
    "quelle_titel": "Nach Chef-Abgang: Wie geht es weiter nach dem Nvidia-Eklat?",
    "url": "https://www.stern.de/digital/nach-chef-abgang--wie-geht-es-weiter-nach-dem-nvidia-eklat--38543966.html",
-   "dup_of": "56623f1d9c94"
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "a49fd02deff5",
@@ -3183,20 +3569,20 @@
    "kontext": "Google setzt die Benennung nach chemischen Elementen fort; Hydrogen übernimmt die Rolle der schnellen, günstigen Flash-Reihe. Das Modell arbeitet in vier Denkstufen bis hin zu einer neuen Höchststufe, soll deutlich seltener Dinge erfinden und vor allem beim Programmieren zulegen. Die Preise über die Schnittstelle bleiben gegenüber dem Vorgänger gleich, während die Schwestermodelle Carbon und Argon teurer werden. In der Gemini-App müssen Gratisnutzer laut Bericht vorerst beim älteren Modell bleiben.",
    "also": [
     {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Gemini-4-Hydrogen-Googles-effiziente-Alternative-zu-Argon-und-Carbon-11523818.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    },
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Gemini-4-Hydrogen-Googles-effiziente-Alternative-zu-Argon-und-Carbon-11523818.html"
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/google-stellt-gemini-4-hydrogen-vor-schnelles-ki-modell-fuer-den-alltag-fuer-weniger-geld/"
     },
     {
      "source": "The Verge AI",
      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
     },
     {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/google-stellt-gemini-4-hydrogen-vor-schnelles-ki-modell-fuer-den-alltag-fuer-weniger-geld/"
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Gemini-4-Hydrogen-Googles-effiziente-Alternative-zu-Argon-und-Carbon-11523818.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Gemini-4-Hydrogen-Googles-effiziente-Alternative-zu-Argon-und-Carbon-11523818.html"
     },
     {
      "source": "Google DeepMind",
@@ -3455,18 +3841,7 @@
    "paywall": true,
    "quelle_titel": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
    "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
-   "also": [
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/finanzen/boerse/us-boersen-im-minus-nvidia-und-microsoft-druecken-techwerte/100269787.html",
-     "paywall": true
-    },
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/finanzen/boerse/jensen-huang-affaere-was-der-nvidia-schock-fuer-ki-aktien-heiss/100269313.html",
-     "paywall": true
-    }
-   ]
+   "dup_of": "c4e64e247b79"
   },
   {
    "id": "1fc96923be27",
@@ -3655,7 +4030,7 @@
    "added": "2026-11-13T00:51:08+01:00",
    "quelle_titel": "Ausblick 2027: Großteil der KI-Ausgaben fließt weiter in die Infrastruktur",
    "url": "https://www.golem.de/news/ausblick-2027-grossteil-der-ki-ausgaben-fliesst-weiter-in-die-infrastruktur-2611-215155.html",
-   "dup_of": "4388d2ad0a95"
+   "kontext": "Hinter den Summen steht vor allem der Ausbau von Rechenzentren und Hardware, den die großen Cloudanbieter selbst finanzieren. Ein erheblicher Teil des Geldes wandert dabei zwischen denselben Konzernen hin und her, weshalb von einem geschlossenen Kreislauf gesprochen wird. Was Unternehmen tatsächlich für Modelle ausgeben, wirkt dagegen bescheiden. Offen bleibt, ob die Nachfrage die enormen Vorleistungen einholt."
   },
   {
    "id": "322f998ba4d6",
@@ -3679,6 +4054,10 @@
    "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
    "kontext": "Hinter der Sperre stehen auch wirtschaftliche Motive: Konzernchef Scott Kirby will laut Berichten keinen weiteren Zwischenhändler zwischen Airline und Kundschaft. Preise dürfen Agenten weiter anzeigen, Buchungen nicht abschließen. Delta und American erlauben ausgewählten Agenten dagegen den Zugriff, Amazon hat Metas Assistenten blockiert und streitet mit Perplexity vor Gericht. Da Meta, OpenAI und Anthropic gerade neue persönliche Agenten starten, dürfte der Konflikt um solche Zugänge zunehmen.",
    "also": [
+    {
+     "source": "SZ.de",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaFZYbFNOZTVaZkVUVjZuX2xGcXhhZ1QxSlIzdC1IOGFCbWJQQUFuSTRFMDJuLVVIc1JSNlhNZDRnUU9zeUt2Vkp5dTlEaEo3YlU3WFhQT3Y4S3ZyUWtjdnhFaHJnN0NNZ2JkOUtSaHZFMVQ0VDg3ak1fU3Q3YkdFdzBTZ2czNk04eERUU2ktckhxOTlGVUN3bVk1NlFZQUlJeklXVEtpcjJWWFI2aDQta1pGc0JmYWZvTTdEcUZZZXNONnZQTVE?oc=5"
+    },
     {
      "source": "heise KI",
      "url": "https://www.heise.de/news/United-Airlines-untersagt-KI-Agenten-das-Buchen-von-Fluegen-11523122.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
@@ -3842,17 +4221,21 @@
    "also": [
     {
      "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/it-internet/ki-wie-anthropic-mit-claude-ins-geschaeft-von-microsoft-draengt/100268547.html",
+     "url": "https://www.handelsblatt.com/technik/it-internet/ki-wie-anthropic-mit-claude-mehr-wissensarbeiter-fuer-sich-gewinnen-will/100268547.html",
      "paywall": true
     },
     {
      "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/it-internet/ki-wie-anthropic-mit-claude-mehr-wissensarbeiter-fuer-sich-gewinnen-will/100268547.html",
+     "url": "https://www.handelsblatt.com/technik/it-internet/ki-wie-anthropic-mit-claude-ins-geschaeft-von-microsoft-draengt/100268547.html",
      "paywall": true
     },
     {
      "source": "The Decoder",
      "url": "https://the-decoder.de/claude-meetings-anthropic-laesst-claude-als-teilnehmer-an-videoanrufe-andocken/"
+    },
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/claude-meetings-videokonferenzen"
     }
    ]
   },
@@ -3946,12 +4329,7 @@
    "quelle_titel": "Digitale Medienordnung: Länder wollen Big Tech und KI streng regulieren",
    "url": "https://www.heise.de/news/Digitale-Medienordnung-Laender-wollen-Big-Tech-und-KI-streng-regulieren-11523302.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Hinter dem Vorhaben steht die Rundfunkkommission der Länder, die ihren Diskussionsentwurf im September vorgelegt hat; die Frist für Stellungnahmen läuft gerade aus. Neu ist der Ansatz, Regulierung an der Wirkung von Inhalten auf die Meinungsbildung festzumachen statt an klassischen Mediengattungen. Vorgesehen sind unter anderem eine Mindestquote für journalistische Empfehlungen in Feeds und ein Recht auf freie Verlinkung. Journalistenverband und Medienanstalten begrüßen die Richtung, fordern aber Nachbesserungen.",
-   "also": [
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Digitale-Medienordnung-Laender-wollen-Big-Tech-und-KI-streng-regulieren-11523302.html"
-    }
-   ]
+   "dup_of": "a2312df623e7"
   },
   {
    "id": "a2312df623e7",
@@ -3974,7 +4352,12 @@
    "quelle_titel": "Digitale Medienordnung: Länder wollen Big Tech und KI streng regulieren",
    "url": "https://www.heise.de/news/Digitale-Medienordnung-Laender-wollen-Big-Tech-und-KI-streng-regulieren-11523302.html",
    "kontext": "Hinter dem Vorhaben steht die Rundfunkkommission der Länder, die im September einen Diskussionsentwurf vorgelegt hat. Reguliert werden soll künftig nicht mehr nach Mediengattung, sondern danach, wie stark Inhalte die Meinungsbildung prägen. Kern ist eine Mindestquote für Empfehlungen aus einem Pool journalistisch verantworteter Angebote sowie ein Verbot, Nutzer in geschlossenen Ökosystemen festzuhalten. Verbände konnten Stellung nehmen: Journalistenvertreter begrüßen den Ansatz, andere mahnen Nachbesserungen an.",
-   "dup_of": "29618570c343"
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Digitale-Medienordnung-Laender-wollen-Big-Tech-und-KI-streng-regulieren-11523302.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ]
   },
   {
    "id": "e88b73f46f20",
@@ -4523,38 +4906,13 @@
    "kontext": "Vorausgegangen waren Medienberichte über außereheliche Affären Huangs, darunter mit einer Frau, die als mutmaßliche chinesische Spionin gilt. Seit den ersten Enthüllungen Ende Oktober brach Nvidias Börsenwert massiv ein, der Vorstand steuerte auf eine Trennung zu. Harvey C. Jones rückt als Vorstandsvorsitzender nach und versichert, das Tagesgeschäft laufe ungestört weiter. Heikel bleibt die Nachfolge, denn Huang hatte den Konzern samt Allianzen und Kundengarantien stark auf sich zugeschnitten.",
    "also": [
     {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/jensen-huang-resigned-as-nvidia-ceo/"
-    },
-    {
-     "source": "Latent Space",
-     "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/"
-    },
-    {
-     "source": "Computerwoche",
-     "url": "https://www.computerwoche.de/article/4248369/nvidias-fuehrungskrise-wird-zum-stresstest-fuer-die-ki-branche.html"
-    },
-    {
-     "source": "tagesschau",
-     "url": "https://www.tagesschau.de/wirtschaft/nvidia-ruecktritt-folgen-ki-branche-100.html"
-    },
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4248331/spionage-skandal-stuerzt-nvidia-chef-wer-beerbt-jensen-huang.html"
-    },
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-nach-chef-abgang-wie-geht-es-weiter-nach-dem-nvidia-eklat-16279660.html",
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/nvidia-jensen-huang-tritt-nach-mehreren-affaeren-zurueck/100269321.html",
      "paywall": true
     },
     {
      "source": "stern Digital",
-     "url": "https://www.stern.de/digital/nach-chef-abgang--wie-geht-es-weiter-nach-dem-nvidia-eklat--38543966.html"
-    },
-    {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/digital/internet/2026-11/jensen-huang-nvidia-affaere-spionage-kuenstliche-intelligenz-nachfolge",
-     "paywall": true
+     "url": "https://www.stern.de/digital/chip-riese--nvidia-chef-tritt-nach-affaeren-zurueck-38540588.html"
     },
     {
      "source": "t3n",
@@ -4570,18 +4928,17 @@
      "paywall": true
     },
     {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/chip-riese--nvidia-chef-tritt-nach-affaeren-zurueck-38540588.html"
-    },
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-chip-riese-nvidia-chef-tritt-nach-affaren-zuruck-16278227.html",
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
      "paywall": true
     },
     {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/ki/nvidia-jensen-huang-tritt-nach-mehreren-affaeren-zurueck/100269321.html",
-     "paywall": true
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/jensen-huang-resigned-as-nvidia-ceo/"
+    },
+    {
+     "source": "Latent Space",
+     "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/"
     },
     {
      "source": "WirtschaftsWoche",
@@ -4589,8 +4946,34 @@
      "paywall": true
     },
     {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/jensen-huang-resigns-nvidia-future/"
+     "source": "Computerwoche",
+     "url": "https://www.computerwoche.de/article/4248369/nvidias-fuehrungskrise-wird-zum-stresstest-fuer-die-ki-branche.html"
+    },
+    {
+     "source": "stern Digital",
+     "url": "https://www.stern.de/digital/nach-chef-abgang--wie-geht-es-weiter-nach-dem-nvidia-eklat--38543966.html"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang"
+    },
+    {
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/internet/2026-11/jensen-huang-nvidia-affaere-spionage-kuenstliche-intelligenz-nachfolge",
+     "paywall": true
+    },
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/nvidia-ruecktritt-folgen-ki-branche-100.html"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-nach-chef-abgang-wie-geht-es-weiter-nach-dem-nvidia-eklat-16279660.html",
+     "paywall": true
+    },
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4248331/spionage-skandal-stuerzt-nvidia-chef-wer-beerbt-jensen-huang.html"
     },
     {
      "source": "heise KI",
@@ -4598,22 +4981,22 @@
      "paywall": true
     },
     {
-     "source": "Wired AI",
-     "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/jensen-huang-resigns-nvidia-future/"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wissen/die-teuerste-affare-der-welt-der-unantastbare-jensen-huang-ist-gefallen-16278205.html",
      "paywall": true
     },
     {
      "source": "Handelsblatt Technologie",
      "url": "https://www.handelsblatt.com/technik/ki/ki-briefing/ki-briefing-was-unter-der-neuen-chefin-mit-nvidia-passiert/100268863.html",
      "paywall": true
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang"
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
     },
     {
      "source": "The Rundown AI",
@@ -4624,17 +5007,13 @@
      "url": "https://www.heise.de/meinung/Bit-Rauschen-der-Prozessor-Podcast-Nvidia-nach-dem-Ruecktritt-von-Jensen-Huang-11524919.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow"
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump"
-    },
-    {
-     "source": "Wired AI",
-     "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huang-is-out-will-nvidias-rivals-cash-in/",
+     "source": "heise KI",
+     "url": "https://www.heise.de/hintergrund/Bit-Rauschen-Nvidia-Chef-tritt-ab-KI-Aktien-fahren-Achterbahn-11420684.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus",
      "paywall": true
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
     },
     {
      "source": "Wired AI",
@@ -4642,13 +5021,20 @@
      "paywall": true
     },
     {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow"
+    },
+    {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/"
     },
     {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/wissen/die-teuerste-affare-der-welt-der-unantastbare-jensen-huang-ist-gefallen-16278205.html",
-     "paywall": true
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/"
     }
    ]
   },
@@ -4984,7 +5370,8 @@
    "source_id": "cio",
    "added": "2026-11-13T00:53:43+01:00",
    "quelle_titel": "Dobrindt legt sich mit KI-Agenten an",
-   "url": "https://www.cio.de/article/4247831/dobrindt-legt-sich-mit-ki-agenten-an.html"
+   "url": "https://www.cio.de/article/4247831/dobrindt-legt-sich-mit-ki-agenten-an.html",
+   "kontext": "Münch beschreibt eine Verschiebung im Täterbild: Nicht mehr einzelne Angreifer suchen mühsam nach Lücken, sondern Software tut das selbstständig und in großem Maßstab. Seine Forderung nach schnellerer Abstimmung berührt die in Deutschland bewusst getrennten Zuständigkeiten von Polizei, Nachrichtendiensten und Militär. Erschwerend kommt hinzu, dass sich kriminelle Gruppen und staatlich gesteuerte Akteure kaum noch sauber auseinanderhalten lassen."
   },
   {
    "id": "f9f004d49557",
@@ -6530,12 +6917,7 @@
    "quelle_titel": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
    "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
    "kontext": "Auslöser ist ein Bericht des Wall Street Journal, wonach der Verwaltungsrat kurzfristig zusammenkommt. Huang hatte zuvor eine Affäre mit einer Geschäftspartnerin eingeräumt, die US-Dienste für eine chinesische Agentin halten; danach wurde eine zweite Beziehung zu einer Spitzenmanagerin des eigenen Konzerns bekannt. Brisant ist die Lage auch deshalb, weil Nvidia keinen erkennbaren Nachfolger hat und Huang kaum delegiert. Laut Berichten sucht eine externe Beratung nun Kandidaten.",
-   "also": [
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/affaere-nvidia-aufseher-huang-1773118"
-    }
-   ]
+   "dup_of": "3f3c0084577c"
   },
   {
    "id": "d8ef3fe6591f",

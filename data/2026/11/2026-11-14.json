@@ -1,17 +1,177 @@
 {
  "date": "2026-11-14",
- "generated_at": "2026-11-14T07:03:55+01:00",
+ "generated_at": "2026-11-14T13:07:15+01:00",
  "overview": [
   {
-   "id": "43a8bca0b077",
-   "text": "Amazon plant laut Reuters den World Product Graph, eine Datenbank mit Produktdaten aus dem gesamten Netz, um Nutzer von Konkurrenzseiten fernzuhalten."
+   "id": "89e796353a72",
+   "text": "Laut einer Investorenpräsentation hat das Modell Mythos die Kernel für AMD-GPUs weitgehend selbst geschrieben und die Portierung in drei Tagen geschafft."
   },
   {
-   "id": "d225121b18d5",
-   "text": "Ein c't-Podcast diskutiert, ob variable Blenden und KI-Bildverarbeitung in neuen Smartphones die Bildqualität wirklich voranbringen."
+   "id": "6ac84128e435",
+   "text": "OpenAI löst sein eigenständiges Robotik-Team auf, weil Allzweckmodelle wie GPT-6 Astra Roboter inzwischen direkt ansteuern können."
+  },
+  {
+   "id": "0178479f7780",
+   "text": "Runway gibt sein Robotikmodell Praxis-1 mitsamt Gewichten unter Apache 2.0 frei und führt in Nvidias Benchmark RoboLab-120 bei den World Action Models."
+  },
+  {
+   "id": "b5ae27a5f0e0",
+   "text": "Der frühere Anthropic-Forscher Jacob Coxon sieht die Algorithmen immer schneller besser werden und fordert deshalb eine Pause bei Spitzenmodellen."
+  },
+  {
+   "id": "43a8bca0b077",
+   "text": "Amazon arbeitet laut Reuters am World Product Graph, einer Datenbank zu nahezu jedem online verkauften Produkt, auch aus fremden Shops."
+  },
+  {
+   "id": "22004a3ce03c",
+   "text": "Der Neobroker Scalable Capital lässt KI-Chatbots auf Kundendepots zugreifen, sodass sich Anlagen per Texteingabe umschichten lassen."
+  },
+  {
+   "id": "8285d1b7e215",
+   "text": "Eine mit KI erfundene Tochter von Bastian Schweinsteiger geht auf TikTok viral und zeigt, wie leicht synthetische Identitäten Reichweite gewinnen."
+  },
+  {
+   "id": "aedc4630a749",
+   "text": "Open-Source-Projekte wehren sich mit strengeren Beitragsregeln und Prüfprozessen gegen die wachsende Flut maschinell erzeugter Codebeiträge."
   }
  ],
  "items": [
+  {
+   "id": "aedc4630a749",
+   "date": "2026-11-14",
+   "published": "2026-11-14T10:00+01:00",
+   "headline": "Wie Open-Source-Maintainer sich gegen die Flut an KI-Code wehren",
+   "summary": "Maschinell erzeugte Beiträge überschwemmen zunehmend Open-Source-Projekte und binden die Zeit der Betreuer. Der Ratgeber zeigt, mit welchen GitHub-Funktionen, Beitragsregeln und Prüfprozessen Projekte die Qualität sichern und die Last begrenzen können.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "open source",
+    "github",
+    "code-qualität",
+    "maintainer"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-14T13:01:56+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "(g+) KI-Code in Open Source: Wie Maintainer ihre Projekte vor Überlastung schützen",
+   "url": "https://www.golem.de/news/ki-code-in-open-source-wie-maintainer-ihre-projekte-vor-ueberlastung-schuetzen-2611-215205.html"
+  },
+  {
+   "id": "0178479f7780",
+   "date": "2026-11-14",
+   "published": "2026-11-14T10:34+01:00",
+   "headline": "Runway stellt Robotikmodell Praxis-1 unter Apache 2.0 frei",
+   "summary": "Runway veröffentlicht sein Robotikmodell Praxis-1 samt Gewichten und Quellcode unter einer freizügigen Apache-2.0-Lizenz. Das Modell überträgt aus Videodaten gelerntes Wissen auf die Steuerung von Robotern und liegt im RoboLab-120-Benchmark von Nvidia in der Kategorie der World Action Models vorn. Eigenständig planen kann es mehrstufige Handlungsketten bislang nicht.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "robotik",
+    "open source",
+    "runway",
+    "benchmark"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-14T13:01:56+01:00",
+   "quelle_titel": "Robotermodell als Open Source: Runway gibt Robotik-Modell Praxis-1 mit Gewichten frei",
+   "url": "https://the-decoder.de/robotermodell-als-open-source-runway-gibt-robotik-modell-praxis-1-mit-gewichten-frei/",
+   "kontext": "Runway ist vor allem für generative Videomodelle bekannt und überträgt diese Forschung nun auf die Robotik: Praxis-1 sagt voraus, wie sich eine Szene verändert, und leitet daraus Bewegungen ab. Vorgestellt wurde das Modell Ende September, zunächst nur für Partner wie Standard Bots, Noble Machines und Ultra, die es auf Humanoiden, Industriearmen und Lagerrobotern erproben. Ohne eigens gesammelte Roboterdaten geht es trotzdem nicht. Die Lizenz erlaubt ausdrücklich auch kommerzielle Nutzung."
+  },
+  {
+   "id": "2dd716ec8ae6",
+   "date": "2026-11-14",
+   "published": "2026-11-14T10:54+01:00",
+   "headline": "Berichte: Chinesische KI-Labore trainierten trotz Exportstopp auf Nvidia-GPUs",
+   "summary": "Obwohl leistungsstarke Nvidia-Chips strengen Ausfuhrbeschränkungen unterliegen, sollen mehrere chinesische Anbieter darunter Moonshot AI Zugang zu dieser Hardware gehabt und ihre Modelle darauf trainiert haben. Das wirft Fragen zur Wirksamkeit der bestehenden Kontrollen auf.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "exportkontrolle",
+    "china",
+    "chips",
+    "moonshot"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-14T13:01:09+01:00",
+   "quelle_titel": "Trotz Exportverbot: Hatten chinesische KI-Labore Zugriff auf Nvidia-Chips?",
+   "url": "https://t3n.de/news/trotz-exportverbot-hatten-chinesische-ki-labore-zugriff-auf-nvidia-chips-1773577",
+   "dup_of": "f17748102e2c"
+  },
+  {
+   "id": "6ac84128e435",
+   "date": "2026-11-14",
+   "published": "2026-11-14T11:35+01:00",
+   "headline": "OpenAI löst Robotik-Team auf: Allzweckmodelle steuern Roboter direkt",
+   "summary": "OpenAI verteilt die Mitarbeitenden seines eigenständigen Robotik-Teams erneut auf andere Bereiche. Grund ist diesmal nicht fehlendes Trainingsmaterial, sondern dass universelle Modelle wie GPT-6 Astra Roboter offenbar unmittelbar ansteuern können. Die Umverteilung soll die Entwicklung insgesamt beschleunigen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "robotik",
+    "foundation-models",
+    "reorganisation"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-14T13:01:09+01:00",
+   "quelle_titel": "OpenAI verteilt Robotik-Forscher auf andere Teams, weil Allzweckmodelle spezialisierte Robotik-KI überflüssig machen",
+   "url": "https://the-decoder.de/openai-verteilt-robotik-forscher-auf-andere-teams-weil-allzweckmodelle-spezialisierte-robotik-ki-ueberfluessig-machen/",
+   "kontext": "Schon 2020 hatte OpenAI die Robotik eingestellt, damals wegen fehlender Trainingsdaten, und das Team erst 2024 neu aufgebaut. Nun wechseln die Forschenden ins Hauptforschungsteam von Mark Chen und in Greg Brockmans Applied-Bereich; ein bereits gebuchter Stand auf der Robotikkonferenz CoRL in Austin blieb leer. In Tests schnitt Astra klar besser ab als spezialisierte Robotikmodelle, die aber bei Kosten, Tempo und Verlässlichkeit punkten könnten. Sam Altman peilt eine erste öffentliche Roboterdemo für 2027 an."
+  },
+  {
+   "id": "b5ae27a5f0e0",
+   "date": "2026-11-14",
+   "published": "2026-11-14T11:48+01:00",
+   "headline": "Ex-Forscher warnt: Anthropics Fortschritt beschleunigt sich zusehends",
+   "summary": "Jacob Coxon, früher bei OpenAI und Anthropic, begründet seinen Weggang mit einer Folie aus der Börsengang-Präsentation, die aus seiner Sicht eine immer schneller werdende Verbesserung der Algorithmen belegt. Der Fall Mythos sei damit kein Einzelereignis, sondern Teil eines Trends. Coxon plädiert für eine Pause bei Spitzenmodellen, damit Wettbewerber aufholen und KI breiter verfügbar wird.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "ki-sicherheit",
+    "frontier-modelle",
+    "debatte"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-14T13:01:09+01:00",
+   "quelle_titel": "Claude Mythos war kein Ausreißer, sondern Teil eines sich beschleunigenden Trends, sagt Ex-Forscher",
+   "url": "https://the-decoder.de/claude-mythos-war-kein-ausreisser-sondern-teil-eines-sich-beschleunigenden-trends-sagt-ex-forscher/",
+   "kontext": "Coxon verließ Anthropic nach rund vier Monaten und ist seit September als lautstarker Warner vor fortgeschrittenen KI-Systemen bekannt. Die Folie zeigt den Rechenaufwand für Trainingsläufe über die Zeit, aufgetragen so, dass selbst enorme Sprünge optisch klein wirken. Dass die Kurve dennoch steil steigt, deutet er als Beleg für immer schneller wachsende Effizienz der Algorithmen. Seine Sorge: Diese Verbesserungen könnten sich bald weitgehend selbst automatisieren."
+  },
+  {
+   "id": "89e796353a72",
+   "date": "2026-11-14",
+   "published": "2026-11-14T12:11+01:00",
+   "headline": "Claude portiert sich offenbar selbst in drei Tagen auf AMD-Hardware",
+   "summary": "Einer Investorenpräsentation zufolge hat das KI-Modell Mythos die nötigen Kernel für AMD-GPUs weitgehend eigenständig geschrieben und die Portierung in rund drei Tagen abgeschlossen. Bislang galten für solche Umzüge Zeiträume von sechs bis zwölf Monaten als normal. Das wäre ein deutliches Signal dafür, wie weit KI bei hochspezialisierter Systemprogrammierung inzwischen ist.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "claude",
+    "amd",
+    "gpu",
+    "coding"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-14T13:01:09+01:00",
+   "kurios": "Eine Arbeit von bis zu einem Jahr soll in drei Tagen erledigt worden sein.",
+   "quelle_titel": "Mythos portiert Claude in nur drei Tagen auf AMD",
+   "url": "https://www.it-daily.net/shortnews/mythos-portiert-claude-auf-amd",
+   "kontext": "Die Angabe stammt aus Anthropics Präsentation für den geplanten Börsengang und ist bislang nicht unabhängig geprüft. Hintergrund ist Nvidias Vorsprung durch die Software CUDA: Weil Anpassungen an fremde Chips teuer sind, bleiben viele Kunden gebunden. Anthropic setzt dagegen auf mehrere Chipfamilien von AWS, Google, Nvidia und AMD und behandelt Rechenkapazität als austauschbaren Pool. Gelingt der Wechsel künftig so schnell, schwindet ein zentraler Schutzwall des Marktführers."
+  },
   {
    "id": "43a8bca0b077",
    "date": "2026-11-14",
@@ -35,6 +195,257 @@
    "kontext": "Amazon verknüpft das Vorhaben mit seinem KI-Einkaufsassistenten, dessen Antworten laut internen Unterlagen häufig ungenau oder lückenhaft sind; mehr Produktdaten sollen das beheben. Schon heute bindet der Konzern über eine Direktkauf-Funktion Angebote fremder Händler ein. Der Hintergedanke: Wer den größten Produktindex besitzt, wird auch für einkaufende KI-Agenten zur ersten Anlaufstelle. Recherchen bei Google oder in Foren wären damit kaum noch nötig."
   },
   {
+   "id": "8285d1b7e215",
+   "date": "2026-11-14",
+   "published": "2026-11-14T07:30+01:00",
+   "headline": "Erfundene Schweinsteiger-Tochter wird zum TikTok-Phänomen",
+   "summary": "Auf TikTok verbreitet sich die Geschichte einer angeblichen 23 jährigen Tochter von Bastian Schweinsteiger, die als PR-Managerin beim DFB arbeiten soll. Die Figur existiert nicht, sie wurde von zwei jungen Frauen mit KI-Werkzeugen erschaffen und als Fanfiction inszeniert. Der Fall zeigt, wie leicht synthetische Identitäten rund um reale Personen Reichweite gewinnen und welche Fragen das für Betroffene und Verbände aufwirft.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "deepfake",
+    "social media",
+    "tiktok",
+    "synthetische identitaeten"
+   ],
+   "source": "Spiegel Netzwelt",
+   "source_id": "spiegel-netzwelt",
+   "added": "2026-11-14T13:02:16+01:00",
+   "kurios": "Eine komplett erfundene Promi-Tochter geht millionenfach viral.",
+   "paywall": true,
+   "quelle_titel": "KI-Fanfiction auf TikTok: Wer ist Emely Schweinsteiger?",
+   "url": "https://www.spiegel.de/netzwelt/ki-fanfiction-auf-tiktok-wer-ist-emely-schweinsteiger-a-39fc406d-1482-4ef0-b45b-1bbfbb2b2b24#ref=rss"
+  },
+  {
+   "id": "71fc5f7d971d",
+   "date": "2026-11-14",
+   "published": "2026-11-14T07:32+01:00",
+   "headline": "AWS Emulator im Test: Cloud-Dienste lokal nachbauen ohne Konto und Kosten",
+   "summary": "Mit dem neuen AWS Emulator lassen sich Cloud-Anwendungen ohne Konto und ohne laufende Gebühren auf dem eigenen Rechner entwickeln und testen. Ein Blick unter die Haube zeigt, wie das Werkzeug arbeitet, wo seine Grenzen liegen und warum es in der Entwicklergemeinde umstritten ist.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "aws",
+    "cloud",
+    "entwicklung",
+    "tooling"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-14T13:01:56+01:00",
+   "praxis": true,
+   "quelle_titel": "AWS Emulator im Detail: Die ganze Cloud auf dem eigenen Rechner?",
+   "url": "https://www.heise.de/news/AWS-Emulator-im-Detail-Die-ganze-Cloud-auf-dem-eigenen-Rechner-11524450.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Der in Rust geschriebene Emulator erzeugt seine Dienste aus denselben API-Modellen wie die AWS-SDKs und steht unter CC0 auf GitHub. Wie genau er die Cloud nachbildet, prüft Amazon mit öffentlichen Testläufen gegen echte Regionen. Für Aufsehen sorgte vor allem der Hinweis, dass KI-Agenten die Software komplett entwickelt haben. Gegen etablierte Werkzeuge wie LocalStack kommt sie bislang nicht an."
+  },
+  {
+   "id": "6ca2d1c67480",
+   "date": "2026-11-14",
+   "published": "2026-11-14T08:25+01:00",
+   "headline": "KI-Agenten in Minecraft: Experiment lässt Sprachmodelle Bürokratie nachspielen",
+   "summary": "Ein Versuch in Minecraft untersucht, wie sich KI-Agenten verhalten, wenn sie Verwaltungsstrukturen und Regelwerke simulieren sollen. Dabei zeigt sich, dass auch künstliche Akteure in Abstimmungsschleifen und bürokratischen Hürden hängen bleiben.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-agenten",
+    "simulation",
+    "minecraft",
+    "verhalten"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-14T13:01:56+01:00",
+   "kurios": "KI-Agenten verheddern sich in selbst erzeugter Bürokratie wie echte Behörden.",
+   "quelle_titel": "Minecraft-Experiment: Was passiert, wenn KI-Agenten Bürokratie simulieren?",
+   "url": "https://t3n.de/news/ki-agenten-minecraft-buerokratie-experiment-1771070",
+   "kontext": "Hinter dem Versuch stehen Y Combinator und Olam Labs, die Hunderte Agenten in Minecraft aussetzten. Eine Gruppe auf Basis von OpenAIs GPT-6.1-Sol sollte in drei Stunden eine Zivilisation errichten und verlor sich stattdessen in Regeln und Zuständigkeitsfragen. In einem weiteren Durchlauf traten GPT-Agenten gegen Claude-Modelle an. Spielwelten dienen Forschenden zunehmend als Labor, um unerwünschtes Verhalten autonomer Agenten sichtbar zu machen."
+  },
+  {
+   "id": "5760ddcc7eb7",
+   "date": "2026-11-14",
+   "published": "2026-11-14T08:45+01:00",
+   "headline": "Haushaltsroboter im Selbsttest: zwischen Überhitzung und Umkippen",
+   "summary": "Ein Redakteur hat Maschinen des Startups Tau Robotics aus San Francisco in der eigenen Wohnung putzen lassen. Die Roboter brauchen weiterhin viel menschliche Anleitung, kommen mit Treppen nicht zurecht und stoßen im Alltag schnell an Grenzen. Der Test zeigt, wie weit Haushaltsrobotik von echter Autonomie entfernt ist.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "robotik",
+    "haushalt",
+    "startup",
+    "praxistest"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-14T13:01:56+01:00",
+   "quelle_titel": "Überhitzung und Umkippen: Wie ein Roboter meine Wohnung reinigte, und was dabei schief ging",
+   "url": "https://t3n.de/news/humanoider-roboter-putzen-test-1772384",
+   "kontext": "Hinter dem Reinigungsdienst steckt kein autonomer Helfer: Menschen steuern die Maschinen aus der Ferne und sehen über Kameras an Kopf und Handgelenken mit. Jeder Putzvorgang liefert Trainingsdaten, mit denen Tau Robotics selbstständigere Nachfolgemodelle entwickeln will. Die Testerin buchte anonym über eine Warteliste, um ein unverfälschtes Bild zu bekommen. Der Ansatz zeigt, wie stark Robotikfirmen derzeit auf Teleoperation als Datenquelle setzen."
+  },
+  {
+   "id": "be54405e42bc",
+   "date": "2026-11-14",
+   "published": "2026-11-14T09:31+01:00",
+   "headline": "Manifest gegen KI-Schrott: Konferenzsprecher wollen Qualitätsstandards setzen",
+   "summary": "Sprecherinnen und Sprecher der AI Engineer Konferenz haben ein gemeinsames Manifest gegen minderwertige, massenhaft generierte KI-Inhalte vorgelegt. Darin formulieren sie, wie sich Entwickler und Publizierende gegen die zunehmende Flut belangloser Ausgaben stellen können.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-slop",
+    "qualität",
+    "community",
+    "manifest"
+   ],
+   "source": "Latent Space",
+   "source_id": "latent-space",
+   "added": "2026-11-14T13:01:56+01:00",
+   "quelle_titel": "[AINews] The No AI Slop Manifesto",
+   "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+   "kontext": "Das Papier entstand aus Debatten auf der Entwicklerkonferenz AIE CODE und wurde dort in der Abschlusskeynote vorgestellt, mitgezeichnet von zahlreichen Vortragenden. Es ist ausdrücklich als Gesprächsgrundlage für den Arbeitsalltag gedacht und bleibt auf einer eigenen Website für Ergänzungen und Diskussion offen. Dass es auf Hacker News binnen eines Tages nach oben rutschte, zeigt, wie groß der Unmut über gedankenlos erzeugte Inhalte in der Entwicklerszene inzwischen ist."
+  },
+  {
+   "id": "38cfe54a9581",
+   "date": "2026-11-14",
+   "published": "2026-11-14T10:48+01:00",
+   "headline": "eToro lässt KI-Agenten Depots verwalten: Praxistest zeigt Stärken und Lücken",
+   "summary": "Der Broker eToro bietet Kunden Depots an, die von KI-Agenten zusammengestellt und betreut werden. Ein Selbstversuch zeigt, welche Funktionen bereits nutzbar sind und welche Ausbaustufen der Anbieter noch plant. Das Beispiel steht für den Trend, autonome Agenten in die Geldanlage zu holen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-agenten",
+    "fintech",
+    "geldanlage",
+    "etoro"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-14T13:01:56+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "Agentic Investing: Das KI-Agenten-Depot von eToro im Check",
+   "url": "https://www.wiwo.de/finanzen/geldanlage/etoro-das-ki-agenten-depot-im-check/100269338.html"
+  },
+  {
+   "id": "22004a3ce03c",
+   "date": "2026-11-14",
+   "published": "2026-11-14T10:50+01:00",
+   "headline": "Scalable Capital öffnet Depots für Chatbots: Portfolio per Prompt steuern",
+   "summary": "Der Neobroker Scalable Capital lässt KI-Chatbots auf Kundendepots zugreifen, sodass sich Anlagen über Texteingaben verwalten lassen. Im Test zeigt sich, wie das Werkzeug ein Depot umschichtet und aufräumt. Der Beitrag ordnet Nutzen und Grenzen dieser Funktion ein.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "scalable capital",
+    "agentic investing",
+    "neobroker",
+    "chatbot",
+    "test"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-14T13:01:09+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "Agentic Investing: So räumt das KI-Tool von Scalable das Depot auf",
+   "url": "https://www.wiwo.de/finanzen/geldanlage/chatgpt-so-raeumt-das-ki-tool-von-scalable-das-depot-auf/100269185.html"
+  },
+  {
+   "id": "768d1e72b138",
+   "date": "2026-11-14",
+   "published": "2026-11-14T10:51+01:00",
+   "headline": "Selbstversuch: KI-Agent handelt bei Bitpanda eigenständig mit Kryptowährungen",
+   "summary": "Bitpanda erlaubt es Kundinnen und Kunden, ihr Depot an einen KI-Agenten anzubinden. Der Autor hat Claude im Selbstversuch mit Kryptowerten handeln lassen und schildert, wie das Experiment verlief. Der Beitrag zeigt, wo agentenbasiertes Investieren heute praktisch steht.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "agentic investing",
+    "bitpanda",
+    "krypto",
+    "claude",
+    "selbstversuch"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-14T13:01:09+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "Agentic Investing: Wie die KI für mich mit Kryptos genug Geld für einen Döner verdienen sollte",
+   "url": "https://www.wiwo.de/finanzen/geldanlage/claude-und-bitpanda-wie-die-ki-fuer-mich-geld-fuer-einen-doener-verdienen-sollte/100269145.html"
+  },
+  {
+   "id": "f2db9a3a51d3",
+   "date": "2026-11-14",
+   "published": "2026-11-14T11:20+01:00",
+   "headline": "Artcraft will Adobes Creative Cloud mit KI-Funktionen Konkurrenz machen",
+   "summary": "Viele Kreative stören sich an den Kosten und der Cloud-Bindung von Adobes Suite und warten auf echte Alternativen. Artcraft tritt mit KI-Funktionen an, um genau diese Lücke zu füllen, befindet sich aber noch in der Entwicklung. Der Beitrag ordnet ein, was das Werkzeug bisher kann.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "artcraft",
+    "adobe",
+    "kreativtools",
+    "bildbearbeitung"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-14T13:01:09+01:00",
+   "praxis": true,
+   "quelle_titel": "Adobe-Alternative mit KI: Das steckt hinter Artcraft",
+   "url": "https://t3n.de/news/artcraft-adobe-alternative-ki-check-1767514",
+   "dup_of": "0f77776f7c50"
+  },
+  {
+   "id": "4cb83f2a3259",
+   "date": "2026-11-14",
+   "published": "2026-11-14T12:00+01:00",
+   "headline": "KI im Cockpit und im Tower: Luftfahrt öffnet sich für Automatisierung",
+   "summary": "Die Luftfahrt gilt als extrem konservativ bei neuer Technik, doch KI hält nun auch dort Einzug. Diskutiert werden Szenarien mit reduzierter Besatzung im Cockpit und weniger Personal in der Flugsicherung. Der Beitrag beleuchtet die Sicherheitsfragen, die sich daraus ergeben.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "luftfahrt",
+    "automatisierung",
+    "sicherheit",
+    "flugsicherung"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-14T13:01:09+01:00",
+   "paywall": true,
+   "quelle_titel": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+   "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/"
+  },
+  {
+   "id": "43c4dd7ee359",
+   "date": "2026-11-14",
+   "published": "2026-11-14T05:17+01:00",
+   "headline": "Chery will sich vom Autobauer zum KI-Unternehmen wandeln",
+   "summary": "Der chinesische Hersteller Chery richtet seine Konzernstrategie neu aus und positioniert sich nicht mehr nur als klassischer Fahrzeugproduzent, sondern als technologiegetriebenes KI-Unternehmen. Der Schritt reiht sich in den Trend ein, dass Automobilkonzerne Software und künstliche Intelligenz zum Kern ihres Geschäftsmodells machen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "automotive",
+    "china",
+    "unternehmensstrategie",
+    "chery"
+   ],
+   "source": "autoflotte.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-14T13:02:16+01:00",
+   "quelle_titel": "Chery-Konzernstrategie: Vom Blechbieger zum KI-Konzern",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZHVLcmNpSzY1a2hwVDFFMzN6NTFOS3VtcWtxUHR0NWZlVTFXdFBIUDZheGY5a2lfQVJobElTOS1YSGRJRnNySVptdXlWT2VNdFRvVkpTSEQ5UG9oeXV2Zy1pdmh0S0lJeWdjRTllam9hU2diVm1PdXdrX3plbGU3Nmx4eG1zRVhaa3NLNlhacHR1OGpSNTdGV0xpTXBNWXJtbl9uY0tSQ3BfbGhtbUdVTlcxRGc?oc=5",
+   "dup_of": "4b6fb2ea2b76"
+  },
+  {
    "id": "d225121b18d5",
    "date": "2026-11-14",
    "published": "2026-11-14T06:30+01:00",
@@ -54,6 +465,27 @@
    "added": "2026-11-14T07:01:12+01:00",
    "quelle_titel": "Blende zu, KI an, wohin entwickelt sich die Smartphone-Fotografie? | c’t uplink",
    "url": "https://www.heise.de/news/Blende-zu-KI-an-wohin-entwickelt-sich-die-Smartphone-Fotografie-c-t-uplink-11524072.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "4ea1ee5fdfef",
+   "date": "2026-11-14",
+   "published": "2026-11-14T11:21+01:00",
+   "headline": "Lenovo baut sein KI-Infrastrukturgeschäft weiter aus",
+   "summary": "Lenovo erweitert nach eigenen Angaben sein Angebot im Bereich KI-Infrastruktur. Die Meldung wird im Zusammenhang mit der Entwicklung der Lenovo-Aktie betrachtet.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "lenovo",
+    "infrastruktur",
+    "hardware",
+    "aktie"
+   ],
+   "source": "ad-hoc-news.de",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-14T13:01:09+01:00",
+   "quelle_titel": "Lenovo-Aktie: Konzern erweitert KI-Infrastruktur",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQem5adE52Zmt6RFlvMGRQTGhLMVltWi1RaGZBT0pBajA3OHRyVmZjSkhnblJab29UeDZJZUdnN1llRGc3MkJuZjFaaGZyYmQ4b01CNTY0WkNiNEJOS2FTb0w3WTNsYUMzZU9CdWtWMzhqbWVkMExWYnpGN21YOFVoRE5lTlZBRGQ3bjhVMkFGWTkxOTJGUWlrTjRreWpXREdXbXpRYkZOYXlPc0RZYThj?oc=5"
   }
  ]
 }
