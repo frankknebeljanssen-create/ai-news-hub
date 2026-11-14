@@ -1,38 +1,38 @@
 {
  "date": "2026-11-13",
- "generated_at": "2026-11-14T13:06:51+01:00",
+ "generated_at": "2026-11-15T00:24:39+01:00",
  "overview": [
   {
    "id": "f35045a268fe",
-   "text": "Anthropic steuert mit einer Bewertung von 64 Milliarden Dollar auf einen Rekordbörsengang zu, die Aktie ist bereits sechsfach überzeichnet."
+   "text": "Anthropic steuert auf einen Börsengang mit 64 Milliarden Dollar Bewertung zu, die Aktie ist bereits sechsfach überzeichnet und gilt als Branchenbarometer."
   },
   {
    "id": "3c7ac9bb6634",
-   "text": "Das US-Justizministerium prüft laut Medienberichten kartellrechtliche Vorwürfe gegen Nvidia, zugleich tauchen neue Details zum Rücktritt des Chefs auf."
+   "text": "Das US-Justizministerium prüft laut Berichten kartellrechtliche Vorwürfe gegen Nvidia, zugleich werden neue Details zum Rücktritt des Konzernchefs bekannt."
   },
   {
    "id": "eee9f16a3d38",
-   "text": "Der Bundestag erlaubt BND und Verfassungsschutz künftig KI-gestützte Überwachung, die Manipulation von Daten und das Betreten von Wohnungen."
+   "text": "Der Bundestag beschließt die Geheimdienstreform: BND und Verfassungsschutz dürfen künftig KI zur Überwachung nutzen, Daten ändern und Wohnungen betreten."
+  },
+  {
+   "id": "92d1886d4335",
+   "text": "Beim Hoster Mittwald lief der zweite Angriff binnen einer Woche über einen MCP-Server, womit Agenten-Infrastruktur zur neuen Angriffsfläche wird."
   },
   {
    "id": "502e12bd010c",
    "text": "Die Schwarz-Gruppe hinter Lidl und Kaufland investiert 16,6 Milliarden Euro in eigene Rechenzentren für Cloud- und KI-Anwendungen."
   },
   {
-   "id": "92d1886d4335",
-   "text": "Beim Hoster Mittwald diente ein MCP-Server als Einfallstor für den zweiten Angriff binnen einer Woche, Kundencenter und mStudio sind erneut offline."
-  },
-  {
    "id": "a1893731272a",
-   "text": "Mehr als 35.000 mit Grok gebaute Webanwendungen gaben Kundendaten und Passwörter preis, entfernt wurden zunächst nur die Apps eigener Mitarbeiter."
+   "text": "Mehr als 35.000 mit Grok gebaute Webanwendungen gaben Kundendaten und Passwörter frei, entfernt wurden zunächst nur die Apps eigener Mitarbeiter."
   },
   {
-   "id": "d47a65672940",
-   "text": "OpenAI steigt mit der neuen Marke Daybreak und zwei Produkten in den Markt für IT-Sicherheit ein und greift dort etablierte Anbieter an."
+   "id": "d28795a5d487",
+   "text": "Der Gehaltsreport 2026 zeigt, wie KI den Arbeitsmarkt weit über die IT hinaus umbaut und welche Qualifikationen derzeit besonders gut bezahlt werden."
   },
   {
-   "id": "0457712ba4ab",
-   "text": "Gartner warnt in seinen Technologietrends für 2027, dass KI schneller Software erzeugt, als Menschen sie überhaupt prüfen können."
+   "id": "1bd099ba94a3",
+   "text": "Im Praxistest wirkt Anthropics Verbraucheragent Claude Duet eigenwillig und übereifrig, erweist sich bei Alltagsaufgaben aber als überraschend nützlich."
   }
  ],
  "items": [
@@ -1227,6 +1227,7 @@
    "added": "2026-11-14T00:29:04+01:00",
    "quelle_titel": "Export-banned Nvidia chips are behind China’s most powerful AI models, uh-oh, Jensen!",
    "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+   "kontext": "Der frühere OpenAI-Forscher Will DePue untersuchte mit seiner Gruppe Unemployment Labs die offen verfügbaren Gewichte von Modellen aus China, etwa von Deepseek, Moonshot, Minimax und Ant Group. Darin bleiben Spuren der verwendeten Trainingshardware erkennbar. Ein Verstoß ist damit nicht belegt, denn der Zugriff könnte über Rechenzentren im Ausland gelaufen sein, vor allem in Malaysia. Genau das sollten die Kontrollen eigentlich verhindern, weshalb Kritiker eine Regelung nach Nutzern statt nach Standorten fordern.",
    "also": [
     {
      "source": "t3n",
@@ -1236,8 +1237,7 @@
      "source": "The Decoder",
      "url": "https://the-decoder.de/ex-openai-forscher-will-nutzung-sanktionierter-nvidia-chips-in-chinesischen-top-ki-modellen-nachgewiesen-haben/"
     }
-   ],
-   "kontext": "Der frühere OpenAI-Forscher Will DePue untersuchte mit seiner Gruppe Unemployment Labs die offen verfügbaren Gewichte von Modellen aus China, etwa von Deepseek, Moonshot, Minimax und Ant Group. Darin bleiben Spuren der verwendeten Trainingshardware erkennbar. Ein Verstoß ist damit nicht belegt, denn der Zugriff könnte über Rechenzentren im Ausland gelaufen sein, vor allem in Malaysia. Genau das sollten die Kontrollen eigentlich verhindern, weshalb Kritiker eine Regelung nach Nutzern statt nach Standorten fordern."
+   ]
   },
   {
    "id": "e4d58416dd83",
@@ -2667,6 +2667,27 @@
    "added": "2026-11-14T02:59:00+01:00",
    "quelle_titel": "Siri AI: Dann kommt Apples KI-System auf ältere Apple-TV-4K-Geräte",
    "url": "https://www.heise.de/news/Siri-AI-Dann-kommt-Apples-KI-System-auf-aeltere-Apple-TV-4K-Geraete-11524528.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "02de209a06bb",
+   "date": "2026-11-13",
+   "published": "2026-11-13T16:30+01:00",
+   "headline": "Outlook-Störung bei Microsoft zieht sich in den zweiten Tag",
+   "summary": "Der Ausfall von Microsofts E-Mail-Dienst Outlook hielt auch am zweiten Tag an und beeinträchtigte weiterhin die Nutzung. Zusätzlich berichtet die Ausgabe von einem Vermögensverlust von rund zehn Milliarden Dollar bei Nvidia-Chef Jensen Huang.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "microsoft",
+    "outlook",
+    "ausfall",
+    "nvidia"
+   ],
+   "source": "The Rundown AI",
+   "source_id": "rundown",
+   "added": "2026-11-15T00:18:11+01:00",
+   "quelle_titel": "Microsoft’s Outlook outage hits day two",
+   "url": "https://www.therundown.ai/articles/microsoft-s-outlook-outage-hits-day-two"
   },
   {
    "id": "96fce09c898e",

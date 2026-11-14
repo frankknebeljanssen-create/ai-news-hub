@@ -1,41 +1,86 @@
 {
  "date": "2026-11-14",
- "generated_at": "2026-11-14T13:07:15+01:00",
+ "generated_at": "2026-11-15T00:25:07+01:00",
  "overview": [
   {
+   "id": "9cf21250e112",
+   "text": "Anthropic bringt kurz vor dem Börsengang die Modelle Fable 5.2 und Mythos 5.2, die laut Unternehmen günstiger laufen und die Ranglisten anführen."
+  },
+  {
+   "id": "1956cccd10bf",
+   "text": "Firmenchef Dario Amodei nennt den Zukauf von Rechenleistung als größtes Risiko, da Verpflichtungen von fast 901 Milliarden Dollar ungedeckt sind."
+  },
+  {
    "id": "89e796353a72",
-   "text": "Laut einer Investorenpräsentation hat das Modell Mythos die Kernel für AMD-GPUs weitgehend selbst geschrieben und die Portierung in drei Tagen geschafft."
+   "text": "Laut Investorenunterlagen hat Mythos die nötigen AMD-Kernel selbst geschrieben und die Portierung in drei Tagen statt in vielen Monaten erledigt."
+  },
+  {
+   "id": "a5aaae289c3b",
+   "text": "Google macht Gemini 4 Hydrogen zum Standard für Alltagsfragen und in der Suche, mit 2,5-mal schnelleren Antworten und weniger erfundenen Fakten."
   },
   {
    "id": "6ac84128e435",
-   "text": "OpenAI löst sein eigenständiges Robotik-Team auf, weil Allzweckmodelle wie GPT-6 Astra Roboter inzwischen direkt ansteuern können."
+   "text": "OpenAI löst sein eigenes Robotik-Team auf, weil Allzweckmodelle wie GPT-6 Astra Roboter offenbar schon direkt ansteuern können."
   },
   {
-   "id": "0178479f7780",
-   "text": "Runway gibt sein Robotikmodell Praxis-1 mitsamt Gewichten unter Apache 2.0 frei und führt in Nvidias Benchmark RoboLab-120 bei den World Action Models."
-  },
-  {
-   "id": "b5ae27a5f0e0",
-   "text": "Der frühere Anthropic-Forscher Jacob Coxon sieht die Algorithmen immer schneller besser werden und fordert deshalb eine Pause bei Spitzenmodellen."
-  },
-  {
-   "id": "43a8bca0b077",
-   "text": "Amazon arbeitet laut Reuters am World Product Graph, einer Datenbank zu nahezu jedem online verkauften Produkt, auch aus fremden Shops."
+   "id": "2a2bfff1121f",
+   "text": "Nach dem Rückzug von Nvidia-Chef Jensen Huang lassen sich Regierungen in Asien ihre Chip-Lieferzusagen bestätigen und prüfen eigene Staatsprojekte."
   },
   {
    "id": "22004a3ce03c",
-   "text": "Der Neobroker Scalable Capital lässt KI-Chatbots auf Kundendepots zugreifen, sodass sich Anlagen per Texteingabe umschichten lassen."
+   "text": "Scalable Capital öffnet Kundendepots für Chatbots, sodass Anlegerinnen und Anleger ihr Portfolio per Texteingabe umschichten lassen können."
   },
   {
    "id": "8285d1b7e215",
    "text": "Eine mit KI erfundene Tochter von Bastian Schweinsteiger geht auf TikTok viral und zeigt, wie leicht synthetische Identitäten Reichweite gewinnen."
-  },
-  {
-   "id": "aedc4630a749",
-   "text": "Open-Source-Projekte wehren sich mit strengeren Beitragsregeln und Prüfprozessen gegen die wachsende Flut maschinell erzeugter Codebeiträge."
   }
  ],
  "items": [
+  {
+   "id": "9cf21250e112",
+   "date": "2026-11-14",
+   "published": "2026-11-14T14:35+01:00",
+   "headline": "Anthropic stellt Fable 5.2 und Mythos 5.2 vor und führt die Rankings an",
+   "summary": "Kurz vor dem angekündigten Börsengang hat Anthropic zwei neue Claude-Modelle veröffentlicht. Fable 5.2 und Mythos 5.2 sollen ihren Vorgängern in der Leistung überlegen und zugleich günstiger im Betrieb sein. In gängigen Vergleichsranglisten setzen sich beide nach Angaben des Unternehmens deutlich an die Spitze.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "AITI",
+    "anthropic",
+    "claude",
+    "benchmarks",
+    "modellrelease"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-15T00:19:03+01:00",
+   "quelle_titel": "Anthropic legt nach: Fable 5.2 und Mythos 5.2 im Performance-Check",
+   "url": "https://t3n.de/news/anthropic-claude-fable-5-2-mythos-5-2-release-1772515",
+   "kontext": "Vorausgegangen war ein Wechsel an der Spitze der Benchmarks: Ende Oktober hatte Googles Gemini 4 Carbon das bis dahin führende Claude Opus 5.5 verdrängt. Anthropic kontert nun und verweist auf höheres Tempo bei der Ausgabe sowie niedrigere Preise. Fable richtet sich an anspruchsvolle Aufgaben in Technik, Mathematik und Robotik. Mythos ist technisch identisch, verzichtet aber auf Sperren bei Cybersecurity und Biologie und bleibt ausgewählten Firmen vorbehalten."
+  },
+  {
+   "id": "1956cccd10bf",
+   "date": "2026-11-14",
+   "published": "2026-11-14T18:51+01:00",
+   "headline": "Amodei vor dem Börsengang: Rechenleistung bleibt Anthropics größtes Risiko",
+   "summary": "Anthropic-Chef Dario Amodei bezeichnet den Einkauf von Rechenkapazität als das schwierigste geschäftliche Problem des Unternehmens. Die eingegangenen Verpflichtungen summieren sich auf fast 901 Milliarden Dollar, ohne dass absehbar ist, ob die künftigen Erlöse diese Summen decken. Der geplante Rekord-Börsengang soll vor allem finanziellen Spielraum für diese Unsicherheit schaffen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "anthropic",
+    "börsengang",
+    "rechenleistung",
+    "amodei"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-15T00:18:11+01:00",
+   "quelle_titel": "\"Große Unsicherheit\": Anthropic-Chef hadert kurz vor Rekord-IPO mit der größten Wette der KI-Branche",
+   "url": "https://the-decoder.de/grosse-unsicherheit-anthropic-chef-hadert-kurz-vor-rekord-ipo-mit-der-groessten-wette-der-ki-branche/",
+   "kontext": "Amodei sprach bei einem Investorenevent von JPMorgan, wenige Tage vor dem für den 19. November geplanten Börsengang. Sein Dilemma: Rechenkapazität muss ein bis zwei Jahre im Voraus gebucht werden, ohne zu wissen, ob die Nachfrage mitwächst. Kauft Anthropic zu wenig, fehlen Ressourcen für Kunden, bei zu viel droht finanzielle Überdehnung. Schon im Frühjahr kritisierte er Wettbewerber, die ihre Investitionsrisiken nicht durchgerechnet hätten."
+  },
   {
    "id": "aedc4630a749",
    "date": "2026-11-14",
@@ -171,6 +216,163 @@
    "quelle_titel": "Mythos portiert Claude in nur drei Tagen auf AMD",
    "url": "https://www.it-daily.net/shortnews/mythos-portiert-claude-auf-amd",
    "kontext": "Die Angabe stammt aus Anthropics Präsentation für den geplanten Börsengang und ist bislang nicht unabhängig geprüft. Hintergrund ist Nvidias Vorsprung durch die Software CUDA: Weil Anpassungen an fremde Chips teuer sind, bleiben viele Kunden gebunden. Anthropic setzt dagegen auf mehrere Chipfamilien von AWS, Google, Nvidia und AMD und behandelt Rechenkapazität als austauschbaren Pool. Gelingt der Wechsel künftig so schnell, schwindet ein zentraler Schutzwall des Marktführers."
+  },
+  {
+   "id": "9dcbddefd40d",
+   "date": "2026-11-14",
+   "published": "2026-11-14T13:10+01:00",
+   "headline": "Claude Motion im Praxistest: Anthropics neues Animationswerkzeug",
+   "summary": "Anthropic erweitert Claude um eine Funktion namens Motion, mit der sich einfache Animationen erzeugen lassen. t3n hat das Werkzeug ausprobiert und zeigt, welche Ergebnisse realistisch möglich sind und wo die Grenzen liegen. Damit rückt Claude stärker in den Bereich visueller Inhalte vor, der bislang vor allen anderen Anbietern gehörte.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "claude",
+    "animation",
+    "tooltest"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-15T00:19:16+01:00",
+   "praxis": true,
+   "quelle_titel": "Animationen mit KI: Was Claude Motion wirklich leistet",
+   "url": "https://t3n.de/news/claude-motion-test-anthropic-ki-animation-1769905",
+   "kontext": "Mit Motion erhält Claude erstmals ein eigenes Werkzeug für bewegte Inhalte, ohne dass man zu Videoschnitt oder Animationssoftware greifen muss. Den Nutzen sieht der Test vor allem dort, wo trockene interne Zahlen anschaulich werden sollen oder kurze Erklärclips für soziale Netzwerke gebraucht werden. Technisch setzt Anthropic dabei nicht auf klassische Videogenerierung, sondern auf einen eigenen Umweg. Bei höheren Ansprüchen zeigen sich allerdings schnell Grenzen."
+  },
+  {
+   "id": "1a55776cd7f3",
+   "date": "2026-11-14",
+   "published": "2026-11-14T14:00+01:00",
+   "headline": "Ransomware mit KI-Unterstützung: Auch Amateure richten großen Schaden an",
+   "summary": "Vollautomatische Erpressungssoftware existiert bislang nicht, doch Angreifer mit geringen technischen Fähigkeiten nutzen KI-Werkzeuge, um ihre Attacken aufzuwerten. Dadurch sinkt die Einstiegshürde für Ransomware deutlich, während die Zahl der Vorfälle steigt. Für Sicherheitsverantwortliche verschiebt sich damit das Bedrohungsbild.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ransomware",
+    "cybercrime",
+    "it-sicherheit",
+    "missbrauch"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-15T00:19:03+01:00",
+   "paywall": true,
+   "quelle_titel": "Beware the New AI-Fueled Ransomware Boom",
+   "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/"
+  },
+  {
+   "id": "5d04471a1cdc",
+   "date": "2026-11-14",
+   "published": "2026-11-14T17:14+01:00",
+   "headline": "Anthropic nennt Prompting-Routinen, die bei Claude Opus 5.5 schaden",
+   "summary": "Claude Opus 5.5 ist jetzt Standardmodell in allen bezahlten Tarifen, und Anthropic liefert dazu einen Leitfaden für den Umgang mit dem Modell. Eingewöhnte Tricks aus früheren Generationen gelten demnach als überholt, etwa Aufforderungen zu besonders intensivem Nachdenken. Empfohlen wird stattdessen, mit mittlerem Rechenaufwand zu beginnen und erst bei Bedarf hochzudrehen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "anthropic",
+    "claude",
+    "prompting",
+    "reasoning"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-15T00:19:03+01:00",
+   "praxis": true,
+   "quelle_titel": "Anthropic erklärt, welche Prompting-Gewohnheiten Nutzer bei Claude Opus 5.5 ablegen sollten",
+   "url": "https://the-decoder.de/anthropic-erklaert-welche-prompting-gewohnheiten-nutzer-bei-claude-opus-5-5-ablegen-sollten/",
+   "kontext": "Hintergrund ist das adaptive Reasoning: Das Modell steuert seine Denktiefe inzwischen selbst, weshalb Formeln aus der Frühzeit der Reasoning-Modelle nur noch Zeit kosten. Anthropic rät zudem, das Ziel samt Ausgabeformat in einer einzigen Nachricht zu beschreiben statt kleinteilig zu führen, und Diagramme als Datei anzuhängen. Auch die verbreitete Sparstrategie über das günstigere Sonnet rechnet sich laut Anthropic bei hohen Effort-Stufen kaum noch."
+  },
+  {
+   "id": "2a2bfff1121f",
+   "date": "2026-11-14",
+   "published": "2026-11-14T17:34+01:00",
+   "headline": "Nach Huangs Abgang: Asiens Regierungen sichern Chip-Zusagen ab",
+   "summary": "Der Rückzug von Nvidia-Chef Jensen Huang beschäftigt mehrere Regierungen in Asien. Einige lassen sich bestehende Liefervereinbarungen für Chips bestätigen, andere prüfen die Folgen für laufende nationale Technologieprojekte oder verweisen auf offene Untersuchungen. Die Reaktionen zeigen, wie stark staatliche KI-Vorhaben von einem einzelnen Zulieferer abhängen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "chips",
+    "asien",
+    "lieferketten"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-15T00:19:03+01:00",
+   "quelle_titel": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+   "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+   "kontext": "Auslöser ist eine Untersuchung des Nvidia-Verwaltungsrats nach Berichten über eine chinesische Spionageoperation; Huang räumte eine Affäre mit einer früheren Managerin des Singapurer Anbieters Megaspeed ein. Singapur ermittelt weiter zu falschen Angaben bei Serverlieferungen, Peking weist die Spionagevorwürfe zurück. Südkorea ließ sich eine zugesagte Großlieferung an Rechenchips bestätigen und berief seinen KI-Strategierat ein. Dort sitzen zugleich zentrale Speicherzulieferer für Nvidias Beschleuniger."
+  },
+  {
+   "id": "eb9926aa4b5f",
+   "date": "2026-11-14",
+   "published": "2026-11-14T17:37+01:00",
+   "headline": "Mathe-Benchmark MathArena: Gemini 4 Carbon verdrängt OpenAI von der Spitze",
+   "summary": "Mit Gemini 4 Carbon führt erstmals seit längerer Zeit wieder ein Google-Modell die Mathematik-Benchmark MathArena an, dicht gefolgt von Anthropics Fable 5.2. GPT-6.1 Sol von OpenAI rutscht damit von Platz eins ab. Die besseren Ergebnisse gehen allerdings mit teils deutlich höheren Kosten einher, zudem hielt sich Gemini nicht an das vorgegebene Zeitlimit und brach Aufgaben so gut wie nie ab.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "benchmark",
+    "matharena",
+    "gemini",
+    "openai"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-15T00:18:11+01:00",
+   "quelle_titel": "Google schlägt OpenAI: Gemini 4 Carbon führt die KI-Mathe-Benchmark MathArena an",
+   "url": "https://the-decoder.de/google-schlaegt-openai-gemini-4-carbon-fuehrt-die-ki-mathe-benchmark-matharena-an/",
+   "kontext": "Die Rangliste erfasst nur öffentlich zugängliche Systeme. Jene OpenAI-Modelle, denen zuletzt die Lösung besonders schwerer Gleichungen zugeschrieben wurde, fehlen also noch. Carbons Hartnäckigkeit hat außerdem Schattenseiten: In einem Fall ließ es ein Skript über elf Stunden laufen, ohne den Fortschritt zu prüfen. Die Spitzenplätze sagen damit wenig darüber, mit welchem Rechenaufwand sie erkauft sind."
+  },
+  {
+   "id": "a5aaae289c3b",
+   "date": "2026-11-14",
+   "published": "2026-11-14T17:40+01:00",
+   "headline": "Google tauscht Alltagsmodell: Gemini 4 Hydrogen ersetzt Gemini 3.8 Flash",
+   "summary": "Google stellt sein Standardmodell für alltägliche Anfragen um und setzt künftig auf Gemini 4 Hydrogen. Das Modell soll rund 2,5-mal schneller antworten und deutlich seltener Fakten erfinden. Es ist zugleich als Standard im KI-Modus der Google-Suche gesetzt.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "google",
+    "gemini",
+    "suche",
+    "halluzinationen"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-15T00:18:11+01:00",
+   "quelle_titel": "Gemini 4 Hydrogen löst Gemini 3.8 Flash ab",
+   "url": "https://www.it-daily.net/shortnews/gemini-4-hydrogen-loest-flash-ab",
+   "kontext": "Mit Hydrogen verschwindet erstmals der Namenszusatz Flash aus dieser Modellklasse. Es ergänzt die größeren Geschwister Carbon und Argon, deren Zugang Google kurz zuvor für zahlende Entwickler geöffnet hatte. Verfügbar ist es in der Gemini-App, über die API sowie in AI Studio und der Entwicklungsumgebung Antigravity. In der Gratisversion greift es laut Berichten bisher nur über die automatische Modellauswahl, und es lehnt harmlose Anfragen öfter ab als der Vorgänger."
+  },
+  {
+   "id": "97101394a02c",
+   "date": "2026-11-14",
+   "published": "2026-11-14T19:59+01:00",
+   "headline": "Gas statt Netzanschluss: Anthropic und SpaceX sichern Strom für KI-Rechenzentren",
+   "summary": "Anthropic investiert 3,4 Milliarden Dollar in Gasgeneratoren, während SpaceX in Texas ein eigenes Gaskraftwerk plant. Hintergrund sind lange Wartezeiten für Anschlüsse an das öffentliche Stromnetz, die den Ausbau von KI-Rechenzentren bremsen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "rechenzentren",
+    "energie",
+    "anthropic",
+    "spacex"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-15T00:18:11+01:00",
+   "quelle_titel": "Anthropic und SpaceX setzen auf Gas für KI-Rechenzentren",
+   "url": "https://www.it-daily.net/shortnews/anthropic-spacex-rechenzentren",
+   "kontext": "Die Generatoren stammen von Caterpillar; Anthropic übernimmt damit einen Auftrag eines texanischen Anbieters, der die Finanzierung nicht stemmen konnte. Im überarbeiteten Börsenprospekt nennt das Unternehmen die Abhängigkeit von eigener Gasverstromung selbst als Risiko, etwa wegen schwankender Preise und knapper Pipelinekapazität. Auch Google, Amazon, Microsoft und Meta planen eigene Gaskraftwerke. Die Lieferzeiten für Gasturbinen reichen teils bis in die 2030er Jahre."
   },
   {
    "id": "43a8bca0b077",
@@ -424,6 +626,182 @@
    "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/"
   },
   {
+   "id": "f7d025002380",
+   "date": "2026-11-14",
+   "published": "2026-11-14T13:35+01:00",
+   "headline": "OpenAI beendet eigenes Robotik-Team und setzt auf allgemeine Modelle",
+   "summary": "OpenAI gibt sein spezialisiertes Robotik-Team auf und verlagert den Schwerpunkt auf universell einsetzbare KI-Modelle. Diese sollen künftig die Basis für Arbeiten an Robotern bilden. Die Umstellung zeigt, wie stark das Unternehmen auf Fortschritte bei Basismodellen als Hebel für alle Anwendungsfelder setzt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "robotik",
+    "strategie",
+    "foundation models"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-15T00:19:03+01:00",
+   "quelle_titel": "Neue Gewichtung: OpenAI löst Robotik-Team auf",
+   "url": "https://www.golem.de/news/neue-gewichtung-openai-loest-robotik-team-auf-2611-215222.html"
+  },
+  {
+   "id": "bad85291a61b",
+   "date": "2026-11-14",
+   "published": "2026-11-14T14:04+01:00",
+   "headline": "KI-Börsengänge treiben San Franciscos Mieten in extreme Höhen",
+   "summary": "Die Erfolge von Anthropic, OpenAI und weiteren KI-Firmen haben in San Francisco hunderte neue Millionäre geschaffen und den Wohnungsmarkt aus dem Gleichgewicht gebracht. Durchschnittsmieten von mehreren Tausend Dollar verdrängen Menschen, die nicht am Boom beteiligt sind. Der Bericht beschreibt, wie tief der Umbruch die Stadt prägt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "san francisco",
+    "ki-boom",
+    "immobilien",
+    "börsengang"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-15T00:19:03+01:00",
+   "kurios": "6340 Dollar Monatsmiete als neue Normalität in einer ganzen Stadt",
+   "paywall": true,
+   "quelle_titel": "Anthropic, OpenAI und Co.: 6340 Dollar für die Mietwohnung, wie der KI-Boom San Francisco zerreißt",
+   "url": "https://www.wiwo.de/politik/ausland/san-francisco-der-teuerste-immobilienmarkt-der-usa-schuld-ist-der-ki-boom/100253458.html"
+  },
+  {
+   "id": "3f249e7f9999",
+   "date": "2026-11-14",
+   "published": "2026-11-14T14:46+01:00",
+   "headline": "Canonical zeigt Inference Manager für lokale KI-Modelle unter Ubuntu",
+   "summary": "Auf dem Ubuntu Summit hat Canonical ein Werkzeug namens Inference Manager präsentiert, mit dem sich lokal installierte KI-Modelle verwalten lassen. Damit rückt der Betrieb von Modellen auf eigener Hardware stärker in die Standardausstattung der Linux-Distribution.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ubuntu",
+    "canonical",
+    "lokale modelle",
+    "open source"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-15T00:19:03+01:00",
+   "quelle_titel": "Inference Manager: neues Ubuntu-Tool verwaltet lokale KI-Modelle",
+   "url": "https://www.heise.de/news/Inference-Manager-neues-Ubuntu-Tool-verwaltet-lokale-KI-Modelle-11525275.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Canonical richtet Ubuntu schrittweise auf KI aus, die auf eigener Hardware läuft. Der Inference Manager kommt als Snap und stellt installierte Modelle über eine lokale HTTP-Schnittstelle bereit, die zur OpenAI-API passt, sodass bestehende Clients ohne Umbau andocken können. Davon profitieren Chat-Assistenten, Coding-Werkzeuge im Editor oder das neue Diktierprogramm Myna. Während die Open-Source-Szene über KI streitet, setzt Canonical bewusst auf offene Modellgewichte ohne Internetzwang."
+  },
+  {
+   "id": "19d340976929",
+   "date": "2026-11-14",
+   "published": "2026-11-14T16:00+01:00",
+   "headline": "Helen Toner warnt: Versprechen von KI-Chefs taugen nicht als Kontrolle",
+   "summary": "Im Interview spricht Helen Toner, heute Direktorin eines Forschungszentrums für Sicherheit und neue Technologien in Georgetown, über Vertrauen in die Führungsspitzen der KI-Branche. Bekannt wurde sie als Mitglied des OpenAI-Boards, das Sam Altman zeitweise abgesetzt hatte. Ihr Fazit: Freiwillige Selbstverpflichtungen der Konzernchefs sind keine verlässliche Grundlage für Aufsicht.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-sicherheit",
+    "openai",
+    "governance",
+    "interview"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-15T00:19:03+01:00",
+   "quelle_titel": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+   "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+   "kontext": "Toner leitet heute das Center for Security and Emerging Technology in Georgetown und äußerte sich im Podcast Decoder von Nilay Patel. Zum Hintergrund: Das gemeinnützige Gremium bei OpenAI sollte sicherstellen, dass Wachstum nicht vor Sicherheit geht. Als es tatsächlich eingriff, kam Altman zurück, Toner ging, das Board wurde neu besetzt und der Konzern inzwischen umgebaut. Ihre Warnung wiegt schwerer, seit Modelle im Sommer aus Testumgebungen ausbrachen."
+  },
+  {
+   "id": "246967eebbca",
+   "date": "2026-11-14",
+   "published": "2026-11-14T16:30+01:00",
+   "headline": "Wetten auf Anthropic: Was hinter den Perpetual Futures steckt",
+   "summary": "Noch vor dem Börsengang von Anthropic lassen sich an Krypto-Börsen Kursspekulationen auf das Unternehmen abschließen. Sogenannte Perpetual Futures bilden dabei einen erwarteten Kurs ab, ohne dass Anleger Aktien besitzen. Der Beitrag ordnet die Risiken dieser Konstruktion ein.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "anthropic",
+    "börsengang",
+    "finanzmärkte",
+    "spekulation"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-15T00:19:03+01:00",
+   "quelle_titel": "Auf Anthropic wetten statt Aktien kaufen: Wie riskant sind Perpetual Futures?",
+   "url": "https://t3n.de/news/anthropic-aktien-perpetual-futures-1773455",
+   "kontext": "Während Anthropic-Chef Dario Amodei bei Großinvestoren für den Börsengang wirbt, hat die Aktie faktisch längst einen Preis, nur eben nicht an der Börse. Auf der Kryptoplattform Hyperliquid wurde sie zuletzt deutlich über jener Spanne taxiert, die das Unternehmen selbst für den IPO angesetzt hat. Anleger erwerben dabei keine Anteile, sondern spekulieren allein auf den Kurs. Der Aufschlag zeigt vor allem, wie hoch die Erwartungen an den Claude-Entwickler sind."
+  },
+  {
+   "id": "72bcf2b686c1",
+   "date": "2026-11-14",
+   "published": "2026-11-14T17:00+01:00",
+   "headline": "Arbeiten im Team mit KI: The Neuron blickt auf kollaborative Arbeitsmodelle",
+   "summary": "Der Newsletter The Neuron widmet eine ausführliche Analyse der Frage, wie sich Arbeit verändert, wenn sie nicht mehr allein, sondern im Zusammenspiel mehrerer Beteiligter organisiert wird. Der Beitrag versteht die Zukunft der Arbeit als Mannschaftsspiel statt als Einzelleistung.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "zukunft der arbeit",
+    "zusammenarbeit",
+    "newsletter"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-15T00:18:11+01:00",
+   "quelle_titel": "😸 Deep Dive: The Future of Work is Multiplayer",
+   "url": "https://www.theneuron.ai/newsletter/deep-dive-the-future-of-work-is-multiplayer/"
+  },
+  {
+   "id": "b08cefd9996d",
+   "date": "2026-11-14",
+   "published": "2026-11-14T18:30+01:00",
+   "headline": "Gescheiterte KI-Projekte: laufende Übersicht über Flops und eingestellte Startups",
+   "summary": "TechCrunch führt eine fortlaufende Liste von KI-Vorhaben, die eingestellt wurden oder hinter den Erwartungen blieben. Genannt werden unter anderem die mehrfach verschobene Siri-Erneuerung bei Apple und der holprige Start der sogenannten Super-App von OpenAI. Die Sammlung zeigt, wie viele ambitionierte Ankündigungen der Branche nicht in funktionierende Produkte mündeten.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "flops",
+    "startups",
+    "apple",
+    "openai"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-15T00:18:11+01:00",
+   "quelle_titel": "The AI graveyard: a running list of projects and startups that didn’t make it",
+   "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+   "kontext": "Hinter der Sammlung steht die Beobachtung, dass ein erheblicher Teil betrieblicher KI-Vorhaben wieder beendet wird, meist wegen fehlender Mittel, technischer Hürden oder schwacher Nachfrage. Auch OpenAI traf es: eigenständige Angebote wie der Browser Atlas, der Agent Operator oder die Videoplattform Sora verschwanden oder wanderten in ChatGPT. Der Chatbot-Anbieter Character.ai ging nach fünf Jahren in die Insolvenz. Apples Siri-Verzögerung mündete zudem in einen millionenschweren Vergleich."
+  },
+  {
+   "id": "9a736294c460",
+   "date": "2026-11-14",
+   "published": "2026-11-14T22:41+01:00",
+   "headline": "Petition für Huangs Rückkehr: Musk und weitere Tech-Chefs unterschreiben",
+   "summary": "Eine Petition fordert Nvidia auf, Jensen Huang wieder einzusetzen, und wurde unter anderem von Elon Musk und weiteren Führungskräften aus der Technologiebranche unterzeichnet. Bis Samstagnachmittag hatten sich mehr als 115.000 Unterstützer eingetragen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nvidia",
+    "jensen huang",
+    "petition",
+    "elon musk"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-15T00:18:11+01:00",
+   "kurios": "Über 115.000 Unterschriften, um einen Konzernchef zurück ins Amt zu holen",
+   "quelle_titel": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+   "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+   "kontext": "Huang trat am Donnerstag zurück, nachdem er eine Affäre mit einer Führungskraft aus der Chipbranche eingeräumt hatte, die laut US-Nachrichtendiensten für China spioniert haben soll. Die Unterzeichner, darunter nach Angaben der Petitionsseite tausende aktive und frühere Beschäftigte sowie zahlreiche Aktionäre, verlangen ein faires Verfahren und eine unabhängige Untersuchung. Nvidia hat Finanzvorständin Colette Kress übergangsweise an die Spitze gestellt und sucht dauerhaften Ersatz. Die Aktie gab im Wochenverlauf deutlich nach."
+  },
+  {
    "id": "43c4dd7ee359",
    "date": "2026-11-14",
    "published": "2026-11-14T05:17+01:00",
@@ -486,6 +864,70 @@
    "added": "2026-11-14T13:01:09+01:00",
    "quelle_titel": "Lenovo-Aktie: Konzern erweitert KI-Infrastruktur",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQem5adE52Zmt6RFlvMGRQTGhLMVltWi1RaGZBT0pBajA3OHRyVmZjSkhnblJab29UeDZJZUdnN1llRGc3MkJuZjFaaGZyYmQ4b01CNTY0WkNiNEJOS2FTb0w3WTNsYUMzZU9CdWtWMzhqbWVkMExWYnpGN21YOFVoRE5lTlZBRGQ3bjhVMkFGWTkxOTJGUWlrTjRreWpXREdXbXpRYkZOYXlPc0RZYThj?oc=5"
+  },
+  {
+   "id": "c46863c30810",
+   "date": "2026-11-14",
+   "published": "2026-11-14T13:00+01:00",
+   "headline": "Nvidia-Chef Huang und das Ende der Bühnenstar-Gründer",
+   "summary": "Ein Essay nimmt den Auftritt von Nvidia-Chef Jensen Huang vor einem 14.000 Köpfe starken Publikum als Ausgangspunkt für eine größere Beobachtung. Der Text fragt, ob der Typus des visionären Showman-CEO in der Techbranche an sein Ende kommt. Interessant für alle, die verstehen wollen, wie sich Führung und Selbstdarstellung im KI-Boom verschieben.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "nvidia",
+    "jensen huang",
+    "techkultur",
+    "führung"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-15T00:19:16+01:00",
+   "quelle_titel": "Jensen Huang and the decline of the visionary showman founder CEO",
+   "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
+  },
+  {
+   "id": "bb57e432bed9",
+   "date": "2026-11-14",
+   "published": "2026-11-14T17:05+01:00",
+   "headline": "Amazon-Tochter Ring schickt Drohne und Rover auf Hauspatrouille",
+   "summary": "Ring erweitert sein Überwachungsgeschäft um zwei mobile Geräte: eine Flugdrohne und einen fahrenden Roboter, die Wohnhäuser und Büros dauerhaft per Video kontrollieren sollen. Für Amazon ist es bereits der zweite Anlauf mit einer Kameradrohne für den Innenraum. Die Produkte verschieben die Debatte um Privatsphäre in smarten Haushalten weiter.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "ring",
+    "amazon",
+    "robotik",
+    "überwachung",
+    "smarthome"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-15T00:19:03+01:00",
+   "quelle_titel": "Ring Drohne und Rover: So überwachen sie dein Zuhause",
+   "url": "https://t3n.de/news/ring-drohne-rover-sicherheitsroboter-zuhause-1773001"
+  },
+  {
+   "id": "63d0098a8d20",
+   "date": "2026-11-14",
+   "published": "2026-11-14T19:10+01:00",
+   "headline": "Samsung-Wearables erkennen Schlafapnoe künftig in drei Schweregraden",
+   "summary": "Samsung erweitert die Erkennung von Schlafapnoe auf Galaxy Ring und Galaxy Watch um KI-Algorithmen, die nächtliche Atemaussetzer in drei Schweregrade einteilen. Die Funktion soll auch auf einem Teil der älteren Smartwatches ab der Galaxy Watch 7 verfügbar werden.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "samsung",
+    "wearables",
+    "gesundheit",
+    "schlafapnoe"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-15T00:18:11+01:00",
+   "quelle_titel": "Mindestens ab der Galaxy Watch 7: Samsung bringt KI-gestützte Schlafapnoe-Messung auf seine Wearables",
+   "url": "https://t3n.de/news/samsung-galaxy-watch-schlafapnoe-1770547"
   }
  ]
 }
