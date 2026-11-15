@@ -1,38 +1,38 @@
 {
  "date": "2026-11-14",
- "generated_at": "2026-11-15T00:25:07+01:00",
+ "generated_at": "2026-11-15T01:45:22+01:00",
  "overview": [
   {
    "id": "9cf21250e112",
-   "text": "Anthropic bringt kurz vor dem Börsengang die Modelle Fable 5.2 und Mythos 5.2, die laut Unternehmen günstiger laufen und die Ranglisten anführen."
+   "text": "Anthropic veröffentlicht kurz vor dem Börsengang die Modelle Fable 5.2 und Mythos 5.2, die laut Unternehmen stärker und günstiger sind als ihre Vorgänger."
   },
   {
    "id": "1956cccd10bf",
-   "text": "Firmenchef Dario Amodei nennt den Zukauf von Rechenleistung als größtes Risiko, da Verpflichtungen von fast 901 Milliarden Dollar ungedeckt sind."
+   "text": "Amodei nennt den Einkauf von Rechenleistung Anthropics größtes Risiko, weil Zusagen von fast 901 Milliarden Dollar unsicheren Erlösen gegenüberstehen."
   },
   {
    "id": "89e796353a72",
-   "text": "Laut Investorenunterlagen hat Mythos die nötigen AMD-Kernel selbst geschrieben und die Portierung in drei Tagen statt in vielen Monaten erledigt."
-  },
-  {
-   "id": "a5aaae289c3b",
-   "text": "Google macht Gemini 4 Hydrogen zum Standard für Alltagsfragen und in der Suche, mit 2,5-mal schnelleren Antworten und weniger erfundenen Fakten."
+   "text": "Laut einer Investorenpräsentation hat das Modell Mythos die Portierung von Claude auf AMD-GPUs in rund drei Tagen fast eigenständig erledigt."
   },
   {
    "id": "6ac84128e435",
-   "text": "OpenAI löst sein eigenes Robotik-Team auf, weil Allzweckmodelle wie GPT-6 Astra Roboter offenbar schon direkt ansteuern können."
+   "text": "OpenAI löst sein eigenes Robotik-Team auf, weil Allzweckmodelle wie GPT-6 Astra Roboter inzwischen direkt ansteuern können."
   },
   {
    "id": "2a2bfff1121f",
-   "text": "Nach dem Rückzug von Nvidia-Chef Jensen Huang lassen sich Regierungen in Asien ihre Chip-Lieferzusagen bestätigen und prüfen eigene Staatsprojekte."
+   "text": "Nach dem Rückzug von Nvidia-Chef Jensen Huang lassen sich Regierungen in Asien ihre Chip-Lieferverträge bestätigen und prüfen Folgen für Staatsprojekte."
+  },
+  {
+   "id": "eb9926aa4b5f",
+   "text": "Im Mathe-Benchmark MathArena übernimmt Gemini 4 Carbon die Spitze vor Fable 5.2, allerdings zu höheren Kosten und ohne Einhaltung des Zeitlimits."
   },
   {
    "id": "22004a3ce03c",
-   "text": "Scalable Capital öffnet Kundendepots für Chatbots, sodass Anlegerinnen und Anleger ihr Portfolio per Texteingabe umschichten lassen können."
+   "text": "Der Neobroker Scalable Capital lässt KI-Chatbots auf Kundendepots zugreifen, sodass Anlegerinnen und Anleger ihr Portfolio per Texteingabe umschichten."
   },
   {
    "id": "8285d1b7e215",
-   "text": "Eine mit KI erfundene Tochter von Bastian Schweinsteiger geht auf TikTok viral und zeigt, wie leicht synthetische Identitäten Reichweite gewinnen."
+   "text": "Zwei junge Frauen erfanden mit KI-Werkzeugen eine Tochter von Bastian Schweinsteiger, deren Geschichte auf TikTok große Reichweite erreichte."
   }
  ],
  "items": [
@@ -147,7 +147,7 @@
    "added": "2026-11-14T13:01:09+01:00",
    "quelle_titel": "Trotz Exportverbot: Hatten chinesische KI-Labore Zugriff auf Nvidia-Chips?",
    "url": "https://t3n.de/news/trotz-exportverbot-hatten-chinesische-ki-labore-zugriff-auf-nvidia-chips-1773577",
-   "dup_of": "f17748102e2c"
+   "dup_of": "8fc0a4bb4281"
   },
   {
    "id": "6ac84128e435",
@@ -169,7 +169,13 @@
    "added": "2026-11-14T13:01:09+01:00",
    "quelle_titel": "OpenAI verteilt Robotik-Forscher auf andere Teams, weil Allzweckmodelle spezialisierte Robotik-KI überflüssig machen",
    "url": "https://the-decoder.de/openai-verteilt-robotik-forscher-auf-andere-teams-weil-allzweckmodelle-spezialisierte-robotik-ki-ueberfluessig-machen/",
-   "kontext": "Schon 2020 hatte OpenAI die Robotik eingestellt, damals wegen fehlender Trainingsdaten, und das Team erst 2024 neu aufgebaut. Nun wechseln die Forschenden ins Hauptforschungsteam von Mark Chen und in Greg Brockmans Applied-Bereich; ein bereits gebuchter Stand auf der Robotikkonferenz CoRL in Austin blieb leer. In Tests schnitt Astra klar besser ab als spezialisierte Robotikmodelle, die aber bei Kosten, Tempo und Verlässlichkeit punkten könnten. Sam Altman peilt eine erste öffentliche Roboterdemo für 2027 an."
+   "kontext": "Schon 2020 hatte OpenAI die Robotik eingestellt, damals wegen fehlender Trainingsdaten, und das Team erst 2024 neu aufgebaut. Nun wechseln die Forschenden ins Hauptforschungsteam von Mark Chen und in Greg Brockmans Applied-Bereich; ein bereits gebuchter Stand auf der Robotikkonferenz CoRL in Austin blieb leer. In Tests schnitt Astra klar besser ab als spezialisierte Robotikmodelle, die aber bei Kosten, Tempo und Verlässlichkeit punkten könnten. Sam Altman peilt eine erste öffentliche Roboterdemo für 2027 an.",
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/neue-gewichtung-openai-loest-robotik-team-auf-2611-215222.html"
+    }
+   ]
   },
   {
    "id": "b5ae27a5f0e0",
@@ -350,7 +356,8 @@
    "added": "2026-11-15T00:18:11+01:00",
    "quelle_titel": "Gemini 4 Hydrogen löst Gemini 3.8 Flash ab",
    "url": "https://www.it-daily.net/shortnews/gemini-4-hydrogen-loest-flash-ab",
-   "kontext": "Mit Hydrogen verschwindet erstmals der Namenszusatz Flash aus dieser Modellklasse. Es ergänzt die größeren Geschwister Carbon und Argon, deren Zugang Google kurz zuvor für zahlende Entwickler geöffnet hatte. Verfügbar ist es in der Gemini-App, über die API sowie in AI Studio und der Entwicklungsumgebung Antigravity. In der Gratisversion greift es laut Berichten bisher nur über die automatische Modellauswahl, und es lehnt harmlose Anfragen öfter ab als der Vorgänger."
+   "kontext": "Mit Hydrogen verschwindet erstmals der Namenszusatz Flash aus dieser Modellklasse. Es ergänzt die größeren Geschwister Carbon und Argon, deren Zugang Google kurz zuvor für zahlende Entwickler geöffnet hatte. Verfügbar ist es in der Gemini-App, über die API sowie in AI Studio und der Entwicklungsumgebung Antigravity. In der Gratisversion greift es laut Berichten bisher nur über die automatische Modellauswahl, und es lehnt harmlose Anfragen öfter ab als der Vorgänger.",
+   "dup_of": "0ac160ed24b9"
   },
   {
    "id": "97101394a02c",
@@ -626,6 +633,28 @@
    "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/"
   },
   {
+   "id": "46ead5d1b123",
+   "date": "2026-11-14",
+   "published": "2026-11-14T12:35+01:00",
+   "headline": "Studie: KI-Modelle verstecken Nachrichten in Bildern und lesen sie wieder aus",
+   "summary": "Forschende haben getestet, ob KI-Modelle geheime Botschaften in Bilddateien einbetten und anschließend selbst wieder entschlüsseln können. Neue Verfahren entwickelten die Modelle dabei nicht, sie griffen auf bekannte Techniken zurück. Für die KI-Sicherheit ist der Befund trotzdem bedeutsam, weil solche versteckten Kanäle Kontrollmechanismen umgehen könnten.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "steganografie",
+    "ki-sicherheit",
+    "bildmodelle",
+    "studie"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-15T01:42:04+01:00",
+   "quelle_titel": "Geheime Botschaften: Warum Bilder eine Sicherheitslücke für KI sind",
+   "url": "https://t3n.de/news/ki-geheime-bildbotschaften-sicherheitsluecke-1769790",
+   "kontext": "Hinter dem Test stehen der Sicherheitsforscher Bryan Chan und Kolleginnen und Kollegen einer Fellowship in Singapur. Sie ließen Modelle von Anthropic und OpenAI kurze Texte in mehreren Sprachen in Bildmotive einbetten, ohne eine Methode vorzugeben. Das eine Modell arbeitete mit Objekthöhen und Neigungswinkeln, das andere mit Morsezeichen, Akrosticha oder Braille. Brisant ist, dass fremde Entwürfe meist zuverlässig gelesen wurden, teils sogar besser als die eigenen."
+  },
+  {
    "id": "f7d025002380",
    "date": "2026-11-14",
    "published": "2026-11-14T13:35+01:00",
@@ -644,7 +673,8 @@
    "source_id": "golem",
    "added": "2026-11-15T00:19:03+01:00",
    "quelle_titel": "Neue Gewichtung: OpenAI löst Robotik-Team auf",
-   "url": "https://www.golem.de/news/neue-gewichtung-openai-loest-robotik-team-auf-2611-215222.html"
+   "url": "https://www.golem.de/news/neue-gewichtung-openai-loest-robotik-team-auf-2611-215222.html",
+   "dup_of": "6ac84128e435"
   },
   {
    "id": "bad85291a61b",
@@ -754,7 +784,8 @@
    "source_id": "neuron",
    "added": "2026-11-15T00:18:11+01:00",
    "quelle_titel": "😸 Deep Dive: The Future of Work is Multiplayer",
-   "url": "https://www.theneuron.ai/newsletter/deep-dive-the-future-of-work-is-multiplayer/"
+   "url": "https://www.theneuron.ai/newsletter/deep-dive-the-future-of-work-is-multiplayer/",
+   "kontext": "Hinter dem Beitrag steht Autor Corey Noles, der die Ausgabe als ausführliche Sonderanalyse von Mitte November anlegt. Ausgangspunkt ist die Beobachtung, dass KI bislang vor allem persönlicher Assistent war: Ein Modell recherchiert, ein zweites schreibt ein Angebot, ein drittes baut eine App. Die Ergebnisse bleiben dabei voneinander isoliert. Spannend wird deshalb die Frage, was sich ändert, wenn solche Systeme für ein ganzes Team arbeiten."
   },
   {
    "id": "b08cefd9996d",
@@ -799,7 +830,13 @@
    "kurios": "Über 115.000 Unterschriften, um einen Konzernchef zurück ins Amt zu holen",
    "quelle_titel": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
    "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-   "kontext": "Huang trat am Donnerstag zurück, nachdem er eine Affäre mit einer Führungskraft aus der Chipbranche eingeräumt hatte, die laut US-Nachrichtendiensten für China spioniert haben soll. Die Unterzeichner, darunter nach Angaben der Petitionsseite tausende aktive und frühere Beschäftigte sowie zahlreiche Aktionäre, verlangen ein faires Verfahren und eine unabhängige Untersuchung. Nvidia hat Finanzvorständin Colette Kress übergangsweise an die Spitze gestellt und sucht dauerhaften Ersatz. Die Aktie gab im Wochenverlauf deutlich nach."
+   "kontext": "Huang trat am Donnerstag zurück, nachdem er eine Affäre mit einer Führungskraft aus der Chipbranche eingeräumt hatte, die laut US-Nachrichtendiensten für China spioniert haben soll. Die Unterzeichner, darunter nach Angaben der Petitionsseite tausende aktive und frühere Beschäftigte sowie zahlreiche Aktionäre, verlangen ein faires Verfahren und eine unabhängige Untersuchung. Nvidia hat Finanzvorständin Colette Kress übergangsweise an die Spitze gestellt und sucht dauerhaften Ersatz. Die Aktie gab im Wochenverlauf deutlich nach.",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/nvidia-chef-mitarbeiter-unterstuetzung-1773403"
+    }
+   ]
   },
   {
    "id": "43c4dd7ee359",
@@ -884,7 +921,8 @@
    "source_id": "verge-ai",
    "added": "2026-11-15T00:19:16+01:00",
    "quelle_titel": "Jensen Huang and the decline of the visionary showman founder CEO",
-   "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
+   "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+   "dup_of": "e0a3c5330e95"
   },
   {
    "id": "bb57e432bed9",
