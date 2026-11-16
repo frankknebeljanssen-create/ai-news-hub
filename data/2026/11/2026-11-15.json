@@ -1,38 +1,38 @@
 {
  "date": "2026-11-15",
- "generated_at": "2026-11-15T17:16:23+01:00",
+ "generated_at": "2026-11-16T10:50:15+01:00",
  "overview": [
   {
-   "id": "6fdb9cf64c8f",
-   "text": "Der Rücktritt von Jensen Huang stürzt Nvidia in eine Führungskrise und trifft die Branche an ihrer wichtigsten Stelle für KI-Hardware."
+   "id": "778ce6ecdb85",
+   "text": "Ein Bericht wirft der Mittlerfirma Megaspeed vor, zwischen 2024 und 2025 Nvidia-Chips für fast zwölf Milliarden Dollar nach China vermittelt zu haben."
   },
   {
-   "id": "778ce6ecdb85",
-   "text": "Ein Zwischenhändler soll Nvidia-Chips für fast zwölf Milliarden Dollar nach China vermittelt haben, geführt von einer früheren Geliebten Huangs."
+   "id": "024802442c5a",
+   "text": "Nach dem Spionageskandal um Jensen Huang arbeiten US-Abgeordnete beider Parteien an schärferen Exportregeln für KI-Chips und laden Nvidia-Spitzen vor."
   },
   {
    "id": "2cb4cb2d9af4",
-   "text": "Meituan gibt die Gewichte seines Agentenmodells LongCat-2.5 frei, das auf Huawei-Chips trainiert wurde und fast an Claude Opus 5 heranreicht."
+   "text": "Meituan gibt die Gewichte seines Agentenmodells LongCat-2.5 frei, das auf chinesischer Hardware trainiert wurde und im Terminal Bench 88,4 Punkte holt."
   },
   {
-   "id": "bf7d998b391c",
-   "text": "US-Verbraucherschützer verklagen fünf Techkonzerne, darunter OpenAI und Google, um die aus ihrer Sicht unkontrollierte KI-Entwicklung zu stoppen."
+   "id": "d888d0f686d9",
+   "text": "OpenAI startet ChatGPT Wallet, womit KI-Agenten für Pro-Kunden in den USA eigenständig Einkäufe bezahlen können."
   },
   {
    "id": "225e4583815f",
-   "text": "OpenAI schickt KI-Agenten auf Schwachstellensuche in Webanwendungen, die gefundene Lücken gleich selbst patchen, freigegeben wird weiterhin von Menschen."
-  },
-  {
-   "id": "92e9964af1c1",
-   "text": "Goldman Sachs reserviert Claude Code und GitHub wegen der hohen Kosten künftig für die eigenen Entwicklerteams."
+   "text": "OpenAI schickt mit Daybreak Red Team und Defense Factory KI-Agenten auf die Suche nach Sicherheitslücken, die Freigabe der Patches bleibt bei Menschen."
   },
   {
    "id": "91cf3526ea99",
-   "text": "Australiens Notenbank sieht erste KI-Spuren am Arbeitsmarkt, vor allem weniger Jobs für junge Einsteiger in Softwareentwicklung und Kundenservice."
+   "text": "Die australische Notenbank sieht erste KI-Spuren am Arbeitsmarkt, vor allem weniger Stellen für junge Beschäftigte in Softwareentwicklung und Service."
   },
   {
-   "id": "4809ededec48",
-   "text": "Das Start-up Finches will Preis- und Lieferrisiken im Agrareinkauf per KI frühzeitig sichtbar machen."
+   "id": "f9dcbe1c48e1",
+   "text": "Die FH Aachen veröffentlicht mit AnySleep ein Open-Source-Modell, das Gehirnströme im Schlaf sekundengenau auswertet."
+  },
+  {
+   "id": "9d9e1da4adc6",
+   "text": "Ein Mathematikprofessor hält Hausaufgaben und Noten für überholt, weil Sprachmodelle die Aufgaben zu Hause längst mühelos lösen."
   }
  ],
  "items": [
@@ -168,7 +168,13 @@
    "kurios": "Zwölf Milliarden Dollar Chipgeschäft über die Firma einer Ex-Geliebten des CEO",
    "quelle_titel": "Firma von Jensen Huangs Ex-Geliebter soll Nvidia-Chips für 12 Milliarden Dollar nach China vermittelt haben",
    "url": "https://the-decoder.de/firma-von-jensen-huangs-ex-geliebter-soll-nvidia-chips-fuer-12-milliarden-dollar-nach-china-vermittelt-haben/",
-   "kontext": "Megaspeed galt als Cloud-Partner von Nvidia und erhielt dadurch offenbar bevorzugten Zugriff auf knappe Beschleuniger, auch weil Alibaba zu den Kunden zählte. Bereits im Herbst 2025 war bekannt geworden, dass der Weiterverkauf exportkontrollierter Hardware untersucht wird. Das Unternehmen weist die Vorwürfe zurück, verweist auf den Rückzug der Eigentümerin im August 2025 und eine Prüfung durch externe Anwälte. Brisant ist der Fall auch für Nvidias eigene Umsatzangaben."
+   "kontext": "Megaspeed galt als Cloud-Partner von Nvidia und erhielt dadurch offenbar bevorzugten Zugriff auf knappe Beschleuniger, auch weil Alibaba zu den Kunden zählte. Bereits im Herbst 2025 war bekannt geworden, dass der Weiterverkauf exportkontrollierter Hardware untersucht wird. Das Unternehmen weist die Vorwürfe zurück, verweist auf den Rückzug der Eigentümerin im August 2025 und eine Prüfung durch externe Anwälte. Brisant ist der Fall auch für Nvidias eigene Umsatzangaben.",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/trotz-exportverbot-hatten-chinesische-ki-labore-zugriff-auf-nvidia-chips-1773577"
+    }
+   ]
   },
   {
    "id": "92e9964af1c1",
@@ -260,6 +266,107 @@
    "kontext": "Prince äußerte sich bei der Telefonkonferenz zum dritten Quartal, das Cloudflare einen Rekordumsatz brachte. Sein Beispiel: Ein Agent lädt für eine einzige Restaurantsuche hunderte Speisekarten herunter, Kosten entstehen überall, Nutzen fast nirgends. Cloudflare verkauft genau dafür Werkzeuge zum Blockieren, Drosseln oder Bezahlpflichtigmachen von KI-Bots, unter anderem an Meta. Bei neuen Werbedomains greift die Sperre inzwischen automatisch."
   },
   {
+   "id": "d888d0f686d9",
+   "date": "2026-11-15",
+   "published": "2026-11-15T15:56+01:00",
+   "headline": "OpenAI gibt KI-Agenten mit ChatGPT Wallet eine eigene Bezahlfunktion",
+   "summary": "OpenAI führt mit ChatGPT Wallet eine Bezahlmethode ein, über die KI-Agenten selbstständig Einkäufe für Nutzer abwickeln können. Zum Start ist die Funktion auf Pro-Abonnenten in den USA begrenzt. Damit rückt agentenbasiertes Einkaufen als Geschäftsmodell näher an den Alltag.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "ki-agenten",
+    "bezahlen",
+    "chatgpt",
+    "e-commerce"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-16T08:02:56+01:00",
+   "quelle_titel": "OpenAI startet ChatGPT Wallet: KI-Agenten kaufen für Nutzer ein",
+   "url": "https://www.heise.de/news/OpenAI-startet-ChatGPT-Wallet-KI-Agenten-kaufen-fuer-Nutzer-ein-11525597.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/chatgpt-wallet-purchase-goes-wrong/"
+    }
+   ],
+   "kontext": "Entwickelt hat OpenAI die Funktion gemeinsam mit American Express, Mastercard und Visa. Die Ende September vorgestellten Agenten namens Dots erhalten keine echten Kartendaten, sondern nur transaktionsbezogene Zahlungstoken, ähnlich wie bei Apple Pay oder Google Pay. Freigegeben wird ein Kauf nach Prüfung von Ware und Betrag per Fingerabdruck oder Gesichtsscan. Viele Shops und Zahlungssysteme sind auf solche Bestellungen noch nicht eingerichtet, weshalb OpenAI Händler beim Umbau begleiten will."
+  },
+  {
+   "id": "024802442c5a",
+   "date": "2026-11-15",
+   "published": "2026-11-15T20:15+01:00",
+   "headline": "US-Kongress will Exportregeln für KI-Chips weiter verschärfen",
+   "summary": "Nach dem Spionageskandal um den früheren Nvidia-Chef Jensen Huang arbeiten Abgeordnete beider Parteien an strengeren Exportvorschriften für KI-Chips. Mehrere Gesetzesinitiativen sind im Gespräch, zudem sollen Huang und weitere Nvidia-Verantwortliche vor dem Kongress aussagen. Verschärfte Regeln würden die Lieferketten für KI-Hardware weltweit treffen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "exportkontrolle",
+    "nvidia",
+    "usa",
+    "china",
+    "chips"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-16T07:47:19+01:00",
+   "quelle_titel": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+   "also": [
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/nvidia-ki-chips-orten-1773433"
+    }
+   ],
+   "kontext": "Ausgelöst wurde der Vorstoß durch den Rücktritt von Nvidia-Chef Jensen Huang, dem eine Beziehung zu einer mutmaßlichen chinesischen Spionin vorgehalten wird. Ältere Vorhaben gewinnen dadurch neu an Rückhalt, etwa der Remote Access Security Act und der Chip Security Act, der Beschleuniger per Geotracking orten will. Nvidia hält eine solche Ortung laut dem Abgeordneten Bill Foster für technisch machbar, ein Branchenverband bezweifelt das. Auch Spitzenpolitiker beider Lager fordern Aussagen von Huang und der Regierung."
+  },
+  {
+   "id": "2cb612de9116",
+   "date": "2026-11-15",
+   "published": "2026-11-15T22:56+01:00",
+   "headline": "Nvidia-Turbulenzen: Wie stark hängt die KI-Branche an einer Person?",
+   "summary": "Die Probleme rund um Jensen Huang werfen die Frage auf, wie abhängig die gesamte KI-Wirtschaft von Nvidia und seiner Führungsfigur ist. Beobachter verweisen darauf, dass ein großer Teil der aktuellen Marktdynamik auf dem Chipkonzern ruht. Ein Vertrauensverlust an der Spitze könnte deshalb weit über Nvidia hinaus wirken.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "jensen huang",
+    "ki-markt",
+    "chips"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-16T07:47:19+01:00",
+   "quelle_titel": "Is bad news for Jensen Huang also bad news for the AI industry?",
+   "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+   "kontext": "Hintergrund ist der überraschend schnelle Rücktritt von Jensen Huang, nachdem das Nvidia-Board eine Untersuchung eingeleitet hatte und Berichte über private Verbindungen zu einem Kundenunternehmen mit angeblichen Bezügen zu chinesischen Diensten aufkamen. Finanzchefin Collette Kress übernimmt vorläufig, ein Nachfolgeplan existierte nicht. Im TechCrunch-Podcast Equity ordnen Redakteure den Fall ein und fragen, was aus Nvidias Beteiligungen im KI-Umfeld wird. Offen bleibt, wer dauerhaft führt."
+  },
+  {
+   "id": "87d7014c15ee",
+   "date": "2026-11-15",
+   "published": "2026-11-15T23:00+01:00",
+   "headline": "OpenAI-Modell hilft bei Beweis zum Standardmodell auf dem Gitter",
+   "summary": "OpenAI beschreibt einen Ansatz für eine nichtperturbative Gitterdefinition des Standardmodells der Teilchenphysik. Laut dem Beitrag half das Modell GPT-6 Astra dabei, die ursprüngliche Idee in einen ausgearbeiteten Beweis zu überführen. Das ist ein weiterer Belegfall dafür, dass KI-Systeme in der theoretischen Grundlagenforschung mitarbeiten.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "physik",
+    "gpt-6",
+    "grundlagenforschung"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-11-16T07:47:19+01:00",
+   "quelle_titel": "A step toward defining the Standard Model on a lattice",
+   "url": "https://openai.com/index/step-toward-defining-the-standard-model"
+  },
+  {
    "id": "7342cc39189c",
    "date": "2026-11-15",
    "published": "2026-11-15T05:50+01:00",
@@ -302,7 +409,8 @@
    "source_id": "t3n",
    "added": "2026-11-15T16:36:46+01:00",
    "quelle_titel": "\"Mein Second Brain diktiert mir, wie ich zu arbeiten habe\": Wie KI-Wissenssysteme die Arbeit verändern",
-   "url": "https://t3n.de/news/second-brain-arbeit-wissensystem-ki-1771451"
+   "url": "https://t3n.de/news/second-brain-arbeit-wissensystem-ki-1771451",
+   "kontext": "Als Beispiel dient t3n der Geschäftsführer der oberbayerischen Softwarefirma AllBytes, Daniel Leuverink, der Wissensorganisation offen auf Linkedin thematisiert und selbst Interviewmitschriften in sein System einspeist. Solche Second Brains lassen sich einzeln oder gemeinsam im Team betreiben, was Abstimmung erleichtert, aber auch Routinen festschreibt. Die Analyse fragt deshalb weniger nach Werkzeugen als nach den Tücken im Alltag."
   },
   {
    "id": "d1720abd4a31",
@@ -324,7 +432,8 @@
    "added": "2026-11-15T16:36:22+01:00",
    "quelle_titel": "Kann Nvidia KI-Chips orten? Das sagt das Unternehmen hinter verschlossenen Türen",
    "url": "https://t3n.de/news/nvidia-ki-chips-orten-1773433",
-   "kontext": "Treibende Kraft hinter dem Vorhaben ist der Demokrat Bill Foster, Mitglied im Ausschuss für Wissenschaft, Raumfahrt und Technologie und Mitinitiator des Gesetzes. Er berichtet, Vertreter von Nvidia hätten ihm eine Standortverfolgung fortschrittlicher Beschleuniger als technisch realisierbar beschrieben. Ein Branchenverband hatte zuvor Zweifel an der Durchführbarkeit geäußert, woraus sich ein Widerspruch ergibt. Zusätzliche Aufmerksamkeit bekommt das Thema durch den Rücktritt von Nvidia-Chef Jensen Huang und eine damit verknüpfte Spionageaffäre."
+   "kontext": "Treibende Kraft hinter dem Vorhaben ist der Demokrat Bill Foster, Mitglied im Ausschuss für Wissenschaft, Raumfahrt und Technologie und Mitinitiator des Gesetzes. Er berichtet, Vertreter von Nvidia hätten ihm eine Standortverfolgung fortschrittlicher Beschleuniger als technisch realisierbar beschrieben. Ein Branchenverband hatte zuvor Zweifel an der Durchführbarkeit geäußert, woraus sich ein Widerspruch ergibt. Zusätzliche Aufmerksamkeit bekommt das Thema durch den Rücktritt von Nvidia-Chef Jensen Huang und eine damit verknüpfte Spionageaffäre.",
+   "dup_of": "024802442c5a"
   },
   {
    "id": "9d9e1da4adc6",
@@ -370,7 +479,13 @@
    "kurios": "Spionagevorwurf und Affäre an der Spitze des wichtigsten KI-Chipkonzerns",
    "quelle_titel": "Megaspeed bestätigt: Alice Huang hat Unternehmen verlassen",
    "url": "https://www.heise.de/news/Megaspeed-bestaetigt-Alice-Huang-hat-Unternehmen-verlassen-11525549.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Megaspeed betreibt Rechenzentren in Malaysia und steht im Verdacht, bei Nvidia gekaufte KI-Chips an China weitergereicht oder deren Rechenleistung dorthin geöffnet zu haben. Das Unternehmen hat externe Anwälte mit einer internen Untersuchung beauftragt und äußert sich nicht zu Privatem. Singapur zog Huangs Pass bereits 2025 ein und verhängte später ein Einreiseverbot; Peking weist die Spionagevorwürfe zurück. Jensen Huang trat vergangene Woche zurück."
+   "kontext": "Megaspeed betreibt Rechenzentren in Malaysia und steht im Verdacht, bei Nvidia gekaufte KI-Chips an China weitergereicht oder deren Rechenleistung dorthin geöffnet zu haben. Das Unternehmen hat externe Anwälte mit einer internen Untersuchung beauftragt und äußert sich nicht zu Privatem. Singapur zog Huangs Pass bereits 2025 ein und verhängte später ein Einreiseverbot; Peking weist die Spionagevorwürfe zurück. Jensen Huang trat vergangene Woche zurück.",
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Montag-Rufe-nach-Rueckkehr-Jensen-Huangs-Huang-Affaere-nicht-mehr-bei-Megaspeed-11525681.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ]
   },
   {
    "id": "ad82451b798b",
@@ -439,6 +554,114 @@
    "quelle_titel": "Anleitung: So baust du dir ein Second Brain mit KI (mit allen Prompts)",
    "url": "https://www.basicthinking.de/blog/2026/11/15/second-brain-claude-chatgpt/",
    "kontext": "Die Vorlage stammt von Andrej Karpathy, Gründungsmitglied von OpenAI und früher Leiter der Autopilot-KI bei Tesla, der seine Methode LLM Wiki im Frühjahr 2026 vorstellte. Statt bei jeder Frage neu zu recherchieren, wächst das Wissen dauerhaft in verlinkten Markdown-Dateien auf dem eigenen Rechner. Nötig ist nur ein KI-Werkzeug mit Dateizugriff, etwa Claude Code oder Codex, ergänzt um die Notiz-App Obsidian. So bleibt ein Anbieterwechsel jederzeit möglich."
+  },
+  {
+   "id": "ffa4f5e3cfbf",
+   "date": "2026-11-15",
+   "published": "2026-11-15T16:02+01:00",
+   "headline": "Claude Fable 5.2 erzeugt Bilder über selbst geschriebenen Pinselstrich-Code",
+   "summary": "Anthropics Modell Claude Fable 5.2 generiert Bilder nicht pixelweise, sondern schreibt Python-Code, der Hunderttausende simulierte Pinselstriche auf eine virtuelle Leinwand aufträgt. Dabei werden auch Borstenstruktur und Farbauftrag nachgebildet. Ein fotorealistisches Motiv kommt laut Anthropic auf etwa 700.000 Striche.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "anthropic",
+    "bildgenerierung",
+    "claude",
+    "code"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-16T08:02:56+01:00",
+   "quelle_titel": "Claude Fable 5.2 malt fotorealistische Gemälde Strich für Strich mit selbst geschriebenem Python-Code",
+   "url": "https://the-decoder.de/claude-fable-5-2-malt-fotorealistische-gemaelde-strich-fuer-strich-mit-selbst-geschriebenem-python-code/",
+   "kontext": "Gezeigt wurde der Ansatz von Anthropic-Mitarbeitern wie Jake Eaton und Michael Graczyk, die Fable 5.2 ohne externes Bildmodell und ohne abgepauste Vorlagen malen ließen. Jedes Werk ist ein Python-Programm von gut tausend Zeilen, das eine Farb-Engine steuert. Weil ein Vorgängermodell vorgeworfen bekam, nur bestehende Kunst zu imitieren, erfand das Modell diesmal eigene Künstlerfiguren mit eigenem Stil. Interessant ist das vor allem als Test für planvolles, werkzeuggestütztes Arbeiten."
+  },
+  {
+   "id": "54749bb48af4",
+   "date": "2026-11-15",
+   "published": "2026-11-15T19:30+01:00",
+   "headline": "Oakland: Beschäftigte setzen KI-Schutzklauseln im Tarifvertrag durch",
+   "summary": "Beschäftigte in Oakland haben in Verhandlungen Schutzregeln zum Einsatz von künstlicher Intelligenz erreicht. Der Fall zeigt, dass Mitbestimmung beim KI-Einsatz zunehmend Teil von Tarifverhandlungen wird.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "arbeitsmarkt",
+    "mitbestimmung",
+    "tarifvertrag",
+    "usa"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-16T07:33:04+01:00",
+   "quelle_titel": "😺 Oakland workers bargained for AI protections",
+   "url": "https://www.theneuron.ai/newsletter/oakland-workers-bargained-for-ai-protections/"
+  },
+  {
+   "id": "f9dcbe1c48e1",
+   "date": "2026-11-15",
+   "published": "2026-11-15T19:30+01:00",
+   "headline": "FH Aachen stellt Open-Source-KI für sekundengenaue Schlafanalyse vor",
+   "summary": "Ein Forschungsteam der FH Aachen hat mit AnySleep ein frei verfügbares Modell entwickelt, das Gehirnströme im Schlaf sekundengenau auswertet. Bisherige Verfahren arbeiten in groben Zeitabschnitten und übersehen dabei kurze, aber relevante Ereignisse. Der offene Ansatz macht die Technik auch für andere Forschungsgruppen nutzbar.",
+   "thema": "Forschung",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "forschung",
+    "open source",
+    "medizin",
+    "schlaf"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-16T08:02:56+01:00",
+   "quelle_titel": "Schlafanalyse: Forscher entwickeln KI, die Gehirnströme sekundengenau analysiert",
+   "url": "https://t3n.de/news/schlafanalyse-ki-sekunde-1773027",
+   "kontext": "Hinter AnySleep steht das Data Science Lab der FH Aachen um Stephan Bialonski, die Arbeit erschien im Fachjournal npj Digital Medicine aus dem Nature Portfolio. Trainiert wurde mit EEG-Daten von rund 20.000 Menschen unterschiedlichen Alters und Gesundheitszustands. Erste Auswertungen zeigen Unterschiede zwischen gesunden und erkrankten Schläfern, für Diagnosen taugt das Verfahren laut dem Team aber noch nicht. Neben dem Quellcode gibt es die Weboberfläche SomnoBot für Nutzung ohne Programmierkenntnisse."
+  },
+  {
+   "id": "0ae485d0fe26",
+   "date": "2026-11-15",
+   "published": "2026-11-15T21:43+01:00",
+   "headline": "Gerüchte um Comeback von Jensen Huang an der Nvidia-Spitze",
+   "summary": "Die Lage rund um den abgetretenen Nvidia-Chef Jensen Huang entwickelt sich schnell weiter, inzwischen gibt es Berichte über einen möglichen Weg zurück an die Konzernspitze. Die Berichterstattung ordnet die jüngsten Entwicklungen und zeigt, wie unübersichtlich die Führungsfrage bei Nvidia derzeit ist.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nvidia",
+    "jensen huang",
+    "führung",
+    "chips"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-16T07:47:19+01:00",
+   "quelle_titel": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+   "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+   "kontext": "Der Mitgründer Jensen Huang hat den Chefposten bei Nvidia niedergelegt, doch die Nachwirkungen reißen nicht ab. Inzwischen kursieren Gerüchte, er suche selbst einen Weg zurück an die Spitze. Parallel erklärt das Unternehmen Megaspeed, Alice Huang sei dort seit Sommer 2025 nicht mehr tätig, was die offenen Fragen eher vergrößert. The Verge begleitet den Fall in einer fortlaufenden Reihe, weil die Führungsfrage beim zentralen KI-Chipanbieter ungeklärt ist."
+  },
+  {
+   "id": "4b0fc5b701ff",
+   "date": "2026-11-15",
+   "published": "2026-11-15T23:00+01:00",
+   "headline": "OpenAI bündelt KI-Ergebnisse aus der Wissenschaft in neuem Blog",
+   "summary": "OpenAI hat einen eigenen Wissenschaftsblog gestartet, in dem neue Resultate, Methoden und Erfahrungsberichte von Forschenden erscheinen sollen. Im Fokus stehen Projekte, in denen KI-Modelle für wissenschaftliche Entdeckungen eingesetzt werden. Für Fachleute entsteht damit eine zusätzliche Quelle zu konkreten Anwendungsfällen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "wissenschaft",
+    "publikation"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-11-16T07:47:19+01:00",
+   "quelle_titel": "Our new blog for science",
+   "url": "https://openai.com/index/our-new-blog-for-science"
   },
   {
    "id": "72cac71c35c1",
@@ -547,6 +770,28 @@
    "added": "2026-11-15T16:15:41+01:00",
    "quelle_titel": "Anleger suchen Rendite: Bitcoin fällt",
    "url": "https://www.golem.de/news/anleger-suchen-rendite-bitcoin-faellt-2611-215232.html"
+  },
+  {
+   "id": "84a2550a3c1f",
+   "date": "2026-11-15",
+   "published": "2026-11-15T16:45+01:00",
+   "headline": "ESA-Satellit lässt sich per Sprachbefehl zum Doom-Spielen bewegen",
+   "summary": "Ein unter anderem von der ESA betriebener Satellit hat im Orbit auf eine Spracheingabe reagiert und daraufhin Doom ausgeführt. Der ungewöhnliche Test zeigt, dass Software an Bord flexibel und über natürliche Sprache gesteuert nachgeladen werden kann. Für künftige Missionen eröffnet das neue Möglichkeiten beim Betrieb von Raumfahrzeugen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "raumfahrt",
+    "esa",
+    "sprachsteuerung",
+    "satelliten"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-16T08:02:56+01:00",
+   "kurios": "Ein Satellit im Orbit startet auf Zuruf ein Videospiel aus den Neunzigern.",
+   "quelle_titel": "Vom Hausdach in Oslo direkt in den Orbit: Warum ein Esa-Satellit jetzt auf Zuruf Doom spielt",
+   "url": "https://t3n.de/news/doom-esa-satellit-1772441"
   }
  ]
 }
