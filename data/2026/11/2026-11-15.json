@@ -78,7 +78,7 @@
    "added": "2026-11-15T16:36:46+01:00",
    "quelle_titel": "Petition fordert Huangs Rückkehr an die Spitze von Nvidia: „Dieses Unternehmen ist sein Lebenswerk“",
    "url": "https://t3n.de/news/petition-fordert-huangs-rueckkehr-an-die-spitze-von-nvidia-dieses-unternehmen-ist-sein-lebenswerk-1773644",
-   "dup_of": "9a736294c460"
+   "kontext": "Huang hatte Nvidia 1993 mitgegründet und den Konzern über drei Jahrzehnte geführt. Sein Rücktritt folgte auf Berichte über eine Beziehung zu einer mutmaßlichen chinesischen Spionin, und zwar genau zu dem Zeitpunkt, als der Verwaltungsrat seine Untersuchung aufnahm. Hinter der Petition stehen inzwischen über 144.000 Unterstützer, vor allem Aktionäre und Beschäftigte, dazu Tech-Prominenz wie Elon Musk. Brisant ist die Lage auch deshalb, weil die Aktie seit dem Herbsthoch rund ein Drittel verloren hat."
   },
   {
    "id": "2cb4cb2d9af4",
@@ -197,7 +197,13 @@
    "kurios": "Zwölf Milliarden Dollar Chipgeschäft über die Firma einer Ex-Geliebten des CEO",
    "quelle_titel": "Firma von Jensen Huangs Ex-Geliebter soll Nvidia-Chips für 12 Milliarden Dollar nach China vermittelt haben",
    "url": "https://the-decoder.de/firma-von-jensen-huangs-ex-geliebter-soll-nvidia-chips-fuer-12-milliarden-dollar-nach-china-vermittelt-haben/",
-   "kontext": "Megaspeed galt als Cloud-Partner von Nvidia und erhielt dadurch offenbar bevorzugten Zugriff auf knappe Beschleuniger, auch weil Alibaba zu den Kunden zählte. Bereits im Herbst 2025 war bekannt geworden, dass der Weiterverkauf exportkontrollierter Hardware untersucht wird. Das Unternehmen weist die Vorwürfe zurück, verweist auf den Rückzug der Eigentümerin im August 2025 und eine Prüfung durch externe Anwälte. Brisant ist der Fall auch für Nvidias eigene Umsatzangaben."
+   "kontext": "Megaspeed galt als Cloud-Partner von Nvidia und erhielt dadurch offenbar bevorzugten Zugriff auf knappe Beschleuniger, auch weil Alibaba zu den Kunden zählte. Bereits im Herbst 2025 war bekannt geworden, dass der Weiterverkauf exportkontrollierter Hardware untersucht wird. Das Unternehmen weist die Vorwürfe zurück, verweist auf den Rückzug der Eigentümerin im August 2025 und eine Prüfung durch externe Anwälte. Brisant ist der Fall auch für Nvidias eigene Umsatzangaben.",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/nvidia-reportedly-supplied-china-via-asia/"
+    }
+   ]
   },
   {
    "id": "92e9964af1c1",
@@ -245,6 +251,11 @@
    "kontext": "Ausgangspunkt war ein Bericht der New York Times von Ende Oktober, wonach Huang ins Visier eines chinesischen Spionageversuchs geraten sein soll. Weil Nvidia im Zentrum des amerikanischen KI-Ökosystems steht, wiegt eine mögliche Kompromittierung an der Spitze schwerer als bei anderen Technologiekonzernen. The Verge rollt die Ereignisse in seinem wöchentlichen Erklärformat auf und begleitet die Folgen weiter.",
    "also": [
     {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-chip-riese-wie-im-nvidia-drama-affaren-china-und-ki-zusammenkamen-16292764.html",
+     "paywall": true
+    },
+    {
      "source": "Wired AI",
      "url": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
      "paywall": true
@@ -252,6 +263,11 @@
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/"
+    },
+    {
+     "source": "Business Insider Deutschland",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGw1ZHJZUWx2QmlCWURlX3h3Vmp2VkNrYlpHamNWcXo5X3lONnlXTTBGRmZfS1VaN1dGWXp1SndMUS0zVzBRaXdiang3aXNENXBmbERubkEzMEFZR2VaQ3BMeWpOTTJiRTY4RGE1bEFkTDFuNGpmX0kwVFBlSVVrbEptY05LMDZsaVktei03LXNGV21RSEp4WVA0dnJiZ1loNUlBU1MxRU81bEJ2NTViOC1lWQ?oc=5",
+     "paywall": true
     }
    ]
   },
@@ -329,6 +345,10 @@
     {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/chatgpt-wallet-purchase-goes-wrong/"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-16-2026/"
     }
    ]
   },
@@ -427,13 +447,8 @@
    "added": "2026-11-16T07:47:19+01:00",
    "quelle_titel": "A step toward defining the Standard Model on a lattice",
    "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/openais-gpt-6-astra-liefert-mathematischen-beweis-fuer-gitter-standardmodell-der-teilchenphysik/"
-    }
-   ],
-   "kontext": "Dahinter steckt eine Zusammenarbeit des Physikers Nathaniel Craig von der UC Santa Barbara mit OpenAI, vorgestellt im Firmenblog und als Preprint. Es geht um ein seit über zwei Jahrzehnten offenes Problem: Die schwache Kernkraft lässt sich auf einem Rechengitter nur schwer widerspruchsfrei abbilden. Eine saubere Definition wäre nötig, um Vorgänge wie die Entstehung der Protonenmasse zu berechnen. Weitere Fachleute prüften den Beweis kritisch, bis zu realistischen Simulationen bleibt viel zu tun."
+   "kontext": "Dahinter steckt eine Zusammenarbeit des Physikers Nathaniel Craig von der UC Santa Barbara mit OpenAI, vorgestellt im Firmenblog und als Preprint. Es geht um ein seit über zwei Jahrzehnten offenes Problem: Die schwache Kernkraft lässt sich auf einem Rechengitter nur schwer widerspruchsfrei abbilden. Eine saubere Definition wäre nötig, um Vorgänge wie die Entstehung der Protonenmasse zu berechnen. Weitere Fachleute prüften den Beweis kritisch, bis zu realistischen Simulationen bleibt viel zu tun.",
+   "dup_of": "22dfe4df9f86"
   },
   {
    "id": "7342cc39189c",
@@ -638,8 +653,7 @@
    "added": "2026-11-16T08:02:56+01:00",
    "quelle_titel": "Claude Fable 5.2 malt fotorealistische Gemälde Strich für Strich mit selbst geschriebenem Python-Code",
    "url": "https://the-decoder.de/claude-fable-5-2-malt-fotorealistische-gemaelde-strich-fuer-strich-mit-selbst-geschriebenem-python-code/",
-   "kontext": "Gezeigt wurde der Ansatz von Anthropic-Mitarbeitern wie Jake Eaton und Michael Graczyk, die Fable 5.2 ohne externes Bildmodell und ohne abgepauste Vorlagen malen ließen. Jedes Werk ist ein Python-Programm von gut tausend Zeilen, das eine Farb-Engine steuert. Weil ein Vorgängermodell vorgeworfen bekam, nur bestehende Kunst zu imitieren, erfand das Modell diesmal eigene Künstlerfiguren mit eigenem Stil. Interessant ist das vor allem als Test für planvolles, werkzeuggestütztes Arbeiten.",
-   "dup_of": "9cf21250e112"
+   "kontext": "Gezeigt wurde der Ansatz von Anthropic-Mitarbeitern wie Jake Eaton und Michael Graczyk, die Fable 5.2 ohne externes Bildmodell und ohne abgepauste Vorlagen malen ließen. Jedes Werk ist ein Python-Programm von gut tausend Zeilen, das eine Farb-Engine steuert. Weil ein Vorgängermodell vorgeworfen bekam, nur bestehende Kunst zu imitieren, erfand das Modell diesmal eigene Künstlerfiguren mit eigenem Stil. Interessant ist das vor allem als Test für planvolles, werkzeuggestütztes Arbeiten."
   },
   {
    "id": "54749bb48af4",
@@ -705,7 +719,13 @@
    "added": "2026-11-16T07:47:19+01:00",
    "quelle_titel": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
    "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
-   "kontext": "Der Mitgründer Jensen Huang hat den Chefposten bei Nvidia niedergelegt, doch die Nachwirkungen reißen nicht ab. Inzwischen kursieren Gerüchte, er suche selbst einen Weg zurück an die Spitze. Parallel erklärt das Unternehmen Megaspeed, Alice Huang sei dort seit Sommer 2025 nicht mehr tätig, was die offenen Fragen eher vergrößert. The Verge begleitet den Fall in einer fortlaufenden Reihe, weil die Führungsfrage beim zentralen KI-Chipanbieter ungeklärt ist."
+   "kontext": "Der Mitgründer Jensen Huang hat den Chefposten bei Nvidia niedergelegt, doch die Nachwirkungen reißen nicht ab. Inzwischen kursieren Gerüchte, er suche selbst einen Weg zurück an die Spitze. Parallel erklärt das Unternehmen Megaspeed, Alice Huang sei dort seit Sommer 2025 nicht mehr tätig, was die offenen Fragen eher vergrößert. The Verge begleitet den Fall in einer fortlaufenden Reihe, weil die Führungsfrage beim zentralen KI-Chipanbieter ungeklärt ist.",
+   "also": [
+    {
+     "source": "The Rundown AI",
+     "url": "https://www.therundown.ai/articles/jensen-huang-weighs-a-comeback-at-nvidia"
+    }
+   ]
   },
   {
    "id": "4b0fc5b701ff",
