@@ -1,38 +1,38 @@
 {
  "date": "2026-11-18",
- "generated_at": "2026-11-20T03:31:47+01:00",
+ "generated_at": "2026-11-20T04:40:20+01:00",
  "overview": [
   {
    "id": "b7121aa76176",
-   "text": "Anthropic ist mit 83 Dollar je Aktie oberhalb der erwarteten Spanne an die Börse gegangen und kommt damit voll verwässert auf rund 1,5 Billionen Dollar."
+   "text": "Anthropic geht mit 83 Dollar je Aktie über der erwarteten Spanne an die Börse und kommt damit voll verwässert auf rund 1,5 Billionen Dollar Bewertung."
   },
   {
    "id": "93232ac5d41b",
-   "text": "OpenAI meldet für GPT-6.2 Astra Platz zwei in unabhängigen Vergleichstests und warnt zugleich davor, dass sich das Modell selbst verbessern kann."
-  },
-  {
-   "id": "46620ca1c7b7",
-   "text": "Laut Bundesgerichtshof kann ein Rechtsmittel unzulässig sein, wenn die Begründung von KI stammt und nicht anwaltlich geprüft und verantwortet wurde."
-  },
-  {
-   "id": "bb0a469df225",
-   "text": "Microsoft zeigt sieben eigene Modelle als günstigere OpenAI-Alternative, MAI Code 2 soll 98 Prozent der Leistung zu 40 Prozent der Kosten erreichen."
+   "text": "OpenAI bringt GPT-6.2 Astra auf Platz zwei unabhängiger Vergleichstests und warnt selbst vor Risiken, weil sich das Modell eigenständig verbessern kann."
   },
   {
    "id": "408979723c45",
-   "text": "Google bringt mit Gemini 4 Neon ein Spitzenmodell für Code und Wissensarbeit, das Text, Bild, Video, Audio und PDF versteht und eine Million Tokens fasst."
+   "text": "Google stellt mit Gemini 4 Neon ein multimodales Spitzenmodell für Code und Wissensarbeit vor, mit einer Million Tokens Kontext und höherem Preis."
+  },
+  {
+   "id": "bb0a469df225",
+   "text": "Microsoft zeigt auf der Ignite sieben eigene MAI Modelle, die fast die Leistung der OpenAI Modelle zu einem Bruchteil der Kosten bieten sollen."
+  },
+  {
+   "id": "46620ca1c7b7",
+   "text": "Der Bundesgerichtshof erklärt ein Rechtsmittel für unzulässig, wenn Anwältinnen und Anwälte einen von KI erzeugten Schriftsatz ungeprüft einreichen."
   },
   {
    "id": "85aeaebd6cc0",
-   "text": "Ein Test von Vals AI zeigt: Führende Modelle von Anthropic, OpenAI und Google stufen im Zweifel auch Zivilisten als militärische Ziele ein."
+   "text": "Ein Test von Vals AI zeigt, dass führende Modelle von Anthropic, OpenAI und Google Zivilisten bereitwillig als militärische Ziele einstufen."
+  },
+  {
+   "id": "602e8ae09e49",
+   "text": "Die Bundesregierung fordert mehr Innovationsspielraum im KI Gesetz der EU und mischt sich damit in die Debatte über Erleichterungen bei den Regeln ein."
   },
   {
    "id": "915e80b25288",
-   "text": "Gartner erwartet, dass sich bis 2030 weltweit 435 Millionen Jobs inhaltlich spürbar verändern, was Unternehmen zu gezielter Weiterbildung zwingt."
-  },
-  {
-   "id": "18584e4b7c93",
-   "text": "Aleph-Alpha-Chef Ilhan Scheer erläutert nach der Fusion mit Cohere den neuen Kurs des Heidelberger Anbieters und den Fokus auf Industriekunden."
+   "text": "Gartner erwartet, dass KI bis 2030 weltweit 435 Millionen Jobs inhaltlich verändert und Unternehmen wie Beschäftigte zu gezielter Qualifizierung zwingt."
   }
  ],
  "items": [
@@ -1003,6 +1003,74 @@
    "kontext": "Hugging Face ersetzt seinen eigenen Router durch den von OpenRouter, der laufend Preis, Tempo und Zuverlässigkeit der angebundenen Anbieter misst und bei Ausfällen automatisch umschaltet. Entwickler können per Zusatz gezielt das schnellste oder günstigste Angebot ansteuern, bestehender Code läuft unverändert weiter. Für Bild, Video und Audio bleibt es beim bisherigen Weg. Hintergrund ist der Aufstieg offener Modelle, die deutlich günstiger sind und inzwischen den Großteil der verarbeiteten Tokens ausmachen."
   },
   {
+   "id": "c5d3f2fa0556",
+   "date": "2026-11-18",
+   "published": "2026-11-18T14:31+01:00",
+   "headline": "Gemini: Training mit eigenen Chats abschalten und Verlauf trotzdem behalten",
+   "summary": "Google führt in der Gemini-App neue Datenschutzeinstellungen ein. Nutzerinnen und Nutzer können künftig der Verwendung ihrer Chats für das Modelltraining widersprechen, ohne dafür auf das Speichern des Verlaufs verzichten zu müssen. Bisher waren beide Einstellungen aneinander gekoppelt.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "google",
+    "gemini",
+    "datenschutz",
+    "training"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T04:34:34+01:00",
+   "quelle_titel": "Mehr Datenschutz bei Gemini: KI-Training untersagen und Verlauf behalten",
+   "url": "https://www.heise.de/news/Mehr-Datenschutz-bei-Gemini-KI-Training-untersagen-und-Verlauf-behalten-11529670.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Bisher koppelte Google beides aneinander: Wer seine Unterhaltungen behalten wollte, lieferte damit auch Trainingsmaterial, ansonsten blieben nur wenige Stunden Speicherfrist. Künftig liegen temporäre Chats rund zwei Monate im Konto, fließen aber nicht mehr automatisch ins Training. Bei eingeschaltetem Verlauf sammelt Google bis zu 18 Monate lang auch Audio, Bildschirmfreigaben, Standort und IP-Adresse. Andere Anbieter löschen laut Techcrunch deutlich früher."
+  },
+  {
+   "id": "a831a4844ea1",
+   "date": "2026-11-18",
+   "published": "2026-11-18T15:00+01:00",
+   "headline": "Claude als Büro-Werkzeug: Was Anthropics Dokumente und Tabellen leisten",
+   "summary": "Anthropic hat in Claude Funktionen für Texte, Tabellen, Präsentationen und Whiteboards integriert. Ein Praxistest zeigt, wie weit diese eingebauten Werkzeuge im Alltag tragen und an welchen Stellen klassische Pakete wie Microsoft Office oder Google Docs weiterhin überlegen sind.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "anthropic",
+    "claude",
+    "office",
+    "produktivität"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T04:34:34+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "heise+ | Claude als Office-Ersatz: Wie weit Anthropics eingebaute Werkzeuge schon reichen",
+   "url": "https://www.heise.de/tests/Claude-als-Office-Ersatz-Wie-weit-Anthropics-eingebaute-Werkzeuge-schon-reichen-11521250.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
+  },
+  {
+   "id": "952b670f9cd4",
+   "date": "2026-11-18",
+   "published": "2026-11-18T15:33+01:00",
+   "headline": "Microsoft bringt spezialisierte KI-Modelle und baut Lizenzgeschäft aus",
+   "summary": "Microsoft stellt neue, auf bestimmte Aufgaben zugeschnittene KI-Modelle vor, die preislich mit Angeboten der Konkurrenz konkurrieren sollen. Gleichzeitig erweitert der Konzern sein Lizenzgeschäft. Ein eigenes Spitzenmodell befindet sich weiterhin in Entwicklung.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "microsoft",
+    "sprachmodelle",
+    "lizenzen",
+    "preise"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T04:34:34+01:00",
+   "quelle_titel": "Microsoft stellt neue KI-Modelle vor und erweitert sein Lizenzgeschäft",
+   "url": "https://www.heise.de/news/Microsoft-stellt-neue-KI-Modelle-vor-und-erweitert-sein-Lizenzgeschaeft-11529784.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Auf seiner Hausmesse Ignite zeigte Microsoft gleich sieben Modelle der MAI-Familie, etwa für Programmierung, das Aufspüren von Sicherheitslücken, Bilder und Transkription. Sie sollen an führende Konkurrenzprodukte heranreichen, aber merklich weniger kosten, und stecken teils schon in GitHub Copilot. Ausgewählte Firmen wie AT&T oder Toyota erhalten zudem Zugriff auf die Modellgewichte und passen sie in ihrer Azure-Umgebung an. Da der Betrieb an Azure gebunden bleibt, stärkt das zugleich das Cloudgeschäft."
+  },
+  {
    "id": "18584e4b7c93",
    "date": "2026-11-18",
    "published": "2026-11-18T15:53+01:00",
@@ -1024,6 +1092,29 @@
    "paywall": true,
    "quelle_titel": "Interview: „Wir sind stärker denn je“: Diese Erwartungen hat der Aleph-Alpha-Chef an die Fusion mit Cohere",
    "url": "https://www.handelsblatt.com/technik/it-internet/ki-eine-transformation-mit-schmerzen-ilhan-scheer-ceo-von-aleph-alpha/100268769.html"
+  },
+  {
+   "id": "8b7ece4d9442",
+   "date": "2026-11-18",
+   "published": "2026-11-18T16:00+01:00",
+   "headline": "KI löst Jahrzehnte alte Vermutung über die Grenzen von Quantencomputern",
+   "summary": "Ein KI-Start-up hat nach eigenen Angaben die Aaronson-Ambainis-Vermutung bewiesen, die beschreibt, wo Quantenrechner keinen Vorteil gegenüber klassischen Rechnern haben. Der Beweis hat Folgen für die Einschätzung künftiger Quantentechnologie und für die Cybersicherheit, etwa bei der Frage, welche Verfahren wirklich bedroht sind.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "quantencomputing",
+    "mathematik",
+    "beweis",
+    "cybersicherheit"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T04:34:34+01:00",
+   "kurios": "Eine KI knackt einen Beweis, an dem Fachleute jahrelang gescheitert sind.",
+   "paywall": true,
+   "quelle_titel": "heise+ | KI beweist, dass Quantencomputer nicht allmächtig sind",
+   "url": "https://www.heise.de/hintergrund/KI-beweist-dass-Quantencomputer-nicht-allmaechtig-sind-11521373.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
    "id": "3a21249e1710",
@@ -2458,6 +2549,27 @@
    "url": "https://www.golem.de/news/lokale-ki-wann-sich-ein-eigener-ki-server-rechnet-und-wann-er-nur-beruhigt-2611-215216.html"
   },
   {
+   "id": "46b488f442c7",
+   "date": "2026-11-18",
+   "published": "2026-11-18T14:00+01:00",
+   "headline": "Seed-Runde für Vero Security: Regeln für autonome KI-Agenten durchsetzen",
+   "summary": "Vero Security sammelt 11 Millionen US-Dollar ein, um Werkzeuge zur Durchsetzung von Richtlinien für KI-Agenten zu entwickeln. Der Bedarf wächst, weil Agenten zunehmend eigenständig in Unternehmenssystemen handeln und dabei kontrolliert werden müssen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-agenten",
+    "governance",
+    "finanzierung",
+    "ki-sicherheit"
+   ],
+   "source": "Unite.AI",
+   "source_id": "gn-startups",
+   "added": "2026-11-20T04:34:34+01:00",
+   "quelle_titel": "Vero Security sammelt 11 Millionen US-Dollar in einer Seed-Finanzierungsrunde ein, um Richtlinien für KI-Agenten durchzusetzen",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNem5EU0lZQWFDM1VxcmM4MlNVbktQbWd5WW5MeVRMZUZwUFUyaXZuMndsRkF5alk1eUVILU8ySVpTdVhVbnpmT0JzRDItVDFSTWJMdDdoOUI5WFBGcDE2Z1U0eDRnbURLUThBRER3dWhlakx1TXBFM19nc01zMWZlbU9OR1U?oc=5"
+  },
+  {
    "id": "009f64aa0f6c",
    "date": "2026-11-18",
    "published": "2026-11-18T14:10+01:00",
@@ -2522,6 +2634,47 @@
    "url": "https://www.eco.de/news/neue-folge-das-ohr-am-netz-zum-thema-rechenzentren/"
   },
   {
+   "id": "1627d877057e",
+   "date": "2026-11-18",
+   "published": "2026-11-18T15:00+01:00",
+   "headline": "KI-Update: Destillation, Anthropic an die Börse, Klage gegen OpenAI",
+   "summary": "Die regelmäßige Nachrichtenübersicht fasst die wichtigsten Entwicklungen zusammen, darunter das Destillieren von Modellen, einen möglichen Börsengang von Anthropic und eine Klage gegen OpenAI. Außerdem geht es um das Werkzeug IdeaLens.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "anthropic",
+    "openai",
+    "börsengang",
+    "überblick"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T04:34:34+01:00",
+   "quelle_titel": "KI-Update kompakt: Destillation, Anthropics Börsengang, OpenAI-Klage, IdeaLens",
+   "url": "https://www.heise.de/news/KI-Update-kompakt-Destillation-Anthropics-Boersengang-OpenAI-Klage-IdeaLens-11528179.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "50207b015a23",
+   "date": "2026-11-18",
+   "published": "2026-11-18T15:09+01:00",
+   "headline": "Vero Security erhält 11 Millionen Dollar für KI-Sicherheitsplattform",
+   "summary": "Das Sicherheits-Start-up Vero Security hat eine Seed-Runde über 11 Millionen US-Dollar abgeschlossen. Mit dem Kapital soll die Plattform für die Absicherung von KI-Systemen weiterentwickelt werden.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-sicherheit",
+    "finanzierung",
+    "startup"
+   ],
+   "source": "Unite.AI",
+   "source_id": "gn-startups",
+   "added": "2026-11-20T04:34:34+01:00",
+   "quelle_titel": "Vero Security sammelt in Seed-Finanzierungsrunde 11 Millionen US-Dollar ein, um KI-Sicherheitsplattform auszubauen",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdmRfUGNxR1F4MlAzU0ZKbDJUX19iVVZVbS15Q2xQdVVkcmNLc2F6NkpKUWFxQmRJZWthRFJkM3VlN2xFRkNpMHhISFNJX1VkYUVWcFpubFR5ZFd6R0hGMS1wTTRuaUhpZlI2QllqajdjdFFOZWx0TnlZeGF3LTJjSEFHOEljajM3WHU3Mk1n?oc=5"
+  },
+  {
    "id": "ca86e1f1ade0",
    "date": "2026-11-18",
    "published": "2026-11-18T15:33+01:00",
@@ -2560,7 +2713,8 @@
    "source_id": "decoder-de",
    "added": "2026-11-19T13:18:47+01:00",
    "quelle_titel": "Mistral bringt Vibe als Desktop-App für macOS und Windows",
-   "url": "https://the-decoder.de/mistral-bringt-vibe-als-desktop-app-fuer-macos-und-windows/"
+   "url": "https://the-decoder.de/mistral-bringt-vibe-als-desktop-app-fuer-macos-und-windows/",
+   "kontext": "Vibe ist Mistrals umbenannter Assistent, vormals bekannt als Le Chat. Die neue Desktop-App bündelt die lokalen Funktionen des Kommandozeilenwerkzeugs mit Cloud-Sitzungen, arbeitet wahlweise im eigenen Repository oder in einer Sandbox und hält parallele Aufgaben über Git-Worktrees auseinander. Eine Steuerung des gesamten Rechners, wie sie Anthropics Claude-App seit dem Frühjahr bietet, fehlt weiterhin. Sein Geld verdient Mistral vor allem mit Firmen und Behörden, die die Modelle per Schnittstelle oder im eigenen Haus betreiben."
   },
   {
    "id": "b832d435844d",
@@ -2626,7 +2780,8 @@
    "source_id": "huggingface",
    "added": "2026-11-19T12:00:03+01:00",
    "quelle_titel": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-   "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse"
+   "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+   "kontext": "Hinter dem Beitrag stehen IBM Research und Confluent. Deren Zeitreihen-Basismodelle laufen jetzt direkt in der Streamingplattform, in der Cloud wie im eigenen Rechenzentrum und auf gewöhnlichen Prozessoren. Über Apache Flink lassen sich Prognose, Anomalieerkennung und semantische Suche per SQL auf laufende Datenströme anwenden. Der Kerngedanke: Eine Vorhersage nützt wenig, wenn sie erst nach dem Produktionslauf oder der Zahlung eintrifft. Beispiele reichen von Lieferketten bis Betrugserkennung."
   },
   {
    "id": "7a11b4cf81ab",
@@ -2677,7 +2832,8 @@
    "source_id": "heise-ki",
    "added": "2026-11-20T03:26:09+01:00",
    "quelle_titel": "Anthropic und Cisco integrieren Claude Mythos 5 in AI Defense",
-   "url": "https://www.heise.de/news/Anthropic-und-Cisco-integrieren-Claude-Mythos-5-in-AI-Defense-11529932.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/Anthropic-und-Cisco-integrieren-Claude-Mythos-5-in-AI-Defense-11529932.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Anthropic gibt die Mythos-Modelle nur eingeschränkt heraus, weil sie besonders stark darin sind, Sicherheitslücken zu finden und auszunutzen. Im Projekt Glasswing erhielten zunächst ausgewählte Firmen Zugang, um Zero-Day-Lücken vorab zu schließen. Cisco setzt das Modell nun für adaptives Red Teaming ein, das die Zielumgebung analysiert und daraus passende Angriffsszenarien ableitet. Leitplanken begrenzen Tests auf autorisierte Ziele, protokollieren jede Aktivität und schließen das offene Internet aus."
   },
   {
    "id": "53f341ad0b87",
@@ -2699,7 +2855,8 @@
    "added": "2026-11-19T11:59:06+01:00",
    "praxis": true,
    "quelle_titel": "Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem",
-   "url": "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/"
+   "url": "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/",
+   "kontext": "Mit wachsender Modellzahl verschiebt sich das eigentliche Problem vom Erfinden neuer Methoden hin zum zuverlässigen Ausrollen. Meta begegnet der Zersplitterung mit wiederverwendbaren Bausteinen, aus denen sich Modelle zusammensetzen lassen, statt jedes Modell als Einzelfall zu pflegen. Das senkt den Aufwand pro Modell, reduziert Sonderfälle und macht die Wirkung einer Änderung über das gesamte Ökosystem besser abschätzbar. Ein begleitendes Fachpapier beschreibt den Ansatz ausführlich."
   },
   {
    "id": "ceee266decaf",
@@ -2744,7 +2901,8 @@
    "source_id": "meta-ai",
    "added": "2026-11-19T11:58:10+01:00",
    "quelle_titel": "How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models",
-   "url": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/"
+   "url": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
+   "kontext": "Metas Werbesystem läuft über viele einzelne Ranking-Modelle, die sich in Architektur, Trainingsdaten und Auslieferung unterscheiden. Eine bewährte Methode lässt sich deshalb selten einfach kopieren, zugleich veraltet sie oft schon nach wenigen Entwicklungszyklen. Bisher passten erfahrene Fachleute jede Verbesserung von Hand an, was viel Personal und Rechenzeit band. Seit dem Frühjahr übernehmen Agenten den Großteil dieser Übertragung, was laut Meta das Tempo erhöht und Rechenkosten spürbar senkt."
   },
   {
    "id": "f6f039c5a76b",
@@ -2765,7 +2923,8 @@
    "source_id": "heise-ki",
    "added": "2026-11-20T02:15:29+01:00",
    "quelle_titel": "AI Gigafactory im Norden: Nokia und Partner planen europäische KI-Infrastruktur",
-   "url": "https://www.heise.de/news/AI-Gigafactory-im-Norden-Nokia-und-Partner-planen-europaeische-KI-Infrastruktur-11530042.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+   "url": "https://www.heise.de/news/AI-Gigafactory-im-Norden-Nokia-und-Partner-planen-europaeische-KI-Infrastruktur-11530042.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Zum Bündnis AIGF Northern gehören neben Nokia auch Nscale, Skeleton, Telia und Verda. Statt eines zentralen Großrechenzentrums sollen Standorte in Finnland, Estland und Lettland verknüpft werden, ein schwedischer Ort fehlt noch. Kühles Klima und erneuerbare Energie gelten als regionale Vorteile, die Verteilung soll Ausfälle abfedern. Die EU will über ihr Programm InvestAI zweistellige Milliardenbeträge für solche Fabriken mobilisieren, Forschungspartner wie VTT und die KTH liefern Fachwissen."
   },
   {
    "id": "2aa15f417aa9",
@@ -2808,7 +2967,8 @@
    "source_id": "verge-ai",
    "added": "2026-11-19T13:18:01+01:00",
    "quelle_titel": "What is Nvidia without AI’s sugar daddy in charge?",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition"
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+   "kontext": "Anlass ist der Rückzug von Jensen Huang an der Spitze von Nvidia und die erste Bilanzvorlage seiner Nachfolgerin Colette Kress, die zuvor Finanzchefin war und für ihre Ausgabendisziplin bekannt ist. Elon Musk befeuerte die Debatte mit dem Hinweis, Lieferabsprachen seien teils per Handschlag und ohne schriftlichen Vertrag entstanden. Die Kolumnistin Elizabeth Lopatto fragt daraus, ob ein Konzern dieser Größe gut gebaut ist, wenn alles an einer Person hängt."
   },
   {
    "id": "75623b38e68b",
@@ -2830,7 +2990,8 @@
    "added": "2026-11-19T11:58:10+01:00",
    "praxis": true,
    "quelle_titel": "Why your fine-tuning job takes longer than the FLOPs say",
-   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+   "kontext": "Hinter dem Beitrag steht ein Team von Dharma-AI, das Hunderte echte Trainingsläufe auf H200-Karten ausgewertet hat. Die übliche Faustformel aus Parameterzahl und Token verfehlt die Realität deutlich, weil sie Prüfintervalle, Checkpoints und die Auslastung geteilter Cluster ignoriert. Ein trainiertes Vorhersagemodell, das nur vorab bekannte Angaben nutzt, trifft die Laufzeit viel genauer. Für Betreiber knapper GPU-Pools ist das vor allem eine Frage der Planung statt des Ratens."
   },
   {
    "id": "09b6248761ae",
@@ -2851,7 +3012,8 @@
    "source_id": "verge-ai",
    "added": "2026-11-19T11:57:22+01:00",
    "quelle_titel": "Tech lawsuits defined 2026, and lawmakers want more",
-   "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act"
+   "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
+   "kontext": "Im Mittelpunkt der Anhörung stand die Spieleplattform Roblox, der Senatoren vorwerfen, Beschwerden über Übergriffe auf Kinder per Schlichtungsklausel aus den Gerichten herauszuhalten, teils bei sehr jungen Nutzern. Parallel warben Abgeordnete beider Parteien gemeinsam mit Paris Hilton für den Defiance Act, der Betroffenen intimer Deepfakes ein Klagerecht gegen die Ersteller geben soll. Treibende Figur im Senat ist der Republikaner Josh Hawley. Der Zeitdruck ist hoch, die Legislaturperiode endet bald."
   },
   {
    "id": "727d955cd223",
@@ -2872,7 +3034,8 @@
    "source_id": "verge-ai",
    "added": "2026-11-19T11:57:22+01:00",
    "quelle_titel": "Trump’s latest land grab is an AI hub in the Philippines",
-   "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica"
+   "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+   "kontext": "Der Bericht verknüpft Trumps Staatsbesuch mit Plänen für Chipfabriken und Rechenzentren auf den Philippinen, einer früheren US-Kolonie. Autorin Justine Calma verweist darauf, dass vergleichbare Vorhaben in den USA selbst auf Widerstand stoßen. Vor Ort traf Trump auf einen aufwendig inszenierten Empfang und zugleich auf hunderte Demonstrierende. Der Fall zeigt, wie stark Standortfragen der KI-Infrastruktur inzwischen außenpolitisch verhandelt werden."
   },
   {
    "id": "f689168723dc",
@@ -2893,7 +3056,8 @@
    "source_id": "huggingface",
    "added": "2026-11-19T11:57:22+01:00",
    "quelle_titel": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
+   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+   "kontext": "Hinter dem Modell steht RadixArk, das damit seine erste Veröffentlichung vorlegt. Basis ist ein Qwen-Modell, das per Reinforcement Learning auf lange Agentenaufgaben trainiert wurde, mit einem eigenen quelloffenen Trainings-Framework und Aufgaben aus einer Kooperation mit Eigent AI. Architektur, Tokenizer und Kontextfenster des Basismodells bleiben erhalten. Bemerkenswert ist, dass ein vergleichsweise kleiner, kuratierter Aufgabensatz für deutliche Zuwächse bei Terminal- und Coding-Benchmarks genügt."
   },
   {
    "id": "aa03a2d7e1cb",
@@ -2935,7 +3099,8 @@
    "source_id": "techcrunch-ai",
    "added": "2026-11-19T13:18:01+01:00",
    "quelle_titel": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
-   "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/"
+   "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+   "kontext": "Üblicherweise reicht Nvidia das 10-Q am Tag der Zahlen ein. Interimschefin Colette Kress kündigte stattdessen eine Einreichung in den kommenden Wochen an, ohne Gründe zu nennen. Auf Nachfrage eines UBS-Analysten verwies das Management auf die laufende interne Untersuchung zu Firmenchef Huang und darauf, ob zusätzliche Risikohinweise nötig werden. Parallel wird über Ermittlungen der US-Börsenaufsicht sowie weitere Verfahren rund um Chiplieferungen nach China berichtet."
   },
   {
    "id": "c9996132d66d",
