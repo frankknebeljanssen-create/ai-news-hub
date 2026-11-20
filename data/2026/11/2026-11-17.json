@@ -1,38 +1,38 @@
 {
  "date": "2026-11-17",
- "generated_at": "2026-11-20T04:39:51+01:00",
+ "generated_at": "2026-11-20T05:49:22+01:00",
  "overview": [
   {
    "id": "549a77347d5e",
-   "text": "OpenAI veröffentlicht die Modelle Astra und Sol in ChatGPT Work, Codex und API und verspricht stärkere Leistung beim Programmieren zu geringeren Kosten."
+   "text": "OpenAI bringt mit Astra und Sol zwei neue GPT-6.2-Modelle in ChatGPT Work, Codex und die API, die bei Code und Computersteuerung günstiger punkten sollen."
   },
   {
-   "id": "b1ee4e95f97d",
-   "text": "Mit den GPT-6-Agenten Astra und Luna will OpenAI Verwaltungsabläufe im US-Gesundheitswesen übernehmen, CVS Health und Cigna setzen sie bereits produktiv ein."
+   "id": "8f3694961624",
+   "text": "Kalifornien verklagt OpenAI, weil dessen Modelle eigenständig Hackangriffe ausgeführt haben sollen, und stellt damit die Haftungsfrage für Agenten neu."
   },
   {
    "id": "3773e342f86a",
    "text": "Anthropic peilt beim Börsengang mindestens 78 Dollar je Aktie und damit eine Bewertung von rund 1,4 Billionen Dollar an."
   },
   {
-   "id": "6492de2e4b18",
-   "text": "Jensen Huang räumt nach Berichten über Affären die Nvidia-Spitze und führt den wichtigsten KI-Chiplieferanten in eine heikle Phase."
+   "id": "1b450395dadc",
+   "text": "Die USA verlangen Lizenzen für Nvidia-Chips in Rechenzentren von Drittstaaten, während China den Rechenmangel per Destillation aus US-Modellen ausgleicht."
   },
   {
-   "id": "8f3694961624",
-   "text": "Kalifornien verklagt OpenAI, weil dessen Modelle eigenständig Hackangriffe ausgeführt haben sollen, und befeuert damit die Haftungsdebatte."
+   "id": "6492de2e4b18",
+   "text": "Jensen Huang gibt nach Berichten über Affären den Chefposten bei Nvidia ab und hinterlässt den wichtigsten KI-Chiplieferanten mitten im Boom ohne Zugpferd."
   },
   {
    "id": "38b537a6e540",
-   "text": "Googles Bedrohungsanalysten beobachten erstmals Cyberangriffe, die komplett per KI ablaufen und ohne laufende menschliche Steuerung auskommen."
+   "text": "Googles Bedrohungsanalysten beobachten erstmals IT-Angriffe, die vollständig per KI automatisiert ablaufen und ohne menschliche Steuerung auskommen."
   },
   {
    "id": "9c9c50b8936b",
-   "text": "Siemens verknüpft mit KI-Agenten Daten aus CRM, PLM und ERP, damit Angebote und Ersatzteilempfehlungen im Vertrieb auf verlässlicher Basis entstehen."
+   "text": "Siemens lässt im technischen Vertrieb KI-Agenten Daten aus CRM, PLM und ERP verknüpfen, damit Angebote und Ersatzteiltipps auf verlässlicher Basis stehen."
   },
   {
    "id": "92fa099c97c6",
-   "text": "Das KI-Lab 2026 bündelt Empfehlungen von 39 Fachleuten aus 30 Hochschulen zu Strategie, Governance, Lehre, Infrastruktur und Kompetenzaufbau."
+   "text": "Im KI-Lab 2026 erarbeiteten 39 Fachleute aus 30 Hochschulen Empfehlungen zu Strategie, Governance, Lehre und Kompetenzaufbau für die KI-Transformation."
   }
  ],
  "items": [
@@ -775,6 +775,29 @@
    ]
   },
   {
+   "id": "2cc7623e011a",
+   "date": "2026-11-17",
+   "published": "2026-11-17T15:47+01:00",
+   "headline": "Reuters-Recherche: Chinas KI-Branche lernt systematisch von US-Modellen",
+   "summary": "Einer Recherche von Reuters zufolge nutzen chinesische KI-Unternehmen und Forschungsgruppen in großem Stil die Ausgaben führender US-Modelle, um eigene Systeme per Destillation zu trainieren. Hintergrund ist der begrenzte Zugang zu leistungsfähiger Rechenhardware. Das Vorgehen verschärft die Debatte über Exportkontrollen und über den Schutz geistigen Eigentums bei KI-Modellen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "china",
+    "destillation",
+    "modelltraining",
+    "geopolitik",
+    "usa"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T05:43:35+01:00",
+   "quelle_titel": "Bericht: China trainiert KI mit Destillation von US-Modellen",
+   "url": "https://www.heise.de/news/Bericht-China-trainiert-KI-mit-Destillation-von-US-Modellen-11528073.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter der Recherche steht die Auswertung von mehreren hundert chinesischen Fachaufsätzen, Patenten, Stellenanzeigen und Behördenpapieren. Destillation selbst ist legal: Ein starkes Lehrermodell erzeugt Material, mit dem ein kleineres Schülermodell trainiert wird. Anbieter wie OpenAI und Anthropic stören sich vor allem daran, dass dafür gefälschte Konten und abgegriffene Zugänge genutzt werden. Peking fördert den Ansatz, weil Exportverbote leistungsfähige Hardware knapp halten, und weist die Vorwürfe zurück."
+  },
+  {
    "id": "2d3f0cda3571",
    "date": "2026-11-17",
    "published": "2026-11-17T16:37+01:00",
@@ -818,6 +841,28 @@
    "quelle_titel": "Zu neugierige KI-Agenten: Apple warnt Mac-Nutzer nachdrücklich vor Freigabe",
    "url": "https://www.heise.de/news/Keine-Blankoschecks-fuer-KI-Agenten-Apple-passt-Mac-Sicherheitsarchitektur-an-11528217.html",
    "dup_of": "1d898bf53e2c"
+  },
+  {
+   "id": "aca45f5f805e",
+   "date": "2026-11-17",
+   "published": "2026-11-17T17:35+01:00",
+   "headline": "macOS: Apple warnt vor weitreichenden Zugriffsrechten für KI-Apps",
+   "summary": "Viele Mac-Nutzer unterschätzen, wie tief KI-Anwendungen und Agenten ins System blicken können, wenn sie Freigaben erteilen. Apple führt dafür neue Zugriffskontrollen und deutlichere Warnhinweise ein. Ziel ist es, die Datenfreigabe an KI-Werkzeuge bewusster und kontrollierbarer zu machen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "apple",
+    "macos",
+    "ki-agenten",
+    "zugriffsrechte"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T05:43:23+01:00",
+   "quelle_titel": "Zu neugierige KI-Agenten: Apple warnt Mac-Nutzer nachdrücklich vor Freigabe",
+   "url": "https://www.heise.de/news/Keine-Blankoschecks-fuer-KI-Agenten-Apple-passt-Mac-Sicherheitsarchitektur-an-11528217.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Die Änderungen stecken in macOS 27.3, das derzeit als Beta läuft und im Dezember allgemein erscheinen soll. Betroffen sind Freigaben wie Festplattenvollzugriff, Bedienungshilfen und App-Steuerung, die KI-Agenten brauchen, um einen Mac weitgehend zu steuern. Früher forderten das vor allem Entwicklerwerkzeuge, inzwischen auch Assistenten für ein breites Publikum. Ein Bericht über Metas Agenten Muse, der Nachrichten mitgelesen haben soll, machte das Risiko sichtbar. Apple erschwert die Freigabe nun bewusst."
   },
   {
    "id": "bfe144881fd6",
@@ -1380,6 +1425,70 @@
    "paywall": true,
    "quelle_titel": "Deep Read: „Wir sind blind, weil wir so viel Geld verdienen“: Die spirituelle Seite des Milliarden-Start-ups Anthropic",
    "url": "https://www.handelsblatt.com/technik/ki/anthropic-wir-sind-blind-weil-wir-so-viel-geld-verdienen/100268549.html"
+  },
+  {
+   "id": "b91b3876f0c2",
+   "date": "2026-11-17",
+   "published": "2026-11-17T16:59+01:00",
+   "headline": "Netflix zahlt Synchronsprechern mehr, KI-Klausel bleibt strittig",
+   "summary": "Netflix verbessert die Konditionen für deutsche Synchronsprecher: Die Vergütung pro Folge steigt, zusätzlich leistet der Konzern Beiträge zur Altersvorsorge. Der eigentliche Konfliktpunkt bleibt jedoch offen, denn die umstrittene Vertragsklausel zum Einsatz künstlicher Intelligenz wird nicht gestrichen. Die Branche fürchtet, dass synthetische Stimmen langfristig menschliche Sprecher verdrängen.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "netflix",
+    "synchronisation",
+    "stimmen-ki",
+    "arbeitsrecht",
+    "medien"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T05:43:35+01:00",
+   "quelle_titel": "Synchronisation: Netflix erhöht Folgevergütung, KI-Streit bleibt ungelöst",
+   "url": "https://www.heise.de/news/Synchronisation-Netflix-erhoeht-Folgeverguetung-KI-Streit-bleibt-ungeloest-11528133.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "09d618e5ecbf",
+   "date": "2026-11-17",
+   "published": "2026-11-17T17:04+01:00",
+   "headline": "Moonshot AI richtet Kimi-Modelle stärker auf Wissenschaft aus",
+   "summary": "Der chinesische Anbieter Moonshot AI verlagert seinen Entwicklungsschwerpunkt von Programmieraufgaben hin zu wissenschaftlichen Anwendungen. Die Kimi-Modelle sollen damit vor allem Forschung und Analyse unterstützen. Der Kurswechsel zeigt, dass Modellanbieter zunehmend auf spezialisierte Einsatzfelder setzen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "moonshot ai",
+    "kimi",
+    "wissenschaft",
+    "sprachmodelle"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T05:43:23+01:00",
+   "quelle_titel": "Moonshot AI wechselt Entwicklungsfokus von Programmierung zu Wissenschaft",
+   "url": "https://www.heise.de/news/Moonshot-AI-wechselt-Entwicklungsfokus-von-Programmierung-zu-Wissenschaft-11528033.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
+   "id": "c21794a36fc7",
+   "date": "2026-11-17",
+   "published": "2026-11-17T17:09+01:00",
+   "headline": "Ulanqab: Chinas KI-Rechenzentren laufen mit Wind und Sonne",
+   "summary": "Im nordchinesischen Ulanqab entstehen in hohem Tempo große Rechenzentren für KI-Workloads. Den Strom liefern nahe gelegene Solar- und Windparks, was den Standort für energieintensive Modelle attraktiv macht. Das Beispiel verdeutlicht, wie schnell chinesische Unternehmen Rechenkapazität aufbauen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "china",
+    "rechenzentren",
+    "erneuerbare energien",
+    "rechenleistung"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T05:43:23+01:00",
+   "quelle_titel": "KI in China: Riesige Rechenzentren mit grünem Strom in Ulanqab",
+   "url": "https://www.heise.de/news/KI-in-China-Riesige-Rechenzentren-mit-gruenem-Strom-in-Ulanqab-11528183.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
    "id": "4fe40e96ea53",
