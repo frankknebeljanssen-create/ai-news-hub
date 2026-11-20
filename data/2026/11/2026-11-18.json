@@ -706,7 +706,8 @@
    "added": "2026-11-19T12:00:57+01:00",
    "praxis": true,
    "quelle_titel": "Inside the Codex sandbox",
-   "url": "https://openai.com/index/inside-the-codex-sandbox"
+   "url": "https://openai.com/index/inside-the-codex-sandbox",
+   "kontext": "Codex führt Befehle direkt in der Arbeitsumgebung der Nutzer aus, deshalb setzt OpenAI auf mehrere Schutzebenen statt auf Vertrauen allein. Sogenannte Berechtigungsprofile legen fest, was gelesen und geschrieben werden darf: Im Standardfall bleibt das Projektverzeichnis beschreibbar, Konfiguration und Git-Interna dagegen geschützt, der Netzzugang ist abgeschaltet. Offen benannt wird die Kehrseite, denn Dateien mit Zugangsdaten außerhalb des Projekts bleiben lesbar. Unternehmen können die Regeln anpassen, Entwickler die Sandbox auch für eigene Werkzeuge nutzen."
   },
   {
    "id": "3c235cda2e24",
