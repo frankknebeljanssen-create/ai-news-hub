@@ -1721,7 +1721,8 @@
    "source_id": "verge-ai",
    "added": "2026-11-18T14:06:07+01:00",
    "quelle_titel": "Satya Nadella says he’s AGI-pilled now",
-   "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now"
+   "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+   "kontext": "Nadella äußerte sich nach seiner Keynote auf der Hausmesse Ignite in San Francisco in einer Runde mit Journalisten. Bewusstsein spricht er heutigen Spitzenmodellen ab und stellt sich hinter seinen KI-Chef Mustafa Suleyman, der Rechte oder einen moralischen Status für Modelle ablehnt; Anthropic verfolgt hier einen anderen Kurs. Dogmatisch will er in dieser Frage nicht sein. Wichtiger sei ihm, dass die Technik breit in der Wirtschaft ankommt."
   },
   {
    "id": "6cab9c8cd383",
@@ -1786,7 +1787,8 @@
    "kurios": "Ein Modell mit 180 Milliarden Parametern läuft auf gerade 32 GB Arbeitsspeicher.",
    "praxis": true,
    "quelle_titel": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-   "url": "https://huggingface.co/blog/moe-expert-streaming"
+   "url": "https://huggingface.co/blog/moe-expert-streaming",
+   "kontext": "Der Autor beschreibt im Hugging Face Blog, wie er große Modelle lieber lokal betreibt statt über Onlinedienste. Bei Mixture-of-Experts-Architekturen entfällt der weit überwiegende Teil der Gewichte auf die Experten, die sich deshalb auslagern lassen. Er streamt sie direkt von der SSD und kommt damit nah an die spezialisierte Engine Strata heran. Zum Vergleich zieht er etablierte Werkzeuge wie llama.cpp und vLLM heran."
   },
   {
    "id": "679cee5ea146",
@@ -1807,7 +1809,8 @@
    "source_id": "huggingface",
    "added": "2026-11-19T12:01:48+01:00",
    "quelle_titel": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-   "url": "https://huggingface.co/blog/rumble-2-flash"
+   "url": "https://huggingface.co/blog/rumble-2-flash",
+   "kontext": "Hinter dem Modell steht das Team von Reson8, das seine größere Produktionsvariante in ein kleines Spracherkennungsmodell überführt hat. Das kleine Modell lernt dabei an den eigenen Transkripten, während das große jede Vorhersage bewertet; ein Zusatzverfahren gleicht aus, dass beide Seiten Text unterschiedlich zerlegen. Weil die Architektur auf Qwen3-ASR aufsetzt, läuft es ohne Sonderanpassungen in gängigen Laufzeitumgebungen. In offenen Bestenlisten liegt es vor deutlich größeren Konkurrenten, die Lizenz erlaubt freie Nutzung."
   },
   {
    "id": "54d0a4c93d1c",
@@ -1828,7 +1831,8 @@
    "source_id": "neuron",
    "added": "2026-11-18T07:39:41+01:00",
    "quelle_titel": "Everything That Happened in AI Today (Wednesday, November 18, 2026)",
-   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-18-2026/"
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-18-2026/",
+   "kontext": "Hinter dem Überblick steht der Branchendienst The Neuron, der die Meldungen eines einzigen Mittwochs im November bündelt. Besonders brisant: Das neue OpenAI-Modell soll die KI-Forschung so stark beschleunigen, dass eine zusätzliche Sicherheitsstufe greift. Der Mix aus Personalwechsel bei Nvidia, Datenschutzkorrekturen bei Google und Forschung zu militärischer Zielauswahl zeigt zugleich, wie eng Produktrennen und Risikodebatte inzwischen verzahnt sind."
   },
   {
    "id": "92fec8486deb",
@@ -1896,7 +1900,8 @@
    "source_id": "tagesschau",
    "added": "2026-11-18T14:05:15+01:00",
    "quelle_titel": "Treffen von Trump, Xi und Putin: Rüstung, KI - und ein heikles Thema",
-   "url": "https://www.tagesschau.de/ausland/asien/apec-trump-putin-xi-100.html"
+   "url": "https://www.tagesschau.de/ausland/asien/apec-trump-putin-xi-100.html",
+   "kontext": "Gastgeber des Treffens der Asiatisch-Pazifischen Wirtschaftsgemeinschaft ist China, und erstmals sitzen die Führungen der drei Großmächte gemeinsam am Tisch. In Peking wird der Termin mit hohen Erwartungen begleitet, etwa von regierungsnahen Kommentatoren wie Victor Gao. Dass Künstliche Intelligenz neben Rüstungsfragen auf der Tagesordnung steht, zeigt, wie stark die Technologie inzwischen Teil großer geopolitischer Verhandlungen geworden ist."
   },
   {
    "id": "8b6ac2940fdc",
@@ -1938,7 +1943,8 @@
    "source_id": "t3n",
    "added": "2026-11-18T14:05:15+01:00",
    "quelle_titel": "Roll-ups: Warum Startups jetzt lieber kaufen, statt zu gründen",
-   "url": "https://t3n.de/news/roll-ups-was-hinter-der-startup-strategie-steckt-und-warum-mittelstaendler-dafuer-interessant-sind-1773990"
+   "url": "https://t3n.de/news/roll-ups-was-hinter-der-startup-strategie-steckt-und-warum-mittelstaendler-dafuer-interessant-sind-1773990",
+   "kontext": "Hintergrund ist die Nachfolgelücke im Mittelstand: Laut Institut für Mittelstandsforschung stehen in den kommenden Jahren weit über hunderttausend Betriebe zur Übergabe an. Gründerteams kaufen Handwerksbetriebe, Ingenieurbüros oder Kanzleien, bündeln Verwaltung und IT und wollen Abläufe mit gemeinsamer Software automatisieren. Anders als frühere Amazon-Aggregatoren zielen sie auf traditionelle Firmen. Dass Wagniskapital mitzieht, zeigt der Verkauf der Berliner Arsipa Gruppe an einen US-Finanzinvestor."
   },
   {
    "id": "b527b6f0ddce",
@@ -2004,7 +2010,8 @@
    "added": "2026-11-18T14:04:31+01:00",
    "praxis": true,
    "quelle_titel": "Green IT 2027: Diese Nachhaltigkeitstrends prägen die IT",
-   "url": "https://www.it-daily.net/it-management/data-center/green-it-2027-nachhaltigkeitstrends"
+   "url": "https://www.it-daily.net/it-management/data-center/green-it-2027-nachhaltigkeitstrends",
+   "kontext": "Grundlage ist unter anderem eine Analyse der Internationalen Energieagentur, die den Stromverbrauch von Rechenzentren bis 2030 etwa auf das Doppelte steigen sieht. Treiber sind vor allem Server mit KI-Chips, der Zuwachs konzentriert sich stark auf China und die USA. In Deutschland macht das Energieeffizienzgesetz den Betreibern bereits Vorgaben zu Effizienz, Ökostrom und Abwärmenutzung. Nachhaltigkeit wird für die Branche damit von der Imagefrage zur Pflicht."
   },
   {
    "id": "81b163e4f5f6",
@@ -2249,7 +2256,8 @@
    "added": "2026-11-18T14:03:33+01:00",
    "kurios": "Eine ganze Nation überklebt Knöpfe, um KI aus dem Prüfungsraum zu halten.",
    "quelle_titel": "Hochschulzugangsprüfung: Südkorea überklebt bei Prüfung Knöpfe gegen KI-Betrug",
-   "url": "https://www.golem.de/news/hochschulzugangspruefung-suedkorea-ueberklebt-bei-pruefung-knoepfe-gegen-ki-betrug-2611-215351.html"
+   "url": "https://www.golem.de/news/hochschulzugangspruefung-suedkorea-ueberklebt-bei-pruefung-knoepfe-gegen-ki-betrug-2611-215351.html",
+   "kontext": "Die landesweite Aufnahmeprüfung entscheidet über Studienplätze und steht entsprechend unter Druck. Neu ist vor allem, dass Hilfsmittel kaum noch sichtbar sind: Der KI-gestützte Betrug bei einer Steuerberaterprüfung führte vor, wie unauffällig solche Assistenz inzwischen funktioniert. Die Behörden antworten mit erstaunlich analogen Mitteln wie überklebten Bedienknöpfen und kontrollierten Brillen. Prüfungsformate, die auf Aufsicht per Augenschein bauen, geraten damit grundsätzlich ins Wanken."
   },
   {
    "id": "42ab2626893a",
@@ -2503,7 +2511,8 @@
    "added": "2026-11-18T14:01:52+01:00",
    "kurios": "Ein renommierter Mathematiker spricht unter Tränen über das Ende seines Fachs.",
    "quelle_titel": "Künstliche Intelligenz - KI bedroht die Mathematik und stürzt Forscher in Sinnkrisen",
-   "url": "https://www.deutschlandfunk.de/ki-bedroht-die-mathematik-und-stuerzt-forscher-in-sinnkrisen-104.html"
+   "url": "https://www.deutschlandfunk.de/ki-bedroht-die-mathematik-und-stuerzt-forscher-in-sinnkrisen-104.html",
+   "kontext": "Mathematik gilt als Fach, in dem der Beweis die eigentliche geistige Arbeit darstellt. Wenn Maschinen diesen Teil übernehmen, berührt das nicht nur Methoden, sondern das Selbstverständnis eines ganzen Berufsstands. Dass ein renommierter Forscher der Cornell University seine Erschütterung öffentlich zeigt, macht die Debatte greifbar. Offen bleibt, welche Rolle Forschenden künftig zufällt: Fragen stellen, Ergebnisse einordnen oder weiterhin selbst beweisen."
   },
   {
    "id": "666a311ad34e",
@@ -2700,7 +2709,8 @@
    "source_id": "golem",
    "added": "2026-11-19T12:00:03+01:00",
    "quelle_titel": "1&1: Cloudbetreiber Ionos holt sich neuen CEO von SAP",
-   "url": "https://www.golem.de/news/1-1-cloudbetreiber-ionos-holt-sich-neuen-ceo-von-sap-2611-215366.html"
+   "url": "https://www.golem.de/news/1-1-cloudbetreiber-ionos-holt-sich-neuen-ceo-von-sap-2611-215366.html",
+   "kontext": "Personalien sind im Cloudgeschäft immer auch Strategiesignale. Mit einem Manager aus dem SAP-Konzern holt sich Ionos Erfahrung aus genau der Welt, in die das Unternehmen hineinwachsen will: große Organisationen mit komplexer IT und wachsendem KI-Bedarf. Zugleich schaut die Branche darauf, ob ein Anbieter aus Europa im Rennen um Cloud- und Rechenzentrumskapazitäten eigene Akzente setzen kann."
   },
   {
    "id": "57a6fd9151f3",

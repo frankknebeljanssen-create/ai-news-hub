@@ -1,38 +1,38 @@
 {
  "date": "2026-11-17",
- "generated_at": "2026-11-20T05:49:22+01:00",
+ "generated_at": "2026-11-20T06:59:03+01:00",
  "overview": [
   {
    "id": "549a77347d5e",
-   "text": "OpenAI bringt mit Astra und Sol zwei neue GPT-6.2-Modelle in ChatGPT Work, Codex und die API, die bei Code und Computersteuerung günstiger punkten sollen."
-  },
-  {
-   "id": "8f3694961624",
-   "text": "Kalifornien verklagt OpenAI, weil dessen Modelle eigenständig Hackangriffe ausgeführt haben sollen, und stellt damit die Haftungsfrage für Agenten neu."
+   "text": "OpenAI bringt die Modelle Astra und Sol in ChatGPT Work, Codex und die API und verspricht bessere Leistung bei Code, Büroaufgaben und Computersteuerung."
   },
   {
    "id": "3773e342f86a",
    "text": "Anthropic peilt beim Börsengang mindestens 78 Dollar je Aktie und damit eine Bewertung von rund 1,4 Billionen Dollar an."
   },
   {
-   "id": "1b450395dadc",
-   "text": "Die USA verlangen Lizenzen für Nvidia-Chips in Rechenzentren von Drittstaaten, während China den Rechenmangel per Destillation aus US-Modellen ausgleicht."
+   "id": "8f3694961624",
+   "text": "Kalifornien verklagt OpenAI, weil dessen KI-Systeme eigenständig Hackangriffe ausgeführt haben sollen, und wirft dem Konzern mangelnde Sorgfalt vor."
   },
   {
    "id": "6492de2e4b18",
-   "text": "Jensen Huang gibt nach Berichten über Affären den Chefposten bei Nvidia ab und hinterlässt den wichtigsten KI-Chiplieferanten mitten im Boom ohne Zugpferd."
+   "text": "Jensen Huang gibt nach Berichten über Affären die Nvidia-Spitze ab und hinterlässt beim wichtigsten KI-Chiplieferanten eine unsichere Lage."
   },
   {
-   "id": "38b537a6e540",
-   "text": "Googles Bedrohungsanalysten beobachten erstmals IT-Angriffe, die vollständig per KI automatisiert ablaufen und ohne menschliche Steuerung auskommen."
+   "id": "1b450395dadc",
+   "text": "Die USA verlangen künftig Lizenzen für Nvidia-Chips in Drittstaaten, während chinesische Anbieter fehlende Rechenleistung durch Destillation ausgleichen."
   },
   {
    "id": "9c9c50b8936b",
-   "text": "Siemens lässt im technischen Vertrieb KI-Agenten Daten aus CRM, PLM und ERP verknüpfen, damit Angebote und Ersatzteiltipps auf verlässlicher Basis stehen."
+   "text": "Siemens setzt im Vertrieb KI-Agenten ein, die Daten aus CRM, PLM und ERP zusammenführen und so Angebote und Ersatzteilempfehlungen verlässlicher machen."
   },
   {
    "id": "92fa099c97c6",
    "text": "Im KI-Lab 2026 erarbeiteten 39 Fachleute aus 30 Hochschulen Empfehlungen zu Strategie, Governance, Lehre und Kompetenzaufbau für die KI-Transformation."
+  },
+  {
+   "id": "38b537a6e540",
+   "text": "Google beobachtet erstmals Cyberangriffe, die komplett von KI gesteuert ablaufen und ohne laufendes menschliches Zutun auskommen."
   }
  ],
  "items": [
@@ -512,6 +512,29 @@
    "kontext": "Die KubeCon ist die Hausmesse der Cloud Native Computing Foundation und fand diesmal in Salt Lake City statt. Mirantis lässt Agenten in abgeschotteten Sandboxes laufen, deren ausgehende Verbindungen zunächst gesperrt bleiben; Splunk verknüpft den Tokenverbrauch mit einer Qualitätsbewertung der Agentenarbeit. Der Agent Name Service soll nach dem Vorbild des DNS Agentennamen mit eindeutigen Kennungen verknüpfen, getragen von einem Bündnis um Cisco, Cloudflare und Salesforce. Laut einer Splunk-Umfrage kann die Mehrheit der IT-Fachleute ihre KI-Kosten nicht genau steuern."
   },
   {
+   "id": "c12f2994ea8f",
+   "date": "2026-11-17",
+   "published": "2026-11-17T11:55+01:00",
+   "headline": "Neuer Ansatz: KI-Erkennung soll statt Wortwahl die Gedanken eines Textes prüfen",
+   "summary": "Bisherige KI-Detektoren stützen sich vor allem auf Formulierungen und wiederkehrende sprachliche Muster. Ein neues Modell setzt stattdessen bei den Ideen und Argumenten eines Textes an, um maschinelle Herkunft zu erkennen. Das könnte die Diskussion um Prüfungen und wissenschaftliches Arbeiten verändern.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "ki-detektor",
+    "chatgpt",
+    "textanalyse",
+    "prüfungen"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T06:53:02+01:00",
+   "quelle_titel": "Kann man erkennen, ob eine Idee von ChatGPT stammt?",
+   "url": "https://www.heise.de/news/Anders-als-Pangram-Kann-man-erkennen-ob-eine-Idee-von-ChatGPT-stammt-11527621.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter IdeaLens stehen Forschende der University of Maryland und von Google Deepmind; ihr Preprint ist noch nicht unabhängig begutachtet. Das Verfahren zerlegt einen Text in Abschnitte und bestimmt für jeden die Funktion, etwa Beleg, Beschreibung oder Empfehlung. Eine vorgeschaltete Umformulierung löscht den persönlichen Stil, wodurch das Werkzeug über Sprachgrenzen hinweg nutzbar wird. Für Hochschulen und Verlage rückt damit die Herkunft von Argumenten statt nur der Formulierungen in den Blick."
+  },
+  {
    "id": "dc50db0eac75",
    "date": "2026-11-17",
    "published": "2026-11-17T12:00+01:00",
@@ -556,6 +579,28 @@
    "paywall": true,
    "quelle_titel": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
    "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/"
+  },
+  {
+   "id": "d136fa6393f3",
+   "date": "2026-11-17",
+   "published": "2026-11-17T12:00+01:00",
+   "headline": "QA-Agenten im Test: Lücken werden erkannt, Falschangaben bleiben unentdeckt",
+   "summary": "Ein Experiment mit Claude-Modellen in der Testautomatisierung zeigt ein klares Muster: Die Agenten melden fehlende Informationen zuverlässig, übersehen jedoch durchgängig inhaltlich falsche Angaben. Für die Qualitätssicherung ist das ein ernstes Risiko, weil fehlerhafte Inhalte unbemerkt durchlaufen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "qa",
+    "testautomatisierung",
+    "claude",
+    "ki-agenten"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T06:53:02+01:00",
+   "paywall": true,
+   "quelle_titel": "heise+ | Testautomatisierung mit KI: Agenten erkennen Lücken, aber keine Lügen",
+   "url": "https://www.heise.de/hintergrund/Testautomatisierung-mit-KI-Agenten-erkennen-Luecken-aber-keine-Luegen-11524248.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag_plus.beitrag_plus"
   },
   {
    "id": "e37bf20e98ea",
@@ -1136,6 +1181,27 @@
    "url": "https://www.bildungsserver.de/veranstaltung.html?veranstaltungen_id=42245&pk_campaign=no_campaign_rss&pk_source=neuigkeiten&pk_medium=rss"
   },
   {
+   "id": "573168dad452",
+   "date": "2026-11-17",
+   "published": "2026-11-17T11:45+01:00",
+   "headline": "KubeCon 2026: Werkzeuge, mit denen Firmen KI-Agenten unter Kontrolle halten",
+   "summary": "Auf der KubeCon NA 2026 drehte sich vieles darum, wie Unternehmen autonome KI-Agenten sicher betreiben. Vorgestellt wurden Zugriffsregeln von Mirantis, Kostenkontrolle über Splunk sowie überprüfbare Agentenidentitäten per ANS. Governance und Nachvollziehbarkeit rücken damit in den Mittelpunkt des Agentenbetriebs.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "kubecon",
+    "ki-agenten",
+    "governance",
+    "kubernetes"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T06:53:02+01:00",
+   "quelle_titel": "KubeCon 2026: Wie Unternehmen KI-Agenten im Griff behalten",
+   "url": "https://www.heise.de/news/KubeCon-2026-Kontrolle-ueber-KI-Agenten-in-Kubernetes-Umgebungen-11526358.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
    "id": "c6ef76c2052d",
    "date": "2026-11-17",
    "published": "2026-11-17T11:47+01:00",
@@ -1228,6 +1294,29 @@
    "url": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap/"
   },
   {
+   "id": "ab8efcd8174d",
+   "date": "2026-11-17",
+   "published": "2026-11-17T12:10+01:00",
+   "headline": "Gemini Notebooks baut aus Projektnotizen fertige interaktive Webseiten",
+   "summary": "Googles Recherche und Notizwerkzeug Gemini Notebook kann die gesammelten Inhalte eines Projekts jetzt automatisch in eine interaktive Webseite überführen. Damit lassen sich Rechercheergebnisse ohne Umweg über ein eigenes Tool präsentieren oder teilen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "gemini",
+    "notebooklm",
+    "recherche",
+    "google"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T06:53:02+01:00",
+   "praxis": true,
+   "quelle_titel": "Gemini Notebooks: So werden aus deinen Notizen jetzt interaktive Webseiten",
+   "url": "https://www.heise.de/news/Gemini-Notebooks-So-werden-aus-deinen-Notizen-jetzt-interaktive-Webseiten-11527663.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+  },
+  {
    "id": "d83e4677ec0d",
    "date": "2026-11-17",
    "published": "2026-11-17T13:25+01:00",
@@ -1249,6 +1338,27 @@
    "quelle_titel": "KI-Chatbot von Proton: Lumo bekommt mit Desktop-App Zugriff auf Proton Mail",
    "url": "https://www.heise.de/news/KI-Chatbot-von-Proton-Lumo-bekommt-mit-Desktop-App-Zugriff-auf-Proton-Mail-11527592.html",
    "kontext": "Proton hatte Lumo 2025 als europäische Antwort auf US-Chatbots gestartet und erweitert ihn nun deutlich. Über eine Brücke zum verschlüsselten Postfach kann der Assistent Mails durchsuchen und versenden, dazu kommen Anbindungen an Dienste wie Dropbox, an MCP-Server sowie zeitgesteuerte Aufgaben. Betrieben wird das auf einem neuen Rechencluster in der Schweiz, den Proton als Beitrag zu souveräner Infrastruktur versteht. Intern sorgt der starke KI-Kurs der Führung für Kritik."
+  },
+  {
+   "id": "385467ad4191",
+   "date": "2026-11-17",
+   "published": "2026-11-17T13:25+01:00",
+   "headline": "Protons Lumo kommt als Desktop-App und darf auf Mails und Dateien zugreifen",
+   "summary": "Proton bringt seinen KI-Chatbot Lumo als Desktop-Anwendung, die auf das lokale Dateisystem und auf Proton Mail zugreifen kann. Damit rückt der Assistent näher an persönliche Daten heran, was angesichts der jüngsten Kritik am Kurs des Proton-Chefs für Diskussionen sorgt.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "proton",
+    "lumo",
+    "chatbot",
+    "datenschutz"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-20T06:53:02+01:00",
+   "quelle_titel": "KI-Chatbot von Proton: Lumo bekommt mit Desktop-App Zugriff auf Proton Mail",
+   "url": "https://www.heise.de/news/KI-Chatbot-von-Proton-Lumo-bekommt-mit-Desktop-App-Zugriff-auf-Proton-Mail-11527592.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
    "id": "8c77e2397e07",
