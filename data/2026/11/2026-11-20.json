@@ -58,33 +58,7 @@
    "quelle_titel": "KI-Firma - Anthropic startet mit kräftigem Kursplus an der Börse",
    "url": "https://www.deutschlandfunk.de/anthropic-startet-mit-kraeftigem-kursplus-an-der-boerse-102.html",
    "kontext": "Mit dem Schritt an die Nasdaq sind Anteile des US-Entwicklers erstmals öffentlich handelbar, zuvor war das Unternehmen auf privates Kapital angewiesen. Dass der erste Kurs deutlich über dem Ausgabepreis lag, deutet auf starke Nachfrage hin. Die Bewertung im Billionenbereich rückt Anthropic in die Nähe der größten Technologiekonzerne. Der Handelsstart gilt damit auch als Stimmungstest für die Erwartungen an die gesamte KI-Branche.",
-   "also": [
-    {
-     "source": "Anthropic",
-     "url": "https://www.anthropic.com/news/ipo-close"
-    },
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4251228/anthropic-startet-mit-deutlichem-kursplus-an-der-boerse.html"
-    },
-    {
-     "source": "Latent Space",
-     "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/"
-    },
-    {
-     "source": "The Rundown AI",
-     "url": "https://www.therundown.ai/articles/anthropic-pulls-off-the-biggest-ipo-ever"
-    },
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/finanzen/boerse/anthropic-aktie-so-lief-der-erste-handelstag-nach-dem-ipo/100271407.html",
-     "paywall": true
-    },
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Anthropics-IPO-Gemischtes-Fazit-trotz-Rekord-Boersengangs-11528169.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    }
-   ]
+   "dup_of": "e7354365dbd8"
   },
   {
    "id": "e7354365dbd8",
@@ -107,7 +81,29 @@
    "quelle_titel": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
    "url": "https://www.anthropic.com/news/ipo-close",
    "kontext": "Anthropic entstand 2021 aus einem Kreis früherer OpenAI-Forscher um Dario Amodei und wuchs vor allem bei Firmenkunden, getrieben vom Programmierwerkzeug Claude Code. Der Ausgabepreis lag über der zunächst geplanten Spanne, der Erlös übertrifft den bisherigen Rekord von SpaceX. Bei der Privatplatzierung stiegen Chip- und Cloudkonzerne ein, die Anthropic gleichzeitig Hardware verkaufen. Trotz des Wachstums stehen hohe Verluste in den Büchern, und ein früher Geldgeber distanziert sich.",
-   "dup_of": "c23ae90b0337"
+   "also": [
+    {
+     "source": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/anthropic-startet-mit-kraeftigem-kursplus-an-der-boerse-102.html"
+    },
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4251228/anthropic-startet-mit-deutlichem-kursplus-an-der-boerse.html"
+    },
+    {
+     "source": "Latent Space",
+     "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/"
+    },
+    {
+     "source": "The Rundown AI",
+     "url": "https://www.therundown.ai/articles/anthropic-pulls-off-the-biggest-ipo-ever"
+    },
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/finanzen/boerse/anthropic-aktie-so-lief-der-erste-handelstag-nach-dem-ipo/100271407.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "74696319ce41",
@@ -182,7 +178,7 @@
    "kurios": "Größter Börsengang der Geschichte für ein Unternehmen, das es vor fünf Jahren nicht gab.",
    "quelle_titel": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
    "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
-   "dup_of": "c23ae90b0337"
+   "dup_of": "e7354365dbd8"
   },
   {
    "id": "0fdabcb1981c",
@@ -227,7 +223,7 @@
    "kurios": "Zwei Billionen Dollar Börsenwert für eine erst sechs Jahre alte Firma",
    "quelle_titel": "Anthropic startet mit deutlichem Kursplus an der Börse",
    "url": "https://www.cio.de/article/4251228/anthropic-startet-mit-deutlichem-kursplus-an-der-boerse.html",
-   "dup_of": "c23ae90b0337"
+   "dup_of": "e7354365dbd8"
   },
   {
    "id": "c39c08a515b5",
@@ -249,7 +245,7 @@
    "added": "2026-11-21T00:10:01+01:00",
    "quelle_titel": "Anthropic pulls off the biggest IPO ever",
    "url": "https://www.therundown.ai/articles/anthropic-pulls-off-the-biggest-ipo-ever",
-   "dup_of": "c23ae90b0337"
+   "dup_of": "e7354365dbd8"
   },
   {
    "id": "5c1f86b1cf00",
@@ -343,25 +339,29 @@
    "kontext": "Hinter der Ankündigung steht ein Mathematiker, der bei Anthropic arbeitet und dafür bekannt ist, große offene Probleme mit Sprachmodellen anzugehen. Die Vermutung von 1859 betrifft die Verteilung der Primzahlen; zahlreiche weitere Ergebnisse bauen auf ihrer Richtigkeit auf, weshalb sie zu den Millennium-Problemen zählt. Unabhängig geprüft hat den Beweis bislang niemand, und Anthropic selbst hält sich zurück. Veröffentlicht wurde er offenbar erst nach dem Börsengang des Unternehmens.",
    "also": [
     {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/wissenschaft/2026-11/riemannsche-vermutung-levent-alpoege-anthropic-ki-mathematik",
+     "paywall": true
+    },
+    {
+     "source": "Latent Space",
+     "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/"
     },
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
     },
     {
-     "source": "Deutschlandfunk",
-     "url": "https://www.deutschlandfunk.de/anthropic-forscher-will-riemannsche-hypothese-mit-ki-geloest-haben-106.html"
-    },
-    {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/wissenschaft/2026-11/riemannsche-vermutung-levent-alpoege-anthropic-ki-mathematik",
-     "paywall": true
-    },
-    {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/news/claude-assisted-riemann-hypothesis-proof-claim/"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+    },
+    {
+     "source": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/anthropic-forscher-will-riemannsche-hypothese-mit-ki-geloest-haben-106.html"
     }
    ]
   },
@@ -799,7 +799,7 @@
    "paywall": true,
    "quelle_titel": "Anthropic-Börsengang: So lief der erste Handelstag von Anthropic",
    "url": "https://www.wiwo.de/finanzen/boerse/anthropic-aktie-so-lief-der-erste-handelstag-nach-dem-ipo/100271407.html",
-   "dup_of": "c23ae90b0337"
+   "dup_of": "e7354365dbd8"
   },
   {
    "id": "656b9d0bc943",
@@ -822,12 +822,7 @@
    "quelle_titel": "Kaliforniens Justiz erhöht wegen China-Geschäft Druck auf Nvidia",
    "url": "https://www.tagesschau.de/wirtschaft/kalifornien-justiz-aufklaerung-nvidia-chips-china-100.html",
    "kontext": "Hinter dem Vorstoß steht Kaliforniens Generalstaatsanwalt Rob Bonta, der Nvidia einen förmlichen Fragenkatalog zugestellt hat. Er will klären, ob leistungsstarke Chips oder Interna nach China flossen und ob der Konzern Anleger und Öffentlichkeit korrekt informiert hat. Ausgangspunkt sind die Umstände von Huangs Rücktritt, darunter eine Managerin des Kunden Megaspeed, die US-Behörden mit dem chinesischen Geheimdienst in Verbindung bringen. Im Dezember soll Huang zudem im Kongress aussagen.",
-   "also": [
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Kalifornien-will-von-Nvidia-Aufklaerung-zu-China-Lieferungen-11532235.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    }
-   ]
+   "dup_of": "7854f8aa5426"
   },
   {
    "id": "7bb7489f8cbb",
@@ -1015,7 +1010,12 @@
    "quelle_titel": "Nvidia unter Druck: Kalifornien fordert Antworten zu China-Geschäften",
    "url": "https://www.heise.de/news/Kalifornien-will-von-Nvidia-Aufklaerung-zu-China-Lieferungen-11532235.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "Ausgelöst wurde die Affäre durch Berichte über Beziehungen des früheren Chefs Jensen Huang, darunter zu einer Managerin eines Nvidia-Kunden, die im Verdacht steht, von Chinas Geheimdienst angeworben worden zu sein. Generalstaatsanwalt Rob Bonta prüft per Fragenkatalog, ob leistungsstarke Chips oder vertrauliche Daten nach China gelangten und ob Anleger falsch informiert wurden. Im Dezember muss Huang zudem vor Ausschüsse des US-Kongresses.",
-   "dup_of": "656b9d0bc943"
+   "also": [
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/kalifornien-justiz-aufklaerung-nvidia-chips-china-100.html"
+    }
+   ]
   },
   {
    "id": "7ff9a002bbdc",
@@ -1400,18 +1400,8 @@
    "added": "2026-11-21T00:13:15+01:00",
    "quelle_titel": "Marktbericht: KI-Kater nach dem Anthropic-Börsengang",
    "url": "https://www.tagesschau.de/wirtschaft/boerse/ki-kater-100.html",
-   "also": [
-    {
-     "source": "tagesschau",
-     "url": "https://www.tagesschau.de/wirtschaft/boerse/anthropic-ki-tech-werte-boersen-100.html"
-    },
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/finanzen/boerse/dow-jones-nasdaq-nasdaq-mit-staerkstem-wochenverlust-seit-maerz-2020/100271639.html",
-     "paywall": true
-    }
-   ],
-   "kontext": "Anthropic ging zu einem Ausgabepreis von 83 Dollar an die Nasdaq, einer der größten Börsengänge überhaupt. Nach starkem Debüt brach die Aktie am zweiten Handelstag kräftig ein. Anleger hatten gehofft, der Rekorderlös werde die Stimmung im zuletzt gebeutelten Technologiesektor drehen. Stattdessen zeigt der Kursrutsch, wie nervös der Markt beim Thema künstliche Intelligenz inzwischen reagiert."
+   "kontext": "Anthropic ging zu einem Ausgabepreis von 83 Dollar an die Nasdaq, einer der größten Börsengänge überhaupt. Nach starkem Debüt brach die Aktie am zweiten Handelstag kräftig ein. Anleger hatten gehofft, der Rekorderlös werde die Stimmung im zuletzt gebeutelten Technologiesektor drehen. Stattdessen zeigt der Kursrutsch, wie nervös der Markt beim Thema künstliche Intelligenz inzwischen reagiert.",
+   "dup_of": "0633772c4c5d"
   },
   {
    "id": "4600d4652449",
@@ -1599,6 +1589,14 @@
     {
      "source": "stern Digital",
      "url": "https://www.stern.de/digital/kuenstliche-intelligenz--anthropic-aktie-faellt-am-zweiten-handelstag-deutlich-38584838.html"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Anthropics-IPO-Gemischtes-Fazit-trotz-Rekord-Boersengangs-11528169.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/boerse/anthropic-ki-tech-werte-boersen-100.html"
     }
    ]
   },
@@ -1647,7 +1645,7 @@
    "quelle_titel": "Anthropic-Aktie stürzt ab - KI-Angst an der Börse",
    "url": "https://www.tagesschau.de/wirtschaft/boerse/anthropic-ki-tech-werte-boersen-100.html",
    "kontext": "Anthropic gehört zu den wichtigsten Abnehmern von KI-Chips und ist nun selbst an der Nasdaq notiert. Das Debüt fiel deutlich besser aus als erwartet, am zweiten Handelstag folgte der kräftige Rückschlag. Parallel geben Technologie- und KI-Werte weltweit nach, was die Nervosität über die erreichten Bewertungen zeigt. Der Börsengang wird damit auch zum Test für die eng verflochtene Finanzierung zwischen Modellanbietern und ihren Geldgebern.",
-   "dup_of": "7fe6568f2785"
+   "dup_of": "09e795681258"
   },
   {
    "id": "61e2786f2ee5",
@@ -1669,7 +1667,7 @@
    "added": "2026-11-21T00:10:48+01:00",
    "quelle_titel": "Anthropics IPO: Gemischtes Fazit trotz Rekord-Börsengangs",
    "url": "https://www.heise.de/news/Anthropics-IPO-Gemischtes-Fazit-trotz-Rekord-Boersengangs-11528169.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "c23ae90b0337"
+   "dup_of": "09e795681258"
   },
   {
    "id": "fdffaabd5d7b",
@@ -1721,7 +1719,18 @@
    "quelle_titel": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
    "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
    "kontext": "Trump äußerte sich bei einer Pressekonferenz nach seinem Treffen mit Xi Jinping und Wladimir Putin und legte keine Details vor; nach eigener Darstellung war es der erste öffentliche Vorstoß dazu. Als Begründung nannte er die Sorge, China könne sich die Anlagen sonst sichern, so wie es zuvor bei der Chipproduktion gelaufen sei. Vor Ort stemmen sich derweil Bundesstaaten und Kommunen gegen neue Genehmigungen.",
-   "dup_of": "9a6df55cf26d"
+   "also": [
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/politik/ausland/kuenstliche-intelligenz-trump-droht-us-firmen-wegen-rechenzentren-im-ausland/100271659.html",
+     "paywall": true
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-trump-droht-us-firmen-wegen-rechenzentren-im-ausland-16309540.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "9a6df55cf26d",
@@ -1744,18 +1753,8 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Trump droht US-Firmen wegen Rechenzentren im Ausland",
    "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-trump-droht-us-firmen-wegen-rechenzentren-im-ausland-16309540.html",
-   "also": [
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/politik/ausland/kuenstliche-intelligenz-trump-droht-us-firmen-wegen-rechenzentren-im-ausland/100271659.html",
-     "paywall": true
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
-    }
-   ],
-   "kontext": "Trump äußerte die Drohung bei einer Pressekonferenz nach seinem Treffen mit Xi Jinping und Wladimir Putin, offenbar ohne vorherige Abstimmung mit der eigenen Regierungsmannschaft. Details nannte er nicht. Seine Begründung: Bei Chips habe die Abwanderung dem Land geschadet, bei Rechenzentren drohe China sonst alles zu übernehmen. Pikant ist der Widerspruch dazu, dass Bundesstaaten und Kommunen gleichzeitig neue Auflagen für Bauanträge erlassen."
+   "kontext": "Trump äußerte die Drohung bei einer Pressekonferenz nach seinem Treffen mit Xi Jinping und Wladimir Putin, offenbar ohne vorherige Abstimmung mit der eigenen Regierungsmannschaft. Details nannte er nicht. Seine Begründung: Bei Chips habe die Abwanderung dem Land geschadet, bei Rechenzentren drohe China sonst alles zu übernehmen. Pikant ist der Widerspruch dazu, dass Bundesstaaten und Kommunen gleichzeitig neue Auflagen für Bauanträge erlassen.",
+   "dup_of": "08b074f7bce0"
   },
   {
    "id": "404c77bb5678",
@@ -1778,7 +1777,7 @@
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: Trump droht US-Firmen wegen Rechenzentren im Ausland",
    "url": "https://www.wiwo.de/politik/ausland/kuenstliche-intelligenz-trump-droht-us-firmen-wegen-rechenzentren-im-ausland/100271659.html",
-   "dup_of": "9a6df55cf26d"
+   "dup_of": "08b074f7bce0"
   },
   {
    "id": "226d77204de7",
@@ -1852,13 +1851,7 @@
    "added": "2026-11-21T00:10:48+01:00",
    "quelle_titel": "KI-Datenklau: OpenAI macht Nachahmer-Modellen das Leben schwer",
    "url": "https://the-decoder.de/ki-datenklau-openai-macht-nachahmer-modellen-das-leben-schwer/",
-   "kontext": "Die internen Gedankengänge großer Modelle sind wertvoll, weil Konkurrenten sie abgreifen und damit eigene Systeme nachtrainieren können. OpenAI wehrt sich nun mit gezieltem Training, Filtern für Ein- und Ausgaben sowie Sperren, die ältere Modelle vom Zugriff ausschließen. Auch Anthropic geht gegen solche Destillationsangriffe vor und sperrt massenhaft Konten. Der Schutz des Denkprozesses wird damit zum eigenen Wettbewerbsfeld der Anbieter.",
-   "also": [
-    {
-     "source": "OpenAI",
-     "url": "https://openai.com/index/combatting-adversarial-distillation"
-    }
-   ]
+   "kontext": "Die internen Gedankengänge großer Modelle sind wertvoll, weil Konkurrenten sie abgreifen und damit eigene Systeme nachtrainieren können. OpenAI wehrt sich nun mit gezieltem Training, Filtern für Ein- und Ausgaben sowie Sperren, die ältere Modelle vom Zugriff ausschließen. Auch Anthropic geht gegen solche Destillationsangriffe vor und sperrt massenhaft Konten. Der Schutz des Denkprozesses wird damit zum eigenen Wettbewerbsfeld der Anbieter."
   },
   {
    "id": "c989db0d32fd",
@@ -1934,7 +1927,12 @@
    "quelle_titel": "Dow Jones, Nasdaq: Nasdaq mit stärkstem Wochenverlust seit März 2020",
    "url": "https://www.wiwo.de/finanzen/boerse/dow-jones-nasdaq-nasdaq-mit-staerkstem-wochenverlust-seit-maerz-2020/100271639.html",
    "kontext": "Auslöser der Nervosität sind Zweifel daran, wie der teure KI-Ausbau finanziert werden soll. Besonders hart traf es Halbleiterwerte: AMD rutschte nach dem Bericht eines Investors ab, der zugleich auf fallende Kurse gewettet hatte, und Taiwans technologielastige Börse steuerte auf ihre schwächste Woche seit 1991 zu. Auch der DAX gab deutlich nach. Selbst Anthropics Aktie fiel nach dem Handelsstart von ihrem Hoch zurück.",
-   "dup_of": "7fe6568f2785"
+   "also": [
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/boerse/ki-kater-100.html"
+    }
+   ]
   },
   {
    "id": "9d0ba175d56f",
@@ -2134,13 +2132,7 @@
    "kurios": "Aufsichtsbehörde rät komplett vom Kauf ab, weil Brillen gefährliche Tipps geben.",
    "quelle_titel": "Niederländische Datenschutzbehörde warnt vor Nutzung KI-gestützter Smart Glasses",
    "url": "https://www.heise.de/news/Niederlaendische-Datenschutzbehoerde-warnt-vor-Nutzung-KI-gestuetzter-Smart-Glasses-11531921.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Die Autoriteit Persoonsgegevens prüfte sechs Brillentypen, nennt aber keine Produkte; in den Niederlanden erhältlich sind laut Reuters unter anderem Modelle von Meta, Rokid und HTC. In einem simulierten Notfall behauptete eine Brille, sie habe einen Rettungswagen gerufen, was frei erfunden war. Verbieten darf die Behörde nichts, dafür sind die Produktsicherheitsbehörden zuständig, doch der AI Act könnte ihr mehr Befugnisse bringen. Norwegen plant bereits ein örtlich begrenztes Verbot.",
-   "also": [
-    {
-     "source": "heise KI",
-     "url": "https://www.heise.de/news/Freitag-London-muss-Apple-Hintertuer-zugeben-Niederlande-warnen-vor-KI-Brillen-11531935.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
-    }
-   ]
+   "kontext": "Die Autoriteit Persoonsgegevens prüfte sechs Brillentypen, nennt aber keine Produkte; in den Niederlanden erhältlich sind laut Reuters unter anderem Modelle von Meta, Rokid und HTC. In einem simulierten Notfall behauptete eine Brille, sie habe einen Rettungswagen gerufen, was frei erfunden war. Verbieten darf die Behörde nichts, dafür sind die Produktsicherheitsbehörden zuständig, doch der AI Act könnte ihr mehr Befugnisse bringen. Norwegen plant bereits ein örtlich begrenztes Verbot."
   },
   {
    "id": "d6b9e197cb70",
@@ -2411,8 +2403,7 @@
    "added": "2026-11-21T00:14:00+01:00",
    "quelle_titel": "Combatting adversarial distillation",
    "url": "https://openai.com/index/combatting-adversarial-distillation",
-   "kontext": "Hinter dem Thema steht die Sorge, dass Nachbauten die Sicherheitsvorkehrungen des Originals nicht mitbringen und etwa im Cyberbereich missbraucht werden. Besonders wertvoll für Angreifer sind die internen Denkschritte der Modelle, weil sie mehr verraten als die fertige Antwort. OpenAI sperrt daher laufend Konten, hinter denen koordinierte Kampagnen stehen. Auch Anthropic geht gegen Destillation vor und wirbt für eine gemeinsame Antwort von Branche und Politik.",
-   "dup_of": "2a138eacf44b"
+   "kontext": "Hinter dem Thema steht die Sorge, dass Nachbauten die Sicherheitsvorkehrungen des Originals nicht mitbringen und etwa im Cyberbereich missbraucht werden. Besonders wertvoll für Angreifer sind die internen Denkschritte der Modelle, weil sie mehr verraten als die fertige Antwort. OpenAI sperrt daher laufend Konten, hinter denen koordinierte Kampagnen stehen. Auch Anthropic geht gegen Destillation vor und wirbt für eine gemeinsame Antwort von Branche und Politik."
   },
   {
    "id": "b9131cd47589",
@@ -2534,11 +2525,6 @@
    "kontext": "Apple hatte proaktive KI schon mit Apple Intelligence angekündigt, kam aber nur stockend voran. Nun deuten Ausschreibungen auf einen Agenten, der den Rechner wie ein Mensch bedient, mit Berechtigungsmodellen und abgeschotteten Umgebungen als Verkaufsargument. Parallel erschwert Apple in macOS fremden Agenten den Zugriff deutlich, offiziell aus Sicherheitsgründen. Wettbewerber lesen darin eher den Versuch, sich Zeit für die eigene Lösung zu verschaffen.",
    "also": [
     {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-apple-entwickelt-eigenen-ki-agenten/100271467.html",
-     "paywall": true
-    },
-    {
      "source": "The Decoder",
      "url": "https://the-decoder.de/apple-entwickelt-eigenen-ki-agenten-und-erschwert-der-konkurrenz-den-zugriff-auf-seine-geraete/"
     },
@@ -2549,6 +2535,11 @@
     {
      "source": "Golem",
      "url": "https://www.golem.de/news/stellenanzeigen-apple-baut-ki-agenten-der-apps-und-browser-selbst-bedient-2611-215449.html"
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-apple-entwickelt-eigenen-ki-agenten/100271467.html",
+     "paywall": true
     },
     {
      "source": "t3n",
@@ -2836,11 +2827,11 @@
    "also": [
     {
      "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/meta-muse-ai-agent-private-signal-messages/"
+     "url": "https://www.theneuron.ai/newsletter/meta-s-muse-ai-agent-reportedly-accessed-signal-messages/"
     },
     {
      "source": "The Neuron",
-     "url": "https://www.theneuron.ai/newsletter/meta-s-muse-ai-agent-reportedly-accessed-signal-messages/"
+     "url": "https://www.theneuron.ai/news/meta-muse-ai-agent-private-signal-messages/"
     }
    ]
   },
@@ -3071,8 +3062,7 @@
    "source_id": "heise-ki",
    "added": "2026-11-20T06:53:02+01:00",
    "quelle_titel": "Freitag: London muss Apple-Hintertür zugeben, Niederlande warnen vor KI-Brillen",
-   "url": "https://www.heise.de/news/Freitag-London-muss-Apple-Hintertuer-zugeben-Niederlande-warnen-vor-KI-Brillen-11531935.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "f9d53193641d"
+   "url": "https://www.heise.de/news/Freitag-London-muss-Apple-Hintertuer-zugeben-Niederlande-warnen-vor-KI-Brillen-11531935.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
   },
   {
    "id": "0fb48ef63fd2",
