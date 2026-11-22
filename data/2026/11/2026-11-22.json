@@ -1,17 +1,87 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-22T06:54:24+01:00",
+ "generated_at": "2026-11-22T12:58:43+01:00",
  "overview": [
   {
-   "id": "868c031a2d05",
-   "text": "Generative KI macht Phishing sprachlich fehlerfrei, womit Rechtschreibfehler als Warnsignal wegfallen und Firmen neue Prüfroutinen brauchen."
+   "id": "924f82899850",
+   "text": "Dutzende Prüfer der Lean-Community haben den Beweis der Riemannschen Vermutung von Levent Alpöge anhand von rund 17 Millionen Zeilen formalem Code bestätigt."
   },
   {
-   "id": "89f2a049845a",
-   "text": "Ein Autor schildert, wie er sich mit Claude einen persönlichen KI-Assistenten als Coach und Sparringspartner gebaut hat, der nun seinen Arbeitstag eröffnet."
+   "id": "8817db6d12e0",
+   "text": "Dragos entdeckte mit zwei Millionen Testanfragen mindestens drei kompromittierte KI-Anbieter und hunderte abgegriffene AWS-Schlüssel, OpenRouter reagierte sofort."
+  },
+  {
+   "id": "9826d82b1b2c",
+   "text": "Große US-Banken sperren Agenten von Drittanbietern aus dem Online-Banking aus und lassen Kunden für teure Fehler solcher Helfer selbst haften."
+  },
+  {
+   "id": "ea73fd6df7e3",
+   "text": "OpenAIs neue GPT-6.2-Varianten Astra und Sol antworten rund 40 Prozent kürzer, benennen eigene Unsicherheit aber deutlich seltener als Claude-Modelle."
+  },
+  {
+   "id": "2fd3c11b21bf",
+   "text": "Mit macOS 27.3 verlangt Apple mehrere Bestätigungen für den vollen Festplattenzugriff, weil autonome KI-Agenten tief in das System eingreifen."
+  },
+  {
+   "id": "868c031a2d05",
+   "text": "Weil KI Phishing sprachlich fehlerfrei und persönlich macht, verlieren Rechtschreibfehler als Warnsignal ihren Wert und Firmen brauchen neue Prüfroutinen."
+  },
+  {
+   "id": "7c9b9f39623c",
+   "text": "Digitale Hausverwaltungen mit KI nehmen Vermietern Routineaufgaben und Schriftverkehr ab, stoßen bei komplexen Fällen aber schnell an klare Grenzen."
+  },
+  {
+   "id": "88256b4af4d5",
+   "text": "Vietnam macht die Ausbildung von Fachkräften für KI und Halbleiter zur Grundlage seiner nationalen Technologiestrategie."
   }
  ],
  "items": [
+  {
+   "id": "924f82899850",
+   "date": "2026-11-22",
+   "published": "2026-11-22T10:59+01:00",
+   "headline": "Lean-Community verifiziert Riemann-Beweis mit 17 Millionen Codezeilen",
+   "summary": "Die Lean- und Mathlib-Community hat den Beweis der Riemannschen Vermutung von Levent Alpöge offiziell als korrekt bestätigt. Dutzende unabhängige Prüfer arbeiteten dafür einen formalen Code von etwa 17 Millionen Zeilen durch. Terence Tao hatte eine Lösung erst um 2050 erwartet und einer KI diesen Schritt allein nicht zugetraut.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "lean",
+    "mathlib",
+    "beweisprüfung",
+    "mathematik"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-22T12:55:54+01:00",
+   "kurios": "Ein formaler Beweis mit 17 Millionen Zeilen Code wurde Zeile für Zeile geprüft.",
+   "quelle_titel": "Lean-Community bestätigt offiziell den Beweis der Riemannschen Vermutung",
+   "url": "https://the-decoder.de/lean-community-bestaetigt-offiziell-den-beweis-der-riemannschen-vermutung/",
+   "kontext": "Weil der Beweis als maschinenlesbarer Code vorliegt, musste niemand eine Abhandlung durcharbeiten: Mehrere voneinander unabhängige Prüfprogramme, die nachweislich keinen fehlerhaften Beweis akzeptieren können, bestätigten das Ergebnis binnen Tagen nach der Veröffentlichung am 20. November 2026. Dokumentiert hat den Abgleich Andrew Sutherland vom MIT. Prognosemärkte hatten mit einer Lösung erst Mitte der 2030er gerechnet, was den Zeitsprung einordnet."
+  },
+  {
+   "id": "8817db6d12e0",
+   "date": "2026-11-22",
+   "published": "2026-11-22T11:37+01:00",
+   "headline": "Zwei Millionen Testanfragen enthüllen Lecks in der KI-Lieferkette",
+   "summary": "Sicherheitsforscher von Dragos schickten rund zwei Millionen Anfragen mit gefälschten Zugangsdaten durch KI-Dienste und fanden mindestens drei kompromittierte Anbieter sowie hunderte abgegriffene AWS-Schlüssel. Einzelne Wiederverkäufer auf Marktplätzen lasen Kundenanfragen offenbar mit. OpenRouter entfernte daraufhin drei Anbieter und 125 Endpunkte.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "sicherheit",
+    "lieferkette",
+    "openrouter",
+    "api-keys"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-22T12:55:54+01:00",
+   "kurios": "Hunderte gestohlene AWS-Schlüssel tauchten über getarnte KI-Anbieter auf.",
+   "quelle_titel": "Sicherheitsforscher schicken zwei Millionen KI-Anfragen mit gefälschten Zugangsdaten und decken gravierende Lücken auf",
+   "url": "https://the-decoder.de/sicherheitsforscher-schicken-zwei-millionen-ki-anfragen-mit-gefaelschten-zugangsdaten-und-decken-gravierende-luecken-auf/",
+   "kontext": "KI-Router bündeln viele Modelle hinter einer Schnittstelle und leiten Anfragen über ganze Ketten von Zwischenhändlern weiter, von denen jede Station Anfrage und Antwort mitlesen kann. Weil auf solchen Marktplätzen der billigste Anbieter den Zuschlag erhält, genügt ein Niedrigpreis plus Protokollierung, eine Sicherheitslücke braucht es dafür nicht. Zusagen wie Zero Data Retention wurden vielfach missachtet. Dragos rät Unternehmen, den Datenweg selbst festzulegen und mit Lockdaten zu prüfen."
+  },
   {
    "id": "868c031a2d05",
    "date": "2026-11-22",
@@ -58,6 +128,253 @@
    "quelle_titel": "Morgens zuerst Claude, dann Mails: Wie ich mir einen KI-Assistenten gebaut habe und damit arbeite",
    "url": "https://t3n.de/news/morgens-claude-dann-mails-ki-assistent-arbeit-1772873",
    "kontext": "Hinter dem Erfahrungsbericht steht t3n-Autor Markus Albers. Früher begann sein Tag rein reaktiv, mit Nachrichten von Kolleginnen und Kunden und einer wachsenden Aufgabenliste. Nun beschreibt er Aufbau und Rhythmus fester Gesprächstermine mit dem Modell, das als Sparringspartner und Coach dient. Der Text zeigt damit weniger ein neues Werkzeug als eine Arbeitsroutine, die sich nachbauen lässt."
+  },
+  {
+   "id": "2fd3c11b21bf",
+   "date": "2026-11-22",
+   "published": "2026-11-22T07:25+01:00",
+   "headline": "macOS 27.3: Apple erschwert Festplattenvollzugriff wegen autonomer KI-Agenten",
+   "summary": "Apple überarbeitet mit macOS 27.3 die Zugriffsrechte auf dem Mac. Wer einer Anwendung künftig vollen Festplattenzugriff erteilen möchte, muss mehrere Warnhinweise bestätigen. Hintergrund sind KI-Agenten, die tief in das System eingreifen und dadurch ein neues Sicherheitsrisiko schaffen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "apple",
+    "macos",
+    "ki-agenten",
+    "berechtigungen",
+    "sicherheit"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-22T12:56:16+01:00",
+   "quelle_titel": "Schutz vor KI-Agenten: Das ändert Apple beim Festplattenzugriff am Mac",
+   "url": "https://t3n.de/news/macos-ki-agenten-festplattenzugriff-sicherheit-1774075",
+   "kontext": "Apple baut die Rechteverwaltung um, weil immer mehr KI-Werkzeuge pauschale Freigaben verlangen, um einen Mac zu steuern. Mit Festplattenvollzugriff lesen Apps auch interne Datenbanken mit, die macOS für Siri anlegt, samt Hinweisen auf Kontakte und Kommunikationsverhalten. Für Diskussionen sorgte zuletzt Metas Agentensystem Muse, das laut einem Bericht iMessage-Nachrichten auswertete. Künftig müssen Nutzer die App aus einer Liste wählen, statt sie einfach hineinzuziehen."
+  },
+  {
+   "id": "f5a0ad33bcfb",
+   "date": "2026-11-22",
+   "published": "2026-11-22T10:00+01:00",
+   "headline": "Saubere Datenbankstruktur als Bremse gegen halluzinierende KI-Agenten",
+   "summary": "KI-Agenten erfinden bei SQL-Abfragen schnell Spalten oder Zusammenhänge, die es nicht gibt. Der Ratgeber zeigt, wie klare Schemata, Namenskonventionen und strikte Regeln im Datenbankdesign solche Fehler systematisch reduzieren. Für Teams, die Agenten auf Produktionsdaten lassen wollen, sind das direkt umsetzbare Leitlinien.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "sql",
+    "datenbankdesign",
+    "ki-agenten",
+    "postgresql"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-22T12:55:54+01:00",
+   "praxis": true,
+   "paywall": true,
+   "quelle_titel": "(g+) Agenten und SQL: Mit strengem Datenbankdesign zu besseren KI-Ergebnissen",
+   "url": "https://www.golem.de/news/agenten-und-sql-mit-strengem-datenbankdesign-zu-besseren-ki-ergebnissen-2611-215226.html"
+  },
+  {
+   "id": "ea73fd6df7e3",
+   "date": "2026-11-22",
+   "published": "2026-11-22T10:12+01:00",
+   "headline": "GPT-6.2 wird knapper, zeigt aber kaum noch eigene Unsicherheit",
+   "summary": "Nach Messungen von Artificial Analysis antworten die neuen Varianten Astra und Sol von OpenAI etwa 40 Prozent kürzer und kommen schneller zum Punkt. Gleichzeitig weisen sie deutlich seltener auf eigene Unsicherheit hin, was bei Fehlern schwerer zu erkennen ist. Claude-Modelle von Anthropic schneiden bei Transparenz und Informationsgehalt besser ab.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "gpt-6.2",
+    "benchmark",
+    "halluzinationen"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-22T12:55:54+01:00",
+   "quelle_titel": "OpenAIs GPT-6.2 antwortet kürzer und direkter, gesteht aber kaum noch Unsicherheit ein",
+   "url": "https://the-decoder.de/gpt-6-2-antwortet-bis-zu-40-prozent-kuerzer-und-gesteht-unsicherheit-seltener-ein/",
+   "kontext": "Hinter den Zahlen steht der PersonalityBench von Artificial Analysis: hunderte englische Testfragen ohne Systemprompt, bewertet von einem Gremium aus drei KI-Modellen. Die Persönlichkeitswerte sind relative Rangplätze im Vergleichsfeld, keine Prozentangaben. Sichtbar wird ein bewusster Stilwechsel bei OpenAI, weg von Überschriften und Gliederungen hin zu direkten, natürlich klingenden Antworten. Der Preis dafür ist weniger Vorsicht, die Modelle antworten lieber falsch als gar nicht."
+  },
+  {
+   "id": "3966652bb5d7",
+   "date": "2026-11-22",
+   "published": "2026-11-22T11:52+01:00",
+   "headline": "Beweis mit Claude: Anerkennung und Kritik für Alpöges Riemann-Arbeit",
+   "summary": "Unabhängige Organisationen gratulieren dem Anthropic-Forscher Levent Alpöge zu seiner mit Claude entstandenen Arbeit an der Riemannschen Hypothese. In der mathematischen Community wächst jedoch die Kritik am Einsatz von KI bei Beweisen und an der Nachvollziehbarkeit solcher Ergebnisse. Der Streit berührt die Frage, wie Fachgemeinschaften KI-generierte Mathematik künftig bewerten.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "mathematik",
+    "claude",
+    "beweis",
+    "wissenschaft"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-22T12:55:54+01:00",
+   "quelle_titel": "Mathematiker löst Riemannsche Hypothese, mithilfe von Claude",
+   "url": "https://t3n.de/news/mathematiker-loest-riemannsche-hypothese-mithilfe-von-claude-1774699",
+   "dup_of": "fff075d3dc1a"
+  },
+  {
+   "id": "9826d82b1b2c",
+   "date": "2026-11-22",
+   "published": "2026-11-22T12:00+01:00",
+   "headline": "US-Banken sperren fremde KI-Agenten aus dem Online-Banking aus",
+   "summary": "Große US-Finanzinstitute untersagen es Bots von Drittanbietern, sich in Kundenkonten einzuloggen. Zugleich stellen sie klar, dass Kunden für teure Fehler solcher Agenten selbst haften. Für die aufkommende Welle agentischer Assistenten im Finanzbereich ist das eine deutliche Bremse.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "banken",
+    "haftung",
+    "fintech"
+   ],
+   "source": "Wired AI",
+   "source_id": "wired-ai",
+   "added": "2026-11-22T12:55:54+01:00",
+   "paywall": true,
+   "quelle_titel": "Banks Have Had It Up to Here With Your AI Agent",
+   "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/"
+  },
+  {
+   "id": "94ece03ee594",
+   "date": "2026-11-22",
+   "published": "2026-11-22T12:52+01:00",
+   "headline": "Behauptung zur Riemannschen Hypothese entzweit die Mathematikwelt",
+   "summary": "Der bei Anthropic tätige Forscher Levent Alpöge gibt an, die Riemannsche Hypothese mit Hilfe künstlicher Intelligenz bewiesen zu haben. Fachleute verlangen eine saubere Prüfung des Beweises, einzelne Stimmen halten die Ankündigung vor allem für Öffentlichkeitsarbeit eines KI-Unternehmens. Der Fall zeigt, wie stark Anspruch und Nachweisbarkeit bei KI-gestützter Forschung derzeit auseinanderliegen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "mathematik",
+    "anthropic",
+    "riemann",
+    "forschung"
+   ],
+   "source": "Deutschlandfunk",
+   "source_id": "deutschlandfunk",
+   "added": "2026-11-22T12:55:54+01:00",
+   "quelle_titel": "Mathematik - Anthropic-Forscher will Riemannsche Hypothese mit KI gelöst haben - Wissenschaftler fordern Nachweis",
+   "url": "https://www.deutschlandfunk.de/anthropic-forscher-will-riemannsche-hypothese-mit-ki-geloest-haben-wissenschaftler-fordern-nachweis-102.html",
+   "dup_of": "fff075d3dc1a"
+  },
+  {
+   "id": "88256b4af4d5",
+   "date": "2026-11-22",
+   "published": "2026-11-22T07:56+01:00",
+   "headline": "Vietnam baut Fachkräfteausbildung für KI und Halbleiter als Strategiebasis aus",
+   "summary": "Vietnam behandelt den Aufbau qualifizierter Fachkräfte in den Bereichen künstliche Intelligenz und Halbleiter als Grundlage für strategische Technologiebranchen. Der Beitrag rückt damit Qualifizierung und Personalentwicklung in den Mittelpunkt der nationalen Technologiepolitik.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "fachkräfte",
+    "qualifizierung",
+    "halbleiter",
+    "vietnam"
+   ],
+   "source": "Vietnam.vn",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-11-22T12:56:16+01:00",
+   "quelle_titel": "Entwicklung von Humanressourcen in den Bereichen künstliche Intelligenz und Halbleiter: Eine Grundlage für strategische Technologiebranchen.",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWWJMeDlTVFFfbkNjOUNJTUJMZnRGcVZPRmN4U2FzT1c0bjlYRnlUdzJCUHdJcG91eVF2T0xuQXcxa2J2MzFYVzdjMkRtUmgtckt5VjJ3NzZOQzJuc2ppb0FiTlNRbHZyOWh2Z2VUV0kxNFh1S3dFTEVERzBnMzM1Ri1DWjZPZDk4R1VaZ0tkMHdyeko3NHpHQ25Na0tUeWhVRV9ucGx3TVpFUVdhQnhqTGVGdFA1TEhfOUdCNUM1MHQ?oc=5"
+  },
+  {
+   "id": "890d4e8649bc",
+   "date": "2026-11-22",
+   "published": "2026-11-22T08:10+01:00",
+   "headline": "Ghost Core: Teenager baut KI-Rechner für autonome Agenten im eigenen Zuhause",
+   "summary": "Während große Anbieter wie OpenAI autonome KI-Programme in riesigen Rechenzentren betreiben, verfolgt ein neunzehnjähriger Entwickler den Gegenentwurf. Seine Spezialhardware namens Ghost Core kommt ohne Bildschirm aus und soll KI-Agenten lokal im Haushalt ausführen. Der Preis für das Gerät fällt allerdings deutlich höher aus als bei üblicher Consumer-Hardware.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "ki-agenten",
+    "local ai",
+    "hardware",
+    "edge computing"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-22T12:56:16+01:00",
+   "quelle_titel": "OpenAI setzt auf Rechenzentren, ein 19-Jähriger auf Ghost Core, den KI-Computer für daheim",
+   "url": "https://t3n.de/news/ghost-core-lokaler-ki-computer-1767111",
+   "kontext": "Hinter Ghost steht der Gründer Zain Javaid, der vorher in der Finanzmathematik arbeitete und sein Startup in San Francisco aufgebaut hat. Investoren wie Andreessen Horowitz haben eine Anschubfinanzierung in zweistelliger Millionenhöhe beigesteuert. Im Inneren steckt gewöhnliche Desktop-Technik mit kräftiger Grafikkarte, gesteuert wird alles per Smartphone-App. Das Verkaufsargument ist Edge-Computing: Sensible Daten sollen das Haus nicht verlassen, statt in der Cloud zu landen."
+  },
+  {
+   "id": "42e6fa237f69",
+   "date": "2026-11-22",
+   "published": "2026-11-22T08:20+01:00",
+   "headline": "Künstler sucht Walter per KI auf offenen Webcams und zeigt das Überwachungsrisiko",
+   "summary": "Der belgische Künstler Dries Depoorter überträgt das Prinzip der Wimmelbücher um die Figur Walter auf frei zugängliche Kameras im Internet. Eine KI durchsucht die Livebilder nach der gestreiften Figur und macht damit anschaulich, wie leicht sich automatisierte Personensuche auf ungesicherte Kamerastreams anwenden lässt. Das Projekt ist Kunst, verweist aber auf ein konkretes Datenschutz und Überwachungsproblem.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "überwachung",
+    "computer vision",
+    "datenschutz",
+    "kunst"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-22T12:56:16+01:00",
+   "kurios": "Ein Wimmelbuch-Motiv wird zum Beweis für automatisierte Personensuche im Netz.",
+   "quelle_titel": "Wenn diese KI Walter findet, findet sie jeden: Künstler zeigt die Gefahr offener Kameras",
+   "url": "https://t3n.de/news/wally-finder-ki-sucht-walter-ueberwachungskameras-1773734",
+   "kontext": "Depoorter arbeitet seit Jahren mit ungesicherten Kameras und hat daraus mehrere Projekte entwickelt. Für den Wally Finder greift er auf mehrere Hundert offene Streams weltweit zu und lässt eine Bilderkennung auf GPU-Servern rund um die Uhr nach dem gestreiften Outfit suchen. Die Bücher von Martin Handford erscheinen seit den Achtzigern, die Straße wird hier zur Wimmelseite. Der Reiz des Spiels verdeckt, wie banal die Technik dahinter ist."
+  },
+  {
+   "id": "dad07b9f79cf",
+   "date": "2026-11-22",
+   "published": "2026-11-22T08:40+01:00",
+   "headline": "370 Bücher in 20 Monaten: Autorin baut Geschäftsmodell auf KI-Workflow",
+   "summary": "Eine südafrikanische Autorin hat in weniger als zwei Jahren über 370 Bücher veröffentlicht und dabei ChatGPT, Claude und Grok eingesetzt. Der Beitrag beschreibt, wie sie Recherche, Schreiben und Veröffentlichung organisiert und daraus ein tragfähiges Geschäftsmodell gemacht hat. Das Beispiel zeigt Tempo und Grenzen industrieller KI-Textproduktion.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "self-publishing",
+    "workflow",
+    "chatgpt",
+    "content"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-22T12:55:54+01:00",
+   "kurios": "Mehr als 370 veröffentlichte Bücher in nicht einmal zwei Jahren.",
+   "praxis": true,
+   "quelle_titel": "370 Bücher in 20 Monaten: So schreibt eine Autorin mit ChatGPT, Claude und Grok",
+   "url": "https://t3n.de/news/370-buecher-ki-chatgpt-claude-grok-1773778",
+   "kontext": "Hinter dem Pseudonym Coral Hart steht eine erfahrene Autorin, die vor ihrer KI-Phase schon Dutzende Bücher ohne Werkzeuge geschrieben hat. Sie kombiniert mehrere Modelle nach ihren Stärken, etwa für Dialoge, Aufbau oder zugespitzte Szenen, und lässt Rohentwürfe mehrere Korrekturstufen durchlaufen, bevor ein Mensch gegenliest. Anders als viele Kollegen verschweigt sie den KI-Einsatz nicht. Inzwischen verdient sie auch daran, andere Schreibende anzuleiten."
+  },
+  {
+   "id": "7c9b9f39623c",
+   "date": "2026-11-22",
+   "published": "2026-11-22T12:18+01:00",
+   "headline": "Digitale Hausverwaltung: Wo KI Vermietern wirklich Arbeit abnimmt",
+   "summary": "Steigende Pflichten und teure Verwalter bringen Vermieter dazu, digitale Verwaltungsdienste mit KI zu testen. Software kann Routineaufgaben und Kommunikation übernehmen, stößt aber bei komplexen Fällen an klare Grenzen. Der Beitrag ordnet ein, welche Entlastung realistisch ist.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "immobilien",
+    "hausverwaltung",
+    "automatisierung",
+    "proptech"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-22T12:55:54+01:00",
+   "paywall": true,
+   "quelle_titel": "Immobilien: So wollen digitale Hausverwalter Vermieter entlasten",
+   "url": "https://www.wiwo.de/finanzen/immobilien/digitale-hausverwaltung-was-tools-fuer-private-vermieter-leisten/100271357.html"
   }
  ]
 }
