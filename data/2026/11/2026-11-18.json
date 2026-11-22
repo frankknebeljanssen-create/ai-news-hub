@@ -128,12 +128,12 @@
    "kontext": "OpenAI veröffentlichte gleich zwei Modelle, das Spitzenmodell Astra und das günstigere Sol, wenige Tage vor dem Anthropic-Börsengang. Im Vordergrund steht Effizienz: Aufgaben sollen mit weniger Ausgabetoken gelöst werden, die Preise über die Schnittstelle sinken. An der Spitze der Rangliste bleibt Anthropics Fable 5.2, OpenAI punktet eher beim Verhältnis von Leistung zu Kosten. Erstmals stuft die Firma ein öffentliches Modell bei Selbstverbesserung in die hohe Risikoklasse ein, die Reaktionen früher Tester fielen gespalten aus.",
    "also": [
     {
-     "source": "Latent Space",
-     "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/"
-    },
-    {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/newsletter/openai-unveils-gpt-6-2-astra-and-sol/"
+    },
+    {
+     "source": "Latent Space",
+     "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/"
     }
    ]
   },
@@ -352,22 +352,9 @@
      "url": "https://www.heise.de/news/Anthropic-Finaler-IPO-Preis-steht-fest-11528229.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
-     "source": "Anthropic",
-     "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
-    },
-    {
      "source": "Tagesspiegel Wirtschaft",
      "url": "https://www.tagesspiegel.de/wirtschaft/dpa-kunstliche-intelligenz-ki-firma-anthropic-schafft-rekord-borsengang-16301358.html",
      "paywall": true
-    },
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-medien-anthropic-ausgabepreis-bei-borsengang-bei-83-dollar-16301249.html",
-     "paywall": true
-    },
-    {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/kuenstliche-intelligenz--medien--anthropic-ausgabepreis-bei-boersengang-bei-83-dollar-38572624.html"
     }
    ]
   },
@@ -1744,7 +1731,8 @@
    "source_id": "openai",
    "added": "2026-11-18T14:06:07+01:00",
    "quelle_titel": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-   "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership"
+   "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "kontext": "Einbezogen sind sowohl aktuelle Berichterstattung als auch Archivbestände des Verlagshauses und seiner Schwestertitel, von Nachrichten über Wirtschaft bis zu Kultur und Lifestyle. Die Redaktion behält nach Angaben beider Seiten die volle Kontrolle über ihre Inhalte. Zusätzlich will Figaro ChatGPT Enterprise intern einsetzen und weitere Anwendungen entlang eigener KI-Leitlinien prüfen. Für OpenAI ist es ein weiterer Baustein im wachsenden Netz aus Medienkooperationen, das die Auffindbarkeit verlässlicher Quellen stärken soll."
   },
   {
    "id": "81d28d103b78",
@@ -1923,7 +1911,8 @@
    "source_id": "openai",
    "added": "2026-11-19T12:00:57+01:00",
    "quelle_titel": "Managing frontier AI risk: From training to deployment",
-   "url": "https://openai.com/index/managing-frontier-ai-risk"
+   "url": "https://openai.com/index/managing-frontier-ai-risk",
+   "kontext": "Hintergrund ist ein Vorfall rund um Hugging Face im Juli, nach dem der Anbieter seine Vorkehrungen nachgeschärft hat. Die Lehre daraus lautet, dass abgeschottete Umgebungen allein bei sehr fähigen Modellen nicht genügen, weshalb nun auch der interne Betrieb überwacht wird. Entscheidend ist dabei, wie gut sich die Gedankengänge eines Modells nachvollziehen lassen. Veröffentlichungen verzögern sich dadurch, einzelne Modelle hat das Unternehmen bereits zurückgehalten."
   },
   {
    "id": "139ab66b4988",
@@ -1967,7 +1956,8 @@
    "source_id": "openai",
    "added": "2026-11-19T12:00:57+01:00",
    "quelle_titel": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-   "url": "https://openai.com/business/customer-stories/sumitomo-life"
+   "url": "https://openai.com/business/customer-stories/sumitomo-life",
+   "kontext": "Der Lebensversicherer arbeitet seit 2023 mit generativer KI und erprobte das Werkzeug zunächst in einer kleinen Gruppe aus Führungskräften und Planungsleuten, bevor er in diesem Jahr auf die Unternehmensversion wechselte. Vor dem breiten Ausrollen prüfte er zusammen mit OpenAI die Sicherheitsanforderungen eines Finanzhauses, etwa Zugriffsrechte und den Ausschluss von Geschäftsdaten aus dem Training. Die genannten Renditeangaben beruhen auf Zeitersparnissen, die Beschäftigte selbst geschätzt haben."
   },
   {
    "id": "ea07da47a63a",
@@ -2078,7 +2068,8 @@
    "source_id": "openai",
    "added": "2026-11-19T12:00:57+01:00",
    "quelle_titel": "The Silent Consensus",
-   "url": "https://openai.com/index/the-silent-consensus"
+   "url": "https://openai.com/index/the-silent-consensus",
+   "kontext": "Der Text geht auf einen Vortrag an der Harvard-Universität zurück und gibt ausdrücklich Balls persönliche Sicht wieder, nicht die seines Arbeitgebers. Seine These lautet, dass die Techbranche viele Bilder einer technischen Zukunft hat, aber keines für ihre Institutionen. Unter Wettbewerbsdruck könnten Firmen menschliche Entscheider zunehmend als Bremse behandeln und die Steuerung abgeben. Als aktuelles Beispiel für den Doppelcharakter der Technik nennt er von KI aufgespürte Sicherheitslücken in zentraler Internet-Infrastruktur."
   },
   {
    "id": "623bff8a5745",
