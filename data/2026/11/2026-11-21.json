@@ -1,38 +1,38 @@
 {
  "date": "2026-11-21",
- "generated_at": "2026-11-22T00:18:03+01:00",
+ "generated_at": "2026-11-23T13:24:06+01:00",
  "overview": [
   {
    "id": "6548ab4a6b3e",
-   "text": "Der Nasdaq 100 ist in den Bärenmarkt gerutscht, Nvidia verlor rund 14 Prozent und Anthropic gab seine Kursgewinne vom Börsengang fast komplett ab."
+   "text": "Der Nasdaq 100 rutschte in den Bärenmarkt, Nvidia verlor rund 14 Prozent und Anthropic gab seine Kursgewinne nach dem Rekordbörsengang fast vollständig ab."
   },
   {
    "id": "1d6dd91c60b1",
-   "text": "Ein Start-up drang mit KI-Agenten binnen zwölf Stunden über eine Drittanbieter-Software in Anthropics Systeme ein und erreichte Gehaltsdaten und Slack-Chats."
-  },
-  {
-   "id": "fe938b5c2d5b",
-   "text": "Laut Bitkom setzen 57 Prozent der deutschen Unternehmen ab 20 Beschäftigten KI ein, womit die Zugriffsrechte autonomer Agenten zum Sicherheitsthema werden."
+   "text": "Ein Startup drang mit KI-Agenten über eine Drittanbieter-Software in Anthropics Systeme ein und erreichte dort Gehaltsdaten sowie Slack-Nachrichten."
   },
   {
    "id": "7d40c3e436d5",
    "text": "Nvidia und PreussenElektra wollen prüfen, ob stillgelegte deutsche Atomkraftwerksstandorte künftig KI-Rechenzentren mit Strom versorgen können."
   },
   {
-   "id": "0213da406863",
-   "text": "Gartner erwartet bis 2030 netto rund 1,7 Millionen zusätzliche Stellen durch KI, während Firmen schon jetzt geplante Einstellungen verschieben."
+   "id": "fe938b5c2d5b",
+   "text": "Laut Bitkom setzen inzwischen 57 Prozent der größeren deutschen Unternehmen KI ein, wodurch Zugriffsrechte für autonome Agenten zum Sicherheitsthema werden."
   },
   {
-   "id": "25668f4eda72",
-   "text": "Kalifornien will Betreiber verpflichten, Sicherheitsvorfälle bei KI-Systemen binnen 48 Stunden zu melden statt wie bisher innerhalb von 15 Tagen."
+   "id": "0213da406863",
+   "text": "Gartner rechnet damit, dass KI bis 2030 weltweit netto etwa 1,7 Millionen Stellen schafft, während Firmen schon jetzt geplante Einstellungen aufschieben."
   },
   {
    "id": "acda1ebf3bbf",
    "text": "Die UN-Konferenz in Genf endete ohne Mandat für verbindliche Regeln gegen autonome Waffensysteme, weil unter anderem Russland und die USA blockierten."
   },
   {
+   "id": "25668f4eda72",
+   "text": "Kalifornien will Anbieter verpflichten, Sicherheitsvorfälle bei KI-Systemen künftig binnen 48 Stunden zu melden statt wie bisher innerhalb von 15 Tagen."
+  },
+  {
    "id": "0cad55ae7671",
-   "text": "Thinking Machines veröffentlicht Inkling 2 Mini, ein offenes Modell, das einzelne Schichten mehrfach durchläuft und dennoch auf dem Laptop läuft."
+   "text": "Thinking Machines veröffentlicht Inkling 2 Mini, ein offenes Modell, das einzelne Schichten mehrfach durchläuft und trotzdem auf dem Laptop läuft."
   }
  ],
  "items": [
@@ -286,7 +286,7 @@
    "paywall": true,
    "quelle_titel": "Aktien: Und auf einmal herrscht ein bisschen Panik an den Börsen",
    "url": "https://www.sueddeutsche.de/wirtschaft/aktien-boerse-nasdaq-anthropic-nvidia-li.3583968",
-   "dup_of": "09e795681258"
+   "dup_of": "6548ab4a6b3e"
   },
   {
    "id": "3a3a73278990",
@@ -358,6 +358,30 @@
    "dup_of": "c324e0f473e9"
   },
   {
+   "id": "8a1bcf7e58d0",
+   "date": "2026-11-21",
+   "published": "2026-11-21T10:09+01:00",
+   "headline": "Mathematiker meldet Beweis der Riemannschen Vermutung mit Claude",
+   "summary": "Der Anthropic-Mathematiker Levent Alpöge gibt an, die Riemannsche Vermutung mithilfe des Modells Claude bewiesen zu haben. Die fachliche Prüfung läuft noch, zusätzlich existiert ein zweiter Ansatz ohne KI-Unterstützung. Sollte sich der Beweis halten, wäre es ein Meilenstein für KI in der mathematischen Forschung.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "riemann",
+    "anthropic",
+    "claude",
+    "mathematik",
+    "beweis"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-11-23T13:18:37+01:00",
+   "kurios": "Ein Jahrhundertproblem der Mathematik soll mit Chatbot-Hilfe gefallen sein.",
+   "quelle_titel": "Riemannsche Vermutung: Anthropic-Mathematiker will KI-Beweis gefunden haben",
+   "url": "https://www.heise.de/news/Riemannsche-Vermutung-Anthropic-Mathematiker-will-KI-Beweis-gefunden-haben-11533452.html",
+   "dup_of": "c324e0f473e9"
+  },
+  {
    "id": "2abd204792cc",
    "date": "2026-11-21",
    "published": "2026-11-21T10:25+01:00",
@@ -400,7 +424,13 @@
    "added": "2026-11-21T12:02:49+01:00",
    "quelle_titel": "Inkling 2 Mini: Neues KI-Modell denkt in Schleifen, und läuft trotzdem auf dem Laptop",
    "url": "https://the-decoder.de/inkling-2-mini-neues-ki-modell-denkt-in-schleifen-und-laeuft-trotzdem-auf-dem-laptop/",
-   "kontext": "Der Kniff dahinter: Die wiederholt durchlaufenen Schichten teilen sich dieselben Gewichte, geben aber über gelernte Botschaften Zwischenergebnisse von Durchgang zu Durchgang weiter. So verhält sich das Modell, als hätte es doppelt so viele Schichten, ohne entsprechend zu wachsen. Thinking Machines zielt damit klar auf lokale Nutzung und liefert multimodale Eingaben, ein sehr langes Kontextfenster und eine freie Lizenz. Unterstützung durch gängige Inferenz-Werkzeuge gibt es ab Tag eins."
+   "kontext": "Der Kniff dahinter: Die wiederholt durchlaufenen Schichten teilen sich dieselben Gewichte, geben aber über gelernte Botschaften Zwischenergebnisse von Durchgang zu Durchgang weiter. So verhält sich das Modell, als hätte es doppelt so viele Schichten, ohne entsprechend zu wachsen. Thinking Machines zielt damit klar auf lokale Nutzung und liefert multimodale Eingaben, ein sehr langes Kontextfenster und eine freie Lizenz. Unterstützung durch gängige Inferenz-Werkzeuge gibt es ab Tag eins.",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/thinking-machines-inkling-2-mini-looped-ai-memory/"
+    }
+   ]
   },
   {
    "id": "6548ab4a6b3e",
@@ -439,8 +469,21 @@
      "paywall": true
     },
     {
+     "source": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/ausverkauf-bei-technologie-und-ki-werten-an-us-boersen-dax-faellt-unter-25-000-punkte-100.html"
+    },
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/boerse/ki-kater-100.html"
+    },
+    {
      "source": "Tagesspiegel Wirtschaft",
      "url": "https://www.tagesspiegel.de/wirtschaft/borsen-auf-talfahrt-ki-ausverkauf-und-sorge-vor-steigenden-zinsen-bremsen-den-boom-16310033.html",
+     "paywall": true
+    },
+    {
+     "source": "Süddeutsche Digital",
+     "url": "https://www.sueddeutsche.de/wirtschaft/aktien-boerse-nasdaq-anthropic-nvidia-li.3583968",
      "paywall": true
     }
    ]
@@ -466,7 +509,7 @@
    "quelle_titel": "KI-Wettlauf: Trump droht Rechenzentren im Ausland mit enormer Steuer",
    "url": "https://www.golem.de/news/ki-wettlauf-trump-droht-rechenzentren-im-ausland-mit-enormer-steuer-2611-215502.html",
    "kontext": "Trump brachte die Idee nach seinem Gipfeltreffen mit Xi Jinping und Wladimir Putin vor Journalisten ins Spiel, offenbar ohne vorherige Abstimmung im eigenen Regierungsapparat. Details blieb er schuldig. Als Begründung verwies er auf die Chipfertigung, deren Abwanderung er als Fehler wertet, und warnte vor einem Vorsprung Chinas. Pikant ist der Zeitpunkt: Bundesstaaten und Kommunen erschweren derzeit selbst neue Bauanträge für Rechenzentren.",
-   "dup_of": "404c77bb5678"
+   "dup_of": "08b074f7bce0"
   },
   {
    "id": "d816770930ff",
@@ -488,7 +531,7 @@
    "added": "2026-11-21T12:02:49+01:00",
    "quelle_titel": "Aktien - Ausverkauf bei Technologie- und KI-Werten an US-Börsen - Dax fällt unter 25.000 Punkte",
    "url": "https://www.deutschlandfunk.de/ausverkauf-bei-technologie-und-ki-werten-an-us-boersen-dax-faellt-unter-25-000-punkte-100.html",
-   "dup_of": "7fe6568f2785"
+   "dup_of": "6548ab4a6b3e"
   },
   {
    "id": "48e2b77d24cc",
@@ -743,16 +786,7 @@
    "quelle_titel": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
    "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
    "kontext": "Signal-Präsidentin Meredith Whittaker begründet den Schritt damit, dass die Betriebssysteme von Microsoft, Google und Apple ihren Assistenten Zugriff auf Bildschirminhalte geben. Einmal erfasste Daten lägen außerhalb der Kontrolle des Messengers und berührten alle Beteiligten eines Chats. Für die Windows-App gilt die Sperre schon länger, abschalten lässt sie sich weiterhin, allerdings auf Kosten der zugesagten Vertraulichkeit. Signal räumt ein, dass die Maßnahme unvollständig bleibt.",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/signal-schraenkt-screenshots-ein-und-warnt-vor-existenzieller-bedrohung-durch-ki-agenten/"
-    },
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
-    }
-   ]
+   "dup_of": "ff3559dcabff"
   },
   {
    "id": "0dc89cd757df",
@@ -981,7 +1015,8 @@
    "added": "2026-11-22T00:12:15+01:00",
    "quelle_titel": "Nach Huangs Rücktritt: Welcher Tech-CEO tappt als Nächstes in die Honigfalle?",
    "url": "https://t3n.de/news/nach-huangs-ruecktritt-welcher-tech-ceo-tappt-als-naechstes-in-die-honigfalle-1774666",
-   "kontext": "Bei einer Honigfalle baut jemand eine persönliche Beziehung zu einer Zielperson auf, um an Informationen zu kommen oder Geld zu erpressen. Früher traf das vor allem Politik und Nachrichtendienste, heute liegen wertvolle Geheimnisse bei Chip- und Softwarefirmen, etwa Kundenlisten oder Interna zu Exportentscheidungen. Der frühere CIA-Mann Aaron Brown kritisiert, dass Gründer kaum über Spionageabwehr aufgeklärt werden. Der Fall Nvidia zeigt zugleich, wie stark Konzerne an einzelnen Personen hängen."
+   "kontext": "Bei einer Honigfalle baut jemand eine persönliche Beziehung zu einer Zielperson auf, um an Informationen zu kommen oder Geld zu erpressen. Früher traf das vor allem Politik und Nachrichtendienste, heute liegen wertvolle Geheimnisse bei Chip- und Softwarefirmen, etwa Kundenlisten oder Interna zu Exportentscheidungen. Der frühere CIA-Mann Aaron Brown kritisiert, dass Gründer kaum über Spionageabwehr aufgeklärt werden. Der Fall Nvidia zeigt zugleich, wie stark Konzerne an einzelnen Personen hängen.",
+   "dup_of": "8c6b82454637"
   },
   {
    "id": "425e019c3206",
@@ -1026,8 +1061,7 @@
    "added": "2026-11-22T00:11:35+01:00",
    "quelle_titel": "Starker Start an der Börse: Wird Anthropic den Erfolgskurs halten können?",
    "url": "https://t3n.de/news/starker-start-an-der-boerse-wird-anthropic-den-erfolgskurs-halten-koennen-1774672",
-   "kontext": "Anthropic ist das erste reine KI-Labor an der Börse, entsprechend gilt der Handelsstart als Stimmungstest für die ganze Branche. Firmenchef Dario Amodei läutete die Glocke an der Nasdaq. Der Umsatz wächst rasant, gleichzeitig fallen enorme Verluste an, weshalb Anleger vor allem über die Haltbarkeit dieses Tempos streiten. Das Unternehmen warnt seit Langem selbst vor Risiken seiner Modelle und fordert strengere Regulierung.",
-   "dup_of": "e7354365dbd8"
+   "kontext": "Anthropic ist das erste reine KI-Labor an der Börse, entsprechend gilt der Handelsstart als Stimmungstest für die ganze Branche. Firmenchef Dario Amodei läutete die Glocke an der Nasdaq. Der Umsatz wächst rasant, gleichzeitig fallen enorme Verluste an, weshalb Anleger vor allem über die Haltbarkeit dieses Tempos streiten. Das Unternehmen warnt seit Langem selbst vor Risiken seiner Modelle und fordert strengere Regulierung."
   },
   {
    "id": "952732c4ef4f",

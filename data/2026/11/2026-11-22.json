@@ -1,38 +1,38 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-23T07:22:02+01:00",
+ "generated_at": "2026-11-23T13:24:34+01:00",
  "overview": [
   {
-   "id": "924f82899850",
-   "text": "Die Lean-Community hat Alpöges Beweis der Riemannschen Vermutung nach Prüfung von rund 17 Millionen Zeilen formalem Code als korrekt bestätigt."
+   "id": "9826d82b1b2c",
+   "text": "Große US-Banken sperren KI-Agenten von Drittanbietern aus dem Online-Banking aus und lassen Kunden für teure Fehler der Assistenten selbst haften."
   },
   {
    "id": "ea73fd6df7e3",
-   "text": "OpenAIs neue GPT-6.2-Varianten Astra und Sol antworten laut Messungen rund 40 Prozent kürzer, benennen eigene Unsicherheiten aber deutlich seltener."
+   "text": "OpenAIs neue GPT-6.2-Varianten Astra und Sol antworten rund 40 Prozent kürzer, benennen eigene Unsicherheiten aber deutlich seltener als Claude."
   },
   {
    "id": "1b36ba0fb8f4",
-   "text": "In einem Praxistest mit simuliertem Firmenalltag lösen selbst Opus 5.5 und Astra weniger als jede zehnte Entwickleraufgabe vollständig."
-  },
-  {
-   "id": "9826d82b1b2c",
-   "text": "Große US-Banken sperren KI-Agenten von Drittanbietern aus dem Online-Banking aus und lassen Kunden für Fehler solcher Assistenten haften."
+   "text": "In einem Test mit simuliertem Firmenalltag lösen selbst Opus 5.5 und Astra weniger als jede zehnte Aufgabe vollständig."
   },
   {
    "id": "dd8f078092b2",
-   "text": "SAP setzt laut Bericht auf schnelle Spezialsysteme, weil große Sprachmodelle für betriebliche Entscheidungen oft zu langsam und zu ungenau sind."
+   "text": "SAP setzt laut Bericht auf schnelle Spezialsysteme, weil große Sprachmodelle für betriebliche Entscheidungen oft zu langsam, zu teuer und zu ungenau sind."
   },
   {
-   "id": "10ced6a5e686",
-   "text": "Ein möglicher Börsengang von Anthropic wirft die Frage auf, wie sich die Gewinne zwischen Investoren, Partnern und dem Unternehmen selbst verteilen."
-  },
-  {
-   "id": "cfa180253f52",
-   "text": "England verbietet automatisierte KI-Bedarfsprüfungen in der Sozialfürsorge und zieht damit eine Grenze für Algorithmen in sensiblen Verfahren."
+   "id": "2fd3c11b21bf",
+   "text": "Mit macOS 27.3 verlangt Apple mehrere Warnbestätigungen für den vollen Festplattenzugriff, weil KI-Agenten tief in das System eingreifen."
   },
   {
    "id": "6ac1f48982db",
-   "text": "Googles Assistent Ask Maps startet in Deutschland und plant auf Anfrage ganze Tagesabläufe samt Buchungen direkt in der Kartenanwendung."
+   "text": "Googles Funktion Ask Maps startet in Deutschland und plant auf Zuruf ganze Tagesabläufe samt Buchungen direkt in der Kartenanwendung."
+  },
+  {
+   "id": "4a67745df3e0",
+   "text": "Beim Widerstand gegen neue KI-Rechenzentren geht es Anwohnern vor allem um Stromversorgung und lokale Folgen, nicht um Fortschrittsdebatten."
+  },
+  {
+   "id": "868c031a2d05",
+   "text": "Generative KI formuliert Phishing fehlerfrei und persönlich, womit Rechtschreibfehler und unpersönliche Anreden als Warnsignale wegfallen."
   }
  ],
  "items": [
@@ -57,7 +57,8 @@
    "kurios": "Ein formaler Beweis mit 17 Millionen Zeilen Code wurde Zeile für Zeile geprüft.",
    "quelle_titel": "Lean-Community bestätigt offiziell den Beweis der Riemannschen Vermutung",
    "url": "https://the-decoder.de/lean-community-bestaetigt-offiziell-den-beweis-der-riemannschen-vermutung/",
-   "kontext": "Weil der Beweis als maschinenlesbarer Code vorliegt, musste niemand eine Abhandlung durcharbeiten: Mehrere voneinander unabhängige Prüfprogramme, die nachweislich keinen fehlerhaften Beweis akzeptieren können, bestätigten das Ergebnis binnen Tagen nach der Veröffentlichung am 20. November 2026. Dokumentiert hat den Abgleich Andrew Sutherland vom MIT. Prognosemärkte hatten mit einer Lösung erst Mitte der 2030er gerechnet, was den Zeitsprung einordnet."
+   "kontext": "Weil der Beweis als maschinenlesbarer Code vorliegt, musste niemand eine Abhandlung durcharbeiten: Mehrere voneinander unabhängige Prüfprogramme, die nachweislich keinen fehlerhaften Beweis akzeptieren können, bestätigten das Ergebnis binnen Tagen nach der Veröffentlichung am 20. November 2026. Dokumentiert hat den Abgleich Andrew Sutherland vom MIT. Prognosemärkte hatten mit einer Lösung erst Mitte der 2030er gerechnet, was den Zeitsprung einordnet.",
+   "dup_of": "c324e0f473e9"
   },
   {
    "id": "8817db6d12e0",
@@ -441,7 +442,13 @@
    "added": "2026-11-23T07:13:40+01:00",
    "quelle_titel": "OpenAI’s chief scientist has thoughts on how to limit AI development",
    "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-   "kontext": "Hinter der Debatte stehen Warnungen eines früheren Forschers beider Labore und ein Anthropic-Börsenprospekt, der auf schwerwiegende gesellschaftliche Risiken verweist. Dario Amodei schlug daraufhin gemeinsame Sicherheitsstandards und Grenzen für ungeprüften Fortschritt vor, unterstützt von Sam Altman und Elon Musk. Jakub Pachocki bringt nun die Perplexität ins Spiel, weil Tests einzelner Fähigkeiten schnell veralten. Firmen könnten sich auf eine Schwelle einigen, die erst fällt, wenn Verständnis und Überwachung von KI weit genug sind."
+   "kontext": "Hinter der Debatte stehen Warnungen eines früheren Forschers beider Labore und ein Anthropic-Börsenprospekt, der auf schwerwiegende gesellschaftliche Risiken verweist. Dario Amodei schlug daraufhin gemeinsame Sicherheitsstandards und Grenzen für ungeprüften Fortschritt vor, unterstützt von Sam Altman und Elon Musk. Jakub Pachocki bringt nun die Perplexität ins Spiel, weil Tests einzelner Fähigkeiten schnell veralten. Firmen könnten sich auf eine Schwelle einigen, die erst fällt, wenn Verständnis und Überwachung von KI weit genug sind.",
+   "also": [
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/newsletter/openai-wants-ai-labs-to-agree-on-limits/"
+    }
+   ]
   },
   {
    "id": "de5cd1a6d51d",
@@ -732,6 +739,27 @@
    "quelle_titel": "„Ask Maps“ startet in Deutschland: Google Maps plant jetzt deinen kompletten Tagesablauf, und bucht sogar Termine",
    "url": "https://t3n.de/news/google-ask-maps-start-deutschland-1773919",
    "kontext": "Hinter Ask Maps steht Googles Versuch, die Kartenapp vom Navigationswerkzeug zum Reiseplaner zu machen. Dafür nutzt der Konzern seinen Datenbestand aus hunderten Millionen Orten, die Angebote, Preise und freie Termine hinterlegen. Die KI stellt daraus Tagespläne mit nummerierten Stopps zusammen, die sich teilen und unterwegs anpassen lassen, dazu kommen Echtzeitdaten zu Wetter, Parken und Verzögerungen. Der Start fällt bewusst in die reiseintensive Vorweihnachtszeit."
+  },
+  {
+   "id": "59b4986f10a2",
+   "date": "2026-11-22",
+   "published": "2026-11-22T09:21+01:00",
+   "headline": "KI-Qualifizierung soll sich an echten Praxisproblemen orientieren",
+   "summary": "Der Beitrag thematisiert die Verknüpfung von KI-Schulungen mit konkreten realen Problemstellungen. Lerninhalte sollen damit stärker an der Praxis statt an rein theoretischen Übungen ausgerichtet werden.",
+   "thema": "KI & Lernen",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "AITI",
+    "ki-schulung",
+    "praxisbezug",
+    "qualifizierung"
+   ],
+   "source": "Vietnam.vn",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-11-23T13:18:37+01:00",
+   "quelle_titel": "KI-Training verknüpft mit realen Problemen.",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3YURvdUVZejFPazBXY0s0R1Y1dnVhSkZ3bUJqaTVMWFJyZVRmVHpxY1Z5aTh6UTdKVFp3WlBLZjVGbl9SMkNSTWJGbjd2ajJqMk96VU84M0ZWUnRzaE5ETS1ZdkhmWlAxM0U1NkRmTm0?oc=5"
   },
   {
    "id": "0c81fa30a9f6",
