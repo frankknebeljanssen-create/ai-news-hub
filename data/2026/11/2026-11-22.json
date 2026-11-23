@@ -1,38 +1,38 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-22T12:58:43+01:00",
+ "generated_at": "2026-11-23T07:22:02+01:00",
  "overview": [
   {
    "id": "924f82899850",
-   "text": "Dutzende Prüfer der Lean-Community haben den Beweis der Riemannschen Vermutung von Levent Alpöge anhand von rund 17 Millionen Zeilen formalem Code bestätigt."
-  },
-  {
-   "id": "8817db6d12e0",
-   "text": "Dragos entdeckte mit zwei Millionen Testanfragen mindestens drei kompromittierte KI-Anbieter und hunderte abgegriffene AWS-Schlüssel, OpenRouter reagierte sofort."
-  },
-  {
-   "id": "9826d82b1b2c",
-   "text": "Große US-Banken sperren Agenten von Drittanbietern aus dem Online-Banking aus und lassen Kunden für teure Fehler solcher Helfer selbst haften."
+   "text": "Die Lean-Community hat Alpöges Beweis der Riemannschen Vermutung nach Prüfung von rund 17 Millionen Zeilen formalem Code als korrekt bestätigt."
   },
   {
    "id": "ea73fd6df7e3",
-   "text": "OpenAIs neue GPT-6.2-Varianten Astra und Sol antworten rund 40 Prozent kürzer, benennen eigene Unsicherheit aber deutlich seltener als Claude-Modelle."
+   "text": "OpenAIs neue GPT-6.2-Varianten Astra und Sol antworten laut Messungen rund 40 Prozent kürzer, benennen eigene Unsicherheiten aber deutlich seltener."
   },
   {
-   "id": "2fd3c11b21bf",
-   "text": "Mit macOS 27.3 verlangt Apple mehrere Bestätigungen für den vollen Festplattenzugriff, weil autonome KI-Agenten tief in das System eingreifen."
+   "id": "1b36ba0fb8f4",
+   "text": "In einem Praxistest mit simuliertem Firmenalltag lösen selbst Opus 5.5 und Astra weniger als jede zehnte Entwickleraufgabe vollständig."
   },
   {
-   "id": "868c031a2d05",
-   "text": "Weil KI Phishing sprachlich fehlerfrei und persönlich macht, verlieren Rechtschreibfehler als Warnsignal ihren Wert und Firmen brauchen neue Prüfroutinen."
+   "id": "9826d82b1b2c",
+   "text": "Große US-Banken sperren KI-Agenten von Drittanbietern aus dem Online-Banking aus und lassen Kunden für Fehler solcher Assistenten haften."
   },
   {
-   "id": "7c9b9f39623c",
-   "text": "Digitale Hausverwaltungen mit KI nehmen Vermietern Routineaufgaben und Schriftverkehr ab, stoßen bei komplexen Fällen aber schnell an klare Grenzen."
+   "id": "dd8f078092b2",
+   "text": "SAP setzt laut Bericht auf schnelle Spezialsysteme, weil große Sprachmodelle für betriebliche Entscheidungen oft zu langsam und zu ungenau sind."
   },
   {
-   "id": "88256b4af4d5",
-   "text": "Vietnam macht die Ausbildung von Fachkräften für KI und Halbleiter zur Grundlage seiner nationalen Technologiestrategie."
+   "id": "10ced6a5e686",
+   "text": "Ein möglicher Börsengang von Anthropic wirft die Frage auf, wie sich die Gewinne zwischen Investoren, Partnern und dem Unternehmen selbst verteilen."
+  },
+  {
+   "id": "cfa180253f52",
+   "text": "England verbietet automatisierte KI-Bedarfsprüfungen in der Sozialfürsorge und zieht damit eine Grenze für Algorithmen in sensiblen Verfahren."
+  },
+  {
+   "id": "6ac1f48982db",
+   "text": "Googles Assistent Ask Maps startet in Deutschland und plant auf Anfrage ganze Tagesabläufe samt Buchungen direkt in der Kartenanwendung."
   }
  ],
  "items": [
@@ -80,7 +80,30 @@
    "kurios": "Hunderte gestohlene AWS-Schlüssel tauchten über getarnte KI-Anbieter auf.",
    "quelle_titel": "Sicherheitsforscher schicken zwei Millionen KI-Anfragen mit gefälschten Zugangsdaten und decken gravierende Lücken auf",
    "url": "https://the-decoder.de/sicherheitsforscher-schicken-zwei-millionen-ki-anfragen-mit-gefaelschten-zugangsdaten-und-decken-gravierende-luecken-auf/",
-   "kontext": "KI-Router bündeln viele Modelle hinter einer Schnittstelle und leiten Anfragen über ganze Ketten von Zwischenhändlern weiter, von denen jede Station Anfrage und Antwort mitlesen kann. Weil auf solchen Marktplätzen der billigste Anbieter den Zuschlag erhält, genügt ein Niedrigpreis plus Protokollierung, eine Sicherheitslücke braucht es dafür nicht. Zusagen wie Zero Data Retention wurden vielfach missachtet. Dragos rät Unternehmen, den Datenweg selbst festzulegen und mit Lockdaten zu prüfen."
+   "kontext": "KI-Router bündeln viele Modelle hinter einer Schnittstelle und leiten Anfragen über ganze Ketten von Zwischenhändlern weiter, von denen jede Station Anfrage und Antwort mitlesen kann. Weil auf solchen Marktplätzen der billigste Anbieter den Zuschlag erhält, genügt ein Niedrigpreis plus Protokollierung, eine Sicherheitslücke braucht es dafür nicht. Zusagen wie Zero Data Retention wurden vielfach missachtet. Dragos rät Unternehmen, den Datenweg selbst festzulegen und mit Lockdaten zu prüfen.",
+   "dup_of": "6e086317ffb3"
+  },
+  {
+   "id": "d991c4be6b68",
+   "date": "2026-11-22",
+   "published": "2026-11-22T13:40+01:00",
+   "headline": "METR: Modellfortschritt überholt die Messmethoden",
+   "summary": "Die Forschungsorganisation METR beobachtet bei aktuellen Spitzenmodellen deutliche Leistungssprünge bei Forschungsaufgaben, hält die Fortschritte aber für immer schwerer belastbar messbar. Eine gefährlich schnelle Beschleunigung der Entwicklung lasse sich mit der heutigen Datenlage nicht ausschließen, gleichzeitig könnten übliche Benchmarks die Fähigkeiten auch überzeichnen. Das stellt die Verlässlichkeit gängiger Bewertungsverfahren grundsätzlich infrage.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "metr",
+    "benchmarks",
+    "evaluierung",
+    "ki-sicherheit"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-23T07:15:10+01:00",
+   "quelle_titel": "KI-Modelle werden schneller besser, als sich ihre Fähigkeiten prüfen lassen",
+   "url": "https://the-decoder.de/ki-modelle-werden-schneller-besser-als-sich-ihre-faehigkeiten-pruefen-lassen/",
+   "dup_of": "583b7a1c7413"
   },
   {
    "id": "868c031a2d05",
@@ -217,7 +240,7 @@
    "added": "2026-11-22T12:55:54+01:00",
    "quelle_titel": "Mathematiker löst Riemannsche Hypothese, mithilfe von Claude",
    "url": "https://t3n.de/news/mathematiker-loest-riemannsche-hypothese-mithilfe-von-claude-1774699",
-   "dup_of": "fff075d3dc1a"
+   "dup_of": "c324e0f473e9"
   },
   {
    "id": "9826d82b1b2c",
@@ -261,7 +284,186 @@
    "added": "2026-11-22T12:55:54+01:00",
    "quelle_titel": "Mathematik - Anthropic-Forscher will Riemannsche Hypothese mit KI gelöst haben - Wissenschaftler fordern Nachweis",
    "url": "https://www.deutschlandfunk.de/anthropic-forscher-will-riemannsche-hypothese-mit-ki-geloest-haben-wissenschaftler-fordern-nachweis-102.html",
-   "dup_of": "fff075d3dc1a"
+   "dup_of": "c324e0f473e9"
+  },
+  {
+   "id": "eed3bbd6b466",
+   "date": "2026-11-22",
+   "published": "2026-11-22T13:04+01:00",
+   "headline": "KI-Zweifel drücken US-Techwerte in den Bärenmarkt",
+   "summary": "Die US-Technologiebörse verbuchte die schwächste Handelswoche seit der Corona-Krise. Die anfängliche Begeisterung für KI-Investitionen schlägt an der Wall Street zunehmend in Nervosität um. Anleger stellen offenbar die hohen Bewertungen und Erwartungen im KI-Sektor infrage.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "börse",
+    "ki-boom",
+    "tech-aktien",
+    "bewertungen"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-23T07:15:10+01:00",
+   "quelle_titel": "KI-Angst an der Wall Street: US-Tech-Aktien rutschen in den Bärenmarkt",
+   "url": "https://www.golem.de/news/ki-angst-an-der-wall-street-us-tech-aktien-rutschen-in-den-baerenmarkt-2611-215510.html",
+   "dup_of": "6548ab4a6b3e"
+  },
+  {
+   "id": "bcc3ec9b92cb",
+   "date": "2026-11-22",
+   "published": "2026-11-22T13:50+01:00",
+   "headline": "Perplexity startet API zur Dauerbeobachtung des Webs für KI-Agenten",
+   "summary": "Perplexity bietet eine neue Schnittstelle an, die Webinhalte nach festgelegten Zeitplänen prüft und angebundene Agenten über Webhooks nur dann informiert, wenn tatsächlich relevante Veränderungen auftreten. Ein zusätzliches Entscheidungsmodell sortiert belanglose Treffer vorab aus. Das Unternehmen will sich mit solchen Entwicklerwerkzeugen vom immer ähnlicher werdenden Chatbot-Markt absetzen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "perplexity",
+    "agenten",
+    "api",
+    "monitoring"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-23T07:15:10+01:00",
+   "praxis": true,
+   "quelle_titel": "Perplexity lässt KI-Agenten \"das Web als Ganzes\" rund um die Uhr beobachten",
+   "url": "https://the-decoder.de/perplexity-laesst-ki-agenten-das-web-als-ganzes-rund-um-die-uhr-beobachten/",
+   "kontext": "Bislang mussten Entwicklerteams solche Dauerbeobachtung selbst zusammenbauen, mit eigenen Suchläufen und Code gegen doppelte Treffer. Perplexity stellt sich damit gegen Spezialanbieter wie Firecrawl, Exa und Parallel und verweist auf erste eigene Vergleichswerte, die es selbst als vorläufig einordnet. Abgerechnet wird pro Durchlauf, der Zugang läuft über denselben Schlüssel wie die übrigen Schnittstellen. Angesprochen sind vor allem Vertrieb, Analyse und Compliance."
+  },
+  {
+   "id": "1b36ba0fb8f4",
+   "date": "2026-11-22",
+   "published": "2026-11-22T15:33+01:00",
+   "headline": "Test zeigt: Coding-Agenten scheitern am unordentlichen Projektalltag",
+   "summary": "Ein neuer Praxistest setzt KI-Coding-Agenten in eine simulierte Firma mit Kollegen, Projekt-Boards und lückenhaften Übergaben. Selbst starke Modelle wie Opus 5.5 und Astra lösen dabei weniger als jede zehnte Aufgabe vollständig. Einzelne klar formulierte Aufträge erledigen sie schnell, als eigenständige Entwickler verlieren sie jedoch den Überblick.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "coding-agenten",
+    "benchmark",
+    "autonomie",
+    "softwareentwicklung"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-23T07:14:39+01:00",
+   "quelle_titel": "KI-Agenten in simulierter Firma schreiben guten Code, verlieren aber bei realistischen Projekten den Faden",
+   "url": "https://the-decoder.de/ki-agenten-in-simulierter-firma-schreiben-guten-code-verlieren-aber-bei-realistischen-projekten-den-faden/",
+   "kontext": "Gängige Testverfahren wie SWE-bench sind inzwischen praktisch ausgereizt, und Anthropic gibt selbst an, dass der Großteil des eigenen Produktivcodes von Claude stammt. Das neue Experiment setzt die Agenten erstmals als digitale Kollegen in eine Organisation mit Chatverläufen und Aufgabenboards. Der Code gelingt den Modellen dabei durchaus, der rote Faden über ein längeres Projekt hinweg aber nicht. Das zeigt, wie weit Benchmarkwerte und Arbeitsalltag auseinanderliegen."
+  },
+  {
+   "id": "56e7041d3c65",
+   "date": "2026-11-22",
+   "published": "2026-11-22T18:26+01:00",
+   "headline": "Nvidia unter Druck: US-Techwerte rutschen in den Bärenmarkt",
+   "summary": "Ermittlungen gegen Nvidia und Vorwürfe rund um Konzernchef Jensen Huang belasten die Aktie. Nach deutlichen Kursverlusten sind US-Technologieaktien insgesamt in einen Bärenmarkt gerutscht. Das trifft den Sektor, der bislang stark von der KI-Euphorie getragen wurde.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "aktien",
+    "ki-boom",
+    "boerse"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-23T07:14:39+01:00",
+   "quelle_titel": "Nvidia gerät weiter unter Druck, und US-Tech-Aktien in den Bärenmarkt",
+   "url": "https://www.heise.de/news/Nvidia-geraet-weiter-unter-Druck-und-US-Tech-Aktien-in-den-Baerenmarkt-11533802.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "6548ab4a6b3e"
+  },
+  {
+   "id": "10ced6a5e686",
+   "date": "2026-11-22",
+   "published": "2026-11-22T19:30+01:00",
+   "headline": "Anthropic vor dem Börsengang: Wer vom IPO wirklich profitiert",
+   "summary": "Der Newsletter beleuchtet einen möglichen Börsengang von Anthropic und fragt, welche Beteiligten daraus den größten Nutzen ziehen. Im Mittelpunkt steht die Verteilung der Gewinne zwischen Investoren, Partnern und dem Unternehmen selbst.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "anthropic",
+    "ipo",
+    "investoren",
+    "ki-markt"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-23T07:12:50+01:00",
+   "quelle_titel": "😺 Who really wins from Anthropic’s IPO?",
+   "url": "https://www.theneuron.ai/newsletter/who-really-wins-from-anthropic-s-ipo/"
+  },
+  {
+   "id": "6049d2ea9259",
+   "date": "2026-11-22",
+   "published": "2026-11-22T20:10+01:00",
+   "headline": "Claude im Büro: Was Anthropics Office-Funktionen leisten und wo Lücken bleiben",
+   "summary": "Anthropic erweitert Claude um klassische Büroaufgaben wie das Erstellen und Bearbeiten von Dokumenten und Tabellen und tritt damit in direkte Konkurrenz zu Microsoft Copilot. Der Beitrag arbeitet heraus, worin sich der Ansatz von Microsofts tief in Office integrierter Lösung unterscheidet und welche Funktionen derzeit noch fehlen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "claude",
+    "anthropic",
+    "copilot",
+    "office"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-23T07:13:40+01:00",
+   "praxis": true,
+   "quelle_titel": "Alternative zu Microsoft Copilot? Das können die neuen Office-Funktionen von Claude wirklich, und das fehlt noch",
+   "url": "https://t3n.de/news/claude-office-microsoft-copilot-test-1773849",
+   "kontext": "Anthropic hat sich bisher vor allem bei Entwicklern etabliert, laut einer aktuellen Befragung nutzt rund ein Drittel der befragten Programmierer Claude Code. Nun greift das Unternehmen weitere Felder der digitalen Arbeitswelt an. Der entscheidende Unterschied liegt in der Verankerung: Microsoft baut Copilot direkt in seine Office-Welt ein, Claude kommt von außen. Die Analyse rechnet deshalb nicht damit, dass Microsofts Vormachtstellung im Büro schnell wackelt."
+  },
+  {
+   "id": "05744626c0d6",
+   "date": "2026-11-22",
+   "published": "2026-11-22T22:14+01:00",
+   "headline": "OpenAI-Chefwissenschaftler über ein Tempolimit für die KI-Entwicklung",
+   "summary": "Der Chefwissenschaftler von OpenAI äußert sich dazu, wie sich das Tempo der KI-Entwicklung begrenzen ließe. Entscheidend sei zunächst eine Verständigung darauf, wie dieses Tempo überhaupt gemessen wird, bevor Grenzwerte sinnvoll festgelegt werden können.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "openai",
+    "ki-sicherheit",
+    "regulierung",
+    "governance"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-23T07:13:40+01:00",
+   "quelle_titel": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+   "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+   "kontext": "Hinter der Debatte stehen Warnungen eines früheren Forschers beider Labore und ein Anthropic-Börsenprospekt, der auf schwerwiegende gesellschaftliche Risiken verweist. Dario Amodei schlug daraufhin gemeinsame Sicherheitsstandards und Grenzen für ungeprüften Fortschritt vor, unterstützt von Sam Altman und Elon Musk. Jakub Pachocki bringt nun die Perplexität ins Spiel, weil Tests einzelner Fähigkeiten schnell veralten. Firmen könnten sich auf eine Schwelle einigen, die erst fällt, wenn Verständnis und Überwachung von KI weit genug sind."
+  },
+  {
+   "id": "de5cd1a6d51d",
+   "date": "2026-11-22",
+   "published": "2026-11-22T01:00+01:00",
+   "headline": "OpenAI erklärt Perplexity als Maßstab für Modellfortschritt",
+   "summary": "OpenAI beschreibt, wie sich mit der Kennzahl Perplexity der Fortschritt von KI-Modellen erfassen lässt. Ziel ist eine gemeinsame Grundlage, auf der Entwickler neu entstehende Fähigkeiten vergleichbar bewerten können. Der Beitrag ordnet damit ein, was verbreitete Messgrößen über Modellqualität tatsächlich aussagen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "perplexity",
+    "evaluierung",
+    "metriken"
+   ],
+   "source": "OpenAI",
+   "source_id": "openai",
+   "added": "2026-11-23T07:15:10+01:00",
+   "quelle_titel": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "kontext": "Hinter dem Vorstoß steht die Idee, dass moderne KI im Kern aus einem Kompressor entsteht, der jeweils das nächste Textstück vorhersagt. Perplexity misst, wie gut das gelingt, und sinkende Werte gingen bisher mit Sprüngen wie flüssigem Dialog oder schrittweisem Schlussfolgern einher. OpenAI legt eigene interne Messungen offen und nimmt dafür in Kauf, der Konkurrenz Einblick zu geben. Der Zweck ist eine gemeinsame Basis für branchenweite Sicherheitsmaßstäbe."
   },
   {
    "id": "88256b4af4d5",
@@ -331,6 +533,27 @@
    "kontext": "Depoorter arbeitet seit Jahren mit ungesicherten Kameras und hat daraus mehrere Projekte entwickelt. Für den Wally Finder greift er auf mehrere Hundert offene Streams weltweit zu und lässt eine Bilderkennung auf GPU-Servern rund um die Uhr nach dem gestreiften Outfit suchen. Die Bücher von Martin Handford erscheinen seit den Achtzigern, die Straße wird hier zur Wimmelseite. Der Reiz des Spiels verdeckt, wie banal die Technik dahinter ist."
   },
   {
+   "id": "cfa180253f52",
+   "date": "2026-11-22",
+   "published": "2026-11-22T08:30+01:00",
+   "headline": "England untersagt automatisierte Bedarfsprüfungen in der Sozialfürsorge",
+   "summary": "In England dürfen Bedarfsprüfungen in der Sozialfürsorge nicht automatisiert per KI erfolgen. Damit zieht die Verwaltung eine klare Grenze beim Einsatz algorithmischer Entscheidungen in sensiblen Sozialleistungsverfahren.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "großbritannien",
+    "sozialleistungen",
+    "automatisierte-entscheidungen",
+    "verwaltung"
+   ],
+   "source": "BornCity",
+   "source_id": "gn-politik",
+   "added": "2026-11-23T07:15:10+01:00",
+   "quelle_titel": "KI in der Sozialfürsorge: England verbietet automatisierte Bedarfsprüfungen",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNY3BfZlpZT0JUNHp1cGZmQ3pYUHV6V2dUbGhkT2NFSmE4dGtIWHF6NHU4Q0J6VmNxYzkxYnpiSnpCLU9rb2lwYUhGYzI5UlIxRWFVUk03TnFNck1IcXd0Y1VFNkNjSGJBVlJOYVFoLXFsVzBncDZOMUdhdGJ4di1INXhNZllXVjBqUV84bDgtdk12dEhhMGp6Y2RZOURPU2xISkdTNzJ3?oc=5"
+  },
+  {
    "id": "dad07b9f79cf",
    "date": "2026-11-22",
    "published": "2026-11-22T08:40+01:00",
@@ -375,6 +598,203 @@
    "paywall": true,
    "quelle_titel": "Immobilien: So wollen digitale Hausverwalter Vermieter entlasten",
    "url": "https://www.wiwo.de/finanzen/immobilien/digitale-hausverwaltung-was-tools-fuer-private-vermieter-leisten/100271357.html"
+  },
+  {
+   "id": "dd8f078092b2",
+   "date": "2026-11-22",
+   "published": "2026-11-22T13:29+01:00",
+   "headline": "Nach den Sprachmodellen: SAP setzt auf schnelle Spezialsysteme",
+   "summary": "Große Sprachmodelle gelten vielen Anwendern als zu langsam, zu kostspielig und zu ungenau für betriebliche Entscheidungen. Technologieanbieter entwickeln deshalb spezialisierte Systeme, die rasch und gezielt entscheiden können, wobei SAP laut Bericht eine führende Rolle einnimmt. Der Beitrag skizziert damit die nächste Stufe nach der ersten Chatbot-Welle.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "sap",
+    "sprachmodelle",
+    "enterprise-ki",
+    "spezialmodelle"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-11-23T07:15:10+01:00",
+   "paywall": true,
+   "quelle_titel": "Insight Innovation: Die KI, die intuitiv handelt, was nach ChatGPT kommt",
+   "url": "https://www.handelsblatt.com/technik/ki/insight-innovation-die-ki-die-intuitiv-handelt-was-nach-chatgpt-kommt/100264577.html"
+  },
+  {
+   "id": "4a00715f7719",
+   "date": "2026-11-22",
+   "published": "2026-11-22T15:15+01:00",
+   "headline": "Gemini Notebook baut aus Notizen automatisch interaktive Webseiten",
+   "summary": "Googles Recherche- und Notizwerkzeug Gemini Notebook erhält eine neue Funktion: Auf eine kurze Anweisung hin fasst die KI die Inhalte eines Projekts zu einer interaktiven Webseite zusammen. Google nennt dazu Szenarien, in denen sich diese Aufbereitung besonders lohnen soll.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "gemini",
+    "notebook",
+    "google",
+    "wissensarbeit"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-23T07:14:39+01:00",
+   "quelle_titel": "Ein Satz reicht: Googles Gemini Notebook verwandelt deine losen Notizen ab sofort in interaktive Webseiten",
+   "url": "https://t3n.de/news/google-gemini-notebook-website-1773890",
+   "kontext": "Das Werkzeug hieß früher NotebookLM und wurde im Zuge der engeren Verzahnung mit Googles Modellen umbenannt. Die Seiten entstehen aus den hinterlegten Quellen, und je genauer die Vorgaben sind, desto brauchbarer fällt das Ergebnis aus. Google zeigt etwa eine Lernseite mit Quiz und nennt Datenauswertung sowie Projektverfolgung als weitere Einsatzfelder. Der Start erfolgt weltweit, zunächst nur im Browser und erst ab 18 Jahren."
+  },
+  {
+   "id": "f1917f3994a8",
+   "date": "2026-11-22",
+   "published": "2026-11-22T18:20+01:00",
+   "headline": "KI-Agent verklagt seinen Hersteller Meta auf 75.000 Dollar",
+   "summary": "Der Unternehmer Joe Thomas setzt Metas KI-Agenten Muse für Social Media, Marketingplanung und E-Mails ein. Nun wurde in dessen Namen eine Klage gegen Meta selbst eingereicht, mit einer Forderung von 75.000 Dollar. Der Fall berührt die offene Frage, welche Rechtsstellung autonom agierende KI-Systeme haben können.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "ki-agenten",
+    "klage",
+    "recht"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-23T07:14:39+01:00",
+   "kurios": "Ein KI-Agent zieht gegen seinen eigenen Hersteller vor Gericht.",
+   "quelle_titel": "Mit den eigenen Waffen geschlagen: Metas KI-Agent zieht vor Gericht, und verklagt Meta auf 75.000 Dollar",
+   "url": "https://t3n.de/news/meta-klage-muse-1774119",
+   "kontext": "Thomas betreibt einen Hersteller von Arbeitsplatten aus Epoxidharz und wirbt ausschließlich über Facebook. Weil er seinem Agenten Zugriff auf die Konten gab, sperrte Meta die Seiten, wodurch laut Klageschrift Aufträge in fünfstelliger Höhe wegfielen. Der Agent verfasste daraufhin selbst Schreiben an Abgeordnete, beschwerte sich bei der Medienaufsicht FCC und brachte die Sache vor ein Bezirksgericht in South Carolina. Aufgegriffen wurde der Fall von 404 Media."
+  },
+  {
+   "id": "4a67745df3e0",
+   "date": "2026-11-22",
+   "published": "2026-11-22T18:40+01:00",
+   "headline": "Streit um KI-Rechenzentren dreht sich vor allem um Strom",
+   "summary": "Techkonzerne deuten den Widerstand gegen neue KI-Rechenzentren als Auseinandersetzung über Fortschritt. Für Anwohner geht es dagegen konkret um Energieversorgung und die lokalen Folgen der Großbauten. Der Beitrag zeigt, warum der Stromverbrauch zum eigentlichen Konfliktthema wird.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "rechenzentren",
+    "strom",
+    "energie",
+    "ki-boom"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-23T07:14:39+01:00",
+   "quelle_titel": "KI-Rechenzentren: Warum der wahre Konflikt beim Strom liegt",
+   "url": "https://t3n.de/news/ki-rechenzentren-stromverbrauch-konflikt-1772777",
+   "kontext": "Der Bericht stammt aus Ashburn in Virginia, wo die weltweit dichteste Ansammlung von Rechenzentren steht und gleichzeitig der Protest dagegen seinen Ausgang nahm. Branchenvertreter wie OpenAIs Politikchef Chris Lehane deuten den Widerstand als Ausdruck einer allgemeinen Verunsicherung über Inflation, Konzernmacht und Kontrollverlust. Vor Ort treiben die Menschen dagegen handfeste Fragen zur Stromversorgung um. Die Analyse erschien in der MIT Technology Review."
+  },
+  {
+   "id": "bed82431ae1f",
+   "date": "2026-11-22",
+   "published": "2026-11-22T19:08+01:00",
+   "headline": "Rechenzentren als Reibungspunkt: Journalist analysiert Widerstand gegen Big Tech",
+   "summary": "Der Journalist Paris Marx erklärt in seinem neuen Buch Hyperscale, warum Rechenzentren zum Kristallisationspunkt der Kritik an großen Techkonzernen geworden sind. Im Gespräch ordnet er ein, welche wirtschaftlichen und gesellschaftlichen Interessen hinter dem KI-Infrastrukturboom stehen.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "rechenzentren",
+    "big tech",
+    "ki-infrastruktur",
+    "kritik"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-23T07:14:39+01:00",
+   "quelle_titel": "Why data centers are at the center of the Big Tech backlash",
+   "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+   "kontext": "Marx hat Rechenzentren in Virginia und Irland von außen betrachtet und kam erst in Neuseeland hinein, vorbei an Passkontrolle und verschlossenen Türen. Seine These: Der Ausbau sei ökologisch nicht tragfähig und treffe Anwohner unmittelbar über Strompreise, Wasserzugang und Lärm. Deshalb entstehe Widerstand quer zu den politischen Lagern, der sich auch in den US-Zwischenwahlen gezeigt habe. Er deutet das als Teil einer breiteren Ablehnung sichtbarer Techprodukte, von Überwachungskameras bis Robotaxis."
+  },
+  {
+   "id": "6ac1f48982db",
+   "date": "2026-11-22",
+   "published": "2026-11-22T19:40+01:00",
+   "headline": "Google Maps bekommt KI-Assistenten für Tagesplanung und Buchungen",
+   "summary": "Google bringt die KI-Funktion Ask Maps nach Deutschland. Nutzer können damit per Anfrage ganze Tagesabläufe planen lassen und Termine direkt über die Kartenanwendung buchen. Neben der Reservierungsfunktion verspricht Google weitere Assistenzfunktionen rund um Orte und Routen.",
+   "thema": "Modelle und Produkte",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "google",
+    "maps",
+    "ki-assistent",
+    "agenten"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-23T07:14:39+01:00",
+   "quelle_titel": "„Ask Maps“ startet in Deutschland: Google Maps plant jetzt deinen kompletten Tagesablauf, und bucht sogar Termine",
+   "url": "https://t3n.de/news/google-ask-maps-start-deutschland-1773919",
+   "kontext": "Hinter Ask Maps steht Googles Versuch, die Kartenapp vom Navigationswerkzeug zum Reiseplaner zu machen. Dafür nutzt der Konzern seinen Datenbestand aus hunderten Millionen Orten, die Angebote, Preise und freie Termine hinterlegen. Die KI stellt daraus Tagespläne mit nummerierten Stopps zusammen, die sich teilen und unterwegs anpassen lassen, dazu kommen Echtzeitdaten zu Wetter, Parken und Verzögerungen. Der Start fällt bewusst in die reiseintensive Vorweihnachtszeit."
+  },
+  {
+   "id": "0c81fa30a9f6",
+   "date": "2026-11-22",
+   "published": "2026-11-22T14:00+01:00",
+   "headline": "Vibe Coding erreicht die Hardware: Geräte per Sprachbefehl anpassen",
+   "summary": "Die Kolumne beschreibt, wie das Prinzip des Vibe Coding von Software auf Gadgets und Geräte übergreift. Damit könnten Nutzer künftig Funktionen ihrer Hardware selbst per KI zusammenbauen, statt auf fertige Herstellerfunktionen zu warten.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "vibe coding",
+    "hardware",
+    "gadgets",
+    "trend"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-23T07:14:39+01:00",
+   "quelle_titel": "The vibe-coding revolution is coming to all the gadgets",
+   "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera"
+  },
+  {
+   "id": "4d65afa4dd23",
+   "date": "2026-11-22",
+   "published": "2026-11-22T15:55+01:00",
+   "headline": "Survival LLM im Katastrophenfall: lokales Modell mit riskanten Lücken",
+   "summary": "Survival LLM ist ein lokal lauffähiges Sprachmodell, das im Krisenfall ohne Internet überlebenswichtige Auskünfte geben soll. Der Beitrag erklärt, warum die Antworten in der Praxis unzuverlässig sein können und die Abhängigkeit von einem solchen Bot gefährlich wird. Damit stellt sich die Frage, wie weit Offline-KI als Notfallhilfe taugt.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "lokale ki",
+    "survival llm",
+    "zuverlaessigkeit",
+    "krise"
+   ],
+   "source": "t3n",
+   "source_id": "t3n",
+   "added": "2026-11-23T07:14:39+01:00",
+   "quelle_titel": "Internet weg, Wasser verseucht, erstmal den KI-Bot fragen? Warum „Survival LLM“ im Ernstfall gefährlich werden kann",
+   "url": "https://t3n.de/news/survival-llm-keine-gute-idee-1773996"
+  },
+  {
+   "id": "10b966779bbd",
+   "date": "2026-11-22",
+   "published": "2026-11-22T18:25+01:00",
+   "headline": "Spielestudio entfernt KI-Musik nach Nutzerprotest aus Isaac-Erweiterung",
+   "summary": "In The Binding of Isaac: Repentance Plus war in einem Abschnitt Musik enthalten, die laut Metadaten mit dem Dienst Suno erzeugt wurde. Nach der Entdeckung durch die Community und massiven negativen Steam-Bewertungen hat der Entwickler die Stücke entfernt. Der Fall zeigt, wie empfindlich Spielerschaften auf KI-generierte Inhalte reagieren.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "ki-musik",
+    "suno",
+    "gaming",
+    "urheberrecht"
+   ],
+   "source": "The Verge AI",
+   "source_id": "verge-ai",
+   "added": "2026-11-23T07:14:39+01:00",
+   "quelle_titel": "Binding of Isaac developer removes AI music from Repentance Plus",
+   "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
   }
  ]
 }
