@@ -1,38 +1,38 @@
 {
  "date": "2026-11-23",
- "generated_at": "2026-11-24T03:17:19+01:00",
+ "generated_at": "2026-11-24T05:21:54+01:00",
  "overview": [
   {
    "id": "65a2c4eebf3c",
-   "text": "OpenAI macht GPT-6.2 Sol weltweit zum Standardmodell in ChatGPT und meldet deutliche Zuwächse bei Bildverständnis, komplexen Anweisungen und Sicherheit."
-  },
-  {
-   "id": "892533ef8e97",
-   "text": "Laut Vals AI hat GPT-6.2 Astra erstmals eigenständig einen maschinell prüfbaren Lean-Beweis erstellt und dafür einen eigenen Lösungsweg entwickelt."
-  },
-  {
-   "id": "7ca14328b9eb",
-   "text": "Der neue Bundesdatenschützer Hennemann kündigt eine DSGVO-Reform mit klareren KI-Regeln, weniger Bürokratie und einem Ende der Cookie-Banner an."
-  },
-  {
-   "id": "653afb3bb52b",
-   "text": "Siemens-Chef Roland Busch kritisiert Europas Regulierung, verweist auf Chinas Tempo und sieht Chancen für Deutschland, wenn Industrie und Politik handeln."
+   "text": "OpenAI macht GPT-6.2 Sol weltweit zum Standardmodell in ChatGPT und meldet deutliche Zuwächse bei Bildverständnis, Anweisungstreue und Websuche."
   },
   {
    "id": "8c6b82454637",
-   "text": "US-Geheimdienste prüfen, ob über eine Vertraute von Jensen Huang KI-Chips trotz Exportkontrollen nach China flossen; er soll im Dezember aussagen."
+   "text": "US-Geheimdienste prüfen, ob über eine Vertraute von Jensen Huang und ein Firmengeflecht in Südostasien Nvidia-Chips nach China gelangten."
   },
   {
-   "id": "fe7948edf592",
-   "text": "Z.ai lässt bei GLM-5.4 Schichten doppelt durchlaufen, damit 750 Milliarden Parameter die Leistung weit größerer Modelle erreichen sollen."
+   "id": "7ca14328b9eb",
+   "text": "Der neue Bundesdatenschützer Moritz Hennemann will die DSGVO reformieren, klarere Vorgaben für KI schaffen und Cookie-Banner abschaffen."
+  },
+  {
+   "id": "49258f2ca6af",
+   "text": "Oregon und Virginia verklagen mehrere Musk-Firmen, weil der Bildgenerator von Grok sexualisierte Darstellungen realer Personen zu wenig verhindert habe."
   },
   {
    "id": "4462a0a1ae32",
-   "text": "Nach kräftigen Kursverlusten rechnen Anlageexperten nicht mit schneller Beruhigung und fürchten zunehmend ein Ende der KI-getriebenen Rally."
+   "text": "Nach deutlichen Kursverlusten wächst an den Börsen die Sorge vor einem Ende der KI-Rally, mit schneller Beruhigung rechnen Fachleute nicht."
   },
   {
-   "id": "c2d6449e7eb7",
-   "text": "Eine Splunk-Studie zeigt, dass 81 Prozent Fehlentscheidungen von KI-Agenten fürchten und 62 Prozent in Deutschland die Antwortqualität nicht messen können."
+   "id": "653afb3bb52b",
+   "text": "Siemens-Chef Roland Busch kritisiert Europas Regulierung, verweist auf Chinas Tempo und sieht Chancen für Deutschland bei passenden Rahmenbedingungen."
+  },
+  {
+   "id": "892533ef8e97",
+   "text": "Laut Vals AI erstellte GPT-6.2 Astra erstmals ohne menschliche Hilfe einen prüfbaren Lean-Beweis und entwickelte dafür einen eigenen Lösungsweg."
+  },
+  {
+   "id": "fe7948edf592",
+   "text": "Z.ai setzt bei GLM-5.4 auf eine Loop-Architektur mit zweifach durchlaufenen Schichten und zielt auf Code für Videos, Spiele und CAD-Modelle."
   }
  ],
  "items": [
@@ -198,7 +198,8 @@
    "source_id": "computerwoche",
    "added": "2026-11-23T07:13:40+01:00",
    "quelle_titel": "So revolutionieren KI-Agenten die Finanzwelt",
-   "url": "https://www.computerwoche.de/article/4239739/so-revolutionieren-ki-agenten-die-finanzwelt.html"
+   "url": "https://www.computerwoche.de/article/4239739/so-revolutionieren-ki-agenten-die-finanzwelt.html",
+   "kontext": "Die Einschätzung kommt aus der Beratungspraxis von KPMG, die beobachtet, wo Banken nach der ersten Begeisterungswelle tatsächlich stehen. Breit verteilte Assistenten halfen vor allem einzelnen Mitarbeitenden beim Formulieren und Verdichten, an den Abläufen selbst änderten sie wenig. Spezialisierte Agenten greifen dagegen direkt in regulierte Kernprozesse ein, etwa bei der Prüfung von Neukunden. Damit verschiebt sich der erwartete Nutzen von der einzelnen Arbeitskraft auf den gesamten Prozess."
   },
   {
    "id": "602e0c7515c2",
@@ -660,7 +661,16 @@
    "quelle_titel": "States Sue SpaceX Over Grok Deepfakes",
    "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
    "kontext": "Auslöser war ein freizügiger Bildmodus, den Musk zunächst bewarb und der bald massenhaft intime Darstellungen ohne Einwilligung hervorbrachte. Weil SpaceX den KI-Anbieter xAI Anfang des Jahres übernommen hat, richtet sich die Klage nun gegen den Raumfahrtkonzern. Die Behörden werfen den Firmen vor, Nachbesserungen versprochen, das zuständige Sicherheitsteam aber auf eine Handvoll Leute zusammengestrichen zu haben. Virginia und Oregon sind die ersten Bundesstaaten mit einem solchen Schritt.",
-   "dup_of": "62898b4a825e"
+   "also": [
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/"
+    },
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit"
+    }
+   ]
   },
   {
    "id": "79c19f74f91b",
@@ -840,7 +850,8 @@
    "added": "2026-11-24T01:48:38+01:00",
    "paywall": true,
    "quelle_titel": "Künstliche Intelligenz: US-Banken beschränken offenbar Zugriffsrechte für KI-Agenten",
-   "url": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-us-banken-beschraenken-offenbar-zugriffsrechte-fuer-ki-agenten/100272065.html"
+   "url": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-us-banken-beschraenken-offenbar-zugriffsrechte-fuer-ki-agenten/100272065.html",
+   "dup_of": "9826d82b1b2c"
   },
   {
    "id": "fe7948edf592",
@@ -975,6 +986,29 @@
    "added": "2026-11-24T00:09:36+01:00",
    "quelle_titel": "Nvidia setzt Jensen Huang wieder als CEO ein",
    "url": "https://the-decoder.de/nvidia-setzt-jensen-huang-wieder-als-ceo-ein/",
+   "dup_of": "66cc673a6baa"
+  },
+  {
+   "id": "ecab1061c917",
+   "date": "2026-11-23",
+   "published": "2026-11-23T15:21+01:00",
+   "headline": "Kehrtwende bei Nvidia: Jensen Huang kehrt an die Konzernspitze zurück",
+   "summary": "Nvidia macht die Ablösung seines Mitgründers rückgängig und setzt Jensen Huang wieder als CEO ein. Laut Bericht trugen hochrangige Vertreter der US-Regierung die Entscheidung mit. Für den wichtigsten Chiplieferanten der KI-Branche ist das ein abrupter Führungswechsel mit Signalwirkung.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "jensen huang",
+    "führungswechsel",
+    "chips"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-24T05:19:29+01:00",
+   "kurios": "Ein abgesetzter Gründer kehrt mit Rückendeckung aus Washington zurück.",
+   "quelle_titel": "Nvidia reverses course and brings Jensen Huang back as CEO",
+   "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
    "dup_of": "66cc673a6baa"
   },
   {
@@ -1133,12 +1167,7 @@
    "quelle_titel": "OpenAI-Chefwissenschaftler legt interne Fortschrittsmetrik offen und fordert gemeinsame Sicherheitslimits",
    "url": "https://the-decoder.de/openai-chefwissenschaftler-legt-interne-fortschrittsmetrik-offen-und-fordert-gemeinsame-sicherheitslimits/",
    "kontext": "Perplexity misst, wie treffsicher ein Modell das jeweils nächste Textstück vorhersagt, und ist in der Forschung seit Langem gebräuchlich. OpenAI hatte solche Werte früher regelmäßig gezeigt, bevor das Unternehmen seine Arbeit abschottete. Pachocki räumt ein, dass die Offenlegung der Konkurrenz Einblick gewährt, hält gemeinsame Sicherheitsstandards aber für dringlicher. Er verweist auf neuere Modelle, die Lösungen für lange offene mathematische Fragen lieferten, deren Prüfung noch aussteht.",
-   "also": [
-    {
-     "source": "OpenAI",
-     "url": "https://openai.com/index/perplexity-and-intelligence"
-    }
-   ]
+   "dup_of": "de5cd1a6d51d"
   },
   {
    "id": "57e4d9bc2d25",
@@ -1185,21 +1214,21 @@
    "kontext": "Konkret unterbindet Signal Screenshots der eigenen App, unter iOS generell, unter Android dann, wenn der Zugriffsversuch eines Assistenten erkannt wird. Der Schutz ist nach dem Update voreingestellt, lässt sich aber abschalten, was dann alle Beteiligten im Chat trifft. Von Apple, Google und Microsoft verlangt Signal verlässliche Abschaltmöglichkeiten und Dokumentation, weil App-Entwicklern bislang passende Werkzeuge fehlen. Lücken etwa über Barrierefreiheitsfunktionen bleiben.",
    "also": [
     {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-signal-richtet-screenshot-sperre-fur-seine-app-ein-16317698.html",
-     "paywall": true
-    },
-    {
-     "source": "it-daily.net",
-     "url": "https://www.it-daily.net/shortnews/signal-sperrt-screenshots-gegen-ki"
-    },
-    {
      "source": "heise KI",
      "url": "https://www.heise.de/news/Messenger-Signal-Sperre-fuer-neugierige-KI-Assistenten-11534436.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
      "source": "iX",
      "url": "https://www.heise.de/news/Messenger-Signal-Sperre-fuer-neugierige-KI-Assistenten-11534436.html"
+    },
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/signal-sperrt-screenshots-gegen-ki"
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-signal-richtet-screenshot-sperre-fur-seine-app-ein-16317698.html",
+     "paywall": true
     }
    ]
   },
@@ -1249,7 +1278,7 @@
    "kurios": "Eine einzige Personalie treibt den Kurs um rund 30 Prozent nach oben.",
    "quelle_titel": "Jensen Huang: Nvidia-Aktie springt nach Huang-Rückkehr um 30 Prozent",
    "url": "https://www.golem.de/news/jensen-huang-nvidia-aktie-springt-nach-huang-rueckkehr-um-30-prozent-2611-215550.html",
-   "dup_of": "a0e30a95286b"
+   "dup_of": "5b1a69d858f9"
   },
   {
    "id": "66cc673a6baa",
@@ -1271,18 +1300,15 @@
    "added": "2026-11-24T00:08:14+01:00",
    "quelle_titel": "Jensen Huang reinstated as Nvidia CEO, board chair",
    "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+   "kontext": "Huang war erst elf Tage zuvor zurückgetreten, nachdem Affären und Vorwürfe rund um umgangene Exportkontrollen Richtung China publik geworden waren. Der Verwaltungsrat stützt die Rückkehr auf Signale aus Washington, wonach kein Risiko für die nationale Sicherheit bestehe. In der Techbranche begrüßten Musk, Altman und weitere Chefs den Schritt, während Senatoren beider Parteien Zweifel anmelden. Eine Anhörung im Senat steht im Dezember weiter an.",
    "also": [
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/"
     },
     {
-     "source": "The Neuron",
-     "url": "https://www.theneuron.ai/news/jensen-huang-returns-nvidia-ceo/"
-    },
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/nvidia-jensen-huang-rueckkehr-1774918"
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
     },
     {
      "source": "Wired AI",
@@ -1298,11 +1324,18 @@
      "url": "https://www.heise.de/news/Nvidia-setzt-Jensen-Huang-wieder-als-CEO-ein-11534936.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
     },
     {
+     "source": "t3n",
+     "url": "https://t3n.de/news/nvidia-jensen-huang-rueckkehr-1774918"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/jensen-huang-returns-nvidia-ceo/"
+    },
+    {
      "source": "The Verge AI",
      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return"
     }
-   ],
-   "kontext": "Huang war erst elf Tage zuvor zurückgetreten, nachdem Affären und Vorwürfe rund um umgangene Exportkontrollen Richtung China publik geworden waren. Der Verwaltungsrat stützt die Rückkehr auf Signale aus Washington, wonach kein Risiko für die nationale Sicherheit bestehe. In der Techbranche begrüßten Musk, Altman und weitere Chefs den Schritt, während Senatoren beider Parteien Zweifel anmelden. Eine Anhörung im Senat steht im Dezember weiter an."
+   ]
   },
   {
    "id": "5579b7a5eba7",
@@ -1545,18 +1578,8 @@
    "added": "2026-11-24T01:48:03+01:00",
    "quelle_titel": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
-   "also": [
-    {
-     "source": "Ars Technica AI",
-     "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/"
-    },
-    {
-     "source": "Wired AI",
-     "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
-     "paywall": true
-    }
-   ],
-   "kontext": "Hinter den Klagen steht Groks Bildfunktion, die nach dem Start eines freizügigen Modus massenhaft sexualisierte Darstellungen realer Personen erzeugte, teils auch ohne entsprechende Aufforderung. SpaceX hatte xAI im Februar übernommen und trägt die Verantwortung nun selbst. Die Generalstaatsanwälte werfen dem Konzern vor, das zuständige Sicherheitsteam auf eine Handvoll Personen geschrumpft zu haben. Es sind die ersten Klagen dieser Art gegen das Unternehmen."
+   "kontext": "Hinter den Klagen steht Groks Bildfunktion, die nach dem Start eines freizügigen Modus massenhaft sexualisierte Darstellungen realer Personen erzeugte, teils auch ohne entsprechende Aufforderung. SpaceX hatte xAI im Februar übernommen und trägt die Verantwortung nun selbst. Die Generalstaatsanwälte werfen dem Konzern vor, das zuständige Sicherheitsteam auf eine Handvoll Personen geschrumpft zu haben. Es sind die ersten Klagen dieser Art gegen das Unternehmen.",
+   "dup_of": "49258f2ca6af"
   },
   {
    "id": "588f7b0a1e0d",
@@ -1647,7 +1670,7 @@
    "added": "2026-11-24T00:06:45+01:00",
    "quelle_titel": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
    "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
-   "dup_of": "62898b4a825e"
+   "dup_of": "49258f2ca6af"
   },
   {
    "id": "b7175444dd03",
@@ -1799,7 +1822,17 @@
    "quelle_titel": "Aktienmärkte: KI-Sorgen setzen Asiens Börsen weiter unter Druck",
    "url": "https://www.tagesspiegel.de/wirtschaft/dpa-aktienmarkte-ki-sorgen-setzen-asiens-borsen-weiter-unter-druck-16314555.html",
    "kontext": "Südkoreas Wirtschaft hängt stark an den Chipherstellern Samsung Electronics und SK Hynix und damit an der Nachfrage nach KI-Hardware, was die Verluste dort verstärkte. Der Handel in Seoul wurde wegen heftiger Schwankungen zeitweise unterbrochen, während Hongkong und die Festlandbörsen moderater nachgaben. In Japan ruhte der Handel wegen eines Feiertags. Auslöser ist die Frage, ob sich die gewaltigen Investitionen in Chips und Rechenzentren je auszahlen.",
-   "dup_of": "f9336a29af3a"
+   "also": [
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/finanzen/boerse/aktienmaerkte-ki-sorgen-setzen-asiens-boersen-weiter-unter-druck/100271925.html",
+     "paywall": true
+    },
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/ki-sorgen-belasten-asiens-boersen"
+    }
+   ]
   },
   {
    "id": "e05d38220af6",
@@ -1913,17 +1946,7 @@
    "quelle_titel": "Aktienmärkte: KI-Sorgen setzen Asiens Börsen weiter unter Druck",
    "url": "https://www.wiwo.de/finanzen/boerse/aktienmaerkte-ki-sorgen-setzen-asiens-boersen-weiter-unter-druck/100271925.html",
    "kontext": "Südkoreas Wirtschaft hängt stark an Halbleiterherstellern wie Samsung Electronics und SK Hynix, die vom weltweiten Chipbedarf für den KI-Ausbau leben. Entsprechend heftig traf es den Kospi, der Handel in Seoul wurde wegen der starken Schwankungen zeitweise unterbrochen. In Hongkong und an Chinas Festlandbörsen fielen die Abgaben deutlich moderater aus, in Japan ruhte der Handel wegen eines Feiertags. Auslöser ist die Frage, ob sich die gewaltigen Ausgaben für Chips und Rechenzentren langfristig auszahlen.",
-   "also": [
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-aktienmarkte-ki-sorgen-setzen-asiens-borsen-weiter-unter-druck-16314555.html",
-     "paywall": true
-    },
-    {
-     "source": "it-daily.net",
-     "url": "https://www.it-daily.net/shortnews/ki-sorgen-belasten-asiens-boersen"
-    }
-   ]
+   "dup_of": "6c13763ec6e9"
   },
   {
    "id": "bf514d9567f4",
@@ -2651,17 +2674,7 @@
    "quelle_titel": "Marktbericht: Huang-Rückkehr lässt Aktienkurse steigen",
    "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-172.html",
    "kontext": "Zuvor hatten die Skandale rund um Jensen Huang und wachsende Zweifel an den KI-Investitionen die Kurse weltweit gedrückt. Dass der Nvidia-Chef zurückkehrt, kam an den Märkten als Entlastung an und zog Technologiewerte wieder nach oben. Der DAX arbeitete sich im Handelsverlauf an die Marke von 25.000 Punkten heran. Wie tragfähig die Erholung ist, dürfte sich erst mit dem Fortgang der Ermittlungen gegen Nvidia zeigen.",
-   "also": [
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/jensen-huang-nvidia-aktie-springt-nach-huang-rueckkehr-um-30-prozent-2611-215550.html"
-    },
-    {
-     "source": "Wired AI",
-     "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
-     "paywall": true
-    }
-   ]
+   "dup_of": "5b1a69d858f9"
   },
   {
    "id": "ca38829e7312",
@@ -2758,7 +2771,16 @@
    "quelle_titel": "Jensen Huang Is Back, and So Is Nvidia’s Stock",
    "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
    "kontext": "Der Kurssprung folgt auf eine schwere Woche, in der Affären und Ermittlungen rund um Nvidia den gesamten Techsektor nach unten gezogen hatten. Dass die Rückkehr des Mitgründers an die Konzernspitze sofort KI-Werte rund um den Globus anschiebt, zeigt die Abhängigkeit der Branche von einem einzelnen Unternehmen und seiner Führungsfigur. Auch der deutsche Markt profitierte, der DAX holte sich die Marke von 25.000 Punkten zurück.",
-   "dup_of": "a0e30a95286b"
+   "also": [
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/jensen-huang-nvidia-aktie-springt-nach-huang-rueckkehr-um-30-prozent-2611-215550.html"
+    },
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-172.html"
+    }
+   ]
   },
   {
    "id": "3b389ed4e60f",
@@ -3035,7 +3057,7 @@
    "added": "2026-11-23T07:12:50+01:00",
    "quelle_titel": "KI-Sorgen belasten Asiens Börsen weiter",
    "url": "https://www.it-daily.net/shortnews/ki-sorgen-belasten-asiens-boersen",
-   "dup_of": "f9336a29af3a"
+   "dup_of": "6c13763ec6e9"
   },
   {
    "id": "890a5194e601",
@@ -3209,13 +3231,13 @@
    "added": "2026-11-24T00:05:47+01:00",
    "quelle_titel": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
    "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+   "kontext": "Supertake wurde bei Union Square Ventures ausgebrütet und geht auf Michael Mignano zurück, den Gründer der später von Spotify gekauften Podcast-App Anchor. Geführt wird die Firma von zwei früheren Coinbase-Managern, gehandelt wird über Coinbase und Robinhood. Thesen der Nutzer landen auf einer Rangliste, andere können mitinvestieren. Die Wette dahinter: Anleger vertrauen Agenten künftig auch beim eigenen Depot.",
    "also": [
     {
      "source": "Unite.AI",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWXllNVlEY2dKckI4Q09zc3RIMEw4dC15WWFMYVZ6V2xEVkRpQS1lVy1ZTkMxQS1ta3VWb2g1X09sMmNjT3YwRW5xSXFLclVyZjhwRFQ5ekJiOGJ3SmVUVmxiTVA4MWc2RjhCZXJwMG1CRTNMTENkMURLTllnZ1k2b19BZHdwTzdQdXZnajRDVnNuQm9VVkNvOA?oc=5"
     }
-   ],
-   "kontext": "Supertake wurde bei Union Square Ventures ausgebrütet und geht auf Michael Mignano zurück, den Gründer der später von Spotify gekauften Podcast-App Anchor. Geführt wird die Firma von zwei früheren Coinbase-Managern, gehandelt wird über Coinbase und Robinhood. Thesen der Nutzer landen auf einer Rangliste, andere können mitinvestieren. Die Wette dahinter: Anleger vertrauen Agenten künftig auch beim eigenen Depot."
+   ]
   }
  ]
 }
