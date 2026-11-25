@@ -1,21 +1,47 @@
 {
  "date": "2026-11-25",
- "generated_at": "2026-11-25T04:38:26+01:00",
+ "generated_at": "2026-11-25T05:58:22+01:00",
  "overview": [
   {
-   "id": "8dcd3f46d355",
-   "text": "Sicherheitsexperten kritisieren die Rückkehr von Jensen Huang und sehen darin ein Zeichen, dass Nvidia für wirksame Kontrolle zu wichtig geworden ist."
+   "id": "190619a69a1b",
+   "text": "Google DeepMind übernimmt mit Gemini 4 Neon wieder die Spitze: Das Modell schlägt Astra und Fable im LiveBench und halbiert fast die Benchmark-Laufzeit."
+  },
+  {
+   "id": "9ec363400b39",
+   "text": "Steuerberater, Wirtschaftsprüfer und Anwälte zögern beim KI-Einsatz, weil Datenschutzbedenken die versprochene Arbeitsentlastung ausbremsen."
+  },
+  {
+   "id": "581ba1913cda",
+   "text": "Ein Vergleich der Ökobilanz von ChatGPT, Gemini und Claude zeigt, wie unterschiedlich stark die Assistenten Energie und Ressourcen beanspruchen."
   },
   {
    "id": "b1497ef13171",
-   "text": "Beim Einkaufen setzen weltweit immer mehr Menschen auf KI-Assistenten, doch in Deutschland bleibt die Nutzung solcher Kaufberater auffällig niedrig."
-  },
-  {
-   "id": "d6a3974a1a3c",
-   "text": "Yale-Forscher Jeffrey Sonnenfeld nennt Huangs vom Weißen Haus gestützte Rückkehr einen schweren Fehler und warnt vor Haftungsrisiken für den Verwaltungsrat."
+   "text": "KI-Assistenten beraten weltweit immer häufiger beim Einkauf, doch in Deutschland bleibt die Nutzung solcher Shopping-Helfer auffällig niedrig."
   }
  ],
  "items": [
+  {
+   "id": "190619a69a1b",
+   "date": "2026-11-25",
+   "published": "2026-11-25T05:29+01:00",
+   "headline": "Gemini 4 Neon bringt Google DeepMind zurück an die Spitze",
+   "summary": "Mit Gemini 4 Neon meldet sich Google DeepMind als führendes Frontier-Lab zurück. Das Modell liegt im LiveBench vor Astra und Fable und verkürzt die Laufzeit in einem bekannten TypeScript- und Rust-Benchmark um knapp die Hälfte. Damit verschiebt sich das Kräfteverhältnis zwischen den großen Modellanbietern erneut.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 5,
+   "tags": [
+    "gemini",
+    "google deepmind",
+    "benchmark",
+    "frontier modelle"
+   ],
+   "source": "Latent Space",
+   "source_id": "latent-space",
+   "added": "2026-11-25T05:55:26+01:00",
+   "quelle_titel": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+   "kontext": "Vor wenigen Monaten galt Google DeepMind nach prominenten Abgängen und schwachem Fortschritt bei Gemini 3 vielen Beobachtern nicht mehr als führendes Labor. Die Gemini-4-Reihe umfasst neben Neon weitere Varianten wie Carbon und Hydrogen, Argon wurde dagegen eingestellt. Nun nehmen Kritiker ihr früheres Urteil öffentlich zurück. Der Zuspruch für Neon wirkt dabei organisch gewachsen und nicht wie eine gesteuerte Kampagne."
+  },
   {
    "id": "8dcd3f46d355",
    "date": "2026-11-25",
@@ -36,7 +62,8 @@
    "added": "2026-11-25T00:50:46+01:00",
    "paywall": true,
    "quelle_titel": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
-   "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/"
+   "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
+   "dup_of": "f8cdc496b0bc"
   },
   {
    "id": "d6a3974a1a3c",
@@ -58,7 +85,8 @@
    "added": "2026-11-25T02:21:00+01:00",
    "quelle_titel": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to U.S. industrial might, not a champion",
    "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-   "kontext": "Huang war Anfang des Monats zurückgetreten, nachdem er Affären eingeräumt hatte, eine davon mit einer Frau, die US-Behörden für eine chinesische Spionin halten. Der Verwaltungsrat hatte eine Rückkehr noch ausgeschlossen und gab erst nach Telefonaten mit Vizepräsident Vance und Präsident Trump nach. Sonnenfeld hält die Prüfung durch die beauftragte Kanzlei für kaum begonnen und die Haftungsversicherung der Direktoren für zu dünn. Parallel laufen Kartell- und Aufsichtsverfahren."
+   "kontext": "Huang war Anfang des Monats zurückgetreten, nachdem er Affären eingeräumt hatte, eine davon mit einer Frau, die US-Behörden für eine chinesische Spionin halten. Der Verwaltungsrat hatte eine Rückkehr noch ausgeschlossen und gab erst nach Telefonaten mit Vizepräsident Vance und Präsident Trump nach. Sonnenfeld hält die Prüfung durch die beauftragte Kanzlei für kaum begonnen und die Haftungsversicherung der Direktoren für zu dünn. Parallel laufen Kartell- und Aufsichtsverfahren.",
+   "dup_of": "f8cdc496b0bc"
   },
   {
    "id": "b1497ef13171",
@@ -81,6 +109,52 @@
    "paywall": true,
    "quelle_titel": "Digitale Einkaufshelfer: Deutschland hinkt beim Einkaufen mit KI deutlich hinterher",
    "url": "https://www.tagesspiegel.de/wirtschaft/dpa-digitale-einkaufshelfer-deutschland-hinkt-beim-einkaufen-mit-ki-deutlich-hinterher-16322091.html"
+  },
+  {
+   "id": "9ec363400b39",
+   "date": "2026-11-25",
+   "published": "2026-11-25T05:03+01:00",
+   "headline": "Kanzleien und Steuerberater bremsen KI-Einsatz wegen Datenschutz",
+   "summary": "In Steuerberatung, Wirtschaftsprüfung und Anwaltskanzleien hält die Sorge um den Datenschutz viele Häuser vom KI-Einsatz ab, obwohl die Technik erhebliche Arbeitsentlastung versprechen würde. Der Beitrag beleuchtet dieses Spannungsfeld zwischen rechtlichen Anforderungen und Effizienzgewinnen in beratenden Berufen.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "datenschutz",
+    "rechtswesen",
+    "steuerberatung",
+    "automatisierung"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-25T05:55:26+01:00",
+   "quelle_titel": "KI im Rechtswesen: Zwischen Datenschutz und Arbeitsentlastung",
+   "url": "https://www.it-daily.net/it-sicherheit/datenschutz-grc/ki-rechtswesen-datenschutz",
+   "kontext": "Hintergrund ist ein stetig wachsender Normenbestand: Seit 2010 hat sich der Umfang der Regelwerke deutlich vergrößert, während die Zahl der Fachleute nicht mithält. Genau bei der aufwendigen Dokumentation könnten KI-Agenten entlasten, indem sie Gespräche, Mailverläufe und Videokonferenzen protokollieren, transkribieren und durchsuchbar machen. Der Autor plädiert deshalb nicht für Verzicht, sondern für klare Nutzungsregeln und Investitionen in DSGVO-konforme Systeme."
+  },
+  {
+   "id": "581ba1913cda",
+   "date": "2026-11-25",
+   "published": "2026-11-25T05:45+01:00",
+   "headline": "Ökobilanz der KI-Assistenten: Wer verbraucht am meisten?",
+   "summary": "Der Beitrag vergleicht den ökologischen Fußabdruck bekannter KI-Assistenten wie ChatGPT, Gemini und Claude und ordnet ein, wie stark die Systeme Energie und Ressourcen beanspruchen. Dabei geht es auch um die Verantwortung der Anbieter und um gelockerte Umweltauflagen in Deutschland. Für Berufstätige liefert der Überblick Argumente für eine bewusstere Modellauswahl.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nachhaltigkeit",
+    "energieverbrauch",
+    "chatgpt",
+    "gemini",
+    "claude"
+   ],
+   "source": "Basic Thinking",
+   "source_id": "basic-thinking",
+   "added": "2026-11-25T05:55:26+01:00",
+   "quelle_titel": "Umweltcheck: Diese KI-Modelle sind die größten Klimakiller",
+   "url": "https://www.basicthinking.de/blog/2026/11/25/umweltcheck-diese-ki-modelle-sind-die-groessten-klimakiller/",
+   "kontext": "Hinter dem Vergleich steht die Umweltberatung Projet Celsius, die zehn Assistenten nach Antwortmodell, Rolle von Bild und Video, Serverstrom und eigenen Klimabemühungen bewertet hat. Am besten kommt Googles Gemini weg, Microsofts Copilot liegt trotz GPT-Technik vor ChatGPT, Claude nur knapp über dem Mittelfeld. Brisanz gewinnt das Thema, weil Deutschland Umweltauflagen für Rechenzentren gerade gelockert hat. Neben Strom zählen auch Wasser, Rohstoffe und Flächenbedarf."
   }
  ]
 }
