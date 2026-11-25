@@ -1,38 +1,38 @@
 {
  "date": "2026-11-24",
- "generated_at": "2026-11-25T02:27:32+01:00",
+ "generated_at": "2026-11-25T03:33:02+01:00",
  "overview": [
   {
-   "id": "fb7a1ad02384",
-   "text": "Amazon berichtet, dass Angreifer mit KI-Agenten eine unbekannte Sicherheitslücke praktisch ohne menschliches Zutun gefunden und ausgenutzt haben."
+   "id": "9e1f32fc7890",
+   "text": "Anthropic und OpenAI legen fast gleichzeitig KI-gestützte Beweise für das jahrzehntealte Informatikproblem VP ungleich VNP vor."
   },
   {
-   "id": "9e1f32fc7890",
-   "text": "Anthropic und OpenAI legen fast gleichzeitig KI-gestützte Beweise zum Problem P ungleich NP vor, einem Klassiker der theoretischen Informatik."
+   "id": "fb7a1ad02384",
+   "text": "Amazon berichtet, dass Angreifer mit KI-Agenten eine bislang unbekannte Sicherheitslücke praktisch ohne menschliches Zutun fanden und ausnutzten."
   },
   {
    "id": "dba8d8a7d477",
-   "text": "Das Statistische Bundesamt meldet 37 Prozent KI-Nutzung in deutschen Unternehmen, elf Punkte mehr als im Vorjahr, kleine Betriebe bleiben zurück."
-  },
-  {
-   "id": "46804c2e6e9f",
-   "text": "Anthropic erweitert das Agentenprotokoll MCP um Skills und Hintergrundaufgaben, damit Claude längere Abläufe ohne ständige Rückfragen erledigt."
-  },
-  {
-   "id": "e8ea0235af42",
-   "text": "Die USA verhängen ein Handelsembargo gegen Megaspeed, das Nvidia-Chips nach China beschafft haben soll, betroffen ist auch eine Alibaba-Tochter."
+   "text": "37 Prozent der deutschen Unternehmen setzen laut Statistischem Bundesamt inzwischen KI ein, elf Punkte mehr als im Vorjahr, kleine Betriebe hinken nach."
   },
   {
    "id": "606cd81bf172",
-   "text": "Fast 44 Prozent der Beschäftigten wendeten laut Studie im vergangenen Jahr keine Arbeitszeit für KI-Weiterbildung auf, viele halten sie für unnötig."
+   "text": "Fast 44 Prozent der Beschäftigten haben binnen eines Jahres keine Arbeitszeit für KI-Weiterbildung genutzt, viele halten sie für unnötig."
+  },
+  {
+   "id": "46804c2e6e9f",
+   "text": "Anthropic erweitert sein Protokoll MCP um Skills und Hintergrundaufgaben, damit Agenten längere Abläufe ohne ständige Rückfragen erledigen."
   },
   {
    "id": "5b6d3f4ead33",
-   "text": "Der britische NHS prüft mit 700.000 Frauen, ob KI beim Mammografie-Screening mehr Tumore aufspürt und Radiologen Arbeitslast abnimmt."
+   "text": "Der britische Gesundheitsdienst prüft mit 700.000 Frauen, ob KI beim Mammografie-Screening mehr Tumore findet und Radiologen entlastet."
   },
   {
-   "id": "915b101f2674",
-   "text": "Azure-Chef Scott Guthrie erwartet wegen der KI-Nachfrage in den nächsten Monaten deutlich mehr IT-Störungen und begründet Microsofts eigene Chips."
+   "id": "e8ea0235af42",
+   "text": "Die USA sperren die Firma Megaspeed wegen Schmuggels von Nvidia-Chips nach China vom Handel aus und verschärfen damit die Exportkontrollen."
+  },
+  {
+   "id": "a43a2373bab7",
+   "text": "OpenAI legt seine interne Pretraining-Verlustkurve offen und bringt mit Microsoft eine gemeinsame Obergrenze für Trainingsläufe ins Gespräch."
   }
  ],
  "items": [
@@ -182,6 +182,7 @@
    "kurios": "KI-Agenten finden und nutzen eine unbekannte Lücke praktisch im Alleingang",
    "quelle_titel": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
    "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+   "kontext": "Hinter dem Fall steht Cairn, ein quelloffenes Framework für automatisierte Penetrationstests, das mit verschiedenen Modellen arbeitet und eigentlich Verteidiger unterstützen soll. Betroffen war MONAI Label, eine Software zur Annotation medizinischer Bilddaten; die US-Behörde CISA führt die Lücke inzwischen als aktiv ausgenutzt. Amazon vermutet einen mit China verbundenen Akteur, der den Agenten nur Ziel-IPs und das Ziel Shell-Zugriff vorgab. Palo Alto Networks beobachtete ähnliche Kampagnen gegen Halbleiter-, Rüstungs- und zivilgesellschaftliche Ziele.",
    "also": [
     {
      "source": "it-daily.net",
@@ -191,8 +192,7 @@
      "source": "iX",
      "url": "https://www.heise.de/news/Cyberattacken-auf-N-able-Mail-Assure-und-Monai-Label-11535820.html"
     }
-   ],
-   "kontext": "Hinter dem Fall steht Cairn, ein quelloffenes Framework für automatisierte Penetrationstests, das mit verschiedenen Modellen arbeitet und eigentlich Verteidiger unterstützen soll. Betroffen war MONAI Label, eine Software zur Annotation medizinischer Bilddaten; die US-Behörde CISA führt die Lücke inzwischen als aktiv ausgenutzt. Amazon vermutet einen mit China verbundenen Akteur, der den Agenten nur Ziel-IPs und das Ziel Shell-Zugriff vorgab. Palo Alto Networks beobachtete ähnliche Kampagnen gegen Halbleiter-, Rüstungs- und zivilgesellschaftliche Ziele."
+   ]
   },
   {
    "id": "9e1f32fc7890",
@@ -918,13 +918,13 @@
    "added": "2026-11-24T13:01:01+01:00",
    "quelle_titel": "Shirudo: OpenAI und Cisco stellen KI-Schutzschild für Linux-Server vor",
    "url": "https://www.heise.de/news/Shirudo-OpenAI-und-Cisco-stellen-KI-Schutzschild-fuer-Linux-Server-vor-11535772.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Technische Basis ist eBPF, das gezielte Eingriffe im laufenden Linux-Kernel erlaubt; kryptografische Signaturen, die Kernel-Prüfung und ein TPM sollen untergeschobene Programme verhindern und Änderungen nachvollziehbar machen. Demonstriert wurde das an der OpenJDK-Lücke Java4Shell: Der Agent Codex ergänzte eine zusätzliche Eingabeprüfung, die einen Angriff auf eine laufende Elasticsearch-Instanz abwehrte. Ganz ohne Neustart funktioniert es aber nicht immer, bei bereits laufenden Java-VMs bleibt er nötig. Die Plattform ist quelloffen.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/news/Shirudo-OpenAI-und-Cisco-stellen-KI-Schutzschild-fuer-Linux-Server-vor-11535772.html"
     }
-   ],
-   "kontext": "Technische Basis ist eBPF, das gezielte Eingriffe im laufenden Linux-Kernel erlaubt; kryptografische Signaturen, die Kernel-Prüfung und ein TPM sollen untergeschobene Programme verhindern und Änderungen nachvollziehbar machen. Demonstriert wurde das an der OpenJDK-Lücke Java4Shell: Der Agent Codex ergänzte eine zusätzliche Eingabeprüfung, die einen Angriff auf eine laufende Elasticsearch-Instanz abwehrte. Ganz ohne Neustart funktioniert es aber nicht immer, bei bereits laufenden Java-VMs bleibt er nötig. Die Plattform ist quelloffen."
+   ]
   },
   {
    "id": "b1a0d161a546",
@@ -1537,6 +1537,7 @@
    "added": "2026-11-25T02:21:00+01:00",
    "quelle_titel": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
    "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+   "kontext": "Anthropic war erst wenige Tage zuvor an der Nasdaq gestartet, begleitet von Rekordmeldungen, einer zeitweise astronomischen Bewertung und viel Angst, den nächsten KI-Hype zu verpassen. Dass der Kurs nun unter den Ausgabepreis rutscht, wiegt schwer, weil Emissionspreise üblicherweise bewusst mit Abschlag angesetzt werden. Auch Nvidia gab am selben Tag deutlich nach. Kritiker verweisen darauf, dass das Unternehmen trotz Milliardenumsätzen Verluste schreibt und sich zu enormen Investitionen verpflichtet hat.",
    "also": [
     {
      "source": "Basic Thinking",
@@ -1560,8 +1561,7 @@
      "url": "https://www.wiwo.de/finanzen/geldanlage/anthropic-aktie-halten-kaufen-oder-verkaufen-das-playbook-deutscher-anleger/100270687.html",
      "paywall": true
     }
-   ],
-   "kontext": "Anthropic war erst wenige Tage zuvor an der Nasdaq gestartet, begleitet von Rekordmeldungen, einer zeitweise astronomischen Bewertung und viel Angst, den nächsten KI-Hype zu verpassen. Dass der Kurs nun unter den Ausgabepreis rutscht, wiegt schwer, weil Emissionspreise üblicherweise bewusst mit Abschlag angesetzt werden. Auch Nvidia gab am selben Tag deutlich nach. Kritiker verweisen darauf, dass das Unternehmen trotz Milliardenumsätzen Verluste schreibt und sich zu enormen Investitionen verpflichtet hat."
+   ]
   },
   {
    "id": "8585ed77667f",
@@ -1762,6 +1762,27 @@
    "quelle_titel": "Mental Health: Psychotherapie gestern, heute und morgen",
    "url": "https://www.spektrum.de/news/psychotherapie-im-wandel-evidenz-ki-und-engpaesse/2337936",
    "kontext": "Den Ausgangspunkt setzt das Psychotherapeutengesetz, das seit 1999 seelische und körperliche Erkrankungen gleichstellt und Betroffenen einen direkten Zugang zur Behandlung eröffnet. Mit ihm wurde die kognitive Verhaltenstherapie als drittes kassenfinanziertes Verfahren anerkannt, nachdem sie an den Universitäten entwickelt und empirisch geprüft worden war. Zugleich entstand der Beruf des psychologischen Psychotherapeuten, während Medikamente weiterhin Ärzten vorbehalten bleiben. Heute befinden sich Millionen Menschen in Therapie."
+  },
+  {
+   "id": "184462330fc8",
+   "date": "2026-11-24",
+   "published": "2026-11-24T09:11+01:00",
+   "headline": "Statistisches Bundesamt: KI-Boom treibt Preise für PCs und Konsolen",
+   "summary": "Laptops, Desktop-Rechner und Spielekonsolen sind in Deutschland deutlich teurer als vor einem Jahr. Das Statistische Bundesamt sieht einen Zusammenhang mit dem KI-Boom, der die Nachfrage nach Speicher und Komponenten in die Höhe treibt. Damit wird der KI-Ausbau für Verbraucherinnen und Verbraucher direkt an der Ladenkasse spürbar.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "hardware",
+    "preise",
+    "destatis",
+    "ki-boom"
+   ],
+   "source": "stern Digital",
+   "source_id": "stern-digital",
+   "added": "2026-11-25T03:29:41+01:00",
+   "quelle_titel": "Elektronik: Preise für Computer und Konsolen steigen deutlich",
+   "url": "https://www.stern.de/digital/elektronik--preise-fuer-computer-und-konsolen-steigen-deutlich-38599238.html"
   },
   {
    "id": "12862418f9fa",
@@ -2011,7 +2032,8 @@
    "added": "2026-11-25T00:55:05+01:00",
    "kurios": "Zwei Hobbyforscher finden mit KI neue Planetenkandidaten in NASA-Archiven",
    "quelle_titel": "Searching for distant planets with Astra",
-   "url": "https://openai.com/index/searching-for-distant-planets-with-astra"
+   "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "kontext": "Hinter den Funden stehen Kevin Bond, Ingenieur bei OpenAI, und Ethan Byrd, Gründer eines Start-ups für E-Mail-Infrastruktur. Beide durchsuchten unabhängig voneinander Helligkeitsverläufe von Sternen nach den winzigen Lichteinbrüchen, die ein vorbeiziehender Planet verursacht. Ein Astronom des SETI Institute fand zwei der Signale in eigener Auswertung wieder, ein weiterer Kandidat wird im TESS-Team geprüft. Neu ist dabei nicht der KI-Einsatz in der Exoplanetensuche, sondern dass Laien eigene Suchläufe aufsetzen."
   },
   {
    "id": "9cbb67eedc2a",
@@ -2190,13 +2212,13 @@
    "added": "2026-11-25T00:54:16+01:00",
    "quelle_titel": "Linnemann: KI als „Gamechanger“, Bundeswehr will krisenfeste Gesundheitsdaten",
    "url": "https://www.heise.de/news/Linnemann-KI-als-Gamechanger-Bundeswehr-will-krisenfeste-Gesundheitsdaten-11536290.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Der Auftritt fand auf der Digital Health Conference des Branchenverbands Bitkom in Berlin statt. Linnemann sieht die Sozialsysteme unter Druck, weil die Zahl der Pflegebedürftigen stark steigt und neue Therapien sehr teuer werden. Sein Ausweg ist Vorsorge statt Reparatur, gestützt auf personalisierte Behandlung und frühere Vorhersagen etwa bei Krebs. Als Vorbilder nannte er deutsche Anbieter wie Amboss und Voize, die Ärzte und Pflegekräfte entlasten.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/news/Linnemann-KI-als-Gamechanger-Bundeswehr-will-krisenfeste-Gesundheitsdaten-11536290.html"
     }
-   ],
-   "kontext": "Der Auftritt fand auf der Digital Health Conference des Branchenverbands Bitkom in Berlin statt. Linnemann sieht die Sozialsysteme unter Druck, weil die Zahl der Pflegebedürftigen stark steigt und neue Therapien sehr teuer werden. Sein Ausweg ist Vorsorge statt Reparatur, gestützt auf personalisierte Behandlung und frühere Vorhersagen etwa bei Krebs. Als Vorbilder nannte er deutsche Anbieter wie Amboss und Voize, die Ärzte und Pflegekräfte entlasten."
+   ]
   },
   {
    "id": "a5a024b1b71e",
@@ -2354,6 +2376,28 @@
    "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/"
   },
   {
+   "id": "bbaf6332f2bf",
+   "date": "2026-11-24",
+   "published": "2026-11-24T17:02+01:00",
+   "headline": "Pinterest gibt Eltern Kontrolle über KI-Inhalte in Teenager-Feeds",
+   "summary": "Pinterest führt eine Funktion ein, mit der Eltern begrenzen können, wie viele KI-generierte Inhalte ihren jugendlichen Kindern angezeigt werden. Anders als andere Plattformen, die vor allem den Zugang zu KI-Chatbots einschränken, zielt Pinterest auf die KI-Bilderflut im Feed selbst. Das ist ein neuer Ansatz im Jugendschutz rund um synthetische Medien.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "pinterest",
+    "jugendschutz",
+    "ki-inhalte",
+    "plattformen"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-25T03:29:41+01:00",
+   "quelle_titel": "Pinterest will now let parents limit the AI-generated content their teens see",
+   "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+   "kontext": "Pinterest kämpft seit vergangenem Jahr mit eigenen Filtern gegen KI-Bilder, die trotzdem in den Feeds landen, und gibt die Steuerung nun an Eltern weiter, zusammen mit Einstellungen für Benachrichtigungen und automatisch startende Videos. Andere Dienste wie Snap, Meta und WhatsApp regeln bei Jugendlichen vor allem den Zugang zu KI-Chatbots, nicht die Empfehlungen selbst. Kinderschutzorganisationen fordern von YouTube seit Monaten, KI-Videos aus Angeboten für Minderjährige herauszuhalten."
+  },
+  {
    "id": "19f2f984a80d",
    "date": "2026-11-24",
    "published": "2026-11-24T17:09+01:00",
@@ -2374,6 +2418,28 @@
    "quelle_titel": "The New York Times warns photographers not to update Photoshop over AI features",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
    "kontext": "Die Warnung kam per Mail von zwei Verantwortlichen der Bildredaktion an freie Fotografen. Kern der Sorge ist nicht nur die Bearbeitung selbst, sondern dass Metadaten Aufnahmen anschließend als KI-generiert ausweisen können. Adobe hat Photoshop im November um eine gebündelte KI-Ansicht, einen Assistenten, Bildvergrößerung und promptbasiertes Bearbeiten erweitert. Dabei ist oft unklar, welche Werkzeuge als KI zählen, da selbst ältere Auswahlfunktionen dazugerechnet werden."
+  },
+  {
+   "id": "70f3d3a63449",
+   "date": "2026-11-24",
+   "published": "2026-11-24T17:10+01:00",
+   "headline": "Investor setzt bei KI-Rechenzentren auf Solarstrom und Großbatterien",
+   "summary": "Künftige Rechenzentren für KI benötigen laut dem Bericht jedes Jahr Leistung im zweistelligen Gigawattbereich. Ein Investor des Anbieters Crusoe hält Photovoltaik in Kombination mit Batteriespeichern für die naheliegendste Lösung, weil sie sich am schnellsten und günstigsten zubauen lässt. Die Debatte zeigt, wie stark der Energiebedarf zum Engpass des KI-Ausbaus wird.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "rechenzentren",
+    "energie",
+    "solar",
+    "infrastruktur"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-25T03:29:41+01:00",
+   "quelle_titel": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+   "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+   "kontext": "Brook Porter von G2 Venture Partners begleitet den Rechenzentrumsbauer Crusoe seit einer frühen Finanzierungsrunde und sieht Erdgas als Flaschenhals, weil die weltweiten Fertigungskapazitäten für Gaskraftwerke weit unter denen für Solarmodule liegen. Sein Argument ist Tempo: Wer sich mit Photovoltaik und Langzeitspeichern vom Stromnetz löst, umgeht Genehmigungen und Wartezeiten beim Netzanschluss. Speicher jenseits von Lithium-Ionen werden zwar günstiger, sind in der Branche aber noch kaum etabliert."
   },
   {
    "id": "8160f3bd04bb",
@@ -2421,6 +2487,29 @@
    "kontext": "Die Clips greifen eine reale Affäre auf: Huang trat als Nvidia-Chef zurück, nachdem eine Beziehung zu einer unter Spionageverdacht stehenden Technologiemanagerin Untersuchungen im US-Kongress ausgelöst hatte. Influencer gießen diese Geschichte nun in erfundene Szenen, etwa Partybilder auf Ibiza, und bedienen damit gezielt die Neugier auf das Privatleben von Tech-Prominenz. Betroffen sind auch Angehörige und weitere Nvidia-Führungskräfte. Der Fall zeigt, wie billig Reichweite mit Fälschungen zu holen ist."
   },
   {
+   "id": "85ad47dc9b77",
+   "date": "2026-11-24",
+   "published": "2026-11-24T17:46+01:00",
+   "headline": "Tidal löscht Millionen vollständig KI-generierter Songs aus dem Katalog",
+   "summary": "Der Musikstreamingdienst Tidal will Millionen komplett von KI erzeugter Titel entfernen und künftig sperren. Musik, bei der KI nur unterstützend eingesetzt wurde, bleibt weiterhin zugelassen. Hintergrund ist die Flut minderwertiger KI-Massenware, die Streamingkataloge zunehmend überschwemmt.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "musik",
+    "streaming",
+    "tidal",
+    "ki-inhalte"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-25T03:29:41+01:00",
+   "kurios": "Millionen Songs auf einen Schlag aus dem Katalog geworfen",
+   "quelle_titel": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+   "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+   "kontext": "Tidal hatte KI-Titel schon im Sommer markiert und von der Monetarisierung ausgenommen, doch das bremste den Zustrom nicht: Zuletzt war fast die Hälfte aller angelieferten Uploads maschinell erzeugt. Ab Dezember fliegen Millionen Titel raus, auch Vertriebsdienste dürfen keine reinen KI-Tracks mehr einspeisen. Die meisten dieser Songs werden ohnehin nie abgespielt, überdecken in der Suche aber echte Künstler. Spotify und YouTube Music setzen bislang nur auf Kennzeichnung."
+  },
+  {
    "id": "3540d6cb74ca",
    "date": "2026-11-24",
    "published": "2026-11-24T18:00+01:00",
@@ -2443,6 +2532,28 @@
    "url": "https://www.golem.de/news/nvidia-openai-und-co-spione-nehmen-die-techkonzerne-ins-visier-2611-215596.html"
   },
   {
+   "id": "03938f50d224",
+   "date": "2026-11-24",
+   "published": "2026-11-24T18:00+01:00",
+   "headline": "Meta integriert KI-Assistenten Muse fest in die Instagram-Direktnachrichten",
+   "summary": "Meta bringt seinen KI-Assistenten Muse direkt in die Direktnachrichten von Instagram. Nutzerinnen und Nutzer müssen damit nicht mehr zwischen der separaten Muse-App und Instagram wechseln, um mit dem Agenten zu chatten. Die Einbindung zeigt, wie Plattformbetreiber KI-Assistenten näher an bestehende Alltagsnutzung rücken.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "meta",
+    "instagram",
+    "ki-assistent",
+    "social media"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-25T03:29:41+01:00",
+   "quelle_titel": "Meta brings its Muse AI assistant directly into Instagram DMs",
+   "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+   "kontext": "Muse ist Metas KI-Agent, der bislang in einer eigenen App lief. Nun lässt er sich im Nachrichtenbereich von Instagram ansprechen, etwa um Beiträge einzuordnen, gespeicherte Inhalte in Sammlungen zu sortieren oder aus einem Rezeptvideo eine Einkaufsliste zu machen. Der Start erfolgt zunächst in wenigen Ländern, darunter die USA und Japan. Für Meta ist das ein Weg, im Wettlauf der Konzerne um alltägliche KI-Assistenten die eigene Reichweite zu nutzen."
+  },
+  {
    "id": "f0a03c4829a1",
    "date": "2026-11-24",
    "published": "2026-11-24T18:17+01:00",
@@ -2462,13 +2573,13 @@
    "added": "2026-11-25T00:52:33+01:00",
    "quelle_titel": "Tidal will start banning AI-generated music next month",
    "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+   "kontext": "Hintergrund ist eine Flut maschinell erzeugter Titel: Zuletzt entstand ein großer Teil der neuen Uploads vollständig per KI, abgespielt wurde davon so gut wie nichts. Tidal begründet den harten Kurs mit dem Schaden für menschliche Künstler, etwa durch abgezogene Tantiemen und Imitationen. Hybride Produktionen mit menschlichem Anteil bleiben erlaubt. Zur Erkennung dürften Wasserzeichen von Generatoren wie Suno dienen, die aber längst nicht jeder Anbieter setzt.",
    "also": [
     {
      "source": "Ars Technica AI",
      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/"
     }
-   ],
-   "kontext": "Hintergrund ist eine Flut maschinell erzeugter Titel: Zuletzt entstand ein großer Teil der neuen Uploads vollständig per KI, abgespielt wurde davon so gut wie nichts. Tidal begründet den harten Kurs mit dem Schaden für menschliche Künstler, etwa durch abgezogene Tantiemen und Imitationen. Hybride Produktionen mit menschlichem Anteil bleiben erlaubt. Zur Erkennung dürften Wasserzeichen von Generatoren wie Suno dienen, die aber längst nicht jeder Anbieter setzt."
+   ]
   },
   {
    "id": "17d0f3a3dd85",
@@ -2667,6 +2778,7 @@
    "kurios": "Ein Konzernchef erzählt der eigenen Belegschaft offen von seiner Therapie.",
    "quelle_titel": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
    "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+   "kontext": "Huang war am 12. November zurückgetreten, nachdem Berichte über Affären unter anderem mit einer angeblich für China spionierenden Frau sowie mit Mitarbeiterinnen aufkamen. Seit Montag führt er Nvidia wieder. Einen Einfluss der Politik auf seine Rückkehr bestreitet er, räumte aber ein, den von ihm selbst geprägten Verhaltenskodex verletzt zu haben. Dem Weißen Haus dankte er für Informationen, die dem Verwaltungsrat die Risikoabwägung erleichterten. Kommende Woche folgen Anhörungen im Kongress.",
    "also": [
     {
      "source": "Wired AI",
@@ -2677,8 +2789,7 @@
      "source": "The Verge AI",
      "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology"
     }
-   ],
-   "kontext": "Huang war am 12. November zurückgetreten, nachdem Berichte über Affären unter anderem mit einer angeblich für China spionierenden Frau sowie mit Mitarbeiterinnen aufkamen. Seit Montag führt er Nvidia wieder. Einen Einfluss der Politik auf seine Rückkehr bestreitet er, räumte aber ein, den von ihm selbst geprägten Verhaltenskodex verletzt zu haben. Dem Weißen Haus dankte er für Informationen, die dem Verwaltungsrat die Risikoabwägung erleichterten. Kommende Woche folgen Anhörungen im Kongress."
+   ]
   },
   {
    "id": "bc426bbbebd7",
