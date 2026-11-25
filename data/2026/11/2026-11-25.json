@@ -1,22 +1,34 @@
 {
  "date": "2026-11-25",
- "generated_at": "2026-11-25T05:58:22+01:00",
+ "generated_at": "2026-11-25T07:03:40+01:00",
  "overview": [
   {
    "id": "190619a69a1b",
-   "text": "Google DeepMind übernimmt mit Gemini 4 Neon wieder die Spitze: Das Modell schlägt Astra und Fable im LiveBench und halbiert fast die Benchmark-Laufzeit."
+   "text": "Google DeepMind setzt sich mit Gemini 4 Neon wieder an die Spitze der Frontier-Modelle und liegt im LiveBench vor Astra und Fable."
+  },
+  {
+   "id": "5e0572e96d3d",
+   "text": "Laut einer Azul-Studie erwarten 63 Prozent der deutschen Sicherheitsfachleute KI-gestützte Java-Exploits binnen drei Tagen, schneller als eigene Patches."
+  },
+  {
+   "id": "a335303daa86",
+   "text": "Ein KI-Modell benannte in rund 20 Minuten den wahrscheinlichen Urheber eines seit 200 Jahren offenen kunsthistorischen Rätsels."
+  },
+  {
+   "id": "5904e6a65751",
+   "text": "Der Branchenüberblick nennt Proteinentwürfe mit GPT-6, Exoplanetensuche durch Amateure, neue Agentenfunktionen in Claude und Midjourneys Niji V8."
+  },
+  {
+   "id": "86c5a126003b",
+   "text": "Eine CIO-Kolumne warnt, dass deutsche KI-Projekte 2027 vor allem an fehlender Grundlagenarbeit und langen Genehmigungsschleifen hängen bleiben."
   },
   {
    "id": "9ec363400b39",
-   "text": "Steuerberater, Wirtschaftsprüfer und Anwälte zögern beim KI-Einsatz, weil Datenschutzbedenken die versprochene Arbeitsentlastung ausbremsen."
+   "text": "Viele Kanzleien, Steuerberater und Wirtschaftsprüfer verzichten aus Datenschutzsorgen auf KI, obwohl die Technik klare Arbeitsentlastung verspricht."
   },
   {
    "id": "581ba1913cda",
-   "text": "Ein Vergleich der Ökobilanz von ChatGPT, Gemini und Claude zeigt, wie unterschiedlich stark die Assistenten Energie und Ressourcen beanspruchen."
-  },
-  {
-   "id": "b1497ef13171",
-   "text": "KI-Assistenten beraten weltweit immer häufiger beim Einkauf, doch in Deutschland bleibt die Nutzung solcher Shopping-Helfer auffällig niedrig."
+   "text": "Ein Vergleich zeigt, wie stark ChatGPT, Gemini und Claude Energie und Ressourcen beanspruchen, und liefert Argumente für eine bewusstere Modellwahl."
   }
  ],
  "items": [
@@ -64,6 +76,51 @@
    "quelle_titel": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
    "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
    "dup_of": "f8cdc496b0bc"
+  },
+  {
+   "id": "a335303daa86",
+   "date": "2026-11-25",
+   "published": "2026-11-25T05:40+01:00",
+   "headline": "KI löst in 22 Minuten ein 200 Jahre altes Rätsel der Kunstgeschichte",
+   "summary": "Ein Historiker legte ein Rätsel, an dem er jahrelang gearbeitet hatte, einem aktuellen KI-Modell vor. Innerhalb von gut 20 Minuten benannte das System einen wahrscheinlichen Urheber und führte über einen Archivhinweis zu einem 162 Seiten starken historischen Journal. Der Fall zeigt, wie stark KI inzwischen bei der Recherche in verstreuten Quellen unterstützen kann.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "gpt-6",
+    "recherche",
+    "geschichte",
+    "archive"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-25T07:00:27+01:00",
+   "kurios": "Jahrelange Archivsuche in gut 20 Minuten durch ein Sprachmodell aufgelöst.",
+   "quelle_titel": "GPT-6.2 Astra Helped Solve a 200-Year-Old Historical Mystery in 22 Minutes",
+   "url": "https://www.theneuron.ai/news/gpt-6-2-astra-historical-mystery/",
+   "kontext": "Der Historiker Mark Humphries stieß 2022 in Yale auf ein altes Skizzenbuch mit Zeichnungen von einer Reise durch Kanada, dessen Urheber unbekannt blieb. Jahrelange eigene Recherche brachte ihn nicht weiter, bis er den Fall dem Modell GPT-6.2 Astra übergab. Das System nannte einen plausiblen Zeichner und verwies auf eine Archivquelle, über die ein umfangreiches historisches Journal auftauchte. Bemerkenswert ist weniger die Antwort selbst als das Auffinden verstreuter Belege."
+  },
+  {
+   "id": "5e0572e96d3d",
+   "date": "2026-11-25",
+   "published": "2026-11-25T06:00+01:00",
+   "headline": "Studie: Deutsche Unternehmen patchen Java langsamer als KI-Angreifer arbeiten",
+   "summary": "Einer Untersuchung von Azul Systems zufolge rechnen 63 Prozent der befragten deutschen Sicherheitsfachleute damit, dass Angreifer mit KI-Unterstützung binnen drei Tagen einen funktionierenden Exploit für eine neue Java-Lücke bauen. Die eigenen Update-Prozesse halten mit diesem Tempo häufig nicht mit. Der Druck auf Patch-Management und automatisierte Abwehr steigt damit deutlich.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "cybersicherheit",
+    "java",
+    "exploits",
+    "patch-management",
+    "studie"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-11-25T07:00:27+01:00",
+   "quelle_titel": "Java-Sicherheitspatches: Deutsche Firmen brauchen zu lange",
+   "url": "https://www.computerwoche.de/article/4252607/java-sicherheitspatches-deutsche-firmen-brauchen-zu-lange.html"
   },
   {
    "id": "d6a3974a1a3c",
@@ -134,6 +191,29 @@
    "kontext": "Hintergrund ist ein stetig wachsender Normenbestand: Seit 2010 hat sich der Umfang der Regelwerke deutlich vergrößert, während die Zahl der Fachleute nicht mithält. Genau bei der aufwendigen Dokumentation könnten KI-Agenten entlasten, indem sie Gespräche, Mailverläufe und Videokonferenzen protokollieren, transkribieren und durchsuchbar machen. Der Autor plädiert deshalb nicht für Verzicht, sondern für klare Nutzungsregeln und Investitionen in DSGVO-konforme Systeme."
   },
   {
+   "id": "5904e6a65751",
+   "date": "2026-11-25",
+   "published": "2026-11-25T05:12+01:00",
+   "headline": "KI-Tagesüberblick: Proteindesign, Exoplaneten und neue Agentenfunktionen",
+   "summary": "Der Nachrichtenüberblick bündelt die Meldungen des Tages aus der KI-Branche. Dazu gehören Demonstrationen von GPT-6 beim Entwurf von Proteinen, der Einsatz von KI durch Amateurastronomen zur Identifikation möglicher Exoplaneten, erweiterte Agentenfähigkeiten bei Claude, Midjourneys Niji V8 sowie ein kompaktes Coding-Modell von PrismML.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "anthropic",
+    "midjourney",
+    "agenten",
+    "coding"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-25T07:00:27+01:00",
+   "quelle_titel": "Everything That Happened in AI Today (Wednesday, November 25, 2026)",
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-25-2026/",
+   "kontext": "Der Überblick stammt vom US-Newsletter The Neuron und verdichtet einen einzelnen Branchentag. Auffällig ist die Richtung: OpenAI führt GPT-6 in die Biologie, wo entworfene Proteine im Labor an mehreren Zielstrukturen andockten. Daneben hilft Astra Hobbyastronomen beim Aufspüren möglicher Exoplaneten, während Anthropic die Agentenfähigkeiten von Claude erweitert. Midjourney und der Anbieter PrismML steuern die kreative und die Programmierseite bei."
+  },
+  {
    "id": "581ba1913cda",
    "date": "2026-11-25",
    "published": "2026-11-25T05:45+01:00",
@@ -155,6 +235,29 @@
    "quelle_titel": "Umweltcheck: Diese KI-Modelle sind die größten Klimakiller",
    "url": "https://www.basicthinking.de/blog/2026/11/25/umweltcheck-diese-ki-modelle-sind-die-groessten-klimakiller/",
    "kontext": "Hinter dem Vergleich steht die Umweltberatung Projet Celsius, die zehn Assistenten nach Antwortmodell, Rolle von Bild und Video, Serverstrom und eigenen Klimabemühungen bewertet hat. Am besten kommt Googles Gemini weg, Microsofts Copilot liegt trotz GPT-Technik vor ChatGPT, Claude nur knapp über dem Mittelfeld. Brisanz gewinnt das Thema, weil Deutschland Umweltauflagen für Rechenzentren gerade gelockert hat. Neben Strom zählen auch Wasser, Rohstoffe und Flächenbedarf."
+  },
+  {
+   "id": "86c5a126003b",
+   "date": "2026-11-25",
+   "published": "2026-11-25T06:13+01:00",
+   "headline": "CIO-Kolumne: Warum deutsche KI-Projekte 2027 an der Basisarbeit hängen",
+   "summary": "Ein seit zehn Jahren in den USA lebender Berater beschreibt aus der Distanz, wie unterschiedlich deutsche und amerikanische Unternehmen auf KI blicken. Während hierzulande Prüfung und Genehmigung im Vordergrund stehen, dominiert in den USA die Experimentierfreude. Für CIOs steht 2027 die Aufgabe im Raum, zwischen notwendiger Grundlagenarbeit und überhöhten Erwartungen klare Prioritäten zu setzen.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "cio",
+    "strategie",
+    "digitalisierung",
+    "unternehmenskultur"
+   ],
+   "source": "CIO",
+   "source_id": "cio",
+   "added": "2026-11-25T07:00:27+01:00",
+   "quelle_titel": "KI 2027, aus 8.000 Kilometern Entfernung",
+   "url": "https://www.cio.de/article/4250613/ki-2027-aus-8000-kilometern-entfernung.html",
+   "kontext": "Der Autor schreibt als Berater mit zehn Jahren Erfahrung in den USA und vergleicht zwei Arbeitskulturen. Hierzulande dominieren Prüfung und Freigabe, dort das schnelle Ausprobieren, und beides hat seinen Preis, weil Vorsicht bremst und Tempo überhöhte Erwartungen nährt. Für das kommende Jahr sieht die Kolumne CIOs vor der Aufgabe, unbequeme Grundlagenarbeit und laute Ankündigungen auseinanderzuhalten. Priorisieren wird so zur zentralen Führungsleistung."
   }
  ]
 }
