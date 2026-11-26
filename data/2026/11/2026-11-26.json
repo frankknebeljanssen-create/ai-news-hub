@@ -1,18 +1,30 @@
 {
  "date": "2026-11-26",
- "generated_at": "2026-11-26T05:28:01+01:00",
+ "generated_at": "2026-11-26T06:50:34+01:00",
  "overview": [
   {
+   "id": "ebf4b6d94e48",
+   "text": "Das Berliner Unternehmen A11 bringt eine KI-Analysesoftware als europäische Alternative zu Palantir und befeuert die Debatte um digitale Souveränität."
+  },
+  {
    "id": "30d385062acb",
-   "text": "Anthropic hat seine Messages API mit Claude-Agenten von Python nach Rust portiert und dabei den CPU-Verbrauch um rund 70 Prozent gesenkt."
+   "text": "Anthropic hat seine Messages API mit Claude-Agenten von Python nach Rust portiert und senkt den CPU-Verbrauch um rund 70 Prozent."
   },
   {
    "id": "bb248ac185bf",
-   "text": "Grüne Testergebnisse und erfolgreiche Builds können bei KI-generiertem Code täuschen, weshalb Teams zusätzliche Prüfungen brauchen."
+   "text": "Grüne Builds und bestandene Tests können bei KI-generiertem Code täuschen, weshalb zusätzliche Prüfungen nötig sind statt blindem Vertrauen."
+  },
+  {
+   "id": "56d8e4dcf9cb",
+   "text": "Hafen-Gewerkschaften haben sechs Mindeststandards für den KI-Einsatz am Arbeitsplatz beschlossen und geben Beschäftigten damit einen klaren Rahmen."
   },
   {
    "id": "cbc266ff59f3",
-   "text": "KI-Funktionen verwandeln ERP-Systeme vom reinen Archiv in Werkzeuge für Analyse, Vorhersage und aktive Prozesssteuerung."
+   "text": "KI verwandelt ERP-Systeme von reinen Dokumentationsarchiven in Werkzeuge für Prognose und Prozesssteuerung, was höhere Datenqualität verlangt."
+  },
+  {
+   "id": "d3aa48daa62d",
+   "text": "Hugging Face erklärt, wie Teams Nemotron 3.5 Parse mit offenen Daten, eigener Feinabstimmung und schnellerer Inferenz für sich anpassen können."
   }
  ],
  "items": [
@@ -153,6 +165,80 @@
    "dup_of": "1343f7f3b435"
   },
   {
+   "id": "14df9d6f1751",
+   "date": "2026-11-26",
+   "published": "2026-11-26T05:45+01:00",
+   "headline": "Metas KI-Agent Muse soll Gespräche verwechseln und Daten preisgeben",
+   "summary": "Nach einem Bericht der Nachrichtenagentur Reuters, der sich auf interne Unternehmensbeiträge stützt, bringt Metas neuer KI-Agent Muse Gespräche durcheinander und gefährdet den Schutz persönlicher Informationen. Besonders brisant ist, dass die Kritik aus dem Unternehmen selbst stammt, denn Beschäftigte äußern dort offenbar Sicherheitsbedenken. Der Fall zeigt, wie riskant der schnelle Rollout von Agenten mit Zugriff auf private Daten ist.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "meta",
+    "ki-agent",
+    "datenschutz",
+    "sicherheit"
+   ],
+   "source": "Basic Thinking",
+   "source_id": "basic-thinking",
+   "added": "2026-11-26T06:45:20+01:00",
+   "quelle_titel": "Metas KI-Agent Muse macht, was er will, und plaudert deine Daten aus",
+   "url": "https://www.basicthinking.de/blog/2026/11/26/metas-ki-agent-muse-macht-was-er-will-und-plaudert-deine-daten-aus/",
+   "dup_of": "28f4dee2c21a"
+  },
+  {
+   "id": "ebf4b6d94e48",
+   "date": "2026-11-26",
+   "published": "2026-11-26T06:02+01:00",
+   "headline": "Europäische Antwort auf Palantir: A11 startet eigene Datenanalyse mit KI",
+   "summary": "Das Berliner Unternehmen A11 positioniert seine neue KI-Software als europäische Alternative zu Palantir, dessen Arbeit für US-Sicherheitsbehörden und Militär in Deutschland umstritten ist. Im Mittelpunkt steht die Frage, welche Analyse- und Entscheidungsfunktionen das Produkt Unternehmen tatsächlich bieten kann. Der Vorstoß trifft eine laufende Debatte über digitale Souveränität in Europa.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "a11",
+    "palantir",
+    "datenanalyse",
+    "souveränität"
+   ],
+   "source": "Tagesspiegel Wirtschaft",
+   "source_id": "tagesspiegel-wirtschaft",
+   "added": "2026-11-26T06:45:20+01:00",
+   "paywall": true,
+   "quelle_titel": "Alternative zu Palantir: Berliner Firma A11 startet KI-Software gegen US-Konkurrenz",
+   "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-alternative-zu-palantir-berliner-firma-a11-startet-ki-software-gegen-us-konkurrenz-16327026.html",
+   "also": [
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/berliner-start-up-a11-ki-software"
+    }
+   ],
+   "kontext": "Hinter dem System Lumarc steht das Berliner Unternehmen A11, das verstreute Daten aus Buchhaltung, Produktion oder E-Mails in Echtzeit verknüpfen und daraus Handlungsvorschläge ableiten will. Freigeben muss ein Mensch, jeder Schritt wird protokolliert. Managing Director Thuy-Ngan Trinh betont die Entwicklung in Europa für Europa. Anders als Palantir adressiert A11 zunächst ausschließlich die Privatwirtschaft, keine Sicherheitsbehörden, was angesichts der Vorbehalte gegen den US-Konzern zum Vorteil werden könnte."
+  },
+  {
+   "id": "f46b812eb7a8",
+   "date": "2026-11-26",
+   "published": "2026-11-26T06:37+01:00",
+   "headline": "Freigabe für SpaceX: Bis zu eine Million Satelliten für KI-Rechenzentren im Orbit",
+   "summary": "SpaceX hat die Erlaubnis erhalten, bis zu eine Million Satelliten in die Erdumlaufbahn zu bringen, um dort Rechenzentren für KI-Anwendungen aufzubauen. Damit rückt die Idee näher, Rechenleistung für KI in den Weltraum zu verlagern, wo Energie und Kühlung anders gelöst werden können als am Boden. Für den Markt wäre das ein völlig neuer Baustein in der Infrastruktur hinter KI-Diensten.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "spacex",
+    "rechenzentren",
+    "infrastruktur",
+    "weltraum"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-26T06:45:20+01:00",
+   "kurios": "Eine Million Satelliten allein für Rechenleistung im Orbit ist eine extreme Zahl.",
+   "quelle_titel": "SpaceX darf eine Million Satelliten für KI-Rechenzentren starten",
+   "url": "https://www.it-daily.net/shortnews/spacex-million-satelliten-ki-rechenzentren",
+   "dup_of": "1343f7f3b435"
+  },
+  {
    "id": "124be30ce629",
    "date": "2026-11-26",
    "published": "2026-11-26T02:54+01:00",
@@ -198,6 +284,73 @@
    "quelle_titel": "ERP & KI: Vom Datenverwalter zum Unternehmensnavigator",
    "url": "https://www.it-daily.net/it-management/erp-sap/erp-ki-unternehmensnavigator",
    "kontext": "Hinter der Entwicklung steht ein einfacher Befund: ERP-Daten entstehen direkt im Geschäftsprozess und tragen Zusammenhänge mit sich, etwa zu Kunde, Artikel, Preis oder Zahlungsverhalten. Genau dieser Kontext fehlt Sprachmodellen, wenn sie ohne Zugriff auf die eigenen Systeme arbeiten. Im Großhandel lässt sich so erkennen, welche Kunden ein Lieferengpass treffen wird. Viele Bausteine sind laut dem Fachbeitrag bereits verfügbar, offen ist vor allem die kontrollierte Nutzung."
+  },
+  {
+   "id": "56d8e4dcf9cb",
+   "date": "2026-11-26",
+   "published": "2026-11-26T05:24+01:00",
+   "headline": "Hafen-Gewerkschaften setzen sechs Mindeststandards für KI am Arbeitsplatz",
+   "summary": "Gewerkschaften aus dem Hafenbereich haben sechs Mindeststandards für den Einsatz von Künstlicher Intelligenz am Arbeitsplatz beschlossen. Damit liegt ein Rahmen vor, an dem sich Beschäftigte und Betriebe bei der Einführung von KI orientieren können.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "gewerkschaften",
+    "arbeitsplatz",
+    "mindeststandards",
+    "mitbestimmung"
+   ],
+   "source": "ad-hoc-news.de",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-11-26T06:45:20+01:00",
+   "quelle_titel": "KI am Arbeitsplatz: Hafen-Gewerkschaften beschließen sechs Mindeststandards",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTEk1ZEplUWo1eW5wOVc2d3VjanJMdXJHTFlRek9tRnVUNF8wbUpTODF5TkFJQ2YyNHFaRWt1V1lWVHQxVF84LTMxT2V5cmZMVy1zbFVLZ2JtQUNlQTlqamsxU0FQYV9MeVZGejJ4NVZZMk5paEdEZWNBWV9pR1FNM2JMaWEtWWZldVB3M3pKYm0zLU16ODV3ZnlxZEo2dXMtRmNfRm5XTEVveEtNLTJod19ySnR3d3lHWDRheTZia3huUQ?oc=5"
+  },
+  {
+   "id": "d3aa48daa62d",
+   "date": "2026-11-26",
+   "published": "2026-11-26T06:05+01:00",
+   "headline": "Nemotron 3.5 Parse: offene Daten, Feinabstimmung und schnellere Inferenz",
+   "summary": "Hugging Face zeigt, wie sich auf dem Modell Nemotron 3.5 Parse aufbauen lässt, unter anderem mit offen verfügbaren Daten, eigener Feinabstimmung und Maßnahmen für schnellere Inferenz. Der Beitrag richtet sich an Teams, die das Modell für eigene Anwendungen anpassen wollen.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "nemotron",
+    "fine-tuning",
+    "inferenz",
+    "open source"
+   ],
+   "source": "Hugging Face",
+   "source_id": "huggingface",
+   "added": "2026-11-26T06:45:20+01:00",
+   "praxis": true,
+   "quelle_titel": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+   "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+   "kontext": "Nemotron 3.5 Parse von Nvidia verwandelt Seitenbilder in strukturierte Daten, etwa für Suche und Agentenanwendungen. Nvidia gibt nun die synthetischen Trainingsdaten zu Diagrammen, Tabellen und mehrsprachigen Dokumenten frei und beschreibt das Training in zwei Stufen: erst überwachtes Feintuning, dann bestärkendes Lernen für verlässlichere Ergebnisse. Besonders knifflig sind Tabellen, weil schon eine verschobene Zeile den Sinn verändert. Für Unternehmen senkt das offene Paket die Hürde, eigene Dokumentarten zu verarbeiten."
+  },
+  {
+   "id": "c50522bc8fe9",
+   "date": "2026-11-26",
+   "published": "2026-11-26T06:33+01:00",
+   "headline": "A11 aus Berlin bringt KI-Software für schnellere Unternehmensentscheidungen",
+   "summary": "Das Berliner Technologieunternehmen A11 veröffentlicht eine Software, die mit Künstlicher Intelligenz Entscheidungsprozesse in Unternehmen beschleunigen soll. Damit stellt sich das Start-up in direkte Konkurrenz zu etablierten US-Anbietern in diesem Segment.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "a11",
+    "start-up",
+    "entscheidungen",
+    "software"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-26T06:45:20+01:00",
+   "quelle_titel": "Berliner Start-up A11 tritt mit KI-Software gegen amerikanische Rivalen an",
+   "url": "https://www.it-daily.net/shortnews/berliner-start-up-a11-ki-software",
+   "dup_of": "ebf4b6d94e48"
   }
  ]
 }

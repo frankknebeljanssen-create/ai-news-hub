@@ -1,38 +1,38 @@
 {
  "date": "2026-11-24",
- "generated_at": "2026-11-26T00:33:32+01:00",
+ "generated_at": "2026-11-26T06:49:39+01:00",
  "overview": [
   {
    "id": "742a03c37bc2",
-   "text": "OpenAI schaltet ChatGPT auf GPT-6.2 um und gibt Zahlkunden ab Plus die Variante Sol, die komplexe Aufgaben zuverlässiger löst und im Web tiefer recherchiert."
-  },
-  {
-   "id": "fb7a1ad02384",
-   "text": "Laut Amazon haben Angreifer mit KI-Agenten eine unbekannte Sicherheitslücke praktisch ohne menschliches Zutun gefunden und ausgenutzt."
+   "text": "OpenAI aktualisiert ChatGPT auf GPT-6.2 und gibt zahlenden Nutzern ab dem Plus-Tarif eine Variante, die gründlicher im Web recherchiert."
   },
   {
    "id": "9e1f32fc7890",
-   "text": "Anthropic und OpenAI präsentieren fast gleichzeitig KI-generierte Beweise zu einem jahrzehntealten Problem der theoretischen Informatik."
+   "text": "Anthropic und OpenAI präsentieren fast gleichzeitig KI-gestützte Beweise zu VP ungleich VNP und drängen damit in die offene Mathematikforschung."
   },
   {
-   "id": "840e1da0f2db",
-   "text": "Jedes dritte Unternehmen in Deutschland nutzt laut Destatis KI, doch kleine Firmen bleiben wegen fehlendem Wissen und knappen Mitteln zurück."
+   "id": "dba8d8a7d477",
+   "text": "Das Statistische Bundesamt meldet KI-Einsatz in 37 Prozent der deutschen Unternehmen, elf Punkte mehr als im Vorjahr, mit klarem Vorsprung der Großen."
   },
   {
-   "id": "606cd81bf172",
-   "text": "Knapp 44 Prozent der Beschäftigten haben laut einer Studie im vergangenen Jahr keine Arbeitszeit für KI-Weiterbildung genutzt, viele sehen keinen Bedarf."
+   "id": "7a836d36724c",
+   "text": "Das Handelsblatt berichtet, wie eine autonome KI-Plattform über Nacht ohne menschliche Steuerung eine Schwachstelle in der eigenen Redaktion fand."
   },
   {
    "id": "46804c2e6e9f",
-   "text": "Anthropic erweitert das Agentenprotokoll MCP um Skills und Hintergrundaufgaben, damit Claude längere Arbeitsabläufe ohne ständige Rückfragen erledigt."
+   "text": "Anthropic erweitert das inzwischen branchenübliche Protokoll MCP um Skills und Hintergrundaufgaben, damit Agenten längere Abläufe ohne Rückfragen schaffen."
   },
   {
-   "id": "e8ea0235af42",
-   "text": "Die USA verhängen ein Handelsembargo gegen Megaspeed, das Nvidia-Chips für China beschafft haben soll, und verschärfen so die Exportkontrollen weiter."
+   "id": "606cd81bf172",
+   "text": "Fast 44 Prozent der Beschäftigten haben binnen eines Jahres keine Arbeitszeit in KI-Weiterbildung gesteckt, viele halten sie für unnötig."
+  },
+  {
+   "id": "6e4172047566",
+   "text": "Die Berichterstatter des EU-Parlaments legen verspätet ihren Positionsentwurf zum Cloud and AI Development Act vor und starten damit die Beratungen."
   },
   {
    "id": "5b6d3f4ead33",
-   "text": "Der britische Gesundheitsdienst prüft mit 700.000 Frauen, ob KI beim Mammografie-Screening mehr Tumore findet und Radiologen entlastet."
+   "text": "Der britische Gesundheitsdienst prüft mit 700.000 Frauen, ob KI im Mammografie-Screening mehr Tumore findet und Radiologen entlastet."
   }
  ],
  "items": [
@@ -188,7 +188,8 @@
    "kurios": "KI-Agenten finden und nutzen eine unbekannte Lücke praktisch im Alleingang",
    "quelle_titel": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
    "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-   "kontext": "Hinter dem Fall steht Cairn, ein quelloffenes Framework für automatisierte Penetrationstests, das mit verschiedenen Modellen arbeitet und eigentlich Verteidiger unterstützen soll. Betroffen war MONAI Label, eine Software zur Annotation medizinischer Bilddaten; die US-Behörde CISA führt die Lücke inzwischen als aktiv ausgenutzt. Amazon vermutet einen mit China verbundenen Akteur, der den Agenten nur Ziel-IPs und das Ziel Shell-Zugriff vorgab. Palo Alto Networks beobachtete ähnliche Kampagnen gegen Halbleiter-, Rüstungs- und zivilgesellschaftliche Ziele."
+   "kontext": "Hinter dem Fall steht Cairn, ein quelloffenes Framework für automatisierte Penetrationstests, das mit verschiedenen Modellen arbeitet und eigentlich Verteidiger unterstützen soll. Betroffen war MONAI Label, eine Software zur Annotation medizinischer Bilddaten; die US-Behörde CISA führt die Lücke inzwischen als aktiv ausgenutzt. Amazon vermutet einen mit China verbundenen Akteur, der den Agenten nur Ziel-IPs und das Ziel Shell-Zugriff vorgab. Palo Alto Networks beobachtete ähnliche Kampagnen gegen Halbleiter-, Rüstungs- und zivilgesellschaftliche Ziele.",
+   "dup_of": "06f9f58f45c3"
   },
   {
    "id": "9e1f32fc7890",
@@ -460,8 +461,7 @@
    "added": "2026-11-24T13:03:49+01:00",
    "quelle_titel": "Cloud- und KI-Gesetz: Positionsentwurf des Europaparlaments liegt endlich vor",
    "url": "https://www.heise.de/news/Cloud-und-KI-Gesetz-Positionsentwurf-des-Europaparlaments-liegt-endlich-vor-11535512.html",
-   "kontext": "Die EU-Kommission hatte ihren Vorschlag im Juni vorgelegt, die Mitgliedstaaten ringen noch um eine gemeinsame Linie. Federführend im Parlament sind zwei Abgeordnete aus dem Industrie- und dem Binnenmarktausschuss, die ein einheitliches europäisches Souveränitätsrahmenwerk anstreben statt vieler nationaler Regelwerke. Ihr Entwurf geht klar über die Kommissionspläne hinaus, etwa bei Pflichten für kritische Einrichtungen. Solche Berichtsentwürfe gelten als starker Hinweis darauf, was die Abgeordneten später für unverhandelbar halten.",
-   "dup_of": "8eee03b5d4b4"
+   "kontext": "Die EU-Kommission hatte ihren Vorschlag im Juni vorgelegt, die Mitgliedstaaten ringen noch um eine gemeinsame Linie. Federführend im Parlament sind zwei Abgeordnete aus dem Industrie- und dem Binnenmarktausschuss, die ein einheitliches europäisches Souveränitätsrahmenwerk anstreben statt vieler nationaler Regelwerke. Ihr Entwurf geht klar über die Kommissionspläne hinaus, etwa bei Pflichten für kritische Einrichtungen. Solche Berichtsentwürfe gelten als starker Hinweis darauf, was die Abgeordneten später für unverhandelbar halten."
   },
   {
    "id": "8eee03b5d4b4",
@@ -780,13 +780,13 @@
    "kontext": "Die Riemannsche Vermutung zählt zu den sieben Millennium-Problemen der Mathematik und gilt seit Jahrzehnten als ungelöst. Der Vorstoß kam aus dem Umfeld von Anthropic und blieb kein Einzelfall: Wenige Tage später meldeten Anthropic und OpenAI Resultate zu einem weiteren alten Problem der Komplexitätstheorie. Solche Arbeiten werden inzwischen mit dem Prüfwerkzeug Lean maschinell abgesichert. Eine unabhängige fachliche Bestätigung steht in diesen Fällen bislang aus.",
    "also": [
     {
-     "source": "Ars Technica AI",
-     "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
-    },
-    {
      "source": "Handelsblatt Technologie",
      "url": "https://www.handelsblatt.com/technik/ki/technologie-ki-soll-eines-der-groessten-raetsel-der-mathematik-geloest-haben/100271770.html",
      "paywall": true
+    },
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
     }
    ]
   },
@@ -920,12 +920,12 @@
    "kontext": "Technische Basis ist eBPF, das gezielte Eingriffe im laufenden Linux-Kernel erlaubt; kryptografische Signaturen, die Kernel-Prüfung und ein TPM sollen untergeschobene Programme verhindern und Änderungen nachvollziehbar machen. Demonstriert wurde das an der OpenJDK-Lücke Java4Shell: Der Agent Codex ergänzte eine zusätzliche Eingabeprüfung, die einen Angriff auf eine laufende Elasticsearch-Instanz abwehrte. Ganz ohne Neustart funktioniert es aber nicht immer, bei bereits laufenden Java-VMs bleibt er nötig. Die Plattform ist quelloffen.",
    "also": [
     {
-     "source": "it-daily.net",
-     "url": "https://www.it-daily.net/shortnews/openai-cisco-linux-exploits"
-    },
-    {
      "source": "iX",
      "url": "https://www.heise.de/news/Shirudo-OpenAI-und-Cisco-stellen-KI-Schutzschild-fuer-Linux-Server-vor-11535772.html"
+    },
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/openai-cisco-linux-exploits"
     }
    ]
   },
@@ -1168,6 +1168,10 @@
     {
      "source": "iX",
      "url": "https://www.heise.de/news/Cyberattacken-auf-N-able-Mail-Assure-und-Monai-Label-11535820.html"
+    },
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
     }
    ]
   },
@@ -1288,17 +1292,8 @@
      "paywall": true
     },
     {
-     "source": "Wired AI",
-     "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
-     "paywall": true
-    },
-    {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/newsletter/november-24-tuesday-22b3/"
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/"
     }
    ]
   },
@@ -1423,6 +1418,10 @@
     {
      "source": "iX",
      "url": "https://www.heise.de/news/KI-Experiment-Anthropic-fuehrt-KI-Agenten-in-Versuchung-11537463.html"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/verlockende-schlupfloecher-warum-anthropic-seinen-ki-modellen-absichtlich-eine-falle-stellt-1775175"
     }
    ]
   },
@@ -2203,7 +2202,8 @@
    "source_id": "deepmind",
    "added": "2026-11-26T00:27:14+01:00",
    "quelle_titel": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
-   "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/"
+   "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+   "kontext": "Google DeepMind reiht das Werkzeug in ein wachsendes Wissenschaftsportfolio ein, zu dem bereits Proteinstrukturvorhersage, Genomanalyse, Wettermodelle und Algorithmenentwicklung gehören. Antigravity dient dabei als Oberfläche, in der experimentelle Forschungswerkzeuge rund um Gemini gebündelt werden. Für Labore bedeutet das, Auswertungsschritte direkt in einer agentischen Umgebung zu erledigen. Die Richtung ist klar erkennbar: Fachdisziplinen bekommen eigene, zugeschnittene KI-Fähigkeiten statt allgemeiner Chatassistenz."
   },
   {
    "id": "f96888facd22",
@@ -2826,6 +2826,28 @@
      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/"
     }
    ]
+  },
+  {
+   "id": "12687f5b580b",
+   "date": "2026-11-24",
+   "published": "2026-11-24T21:15+01:00",
+   "headline": "Verra erhält fünf Millionen Dollar für KI-gestütztes Wissensmanagement",
+   "summary": "Das Unternehmen Verra hat fünf Millionen US-Dollar Kapital für seine Lösung im Bereich KI-gestütztes Wissensmanagement eingesammelt. Der Markt für den Umgang mit internem Firmenwissen bleibt damit ein aktives Investitionsfeld.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "funding",
+    "wissensmanagement",
+    "start-up",
+    "unternehmenswissen"
+   ],
+   "source": "n24.com.tr",
+   "source_id": "gn-startups",
+   "added": "2026-11-26T06:45:20+01:00",
+   "quelle_titel": "Verra sichert sich 5 Millionen Dollar für KI-Wissensmanagement",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb2F5aWIxb3VEOHVLVW9BeEJvaVNsVDRBeG9zR0FSN1MwQ1ZGZlhodkdhWXQzUGN5MWFqNnRXU3M5UzhBUHJzS2VOdUlUMzRPMkk1c09VY0xJcVQ3LXpTNGlIZm9lYWpZU2dFYzVGamJxUVVwWWltZDVVWlFSbGJYVzdpNmNrY3poN053NjRCZU91bVhfM2w1RHFFTzRQWWd2SlE?oc=5"
   },
   {
    "id": "61e71da7b743",
