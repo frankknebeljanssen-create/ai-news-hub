@@ -131,16 +131,7 @@
    "paywall": true,
    "quelle_titel": "Destatis: Jedes dritte Unternehmen nutzt KI, kleine Firmen bleiben zurück",
    "url": "https://www.handelsblatt.com/technik/ki/jedes-dritte-unternehmen-nutzt-ki-kleine-firmen-bleiben-zurueck/100272285.html",
-   "also": [
-    {
-     "source": "CIO",
-     "url": "https://www.cio.de/article/4252461/deutsche-firmen-nutzen-ki-immer-haufiger.html"
-    },
-    {
-     "source": "Deutschlandfunk",
-     "url": "https://www.deutschlandfunk.de/jedes-dritte-unternehmen-nutzt-kuenstliche-intelligenz-100.html"
-    }
-   ]
+   "dup_of": "dba8d8a7d477"
   },
   {
    "id": "dba8d8a7d477",
@@ -164,7 +155,17 @@
    "quelle_titel": "Deutsche Firmen nutzen KI immer häufiger",
    "url": "https://www.cio.de/article/4252461/deutsche-firmen-nutzen-ki-immer-haufiger.html",
    "kontext": "Die Zahlen stammen aus einer Unternehmensbefragung des Statistischen Bundesamts. Am häufigsten läuft KI in Marketing und Vertrieb, in der allgemeinen Verwaltung sowie in Buchführung und Controlling. Gefragt sind vor allem Werkzeuge für Bild, Video und Ton, für die Auswertung von Texten und für Spracherkennung. Der klare Rückstand der kleineren Betriebe zeigt, wie ungleich die Technik in der deutschen Wirtschaft ankommt.",
-   "dup_of": "840e1da0f2db"
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/ki/jedes-dritte-unternehmen-nutzt-ki-kleine-firmen-bleiben-zurueck/100272285.html",
+     "paywall": true
+    },
+    {
+     "source": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/jedes-dritte-unternehmen-nutzt-kuenstliche-intelligenz-100.html"
+    }
+   ]
   },
   {
    "id": "fb7a1ad02384",
@@ -187,17 +188,7 @@
    "kurios": "KI-Agenten finden und nutzen eine unbekannte Lücke praktisch im Alleingang",
    "quelle_titel": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
    "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-   "kontext": "Hinter dem Fall steht Cairn, ein quelloffenes Framework für automatisierte Penetrationstests, das mit verschiedenen Modellen arbeitet und eigentlich Verteidiger unterstützen soll. Betroffen war MONAI Label, eine Software zur Annotation medizinischer Bilddaten; die US-Behörde CISA führt die Lücke inzwischen als aktiv ausgenutzt. Amazon vermutet einen mit China verbundenen Akteur, der den Agenten nur Ziel-IPs und das Ziel Shell-Zugriff vorgab. Palo Alto Networks beobachtete ähnliche Kampagnen gegen Halbleiter-, Rüstungs- und zivilgesellschaftliche Ziele.",
-   "also": [
-    {
-     "source": "it-daily.net",
-     "url": "https://www.it-daily.net/shortnews/n-able-ki-agenten-zero-day"
-    },
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Cyberattacken-auf-N-able-Mail-Assure-und-Monai-Label-11535820.html"
-    }
-   ]
+   "kontext": "Hinter dem Fall steht Cairn, ein quelloffenes Framework für automatisierte Penetrationstests, das mit verschiedenen Modellen arbeitet und eigentlich Verteidiger unterstützen soll. Betroffen war MONAI Label, eine Software zur Annotation medizinischer Bilddaten; die US-Behörde CISA führt die Lücke inzwischen als aktiv ausgenutzt. Amazon vermutet einen mit China verbundenen Akteur, der den Agenten nur Ziel-IPs und das Ziel Shell-Zugriff vorgab. Palo Alto Networks beobachtete ähnliche Kampagnen gegen Halbleiter-, Rüstungs- und zivilgesellschaftliche Ziele."
   },
   {
    "id": "9e1f32fc7890",
@@ -521,7 +512,7 @@
    "paywall": true,
    "quelle_titel": "Elektronik: Preise für Computer und Konsolen steigen deutlich",
    "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-elektronik-preise-fur-computer-und-konsolen-steigen-deutlich-16318572.html",
-   "dup_of": "80f6ac5aa95a"
+   "dup_of": "44b43dd4dcab"
   },
   {
    "id": "4aeb6c7821a1",
@@ -590,7 +581,18 @@
    "paywall": true,
    "quelle_titel": "Azure: Microsofts Cloud-Chef warnt: „Die IT-Ausfälle dürften in den nächsten Monaten deutlich zunehmen“",
    "url": "https://www.handelsblatt.com/technik/it-internet/azure-microsofts-cloud-chef-erwartet-mehr-it-ausfaelle-durch-ki/100270347.html",
-   "dup_of": "6022caa886a8"
+   "also": [
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/it-internet/ki-die-it-ausfaelle-duerften-in-den-naechsten-monaten-deutlich-zunehmen/100270347.html",
+     "paywall": true
+    },
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/microsofts-cloud-chef-erwartet-mehr-it-ausfalle-wir-sehen-erste-anzeichen-dafur-dass-hacker-mit-ki-das-internet-abtasten-16319778.html",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "03da49c75f38",
@@ -635,7 +637,7 @@
    "added": "2026-11-24T13:02:33+01:00",
    "quelle_titel": "Claude Ship: KI-Agenten sollen Code-Änderungen freigeben",
    "url": "https://www.it-daily.net/shortnews/claude-ship-code-aenderungen",
-   "dup_of": "9fdaf3e27425"
+   "dup_of": "62d8cfd71050"
   },
   {
    "id": "99462824e18a",
@@ -727,7 +729,7 @@
    "quelle_titel": "Anthropic: Auf Rekord-Börsengang folgt Ernüchterung, und jetzt?",
    "url": "https://www.basicthinking.de/blog/2026/11/24/anthropic-rekord-boersengang/",
    "kontext": "Hinter dem Rekorddebüt steckt vor allem die Angst, den nächsten KI-Hype zu verpassen; Medien, Broker und Börsenexperten hatten die Stimmung zusätzlich angeheizt. Anthropic wächst rasant, schreibt aber trotz Milliardenumsätzen Verluste und hat sich zu enormen Investitionen verpflichtet. Schon am ersten Handelstag rutschte der Kurs nach dem Sprung wieder in Richtung Ausgabepreis. Strengere Auflagen, Überkapazitäten bei Rechenzentren oder härterer Wettbewerb könnten die hohen Erwartungen empfindlich treffen.",
-   "dup_of": "30e4ed34c313"
+   "dup_of": "9824edc2f485"
   },
   {
    "id": "4341c4e08385",
@@ -778,13 +780,13 @@
    "kontext": "Die Riemannsche Vermutung zählt zu den sieben Millennium-Problemen der Mathematik und gilt seit Jahrzehnten als ungelöst. Der Vorstoß kam aus dem Umfeld von Anthropic und blieb kein Einzelfall: Wenige Tage später meldeten Anthropic und OpenAI Resultate zu einem weiteren alten Problem der Komplexitätstheorie. Solche Arbeiten werden inzwischen mit dem Prüfwerkzeug Lean maschinell abgesichert. Eine unabhängige fachliche Bestätigung steht in diesen Fällen bislang aus.",
    "also": [
     {
-     "source": "Ars Technica AI",
-     "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
-    },
-    {
      "source": "Handelsblatt Technologie",
      "url": "https://www.handelsblatt.com/technik/ki/technologie-ki-soll-eines-der-groessten-raetsel-der-mathematik-geloest-haben/100271770.html",
      "paywall": true
+    },
+    {
+     "source": "Ars Technica AI",
+     "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
     }
    ]
   },
@@ -831,7 +833,7 @@
    "quelle_titel": "Cyberattacken auf N-able Mail Assure und Monai Label",
    "url": "https://www.heise.de/news/Cyberattacken-auf-N-able-Mail-Assure-und-Monai-Label-11535820.html",
    "kontext": "Die US-Sicherheitsbehörde CISA führt beide Lücken als aktiv ausgenutzt. Bei Mail Assure prüft der Dienst das Ziel einer LDAP-Verbindung nicht ausreichend, sodass hoch privilegierte API-Konten interne Systeme ausforschen und ansprechen können. N-able nennt einen einzelnen betroffenen gehosteten Server und kündigt eine Ursachenanalyse an. In Monai Label erlaubt eine Path-Traversal-Schwäche standardmäßig ohne Anmeldung Schadcode, die Spuren deuten auf mutmaßlich chinesische Spionage mit autonomen KI-Agenten.",
-   "dup_of": "fb7a1ad02384"
+   "dup_of": "06f9f58f45c3"
   },
   {
    "id": "88f775e556e2",
@@ -878,7 +880,20 @@
    "quelle_titel": "Claude Ship: Anthropic lässt KI-Agenten über Code-Freigaben entscheiden",
    "url": "https://the-decoder.de/claude-ship-anthropic-laesst-ki-agenten-ueber-code-freigaben-entscheiden/",
    "kontext": "Anthropic setzt am Nadelöhr der KI-gestützten Entwicklung an: Eine Harvard-Auswertung großer Mengen an Arbeitsdaten zeigt, dass Agenten mehr Code erzeugen, die Prüfung von Pull Requests aber länger dauert und den Produktivitätsgewinn auffrisst. Ship bündelt das seit Oktober reguläre Code Review mit den neuen Agenten PR Steward und Claude Approvals. Bei aktiviertem Auto-Merge kann Code ganz ohne Menschen einfließen. Abgerechnet wird nach Tokenverbrauch, verfügbar ist es für Team- und Enterprise-Kunden.",
-   "dup_of": "9fdaf3e27425"
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Claude-Ship-soll-Review-Engpaesse-bei-Pull-Requests-loesen-11536568.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/neue-ki-funktionen-fuer-entwickler-was-du-ueber-claude-ship-wissen-musst-1775032"
+    },
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/shortnews/claude-ship-code-aenderungen"
+    }
+   ]
   },
   {
    "id": "a25b35a745e2",
@@ -904,12 +919,12 @@
    "kontext": "Technische Basis ist eBPF, das gezielte Eingriffe im laufenden Linux-Kernel erlaubt; kryptografische Signaturen, die Kernel-Prüfung und ein TPM sollen untergeschobene Programme verhindern und Änderungen nachvollziehbar machen. Demonstriert wurde das an der OpenJDK-Lücke Java4Shell: Der Agent Codex ergänzte eine zusätzliche Eingabeprüfung, die einen Angriff auf eine laufende Elasticsearch-Instanz abwehrte. Ganz ohne Neustart funktioniert es aber nicht immer, bei bereits laufenden Java-VMs bleibt er nötig. Die Plattform ist quelloffen.",
    "also": [
     {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Shirudo-OpenAI-und-Cisco-stellen-KI-Schutzschild-fuer-Linux-Server-vor-11535772.html"
-    },
-    {
      "source": "it-daily.net",
      "url": "https://www.it-daily.net/shortnews/openai-cisco-linux-exploits"
+    },
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Shirudo-OpenAI-und-Cisco-stellen-KI-Schutzschild-fuer-Linux-Server-vor-11535772.html"
     }
    ]
   },
@@ -1035,7 +1050,7 @@
    "added": "2026-11-24T13:01:01+01:00",
    "quelle_titel": "Statistik - Jedes dritte Unternehmen nutzt Künstliche Intelligenz",
    "url": "https://www.deutschlandfunk.de/jedes-dritte-unternehmen-nutzt-kuenstliche-intelligenz-100.html",
-   "dup_of": "840e1da0f2db"
+   "dup_of": "dba8d8a7d477"
   },
   {
    "id": "7a51310193f4",
@@ -1080,7 +1095,7 @@
    "paywall": true,
    "quelle_titel": "Microsofts Cloud-Chef erwartet mehr IT-Ausfälle: „Wir sehen erste Anzeichen dafür, dass Hacker mit KI das Internet abtasten“",
    "url": "https://www.tagesspiegel.de/wirtschaft/microsofts-cloud-chef-erwartet-mehr-it-ausfalle-wir-sehen-erste-anzeichen-dafur-dass-hacker-mit-ki-das-internet-abtasten-16319778.html",
-   "dup_of": "6022caa886a8"
+   "dup_of": "915b101f2674"
   },
   {
    "id": "3c6728c1bfd1",
@@ -1148,7 +1163,12 @@
    "quelle_titel": "KI-Agenten nutzen Zero-Day in N-able Mail Assure aus",
    "url": "https://www.it-daily.net/shortnews/n-able-ki-agenten-zero-day",
    "kontext": "Laut Amazon steckt ein mutmaßlich chinanaher Akteur dahinter, der mit dem Werkzeug CAIRN arbeitet: Er gab nur Ziel-IP-Adressen vor, Planung und Anpassung übernahmen die Agenten selbst. Betroffen ist unter anderem MONAI Label, eine quelloffene Software zur Annotation medizinischer Bilder, die standardmäßig ohne Anmeldung erreichbar ist. Nach dem Einbruch an einer Universität ging es über einen Proxy zur nächsten weiter. Updates für beide Produkte stehen bereit.",
-   "dup_of": "fb7a1ad02384"
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/Cyberattacken-auf-N-able-Mail-Assure-und-Monai-Label-11535820.html"
+    }
+   ]
   },
   {
    "id": "a8d129cb54cc",
@@ -1237,7 +1257,7 @@
    "added": "2026-11-25T02:21:00+01:00",
    "quelle_titel": "Künstliche Intelligenz: Anthropic-Aktie fällt unter Ausgabepreis",
    "url": "https://www.stern.de/digital/kuenstliche-intelligenz--anthropic-aktie-faellt-unter-ausgabepreis-38602088.html",
-   "dup_of": "30e4ed34c313"
+   "dup_of": "9824edc2f485"
   },
   {
    "id": "f8cdc496b0bc",
@@ -1267,8 +1287,17 @@
      "paywall": true
     },
     {
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
+     "paywall": true
+    },
+    {
      "source": "The Neuron",
      "url": "https://www.theneuron.ai/newsletter/november-24-tuesday-22b3/"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/"
     }
    ]
   },
@@ -1293,7 +1322,7 @@
    "quelle_titel": "Neue KI-Funktionen für Entwickler: Was du über Claude Ship wissen musst",
    "url": "https://t3n.de/news/neue-ki-funktionen-fuer-entwickler-was-du-ueber-claude-ship-wissen-musst-1775032",
    "kontext": "Hintergrund ist eine Harvard-Auswertung von Daten der Engineering-Plattform Jellyfish: KI-Werkzeuge erzeugen mehr Codezeilen, doch der Aufwand verlagert sich auf das Prüfen von Pull Requests, die länger dauern und häufiger Nachbesserung brauchen. Anthropic verbindet nun das seit Herbst verfügbare Code Review mit zwei Agenten in der Beta, die Korrekturen vornehmen und nach hinterlegten Teamregeln freigeben. Damit erhält die KI deutlich mehr Entscheidungsbefugnis im Entwicklungsprozess.",
-   "dup_of": "9fdaf3e27425"
+   "dup_of": "62d8cfd71050"
   },
   {
    "id": "1bbc9ba01742",
@@ -1316,7 +1345,7 @@
    "quelle_titel": "Ist der Anthropic-Boom schon wieder vorbei? Aktie fällt unter den Ausgabepreis",
    "url": "https://t3n.de/news/ist-der-anthropic-boom-schon-wieder-vorbei-aktie-faellt-unter-den-ausgabepreis-1775067",
    "kontext": "Wegen hoher Nachfrage hatte Anthropic den Ausgabepreis über der geplanten Spanne festgesetzt und zusätzliche Aktien angeboten, was den bislang größten Börsengang ergab. Getragen wird der Kurs weniger von Gewinnen als von Erwartungen: Das Geschäft wächst rasch, bringt aber hohe Verluste, während für Rechenleistung gewaltige Summen eingeplant sind. Zugleich standen Technologiewerte breit unter Druck, weil Zweifel am Rückfluss der Rechenzentrumsinvestitionen wachsen. Auch Beschäftigte durften ab dem Debüt Anteile verkaufen.",
-   "dup_of": "30e4ed34c313"
+   "dup_of": "9824edc2f485"
   },
   {
    "id": "e07bd40d60ba",
@@ -1393,10 +1422,6 @@
     {
      "source": "iX",
      "url": "https://www.heise.de/news/KI-Experiment-Anthropic-fuehrt-KI-Agenten-in-Versuchung-11537463.html"
-    },
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/verlockende-schlupfloecher-warum-anthropic-seinen-ki-modellen-absichtlich-eine-falle-stellt-1775175"
     }
    ]
   },
@@ -1444,12 +1469,7 @@
    "paywall": true,
    "quelle_titel": "Quantum may be a bigger security risk than AI. Europe’s got a plan.",
    "url": "https://www.politico.eu/article/quantum-may-be-a-bigger-security-risk-than-ai-europes-got-a-plan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "also": [
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/quantum-act-eu-will-hunderte-milliarden-euro-fuer-quantentechnologie-mobilisieren-2611-215630.html"
-    }
-   ]
+   "dup_of": "1025d3121d02"
   },
   {
    "id": "3d7873635548",
@@ -1573,7 +1593,24 @@
    "quelle_titel": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
    "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
    "kontext": "Anthropic war erst wenige Tage zuvor an der Nasdaq gestartet, begleitet von Rekordmeldungen, einer zeitweise astronomischen Bewertung und viel Angst, den nächsten KI-Hype zu verpassen. Dass der Kurs nun unter den Ausgabepreis rutscht, wiegt schwer, weil Emissionspreise üblicherweise bewusst mit Abschlag angesetzt werden. Auch Nvidia gab am selben Tag deutlich nach. Kritiker verweisen darauf, dass das Unternehmen trotz Milliardenumsätzen Verluste schreibt und sich zu enormen Investitionen verpflichtet hat.",
-   "dup_of": "30e4ed34c313"
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Anthropic-Aktie-faellt-unter-Ausgabepreis-11537185.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/ist-der-anthropic-boom-schon-wieder-vorbei-aktie-faellt-unter-den-ausgabepreis-1775067"
+    },
+    {
+     "source": "stern Digital",
+     "url": "https://www.stern.de/digital/kuenstliche-intelligenz--anthropic-aktie-faellt-unter-ausgabepreis-38602088.html"
+    },
+    {
+     "source": "Basic Thinking",
+     "url": "https://www.basicthinking.de/blog/2026/11/24/anthropic-rekord-boersengang/"
+    }
+   ]
   },
   {
    "id": "8585ed77667f",
@@ -2791,21 +2828,16 @@
    "kontext": "Huang war Mitte November als Nvidia-Chef zurückgetreten, nachdem Berichte über Affären, darunter mit einer angeblichen chinesischen Spionin, bekannt geworden waren. Seine Rückkehr begründet er mit einer Prüfung durch den Verwaltungsrat, dem die Regierung rasch Erkenntnisse zu möglichen Sicherheitsrisiken lieferte. Intern räumte er Verstöße gegen den von ihm selbst geprägten Verhaltenskodex ein und sprach von einer Therapie. Nächste Woche muss er sich einem Senatsausschuss stellen.",
    "also": [
     {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/"
-    },
-    {
-     "source": "Wired AI",
-     "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
-     "paywall": true
-    },
-    {
      "source": "Golem",
      "url": "https://www.golem.de/news/nvidia-jensen-huang-lehnt-nachfolgeregelung-ab-2611-215628.html"
     },
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/"
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/"
     }
    ]
   },
