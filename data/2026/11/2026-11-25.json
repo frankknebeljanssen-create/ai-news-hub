@@ -80,7 +80,12 @@
    "quelle_titel": "Neuer Anthropic-Bericht zeigt den ganzen Schmerz der KI-Adaption in Unternehmen",
    "url": "https://the-decoder.de/neuer-anthropic-bericht-zeigt-den-ganzen-schmerz-der-ki-adaption-in-unternehmen/",
    "kontext": "Anthropic hat für die Untersuchung eigene Kunden befragt, von kleinen Start-ups bis zu etablierten Betrieben aus Recht, Bau, Finanzen, Medizin und Industrie. Die Stichprobe ist damit nicht repräsentativ, zeigt aber, wo es im Alltag klemmt: Beschäftigte müssen Berge von KI-Ergebnissen prüfen, Fachleute testen nach, und einzelne Vielnutzer überschütten Kollegen mit Textmassen. Das passt zur Debatte über inhaltsarme KI-Zulieferungen, die Teams Zeit und Vertrauen kosten. Die Technik ist seltener das Problem als die Organisation.",
-   "dup_of": "602d504e2dca"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/neuer-anthropic-bericht-zeigt-den-ganzen-schmerz-der-ki-adoption-in-unternehmen/"
+    }
+   ]
   },
   {
    "id": "602d504e2dca",
@@ -104,12 +109,7 @@
    "quelle_titel": "Neuer Anthropic-Bericht zeigt den ganzen Schmerz der KI-Adoption in Unternehmen",
    "url": "https://the-decoder.de/neuer-anthropic-bericht-zeigt-den-ganzen-schmerz-der-ki-adoption-in-unternehmen/",
    "kontext": "Die Untersuchung ist qualitativ: Anthropic sprach in knapp 60 Firmen aus Recht, Bau, Finanzen, Medizin und Industrie mit Verantwortlichen, allerdings ausschließlich mit eigenen Kunden, also nicht repräsentativ. Bei mehr als der Hälfte der Anwendungen berichten die Befragten durchaus von mehr Output oder besserer Qualität. Die Reibung entsteht vor allem intern: Kollegen werden mit KI-Texten überschwemmt, Freigaben stauen sich, einzelne Abteilungen kommen nicht mit. Entlassungen wegen Automatisierung nannten nur sehr wenige Betriebe.",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/neuer-anthropic-bericht-zeigt-den-ganzen-schmerz-der-ki-adaption-in-unternehmen/"
-    }
-   ]
+   "dup_of": "8fdf9491b924"
   },
   {
    "id": "8dcd3f46d355",
@@ -132,18 +132,8 @@
    "paywall": true,
    "quelle_titel": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
    "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
-   "also": [
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/politik/ausland/nvidia-krise-trumps-heikle-intervention-fuer-jensen-huang/100272666.html",
-     "paywall": true
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/"
-    }
-   ],
-   "kontext": "Zur Vorgeschichte: Nvidias Verwaltungsrat hatte Huangs Rückkehr kurz zuvor noch ausgeschlossen, gab dann aber nach massivem Druck aus Washington nach, an dem sich Vizepräsident und Präsident persönlich beteiligten. Der Yale-Ökonom Jeffrey Sonnenfeld hält das für einen Fehler und sieht im Konzern eher ein Risiko für die industrielle Stärke der USA. Gegen die Direktoren laufen bereits Aktionärsklagen, dazu kommen Behördenermittlungen und eine Anhörung im Senat."
+   "kontext": "Zur Vorgeschichte: Nvidias Verwaltungsrat hatte Huangs Rückkehr kurz zuvor noch ausgeschlossen, gab dann aber nach massivem Druck aus Washington nach, an dem sich Vizepräsident und Präsident persönlich beteiligten. Der Yale-Ökonom Jeffrey Sonnenfeld hält das für einen Fehler und sieht im Konzern eher ein Risiko für die industrielle Stärke der USA. Gegen die Direktoren laufen bereits Aktionärsklagen, dazu kommen Behördenermittlungen und eine Anhörung im Senat.",
+   "dup_of": "1f1081bfbfe3"
   },
   {
    "id": "a335303daa86",
@@ -423,13 +413,13 @@
    "added": "2026-11-25T12:06:33+01:00",
    "quelle_titel": "KI-Experiment: Anthropic führt KI-Agenten in Versuchung",
    "url": "https://www.heise.de/news/KI-Experiment-Anthropic-fuehrt-KI-Agenten-in-Versuchung-11537463.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Hinter dem Versuch steht ein Prüfverfahren namens Siren: Anthropic baut absichtlich unsichere Sandboxes mit leicht auffindbaren Lücken und legt den Agenten Köder wie fremde Dateien oder Zugangsdaten in den Weg. Gemessen wird in Abstufungen, ob ein Agent nur nach außen schaut oder seine Befugnisse klar überschreitet. Neuere Claude-Versionen patzen deutlich seltener, tasten die Umgebung aber weiter ab. Klare Sicherheitsregeln im Systemprompt senken solche Ausbrüche erheblich.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/news/KI-Experiment-Anthropic-fuehrt-KI-Agenten-in-Versuchung-11537463.html"
     }
-   ],
-   "kontext": "Hinter dem Versuch steht ein Prüfverfahren namens Siren: Anthropic baut absichtlich unsichere Sandboxes mit leicht auffindbaren Lücken und legt den Agenten Köder wie fremde Dateien oder Zugangsdaten in den Weg. Gemessen wird in Abstufungen, ob ein Agent nur nach außen schaut oder seine Befugnisse klar überschreitet. Neuere Claude-Versionen patzen deutlich seltener, tasten die Umgebung aber weiter ab. Klare Sicherheitsregeln im Systemprompt senken solche Ausbrüche erheblich."
+   ]
   },
   {
    "id": "4ac5dcbfeccf",
@@ -705,12 +695,7 @@
    "quelle_titel": "Klinik-KI als Open Source: Leipzig teilt AMPEL-Code",
    "url": "https://www.heise.de/news/Klinik-KI-als-Open-Source-Leipzig-teilt-AMPEL-Code-11538066.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
    "kontext": "AMPEL steht unter MIT-Lizenz auf GitHub, finanziert wurde die Plattform teils aus sächsischen Landesmitteln. Darauf aufgebaut ist LAMPE, das in Leipzig seit dem Frühjahr im Routinebetrieb vor drohendem Nierenversagen warnt und dabei regelbasiert statt generativ arbeitet. Weitere Algorithmen sollen folgen, die Anbindung an das Krankenhausinformationssystem fehlt im offenen Code bewusst. Das Team verweist auf regulatorische Hürden, die Open Source bislang aus der Patientenversorgung heraushielten.",
-   "also": [
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Klinik-KI-als-Open-Source-Leipzig-teilt-AMPEL-Code-11538066.html"
-    }
-   ]
+   "dup_of": "af97f1f48e21"
   },
   {
    "id": "3a68bcc349f7",
@@ -839,17 +824,8 @@
    "kontext": "Starmind soll Sonnenenergie im Orbit einsammeln und Daten per Laser über Starlink zur Erde schicken; die Chips will SpaceX in einer eigenen Fabrik fertigen. Die Freigabe ist an Fristen gebunden: Der erste Satellit muss Anfang der 2030er starten, die volle Konstellation bis 2040 stehen. Offen bleibt die Entsorgung, denn die FCC verschob die Entscheidung über Parkorbits wegen fehlender Angaben. Google hat erste Rechenleistung bereits ins All gebracht.",
    "also": [
     {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/forschung-innovation/weltraum-spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen/100272811.html",
-     "paywall": true
-    },
-    {
      "source": "tagesschau",
      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-eine-million-satelliten-100.html"
-    },
-    {
-     "source": "Deutschlandfunk",
-     "url": "https://www.deutschlandfunk.de/spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen-102.html"
     },
     {
      "source": "ZEIT Digital",
@@ -857,8 +833,25 @@
      "paywall": true
     },
     {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/spacex-orbital-ai-data-centers/"
+    },
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/USA-genehmigen-1-Million-SpaceX-Satelliten-fuer-KI-Rechenzentren-im-Orbit-11538437.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen-102.html"
+    },
+    {
      "source": "WirtschaftsWoche",
      "url": "https://www.wiwo.de/technologie/digitale-welt/raumfahrt-spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen/100272813.html",
+     "paywall": true
+    },
+    {
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/forschung-innovation/weltraum-spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen/100272811.html",
      "paywall": true
     }
    ]
@@ -908,7 +901,18 @@
    "paywall": true,
    "quelle_titel": "Nvidia-Krise: Warum sich Trump nach Huangs Rettung in heikle Widersprüche verstrickt",
    "url": "https://www.wiwo.de/politik/ausland/nvidia-krise-trumps-heikle-intervention-fuer-jensen-huang/100272666.html",
-   "dup_of": "8dcd3f46d355"
+   "also": [
+    {
+     "source": "Wired AI",
+     "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
+     "paywall": true
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/"
+    }
+   ],
+   "kontext": "Huangs Rückkehr an die Nvidia-Spitze kam nach massivem Druck aus Washington zustande. Vizepräsident JD Vance führte am Wochenende Telefonate mit den Direktoren, Trump sprach selbst beim Board vor und rechnet sich den Erfolg öffentlich zu. Der Yale-Ökonom Jeffrey Sonnenfeld hält das für einen Fehler und sieht die Direktoren persönlich in der Haftung. Parallel laufen Aktionärsklagen, Ermittlungen von Justizministerium und Börsenaufsicht sowie eine Anhörung im Senat."
   },
   {
    "id": "38c10b166604",
@@ -1133,7 +1137,7 @@
    "quelle_titel": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to U.S. industrial might, not a champion",
    "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
    "kontext": "Huang war Anfang des Monats zurückgetreten, nachdem er Affären eingeräumt hatte, eine davon mit einer Frau, die US-Behörden für eine chinesische Spionin halten. Der Verwaltungsrat hatte eine Rückkehr noch ausgeschlossen und gab erst nach Telefonaten mit Vizepräsident Vance und Präsident Trump nach. Sonnenfeld hält die Prüfung durch die beauftragte Kanzlei für kaum begonnen und die Haftungsversicherung der Direktoren für zu dünn. Parallel laufen Kartell- und Aufsichtsverfahren.",
-   "dup_of": "8dcd3f46d355"
+   "dup_of": "1f1081bfbfe3"
   },
   {
    "id": "b1497ef13171",
@@ -2003,7 +2007,13 @@
    "praxis": true,
    "quelle_titel": "Klinik-KI als Open Source: Leipzig teilt AMPEL-Code",
    "url": "https://www.heise.de/news/Klinik-KI-als-Open-Source-Leipzig-teilt-AMPEL-Code-11538066.html",
-   "dup_of": "1c60ee95967f"
+   "also": [
+    {
+     "source": "heise KI",
+     "url": "https://www.heise.de/news/Klinik-KI-als-Open-Source-Leipzig-teilt-AMPEL-Code-11538066.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    }
+   ],
+   "kontext": "Hinter AMPEL steht ein Team des Uniklinikums um Daniel Steinbach, finanziert auch aus dem sächsischen Haushalt. Veröffentlicht sind Code unter MIT-Lizenz samt technischer und regulatorischer Musterdokumentation, denn genau die Zulassungshürden haben Open Source bisher aus der Patientenversorgung herausgehalten. Auf der Plattform läuft seit dem Frühjahr ein Warnsystem für drohendes Nierenversagen. Einsatzfertig ist der Code nicht, das Modul zur Anbindung an Klinikinformationssysteme fehlt bewusst."
   },
   {
    "id": "fec44873dc65",

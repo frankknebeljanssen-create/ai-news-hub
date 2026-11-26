@@ -1,10 +1,18 @@
 {
  "date": "2026-11-26",
- "generated_at": "2026-11-26T04:08:55+01:00",
+ "generated_at": "2026-11-26T05:28:01+01:00",
  "overview": [
   {
    "id": "30d385062acb",
-   "text": "Anthropic hat seine Messages API mithilfe von Claude Agenten von Python auf Rust portiert und senkt den CPU Verbrauch dadurch um rund 70 Prozent."
+   "text": "Anthropic hat seine Messages API mit Claude-Agenten von Python nach Rust portiert und dabei den CPU-Verbrauch um rund 70 Prozent gesenkt."
+  },
+  {
+   "id": "bb248ac185bf",
+   "text": "Grüne Testergebnisse und erfolgreiche Builds können bei KI-generiertem Code täuschen, weshalb Teams zusätzliche Prüfungen brauchen."
+  },
+  {
+   "id": "cbc266ff59f3",
+   "text": "KI-Funktionen verwandeln ERP-Systeme vom reinen Archiv in Werkzeuge für Analyse, Vorhersage und aktive Prozesssteuerung."
   }
  ],
  "items": [
@@ -51,7 +59,8 @@
    "source_id": "neuron",
    "added": "2026-11-26T04:06:10+01:00",
    "quelle_titel": "Claude Helped Rebuild Its Own API, Cutting CPU Usage by 70%",
-   "url": "https://www.theneuron.ai/news/anthropic-claude-api-rust-migration/"
+   "url": "https://www.theneuron.ai/news/anthropic-claude-api-rust-migration/",
+   "kontext": "Getestet wurde nicht an einem Nebenprojekt, sondern an Software, die das Tagesgeschäft des Unternehmens trägt. Solche Migrationen gewachsener Systeme gelten als teuer und riskant und bleiben deshalb meist liegen. Deshalb gilt der Fall als Hinweis darauf, dass Altlasten in Unternehmenscode angreifbarer werden. Der Bericht stammt allerdings vom Anbieter selbst, der genau diese Agentenfähigkeiten verkauft."
   },
   {
    "id": "7be71ce9348e",
@@ -77,6 +86,73 @@
    "dup_of": "1343f7f3b435"
   },
   {
+   "id": "e523d3c5f302",
+   "date": "2026-11-26",
+   "published": "2026-11-26T03:06+01:00",
+   "headline": "SpaceX darf Rechenzentren für KI in die Erdumlaufbahn bringen",
+   "summary": "SpaceX hat eine vorläufige Genehmigung für den Aufbau einer Flotte von bis zu einer Million Satelliten mit KI-Rechenkapazität erhalten. Die solarbetriebenen Knoten sollen den wachsenden Energiebedarf des KI-Betriebs entlasten. Offen bleiben technische Fragen wie Kühlung, Datenübertragung und Wartung im Orbit.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "spacex",
+    "rechenzentren",
+    "infrastruktur",
+    "energie"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-26T05:25:57+01:00",
+   "quelle_titel": "SpaceX Just Got Approval to Build AI Data Centers in Space",
+   "url": "https://www.theneuron.ai/news/spacex-orbital-ai-data-centers/",
+   "dup_of": "1343f7f3b435"
+  },
+  {
+   "id": "bb248ac185bf",
+   "date": "2026-11-26",
+   "published": "2026-11-26T05:00+01:00",
+   "headline": "Grüne Testergebnisse täuschen, wenn KI-Agenten den Code prüfen",
+   "summary": "Dashboards signalisieren erfolgreiche Builds und bestandene Tests, doch bei KI-generiertem Code kann dieser Eindruck trügen. Jede Schicht meldet für sich Erfolg, während sich das tatsächliche Systemverhalten von der menschlichen Absicht entfernt. Besonders in der Testautomatisierung braucht es daher zusätzliche Prüfungen statt blindem Vertrauen in grüne Balken.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "softwaretests",
+    "ki-agenten",
+    "qualitätssicherung",
+    "automatisierung"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-11-26T05:25:57+01:00",
+   "praxis": true,
+   "quelle_titel": "Wie KI-gestützte Testing-Tools in die Irre führen",
+   "url": "https://www.computerwoche.de/article/4242199/wie-ki-gestutzte-testing-tools-in-die-irre-fuhren.html"
+  },
+  {
+   "id": "59d2d407f001",
+   "date": "2026-11-26",
+   "published": "2026-11-26T05:03+01:00",
+   "headline": "US-Behörde gibt eine Million Satelliten für Starmind frei",
+   "summary": "Die US-Aufsichtsbehörde hat das SpaceX-Vorhaben Starmind offiziell genehmigt und erlaubt eine Konstellation in bislang unerreichter Größe. Der erste Satellit mit Rechenzentrumsfunktion soll laut Plan bis 2033 im Orbit arbeiten.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "spacex",
+    "starmind",
+    "genehmigung",
+    "rechenzentren"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-26T05:25:57+01:00",
+   "kurios": "Eine Million genehmigte Satelliten sprengt jeden bisherigen Maßstab im Orbit.",
+   "quelle_titel": "USA genehmigen 1 Million SpaceX-Satelliten für KI-Rechenzentren im Orbit",
+   "url": "https://www.heise.de/news/USA-genehmigen-1-Million-SpaceX-Satelliten-fuer-KI-Rechenzentren-im-Orbit-11538437.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "dup_of": "1343f7f3b435"
+  },
+  {
    "id": "124be30ce629",
    "date": "2026-11-26",
    "published": "2026-11-26T02:54+01:00",
@@ -99,6 +175,29 @@
    "quelle_titel": "Raumfahrt - SpaceX darf eine Million Satelliten für KI-Rechenzentren ins All bringen",
    "url": "https://www.deutschlandfunk.de/spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen-102.html",
    "dup_of": "1343f7f3b435"
+  },
+  {
+   "id": "cbc266ff59f3",
+   "date": "2026-11-26",
+   "published": "2026-11-26T05:04+01:00",
+   "headline": "ERP-Systeme werden durch KI vom Archiv zum Steuerungsinstrument",
+   "summary": "Klassische ERP-Systeme dienten vor allem der Dokumentation von Aufträgen, Beständen und Rechnungen. Mit KI-Funktionen verschieben sich ihre Aufgaben in Richtung Analyse, Vorhersage und aktiver Prozesssteuerung. Für Unternehmen bedeutet das neue Anforderungen an Datenqualität und an die Kompetenzen der Anwender.",
+   "thema": "Modelle und Produkte",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "erp",
+    "unternehmenssoftware",
+    "prozesse",
+    "datenqualität"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-26T05:25:57+01:00",
+   "quelle_titel": "ERP & KI: Vom Datenverwalter zum Unternehmensnavigator",
+   "url": "https://www.it-daily.net/it-management/erp-sap/erp-ki-unternehmensnavigator",
+   "kontext": "Hinter der Entwicklung steht ein einfacher Befund: ERP-Daten entstehen direkt im Geschäftsprozess und tragen Zusammenhänge mit sich, etwa zu Kunde, Artikel, Preis oder Zahlungsverhalten. Genau dieser Kontext fehlt Sprachmodellen, wenn sie ohne Zugriff auf die eigenen Systeme arbeiten. Im Großhandel lässt sich so erkennen, welche Kunden ein Lieferengpass treffen wird. Viele Bausteine sind laut dem Fachbeitrag bereits verfügbar, offen ist vor allem die kontrollierte Nutzung."
   }
  ]
 }
