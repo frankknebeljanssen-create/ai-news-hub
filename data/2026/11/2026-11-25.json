@@ -132,7 +132,18 @@
    "paywall": true,
    "quelle_titel": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
    "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
-   "dup_of": "f8cdc496b0bc"
+   "also": [
+    {
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/politik/ausland/nvidia-krise-trumps-heikle-intervention-fuer-jensen-huang/100272666.html",
+     "paywall": true
+    },
+    {
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/"
+    }
+   ],
+   "kontext": "Zur Vorgeschichte: Nvidias Verwaltungsrat hatte Huangs Rückkehr kurz zuvor noch ausgeschlossen, gab dann aber nach massivem Druck aus Washington nach, an dem sich Vizepräsident und Präsident persönlich beteiligten. Der Yale-Ökonom Jeffrey Sonnenfeld hält das für einen Fehler und sieht im Konzern eher ein Risiko für die industrielle Stärke der USA. Gegen die Direktoren laufen bereits Aktionärsklagen, dazu kommen Behördenermittlungen und eine Anhörung im Senat."
   },
   {
    "id": "a335303daa86",
@@ -178,7 +189,8 @@
    "source_id": "computerwoche",
    "added": "2026-11-25T07:00:27+01:00",
    "quelle_titel": "Java-Sicherheitspatches: Deutsche Firmen brauchen zu lange",
-   "url": "https://www.computerwoche.de/article/4252607/java-sicherheitspatches-deutsche-firmen-brauchen-zu-lange.html"
+   "url": "https://www.computerwoche.de/article/4252607/java-sicherheitspatches-deutsche-firmen-brauchen-zu-lange.html",
+   "kontext": "Die Zahlen stammen aus einer eigenen Befragung des Anbieters Azul Systems unter Sicherheitsverantwortlichen in Deutschland, was den Blickwinkel mitprägt. Bemerkenswert ist weniger die Bedrohung selbst als das Zeitproblem: KI beschleunigt die Angreiferseite, während Freigabe und Verteilung von Updates in gewachsenen IT-Landschaften träge bleiben. Java steckt in vielen Unternehmensanwendungen, entsprechend breit wirkt jede offene Lücke. Für Sicherheitsteams verschiebt sich der Fokus von gründlicher Prüfung zu Tempo und Automatisierung."
   },
   {
    "id": "80f6ac5aa95a",
@@ -229,11 +241,6 @@
     {
      "source": "iX",
      "url": "https://www.heise.de/news/Destatis-Laptops-und-Spielekonsolen-deutlich-teurer-11537081.html"
-    },
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-elektronik-preise-fur-computer-und-konsolen-steigen-deutlich-16318572.html",
-     "paywall": true
     }
    ]
   },
@@ -303,8 +310,7 @@
    "added": "2026-11-25T12:08:21+01:00",
    "paywall": true,
    "quelle_titel": "KI: Microsofts Cloud-Chef warnt: „Die IT-Ausfälle dürften in den nächsten Monaten deutlich zunehmen“",
-   "url": "https://www.handelsblatt.com/technik/it-internet/ki-die-it-ausfaelle-duerften-in-den-naechsten-monaten-deutlich-zunehmen/100270347.html",
-   "dup_of": "915b101f2674"
+   "url": "https://www.handelsblatt.com/technik/it-internet/ki-die-it-ausfaelle-duerften-in-den-naechsten-monaten-deutlich-zunehmen/100270347.html"
   },
   {
    "id": "9fdaf3e27425",
@@ -326,8 +332,7 @@
    "added": "2026-11-25T12:08:21+01:00",
    "quelle_titel": "Claude Ship soll Review-Engpässe bei Pull-Requests lösen",
    "url": "https://www.heise.de/news/Claude-Ship-soll-Review-Engpaesse-bei-Pull-Requests-loesen-11536568.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Hintergrund ist ein Stau, den Anthropic selbst erlebt: Weil Agenten einen Großteil des eigenen Codes schreiben, wuchs die Zahl der täglich integrierten Änderungen im firmeneigenen Repository massiv, während Prüfung und Freigabe zum Nadelöhr wurden. Claude Ship bündelt drei Bausteine, von denen nur die Codeprüfung allgemein verfügbar ist, die beiden Agenten für Nachbesserung und Genehmigung stecken in der Beta. Angeboten wird das Ganze in Team- und Enterprise-Tarifen, abgerechnet nach Verbrauch.",
-   "dup_of": "62d8cfd71050"
+   "kontext": "Hintergrund ist ein Stau, den Anthropic selbst erlebt: Weil Agenten einen Großteil des eigenen Codes schreiben, wuchs die Zahl der täglich integrierten Änderungen im firmeneigenen Repository massiv, während Prüfung und Freigabe zum Nadelöhr wurden. Claude Ship bündelt drei Bausteine, von denen nur die Codeprüfung allgemein verfügbar ist, die beiden Agenten für Nachbesserung und Genehmigung stecken in der Beta. Angeboten wird das Ganze in Team- und Enterprise-Tarifen, abgerechnet nach Verbrauch."
   },
   {
    "id": "30e4ed34c313",
@@ -349,25 +354,7 @@
    "added": "2026-11-25T12:08:21+01:00",
    "quelle_titel": "Euphorie verpufft: Anthropic-Papier fällt unter 83 Dollar",
    "url": "https://www.heise.de/news/Anthropic-Aktie-faellt-unter-Ausgabepreis-11537185.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Der Börsengang war der größte der Geschichte: Wegen hoher Nachfrage setzte Anthropic den Ausgabepreis über der geplanten Spanne an und platzierte zusätzliche Aktien. Hinter dem Rückschlag stehen erneute Zweifel, ob sich die riesigen Rechenzentrumsinvestitionen rechnen; Anthropic selbst hat sich zu Rechenleistung im Umfang von Hunderten Milliarden verpflichtet. Investoren sehen die Kursentwicklung als Maßstab dafür, wie öffentliche Märkte die Branche bewerten. Schwache Kurse könnten private Bewertungen und geplante KI-Börsengänge belasten.",
-   "also": [
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/"
-    },
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/ist-der-anthropic-boom-schon-wieder-vorbei-aktie-faellt-unter-den-ausgabepreis-1775067"
-    },
-    {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/kuenstliche-intelligenz--anthropic-aktie-faellt-unter-ausgabepreis-38602088.html"
-    },
-    {
-     "source": "Basic Thinking",
-     "url": "https://www.basicthinking.de/blog/2026/11/24/anthropic-rekord-boersengang/"
-    }
-   ]
+   "kontext": "Der Börsengang war der größte der Geschichte: Wegen hoher Nachfrage setzte Anthropic den Ausgabepreis über der geplanten Spanne an und platzierte zusätzliche Aktien. Hinter dem Rückschlag stehen erneute Zweifel, ob sich die riesigen Rechenzentrumsinvestitionen rechnen; Anthropic selbst hat sich zu Rechenleistung im Umfang von Hunderten Milliarden verpflichtet. Investoren sehen die Kursentwicklung als Maßstab dafür, wie öffentliche Märkte die Branche bewerten. Schwache Kurse könnten private Bewertungen und geplante KI-Börsengänge belasten."
   },
   {
    "id": "b365751489fa",
@@ -436,7 +423,13 @@
    "added": "2026-11-25T12:06:33+01:00",
    "quelle_titel": "KI-Experiment: Anthropic führt KI-Agenten in Versuchung",
    "url": "https://www.heise.de/news/KI-Experiment-Anthropic-fuehrt-KI-Agenten-in-Versuchung-11537463.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "dup_of": "c16d07751d49"
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/news/KI-Experiment-Anthropic-fuehrt-KI-Agenten-in-Versuchung-11537463.html"
+    }
+   ],
+   "kontext": "Hinter dem Versuch steht ein Prüfverfahren namens Siren: Anthropic baut absichtlich unsichere Sandboxes mit leicht auffindbaren Lücken und legt den Agenten Köder wie fremde Dateien oder Zugangsdaten in den Weg. Gemessen wird in Abstufungen, ob ein Agent nur nach außen schaut oder seine Befugnisse klar überschreitet. Neuere Claude-Versionen patzen deutlich seltener, tasten die Umgebung aber weiter ab. Klare Sicherheitsregeln im Systemprompt senken solche Ausbrüche erheblich."
   },
   {
    "id": "4ac5dcbfeccf",
@@ -458,7 +451,7 @@
    "added": "2026-11-26T00:26:50+01:00",
    "quelle_titel": "KI-Experiment: Anthropic führt KI-Agenten in Versuchung",
    "url": "https://www.heise.de/news/KI-Experiment-Anthropic-fuehrt-KI-Agenten-in-Versuchung-11537463.html",
-   "dup_of": "c16d07751d49"
+   "dup_of": "ae832d105c72"
   },
   {
    "id": "5a86905ef176",
@@ -619,7 +612,8 @@
    "source_id": "computerwoche",
    "added": "2026-11-26T00:25:45+01:00",
    "quelle_titel": "Siemens: Mit KI-Agenten zu autonomen Fabriken",
-   "url": "https://www.computerwoche.de/article/4253071/siemens-mit-ki-agenten-zu-autonomen-fabriken.html"
+   "url": "https://www.computerwoche.de/article/4253071/siemens-mit-ki-agenten-zu-autonomen-fabriken.html",
+   "kontext": "Dahinter steht die Idee, dass Software in der Fabrik nicht mehr nur Daten liefert, sondern Entscheidungen selbst vorbereitet. Siemens liefert die Automatisierungstechnik für solche Anlagen und besetzt damit früh ein Feld, in dem Agenten Auftragslage, Bestände und Maschinen miteinander verknüpfen. Bislang beschreibt der Automatisierungschef eine Zielvorstellung, kein fertiges Produkt. Entscheidend wird, wie viel Steuerung Betriebe an autonome Systeme abgeben wollen."
   },
   {
    "id": "b7b1c3036794",
@@ -794,7 +788,8 @@
    "source_id": "golem",
    "added": "2026-11-26T00:24:10+01:00",
    "quelle_titel": "Vertragskündigung: Verbraucherzentrale verklagt OpenAI wegen ChatGPT-Abo",
-   "url": "https://www.golem.de/news/vertragskuendigung-verbraucherzentrale-verklagt-openai-wegen-chatgpt-abo-2611-215664.html"
+   "url": "https://www.golem.de/news/vertragskuendigung-verbraucherzentrale-verklagt-openai-wegen-chatgpt-abo-2611-215664.html",
+   "kontext": "Hier klagt eine Verbraucherzentrale, also eine Einrichtung, die Verbraucherrechte gerichtlich durchsetzen kann, gegen einen der bekanntesten KI-Anbieter. Streitpunkt ist nicht die Technik, sondern der Weg aus dem Vertrag: Für Online-Abos muss eine einfach erreichbare Kündigung bestehen. Damit wird geklärt, ob internationale KI-Dienste deutsche Verbrauchervorgaben erfüllen. Fällt die Entscheidung gegen OpenAI, dürften auch andere Anbieter ihre Abo-Oberflächen anpassen müssen."
   },
   {
    "id": "92419877312e",
@@ -844,22 +839,26 @@
    "kontext": "Starmind soll Sonnenenergie im Orbit einsammeln und Daten per Laser über Starlink zur Erde schicken; die Chips will SpaceX in einer eigenen Fabrik fertigen. Die Freigabe ist an Fristen gebunden: Der erste Satellit muss Anfang der 2030er starten, die volle Konstellation bis 2040 stehen. Offen bleibt die Entsorgung, denn die FCC verschob die Entscheidung über Parkorbits wegen fehlender Angaben. Google hat erste Rechenleistung bereits ins All gebracht.",
    "also": [
     {
-     "source": "ZEIT Digital",
-     "url": "https://www.zeit.de/digital/2026-11/spacex-starmind-satelliten-fcc-elon-musk-nvidia",
+     "source": "Handelsblatt Technologie",
+     "url": "https://www.handelsblatt.com/technik/forschung-innovation/weltraum-spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen/100272811.html",
      "paywall": true
+    },
+    {
+     "source": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-eine-million-satelliten-100.html"
     },
     {
      "source": "Deutschlandfunk",
      "url": "https://www.deutschlandfunk.de/spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen-102.html"
     },
     {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/technologie/digitale-welt/raumfahrt-spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen/100272813.html",
+     "source": "ZEIT Digital",
+     "url": "https://www.zeit.de/digital/2026-11/spacex-starmind-satelliten-fcc-elon-musk-nvidia",
      "paywall": true
     },
     {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/forschung-innovation/weltraum-spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen/100272811.html",
+     "source": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/technologie/digitale-welt/raumfahrt-spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen/100272813.html",
      "paywall": true
     }
    ]
@@ -909,7 +908,7 @@
    "paywall": true,
    "quelle_titel": "Nvidia-Krise: Warum sich Trump nach Huangs Rettung in heikle Widersprüche verstrickt",
    "url": "https://www.wiwo.de/politik/ausland/nvidia-krise-trumps-heikle-intervention-fuer-jensen-huang/100272666.html",
-   "dup_of": "f8cdc496b0bc"
+   "dup_of": "8dcd3f46d355"
   },
   {
    "id": "38c10b166604",
@@ -932,7 +931,7 @@
    "added": "2026-11-26T00:24:10+01:00",
    "quelle_titel": "Shirudo: OpenAI und Cisco schirmen Linux vor Exploits ab",
    "url": "https://www.it-daily.net/shortnews/openai-cisco-linux-exploits",
-   "dup_of": "a25b35a745e2"
+   "kontext": "Shirudo, japanisch für Schild, baut auf Tetragon auf, einer eBPF-Sicherheitsplattform aus dem Cisco-Umfeld, ist aber auf die Nutzung durch Agenten zugeschnitten. Der Agent reproduziert einen Exploit, erzeugt einen passenden Schild und sperrt den verwundbaren Codepfad; freischalten muss ihn ein Verantwortlicher, verteilt wird er signiert und auf dem Zielsystem geprüft. Hintergrund ist, dass KI Schwachstellen immer schneller findet. OpenAI sieht darin einen Schritt zu Infrastruktur, die sich selbst verteidigt."
   },
   {
    "id": "5d4e475d59fc",
@@ -1134,7 +1133,7 @@
    "quelle_titel": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to U.S. industrial might, not a champion",
    "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
    "kontext": "Huang war Anfang des Monats zurückgetreten, nachdem er Affären eingeräumt hatte, eine davon mit einer Frau, die US-Behörden für eine chinesische Spionin halten. Der Verwaltungsrat hatte eine Rückkehr noch ausgeschlossen und gab erst nach Telefonaten mit Vizepräsident Vance und Präsident Trump nach. Sonnenfeld hält die Prüfung durch die beauftragte Kanzlei für kaum begonnen und die Haftungsversicherung der Direktoren für zu dünn. Parallel laufen Kartell- und Aufsichtsverfahren.",
-   "dup_of": "f8cdc496b0bc"
+   "dup_of": "8dcd3f46d355"
   },
   {
    "id": "b1497ef13171",
@@ -1157,7 +1156,7 @@
    "paywall": true,
    "quelle_titel": "Digitale Einkaufshelfer: Deutschland hinkt beim Einkaufen mit KI deutlich hinterher",
    "url": "https://www.tagesspiegel.de/wirtschaft/dpa-digitale-einkaufshelfer-deutschland-hinkt-beim-einkaufen-mit-ki-deutlich-hinterher-16322091.html",
-   "dup_of": "23b29c15e363"
+   "dup_of": "da1cb48f2b7a"
   },
   {
    "id": "9ec363400b39",
@@ -1539,7 +1538,17 @@
    "quelle_titel": "Digitale Einkaufshelfer: Deutschland hinkt beim Einkaufen mit KI deutlich hinterher",
    "url": "https://www.wiwo.de/unternehmen/handel/digitale-einkaufshelfer-deutschland-hinkt-beim-einkaufen-mit-ki-deutlich-hinterher/100272556.html",
    "kontext": "Hinter dem Thema steht eine Umfrage des Identitätsdienstleisters Signicat unter europäischen Verbrauchern, veröffentlicht kurz vor dem Black Friday. Das Bild ist zweigeteilt: Als Helfer bei Recherche oder beim Ausfüllen von Formularen ist KI willkommen, als eigenständiger Käufer nicht. Je mehr Geld, Identität oder Vertragsbindung im Spiel ist, desto größer der Wunsch nach dem letzten eigenen Klick. Händler und Zahlungsdienstleister müssen also offenlegen, was ihre Systeme ohne Rückfrage dürfen.",
-   "dup_of": "23b29c15e363"
+   "also": [
+    {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-digitale-einkaufshelfer-deutschland-hinkt-beim-einkaufen-mit-ki-deutlich-hinterher-16322091.html",
+     "paywall": true
+    },
+    {
+     "source": "it-daily.net",
+     "url": "https://www.it-daily.net/it-management/e-business/black-friday-ki-nicht-entscheiden"
+    }
+   ]
   },
   {
    "id": "b0deea04c96b",
@@ -2173,19 +2182,8 @@
    "added": "2026-11-26T00:23:15+01:00",
    "quelle_titel": "Black Friday: 69 % der Verbraucher wollen KI nicht für sich einkaufen lassen",
    "url": "https://www.it-daily.net/it-management/e-business/black-friday-ki-nicht-entscheiden",
-   "also": [
-    {
-     "source": "WirtschaftsWoche",
-     "url": "https://www.wiwo.de/unternehmen/handel/digitale-einkaufshelfer-deutschland-hinkt-beim-einkaufen-mit-ki-deutlich-hinterher/100272556.html",
-     "paywall": true
-    },
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/wirtschaft/dpa-digitale-einkaufshelfer-deutschland-hinkt-beim-einkaufen-mit-ki-deutlich-hinterher-16322091.html",
-     "paywall": true
-    }
-   ],
-   "kontext": "Hinter der Erhebung steht der Identitätsdienstleister Signicat, der sie passend zum Black Friday veröffentlicht. Sie zeigt eine klare Trennlinie: Hilfe bei der Recherche oder beim Ausfüllen von Formularen ist willkommen, eigenständiges Handeln dagegen nicht. Bei Finanzprodukten wollen viele Befragte das letzte Wort behalten oder jederzeit eingreifen können, und mit steigendem Warenwert schwindet das Vertrauen zusätzlich. Anbieter müssen deshalb transparent machen, was ihre Systeme überhaupt dürfen."
+   "kontext": "Hinter der Erhebung steht der Identitätsdienstleister Signicat, der sie passend zum Black Friday veröffentlicht. Sie zeigt eine klare Trennlinie: Hilfe bei der Recherche oder beim Ausfüllen von Formularen ist willkommen, eigenständiges Handeln dagegen nicht. Bei Finanzprodukten wollen viele Befragte das letzte Wort behalten oder jederzeit eingreifen können, und mit steigendem Warenwert schwindet das Vertrauen zusätzlich. Anbieter müssen deshalb transparent machen, was ihre Systeme überhaupt dürfen.",
+   "dup_of": "da1cb48f2b7a"
   },
   {
    "id": "28f4dee2c21a",
@@ -2367,8 +2365,7 @@
    "source_id": "golem",
    "added": "2026-11-25T12:07:21+01:00",
    "quelle_titel": "Nvidia: Jensen Huang lehnt Nachfolgeregelung ab",
-   "url": "https://www.golem.de/news/nvidia-jensen-huang-lehnt-nachfolgeregelung-ab-2611-215628.html",
-   "dup_of": "9134491ec669"
+   "url": "https://www.golem.de/news/nvidia-jensen-huang-lehnt-nachfolgeregelung-ab-2611-215628.html"
   },
   {
    "id": "1025d3121d02",
@@ -2389,14 +2386,7 @@
    "source_id": "golem",
    "added": "2026-11-25T12:07:21+01:00",
    "quelle_titel": "Quantum Act: EU will Hunderte Milliarden Euro für Quantentechnologie mobilisieren",
-   "url": "https://www.golem.de/news/quantum-act-eu-will-hunderte-milliarden-euro-fuer-quantentechnologie-mobilisieren-2611-215630.html",
-   "also": [
-    {
-     "source": "Politico Europe",
-     "url": "https://www.politico.eu/article/quantum-may-be-a-bigger-security-risk-than-ai-europes-got-a-plan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-     "paywall": true
-    }
-   ]
+   "url": "https://www.golem.de/news/quantum-act-eu-will-hunderte-milliarden-euro-fuer-quantentechnologie-mobilisieren-2611-215630.html"
   },
   {
    "id": "d0a3a7f662b5",

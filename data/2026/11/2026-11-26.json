@@ -1,7 +1,12 @@
 {
  "date": "2026-11-26",
- "generated_at": "2026-11-26T03:04:14+01:00",
- "overview": [],
+ "generated_at": "2026-11-26T04:08:55+01:00",
+ "overview": [
+  {
+   "id": "30d385062acb",
+   "text": "Anthropic hat seine Messages API mithilfe von Claude Agenten von Python auf Rust portiert und senkt den CPU Verbrauch dadurch um rund 70 Prozent."
+  }
+ ],
  "items": [
   {
    "id": "6000a37f5608",
@@ -24,6 +29,51 @@
    "paywall": true,
    "quelle_titel": "Projekt Starmind: SpaceX darf Satelliten für KI-Rechenzentren ins All schicken",
    "url": "https://www.zeit.de/digital/2026-11/spacex-starmind-satelliten-fcc-elon-musk-nvidia",
+   "dup_of": "1343f7f3b435"
+  },
+  {
+   "id": "30d385062acb",
+   "date": "2026-11-26",
+   "published": "2026-11-26T02:48+01:00",
+   "headline": "Anthropic lässt Claude die eigene API von Python nach Rust portieren",
+   "summary": "Anthropic hat die Messages API mithilfe von Claude-Agenten von Python auf Rust umgestellt und dabei den CPU-Verbrauch um rund 70 Prozent gesenkt. Das Experiment zeigt, dass die Modernisierung gewachsener Codebasen mit KI-Unterstützung realistischer wird. Gleichzeitig bleibt die verlässliche Prüfung des generierten Codes eine Aufgabe für erfahrene Entwicklerinnen und Entwickler.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "anthropic",
+    "coding-agents",
+    "rust",
+    "legacy-modernisierung"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-26T04:06:10+01:00",
+   "quelle_titel": "Claude Helped Rebuild Its Own API, Cutting CPU Usage by 70%",
+   "url": "https://www.theneuron.ai/news/anthropic-claude-api-rust-migration/"
+  },
+  {
+   "id": "7be71ce9348e",
+   "date": "2026-11-26",
+   "published": "2026-11-26T02:58+01:00",
+   "headline": "US-Behörden genehmigen SpaceX Satellitenflotte für Rechenzentren im Orbit",
+   "summary": "SpaceX hat von US-Behörden die Erlaubnis erhalten, bis zu eine Million Satelliten zu starten, die als Rechenzentren im Weltraum arbeiten sollen. Damit will das Unternehmen den stark steigenden Bedarf an Rechenleistung für KI-Anwendungen decken. Die Genehmigung markiert einen neuen Maßstab für den Ausbau von KI-Infrastruktur jenseits klassischer Standorte auf der Erde.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "spacex",
+    "rechenzentren",
+    "ki-infrastruktur",
+    "genehmigung"
+   ],
+   "source": "tagesschau",
+   "source_id": "tagesschau",
+   "added": "2026-11-26T04:06:10+01:00",
+   "kurios": "Eine Million Satelliten als Rechenzentren im Orbit ist eine kaum fassbare Zahl.",
+   "quelle_titel": "SpaceX darf eine Million Satelliten für KI-Rechenzentren ins All schicken",
+   "url": "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-eine-million-satelliten-100.html",
    "dup_of": "1343f7f3b435"
   },
   {
