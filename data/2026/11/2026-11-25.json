@@ -1,38 +1,38 @@
 {
  "date": "2026-11-25",
- "generated_at": "2026-11-26T19:34:01+01:00",
+ "generated_at": "2026-11-27T12:23:06+01:00",
  "overview": [
   {
    "id": "190619a69a1b",
-   "text": "Google DeepMind übernimmt mit Gemini 4 Neon wieder die Spitze und liegt im LiveBench vor Astra und Fable."
+   "text": "Google DeepMind übernimmt mit Gemini 4 Neon wieder die Spitze und liegt im LiveBench vor Astra und Fable, bei Coding-Aufgaben fast doppelt so schnell."
   },
   {
-   "id": "602d504e2dca",
-   "text": "Eine Anthropic-Auswertung von rund 300 Firmenprojekten zeigt, dass etwa 20 Prozent bisher keinen geschäftlichen Nutzen bringen."
-  },
-  {
-   "id": "30e4ed34c313",
-   "text": "Nach 34 Prozent Kursplus zum Börsenstart ist die Anthropic-Aktie unter 83 Dollar gerutscht und gilt als Stimmungstest für den KI-Sektor."
+   "id": "8fdf9491b924",
+   "text": "Eine Anthropic-Untersuchung in 58 US-Unternehmen zeigt: Jede fünfte KI-Anwendung bringt keinen messbaren Nutzen, Hauptbremsen sind interne Strukturen."
   },
   {
    "id": "5f1b2f954a53",
-   "text": "Bei FinCEN sowie CIA, NGA und ODNI kam es zu unbefugten Zugriffen, wobei Ermittler ein KI-Abwehrwerkzeug als Einstiegspunkt verdächtigen."
+   "text": "Die US-Behörde FinCEN nimmt nach einem unbefugten Zugriff Systeme offline, bei Einbrüchen bei Geheimdiensten steht ein KI-Abwehrtool im Verdacht."
   },
   {
    "id": "44b43dd4dcab",
-   "text": "Festplatten kosteten im Oktober laut Statistischem Bundesamt 40,8 Prozent mehr als im Vorjahr, getrieben von der Nachfrage der KI-Rechenzentren."
+   "text": "Festplatten kosteten im Oktober laut Statistischem Bundesamt 40,8 Prozent mehr als im Vorjahr, als Treiber gilt die Nachfrage der KI-Rechenzentren."
   },
   {
    "id": "b5238029c6bb",
-   "text": "Die Verbraucherzentrale Brandenburg verklagt OpenAI, weil die Kündigung eines bezahlten ChatGPT-Abos zu kompliziert sei."
-  },
-  {
-   "id": "30117a2c8d98",
-   "text": "Bei Google DeepMind führen KI-Agenten bereits eigene Experimente für kommende Gemini-Modelle durch, bleiben dabei aber nachprüfbar."
+   "text": "Die Verbraucherzentrale Brandenburg verklagt OpenAI, weil die Kündigung eines kostenpflichtigen ChatGPT-Abos aus ihrer Sicht zu kompliziert ist."
   },
   {
    "id": "02ba00d7a531",
-   "text": "Rheinland-Pfalz erprobt ein Fortbildungsmodul, das Schulleitungen KI als Aufgabe der Schulentwicklung und nicht als Werkzeugfrage vermittelt."
+   "text": "Rheinland-Pfalz erprobt erstmals ein Fortbildungsmodul, das Schulleitungen KI als Aufgabe der Schulentwicklung und nicht als Werkzeugfrage vermittelt."
+  },
+  {
+   "id": "30117a2c8d98",
+   "text": "Bei Google Deepmind führen KI-Agenten schon eigene Experimente für kommende Gemini-Modelle durch, ihre Gedankenketten bleiben zur Kontrolle untrainiert."
+  },
+  {
+   "id": "9edbb62c9bcf",
+   "text": "Ermittler prüfen, was Nvidia über den Endverbleib der an Megaspeed gelieferten KI-Chips wusste, brisant ist eine private Verbindung von Jensen Huang."
   }
  ],
  "items": [
@@ -80,7 +80,12 @@
    "quelle_titel": "Neuer Anthropic-Bericht zeigt den ganzen Schmerz der KI-Adaption in Unternehmen",
    "url": "https://the-decoder.de/neuer-anthropic-bericht-zeigt-den-ganzen-schmerz-der-ki-adaption-in-unternehmen/",
    "kontext": "Anthropic hat für die Untersuchung eigene Kunden befragt, von kleinen Start-ups bis zu etablierten Betrieben aus Recht, Bau, Finanzen, Medizin und Industrie. Die Stichprobe ist damit nicht repräsentativ, zeigt aber, wo es im Alltag klemmt: Beschäftigte müssen Berge von KI-Ergebnissen prüfen, Fachleute testen nach, und einzelne Vielnutzer überschütten Kollegen mit Textmassen. Das passt zur Debatte über inhaltsarme KI-Zulieferungen, die Teams Zeit und Vertrauen kosten. Die Technik ist seltener das Problem als die Organisation.",
-   "dup_of": "602d504e2dca"
+   "also": [
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/neuer-anthropic-bericht-zeigt-den-ganzen-schmerz-der-ki-adoption-in-unternehmen/"
+    }
+   ]
   },
   {
    "id": "602d504e2dca",
@@ -104,12 +109,7 @@
    "quelle_titel": "Neuer Anthropic-Bericht zeigt den ganzen Schmerz der KI-Adoption in Unternehmen",
    "url": "https://the-decoder.de/neuer-anthropic-bericht-zeigt-den-ganzen-schmerz-der-ki-adoption-in-unternehmen/",
    "kontext": "Die Untersuchung ist qualitativ: Anthropic sprach in knapp 60 Firmen aus Recht, Bau, Finanzen, Medizin und Industrie mit Verantwortlichen, allerdings ausschließlich mit eigenen Kunden, also nicht repräsentativ. Bei mehr als der Hälfte der Anwendungen berichten die Befragten durchaus von mehr Output oder besserer Qualität. Die Reibung entsteht vor allem intern: Kollegen werden mit KI-Texten überschwemmt, Freigaben stauen sich, einzelne Abteilungen kommen nicht mit. Entlassungen wegen Automatisierung nannten nur sehr wenige Betriebe.",
-   "also": [
-    {
-     "source": "The Decoder",
-     "url": "https://the-decoder.de/neuer-anthropic-bericht-zeigt-den-ganzen-schmerz-der-ki-adaption-in-unternehmen/"
-    }
-   ]
+   "dup_of": "8fdf9491b924"
   },
   {
    "id": "8dcd3f46d355",
@@ -514,13 +514,7 @@
    "added": "2026-11-26T00:25:45+01:00",
    "quelle_titel": "Cybervorfälle bei US-Behörden häufen sich: Finanzermittler und Geheimdienste betroffen",
    "url": "https://the-decoder.de/cybervorfaelle-bei-us-behoerden-haeufen-sich-finanzermittler-und-geheimdienste-betroffen/",
-   "kontext": "FinCEN sammelt Verdachtsmeldungen der Banken und verwaltet Transaktionsdaten für Strafverfolger; Meldungen bleiben laut Behörde weiter möglich. Bei den Geheimdiensten traf es ein System zur Auswertung offen zugänglicher Quellen, Geheimes war nach Darstellung der Beteiligten nicht betroffen. Das verdächtigte Werkzeug Artex stellte ein chinesischer Entwickler im Sommer öffentlich bereit, Angreifer setzen es seither weltweit für Attacken ein. Ermittler halten eine chinesische Spur für möglich, Peking bestreitet solche Vorwürfe.",
-   "also": [
-    {
-     "source": "Golem",
-     "url": "https://www.golem.de/news/us-geheimdienst-cyberangriff-trifft-analysesystem-der-cia-2611-215631.html"
-    }
-   ]
+   "kontext": "FinCEN sammelt Verdachtsmeldungen der Banken und verwaltet Transaktionsdaten für Strafverfolger; Meldungen bleiben laut Behörde weiter möglich. Bei den Geheimdiensten traf es ein System zur Auswertung offen zugänglicher Quellen, Geheimes war nach Darstellung der Beteiligten nicht betroffen. Das verdächtigte Werkzeug Artex stellte ein chinesischer Entwickler im Sommer öffentlich bereit, Angreifer setzen es seither weltweit für Attacken ein. Ermittler halten eine chinesische Spur für möglich, Peking bestreitet solche Vorwürfe."
   },
   {
    "id": "4d3e8a1b228a",
@@ -701,13 +695,7 @@
    "added": "2026-11-26T00:25:00+01:00",
    "quelle_titel": "Klinik-KI als Open Source: Leipzig teilt AMPEL-Code",
    "url": "https://www.heise.de/news/Klinik-KI-als-Open-Source-Leipzig-teilt-AMPEL-Code-11538066.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "AMPEL steht unter MIT-Lizenz auf GitHub, finanziert wurde die Plattform teils aus sächsischen Landesmitteln. Darauf aufgebaut ist LAMPE, das in Leipzig seit dem Frühjahr im Routinebetrieb vor drohendem Nierenversagen warnt und dabei regelbasiert statt generativ arbeitet. Weitere Algorithmen sollen folgen, die Anbindung an das Krankenhausinformationssystem fehlt im offenen Code bewusst. Das Team verweist auf regulatorische Hürden, die Open Source bislang aus der Patientenversorgung heraushielten.",
-   "also": [
-    {
-     "source": "iX",
-     "url": "https://www.heise.de/news/Klinik-KI-als-Open-Source-Leipzig-teilt-AMPEL-Code-11538066.html"
-    }
-   ]
+   "kontext": "AMPEL steht unter MIT-Lizenz auf GitHub, finanziert wurde die Plattform teils aus sächsischen Landesmitteln. Darauf aufgebaut ist LAMPE, das in Leipzig seit dem Frühjahr im Routinebetrieb vor drohendem Nierenversagen warnt und dabei regelbasiert statt generativ arbeitet. Weitere Algorithmen sollen folgen, die Anbindung an das Krankenhausinformationssystem fehlt im offenen Code bewusst. Das Team verweist auf regulatorische Hürden, die Open Source bislang aus der Patientenversorgung heraushielten."
   },
   {
    "id": "3a68bcc349f7",
@@ -753,17 +741,7 @@
    "added": "2026-11-26T00:24:10+01:00",
    "quelle_titel": "Amazon und Meta verhandeln über Zugang von KI-Shopping-Agent Muse zum Amazon-Onlineshop",
    "url": "https://the-decoder.de/amazon-und-meta-verhandeln-ueber-zugang-von-ki-shopping-agent-muse-zum-amazon-onlineshop/",
-   "kontext": "Muse ist Metas bislang erfolgreichstes KI-Produkt für Endkunden und erreicht in den USA und Kanada über zehn Millionen Nutzer. Amazon fürchtet, dass solche Agenten die Anzeigen auf der Plattform umgehen und die direkte Kundenbeziehung lockern, und setzt lieber auf einen eigenen Einkaufsassistenten. Händler wie Walmart, Best Buy oder Sephora haben sich Agenten dagegen schon geöffnet. Eine Einigung müssten beide Konzernchefs persönlich abzeichnen.",
-   "also": [
-    {
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions"
-    },
-    {
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/"
-    }
-   ]
+   "kontext": "Muse ist Metas bislang erfolgreichstes KI-Produkt für Endkunden und erreicht in den USA und Kanada über zehn Millionen Nutzer. Amazon fürchtet, dass solche Agenten die Anzeigen auf der Plattform umgehen und die direkte Kundenbeziehung lockern, und setzt lieber auf einen eigenen Einkaufsassistenten. Händler wie Walmart, Best Buy oder Sephora haben sich Agenten dagegen schon geöffnet. Eine Einigung müssten beide Konzernchefs persönlich abzeichnen."
   },
   {
    "id": "b5238029c6bb",
@@ -810,7 +788,12 @@
    "quelle_titel": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
    "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
    "kontext": "Character.AI hatte im Oktober ein Insolvenzverfahren eingeleitet, nun soll auch der Datenbestand versteigert werden. Dagegen stellt sich eine Allianz von Generalstaatsanwälten aus 42 Bundesstaaten: Ein Käufer wäre an die früheren Datenschutzversprechen nicht gebunden und könnte die Gespräche weiterverkaufen. Als Mindestgebot dient eine erst kürzlich gegründete Firma mit unklaren Absichten. Zudem treten Anfang 2027 in mehreren Staaten neue Schutzregeln für Chatbots in Kraft.",
-   "dup_of": "d73563559186"
+   "also": [
+    {
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
+    }
+   ]
   },
   {
    "id": "1343f7f3b435",
@@ -857,6 +840,19 @@
      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-eine-million-satelliten-100.html"
     },
     {
+     "source": "Tagesspiegel Wirtschaft",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-raumfahrtunternehmen-ki-rechenzentren-im-all-was-hinter-den-spacex-planen-steckt-16328378.html",
+     "paywall": true
+    },
+    {
+     "source": "stern Digital",
+     "url": "https://www.stern.de/digital/raumfahrtunternehmen--ki-rechenzentren-im-all--was-hinter-den-spacex-plaenen-steckt-38611084.html"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/spacex-rechenzenrum-all-eine-million-satelliten-forscher-1775484"
+    },
+    {
      "source": "ZEIT Digital",
      "url": "https://www.zeit.de/digital/2026-11/spacex-starmind-satelliten-fcc-elon-musk-nvidia",
      "paywall": true
@@ -870,15 +866,6 @@
      "url": "https://www.deutschlandfunk.de/spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen-102.html"
     },
     {
-     "source": "stern Digital",
-     "url": "https://www.stern.de/digital/raumfahrtunternehmen--ki-rechenzentren-im-all--was-hinter-den-spacex-plaenen-steckt-38611084.html"
-    },
-    {
-     "source": "Handelsblatt Technologie",
-     "url": "https://www.handelsblatt.com/technik/forschung-innovation/weltraum-spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen/100272811.html",
-     "paywall": true
-    },
-    {
      "source": "WirtschaftsWoche",
      "url": "https://www.wiwo.de/technologie/digitale-welt/raumfahrt-spacex-darf-eine-million-satelliten-fuer-ki-rechenzentren-ins-all-bringen/100272813.html",
      "paywall": true
@@ -887,19 +874,6 @@
      "source": "WirtschaftsWoche",
      "url": "https://www.wiwo.de/unternehmen/it/spacex-starmind-wie-realistisch-sind-rechenzentren-im-all/100272953.html",
      "paywall": true
-    },
-    {
-     "source": "Tagesspiegel Wirtschaft",
-     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-raumfahrtunternehmen-ki-rechenzentren-im-all-was-hinter-den-spacex-planen-steckt-16328378.html",
-     "paywall": true
-    },
-    {
-     "source": "t3n",
-     "url": "https://t3n.de/news/spacex-rechenzenrum-all-eine-million-satelliten-forscher-1775484"
-    },
-    {
-     "source": "Spektrum der Wissenschaft",
-     "url": "https://www.spektrum.de/kolumne/satelliten-ein-fiebertraum-vom-rechenzentrum-im-weltall/2308328"
     }
    ]
   },
@@ -948,14 +922,7 @@
    "paywall": true,
    "quelle_titel": "Nvidia-Krise: Warum sich Trump nach Huangs Rettung in heikle Widersprüche verstrickt",
    "url": "https://www.wiwo.de/politik/ausland/nvidia-krise-trumps-heikle-intervention-fuer-jensen-huang/100272666.html",
-   "kontext": "Huangs Rückkehr an die Nvidia-Spitze kam nach massivem Druck aus Washington zustande. Vizepräsident JD Vance führte am Wochenende Telefonate mit den Direktoren, Trump sprach selbst beim Board vor und rechnet sich den Erfolg öffentlich zu. Der Yale-Ökonom Jeffrey Sonnenfeld hält das für einen Fehler und sieht die Direktoren persönlich in der Haftung. Parallel laufen Aktionärsklagen, Ermittlungen von Justizministerium und Börsenaufsicht sowie eine Anhörung im Senat.",
-   "also": [
-    {
-     "source": "Wired AI",
-     "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
-     "paywall": true
-    }
-   ]
+   "kontext": "Huangs Rückkehr an die Nvidia-Spitze kam nach massivem Druck aus Washington zustande. Vizepräsident JD Vance führte am Wochenende Telefonate mit den Direktoren, Trump sprach selbst beim Board vor und rechnet sich den Erfolg öffentlich zu. Der Yale-Ökonom Jeffrey Sonnenfeld hält das für einen Fehler und sieht die Direktoren persönlich in der Haftung. Parallel laufen Aktionärsklagen, Ermittlungen von Justizministerium und Börsenaufsicht sowie eine Anhörung im Senat."
   },
   {
    "id": "38c10b166604",
@@ -1074,6 +1041,14 @@
     {
      "source": "heise KI",
      "url": "https://www.heise.de/news/Chinas-KI-Labore-unter-Druck-US-Massnahmen-bremsen-Modellentwicklung-11539653.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag"
+    },
+    {
+     "source": "The Decoder",
+     "url": "https://the-decoder.de/us-chipregeln-und-destillations-blockaden-zwingen-z-ai-und-moonshot-laut-insidern-zur-verschiebung-grosser-sprachmodelle-auf-2027/"
+    },
+    {
+     "source": "The Neuron",
+     "url": "https://www.theneuron.ai/news/china-ai-models-fewer-chips/"
     }
    ]
   },
@@ -1374,6 +1349,27 @@
    "quelle_titel": "Wie Indien die KI-Zukunft von SAP mit prägt",
    "url": "https://news.sap.com/germany/2026/11/indien-praegt-sap-ki-zukunft/",
    "kontext": "Begonnen hat es 1998 mit einem Büro in Bengaluru, das zunächst nur die Zentrale in Walldorf unterstützte. Heute ist es der zweitgrößte SAP-Standort weltweit und beherbergt seit 2025 einen eigenen Innovation Park, das größte Forschungszentrum des Konzerns außerhalb Deutschlands. Die dortigen Labs entwickelten den Assistenten Joule, der inzwischen eigene Agenten und Hintergrundfunktionen steuert. Typisch ist das Muster, lokale Anforderungen zu lösen und daraus global genutzte Produkte zu machen."
+  },
+  {
+   "id": "06a5eb9952b8",
+   "date": "2026-11-25",
+   "published": "2026-11-25T09:00+01:00",
+   "headline": "EU-Kommission bündelt Informationen zur KI-Verordnung",
+   "summary": "Die Kommission stellt auf ihrem Portal zur digitalen Zukunft Europas die zentralen Informationen zur KI-Verordnung bereit. Die Seite dient als offizieller Anlaufpunkt für Regelwerk und Umsetzung des AI Act.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "ai act",
+    "eu-kommission",
+    "regulierung"
+   ],
+   "source": "Shaping Europe’s digital future",
+   "source_id": "gn-politik",
+   "added": "2026-11-27T12:18:24+01:00",
+   "quelle_titel": "KI-Verordnung | Gestaltung der digitalen Zukunft Europas",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BOWZWc18waG82Tmh3eTNtWlNldTdvZUNCX01BNU0yODJIbzUzM1ExcjNrenZRVDVIbEd6R2VPZEVzQWhERDN2OUpjVUZuRnNHbU1LbTRxOWplQWMtZ3ozdUZTOEFPVWtSRTVHSmFuREhKUUVUQWMtTkRYTE5UUQ?oc=5"
   },
   {
    "id": "57e6a7057149",

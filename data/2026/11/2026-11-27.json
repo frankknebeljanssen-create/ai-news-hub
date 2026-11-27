@@ -1,41 +1,64 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-27T10:15:16+01:00",
+ "generated_at": "2026-11-27T12:23:57+01:00",
  "overview": [
   {
-   "id": "ffe8648163c2",
-   "text": "SAP will laut Bericht mindestens 10.000 Stellen streichen und begründet den Schnitt mit der Neuausrichtung des Konzerns auf künstliche Intelligenz."
-  },
-  {
    "id": "61ce0f037223",
-   "text": "Die Bundesregierung will Anbieter von KI-Systemen zur Vergütung genutzter kreativer Werke verpflichten und Medieninhalte besser schützen."
+   "text": "Die Bundesregierung fordert, dass KI-Anbieter für das Training mit kreativen Werken zahlen, und will Medieninhalte besser schützen."
   },
   {
-   "id": "2d577e1440fb",
-   "text": "Nvidia stoppt wegen der US-Exportregeln Lieferungen von KI-Servern in mehrere südostasiatische Länder und sorgt dort für Planungsunsicherheit."
-  },
-  {
-   "id": "3b034af2c143",
-   "text": "Die Nato und europäische Behörden setzen Modelle von OpenAI ein, um Sicherheitslücken in Software schneller aufzuspüren und zu schließen."
+   "id": "9641aabdb949",
+   "text": "In der Schweiz sind erstmals Cyberangriffe durch KI-Agenten belegt, vier von fünf waren erfolgreich, zwei davon trafen kritische Infrastruktur."
   },
   {
    "id": "ec1eb67a16d3",
-   "text": "Angreifer haben Github-Zugänge von SAP-Beschäftigten übernommen und dadurch offenbar Zugriff auf Quellcode des Konzerns erhalten."
+   "text": "Angreifer haben Github-Zugänge von SAP-Beschäftigten übernommen und darüber Zugriff auf Quellcode des Konzerns erlangt."
+  },
+  {
+   "id": "3b034af2c143",
+   "text": "Nato und europäische Behörden lassen Modelle von OpenAI nach Softwarelücken suchen und holen kommerzielle KI damit in die staatliche Cyberabwehr."
+  },
+  {
+   "id": "50889a267082",
+   "text": "SAP streicht im Zuge des KI-Umbaus rund 10.000 Stellen, während Nvidia Lieferungen von KI-Servern nach Südostasien stoppt."
+  },
+  {
+   "id": "dea870a3f2ae",
+   "text": "KI-Agenten übernehmen beim Onlineshopping zunehmend Suche, Vergleich und Kauf, doch Verbraucherschützer warnen vor fehlender Transparenz."
   },
   {
    "id": "dfa78cf4aa38",
-   "text": "IT-Verantwortliche berichten von massivem Lernbedarf durch KI und neuen Rollen, weil nicht mehr die Entwicklungskapazität der Engpass ist."
+   "text": "IT-Verantwortliche berichten von hohem Lernbedarf und neuen Rollen in ihren Teams, weil Entwicklungskapazität kaum noch der Engpass ist."
   },
   {
    "id": "c7db06242cca",
-   "text": "Laut einer Fivetran-Studie verbraucht fast die Hälfte der Unternehmen mindestens ein Viertel ihres KI-Budgets für vermeidbare Datenaufbereitung."
-  },
-  {
-   "id": "030a7d171c26",
-   "text": "OpenAI hat einen Abrechnungsfehler behoben, weshalb Anfragen an GPT-6.2 das Nutzungskontingent der Abonnenten nun deutlich schneller aufbrauchen."
+   "text": "Laut einer Fivetran-Studie geben fast die Hälfte der Unternehmen mindestens ein Viertel ihres KI-Budgets für vermeidbare Datenaufbereitung aus."
   }
  ],
  "items": [
+  {
+   "id": "e540021e56b1",
+   "date": "2026-11-27",
+   "published": "2026-11-27T06:56+01:00",
+   "headline": "Berlin fordert EU-weite Vergütung für KI-generierte Inhalte",
+   "summary": "Die Bundesregierung schlägt in ihrer Stellungnahme zur EU-Urheberrechtskonsultation ein neues europäisches Vergütungsmodell vor. Anbieter generativer KI sollen künftig nicht nur für Trainingsdaten, sondern auch für die Erzeugung von Texten, Musik oder Videos zahlen, die mit menschlichen Werken konkurrieren. Deutschland und 14 weitere EU-Staaten drängen die Kommission zu zügigen Schritten.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 5,
+   "tags": [
+    "urheberrecht",
+    "eu",
+    "vergütung",
+    "generative ki",
+    "bundesregierung"
+   ],
+   "source": "CIO",
+   "source_id": "cio",
+   "added": "2026-11-27T12:18:24+01:00",
+   "quelle_titel": "Bundesregierung will KI-Anbieter zur Kasse bitten",
+   "url": "https://www.cio.de/article/4253810/bundesregierung-will-ki-anbieter-zur-kasse-bitten.html",
+   "dup_of": "61ce0f037223"
+  },
   {
    "id": "61ce0f037223",
    "date": "2026-11-27",
@@ -56,7 +79,25 @@
    "added": "2026-11-27T10:07:03+01:00",
    "quelle_titel": "Bundesregierung will KI-Anbieter zur Kasse bitten",
    "url": "https://www.heise.de/news/Bundesregierung-will-KI-Anbieter-zur-Kasse-bitten-11540057.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Der Vorstoß steckt in einer Stellungnahme der Bundesregierung zur EU-Konsultation zum Urheberrecht. Angestoßen hat die Debatte Kulturstaatsminister Wolfram Weimer, unterstützt von Staaten wie Frankreich, Polen und Spanien. Neu ist der Ansatzpunkt: Gezahlt werden soll für die Erzeugung von Inhalten, verteilt über Verwertungsgesellschaften an Rechteinhaber. Wer der Nutzung seiner Werke zum Training widerspricht, müsste weiterhin einzeln lizenzieren."
+   "kontext": "Der Vorstoß steckt in einer Stellungnahme der Bundesregierung zur EU-Konsultation zum Urheberrecht. Angestoßen hat die Debatte Kulturstaatsminister Wolfram Weimer, unterstützt von Staaten wie Frankreich, Polen und Spanien. Neu ist der Ansatzpunkt: Gezahlt werden soll für die Erzeugung von Inhalten, verteilt über Verwertungsgesellschaften an Rechteinhaber. Wer der Nutzung seiner Werke zum Training widerspricht, müsste weiterhin einzeln lizenzieren.",
+   "also": [
+    {
+     "source": "CIO",
+     "url": "https://www.cio.de/article/4253810/bundesregierung-will-ki-anbieter-zur-kasse-bitten.html"
+    },
+    {
+     "source": "Golem",
+     "url": "https://www.golem.de/news/urheberrechte-schuetzen-bundesregierung-fordert-verguetung-fuer-ki-generierte-inhalte-2611-215718.html"
+    },
+    {
+     "source": "t3n",
+     "url": "https://t3n.de/news/ki-geld-bundesregierung-1775669"
+    },
+    {
+     "source": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/ki-anbieter-sollen-fuer-inhalte-zahlen-bundesregierung-draengt-auf-neue-eu-verguetung-100.html"
+    }
+   ]
   },
   {
    "id": "ffe8648163c2",
@@ -78,7 +119,78 @@
    "source_id": "gn-unternehmen",
    "added": "2026-11-27T10:07:03+01:00",
    "quelle_titel": "SAP plant Stellenabbau von mindestens 10.000 Stellen wegen KI-Fokus",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZHhuTzZQOGViLUd5YmltdF9LT0hIMlJKQ0FVLWJhLXNJSE9abFJ1Tkx1cWZNblJwdUxLYWxTcUZKMnlSMXV6UG9HejdwbDN5NUcyOXhTXzRWQ3piWTdtYVZvR285TWc1UUJKMFlhMUVyNHVwWl9JdnFTSmRWbDh3dDdjVDZiUDJHbTYzbXYxUUlEekJx?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZHhuTzZQOGViLUd5YmltdF9LT0hIMlJKQ0FVLWJhLXNJSE9abFJ1Tkx1cWZNblJwdUxLYWxTcUZKMnlSMXV6UG9HejdwbDN5NUcyOXhTXzRWQ3piWTdtYVZvR285TWc1UUJKMFlhMUVyNHVwWl9JdnFTSmRWbDh3dDdjVDZiUDJHbTYzbXYxUUlEekJx?oc=5",
+   "dup_of": "b0bb1a1e50aa"
+  },
+  {
+   "id": "b24b0523de95",
+   "date": "2026-11-27",
+   "published": "2026-11-27T10:40+01:00",
+   "headline": "BSI warnt vor stark steigender Zahl KI-gestützter Cyberangriffe",
+   "summary": "Das Bundesamt für Sicherheit in der Informationstechnik sieht die Bedrohungslage im Cyberraum durch KI deutlich verschärft. Frei verfügbare KI-Frameworks senken Kosten und Aufwand für Angriffe erheblich und erhöhen deren Tempo. Die Behörde rechnet mit einer massiven Zunahme von Attacken.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 5,
+   "tags": [
+    "AITI",
+    "bsi",
+    "cybersecurity",
+    "bedrohungslage",
+    "ki-missbrauch"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-27T12:17:39+01:00",
+   "quelle_titel": "BSI schlägt Alarm: Durch KI droht eine \"Lawine neuer Cyberangriffe\"",
+   "url": "https://www.golem.de/news/agentische-ki-bsi-chefin-warnt-vor-cyberangriffen-zum-schnaeppchenpreis-2611-215726.html",
+   "dup_of": "48ab13e9f491"
+  },
+  {
+   "id": "cf5c146c4e33",
+   "date": "2026-11-27",
+   "published": "2026-11-27T11:18+01:00",
+   "headline": "SAP prüft Abbau von bis zu 10.000 Stellen für KI-Fokus",
+   "summary": "Der Softwarekonzern SAP plant Berichten zufolge einen erheblichen Stellenabbau, um Mittel und Kapazitäten stärker auf Künstliche Intelligenz zu lenken. Im Raum stehen bis zu 10.000 betroffene Arbeitsplätze. Der Betriebsrat soll bisher nicht offiziell eingebunden worden sein.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 5,
+   "tags": [
+    "AITI",
+    "sap",
+    "stellenabbau",
+    "ki-strategie",
+    "arbeitsmarkt"
+   ],
+   "source": "Tagesspiegel Wirtschaft",
+   "source_id": "tagesspiegel-wirtschaft",
+   "added": "2026-11-27T12:17:39+01:00",
+   "paywall": true,
+   "quelle_titel": "Bis zu 10.000 Jobs könnten wegfallen: SAP steht offenbar vor größerem Stellenabbau",
+   "url": "https://www.tagesspiegel.de/wirtschaft/bis-zu-10000-jobs-konnten-wegfallen-sap-steht-offenbar-vor-grosserem-stellenabbau-16333651.html",
+   "dup_of": "b0bb1a1e50aa"
+  },
+  {
+   "id": "80120d0ccc60",
+   "date": "2026-11-27",
+   "published": "2026-11-27T11:39+01:00",
+   "headline": "SAP erwägt laut Berichten KI-Umbau mit mindestens 10.000 betroffenen Stellen",
+   "summary": "Nach Medienberichten prüft SAP eine weitreichende Umstrukturierung im Zuge des KI-Umbaus, von der mindestens 10.000 Arbeitsplätze betroffen sein sollen. Für Beschäftigte in Softwareentwicklung und Beratung stellt sich damit die Frage nach Umschulung und neuen Rollenprofilen. Der Fall gilt als Signal dafür, wie schnell KI die Personalplanung großer europäischer Technologiekonzerne verändert.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 5,
+   "tags": [
+    "AITI",
+    "sap",
+    "arbeitsplätze",
+    "umstrukturierung",
+    "qualifizierung"
+   ],
+   "source": "Euronews.com",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-27T12:16:54+01:00",
+   "quelle_titel": "SAP prüft laut Medien KI-Umbau mit mindestens 10.000 Stellen",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWWFZNklYTVRDWVQ5RFp1bkZfZ0lNdE1zMUhEWHhMMm5Sa29ILUdJVzk0bE1MYVIzeTdqTjU3NUY0MEIwNTBGMkhDNmw2YXZJWjVPN1d3U1F2Vm53bDNVSUczS1p4OVZxS0VzMGpFdlVVaUJIalloNHp0TzNoTEM1dDU4QjduREFUUDJ1X1h4YVBEcDhGRU1Kd0pB?oc=5",
+   "dup_of": "b0bb1a1e50aa"
   },
   {
    "id": "39d05bfb2701",
@@ -122,7 +234,8 @@
    "added": "2026-11-27T10:06:18+01:00",
    "quelle_titel": "Can China Keep Building Competitive AI Models With Fewer Chips?",
    "url": "https://www.theneuron.ai/news/china-ai-models-fewer-chips/",
-   "kontext": "Der Hintergrund ist ein bekanntes Muster: Mit DeepSeek wurde deutlich, dass ein konkurrenzfähiges Modell für einen Bruchteil der erwarteten Kosten entstehen kann. Nun engt der Zugang zu Rechenleistung die Branche weiter ein, und auch das Abschauen bei fremden Modellen wird erschwert. Der Druck verschiebt den Wettbewerb damit von der schieren Chipmenge auf Trainingseffizienz und eigene Hardware."
+   "kontext": "Der Hintergrund ist ein bekanntes Muster: Mit DeepSeek wurde deutlich, dass ein konkurrenzfähiges Modell für einen Bruchteil der erwarteten Kosten entstehen kann. Nun engt der Zugang zu Rechenleistung die Branche weiter ein, und auch das Abschauen bei fremden Modellen wird erschwert. Der Druck verschiebt den Wettbewerb damit von der schieren Chipmenge auf Trainingseffizienz und eigene Hardware.",
+   "dup_of": "a2b8812a5900"
   },
   {
    "id": "dfa78cf4aa38",
@@ -167,7 +280,31 @@
    "added": "2026-11-27T10:07:55+01:00",
    "quelle_titel": "Nvidia stoppt offenbar Lieferungen von KI-Servern an einige Länder Südostasiens",
    "url": "https://www.heise.de/news/Nvidia-stoppt-offenbar-Lieferungen-von-KI-Servern-an-einige-Laender-Suedostasiens-11539931.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Laut einem Bericht der Financial Times betrifft der Lieferstopp Malaysia, Singapur, Thailand und Indonesien, beliebte Ziele chinesischer KI-Entwickler. Dahinter steckt eine Lücke in den bisherigen Regeln: Gesperrte Chips lassen sich bei Cloud-Anbietern dort einfach mieten, statt sie zu kaufen. Washington hat die Exportvorgaben deshalb verschärft, die Kurse von Neocloud-Anbietern gaben nach. Nvidia demonstriert nun Regeltreue, verzichtet damit aber auf ein lukratives Geschäft, das bislang über die Singapur-Tochter lief."
+   "kontext": "Laut einem Bericht der Financial Times betrifft der Lieferstopp Malaysia, Singapur, Thailand und Indonesien, beliebte Ziele chinesischer KI-Entwickler. Dahinter steckt eine Lücke in den bisherigen Regeln: Gesperrte Chips lassen sich bei Cloud-Anbietern dort einfach mieten, statt sie zu kaufen. Washington hat die Exportvorgaben deshalb verschärft, die Kurse von Neocloud-Anbietern gaben nach. Nvidia demonstriert nun Regeltreue, verzichtet damit aber auf ein lukratives Geschäft, das bislang über die Singapur-Tochter lief.",
+   "dup_of": "9d35da423444"
+  },
+  {
+   "id": "3d6446ab385e",
+   "date": "2026-11-27",
+   "published": "2026-11-27T05:34+01:00",
+   "headline": "Nvidia bremst KI-Server-Export nach Südostasien aus",
+   "summary": "Nvidia soll Partner wie Dell und Supermicro angewiesen haben, KI-Server nicht mehr in bestimmte Länder Südostasiens zu liefern. Hintergrund sind die US-Exportbeschränkungen gegen die chinesische KI-Branche und die Sorge, dass Hardware über Drittstaaten weitergeleitet wird. Für Rechenzentrumsprojekte in der Region bedeutet das kurzfristige Engpässe.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "exportkontrolle",
+    "ki-server",
+    "südostasien",
+    "lieferkette"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-11-27T12:18:24+01:00",
+   "quelle_titel": "Nvidia stoppt offenbar Lieferungen von KI-Servern an einige Länder Südostasiens",
+   "url": "https://www.heise.de/news/Nvidia-stoppt-offenbar-Lieferungen-von-KI-Servern-an-einige-Laender-Suedostasiens-11539931.html",
+   "dup_of": "9d35da423444"
   },
   {
    "id": "4c1daa32169b",
@@ -189,7 +326,8 @@
    "added": "2026-11-27T10:07:55+01:00",
    "quelle_titel": "KI verdient Geld mit fremden Werken, die Bundesregierung will das ändern",
    "url": "https://t3n.de/news/ki-geld-bundesregierung-1775669",
-   "kontext": "Der Vorstoß stammt aus einer Stellungnahme zur EU-Konsultation zum Urheberrecht; Deutschland und 14 weitere Mitgliedstaaten drängen die Kommission zu einem Gesetzentwurf. Neu ist der Ansatzpunkt, denn vergütet werden soll nicht das Training, sondern die Erzeugung von Inhalten, abgewickelt über Verwertungsgesellschaften. Profitieren sollen nur Rechteinhaber, die ihre Werke kostenlos fürs Training freigeben, wer widerspricht, verhandelt weiter selbst. Berlin warnt zugleich, dass strengere Regeln KI-Basismodelle verteuern könnten."
+   "kontext": "Der Vorstoß stammt aus einer Stellungnahme zur EU-Konsultation zum Urheberrecht; Deutschland und 14 weitere Mitgliedstaaten drängen die Kommission zu einem Gesetzentwurf. Neu ist der Ansatzpunkt, denn vergütet werden soll nicht das Training, sondern die Erzeugung von Inhalten, abgewickelt über Verwertungsgesellschaften. Profitieren sollen nur Rechteinhaber, die ihre Werke kostenlos fürs Training freigeben, wer widerspricht, verhandelt weiter selbst. Berlin warnt zugleich, dass strengere Regeln KI-Basismodelle verteuern könnten.",
+   "dup_of": "61ce0f037223"
   },
   {
    "id": "3b034af2c143",
@@ -231,7 +369,8 @@
    "source_id": "golem",
    "added": "2026-11-27T10:07:55+01:00",
    "quelle_titel": "Urheberrechte schützen: Bundesregierung fordert Vergütung für KI-generierte Inhalte",
-   "url": "https://www.golem.de/news/urheberrechte-schuetzen-bundesregierung-fordert-verguetung-fuer-ki-generierte-inhalte-2611-215718.html"
+   "url": "https://www.golem.de/news/urheberrechte-schuetzen-bundesregierung-fordert-verguetung-fuer-ki-generierte-inhalte-2611-215718.html",
+   "dup_of": "61ce0f037223"
   },
   {
    "id": "fcb60a9bbfe5",
@@ -277,7 +416,8 @@
    "added": "2026-11-27T10:07:03+01:00",
    "paywall": true,
    "quelle_titel": "SAP-Stellenabbau wegen KI: Was Insider über Listen und Zeitplan sagen",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYnAzUnVKdmFhUE5FbVNNN1pLN3VrRGVaaHZHSWxhbkg0X0JwYXI2MmdVdExGUnZyZHBHbGNBQ3ZOM05jS3FZUm5ialJ3a2dkN1U5OUhuRjc4UXZRTHRqRUptR2I3UGZYVXpINURfSFlwZ21iY1NucFpMY1hma0xyX0VsUnpiUVA3a25xdEpUalljbG83R0U4MDI2OUpzOVVZZS1tbUR3Wlg0aUg1Z1BHUkRLV1M5UWowTm93?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYnAzUnVKdmFhUE5FbVNNN1pLN3VrRGVaaHZHSWxhbkg0X0JwYXI2MmdVdExGUnZyZHBHbGNBQ3ZOM05jS3FZUm5ialJ3a2dkN1U5OUhuRjc4UXZRTHRqRUptR2I3UGZYVXpINURfSFlwZ21iY1NucFpMY1hma0xyX0VsUnpiUVA3a25xdEpUalljbG83R0U4MDI2OUpzOVVZZS1tbUR3Wlg0aUg1Z1BHUkRLV1M5UWowTm93?oc=5",
+   "dup_of": "b0bb1a1e50aa"
   },
   {
    "id": "ec1eb67a16d3",
@@ -298,7 +438,18 @@
    "source_id": "golem",
    "added": "2026-11-27T10:07:03+01:00",
    "quelle_titel": "Zugriff über Github: Cyberangriff auf SAP gefährdet Softwareprojekte",
-   "url": "https://www.golem.de/news/zugriff-ueber-github-cyberangriff-auf-sap-gefaehrdet-softwareprojekte-2611-215722.html"
+   "url": "https://www.golem.de/news/zugriff-ueber-github-cyberangriff-auf-sap-gefaehrdet-softwareprojekte-2611-215722.html",
+   "also": [
+    {
+     "source": "Der Standard",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcE5ORW9TNDFucXVJNnhyYzIwUDg2MFlEZlJrbGlQV25ybURQYzY4VU13Uk5udEszTXpqZnV5VmhvaDV5akk1X3I5MmV5RUpjd1BPQVZzWXJVNFQtY2ZueXE0Y3BmX0NLMC1VNlJrNnBKa012S1J6SFVwY1o3MkV4UnpNZkVvYXpqbFF4eDI2QmdpR0ZYc1k1bVZydkRORWM?oc=5"
+    },
+    {
+     "source": "Spiegel Netzwelt",
+     "url": "https://www.spiegel.de/netzwelt/sap-wird-opfer-von-hackerangriff-a-6648b5ce-5d74-48dc-86ea-9469705bb91d#ref=rss",
+     "paywall": true
+    }
+   ]
   },
   {
    "id": "80462e55c5dd",
@@ -344,7 +495,8 @@
    "added": "2026-11-27T10:06:18+01:00",
    "quelle_titel": "SAP erwägt Abbau von mindestens 10.000 Stellen",
    "url": "https://www.it-daily.net/shortnews/sap-abbau-10-000-stellen",
-   "kontext": "Bloomberg beruft sich auf Insider, SAP selbst äußert sich nicht dazu. Der Konzern beschäftigt weltweit mehr als 110.000 Menschen; alle Abteilungen sollten Sparmöglichkeiten benennen, im Blick sind vor allem Produkt, Entwicklung und Vertrieb. Hintergrund ist der Kurs von Vorstandschef Christian Klein, SAP konsequent auf KI auszurichten, nachdem frühere KI-Produkte bei Kunden holperten. Beim Umbau von 2024 blieb die Belegschaft am Ende stabil, weil parallel neu eingestellt wurde."
+   "kontext": "Bloomberg beruft sich auf Insider, SAP selbst äußert sich nicht dazu. Der Konzern beschäftigt weltweit mehr als 110.000 Menschen; alle Abteilungen sollten Sparmöglichkeiten benennen, im Blick sind vor allem Produkt, Entwicklung und Vertrieb. Hintergrund ist der Kurs von Vorstandschef Christian Klein, SAP konsequent auf KI auszurichten, nachdem frühere KI-Produkte bei Kunden holperten. Beim Umbau von 2024 blieb die Belegschaft am Ende stabil, weil parallel neu eingestellt wurde.",
+   "dup_of": "b0bb1a1e50aa"
   },
   {
    "id": "c7db06242cca",
@@ -390,7 +542,144 @@
    "added": "2026-11-27T10:06:18+01:00",
    "paywall": true,
    "quelle_titel": "Stellenabbau bei SAP: „Es kursieren bereits Listen“",
-   "url": "https://www.wiwo.de/unternehmen/it/sap-stellenabbau-wegen-ki-was-insider-ueber-listen-und-zeitplan-sagen/100273200.html"
+   "url": "https://www.wiwo.de/unternehmen/it/sap-stellenabbau-wegen-ki-was-insider-ueber-listen-und-zeitplan-sagen/100273200.html",
+   "dup_of": "b0bb1a1e50aa"
+  },
+  {
+   "id": "9641aabdb949",
+   "date": "2026-11-27",
+   "published": "2026-11-27T10:08+01:00",
+   "headline": "Schweiz meldet erste belegte Angriffe durch KI-Agenten",
+   "summary": "In der Schweiz sind erstmals Cyberattacken bestätigt, die von KI-Agenten ausgeführt wurden. Vier von fünf dieser Angriffe waren erfolgreich, darunter zwei gegen Betreiber kritischer Infrastruktur. Auch aus Italien und Großbritannien kommen Warnungen vor dieser Angriffsform.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "ki-agenten",
+    "cyberangriffe",
+    "kritische infrastruktur",
+    "schweiz"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-27T12:17:39+01:00",
+   "kurios": "Vier von fünf autonomen KI-Angriffen gelangen, zwei trafen kritische Infrastruktur.",
+   "quelle_titel": "Schweiz: Erste bestätigte Cyberangriffe mit KI-Agenten",
+   "url": "https://www.it-daily.net/shortnews/schweiz-cyberangriffe-mit-ki-agenten",
+   "kontext": "Hinter den Fällen stehen agentische Angriffsframeworks, also KI-Systeme, die eigenständig nach bekannten, ungepatchten Lücken suchen, viele Ziele parallel angreifen und bei Gegenwehr die Methode wechseln. Das Schweizer Bundesamt für Cybersicherheit, dessen Direktor Florian Schütz die Vorfälle gegenüber SRF schilderte, sieht darin einen Wandel der Bedrohungslage; die Urheber sind unbekannt. Betroffen waren auch kleinere Firmen, die freiwillig meldeten. Neu sind laut Stellen in Italien und Großbritannien vor allem Tempo und geringe Kosten."
+  },
+  {
+   "id": "dea870a3f2ae",
+   "date": "2026-11-27",
+   "published": "2026-11-27T10:32+01:00",
+   "headline": "KI-Agenten erobern das Onlineshopping, Verbraucherschützer mahnen",
+   "summary": "Immer mehr digitale Assistenten übernehmen Suche, Vergleich und Kauf für Kundschaft, und Fachleute erwarten weiteres Wachstum in diesem Bereich. Verbraucherschützer verweisen jedoch auf Risiken etwa bei Transparenz und Entscheidungen der Agenten. In der Politik wächst die Sorge, dass der stationäre Handel in Innenstädten weiter unter Druck gerät.",
+   "thema": "Modelle und Produkte",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "ki-agenten",
+    "e-commerce",
+    "verbraucherschutz",
+    "handel"
+   ],
+   "source": "tagesschau",
+   "source_id": "tagesschau",
+   "added": "2026-11-27T12:17:39+01:00",
+   "quelle_titel": "Shopping: KI-Agenten werden beliebter",
+   "url": "https://www.tagesschau.de/wirtschaft/verbraucher/ki-agenten-einkaufen-handel-100.html",
+   "kontext": "Der Trend trifft auf das Einkaufshoch des Jahres: Rund um Black Friday und die Geschenkesuche vor Weihnachten greifen Konsumentinnen und Konsumenten in Deutschland häufiger zu digitalen Einkaufshelfern, deren Angebot merklich zunimmt. Fachleute trauen dieser Form der Beratung weiteres Wachstum zu. Verbraucherschützer sehen dabei Gefahren für Nutzer, während in der Politik die Furcht umgeht, dass noch mehr Geschäfte aus den Innenstädten verschwinden."
+  },
+  {
+   "id": "c9e3b97b7856",
+   "date": "2026-11-27",
+   "published": "2026-11-27T11:08+01:00",
+   "headline": "Mehr als 10.000 Jobs bei SAP auf der Kippe",
+   "summary": "SAP zieht laut Bericht einen Abbau von über 10.000 Arbeitsplätzen in Erwägung. Weitere Details zum Zeitplan sind bislang nicht bekannt.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "AITI",
+    "sap",
+    "stellenabbau",
+    "umbau"
+   ],
+   "source": "Spiegel",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-27T12:17:39+01:00",
+   "paywall": true,
+   "quelle_titel": "SAP erwägt den Abbau von mehr als 10.000 Stellen",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUWc0MjVneGhMUXN6UjR2dHhxOVRzZlZWQi1mbXR0OGVnWmd2VDI2ZTIzQ2VmbTQ4dkJUU1RMdWJGWW90dnJwV0ZlNVVsQlVmSHN5UmVNVmRfdkhYU19WbXplQlBCWkxBU0lvLThGdlFJcXpmdG9Wc19XZ2pCNDBlQXQ1OVdOLVhvYnNseGlObkp0RnJtaEQ3SWtpQkRXc1ZsZjk1SVZKYmowRkVEamRWQVJQSkxTWGpITnFRMWEzWQ?oc=5",
+   "dup_of": "b0bb1a1e50aa"
+  },
+  {
+   "id": "b7e05d6be88a",
+   "date": "2026-11-27",
+   "published": "2026-11-27T11:20+01:00",
+   "headline": "Dubai bündelt alle Behördendienste in einem KI-Assistenten namens Mira",
+   "summary": "Die Regierung der Vereinigten Arabischen Emirate hat den KI-Assistenten Mira vorgestellt, der staatliche Leistungen von der Passverlängerung bis zum Arzttermin per Chat auf dem Smartphone zugänglich macht. Die Einführung soll ab März 2027 stufenweise starten, bis Ende 2027 sollen alle Regierungsdienste angebunden sein. Auf der GITEX Global diente das Projekt als Vorbild dafür, was in der Verwaltungsdigitalisierung mit KI möglich ist.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "verwaltung",
+    "vae",
+    "ki-assistent",
+    "digitalisierung",
+    "gitex"
+   ],
+   "source": "Computerwoche",
+   "source_id": "computerwoche",
+   "added": "2026-11-27T12:16:54+01:00",
+   "quelle_titel": "KI-Staat Dubai: Was deutsche Behörden von den Emiraten lernen können",
+   "url": "https://www.computerwoche.de/article/4253887/ki-staat-dubai-was-deutsche-behorden-von-den-emiraten-lernen-konnen.html"
+  },
+  {
+   "id": "5130bbe2eadc",
+   "date": "2026-11-27",
+   "published": "2026-11-27T11:25+01:00",
+   "headline": "SAP kontert die KI-Konkurrenz mit Zukäufen und hohen Investitionen",
+   "summary": "SAP galt am Markt lange als Verlierer des KI-Booms, stemmt sich nun aber mit Übernahmen und großen Investitionen gegen neue KI-Wettbewerber. Beobachter halten die Strategie für tragfähig, verweisen aber auf den Preis in Form hoher Ausgaben und Margendruck. Die Bewertung des Konzerns verschiebt sich dadurch spürbar.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "sap",
+    "strategie",
+    "investitionen",
+    "wettbewerb"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-27T12:16:54+01:00",
+   "paywall": true,
+   "quelle_titel": "Softwarekonzern: Schluss mit „KI‑Opfer“! Warum der Markt SAP jetzt anders bewertet",
+   "url": "https://www.wiwo.de/unternehmen/it/sap-aktie-und-ki-warum-analysten-die-walldorfer-neu-bewerten/100272698.html"
+  },
+  {
+   "id": "72d7a37c4e0e",
+   "date": "2026-11-27",
+   "published": "2026-11-27T11:53+01:00",
+   "headline": "Berlin will KI-Firmen in der EU zur Vergütung von Inhalten verpflichten",
+   "summary": "Die Bundesregierung setzt sich auf EU-Ebene für eine neue Zahlungspflicht für Anbieter von KI-Systemen ein. Hintergrund ist die Nutzung journalistischer und kreativer Inhalte zum Training von Modellen, für die Urheber und Medienhäuser bislang keine geregelte Vergütung erhalten. Eine solche Regelung würde die Kostenstruktur von KI-Anbietern in Europa deutlich verändern.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "urheberrecht",
+    "eu",
+    "bundesregierung",
+    "vergütung",
+    "medien"
+   ],
+   "source": "Deutschlandfunk",
+   "source_id": "deutschlandfunk",
+   "added": "2026-11-27T12:16:54+01:00",
+   "quelle_titel": "Medien - KI-Anbieter sollen für Inhalte zahlen - Bundesregierung drängt auf neue EU-Vergütung",
+   "url": "https://www.deutschlandfunk.de/ki-anbieter-sollen-fuer-inhalte-zahlen-bundesregierung-draengt-auf-neue-eu-verguetung-100.html",
+   "dup_of": "61ce0f037223"
   },
   {
    "id": "00bb51c293be",
@@ -480,7 +769,8 @@
    "praxis": true,
    "quelle_titel": "Why Your GPT-6.2 Usage Limits Are Running Out Faster",
    "url": "https://www.theneuron.ai/news/gpt-6-2-usage-limits-billing-fix/",
-   "kontext": "Der Fehler wirkte zugunsten der Abonnenten, denn Anfragen zehrten weniger am Kontingent als eigentlich vorgesehen. Entsprechend fühlt sich die Korrektur für viele wie eine Kürzung an, obwohl nun lediglich die geplanten Werte greifen. Wer überraschend früh an seine Grenze stößt, kann einen einmaligen kostenlosen Reset erhalten. Da im Dezember weitere Anpassungen folgen, empfiehlt der Beitrag, den eigenen Verbrauch jetzt im Blick zu behalten."
+   "kontext": "Der Fehler wirkte zugunsten der Abonnenten, denn Anfragen zehrten weniger am Kontingent als eigentlich vorgesehen. Entsprechend fühlt sich die Korrektur für viele wie eine Kürzung an, obwohl nun lediglich die geplanten Werte greifen. Wer überraschend früh an seine Grenze stößt, kann einen einmaligen kostenlosen Reset erhalten. Da im Dezember weitere Anpassungen folgen, empfiehlt der Beitrag, den eigenen Verbrauch jetzt im Blick zu behalten.",
+   "dup_of": "d59a9a1ce8a4"
   },
   {
    "id": "835cf7c1635c",
@@ -503,7 +793,36 @@
    "added": "2026-11-27T10:07:55+01:00",
    "quelle_titel": "Kommentar: Auch ein Weltmarktführer kann zum nächsten Kodak werden",
    "url": "https://www.heise.de/meinung/Kommentar-Wer-die-KI-Revolution-verschlaeft-wacht-als-Kodak-auf-11536532.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
-   "kontext": "Geschrieben hat den Beitrag Alisa Reznik, Beraterin und Gründerin eines Berliner Unternehmens, die Führungsteams in Europa und den USA bei KI-Projekten begleitet. Sie stellt die KI-Allgegenwart auf dem Web Summit in Lissabon dem Zögern deutscher Manager gegenüber. Als Gegenbeispiel nennt sie die Deutsche Telekom, die Modelle einsetzt, um Lücken im eigenen Code vor anderen zu finden. Ihr Kernargument: Ein Chatbot ist noch keine Strategie, auch nicht für stille Weltmarktführer im Maschinenbau."
+   "kontext": "Geschrieben hat den Beitrag Alisa Reznik, Beraterin und Gründerin eines Berliner Unternehmens, die Führungsteams in Europa und den USA bei KI-Projekten begleitet. Sie stellt die KI-Allgegenwart auf dem Web Summit in Lissabon dem Zögern deutscher Manager gegenüber. Als Gegenbeispiel nennt sie die Deutsche Telekom, die Modelle einsetzt, um Lücken im eigenen Code vor anderen zu finden. Ihr Kernargument: Ein Chatbot ist noch keine Strategie, auch nicht für stille Weltmarktführer im Maschinenbau.",
+   "also": [
+    {
+     "source": "iX",
+     "url": "https://www.heise.de/meinung/Kommentar-Wer-die-KI-Revolution-verschlaeft-wacht-als-Kodak-auf-11536532.html"
+    }
+   ]
+  },
+  {
+   "id": "10eee130f349",
+   "date": "2026-11-27",
+   "published": "2026-11-27T07:31+01:00",
+   "headline": "Kommentar: Warum Marktführer durch KI ihre Position verlieren können",
+   "summary": "Ein Kommentar warnt davor, dass künstliche Intelligenz die Regeln in vielen Branchen schneller verändert, als Unternehmen darauf reagieren. Wer das Thema aussitzt, riskiert nach dieser Einschätzung nicht nur technologischen Rückstand, sondern den Verlust der eigenen Marktstellung. Als Mahnbeispiel dient der Absturz eines einstigen Weltmarktführers.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "transformation",
+    "strategie",
+    "kommentar",
+    "disruption"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-11-27T12:18:24+01:00",
+   "quelle_titel": "Kommentar: Auch ein Weltmarktführer kann zum nächsten Kodak werden",
+   "url": "https://www.heise.de/meinung/Kommentar-Wer-die-KI-Revolution-verschlaeft-wacht-als-Kodak-auf-11536532.html",
+   "dup_of": "835cf7c1635c"
   },
   {
    "id": "355eb2e5ee20",
@@ -546,7 +865,30 @@
    "source_id": "gn-unternehmen",
    "added": "2026-11-27T10:07:03+01:00",
    "quelle_titel": "\"Verdächtige Aktivitäten\" bei SAP identifiziert",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcE5ORW9TNDFucXVJNnhyYzIwUDg2MFlEZlJrbGlQV25ybURQYzY4VU13Uk5udEszTXpqZnV5VmhvaDV5akk1X3I5MmV5RUpjd1BPQVZzWXJVNFQtY2ZueXE0Y3BmX0NLMC1VNlJrNnBKa012S1J6SFVwY1o3MkV4UnpNZkVvYXpqbFF4eDI2QmdpR0ZYc1k1bVZydkRORWM?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcE5ORW9TNDFucXVJNnhyYzIwUDg2MFlEZlJrbGlQV25ybURQYzY4VU13Uk5udEszTXpqZnV5VmhvaDV5akk1X3I5MmV5RUpjd1BPQVZzWXJVNFQtY2ZueXE0Y3BmX0NLMC1VNlJrNnBKa012S1J6SFVwY1o3MkV4UnpNZkVvYXpqbFF4eDI2QmdpR0ZYc1k1bVZydkRORWM?oc=5",
+   "dup_of": "ec1eb67a16d3"
+  },
+  {
+   "id": "3df94ccd52a1",
+   "date": "2026-11-27",
+   "published": "2026-11-27T08:11+01:00",
+   "headline": "Dell und HPE wandeln sich durch KI-Server zu anderen Konzernen",
+   "summary": "Das Geschäft mit KI-Infrastruktur verändert die Geschäftsmodelle der traditionellen Hardwarehersteller grundlegend. Bei Dell kommt inzwischen der überwiegende Teil von Umsatz und Wachstum aus dem Servergeschäft. Beide Unternehmen beschreiben sich selbst als deutlich veränderte Firmen.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "dell",
+    "hpe",
+    "ki-server",
+    "rechenzentren"
+   ],
+   "source": "it-daily.net",
+   "source_id": "it-daily",
+   "added": "2026-11-27T12:17:39+01:00",
+   "quelle_titel": "Dell und HPE: KI-Geschäft krempelt Hardwareriesen um",
+   "url": "https://www.it-daily.net/shortnews/dell-hpe-ki-geschaeft",
+   "kontext": "Hinter dem Umbau steht die Nachfrage nach KI-Rechenzentren: Bei Dell liefert die Infrastruktursparte inzwischen den Großteil von Gewinn und Wachstum, während das Geschäft mit PCs kaum noch zulegt. HPE stützt sich zusätzlich auf die Übernahme von Juniper Networks und erwartet, dass neue Server auch Netzwerk- und Speichertechnik nach sich ziehen. Offen bleibt, ob die hohen Auftragsbestände wirklich zu Umsatz werden; Dell prüft deshalb bei jedem Auftrag Kapital, Exportvorgaben sowie Zugang zu Strom und Flächen."
   },
   {
    "id": "30a0994ca89c",
@@ -610,7 +952,8 @@
    "source_id": "gn-unternehmen",
    "added": "2026-11-27T10:07:03+01:00",
    "quelle_titel": "SAP-Aktie schwach: Konzern prüft offenbar größeren Personalabbau - Stärkere Ausrichtung auf KI",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMS1scGVYYU40NWdmMnh5ZmIxNWZlWUpCbFpYN09ZOS1RLTZ4T2FfLWMtSFJOVHlhX182bnhsSG44cjlXenNRTXU5ejlaaEo5QmozTjVlbXVfeU14OW96Ujc5NGVHUjFkV2VrMkpsYURnRlJOcHRLakpUTmdPN3Nlc202XzUwQnNuRnNwekRZeEoyS3hOdHRKbk5DTElYUlRlc2ZMaTFFM2VIT2g4Yy1iR1pzVG5ucFFSWnVQekxsR0U5TUhpcHY4VkxtWmhiNG5iSFNITkhKNWxmQm9TQWtfdkpn?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMS1scGVYYU40NWdmMnh5ZmIxNWZlWUpCbFpYN09ZOS1RLTZ4T2FfLWMtSFJOVHlhX182bnhsSG44cjlXenNRTXU5ejlaaEo5QmozTjVlbXVfeU14OW96Ujc5NGVHUjFkV2VrMkpsYURnRlJOcHRLakpUTmdPN3Nlc202XzUwQnNuRnNwekRZeEoyS3hOdHRKbk5DTElYUlRlc2ZMaTFFM2VIT2g4Yy1iR1pzVG5ucFFSWnVQekxsR0U5TUhpcHY4VkxtWmhiNG5iSFNITkhKNWxmQm9TQWtfdkpn?oc=5",
+   "dup_of": "b0bb1a1e50aa"
   },
   {
    "id": "b78f1d02eb6a",
@@ -654,7 +997,8 @@
    "source_id": "gn-unternehmen",
    "added": "2026-11-27T10:06:18+01:00",
    "quelle_titel": "Dank KI will SAP wohl weitere 10.000 Stellen einsparen und begeistert damit die Börse, doch gleichzeitig wird der Konzern wohl zum Ziel eines Hackerangriffs",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB4RUFYV213b2JnQkRnUjBWYW90bG44Nk9UN0ZCSG9qaEV6Qmo5a0JJcHk1dUhtNkl2aDE5c0xYa3NmUGR4NjR4VXJycWZXUXlwU3NTdlJseF83SFp2OUxSdDdhRElPZEFucnVOeC1wVFU?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB4RUFYV213b2JnQkRnUjBWYW90bG44Nk9UN0ZCSG9qaEV6Qmo5a0JJcHk1dUhtNkl2aDE5c0xYa3NmUGR4NjR4VXJycWZXUXlwU3NTdlJseF83SFp2OUxSdDdhRElPZEFucnVOeC1wVFU?oc=5",
+   "dup_of": "b0bb1a1e50aa"
   },
   {
    "id": "da51bc096489",
@@ -677,7 +1021,142 @@
    "kurios": "KI-Augenscreening künftig zwischen Shampoo und Zahnpasta im Drogeriemarkt",
    "quelle_titel": "Drogerie - Landgericht erlaubt Augenscreening in \"dm\"-Filialen, \"ersetzt aber nicht den Arztbesuch\"",
    "url": "https://www.deutschlandfunk.de/landgericht-erlaubt-augenscreening-in-dm-filialen-ersetzt-aber-nicht-den-arztbesuch-114.html",
-   "kontext": "Mit dem Urteil ist das Angebot nun gerichtlich abgesichert: Die Drogeriekette darf den KI-gestützten Augencheck in ihren Filialen durchführen. Das Landgericht Karlsruhe verbindet die Erlaubnis allerdings mit einer klaren Einschränkung, denn das Screening gilt ausdrücklich nicht als Ersatz für eine ärztliche Untersuchung. Damit wandert die Technik in alltägliche Verkaufsräume, ohne dort medizinische Diagnosen zu übernehmen."
+   "kontext": "Mit dem Urteil ist das Angebot nun gerichtlich abgesichert: Die Drogeriekette darf den KI-gestützten Augencheck in ihren Filialen durchführen. Das Landgericht Karlsruhe verbindet die Erlaubnis allerdings mit einer klaren Einschränkung, denn das Screening gilt ausdrücklich nicht als Ersatz für eine ärztliche Untersuchung. Damit wandert die Technik in alltägliche Verkaufsräume, ohne dort medizinische Diagnosen zu übernehmen.",
+   "dup_of": "525e54316041"
+  },
+  {
+   "id": "a721e3447f16",
+   "date": "2026-11-27",
+   "published": "2026-11-27T10:30+01:00",
+   "headline": "OpenAI meldet exakte Grenze bei der Matrixmultiplikation",
+   "summary": "Der Newsletter The Neuron berichtet, dass OpenAI eine exakte Grenze für die Mathematik der Matrixmultiplikation gefunden haben will. Matrixoperationen sind die rechenintensive Grundlage moderner neuronaler Netze, weshalb Fortschritte an dieser Stelle unmittelbar auf Trainings und Inferenzkosten durchschlagen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "matrixmultiplikation",
+    "grundlagenforschung",
+    "rechenleistung"
+   ],
+   "source": "The Neuron",
+   "source_id": "neuron",
+   "added": "2026-11-27T12:16:54+01:00",
+   "quelle_titel": "😺 OpenAI claims matrix math's exact limit",
+   "url": "https://www.theneuron.ai/newsletter/november-27-friday/",
+   "dup_of": "6488e5f42c6d"
+  },
+  {
+   "id": "5a765c516316",
+   "date": "2026-11-27",
+   "published": "2026-11-27T10:34+01:00",
+   "headline": "Neue Haftungsregeln erhöhen Sorgfaltspflichten für KI-Anbieter",
+   "summary": "Ein neues Gesetz verlangt von Anbietern von KI-Produkten deutlich mehr Sorgfalt, was den juristischen Aufwand in Unternehmen erhöht. Die WirtschaftsWoche stellt dazu ausgezeichnete Kanzleien für Produkthaftung und Konfliktlösung vor, die Firmen bei der Umsetzung begleiten.",
+   "thema": "Politik und Regulierung",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "produkthaftung",
+    "recht",
+    "compliance",
+    "ki-anbieter"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "wiwo",
+   "added": "2026-11-27T12:17:39+01:00",
+   "paywall": true,
+   "quelle_titel": "WiWo Top-Kanzleien: Die besten Anwälte für Produkthaftung und Konfliktlösung",
+   "url": "https://www.wiwo.de/erfolg/trends/produkthaftung-bei-ki-was-das-neue-gesetz-fuer-firmen-aendert/100272645.html",
+   "dup_of": "9b4ec1f9f2f7"
+  },
+  {
+   "id": "9e8ed6d59ce2",
+   "date": "2026-11-27",
+   "published": "2026-11-27T11:10+01:00",
+   "headline": "Ubisoft macht KI-Konzept zur Pflicht für neue Spieleprojekte",
+   "summary": "Ubisoft verlangt künftig von internen Teams, dass sie sich bei neuen Spielen ausdrücklich mit generativer KI befassen. Ohne ein entsprechendes Konzept soll ein Projekt keine Freigabe mehr erhalten. Damit wird der Einsatz von KI in der Spieleentwicklung zur formalen Vorgabe.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "AITI",
+    "ubisoft",
+    "gaming",
+    "generative ki",
+    "unternehmensvorgaben"
+   ],
+   "source": "Golem",
+   "source_id": "golem",
+   "added": "2026-11-27T12:17:39+01:00",
+   "quelle_titel": "Gaming: Ubisoft verlangt KI-Konzept für neue Spiele",
+   "url": "https://www.golem.de/news/gaming-ubisoft-verlangt-ki-konzept-fuer-neue-spiele-2611-215731.html"
+  },
+  {
+   "id": "037b7d6a9522",
+   "date": "2026-11-27",
+   "published": "2026-11-27T11:25+01:00",
+   "headline": "Analysten bewerten SAP wegen seiner KI-Strategie neu",
+   "summary": "Analysten schauen laut dem Bericht mit veränderten Augen auf SAP und begründen das mit der KI-Ausrichtung des Walldorfer Konzerns. Im Fokus steht die Frage, wie sich der KI-Kurs auf die Bewertung der Aktie auswirkt.",
+   "thema": "Business",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "sap",
+    "aktie",
+    "analysten",
+    "bewertung"
+   ],
+   "source": "WirtschaftsWoche",
+   "source_id": "gn-unternehmen",
+   "added": "2026-11-27T12:16:54+01:00",
+   "paywall": true,
+   "quelle_titel": "SAP-Aktie und KI: Warum Analysten die Walldorfer neu bewerten",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR01zU1d2d0J6ak1Cc2hDaEpVZ2ZjSmFQVEVxenNQRG9wN3lidUk4RFNWTldGSUZ1SWFsSEpTZDVuOTJSNzBsYWk5R0ZVdGpYUHgydnZ4dk5IVUh3aEtTYnAxWmZFLWJtSkkyaEJjSXI2WjhqQUhIcnh1UnVVZzdkZEdGTm13QzZRUW9VMDMyT0toeHhmbWVlSEdqcDBEczYxd0R2MzJHQ2NSTWZpTjhr?oc=5"
+  },
+  {
+   "id": "80e0eeb1b31d",
+   "date": "2026-11-27",
+   "published": "2026-11-27T11:26+01:00",
+   "headline": "SAP integriert Databricks-Werkzeuge direkt in die Business Data Cloud",
+   "summary": "Funktionen von Databricks wie Genie, Lakeflow, Unity Gateway und Lakebase werden Teil von SAPs Business Data Cloud, wobei SAP weiterhin Vertragspartner der Kunden bleibt. Geplant ist zudem eine Verbindung des Analyseassistenten Genie mit SAPs KI-Assistent Joule. Damit rücken Datenplattform und KI-Assistenz in der SAP-Welt näher zusammen.",
+   "thema": "Modelle und Produkte",
+   "region": "de",
+   "relevanz": 3,
+   "tags": [
+    "sap",
+    "databricks",
+    "business data cloud",
+    "joule",
+    "datenplattform"
+   ],
+   "source": "heise KI",
+   "source_id": "heise-ki",
+   "added": "2026-11-27T12:16:54+01:00",
+   "quelle_titel": "SAP bleibt Vertragspartner: Databricks-Funktionen wandern in Business Data Cloud",
+   "url": "https://www.heise.de/news/SAP-bleibt-Vertragspartner-Databricks-Funktionen-wandern-in-Business-Data-Cloud-11540369.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Bislang bot die in SAPs Datenplattform eingebettete Databricks-Variante weniger Funktionen als das eigenständige Produkt, das soll sich nun ändern. Angekündigt wurde der Ausbau zur SAP TechEd im Oktober, ein Termin für die allgemeine Verfügbarkeit fehlt bisher. Für Kunden zählt vor allem die Abrechnung: Innerhalb der Plattform regelt SAP Preise und Rabatte, außerhalb verlangt Databricks Geld für verbrauchte Rechenleistung. Angebunden sind an die Plattform auch Snowflake und Google BigQuery."
+  },
+  {
+   "id": "c09635db1190",
+   "date": "2026-11-27",
+   "published": "2026-11-27T10:57+01:00",
+   "headline": "DAX erholt sich, Zweifel am KI-Boom bleiben",
+   "summary": "Der deutsche Leitindex setzt seine Aufwärtsbewegung fort, gestützt von positiven Signalen aus den USA. Anleger greifen bei zuletzt gefallenen Kursen zu. Offen bleibt laut Marktbeobachtern, wie tragfähig die Erwartungen an den KI-Boom tatsächlich sind.",
+   "thema": "Business",
+   "region": "intl",
+   "relevanz": 2,
+   "tags": [
+    "börse",
+    "dax",
+    "ki-boom",
+    "bewertungen"
+   ],
+   "source": "tagesschau",
+   "source_id": "tagesschau",
+   "added": "2026-11-27T12:17:39+01:00",
+   "quelle_titel": "Marktbericht: Anleger nutzen günstige Kurse zum Einkauf",
+   "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-176.html"
   }
  ]
 }
