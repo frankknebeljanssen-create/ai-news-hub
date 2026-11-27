@@ -1,38 +1,38 @@
 {
  "date": "2026-11-26",
- "generated_at": "2026-11-27T08:38:03+01:00",
+ "generated_at": "2026-11-27T10:14:50+01:00",
  "overview": [
   {
    "id": "68a8d87f108c",
-   "text": "Microsoft hat ein seit Juli 2026 verbreitetes Angriffsframework offengelegt, dessen KI-Agenten ganze Netzwerke binnen Minuten fast ohne Menschen kapern."
+   "text": "Microsoft legt die Architektur eines KI-Angriffsframeworks offen, das Netzwerke binnen Minuten weitgehend autonom übernimmt und schon staatlich genutzt wird."
   },
   {
-   "id": "bbf48f2087e4",
-   "text": "SAP erwägt laut Konzernumfeld den Abbau von mindestens 10.000 Stellen, also rund einem Zehntel der Belegschaft, zugunsten einer stärkeren KI-Ausrichtung."
-  },
-  {
-   "id": "2204fd34043c",
-   "text": "Wegen neuer US-Exportregeln stoppt Nvidia Serverlieferungen nach Malaysia, Singapur, Thailand und Indonesien, um Cloud-Umwege Chinas zu blockieren."
+   "id": "32a84e8bf6ab",
+   "text": "SAP erwägt wegen der neuen KI-Ausrichtung den Abbau von mehr als 10.000 Stellen, offen bleibt, ob die Belegschaft am Ende tatsächlich schrumpft."
   },
   {
    "id": "48e39c3d403e",
-   "text": "Deutschland will Asyl, Visa und Aufenthaltsverfahren mit KI bearbeiten, Fachleute warnen vor sensiblen Daten und zu großem Spielraum der Behörden."
+   "text": "Deutsche Behörden wollen Asyl, Visa und Aufenthaltstitel künftig mit KI bearbeiten, Fachleute warnen vor sensiblen Daten und zu viel Spielraum."
+  },
+  {
+   "id": "2204fd34043c",
+   "text": "Nvidia stoppt Serverlieferungen nach Malaysia, Singapur, Thailand und Indonesien, weil neue US-Exportregeln chinesische Cloud-Umwege verhindern sollen."
   },
   {
    "id": "30f44501cd6b",
-   "text": "Die Preise für Kreditausfallversicherungen auf KI-Konzerne steigen deutlich, was auf wachsende Zweifel an der Tragfähigkeit ihrer Schulden hindeutet."
+   "text": "Die Preise für Kreditausfallversicherungen auf KI-Konzerne steigen deutlich, Anleger rechnen offenbar mit ersten Zahlungsausfällen der Branche."
+  },
+  {
+   "id": "130bb64065f3",
+   "text": "Ein kostenloser Leitfaden zeigt Lehrkräften den datenschutzkonformen ChatGPT-Einsatz, samt Altersgrenzen, Landesalternativen und zehn erprobten Prompts."
   },
   {
    "id": "30d385062acb",
-   "text": "Anthropic hat seine Messages API mit Claude-Agenten von Python nach Rust portiert und dabei den CPU-Verbrauch um etwa 70 Prozent gesenkt."
+   "text": "Anthropic hat seine Messages API von Claude-Agenten nach Rust portieren lassen und senkt den CPU-Verbrauch damit um rund 70 Prozent."
   },
   {
    "id": "d73563559186",
-   "text": "42 US-Generalstaatsanwälte wollen verhindern, dass Character.AI im Insolvenzverfahren private Chatverläufe von über 21 Millionen Konten verkauft."
-  },
-  {
-   "id": "d4fdcb4284a0",
-   "text": "Eine neue Handreichung vergleicht den KI-Einsatz in Schulen aus sieben Staaten und ordnet die Ansätze fünf Grundmustern mit Hinweisen für Eltern zu."
+   "text": "42 US-Generalstaatsanwälte wollen verhindern, dass Character.AI im Insolvenzverfahren die Chatverläufe von über 21 Millionen Konten verkauft."
   }
  ],
  "items": [
@@ -81,6 +81,52 @@
    "quelle_titel": "KI-orientierte Umstrukturierung: SAP erwägt erneut Abbau von mindestens 10.000 Arbeitsplätzen",
    "url": "https://www.golem.de/news/ki-orientierte-umstrukturierung-sap-erwaegt-erneut-abbau-von-mindestens-10-000-arbeitsplaetzen-2611-215715.html",
    "dup_of": "bbf48f2087e4"
+  },
+  {
+   "id": "32a84e8bf6ab",
+   "date": "2026-11-26",
+   "published": "2026-11-26T20:43+01:00",
+   "headline": "SAP erwägt Abbau von mehr als 10.000 Stellen",
+   "summary": "SAP prüft einen Stellenabbau in fünfstelliger Höhe, der direkt mit der neuen Ausrichtung auf KI zusammenhängt. Unklar bleibt, ob die Gesamtbelegschaft am Ende tatsächlich schrumpft oder parallel in anderen Bereichen aufgebaut wird.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 5,
+   "tags": [
+    "AITI",
+    "sap",
+    "stellenabbau",
+    "ki-strategie",
+    "arbeitsmarkt"
+   ],
+   "source": "Handelsblatt Technologie",
+   "source_id": "handelsblatt-tech",
+   "added": "2026-11-27T10:08:38+01:00",
+   "paywall": true,
+   "quelle_titel": "Stellenabbau: SAP plant einen massiven Stellenabbau",
+   "url": "https://www.handelsblatt.com/technik/ki/sap-dax-konzern-plant-massiven-stellenabbau/100273115.html"
+  },
+  {
+   "id": "2b07c964ab46",
+   "date": "2026-11-26",
+   "published": "2026-11-26T21:05+01:00",
+   "headline": "SAP stellt alle Abteilungen unter KI-Vorbehalt",
+   "summary": "Nach Berichten müssen bei SAP sämtliche Bereiche melden, welche Stellen durch KI entbehrlich werden. Mindestens 10.000 Arbeitsplätze sollen auf diese Weise wegfallen. Der Konzern richtet seine Organisation damit konsequent auf KI-gestützte Abläufe aus.",
+   "thema": "Unternehmen DE",
+   "region": "de",
+   "relevanz": 5,
+   "tags": [
+    "AITI",
+    "sap",
+    "stellenabbau",
+    "automatisierung",
+    "transformation"
+   ],
+   "source": "iX",
+   "source_id": "ix",
+   "added": "2026-11-27T10:08:38+01:00",
+   "quelle_titel": "SAP: KI zuerst, 10.000 Mitarbeiter weniger",
+   "url": "https://www.heise.de/news/SAP-AI-First-10-000-Mitarbeiter-weniger-11539781.html",
+   "kontext": "Die Pläne gehen auf einen Bloomberg-Bericht zurück, dem SAP nicht widersprochen hat; der Konzern verweist auf laufende Prüfungen der Organisation. Treffen soll es vor allem Programmierung, Produktbetreuung und Vertrieb, weil sich ändern soll, wie SAP Software entwickelt und verkauft. Schon 2024 gab es einen Abbau ähnlicher Größe, danach wuchs die Belegschaft wieder. Die IG Metall kritisiert, dass betriebsbedingte Kündigungen nicht ausgeschlossen sind."
   },
   {
    "id": "d4fdcb4284a0",
@@ -602,13 +648,13 @@
    "kurios": "Private Chats von über 21 Millionen Konten sollen zur Konkursmasse werden",
    "quelle_titel": "42 state AGs are trying to stop Character.AI from selling users’ chats",
    "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+   "kontext": "Character.AI hatte im Oktober Insolvenz angemeldet, nach jahrelangem Streit um Jugendschutz und zahlreichen Klagen. Teile des Geschäfts gingen an Disney, das auch den Firmenchef und Teile des Technikteams übernahm. Nun sollen die Chatdaten versteigert werden, bekannt ist bislang nur ein erst kürzlich in Delaware gegründeter Bieter. Die Generalstaatsanwälte kritisieren, dass ein Käufer weder die alten Datenschutzzusagen noch Löschwünsche der Nutzer beachten müsste.",
    "also": [
     {
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
     }
-   ],
-   "kontext": "Character.AI hatte im Oktober Insolvenz angemeldet, nach jahrelangem Streit um Jugendschutz und zahlreichen Klagen. Teile des Geschäfts gingen an Disney, das auch den Firmenchef und Teile des Technikteams übernahm. Nun sollen die Chatdaten versteigert werden, bekannt ist bislang nur ein erst kürzlich in Delaware gegründeter Bieter. Die Generalstaatsanwälte kritisieren, dass ein Käufer weder die alten Datenschutzzusagen noch Löschwünsche der Nutzer beachten müsste."
+   ]
   },
   {
    "id": "af0cad470e4c",
@@ -1062,6 +1108,73 @@
    ]
   },
   {
+   "id": "bcb55ee6a6e7",
+   "date": "2026-11-26",
+   "published": "2026-11-26T20:11+01:00",
+   "headline": "Aaronson: KI-Mathematik verändert mehr als die Forschung",
+   "summary": "Der Komplexitätstheoretiker Scott Aaronson hält nicht einzelne mathematische Resultate für den Kern der Entwicklung, sondern die Existenz von Systemen, die solche Beweise überhaupt erzeugen können. Er erwartet daraus wirtschaftliche Umbrüche und sieht ernste Risiken. Zudem vermutet er, dass KI-Labore unveröffentlichte Ergebnisse mit Folgen für gängige Verschlüsselung besitzen.",
+   "thema": "Forschung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "mathematik",
+    "kryptografie",
+    "ki-risiken",
+    "forschung"
+   ],
+   "source": "The Decoder",
+   "source_id": "decoder-de",
+   "added": "2026-11-27T10:08:38+01:00",
+   "kurios": "Laut Aaronson könnten KI-Labore bereits Mittel gegen heutige Verschlüsselung haben.",
+   "quelle_titel": "Nicht der Riemann-Beweis ist entscheidend, sondern dass ein KI-System existiert, das ihn liefern kann",
+   "url": "https://the-decoder.de/nicht-der-riemann-beweis-ist-entscheidend-sondern-dass-ein-ki-system-existiert-das-ihn-liefern-kann/",
+   "kontext": "Aaronson, Professor in Austin und früher bei OpenAI, bezieht sich auf Beweise, die das Unternehmen zur Matrizenmultiplikation und zur Fourier-Transformation vorgelegt hat. Bemerkenswert findet er dabei weniger die neuen Rekorde als die mitgelieferten Grenzen, die zeigen, wo Verbesserungen prinzipiell enden. Erstmals hält er zudem einen Beweis für P ungleich NP für nahe. Bei den Hinweisen zur Kryptografie bleibt er bewusst vage, um keine ungeprüften Gerüchte zu streuen."
+  },
+  {
+   "id": "b45d467a9c2d",
+   "date": "2026-11-26",
+   "published": "2026-11-26T20:14+01:00",
+   "headline": "Hackerangriff trifft SAP, KI-Hilfe der Täter vermutet",
+   "summary": "Der Softwarekonzern SAP hat laut Medienberichten mit einem Sicherheitsvorfall zu kämpfen und setzt damit eine Reihe größerer Angriffe fort. Es gibt Hinweise darauf, dass die Angreifer KI-Systeme für ihr Vorgehen genutzt haben könnten.",
+   "thema": "Sicherheit und Ethik",
+   "region": "de",
+   "relevanz": 4,
+   "tags": [
+    "sap",
+    "hackerangriff",
+    "cybersicherheit",
+    "ki-missbrauch"
+   ],
+   "source": "Spiegel Netzwelt",
+   "source_id": "spiegel-netzwelt",
+   "added": "2026-11-27T10:08:38+01:00",
+   "paywall": true,
+   "quelle_titel": "SAP wird Opfer von Hackerangriff",
+   "url": "https://www.spiegel.de/netzwelt/sap-wird-opfer-von-hackerangriff-a-6648b5ce-5d74-48dc-86ea-9469705bb91d#ref=rss"
+  },
+  {
+   "id": "c881f1e71110",
+   "date": "2026-11-26",
+   "published": "2026-11-26T21:03+01:00",
+   "headline": "Nvidia stoppt Serverlieferungen nach Südostasien",
+   "summary": "Nvidia hat Fertigungspartner angewiesen, Serverlieferungen nach Malaysia, Singapur, Thailand und Indonesien vorläufig auszusetzen. Hintergrund sind verschärfte Bemühungen der USA, den Zugang Chinas zu leistungsfähigen KI-Chips über Drittstaaten zu unterbinden.",
+   "thema": "Politik und Regulierung",
+   "region": "intl",
+   "relevanz": 4,
+   "tags": [
+    "nvidia",
+    "exportkontrolle",
+    "chips",
+    "lieferkette"
+   ],
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch-ai",
+   "added": "2026-11-27T10:08:38+01:00",
+   "quelle_titel": "Nvidia hits pause on chip shipments to Southeast Asia",
+   "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+   "kontext": "Die Anweisung richtet sich laut einem Bericht des Wall Street Journal auch an Fertiger wie Dell und Super Micro und gilt ohne festen Zeitrahmen, solange Nvidia prüft, ob seine Partner vor Ort die US-Exportregeln einhalten. Chinesische Firmen hatten Rechenzentren in der Region aus der Ferne genutzt, eine Lücke, die das US-Handelsministerium erst kürzlich schloss. Nach Schätzung eines Thinktanks stammt daraus ein knappes Viertel der chinesischen KI-Rechenleistung."
+  },
+  {
    "id": "042b5f16218f",
    "date": "2026-11-26",
    "published": "2026-11-26T01:00+01:00",
@@ -1307,13 +1420,13 @@
    "kurios": "Gerichte wollen eine Gebühr einführen, weil KI Massen an Eilanträgen produziert.",
    "quelle_titel": "Klageschwemme mit KI: NRW-LSG möchte 15-Euro-Gebühr",
    "url": "https://www.heise.de/news/Klageschwemme-mit-KI-NRW-LSG-moechte-15-Euro-Gebuehr-11538487.html?wt_mc=rss.red.ho.themen.k%C3%BCnstliche+intelligenz.beitrag.beitrag",
+   "kontext": "Verfahren vor Sozialgerichten sind bislang gebührenfrei, weil es meist um existenzsichernde Leistungen etwa der Jobcenter geht. Blüggel berichtet, Chatbots rieten Betroffenen zum Eilantrag, noch bevor die Behörde überhaupt entschieden hat. Die so formulierten Schriftsätze seien weitschweifig und hätten kaum Erfolgsaussichten, blockierten aber die Kammern, weil Eilsachen Vorrang haben. Ein Gesetzentwurf liegt dem Bundesarbeitsministerium vor, die Justizministerkonferenz lässt die Idee in einer Arbeitsgruppe prüfen.",
    "also": [
     {
      "source": "iX",
      "url": "https://www.heise.de/news/Klageschwemme-mit-KI-NRW-LSG-moechte-15-Euro-Gebuehr-11538487.html"
     }
-   ],
-   "kontext": "Verfahren vor Sozialgerichten sind bislang gebührenfrei, weil es meist um existenzsichernde Leistungen etwa der Jobcenter geht. Blüggel berichtet, Chatbots rieten Betroffenen zum Eilantrag, noch bevor die Behörde überhaupt entschieden hat. Die so formulierten Schriftsätze seien weitschweifig und hätten kaum Erfolgsaussichten, blockierten aber die Kammern, weil Eilsachen Vorrang haben. Ein Gesetzentwurf liegt dem Bundesarbeitsministerium vor, die Justizministerkonferenz lässt die Idee in einer Arbeitsgruppe prüfen."
+   ]
   },
   {
    "id": "8a3fa41ae8ea",
@@ -1380,7 +1493,8 @@
    "source_id": "neuron",
    "added": "2026-11-26T19:21:55+01:00",
    "quelle_titel": "😺 Amodei says AI shouldn't govern us",
-   "url": "https://www.theneuron.ai/newsletter/november-26-thursday/"
+   "url": "https://www.theneuron.ai/newsletter/november-26-thursday/",
+   "kontext": "Amodei hat Anthropic mitgegründet, also einen der großen Entwickler solcher Systeme. Seine Grenzziehung wiegt deshalb schwerer als ähnliche Mahnungen von Branchenkritikern, denn sie kommt von innen. Berichtet wurde die Äußerung Ende November im KI-Newsletter The Neuron. Dahinter steht die Frage, welche staatlichen Entscheidungen sich überhaupt abgeben lassen und wer am Ende die Verantwortung trägt."
   },
   {
    "id": "26c973ec562a",
@@ -1427,6 +1541,27 @@
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaldlZldBc1J4RkltcGFlM29Xb25NdndjU0huci1rTHZKLThjTFBjT0tiX0oxLWJLRU1DRzk0eVNyOUZxLVkzWnlXMGlCLUdCQzRTX19DTGxJUjloZFdfc0ZZZlR0bmtIaVhES0xtZXEwRmM4d0twcmZxdmU4NmF0NWQwUTB4WDI3Nko4WHhuRmJpWUNackVlNC1QQk1Jd0dibndFZElZbw?oc=5"
   },
   {
+   "id": "b7720e8559d5",
+   "date": "2026-11-26",
+   "published": "2026-11-26T10:42+01:00",
+   "headline": "Gemini: Datennutzung fürs Training leichter abschaltbar",
+   "summary": "Google hat die Einstellungen bei Gemini angepasst, sodass Nutzer ihre Chats künftig einfacher von der Verwendung für das KI-Training ausnehmen können. Das betrifft vor allem den Datenschutz im Alltag mit dem Assistenten.",
+   "thema": "Modelle und Produkte",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "gemini",
+    "google",
+    "datenschutz",
+    "training"
+   ],
+   "source": "Trending Topics",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-11-27T10:08:38+01:00",
+   "quelle_titel": "Gemini: Chats lassen sich jetzt einfacher aus dem KI-Training halten",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51emItYXZLOU1wTldzc3l0R2tpLTVENkk4Rk5VcXBJU25nQjA1M0FpdzVDVUhVajBBVW5pSG5ZMTVFcjZsTFV3X2d4eGVhZi1BZXNoSVN1cWZ6aldSUEZtWC1jTllMeHNZV3B0cmtvd2VuLWZaZzYzNA?oc=5"
+  },
+  {
    "id": "952009ab4bf2",
    "date": "2026-11-26",
    "published": "2026-11-26T10:45+01:00",
@@ -1468,7 +1603,8 @@
    "source_id": "cio",
    "added": "2026-11-26T19:25:27+01:00",
    "quelle_titel": "Mein Freund, der Chatbot: Experten warnen vor Kumpel-KIs",
-   "url": "https://www.cio.de/article/4253542/mein-freund-der-chatbot-experten-warnen-vor-kumpel-kis.html"
+   "url": "https://www.cio.de/article/4253542/mein-freund-der-chatbot-experten-warnen-vor-kumpel-kis.html",
+   "kontext": "Die Diskussion knüpft an frühere Debatten über Bildschirmmedien an, verschiebt aber den Schwerpunkt: Es geht nicht mehr nur um Ablenkung, sondern um ein Gegenüber, das jederzeit antwortet. Entwicklungspsychologen wie Lindberg mahnen, dass die Verbreitung der Technik der Forschung vorausläuft und Langzeitbefunde deshalb fehlen. Bedeutsam ist das, weil Kinder beim eigenen Suchen und Prüfen von Informationen Fähigkeiten einüben, die vorgefertigte Antworten überspringen."
   },
   {
    "id": "9b4ec1f9f2f7",
@@ -1556,13 +1692,13 @@
    "added": "2026-11-26T19:24:26+01:00",
    "quelle_titel": "N hoch 9/4: OpenAI will Untergrenze für Matrixmultiplikation gefunden haben",
    "url": "https://www.golem.de/news/n-hoch-9-4-openai-will-untergrenze-fuer-matrixmultiplikation-gefunden-haben-2611-215683.html",
+   "kontext": "Matrizen zu multiplizieren gilt als Schlüsselproblem der Informatik, weil die Rechenoperation von Computergrafik über Logistik bis zur KI überall steckt. Jahrzehntelang hofften Fachleute, das Verfahren ließe sich noch deutlich beschleunigen. Das Modell von OpenAI zeigt nun offenbar eine harte Grenze, was Forscher wie den Mathematiker Steven Strogatz überrascht. Der Beweis muss von der Fachwelt allerdings erst nachvollzogen und geprüft werden.",
    "also": [
     {
      "source": "Spektrum der Wissenschaft",
      "url": "https://www.spektrum.de/news/ki-sprachmodell-matrizen-multiplizieren-ist-komplexer-als-gedacht/2356079"
     }
-   ],
-   "kontext": "Matrizen zu multiplizieren gilt als Schlüsselproblem der Informatik, weil die Rechenoperation von Computergrafik über Logistik bis zur KI überall steckt. Jahrzehntelang hofften Fachleute, das Verfahren ließe sich noch deutlich beschleunigen. Das Modell von OpenAI zeigt nun offenbar eine harte Grenze, was Forscher wie den Mathematiker Steven Strogatz überrascht. Der Beweis muss von der Fachwelt allerdings erst nachvollzogen und geprüft werden."
+   ]
   },
   {
    "id": "7ea3c01ff53f",
@@ -1704,6 +1840,27 @@
    "quelle_titel": "Software Testing: Wer jedes Problem der KI übergibt, verlernt das Denken",
    "url": "https://www.heise.de/blog/Software-Testing-Wer-jedes-Problem-der-KI-uebergibt-verlernt-das-Denken-11538597.html",
    "kontext": "Hüther ist Neurobiologe, forschte unter anderem in Göttingen und leitet heute die Akademie für Potentialentfaltung. Sein Argument: Das Gehirn verankert vor allem selbst gefundene Lösungen, wer jede Aufgabe abgibt, übt lediglich den Griff zur Maschine. Als Beispiel nennt er eine Buch-Einleitung, die eine KI logisch glättete und die dabei ihre Lebendigkeit verlor. Routinetexte delegiert er, Herzensthemen nicht. Das Gespräch begleitet ein Sonderheft zum Testing."
+  },
+  {
+   "id": "2154ff209126",
+   "date": "2026-11-26",
+   "published": "2026-11-26T14:21+01:00",
+   "headline": "Beschäftigte von OpenAI und Anthropic warnen öffentlich",
+   "summary": "Mitarbeitende der führenden KI-Labore OpenAI und Anthropic äußern Bedenken, dass die Technologie für eine breite Veröffentlichung zu mächtig werden könnte. Die Warnungen kommen damit aus dem Inneren der Unternehmen selbst.",
+   "thema": "Sicherheit und Ethik",
+   "region": "intl",
+   "relevanz": 3,
+   "tags": [
+    "openai",
+    "anthropic",
+    "ki-sicherheit",
+    "warnung"
+   ],
+   "source": "futurezone.de",
+   "source_id": "gn-weiterbildung",
+   "added": "2026-11-27T10:08:38+01:00",
+   "quelle_titel": "KI zu mächtig für die Öffentlichkeit? Mitarbeiter von OpenAI und Anthropic schlagen Alarm",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY2I0cmVnT0lyd21za3EzOHJHRXd3QlRIelJEWkRxakhtYzJDTXl5SkVqc0p2bW5UdXl1TElIWkFyOE1CRlRQd0JSbHBpbFZ5ZVJhOGp2WTYtMjNIYndrUnQ1WlpUZHR6cDhoMFp4ME1ZMXh5UkZ0RW0tcV9Qb3M2dkZaU19rWUdHYWNLcVAwOU5QY1lQNVRwY2JmVkpNR2J0QkhvMVljUE5zOExEUUFZYjFndzRwTnM2MnBTc3JNQnh2S2dl?oc=5"
   },
   {
    "id": "26f6f656d347",
